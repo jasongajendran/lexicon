@@ -1,0 +1,656 @@
+[
+  {
+    "id": 101,
+    "word": "Abstract",
+    "definition": "Existing in thought or as an idea but not having a physical or concrete existence.",
+    "enExample": "We need to abstract this logic so it can be reused.",
+    "taExample": "இதை மீண்டும் பயன்படுத்தும் வகையில் நாம் சுருக்க வேண்டும்.",
+    "taWord": "சுருக்கமான / பண்பியல்",
+    "pos": "adj.",
+    "synonyms": [
+      "Theoretical",
+      "Conceptual"
+    ],
+    "antonyms": [
+      "Concrete",
+      "Actual"
+    ]
+  },
+  {
+    "id": 102,
+    "word": "Agnostic",
+    "definition": "Not preferring a particular device, system, or software.",
+    "enExample": "Our new platform is cloud-agnostic.",
+    "taExample": "எங்கள் புதிய தளம் எந்தவொரு கிளவுட் சார்பற்றது.",
+    "taWord": "சார்பற்ற",
+    "pos": "adj.",
+    "synonyms": [
+      "Independent",
+      "Neutral"
+    ],
+    "antonyms": [
+      "Dependent",
+      "Specific"
+    ]
+  },
+  {
+    "id": 103,
+    "word": "Algorithmic",
+    "definition": "Relating to or based on algorithms.",
+    "enExample": "We need an algorithmic approach to solve this.",
+    "taExample": "இதைத் தீர்க்க ஒரு படிமுறை அணுகுமுறை தேவை.",
+    "taWord": "படிமுறை சார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Systematic",
+      "Logical"
+    ],
+    "antonyms": [
+      "Random",
+      "Arbitrary"
+    ]
+  },
+  {
+    "id": 104,
+    "word": "Allocate",
+    "definition": "Distribute resources or duties for a particular purpose.",
+    "enExample": "Allocate enough memory for the process.",
+    "taExample": "செயல்பாட்டிற்கு போதிய நினைவகத்தை ஒதுக்கவும்.",
+    "taWord": "ஒதுக்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Assign",
+      "Distribute"
+    ],
+    "antonyms": [
+      "Withhold",
+      "Keep"
+    ]
+  },
+  {
+    "id": 105,
+    "word": "Ambiguous",
+    "definition": "Open to more than one interpretation; not having one obvious meaning.",
+    "enExample": "The requirements are too ambiguous.",
+    "taExample": "தேவைகள் மிகவும் தெளிவற்றவையாக உள்ளன.",
+    "taWord": "தெளிவற்ற",
+    "pos": "adj.",
+    "synonyms": [
+      "Unclear",
+      "Vague"
+    ],
+    "antonyms": [
+      "Clear",
+      "Explicit"
+    ]
+  },
+  {
+    "id": 106,
+    "word": "Amortize",
+    "definition": "Gradually write off the initial cost of an asset over a period.",
+    "enExample": "We can amortize the computational cost over time.",
+    "taExample": "கணக்கீட்டு செலவை காலப்போக்கில் பரவலாக்கலாம்.",
+    "taWord": "படிப்படியாகக் குறைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Spread out",
+      "Pay off"
+    ]
+  },
+  {
+    "id": 107,
+    "word": "Anomaly",
+    "definition": "Something that deviates from what is standard, normal, or expected.",
+    "enExample": "We detected an anomaly in the network traffic.",
+    "taExample": "நெட்வொர்க் போக்குவரத்தில் ஒரு முரண்பாட்டை கண்டறிந்தோம்.",
+    "taWord": "முரண்பாடு",
+    "pos": "noun",
+    "synonyms": [
+      "Irregularity",
+      "Abnormality"
+    ],
+    "antonyms": [
+      "Norm",
+      "Standard"
+    ]
+  },
+  {
+    "id": 108,
+    "word": "Append",
+    "definition": "Add something to the end of a written document or data structure.",
+    "enExample": "Append the new record to the list.",
+    "taExample": "புதிய பதிவை பட்டியலின் முடிவில் சேர்க்கவும்.",
+    "taWord": "இணைத்தல் / சேர்த்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Add",
+      "Attach"
+    ],
+    "antonyms": [
+      "Remove",
+      "Detach"
+    ]
+  },
+  {
+    "id": 109,
+    "word": "Architecture",
+    "definition": "The complex or carefully designed structure of something.",
+    "enExample": "The system architecture needs an overhaul.",
+    "taExample": "கணினி கட்டமைப்புக்கு சீரமைப்பு தேவை.",
+    "taWord": "கட்டமைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Structure",
+      "Design"
+    ]
+  },
+  {
+    "id": 110,
+    "word": "Asynchronous",
+    "definition": "Not existing or occurring at the same time.",
+    "enExample": "Use asynchronous calls to avoid blocking the thread.",
+    "taExample": "நூலைத் தடுப்பதைத் தவிர்க்க ஒத்திசையா அழைப்புகளைப் பயன்படுத்தவும்.",
+    "taWord": "ஒத்திசையாத",
+    "pos": "adj.",
+    "synonyms": [
+      "Non-blocking",
+      "Concurrent"
+    ],
+    "antonyms": [
+      "Synchronous",
+      "Simultaneous"
+    ]
+  },
+  {
+    "id": 111,
+    "word": "Audit",
+    "definition": "A systematic review or assessment of something.",
+    "enExample": "We need an audit of the security protocols.",
+    "taExample": "பாதுகாப்பு நெறிமுறைகளின் தணிக்கை நமக்குத் தேவை.",
+    "taWord": "தணிக்கை",
+    "pos": "noun",
+    "synonyms": [
+      "Inspection",
+      "Review"
+    ]
+  },
+  {
+    "id": 112,
+    "word": "Authenticate",
+    "definition": "Prove or show something to be true, genuine, or valid.",
+    "enExample": "Authenticate the user before granting access.",
+    "taExample": "அணுகலை வழங்குவதற்கு முன் பயனரை அங்கீகரிக்கவும்.",
+    "taWord": "அங்கீகரித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Verify",
+      "Validate"
+    ],
+    "antonyms": [
+      "Reject",
+      "Deny"
+    ]
+  },
+  {
+    "id": 113,
+    "word": "Automate",
+    "definition": "Convert to largely automatic operation.",
+    "enExample": "We should automate the deployment process.",
+    "taExample": "நாம் வரிசைப்படுத்தல் செயல்முறையை தானியக்கமாக்க வேண்டும்.",
+    "taWord": "தானியக்கமாக்கல்",
+    "pos": "verb",
+    "synonyms": [
+      "Mechanize",
+      "Program"
+    ],
+    "antonyms": [
+      "Manualize"
+    ]
+  },
+  {
+    "id": 114,
+    "word": "Autonomous",
+    "definition": "Having the freedom to act independently.",
+    "enExample": "The microservices are completely autonomous.",
+    "taExample": "மைக்ரோ சர்வீஸ்கள் முற்றிலும் தன்னாட்சி பெற்றவை.",
+    "taWord": "தன்னாட்சி",
+    "pos": "adj.",
+    "synonyms": [
+      "Independent",
+      "Self-governing"
+    ],
+    "antonyms": [
+      "Dependent",
+      "Subordinate"
+    ]
+  },
+  {
+    "id": 115,
+    "word": "Availability",
+    "definition": "The quality of being able to be used or obtained.",
+    "enExample": "Ensure high availability of the database.",
+    "taExample": "தரவுத்தளத்தின் உயர் இருப்பை உறுதி செய்யவும்.",
+    "taWord": "இருப்பு / கிடைக்கும் தன்மை",
+    "pos": "noun",
+    "synonyms": [
+      "Accessibility",
+      "Readiness"
+    ],
+    "antonyms": [
+      "Unavailability"
+    ]
+  },
+  {
+    "id": 116,
+    "word": "Arbitrary",
+    "definition": "Based on random choice or personal whim, rather than any reason or system.",
+    "enExample": "Don't use arbitrary values for the timeout.",
+    "taExample": "நேரமுடிவுக்கு தன்னிச்சையான மதிப்புகளைப் பயன்படுத்த வேண்டாம்.",
+    "taWord": "தன்னிச்சையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Random",
+      "Subjective"
+    ],
+    "antonyms": [
+      "Logical",
+      "Reasoned"
+    ]
+  },
+  {
+    "id": 117,
+    "word": "Array",
+    "definition": "An impressive display or range of a particular type of thing; a data structure.",
+    "enExample": "Store the results in an array.",
+    "taExample": "முடிவுகளை ஒரு வரிசையில் சேமிக்கவும்.",
+    "taWord": "வரிசை / தொகுப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Collection",
+      "List"
+    ]
+  },
+  {
+    "id": 118,
+    "word": "Asset",
+    "definition": "A useful or valuable thing, person, or quality.",
+    "enExample": "Static assets are served via CDN.",
+    "taExample": "நிலையான சொத்துக்கள் சிடிஎன் மூலம் வழங்கப்படுகின்றன.",
+    "taWord": "சொத்து",
+    "pos": "noun",
+    "synonyms": [
+      "Resource",
+      "Property"
+    ],
+    "antonyms": [
+      "Liability"
+    ]
+  },
+  {
+    "id": 119,
+    "word": "Articulate",
+    "definition": "Express an idea or feeling fluently and coherently.",
+    "enExample": "Please articulate the requirements clearly.",
+    "taExample": "தேவைகளை தெளிவாக விவரிக்கவும்.",
+    "taWord": "தெளிவாகக் கூறுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Express",
+      "Communicate"
+    ],
+    "antonyms": [
+      "Mumble",
+      "Confuse"
+    ]
+  },
+  {
+    "id": 120,
+    "word": "Attribute",
+    "definition": "A quality or feature regarded as a characteristic or inherent part of someone or something.",
+    "enExample": "Add the custom attribute to the HTML tag.",
+    "taExample": "HTML குறியீட்டில் தனிப்பயன் பண்புக்கூறைச் சேர்க்கவும்.",
+    "taWord": "பண்புக்கூறு",
+    "pos": "noun",
+    "synonyms": [
+      "Feature",
+      "Characteristic"
+    ]
+  },
+  {
+    "id": 121,
+    "word": "Augment",
+    "definition": "Make something greater by adding to it; increase.",
+    "enExample": "We can augment the dataset with synthetic data.",
+    "taExample": "செயற்கைத் தரவுகளுடன் தரவுத்தொகுப்பை நாம் பெருக்கலாம்.",
+    "taWord": "பெருக்குதல் / அதிகரித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Increase",
+      "Enhance"
+    ],
+    "antonyms": [
+      "Decrease",
+      "Diminish"
+    ]
+  },
+  {
+    "id": 122,
+    "word": "Axiomatic",
+    "definition": "Self-evident or unquestionable.",
+    "enExample": "It is axiomatic that tests should run fast.",
+    "taExample": "சோதனைகள் வேகமாக இயங்க வேண்டும் என்பது வெளிப்படையானது.",
+    "taWord": "வெளிப்படையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Self-evident",
+      "Unquestionable"
+    ],
+    "antonyms": [
+      "Questionable",
+      "Debatable"
+    ]
+  },
+  {
+    "id": 123,
+    "word": "Agile",
+    "definition": "Able to move quickly and easily; a project management methodology.",
+    "enExample": "We follow an agile development process.",
+    "taExample": "நாங்கள் ஒரு சுறுசுறுப்பான மேம்பாட்டு செயல்முறையைப் பின்பற்றுகிறோம்.",
+    "taWord": "சுறுசுறுப்பான",
+    "pos": "adj.",
+    "synonyms": [
+      "Nimble",
+      "Flexible"
+    ],
+    "antonyms": [
+      "Rigid",
+      "Stiff"
+    ]
+  },
+  {
+    "id": 124,
+    "word": "Aptitude",
+    "definition": "A natural ability to do something.",
+    "enExample": "He has a strong aptitude for debugging complex issues.",
+    "taExample": "சிக்கலான பிரச்சினைகளை பிழைநீக்குவதில் அவருக்கு இயல்பான திறமை உள்ளது.",
+    "taWord": "இயல்பான திறமை",
+    "pos": "noun",
+    "synonyms": [
+      "Ability",
+      "Talent"
+    ],
+    "antonyms": [
+      "Inability"
+    ]
+  },
+  {
+    "id": 125,
+    "word": "Archive",
+    "definition": "A collection of historical documents or records providing information about a place, institution, or group of people.",
+    "enExample": "Archive the old logs to save space.",
+    "taExample": "இடத்தை சேமிக்க பழைய பதிவுகளை காப்பகப்படுத்தவும்.",
+    "taWord": "காப்பகம்",
+    "pos": "noun",
+    "synonyms": [
+      "Record",
+      "Repository"
+    ]
+  },
+  {
+    "id": 126,
+    "word": "Alacrity",
+    "definition": "Brisk and cheerful readiness.",
+    "enExample": "She accepted the invitation with alacrity.",
+    "taExample": "அவள் அழைப்பை மிகுந்த சுறுசுறுப்புடன் ஏற்றுக்கொண்டாள்.",
+    "taWord": "சுறுசுறுப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Eagerness",
+      "Willingness",
+      "Readiness"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Reluctance"
+    ]
+  },
+  {
+    "id": 127,
+    "word": "Ameliorate",
+    "definition": "Make (something bad or unsatisfactory) better.",
+    "enExample": "The reform did much to ameliorate living standards.",
+    "taExample": "சீர்திருத்தம் வாழ்க்கைத் தரத்தை மேம்படுத்த பெரிதும் உதவியது.",
+    "taWord": "மேம்படுத்து",
+    "pos": "verb",
+    "synonyms": [
+      "Improve",
+      "Enhance",
+      "Benefit"
+    ],
+    "antonyms": [
+      "Worsen",
+      "Exacerbate"
+    ]
+  },
+  {
+    "id": 128,
+    "word": "Audacious",
+    "definition": "Showing a willingness to take surprisingly bold risks.",
+    "enExample": "He made an audacious decision to quit his job.",
+    "taExample": "அவர் தனது வேலையை விட்டுவிலக ஒரு துணிச்சலான முடிவை எடுத்தார்.",
+    "taWord": "துணிச்சலான",
+    "pos": "adj.",
+    "synonyms": [
+      "Bold",
+      "Daring",
+      "Fearless"
+    ],
+    "antonyms": [
+      "Timid",
+      "Cowardly"
+    ]
+  },
+  {
+    "id": 129,
+    "word": "Acknowledge",
+    "definition": "Accept or admit the existence, truth, or receipt of something.",
+    "enExample": "Please acknowledge receipt of the project documentation.",
+    "taExample": "திட்ட ஆவணத்தைப் பெற்றதை உறுதிப்படுத்தவும்.",
+    "taWord": "ஒப்புக்கொள்ளுதல் / உறுதிப்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Admit",
+      "Accept",
+      "Confirm"
+    ],
+    "antonyms": [
+      "Deny",
+      "Ignore"
+    ]
+  },
+  {
+    "id": 130,
+    "word": "Adaptable",
+    "definition": "Able to adjust quickly to new conditions or requirements.",
+    "enExample": "An adaptable engineer handles changing priorities easily.",
+    "taExample": "இணங்கிப்போகும் பொறியாளர் மாறும் முன்னுரிமைகளை எளிதாகக் கையாளுகிறார்.",
+    "taWord": "இணங்கிப்போகும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Flexible",
+      "Versatile"
+    ],
+    "antonyms": [
+      "Rigid",
+      "Inflexible"
+    ]
+  },
+  {
+    "id": 131,
+    "word": "Adequate",
+    "definition": "Satisfactory or acceptable in quality or quantity.",
+    "enExample": "The server bandwidth is adequate for current traffic.",
+    "taExample": "தற்போதைய போக்குவரத்திற்கு சேவையக அலைவரிசை போதுமானது.",
+    "taWord": "போதுமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Sufficient",
+      "Enough"
+    ],
+    "antonyms": [
+      "Inadequate",
+      "Deficient"
+    ]
+  },
+  {
+    "id": 132,
+    "word": "Advocate",
+    "definition": "Publicly recommend or support a particular cause or policy.",
+    "enExample": "She advocates for cleaner code architecture.",
+    "taExample": "அவள் தூய்மையான குறியீட்டு கட்டமைப்பிற்கு ஆதரவாகப் பேசுகிறாள்.",
+    "taWord": "ஆதரவளித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Support",
+      "Champion"
+    ],
+    "antonyms": [
+      "Oppose",
+      "Discourage"
+    ]
+  },
+  {
+    "id": 133,
+    "word": "Affinity",
+    "definition": "A natural liking, connection, or sympathy for something.",
+    "enExample": "He has an affinity for user experience design.",
+    "taExample": "அவருக்கு பயனர் அனுபவ வடிவமைப்பில் இயல்பான ஈர்ப்பு உள்ளது.",
+    "taWord": "இயற்கையான ஈர்ப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Attraction",
+      "Rapport"
+    ],
+    "antonyms": [
+      "Aversion",
+      "Dislike"
+    ]
+  },
+  {
+    "id": 134,
+    "word": "Aggregate",
+    "definition": "A whole formed by combining several separate elements.",
+    "enExample": "The report shows aggregate sales numbers for the quarter.",
+    "taExample": "அறிக்கை இந்த காலாண்டிற்கான மொத்த விற்பனை எண்களைக் காட்டுகிறது.",
+    "taWord": "மொத்த / தொகுப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Total",
+      "Combined"
+    ],
+    "antonyms": [
+      "Individual",
+      "Separate"
+    ]
+  },
+  {
+    "id": 135,
+    "word": "Alleviate",
+    "definition": "Make suffering, deficiency, or a problem less severe.",
+    "enExample": "Adding caching will alleviate load on the primary database.",
+    "taExample": "கேச்சிங் சேர்ப்பது முதன்மை தரவுத்தளத்தின் சுமையைத் தணிக்கும்.",
+    "taWord": "தணித்தல் / குறைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Relieve",
+      "Eases"
+    ],
+    "antonyms": [
+      "Aggravate",
+      "Exacerbate"
+    ]
+  },
+  {
+    "id": 136,
+    "word": "Ambition",
+    "definition": "A strong desire to achieve something, typically requiring determination.",
+    "enExample": "Her ambition is to lead global tech innovation.",
+    "taExample": "உலகளாவிய தொழில்நுட்ப கண்டுபிடிப்புகளுக்கு தலைமை தாங்குவது அவளது லட்சியம்.",
+    "taWord": "லட்சியம்",
+    "pos": "noun",
+    "synonyms": [
+      "Aspiration",
+      "Goal"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Indifference"
+    ]
+  },
+  {
+    "id": 137,
+    "word": "Analytical",
+    "definition": "Using logical reasoning and detailed examination of information.",
+    "enExample": "An analytical mindset helps solve complex debugging problems.",
+    "taExample": "பகுப்பாய்வு மனப்போக்கு சிக்கலான பிழைத்திருத்த சிக்கல்களைத் தீர்க்க உதவுகிறது.",
+    "taWord": "பகுப்பாய்வு சார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Logical",
+      "Systematic"
+    ],
+    "antonyms": [
+      "Intuitive",
+      "Uncritical"
+    ]
+  },
+  {
+    "id": 138,
+    "word": "Anticipate",
+    "definition": "Regard as probable; expect or prepare for in advance.",
+    "enExample": "We anticipate high traffic during the upcoming product launch.",
+    "taExample": "வரவிருக்கும் தயாரிப்பு அறிமுகத்தின் போது அதிக போக்குவரத்தை நாங்கள் எதிர்பார்க்கிறோம்.",
+    "taWord": "எதிர்பார்த்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Expect",
+      "Foresee"
+    ],
+    "antonyms": [
+      "Unforeseen",
+      "Surprise"
+    ]
+  },
+  {
+    "id": 139,
+    "word": "Action Item",
+    "definition": "A specific task or action assigned to an individual or team during a meeting.",
+    "enExample": "We logged three clear action items from today's sprint planning session.",
+    "taExample": "இன்றைய ஸ்பிரிண்ட் திட்டமிடுதல் கூட்டத்திலிருந்து மூன்று தெளிவான செயல் பணிகளைப் பதிவுசெய்தோம்.",
+    "taWord": "செயல் பணி / ஒதுக்கப்பட்ட பணி",
+    "pos": "noun",
+    "synonyms": [
+      "Task",
+      "Assignment",
+      "Deliverable"
+    ]
+  },
+  {
+    "id": 140,
+    "word": "Alignment",
+    "definition": "Shared agreement, understanding, or position among team members and stakeholders.",
+    "enExample": "We need architectural alignment across teams before starting implementation.",
+    "taExample": "செயல்படுத்தலைத் தொடங்குவதற்கு முன் குழுக்களிடையே கட்டமைப்பு சார்ந்த ஒத்திசைவு தேவை.",
+    "taWord": "ஒத்திசைவு / சீரமைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Consensus",
+      "Agreement",
+      "Harmony"
+    ],
+    "antonyms": [
+      "Disagreement",
+      "Misalignment"
+    ]
+  }
+]

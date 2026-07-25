@@ -1,0 +1,433 @@
+[
+  {
+    "id": 701,
+    "word": "Garbage",
+    "definition": "Memory that has been allocated but is no longer being used by the program.",
+    "enExample": "The garbage collector will eventually free up that memory.",
+    "taExample": "குப்பை சேகரிப்பான் (Garbage collector) இறுதியில் அந்த நினைவகத்தை விடுவிக்கும்.",
+    "taWord": "குப்பை",
+    "pos": "noun",
+    "synonyms": [
+      "Waste",
+      "Unused"
+    ],
+    "antonyms": [
+      "Active",
+      "Referenced"
+    ]
+  },
+  {
+    "id": 702,
+    "word": "Gateway",
+    "definition": "A node (router) in a computer network, a key stopping point for data on its way to or from other networks.",
+    "enExample": "The API gateway routes the incoming requests to the appropriate microservice.",
+    "taExample": "API நுழைவாயில் உள்வரும் கோரிக்கைகளை பொருத்தமான மைக்ரோசர்வீஸுக்கு அனுப்புகிறது.",
+    "taWord": "நுழைவாயில்",
+    "pos": "noun",
+    "synonyms": [
+      "Portal",
+      "Entry point"
+    ]
+  },
+  {
+    "id": 703,
+    "word": "Generate",
+    "definition": "Produce or create.",
+    "enExample": "The script will generate the boiler plate code automatically.",
+    "taExample": "ஸ்கிரிப்ட் தானாகவே அடிப்படை குறியீட்டை உருவாக்கும்.",
+    "taWord": "உருவாக்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Produce",
+      "Create"
+    ],
+    "antonyms": [
+      "Destroy",
+      "Delete"
+    ]
+  },
+  {
+    "id": 704,
+    "word": "Global",
+    "definition": "Relating to the whole of something, or of a group of things; accessible everywhere in a program.",
+    "enExample": "Avoid using global variables to prevent naming conflicts.",
+    "taExample": "பெயரிடல் முரண்பாடுகளைத் தடுக்க உலகளாவிய மாறிகளைப் பயன்படுத்துவதைத் தவிர்க்கவும்.",
+    "taWord": "உலகளாவிய",
+    "pos": "adj.",
+    "synonyms": [
+      "Universal",
+      "Widespread"
+    ],
+    "antonyms": [
+      "Local",
+      "Scoped"
+    ]
+  },
+  {
+    "id": 705,
+    "word": "Graceful",
+    "definition": "Handling errors or shutdown processes in a smooth and controlled manner.",
+    "enExample": "Ensure a graceful shutdown of the server when it receives a termination signal.",
+    "taExample": "நிறுத்துவதற்கான சமிக்ஞையைப் பெறும்போது சேவையகம் சீராக மூடப்படுவதை (Graceful shutdown) உறுதி செய்யவும்.",
+    "taWord": "சீரான / நேர்த்தியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Smooth",
+      "Controlled"
+    ],
+    "antonyms": [
+      "Abrupt",
+      "Harsh"
+    ]
+  },
+  {
+    "id": 706,
+    "word": "Granular",
+    "definition": "Characterized by a high level of detail.",
+    "enExample": "We need more granular access controls for the file system.",
+    "taExample": "கோப்பு முறைமைக்கு மிகவும் நுணுக்கமான அணுகல் கட்டுப்பாடுகள் நமக்குத் தேவை.",
+    "taWord": "நுணுக்கமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Detailed",
+      "Fine-grained"
+    ],
+    "antonyms": [
+      "Coarse",
+      "Broad"
+    ]
+  },
+  {
+    "id": 707,
+    "word": "Graph",
+    "definition": "A data structure consisting of nodes and edges connecting them.",
+    "enExample": "Social networks are typically modeled using a graph database.",
+    "taExample": "சமூக வலைப்பின்னல்கள் பொதுவாக ஒரு வரைபட தரவுத்தளத்தைப் பயன்படுத்தி வடிவமைக்கப்படுகின்றன.",
+    "taWord": "வரைபடம் (Graph)",
+    "pos": "noun",
+    "synonyms": [
+      "Network",
+      "Chart"
+    ]
+  },
+  {
+    "id": 708,
+    "word": "Greedy",
+    "definition": "An algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most immediate benefit.",
+    "enExample": "The greedy algorithm might not always find the globally optimal solution.",
+    "taExample": "பேராசை (Greedy) அல்காரிதம் எப்போதுமே உலகளாவிய உகந்த தீர்வை அறியாது.",
+    "taWord": "பேராசை (அல்காரிதம்)",
+    "pos": "adj.",
+    "synonyms": [
+      "Eager",
+      "Immediate"
+    ],
+    "antonyms": [
+      "Optimal",
+      "Calculated"
+    ]
+  },
+  {
+    "id": 709,
+    "word": "Grid",
+    "definition": "A framework of spaced bars that are parallel to or cross each other; a network of computers.",
+    "enExample": "We used CSS Grid for the layout of the dashboard.",
+    "taExample": "டாஷ்போர்டின் தளவமைப்பிற்கு நாங்கள் CSS கட்டத்தைப் பயன்படுத்தினோம்.",
+    "taWord": "கட்டம்",
+    "pos": "noun",
+    "synonyms": [
+      "Network",
+      "Matrix"
+    ]
+  },
+  {
+    "id": 710,
+    "word": "Guard",
+    "definition": "A condition that must evaluate to true if the flow of execution is to continue.",
+    "enExample": "Use a guard clause to handle the null case early.",
+    "taExample": "பூஜ்ஜிய (Null) நிலையை முன்கூட்டியே கையாள ஒரு காப்புக் கூற்றைப் பயன்படுத்தவும்.",
+    "taWord": "காப்பு / பாதுகாத்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Protect",
+      "Shield"
+    ],
+    "antonyms": [
+      "Expose",
+      "Endanger"
+    ]
+  },
+  {
+    "id": 711,
+    "word": "Generic",
+    "definition": "Characteristic of or relating to a class or group of things; not specific.",
+    "enExample": "Write a generic function that can accept any data type.",
+    "taExample": "எந்தவொரு தரவு வகையையும் ஏற்கக்கூடிய பொதுவான செயல்பாட்டை எழுதவும்.",
+    "taWord": "பொதுவான",
+    "pos": "adj.",
+    "synonyms": [
+      "General",
+      "Universal"
+    ],
+    "antonyms": [
+      "Specific",
+      "Custom"
+    ]
+  },
+  {
+    "id": 712,
+    "word": "Guideline",
+    "definition": "A general rule, principle, or piece of advice.",
+    "enExample": "Follow the accessibility guidelines when designing the UI.",
+    "taExample": "பயனர் இடைமுகத்தை வடிவமைக்கும் போது அணுகல் வழிகாட்டுதல்களைப் பின்பற்றவும்.",
+    "taWord": "வழிகாட்டுதல்",
+    "pos": "noun",
+    "synonyms": [
+      "Rule",
+      "Principle"
+    ]
+  },
+  {
+    "id": 713,
+    "word": "Gauge",
+    "definition": "Estimate or determine the magnitude, amount, or volume of.",
+    "enExample": "We need a metric to gauge user engagement.",
+    "taExample": "பயனர் ஈடுபாட்டை அளவிட நமக்கு ஒரு அளவீடு தேவை.",
+    "taWord": "அளவிடுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Measure",
+      "Assess"
+    ],
+    "antonyms": [
+      "Guess"
+    ]
+  },
+  {
+    "id": 714,
+    "word": "Govern",
+    "definition": "Conduct the policy, actions, and affairs of.",
+    "enExample": "We need a set of rules to govern API usage.",
+    "taExample": "API பயன்பாட்டை நிர்வகிக்க விதிகளின் தொகுப்பு தேவை.",
+    "taWord": "நிர்வகித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Regulate",
+      "Control"
+    ],
+    "antonyms": [
+      "Neglect"
+    ]
+  },
+  {
+    "id": 715,
+    "word": "Groundwork",
+    "definition": "Preliminary or basic work.",
+    "enExample": "We spent the first sprint laying the groundwork for the architecture.",
+    "taExample": "முதல் ஸ்பிரிண்ட்டை கட்டமைப்பிற்கான அடித்தளத்தை அமைப்பதில் செலவிட்டோம்.",
+    "taWord": "அடித்தளம்",
+    "pos": "noun",
+    "synonyms": [
+      "Foundation",
+      "Basis"
+    ]
+  },
+  {
+    "id": 716,
+    "word": "Galvanize",
+    "definition": "Shock or excite (someone) into taking action.",
+    "enExample": "The urgency of his voice galvanized them into action.",
+    "taExample": "அவரது குரலின் அவசரம் அவர்களைச் செயல்படத் தூண்டியது.",
+    "taWord": "தூண்டு",
+    "pos": "verb",
+    "synonyms": [
+      "Jolt",
+      "Shock",
+      "Startle"
+    ],
+    "antonyms": [
+      "Demotivate",
+      "Deter"
+    ]
+  },
+  {
+    "id": 717,
+    "word": "Garrulous",
+    "definition": "Excessively talkative, especially on trivial matters.",
+    "enExample": "A garrulous cab driver.",
+    "taExample": "ஒரு வாயாடி வாடகை மகிழுந்து ஓட்டுநர்.",
+    "taWord": "வாயாடி",
+    "pos": "adj.",
+    "synonyms": [
+      "Talkative",
+      "Voluble",
+      "Loquacious"
+    ],
+    "antonyms": [
+      "Taciturn",
+      "Reticent"
+    ]
+  },
+  {
+    "id": 718,
+    "word": "Gregarious",
+    "definition": "(of a person) fond of company; sociable.",
+    "enExample": "He was a popular and gregarious man.",
+    "taExample": "அவர் ஒரு பிரபலமான மற்றும் சமூகமாகப் பழகும் மனிதர்.",
+    "taWord": "சமூகமாக பழகும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Sociable",
+      "Company-loving",
+      "Convivial"
+    ],
+    "antonyms": [
+      "Unsociable",
+      "Reserved"
+    ]
+  },
+  {
+    "id": 719,
+    "word": "Gather",
+    "definition": "Collect or accumulate information, data, or feedback from various sources.",
+    "enExample": "We need to gather user feedback before planning the next feature update.",
+    "taExample": "அடுத்த அம்ச புதுப்பிப்பைத் திட்டமிடுவதற்கு முன் பயனர்களின் கருத்துக்களைச் சேகரிக்க வேண்டும்.",
+    "taWord": "சேகரித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Collect",
+      "Assemble"
+    ],
+    "antonyms": [
+      "Disperse",
+      "Scatter"
+    ]
+  },
+  {
+    "id": 720,
+    "word": "Genuine",
+    "definition": "Truly what something is said to be; authentic and sincere.",
+    "enExample": "Her genuine interest in user experience made the app significantly better.",
+    "taExample": "பயனர் அனுபவத்தில் அவளுக்கு இருந்த உண்மையான ஆர்வம் செயலியை மிகவும் சிறப்பானதாக்கியது.",
+    "taWord": "உண்மையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Authentic",
+      "Sincere"
+    ],
+    "antonyms": [
+      "Fake",
+      "Counterfeit"
+    ]
+  },
+  {
+    "id": 721,
+    "word": "Gradual",
+    "definition": "Taking place or progressing slowly or by degrees.",
+    "enExample": "A gradual migration strategy minimizes downtime during database upgrades.",
+    "taExample": "ஒரு படிப்படியான இடம்பெயர்வு உத்தி தரவுத்தள மேம்பாட்டின் போது வேலையில்லா நேரத்தைக் குறைக்கிறது.",
+    "taWord": "படிப்படியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Incremental",
+      "Steadfast"
+    ],
+    "antonyms": [
+      "Sudden",
+      "Abrupt"
+    ]
+  },
+  {
+    "id": 722,
+    "word": "Grasp",
+    "definition": "Comprehend or understand fully; get a firm mental hold of.",
+    "enExample": "Once you grasp the concept of state management, React becomes intuitive.",
+    "taExample": "மாநில நிர்வாகக் கருத்தை நீங்கள் புரிந்துகொண்டவுடன், ரியாக்ட் இயல்பானதாகிவிடும்.",
+    "taWord": "புரிந்துகொள்ளுதல் / பிடி",
+    "pos": "verb",
+    "synonyms": [
+      "Comprehend",
+      "Understand"
+    ],
+    "antonyms": [
+      "Misunderstand",
+      "Miss"
+    ]
+  },
+  {
+    "id": 723,
+    "word": "Gratitude",
+    "definition": "The quality of being thankful; readiness to show appreciation.",
+    "enExample": "Expressing gratitude to open-source contributors builds strong communities.",
+    "taExample": "ஓப்பன் சோர்ஸ் பங்களிப்பாளர்களுக்கு நன்றி தெரிவிப்பது வலுவான சமூகங்களை உருவாக்குகிறது.",
+    "taWord": "நன்றி உணர்வு",
+    "pos": "noun",
+    "synonyms": [
+      "Appreciation",
+      "Thankfulness"
+    ],
+    "antonyms": [
+      "Ingratitude"
+    ]
+  },
+  {
+    "id": 724,
+    "word": "Growth",
+    "definition": "The process of increasing or developing in size, skill, or capacity.",
+    "enExample": "Personal growth is driven by taking on challenging tasks.",
+    "taExample": "சவாலான பணிகளை மேற்கொள்வதன் மூலம் தனிப்பட்ட வளர்ச்சி தூண்டப்படுகிறது.",
+    "taWord": "வளர்ச்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Development",
+      "Expansion"
+    ],
+    "antonyms": [
+      "Decline",
+      "Stagnation"
+    ]
+  },
+  {
+    "id": 725,
+    "word": "Guarantee",
+    "definition": "A formal assurance that certain conditions will be fulfilled.",
+    "enExample": "Our service level agreement offers a 99.9% uptime guarantee.",
+    "taExample": "எங்கள் சேவை நிலைகளுக்கான ஒப்பந்தம் 99.9% இயக்க நேர உத்தரவாதத்தை வழங்குகிறது.",
+    "taWord": "உத்தரவாதம்",
+    "pos": "noun",
+    "synonyms": [
+      "Assurance",
+      "Pledge"
+    ]
+  },
+  {
+    "id": 726,
+    "word": "Goal",
+    "definition": "The object of a person's ambition or effort; an intended target.",
+    "enExample": "Our primary goal this sprint is to pass all integration tests.",
+    "taExample": "இந்த ஸ்பிரிண்டில் எங்கள் முதன்மை இலக்கு அனைத்து ஒருங்கிணைப்பு சோதனைகளிலும் வெற்றி பெறுவதாகும்.",
+    "taWord": "இலக்கு / நோக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Objective",
+      "Target"
+    ]
+  },
+  {
+    "id": 727,
+    "word": "Gainful",
+    "definition": "Serving to increase wealth, skill, or resource value.",
+    "enExample": "The apprenticeship provided gainful engineering experience.",
+    "taExample": "இந்த தொழிற்பயிற்சி பயனுள்ள பொறியியல் அனுபவத்தை வழங்கியது.",
+    "taWord": "பயனுள்ள / லாபகரமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Profitable",
+      "Beneficial"
+    ],
+    "antonyms": [
+      "Unprofitable",
+      "Useless"
+    ]
+  }
+]

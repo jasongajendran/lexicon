@@ -1,0 +1,319 @@
+[
+  {
+    "id": 1801,
+    "word": "Race Condition",
+    "definition": "An undesirable flaw where output sequence depends on uncontrollable execution timing of concurrent threads.",
+    "enExample": "Use atomic database transactions to prevent race conditions during inventory updates.",
+    "taExample": "சரக்கு புதுப்பிப்புகளின் போது போட்டி நிலைகளைத் (Race conditions) தடுக்க அணு தரவுத்தள பரிவர்த்தனைகளைப் பயன்படுத்தவும்.",
+    "taWord": "போட்டி நிலை (Race Condition)",
+    "pos": "noun",
+    "synonyms": [
+      "Timing glitch",
+      "Concurrency bug"
+    ],
+    "antonyms": [
+      "Synchronization",
+      "Atomic operation"
+    ]
+  },
+  {
+    "id": 1802,
+    "word": "Rack",
+    "definition": "A standardized physical framework for mounting multiple server computers and network switch gear.",
+    "enExample": "Data centers organize cloud hardware into standardized rack cabinets.",
+    "taExample": "தரவு மையங்கள் கிளவுட் வன்பொருளை தரப்படுத்தப்பட்ட ரேக் அலமாரிகளில் ஒழுங்கமைக்கின்றன.",
+    "taWord": "ரேக் / சேவையக சட்டகம்",
+    "pos": "noun",
+    "synonyms": [
+      "Cabinet",
+      "Frame",
+      "Chassis"
+    ]
+  },
+  {
+    "id": 1803,
+    "word": "Radius",
+    "definition": "The measurement defining rounded corner geometry in CSS border-radius visual design.",
+    "enExample": "Set border-radius to 12px for modern rounded UI button card containers.",
+    "taExample": "நவீன வட்டமிட்ட பொத்தான் கொள்கலன்களுக்கு border-radius ஐ 12px ஆக அமைக்கவும்.",
+    "taWord": "ஆரம் / வளைவு ஆரம்",
+    "pos": "noun",
+    "synonyms": [
+      "Curvature",
+      "Rounding",
+      "Arc"
+    ],
+    "antonyms": [
+      "Sharp corner"
+    ]
+  },
+  {
+    "id": 1804,
+    "word": "Random",
+    "definition": "Lacking a definite plan, purpose, or pattern; unpredictable number generation in computing.",
+    "enExample": "Use crypto.getRandomValues for secure random token generation.",
+    "taExample": "பாதுகாப்பான சீரற்ற டோக்கன் உருவாக்கத்திற்கு crypto.getRandomValues ஐப் பயன்படுத்தவும்.",
+    "taWord": "சீரற்ற / திட்டமிடப்படாத",
+    "pos": "adj.",
+    "synonyms": [
+      "Arbitrary",
+      "Stochastic",
+      "Unpredictable"
+    ],
+    "antonyms": [
+      "Deterministic",
+      "Sequential"
+    ]
+  },
+  {
+    "id": 1805,
+    "word": "Range",
+    "definition": "The difference between highest and lowest values, or a sequence between start and end bounds.",
+    "enExample": "The HTTP range header requests a partial file chunk download from the server.",
+    "taExample": "HTTP Range தலைப்பு சேவையகத்திலிருந்து பகுதி கோப்புத் துண்டு பதிவிறக்கத்தைக் கோருகிறது.",
+    "taWord": "வரம்பு / எல்லைத் தொடர்",
+    "pos": "noun",
+    "synonyms": [
+      "Span",
+      "Extent",
+      "Interval"
+    ]
+  },
+  {
+    "id": 1806,
+    "word": "Raster",
+    "definition": "A rectangular grid of pixels forming a digital image, such as PNG or JPEG formats.",
+    "enExample": "Convert vector SVG graphics to raster PNG images for email client compatibility.",
+    "taExample": "மின்னஞ்சல் இணக்கத்தன்மைக்காக திசையன் (Vector) கிராபிக்ஸ்களை ராஸ்டர் (Raster) படங்களாக மாற்றவும்.",
+    "taWord": "ராஸ்டர் / பிக்சல் படம்",
+    "pos": "adj.",
+    "synonyms": [
+      "Bitmap",
+      "Pixel-based"
+    ],
+    "antonyms": [
+      "Vector"
+    ]
+  },
+  {
+    "id": 1807,
+    "word": "Reactive",
+    "definition": "A programming model where components automatically update in response to changes in underlying state or data streams.",
+    "enExample": "React and Vue provide reactive data binding for responsive web applications.",
+    "taExample": "ரியாக்ட் மற்றும் வியூ ஆகியவை பதிலளிக்கும் இணையப் பயன்பாடுகளுக்கு எதிர்வினை (Reactive) தரவுப் பிணைப்பை வழங்குகின்றன.",
+    "taWord": "எதிர்வினை / சுய-புதுப்பிப்பு",
+    "pos": "adj.",
+    "synonyms": [
+      "State-driven",
+      "Responsive",
+      "Event-driven"
+    ],
+    "antonyms": [
+      "Imperative",
+      "Static"
+    ]
+  },
+  {
+    "id": 1808,
+    "word": "Read-only",
+    "definition": "A file or data permission attribute permitting users to view content but preventing edits or deletions.",
+    "enExample": "Configure public database replicas as read-only to safeguard against unauthorized writes.",
+    "taExample": "அனுமதிக்கப்படாத எழுதுதல்களிலிருந்து பாதுகாக்க பொதுத் தரவுத்தள நகல்களைப் படிக்க மட்டும் (Read-only) அமைத்திடுங்கள்.",
+    "taWord": "படிக்க மட்டும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Protected",
+      "Immutable",
+      "Locked"
+    ],
+    "antonyms": [
+      "Read-write",
+      "Writable"
+    ]
+  },
+  {
+    "id": 1809,
+    "word": "Recursion",
+    "definition": "A algorithm design method where a function calls itself repeatedly until a terminating base case condition is satisfied.",
+    "enExample": "Traversing nested folder trees is elegantly implemented using recursion.",
+    "taExample": "உள்ளமைக்கப்பட்ட கோப்புறை மரங்களைக் கடப்பது தற்சுழற்சியைப் (Recursion) பயன்படுத்தி நேர்த்தியாகச் செயல்படுத்தப்படுகிறது.",
+    "taWord": "தற்சுழற்சி / மீள்சுழற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Self-reference",
+      "Induction"
+    ],
+    "antonyms": [
+      "Iteration"
+    ]
+  },
+  {
+    "id": 1810,
+    "word": "Redundancy",
+    "definition": "Duplication of critical components or functions to increase reliability and fault tolerance.",
+    "enExample": "Deploying multi-region servers provides hardware redundancy against cloud outages.",
+    "taExample": "பல மண்டலச் சேவையகங்களை வரிசைப்படுத்துவது மேகக்கணி செயலிழப்புகளுக்கு எதிராக வன்பொருள் மிகைமையை (Redundancy) வழங்குகிறது.",
+    "taWord": "மிகைமை / மாற்றுப் பாதுகாப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Duplication",
+      "Backup",
+      "Fault tolerance"
+    ],
+    "antonyms": [
+      "Single point of failure"
+    ]
+  },
+  {
+    "id": 1811,
+    "word": "Refactor",
+    "definition": "Restructuring existing source code without changing its external functional behavior.",
+    "enExample": "Refactor monolithic functions into modular utility modules to improve legibility.",
+    "taExample": "வாசிப்புத் திறனை மேம்படுத்த ஒற்றை செயல்பாடுகளை மாடுலார் பயன்பாட்டு தொகுதிகளாக மறுசீரமைக்கவும் (Refactor).",
+    "taWord": "குறியீட்டு மறுசீரமைப்பு (Refactor)",
+    "pos": "verb",
+    "synonyms": [
+      "Clean up",
+      "Reorganize",
+      "Restructure"
+    ]
+  },
+  {
+    "id": 1812,
+    "word": "Registry",
+    "definition": "A centralized database or catalog storing software package versions or configuration settings.",
+    "enExample": "NPM is the premier package registry for publishing open-source JavaScript libraries.",
+    "taExample": "NPM என்பது திறந்த மூல ஜாவாஸ்கிரிப்ட் நூலகங்களை வெளியிடுவதற்கான முதன்மையான தொகுப்புப் பதிவகமாகும் (Registry).",
+    "taWord": "பதிவகம் / விவரப் பட்டியல் (Registry)",
+    "pos": "noun",
+    "synonyms": [
+      "Catalog",
+      "Repository",
+      "Directory"
+    ]
+  },
+  {
+    "id": 1813,
+    "word": "Render",
+    "definition": "Transforming raw data, templates, or geometry models into visible pixels or graphical output.",
+    "enExample": "React components re-render automatically whenever their internal state updates.",
+    "taExample": "ரியாக்ட் கூறுகள் அவற்றின் உள் நிலை புதுப்பிக்கப்படும் போதெல்லாம் தானாகவே மீண்டும் இயற்றுகின்றன (Re-render).",
+    "taWord": "இயற்றுதல் / வரைதல் (Render)",
+    "pos": "verb",
+    "synonyms": [
+      "Draw",
+      "Generate",
+      "Paint"
+    ]
+  },
+  {
+    "id": 1814,
+    "word": "Repository",
+    "definition": "A central storage location for tracking code files and complete revision history in version control systems.",
+    "enExample": "Clone the remote GitHub repository to set up your local development environment.",
+    "taExample": "உங்கள் உள்ளூர் மேம்பாட்டு சூழலை அமைக்க தொலைநிலை கிட்ஹப் களஞ்சியத்தை (Repository) க்ளோன் செய்யவும்.",
+    "taWord": "களஞ்சியம் (Repository)",
+    "pos": "noun",
+    "synonyms": [
+      "Repo",
+      "Vault",
+      "Archive"
+    ]
+  },
+  {
+    "id": 1815,
+    "word": "Route",
+    "definition": "A mapped path or URL endpoint defining how HTTP requests map to specific controller handlers.",
+    "enExample": "Define an Express API route for handling user registration POST requests.",
+    "taExample": "பயனர் பதிவுக் கோரிக்கைகளைக் கையாள ஒரு Express API வழியை (Route) வரையறுக்கவும்.",
+    "taWord": "வழி / URL பாதை",
+    "pos": "noun",
+    "synonyms": [
+      "Path",
+      "Endpoint",
+      "URL pattern"
+    ]
+  },
+  {
+    "id": 1816,
+    "word": "Recalcitrant",
+    "definition": "Having an obstinately uncooperative attitude toward authority or discipline.",
+    "enExample": "A class of recalcitrant fifteen-year-olds.",
+    "taExample": "அடங்காத பதினைந்து வயதுடைய ஒரு வகுப்பு.",
+    "taWord": "அடங்காத",
+    "pos": "adj.",
+    "synonyms": [
+      "Uncooperative",
+      "Intractable",
+      "Insubordinate"
+    ],
+    "antonyms": [
+      "Docile",
+      "Compliant"
+    ]
+  },
+  {
+    "id": 1817,
+    "word": "Relegate",
+    "definition": "Consign or dismiss to an inferior rank or position.",
+    "enExample": "They aim to prevent women from being relegated to a secondary role.",
+    "taExample": "பெண்களை இரண்டாம் நிலைக்குத் தரமிறக்குவதைத் தடுக்க அவர்கள் விரும்புகிறார்கள்.",
+    "taWord": "தரமிறக்கு",
+    "pos": "verb",
+    "synonyms": [
+      "Downgrade",
+      "Lower",
+      "Demote"
+    ],
+    "antonyms": [
+      "Promote",
+      "Upgrade"
+    ]
+  },
+  {
+    "id": 1818,
+    "word": "Resilient",
+    "definition": "(of a person or animal) able to withstand or recover quickly from difficult conditions.",
+    "enExample": "Babies are generally far more resilient than new parents realize.",
+    "taExample": "புதிய பெற்றோர்கள் உணர்ந்ததை விட குழந்தைகள் பொதுவாக மீள்திறன் கொண்டவர்கள்.",
+    "taWord": "மீள்திறன் கொண்ட",
+    "pos": "adj.",
+    "synonyms": [
+      "Tough",
+      "Hardy",
+      "Quick to recover"
+    ],
+    "antonyms": [
+      "Vulnerable",
+      "Fragile"
+    ]
+  },
+  {
+    "id": 1819,
+    "word": "Retrospective",
+    "definition": "A recurring team meeting held after a sprint or project to evaluate what went well and what can be improved.",
+    "enExample": "In our sprint retrospective, we discussed ways to streamline code review turnaround.",
+    "taExample": "எங்கள் ஸ்பிரிண்ட் மீளாய்வுக் கூட்டத்தில் (Retrospective), குறியீட்டு மதிப்பாய்வு நேரத்தை எளிதாக்குவதற்கான வழிகளை விவாதித்தோம்.",
+    "taWord": "மீளாய்வுக் கூட்டம் (Retro)",
+    "pos": "noun",
+    "synonyms": [
+      "Post-mortem",
+      "Review meeting",
+      "Debrief"
+    ]
+  },
+  {
+    "id": 1820,
+    "word": "Roadmap",
+    "definition": "A strategic plan or presentation outlining long-term goals, milestones, and release schedules.",
+    "enExample": "The product manager shared the Q3 technology roadmap during the all-hands presentation.",
+    "taExample": "தயாரிப்பு மேலாளர் அனைத்து உறுப்பினர்களின் கூட்டத்தில் Q3 தொழில்நுட்ப சாலைவரைபடத்தை (Roadmap) பகிர்ந்துகொண்டார்.",
+    "taWord": "சாலைவரைபடம் / திட்டப்பாதை (Roadmap)",
+    "pos": "noun",
+    "synonyms": [
+      "Strategy",
+      "Timeline",
+      "Milestone plan"
+    ]
+  }
+]

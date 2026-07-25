@@ -1,0 +1,258 @@
+[
+  {
+    "id": 2601,
+    "word": "Zero-Copy",
+    "definition": "An optimization technique where CPU does not copy data from one memory area to another when transmitting network files.",
+    "enExample": "Zero-copy file transfers significantly reduce CPU cycles during web server file downloads.",
+    "taExample": "ஜீரோ-காப்பி (Zero-copy) கோப்புப் பரிமாற்றங்கள் கோப்புப் பதிவிறக்கங்களின் போது CPU சுழற்சிகளை கணிசமாகக் குறைக்கின்றன.",
+    "taWord": "நினைவக நகலற்ற முறை (Zero-Copy)",
+    "pos": "adj.",
+    "synonyms": [
+      "Direct memory access",
+      "DMA transfer"
+    ],
+    "antonyms": [
+      "Buffer copying"
+    ]
+  },
+  {
+    "id": 2602,
+    "word": "Zero-Day",
+    "definition": "A newly discovered software security vulnerability that is actively exploited before developers issue a security patch.",
+    "enExample": "Emergency security patches were deployed to mitigate the zero-day exploit.",
+    "taExample": "பூஜ்ஜிய நாள் (Zero-day) பலவீனத்தைத் தணிக்க அவசரப் பாதுகாப்புத் தீர்வுகள் வரிசைப்படுத்தப்பட்டன.",
+    "taWord": "பூஜ்ஜிய நாள் தாக்குதல் (Zero-Day)",
+    "pos": "noun",
+    "synonyms": [
+      "Unpatched vulnerability",
+      "Zero-day exploit"
+    ],
+    "antonyms": [
+      "Patched vulnerability"
+    ]
+  },
+  {
+    "id": 2603,
+    "word": "Zero-Trust",
+    "definition": "A security framework requiring strict identity verification for every person and device attempting to access network resources.",
+    "enExample": "Zero-trust architecture enforces continuous authentication even within internal corporate networks.",
+    "taExample": "ஜீரோ-ட்ரஸ்ட் (Zero-trust) கட்டமைப்பு உள் நிறுவன நெட்வொர்க்குகளுக்குள்ளும் தொடர்ச்சியான அங்கீகாரத்தை நடைமுறைப்படுத்துகிறது.",
+    "taWord": "பூஜ்ஜிய நம்பிக்கை பாதுகாப்பு (Zero-Trust)",
+    "pos": "noun",
+    "synonyms": [
+      "Perimeterless security",
+      "Continuous verification"
+    ],
+    "antonyms": [
+      "Implicit trust",
+      "Perimeter security"
+    ]
+  },
+  {
+    "id": 2604,
+    "word": "Z-Index",
+    "definition": "A CSS property specifying the visual stack rendering order of overlapping elements along the depth axis.",
+    "enExample": "Set z-index to 50 to render modal dialog overlays above background page content.",
+    "taExample": "பின்னணி பக்க உள்ளடக்கத்திற்கு மேல் மாதிரி உரையாடல் மேலடுக்குகளை வரைய z-index ஐ 50 ஆக அமைக்கவும்.",
+    "taWord": "இசட்-வரிசை / ஆழ அச்சு (Z-Index)",
+    "pos": "noun",
+    "synonyms": [
+      "Stacking order",
+      "Depth order",
+      "Layer index"
+    ]
+  },
+  {
+    "id": 2605,
+    "word": "Zip",
+    "definition": "A widely used archive file format supporting lossless data compression of multiple files into a single bundle.",
+    "enExample": "Export project source code as a compressed zip archive file.",
+    "taExample": "திட்ட மூலக் குறியீட்டை சுருக்கப்பட்ட ஜிப் (Zip) காப்பகக் கோப்பாக ஏற்றுமதி செய்யவும்.",
+    "taWord": "ஜிப் / சுருக்கப்பட்ட கோப்பு (Zip)",
+    "pos": "noun",
+    "synonyms": [
+      "Archive",
+      "Compressed folder"
+    ],
+    "antonyms": [
+      "Uncompressed folder"
+    ]
+  },
+  {
+    "id": 2606,
+    "word": "Zettabyte",
+    "definition": "A unit of digital information storage equal to 10^21 bytes (1,000 exabytes).",
+    "enExample": "Global internet traffic volume crossed several zettabytes annually.",
+    "taExample": "உலகளாவிய இணையப் போக்குவரத்து அளவு ஆண்டுதோறும் பல ஜீட்டாபைட்டுகளைக் (Zettabytes) கடந்துள்ளது.",
+    "taWord": "ஜீட்டாபைட் (தகவல் அலகு)",
+    "pos": "noun",
+    "synonyms": [
+      "10^21 bytes",
+      "Digital storage unit"
+    ]
+  },
+  {
+    "id": 2607,
+    "word": "Zombie Process",
+    "definition": "A completed operating system process whose execution state remains in the process table to report termination to its parent.",
+    "enExample": "Zombie processes are cleaned up when parent processes reap their exit codes.",
+    "taExample": "பெற்றோர் செயல்முறைகள் அவற்றின் வெளியேறும் குறியீடுகளைப் பெறும்போது சோம்பி (Zombie) செயல்முறைகள் அழிக்கப்படுகின்றன.",
+    "taWord": "சோம்பி செயல்முறை (Zombie Process)",
+    "pos": "noun",
+    "synonyms": [
+      "Defunct process",
+      "Terminated process"
+    ],
+    "antonyms": [
+      "Active process"
+    ]
+  },
+  {
+    "id": 2608,
+    "word": "Zone",
+    "definition": "An isolated administrative domain or geographic data center region in cloud computing infrastructure.",
+    "enExample": "Deploying servers across multi-availability zones guarantees fault isolation.",
+    "taExample": "பல கிடைக்கக்கூடிய மண்டலங்களில் (Zones) சேவையகங்களை வரிசைப்படுத்துவது பிழை தனிமைப்படுத்தலுக்கு உத்தரவாதம் அளிக்கிறது.",
+    "taWord": "மண்டலம் / பிராந்தியம் (Zone)",
+    "pos": "noun",
+    "synonyms": [
+      "Availability zone",
+      "Region",
+      "Domain"
+    ]
+  },
+  {
+    "id": 2609,
+    "word": "ZooKeeper",
+    "definition": "Apache ZooKeeper; a centralized service for maintaining configuration information, naming, and providing distributed synchronization.",
+    "enExample": "Kafka clusters historically relied on Apache ZooKeeper for broker coordination.",
+    "taExample": "கஃப்கா கிளஸ்டர்கள் பாரம்பரியமாக சேவையக ஒருங்கிணைப்புக்கு அபாச்சி ஜூக்கீப்பரை (ZooKeeper) நம்பியிருந்தன.",
+    "taWord": "ஜூக்கீப்பர் (ஒருங்கிணைப்பு சேவை)",
+    "pos": "noun",
+    "synonyms": [
+      "Consensus service",
+      "Cluster coordinator"
+    ]
+  },
+  {
+    "id": 2610,
+    "word": "Z-Buffer",
+    "definition": "A depth buffer used in 3D graphics hardware to manage surface visibility and occlusion calculations.",
+    "enExample": "The Z-buffer prevents background 3D meshes from rendering over foreground elements.",
+    "taExample": "இசட்-பஃபர் (Z-buffer) பின்னணி 3D கூறுகள் முன் கூறுகளின் மேல் வரைவதைத் தடுக்கிறது.",
+    "taWord": "இசட்-பஃபர் / ஆழத் தாங்கல்",
+    "pos": "noun",
+    "synonyms": [
+      "Depth buffer",
+      "Occlusion buffer"
+    ]
+  },
+  {
+    "id": 2611,
+    "word": "Zero-Downtime",
+    "definition": "A deployment strategy ensuring web services remain continuously reachable during new application code releases.",
+    "enExample": "Blue-green deployment strategies achieve zero-downtime application upgrades.",
+    "taExample": "ப்ளூ-கிரீன் வரிசைப்படுத்தல் உத்திகள் பூஜ்ஜிய செயலிழப்பு நேர (Zero-downtime) பயன்பாட்டு மேம்பாடுகளை அடைகின்றன.",
+    "taWord": "பூஜ்ஜிய செயலிழப்பு நேரப் பயன்பாடு",
+    "pos": "adj.",
+    "synonyms": [
+      "Continuous availability",
+      "Seamless release"
+    ],
+    "antonyms": [
+      "Scheduled maintenance",
+      "Outage"
+    ]
+  },
+  {
+    "id": 2612,
+    "word": "Zero-Fill",
+    "definition": "Filling unused register bits or memory buffers with zeros when padding numerical values.",
+    "enExample": "SQL ZEROFILL automatically pads numeric ID columns with leading zeros.",
+    "taExample": "SQL ZEROFILL தானாகவே எண் ஐடி நெடுவரிசைகளை முன்னணி பூஜ்ஜியங்களுடன் நிரப்புகிறது.",
+    "taWord": "பூஜ்ஜிய நிரப்பல் (Zero-Fill)",
+    "pos": "verb",
+    "synonyms": [
+      "Zero-padding",
+      "Blanking"
+    ]
+  },
+  {
+    "id": 2613,
+    "word": "Z-Order",
+    "definition": "The structural layering order of visual windows, graphics objects, or UI components.",
+    "enExample": "Dragging a window brings its Z-order layer to the front of the desktop stack.",
+    "taExample": "ஒரு சாளரத்தை இழுப்பது அதன் Z-வரிசையை (Z-order) டெஸ்க்டாப் அடுக்கின் முன்பகுதிக்குக் கொண்டுவருகிறது.",
+    "taWord": "இசட்-வரிசை அமைப்பு (Z-Order)",
+    "pos": "noun",
+    "synonyms": [
+      "Depth order",
+      "Layer hierarchy"
+    ]
+  },
+  {
+    "id": 2614,
+    "word": "Zlib",
+    "definition": "A software library used for data compression implementing the DEFLATE algorithm.",
+    "enExample": "HTTP servers use zlib compression to transmit gzip responses across client connections.",
+    "taExample": "HTTP சேவையகங்கள் வாடிக்கையாளர் இணைப்புகளில் ஜிஜிப் பதில்களை அனுப்ப zlib சுருக்கத்தைப் பயன்படுத்துகின்றன.",
+    "taWord": "ஜி-லிப் சுருக்க நூலகம் (Zlib)",
+    "pos": "noun",
+    "synonyms": [
+      "Deflate library",
+      "Gzip engine"
+    ]
+  },
+  {
+    "id": 2615,
+    "word": "Zero-Knowledge Proof",
+    "definition": "A cryptographic method by which one party can prove to another that a statement is true without revealing any information beyond that fact.",
+    "enExample": "Zero-knowledge proofs allow authenticating passwords without exposing raw hash strings.",
+    "taExample": "பூஜ்ஜிய-அறிவு ஆதாரங்கள் (Zero-knowledge proofs) மூல கடவுச்சொல் சரங்களை வெளிப்படுத்தாமல் அங்கீகரிக்க அனுமதிக்கின்றன.",
+    "taWord": "பூஜ்ஜிய-அறிவு ஆதாரம் (ZKP)",
+    "pos": "noun",
+    "synonyms": [
+      "ZKP",
+      "Cryptographic proof"
+    ],
+    "antonyms": [
+      "Plaintext disclosure"
+    ]
+  },
+  {
+    "id": 2616,
+    "word": "Zealot",
+    "definition": "A person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals.",
+    "enExample": "He was a zealot for the cause of reform.",
+    "taExample": "அவர் சீர்திருத்தத்திற்கான ஒரு அதி தீவிரவாதியாக இருந்தார்.",
+    "taWord": "அதி தீவிரவாதி",
+    "pos": "noun",
+    "synonyms": [
+      "Fanatic",
+      "Extremist",
+      "Radical"
+    ],
+    "antonyms": [
+      "Moderate",
+      "Conservative"
+    ]
+  },
+  {
+    "id": 2617,
+    "word": "Zenith",
+    "definition": "The time at which something is most powerful or successful.",
+    "enExample": "Under Justinian, the Byzantine Empire reached its zenith.",
+    "taExample": "ஜஸ்டினியனின் கீழ், பைசாந்தியப் பேரரசு அதன் உச்சத்தை எட்டியது.",
+    "taWord": "உச்சம்",
+    "pos": "noun",
+    "synonyms": [
+      "Peak",
+      "Pinnacle",
+      "Climax"
+    ],
+    "antonyms": [
+      "Nadir",
+      "Bottom"
+    ]
+  }
+]

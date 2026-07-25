@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1501,
+    "word": "Obfuscation",
+    "definition": "The practice of making source or machine code difficult for humans to understand to protect IP.",
+    "enExample": "JavaScript obfuscation protects commercial web application algorithms from theft.",
+    "taExample": "ஜாவாஸ்கிரிப்ட் மங்கலாக்கல் (Obfuscation) வணிக ரீதியான இணையப் பயன்பாட்டு அல்காரிதம்களைத் திருட்டிலிருந்து பாதுகாக்கிறது.",
+    "taWord": "மங்கலாக்கல் / தெளிவற்றதாக்கல்",
+    "pos": "noun",
+    "synonyms": [
+      "Minification",
+      "Scrambling",
+      "Concealment"
+    ],
+    "antonyms": [
+      "Deobfuscation",
+      "Clarification"
+    ]
+  },
+  {
+    "id": 1502,
+    "word": "Object",
+    "definition": "A standalone entity that combines state (data) and behavior (methods) in OOP.",
+    "enExample": "Instantiate a new User object with name and email properties.",
+    "taExample": "பெயர் மற்றும் மின்னஞ்சல் பண்புகளுடன் ஒரு புதிய பயனர் பொருளை (User object) உருவாக்கவும்.",
+    "taWord": "பொருள் / ஆப்ஜெக்ட்",
+    "pos": "noun",
+    "synonyms": [
+      "Instance",
+      "Entity",
+      "Structure"
+    ],
+    "antonyms": [
+      "Primitive"
+    ]
+  },
+  {
+    "id": 1503,
+    "word": "Observability",
+    "definition": "The degree to which the internal state of a system can be inferred from its external outputs like logs and metrics.",
+    "enExample": "Adding distributed tracing improves full-stack application observability.",
+    "taExample": "விநியோகிக்கப்பட்ட தடமறிதலைச் சேர்ப்பது முழு-ஸ்டாக் பயன்பாட்டின் கவனிப்புத் திறனை (Observability) மேம்படுத்துகிறது.",
+    "taWord": "கவனிப்புத் திறன் / கண்காணிப்புத்தன்மை",
+    "pos": "noun",
+    "synonyms": [
+      "Telemetry",
+      "Monitoring",
+      "Visibility"
+    ],
+    "antonyms": [
+      "Opacity",
+      "Invisibility"
+    ]
+  },
+  {
+    "id": 1504,
+    "word": "Observer",
+    "definition": "A software design pattern where an object maintains a list of dependents and notifies them automatically of state changes.",
+    "enExample": "The observer pattern is widely used for event-driven reactive user interfaces.",
+    "taExample": "நிகழ்வு சார்ந்த எதிர்வினை பயனர் இடைமுகங்களுக்கு கவனிப்பாளர் (Observer) முறை பரவலாகப் பயன்படுத்தப்படுகிறது.",
+    "taWord": "கவனிப்பாளர் / நிகழ்வு கண்காணிப்பாளர்",
+    "pos": "noun",
+    "synonyms": [
+      "Subscriber",
+      "Listener",
+      "Watcher"
+    ],
+    "antonyms": [
+      "Publisher",
+      "Emitter"
+    ]
+  },
+  {
+    "id": 1505,
+    "word": "Offline",
+    "definition": "Operating while disconnected from a primary network, internet connection, or central server.",
+    "enExample": "Service workers cache assets to enable smooth offline application usage.",
+    "taExample": "சர்வீஸ் வொர்க்கர்கள் தடையற்ற ஆஃப்லைன் பயன்பாட்டைச் சாத்தியமாக்க சொத்துக்களை தற்காலிகமாகச் சேமிக்கின்றன.",
+    "taWord": "இணைப்பிலா / ஆஃப்லைன்",
+    "pos": "adj.",
+    "synonyms": [
+      "Disconnected",
+      "Unplugged",
+      "Cached"
+    ],
+    "antonyms": [
+      "Online",
+      "Connected",
+      "Live"
+    ]
+  },
+  {
+    "id": 1506,
+    "word": "Offset",
+    "definition": "The distance or count from the beginning of a data structure, file, or array.",
+    "enExample": "Database pagination uses LIMIT and OFFSET parameters to fetch paged rows.",
+    "taExample": "தரவுத்தள பக்கமாக்கம் பக்க வரிசைகளைப் பெற LIMIT மற்றும் OFFSET அளவுருக்களைப் பயன்படுத்துகிறது.",
+    "taWord": "நிகர்வரை / நகர்வு தூரம்",
+    "pos": "noun",
+    "synonyms": [
+      "Displacement",
+      "Shift",
+      "Margin"
+    ]
+  },
+  {
+    "id": 1507,
+    "word": "Omnichannel",
+    "definition": "A multichannel approach to sales or communication that seeks to provide seamless user experience across devices.",
+    "enExample": "The omnichannel commerce portal syncs shopping carts across desktop and mobile.",
+    "taExample": "ஓம்னிசேனல் வணிக போர்டல் டெஸ்க்டாப் மற்றும் மொபைலில் ஷாப்பிங் கார்ட்டுகளை ஒத்திசைக்கிறது.",
+    "taWord": "அனைத்து-அலைவரிசை",
+    "pos": "adj.",
+    "synonyms": [
+      "Cross-channel",
+      "Integrated",
+      "Unified"
+    ],
+    "antonyms": [
+      "Single-channel"
+    ]
+  },
+  {
+    "id": 1508,
+    "word": "Opaque",
+    "definition": "Not transparent; internal data structure or visual layer that obscures underlying content.",
+    "enExample": "An opaque access token prevents clients from reading its internal payload details.",
+    "taExample": "ஒரு ஒளிபுகா (Opaque) அணுகல் டோக்கன் கிளையண்டுகள் அதன் உள் பேலோட் விவரங்களைப் படிப்பதைத் தடுக்கிறது.",
+    "taWord": "ஒளிபுகா / மறைமுகமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Impervious",
+      "Encapsulated",
+      "Hidden"
+    ],
+    "antonyms": [
+      "Transparent",
+      "Clear"
+    ]
+  },
+  {
+    "id": 1509,
+    "word": "Operand",
+    "definition": "A quantity or value upon which a mathematical or logical operator performs an action.",
+    "enExample": "In the expression 'a + b', variables 'a' and 'b' are the operands.",
+    "taExample": "'a + b' என்ற வெளிப்பாட்டில் 'a' மற்றும் 'b' மாறிகள் இயங்குபொருள்கள் (Operands) ஆகும்.",
+    "taWord": "இயங்குபொருள்",
+    "pos": "noun",
+    "synonyms": [
+      "Argument",
+      "Input value"
+    ],
+    "antonyms": [
+      "Operator"
+    ]
+  },
+  {
+    "id": 1510,
+    "word": "Optimization",
+    "definition": "The process of adjusting code, database queries, or assets to make them execute faster or use fewer resources.",
+    "enExample": "Image optimization reduced our web app initial bundle size by fifty percent.",
+    "taExample": "பட உகப்பாக்கம் எங்கள் இணையப் பயன்பாட்டின் ஆரம்பத் தொகுப்பு அளவை ஐம்பது சதவீதம் குறைத்தது.",
+    "taWord": "உகப்பாக்கம் / மேம்படுத்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Tuning",
+      "Refinement",
+      "Enhancement"
+    ],
+    "antonyms": [
+      "Degradation",
+      "Bloat"
+    ]
+  },
+  {
+    "id": 1511,
+    "word": "Optional",
+    "definition": "An entity, field, or parameter that may be omitted without causing a syntax or compilation error.",
+    "enExample": "TypeScript uses a question mark syntax to declare optional function parameters.",
+    "taExample": "டைப்ஸ்கிரிப்ட் விருப்பத்தேர்வு (Optional) செயல்பாட்டு அளவுருக்களை அறிவிக்க கேள்விக்குறி தொடரியலைப் பயன்படுத்துகிறது.",
+    "taWord": "விருப்பத்தேர்வு",
+    "pos": "adj.",
+    "synonyms": [
+      "Voluntary",
+      "Non-mandatory",
+      "Nullable"
+    ],
+    "antonyms": [
+      "Required",
+      "Mandatory",
+      "Compulsory"
+    ]
+  },
+  {
+    "id": 1512,
+    "word": "Orchestration",
+    "definition": "The automated coordination and management of complex computer systems, middleware, and services.",
+    "enExample": "Kubernetes simplifies container orchestration for distributed cloud deployments.",
+    "taExample": "விநியோகிக்கப்பட்ட கிளவுட் வரிசைப்படுத்தல்களுக்கான கொள்கலன் ஒருங்கமைப்பை குபர்நெட்டீஸ் எளிதாக்குகிறது.",
+    "taWord": "ஒருங்கமைப்பு / ஒருங்கிணைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Coordination",
+      "Management",
+      "Automation"
+    ],
+    "antonyms": [
+      "Manual configuration"
+    ]
+  },
+  {
+    "id": 1513,
+    "word": "Origin",
+    "definition": "The combination of protocol, hostname, and port number defining a web application's security boundary.",
+    "enExample": "CORS headers restrict resource sharing to requests from trusted origin domains.",
+    "taExample": "CORS தலைப்புகள் வளப் பகிர்வை நம்பகமான மூல (Origin) டொமைன்களிலிருந்து வரும் கோரிக்கைகளுக்கு வரம்படுத்துகின்றன.",
+    "taWord": "மூலம் / தொடக்க இடம்",
+    "pos": "noun",
+    "synonyms": [
+      "Source",
+      "Root",
+      "Domain"
+    ],
+    "antonyms": [
+      "Destination"
+    ]
+  },
+  {
+    "id": 1514,
+    "word": "Output",
+    "definition": "Data produced or returned by a computer program, function, or hardware device.",
+    "enExample": "The compiler generated executable binary output in the build folder.",
+    "taExample": "தொகுப்பி (Compiler) பில்ட் கோப்புறையில் இயங்கக்கூடிய பைனரி வெளியீட்டை உருவாக்கியது.",
+    "taWord": "வெளியீடு",
+    "pos": "noun",
+    "synonyms": [
+      "Result",
+      "Yield",
+      "Response"
+    ],
+    "antonyms": [
+      "Input"
+    ]
+  },
+  {
+    "id": 1515,
+    "word": "Overflow",
+    "definition": "A situation where a calculation exceeds memory limits or content exceeds container visual bounds.",
+    "enExample": "CSS overflow: hidden clips excess child content that exceeds parent dimensions.",
+    "taExample": "CSS overflow: hidden பெற்றோர் பரிமாணங்களை மீறும் அதிகப்படியான சேய் உள்ளடக்கத்தை வெட்டுகிறது.",
+    "taWord": "வழிதல் / வரம்பு மீறல்",
+    "pos": "noun",
+    "synonyms": [
+      "Spillover",
+      "Excess",
+      "Surplus"
+    ],
+    "antonyms": [
+      "Underflow",
+      "Deficit"
+    ]
+  },
+  {
+    "id": 1516,
+    "word": "Obdurate",
+    "definition": "Stubbornly refusing to change one's opinion or course of action.",
+    "enExample": "I argued this point with him, but he was obdurate.",
+    "taExample": "நான் இந்த விஷயத்தை அவரிடம் வாதிட்டேன், ஆனால் அவர் பிடிவாதமாக இருந்தார்.",
+    "taWord": "பிடிவாதமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Stubborn",
+      "Obstinate",
+      "Inflexible"
+    ],
+    "antonyms": [
+      "Malleable",
+      "Compliant"
+    ]
+  },
+  {
+    "id": 1517,
+    "word": "Obfuscate",
+    "definition": "Render obscure, unclear, or unintelligible.",
+    "enExample": "The spelling changes will deform some familiar words and obfuscate their etymological origins.",
+    "taExample": "எழுத்து மாற்றங்கள் சில தெரிந்த வார்த்தைகளை சிதைத்து அவற்றின் மூலத்தை குழப்பிவிடும்.",
+    "taWord": "குழப்பு",
+    "pos": "verb",
+    "synonyms": [
+      "Obscure",
+      "Confuse",
+      "Blur"
+    ],
+    "antonyms": [
+      "Clarify",
+      "Elucidate"
+    ]
+  },
+  {
+    "id": 1518,
+    "word": "Ostentatious",
+    "definition": "Characterized by vulgar or pretentious display; designed to impress or attract notice.",
+    "enExample": "Books that people buy and display ostentatiously but never actually finish.",
+    "taExample": "மக்கள் வாங்கி பகட்டாகக் காட்டும் ஆனால் படித்து முடிக்காத புத்தகங்கள்.",
+    "taWord": "பகட்டான",
+    "pos": "adj.",
+    "synonyms": [
+      "Showy",
+      "Pretentious",
+      "Conspicuous"
+    ],
+    "antonyms": [
+      "Plain",
+      "Unobtrusive"
+    ]
+  }
+]

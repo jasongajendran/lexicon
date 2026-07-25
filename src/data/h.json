@@ -1,0 +1,485 @@
+[
+  {
+    "id": 801,
+    "word": "Hack",
+    "definition": "A clever or inelegant solution to a problem; unauthorized access to data.",
+    "enExample": "I had to use a dirty hack to get it working on Internet Explorer.",
+    "taExample": "இன்டர்நெட் எக்ஸ்புளோரரில் இது வேலை செய்ய நான் ஒரு தற்காலிக / மோசமான தீர்வைப் பயன்படுத்த வேண்டியிருந்தது.",
+    "taWord": "தற்காலிக தீர்வு / ஊடுருவல்",
+    "pos": "noun",
+    "synonyms": [
+      "Workaround",
+      "Tweak"
+    ],
+    "antonyms": [
+      "Fix",
+      "Standard"
+    ]
+  },
+  {
+    "id": 802,
+    "word": "Halt",
+    "definition": "Bring or come to an abrupt stop.",
+    "enExample": "The execution will halt if a critical error is encountered.",
+    "taExample": "ஒரு முக்கியமான பிழை ஏற்பட்டால் செயல்பாடு நிறுத்தப்படும்.",
+    "taWord": "நிறுத்தம்",
+    "pos": "verb",
+    "synonyms": [
+      "Stop",
+      "Pause"
+    ],
+    "antonyms": [
+      "Continue",
+      "Start"
+    ]
+  },
+  {
+    "id": 803,
+    "word": "Handshake",
+    "definition": "An automated process of negotiation between two participants.",
+    "enExample": "The TLS handshake ensures a secure connection is established.",
+    "taExample": "TLS கைகுலுக்கல் (Handshake) பாதுகாப்பான இணைப்பு நிறுவப்படுவதை உறுதி செய்கிறது.",
+    "taWord": "கைகுலுக்கல் / இணைப்பு தொடக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Negotiation",
+      "Agreement"
+    ]
+  },
+  {
+    "id": 804,
+    "word": "Hardcode",
+    "definition": "Fix (data or parameters) in a program in such a way that they cannot be altered without modifying the program.",
+    "enExample": "Don't hardcode the API keys; use environment variables instead.",
+    "taExample": "API திறப்புகளை குறியீட்டிலேயே நேரடியாக எழுத வேண்டாம்; அதற்குப் பதிலாக சுற்றுச்சூழல் மாறிகளைப் பயன்படுத்தவும்.",
+    "taWord": "குறியீட்டில் நேரடியாக எழுதுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Embed",
+      "Fix"
+    ],
+    "antonyms": [
+      "Dynamic",
+      "Configure"
+    ]
+  },
+  {
+    "id": 805,
+    "word": "Hash",
+    "definition": "A mathematical algorithm that maps data of arbitrary size to a bit string of a fixed size.",
+    "enExample": "We store the password as a cryptographic hash.",
+    "taExample": "நாங்கள் கடவுச்சொல்லை ஒரு குறியாக்க ஹாஷாக சேமிக்கிறோம்.",
+    "taWord": "ஹாஷ் (சீரற்ற சரமாக மாற்றுதல்)",
+    "pos": "noun",
+    "synonyms": [
+      "Digest",
+      "Checksum"
+    ]
+  },
+  {
+    "id": 806,
+    "word": "Headless",
+    "definition": "Software capable of working on a device without a graphical user interface.",
+    "enExample": "We use a headless browser for running automated UI tests.",
+    "taExample": "தானியங்கி UI சோதனைகளை இயக்க நாங்கள் ஒரு தலையற்ற (Headless) உலாவியைப் பயன்படுத்துகிறோம்.",
+    "taWord": "இடைமுகமற்ற / தலையற்ற",
+    "pos": "adj.",
+    "synonyms": [
+      "GUI-less",
+      "Background"
+    ],
+    "antonyms": [
+      "Visual",
+      "Interactive"
+    ]
+  },
+  {
+    "id": 807,
+    "word": "Heap",
+    "definition": "An area of memory used for dynamic memory allocation.",
+    "enExample": "Objects created with the 'new' keyword are allocated on the heap.",
+    "taExample": "'new' என்ற சொல்லுடன் உருவாக்கப்படும் பொருள்கள் குவியலில் (Heap) ஒதுக்கப்படுகின்றன.",
+    "taWord": "குவியல்",
+    "pos": "noun",
+    "synonyms": [
+      "Pile",
+      "Memory pool"
+    ],
+    "antonyms": [
+      "Stack"
+    ]
+  },
+  {
+    "id": 808,
+    "word": "Heuristic",
+    "definition": "A problem-solving approach that employs a practical method not guaranteed to be optimal or perfect, but sufficient for the immediate goals.",
+    "enExample": "The antivirus uses heuristic analysis to detect unknown malware.",
+    "taExample": "வைரஸ் தடுப்பு மென்பொருள் அறியப்படாத தீம்பொருளைக் கண்டறிய ஹியூரிஸ்டிக் (அனுபவபூர்வமான) பகுப்பாய்வைப் பயன்படுத்துகிறது.",
+    "taWord": "அனுபவபூர்வமான / பட்டறிவு",
+    "pos": "adj.",
+    "synonyms": [
+      "Rule of thumb",
+      "Practical"
+    ],
+    "antonyms": [
+      "Exact",
+      "Algorithmic"
+    ]
+  },
+  {
+    "id": 809,
+    "word": "Hierarchy",
+    "definition": "A system or organization in which people or groups are ranked one above the other according to status or authority.",
+    "enExample": "The DOM is structured as a tree hierarchy.",
+    "taExample": "DOM ஒரு மர படிநிலையாக வடிவமைக்கப்பட்டுள்ளது.",
+    "taWord": "படிநிலை",
+    "pos": "noun",
+    "synonyms": [
+      "Order",
+      "Ranking"
+    ],
+    "antonyms": [
+      "Flat",
+      "Egalitarian"
+    ]
+  },
+  {
+    "id": 810,
+    "word": "Hinder",
+    "definition": "Create difficulties for (someone or something), resulting in delay or obstruction.",
+    "enExample": "Technical debt will eventually hinder our ability to ship new features.",
+    "taExample": "தொழில்நுட்பக் கடன் இறுதியில் புதிய அம்சங்களை வெளியிடும் நமது திறனைத் தடுக்கும்.",
+    "taWord": "தடுத்தல் / இடையூறு செய்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Impede",
+      "Obstruct"
+    ],
+    "antonyms": [
+      "Facilitate",
+      "Help"
+    ]
+  },
+  {
+    "id": 811,
+    "word": "Host",
+    "definition": "A computer or other device connected to a computer network.",
+    "enExample": "The application is running on a cloud host.",
+    "taExample": "பயன்பாடு கிளவுட் தொகுப்பாளனில் (Host) இயங்குகிறது.",
+    "taWord": "தொகுப்பாளர் / வழங்கி",
+    "pos": "noun",
+    "synonyms": [
+      "Server",
+      "Node"
+    ],
+    "antonyms": [
+      "Client",
+      "Guest"
+    ]
+  },
+  {
+    "id": 812,
+    "word": "Hybrid",
+    "definition": "Of mixed character; composed of mixed parts.",
+    "enExample": "We chose a hybrid approach, combining local storage with cloud sync.",
+    "taExample": "உள்ளூர் சேமிப்பகத்தை கிளவுட் ஒத்திசைவுடன் இணைத்து கலப்பின அணுகுமுறையைத் தேர்ந்தெடுத்தோம்.",
+    "taWord": "கலப்பின",
+    "pos": "adj.",
+    "synonyms": [
+      "Mixed",
+      "Combined"
+    ],
+    "antonyms": [
+      "Pure",
+      "Homogeneous"
+    ]
+  },
+  {
+    "id": 813,
+    "word": "Hyperlink",
+    "definition": "A link from a hypertext file or document to another location or file.",
+    "enExample": "Click the hyperlink to view the full documentation.",
+    "taExample": "முழு ஆவணத்தையும் காண ஹைப்பர்லிங்கைக் கிளிக் செய்யவும்.",
+    "taWord": "இணைப்பு (Hyperlink)",
+    "pos": "noun",
+    "synonyms": [
+      "Link",
+      "Reference"
+    ]
+  },
+  {
+    "id": 814,
+    "word": "Hypothesis",
+    "definition": "A supposition or proposed explanation made on the basis of limited evidence as a starting point for further investigation.",
+    "enExample": "Our hypothesis is that the new UI will increase conversion rates.",
+    "taExample": "புதிய UI மாற்று விகிதங்களை அதிகரிக்கும் என்பதே எங்கள் கருதுகோள்.",
+    "taWord": "கருதுகோள்",
+    "pos": "noun",
+    "synonyms": [
+      "Theory",
+      "Supposition"
+    ],
+    "antonyms": [
+      "Fact",
+      "Certainty"
+    ]
+  },
+  {
+    "id": 815,
+    "word": "Harness",
+    "definition": "Control and make use of (natural resources), especially to produce energy.",
+    "enExample": "We need to harness the power of machine learning.",
+    "taExample": "இயந்திர கற்றலின் சக்தியை நாம் பயன்படுத்திக்கொள்ள வேண்டும்.",
+    "taWord": "பயன்படுத்திக்கொள்ளுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Utilize",
+      "Exploit"
+    ],
+    "antonyms": [
+      "Waste",
+      "Ignore"
+    ]
+  },
+  {
+    "id": 816,
+    "word": "Hackneyed",
+    "definition": "(of a phrase or idea) lacking significance through having been overused.",
+    "enExample": "Hackneyed old sayings.",
+    "taExample": "பழமையான சொலவடைகள்.",
+    "taWord": "பழமையான / தேய்வழக்கான",
+    "pos": "adj.",
+    "synonyms": [
+      "Overused",
+      "Overworked",
+      "Clichéd"
+    ],
+    "antonyms": [
+      "Original",
+      "Fresh"
+    ]
+  },
+  {
+    "id": 817,
+    "word": "Halcyon",
+    "definition": "Denoting a period of time in the past that was idyllically happy and peaceful.",
+    "enExample": "The halcyon days of the mid-1980s.",
+    "taExample": "1980களின் நடுப்பகுதியில் அமைதியான நாட்கள்.",
+    "taWord": "அமைதியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Serene",
+      "Calm",
+      "Pleasant"
+    ],
+    "antonyms": [
+      "Troubled",
+      "Stormy"
+    ]
+  },
+  {
+    "id": 818,
+    "word": "Hubris",
+    "definition": "Excessive pride or self-confidence.",
+    "enExample": "The self-assured hubris among economists was shaken in the late 1980s.",
+    "taExample": "பொருளாதார நிபுணர்களிடையேயான தன்னம்பிக்கை ஆணவம் 1980களின் பிற்பகுதியில் ஆட்டம் கண்டது.",
+    "taWord": "ஆணவம்",
+    "pos": "noun",
+    "synonyms": [
+      "Arrogance",
+      "Conceit",
+      "Haughtiness"
+    ],
+    "antonyms": [
+      "Humility",
+      "Modesty"
+    ]
+  },
+  {
+    "id": 819,
+    "word": "Harmonious",
+    "definition": "Forming a pleasing or consistent whole without conflict.",
+    "enExample": "Color choices in UI design should create a harmonious visual structure.",
+    "taExample": "பயனர் இடைமுக வடிவமைப்பில் வண்ணத் தேர்வுகள் இணக்கமான பார்வை அமைப்பை உருவாக்க வேண்டும்.",
+    "taWord": "இணக்கமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Consistent",
+      "Balanced"
+    ],
+    "antonyms": [
+      "Discordant",
+      "Incompatible"
+    ]
+  },
+  {
+    "id": 820,
+    "word": "Hazardous",
+    "definition": "Risky; dangerous to health, security, or stability.",
+    "enExample": "Deploying untested code directly to production is hazardous.",
+    "taExample": "சோதிக்கப்படாத குறியீட்டை நேரடியாக உற்பத்திக்கு வரிசைப்படுத்துவது அபாயகரமானது.",
+    "taWord": "அபாயகரமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Risky",
+      "Dangerous"
+    ],
+    "antonyms": [
+      "Safe",
+      "Secure"
+    ]
+  },
+  {
+    "id": 821,
+    "word": "Hesitate",
+    "definition": "Pause before saying or doing something, often due to uncertainty.",
+    "enExample": "Do not hesitate to reach out if you encounter build errors.",
+    "taExample": "உருவாக்க பிழைகளை நீங்கள் சந்தித்ததால் தொடர்பு கொள்ள தயங்க வேண்டாம்.",
+    "taWord": "தயங்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Pause",
+      "Waver"
+    ],
+    "antonyms": [
+      "Proceed",
+      "Decide"
+    ]
+  },
+  {
+    "id": 822,
+    "word": "Highlight",
+    "definition": "Draw special attention to or emphasize an important feature or text.",
+    "enExample": "Use active state styling to highlight the currently selected tab.",
+    "taExample": "தற்போது தேர்ந்தெடுக்கப்பட்ட தாவலை முன்னிலைப்படுத்த செயலில் உள்ள வடிவமைப்பு பாணியைப் பயன்படுத்தவும்.",
+    "taWord": "முன்னிலைப்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Emphasize",
+      "Accentuate"
+    ],
+    "antonyms": [
+      "Obscure",
+      "Ignore"
+    ]
+  },
+  {
+    "id": 823,
+    "word": "Honesty",
+    "definition": "The quality of being truthful, sincere, and free of deceit.",
+    "enExample": "Transparent communication and honesty strengthen remote team culture.",
+    "taExample": "வெளிப்படையான தகவல்தொடர்பு மற்றும் நேர்மை ஆகியவை தொலைதூரக் குழு கலாச்சாரத்தை வலுப்படுத்துகின்றன.",
+    "taWord": "நேர்மை",
+    "pos": "noun",
+    "synonyms": [
+      "Integrity",
+      "Truthfulness"
+    ],
+    "antonyms": [
+      "Dishonesty",
+      "Deceit"
+    ]
+  },
+  {
+    "id": 824,
+    "word": "Hospitality",
+    "definition": "The friendly and generous reception and entertainment of guests.",
+    "enExample": "The conference organizers showed wonderful hospitality to speakers.",
+    "taExample": "மாநாட்டின் அமைப்பாளர்கள் பேச்சாளர்களுக்கு அருமையான விருந்தோம்பலை வழங்கினர்.",
+    "taWord": "விருந்தோம்பல்",
+    "pos": "noun",
+    "synonyms": [
+      "Welcomeness",
+      "Warmth"
+    ],
+    "antonyms": [
+      "Hostility"
+    ]
+  },
+  {
+    "id": 825,
+    "word": "Hostile",
+    "definition": "Showing or feeling opposition or unfriendliness.",
+    "enExample": "A hostile network environment requires robust end-to-end encryption.",
+    "taExample": "ஒரு பகைமையான நெட்வொர்க் சூழலுக்கு வலுவான முனைக்கு முனை குறியாக்கம் தேவைப்படுகிறது.",
+    "taWord": "பகைமையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Unfriendly",
+      "Adverse"
+    ],
+    "antonyms": [
+      "Friendly",
+      "Welcoming"
+    ]
+  },
+  {
+    "id": 826,
+    "word": "Humane",
+    "definition": "Having or showing compassion, kindness, or benevolence towards others.",
+    "enExample": "Designing humane technology respects user attention and mental wellbeing.",
+    "taExample": "மனிதநேயமுள்ள தொழில்நுட்பத்தை வடிவமைப்பது பயனரின் கவனத்தையும் மன நலத்தையும் மதிக்கிறது.",
+    "taWord": "மனிதநேயமுள்ள",
+    "pos": "adj.",
+    "synonyms": [
+      "Compassionate",
+      "Kind"
+    ],
+    "antonyms": [
+      "Inhumane",
+      "Cruel"
+    ]
+  },
+  {
+    "id": 827,
+    "word": "Humble",
+    "definition": "Having or showing a modest estimate of one's own importance.",
+    "enExample": "Great leaders remain humble and open to continuous learning.",
+    "taExample": "சிறந்த தலைவர்கள் பணிவுடனும் தொடர்ச்சியான கற்றலுக்குத் திறந்த மனதுடனும் இருக்கிறார்கள்.",
+    "taWord": "பணிவான / அடக்கமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Modest",
+      "Unassuming"
+    ],
+    "antonyms": [
+      "Arrogant",
+      "Proud"
+    ]
+  },
+  {
+    "id": 828,
+    "word": "Hypothetical",
+    "definition": "Based on or serving as a hypothesis or supposed scenario.",
+    "enExample": "Let us review a hypothetical system failure to test our rollback plan.",
+    "taExample": "எங்கள் மீட்டெடுப்புத் திட்டத்தைச் சோதிக்க ஒரு அனுமான அமைப்பு தோல்வியைப் பற்றி மதிப்பாய்வு செய்வோம்.",
+    "taWord": "அனுமானமான / கருதுகோளான",
+    "pos": "adj.",
+    "synonyms": [
+      "Theoretical",
+      "Supposed"
+    ],
+    "antonyms": [
+      "Actual",
+      "Real"
+    ]
+  },
+  {
+    "id": 829,
+    "word": "Heavy lifting",
+    "definition": "The most difficult, demanding, or complex part of a task.",
+    "enExample": "The database query does all the heavy lifting, so the frontend stays fast.",
+    "taExample": "தரவுத்தள வினவலே அனைத்து கடினமான வேலைகளையும் செய்கிறது, எனவே முன்பகுதி வேகமாக இருக்கும்.",
+    "taWord": "கடினமான வேலை / பெரும்பணி",
+    "pos": "noun",
+    "synonyms": [
+      "Hard work",
+      "Main effort",
+      "Bulk of the work"
+    ],
+    "antonyms": [
+      "Easy part",
+      "Trivial task"
+    ]
+  }
+]

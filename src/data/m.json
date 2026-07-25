@@ -1,0 +1,279 @@
+[
+  {
+    "id": 1301,
+    "word": "Macro",
+    "definition": "A single computer instruction or script that expands automatically into a set of instructions.",
+    "enExample": "We defined a macro to automate repetitive code generation during build.",
+    "taExample": "பில்டின் போது மீண்டும் மீண்டும் செய்யப்படும் குறியீடு உருவாக்கத்தை தானியங்குபடுத்த ஒரு மேக்ரோவை வரையறுத்தோம்.",
+    "taWord": "மேக்ரோ / தானியங்கு கட்டளைத் தொகுதி",
+    "pos": "noun",
+    "synonyms": [
+      "Script",
+      "Shortcut",
+      "Automation"
+    ]
+  },
+  {
+    "id": 1302,
+    "word": "Mainframe",
+    "definition": "A large, powerful computer used by large organizations for bulk data processing.",
+    "enExample": "Financial institutions still rely on mainframes for high-volume transactions.",
+    "taExample": "நிதி நிறுவனங்கள் அதிக அளவிலான பரிவர்த்தனைகளுக்கு இன்றும் மெயின்பிரேம் கணினிகளை நம்பியுள்ளன.",
+    "taWord": "மெயின்பிரேம் / பெருங்கணினி",
+    "pos": "noun",
+    "synonyms": [
+      "Supercomputer",
+      "Central server"
+    ],
+    "antonyms": [
+      "Microcomputer",
+      "Mobile device"
+    ]
+  },
+  {
+    "id": 1303,
+    "word": "Maintainability",
+    "definition": "The ease with which a software system can be modified to correct defects or improve performance.",
+    "enExample": "Writing clean code and unit tests greatly enhances project maintainability.",
+    "taExample": "சுத்தமான குறியீடு மற்றும் அலகு சோதனைகளை எழுதுவது திட்டப் பராமரிப்புத் திறனை பெரிதும் உயர்த்துகிறது.",
+    "taWord": "பராமரிப்புத் திறன்",
+    "pos": "noun",
+    "synonyms": [
+      "Serviceability",
+      "Sustainability"
+    ],
+    "antonyms": [
+      "Fragility",
+      "Rigidity"
+    ]
+  },
+  {
+    "id": 1304,
+    "word": "Manifest",
+    "definition": "A JSON or XML file containing metadata for a group of accompanying files or app bundle.",
+    "enExample": "The web app manifest defines icons, display mode, and start URL for PWA installations.",
+    "taExample": "இணையப் பயன்பாட்டு மேனிஃபெஸ்ட் (Manifest) PWA நிறுவல்களுக்கான படவுருக்கள் மற்றும் தொடக்க URL ஐ வரையறுக்கிறது.",
+    "taWord": "மேனிஃபெஸ்ட் / விவரப் அறிக்கை",
+    "pos": "noun",
+    "synonyms": [
+      "Metadata file",
+      "Declaration"
+    ]
+  },
+  {
+    "id": 1305,
+    "word": "Mapping",
+    "definition": "An operation or associative relation linking elements of one set to corresponding elements of another.",
+    "enExample": "Object-Relational Mapping (ORM) maps database tables directly to code objects.",
+    "taExample": "ஆப்ஜெக்ட்-ரிலேஷனல் மேப்பிங் (ORM) தரவுத்தள அட்டவணைகளை நேரடியாக குறியீட்டு பொருள்களுடன் இணைக்கிறது.",
+    "taWord": "இணைத்தல் / மேப்பிங்",
+    "pos": "noun",
+    "synonyms": [
+      "Association",
+      "Correlation",
+      "Projection"
+    ]
+  },
+  {
+    "id": 1306,
+    "word": "Margin",
+    "definition": "The space around the outside of a visual element separating it from adjacent layout elements.",
+    "enExample": "Add a top margin to create vertical separation between the heading and paragraph.",
+    "taExample": "தலைப்புக்கும் பத்திக்கும் இடையே செங்குத்து இடைவெளியை உருவாக்க மேல் விளிம்பைச் (Margin) சேர்க்கவும்.",
+    "taWord": "வெளிப்புற விளிம்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Spacing",
+      "Boundary",
+      "Buffer"
+    ],
+    "antonyms": [
+      "Padding"
+    ]
+  },
+  {
+    "id": 1307,
+    "word": "Marshalling",
+    "definition": "The process of transforming the memory representation of an object into a data format suitable for storage or transmission.",
+    "enExample": "Data marshalling converts complex C structures into JSON for network transport.",
+    "taExample": "தரவு மார்ஷலிங் சிக்கலான C அமைப்புகளை பிணைய பரிமாற்றத்திற்காக JSON ஆக மாற்றுகிறது.",
+    "taWord": "தரவு உருமாற்றம் (Marshalling)",
+    "pos": "noun",
+    "synonyms": [
+      "Serialization",
+      "Encoding"
+    ],
+    "antonyms": [
+      "Unmarshalling",
+      "Deserialization"
+    ]
+  },
+  {
+    "id": 1308,
+    "word": "Matrix",
+    "definition": "A rectangular array or grid of numbers, symbols, or expressions arranged in rows and columns.",
+    "enExample": "Matrix multiplication is fundamental to 3D graphics and neural network operations.",
+    "taExample": "3D கிராபிக்ஸ் மற்றும் நரம்பியல் நெட்வொர்க் செயல்பாடுகளுக்கு அணி (Matrix) பெருக்கல் அடிப்படையானது.",
+    "taWord": "அணி (Matrix)",
+    "pos": "noun",
+    "synonyms": [
+      "Grid",
+      "Array",
+      "Table"
+    ]
+  },
+  {
+    "id": 1309,
+    "word": "Median",
+    "definition": "The middle value in a sorted statistical distribution or list of numbers.",
+    "enExample": "We measure median response time rather than average to avoid outlier skewing.",
+    "taExample": "விலகல் மதிப்புகளைத் தவிர்க்க நாங்கள் சராசரிக்கு பதிலாக இடைநிலை (Median) பதிலளிப்பு நேரத்தை அளவிடுகிறோம்.",
+    "taWord": "இடைநிலை மதிப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Midpoint",
+      "Middle value"
+    ]
+  },
+  {
+    "id": 1310,
+    "word": "Memoization",
+    "definition": "An optimization technique where expensive function call results are cached based on input parameters.",
+    "enExample": "Use React.useMemo for heavy calculations to benefit from memoization across renders.",
+    "taExample": "ரெண்டர்களுக்கு இடையே அதிக கணக்கீடுகளுக்கு மெமோயைசேஷனைப் பயன்படுத்த React.useMemo ஐப் பயன்படுத்தவும்.",
+    "taWord": "நினைவகத் தற்காப்பு (Memoization)",
+    "pos": "noun",
+    "synonyms": [
+      "Caching",
+      "Result retention"
+    ]
+  },
+  {
+    "id": 1311,
+    "word": "Memory",
+    "definition": "Electronic components that store data and instructions for immediate use by the CPU.",
+    "enExample": "RAM provides volatile memory for running applications and temporary execution data.",
+    "taExample": "RAM இயங்கும் பயன்பாடுகள் மற்றும் தற்காலிக தரவுக்கு நிலையற்ற நினைவகத்தை வழங்குகிறது.",
+    "taWord": "நினைவகம்",
+    "pos": "noun",
+    "synonyms": [
+      "RAM",
+      "Storage",
+      "Buffer"
+    ]
+  },
+  {
+    "id": 1312,
+    "word": "Merge",
+    "definition": "To combine two or more branches, data streams, or file revisions into a unified state.",
+    "enExample": "Merge the feature branch into main after passing code review and integration tests.",
+    "taExample": "குறியீட்டு மதிப்பாய்வு மற்றும் ஒருங்கிணைப்பு சோதனைகளில் தேர்ச்சி பெற்ற பிறகு அம்சம் கிளையை பிரதான கிளையில் இணைக்கவும்.",
+    "taWord": "இணைத்தல் / ஒன்றிணைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Combine",
+      "Unify",
+      "Integrate"
+    ],
+    "antonyms": [
+      "Branch",
+      "Split",
+      "Separate"
+    ]
+  },
+  {
+    "id": 1313,
+    "word": "Metadata",
+    "definition": "Data that provides information about other data, such as file author, creation date, or image resolution.",
+    "enExample": "The image metadata includes GPS coordinates and camera exposure settings.",
+    "taExample": "படத்தின் மெட்டாடேட்டாவில் ஜிபிஎஸ் ஆயத்தொலைவுகள் மற்றும் கேமரா அமைப்புகள் உள்ளன.",
+    "taWord": "தரவு பற்றிய தரவு (மெட்டாடேட்டா)",
+    "pos": "noun",
+    "synonyms": [
+      "Descriptors",
+      "Tags",
+      "Header info"
+    ]
+  },
+  {
+    "id": 1314,
+    "word": "Method",
+    "definition": "A function that is associated with an object or defined within a class declaration.",
+    "enExample": "The Array class provides instance methods like map, filter, and reduce.",
+    "taExample": "வரிசை (Array) வகுப்பு map, filter மற்றும் reduce போன்ற முறைமைகளை வழங்குகிறது.",
+    "taWord": "செயல்முறை / முறைமை",
+    "pos": "noun",
+    "synonyms": [
+      "Function",
+      "Procedure",
+      "Routine"
+    ]
+  },
+  {
+    "id": 1315,
+    "word": "Middleware",
+    "definition": "Software glue that provides services to applications beyond those available from the operating system.",
+    "enExample": "Express middleware functions inspect and mutate incoming HTTP request headers.",
+    "taExample": "Express மிடில்வேர் செயல்பாடுகள் உள்வரும் HTTP கோரிக்கை தலைப்புகளை ஆய்வு செய்து மாற்றுகின்றன.",
+    "taWord": "இடைநிலை மென்பொருள் (Middleware)",
+    "pos": "noun",
+    "synonyms": [
+      "Interceptor",
+      "Pipeline step"
+    ]
+  },
+  {
+    "id": 1316,
+    "word": "Magnanimous",
+    "definition": "Very generous or forgiving, especially toward a rival or someone less powerful than oneself.",
+    "enExample": "She should be magnanimous in victory.",
+    "taExample": "அவள் வெற்றியில் பெருந்தன்மையாக இருக்க வேண்டும்.",
+    "taWord": "பெருந்தன்மையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Generous",
+      "Charitable",
+      "Benevolent"
+    ],
+    "antonyms": [
+      "Mean-spirited",
+      "Selfish"
+    ]
+  },
+  {
+    "id": 1317,
+    "word": "Malleable",
+    "definition": "Easily influenced; pliable.",
+    "enExample": "Anna was shaken enough to be malleable.",
+    "taExample": "அன்னா எளிதாக வளைக்கக்கூடிய அளவிற்கு அதிர்ச்சியடைந்தாள்.",
+    "taWord": "வளைக்கக்கூடிய",
+    "pos": "adj.",
+    "synonyms": [
+      "Suggestible",
+      "Susceptible",
+      "Impressionable"
+    ],
+    "antonyms": [
+      "Intractable",
+      "Rigid"
+    ]
+  },
+  {
+    "id": 1318,
+    "word": "Mitigate",
+    "definition": "Make less severe, serious, or painful.",
+    "enExample": "He wanted to mitigate misery in the world.",
+    "taExample": "அவர் உலகின் துயரத்தை குறைக்க விரும்பினார்.",
+    "taWord": "குறை",
+    "pos": "verb",
+    "synonyms": [
+      "Alleviate",
+      "Reduce",
+      "Diminish"
+    ],
+    "antonyms": [
+      "Aggravate",
+      "Intensify"
+    ]
+  }
+]

@@ -1,0 +1,340 @@
+[
+  {
+    "id": 1901,
+    "word": "Sandbox",
+    "definition": "An isolated execution environment that prevents untrusted code from modifying production databases or host systems.",
+    "enExample": "Run customer-submitted scripts inside a secure Docker sandbox.",
+    "taExample": "வாடிக்கையாளர் சமர்ப்பித்த ஸ்கிரிப்ட்களை பாதுகாப்பான சாண்ட்பாக்ஸ் (Sandbox) சூழலில் இயக்கவும்.",
+    "taWord": "சாண்ட்பாக்ஸ் / தனிமைப்படுத்தப்பட்ட சூழல்",
+    "pos": "noun",
+    "synonyms": [
+      "Isolated environment",
+      "Playground"
+    ],
+    "antonyms": [
+      "Production system"
+    ]
+  },
+  {
+    "id": 1902,
+    "word": "Schema",
+    "definition": "The formal blueprint or structural definition of a database, table layout, or JSON document shape.",
+    "enExample": "Drizzle ORM defines table schemas with strict column type constraints in TypeScript.",
+    "taExample": "Drizzle ORM டைப்ஸ்கிரிப்டில் கடுமையான நெடுவரிசை வகை கட்டுப்பாடுகளுடன் அட்டவணை திட்டவடிவங்களை (Schema) வரையறுக்கிறது.",
+    "taWord": "திட்டவடிவம் / அட்டவணை அமைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Blueprint",
+      "Structure",
+      "Layout"
+    ]
+  },
+  {
+    "id": 1903,
+    "word": "Scope",
+    "definition": "The context or region within a program where a variable, function, or binding is visible and accessible.",
+    "enExample": "Block-scoped variables declared with 'let' are inaccessible outside their enclosing curly braces.",
+    "taExample": "'let' மூலம் அறிவிக்கப்பட்ட மாறிகள் அவற்றின் அடைப்புக் குறிகளுக்கு வெளியே அணுக முடியாத தொகுதி-எல்லைக்குட்பட்டவை (Block-scoped).",
+    "taWord": "எல்லை / வரம்பு (Scope)",
+    "pos": "noun",
+    "synonyms": [
+      "Visibility range",
+      "Context",
+      "Boundary"
+    ]
+  },
+  {
+    "id": 1904,
+    "word": "Script",
+    "definition": "A program or sequence of instructions interpreted or carried out by another program rather than compiled.",
+    "enExample": "The build script automates bundle minification and asset deployment.",
+    "taExample": "பில்ட் ஸ்கிரிப்ட் (Script) மூட்டை சுருக்கம் மற்றும் சொத்து வரிசைப்படுத்தலை தானியங்குபடுத்துகிறது.",
+    "taWord": "நிரல் சிறுநூல் / ஸ்கிரிப்ட்",
+    "pos": "noun",
+    "synonyms": [
+      "Macro",
+      "Executable text",
+      "Routine"
+    ],
+    "antonyms": [
+      "Compiled binary"
+    ]
+  },
+  {
+    "id": 1905,
+    "word": "SDK",
+    "definition": "Software Development Kit; a collection of software tools, libraries, and docs for building apps for a specific platform.",
+    "enExample": "Install the Firebase JS SDK to integrate authentication and Firestore real-time storage.",
+    "taExample": "சான்றளிப்பு மற்றும் ஃபயர்ஸ்டோர் நிகழ்நேர சேமிப்பகத்தை ஒருங்கிணைக்க ஃபயர்பேஸ் JS SDK ஐ நிறுவவும்.",
+    "taWord": "மென்பொருள் மேம்பாட்டுக் கருவூலம் (SDK)",
+    "pos": "noun",
+    "synonyms": [
+      "Toolkit",
+      "Dev kit"
+    ]
+  },
+  {
+    "id": 1906,
+    "word": "Serialization",
+    "definition": "Converting a data object in memory into a string or byte format suitable for transmission or storage.",
+    "enExample": "JSON.stringify handles object serialization before sending HTTP network payloads.",
+    "taExample": "JSON.stringify பிணைய பேலோடுகளை அனுப்புவதற்கு முன் ஆப்ஜெக்ட் தொடராக்கத்தைக் (Serialization) கையாள்கிறது.",
+    "taWord": "தொடராக்கம் / தரவு மாற்றல்",
+    "pos": "noun",
+    "synonyms": [
+      "Encoding",
+      "Marshalling"
+    ],
+    "antonyms": [
+      "Deserialization",
+      "Unmarshalling"
+    ]
+  },
+  {
+    "id": 1907,
+    "word": "Serverless",
+    "definition": "A cloud execution model where cloud providers dynamically manage server machine allocation and scaling on demand.",
+    "enExample": "Deploying serverless API routes eliminates the need to maintain dedicated VM servers.",
+    "taExample": "சேவையகமற்ற (Serverless) API வழிகளை வரிசைப்படுத்துவது அர்ப்பணிக்கப்பட்ட VM சேவையகங்களை பராமரிக்கும் தேவையை நீக்குகிறது.",
+    "taWord": "சேவையகமற்ற / கிளவுட்-சார்பற்ற",
+    "pos": "adj.",
+    "synonyms": [
+      "FaaS",
+      "On-demand execution"
+    ],
+    "antonyms": [
+      "Self-hosted",
+      "Dedicated server"
+    ]
+  },
+  {
+    "id": 1908,
+    "word": "Session",
+    "definition": "An interactive information exchange period established between a client device and a server system.",
+    "enExample": "Store session tokens in secure HTTP-only cookies to protect user logins.",
+    "taExample": "பயனர் உள்நுழைவுகளைப் பாதுகாக்க பாதுகாப்பான HTTP-ஒன்லி குக்கீகளில் அமர்வு (Session) டோக்கன்களைச் சேமிக்கவும்.",
+    "taWord": "அமர்வு (Session)",
+    "pos": "noun",
+    "synonyms": [
+      "Connection span",
+      "Interactive state"
+    ]
+  },
+  {
+    "id": 1909,
+    "word": "Singleton",
+    "definition": "A software design pattern restricting class instantiation to a single shared object instance.",
+    "enExample": "The database connection pool uses a singleton pattern across the app lifecycle.",
+    "taExample": "தரவுத்தள இணைப்பு குளம் பயன்பாட்டு வாழ்க்கைச் சுழற்சி முழுவதும் ஒற்றை (Singleton) முறையைப் பயன்படுத்துகிறது.",
+    "taWord": "ஒற்றை நிகழ்வு (Singleton)",
+    "pos": "noun",
+    "synonyms": [
+      "Unique instance",
+      "Global share"
+    ],
+    "antonyms": [
+      "Multi-instance"
+    ]
+  },
+  {
+    "id": 1910,
+    "word": "Snippet",
+    "definition": "A small reusable block of source code or markup text.",
+    "enExample": "Save common Tailwind layout snippets for quick reuse across components.",
+    "taExample": "கூறுகள் முழுவதும் விரைவாக மீண்டும் பயன்படுத்த பொதுவான டெயில்விண்ட் தளவமைப்புத் துணுக்குகளைச் (Snippets) சேமிக்கவும்.",
+    "taWord": "குறியீட்டுத் துணுக்கு (Snippet)",
+    "pos": "noun",
+    "synonyms": [
+      "Fragment",
+      "Code piece",
+      "Extract"
+    ]
+  },
+  {
+    "id": 1911,
+    "word": "Socket",
+    "definition": "An endpoint for sending and receiving data across a computer network via bidirectional persistent connections.",
+    "enExample": "WebSocket connections allow instant real-time chat updates without polling.",
+    "taExample": "வெப்சாக்கெட் (WebSocket) இணைப்புகள் வாக்கெடுப்பு இல்லாமல் உடனடி நிகழ்நேர அரட்டைப் புதுப்பிப்புகளை அனுமதிக்கின்றன.",
+    "taWord": "சாக்கெட் / முனை இணைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Endpoint",
+      "Channel",
+      "Port connection"
+    ]
+  },
+  {
+    "id": 1912,
+    "word": "Stack",
+    "definition": "A Last-In-First-Out (LIFO) data structure, or the set of technologies used to build a web application.",
+    "enExample": "The call stack tracks currently executing nested functions in the JavaScript runtime.",
+    "taExample": "அழைப்பு அடுக்கு (Call stack) ஜாவாஸ்கிரிப்ட் ரன்டைமில் தற்போது இயங்கும் உள்ளமைக்கப்பட்ட செயல்பாடுகளைக் கண்காணிக்கிறது.",
+    "taWord": "அடுக்கு / தொழில்நுட்ப அடுக்கு",
+    "pos": "noun",
+    "synonyms": [
+      "LIFO buffer",
+      "Tech stack",
+      "Pile"
+    ],
+    "antonyms": [
+      "Queue"
+    ]
+  },
+  {
+    "id": 1913,
+    "word": "Stream",
+    "definition": "A continuous sequence of data items made available over time for processing in chunks.",
+    "enExample": "Streaming video response buffers chunks to play content without waiting for complete downloads.",
+    "taExample": "ஸ்ட்ரீமிங் வீடியோ பதிலானது முழுமையான பதிவிறக்கங்களுக்காகக் காத்திருக்காமல் பிளே செய்யத் துண்டுகளை சேமிக்கிறது.",
+    "taWord": "தரவு ஓட்டம் / ஸ்ட்ரீம்",
+    "pos": "noun",
+    "synonyms": [
+      "Flow",
+      "Data feed",
+      "Pipeline"
+    ]
+  },
+  {
+    "id": 1914,
+    "word": "Syntax",
+    "definition": "The set of rules defining the structure and valid combinations of symbols in a programming language.",
+    "enExample": "A missing closing brace will cause a syntax error during compilation.",
+    "taExample": "விடுபட்ட இறுதி அடைப்புக்குறி தொகுப்பின் போது தொடரியல் பிழையை (Syntax error) ஏற்படுத்தும்.",
+    "taWord": "தொடரியல் / இலக்கணம்",
+    "pos": "noun",
+    "synonyms": [
+      "Grammar",
+      "Structure",
+      "Rules"
+    ]
+  },
+  {
+    "id": 1915,
+    "word": "Synchronous",
+    "definition": "Operations that execute sequentially, blocking execution until each task finishes completely.",
+    "enExample": "Synchronous file reads halt execution until the entire file is read into memory.",
+    "taExample": "ஒத்திசைவான (Synchronous) கோப்பு வாசிப்புகள் முழு கோப்பும் நினைவகத்தில் படிக்கப்படும் வரை செயல்பாட்டை நிறுத்துகின்றன.",
+    "taWord": "ஒத்திசைவான / வரிசையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Blocking",
+      "Sequential",
+      "Serial"
+    ],
+    "antonyms": [
+      "Asynchronous",
+      "Non-blocking"
+    ]
+  },
+  {
+    "id": 1916,
+    "word": "Sagacious",
+    "definition": "Having or showing keen mental discernment and good judgment; shrewd.",
+    "enExample": "They were sagacious enough to avoid any outright confrontation.",
+    "taExample": "அவர்கள் எந்தவொரு நேரடியான மோதலையும் தவிர்க்கும் அளவுக்கு விவேகமானவர்களாக இருந்தனர்.",
+    "taWord": "விவேகமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Wise",
+      "Clever",
+      "Intelligent"
+    ],
+    "antonyms": [
+      "Foolish",
+      "Stupid"
+    ]
+  },
+  {
+    "id": 1917,
+    "word": "Surreptitious",
+    "definition": "Kept secret, especially because it would not be approved of.",
+    "enExample": "They carried on a surreptitious affair.",
+    "taExample": "அவர்கள் ஒரு ரகசிய உறவைத் தொடர்ந்தனர்.",
+    "taWord": "ரகசியமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Secret",
+      "Stealthy",
+      "Clandestine"
+    ],
+    "antonyms": [
+      "Blatant",
+      "Open"
+    ]
+  },
+  {
+    "id": 1918,
+    "word": "Sycophant",
+    "definition": "A person who acts obsequiously toward someone important in order to gain advantage.",
+    "enExample": "He was surrounded by sycophants.",
+    "taExample": "அவர் முகஸ்துதி செய்பவர்களால் சூழப்பட்டிருந்தார்.",
+    "taWord": "முகஸ்துதி செய்பவர்",
+    "pos": "noun",
+    "synonyms": [
+      "Toady",
+      "Creep",
+      "Flatterer"
+    ]
+  },
+  {
+    "id": 1919,
+    "word": "Standup",
+    "definition": "A brief daily meeting where agile team members share progress, plans, and blockers.",
+    "enExample": "During our morning standup, I mentioned that the API response format was updated.",
+    "taExample": "எங்கள் காலை தினசரிச் சந்திப்பில் (Standup), API பதில் வடிவம் புதுப்பிக்கப்பட்டதாகக் குறிப்பிட்டேன்.",
+    "taWord": "தினசரிச் சந்திப்பு (Standup)",
+    "pos": "noun",
+    "synonyms": [
+      "Daily sync",
+      "Scrum meeting"
+    ]
+  },
+  {
+    "id": 1920,
+    "word": "Stakeholder",
+    "definition": "A person or group with a direct interest or investment in the success and features of a project.",
+    "enExample": "Key stakeholders approved the new user dashboard UI design.",
+    "taExample": "முக்கிய பங்குதாரர்கள் புதிய பயனர் டாஷ்போர்டு UI வடிவமைப்பிற்கு ஒப்புதல் அளித்தனர்.",
+    "taWord": "பங்குதாரர் / திட்ட ஆர்வலர்",
+    "pos": "noun",
+    "synonyms": [
+      "Investor",
+      "Sponsor",
+      "Partner"
+    ]
+  },
+  {
+    "id": 1921,
+    "word": "Sync",
+    "definition": "To align information or meet briefly with team members to ensure coordination.",
+    "enExample": "Let's sync up for five minutes after the demo to discuss customer feedback.",
+    "taExample": "வாடிக்கையாளர் கருத்துக்களைப் பற்றி விவாதிக்க செயல்விளக்கத்திற்குப் பிறகு ஐந்து நிமிடங்கள் தகவல்களை ஒத்திசைப்போம் (Sync).",
+    "taWord": "ஒத்திசைவு / சீரமைப்புத் தகவல் (Sync)",
+    "pos": "verb",
+    "synonyms": [
+      "Align",
+      "Coordinate",
+      "Touch base"
+    ]
+  },
+  {
+    "id": 1922,
+    "word": "Sporadic",
+    "definition": "Occurring at irregular intervals or only in a few places; scattered or isolated.",
+    "enExample": "We are seeing sporadic errors in the database logs during peak hours.",
+    "taExample": "அதிகபட்ச நேரங்களில் தரவுத்தள பதிவுகளில் ஆங்காங்கே சில (Sporadic) பிழைகளை நாங்கள் காண்கிறோம்.",
+    "taWord": "அவ்வப்போதான / ஆங்காங்கான",
+    "pos": "adj.",
+    "synonyms": [
+      "Irregular",
+      "Intermittent",
+      "Scattered"
+    ],
+    "antonyms": [
+      "Continuous",
+      "Frequent",
+      "Steady"
+    ]
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "id": 1001,
+    "word": "Jamstack",
+    "definition": "An architectural approach that decouples the web experience layer from data and business logic, providing better performance and security.",
+    "enExample": "We built our documentation site using the Jamstack architecture.",
+    "taExample": "எங்கள் ஆவணத் தளத்தை நாங்கள் ஜாம்ஸ்டேக் (Jamstack) கட்டமைப்பைப் பயன்படுத்தி உருவாக்கினோம்.",
+    "taWord": "ஜாம்ஸ்டேக்",
+    "pos": "noun",
+    "synonyms": [
+      "Decoupled architecture",
+      "Static stack"
+    ],
+    "antonyms": [
+      "Monolith"
+    ]
+  },
+  {
+    "id": 1002,
+    "word": "JavaScript",
+    "definition": "A high-level, interpreted programming language that conforms to the ECMAScript specification.",
+    "enExample": "JavaScript is essential for adding interactive features to web pages.",
+    "taExample": "இணையப் பக்கங்களில் ஊடாடும் அம்சங்களைச் சேர்க்க ஜாவாஸ்கிரிப்ட் இன்றியமையாதது.",
+    "taWord": "ஜாவாஸ்கிரிப்ட்",
+    "pos": "noun",
+    "synonyms": [
+      "JS",
+      "ECMAScript"
+    ]
+  },
+  {
+    "id": 1003,
+    "word": "Job",
+    "definition": "A unit of work defined to be executed by a computer or background worker.",
+    "enExample": "The background job processes user avatars in batch mode.",
+    "taExample": "பின்னணி பணி (Job) பயனர் அவதார்களைத் தொகுதி முறையில் செயலாக்குகிறது.",
+    "taWord": "பணி / பின்னணி பணி",
+    "pos": "noun",
+    "synonyms": [
+      "Task",
+      "Process",
+      "Work unit"
+    ]
+  },
+  {
+    "id": 1004,
+    "word": "Join",
+    "definition": "An operation in relational databases used to combine rows from two or more tables based on a related column.",
+    "enExample": "Use an INNER JOIN to fetch orders alongside user details.",
+    "taExample": "பயனர் விவரங்களுடன் ஆர்டர்களைப் பெற INNER JOIN-ஐப் பயன்படுத்தவும்.",
+    "taWord": "இணைத்தல் (SQL Join)",
+    "pos": "verb",
+    "synonyms": [
+      "Combine",
+      "Merge",
+      "Link"
+    ],
+    "antonyms": [
+      "Split",
+      "Separate"
+    ]
+  },
+  {
+    "id": 1005,
+    "word": "Journaling",
+    "definition": "A file system feature that logs changes to a journal before committing them to the main file system.",
+    "enExample": "Journaling file systems protect data integrity during sudden power loss.",
+    "taExample": "திடீர் மின் இழப்பின் போது தரவு ஒருமைப்பாட்டை பதிவேற்று கோப்பு முறைமைகள் (Journaling) பாதுகாக்கின்றன.",
+    "taWord": "பதிவேற்றம் / நாட்குறிப்பு பராமரிப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Logging",
+      "Auditing"
+    ]
+  },
+  {
+    "id": 1006,
+    "word": "JSON",
+    "definition": "JavaScript Object Notation, a lightweight data-interchange format easy for humans to read and write.",
+    "enExample": "The API endpoint returns user profiles formatted as JSON.",
+    "taExample": "API எண்ட்பாயிண்ட் பயனர் சுயவிவரங்களை JSON வடிவத்தில் வழங்குகிறது.",
+    "taWord": "ஜேசன் தரவு வடிவம்",
+    "pos": "noun",
+    "synonyms": [
+      "Data format",
+      "Payload format"
+    ]
+  },
+  {
+    "id": 1007,
+    "word": "Just-In-Time (JIT)",
+    "definition": "A technique in compilation where code is compiled into machine code at execution time rather than before.",
+    "enExample": "V8 engine utilizes JIT compilation to boost execution speed.",
+    "taExample": "V8 எஞ்சின் செயல்பாட்டு வேகத்தை அதிகரிக்க JIT தொகுப்பை (Compilation) பயன்படுத்துகிறது.",
+    "taWord": "உடனுக்குடன் (JIT)",
+    "pos": "adj.",
+    "synonyms": [
+      "Dynamic compilation",
+      "On-demand"
+    ],
+    "antonyms": [
+      "Ahead-of-time (AOT)"
+    ]
+  },
+  {
+    "id": 1008,
+    "word": "Justify",
+    "definition": "Align text or UI elements so that they spread evenly across a given axis.",
+    "enExample": "Use justify-content: space-between to align items along the main axis.",
+    "taExample": "முதன்மை அச்சில் உருப்படிகளை சீரமைக்க justify-content: space-between பயன்படுத்தவும்.",
+    "taWord": "சீரமைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Align",
+      "Balance"
+    ],
+    "antonyms": [
+      "Misalign"
+    ]
+  },
+  {
+    "id": 1009,
+    "word": "Juxtapose",
+    "definition": "Place two or more things side-by-side to highlight contrast or comparison.",
+    "enExample": "The design layout juxtaposed the old interface with the modern redesign.",
+    "taExample": "வடிவமைப்பு தளவமைப்பு பழைய இடைமுகத்தை நவீன மறுவடிவமைப்புடன் அருகருகே அமைத்து ஒப்பிட்டது.",
+    "taWord": "அருகருகே அமைத்தல் / ஒப்பிடுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Compare",
+      "Side-by-side"
+    ],
+    "antonyms": [
+      "Isolate"
+    ]
+  },
+  {
+    "id": 1010,
+    "word": "Junk",
+    "definition": "Unwanted or corrupted data that occupies memory or storage without adding value.",
+    "enExample": "Run the cleanup script to remove junk files from the server.",
+    "taExample": "சேவையகத்திலிருந்து பயனற்ற கோப்புகளை அகற்ற துப்புரவு ஸ்கிரிப்டை இயக்கவும்.",
+    "taWord": "பயனற்ற தரவு / குப்பை",
+    "pos": "noun",
+    "synonyms": [
+      "Trash",
+      "Garbage",
+      "Waste"
+    ],
+    "antonyms": [
+      "Clean data",
+      "Valuable data"
+    ]
+  },
+  {
+    "id": 1011,
+    "word": "Junction",
+    "definition": "A point where two or more paths, data flows, or circuits meet.",
+    "enExample": "A file system junction point redirects directory queries to another location.",
+    "taExample": "கோப்பு முறைமை சந்திப்பு புள்ளி வேறு இடத்திற்கு வினவல்களை வழிநடத்துகிறது.",
+    "taWord": "சந்திப்பு / இணைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Intersection",
+      "Connection"
+    ],
+    "antonyms": [
+      "Separation"
+    ]
+  },
+  {
+    "id": 1012,
+    "word": "Jargon",
+    "definition": "Special words or expressions used by a profession or group that are difficult for others to understand.",
+    "enExample": "Try to minimize technical jargon when writing documentation for users.",
+    "taExample": "பயனர்களுக்காக ஆவணங்களை எழுதும்போது தொழில்நுட்ப சிறப்புச் சொற்களைக் குறைக்க முயற்சிக்கவும்.",
+    "taWord": "சிறப்புச் சொற்கள் / தொழில்நுட்பச் சொற்கள்",
+    "pos": "noun",
+    "synonyms": [
+      "Terminology",
+      "Lingo"
+    ],
+    "antonyms": [
+      "Plain language"
+    ]
+  },
+  {
+    "id": 1013,
+    "word": "Jurisdictional",
+    "definition": "Relating to official power or geographic boundaries governing data privacy compliance.",
+    "enExample": "Ensure cloud server hosting complies with regional jurisdictional laws.",
+    "taExample": "கிளவுட் சேவையக ஹோஸ்டிங் பிராந்திய அதிகார வரம்பு சட்டங்களுக்கு கட்டுப்படுவதை உறுதிசெய்யவும்.",
+    "taWord": "அதிகார வரம்பு சார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Legal boundary",
+      "Regulatory"
+    ]
+  },
+  {
+    "id": 1014,
+    "word": "Jocular",
+    "definition": "Fond of or characterized by joking; humorous or playful.",
+    "enExample": "Her jocular presentation style kept the engineering audience engaged.",
+    "taExample": "அவளது வேடிக்கையான விளக்கக்காட்சி பாணி பொறியியல் பார்வையாளர்களை ஈர்த்தது.",
+    "taWord": "வேடிக்கையான / நகைச்சுவையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Humorous",
+      "Amusing"
+    ],
+    "antonyms": [
+      "Serious",
+      "Earnest"
+    ]
+  },
+  {
+    "id": 1015,
+    "word": "Judicious",
+    "definition": "Having, showing, or done with good judgment or sense.",
+    "enExample": "Judicious use of caching reduced database load by sixty percent.",
+    "taExample": "விவேகமான தற்காலிக சேமிப்பு பயன்பாடு தரவுத்தள சுமையை அறுபது சதவீதம் குறைத்தது.",
+    "taWord": "விவேகமான / விவேகத்துடன் கூடிய",
+    "pos": "adj.",
+    "synonyms": [
+      "Prudent",
+      "Wise"
+    ],
+    "antonyms": [
+      "Foolish",
+      "Imprudent"
+    ]
+  },
+  {
+    "id": 1016,
+    "word": "Jubilant",
+    "definition": "Feeling or expressing great happiness, joy, and triumph.",
+    "enExample": "The team was jubilant after successfully deploying the platform overhaul.",
+    "taExample": "தள மறுசீரமைப்பை வெற்றிகரமாக வரிசைப்படுத்திய பிறகு குழு மிகுந்த மகிழ்ச்சியடைந்தது.",
+    "taWord": "மிக்க மகிழ்ச்சியடைந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Elated",
+      "Overjoyed"
+    ],
+    "antonyms": [
+      "Despondent",
+      "Miserable"
+    ]
+  },
+  {
+    "id": 1017,
+    "word": "Journey",
+    "definition": "The process of traveling, growing, or developing over time.",
+    "enExample": "Mastering software architecture is an ongoing learning journey.",
+    "taExample": "மென்பொருள் கட்டமைப்பில் தேர்ச்சி பெறுவது ஒரு தொடர்ச்சியான கற்றல் பயணமாகும்.",
+    "taWord": "பயணம் / கற்றல் பாதை",
+    "pos": "noun",
+    "synonyms": [
+      "Voyage",
+      "Progression"
+    ]
+  },
+  {
+    "id": 1018,
+    "word": "Juncture",
+    "definition": "A particular, crucial point in time or event progression.",
+    "enExample": "At this critical juncture, we must prioritize system security.",
+    "taExample": "இந்த முக்கியமான கட்டத்தில், கணினி பாதுகாப்பிற்கு முன்னுரிமை அளிக்க வேண்டும்.",
+    "taWord": "முக்கிய கட்டம் / தருணம்",
+    "pos": "noun",
+    "synonyms": [
+      "Point",
+      "Stage"
+    ]
+  },
+  {
+    "id": 1019,
+    "word": "Joint",
+    "definition": "Shared, held, or made by two or more parties together.",
+    "enExample": "The feature was a joint effort between design and development teams.",
+    "taExample": "இந்த அம்சம் வடிவமைப்பு மற்றும் மேம்பாட்டுக் குழுக்களின் கூட்டு முயற்சியாகும்.",
+    "taWord": "கூட்டு / இணைந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Combined",
+      "Shared"
+    ],
+    "antonyms": [
+      "Sole",
+      "Individual"
+    ]
+  },
+  {
+    "id": 1020,
+    "word": "Jeopardize",
+    "definition": "Put someone or something into a situation with danger of loss or failure.",
+    "enExample": "Cutting corners on code validation could jeopardize the whole release.",
+    "taExample": "குறியீட்டு சரிபார்ப்பில் சமரசம் செய்வது முழு வெளியீட்டையும் ஆபத்துக்குள்ளாக்கக்கூடும்.",
+    "taWord": "ஆபத்துக்குள்ளாக்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Endanger",
+      "Risk"
+    ],
+    "antonyms": [
+      "Protect",
+      "Safeguard"
+    ]
+  },
+  {
+    "id": 1021,
+    "word": "Jolt",
+    "definition": "Give a sudden surprise, shock, or impetus to action.",
+    "enExample": "The security breach served as a jolt to improve system hardening.",
+    "taExample": "பாதுகாப்பு மீறல் கணினியை பலப்படுத்துவதற்கான ஒரு அதிர்ச்சியாக அமைந்தது.",
+    "taWord": "அதிர்ச்சி / திடுக்கிடச் செய்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Shock",
+      "Impulse"
+    ]
+  },
+  {
+    "id": 1022,
+    "word": "Judicial",
+    "definition": "Relating to impartial judgment or official decision-making processes.",
+    "enExample": "The review board exercised judicial review over API policy changes.",
+    "taExample": "மதிப்பாய்வு வாரியம் API கொள்கை மாற்றங்கள் குறித்து நடுநிலையான மதிப்பாய்வை மேற்கொண்டது.",
+    "taWord": "நீதித் துறை சார்ந்த / மதிப்பீட்டு சார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Impartial",
+      "Legal"
+    ]
+  }
+]

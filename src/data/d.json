@@ -1,0 +1,672 @@
+[
+  {
+    "id": 401,
+    "word": "Debug",
+    "definition": "Identify and remove errors from computer hardware or software.",
+    "enExample": "I spent hours trying to debug the memory leak.",
+    "taExample": "நினைவகக் கசிவை சரிசெய்ய நான் பல மணிநேரம் செலவிட்டேன்.",
+    "taWord": "பிழைநீக்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Troubleshoot",
+      "Fix"
+    ],
+    "antonyms": [
+      "Corrupt"
+    ]
+  },
+  {
+    "id": 402,
+    "word": "Decouple",
+    "definition": "Separate or disengage components so they act independently.",
+    "enExample": "We should decouple the frontend from the backend services.",
+    "taExample": "பின்னணி சேவைகளிலிருந்து முன்பகுதியை நாம் பிரிக்க வேண்டும்.",
+    "taWord": "பிரித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Separate",
+      "Detach"
+    ],
+    "antonyms": [
+      "Couple",
+      "Integrate"
+    ]
+  },
+  {
+    "id": 403,
+    "word": "Default",
+    "definition": "A preselected option adopted by a computer program or other mechanism when no alternative is specified.",
+    "enExample": "The default timeout is set to 30 seconds.",
+    "taExample": "இயல்புநிலை நேரமுடிவு 30 விநாடிகளாக அமைக்கப்பட்டுள்ளது.",
+    "taWord": "இயல்புநிலை",
+    "pos": "noun",
+    "synonyms": [
+      "Standard",
+      "Baseline"
+    ],
+    "antonyms": [
+      "Custom"
+    ]
+  },
+  {
+    "id": 404,
+    "word": "Defer",
+    "definition": "Put off an action or event to a later time.",
+    "enExample": "We can defer loading the script until the page is fully rendered.",
+    "taExample": "பக்கம் முழுமையாக ஏற்றப்படும் வரை ஸ்கிரிப்டை ஏற்றுவதை நாம் ஒத்திவைக்கலாம்.",
+    "taWord": "ஒத்திவைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Delay",
+      "Postpone"
+    ],
+    "antonyms": [
+      "Advance",
+      "Expedite"
+    ]
+  },
+  {
+    "id": 405,
+    "word": "Delegate",
+    "definition": "Entrust a task or responsibility to another person or component.",
+    "enExample": "Delegate the heavy processing to a background worker.",
+    "taExample": "கடினமான செயலாக்கத்தை பின்னணி பணியாளரிடம் ஒப்படைக்கவும்.",
+    "taWord": "ஒப்படைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Assign",
+      "Entrust"
+    ],
+    "antonyms": [
+      "Retain"
+    ]
+  },
+  {
+    "id": 406,
+    "word": "Dependency",
+    "definition": "A program or piece of code that another relies on to function.",
+    "enExample": "Update the package to fix a vulnerability in a dependency.",
+    "taExample": "ஒரு சார்புக்கூறில் உள்ள பாதிப்பை சரிசெய்ய தொகுப்பை புதுப்பிக்கவும்.",
+    "taWord": "சார்புக்கூறு",
+    "pos": "noun",
+    "synonyms": [
+      "Reliance",
+      "Requirement"
+    ],
+    "antonyms": [
+      "Independence"
+    ]
+  },
+  {
+    "id": 407,
+    "word": "Deploy",
+    "definition": "Bring into effective action; move software to a server or environment where it can run.",
+    "enExample": "Deploy the new version to the production server.",
+    "taExample": "புதிய பதிப்பை உற்பத்தி சேவையகத்தில் வரிசைப்படுத்தவும்.",
+    "taWord": "வரிசைப்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Install",
+      "Launch"
+    ],
+    "antonyms": [
+      "Withdraw"
+    ]
+  },
+  {
+    "id": 408,
+    "word": "Deprecate",
+    "definition": "Mark a feature as obsolete and warn against its use in the future.",
+    "enExample": "We will deprecate the old API endpoint in the next release.",
+    "taExample": "அடுத்த வெளியீட்டில் பழைய API இறுதிப்புள்ளியை பயன்பாட்டிலிருந்து விலக்குவோம்.",
+    "taWord": "பயன்பாட்டிலிருந்து விலக்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Phase out",
+      "Obsolete"
+    ],
+    "antonyms": [
+      "Endorse",
+      "Introduce"
+    ]
+  },
+  {
+    "id": 409,
+    "word": "Derive",
+    "definition": "Obtain something from a specified source.",
+    "enExample": "The state is derived from the user's input.",
+    "taExample": "பயனரின் உள்ளீட்டிலிருந்து நிலை பெறப்படுகிறது.",
+    "taWord": "பெறுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Obtain",
+      "Extract"
+    ],
+    "antonyms": [
+      "Invent"
+    ]
+  },
+  {
+    "id": 410,
+    "word": "Designate",
+    "definition": "Appoint someone to a specified position; officially assign a specified status or name.",
+    "enExample": "Designate this server as the primary database node.",
+    "taExample": "இந்த சேவையகத்தை முதன்மை தரவுத்தள முனையாக நியமிக்கவும்.",
+    "taWord": "நியமித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Appoint",
+      "Assign"
+    ],
+    "antonyms": [
+      "Dismiss"
+    ]
+  },
+  {
+    "id": 411,
+    "word": "Deterministic",
+    "definition": "Always producing the same output from a given starting condition or initial state.",
+    "enExample": "The function is deterministic; it always returns the same result for the same input.",
+    "taExample": "செயல்பாடு உறுதியானது; ஒரே உள்ளீட்டிற்கு எப்போதும் ஒரே முடிவையே வழங்கும்.",
+    "taWord": "உறுதியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Predictable",
+      "Reliable"
+    ],
+    "antonyms": [
+      "Random",
+      "Stochastic"
+    ]
+  },
+  {
+    "id": 412,
+    "word": "Diagnostics",
+    "definition": "Programs or techniques used to identify faults or errors in hardware or software.",
+    "enExample": "Run the network diagnostics to find the issue.",
+    "taExample": "சிக்கலைக் கண்டறிய நெட்வொர்க் கண்டறிதல்களை இயக்கவும்.",
+    "taWord": "கண்டறிதல்கள்",
+    "pos": "noun",
+    "synonyms": [
+      "Analysis",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "id": 413,
+    "word": "Discrepancy",
+    "definition": "A lack of compatibility or similarity between two or more facts.",
+    "enExample": "There's a discrepancy between the staging and production environments.",
+    "taExample": "ஸ்டேஜிங் மற்றும் உற்பத்தி சூழல்களுக்கு இடையே ஒரு முரண்பாடு உள்ளது.",
+    "taWord": "முரண்பாடு",
+    "pos": "noun",
+    "synonyms": [
+      "Inconsistency",
+      "Difference"
+    ],
+    "antonyms": [
+      "Similarity",
+      "Agreement"
+    ]
+  },
+  {
+    "id": 414,
+    "word": "Discrete",
+    "definition": "Individually separate and distinct.",
+    "enExample": "The system is composed of several discrete modules.",
+    "taExample": "இந்த அமைப்பு பல தனித்தனி தொகுதிகளால் ஆனது.",
+    "taWord": "தனித்தனி",
+    "pos": "adj.",
+    "synonyms": [
+      "Separate",
+      "Distinct"
+    ],
+    "antonyms": [
+      "Continuous",
+      "Connected"
+    ]
+  },
+  {
+    "id": 415,
+    "word": "Dispatch",
+    "definition": "Send off to a destination or for a purpose.",
+    "enExample": "Dispatch the action to update the Redux store.",
+    "taExample": "ரெடக்ஸ் ஸ்டோரை புதுப்பிக்க செயலை அனுப்பவும்.",
+    "taWord": "அனுப்புதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Send",
+      "Transmit"
+    ],
+    "antonyms": [
+      "Receive"
+    ]
+  },
+  {
+    "id": 416,
+    "word": "Diverge",
+    "definition": "Separate from another route, especially a main one, and go in a different direction.",
+    "enExample": "The two branches of code started to diverge significantly.",
+    "taExample": "குறியீட்டின் இரண்டு கிளைகள் கணிசமாக வேறுபடத் தொடங்கின.",
+    "taWord": "வேறுபடுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Separate",
+      "Deviate"
+    ],
+    "antonyms": [
+      "Converge",
+      "Merge"
+    ]
+  },
+  {
+    "id": 417,
+    "word": "Document",
+    "definition": "Record (something) in written, photographic, or other form.",
+    "enExample": "Please document the new API changes.",
+    "taExample": "புதிய API மாற்றங்களை ஆவணப்படுத்தவும்.",
+    "taWord": "ஆவணப்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Record",
+      "Log"
+    ]
+  },
+  {
+    "id": 418,
+    "word": "Domain",
+    "definition": "A distinct subset of the Internet with addresses sharing a common suffix or under the control of a particular organization or individual.",
+    "enExample": "Configure the DNS records for the new domain.",
+    "taExample": "புதிய களத்திற்கான DNS பதிவுகளை உள்ளமைக்கவும்.",
+    "taWord": "களம்",
+    "pos": "noun",
+    "synonyms": [
+      "Realm",
+      "Territory"
+    ]
+  },
+  {
+    "id": 419,
+    "word": "Downtime",
+    "definition": "Time during which a machine, especially a computer, is out of action or unavailable for use.",
+    "enExample": "We experienced zero downtime during the database migration.",
+    "taExample": "தரவுத்தள இடம்பெயர்வின் போது நாங்கள் எவ்வித வேலையில்லா நேரத்தையும் சந்திக்கவில்லை.",
+    "taWord": "வேலையில்லா நேரம்",
+    "pos": "noun",
+    "synonyms": [
+      "Outage",
+      "Interruption"
+    ],
+    "antonyms": [
+      "Uptime"
+    ]
+  },
+  {
+    "id": 420,
+    "word": "Dynamic",
+    "definition": "Characterized by constant change, activity, or progress.",
+    "enExample": "The website uses dynamic content generation.",
+    "taExample": "வலைத்தளம் மாறும் உள்ளடக்க உருவாக்கத்தைப் பயன்படுத்துகிறது.",
+    "taWord": "மாறும் / ஆற்றல்மிக்க",
+    "pos": "adj.",
+    "synonyms": [
+      "Active",
+      "Changing"
+    ],
+    "antonyms": [
+      "Static",
+      "Fixed"
+    ]
+  },
+  {
+    "id": 421,
+    "word": "Descriptive",
+    "definition": "Serving or seeking to describe.",
+    "enExample": "Use descriptive variable names to improve readability.",
+    "taExample": "படிக்கக்கூடிய தன்மையை மேம்படுத்த விளக்கமான மாறி பெயர்களைப் பயன்படுத்தவும்.",
+    "taWord": "விளக்கமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Explanatory",
+      "Expressive"
+    ],
+    "antonyms": [
+      "Vague"
+    ]
+  },
+  {
+    "id": 422,
+    "word": "Detect",
+    "definition": "Discover or identify the presence or existence of.",
+    "enExample": "The system will detect any unauthorized access attempts.",
+    "taExample": "எந்தவொரு அங்கீகரிக்கப்படாத அணுகல் முயற்சிகளையும் கணினி கண்டறியும்.",
+    "taWord": "கண்டறிதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Notice",
+      "Discover"
+    ],
+    "antonyms": [
+      "Ignore"
+    ]
+  },
+  {
+    "id": 423,
+    "word": "Diminish",
+    "definition": "Make or become less.",
+    "enExample": "The new cache strategy will diminish the load on the database.",
+    "taExample": "புதிய தற்காலிக சேமிப்பு உத்தி தரவுத்தளத்தின் மீதான சுமையைக் குறைக்கும்.",
+    "taWord": "குறைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Reduce",
+      "Decrease"
+    ],
+    "antonyms": [
+      "Increase",
+      "Enhance"
+    ]
+  },
+  {
+    "id": 424,
+    "word": "Disruptive",
+    "definition": "Causing or tending to cause disruption; innovative or groundbreaking.",
+    "enExample": "This new technology is highly disruptive to the industry.",
+    "taExample": "இந்த புதிய தொழில்நுட்பம் தொழில்துறையில் பெரும் மாற்றத்தை ஏற்படுத்துவதாக (சீர்குலைப்பதாக) உள்ளது.",
+    "taWord": "மாற்றத்தை ஏற்படுத்தும் (சீர்குலைக்கும்)",
+    "pos": "adj.",
+    "synonyms": [
+      "Innovative",
+      "Disturbing"
+    ],
+    "antonyms": [
+      "Calming",
+      "Settling"
+    ]
+  },
+  {
+    "id": 425,
+    "word": "Duplicate",
+    "definition": "Exactly like something else, especially through having been copied.",
+    "enExample": "Remove the duplicate entries from the database.",
+    "taExample": "தரவுத்தளத்திலிருந்து நகல் உள்ளீடுகளை அகற்றவும்.",
+    "taWord": "நகல்",
+    "pos": "noun",
+    "synonyms": [
+      "Copy",
+      "Replica"
+    ],
+    "antonyms": [
+      "Original"
+    ]
+  },
+  {
+    "id": 426,
+    "word": "Dearth",
+    "definition": "A scarcity or lack of something.",
+    "enExample": "There is a dearth of evidence.",
+    "taExample": "ஆதாரங்களின் பற்றாக்குறை உள்ளது.",
+    "taWord": "பற்றாக்குறை",
+    "pos": "noun",
+    "synonyms": [
+      "Lack",
+      "Scarcity",
+      "Shortage"
+    ],
+    "antonyms": [
+      "Abundance",
+      "Surplus"
+    ]
+  },
+  {
+    "id": 427,
+    "word": "Deleterious",
+    "definition": "Causing harm or damage.",
+    "enExample": "Divorce is assumed to have deleterious effects on children.",
+    "taExample": "விவாகரத்து குழந்தைகள் மீது தீங்கு விளைவிக்கும் தாக்கங்களை ஏற்படுத்தும் என்று கருதப்படுகிறது.",
+    "taWord": "தீங்கு விளைவிக்கும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Harmful",
+      "Damaging",
+      "Detrimental"
+    ],
+    "antonyms": [
+      "Beneficial",
+      "Advantageous"
+    ]
+  },
+  {
+    "id": 428,
+    "word": "Dichotomy",
+    "definition": "A division or contrast between two things that are or are represented as being opposed or entirely different.",
+    "enExample": "A rigid dichotomy between science and mysticism.",
+    "taExample": "அறிவியலுக்கும் ஆன்மீகத்திற்கும் இடையிலான ஒரு கடுமையான இருபிரிவு.",
+    "taWord": "இருபிரிவு",
+    "pos": "noun",
+    "synonyms": [
+      "Division",
+      "Separation",
+      "Contrast"
+    ],
+    "antonyms": [
+      "Similarity",
+      "Unity"
+    ]
+  },
+  {
+    "id": 429,
+    "word": "Deliberate",
+    "definition": "Done consciously and intentionally; carefully thought out.",
+    "enExample": "We made a deliberate architectural choice to stick with TypeScript.",
+    "taExample": "டைப்ஸ்கிரிப்டை தொடர நாங்கள் ஒரு திட்டமிட்ட கட்டமைப்பு தேர்வை செய்தோம்.",
+    "taWord": "திட்டமிட்ட / யோசித்துச் செய்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Intentional",
+      "Calculated"
+    ],
+    "antonyms": [
+      "Accidental",
+      "Unintentional"
+    ]
+  },
+  {
+    "id": 430,
+    "word": "Demonstrate",
+    "definition": "Clearly show the existence or truth of something by giving proof or evidence.",
+    "enExample": "The benchmark results clearly demonstrate the performance gains.",
+    "taExample": "அளவுகோல் முடிவுகள் செயல்திறன் நன்மைகளை தெளிவாக நிரூபிக்கின்றன.",
+    "taWord": "நிரூபித்தல் / விளக்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Show",
+      "Prove"
+    ],
+    "antonyms": [
+      "Disprove",
+      "Conceal"
+    ]
+  },
+  {
+    "id": 431,
+    "word": "Diligence",
+    "definition": "Careful and persistent work or effort.",
+    "enExample": "Due diligence during code reviews prevents critical production bugs.",
+    "taExample": "குறியீட்டு மதிப்பாய்வின் போது காட்டும் தகுந்த சிரத்தை முக்கிய உற்பத்தி பிழைகளைத் தடுக்கிறது.",
+    "taWord": "சிரத்தை / கவனமான முயற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Thoroughness",
+      "Care"
+    ],
+    "antonyms": [
+      "Negligence",
+      "Carelessness"
+    ]
+  },
+  {
+    "id": 432,
+    "word": "Discipline",
+    "definition": "The practice of following rules or code of conduct strictly.",
+    "enExample": "Consistent testing requires engineering discipline.",
+    "taExample": "சீரான சோதனைக்கு பொறியியல் ஒழுக்கம் தேவை.",
+    "taWord": "ஒழுக்கம் / கட்டுப்பாடு",
+    "pos": "noun",
+    "synonyms": [
+      "Control",
+      "Order"
+    ],
+    "antonyms": [
+      "Chaos",
+      "Disorder"
+    ]
+  },
+  {
+    "id": 433,
+    "word": "Diverse",
+    "definition": "Showing a great deal of variety; very different.",
+    "enExample": "A diverse workforce brings innovative perspectives to software design.",
+    "taExample": "பல்வேறு வகையான பணியாளர்கள் மென்பொருள் வடிவமைப்பிற்கு புதுமையான பார்வைகளைக் கொண்டு வருகிறார்கள்.",
+    "taWord": "பல்வேறு வகையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Varied",
+      "Diverse"
+    ],
+    "antonyms": [
+      "Homogeneous",
+      "Similar"
+    ]
+  },
+  {
+    "id": 434,
+    "word": "Durable",
+    "definition": "Able to withstand wear, pressure, or long use.",
+    "enExample": "PostgreSQL provides durable storage for session tokens.",
+    "taExample": "போஸ்ட்கிரெஸ்கியூல் அமர்வு டோக்கன்களுக்கு நீடித்த சேமிப்பிடத்தை வழங்குகிறது.",
+    "taWord": "நீடித்த / நிலையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Long-lasting",
+      "Sturdy"
+    ],
+    "antonyms": [
+      "Fragile",
+      "Transient"
+    ]
+  },
+  {
+    "id": 435,
+    "word": "Distinguish",
+    "definition": "Recognize or point out a difference between items or concepts.",
+    "enExample": "Developers must distinguish between state and props in React.",
+    "taExample": "ரியாக்ட்டில் நிலை (state) மற்றும் பிராப்ஸை (props) டெவலப்பர்கள் வேறுபடுத்திப் பார்க்க வேண்டும்.",
+    "taWord": "வேறுபடுத்திப் பார்த்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Differentiate",
+      "Discern"
+    ],
+    "antonyms": [
+      "Confuse",
+      "Equate"
+    ]
+  },
+  {
+    "id": 436,
+    "word": "Dominant",
+    "definition": "Most important, powerful, or influential.",
+    "enExample": "JavaScript remains the dominant language for browser scripting.",
+    "taExample": "உலாவி ஸ்கிரிப்டிங்கிற்கு ஜாவாஸ்கிரிப்ட் ஆதிக்கம் செலுத்தும் மொழியாக உள்ளது.",
+    "taWord": "முதன்மை / ஆதிக்கம் செலுத்தும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Leading",
+      "Main"
+    ],
+    "antonyms": [
+      "Minor",
+      "Subordinate"
+    ]
+  },
+  {
+    "id": 441,
+    "word": "Dodgy",
+    "definition": "Dishonest or unreliable; of low quality.",
+    "enExample": "That regular expression looks a bit dodgy, it might cause performance issues.",
+    "taExample": "அந்த ரெகுலர் எக்ஸ்ப்ரெஷன் சற்று நம்பகத்தன்மையற்றதாகத் தெரிகிறது, அது சிக்கல்களை ஏற்படுத்தலாம்.",
+    "taWord": "நம்பகத்தன்மையற்ற",
+    "pos": "adj.",
+    "synonyms": [
+      "Unreliable",
+      "Suspicious"
+    ],
+    "antonyms": [
+      "Reliable",
+      "Solid"
+    ]
+  },
+  {
+    "id": 437,
+    "word": "Drive",
+    "definition": "An innate impulse or motivation to achieve a goal.",
+    "enExample": "Her drive to learn modern tools accelerated her promotion.",
+    "taExample": "நவீன கருவிகளைக் கற்றுக்கொள்வதற்கான அவளது ஊக்கம் அவளது உயர்வை விரைவுபடுத்தியது.",
+    "taWord": "ஊக்கம் / இயக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Motivation",
+      "Ambition"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Lethargy"
+    ]
+  },
+  {
+    "id": 438,
+    "word": "Distinctive",
+    "definition": "Characteristic of one person or thing, serving to distinguish it from others.",
+    "enExample": "The application features a distinctive serif typographic layout.",
+    "taExample": "பயன்பாடு ஒரு தனித்துவமான செரிஃப் அச்சுக்கலை அமைப்பைக் கொண்டுள்ளது.",
+    "taWord": "தனித்துவமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Unique",
+      "Characteristic"
+    ],
+    "antonyms": [
+      "Common",
+      "Generic"
+    ]
+  },
+  {
+    "id": 439,
+    "word": "Deliverable",
+    "definition": "A tangible or intangible feature, report, or output produced as a result of a sprint or project.",
+    "enExample": "The primary deliverable for this sprint is the user settings dashboard.",
+    "taExample": "இந்த ஸ்பிரிண்டிற்கான முதன்மை விநியோகப் பொருள் பயனர் அமைப்புகள் டாஷ்போர்டு ஆகும்.",
+    "taWord": "விநியோகப் பொருள் / வழங்கப்பட வேண்டிய தயாரிப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Output",
+      "Product",
+      "Result"
+    ]
+  },
+  {
+    "id": 440,
+    "word": "Demo",
+    "definition": "A live demonstration or presentation of completed software features to stakeholders.",
+    "enExample": "She presented a smooth demo of the payment gateway integration to the client.",
+    "taExample": "அவள் வாடிக்கையாளருக்கு கட்டண வாயில் ஒருங்கிணைப்பின் மென்மையான செயல்விளக்கத்தை வழங்கினாள்.",
+    "taWord": "செயல்விளக்கம் (Demo)",
+    "pos": "noun",
+    "synonyms": [
+      "Demonstration",
+      "Walkthrough",
+      "Presentation"
+    ]
+  }
+]

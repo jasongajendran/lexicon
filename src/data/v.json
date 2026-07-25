@@ -1,0 +1,308 @@
+[
+  {
+    "id": 2201,
+    "word": "Validation",
+    "definition": "Verifying input data to ensure it adheres to specified formats, constraints, and business rules before processing.",
+    "enExample": "Schema validation rejects malformed JSON payloads prior to database insertion.",
+    "taExample": "அமைப்பியல் சரிபார்ப்பு (Validation) தரவுத்தளத்தில் செருகுவதற்கு முன் தவறான வடிவிலான JSON பேலோடுகளை நிராகரிக்கிறது.",
+    "taWord": "சரிபார்ப்பு (Validation)",
+    "pos": "noun",
+    "synonyms": [
+      "Verification",
+      "Sanitization",
+      "Check"
+    ],
+    "antonyms": [
+      "Invalidation",
+      "Corruption"
+    ]
+  },
+  {
+    "id": 2202,
+    "word": "Variable",
+    "definition": "A named storage location in memory holding a data value that can be read or modified during execution.",
+    "enExample": "Declare immutable state values using the const keyword instead of mutable variable let declarations.",
+    "taExample": "மாறக்கூடிய 'let' அறிவிப்புகளுக்குப் பதிலாக 'const' முக்கிய வார்த்தையைப் பயன்படுத்தி மாறாத நிலை மதிப்புகளை அறிவிக்கவும்.",
+    "taWord": "மாறி (Variable)",
+    "pos": "noun",
+    "synonyms": [
+      "Identifier",
+      "Binding",
+      "Storage cell"
+    ],
+    "antonyms": [
+      "Constant",
+      "Literal"
+    ]
+  },
+  {
+    "id": 2203,
+    "word": "Vector",
+    "definition": "A dynamic one-dimensional array data structure, or mathematical magnitude and direction representation.",
+    "enExample": "SVG vector graphics scale crisp without pixelation on high-density Retina displays.",
+    "taExample": "SVG திசையன் (Vector) கிராபிக்ஸ் உயர் அடர்த்தி விழித்திரை காட்சிகளில் தெளிவுத்திறன் இழக்காமல் துல்லியமாக விரிவடைகின்றன.",
+    "taWord": "திசையன் / காரணி (Vector)",
+    "pos": "noun",
+    "synonyms": [
+      "Dynamic array",
+      "Directional tensor"
+    ],
+    "antonyms": [
+      "Raster",
+      "Scalar"
+    ]
+  },
+  {
+    "id": 2204,
+    "word": "Vendor",
+    "definition": "An external third-party provider or directory housing compiled dependency packages and binaries.",
+    "enExample": "The vendor folder isolates third-party Go or PHP packages from core codebase logic.",
+    "taExample": "வெண்டார் (Vendor) கோப்புறை மூன்றாம் தரப்பு பயன்பாட்டுத் தொகுப்புகளை முதன்மை குறியீட்டுத் தளத்திலிருந்து தனிமைப்படுத்துகிறது.",
+    "taWord": "மூன்றாம் தரப்பு / வெண்டார்",
+    "pos": "noun",
+    "synonyms": [
+      "Third-party",
+      "Supplier",
+      "Provider"
+    ],
+    "antonyms": [
+      "Internal",
+      "Native"
+    ]
+  },
+  {
+    "id": 2205,
+    "word": "Versioning",
+    "definition": "Assigning unique release numbers or commit hashes to track software evolution over time.",
+    "enExample": "Semantic versioning uses MAJOR.MINOR.PATCH syntax to communicate breaking API updates.",
+    "taExample": "சொற்பொருள் பதிப்புமுறை (Semantic versioning) முக்கிய API புதுப்பிப்புகளைத் தெரிவிக்க MAJOR.MINOR.PATCH தொடரியலைப் பயன்படுத்துகிறது.",
+    "taWord": "பதிப்பு முறை (Versioning)",
+    "pos": "noun",
+    "synonyms": [
+      "Revisioning",
+      "SemVer",
+      "Tagging"
+    ]
+  },
+  {
+    "id": 2206,
+    "word": "View",
+    "definition": "The presentation user interface layer in MVC architecture, or a stored query in relational databases.",
+    "enExample": "Database views encapsulate complex multi-table SQL JOIN queries into readable queryable tables.",
+    "taExample": "தரவுத்தளக் காட்சிகள் (Views) சிக்கலான பல-அட்டவணை SQL சேர்க்கை வினவல்களை எளிய அட்டவணைகளாகக் சுருக்குகின்றன.",
+    "taWord": "காட்சி / இடைமுகம் (View)",
+    "pos": "noun",
+    "synonyms": [
+      "Presentation layer",
+      "Virtual table",
+      "UI"
+    ],
+    "antonyms": [
+      "Model",
+      "Controller"
+    ]
+  },
+  {
+    "id": 2207,
+    "word": "Viewport",
+    "definition": "The visible framing window area of a web browser display where rendered web application content appears.",
+    "enExample": "Set the viewport meta tag width=device-width to ensure responsive mobile web layouts.",
+    "taExample": "மொபைல் வலைத் தளவமைப்புகளை உறுதிசெய்ய காட்சிப்பகுதி (Viewport) மெட்டா குறியீட்டை அமைக்கவும்.",
+    "taWord": "காட்சிப்பகுதி (Viewport)",
+    "pos": "noun",
+    "synonyms": [
+      "Display area",
+      "Screen bounds",
+      "Frame"
+    ]
+  },
+  {
+    "id": 2208,
+    "word": "Virtualization",
+    "definition": "Creating virtual instances of hardware resources, operating systems, or rendering windows.",
+    "enExample": "List virtualization renders only visible DOM rows to handle smooth scrolling over 100,000 table items.",
+    "taExample": "பட்டியல் மெய்நிகராக்கம் (Virtualization) 100,000 உருப்படிகள் கொண்ட பட்டியல்களில் மென்மையான உருளலை வழங்க புலப்படும் வரிசைகளை மட்டுமே வரைந்து காட்டுகிறது.",
+    "taWord": "மெய்நிகராக்கம் (Virtualization)",
+    "pos": "noun",
+    "synonyms": [
+      "Abstraction",
+      "Emulation",
+      "Windowing"
+    ],
+    "antonyms": [
+      "Physical hardware",
+      "Direct rendering"
+    ]
+  },
+  {
+    "id": 2209,
+    "word": "Virtual DOM",
+    "definition": "An in-memory lightweight tree representation of the actual browser DOM used by UI frameworks for batch diffing.",
+    "enExample": "React calculates minimal real DOM patches by diffing two Virtual DOM trees.",
+    "taExample": "இரண்டு மெய்நிகர் DOM (Virtual DOM) மரங்களை ஒப்பிடுவதன் மூலம் ரியாக்ட் குறைந்தபட்ச உண்மையான DOM புதுப்பிப்புகளைக் கணக்கிடுகிறது.",
+    "taWord": "மெய்நிகர் DOM (Virtual DOM)",
+    "pos": "noun",
+    "synonyms": [
+      "In-memory DOM",
+      "Shadow DOM"
+    ],
+    "antonyms": [
+      "Real DOM"
+    ]
+  },
+  {
+    "id": 2210,
+    "word": "Visibility",
+    "definition": "The property defining whether an element is visible, hidden, or accessible within a specified scope.",
+    "enExample": "CSS visibility: hidden hides an element visually while preserving its layout space.",
+    "taExample": "CSS visibility: hidden ஒரு உறுப்பை பார்வைக்கு மறைக்கிறது, ஆனால் அதன் தளவமைப்பு இடத்தை வைத்திருக்கிறது.",
+    "taWord": "புலப்படுதன்மை (Visibility)",
+    "pos": "noun",
+    "synonyms": [
+      "Exposure",
+      "Display state",
+      "Accessibility"
+    ],
+    "antonyms": [
+      "Invisibility",
+      "Opacity"
+    ]
+  },
+  {
+    "id": 2211,
+    "word": "Void",
+    "definition": "A type keyword indicating that a function returns no value upon completion.",
+    "enExample": "TypeScript functions that perform side-effects without returning data have a void return type.",
+    "taExample": "தரவைத் திருப்பியளிக்காமல் பக்க விளைவுகளைச் செய்யும் டைப்ஸ்கிரிப்ட் செயல்பாடுகள் 'void' திரும்பும் வகையைக் கொண்டுள்ளன.",
+    "taWord": "வெற்று திரும்பல் வகை (Void)",
+    "pos": "noun",
+    "synonyms": [
+      "Nil return",
+      "Empty type"
+    ],
+    "antonyms": [
+      "Value-returning"
+    ]
+  },
+  {
+    "id": 2212,
+    "word": "Vulnerability",
+    "definition": "A security flaw or weakness in code or system architecture that can be exploited by malicious actors.",
+    "enExample": "Regular npm audit checks identify known security vulnerabilities in project dependencies.",
+    "taExample": "வழக்கமான npm தணிக்கைச் சோதனைகள் திட்டச் சார்புகளில் உள்ள தெரிந்த பாதுகாப்புப் பலவீனங்களை (Vulnerabilities) அடையாளம் காண்கின்றன.",
+    "taWord": "பாதுகாப்புப் பலவீனம் (Vulnerability)",
+    "pos": "noun",
+    "synonyms": [
+      "Flaw",
+      "Exploit",
+      "Weakness"
+    ],
+    "antonyms": [
+      "Hardening",
+      "Security"
+    ]
+  },
+  {
+    "id": 2213,
+    "word": "Value Object",
+    "definition": "A small immutable object in domain-driven design whose equality is determined by its values rather than identity.",
+    "enExample": "Money with currency and amount is a classic value object pattern.",
+    "taExample": "நாணயம் மற்றும் தொகையைக் கொண்ட பணம் ஒரு உன்னதமான மதிப்பு ஆப்ஜெக்ட் (Value object) வடிவமாகும்.",
+    "taWord": "மதிப்பு ஆப்ஜெக்ட் (Value Object)",
+    "pos": "noun",
+    "synonyms": [
+      "Immutable struct",
+      "Value type"
+    ],
+    "antonyms": [
+      "Entity"
+    ]
+  },
+  {
+    "id": 2214,
+    "word": "Vector Database",
+    "definition": "A specialized database designed to store, index, and query high-dimensional vector embeddings for AI similarity search.",
+    "enExample": "Pinecone and Qdrant are vector databases used for RAG application retrieval.",
+    "taExample": "Pinecone மற்றும் Qdrant ஆகியவை AI ஒற்றுமை தேடலுக்குப் பயன்படுத்தப்படும் திசையன் தரவுத்தளங்கள் (Vector databases) ஆகும்.",
+    "taWord": "திசையன் தரவுத்தளம் (Vector DB)",
+    "pos": "noun",
+    "synonyms": [
+      "Embedding database",
+      "Similarity store"
+    ],
+    "antonyms": [
+      "Relational database"
+    ]
+  },
+  {
+    "id": 2215,
+    "word": "Virtual Machine",
+    "definition": "An emulation of a computer system providing hardware functionality and operating system isolation.",
+    "enExample": "Cloud providers run guest operating systems inside hypervisor-managed virtual machines.",
+    "taExample": "கிளவுட் வழங்குநர்கள் ஹைப்பர்வைசர் நிர்வகிக்கும் மெய்நிகர் இயந்திரங்களுக்குள் (Virtual machines) விருந்தினர் இயக்க முறைமைகளை இயக்குகிறார்கள்.",
+    "taWord": "மெய்நிகர் கணினி (Virtual Machine)",
+    "pos": "noun",
+    "synonyms": [
+      "VM",
+      "Guest OS",
+      "Emulator"
+    ],
+    "antonyms": [
+      "Bare-metal server"
+    ]
+  },
+  {
+    "id": 2216,
+    "word": "Vacillate",
+    "definition": "Alternate or waver between different opinions or actions; be indecisive.",
+    "enExample": "I had for a time vacillated between teaching and journalism.",
+    "taExample": "கற்பித்தல் மற்றும் இதழியலுக்கு இடையே நான் சில காலம் ஊசலாடினேன்.",
+    "taWord": "ஊசலாடு",
+    "pos": "verb",
+    "synonyms": [
+      "Dither",
+      "Be indecisive",
+      "Waver"
+    ],
+    "antonyms": [
+      "Resolute",
+      "Decide"
+    ]
+  },
+  {
+    "id": 2217,
+    "word": "Venerate",
+    "definition": "Regard with great respect; revere.",
+    "enExample": "Mother Teresa is venerated as a saint.",
+    "taExample": "அன்னை தெரசா ஒரு புனிதராக மதிக்கப்படுகிறார்.",
+    "taWord": "மதி",
+    "pos": "verb",
+    "synonyms": [
+      "Revere",
+      "Respect",
+      "Worship"
+    ],
+    "antonyms": [
+      "Despise",
+      "Disrespect"
+    ]
+  },
+  {
+    "id": 2218,
+    "word": "Vociferous",
+    "definition": "(especially of a person or speech) vehement or clamorous.",
+    "enExample": "He was a vociferous opponent of the takeover.",
+    "taExample": "அவர் கையகப்படுத்துதலின் சத்தமாக வெளிப்படுத்தும் எதிர்ப்பாளராக இருந்தார்.",
+    "taWord": "சத்தமாக வெளிப்படுத்தும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Loud",
+      "Vocal",
+      "Outspoken"
+    ],
+    "antonyms": [
+      "Silent",
+      "Quiet"
+    ]
+  }
+]

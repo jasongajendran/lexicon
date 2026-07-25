@@ -1,0 +1,585 @@
+[
+  {
+    "id": 201,
+    "word": "Bandwidth",
+    "definition": "The energy or mental capacity required to deal with a situation.",
+    "enExample": "I don't have the bandwidth to take on this project right now.",
+    "taExample": "தற்போது இந்தத் திட்டத்தை ஏற்றுக்கொள்ள எனக்குப் போதிய நேரமும் ஆற்றலும் இல்லை.",
+    "taWord": "ஆற்றல் / நேரம் (கொள்ளளவு)",
+    "pos": "noun",
+    "synonyms": [
+      "Capacity",
+      "Time"
+    ]
+  },
+  {
+    "id": 202,
+    "word": "Benchmark",
+    "definition": "A standard or point of reference against which things may be compared or assessed.",
+    "enExample": "We need a benchmark to test the new system's performance.",
+    "taExample": "புதிய அமைப்பின் செயல்திறனைச் சோதிக்க நமக்கு ஒரு அளவுகோல் தேவை.",
+    "taWord": "அளவுகோல்",
+    "pos": "noun",
+    "synonyms": [
+      "Standard",
+      "Baseline"
+    ]
+  },
+  {
+    "id": 203,
+    "word": "Bespoke",
+    "definition": "Made for a particular customer or user.",
+    "enExample": "They built a bespoke solution for the client.",
+    "taExample": "வாடிக்கையாளருக்காக ஒரு தனிப்பயன் தீர்வை அவர்கள் உருவாக்கினர்.",
+    "taWord": "தனிப்பயன்",
+    "pos": "adj.",
+    "synonyms": [
+      "Custom",
+      "Tailored"
+    ],
+    "antonyms": [
+      "Off-the-shelf",
+      "Standard"
+    ]
+  },
+  {
+    "id": 204,
+    "word": "Binary",
+    "definition": "Relating to, composed of, or involving two things.",
+    "enExample": "This isn't a binary choice; there are other options.",
+    "taExample": "இது ஒரு இருமத் தேர்வு அல்ல; வேறு விருப்பங்களும் உள்ளன.",
+    "taWord": "இரும",
+    "pos": "adj.",
+    "synonyms": [
+      "Dual",
+      "Twofold"
+    ],
+    "antonyms": [
+      "Multiple",
+      "Continuous"
+    ]
+  },
+  {
+    "id": 205,
+    "word": "Boilerplate",
+    "definition": "Standardized text, code, or procedures that can be reused without changing.",
+    "enExample": "Generate the boilerplate code using the CLI.",
+    "taExample": "CLI ஐப் பயன்படுத்தி தரநிலையான குறியீட்டை உருவாக்கவும்.",
+    "taWord": "தரநிலையான",
+    "pos": "noun",
+    "synonyms": [
+      "Template",
+      "Standard"
+    ],
+    "antonyms": [
+      "Custom",
+      "Original"
+    ]
+  },
+  {
+    "id": 206,
+    "word": "Bottleneck",
+    "definition": "A point of congestion or blockage.",
+    "enExample": "The database is the bottleneck in our architecture.",
+    "taExample": "எங்கள் கட்டமைப்பில் தரவுத்தளமே ஒரு தடையாக உள்ளது.",
+    "taWord": "தடை / நெரிசல்",
+    "pos": "noun",
+    "synonyms": [
+      "Obstacle",
+      "Blockage"
+    ],
+    "antonyms": [
+      "Opening",
+      "Flow"
+    ]
+  },
+  {
+    "id": 207,
+    "word": "Buffer",
+    "definition": "A temporary storage area in memory.",
+    "enExample": "The stream data is stored in a buffer.",
+    "taExample": "ஸ்ட்ரீம் தரவு ஒரு தாங்ககத்தில் சேமிக்கப்படுகிறது.",
+    "taWord": "தாங்ககம்",
+    "pos": "noun",
+    "synonyms": [
+      "Cache",
+      "Cushion"
+    ]
+  },
+  {
+    "id": 208,
+    "word": "Bug",
+    "definition": "An error, flaw, or fault in a computer program or system.",
+    "enExample": "We found a critical bug in the production release.",
+    "taExample": "உற்பத்தி வெளியீட்டில் ஒரு முக்கியமான பிழையை நாங்கள் கண்டறிந்தோம்.",
+    "taWord": "பிழை",
+    "pos": "noun",
+    "synonyms": [
+      "Error",
+      "Glitch"
+    ],
+    "antonyms": [
+      "Fix",
+      "Feature"
+    ]
+  },
+  {
+    "id": 209,
+    "word": "Bypass",
+    "definition": "Go past or around.",
+    "enExample": "We can bypass the cache for real-time requests.",
+    "taExample": "நிகழ்நேர கோரிக்கைகளுக்கு நாம் தற்காலிக சேமிப்பைத் தவிர்க்கலாம்.",
+    "taWord": "தவிர்த்தல் / கடந்துசெல்லுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Circumvent",
+      "Avoid"
+    ],
+    "antonyms": [
+      "Confront",
+      "Face"
+    ]
+  },
+  {
+    "id": 210,
+    "word": "Blocker",
+    "definition": "An issue that prevents progress.",
+    "enExample": "Is there any blocker preventing you from finishing this task?",
+    "taExample": "இந்த பணியை முடிப்பதற்கு ஏதேனும் தடை உள்ளதா?",
+    "taWord": "தடை",
+    "pos": "noun",
+    "synonyms": [
+      "Obstacle",
+      "Impediment"
+    ],
+    "antonyms": [
+      "Enabler",
+      "Facilitator"
+    ]
+  },
+  {
+    "id": 211,
+    "word": "Bootstrapping",
+    "definition": "Starting a process or business with little or no external help.",
+    "enExample": "We are bootstrapping the new startup without VC funding.",
+    "taExample": "விசி நிதியுதவியின்றி புதிய ஸ்டார்ட்அப்பை நாங்களே சுயமுயற்சியால் தொடங்குகிறோம்.",
+    "taWord": "சுயமுயற்சியால் தொடங்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Self-starting",
+      "Initiating"
+    ]
+  },
+  {
+    "id": 212,
+    "word": "Branch",
+    "definition": "A diverging sequence of code or logic.",
+    "enExample": "Create a new branch for your feature.",
+    "taExample": "உங்கள் அம்சத்திற்காக ஒரு புதிய கிளையை உருவாக்கவும்.",
+    "taWord": "கிளை",
+    "pos": "noun",
+    "synonyms": [
+      "Fork",
+      "Divergence"
+    ],
+    "antonyms": [
+      "Merge"
+    ]
+  },
+  {
+    "id": 213,
+    "word": "Broadcast",
+    "definition": "Transmit a message or data to all nodes in a network.",
+    "enExample": "Broadcast the event to all connected clients.",
+    "taExample": "இணைக்கப்பட்ட அனைத்து வாடிக்கையாளர்களுக்கும் நிகழ்வை ஒளிபரப்பவும்.",
+    "taWord": "ஒளிபரப்பு",
+    "pos": "verb",
+    "synonyms": [
+      "Transmit",
+      "Disseminate"
+    ],
+    "antonyms": [
+      "Unicast",
+      "Receive"
+    ]
+  },
+  {
+    "id": 214,
+    "word": "Bulk",
+    "definition": "In large amounts.",
+    "enExample": "Use bulk inserts to speed up the database operation.",
+    "taExample": "தரவுத்தள செயல்பாட்டை விரைவுபடுத்த மொத்த செருகல்களைப் பயன்படுத்தவும்.",
+    "taWord": "மொத்தமாக",
+    "pos": "noun",
+    "synonyms": [
+      "Mass",
+      "Volume"
+    ],
+    "antonyms": [
+      "Individual",
+      "Single"
+    ]
+  },
+  {
+    "id": 215,
+    "word": "Brittle",
+    "definition": "Hard but liable to break or shatter easily; used for fragile code.",
+    "enExample": "The legacy tests are extremely brittle.",
+    "taExample": "பழைய சோதனைகள் மிகவும் எளிதில் உடையக்கூடியவை (நிலையற்றவை).",
+    "taWord": "எளிதில் உடையக்கூடிய (நிலையற்ற)",
+    "pos": "adj.",
+    "synonyms": [
+      "Fragile",
+      "Delicate"
+    ],
+    "antonyms": [
+      "Robust",
+      "Flexible"
+    ]
+  },
+  {
+    "id": 216,
+    "word": "Bundle",
+    "definition": "A collection of things, or a quantity of material, tied or wrapped up together.",
+    "enExample": "Webpack will bundle all the assets into a single file.",
+    "taExample": "வெப்பேக் அனைத்து சொத்துகளையும் ஒரு கோப்பாகத் தொகுக்கும்.",
+    "taWord": "தொகுப்பு",
+    "pos": "verb",
+    "synonyms": [
+      "Package",
+      "Compile"
+    ],
+    "antonyms": [
+      "Separate",
+      "Split"
+    ]
+  },
+  {
+    "id": 217,
+    "word": "Bifurcate",
+    "definition": "Divide into two branches or forks.",
+    "enExample": "The logic will bifurcate based on the user role.",
+    "taExample": "பயனர் பங்கை அடிப்படையாகக் கொண்டு தர்க்கம் இரண்டாகப் பிரியும்.",
+    "taWord": "இரண்டாகப் பிரித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Split",
+      "Diverge"
+    ],
+    "antonyms": [
+      "Merge",
+      "Converge"
+    ]
+  },
+  {
+    "id": 218,
+    "word": "Backlog",
+    "definition": "A build-up of uncompleted work or matters needing to be dealt with.",
+    "enExample": "We need to groom the product backlog.",
+    "taExample": "நாம் தயாரிப்பு நிலுவைப் பணிகளைச் சீரமைக்க வேண்டும்.",
+    "taWord": "நிலுவைப் பணி",
+    "pos": "noun",
+    "synonyms": [
+      "Accumulation",
+      "Reserve"
+    ]
+  },
+  {
+    "id": 219,
+    "word": "Backport",
+    "definition": "Take a software modification from a newer version and apply it to an older version.",
+    "enExample": "We must backport the security fix to version 1.0.",
+    "taExample": "பாதுகாப்பு திருத்தத்தை பதிப்பு 1.0 க்கு நாம் பின்னோக்கிப் பயன்படுத்த வேண்டும்.",
+    "taWord": "பின்னோக்கிப் பயன்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Retrofit",
+      "Apply"
+    ]
+  },
+  {
+    "id": 220,
+    "word": "Batch",
+    "definition": "A quantity or consignment of goods produced at one time.",
+    "enExample": "Run a batch job to process the payments overnight.",
+    "taExample": "ஒரே இரவில் பணம் செலுத்துதல்களைச் செயலாக்க ஒரு தொகுதிப் பணியை இயக்கவும்.",
+    "taWord": "தொகுதி",
+    "pos": "noun",
+    "synonyms": [
+      "Group",
+      "Lot"
+    ]
+  },
+  {
+    "id": 221,
+    "word": "Bind",
+    "definition": "Tie or fasten tightly; associate a variable with a value.",
+    "enExample": "Bind the function to the correct context.",
+    "taExample": "சரியான சூழலுடன் செயல்பாட்டை இணைக்கவும்.",
+    "taWord": "இணைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Attach",
+      "Link"
+    ],
+    "antonyms": [
+      "Unbind",
+      "Detach"
+    ]
+  },
+  {
+    "id": 222,
+    "word": "Brief",
+    "definition": "Of short duration; a concise statement or summary.",
+    "enExample": "Give me a brief update on the status.",
+    "taExample": "நிலவரம் குறித்து எனக்கு ஒரு சுருக்கமான மேம்படுத்தலைக் கொடுங்கள்.",
+    "taWord": "சுருக்கமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Concise",
+      "Short"
+    ],
+    "antonyms": [
+      "Detailed",
+      "Lengthy"
+    ]
+  },
+  {
+    "id": 224,
+    "word": "Brisk",
+    "definition": "Active, fast, and energetic.",
+    "enExample": "The application requires a brisk response time.",
+    "taExample": "பயன்பாட்டிற்கு விரைவான பதிலளிப்பு நேரம் தேவை.",
+    "taWord": "விரைவான",
+    "pos": "adj.",
+    "synonyms": [
+      "Fast",
+      "Quick"
+    ],
+    "antonyms": [
+      "Slow",
+      "Sluggish"
+    ]
+  },
+  {
+    "id": 225,
+    "word": "Build",
+    "definition": "Construct something by putting parts or material together.",
+    "enExample": "Trigger a new build in the CI pipeline.",
+    "taExample": "சிஐ பைப்லைனில் ஒரு புதிய உருவாக்கத்தைத் தூண்டவும்.",
+    "taWord": "உருவாக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Construct",
+      "Assemble"
+    ],
+    "antonyms": [
+      "Destroy",
+      "Dismantle"
+    ]
+  },
+  {
+    "id": 226,
+    "word": "Bellicose",
+    "definition": "Demonstrating aggression and willingness to fight.",
+    "enExample": "The general made some bellicose statements about his country's enemies.",
+    "taExample": "ஜெனரல் தனது நாட்டின் எதிரிகளைப் பற்றி சில சண்டையிடும் அறிக்கைகளை வெளியிட்டார்.",
+    "taWord": "சண்டையிட விரும்புகிற",
+    "pos": "adj.",
+    "synonyms": [
+      "Aggressive",
+      "Hostile",
+      "Warlike"
+    ],
+    "antonyms": [
+      "Peaceable",
+      "Pacifist"
+    ]
+  },
+  {
+    "id": 227,
+    "word": "Benevolent",
+    "definition": "Well meaning and kindly.",
+    "enExample": "He was a benevolent leader who cared for his people.",
+    "taExample": "அவர் தனது மக்களைப் பேணிக்காத்த ஒரு கருணையுள்ள தலைவர்.",
+    "taWord": "கருணையுள்ள",
+    "pos": "adj.",
+    "synonyms": [
+      "Kind",
+      "Compassionate",
+      "Generous"
+    ],
+    "antonyms": [
+      "Malevolent",
+      "Cruel"
+    ]
+  },
+  {
+    "id": 228,
+    "word": "Bolster",
+    "definition": "Support or strengthen.",
+    "enExample": "The fall in interest rates is starting to bolster confidence.",
+    "taExample": "வட்டி விகிதங்களின் வீழ்ச்சி நம்பிக்கையை பலப்படுத்தத் தொடங்கியுள்ளது.",
+    "taWord": "பலப்படுத்து",
+    "pos": "verb",
+    "synonyms": [
+      "Strengthen",
+      "Support",
+      "Reinforce"
+    ],
+    "antonyms": [
+      "Undermine",
+      "Weaken"
+    ]
+  },
+  {
+    "id": 229,
+    "word": "Balance",
+    "definition": "An even distribution of weight or forces enabling stability.",
+    "enExample": "Maintaining work-life balance improves team productivity.",
+    "taExample": "வேலை-வாழ்க்கை சமநிலையை பராமரிப்பது அணியின் உற்பத்தித்திறனை மேம்படுத்துகிறது.",
+    "taWord": "சமநிலை",
+    "pos": "noun",
+    "synonyms": [
+      "Equilibrium",
+      "Stability"
+    ],
+    "antonyms": [
+      "Imbalance",
+      "Disproportion"
+    ]
+  },
+  {
+    "id": 230,
+    "word": "Barrier",
+    "definition": "An obstacle or rule that prevents movement or communication.",
+    "enExample": "Language should not be a barrier to collaborative engineering.",
+    "taExample": "கூட்டுப் பொறியியலுக்கு மொழி ஒரு தடையாக இருக்கக் கூடாது.",
+    "taWord": "தடை / அரண்",
+    "pos": "noun",
+    "synonyms": [
+      "Obstacle",
+      "Hurdle"
+    ],
+    "antonyms": [
+      "Bridge",
+      "Gateway"
+    ]
+  },
+  {
+    "id": 231,
+    "word": "Baseline",
+    "definition": "A minimum or starting point used for comparison.",
+    "enExample": "Establish a baseline benchmark before optimizing the algorithm.",
+    "taExample": "அல்காரிதத்தை மேம்படுத்துவதற்கு முன் ஒரு அடிப்படை அளவுகோலை நிறுவுங்கள்.",
+    "taWord": "அடிப்படைக்கோடு",
+    "pos": "noun",
+    "synonyms": [
+      "Standard",
+      "Benchmark"
+    ]
+  },
+  {
+    "id": 232,
+    "word": "Benefit",
+    "definition": "An advantage or profit gained from something.",
+    "enExample": "The primary benefit of microservices is independent deployment.",
+    "taExample": "மைக்ரோ சர்வீஸ்களின் முதன்மை நன்மை சுயாதீனமான வரிசைப்படுத்தல் ஆகும்.",
+    "taWord": "நன்மை / பயன்பாடு",
+    "pos": "noun",
+    "synonyms": [
+      "Advantage",
+      "Gain"
+    ],
+    "antonyms": [
+      "Drawback",
+      "Disadvantage"
+    ]
+  },
+  {
+    "id": 233,
+    "word": "Broaden",
+    "definition": "Become or make larger or wider in scope.",
+    "enExample": "Attending tech conferences helps broaden your professional horizon.",
+    "taExample": "தொழில்நுட்ப மாநாடுகளில் கலந்துகொள்வது உங்கள் தொழில்முறை பார்வையை விசாலமாக்க உதவுகிறது.",
+    "taWord": "விசாலமாக்குதல் / விரிவுபடுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Expand",
+      "Widen"
+    ],
+    "antonyms": [
+      "Narrow",
+      "Restrict"
+    ]
+  },
+  {
+    "id": 234,
+    "word": "Business",
+    "definition": "A commercial or professional enterprise or domain of activity.",
+    "enExample": "Understanding business domain logic is crucial for software engineers.",
+    "taExample": "மென்பொருள் பொறியாளர்களுக்கு வணிக கள தர்க்கத்தைப் புரிந்துகொள்வது முக்கியம்.",
+    "taWord": "வணிகம் / தொழில்",
+    "pos": "noun",
+    "synonyms": [
+      "Enterprise",
+      "Commerce"
+    ]
+  },
+  {
+    "id": 235,
+    "word": "Brevity",
+    "definition": "Concise and exact use of words in writing or speech.",
+    "enExample": "Brevity in status updates helps keep meetings efficient.",
+    "taExample": "நிலவர புதுப்பிப்புகளில் சுருக்கம் கூட்டங்களை திறம்பட வைக்க உதவுகிறது.",
+    "taWord": "சுருக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Conciseness",
+      "Succinctness"
+    ],
+    "antonyms": [
+      "Verbosity",
+      "Lengthiness"
+    ]
+  },
+  {
+    "id": 236,
+    "word": "Beacon",
+    "definition": "A guiding light or signal that inspires or directs others.",
+    "enExample": "Clean code practices act as a beacon for new team members.",
+    "taExample": "தூய்மையான குறியீட்டு நடைமுறைகள் புதிய அணி உறுப்பினர்களுக்கு வழிகாட்டியாக செயல்படுகின்றன.",
+    "taWord": "வழிகாட்டி / கலங்கரை விளக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Guide",
+      "Signal"
+    ]
+  },
+  {
+    "id": 237,
+    "word": "Boundary",
+    "definition": "A limit or border indicating the extent of an area or responsibility.",
+    "enExample": "Clearly define module boundaries to prevent tight coupling.",
+    "taExample": "கடுமையான பிணைப்பைத் தவிர்க்க தொகுதி எல்லைகளைத் தெளிவாக வரையறுக்கவும்.",
+    "taWord": "எல்லை",
+    "pos": "noun",
+    "synonyms": [
+      "Limit",
+      "Border"
+    ]
+  },
+  {
+    "id": 238,
+    "word": "Behavior",
+    "definition": "The way in which a system or individual operates or reacts.",
+    "enExample": "Automated tests verify expected application behavior.",
+    "taExample": "தானியங்கு சோதனைகள் எதிர்பார்க்கப்படும் செயலி செயல்பாட்டை சரிபார்க்கின்றன.",
+    "taWord": "நடத்தை / செயல்பாடு",
+    "pos": "noun",
+    "synonyms": [
+      "Conduct",
+      "Action"
+    ]
+  }
+]

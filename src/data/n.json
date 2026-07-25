@@ -1,0 +1,310 @@
+[
+  {
+    "id": 1401,
+    "word": "Namespace",
+    "definition": "A declarative region that provides a scope to identifiers such as variables, functions, and types.",
+    "enExample": "Namespaces prevent collision between third-party packages with identical class names.",
+    "taExample": "பெயர்வெளிகள் (Namespaces) ஒரே மாதிரியான வகுப்பெயர்களைக் கொண்ட மூன்றாம் தரப்பு தொகுப்புகளுக்கு இடையே மோதலைத் தடுக்கின்றன.",
+    "taWord": "பெயர்வெளி (Namespace)",
+    "pos": "noun",
+    "synonyms": [
+      "Scope",
+      "Domain",
+      "Context"
+    ],
+    "antonyms": [
+      "Global scope"
+    ]
+  },
+  {
+    "id": 1402,
+    "word": "Native",
+    "definition": "Software, code, or data built specifically for a particular hardware architecture or operating system platform.",
+    "enExample": "React Native renders authentic native iOS and Android user interface components.",
+    "taExample": "ரியாக்ட் நேட்டிவ் உண்மையான தாய்மொழி (Native) iOS மற்றும் Android இடைமுகக் கூறுகளை இயற்றுகிறது.",
+    "taWord": "தாய்மொழி / உள்ளூர் தளக் குறியீடு",
+    "pos": "adj.",
+    "synonyms": [
+      "Built-in",
+      "Platform-specific",
+      "Raw"
+    ],
+    "antonyms": [
+      "Emulated",
+      "Interpreted",
+      "Cross-platform"
+    ]
+  },
+  {
+    "id": 1403,
+    "word": "Navigation",
+    "definition": "The mechanism or set of UI elements allowing users to travel between pages or sections in an app.",
+    "enExample": "The sidebar navigation offers direct access to analytics dashboards and user settings.",
+    "taExample": "பக்கவாட்டு பட்டி வழிசெலுத்தல் பகுப்பாய்வு டாஷ்போர்டுகள் மற்றும் பயனர் அமைப்புகளுக்கு நேரடி அணுகலை வழங்குகிறது.",
+    "taWord": "வழிசெலுத்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Routing",
+      "Wayfinding",
+      "Traversing"
+    ]
+  },
+  {
+    "id": 1404,
+    "word": "Nested",
+    "definition": "Contained or placed structurally inside another element of the same or different type.",
+    "enExample": "Avoid deeply nested callback loops to prevent unreadable code blocks.",
+    "taExample": "படிக்க முடியாத குறியீட்டுத் தொகுதிகளைத் தவிர்க்க ஆழமாக உள்ளமைக்கப்பட்ட (Nested) கால்பேக் சுழல்களைத் தவிர்க்கவும்.",
+    "taWord": "உள்ளமைக்கப்பட்ட",
+    "pos": "adj.",
+    "synonyms": [
+      "Embedded",
+      "Inner",
+      "Encapsulated"
+    ],
+    "antonyms": [
+      "Flat",
+      "Outer"
+    ]
+  },
+  {
+    "id": 1405,
+    "word": "Network",
+    "definition": "A group of interconnected computers or communication devices sharing resources and exchanging data.",
+    "enExample": "Network latency can slow down client applications if requests are not batched.",
+    "taExample": "கோரிக்கைகள் தொகுக்கப்படாவிட்டால் பிணைய காலதாமதம் கிளையண்ட் பயன்பாடுகளை மெதுவாக்கும்.",
+    "taWord": "பிணையம் / வலைப்பின்னல்",
+    "pos": "noun",
+    "synonyms": [
+      "Grid",
+      "Interconnect",
+      "Mesh"
+    ],
+    "antonyms": [
+      "Standalone"
+    ]
+  },
+  {
+    "id": 1406,
+    "word": "Neural",
+    "definition": "Relating to artificial neural networks modeled on the human brain's interconnected neuron network.",
+    "enExample": "Deep neural networks power modern image recognition and natural language processing models.",
+    "taExample": "ஆழ்ந்த நரம்பியல் வலைப்பின்னல்கள் நவீன பட அங்கீகாரம் மற்றும் இயற்கை மொழி செயலாக்க மாதிரிகளை இயக்குகின்றன.",
+    "taWord": "நரம்பியல் சார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Cognitive",
+      "Connectionist",
+      "AI-driven"
+    ]
+  },
+  {
+    "id": 1407,
+    "word": "Node",
+    "definition": "A fundamental unit or vertex in a graph/tree, or a computer machine connected to a network.",
+    "enExample": "Each tree node holds a data value and references to child nodes.",
+    "taExample": "ஒவ்வொரு மர முனையமும் (Node) ஒரு தரவு மதிப்பையும் சேய் முனைகளுக்கான குறிப்புகளையும் கொண்டுள்ளது.",
+    "taWord": "முனையம் / கணு",
+    "pos": "noun",
+    "synonyms": [
+      "Vertex",
+      "Point",
+      "Host"
+    ]
+  },
+  {
+    "id": 1408,
+    "word": "Non-blocking",
+    "definition": "An asynchronous execution mode where operations do not halt the main thread while awaiting completion.",
+    "enExample": "Node.js uses a non-blocking I/O event loop to handle thousands of concurrent requests.",
+    "taExample": "Node.js ஆயிரக்கணக்கான ஒரேநேரக் கோரிக்கைகளைக் கையாள தடுக்காத (Non-blocking) I/O நிகழ்வுச் சுழற்சியைப் பயன்படுத்துகிறது.",
+    "taWord": "தடுக்காத / ஒத்திசைவற்ற",
+    "pos": "adj.",
+    "synonyms": [
+      "Asynchronous",
+      "Non-preemptive"
+    ],
+    "antonyms": [
+      "Blocking",
+      "Synchronous"
+    ]
+  },
+  {
+    "id": 1409,
+    "word": "Normalization",
+    "definition": "The process of structuring a database to reduce redundancy and improve data integrity.",
+    "enExample": "Database normalization separates repetitive customer details into a distinct table.",
+    "taExample": "தரவுத்தள இயல்பாக்கம் (Normalization) மீண்டும் மீண்டும் வரும் வாடிக்கையாளர் விவரங்களை ஒரு தனி அட்டவணையில் பிரிக்கிறது.",
+    "taWord": "இயல்பாக்கம் (Normalization)",
+    "pos": "noun",
+    "synonyms": [
+      "Standardization",
+      "Structuring"
+    ],
+    "antonyms": [
+      "Denormalization"
+    ]
+  },
+  {
+    "id": 1410,
+    "word": "Notice",
+    "definition": "A visual alert or non-intrusive banner informing users of state changes or system warnings.",
+    "enExample": "Show a toast notice when the user successfully updates their profile.",
+    "taExample": "பயனர் தனது சுயவிவரத்தை வெற்றிகரமாகப் புதுப்பிக்கும் போது ஒரு அறிவிப்புப் பேனரைக் (Notice) காட்டவும்.",
+    "taWord": "அறிவிப்பு / எச்சரிக்கை",
+    "pos": "noun",
+    "synonyms": [
+      "Alert",
+      "Banner",
+      "Notification"
+    ]
+  },
+  {
+    "id": 1411,
+    "word": "Null",
+    "definition": "A built-in keyword representing the intentional absence of any value or object reference.",
+    "enExample": "Check if the object is null before attempting to access its inner properties.",
+    "taExample": "பொருளின் உள் பண்புகளை அணுக முயற்சிக்கும் முன் அது பூஜ்ஜியமா (Null) என்பதைச் சரிபார்க்கவும்.",
+    "taWord": "வெற்று / பூஜ்ஜிய மதிப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Nil",
+      "Empty",
+      "Void"
+    ],
+    "antonyms": [
+      "Value",
+      "Defined"
+    ]
+  },
+  {
+    "id": 1412,
+    "word": "Numeric",
+    "definition": "Relating to or representing numbers rather than letters or special symbols.",
+    "enExample": "The pin code field should only accept numeric input.",
+    "taExample": "பின் குறியீடு புலம் எண் உள்ளீட்டை (Numeric) மட்டுமே ஏற்க வேண்டும்.",
+    "taWord": "எண் சார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Digital",
+      "Mathematical"
+    ],
+    "antonyms": [
+      "Alphabetic",
+      "Textual"
+    ]
+  },
+  {
+    "id": 1413,
+    "word": "Notation",
+    "definition": "A system of written symbols used to represent numbers, objects, or syntax structures.",
+    "enExample": "Big O notation describes the upper bound of an algorithm's execution time growth.",
+    "taExample": "பிக் ஓ குறியீடு (Big O notation) ஒரு அல்காரிதத்தின் செயல்பாட்டு நேர வளர்ச்சியின் மேல் வரம்பை விவரிக்கிறது.",
+    "taWord": "குறியீடு / குறியீட்டு முறை",
+    "pos": "noun",
+    "synonyms": [
+      "Syntax",
+      "Representation",
+      "Symbolism"
+    ]
+  },
+  {
+    "id": 1414,
+    "word": "Notification",
+    "definition": "A message sent to a user or client informing them of an event or system update.",
+    "enExample": "Web push notifications alert subscribers to newly published articles.",
+    "taExample": "இணையப் புஷ் அறிவிப்புகள் புதிய கட்டுரைகளைப் பற்றி சந்தாதாரர்களை எச்சரிக்கின்றன.",
+    "taWord": "அறிவிப்புச் செய்தி",
+    "pos": "noun",
+    "synonyms": [
+      "Alert",
+      "Message",
+      "Dispatch"
+    ]
+  },
+  {
+    "id": 1415,
+    "word": "N-tier",
+    "definition": "A distributed software architecture where processing, data management, and user interface functions are physically segregated.",
+    "enExample": "N-tier applications isolate database services behind secured backend microservice layers.",
+    "taExample": "என்-டயர் (N-tier) பயன்பாடுகள் தரவுத்தள சேவைகளை பாதுகாப்பான பின்தள மைக்ரோசர்வீஸ் அடுக்குகளுக்கு பின்னால் தனிமைப்படுத்துகின்றன.",
+    "taWord": "பல-அடுக்குக் கட்டமைப்பு",
+    "pos": "adj.",
+    "synonyms": [
+      "Multi-tier",
+      "Distributed"
+    ],
+    "antonyms": [
+      "Monolithic",
+      "Single-tier"
+    ]
+  },
+  {
+    "id": 1416,
+    "word": "Nadir",
+    "definition": "The lowest point in the fortunes of a person or organization.",
+    "enExample": "They had reached the nadir of their sufferings.",
+    "taExample": "அவர்கள் தங்கள் துன்பங்களின் அடிமட்டத்தை எட்டியிருந்தனர்.",
+    "taWord": "அடிமட்டம்",
+    "pos": "noun",
+    "synonyms": [
+      "Lowest point",
+      "Bottom",
+      "Rock bottom"
+    ],
+    "antonyms": [
+      "Zenith",
+      "Peak"
+    ]
+  },
+  {
+    "id": 1417,
+    "word": "Nascent",
+    "definition": "Just coming into existence and beginning to display signs of future potential.",
+    "enExample": "The nascent space industry.",
+    "taExample": "வளரும் விண்வெளித் துறை.",
+    "taWord": "வளரும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Developing",
+      "Growing",
+      "Emerging"
+    ],
+    "antonyms": [
+      "Developed",
+      "Mature"
+    ]
+  },
+  {
+    "id": 1418,
+    "word": "Nuance",
+    "definition": "A subtle difference in or shade of meaning, expression, or sound.",
+    "enExample": "The nuances of facial expression and body language.",
+    "taExample": "முக பாவனைகள் மற்றும் உடல் மொழியின் நுணுக்கங்கள்.",
+    "taWord": "நுணுக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Subtle distinction",
+      "Shade",
+      "Subtlety"
+    ]
+  },
+  {
+    "id": 1419,
+    "word": "Nitty-gritty",
+    "definition": "The most important details or practical aspects of a subject or situation.",
+    "enExample": "Let's skip the high-level architecture and get down to the nitty-gritty of the implementation.",
+    "taExample": "மேல்மட்ட வடிவமைப்பைத் தவிர்த்துவிட்டு, செயல்பாட்டின் முக்கியமான நுணுக்கங்களுக்கு வருவோம்.",
+    "taWord": "முக்கியமான நுணுக்கங்கள் / அடிமட்ட விவரங்கள்",
+    "pos": "noun",
+    "synonyms": [
+      "Essentials",
+      "Basics",
+      "Core details"
+    ],
+    "antonyms": [
+      "High-level",
+      "Overview"
+    ]
+  }
+]

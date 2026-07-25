@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1101,
+    "word": "Kernel",
+    "definition": "The core program of an operating system that has complete control over everything in the system.",
+    "enExample": "The Linux kernel manages memory, processes, and device drivers.",
+    "taExample": "லினக்ஸ் கர்னல் நினைவகம், ሂደைகள் மற்றும் சாதன டிரைவர்களை நிர்வகிக்கிறது.",
+    "taWord": "கர்னல் / இயக்க முறைமையின் மையம்",
+    "pos": "noun",
+    "synonyms": [
+      "Core",
+      "Nucleus"
+    ],
+    "antonyms": [
+      "Userland",
+      "Shell"
+    ]
+  },
+  {
+    "id": 1102,
+    "word": "Key",
+    "definition": "A unique value used to identify records in a database or to encrypt and decrypt data.",
+    "enExample": "Every table row should have a unique primary key.",
+    "taExample": "ஒவ்வொரு அட்டவணை வரிசையிலும் ஒரு தனித்துவமான முதன்மை சாவி (Primary key) இருக்க வேண்டும்.",
+    "taWord": "சாவி / திறவுகோல்",
+    "pos": "noun",
+    "synonyms": [
+      "Identifier",
+      "Token"
+    ]
+  },
+  {
+    "id": 1103,
+    "word": "Keyframe",
+    "definition": "A location on a timeline that marks the beginning or end of a transition in animation.",
+    "enExample": "CSS keyframe animations enable smooth motion transitions.",
+    "taExample": "CSS கீபிரேம் அனிமேஷன்கள் மென்மையான இயக்க மாற்றங்களை சாத்தியமாக்குகின்றன.",
+    "taWord": "முதன்மை காட்சிச்சட்டகம் (Keyframe)",
+    "pos": "noun",
+    "synonyms": [
+      "Anchor point",
+      "Waypoint"
+    ]
+  },
+  {
+    "id": 1104,
+    "word": "Key-Value",
+    "definition": "A data storage paradigm designed for storing, retrieving, and managing associative arrays.",
+    "enExample": "Redis is a popular in-memory key-value store.",
+    "taExample": "ரெடிஸ் (Redis) ஒரு பிரபலமான நினைவகக் சாவி-மதிப்பு (Key-Value) சேமிப்பகம் ஆகும்.",
+    "taWord": "சாவி-மதிப்பு",
+    "pos": "adj.",
+    "synonyms": [
+      "Associative map",
+      "Dictionary"
+    ],
+    "antonyms": [
+      "Relational"
+    ]
+  },
+  {
+    "id": 1105,
+    "word": "Keystroke",
+    "definition": "A single depression of a key on a computer keyboard.",
+    "enExample": "The search bar fires query suggestions after every keystroke.",
+    "taExample": "தேடல் பட்டி ஒவ்வொரு விசை அழுத்தத்திற்குப் பிறகும் (Keystroke) வினவல் பரிந்துரைகளை அளிக்கிறது.",
+    "taWord": "விசை அழுத்தம்",
+    "pos": "noun",
+    "synonyms": [
+      "Keypress",
+      "Input action"
+    ]
+  },
+  {
+    "id": 1106,
+    "word": "Keyword",
+    "definition": "A word that is reserved by a programming language or used as a search term.",
+    "enExample": "The 'const' keyword declares a block-scoped variable.",
+    "taExample": "'const' என்ற முக்கியச் சொல் ஒரு தொகுதி-எல்லை மாறினைக் குறிப்பிடுகிறது.",
+    "taWord": "முக்கியச் சொல் / সংরক্ষিত சொல்",
+    "pos": "noun",
+    "synonyms": [
+      "Reserved word",
+      "Search term"
+    ]
+  },
+  {
+    "id": 1107,
+    "word": "Kill",
+    "definition": "Terminate an executing process or background task forcibly.",
+    "enExample": "Use the kill -9 command to stop the unresponsive process.",
+    "taExample": "பதிலளிக்காத செயல்பாட்டை நிறுத்த kill -9 கட்டளையைப் பயன்படுத்தவும்.",
+    "taWord": "ரத்து செய்தல் / முடித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Terminate",
+      "Abort",
+      "Halt"
+    ],
+    "antonyms": [
+      "Spawn",
+      "Start",
+      "Launch"
+    ]
+  },
+  {
+    "id": 1108,
+    "word": "Kilobyte",
+    "definition": "A unit of memory or data storage capacity equal to 1,024 bytes.",
+    "enExample": "The small icons are optimized to occupy only a few kilobytes.",
+    "taExample": "சிறிய உருவப்படங்கள் சில கிலோபைட்டுகளை மட்டுமே ஆக்கிரமிக்கும் வகையில் உகந்ததாக்கப்பட்டுள்ளன.",
+    "taWord": "கிலோபைட்",
+    "pos": "noun",
+    "synonyms": [
+      "KB"
+    ]
+  },
+  {
+    "id": 1109,
+    "word": "Knowledge",
+    "definition": "Information and skills acquired through experience, stored in databases or RAG pipelines.",
+    "enExample": "The chatbot queries the internal knowledge base for answers.",
+    "taExample": "சாட்பாட் பதில்களுக்காக உள் அறிவுக் தளத்தை (Knowledge base) வினவுகிறது.",
+    "taWord": "அறிவு / தகவல் தளம்",
+    "pos": "noun",
+    "synonyms": [
+      "Information",
+      "Data pool"
+    ],
+    "antonyms": [
+      "Ignorance"
+    ]
+  },
+  {
+    "id": 1110,
+    "word": "Kubernetes",
+    "definition": "An open-source container orchestration system for automating application deployment and scaling.",
+    "enExample": "Kubernetes automatically scales our container pods based on CPU load.",
+    "taExample": "சிபியூ சுமையின் அடிப்படையில் குபர்நெட்டீஸ் தானாகவே எங்கள் கொள்கலன் பாட்களை அளவிடுகிறது.",
+    "taWord": "குபர்நெட்டீஸ்",
+    "pos": "noun",
+    "synonyms": [
+      "K8s",
+      "Container orchestrator"
+    ]
+  },
+  {
+    "id": 1111,
+    "word": "Keypair",
+    "definition": "A set of two linked cryptographic keys consisting of a public key and a private key.",
+    "enExample": "Generate an SSH keypair to authenticate securely with GitHub.",
+    "taExample": "கிட்ஹப் உடன் பாதுகாப்பாகச் சான்றளிக்க ஒரு SSH திறவுகோல் ஜோடியை உருவாக்கவும்.",
+    "taWord": "திறவுகோல் ஜோடி",
+    "pos": "noun",
+    "synonyms": [
+      "Asymmetric key set"
+    ]
+  },
+  {
+    "id": 1112,
+    "word": "Kiosk",
+    "definition": "A system mode configured to run a single application with restricted user permissions.",
+    "enExample": "The museum terminal operates in full-screen kiosk mode.",
+    "taExample": "அருங்காட்சியக முனையம் முழுத் திரை கியோஸ்க் (Kiosk) முறையில் இயங்குகிறது.",
+    "taWord": "கியோஸ்க் / கட்டுப்பாட்டு முறைமை",
+    "pos": "noun",
+    "synonyms": [
+      "Locked-down interface"
+    ],
+    "antonyms": [
+      "Unrestricted OS"
+    ]
+  },
+  {
+    "id": 1113,
+    "word": "Kinetic",
+    "definition": "Relating to or resulting from motion in interactive physics-based UI design.",
+    "enExample": "Kinetic scrolling creates natural deceleration physics when dragging elements.",
+    "taExample": "இயக்கவியல் சுருள்வு (Kinetic scrolling) உருப்படிகளை இழுக்கும்போது இயல்பான வேகம் குறைப்பை உருவாக்குகிறது.",
+    "taWord": "இயக்கவியல் / நகர்வு சார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Dynamic",
+      "Motion-based"
+    ],
+    "antonyms": [
+      "Static"
+    ]
+  },
+  {
+    "id": 1114,
+    "word": "Keylock",
+    "definition": "A hardware or software mechanism used to lock access to specific controls.",
+    "enExample": "Enable keylock to avoid accidental touches during video playback.",
+    "taExample": "வீடியோ இயக்கத்தின் போது தற்செயலான தொடுதல்களைத் தவிர்க்க விசைப்பூட்டைப் பயன்படுத்தவும்.",
+    "taWord": "விசைப்பூட்டு",
+    "pos": "noun",
+    "synonyms": [
+      "Lockout",
+      "Protection"
+    ],
+    "antonyms": [
+      "Unlock"
+    ]
+  },
+  {
+    "id": 1115,
+    "word": "Knapsack",
+    "definition": "A classic combinatorial optimization algorithm problem in computer science.",
+    "enExample": "The 0/1 Knapsack problem can be solved efficiently using dynamic programming.",
+    "taExample": "0/1 நॅपசாக் சிக்கலை டைனமிக் புரோகிராமிங் மூலம் திறம்பட தீர்க்க முடியும்.",
+    "taWord": "பை அல்காரிதம் (Knapsack)",
+    "pos": "noun",
+    "synonyms": [
+      "Optimization problem"
+    ]
+  },
+  {
+    "id": 1116,
+    "word": "Keen",
+    "definition": "Having or showing eagerness or enthusiasm.",
+    "enExample": "Keen believers in the monetary system.",
+    "taExample": "பணவியல் அமைப்பில் கூர்மையான நம்பிக்கை கொண்டவர்கள்.",
+    "taWord": "கூர்மையான / ஆர்வமுள்ள",
+    "pos": "adj.",
+    "synonyms": [
+      "Eager",
+      "Anxious",
+      "Intent"
+    ],
+    "antonyms": [
+      "Apathetic",
+      "Reluctant"
+    ]
+  },
+  {
+    "id": 1117,
+    "word": "Knell",
+    "definition": "The sound of a bell, especially when rung solemnly for a death or funeral.",
+    "enExample": "The defeat sounded the death knell for the company.",
+    "taExample": "அந்தத் தோல்வி நிறுவனத்திற்கு சாவு மணியாக அமைந்தது.",
+    "taWord": "சாவு மணி",
+    "pos": "noun",
+    "synonyms": [
+      "Toll",
+      "Ringing",
+      "Chime"
+    ]
+  },
+  {
+    "id": 1118,
+    "word": "Kudos",
+    "definition": "Praise and honor received for an achievement.",
+    "enExample": "Kudos to everyone who put the event together.",
+    "taExample": "நிகழ்வை ஒருங்கிணைத்த அனைவருக்கும் பாராட்டுகள்.",
+    "taWord": "பாராட்டு",
+    "pos": "noun",
+    "synonyms": [
+      "Prestige",
+      "Cachet",
+      "Glory"
+    ],
+    "antonyms": [
+      "Dishonor",
+      "Criticism"
+    ]
+  }
+]

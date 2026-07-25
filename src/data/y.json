@@ -1,0 +1,273 @@
+[
+  {
+    "id": 2501,
+    "word": "YAML",
+    "definition": "YAML Ain't Markup Language; a human-friendly data serialization language commonly used for configuration files and CI/CD pipelines.",
+    "enExample": "Kubernetes manifests and GitHub Actions workflows are formatted using clean YAML syntax.",
+    "taExample": "குபர்நெட்டீஸ் மற்றும் கிளிஹப் ஆக்ஷன்ஸ் பணிப்பாய்வுகள் சுத்தமான YAML தொடரியல் மூலம் வடிவமைக்கப்பட்டுள்ளன.",
+    "taWord": "யாமைல் (YAML கட்டமைப்பு மொழி)",
+    "pos": "noun",
+    "synonyms": [
+      "Data serialization language",
+      "Config format"
+    ],
+    "antonyms": [
+      "JSON",
+      "XML"
+    ]
+  },
+  {
+    "id": 2502,
+    "word": "Yield",
+    "definition": "A keyword used in generator functions to pause execution and emit a value to the iterator caller.",
+    "enExample": "JavaScript generator functions use the yield keyword to produce values lazily on demand.",
+    "taExample": "ஜாவாஸ்கிரிப்ட் ஜெனரேட்டர் செயல்பாடுகள் தேவைக்கேற்ப சோம்பேறியாக மதிப்புகளை உருவாக்க 'yield' முக்கிய வார்த்தையைப் பயன்படுத்துகின்றன.",
+    "taWord": "மதிப்பு வழங்குதல் (Yield)",
+    "pos": "verb",
+    "synonyms": [
+      "Pause and return",
+      "Emit",
+      "Produce"
+    ],
+    "antonyms": [
+      "Return"
+    ]
+  },
+  {
+    "id": 2503,
+    "word": "Yarn",
+    "definition": "A fast, reliable, and secure JavaScript dependency package manager developed by Facebook.",
+    "enExample": "Yarn lockfiles ensure exact deterministic dependency installations across developer environments.",
+    "taExample": "யார்ன் (Yarn) பூட்டுக் கோப்புகள் டெவலப்பர் சூழல்கள் முழுவதும் சரியான சார்பு நிறுவல்களை உறுதி செய்கின்றன.",
+    "taWord": "யார்ன் (தொகுப்பு மேலாளர்)",
+    "pos": "noun",
+    "synonyms": [
+      "Package manager",
+      "Dependency manager"
+    ],
+    "antonyms": [
+      "npm",
+      "pnpm"
+    ]
+  },
+  {
+    "id": 2504,
+    "word": "YAGNI",
+    "definition": "You Aren't Gonna Need It; an Agile development principle stating features should not be added until explicitly required.",
+    "enExample": "Adhering to YAGNI prevents unnecessary code complexity and premature architecture bloat.",
+    "taExample": "YAGNI தத்துவத்தைப் பின்பற்றுவது தேவையற்ற குறியீட்டு சிக்கலையும் முன்கூட்டிய கட்டிடக்கலை வீக்கத்தையும் தடுக்கிறது.",
+    "taWord": "YAGNI / தேவையற்றதை உருவாக்காதே தத்துவம்",
+    "pos": "noun",
+    "synonyms": [
+      "KISS principle",
+      "Lean development"
+    ],
+    "antonyms": [
+      "Over-engineering",
+      "Premature optimization"
+    ]
+  },
+  {
+    "id": 2505,
+    "word": "Yottabyte",
+    "definition": "A unit of digital data storage equal to 10^24 bytes (or 1,024 zettabytes).",
+    "enExample": "Global cloud infrastructure storage capacity is projected to reach yottabyte scales in future decades.",
+    "taExample": "உலகளாவிய கிளவுட் சேமிப்பக திறன் எதிர்கால தசாப்தங்களில் யோட்டாபைட் (Yottabyte) அளவை எட்டும் என எதிர்பார்க்கப்படுகிறது.",
+    "taWord": "யோட்டாபைட் (தகவல் அளவு)",
+    "pos": "noun",
+    "synonyms": [
+      "10^24 bytes",
+      "Digital storage unit"
+    ]
+  },
+  {
+    "id": 2506,
+    "word": "Y-Axis",
+    "definition": "The vertical axis in a two-dimensional Cartesian coordinate system or data chart visualization.",
+    "enExample": "The chart's Y-axis represents response latency values measured in milliseconds.",
+    "taExample": "விளக்கப்படத்தின் ஒய்-அச்சு (Y-axis) மில்லி விநாடிகளில் அளவிடப்படும் மறுமொழி தாமத மதிப்புகளைக் குறிக்கிறது.",
+    "taWord": "ஒய்-அச்சு (செங்குத்து அச்சு)",
+    "pos": "noun",
+    "synonyms": [
+      "Vertical axis",
+      "Ordinate"
+    ],
+    "antonyms": [
+      "X-Axis",
+      "Abscissa"
+    ]
+  },
+  {
+    "id": 2507,
+    "word": "Y-Combinator",
+    "definition": "A fixed-point combinator in lambda calculus that enables anonymous functions to implement self-referential recursion.",
+    "enExample": "The Y-combinator demonstrates recursive function execution without explicit function names.",
+    "taExample": "ஒய்-கம்பினேட்டர் வெளிப்படையான செயல்பாட்டுப் பெயர்கள் இல்லாமல் தற்சுழற்சி செயல்பாட்டை நிரூபிக்கிறது.",
+    "taWord": "ஒய்-கம்பினேட்டர் (தற்சுழற்சி கணிதம்)",
+    "pos": "noun",
+    "synonyms": [
+      "Fixed-point combinator",
+      "Lambda recursion"
+    ]
+  },
+  {
+    "id": 2508,
+    "word": "Yielding",
+    "definition": "Temporarily relinquishing control of the CPU event loop to allow other pending asynchronous tasks to run.",
+    "enExample": "Yielding the main thread periodically keeps web browser UIs smooth during heavy data calculations.",
+    "taExample": "முக்கிய இழையை அவ்வப்போது விடுவிப்பது (Yielding) கனமான கணக்கீடுகளின் போது உலாவி UIs ஐ மென்மையாக வைத்திருக்கிறது.",
+    "taWord": "கட்டுப்பாட்டை விடுவித்தல் (Yielding)",
+    "pos": "noun",
+    "synonyms": [
+      "Relinquishing",
+      "Cooperative multitasking"
+    ],
+    "antonyms": [
+      "Blocking",
+      "Monopolizing"
+    ]
+  },
+  {
+    "id": 2509,
+    "word": "Year-Over-Year",
+    "definition": "A metric comparison comparing software system performance or business metrics with the corresponding period one year prior.",
+    "enExample": "The cloud platform experienced fifty percent Year-Over-Year traffic growth.",
+    "taExample": "கிளவுட் தளம் முந்தைய ஆண்டை ஒப்பிடும்போது ஐம்பது சதவீத ஆண்டுக்கு ஆண்டு (Year-Over-Year) போக்குவரத்து வளர்ச்சியைக் கண்டது.",
+    "taWord": "ஆண்டுக்கு ஆண்டு ஒப்பீடு (YoY)",
+    "pos": "adj.",
+    "synonyms": [
+      "YoY comparison",
+      "Annual growth"
+    ],
+    "antonyms": [
+      "Sequential growth"
+    ]
+  },
+  {
+    "id": 2510,
+    "word": "Y-Intercept",
+    "definition": "The mathematical point where a graph line or regression curve intersects the vertical Y-axis.",
+    "enExample": "Linear regression algorithms compute the slope and Y-intercept to predict future data trends.",
+    "taExample": "நேரியல் ரிகிரஷன் அல்காரிதம்கள் எதிர்கால தரவுப் போக்குகளைக் கணிக்க சாய்வு மற்றும் Y-வெட்டுப்புள்ளியைக் (Y-intercept) கணக்கிடுகின்றன.",
+    "taWord": "ஒய்-வெட்டுப்புள்ளி (Y-intercept)",
+    "pos": "noun",
+    "synonyms": [
+      "Vertical intercept",
+      "Initial value"
+    ],
+    "antonyms": [
+      "X-intercept"
+    ]
+  },
+  {
+    "id": 2511,
+    "word": "Y-Scale",
+    "definition": "The range and mapping interval applied along the vertical axis of data charts or vector graphics.",
+    "enExample": "Use a logarithmic Y-scale when charting wide numerical ranges across orders of magnitude.",
+    "taExample": "அளவுகளின் ஆர்டர்கள் முழுவதும் பரந்த எண் வரம்புகளை அட்டவணைப்படுத்தும்போது மடக்கை ஒய்-அளவுகோலைப் (Y-scale) பயன்படுத்தவும்.",
+    "taWord": "ஒய்-அளவுகோல் (Y-scale)",
+    "pos": "noun",
+    "synonyms": [
+      "Vertical scale",
+      "Chart scale"
+    ],
+    "antonyms": [
+      "X-Scale"
+    ]
+  },
+  {
+    "id": 2512,
+    "word": "Y-Delta",
+    "definition": "The vertical distance or displacement difference between two data coordinates.",
+    "enExample": "Calculate the touch gesture Y-delta to trigger swipe-to-dismiss sheet animations.",
+    "taExample": "ஸ்வைப் செய்து நிராகரிக்கும் அனிமேஷன்களைத் தூண்ட தொடு சைகை Y-டேல்டாவைக் கணக்கிடுங்கள்.",
+    "taWord": "ஒய்-செங்குத்து மாற்றம் (Y-Delta)",
+    "pos": "noun",
+    "synonyms": [
+      "Vertical delta",
+      "Y displacement"
+    ],
+    "antonyms": [
+      "X-Delta"
+    ]
+  },
+  {
+    "id": 2513,
+    "word": "Yield Management",
+    "definition": "Algorithmic resource allocation strategies aimed at maximizing system capacity efficiency or cloud cost-performance ratios.",
+    "enExample": "Automated yield management scales cloud compute instances based on dynamic request loads.",
+    "taExample": "தானியங்கி விளைச்சல் மேலாண்மை (Yield management) மாறும் கோரிக்கை சுமைகளின் அடிப்படையில் கிளவுட் கணக்கீட்டு நிகழ்வுகளை அளவிடுகிறது.",
+    "taWord": "விளைச்சல் மேலாண்மை (Yield Mgmt)",
+    "pos": "noun",
+    "synonyms": [
+      "Capacity optimization",
+      "Resource scheduling"
+    ]
+  },
+  {
+    "id": 2514,
+    "word": "Yellowfield",
+    "definition": "A software development project integrating modern architectures into partially existing legacy system foundations.",
+    "enExample": "Yellowfield modernization replaces monolith database queries with modern microservices incrementally.",
+    "taExample": "எல்லோஃபீல்ட் நவீனமயமாக்கல் ஒற்றைக்கல் தரவுத்தள வினவல்களை நவீன மைக்ரோசர்வீஸ்களுடன் படிப்படியாக மாற்றுகிறது.",
+    "taWord": "இடைநிலைத் திட்டம் (Yellowfield)",
+    "pos": "adj.",
+    "synonyms": [
+      "Hybrid modernization",
+      "Legacy integration"
+    ],
+    "antonyms": [
+      "Greenfield",
+      "Brownfield"
+    ]
+  },
+  {
+    "id": 2515,
+    "word": "Y-Point",
+    "definition": "A key vertical coordinate reference point used in computer graphics and SVG path plotting.",
+    "enExample": "The SVG bezier curve anchor relies on precise X and Y-point definitions.",
+    "taExample": "SVG பெசியர் வளைவு நங்கூரம் துல்லியமான X மற்றும் Y-புள்ளி வரையறைகளை நம்பியுள்ளது.",
+    "taWord": "ஒய்-புள்ளி (Y-Point)",
+    "pos": "noun",
+    "synonyms": [
+      "Vertical coordinate",
+      "Y position"
+    ]
+  },
+  {
+    "id": 2516,
+    "word": "Yearn",
+    "definition": "Have an intense feeling of longing for something, typically something that one has lost or been separated from.",
+    "enExample": "She yearned for a glimpse of him.",
+    "taExample": "அவள் அவனைக் காண ஏங்கினாள்.",
+    "taWord": "ஏங்கு",
+    "pos": "verb",
+    "synonyms": [
+      "Long",
+      "Pine",
+      "Crave"
+    ],
+    "antonyms": [
+      "Despise",
+      "Dislike"
+    ]
+  },
+  {
+    "id": 2517,
+    "word": "Yokel",
+    "definition": "An uneducated and unsophisticated person from the countryside.",
+    "enExample": "A naive yokel.",
+    "taExample": "ஒரு அப்பாவி கிராமத்து ஆள்.",
+    "taWord": "கிராமத்து ஆள்",
+    "pos": "noun",
+    "synonyms": [
+      "Bumpkin",
+      "Peasant",
+      "Rustic"
+    ],
+    "antonyms": [
+      "Sophisticate",
+      "City slicker"
+    ]
+  }
+]

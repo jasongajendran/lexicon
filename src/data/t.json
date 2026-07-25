@@ -1,0 +1,326 @@
+[
+  {
+    "id": 2001,
+    "word": "Thread",
+    "definition": "The smallest sequence of programmed instructions that can be managed independently by an operating system scheduler.",
+    "enExample": "Multi-threaded applications execute concurrent execution paths to maximize multi-core CPU usage.",
+    "taExample": "மல்டி-த்ரெட் பயன்பாடுகள் பல-கோர் CPU பயன்பாட்டை அதிகப்படுத்த ஒரே நேரத்தில் இயங்கும் பாதைகளைச் செயல்படுத்துகின்றன.",
+    "taWord": "இழை / த்ரெட்",
+    "pos": "noun",
+    "synonyms": [
+      "Execution unit",
+      "Worker thread",
+      "Fiber"
+    ],
+    "antonyms": [
+      "Single process"
+    ]
+  },
+  {
+    "id": 2002,
+    "word": "Throughput",
+    "definition": "The rate at which a system processes data or completes requests within a specified timeframe.",
+    "enExample": "Load balancing and caching increased network throughput to 10,000 requests per second.",
+    "taExample": "சுமை சமநிலைப்படுத்துதல் மற்றும் தற்காலிக சேமிப்பு ஆகியவை பிணைய செயல்திறனை (Throughput) வினாடிக்கு 10,000 கோரிக்கைகளாக உயர்த்தின.",
+    "taWord": "செயல்திறன் / தரவு வீதம்",
+    "pos": "noun",
+    "synonyms": [
+      "Bandwidth",
+      "Capacity",
+      "Output rate"
+    ],
+    "antonyms": [
+      "Latency",
+      "Bottleneck"
+    ]
+  },
+  {
+    "id": 2003,
+    "word": "Token",
+    "definition": "An encrypted security string representing user permissions, or a discrete atomic unit produced during code lexical analysis.",
+    "enExample": "JWT tokens store authorization credentials sent in HTTP request headers.",
+    "taExample": "JWT டோக்கன்கள் HTTP கோரிக்கை தலைப்புகளில் அனுப்பப்படும் அங்கீகாரச் சான்றுகளைச் சேமிக்கின்றன.",
+    "taWord": "டோக்கன் / அடையாளக் குறியீடு",
+    "pos": "noun",
+    "synonyms": [
+      "Credential",
+      "Ticket",
+      "Lexeme"
+    ]
+  },
+  {
+    "id": 2004,
+    "word": "Topology",
+    "definition": "The geometric arrangement and logical interconnection layout of nodes and networking devices.",
+    "enExample": "A mesh topology provides redundant failover paths for high-availability database clusters.",
+    "taExample": "ஒரு மெஷ் டோபாலஜி உயர்-கிடைக்கக்கூடிய தரவுத்தள கிளஸ்டர்களுக்கு தேவையற்ற ஃபெயில்ஓவர் பாதைகளை வழங்குகிறது.",
+    "taWord": "பிணைய வடிவமைப்பு (Topology)",
+    "pos": "noun",
+    "synonyms": [
+      "Architecture",
+      "Configuration",
+      "Layout"
+    ]
+  },
+  {
+    "id": 2005,
+    "word": "Transaction",
+    "definition": "A logical unit of database operations executed under ACID properties to maintain data consistency.",
+    "enExample": "Roll back the database transaction if any step in the payment flow fails.",
+    "taExample": "கட்டணப் ஓட்டத்தில் ஏதேனும் ஒரு படி தோல்வியுற்றால் தரவுத்தள பரிவர்த்தனையை (Transaction) மாற்றியமைக்கவும்.",
+    "taWord": "பரிவர்த்தனை",
+    "pos": "noun",
+    "synonyms": [
+      "ACID block",
+      "Operation unit",
+      "Exchange"
+    ]
+  },
+  {
+    "id": 2006,
+    "word": "Transpiler",
+    "definition": "A source-to-source compiler that translates source code written in one programming language into another language at the same abstraction level.",
+    "enExample": "Babel acts as a transpiler, translating modern ES6 JavaScript into backward-compatible ES5 code.",
+    "taExample": "பாபெல் ஒரு டிரான்ஸ்பைலராகச் செயல்பட்டு, நவீன ES6 ஜாவாஸ்கிரிப்டை பின்னோக்கி-இணக்கமான ES5 குறியீடாக மாற்றுகிறது.",
+    "taWord": "மூலக் குறியீடு மாற்றி (Transpiler)",
+    "pos": "noun",
+    "synonyms": [
+      "Source-to-source compiler",
+      "Translator"
+    ]
+  },
+  {
+    "id": 2007,
+    "word": "Tree",
+    "definition": "A hierarchical node data structure consisting of a root node and child nodes linked without cycles.",
+    "enExample": "The Document Object Model (DOM) is structured as a tree of web components.",
+    "taExample": "ஆவணப் பொருள் மாதிரி (DOM) வலைக் கூறுகளின் மரமாக (Tree) கட்டமைக்கப்பட்டுள்ளது.",
+    "taWord": "மரக் கட்டமைப்பு (Tree)",
+    "pos": "noun",
+    "synonyms": [
+      "Hierarchy",
+      "DAG",
+      "Taxonomy"
+    ],
+    "antonyms": [
+      "Graph with cycles"
+    ]
+  },
+  {
+    "id": 2008,
+    "word": "Triage",
+    "definition": "The initial assessment and prioritization of software bug reports based on urgency and severity.",
+    "enExample": "Engineering teams triage incoming security issues daily during sprint standups.",
+    "taExample": "பொறியியல் குழுக்கள் தினசரி ஸ்பிரிண்ட் நிலவரக்கூட்டங்களில் உள்வரும் பாதுகாப்பு சிக்கல்களை வகைப்படுத்தி முன்னுரிமை அளிக்கின்றன (Triage).",
+    "taWord": "முன்னுரிமை பகுப்பாய்வு (Triage)",
+    "pos": "noun",
+    "synonyms": [
+      "Prioritization",
+      "Assessment",
+      "Categorization"
+    ]
+  },
+  {
+    "id": 2009,
+    "word": "Trigger",
+    "definition": "A procedural code block stored in a database that automatically executes when specific table modifications occur.",
+    "enExample": "The audit trigger writes log records whenever an order status changes to fulfilled.",
+    "taExample": "ஆர்டர் நிலை பூர்த்தி செய்யப்பட்டதாக மாறும் போதெல்லாம் தணிக்கைத் தூண்டி (Trigger) பதிவுப் பதிவுகளை எழுதுகிறது.",
+    "taWord": "தூண்டி (Trigger)",
+    "pos": "noun",
+    "synonyms": [
+      "Event handler",
+      "Automated routine"
+    ],
+    "antonyms": [
+      "Manual invocation"
+    ]
+  },
+  {
+    "id": 2010,
+    "word": "Truncate",
+    "definition": "To shorten data strings or delete all rows from a database table without dropping the schema.",
+    "enExample": "TRUNCATE TABLE quickly empties log records faster than standard DELETE SQL queries.",
+    "taExample": "TRUNCATE TABLE நிலையான DELETE SQL வினவல்களை விட விரைவாகப் பதிவுப் பதிவுகளைக் खाली செய்கிறது.",
+    "taWord": "துண்டிப்பு / நீக்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Clip",
+      "Shorten",
+      "Empty"
+    ],
+    "antonyms": [
+      "Extend",
+      "Pad"
+    ]
+  },
+  {
+    "id": 2011,
+    "word": "Tuple",
+    "definition": "A finite ordered sequence of elements, often represented as fixed-length typed arrays in programming languages.",
+    "enExample": "TypeScript tuples allow developers to enforce strict element types at specific array indices.",
+    "taExample": "டைப்ஸ்கிரிப்ட் டூப்பிள்கள் (Tuples) குறிப்பிட்ட அணி குறியீடுகளில் கடுமையான عنصر வகைகளை நடைமுறைப்படுத்த அனுமதிக்கின்றன.",
+    "taWord": "டூப்பிள் / வரிசைப்படுத்தப்பட்ட தொகுதி",
+    "pos": "noun",
+    "synonyms": [
+      "Ordered pair",
+      "Typed array",
+      "Record"
+    ]
+  },
+  {
+    "id": 2012,
+    "word": "Telemetry",
+    "definition": "Automated remote collection and measurement of performance metrics and log diagnostics from live production systems.",
+    "enExample": "OpenTelemetry standardizes trace collection for cloud-native microservice architectures.",
+    "taExample": "OpenTelemetry கிளவுட்-நேட்டிவ் மைக்ரோசர்வீஸ் கட்டமைப்புகளுக்கான தடம் சேகரிப்பைத் தரப்படுத்துகிறது.",
+    "taWord": "தொலைவழிக் கண்காணிப்பு (Telemetry)",
+    "pos": "noun",
+    "synonyms": [
+      "Diagnostics",
+      "Metrics collection",
+      "Monitoring"
+    ]
+  },
+  {
+    "id": 2013,
+    "word": "Template",
+    "definition": "A pre-formatted blueprint file or component containing parameterized placeholders for generating dynamic content.",
+    "enExample": "React JSX templates seamlessly render state data into dynamic HTML markup.",
+    "taExample": "ரியாக்ட் JSX டெம்ப்ளேட்கள் நிலைத் தரவை மாறும் HTML குறியீடாக தடையின்றி இயற்றுகின்றன.",
+    "taWord": "வார்ப்புரு (Template)",
+    "pos": "noun",
+    "synonyms": [
+      "Pattern",
+      "Blueprint",
+      "Boilerplate"
+    ]
+  },
+  {
+    "id": 2014,
+    "word": "Threshold",
+    "definition": "A predefined value or condition limit that triggers an alert, scale event, or state transition when breached.",
+    "enExample": "Exceeding the eighty percent CPU utilization threshold triggers autoscaling instances.",
+    "taExample": "எண்பது சதவீத CPU பயன்பாட்டு வரம்பை (Threshold) மீறுவது தானியங்கு அளவீட்டு நிகழ்வுகளைத் தூண்டுகிறது.",
+    "taWord": "வரம்பு மதிப்பு (Threshold)",
+    "pos": "noun",
+    "synonyms": [
+      "Cutoff",
+      "Limit",
+      "Boundary"
+    ]
+  },
+  {
+    "id": 2015,
+    "word": "Type Safety",
+    "definition": "The feature of a programming language preventing type errors by enforcing strict variable type checking during compilation or execution.",
+    "enExample": "TypeScript provides compile-time type safety to catch bugs before runtime execution.",
+    "taExample": "டைப்ஸ்கிரிப்ட் இயக்க நேர செயல்பாட்டிற்கு முன் பிழைகளைப் பிடிக்க தொகுப்புநேர வகை பாதுகாப்பை (Type safety) வழங்குகிறது.",
+    "taWord": "வகை பாதுகாப்பு (Type Safety)",
+    "pos": "noun",
+    "synonyms": [
+      "Strong typing",
+      "Type integrity"
+    ],
+    "antonyms": [
+      "Type coercion",
+      "Dynamic typing"
+    ]
+  },
+  {
+    "id": 2016,
+    "word": "Taciturn",
+    "definition": "(of a person) reserved or uncommunicative in speech; saying little.",
+    "enExample": "After such gatherings she would be taciturn and morose.",
+    "taExample": "இதுபோன்ற கூட்டங்களுக்குப் பிறகு அவள் அதிகம் பேசாமல் இருப்பாள்.",
+    "taWord": "அதிகம் பேசாத",
+    "pos": "adj.",
+    "synonyms": [
+      "Untalkative",
+      "Uncommunicative",
+      "Reticent"
+    ],
+    "antonyms": [
+      "Talkative",
+      "Loquacious"
+    ]
+  },
+  {
+    "id": 2017,
+    "word": "Tenacious",
+    "definition": "Tending to keep a firm hold of something; clinging or adhering closely.",
+    "enExample": "A tenacious grip.",
+    "taExample": "ஒரு பிடிவாதமான பிடி.",
+    "taWord": "பிடிவாதமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Firm",
+      "Tight",
+      "Fast"
+    ],
+    "antonyms": [
+      "Loose",
+      "Weak"
+    ]
+  },
+  {
+    "id": 2018,
+    "word": "Trepidation",
+    "definition": "A feeling of fear or agitation about something that may happen.",
+    "enExample": "The men set off in fear and trepidation.",
+    "taExample": "அந்த மனிதர்கள் பயத்துடனும் அச்சத்துடனும் புறப்பட்டனர்.",
+    "taWord": "அச்சம்",
+    "pos": "noun",
+    "synonyms": [
+      "Fear",
+      "Apprehension",
+      "Dread"
+    ],
+    "antonyms": [
+      "Calm",
+      "Equanimity"
+    ]
+  },
+  {
+    "id": 2019,
+    "word": "Takeaway",
+    "definition": "A key point, lesson, or insight learned from a meeting, presentation, or discussion.",
+    "enExample": "The main takeaway from the system architecture presentation was to keep services decoupled.",
+    "taExample": "அமைப்புக் கட்டமைப்பு விளக்கக்காட்சியின் முக்கிய கற்றுக்கொண்ட பாடம் சேவைகளைத் தனித்தனியாக வைப்பதாகும்.",
+    "taWord": "முக்கிய செய்தி / கற்றுக்கொண்ட பாடம்",
+    "pos": "noun",
+    "synonyms": [
+      "Insight",
+      "Key point",
+      "Lesson"
+    ]
+  },
+  {
+    "id": 2020,
+    "word": "Touchpoint",
+    "definition": "A scheduled interaction or meeting between teams, stakeholders, or clients.",
+    "enExample": "Weekly touchpoints keep the cross-functional team aligned on project progress.",
+    "taExample": "வாராந்திர தொடர்பு கூட்டங்கள் (Touchpoints) திட்டத்தின் முன்னேற்றத்தில் பலதுறை குழுவை ஒத்திசைவாக வைத்திருக்கின்றன.",
+    "taWord": "தொடர்பு கூட்டம் / தொடர்பு புள்ளி",
+    "pos": "noun",
+    "synonyms": [
+      "Check-in",
+      "Meeting",
+      "Contact point"
+    ]
+  },
+  {
+    "id": 2021,
+    "word": "Trade-off",
+    "definition": "A compromise where one benefit is accepted in exchange for accepting a limitation in another area.",
+    "enExample": "We made a conscious trade-off between build time and runtime rendering performance.",
+    "taExample": "உருவாக்கும் நேரம் மற்றும் இயக்க நேர வரைதல் செயல்திறனுக்கு இடையே நாம் உணர்வுபூர்வமான சமரசத்தை (Trade-off) மேற்கொண்டோம்.",
+    "taWord": "சமரசம் / சாதக பாதக பரிமாற்றம்",
+    "pos": "noun",
+    "synonyms": [
+      "Compromise",
+      "Balance",
+      "Concession"
+    ]
+  }
+]

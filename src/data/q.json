@@ -1,0 +1,295 @@
+[
+  {
+    "id": 1701,
+    "word": "Quality",
+    "definition": "The degree to which software meets specified requirements and user expectations.",
+    "enExample": "Continuous integration pipelines automate quality assurance checks on every pull request.",
+    "taExample": "தொடர்ச்சியான ஒருங்கிணைப்பு குழாய்கள் (CI pipelines) ஒவ்வொரு புல் கோரிக்கையிலும் தரக் கட்டுப்பாட்டுச் சோதனைகளைத் தானியங்குபடுத்துகின்றன.",
+    "taWord": "தரம் / சிறப்புத் தரம்",
+    "pos": "noun",
+    "synonyms": [
+      "Excellence",
+      "Standard",
+      "Reliability"
+    ],
+    "antonyms": [
+      "Defectiveness",
+      "Flaw"
+    ]
+  },
+  {
+    "id": 1702,
+    "word": "Quantifier",
+    "definition": "A element in regular expressions specifying the number of occurrences of a character or pattern.",
+    "enExample": "The '+' quantifier matches one or more repetitions of the preceding character.",
+    "taExample": "'+' அளவி (Quantifier) முந்தைய எழுத்தின் ஒன்று அல்லது அதற்கு மேற்பட்ட மறுபடியும் நிகழ்தல்களுடன் பொருந்துகிறது.",
+    "taWord": "அளவி (Regex Quantifier)",
+    "pos": "noun",
+    "synonyms": [
+      "Multiplier",
+      "Repetition marker"
+    ]
+  },
+  {
+    "id": 1703,
+    "word": "Quantum",
+    "definition": "Relating to computing paradigms that utilize quantum mechanics principles like superposition and entanglement.",
+    "enExample": "Quantum algorithms can solve certain cryptographic problems exponentially faster than classical computers.",
+    "taExample": "குவாண்டம் அல்காரிதம்கள் சில குறியாக்கவியல் சிக்கல்களை பாரம்பரிய கணினிகளை விட அதிவேகமாக தீர்க்க முடியும்.",
+    "taWord": "குவாண்டம்",
+    "pos": "adj.",
+    "synonyms": [
+      "Subatomic",
+      "Superposition-based"
+    ],
+    "antonyms": [
+      "Classical"
+    ]
+  },
+  {
+    "id": 1704,
+    "word": "Quarantine",
+    "definition": "Isolating infected or suspicious files to prevent harm to the rest of the system.",
+    "enExample": "Antivirus software placed the downloaded suspicious executable in quarantine.",
+    "taExample": "வைரஸ் தடுப்பு மென்பொருள் பதிவிறக்கம் செய்யப்பட்ட சந்தேகத்திற்கிடமான கோப்பை தனிமைப்படுத்தலில் (Quarantine) வைத்தது.",
+    "taWord": "தனிமைப்படுத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Isolate",
+      "Segregate",
+      "Contain"
+    ],
+    "antonyms": [
+      "Release",
+      "Integrate"
+    ]
+  },
+  {
+    "id": 1705,
+    "word": "Query",
+    "definition": "A request for information from a database, search engine, or API endpoint.",
+    "enExample": "Optimize the SQL query to return filtered records within milliseconds.",
+    "taExample": "மில்லி விநாடிகளுக்குள் வடிகட்டப்பட்ட பதிவுகளை மீண்டும் பெற SQL வினவலை (Query) உகந்ததாக்குங்கள்.",
+    "taWord": "வினவல்",
+    "pos": "noun",
+    "synonyms": [
+      "Request",
+      "Search",
+      "Fetch"
+    ]
+  },
+  {
+    "id": 1706,
+    "word": "Queue",
+    "definition": "A linear data structure following First-In-First-Out (FIFO) processing order.",
+    "enExample": "Background message queues ensure requests are processed reliably under high load.",
+    "taExample": "பின்னணி செய்தி வரிசைகள் (Queues) அதிக சுமையின் போது கோரிக்கைகள் நம்பகத்தன்மையுடன் செயலாக்கப்படுவதை உறுதி செய்கின்றன.",
+    "taWord": "வரிசை / செய்தி வரிசை",
+    "pos": "noun",
+    "synonyms": [
+      "Buffer",
+      "Line",
+      "FIFO list"
+    ],
+    "antonyms": [
+      "Stack"
+    ]
+  },
+  {
+    "id": 1707,
+    "word": "QuickSort",
+    "definition": "An efficient divide-and-conquer sorting algorithm based on partitioning arrays around a pivot element.",
+    "enExample": "QuickSort achieves average-case O(n log n) performance for large unsorted arrays.",
+    "taExample": "குயிக்சார்ட் பெரிய வகைப்படுத்தப்படாத வரிசைகளுக்கு சராசரி O(n log n) செயல்திறனை அடைகிறது.",
+    "taWord": "விரைவு வகைப்படுத்தல் (QuickSort)",
+    "pos": "noun",
+    "synonyms": [
+      "Partition sort"
+    ]
+  },
+  {
+    "id": 1708,
+    "word": "Quota",
+    "definition": "A predefined limit on the amount of resources, API calls, or disk space allocated.",
+    "enExample": "Exceeding your daily API quota results in HTTP 429 Too Many Requests status codes.",
+    "taExample": "உங்கள் நாளிடை API ஒதுக்கீட்டை (Quota) மீறுவது HTTP 429 பிழை நிலைக் குறியீட்டை ஏற்படுத்துகிறது.",
+    "taWord": "ஒதுக்கீடு / அளவு வரம்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Limit",
+      "Allowance",
+      "Cap"
+    ],
+    "antonyms": [
+      "Unlimited"
+    ]
+  },
+  {
+    "id": 1709,
+    "word": "Quote",
+    "definition": "Enclosing text within quote marks, or preserving literal string literals without variable interpolation.",
+    "enExample": "Always quote user inputs properly in shell scripts to prevent command injection.",
+    "taExample": "கட்டளை உட்செலுத்தலைத் தடுக்க ஷெல் ஸ்கிரிப்ட்களில் பயனர் உள்ளீடுகளை எப்போதும் சரியாக மேற்கோளிட்டு (Quote) எழுதுங்கள்.",
+    "taWord": "மேற்கோள் / சர அடைப்பு",
+    "pos": "verb",
+    "synonyms": [
+      "Cite",
+      "Enclose",
+      "Escape"
+    ]
+  },
+  {
+    "id": 1710,
+    "word": "Quotient",
+    "definition": "The result obtained by dividing one number by another in mathematical calculations.",
+    "enExample": "Integer division drops the remainder and returns only the whole quotient.",
+    "taExample": "முழு எண் வகுத்தல் மீதியை விட்டுவிட்டு முழு ஈவை (Quotient) மட்டுமே அளிக்கிறது.",
+    "taWord": "ஈவு (கணிதம்)",
+    "pos": "noun",
+    "synonyms": [
+      "Ratio",
+      "Division result"
+    ],
+    "antonyms": [
+      "Product",
+      "Remainder"
+    ]
+  },
+  {
+    "id": 1711,
+    "word": "QueryString",
+    "definition": "The portion of a URL containing key-value parameters assigned after a question mark.",
+    "enExample": "Parse the URL queryString to extract search keywords and page numbers.",
+    "taExample": "தேடல் முக்கிய வார்த்தைகள் மற்றும் பக்க எண்களைப் பிரித்தெடுக்க URL வினவல் சரத்தை (QueryString) பாகுபடுத்துங்கள்.",
+    "taWord": "வினவல் சரம் (QueryString)",
+    "pos": "noun",
+    "synonyms": [
+      "URL params",
+      "Search string"
+    ]
+  },
+  {
+    "id": 1712,
+    "word": "Quickfix",
+    "definition": "An immediate, temporary patch applied to resolve an urgent software bug.",
+    "enExample": "The developer applied a quickfix while preparing a comprehensive patch for the next sprint.",
+    "taExample": "அடுத்த ஸ்பிரிண்டிற்கான விரிவான இணைப்பைத் தயாரிக்கும் போது டெவலப்பர் ஒரு விரைவுத் தீர்வைப் (Quickfix) பயன்படுத்தினார்.",
+    "taWord": "விரைவுத் தீர்வு / தற்காலிக சரிசெய்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Hotfix",
+      "Patch",
+      "Workaround"
+    ],
+    "antonyms": [
+      "Permanent fix",
+      "Refactor"
+    ]
+  },
+  {
+    "id": 1713,
+    "word": "Quiescent",
+    "definition": "A state of inactivity, dormancy, or stillness in a process, system, or circuit.",
+    "enExample": "Database connections enter a quiescent state when no incoming traffic is detected.",
+    "taExample": "உள்வரும் போக்குவரத்து கண்டறியப்படாதபோது தரவுத்தள இணைப்புகள் அமைதியான நிலைக்குச் (Quiescent) செல்கின்றன.",
+    "taWord": "செயலற்ற / அமைதியான நிலை",
+    "pos": "adj.",
+    "synonyms": [
+      "Dormant",
+      "Idle",
+      "Inactive"
+    ],
+    "antonyms": [
+      "Active",
+      "Busy"
+    ]
+  },
+  {
+    "id": 1714,
+    "word": "Quorum",
+    "definition": "The minimum number of votes or consensus nodes required to validate distributed database operations.",
+    "enExample": "A quorum of cluster nodes must agree before committing distributed transactions.",
+    "taExample": "விநியோகிக்கப்பட்ட பரிவர்த்தனைகளைச் செய்வதற்கு முன் கிளஸ்டர் முனைகளின் குறைந்தபட்ச ஒப்புதல் (Quorum) அவசியம்.",
+    "taWord": "குறைந்தபட்ச ஒப்புதல் (Quorum)",
+    "pos": "noun",
+    "synonyms": [
+      "Consensus majority",
+      "Minimum votes"
+    ],
+    "antonyms": [
+      "Minority"
+    ]
+  },
+  {
+    "id": 1715,
+    "word": "Quiet",
+    "definition": "Suppressing non-essential command line diagnostic output during automated script runs.",
+    "enExample": "Pass the --quiet flag to npm install to suppress detailed download progress logs.",
+    "taExample": "விரிவான பதிவுகளைத் தவிர்க்க npm install கட்டளையில் --quiet கொடியை வழங்கவும்.",
+    "taWord": "அமைதியான / வெளியீடற்ற முறை",
+    "pos": "adj.",
+    "synonyms": [
+      "Silent",
+      "Muted",
+      "Terse"
+    ],
+    "antonyms": [
+      "Verbose",
+      "Debug"
+    ]
+  },
+  {
+    "id": 1716,
+    "word": "Quagmire",
+    "definition": "An awkward, complex, or hazardous situation.",
+    "enExample": "A legal quagmire.",
+    "taExample": "ஒரு கடினமான சட்டச் சிக்கல் நிலை.",
+    "taWord": "கடினமான நிலை / சிக்கல்",
+    "pos": "noun",
+    "synonyms": [
+      "Muddle",
+      "Mess",
+      "Predicament"
+    ],
+    "antonyms": [
+      "Solution",
+      "Boon"
+    ]
+  },
+  {
+    "id": 1717,
+    "word": "Quell",
+    "definition": "Put an end to (a rebellion or other disorder), typically by the use of force.",
+    "enExample": "Extra police were called to quell the disturbance.",
+    "taExample": "கலவரத்தை அடக்க கூடுதல் காவல்துறையினர் அழைக்கப்பட்டனர்.",
+    "taWord": "அடக்கு",
+    "pos": "verb",
+    "synonyms": [
+      "End",
+      "Crush",
+      "Quash"
+    ],
+    "antonyms": [
+      "Foment",
+      "Incite"
+    ]
+  },
+  {
+    "id": 1718,
+    "word": "Quixotic",
+    "definition": "Exceedingly idealistic; unrealistic and impractical.",
+    "enExample": "A vast and perhaps quixotic project.",
+    "taExample": "ஒரு பெரிய மற்றும் நடைமுறைக்கு ஒவ்வாத கற்பனைத் திட்டம்.",
+    "taWord": "நடைமுறைக்கு ஒவ்வாத கற்பனை",
+    "pos": "adj.",
+    "synonyms": [
+      "Idealistic",
+      "Romantic",
+      "Visionary"
+    ],
+    "antonyms": [
+      "Pragmatic",
+      "Practical"
+    ]
+  }
+]

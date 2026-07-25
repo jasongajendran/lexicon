@@ -1,0 +1,456 @@
+[
+  {
+    "id": 1201,
+    "word": "Label",
+    "definition": "A text snippet or UI tag attached to a component or database record for identification.",
+    "enExample": "Every input field should have an associated ARIA label for accessibility.",
+    "taExample": "அணுகல்தன்மைக்காக ஒவ்வொரு உள்ளீட்டு புலத்திற்கும் ஒரு ARIA லேபிள் இணைக்கப்பட வேண்டும்.",
+    "taWord": "அடையாளச் சொல் / லேபிள்",
+    "pos": "noun",
+    "synonyms": [
+      "Tag",
+      "Marker",
+      "Badge"
+    ]
+  },
+  {
+    "id": 1202,
+    "word": "Lambda",
+    "definition": "An anonymous function or a serverless cloud computing event handler.",
+    "enExample": "AWS Lambda executes code automatically in response to HTTP requests.",
+    "taExample": "AWS Lambda HTTP கோரிக்கைகளுக்கு பதிலளிப்பாக தானாகவே குறியீட்டை இயக்குகிறது.",
+    "taWord": "லேம்ப்டா (பெயரற்ற செயல்பாடு)",
+    "pos": "noun",
+    "synonyms": [
+      "Anonymous function",
+      "Serverless function"
+    ],
+    "antonyms": [
+      "Named function"
+    ]
+  },
+  {
+    "id": 1203,
+    "word": "Latency",
+    "definition": "The delay between a user action and the response from the server or system.",
+    "enExample": "Optimizing database queries significantly reduced network latency.",
+    "taExample": "தரவுத்தள வினவல்களை உகந்ததாக்குவது பிணைய காலத் தாமதத்தை கணிசமாகக் குறைத்தது.",
+    "taWord": "காலத் தாமதம்",
+    "pos": "noun",
+    "synonyms": [
+      "Delay",
+      "Lag"
+    ],
+    "antonyms": [
+      "Throughput",
+      "Speed"
+    ]
+  },
+  {
+    "id": 1204,
+    "word": "Launch",
+    "definition": "To make an application, service, or feature live and available to users.",
+    "enExample": "We plan to launch the new web application next Monday.",
+    "taExample": "அடுத்த திங்கட்கிழமை புதிய இணையப் பயன்பாட்டைத் தொடங்க திட்டமிட்டுள்ளோம்.",
+    "taWord": "தொடங்குதல் / வெளியிடுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Deploy",
+      "Release",
+      "Initiate"
+    ],
+    "antonyms": [
+      "Rollback",
+      "Retire"
+    ]
+  },
+  {
+    "id": 1205,
+    "word": "Layer",
+    "definition": "A level of abstraction within a software architecture or graphic design file.",
+    "enExample": "The presentation layer communicates directly with the business logic layer.",
+    "taExample": "அளித்தல் அடுக்கு (Presentation layer) வணிக தர்க்க அடுக்குடன் நேரடியாக தொடர்பு கொள்கிறது.",
+    "taWord": "அடுக்கு",
+    "pos": "noun",
+    "synonyms": [
+      "Tier",
+      "Level",
+      "Stratum"
+    ]
+  },
+  {
+    "id": 1206,
+    "word": "Lazy",
+    "definition": "A design pattern that postpones initialization or loading of an object until it is needed.",
+    "enExample": "Lazy loading images improves the initial page render performance.",
+    "taExample": "படங்களை தேவைப்படும்போது ஏற்றுவது (Lazy loading) ஆரம்ப பக்க ரெண்டரிங் செயல்திறனை மேம்படுத்துகிறது.",
+    "taWord": "தேவைப்படும்போது ஏற்றும்",
+    "pos": "adj.",
+    "synonyms": [
+      "On-demand",
+      "Deferred"
+    ],
+    "antonyms": [
+      "Eager",
+      "Immediate"
+    ]
+  },
+  {
+    "id": 1207,
+    "word": "Layout",
+    "definition": "The structural arrangement of visual and interactive elements on a page or screen.",
+    "enExample": "Flexbox and CSS Grid are modern tools for building visual layouts.",
+    "taExample": "ஃப்ளெக்ஸ்பாக்ஸ் மற்றும் சிஎஸ்எஸ் கிரிட் ஆகியவை காட்சித் தளவமைப்புகளை உருவாக்குவதற்கான நவீன கருவிகளாகும்.",
+    "taWord": "தளவமைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Structure",
+      "Arrangement",
+      "Design"
+    ]
+  },
+  {
+    "id": 1208,
+    "word": "Lead",
+    "definition": "To guide a project or engineering team; a top-level software architect or manager.",
+    "enExample": "She serves as the tech lead for the frontend architecture team.",
+    "taExample": "அவர் முன்முனை கட்டிடக்கலை குழுவின் தொழில்நுட்பத் தலைவராக பணியாற்றுகிறார்.",
+    "taWord": "தலைமை / வழிநடத்துதல்",
+    "pos": "noun",
+    "synonyms": [
+      "Guide",
+      "Direct",
+      "Principal"
+    ],
+    "antonyms": [
+      "Follower"
+    ]
+  },
+  {
+    "id": 1209,
+    "word": "Leak",
+    "definition": "Unintended loss or consumption of memory or resources over time.",
+    "enExample": "A memory leak caused the Node.js server to run out of RAM.",
+    "taExample": "நினைவகக் கசிவு Node.js சேவையகத்தின் RAM தீர்ந்துபோக வழிவகுத்தது.",
+    "taWord": "கசிவு / நினைவகக் கசிவு",
+    "pos": "noun",
+    "synonyms": [
+      "Drain",
+      "Loss",
+      "Exhaustion"
+    ],
+    "antonyms": [
+      "Retention",
+      "Reclamation"
+    ]
+  },
+  {
+    "id": 1210,
+    "word": "Legacy",
+    "definition": "Software, code, or technology that is outdated but still actively used by an organization.",
+    "enExample": "Refactoring legacy code requires writing comprehensive test suites first.",
+    "taExample": "பழைய மரபுவழிக் (Legacy) குறியீட்டை மறுசீரமைக்க முதலில் விரிவான சோதனைத் தொகுப்புகளை எழுத வேண்டும்.",
+    "taWord": "பாரம்பரிய / பழைய முறைமை",
+    "pos": "adj.",
+    "synonyms": [
+      "Outdated",
+      "Deprecated",
+      "Historical"
+    ],
+    "antonyms": [
+      "Modern",
+      "State-of-the-art"
+    ]
+  },
+  {
+    "id": 1211,
+    "word": "Library",
+    "definition": "A curated collection of reusable functions, classes, or software routines.",
+    "enExample": "React is a popular JavaScript library for building user interfaces.",
+    "taExample": "ரியாக்ட் என்பது பயனர் இடைமுகங்களை உருவாக்குவதற்கான ஒரு பிரபலமான ஜாவாஸ்கிரிப்ட் நூலகம் ஆகும்.",
+    "taWord": "நூலகம் (மென்பொருள் நூலகம்)",
+    "pos": "noun",
+    "synonyms": [
+      "Package",
+      "Module",
+      "Toolkit"
+    ]
+  },
+  {
+    "id": 1212,
+    "word": "Lifecycle",
+    "definition": "The series of stages a component, app, or process passes through from creation to destruction.",
+    "enExample": "The useEffect hook manages the lifecycle events of React components.",
+    "taExample": "useEffect ஹூக் ரியாக்ட் கூறுகளின் வாழ்க்கைச் சுழற்சி நிகழ்வுகளை நிர்வகிக்கிறது.",
+    "taWord": "வாழ்க்கைச் சுழற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Lifespan",
+      "Phases"
+    ]
+  },
+  {
+    "id": 1213,
+    "word": "Lightweight",
+    "definition": "Software designed to execute quickly with minimal memory and CPU overhead.",
+    "enExample": "Alpine.js is a lightweight framework for adding simple interactive behaviors.",
+    "taExample": "Alpine.js என்பது எளிய ஊடாடும் நடத்தைகளை சேர்ப்பதற்கான ஒரு குறைந்த எடையுள்ள கட்டமைப்பாகும்.",
+    "taWord": "குறைந்த எடையுள்ள / வேகமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Compact",
+      "Nimble",
+      "Minimal"
+    ],
+    "antonyms": [
+      "Heavyweight",
+      "Bloated"
+    ]
+  },
+  {
+    "id": 1214,
+    "word": "Limit",
+    "definition": "A restriction placed on resource consumption, API call frequency, or query size.",
+    "enExample": "Apply rate limits to prevent brute-force attacks on the authentication endpoint.",
+    "taExample": "சான்றளிப்பு எண்ட்பாயிண்ட்டில் தாக்குதல்களைத் தடுக்க விகித வரம்புகளைப் பயன்படுத்துங்கள்.",
+    "taWord": "வரம்பு / எல்லை",
+    "pos": "noun",
+    "synonyms": [
+      "Cap",
+      "Restriction",
+      "Boundary"
+    ],
+    "antonyms": [
+      "Unlimited",
+      "Freedom"
+    ]
+  },
+  {
+    "id": 1215,
+    "word": "Lineage",
+    "definition": "The history and origin tracking of data transformation pipelines.",
+    "enExample": "Data lineage diagrams help engineers trace back bad metrics to source tables.",
+    "taExample": "தரவுத் தோற்றப் பாதை (Data lineage) வரைபடங்கள் தவறான அளவீடுகளின் மூல அட்டவணையைத் கண்டறிய பொறியாளர்களுக்கு உதவுகின்றன.",
+    "taWord": "பரம்பரை / தோற்றப் பாதை",
+    "pos": "noun",
+    "synonyms": [
+      "Provenance",
+      "Origin",
+      "Trace"
+    ]
+  },
+  {
+    "id": 1216,
+    "word": "Link",
+    "definition": "A hyperlink connecting one document or webpage to another.",
+    "enExample": "The navbar contains a link to the user settings page.",
+    "taExample": "வழிசெலுத்தல் பட்டியில் பயனர் அமைப்புகள் பக்கத்திற்கான இணைப்பு உள்ளது.",
+    "taWord": "இணைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Hyperlink",
+      "URL",
+      "Anchor"
+    ]
+  },
+  {
+    "id": 1217,
+    "word": "Lint",
+    "definition": "Analyze source code static logic to flag programming errors, bugs, or stylistic flaws.",
+    "enExample": "Run npm run lint before committing code to enforce code quality.",
+    "taExample": "குறியீட்டின் தரத்தை அமல்படுத்த குறியீட்டைச் சமர்ப்பிப்பதற்கு முன் npm run lint-ஐ இயக்கவும்.",
+    "taWord": "குறியீட்டு ஆய்வு (லிண்ட்)",
+    "pos": "verb",
+    "synonyms": [
+      "Static analysis",
+      "Code check"
+    ]
+  },
+  {
+    "id": 1218,
+    "word": "Listener",
+    "definition": "A procedure or function in code that waits for an event to occur.",
+    "enExample": "Attach an event listener to handle button click events.",
+    "taExample": "பொத்தான் கிளிக் நிகழ்வுகளைக் கையாள ஒரு நிகழ்வு செவிமடுப்பானை (Event listener) இணைக்கவும்.",
+    "taWord": "செவிமடுப்பான் / நிகழ்வு கண்காணிப்பாளர்",
+    "pos": "noun",
+    "synonyms": [
+      "Event handler",
+      "Observer"
+    ],
+    "antonyms": [
+      "Emitter",
+      "Publisher"
+    ]
+  },
+  {
+    "id": 1219,
+    "word": "Literal",
+    "definition": "A notation for representing a fixed value directly in source code.",
+    "enExample": "A template literal in ES6 allows string interpolation using backticks.",
+    "taExample": "ES6-இல் உள்ள டெம்ப்ளேட் லிட்டரல் பேக்டிக்குகளைப் பயன்படுத்தி சரம் செருகலை அனுமதிக்கிறது.",
+    "taWord": "நேரடிச் சொல் / நிலையான மதிப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Constant",
+      "Fixed value"
+    ],
+    "antonyms": [
+      "Variable",
+      "Expression"
+    ]
+  },
+  {
+    "id": 1220,
+    "word": "Load",
+    "definition": "The amount of computational work or traffic handled by a server or database.",
+    "enExample": "A load balancer distributes incoming traffic across multiple instances.",
+    "taExample": "ஒரு லோட் பேலன்ஸர் உள்வரும் போக்குவரத்தை பல நிகழ்வுகளுக்கு வழங்குகிறது.",
+    "taWord": "சுமை / ஏற்றுதல்",
+    "pos": "noun",
+    "synonyms": [
+      "Traffic",
+      "Workload",
+      "Strain"
+    ],
+    "antonyms": [
+      "Idle"
+    ]
+  },
+  {
+    "id": 1221,
+    "word": "Local",
+    "definition": "Relating to the immediate program scope or current user machine.",
+    "enExample": "Store user preferences in localStorage for seamless session persistence.",
+    "taExample": "தடையற்ற அமர்வு நிலைத்தன்மைக்கு பயனர் விருப்பங்களை localStorage-இல் சேமிக்கவும்.",
+    "taWord": "உள்ளூர் / உள்ளமைந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Internal",
+      "Scoped",
+      "On-device"
+    ],
+    "antonyms": [
+      "Global",
+      "Remote"
+    ]
+  },
+  {
+    "id": 1222,
+    "word": "Lock",
+    "definition": "A synchronization mechanism for enforcing limits on resource access in multi-threaded code.",
+    "enExample": "A distributed lock prevents race conditions in concurrent database operations.",
+    "taExample": "ஒரு விநியோகிக்கப்பட்ட பூட்டு (Lock) ஒரே நேரத்தில் நிகழும் தரவுத்தள செயல்பாடுகளில் போட்டி நிலைமைகளைத் தடுக்கிறது.",
+    "taWord": "பூட்டு / அணுகல் தடை",
+    "pos": "noun",
+    "synonyms": [
+      "Mutex",
+      "Barrier",
+      "Restriction"
+    ],
+    "antonyms": [
+      "Unlock",
+      "Release"
+    ]
+  },
+  {
+    "id": 1223,
+    "word": "Log",
+    "definition": "A chronological record of computer events, transactions, or system activity.",
+    "enExample": "Check the server error log to diagnose the cause of 500 status codes.",
+    "taExample": "500 நிலையைக் குறியீடுகளுக்கான காரணத்தைக் கண்டறிய சேவையகப் பிழைப் பதிவைச் (Log) சரிபார்க்கவும்.",
+    "taWord": "பதிவு / நிகழ்வுப் பதிவேடு",
+    "pos": "noun",
+    "synonyms": [
+      "Audit trail",
+      "Record",
+      "Journal"
+    ]
+  },
+  {
+    "id": 1224,
+    "word": "Logic",
+    "definition": "The system of principles underlying the representation and processing of data.",
+    "enExample": "Keep presentation components separated from complex business logic.",
+    "taExample": "காட்சிக் கூறுகளை சிக்கலான வணிகத் தர்க்கத்திலிருந்து (Business logic) தனித்து வைத்திருங்கள்.",
+    "taWord": "தர்க்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Reasoning",
+      "Rules",
+      "Flow"
+    ]
+  },
+  {
+    "id": 1225,
+    "word": "Loop",
+    "definition": "A sequence of instructions that is continually repeated until a certain condition is reached.",
+    "enExample": "A 'for...of' loop iterates smoothly over array elements.",
+    "taExample": "'for...of' சுழற்சி வரிசைக்கூறுகளின் உருப்படிகளைச் சீராக மீண்டும் மீண்டும் இயக்குகிறது.",
+    "taWord": "சுழற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Iteration",
+      "Cycle",
+      "Repeat"
+    ],
+    "antonyms": [
+      "Branch",
+      "Exit"
+    ]
+  },
+  {
+    "id": 1226,
+    "word": "Laconic",
+    "definition": "(of a person, speech, or style of writing) using very few words.",
+    "enExample": "His laconic reply suggested a lack of interest.",
+    "taExample": "அவரது சுருக்கமான பதில் ஆர்வமின்மையைக் காட்டியது.",
+    "taWord": "சுருக்கமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Brief",
+      "Concise",
+      "Terse"
+    ],
+    "antonyms": [
+      "Verbose",
+      "Loquacious"
+    ]
+  },
+  {
+    "id": 1227,
+    "word": "Languid",
+    "definition": "Displaying or having a disinclination for physical exertion or effort; slow and relaxed.",
+    "enExample": "They turned with languid movements from back to front so as to tan evenly.",
+    "taExample": "சமமாக வெயில் படுவதற்கு அவர்கள் மெதுவாகவும் தளர்வாகவும் திரும்பினார்கள்.",
+    "taWord": "தளர்வான",
+    "pos": "adj.",
+    "synonyms": [
+      "Relaxed",
+      "Unhurried",
+      "Slow"
+    ],
+    "antonyms": [
+      "Energetic",
+      "Active"
+    ]
+  },
+  {
+    "id": 1228,
+    "word": "Loquacious",
+    "definition": "Tending to talk a great deal; talkative.",
+    "enExample": "Never loquacious, Sarah was now totally lost for words.",
+    "taExample": "எப்போதுமே அதிகம் பேசாத சாரா, இப்போது பேசுவதற்கு வார்த்தைகளின்றி தவித்தார்.",
+    "taWord": "அதிகம் பேசும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Talkative",
+      "Voluble",
+      "Garrulous"
+    ],
+    "antonyms": [
+      "Reticent",
+      "Taciturn"
+    ]
+  }
+]

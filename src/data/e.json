@@ -1,0 +1,632 @@
+[
+  {
+    "id": 501,
+    "word": "Ecosystem",
+    "definition": "A complex network or interconnected system, often of software or services.",
+    "enExample": "The JavaScript ecosystem is vast and constantly evolving.",
+    "taExample": "ஜாவாஸ்கிரிப்ட் சுற்றுச்சூழல் அமைப்பு பரந்த மற்றும் தொடர்ந்து மாறிவரும் ஒன்றாகும்.",
+    "taWord": "சுற்றுச்சூழல் அமைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Environment",
+      "Network"
+    ]
+  },
+  {
+    "id": 502,
+    "word": "Edge",
+    "definition": "The outside limit of an object, area, or surface; in computing, closer to the user.",
+    "enExample": "We deployed the function to the edge network for faster response.",
+    "taExample": "விரைவான பதிலளிப்பிற்காக விளிம்பு நெட்வொர்க்கில் செயல்பாட்டை வரிசைப்படுத்தினோம்.",
+    "taWord": "விளிம்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Boundary",
+      "Border"
+    ],
+    "antonyms": [
+      "Center",
+      "Core"
+    ]
+  },
+  {
+    "id": 503,
+    "word": "Efficiency",
+    "definition": "The state or quality of being efficient, avoiding wasting materials, energy, efforts, money, and time.",
+    "enExample": "We need to improve the efficiency of our sorting algorithm.",
+    "taExample": "நமது வரிசையாக்க வழிமுறையின் செயல்திறனை நாம் மேம்படுத்த வேண்டும்.",
+    "taWord": "செயல்திறன்",
+    "pos": "noun",
+    "synonyms": [
+      "Effectiveness",
+      "Productivity"
+    ],
+    "antonyms": [
+      "Inefficiency",
+      "Wastefulness"
+    ]
+  },
+  {
+    "id": 504,
+    "word": "Elicit",
+    "definition": "Evoke or draw out a response, answer, or fact from someone.",
+    "enExample": "We need to elicit the exact requirements from the client.",
+    "taExample": "வாடிக்கையாளரிடமிருந்து சரியான தேவைகளை நாம் பெற (வெளிக்கொணர) வேண்டும்.",
+    "taWord": "வெளிக்கொணருதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Extract",
+      "Obtain"
+    ],
+    "antonyms": [
+      "Suppress"
+    ]
+  },
+  {
+    "id": 505,
+    "word": "Empirical",
+    "definition": "Based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
+    "enExample": "We made our decision based on empirical evidence from the A/B test.",
+    "taExample": "A/B சோதனையின் அனுபவபூர்வமான சான்றுகளின் அடிப்படையில் நாங்கள் முடிவெடுத்தோம்.",
+    "taWord": "அனுபவபூர்வமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Observed",
+      "Practical"
+    ],
+    "antonyms": [
+      "Theoretical",
+      "Hypothetical"
+    ]
+  },
+  {
+    "id": 506,
+    "word": "Emulate",
+    "definition": "Reproduce the function or action of a different computer, software system, etc.",
+    "enExample": "We use software to emulate the mobile device on our desktop.",
+    "taExample": "எங்கள் டெஸ்க்டாப்பில் மொபைல் சாதனத்தைப் பின்பற்ற (போலச் செய்ய) மென்பொருளைப் பயன்படுத்துகிறோம்.",
+    "taWord": "பின்பற்றுதல் / போலச் செய்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Imitate",
+      "Mimic"
+    ]
+  },
+  {
+    "id": 507,
+    "word": "Encapsulate",
+    "definition": "Enclose (something) in or as if in a capsule; hide internal state.",
+    "enExample": "Encapsulate the component's state to prevent external mutations.",
+    "taExample": "வெளிப்புற மாற்றங்களைத் தடுக்க கூறின் நிலையை உள்ளடக்கிப் பாதுகாக்கவும்.",
+    "taWord": "உள்ளடக்கிப் பாதுகாத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Enclose",
+      "Contain"
+    ],
+    "antonyms": [
+      "Expose",
+      "Reveal"
+    ]
+  },
+  {
+    "id": 508,
+    "word": "Encode",
+    "definition": "Convert into a coded form.",
+    "enExample": "Always encode user input before rendering it in HTML.",
+    "taExample": "பயனர் உள்ளீட்டை HTML-ல் வழங்குவதற்கு முன் எப்போதும் குறியாக்கம் செய்யவும்.",
+    "taWord": "குறியாக்கம்",
+    "pos": "verb",
+    "synonyms": [
+      "Cipher",
+      "Encrypt"
+    ],
+    "antonyms": [
+      "Decode",
+      "Decrypt"
+    ]
+  },
+  {
+    "id": 509,
+    "word": "Enforce",
+    "definition": "Compel observance of or compliance with a law, rule, or obligation.",
+    "enExample": "We use a linter to enforce coding standards across the team.",
+    "taExample": "குழு முழுவதும் குறியீட்டுத் தரங்களைச் செயல்படுத்த நாங்கள் ஒரு லிண்டரைப் பயன்படுத்துகிறோம்.",
+    "taWord": "செயல்படுத்துதல் / வற்புறுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Compel",
+      "Impose"
+    ],
+    "antonyms": [
+      "Relax",
+      "Waive"
+    ]
+  },
+  {
+    "id": 510,
+    "word": "Enhance",
+    "definition": "Intensify, increase, or further improve the quality, value, or extent of.",
+    "enExample": "We plan to enhance the search functionality with fuzzy matching.",
+    "taExample": "ஃபஸி பொருத்தத்துடன் தேடல் செயல்பாட்டை மேம்படுத்த திட்டமிட்டுள்ளோம்.",
+    "taWord": "மேம்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Improve",
+      "Augment"
+    ],
+    "antonyms": [
+      "Degrade",
+      "Diminish"
+    ]
+  },
+  {
+    "id": 511,
+    "word": "Entity",
+    "definition": "A thing with distinct and independent existence.",
+    "enExample": "The user is represented as an entity in our database.",
+    "taExample": "பயனர் எங்கள் தரவுத்தளத்தில் ஒரு தனிப்பொருளாகக் குறிப்பிடப்படுகிறார்.",
+    "taWord": "தனிப்பொருள் / உருப்படி",
+    "pos": "noun",
+    "synonyms": [
+      "Object",
+      "Item"
+    ]
+  },
+  {
+    "id": 512,
+    "word": "Ephemeral",
+    "definition": "Lasting for a very short time.",
+    "enExample": "We use ephemeral containers for running tests.",
+    "taExample": "சோதனைகளை இயக்க குறுகிய காலமே நிலைக்கும் கொள்கலன்களைப் பயன்படுத்துகிறோம்.",
+    "taWord": "குறுகிய காலமே நிலைக்கும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Transient",
+      "Temporary"
+    ],
+    "antonyms": [
+      "Permanent",
+      "Enduring"
+    ]
+  },
+  {
+    "id": 513,
+    "word": "Erroneous",
+    "definition": "Wrong; incorrect.",
+    "enExample": "The script produced erroneous output due to a logic flaw.",
+    "taExample": "ஒரு தர்க்க பிழையின் காரணமாக ஸ்கிரிப்ட் தவறான வெளியீட்டை வழங்கியது.",
+    "taWord": "தவறான",
+    "pos": "adj.",
+    "synonyms": [
+      "Incorrect",
+      "Inaccurate"
+    ],
+    "antonyms": [
+      "Correct",
+      "Accurate"
+    ]
+  },
+  {
+    "id": 514,
+    "word": "Escalate",
+    "definition": "Increase rapidly; make or become more intense or serious.",
+    "enExample": "If the issue persists, escalate it to the engineering manager.",
+    "taExample": "சிக்கல் தொடர்ந்தால், அதனைப் பொறியியல் மேலாளரிடம் கொண்டு செல்லவும் (தீவிரப்படுத்தவும்).",
+    "taWord": "தீவிரப்படுத்துதல் / மேல்நிலைக்குக் கொண்டுசெல்லுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Intensify",
+      "Elevate"
+    ],
+    "antonyms": [
+      "Decrease",
+      "De-escalate"
+    ]
+  },
+  {
+    "id": 515,
+    "word": "Evaluate",
+    "definition": "Form an idea of the amount, number, or value of; assess.",
+    "enExample": "We need to evaluate the new framework before adopting it.",
+    "taExample": "புதிய கட்டமைப்பை ஏற்றுக்கொள்வதற்கு முன் நாம் அதனை மதிப்பீடு செய்ய வேண்டும்.",
+    "taWord": "மதிப்பீடு செய்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Assess",
+      "Appraise"
+    ],
+    "antonyms": [
+      "Ignore"
+    ]
+  },
+  {
+    "id": 516,
+    "word": "Evict",
+    "definition": "Expel from a property; remove from memory or cache.",
+    "enExample": "The LRU algorithm will evict the least recently used item.",
+    "taExample": "LRU அல்காரிதம் மிகக் குறைவாகப் பயன்படுத்தப்பட்ட உருப்படியை (தற்காலிக சேமிப்பிலிருந்து) வெளியேற்றும்.",
+    "taWord": "வெளியேற்றுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Expel",
+      "Remove"
+    ],
+    "antonyms": [
+      "Admit",
+      "Keep"
+    ]
+  },
+  {
+    "id": 517,
+    "word": "Exclusive",
+    "definition": "Restricted or limited to the person, group, or area concerned.",
+    "enExample": "Ensure exclusive access to the shared resource during writes.",
+    "taExample": "எழுதுதலின் போது பகிரப்பட்ட வளத்திற்கு பிரத்யேக அணுகலை உறுதி செய்யவும்.",
+    "taWord": "பிரத்யேக",
+    "pos": "adj.",
+    "synonyms": [
+      "Restricted",
+      "Sole"
+    ],
+    "antonyms": [
+      "Shared",
+      "Inclusive"
+    ]
+  },
+  {
+    "id": 518,
+    "word": "Exhaustive",
+    "definition": "Examining, including, or considering all elements or aspects; fully comprehensive.",
+    "enExample": "We conducted an exhaustive search of the codebase.",
+    "taExample": "நாங்கள் குறியீட்டுத் தளத்தின் விரிவான (முழுமையான) தேடலை நடத்தினோம்.",
+    "taWord": "முழுமையான / விரிவான",
+    "pos": "adj.",
+    "synonyms": [
+      "Comprehensive",
+      "Thorough"
+    ],
+    "antonyms": [
+      "Incomplete",
+      "Superficial"
+    ]
+  },
+  {
+    "id": 519,
+    "word": "Explicit",
+    "definition": "Stated clearly and in detail, leaving no room for confusion or doubt.",
+    "enExample": "The documentation gives explicit instructions on how to deploy.",
+    "taExample": "எவ்வாறு வரிசைப்படுத்துவது என்பது குறித்து ஆவணம் தெளிவான வழிமுறைகளை வழங்குகிறது.",
+    "taWord": "தெளிவான",
+    "pos": "adj.",
+    "synonyms": [
+      "Clear",
+      "Direct"
+    ],
+    "antonyms": [
+      "Implicit",
+      "Vague"
+    ]
+  },
+  {
+    "id": 520,
+    "word": "Exploit",
+    "definition": "Make full use of and derive benefit from; a software vulnerability.",
+    "enExample": "Hackers used a zero-day exploit to gain access.",
+    "taExample": "ஹேக்கர்கள் அணுகலைப் பெற ஒரு பாதிப்பைச் (சுரண்டலை) பயன்படுத்தினர்.",
+    "taWord": "சுரண்டல் / பயன்படுத்துதல்",
+    "pos": "noun",
+    "synonyms": [
+      "Vulnerability",
+      "Leverage"
+    ],
+    "antonyms": [
+      "Protect",
+      "Defend"
+    ]
+  },
+  {
+    "id": 521,
+    "word": "Exponential",
+    "definition": "(Of an increase) becoming more and more rapid.",
+    "enExample": "The database query time showed an exponential increase.",
+    "taExample": "தரவுத்தள வினவல் நேரம் அதிவேக அதிகரிப்பைக் காட்டியது.",
+    "taWord": "அதிவேக (மடங்கு)",
+    "pos": "adj.",
+    "synonyms": [
+      "Rapid",
+      "Mounting"
+    ],
+    "antonyms": [
+      "Linear",
+      "Gradual"
+    ]
+  },
+  {
+    "id": 522,
+    "word": "Extensible",
+    "definition": "Designed to allow the addition of new capabilities or functionality.",
+    "enExample": "The plugin system makes the editor highly extensible.",
+    "taExample": "செருகுநிரல் அமைப்பு திருத்தியை மிகவும் நீட்டிக்கக்கூடியதாக மாற்றுகிறது.",
+    "taWord": "நீட்டிக்கக்கூடிய",
+    "pos": "adj.",
+    "synonyms": [
+      "Expandable",
+      "Adaptable"
+    ],
+    "antonyms": [
+      "Rigid",
+      "Fixed"
+    ]
+  },
+  {
+    "id": 523,
+    "word": "Extract",
+    "definition": "Remove or take out, especially by effort or force.",
+    "enExample": "Extract the reusable logic into a separate utility function.",
+    "taExample": "மீண்டும் பயன்படுத்தக்கூடிய தர்க்கத்தை ஒரு தனி பயன்பாட்டு செயல்பாடாகப் பிரித்தெடுக்கவும்.",
+    "taWord": "பிரித்தெடுத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Remove",
+      "Derive"
+    ],
+    "antonyms": [
+      "Insert",
+      "Inject"
+    ]
+  },
+  {
+    "id": 524,
+    "word": "Extraneous",
+    "definition": "Irrelevant or unrelated to the subject being dealt with.",
+    "enExample": "Remove any extraneous dependencies from the package.json.",
+    "taExample": "package.json இலிருந்து எந்தவொரு தேவையற்ற சார்புகளையும் அகற்றவும்.",
+    "taWord": "தேவையற்ற",
+    "pos": "adj.",
+    "synonyms": [
+      "Irrelevant",
+      "Superfluous"
+    ],
+    "antonyms": [
+      "Relevant",
+      "Essential"
+    ]
+  },
+  {
+    "id": 525,
+    "word": "Emit",
+    "definition": "Produce and discharge (something, especially gas or radiation).",
+    "enExample": "The component will emit an event when clicked.",
+    "taExample": "கூறு கிளிக் செய்யப்படும்போது ஒரு நிகழ்வை வெளிப்படுத்தும்.",
+    "taWord": "வெளிப்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Discharge",
+      "Release"
+    ],
+    "antonyms": [
+      "Absorb",
+      "Contain"
+    ]
+  },
+  {
+    "id": 526,
+    "word": "Eclectic",
+    "definition": "Deriving ideas, style, or taste from a broad and diverse range of sources.",
+    "enExample": "Her musical tastes are eclectic.",
+    "taExample": "அவளது இசை ரசனைகள் பலதரப்பட்டவை.",
+    "taWord": "பலதரப்பட்ட",
+    "pos": "adj.",
+    "synonyms": [
+      "Wide-ranging",
+      "Broad-based",
+      "Diverse"
+    ],
+    "antonyms": [
+      "Narrow",
+      "Dogmatic"
+    ]
+  },
+  {
+    "id": 527,
+    "word": "Eloquent",
+    "definition": "Fluent or persuasive in speaking or writing.",
+    "enExample": "An eloquent speech.",
+    "taExample": "ஒரு சொல்திறன் மிக்க உரை.",
+    "taWord": "சொல்திறன் மிக்க",
+    "pos": "adj.",
+    "synonyms": [
+      "Fluent",
+      "Persuasive",
+      "Articulate"
+    ],
+    "antonyms": [
+      "Inarticulate"
+    ]
+  },
+  {
+    "id": 528,
+    "word": "Esoteric",
+    "definition": "Intended for or likely to be understood by only a small number of people with a specialized knowledge or interest.",
+    "enExample": "Esoteric philosophical debates.",
+    "taExample": "சிலருக்கு மட்டுமே தெரிந்த தத்துவ விவாதங்கள்.",
+    "taWord": "ரகசியமான / சிலருக்கு மட்டுமே தெரிந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Obscure",
+      "Arcane",
+      "Complex"
+    ],
+    "antonyms": [
+      "Common",
+      "Familiar"
+    ]
+  },
+  {
+    "id": 529,
+    "word": "Effective",
+    "definition": "Successful in producing a desired or intended result.",
+    "enExample": "Continuous integration is an effective strategy for reducing deployment bugs.",
+    "taExample": "தொடர்ச்சியான ஒருங்கிணைப்பு என்பது வரிசைப்படுத்தல் பிழைகளைக் குறைப்பதற்கான ஒரு பயனுள்ள உத்தியாகும்.",
+    "taWord": "பயனுள்ள / திறம்பட்ட",
+    "pos": "adj.",
+    "synonyms": [
+      "Successful",
+      "Productive"
+    ],
+    "antonyms": [
+      "Ineffective",
+      "Useless"
+    ]
+  },
+  {
+    "id": 530,
+    "word": "Elaborate",
+    "definition": "Develop or present a theory, plan, or system in detail.",
+    "enExample": "Could you elaborate on how the authentication service handles refresh tokens?",
+    "taExample": "அங்கீகார சேவை எவ்வாறு புதுப்பிப்பு டோக்கன்களைக் கையாள்கிறது என்பதை விரிவாகக் கூற முடியுமா?",
+    "taWord": "விரிவாகக் கூறுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Expand",
+      "Detail"
+    ],
+    "antonyms": [
+      "Simplify",
+      "Summarize"
+    ]
+  },
+  {
+    "id": 531,
+    "word": "Emerging",
+    "definition": "Becoming apparent, prominent, or widely recognized.",
+    "enExample": "AI-driven developer tooling is an emerging trend in engineering.",
+    "taExample": "AI-இயக்கப்படும் டெவலப்பர் கருவிகள் பொறியியலில் வளர்ந்து வரும் ஒரு போக்காகும்.",
+    "taWord": "வளர்ந்து வரும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Developing",
+      "Rising"
+    ],
+    "antonyms": [
+      "Fading",
+      "Declining"
+    ]
+  },
+  {
+    "id": 532,
+    "word": "Empathy",
+    "definition": "The ability to understand and share the feelings and perspective of another.",
+    "enExample": "Empathy is vital when designing products for users with disabilities.",
+    "taExample": "மாற்றுத்திறனாளி பயனர்களுக்கான தயாரிப்புகளை வடிவமைக்கும் போது புரிந்துணர்வு அவசியமானது.",
+    "taWord": "புரிந்துணர்வு / அனுதாபம்",
+    "pos": "noun",
+    "synonyms": [
+      "Compassion",
+      "Understanding"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Indifference"
+    ]
+  },
+  {
+    "id": 533,
+    "word": "Enable",
+    "definition": "Give someone or something the operational means or authority to do something.",
+    "enExample": "Feature flags enable safe, gradual feature rollouts.",
+    "taExample": "அம்சக் கொடிகள் பாதுகாப்பான, படிப்படியான அம்ச வெளியீடுகளைச் செயல்படுத்த உதவுகின்றன.",
+    "taWord": "செயல்படுத்த உதவுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Allow",
+      "Permit"
+    ],
+    "antonyms": [
+      "Disable",
+      "Prevent"
+    ]
+  },
+  {
+    "id": 534,
+    "word": "Enthusiasm",
+    "definition": "Intense and eager enjoyment, interest, or approval.",
+    "enExample": "Her enthusiasm for open-source software motivated the team.",
+    "taExample": "ஓப்பன் சோர்ஸ் மென்பொருள் மீதான அவளது ஆர்வம் அணியை ஊக்குவித்தது.",
+    "taWord": "ஆர்வமிகுதி",
+    "pos": "noun",
+    "synonyms": [
+      "Passion",
+      "Eagerness"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Boredom"
+    ]
+  },
+  {
+    "id": 535,
+    "word": "Equitable",
+    "definition": "Fair and impartial; dealing equally with all concerned.",
+    "enExample": "The team agreed on an equitable distribution of project tasks.",
+    "taExample": "திட்டப் பணிகளை நியாயமான முறையில் பகிர்ந்தளிக்க குழு ஒப்புக்கொண்டது.",
+    "taWord": "நியாயமான / சமமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Fair",
+      "Just"
+    ],
+    "antonyms": [
+      "Unfair",
+      "Biased"
+    ]
+  },
+  {
+    "id": 536,
+    "word": "Essential",
+    "definition": "Absolutely necessary; extremely important in a particular situation.",
+    "enExample": "Writing clean tests is essential for long-term codebase maintenance.",
+    "taExample": "நீண்ட கால குறியீட்டுத் தளப் பராமரிப்பிற்கு தூய்மையான சோதனைகளை எழுதுவது அத்தியாவசியமானது.",
+    "taWord": "அத்தியாவசியமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Vital",
+      "Crucial"
+    ],
+    "antonyms": [
+      "Optional",
+      "Superfluous"
+    ]
+  },
+  {
+    "id": 537,
+    "word": "Evidence",
+    "definition": "The available body of facts or information indicating whether a hypothesis is true.",
+    "enExample": "Empirical telemetry provides evidence of memory improvements.",
+    "taExample": "அனுபவபூர்வமான தொலைஅளவியல் நினைவக மேம்பாடுகளுக்கான சான்றுகளை வழங்குகிறது.",
+    "taWord": "சான்று / ஆதாரம்",
+    "pos": "noun",
+    "synonyms": [
+      "Proof",
+      "Data"
+    ]
+  },
+  {
+    "id": 538,
+    "word": "Exemplary",
+    "definition": "Serving as a desirable model; representing the best of its kind.",
+    "enExample": "His pull request was praised as an exemplary code contribution.",
+    "taExample": "அவரது புல் கோரிக்கை ஒரு முன்னுதாரணமான குறியீட்டு பங்களிப்பாக பாராட்டப்பட்டது.",
+    "taWord": "முன்னுதாரணமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Model",
+      "Commendable"
+    ],
+    "antonyms": [
+      "Poor",
+      "Inadequate"
+    ]
+  }
+]

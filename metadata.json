@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Pragmatic Lexicon",
+  "description": "Pragmatic Lexicon is a modern, responsive vocabulary and flashcard learning app tailored for software engineers and tech professionals. It features a comprehensive dataset with dual-language support (English definitions and Tamil translations/examples), structured phonetic guides, parts of speech, synonyms, and antonyms.\nCore Capabilities \u0026 Features\nInteractive Feed \u0026 Views\nGrid \u0026 List Views: Flexible display modes with smooth layout animations powered by Framer Motion.\nA–Z Quick Jump: Alphabetical filter bar and category chips for fast navigation through the entire lexicon.\nDynamic Search \u0026 Filtering: Instant search across words, definitions, and Tamil translations, with filters for parts of speech (noun, verb, adjective) and bookmarked items.\nStudy \u0026 Flashcard Engine\nFlashcard Study Mode: Interactive 3D flip card view with flip animations, progress tracking, and shuffle functionality for active recall practice.\nPronunciation \u0026 Speech Synthesis: Integrated browser Web Speech API for authentic English audio pronunciation.\nPersonalization \u0026 Persistence\nBookmark System: One-tap favoriting persisted via browser storage for focused offline study sessions.\nWord Detail Modals: Deep-dive view showing full contextual examples, Tamil translations (taExample, taWord), and related word attributes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

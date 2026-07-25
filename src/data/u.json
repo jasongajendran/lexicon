@@ -1,0 +1,304 @@
+[
+  {
+    "id": 2101,
+    "word": "Unary",
+    "definition": "An operation or operator taking exactly one operand in mathematical or programming expressions.",
+    "enExample": "The unary plus operator quickly converts numeric strings into JavaScript numbers.",
+    "taExample": "ஒற்றை (Unary) பிளஸ் ஆபரேட்டர் எண் சரங்களை ஜாவாஸ்கிரிப்ட் எண்களாக விரைவாக மாற்றுகிறது.",
+    "taWord": "ஒற்றை உறுப்பு (Unary)",
+    "pos": "adj.",
+    "synonyms": [
+      "Single-operand",
+      "Monadic"
+    ],
+    "antonyms": [
+      "Binary",
+      "Ternary"
+    ]
+  },
+  {
+    "id": 2102,
+    "word": "Unbundling",
+    "definition": "Deconstructing large monolithic software applications or libraries into smaller, independent modules.",
+    "enExample": "Code splitting relies on unbundling web app assets into lazy-loaded script packages.",
+    "taExample": "குறியீடு பிரிப்பு என்பது இணைய பயன்பாட்டு சொத்துக்களைத் தனித்தனி ஸ்கிரிப்ட் தொகுப்புகளாக அவிழ்ப்பதை (Unbundling) நம்பியுள்ளது.",
+    "taWord": "தொகுப்பவிழ்த்தல் (Unbundling)",
+    "pos": "noun",
+    "synonyms": [
+      "Decomposition",
+      "Modularization",
+      "Decoupling"
+    ],
+    "antonyms": [
+      "Bundling",
+      "Monolith"
+    ]
+  },
+  {
+    "id": 2103,
+    "word": "Underflow",
+    "definition": "A mathematical or buffer error occurring when a calculation produces a number smaller than the minimum representable value.",
+    "enExample": "Stack underflow happens when attempting to pop elements from an empty stack.",
+    "taExample": "வெற்று அடுக்கிலிருந்து উপাদানங்களை பாப் செய்ய முயற்சிக்கும் போது ஸ்டாக் அண்டர்ஃபுளோ (Underflow) ஏற்படுகிறது.",
+    "taWord": "கீழ்வழிவு (Underflow)",
+    "pos": "noun",
+    "synonyms": [
+      "Buffer deficit",
+      "Depletion"
+    ],
+    "antonyms": [
+      "Overflow"
+    ]
+  },
+  {
+    "id": 2104,
+    "word": "Unicode",
+    "definition": "An international computing standard providing consistent encoding, representation, and handling of text across global languages.",
+    "enExample": "UTF-8 is the dominant Unicode encoding format used across web documents worldwide.",
+    "taExample": "உலகளவில் வலை ஆவணங்களில் பயன்படுத்தப்படும் முக்கிய யுனிகோட் (Unicode) குறியாக்க வடிவம் UTF-8 ஆகும்.",
+    "taWord": "யுனிகோட் / உலகளாவிய எழுத்துரு",
+    "pos": "noun",
+    "synonyms": [
+      "Universal character set",
+      "UTF-8"
+    ],
+    "antonyms": [
+      "ASCII-only"
+    ]
+  },
+  {
+    "id": 2105,
+    "word": "Uniform",
+    "definition": "Maintaining a consistent structure, format, or interface across software components and API design.",
+    "enExample": "RESTful architectures enforce a uniform interface standard across network endpoints.",
+    "taExample": "RESTful கட்டமைப்புகள் நெட்வொர்க் எண்ட்பாயிண்டுகள் முழுவதும் ஒரு சீரான (Uniform) இடைமுகத் தரவை நடைமுறைப்படுத்துகின்றன.",
+    "taWord": "சீரான / ஒரே மாதிரியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Consistent",
+      "Standardized",
+      "Homogeneous"
+    ],
+    "antonyms": [
+      "Non-uniform",
+      "Varied"
+    ]
+  },
+  {
+    "id": 2106,
+    "word": "Unit Test",
+    "definition": "An automated software test that isolates and verifies the individual smallest testable code modules.",
+    "enExample": "Jest executes unit tests to verify mathematical calculation utility functions.",
+    "taExample": "கணிதக் கணக்கீட்டுப் பயன்பாட்டுச் செயல்பாடுகளைச் சரிபார்க்க ஜெஸ்ட் (Jest) அலகுச் சோதனைகளை (Unit tests) இயக்குகிறது.",
+    "taWord": "அலகுச் சோதனை (Unit Test)",
+    "pos": "noun",
+    "synonyms": [
+      "Component test",
+      "Module test"
+    ],
+    "antonyms": [
+      "Integration test",
+      "End-to-end test"
+    ]
+  },
+  {
+    "id": 2107,
+    "word": "Unmarshaling",
+    "definition": "The process of converting serialized external byte representations back into executable memory objects.",
+    "enExample": "Unmarshaling converts JSON payload strings back into strongly typed Go structs.",
+    "taExample": "தொடராக்கப்பட்ட JSON சரம் பேலோடுகளை மீண்டும் ஆப்ஜெக்ட்டுகளாக மாற்றுவது அன்மார்ஷலிங் (Unmarshaling) எனப்படும்.",
+    "taWord": "பொருள் மீட்பு (Unmarshaling)",
+    "pos": "noun",
+    "synonyms": [
+      "Deserialization",
+      "Decoding",
+      "Unpacking"
+    ],
+    "antonyms": [
+      "Marshaling",
+      "Serialization"
+    ]
+  },
+  {
+    "id": 2108,
+    "word": "Unmount",
+    "definition": "Removing a component, file system, or device from active rendering or operating system paths.",
+    "enExample": "Clean up active timer subscriptions in React when components unmount.",
+    "taExample": "கூறுகள் இறக்கப்படும் போது (Unmount) ரியாக்ட்டில் செயலில் உள்ள நேரக் சந்தாக்களைச் சுத்தம் செய்யவும்.",
+    "taWord": "இறக்குதல் / அகற்றுதல் (Unmount)",
+    "pos": "verb",
+    "synonyms": [
+      "Detach",
+      "Dismount",
+      "Teardown"
+    ],
+    "antonyms": [
+      "Mount",
+      "Attach"
+    ]
+  },
+  {
+    "id": 2109,
+    "word": "Unset",
+    "definition": "Removing or resetting a variable, environment configuration, or property back to undefined state.",
+    "enExample": "Unset sensitive token environment variables after container initialization completes.",
+    "taExample": "கொள்கலன் தொடக்கத்திற்குப் பிறகு முக்கிய டோக்கன் சூழல் மாறிகளை அகற்றுங்கள் (Unset).",
+    "taWord": "அமைப்பை நீக்கு (Unset)",
+    "pos": "verb",
+    "synonyms": [
+      "Clear",
+      "Reset",
+      "Delete"
+    ],
+    "antonyms": [
+      "Set",
+      "Define"
+    ]
+  },
+  {
+    "id": 2110,
+    "word": "Upstream",
+    "definition": "The original direction, repository, or service source from which software code or data stream flows.",
+    "enExample": "Pull the latest commits from the upstream main git branch before making changes.",
+    "taExample": "மாற்றங்களைச் செய்வதற்கு முன் அப்ஸ்ட்ரீம் (Upstream) முதன்மை கிட் கிளையிலிருந்து சமீபத்திய உறுதிப்பாடுகளைப் பெறவும்.",
+    "taWord": "அப்ஸ்ட்ரீம் / மேல்நிலை ஆதாரம்",
+    "pos": "adj.",
+    "synonyms": [
+      "Source repository",
+      "Origin server"
+    ],
+    "antonyms": [
+      "Downstream"
+    ]
+  },
+  {
+    "id": 2111,
+    "word": "Uptime",
+    "definition": "The duration or percentage of time during which a server or application remains continuously operational and available.",
+    "enExample": "Cloud SLAs guarantee 99.99% infrastructure uptime across availability zones.",
+    "taExample": "கிளவுட் சேவை உடன்படிக்கைகள் கிடைக்கும்தன்மை மண்டலங்களில் 99.99% உள்கட்டமைப்பு இயங்குநேரத்திற்கு (Uptime) உத்தரவாதம் அளிக்கின்றன.",
+    "taWord": "இயங்குநேரம் (Uptime)",
+    "pos": "noun",
+    "synonyms": [
+      "Availability",
+      "Operational period"
+    ],
+    "antonyms": [
+      "Downtime",
+      "Outage"
+    ]
+  },
+  {
+    "id": 2112,
+    "word": "URI",
+    "definition": "Uniform Resource Identifier; a compact string of characters that uniquely identifies a physical or abstract resource.",
+    "enExample": "A URL is a specific type of URI that provides a location method for web resources.",
+    "taExample": "URL என்பது வலை வளங்களுக்கான இருப்பிட முறையை வழங்கும் ஒரு குறிப்பிட்ட வகை URI ஆகும்.",
+    "taWord": "வள அடையாளங்காட்டி (URI)",
+    "pos": "noun",
+    "synonyms": [
+      "Resource identifier",
+      "URL",
+      "URN"
+    ]
+  },
+  {
+    "id": 2113,
+    "word": "Usability",
+    "definition": "The ease of use, accessibility, and intuitive user experience provided by an application.",
+    "enExample": "Conduct usability testing to streamline checkout user workflows.",
+    "taExample": "செக்அவுட் பயனர் பணிப்பாய்வுகளை சீரமைக்க பயன்பாட்டின் பயன்பாட்டுத் திறனை (Usability) சோதியுங்கள்.",
+    "taWord": "பயன்பாட்டுத் திறன் (Usability)",
+    "pos": "noun",
+    "synonyms": [
+      "User-friendliness",
+      "Accessibility",
+      "Ergonomics"
+    ],
+    "antonyms": [
+      "Inaccessibility",
+      "Cumbersomeness"
+    ]
+  },
+  {
+    "id": 2114,
+    "word": "User Agent",
+    "definition": "A network header string identifying the web browser, operating system, and hardware platform making HTTP requests.",
+    "enExample": "Inspect the HTTP user agent header to tailor responsive asset payloads for mobile clients.",
+    "taExample": "மொபைல் கிளையண்டுகளுக்குப் பதிலளிக்கும் சொத்து பேலோடுகளை வடிவமைக்க HTTP பயனர் முகவர் (User Agent) தலைப்பைச் சோதிக்கவும்.",
+    "taWord": "பயனர் முகவர் (User Agent)",
+    "pos": "noun",
+    "synonyms": [
+      "Browser identifier",
+      "Client string"
+    ]
+  },
+  {
+    "id": 2115,
+    "word": "Utility",
+    "definition": "A small, specialized helper function or program that performs a single routine task.",
+    "enExample": "Tailwind utility classes allow rapid UI styling directly inside HTML JSX templates.",
+    "taExample": "டெயில்விண்ட் பயன்பாட்டு (Utility) வகுப்புகள் HTML JSX டெம்ப்ளேட்களுக்குள் நேரடியாக விரைவான UI வடிவமைப்பை அனுமதிக்கின்றன.",
+    "taWord": "பயன்பாட்டுச் செயல்பாடு (Utility)",
+    "pos": "noun",
+    "synonyms": [
+      "Helper function",
+      "Tool",
+      "Routine"
+    ]
+  },
+  {
+    "id": 2116,
+    "word": "Ubiquitous",
+    "definition": "Present, appearing, or found everywhere.",
+    "enExample": "His ubiquitous influence was felt by all the family.",
+    "taExample": "அவரது எங்கும் நிறைந்த செல்வாக்கை குடும்பத்தினர் அனைவரும் உணர்ந்தனர்.",
+    "taWord": "எங்கும் நிறைந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Omnipresent",
+      "Everywhere",
+      "Pervasive"
+    ],
+    "antonyms": [
+      "Rare",
+      "Scarce"
+    ]
+  },
+  {
+    "id": 2117,
+    "word": "Uncanny",
+    "definition": "Strange or mysterious, especially in an unsettling way.",
+    "enExample": "An uncanny feeling that she was being watched.",
+    "taExample": "அவள் கண்காணிக்கப்படுகிறாள் என்ற விசித்திரமான உணர்வு.",
+    "taWord": "விசித்திரமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Eerie",
+      "Unnatural",
+      "Weird"
+    ],
+    "antonyms": [
+      "Normal",
+      "Ordinary"
+    ]
+  },
+  {
+    "id": 2118,
+    "word": "Usurp",
+    "definition": "Take (a position of power or importance) illegally or by force.",
+    "enExample": "Richard usurped the throne.",
+    "taExample": "ரிச்சர்ட் சிம்மாசனத்தை பறித்துக்கொண்டார்.",
+    "taWord": "பறித்துக்கொள்",
+    "pos": "verb",
+    "synonyms": [
+      "Seize",
+      "Take over",
+      "Appropriate"
+    ],
+    "antonyms": [
+      "Surrender",
+      "Relinquish"
+    ]
+  }
+]
