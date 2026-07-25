@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Volume2, Copy, Check, Bookmark, X, Share2, Sparkles, BookOpen, Globe } from 'lucide-react';
 import { LexiconWord } from '../types';
 import { speakWord } from '../utils/speech';
+import { AudioEqualizer } from './AudioEqualizer';
 
 interface WordDetailModalProps {
   word: LexiconWord | null;
@@ -124,7 +125,7 @@ export function WordDetailModal({
             {/* Word Header */}
             <div className="mb-8">
               <div className="flex items-baseline justify-between gap-4">
-                <h2 className="text-4xl sm:text-5xl font-serif italic text-zinc-50 tracking-tight">
+                <h2 className="text-4xl sm:text-5xl font-serif italic text-amber-400 tracking-tight">
                   {word.word}
                 </h2>
                 <button

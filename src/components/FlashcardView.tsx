@@ -227,7 +227,7 @@ export function FlashcardView({
 
                 {/* Front Side Body */}
                 <div className="my-auto flex flex-col items-center text-center z-10 py-6">
-                  <h2 className="text-4xl sm:text-5xl font-serif font-semibold text-zinc-50 mb-3 tracking-tight">
+                  <h2 className="text-4xl sm:text-5xl font-serif font-semibold text-amber-400 mb-3 tracking-tight">
                     {currentWord.word}
                   </h2>
                   <p className="text-lg font-tamil text-amber-400 font-medium mb-3">

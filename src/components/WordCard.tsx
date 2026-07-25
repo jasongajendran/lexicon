@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { Volume2, Copy, Check, Bookmark, Sparkles, ExternalLink } from 'lucide-react';
 import { LexiconWord } from '../types';
 import { speakWord } from '../utils/speech';
+import { AudioEqualizer } from './AudioEqualizer';
 
 export interface WordCardProps {
   key?: number;
@@ -92,11 +93,11 @@ export function WordCard({
           <button
             onClick={handleSpeak}
             className={`p-2 rounded-xl text-zinc-400 hover:text-amber-400 hover:bg-zinc-800/80 active:bg-amber-400/20 transition-all ${
-              isSpeaking ? 'text-amber-400 bg-amber-400/10 ring-1 ring-amber-400/30 animate-pulse' : ''
+              isSpeaking ? 'text-amber-400 bg-amber-400/10 ring-1 ring-amber-400/30' : ''
             }`}
             title="Pronounce"
           >
-            <Volume2 size={16} />
+            {isSpeaking ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
           </button>
           <button
             onClick={handleCopy}
@@ -122,7 +123,7 @@ export function WordCard({
       {/* Word & Tamil Title */}
       <div className="mb-4">
         <div className="flex items-baseline justify-between gap-2">
-          <h3 className="text-2xl md:text-3xl font-serif italic text-zinc-100 group-hover:text-amber-400 transition-colors duration-300">
+          <h3 className="text-2xl md:text-3xl font-serif italic text-amber-400">
             {word.word}
           </h3>
           <ExternalLink size={14} className="text-zinc-600 group-hover:text-amber-400/60 transition-colors shrink-0" />

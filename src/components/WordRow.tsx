@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { Volume2, Copy, Check, Bookmark } from 'lucide-react';
 import { LexiconWord } from '../types';
 import { speakWord } from '../utils/speech';
+import { AudioEqualizer } from './AudioEqualizer';
 
 interface WordRowProps {
   key?: number;
@@ -105,7 +106,7 @@ export function WordRow({
         {parts.map((part, i) => {
           const isMatch = matchTerms.some(t => part.toLowerCase() === t.toLowerCase());
           return isMatch ? (
-            <span key={i} className={`rounded-sm px-0.5 -mx-0.5 transition-all duration-500 font-medium ${isCentered ? 'text-amber-400 bg-amber-400/10' : 'text-zinc-200 group-hover:text-amber-400 group-hover:bg-amber-400/10 group-active:text-amber-400 group-active:bg-amber-400/10'}`}>{part}</span>
+            <span key={i} className="rounded-sm px-0.5 -mx-0.5 font-medium text-amber-400 bg-amber-400/10">{part}</span>
           ) : (
             part
           );
@@ -146,12 +147,12 @@ export function WordRow({
         </button>
         <button 
           onClick={handleSpeak}
-          className={`p-2 rounded-full bg-zinc-900/80 md:bg-transparent hover:bg-zinc-800 text-zinc-400 hover:text-amber-400 transition-colors ${
-            isSpeaking ? 'text-amber-400 animate-pulse' : ''
+          className={`p-2 rounded-full bg-zinc-900/80 md:bg-transparent hover:bg-zinc-800 transition-colors ${
+            isSpeaking ? 'text-amber-400' : 'text-zinc-400 hover:text-amber-400'
           }`}
           title="Pronounce word"
         >
-          <Volume2 size={16} />
+          {isSpeaking ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
         </button>
         <button 
           onClick={handleCopy}
@@ -165,7 +166,7 @@ export function WordRow({
       {/* Left Column: Word & Definition */}
       <div className="md:w-5/12 flex flex-col justify-center">
         <div className="flex items-baseline gap-4">
-          <h2 className={`text-4xl md:text-5xl lg:text-6xl font-serif italic tracking-tight transition-colors duration-500 ${isCentered ? 'text-amber-400' : 'text-zinc-100 group-hover:text-amber-400 group-active:text-amber-400'}`}>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif italic tracking-tight text-amber-400">
             {word.word}
           </h2>
           <span className="text-sm font-mono text-purple-300 bg-purple-400/10 px-2 py-0.5 rounded border border-purple-400/20">{word.pos}</span>
@@ -177,7 +178,7 @@ export function WordRow({
           </p>
           <p className="text-zinc-400 font-tamil text-sm md:text-base leading-relaxed tracking-wide">
             <span className="text-zinc-500 font-mono mr-2 text-xs">ta.</span>
-            <span className={`transition-colors duration-500 font-medium ${isCentered ? 'text-amber-400' : 'text-amber-400/80 group-hover:text-amber-400 group-active:text-amber-400'}`}>
+            <span className="font-medium text-amber-400">
               {word.taWord}
             </span>
           </p>

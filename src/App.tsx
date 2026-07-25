@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'motion/react';
-import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Sparkles, Filter, X } from 'lucide-react';
+import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Sparkles, Filter, X, Keyboard, Award, Flame } from 'lucide-react';
 import { wordsData } from './data';
 import { WordRow } from './components/WordRow';
 import { WordCard } from './components/WordCard';
@@ -8,6 +8,8 @@ import { WordDetailModal } from './components/WordDetailModal';
 import { FlashcardView } from './components/FlashcardView';
 import { FilterSheet } from './components/FilterSheet';
 import { BottomNav } from './components/BottomNav';
+import { WordOfTheDayCard } from './components/WordOfTheDayCard';
+import { KeyboardShortcutsModal } from './components/KeyboardShortcutsModal';
 import { LexiconWord } from './types';
 
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
@@ -27,9 +29,20 @@ export default function App() {
   const [selectedWord, setSelectedWord] = useState<LexiconWord | null>(null);
   const [isDetailOpen, setIsDetailOpen] = useState(false);
   const [isFilterSheetOpen, setIsFilterSheetOpen] = useState(false);
+  const [isKeyboardHelpOpen, setIsKeyboardHelpOpen] = useState(false);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
   const { scrollYProgress } = useScroll();
+
+  // Deterministic Spotlight Word of the Day based on day of year
+  const spotlightWord = useMemo(() => {
+    if (wordsData.length === 0) return null;
+    const today = new Date();
+    const dayOfYear = Math.floor(
+      (today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / 1000 / 60 / 60 / 24
+    );
+    return wordsData[dayOfYear % wordsData.length];
+  }, []);
 
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -79,14 +92,43 @@ export default function App() {
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      // Don't trigger single-key shortcuts if typing inside an input/textarea
+      const activeElement = document.activeElement;
+      const isInputFocused =
+        activeElement instanceof HTMLInputElement || activeElement instanceof HTMLTextAreaElement;
+
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
         searchInputRef.current?.focus();
+        return;
+      }
+
+      if (e.key === 'Escape') {
+        setIsDetailOpen(false);
+        setIsKeyboardHelpOpen(false);
+        setIsFilterSheetOpen(false);
+        return;
+      }
+
+      if (isInputFocused) return;
+
+      if (e.key === '?') {
+        e.preventDefault();
+        setIsKeyboardHelpOpen(prev => !prev);
+      } else if (e.key.toLowerCase() === 'r') {
+        e.preventDefault();
+        handleSelectRandomWord();
+      } else if (e.key.toLowerCase() === 'b') {
+        e.preventDefault();
+        setShowOnlyBookmarks(prev => !prev);
+      } else if (e.key.toLowerCase() === 's') {
+        e.preventDefault();
+        setCurrentTab(prev => (prev === 'study' ? 'feed' : 'study'));
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
+  }, [wordsData]);
 
   const filteredWords = wordsData.filter((w) => {
     const matchesSearch = w.word.toLowerCase().includes(searchQuery.toLowerCase()) || 
@@ -137,14 +179,25 @@ export default function App() {
               </div>
             </div>
 
-            <button
-              onClick={handleSelectRandomWord}
-              className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 active:scale-95 transition-all text-xs font-mono flex items-center gap-1.5"
-              title="Surprise Word"
-            >
-              <Shuffle size={14} />
-              <span className="hidden sm:inline">Random</span>
-            </button>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setIsKeyboardHelpOpen(true)}
+                className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 active:scale-95 transition-all text-xs font-mono flex items-center gap-1.5"
+                title="Keyboard Shortcuts (?)"
+              >
+                <Keyboard size={14} />
+                <span className="hidden sm:inline">Shortcuts</span>
+              </button>
+
+              <button
+                onClick={handleSelectRandomWord}
+                className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 active:scale-95 transition-all text-xs font-mono flex items-center gap-1.5"
+                title="Surprise Word (R)"
+              >
+                <Shuffle size={14} />
+                <span className="hidden sm:inline">Random</span>
+              </button>
+            </div>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] mb-6 tracking-tight">
@@ -269,13 +322,35 @@ export default function App() {
       <main className="lg:w-[65%] xl:w-[70%] min-h-screen relative">
         {/* Mobile & Tablet Header Controls */}
         <div className="sticky top-0 z-30 bg-[#0a0a0a]/90 backdrop-blur-xl border-b border-zinc-800/80 px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
+            {/* Mobile Index Quick Selector */}
+            <div className="relative lg:hidden flex items-center">
+              <Filter size={13} className="absolute left-3 text-amber-400 pointer-events-none" />
+              <select
+                value={activeLetter}
+                onChange={(e) => {
+                  setActiveLetter(e.target.value);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className="appearance-none bg-zinc-900 border border-zinc-800 text-xs font-mono text-amber-300 py-1.5 pl-8 pr-7 rounded-full focus:outline-none focus:ring-1 focus:ring-amber-400/50 cursor-pointer"
+              >
+                <option value="all">Index: ALL ({wordsData.length})</option>
+                {ALPHABET.map((letter) => (
+                  <option key={letter} value={letter} className="bg-zinc-900 text-zinc-100">
+                    Letter: {letter}
+                  </option>
+                ))}
+              </select>
+              <div className="absolute right-2.5 pointer-events-none text-zinc-500 text-[9px]">▼</div>
+            </div>
+
+            {/* Filter Drawer Trigger for POS & Bookmarks on Mobile */}
             <button
               onClick={() => setIsFilterSheetOpen(true)}
-              className="lg:hidden flex items-center gap-2 py-1.5 px-3 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300 hover:text-amber-400 transition-all"
+              className="lg:hidden py-1.5 px-2.5 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-400 hover:text-amber-400 transition-all flex items-center gap-1"
+              title="More Filters"
             >
-              <Filter size={14} className="text-amber-400" />
-              <span>Index ({activeLetter.toUpperCase()})</span>
+              <span>Filters</span>
             </button>
 
             {/* Mode Indicator */}
@@ -323,33 +398,21 @@ export default function App() {
           </div>
         </div>
 
-        {/* Horizontal Mobile Alphabet Scroll Bar */}
-        {currentTab === 'feed' && (
-          <div className="lg:hidden flex items-center gap-1 overflow-x-auto px-4 py-2 bg-zinc-950/80 border-b border-zinc-900 no-scrollbar">
-            <button 
-              onClick={() => { setActiveLetter('all'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-              className={`shrink-0 px-3 py-1 text-[11px] font-serif italic transition-all rounded-md ${activeLetter === 'all' ? 'bg-amber-400 text-black font-medium' : 'text-zinc-400 bg-zinc-900/60'}`}
-            >
-              All
-            </button>
-            {ALPHABET.map(letter => {
-              const isAddressed = ADDRESSED_LETTERS.includes(letter);
-              return isAddressed ? (
-                <button
-                  key={letter}
-                  onClick={() => { setActiveLetter(letter); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-                  className={`shrink-0 w-8 h-6 flex items-center justify-center text-[11px] font-serif italic transition-all rounded-md 
-                    ${activeLetter === letter ? 'bg-amber-400 text-black font-medium' : 'text-zinc-400 bg-zinc-900/60'}`}
-                >
-                  {letter}
-                </button>
-              ) : null;
-            })}
-          </div>
-        )}
-
         {/* Content View Switching */}
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-6">
+          {/* Spotlight Term of the Day (Shown when browsing default feed) */}
+          {currentTab === 'feed' && searchQuery === '' && activeLetter === 'all' && activePos === 'all' && !showOnlyBookmarks && spotlightWord && (
+            <WordOfTheDayCard
+              word={spotlightWord}
+              isBookmarked={bookmarkedIds.includes(spotlightWord.id)}
+              onToggleBookmark={() => toggleBookmark(spotlightWord.id)}
+              onSelectWord={(w) => {
+                setSelectedWord(w);
+                setIsDetailOpen(true);
+              }}
+            />
+          )}
+
           <AnimatePresence mode="wait">
             {currentTab === 'study' ? (
               <motion.div
@@ -452,6 +515,12 @@ export default function App() {
         isBookmarked={selectedWord ? bookmarkedIds.includes(selectedWord.id) : false}
         onToggleBookmark={() => selectedWord && toggleBookmark(selectedWord.id)}
         onWordSearch={handleWordLinkClick}
+      />
+
+      {/* Keyboard Shortcuts Guide Modal */}
+      <KeyboardShortcutsModal
+        isOpen={isKeyboardHelpOpen}
+        onClose={() => setIsKeyboardHelpOpen(false)}
       />
 
       {/* Mobile Bottom Filter Sheet */}
