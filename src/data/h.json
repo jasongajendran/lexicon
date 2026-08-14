@@ -481,5 +481,58 @@
       "Easy part",
       "Trivial task"
     ]
+  },
+  {
+    "id": 2648,
+    "word": "Highkey",
+    "definition": "Openly, overtly, undeniably, or intensely; without any attempt at subtlety.",
+    "enExample": "We highkey need a complete rewrite of the authentication flow before the public launch.",
+    "taExample": "பொது வெளியீட்டிற்கு முன் அங்கீகார ஓட்டத்தை நாம் முற்றிலும் புதிதாக மாற்றி எழுதியே ஆகவேண்டும் என்பது மறுக்கமுடியாத உண்மை.",
+    "taWord": "வெளிப்படையாக / அப்பட்டமாக",
+    "pos": "adv.",
+    "synonyms": [
+      "Overtly",
+      "Blatantly",
+      "Undeniably"
+    ],
+    "antonyms": [
+      "Lowkey",
+      "Subtly"
+    ]
+  },
+  {
+    "id": 2659,
+    "word": "Hard stop",
+    "definition": "A non-negotiable, strict time boundary when someone must leave a meeting or call.",
+    "enExample": "I have a hard stop at 3:00 PM for the client demo, so let's cover priority agenda items first.",
+    "taExample": "வாடிக்கையாளர் செயல்விளக்கத்திற்காக எனக்கு மதியம் 3:00 மணிக்கு கட்டாய வெளியேறும் நேரம் உள்ளது, எனவே முன்னுரிமை அம்சங்களை முதலில் விவாதிப்போம்.",
+    "taWord": "கட்டாய வெளியேறும் நேரம்",
+    "pos": "noun",
+    "synonyms": [
+      "Strict cutoff",
+      "Firm deadline"
+    ],
+    "antonyms": [
+      "Open-ended time",
+      "Flexibility"
+    ]
+  },
+  {
+    "id": 2694,
+    "word": "Hotfix",
+    "definition": "An emergency code patch deployed immediately to production to resolve a critical, live defect.",
+    "enExample": "The DevOps engineer pushed a hotfix at midnight to patch the SQL injection vulnerability.",
+    "taExample": "பாதுகாப்புக் குறைபாட்டைச் சரிசெய்ய டெவ்ஆப்ஸ் பொறியாளர் நள்ளிரவில் உடனடி அவசரத் திருத்தத்தை வெளியிட்டார்.",
+    "taWord": "உடனடி அவசரத் திருத்தம்",
+    "pos": "noun",
+    "synonyms": [
+      "Emergency patch",
+      "Quick fix",
+      "Live patch"
+    ],
+    "antonyms": [
+      "Scheduled release",
+      "Major version"
+    ]
   }
 ]

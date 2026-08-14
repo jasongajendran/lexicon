@@ -269,5 +269,23 @@
       "Sophisticate",
       "City slicker"
     ]
+  },
+  {
+    "id": 2626,
+    "word": "Yap",
+    "definition": "To talk excessively, rambling on without getting to the actionable point.",
+    "enExample": "Let's stop yapping during the standup and focus purely on blockers.",
+    "taExample": "காலை நிலைக்கூட்டத்தில் வீண் பேச்சு பேசுவதை நிறுத்திவிட்டு, தடைகளில் மட்டும் கவனம் செலுத்துவோம்.",
+    "taWord": "வீண் அரட்டை / நீட்டி முழக்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Ramble",
+      "Babble",
+      "Chatter"
+    ],
+    "antonyms": [
+      "Be concise",
+      "Summarize"
+    ]
   }
 ]

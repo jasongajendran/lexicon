@@ -313,5 +313,59 @@
       "Plain",
       "Unobtrusive"
     ]
+  },
+  {
+    "id": 2735,
+    "word": "ORM",
+    "pos": "noun",
+    "definition": "Object-Relational Mapping; a software technique that bridges object-oriented code with relational databases, treating tables as queryable classes.",
+    "taWord": "ஆப்ஜெக்ட்-தரவுத்தள தொடர்பு முறைமை",
+    "enExample": "Prisma ORM provided end-to-end type safety between our PostgreSQL database schema and TypeScript application layer.",
+    "taExample": "SQL வினவல்களை நேரடியாக எழுதாமல் TypeScript மொழியிலேயே தரவுகளைக் கையாள ORM பயன்படுத்தப்பட்டது.",
+    "synonyms": [
+      "data mapper",
+      "relational bridge",
+      "active record"
+    ],
+    "antonyms": [
+      "raw SQL client",
+      "manual query driver"
+    ]
+  },
+  {
+    "id": 2736,
+    "word": "Optimistic Locking",
+    "pos": "noun",
+    "definition": "A concurrency control strategy where record updates assume no conflict will occur, checking a version field prior to committing to catch collisions.",
+    "taWord": "நம்பிக்கை அடிப்படையிலான பூட்டுதல் முறை",
+    "enExample": "Optimistic locking with an incrementing record version integer stopped concurrent edits from overwriting each other.",
+    "taExample": "இரண்டு பயனர்கள் ஒரே பதிவை மாற்றும்போது பதிப்பு எண்ணை சரிபார்த்து முரண்பாடுகளைத் தவிர்க்கும் முறை.",
+    "synonyms": [
+      "version-check concurrency",
+      "non-blocking lock",
+      "optimistic concurrency"
+    ],
+    "antonyms": [
+      "pessimistic locking",
+      "exclusive table lock"
+    ]
+  },
+  {
+    "id": 2737,
+    "word": "Out-of-Memory",
+    "pos": "noun",
+    "definition": "A critical runtime condition (OOM) where the operating system or runtime engine terminates an application process because no free RAM is available.",
+    "taWord": "நினைவக பற்றாக்குறை முடக்கம்",
+    "enExample": "A hidden memory leak in our image processing pipeline caused the background container to get killed with an OOM error.",
+    "taExample": "நினைவகத்தில் தரவு தேங்கியதால் சர்வரில் போதுமான RAM இல்லாமல் பயன்பாடு OOM பிழையுடன் முடங்கியது.",
+    "synonyms": [
+      "OOM killer",
+      "memory exhaustion",
+      "heap overflow"
+    ],
+    "antonyms": [
+      "stable footprint",
+      "bounded memory pool"
+    ]
   }
 ]

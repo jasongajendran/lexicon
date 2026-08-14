@@ -429,5 +429,96 @@
       "Unprofitable",
       "Useless"
     ]
+  },
+  {
+    "id": 2629,
+    "word": "Glow-up",
+    "definition": "A dramatic, highly impressive positive transformation, upgrade, or improvement.",
+    "enExample": "Our legacy checkout page had a massive glow-up after the Tailwind CSS refactor.",
+    "taExample": "டெய்ல்விண்ட் சிஎஸ்எஸ் மாற்றியமைத்தலுக்குப் பிறகு எங்கள் பழைய பணம் செலுத்தும் பக்கம் பிரம்மாண்டமான பொலிவு பெற்றது.",
+    "taWord": "நேர்மறைப் பொலிவு / பிரம்மாண்ட மாற்றம்",
+    "pos": "noun",
+    "synonyms": [
+      "Transformation",
+      "Upgrade",
+      "Makeover"
+    ],
+    "antonyms": [
+      "Degradation",
+      "Decline"
+    ]
+  },
+  {
+    "id": 2640,
+    "word": "Gaslight",
+    "definition": "Manipulating someone psychologically into questioning their own sanity, memory, or perception.",
+    "enExample": "Don't gaslight me into believing that race condition was in the codebase before my merge.",
+    "taExample": "நான் இணைப்பதற்கு முன்பே அந்தக் குறியீட்டில் ரேஸ் கண்டிஷன் பிழை இருந்தது என்று என்னை தவறாக நம்பவைக்க முயலாதீர்கள்.",
+    "taWord": "மாயையாக திசைதிருப்பி நம்பவைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Manipulate",
+      "Deceive",
+      "Mislead"
+    ],
+    "antonyms": [
+      "Reassure",
+      "Validate"
+    ]
+  },
+  {
+    "id": 2641,
+    "word": "Gatekeep",
+    "definition": "Controlling, restricting, or withholding access to information, communities, or resources.",
+    "enExample": "Senior developers shouldn't gatekeep internal architecture docs from junior onboarding teammates.",
+    "taExample": "மூத்த மென்பொருள் பொறியாளர்கள் புதிய ஜூனியர் ஊழியர்களிடமிருந்து நிறுவனத்தின் கட்டமைப்பு ஆவணங்களை மறைத்து வைத்திருக்கக்கூடாது.",
+    "taWord": "அணுகலைத் தடுத்து மறைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Withhold",
+      "Restrict",
+      "Monopolize"
+    ],
+    "antonyms": [
+      "Share",
+      "Democratize",
+      "Open up"
+    ]
+  },
+  {
+    "id": 2642,
+    "word": "Goated",
+    "definition": "Greatest of all time; considered unbeatable, peerless, and top-tier.",
+    "enExample": "Vite's near-instant hot module replacement is honestly goated for developer experience.",
+    "taExample": "டெவலப்பர் அனுபவத்திற்கு வைட் (Vite) கருவியின் உடனடி மாட்யூல் ரீப்ளேஸ்மென்ட் உண்மையிலேயே மிகச் சிறந்தது.",
+    "taWord": "எக்காலத்திற்கும் மிகச் சிறந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Unrivaled",
+      "Supreme",
+      "Legendary"
+    ],
+    "antonyms": [
+      "Inferior",
+      "Flawed"
+    ]
+  },
+  {
+    "id": 2668,
+    "word": "Greenfield",
+    "definition": "A software project developed entirely from scratch without constraints from existing legacy code.",
+    "enExample": "Building the new notifications microservice is a greenfield project with modern tech choices.",
+    "taExample": "புதிய அறிவிப்பு மைக்ரோசர்வீஸை உருவாக்குவது எந்த பழைய தடைகளும் இல்லாத ஒரு புதிய தொடக்கத் திட்டமாகும்.",
+    "taWord": "புதிய தொடக்கத் திட்டம்",
+    "pos": "adj.",
+    "synonyms": [
+      "Clean slate",
+      "Brand-new",
+      "From scratch"
+    ],
+    "antonyms": [
+      "Brownfield",
+      "Legacy-bound"
+    ]
   }
 ]

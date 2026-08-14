@@ -315,5 +315,168 @@
       "Timeline",
       "Milestone plan"
     ]
+  },
+  {
+    "id": 2619,
+    "word": "Rizz",
+    "definition": "Charisma, charm, or the natural ability to persuade, impress, or attract others.",
+    "enExample": "Our tech lead used all his stakeholder rizz to get the budget approved for the new cloud migration.",
+    "taExample": "புதிய கிளவுட் மாற்றத்திற்கான பட்ஜெட்டைப் பெற எங்கள் தலைமை பொறியாளர் தனது முழு ஈர்ப்புத்திறனைப் பயன்படுத்தினார்.",
+    "taWord": "வசீகர ஈர்ப்புத்திறன்",
+    "pos": "noun",
+    "synonyms": [
+      "Charisma",
+      "Charm",
+      "Persuasiveness"
+    ],
+    "antonyms": [
+      "Awkwardness",
+      "Bluntness"
+    ]
+  },
+  {
+    "id": 2628,
+    "word": "Rent-free",
+    "definition": "Occupying someone's thoughts persistently without any effort or reason.",
+    "enExample": "That unhandled null pointer exception has been living rent-free in my mind all weekend.",
+    "taExample": "அந்த கையாளப்படாத நல் பாயிண்டர் பிழை வார இறுதி முழுவதும் என் மனதில் இடைவிடாமல் ஓடிக்கொண்டே இருந்தது.",
+    "taWord": "மனதில் நீங்காமல் இருத்தல்",
+    "pos": "phrase",
+    "synonyms": [
+      "Obsessing",
+      "Preoccupying",
+      "Haunting"
+    ],
+    "antonyms": [
+      "Forgotten",
+      "Dismissed"
+    ]
+  },
+  {
+    "id": 2636,
+    "word": "Ratio",
+    "definition": "When a reply or counter-argument receives overwhelmingly more support than the original claim.",
+    "enExample": "The proposal to abandon TypeScript got instantly ratioed by the entire engineering team.",
+    "taExample": "டைப்ஸ்கிரிப்டை கைவிடுவதற்கான முன்மொழிவை ஒட்டுமொத்த பொறியியல் குழுவும் பெருவாரியான எதிர்ப்பால் நிராகரித்தது.",
+    "taWord": "பெரும்பான்மை எதிர்ப்பால் முறியடித்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Outvoted",
+      "Rebutted",
+      "Overruled"
+    ],
+    "antonyms": [
+      "Endorsed",
+      "Approved"
+    ]
+  },
+  {
+    "id": 2670,
+    "word": "Runway",
+    "definition": "The amount of time a project or company can survive before running out of funding or resources.",
+    "enExample": "With our current cloud spend and developer burn rate, the startup has twelve months of runway.",
+    "taExample": "தற்போதைய கிளவுட் செலவுகள் மற்றும் செயல்பாட்டுச் செலவுகளின்படி, நிறுவனத்திற்கு பன்னிரண்டு மாத கால நிதி இருப்பு உள்ளது.",
+    "taWord": "நிதி இருப்புக்காலம்",
+    "pos": "noun",
+    "synonyms": [
+      "Cash buffer",
+      "Survival timeframe",
+      "Operational lifespan"
+    ],
+    "antonyms": [
+      "Insolvency",
+      "Bankruptcy"
+    ]
+  },
+  {
+    "id": 2672,
+    "word": "ROI",
+    "definition": "Return on Investment; a metric evaluating the financial or productivity gain relative to cost.",
+    "enExample": "Automating our end-to-end regression tests provided an immediate ROI by cutting release cycles in half.",
+    "taExample": "எண்ட்-டு-எண்ட் சோதனைகளை தானியக்கமாக்கியது வெளியீட்டு சுழற்சிகளை பாதியாகக் குறைத்து உடனடி முதலீட்டுப் பலனை அளித்தது.",
+    "taWord": "முதலீட்டின் மீதான வருவாய் / பயன்",
+    "pos": "noun",
+    "synonyms": [
+      "Yield",
+      "Gain",
+      "Payoff"
+    ],
+    "antonyms": [
+      "Deficit",
+      "Financial loss"
+    ]
+  },
+  {
+    "id": 2706,
+    "word": "Regression",
+    "definition": "A software bug where a previously working feature breaks unintentionally after a recent code commit.",
+    "enExample": "Automated test suites run before every PR to catch regression bugs in the checkout flow.",
+    "taExample": "பணம் செலுத்தும் முறையில் பின்விளைவுப் பிழைகள் ஏற்படுவதைத் தடுக்க ஒவ்வொரு புல் ரிக்வெஸ்ட்டிற்கும் முன் சோதனைகள் இயங்குகின்றன.",
+    "taWord": "பின்விளைவுப் பிழை",
+    "pos": "noun",
+    "synonyms": [
+      "Relapse",
+      "Breakage",
+      "Retrograde bug"
+    ],
+    "antonyms": [
+      "Improvement",
+      "Stability"
+    ]
+  },
+  {
+    "id": 2740,
+    "word": "Rate Limiting",
+    "pos": "noun",
+    "definition": "A traffic shaping technique that caps the frequency of incoming API requests from a client within a set timeframe to prevent abuse and denial of service.",
+    "taWord": "கோரிக்கை வேகக் கட்டுப்பாடு",
+    "enExample": "Our public endpoints enforce a rate limit of 100 requests per minute per API key using a token bucket algorithm.",
+    "taExample": "சேவையக நெரிசல் மற்றும் தவறான பயன்பாட்டைத் தடுக்க நிமிடத்திற்கு இத்தனை கோரிக்கைகள் மட்டுமே என Rate Limiting செய்யப்பட்டுள்ளது.",
+    "synonyms": [
+      "throttling",
+      "traffic shaping",
+      "token bucket limiter"
+    ],
+    "antonyms": [
+      "unbounded traffic",
+      "unrestricted throughput"
+    ]
+  },
+  {
+    "id": 2741,
+    "word": "Resiliency",
+    "pos": "noun",
+    "definition": "The architectural capability of a software system to gracefully absorb disruptions, transient failures, and network partitions while maintaining service.",
+    "taWord": "மீள்திறன் / தடுமாற்றத்தைத் தாங்கும் ஆற்றல்",
+    "enExample": "Implementing automatic retries, fallback caches, and health checks improved the platform's resiliency during cloud regional outages.",
+    "taExample": "வலையமைப்பு துண்டிக்கப்பட்டாலும் மாற்று வழிகள் மூலம் இயங்கும் மீள்திறன் (Resiliency) மென்பொருளில் கட்டமைக்கப்பட்டது.",
+    "synonyms": [
+      "fault tolerance",
+      "robustness",
+      "graceful degradation"
+    ],
+    "antonyms": [
+      "brittleness",
+      "fragility",
+      "single point of failure"
+    ]
+  },
+  {
+    "id": 2742,
+    "word": "Rehydration",
+    "pos": "noun",
+    "definition": "In server-side rendering (SSR), the client-side JavaScript process of attaching interactive DOM event listeners to static HTML rendered by the server.",
+    "taWord": "செயலூக்க மறுஇணைப்பு",
+    "enExample": "React rehydration completes within milliseconds, turning static HTML into a fully interactive single-page application.",
+    "taExample": "சர்வரில் இருந்து வந்த நிலையான HTML பக்கத்துடன் உலாவியின் JavaScript இணைந்து அதை ஊடாடும் பக்கமாக மாற்றும் முறை.",
+    "synonyms": [
+      "DOM hydration",
+      "event binding",
+      "client bootup"
+    ],
+    "antonyms": [
+      "static dehydration",
+      "pure HTML rendering"
+    ]
   }
 ]

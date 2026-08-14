@@ -600,5 +600,40 @@
       "Reaction",
       "Response"
     ]
+  },
+  {
+    "id": 2634,
+    "word": "Flex",
+    "definition": "To show off, boast, or demonstrate skills, wealth, or technical prowess.",
+    "enExample": "Writing a custom compiler in Rust just for a weekend hackathon is a huge technical flex.",
+    "taExample": "வார இறுதி ஹேக்கத்தானுக்காக ரஸ்ட் மொழியில் தனிப்பயன் கம்பைலரை உருவாக்குவது ஒரு மிகப்பெரிய தொழில்நுட்பத் திறமை வெளிப்பாடு.",
+    "taWord": "திறமையை பெருமையுடன் வெளிப்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Show off",
+      "Flaunt",
+      "Boast"
+    ],
+    "antonyms": [
+      "Downplay",
+      "Conceal"
+    ]
+  },
+  {
+    "id": 2662,
+    "word": "Flywheel",
+    "definition": "A self-reinforcing business or system cycle where each victory builds compounding momentum for the next.",
+    "enExample": "Faster deployment cycles create a developer flywheel that accelerates feature delivery.",
+    "taExample": "வேகமான வெளியீட்டு சுழற்சிகள் டெவலப்பர்களுக்கு தொடர் உந்துதலை உருவாக்கி புதிய அம்சங்களின் விநியோகத்தை விரைவுபடுத்துகிறது.",
+    "taWord": "சுய-உந்துதல் சுழற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Compounding momentum",
+      "Virtuous cycle"
+    ],
+    "antonyms": [
+      "Vicious cycle",
+      "Stagnation"
+    ]
   }
 ]

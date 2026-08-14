@@ -264,5 +264,112 @@
       "Dishonor",
       "Criticism"
     ]
+  },
+  {
+    "id": 2691,
+    "word": "Kanban",
+    "definition": "A lean workflow management method designed to visualize work, maximize efficiency, and optimize continuous flow.",
+    "enExample": "Our platform operations team uses a Kanban board to manage ad-hoc infrastructure requests.",
+    "taExample": "எங்கள் உள்கட்டமைப்பு செயல்பாட்டுக் குழு எதிர்பாராத கோரிக்கைகளை நிர்வகிக்க கான்பன் பலகையைப் பயன்படுத்துகிறது.",
+    "taWord": "கான்பன் பணிப்பாய்வு முறை",
+    "pos": "noun",
+    "synonyms": [
+      "Visual workflow",
+      "Lean board",
+      "Continuous flow system"
+    ],
+    "antonyms": [
+      "Timeboxed batching"
+    ]
+  },
+  {
+    "id": 2724,
+    "word": "Key-Value Store",
+    "pos": "noun",
+    "definition": "A high-performance non-relational database storage paradigm that manages data as an associative array where each unique key maps to a specific value.",
+    "taWord": "சாவி-மதிப்பு தரவுத்தளம்",
+    "enExample": "We utilized Redis as an in-memory key-value store to cache live session tokens and user rate limits.",
+    "taExample": "பயனர் அமர்வுத் தகவல்களை அதிவேகமாக மீட்டெடுக்க Redis போன்ற சாவி-மதிப்பு தரவுத்தளத்தைப் பயன்படுத்தினோம்.",
+    "synonyms": [
+      "dictionary store",
+      "hash store",
+      "associative database"
+    ],
+    "antonyms": [
+      "relational table",
+      "graph database"
+    ]
+  },
+  {
+    "id": 2725,
+    "word": "Kill Switch",
+    "pos": "noun",
+    "definition": "A remote mechanism, circuit breaker, or feature toggle designed to immediately deactivate a broken service or compromised feature in production without redeploying code.",
+    "taWord": "அவசர நிறுத்த அமைப்பு",
+    "enExample": "When the payment gateway started throwing 500 errors, our release team flipped the remote kill switch to prevent corrupted transactions.",
+    "taExample": "பணம் செலுத்தும் சேவையில் பிழை ஏற்பட்டவுடன், அவசர நிறுத்த அமைப்பு (Kill switch) மூலம் அந்த அம்சம் உடனடியாக முடக்கப்பட்டது.",
+    "synonyms": [
+      "emergency shutdown",
+      "circuit breaker",
+      "safety toggle"
+    ],
+    "antonyms": [
+      "auto-restart loop",
+      "hardcoded logic"
+    ]
+  },
+  {
+    "id": 2726,
+    "word": "Kernel Space",
+    "pos": "noun",
+    "definition": "The protected memory region where the core operating system kernel executes, possessing direct, privileged access to system hardware.",
+    "taWord": "இயக்க முறைமை பிரதான நினைவக பகுதி",
+    "enExample": "System calls bridge the gap between user space applications and privileged drivers running in kernel space.",
+    "taExample": "கணினி பயன்பாடுகள் வன்பொருளை அணுகும்போது Kernel Space நினைவகத்துடன் கணினி அழைப்புகள் மூலம் தொடர்பு கொள்கின்றன.",
+    "synonyms": [
+      "privileged ring",
+      "ring 0",
+      "system space"
+    ],
+    "antonyms": [
+      "user space",
+      "application sandbox"
+    ]
+  },
+  {
+    "id": 2727,
+    "word": "Keep-Alive",
+    "pos": "noun",
+    "definition": "A protocol header or heartbeat packet maintaining a single open TCP connection across multiple sequential HTTP requests to avoid handshake overhead.",
+    "taWord": "தொடர் இணைப்பு சமிக்ஞை",
+    "enExample": "Enabling HTTP Keep-Alive dramatically reduced socket connection latency on our mobile API gateways.",
+    "taExample": "HTTP Keep-Alive அமைப்பை இயக்கியதால் ஒவ்வொரு கோரிக்கைக்கும் புதிய இணைப்பு தொடங்கும் நேர விரயம் தவிர்க்கப்பட்டது.",
+    "synonyms": [
+      "persistent connection",
+      "heartbeat ping",
+      "TCP keepalive"
+    ],
+    "antonyms": [
+      "connection teardown",
+      "ephemeral socket"
+    ]
+  },
+  {
+    "id": 2728,
+    "word": "Key Management Service",
+    "pos": "noun",
+    "definition": "A cloud-hosted managed security service (KMS) that enables centralized creation, rotation, auditing, and deletion of cryptographic keys.",
+    "taWord": "மறைகுறியீட்டு சாவி மேலாண்மை சேவை",
+    "enExample": "Database backups were encrypted at rest with keys managed securely through AWS KMS.",
+    "taExample": "தரவுத்தளத்தின் காப்புப்பிரதிகள் KMS சேவை மூலம் நிர்வகிக்கப்படும் சாவிகளால் என்க்ரிப்ட் செய்யப்பட்டுள்ளன.",
+    "synonyms": [
+      "KMS",
+      "crypto key vault",
+      "secrets manager"
+    ],
+    "antonyms": [
+      "hardcoded secrets",
+      "plaintext credentials"
+    ]
   }
 ]

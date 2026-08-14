@@ -322,5 +322,147 @@
       "Balance",
       "Concession"
     ]
+  },
+  {
+    "id": 2627,
+    "word": "Touch grass",
+    "definition": "To disconnect from internet/screens and reconnect with reality and the physical world.",
+    "enExample": "After debugging CI/CD pipeline YAML scripts for ten straight hours, you need to go touch grass.",
+    "taExample": "தொடர்ந்து பத்து மணிநேரம் சிஐ/சிடி அமைப்பை சரிபார்த்த பிறகு, நீங்கள் திரையை விட்டு வெளியே சென்று உலகை உணர வேண்டும்.",
+    "taWord": "நிஜ உலகிற்கு திரும்புதல் / ஓய்வெடுத்தல்",
+    "pos": "idiom",
+    "synonyms": [
+      "Unplug",
+      "Get outside",
+      "Ground yourself"
+    ],
+    "antonyms": [
+      "Doomscroll",
+      "Overwork"
+    ]
+  },
+  {
+    "id": 2661,
+    "word": "Take offline",
+    "definition": "To move a specific discussion outside the current group meeting to be resolved privately.",
+    "enExample": "That CSS styling debate is eating up time, let's take it offline between the two frontend engineers.",
+    "taExample": "அந்த சிஎஸ்எஸ் வடிவமைப்பு விவாதம் நேரத்தை வீணடிக்கிறது, அதை இரு முன்னணி பொறியாளர்களும் தனியாக விவாதித்து முடிவெடுக்கலாம்.",
+    "taWord": "தனியாக விவாதிக்க மாற்றுதல்",
+    "pos": "idiom",
+    "synonyms": [
+      "Discuss privately",
+      "Defer",
+      "Side-channel"
+    ],
+    "antonyms": [
+      "Address publicly",
+      "Discuss in forum"
+    ]
+  },
+  {
+    "id": 2665,
+    "word": "Table",
+    "definition": "To postpone, suspend, or set aside consideration of an agenda item for a later meeting.",
+    "enExample": "We agreed to table the microservice migration discussion until Q4 budget approvals arrive.",
+    "taExample": "Q4 பட்ஜெட் ஒப்புதல்கள் வரும் வரை மைக்ரோசர்வீஸ் மாற்ற விவாதத்தை ஒத்திவைக்க நாங்கள் ஒப்புக்கொண்டோம்.",
+    "taWord": "ஒத்திவைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Postpone",
+      "Shelve",
+      "Defer"
+    ],
+    "antonyms": [
+      "Enact",
+      "Address immediately"
+    ]
+  },
+  {
+    "id": 2680,
+    "word": "Timebox",
+    "definition": "A fixed, predetermined period of time strictly allocated to an activity or meeting.",
+    "enExample": "Let's timebox the architecture brainstorming session to forty-five minutes.",
+    "taExample": "கட்டமைப்பு குறித்த மூளைச்சலவைக் கூட்டத்தை நாற்பத்தைந்து நிமிடங்களுக்குள் கண்டிப்பாக முடிப்போம்.",
+    "taWord": "வரையறுக்கப்பட்ட கால அளவு",
+    "pos": "noun",
+    "synonyms": [
+      "Fixed duration",
+      "Time limit",
+      "Scheduled window"
+    ],
+    "antonyms": [
+      "Open-ended discussion"
+    ]
+  },
+  {
+    "id": 2693,
+    "word": "Technical debt",
+    "definition": "The implied future rework cost caused by choosing a quick, expedient solution now instead of a sound approach.",
+    "enExample": "Skipping unit tests to meet the launch date added massive technical debt to our codebase.",
+    "taExample": "வெளியீட்டுத் தேதியை எட்ட சோதனைகளைத் தவிர்த்தது எங்கள் குறியீட்டில் மிகப்பெரிய தொழில்நுட்பக் கடனை சேர்த்தது.",
+    "taWord": "தொழில்நுட்பக் கடன் / பிந்தைய சீரமைப்புச் சுமை",
+    "pos": "noun",
+    "synonyms": [
+      "Code debt",
+      "Architectural debt",
+      "Deficit"
+    ],
+    "antonyms": [
+      "Clean architecture",
+      "Robust code"
+    ]
+  },
+  {
+    "id": 2715,
+    "word": "Test harness",
+    "definition": "A collection of software, test scripts, stubs, and configuration data configured to execute automated test suites.",
+    "enExample": "The QA team developed a resilient test harness to run regression suites across multiple browsers in parallel.",
+    "taExample": "பல்வேறு உலாவிகளில் ஒரே நேரத்தில் சோதனைகளை இயக்க சோதனைக் குழு வலுவான தானியங்கி சோதனைக் கட்டமைப்பை உருவாக்கியது.",
+    "taWord": "தானியங்கி சோதனைக் கட்டமைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Test framework",
+      "Automation suite",
+      "Testing scaffold"
+    ],
+    "antonyms": [
+      "Manual testing"
+    ]
+  },
+  {
+    "id": 2743,
+    "word": "Tree Shaking",
+    "pos": "noun",
+    "definition": "A build optimization process in JavaScript bundlers that statically analyzes ES module import graphs to remove unused code exports from final production bundles.",
+    "taWord": "தேவையற்ற குறியீடுகளை நீக்கும் உத்தி",
+    "enExample": "By importing only specific Lucide icons, Rollup's tree shaking reduced our client JavaScript bundle by 40 percent.",
+    "taExample": "பயன்படுத்தப்படாத உதிரி நிரல்களை Tree Shaking மூலம் நீக்கி செயலியை மிகச் சிறிய அளவில் உருவாக்கினோம்.",
+    "synonyms": [
+      "dead code elimination",
+      "bundle optimization",
+      "export pruning"
+    ],
+    "antonyms": [
+      "bloated bundling",
+      "full module inclusion"
+    ]
+  },
+  {
+    "id": 2744,
+    "word": "Time-to-Live",
+    "pos": "noun",
+    "definition": "A numerical threshold or expiration timer (TTL) that dictates the lifespan or hop-limit of cached data, DNS records, or network packets.",
+    "taWord": "வாழ்நாள் காலக்கெடு / தற்காலிக கால எல்லை",
+    "enExample": "We configured a 15-minute TTL on the Redis cache key to guarantee users see fresh inventory data.",
+    "taExample": "தற்காலிக நினைவகத்தில் உள்ள தரவுகள் 15 நிமிடங்களுக்குப் பிறகு தானாக காலாவதியாகுமாறு TTL காலக்கெடு அமைக்கப்பட்டது.",
+    "synonyms": [
+      "TTL",
+      "cache expiration",
+      "lifespan duration"
+    ],
+    "antonyms": [
+      "infinite persistence",
+      "permanent retention"
+    ]
   }
 ]

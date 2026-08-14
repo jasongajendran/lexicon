@@ -336,5 +336,308 @@
       "Frequent",
       "Steady"
     ]
+  },
+  {
+    "id": 2625,
+    "word": "Slay",
+    "definition": "To perform or succeed in an outstanding, flawless, and impressive manner.",
+    "enExample": "She slayed the architecture presentation in front of executive leadership.",
+    "taExample": "நிர்வாகத் தலைமைக்கு முன்பாக கணினி கட்டமைப்பு விளக்கக்காட்சியை அவர் அற்புதமாக நிகழ்த்தினார்.",
+    "taWord": "மிகச் சிறப்பாகச் செய்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Conquer",
+      "Master",
+      "Excel"
+    ],
+    "antonyms": [
+      "Fail",
+      "Flop"
+    ]
+  },
+  {
+    "id": 2632,
+    "word": "Sus",
+    "definition": "Suspicious, dubious, untrustworthy, or questionable.",
+    "enExample": "That third-party npm package asking for root file system access looks very sus.",
+    "taExample": "ரூட் கோப்பு அணுகலைக் கேட்கும் அந்த மூன்றாம் தரப்பு npm தொகுப்பு மிகவும் சந்தேகத்திற்குரியதாக உள்ளது.",
+    "taWord": "சந்தேகத்திற்குரிய",
+    "pos": "adj.",
+    "synonyms": [
+      "Suspicious",
+      "Dubious",
+      "Shady"
+    ],
+    "antonyms": [
+      "Legitimate",
+      "Trustworthy",
+      "Authentic"
+    ]
+  },
+  {
+    "id": 2637,
+    "word": "Salty",
+    "definition": "Bitter, resentful, or visibly annoyed over a minor disappointment or defeat.",
+    "enExample": "He was salty after his pull request was rejected due to missing unit test coverage.",
+    "taExample": "யூனிட் சோதனை கவரேஜ் இல்லாததால் தனது புல் ரிக்வெஸ்ட் நிராகரிக்கப்பட்டதால் அவர் எரிச்சலடைந்தார்.",
+    "taWord": "மனக்கசப்பு / எரிச்சல்",
+    "pos": "adj.",
+    "synonyms": [
+      "Bitter",
+      "Resentful",
+      "Peeved"
+    ],
+    "antonyms": [
+      "Gracious",
+      "Cheerfully accepting"
+    ]
+  },
+  {
+    "id": 2644,
+    "word": "Side eye",
+    "definition": "A sidelong look expressing suspicion, skepticism, disapproval, or disbelief.",
+    "enExample": "The entire team gave him the side eye when he committed code without running the linter.",
+    "taExample": "லின்டரை இயக்காமல் குறியீட்டை புஷ் செய்தபோது ஒட்டுமொத்த குழுவும் அவரை சந்தேகத்துடனும் அதிருப்தியுடனும் பார்த்தது.",
+    "taWord": "சந்தேகப்பார்வை / அதிருப்திப் பார்வை",
+    "pos": "noun",
+    "synonyms": [
+      "Skeptical look",
+      "Disapproval"
+    ],
+    "antonyms": [
+      "Warm smile",
+      "Approval"
+    ]
+  },
+  {
+    "id": 2645,
+    "word": "Slaps",
+    "definition": "Is exceptionally good, effective, delightful, or impressively crafted.",
+    "enExample": "The new snappy animations and responsive drawer layout absolutely slap.",
+    "taExample": "புதிய விரைவான அனிமேஷன்களும் மொபைல் டிராயர் அமைப்பும் வியக்கத்தக்க வகையில் அருமையாக உள்ளன.",
+    "taWord": "மிகவும் அற்புதமாக இருத்தல்",
+    "pos": "slang",
+    "synonyms": [
+      "Excels",
+      "Shines",
+      "Rocks"
+    ],
+    "antonyms": [
+      "Disappoints",
+      "Lacks"
+    ]
+  },
+  {
+    "id": 2652,
+    "word": "Synergize",
+    "definition": "To combine efforts and collaborate so the collective outcome exceeds individual efforts.",
+    "enExample": "The engineering and marketing teams need to synergize before the global product launch.",
+    "taExample": "உலகளாவிய தயாரிப்பு வெளியீட்டிற்கு முன் மென்பொருள் பொறியியல் மற்றும் சந்தைப்படுத்தல் குழுக்கள் ஒன்றிணைந்து செயல்பட வேண்டும்.",
+    "taWord": "ஒன்றிணைந்து பலனைப் பெருக்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Collaborate",
+      "Cooperate",
+      "Harmonize"
+    ],
+    "antonyms": [
+      "Divide",
+      "Conflict",
+      "Isolate"
+    ]
+  },
+  {
+    "id": 2654,
+    "word": "Scope creep",
+    "definition": "Uncontrolled, continuous growth or changes in a project's scope beyond original agreed requirements.",
+    "enExample": "Without strict BSA change management, scope creep can delay our Q3 delivery deadline.",
+    "taExample": "முறையான வணிக ஆய்வாளர் மாற்ற மேலாண்மை இல்லாமல், திட்ட எல்லையின் அதீத விரிவாக்கம் நமது Q3 விநியோக காலக்கெடுவை தாமதப்படுத்தும்.",
+    "taWord": "திட்ட எல்லை வரம்பு மீறுதல்",
+    "pos": "noun",
+    "synonyms": [
+      "Feature creep",
+      "Requirement bloat",
+      "Expansion"
+    ],
+    "antonyms": [
+      "Scope control",
+      "Strict boundary"
+    ]
+  },
+  {
+    "id": 2671,
+    "word": "Sunsetting",
+    "definition": "The planned, phased decommissioning or retirement of a software feature, API, or legacy platform.",
+    "enExample": "We are sunsetting version 1.0 of the REST API in favor of the newer GraphQL endpoint.",
+    "taExample": "புதிய கிராஃப்க்யூஎல் முனைப்புள்ளிக்காக REST API பதிப்பு 1.0-ஐ படிப்படியாக நிறுத்தி வருகிறோம்.",
+    "taWord": "படிப்படியாக நிறுத்துதல்",
+    "pos": "noun",
+    "synonyms": [
+      "Decommissioning",
+      "Retirement",
+      "Phasing out"
+    ],
+    "antonyms": [
+      "Inauguration",
+      "Launch",
+      "Rollout"
+    ]
+  },
+  {
+    "id": 2673,
+    "word": "Sprint",
+    "definition": "A fixed timeboxed iteration (typically 1–4 weeks) where a Scrum team completes usable deliverables.",
+    "enExample": "In this two-week sprint, the squad committed to delivering the user subscription checkout flow.",
+    "taExample": "இந்த இரண்டு வார ஸ்பிரிண்ட்டில், பயனர் சந்தா செலுத்தும் முறையை வழங்க குழு உறுதிபூண்டது.",
+    "taWord": "குறுகிய கால இலக்குச் சுழற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Iteration",
+      "Timebox",
+      "Cycle"
+    ],
+    "antonyms": [
+      "Perpetual development",
+      "Waterfall phase"
+    ]
+  },
+  {
+    "id": 2674,
+    "word": "Spike",
+    "definition": "A timeboxed research, exploration, or proof-of-concept task created to answer an architectural unknown.",
+    "enExample": "We created a one-day technical spike to evaluate if WebAssembly could speed up image filters.",
+    "taExample": "இமேஜ் ஃபில்டர்களை வெப்அசெம்பிளி வேகப்படுத்துமா என்பதை ஆராய நாங்கள் ஒரு நாள் ஆய்வுப் பணியை உருவாக்கினோம்.",
+    "taWord": "ஆய்வு மற்றும் மாதிரி முயற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Proof of concept",
+      "Technical investigation",
+      "Prototype"
+    ],
+    "antonyms": [
+      "Production story",
+      "Standard delivery"
+    ]
+  },
+  {
+    "id": 2677,
+    "word": "Story points",
+    "definition": "A relative unit of measure used in Agile to estimate overall effort, complexity, and risk of a story.",
+    "enExample": "The team estimated the multi-factor authentication card at five story points due to third-party SMS dependencies.",
+    "taExample": "மூன்றாம் தரப்பு எஸ்.எம்.எஸ் சார்புகள் காரணமாக பன்முக அங்கீகார பணியை குழு ஐந்து ஸ்டோரி புள்ளிகளாக மதிப்பிட்டது.",
+    "taWord": "கணக்கீட்டு முயற்சிப் புள்ளிகள்",
+    "pos": "noun",
+    "synonyms": [
+      "Estimation units",
+      "Complexity sizing"
+    ],
+    "antonyms": [
+      "Hours (strict time)"
+    ]
+  },
+  {
+    "id": 2688,
+    "word": "Swarming",
+    "definition": "A technique where multiple team members collaborate simultaneously on a single high-priority user story.",
+    "enExample": "When the payment gateway integration hit a deadline, the backend and QA engineers swarmed the ticket.",
+    "taExample": "பணம் செலுத்தும் சேவை ஒருங்கிணைப்பு காலக்கெடுவை எட்டியபோது, பொறியாளர்கள் அனைவரும் ஒன்றாக இணைந்து அந்தப் பணியை முடித்தனர்.",
+    "taWord": "கூட்டாக இணைந்து முடித்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Mob programming",
+      "Joint effort",
+      "Collaborative blitz"
+    ],
+    "antonyms": [
+      "Siloed work",
+      "Isolated coding"
+    ]
+  },
+  {
+    "id": 2692,
+    "word": "Scrum Master",
+    "definition": "The servant-leader responsible for facilitating Scrum ceremonies and removing team impediments.",
+    "enExample": "The Scrum Master facilitated an engaging retrospective that boosted developer team morale.",
+    "taExample": "ஸ்க்ரம் மாஸ்டர் ஒரு பயனுள்ள மறுஆய்வுக் கூட்டத்தை நடத்தி டெவலப்பர் குழுவின் உற்சாகத்தை உயர்த்தினார்.",
+    "taWord": "ஸ்க்ரம் ஒருங்கிணைப்பாளர்",
+    "pos": "noun",
+    "synonyms": [
+      "Agile coach",
+      "Iteration facilitator",
+      "Team guide"
+    ],
+    "antonyms": [
+      "Authoritarian manager"
+    ]
+  },
+  {
+    "id": 2700,
+    "word": "Scalability",
+    "definition": "The capability of a system, network, or process to handle a growing amount of work or traffic gracefully.",
+    "enExample": "Horizontal pod autoscaling in Kubernetes guarantees high scalability during Black Friday traffic surges.",
+    "taExample": "குபர்நெட்டீஸின் தானியங்கி விரிவாக்கம் அதிக வாடிக்கையாளர் வருகையின் போது வலுவான விரிவாக்கத்திறனை உறுதி செய்கிறது.",
+    "taWord": "விரிவாக்கத்திறன்",
+    "pos": "noun",
+    "synonyms": [
+      "Elasticity",
+      "Expandability",
+      "Capacity growth"
+    ],
+    "antonyms": [
+      "Inelasticity",
+      "Fragility"
+    ]
+  },
+  {
+    "id": 2705,
+    "word": "Sharding",
+    "definition": "A database partitioning architecture that separates very large databases into smaller, faster shards across servers.",
+    "enExample": "Database sharding by user region allowed our database to handle over fifty million active accounts.",
+    "taExample": "பயனர் பிராந்தியம் வாரியாக டேட்டாபேஸை பிரித்துப் பகிர்ந்தது ஐம்பது மில்லியனுக்கும் அதிகமான கணக்குகளை சீராகக் கையாள உதவியது.",
+    "taWord": "தரவுத்தளப் பகிர்வுப் பிரிப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Partitioning",
+      "Horizontal slicing",
+      "Data segmentation"
+    ],
+    "antonyms": [
+      "Centralization",
+      "Single-instance DB"
+    ]
+  },
+  {
+    "id": 2707,
+    "word": "Sanity test",
+    "definition": "A quick, focused test execution verifying whether a specific bug fix or minor build change actually works as expected.",
+    "enExample": "The QA tester performed a quick sanity test on the staging build to verify the password reset fix.",
+    "taExample": "கடவுச்சொல் மீட்டமைப்புச் சரிசெய்தலை உறுதிப்படுத்த சோதனையாளர் விரைவான உண்மைநிலைச் சோதனையை மேற்கொண்டார்.",
+    "taWord": "உண்மைநிலை விரைவுச் சோதனை",
+    "pos": "noun",
+    "synonyms": [
+      "Checkpoint test",
+      "Fix verification",
+      "Narrow test"
+    ],
+    "antonyms": [
+      "Full regression",
+      "Deep audit"
+    ]
+  },
+  {
+    "id": 2708,
+    "word": "Smoke test",
+    "definition": "A preliminary set of basic automated tests confirming that essential, critical paths of an application are functioning.",
+    "enExample": "If the deployment smoke test fails, the automated pipeline aborts and triggers an instant rollback.",
+    "taExample": "ஆரம்ப முதன்மைச் சோதனை தோல்வியடைந்தால், தானியங்கி அமைப்பானது வெளியீட்டை நிறுத்தி பழைய நிலைக்கு மாற்றும்.",
+    "taWord": "ஆரம்ப முதன்மைச் சோதனை",
+    "pos": "noun",
+    "synonyms": [
+      "Build verification test",
+      "Confidence check"
+    ],
+    "antonyms": [
+      "Detailed inspection"
+    ]
   }
 ]

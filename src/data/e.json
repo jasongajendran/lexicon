@@ -628,5 +628,95 @@
       "Poor",
       "Inadequate"
     ]
+  },
+  {
+    "id": 2643,
+    "word": "Era",
+    "definition": "A defined, characteristic personal or professional phase or period of focus.",
+    "enExample": "I am entering my test-driven development era to avoid production fire drills.",
+    "taExample": "தயாரிப்பு நேர அவசரச் சிக்கல்களைத் தவிர்க்க நான் சோதனை சார்ந்த மேம்பாட்டு காலகட்டத்திற்குள் நுழைகிறேன்.",
+    "taWord": "குறிப்பிட்ட காலகட்டம் / பருவம்",
+    "pos": "noun",
+    "synonyms": [
+      "Phase",
+      "Epoch",
+      "Stage"
+    ],
+    "antonyms": [
+      "Instant",
+      "Moment"
+    ]
+  },
+  {
+    "id": 2664,
+    "word": "Elevator pitch",
+    "definition": "A succinct, persuasive overview of a product, service, or concept deliverable in thirty seconds.",
+    "enExample": "The product manager crafted a crisp elevator pitch for the venture capital investors.",
+    "taExample": "முதலீட்டாளர்களுக்காக தயாரிப்பு மேலாளர் சுருக்கமான மற்றும் ஈர்க்கக்கூடிய முப்பது வினாடி விளக்கத்தை உருவாக்கினார்.",
+    "taWord": "சுருக்கமான ஈர்ப்பு விளக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Quick pitch",
+      "Brief summary",
+      "Synopsis"
+    ],
+    "antonyms": [
+      "Long dissertation",
+      "Monologue"
+    ]
+  },
+  {
+    "id": 2685,
+    "word": "Epic",
+    "definition": "A large body of work that can be broken down into smaller user stories across multiple sprints.",
+    "enExample": "The 'Self-Service Subscription Portal' epic took our team four sprints to fully deliver.",
+    "taExample": "'சுயசேவை சந்தா தளம்' என்ற பெருந்திட்டப் பணியை முழுமையாக முடிக்க எங்கள் குழுவிற்கு நான்கு ஸ்பிரிண்ட்டுகள் தேவைப்பட்டன.",
+    "taWord": "பெருந்திட்டப் பணி",
+    "pos": "noun",
+    "synonyms": [
+      "Macro-feature",
+      "Mega-story",
+      "Major initiative"
+    ],
+    "antonyms": [
+      "Subtask",
+      "Micro-bug"
+    ]
+  },
+  {
+    "id": 2711,
+    "word": "End-to-End",
+    "definition": "Testing an entire software workflow from the user interface down to the backend database and network layers.",
+    "enExample": "Playwright is used for End-to-End browser testing to simulate authentic user purchase journeys.",
+    "taExample": "உண்மையான வாடிக்கையாளர் கொள்முதல் அனுபவத்தை உருவகப்படுத்த தொடக்கம் முதல் முடிவு வரையிலான உலாவி சோதனைகளுக்கு பிளேரைட் பயன்படுகிறது.",
+    "taWord": "தொடக்கம் முதல் முடிவு வரையிலான சோதனை",
+    "pos": "adj.",
+    "synonyms": [
+      "E2E",
+      "Full-flow testing",
+      "System test"
+    ],
+    "antonyms": [
+      "Unit test",
+      "Isolated test"
+    ]
+  },
+  {
+    "id": 2716,
+    "word": "Exploratory testing",
+    "definition": "An unscripted testing approach where testers dynamically discover edge-case bugs through intuitive interaction.",
+    "enExample": "Exploratory testing discovered that entering emoji characters in the coupon code field caused a server crash.",
+    "taExample": "சுயாதீன ஆய்வுச் சோதனையானது கூப்பன் குறியீட்டில் எமோஜிகளை உள்ளிடுவது சர்வரை செயலிழக்கச் செய்வதைக் கண்டறிந்தது.",
+    "taWord": "சுயாதீன ஆய்வுச் சோதனை",
+    "pos": "noun",
+    "synonyms": [
+      "Intuitive testing",
+      "Unscripted testing",
+      "Ad-hoc QA"
+    ],
+    "antonyms": [
+      "Scripted testing",
+      "Automated regression"
+    ]
   }
 ]

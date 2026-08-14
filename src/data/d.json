@@ -668,5 +668,130 @@
       "Walkthrough",
       "Presentation"
     ]
+  },
+  {
+    "id": 2618,
+    "word": "Delulu",
+    "definition": "Delusional or holding unrealistic, overly optimistic beliefs (often used playfully).",
+    "enExample": "Thinking we can refactor the legacy monolith and ship on Friday is totally delulu.",
+    "taExample": "வெள்ளிக்கிழமைக்குள் பழைய மோனோலித்தை மாற்றி வெளியிட்டுவிடலாம் என்று நினைப்பது கற்பனையான அதீத நம்பிக்கை.",
+    "taWord": "மாயையான அதீத நம்பிக்கை",
+    "pos": "adj.",
+    "synonyms": [
+      "Delusional",
+      "Unrealistic",
+      "Wishful"
+    ],
+    "antonyms": [
+      "Pragmatic",
+      "Grounded",
+      "Realistic"
+    ]
+  },
+  {
+    "id": 2649,
+    "word": "Deep dive",
+    "definition": "An in-depth, comprehensive analysis, exploration, or review of a complex topic.",
+    "enExample": "Let's schedule a deep dive on our database query patterns to resolve the latency spikes.",
+    "taExample": "தாமத அதிகரிப்பைத் தீர்க்க எங்கள் டேட்டாபேஸ் வினவல் முறைகள் குறித்து ஒரு ஆழமான ஆய்வுக்கூட்டத்தை ஏற்பாடு செய்வோம்.",
+    "taWord": "ஆழமான ஆய்வு",
+    "pos": "noun",
+    "synonyms": [
+      "Thorough analysis",
+      "Granular study",
+      "Investigation"
+    ],
+    "antonyms": [
+      "Surface overview",
+      "Glance"
+    ]
+  },
+  {
+    "id": 2657,
+    "word": "Due diligence",
+    "definition": "A comprehensive appraisal, audit, or investigation undertaken before entering an agreement or decision.",
+    "enExample": "Our security architects performed due diligence on the third-party OAuth authentication vendor.",
+    "taExample": "எங்கள் பாதுகாப்பு வல்லுநர்கள் மூன்றாம் தரப்பு அங்கீகார சேவை நிறுவனத்தின் மீது விரிவான பாதுகாப்புத் தணிக்கையை மேற்கொண்டனர்.",
+    "taWord": "முறையான முழுமையான ஆய்வு",
+    "pos": "noun",
+    "synonyms": [
+      "Investigation",
+      "Audit",
+      "Verification"
+    ],
+    "antonyms": [
+      "Carelessness",
+      "Negligence"
+    ]
+  },
+  {
+    "id": 2660,
+    "word": "Double click",
+    "definition": "To drill down, examine closely, or explore a specific detail or sub-topic during discussion.",
+    "enExample": "Let's double click on the payment failure rate in the European region during our retro.",
+    "taExample": "எங்கள் மறுஆய்வில் ஐரோப்பிய பிராந்தியத்தில் ஏற்பட்டுள்ள கட்டணத் தோல்வி விகிதம் குறித்து மேலும் விரிவாக ஆராய்வோம்.",
+    "taWord": "ஆழமாகப் பகுப்பாய்வு செய்தல்",
+    "pos": "phrase",
+    "synonyms": [
+      "Drill down",
+      "Examine closely",
+      "Elaborate"
+    ],
+    "antonyms": [
+      "Gloss over",
+      "Skim"
+    ]
+  },
+  {
+    "id": 2678,
+    "word": "Definition of Done",
+    "definition": "A formal, shared checklist of quality criteria that a software product increment must meet to be considered complete.",
+    "enExample": "Our Definition of Done requires ninety percent unit test coverage, accessibility checks, and peer code review.",
+    "taExample": "எங்கள் பணி நிறைவு வரம்பானது தொண்ணூறு சதவீத யூனிட் சோதனை, அணுகல்தன்மை சோதனை மற்றும் சக ஊழியர் குறியாய்வை கட்டாயமாக்குகிறது.",
+    "taWord": "பணி நிறைவு வரம்பு",
+    "pos": "noun",
+    "synonyms": [
+      "DoD",
+      "Completion criteria",
+      "Quality checklist"
+    ],
+    "antonyms": [
+      "Incomplete draft",
+      "Work in progress"
+    ]
+  },
+  {
+    "id": 2679,
+    "word": "Definition of Ready",
+    "definition": "The criteria a user story must satisfy before being pulled into an active sprint for development.",
+    "enExample": "The user story failed the Definition of Ready because the Figma UI mockups were still missing.",
+    "taExample": "வடிவமைப்பு மாதிரிகள் இல்லாததால், அந்த பயனர் பணி தொடக்கத் தகுதி வரம்பை பூர்த்தி செய்யவில்லை.",
+    "taWord": "தொடக்கத் தகுதி வரம்பு",
+    "pos": "noun",
+    "synonyms": [
+      "DoR",
+      "Intake criteria",
+      "Readiness standard"
+    ],
+    "antonyms": [
+      "Unprepared backlog item"
+    ]
+  },
+  {
+    "id": 2704,
+    "word": "Dogfooding",
+    "definition": "The practice of an organization using its own software products internally to test and validate quality.",
+    "enExample": "Our engineering team dogfoods our new internal chat app daily to catch edge cases before public release.",
+    "taExample": "பொது வெளியீட்டிற்கு முன் பிழைகளைக் கண்டறிய எங்கள் குழு தினசரி எங்கள் சொந்த அரட்டை செயலியைப் பயன்படுத்துகிறது.",
+    "taWord": "சொந்த தயாரிப்பை உட்பயன்பாடு செய்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Internal testing",
+      "Self-hosting",
+      "Early adoption"
+    ],
+    "antonyms": [
+      "External trial"
+    ]
   }
 ]

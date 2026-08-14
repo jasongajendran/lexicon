@@ -254,5 +254,41 @@
       "Nadir",
       "Bottom"
     ]
+  },
+  {
+    "id": 2752,
+    "word": "Zero-Trust Architecture",
+    "pos": "noun",
+    "definition": "A modern security paradigm predicated on 'never trust, always verify' where no user, device, or network zone is trusted by default.",
+    "taWord": "முழு சரிபார்ப்பு பாதுகாப்பு கட்டமைப்பு",
+    "enExample": "Adopting zero-trust architecture required continuous mutual TLS authentication between all internal microservices.",
+    "taExample": "அனைத்து இணைப்புகளும் தொடர்ந்து சரிபார்க்கப்பட வேண்டும் என்ற Zero-Trust பாதுகாப்புக் கொள்கையை அமல்படுத்தினோம்.",
+    "synonyms": [
+      "perimeterless security",
+      "continuous authentication",
+      "least-privilege network"
+    ],
+    "antonyms": [
+      "implicit trust",
+      "castle-and-moat perimeter"
+    ]
+  },
+  {
+    "id": 2753,
+    "word": "Zero-Downtime Deployment",
+    "pos": "noun",
+    "definition": "A release orchestration strategy (such as blue-green or canary) that deploys new application versions without interrupting active user traffic.",
+    "taWord": "தடையற்ற புதிய பதிப்பு வெளியீடு",
+    "enExample": "Using blue-green deployments on Kubernetes gave our team effortless zero-downtime releases during business hours.",
+    "taExample": "பயனர்களுக்கு எந்தவித சேவை தடங்கலும் இல்லாமல் புதிய பதிப்புகளை வெளியிடும் முறை.",
+    "synonyms": [
+      "seamless rollout",
+      "blue-green deployment",
+      "canary release"
+    ],
+    "antonyms": [
+      "maintenance outage",
+      "cold restart downtime"
+    ]
   }
 ]

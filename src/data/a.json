@@ -652,5 +652,59 @@
       "Disagreement",
       "Misalignment"
     ]
+  },
+  {
+    "id": 2622,
+    "word": "Aura",
+    "definition": "A distinctive personal energy, prestige, authority, or cool vibe radiating from someone.",
+    "enExample": "Deploying a major Kubernetes release without a single alert increased the DevOps team's aura.",
+    "taExample": "எந்த எச்சரிக்கையுமின்றி ஒரு பெரிய குபர்நெட்டீஸ் பதிப்பை வெளியிட்டது டெவ்ஆப்ஸ் குழுவின் நன்மதிப்பையும் ஆளுமையையும் உயர்த்தியது.",
+    "taWord": "ஆளுமைத் திறன் / நற்புகழ் ஒளி",
+    "pos": "noun",
+    "synonyms": [
+      "Prestige",
+      "Presence",
+      "Charisma"
+    ],
+    "antonyms": [
+      "Insignificance",
+      "Obscurity"
+    ]
+  },
+  {
+    "id": 2624,
+    "word": "Ate",
+    "definition": "Executed or performed something exceptionally well and with effortless style.",
+    "enExample": "The UI/UX designer absolutely ate with the new sleek dark-mode design system.",
+    "taExample": "புதிய நேர்த்தியான டார்க்-மோட் வடிவமைப்பு அமைப்பில் பயனர் இடைமுக வடிவமைப்பாளர் அற்புதமாகச் சாதித்தார்.",
+    "taWord": "அற்புதமாகச் சாதித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Excelled",
+      "Triumphed",
+      "Succeeded"
+    ],
+    "antonyms": [
+      "Fumbled",
+      "Failed"
+    ]
+  },
+  {
+    "id": 2709,
+    "word": "Acceptance criteria",
+    "definition": "The predetermined, formal conditions and requirements a user story must satisfy to be accepted by the product owner.",
+    "enExample": "The QA team wrote Gherkin BDD test scenarios directly derived from the ticket's acceptance criteria.",
+    "taExample": "தயாரிப்பு டிக்கெட்டின் ஏற்பு வரம்புகளின் அடிப்படையில் சோதனைக் குழு தானியங்கி சோதனைக் காட்சிகளை எழுதியது.",
+    "taWord": "ஏற்பு வரம்புகள் / நிபந்தனைகள்",
+    "pos": "noun",
+    "synonyms": [
+      "Success criteria",
+      "Validation rules",
+      "Requirements"
+    ],
+    "antonyms": [
+      "Ambiguity",
+      "Vague request"
+    ]
   }
 ]

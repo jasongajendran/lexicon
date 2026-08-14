@@ -622,5 +622,78 @@
       "Ignorance",
       "Blindness"
     ]
+  },
+  {
+    "id": 2635,
+    "word": "Ick",
+    "definition": "A sudden feeling of repulsion, cringe, or distaste toward a habit or practice.",
+    "enExample": "Seeing global mutable state in a modern React codebase gives me an instant ick.",
+    "taExample": "நவீன ரியாக்ட் குறியீட்டுத் தொகுப்பில் உலகளாவிய மாற்றக்கூடிய மாறிகளைக் காண்பது எனக்கு உடனடியாக ஒவ்வாமையை ஏற்படுத்துகிறது.",
+    "taWord": "திடீர் அருவருப்பு / ஒவ்வாமை",
+    "pos": "noun",
+    "synonyms": [
+      "Distaste",
+      "Repulsion",
+      "Aversion"
+    ],
+    "antonyms": [
+      "Affection",
+      "Admiration"
+    ]
+  },
+  {
+    "id": 2684,
+    "word": "Increment",
+    "definition": "The concrete, usable, inspectable outcome of sprint work that steps toward the product goal.",
+    "enExample": "Each sprint must result in a potentially shippable product increment that adds real value.",
+    "taExample": "ஒவ்வொரு ஸ்பிரிண்ட்டும் உண்மையான பயனைத் தரும் வெளியிடக்கூடிய மென்பொருள் முன்னேற்றத்தை உருவாக்க வேண்டும்.",
+    "taWord": "பயன்படுத்தக்கூடிய மென்பொருள் முன்னேற்றம்",
+    "pos": "noun",
+    "synonyms": [
+      "Deliverable build",
+      "Working version",
+      "Milestone output"
+    ],
+    "antonyms": [
+      "Static plan",
+      "Conceptual model"
+    ]
+  },
+  {
+    "id": 2686,
+    "word": "Impediment",
+    "definition": "Any barrier, bottleneck, or obstruction that halts or slows an agile team's progress.",
+    "enExample": "The iteration manager worked diligently to remove the VPN access impediment for offshore testers.",
+    "taExample": "வெளிநாட்டு சோதனையாளர்களின் வி.பி.என் அணுகல் தடையை நீக்க மறுஆய்வு மேலாளர் தீவிரமாக செயல்பட்டார்.",
+    "taWord": "பணித்தடை / இடையூறு",
+    "pos": "noun",
+    "synonyms": [
+      "Obstacle",
+      "Barrier",
+      "Roadblock"
+    ],
+    "antonyms": [
+      "Catalyst",
+      "Enabler",
+      "Accelerator"
+    ]
+  },
+  {
+    "id": 2699,
+    "word": "Ingestion",
+    "definition": "The process of absorbing, importing, and loading massive volumes of real-time data into a processing pipeline.",
+    "enExample": "Our Kafka streaming pipeline handles the ingestion of five million analytics events every minute.",
+    "taExample": "எங்கள் காஃப்கா ஓட்டமானது நிமிடத்திற்கு ஐந்து மில்லியன் நிகழ்வுத் தரவுகளை உள்ளிழுத்துச் செயலாக்குகிறது.",
+    "taWord": "தரவு உள்ளிழுத்தல் / ஏற்றம்",
+    "pos": "noun",
+    "synonyms": [
+      "Data intake",
+      "Importation",
+      "Data loading"
+    ],
+    "antonyms": [
+      "Data export",
+      "Egress"
+    ]
   }
 ]

@@ -306,5 +306,79 @@
       "High-level",
       "Overview"
     ]
+  },
+  {
+    "id": 2620,
+    "word": "No Cap",
+    "definition": "Telling the truth; without exaggeration or lying (often used for emphasis).",
+    "enExample": "This new database indexing reduced query latency by ninety percent, no cap.",
+    "taExample": "இந்த புதிய டேட்டாபேஸ் குறியீட்டு முறை வினவல் தாமதத்தை தொண்ணூறு சதவீதம் குறைத்தது, உண்மையாகவே.",
+    "taWord": "உண்மையாகவே / துளியும் பொய்யின்றி",
+    "pos": "phrase",
+    "synonyms": [
+      "Honestly",
+      "Truthfully",
+      "For real"
+    ],
+    "antonyms": [
+      "Capping",
+      "Lying",
+      "Exaggerating"
+    ]
+  },
+  {
+    "id": 2663,
+    "word": "North Star",
+    "definition": "A primary overarching guiding metric or strategic vision that aligns all cross-functional teams.",
+    "enExample": "Daily active creators serves as our company's North Star metric for the upcoming fiscal year.",
+    "taExample": "தினசரி செயல்படும் படைப்பாளர்களின் எண்ணிக்கையே வரவிருக்கும் நிதி ஆண்டிற்கான எங்கள் நிறுவனத்தின் முதன்மை வழிகாட்டி அளவீடாகும்.",
+    "taWord": "முதன்மை வழிகாட்டி இலக்கு",
+    "pos": "noun",
+    "synonyms": [
+      "Guiding principle",
+      "Core objective",
+      "Beacon"
+    ],
+    "antonyms": [
+      "Distraction",
+      "Vanity metric"
+    ]
+  },
+  {
+    "id": 2733,
+    "word": "Nonce",
+    "pos": "noun",
+    "definition": "A cryptographic 'number used once' added to authentications, hashing headers, or CSP tokens to prevent malicious replay attacks.",
+    "taWord": "ஒருமுறை பயன்படுத்தப்படும் குறியீட்டு எண்",
+    "enExample": "Our authentication protocol includes a timestamped cryptographic nonce to invalidate replay attack attempts.",
+    "taExample": "பழைய கோரிக்கைகளை மீண்டும் அனுப்பி தாக்க முற்படுவதைத் தடுக்க ஒவ்வொரு முறையும் புதிய Nonce எண் சரிபார்க்கப்படுகிறது.",
+    "synonyms": [
+      "unique token",
+      "one-time value",
+      "salt identifier"
+    ],
+    "antonyms": [
+      "static token",
+      "reusable key",
+      "fixed hash"
+    ]
+  },
+  {
+    "id": 2734,
+    "word": "Nullish Coalescing",
+    "pos": "noun",
+    "definition": "A logical operator (??) in modern programming languages that returns its right-hand operand only when its left-hand operand is null or undefined.",
+    "taWord": "வெற்றுத்தன்மை மாற்று செயல்முறை",
+    "enExample": "Using nullish coalescing instead of logical OR allowed us to preserve valid zero values and empty strings.",
+    "taExample": "பூஜ்ஜியம் அல்லது வெற்று வரிகளைத் தவறவிடாமல் இருக்க Nullish Coalescing (??) குறியீட்டைப் பயன்படுத்தினோம்.",
+    "synonyms": [
+      "fallback operator",
+      "null-safe assignment",
+      "default coalesce"
+    ],
+    "antonyms": [
+      "falsy coercion",
+      "implicit casting"
+    ]
   }
 ]

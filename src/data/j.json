@@ -333,5 +333,133 @@
       "Impartial",
       "Legal"
     ]
+  },
+  {
+    "id": 2717,
+    "word": "Jitter",
+    "pos": "noun",
+    "definition": "Variation in latency or arrival time of transmitted packets over a network or within clock cycles.",
+    "taWord": "அதிர்வு மாறுபாடு / நேர தாமத விலகல்",
+    "enExample": "Adding randomized jitter to our exponential backoff prevented API thundering herd problems.",
+    "taExample": "மீண்டும் முயற்சிக்கும் இடைவெளியில் சீரற்ற நேர மாற்றத்தை (Jitter) சேர்த்ததன் மூலம் சேவையக நெரிசல் தடுக்கப்பட்டது.",
+    "synonyms": [
+      "latency variation",
+      "fluctuation",
+      "timing variance"
+    ],
+    "antonyms": [
+      "consistency",
+      "uniformity",
+      "clock stability"
+    ]
+  },
+  {
+    "id": 2718,
+    "word": "JWT",
+    "pos": "noun",
+    "definition": "JSON Web Token; a compact, URL-safe means of representing claims securely between two parties as a digitally signed JSON object.",
+    "taWord": "பாதுகாப்பான இணைய டோக்கன்",
+    "enExample": "The microservice verified the user claims directly from the cryptographically signed JWT payload.",
+    "taExample": "டிஜிட்டல் கையொப்பமிடப்பட்ட JWT மூலம் பயனர் உரிமங்களை மைக்ரோசர்வீஸ் சரிபார்த்தது.",
+    "synonyms": [
+      "bearer token",
+      "auth token",
+      "security claim"
+    ],
+    "antonyms": [
+      "unauthenticated payload",
+      "session cookie"
+    ]
+  },
+  {
+    "id": 2719,
+    "word": "JIT Compilation",
+    "pos": "noun",
+    "definition": "Just-In-Time compilation where bytecode is converted to native machine instructions dynamically at runtime rather than beforehand.",
+    "taWord": "நிகழ்நேர இயந்திர மொழிமாற்றம்",
+    "enExample": "The V8 JavaScript engine utilizes JIT compilation with hot-path optimizations to execute code at near-native speeds.",
+    "taExample": "V8 என்ஜின் நிகழ்நேர மொழிமாற்றம் (JIT) மூலம் இயங்கும்போதே குறியீட்டை அதிவேக இயந்திர மொழியாக மாற்றுகிறது.",
+    "synonyms": [
+      "dynamic translation",
+      "runtime compilation",
+      "hot-spot compilation"
+    ],
+    "antonyms": [
+      "AOT compilation",
+      "static interpretation"
+    ]
+  },
+  {
+    "id": 2720,
+    "word": "Jump Host",
+    "pos": "noun",
+    "definition": "A hardened intermediary server positioned in a secure perimeter that system administrators connect to before accessing internal network servers.",
+    "taWord": "பாதுகாப்பு இடைநிலை சர்வர் / பாஸ்டியன்",
+    "enExample": "Engineers must SSH through a jump host protected by multi-factor authentication to access production database clusters.",
+    "taExample": "உற்பத்தி தரவுத்தளங்களை அணுக பொறியாளர்கள் முதலில் Jump Host வழியாக உள்நுழைய வேண்டும்.",
+    "synonyms": [
+      "bastion host",
+      "transit server",
+      "gateway proxy"
+    ],
+    "antonyms": [
+      "public endpoint",
+      "direct node"
+    ]
+  },
+  {
+    "id": 2721,
+    "word": "Job Scheduler",
+    "pos": "noun",
+    "definition": "A system or daemon that automatically executes batch programs or recurring background tasks according to a predetermined timetable or trigger.",
+    "taWord": "தானியங்கி பணி திட்டமிடல் அமைப்பு",
+    "enExample": "We configured a distributed job scheduler to handle nightly data warehouse syncs and reporting pipelines.",
+    "taExample": "இரவு நேர தரவு ஒத்திசைவு பணிகளை இயக்க ஒரு விநியோகிக்கப்பட்ட Job Scheduler-ஐ அமைத்தோம்.",
+    "synonyms": [
+      "cron daemon",
+      "task runner",
+      "batch orchestrator"
+    ],
+    "antonyms": [
+      "manual executor",
+      "interactive thread"
+    ]
+  },
+  {
+    "id": 2722,
+    "word": "Jank",
+    "pos": "noun",
+    "definition": "Visual stuttering, skipped frames, or sluggish UI responsiveness caused when rendering pipelines miss their 60 FPS (16ms) deadline.",
+    "taWord": "திரை நடுக்கம் / பிரேம் இழப்பு",
+    "enExample": "Moving heavy JSON parsing off the main UI thread eliminated scrolling jank completely.",
+    "taExample": "கடினமான தரவு செயலாக்கத்தை பிரதான இழையிலிருந்து (UI thread) மாற்றியதால் திரை நடுக்கம் (Jank) நீங்கியது.",
+    "synonyms": [
+      "frame drop",
+      "stutter",
+      "lag"
+    ],
+    "antonyms": [
+      "fluidity",
+      "60fps smoothness",
+      "butter-smooth"
+    ]
+  },
+  {
+    "id": 2723,
+    "word": "JSON Schema",
+    "pos": "noun",
+    "definition": "A vocabulary and format standard used to annotate and validate the structure, types, and constraints of JSON documents.",
+    "taWord": "ஜேசன் கட்டமைப்பு வரையறை",
+    "enExample": "All inbound webhook payloads are validated against a strict JSON Schema before entering the processing queue.",
+    "taExample": "அனைத்து உள்வரும் தரவுகளும் முன்கூட்டியே வரையறுக்கப்பட்ட JSON Schema விதிகளுக்கு உட்பட்டு சரிபார்க்கப்படுகின்றன.",
+    "synonyms": [
+      "contract specification",
+      "data shape validator",
+      "payload blueprint"
+    ],
+    "antonyms": [
+      "untyped payload",
+      "schemaless blob"
+    ]
   }
 ]

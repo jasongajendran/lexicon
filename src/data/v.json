@@ -304,5 +304,75 @@
       "Silent",
       "Quiet"
     ]
+  },
+  {
+    "id": 2638,
+    "word": "Vibe check",
+    "definition": "An assessment of a person's, team's, or situation's general mood, energy, or cultural alignment.",
+    "enExample": "Let's do a quick vibe check at the start of the sprint retrospective to see how everyone feels.",
+    "taExample": "ஸ்பிரிண்ட் மறுஆய்வுக் கூட்டத்தின் தொடக்கத்தில் அனைவரின் மனநிலையையும் உற்சாகத்தையும் சுருக்கமாக அறிந்துகொள்வோம்.",
+    "taWord": "மனநிலை மற்றும் சூழல் பரிசோதனை",
+    "pos": "noun",
+    "synonyms": [
+      "Mood evaluation",
+      "Atmosphere check"
+    ],
+    "antonyms": [
+      "Indifference"
+    ]
+  },
+  {
+    "id": 2656,
+    "word": "Value proposition",
+    "definition": "A statement outlining the unique benefit and core value a product or feature delivers to customers.",
+    "enExample": "The BSA refined the value proposition so enterprise clients understand the ROI of our automated billing.",
+    "taExample": "பெருநிறுவன வாடிக்கையாளர்கள் எங்கள் தானியங்கி பில்லிங் அமைப்பின் பயனைப் புரிந்துகொள்ளும் வகையில் வணிக ஆய்வாளர் மதிப்பு முன்மொழிவைச் செம்மைப்படுத்தினார்.",
+    "taWord": "மதிப்பு முன்மொழிவு",
+    "pos": "noun",
+    "synonyms": [
+      "Core benefit",
+      "Unique selling point",
+      "Value promise"
+    ],
+    "antonyms": [
+      "Commodity",
+      "Generic pitch"
+    ]
+  },
+  {
+    "id": 2676,
+    "word": "Velocity",
+    "definition": "The amount of work (in story points or tickets) an agile team consistently completes per sprint.",
+    "enExample": "Our team velocity stabilized at forty story points after three sprints of working together.",
+    "taExample": "மூன்று ஸ்பிரிண்ட்டுகள் ஒன்றாகப் பணியாற்றிய பிறகு, எங்கள் குழுவின் பணி வேக அளவு நாற்பது புள்ளிகளாக நிலைபெற்றது.",
+    "taWord": "குழுவின் பணி வேக அளவு",
+    "pos": "noun",
+    "synonyms": [
+      "Capacity",
+      "Throughput rate",
+      "Pace"
+    ],
+    "antonyms": [
+      "Stagnation",
+      "Sluggishness"
+    ]
+  },
+  {
+    "id": 2747,
+    "word": "Vulnerability Assessment",
+    "pos": "noun",
+    "definition": "A systematic evaluation and security scanning of software systems to identify known CVEs, unpatched dependencies, and security weaknesses.",
+    "taWord": "பாதுகாப்பு குறைபாடுகள் மதிப்பீடு",
+    "enExample": "Our weekly vulnerability assessment flag unpatched Docker base images before they can be released to staging.",
+    "taExample": "மென்பொருளில் உள்ள பாதுகாப்பு குறைபாடுகள் மற்றும் அச்சுறுத்தல்களை முன்கூட்டியே கண்டறியும் பாதுகாப்பு தணிக்கை.",
+    "synonyms": [
+      "security audit",
+      "CVE scanning",
+      "penetration testing triage"
+    ],
+    "antonyms": [
+      "unverified deployment",
+      "security ignorance"
+    ]
   }
 ]

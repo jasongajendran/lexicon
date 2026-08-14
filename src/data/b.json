@@ -581,5 +581,180 @@
       "Conduct",
       "Action"
     ]
+  },
+  {
+    "id": 2621,
+    "word": "Bet",
+    "definition": "An affirmative exclamation meaning 'yes', 'agreed', 'deal', or 'challenge accepted'.",
+    "enExample": "You want me to fix that production bug before the client demo? Bet.",
+    "taExample": "வாடிக்கையாளர் செய்முறைக்கு முன் அந்த தயாரிப்புப் பிழையை சரிசெய்ய வேண்டுமா? நிச்சயம் செய்கிறேன்.",
+    "taWord": "நிச்சயமாக / சம்மதம்",
+    "pos": "slang",
+    "synonyms": [
+      "Agreed",
+      "Deal",
+      "Understood"
+    ],
+    "antonyms": [
+      "No way",
+      "Disagreed"
+    ]
+  },
+  {
+    "id": 2639,
+    "word": "Bop",
+    "definition": "Something exceptionally good, catchy, or enjoyable (originally songs, now features or tools).",
+    "enExample": "This new instant-search autocomplete component is an absolute bop.",
+    "taExample": "இந்த புதிய உடனடித் தேடல் தானியங்கி பூர்த்தி கூறு மிகவும் அருமையாக செயல்படுகிறது.",
+    "taWord": "மிகச் சிறந்த / மனதைக் கவரும் அம்சம்",
+    "pos": "slang",
+    "synonyms": [
+      "Hit",
+      "Masterpiece",
+      "Gem"
+    ],
+    "antonyms": [
+      "Dud",
+      "Flop"
+    ]
+  },
+  {
+    "id": 2646,
+    "word": "Based",
+    "definition": "Unapologetically authentic, courageous in standing by principles, without caring about peer pressure.",
+    "enExample": "Refusing to ship the release until accessibility WCAG compliance was verified was a totally based decision.",
+    "taExample": "அணுகல்தன்மை தரநிலைகள் சரிபார்க்கப்படும் வரை வெளியீட்டைத் தள்ளிவைத்தது முற்றிலும் கொள்கைப்பற்றுடைய சரியான முடிவாகும்.",
+    "taWord": "கொள்கைப்பற்றுடைய / உண்மையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Authentic",
+      "Unapologetic",
+      "Principled"
+    ],
+    "antonyms": [
+      "Conformist",
+      "Spineless"
+    ]
+  },
+  {
+    "id": 2653,
+    "word": "Boil the ocean",
+    "definition": "To attempt an impossible, unnecessarily vast, or overly ambitious task.",
+    "enExample": "Let's focus on supporting top 5 currencies for MVP instead of trying to boil the ocean.",
+    "taExample": "முதல் பதிப்பிற்காக அனைத்தையும் ஒரே நேரத்தில் செய்ய முயலாமல், முதல் 5 நாணயங்களுக்கு மட்டும் ஆதரவளிப்பதில் கவனம் செலுத்துவோம்.",
+    "taWord": "சாத்தியமற்ற பெரும் முயற்சி எடுத்தல்",
+    "pos": "idiom",
+    "synonyms": [
+      "Overreach",
+      "Bite off more than one can chew"
+    ],
+    "antonyms": [
+      "Scope tightly",
+      "Focus"
+    ]
+  },
+  {
+    "id": 2655,
+    "word": "Buy-in",
+    "definition": "Agreement, active support, commitment, or acceptance from key stakeholders and team members.",
+    "enExample": "We need executive buy-in before investing three sprints into migrating to GraphQL.",
+    "taExample": "கிராஃப்க்யூஎல் மாற்றத்திற்கு மூன்று ஸ்பிரிண்ட்டுகளை ஒதுக்குவதற்கு முன் உயர் நிர்வாகத்தின் ஒப்புதலையும் ஆதரவையும் பெற வேண்டும்.",
+    "taWord": "ஒப்புதலும் ஆதரவும்",
+    "pos": "noun",
+    "synonyms": [
+      "Approval",
+      "Endorsement",
+      "Consensus"
+    ],
+    "antonyms": [
+      "Resistance",
+      "Dissent",
+      "Pushback"
+    ]
+  },
+  {
+    "id": 2669,
+    "word": "Brownfield",
+    "definition": "A software project developed within the confines of an existing, legacy software infrastructure.",
+    "enExample": "Integrating OAuth into this twenty-year-old banking application is a classic brownfield challenge.",
+    "taExample": "இருபது ஆண்டுகள் பழமையான இந்த வங்கி பயன்பாட்டில் ஓ-ஆத் (OAuth) இணைப்பது ஒரு பாரம்பரிய மரபுசார்ந்த சவாலாகும்.",
+    "taWord": "மரபுசார் கட்டமைப்பில் அமையும் திட்டம்",
+    "pos": "adj.",
+    "synonyms": [
+      "Legacy-constrained",
+      "Existing-system"
+    ],
+    "antonyms": [
+      "Greenfield",
+      "Clean slate"
+    ]
+  },
+  {
+    "id": 2675,
+    "word": "Backlog refinement",
+    "definition": "A Scrum ceremony where user stories are reviewed, clarified, estimated, and ordered for future sprints.",
+    "enExample": "During backlog refinement, the BSA clarified the edge-case acceptance criteria with the team.",
+    "taExample": "பணிகள் சீரமைப்பு கூட்டத்தின் போது, வணிக ஆய்வாளர் விளிம்புநிலை ஏற்பு வரம்புகளை குழுவிற்கு விளக்கினார்.",
+    "taWord": "பணிகள் சீரமைப்பு மற்றும் திட்டமிடல்",
+    "pos": "noun",
+    "synonyms": [
+      "Backlog grooming",
+      "Story elaboration",
+      "Story sizing"
+    ],
+    "antonyms": [
+      "Unplanned work"
+    ]
+  },
+  {
+    "id": 2681,
+    "word": "Burndown",
+    "definition": "A visual chart that displays remaining work against time for a sprint or release.",
+    "enExample": "The burndown chart showed we were tracking two days ahead of schedule for the Q2 milestone.",
+    "taExample": "வேலை நிறைவு விளக்கப்படம் நாங்கள் Q2 இலக்கை விட இரண்டு நாட்கள் முன்னதாகவே முடிப்பதை காட்டியது.",
+    "taWord": "வேலை நிறைவு விளக்கப்படம்",
+    "pos": "noun",
+    "synonyms": [
+      "Burnup chart",
+      "Progress curve",
+      "Trajectory graph"
+    ],
+    "antonyms": [
+      "Static backlog"
+    ]
+  },
+  {
+    "id": 2712,
+    "word": "Black-box testing",
+    "definition": "A software testing method where internal implementation, code, and architecture are completely unknown to the tester.",
+    "enExample": "Black-box testing focuses purely on inputs and outputs to mirror actual end-user behavior.",
+    "taExample": "மறைமுகக் கட்டமைப்புச் சோதனையானது உண்மையான பயனரின் பார்வையில் உள்ளீடுகள் மற்றும் வெளியீடுகளை மட்டுமே சோதிக்கிறது.",
+    "taWord": "மறைமுகக் கட்டமைப்புச் சோதனை",
+    "pos": "noun",
+    "synonyms": [
+      "Behavioral testing",
+      "Specification-based testing"
+    ],
+    "antonyms": [
+      "White-box testing",
+      "Clear-box testing"
+    ]
+  },
+  {
+    "id": 2714,
+    "word": "Bug triage",
+    "definition": "A regular meeting where engineering, product, and QA prioritize, categorize, and assign open defect tickets.",
+    "enExample": "During Monday's bug triage, we categorized the CSS overflow as minor and the login 500 error as critical.",
+    "taExample": "திங்கட்கிழமை பிழை வகைப்பாட்டுக் கூட்டத்தில், உள்நுழைவு பிழையை அதிமுக்கியமானதாகவும் சிஎஸ்எஸ் பிழையைச் சிறியதாகவும் வகைப்படுத்தினோம்.",
+    "taWord": "பிழை மதிப்பீடு மற்றும் வகைப்பாடு",
+    "pos": "noun",
+    "synonyms": [
+      "Defect prioritization",
+      "Issue sorting",
+      "Bug review"
+    ],
+    "antonyms": [
+      "Ignoring bugs"
+    ]
   }
 ]

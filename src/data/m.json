@@ -275,5 +275,203 @@
       "Aggravate",
       "Intensify"
     ]
+  },
+  {
+    "id": 2630,
+    "word": "Main character",
+    "definition": "Behaving as if one is the central protagonist, drawing all focus and attention.",
+    "enExample": "He had main character energy when he stepped in and resolved the tier-one incident single-handedly.",
+    "taExample": "முதல் நிலை சேவை முடக்கப் பிழையை ஒற்றை ஆளாகத் தீர்த்தபோது அவர் கதாநாயகனைப் போன்ற தன்னம்பிக்கையுடன் விளங்கினார்.",
+    "taWord": "கதாநாயக மிடுக்கு",
+    "pos": "phrase",
+    "synonyms": [
+      "Protagonist",
+      "Showstopper"
+    ],
+    "antonyms": [
+      "Background player",
+      "Wallflower"
+    ]
+  },
+  {
+    "id": 2633,
+    "word": "Mid",
+    "definition": "Mediocre, unimpressive, average, or disappointing in quality.",
+    "enExample": "The competitor's new AI autocomplete tool is surprisingly mid compared to GitHub Copilot.",
+    "taExample": "போட்டியாளரின் புதிய ஏஐ கருவி கிட்ஹப் கோபைலட்டுடன் ஒப்பிடும்போது ஆச்சரியப்படும் வகையில் சுமாராகவே உள்ளது.",
+    "taWord": "சுமாரான / சராசரியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Mediocre",
+      "Average",
+      "Subpar"
+    ],
+    "antonyms": [
+      "Outstanding",
+      "Goated",
+      "Exceptional"
+    ]
+  },
+  {
+    "id": 2651,
+    "word": "Move the needle",
+    "definition": "To make a noticeable, tangible, and meaningful impact or difference on a key metric.",
+    "enExample": "Reducing customer onboarding from ten steps to three will truly move the needle on conversions.",
+    "taExample": "வாடிக்கையாளர் இணைவுப் படிகளை பத்திலிருந்து மூன்றாகக் குறைப்பது பயன்பாட்டு மாற்ற விகிதத்தில் குறிப்பிடத்தக்க முன்னேற்றத்தை ஏற்படுத்தும்.",
+    "taWord": "குறிப்பிடத்தக்க முன்னேற்றம் ஏற்படுத்துதல்",
+    "pos": "phrase",
+    "synonyms": [
+      "Make an impact",
+      "Change outcomes",
+      "Shift metrics"
+    ],
+    "antonyms": [
+      "Stagnate",
+      "Have zero effect"
+    ]
+  },
+  {
+    "id": 2695,
+    "word": "Monolith",
+    "definition": "A single-tiered software application in which all user interface, business logic, and data access are unified.",
+    "enExample": "Splitting our monolithic Rails app into distributed microservices reduced deployment blast radius.",
+    "taExample": "எங்கள் ஒற்றைக் கட்டமைப்புப் பயன்பாட்டை தனித்தனி மைக்ரோசர்வீஸ்களாகப் பிரிப்பது வெளியீட்டுப் பாதிப்பு பரவலைக் குறைத்தது.",
+    "taWord": "ஒற்றைக் கட்டமைப்பு மென்பொருள்",
+    "pos": "noun",
+    "synonyms": [
+      "Unified system",
+      "Single-tier architecture"
+    ],
+    "antonyms": [
+      "Microservices",
+      "Serverless"
+    ]
+  },
+  {
+    "id": 2696,
+    "word": "Microservices",
+    "definition": "An architectural style that structures an application as a collection of small, independently deployable services.",
+    "enExample": "Using microservices allowed our payment and catalog teams to deploy independently without coordination locks.",
+    "taExample": "மைக்ரோசர்வீஸ்களைப் பயன்படுத்தியதால் பணம் செலுத்துதல் மற்றும் பட்டியல் குழுக்கள் ஒன்றையொன்று சாராமல் சுதந்திரமாக வெளியிட முடிந்தது.",
+    "taWord": "நுண் சேவைகள் கட்டமைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Distributed services",
+      "Service-oriented architecture"
+    ],
+    "antonyms": [
+      "Monolith"
+    ]
+  },
+  {
+    "id": 2702,
+    "word": "Mocking",
+    "definition": "Creating simulated, fake objects or endpoints to replicate the behavior of real dependencies during automated tests.",
+    "enExample": "Mocking the Stripe payment API allowed us to test subscription edge cases without charging real credit cards.",
+    "taExample": "ஸ்ட்ரைப் கட்டண ஏபிஐ-யை மாதிரிப் போலியாக உருவாக்கியதன் மூலம் உண்மையான அட்டைக் கட்டணமின்றி சோதிக்க முடிந்தது.",
+    "taWord": "போலி மாதிரி உருவாக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Stubbing",
+      "Simulating",
+      "Faking"
+    ],
+    "antonyms": [
+      "Real integration",
+      "Live endpoint"
+    ]
+  },
+  {
+    "id": 2703,
+    "word": "Mutation",
+    "definition": "Directly modifying or altering the internal state or properties of an in-memory object or variable.",
+    "enExample": "Avoiding direct state mutation in React prevents unexpected rendering bugs and state desynchronization.",
+    "taExample": "ரியாக்டில் நிலையை நேரடியாக மாற்றுவதைத் தவிர்ப்பது எதிர்பாராத காட்சிப் பிழைகளைத் தடுக்கிறது.",
+    "taWord": "நிலை மாற்றம் / நேரடித் திருத்தம்",
+    "pos": "noun",
+    "synonyms": [
+      "Alteration",
+      "State change",
+      "Modification"
+    ],
+    "antonyms": [
+      "Immutability",
+      "Constancy"
+    ]
+  },
+  {
+    "id": 2729,
+    "word": "Mutex",
+    "pos": "noun",
+    "definition": "Mutual exclusion object; a synchronization primitive used in concurrent programming to prevent multiple threads from accessing a shared resource simultaneously.",
+    "taWord": "ஒற்றை அணுகல் பூட்டு",
+    "enExample": "The database transaction worker locked the mutex before writing updates to the global balance sheet.",
+    "taExample": "பகிர்ந்துகொள்ளப்பட்ட கணக்கு விவரங்களை மாற்றியமைக்கும் போது Mutex பூட்டைப் பயன்படுத்தி முரண்பாடுகள் தடுக்கப்பட்டன.",
+    "synonyms": [
+      "lock primitive",
+      "mutual exclusion",
+      "binary semaphore"
+    ],
+    "antonyms": [
+      "race condition",
+      "unlocked concurrency"
+    ]
+  },
+  {
+    "id": 2730,
+    "word": "Monorepo",
+    "pos": "noun",
+    "definition": "A software development architectural approach where code for multiple separate projects, packages, and services is stored in a single unified version control repository.",
+    "taWord": "ஒருங்கிணைந்த மூலக்குறியீட்டு களஞ்சியம்",
+    "enExample": "Switching to a monorepo with Turborepo allowed frontend and backend teams to share TypeScript types seamlessly.",
+    "taExample": "அனைத்து திட்டக் குறியீடுகளையும் ஒரே Monorepo களஞ்சியத்தில் வைத்ததால் குழுக்களிடையே வகை அமைப்புகளைப் பகிர்வது எளிதானது.",
+    "synonyms": [
+      "unified repository",
+      "single-repo architecture",
+      "poly-package repo"
+    ],
+    "antonyms": [
+      "multi-repo",
+      "polyrepo",
+      "isolated repositories"
+    ]
+  },
+  {
+    "id": 2731,
+    "word": "Multitenancy",
+    "pos": "noun",
+    "definition": "A software architecture where a single running instance of an application serves multiple distinct customer organizations (tenants) with strictly isolated data.",
+    "taWord": "பல்-நிறுவன பகிர்வு கட்டமைப்பு",
+    "enExample": "Our SaaS platform uses row-level database security to enforce clean multitenancy between enterprise clients.",
+    "taExample": "எங்கள் கிளவுட் மென்பொருள் ஒரே சர்வரில் இயங்கினாலும் ஒவ்வொரு நிறுவனத்தின் தரவுகளையும் தனித்தனியாக பிரித்து பாதுகாக்கிறது.",
+    "synonyms": [
+      "tenant isolation",
+      "shared infrastructure SaaS",
+      "partitioned hosting"
+    ],
+    "antonyms": [
+      "single-tenant",
+      "dedicated hosting",
+      "isolated instance"
+    ]
+  },
+  {
+    "id": 2732,
+    "word": "Marshaling",
+    "pos": "noun",
+    "definition": "The process of transforming the memory representation of an object into a standardized byte format suitable for network transmission or cross-language RPCs.",
+    "taWord": "தரவு வரிசைப்படுத்துதல் / உருமாற்றம்",
+    "enExample": "Protocol Buffers handles the high-speed marshaling of Go structs into wire-efficient binary streams.",
+    "taExample": "நெட்வொர்க் பரிமாற்றத்திற்காக மெமரி ஆப்ஜெக்ட்களை பைனரி தரவாக Marshaling மூலம் உருமாற்றினோம்.",
+    "synonyms": [
+      "serialization",
+      "encoding",
+      "pickling"
+    ],
+    "antonyms": [
+      "unmarshaling",
+      "deserialization",
+      "decoding"
+    ]
   }
 ]

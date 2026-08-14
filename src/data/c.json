@@ -621,5 +621,163 @@
       "Unconvincing",
       "Boring"
     ]
+  },
+  {
+    "id": 2623,
+    "word": "Cooked",
+    "definition": "In an inescapable, doomed, exhausted, or severely compromised situation.",
+    "enExample": "If the AWS outage continues during the flash sale, our revenue targets are cooked.",
+    "taExample": "சிறப்பு விற்பனையின் போது ஏ.டபிள்யூ.எஸ் செயலிழப்பு தொடர்ந்தால், நமது வருவாய் இலக்குகள் முற்றிலுமாக நாசமாகிவிடும்.",
+    "taWord": "முற்றிலும் அழிந்த / நாசமான நிலை",
+    "pos": "adj.",
+    "synonyms": [
+      "Doomed",
+      "Exhausted",
+      "Ruined"
+    ],
+    "antonyms": [
+      "Thriving",
+      "Secure",
+      "Safe"
+    ]
+  },
+  {
+    "id": 2631,
+    "word": "Clutch",
+    "definition": "Performing successfully in a critical, high-pressure, or last-minute moment.",
+    "enExample": "Her clutch hotfix at 11:59 PM prevented the payment gateway timeout during Cyber Monday.",
+    "taExample": "இரவு 11:59 மணிக்கு அவர் செய்த நெருக்கடி நேர பிழைத்திருத்தம் பணப்பரிவர்த்தனை செயலிழப்பை தடுத்தது.",
+    "taWord": "நெருக்கடி நேர வெற்றி",
+    "pos": "adj.",
+    "synonyms": [
+      "Decisive",
+      "Crucial",
+      "Timely"
+    ],
+    "antonyms": [
+      "Choking",
+      "Faltering"
+    ]
+  },
+  {
+    "id": 2666,
+    "word": "Circle back",
+    "definition": "To return to or revisit a previously raised topic or question at a future time.",
+    "enExample": "Let me gather the latency telemetry logs and circle back to you by end of day.",
+    "taExample": "நான் செயல்திறன் தரவுகளைச் சேகரித்து, மாலைக்குள் உங்களிடம் மீண்டும் இதுபற்றிப் பேசுகிறேன்.",
+    "taWord": "மீண்டும் விவாதிக்கத் திரும்புதல்",
+    "pos": "idiom",
+    "synonyms": [
+      "Revisit",
+      "Follow up",
+      "Recheck"
+    ],
+    "antonyms": [
+      "Forget",
+      "Ignore"
+    ]
+  },
+  {
+    "id": 2683,
+    "word": "Cadence",
+    "definition": "A rhythmic, predictable schedule and pattern of events, meetings, or release deployments.",
+    "enExample": "Our bi-weekly sprint cadence provides predictable delivery timelines to executive stakeholders.",
+    "taExample": "எங்கள் இருவார சுழற்சி முறைமை நிர்வாகப் பங்குதாரர்களுக்கு கணிக்கக்கூடிய வெளியீட்டு காலக்கெடுவை வழங்குகிறது.",
+    "taWord": "ஒழுங்குமுறை காலச் சுழற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Rhythm",
+      "Tempo",
+      "Regular schedule"
+    ],
+    "antonyms": [
+      "Erratic pace",
+      "Unpredictability"
+    ]
+  },
+  {
+    "id": 2687,
+    "word": "Ceremony",
+    "definition": "A structured, regular meeting in Agile Scrum (e.g., Standup, Planning, Review, Retrospective).",
+    "enExample": "Adhering to our agile ceremonies kept remote engineers synchronized across three time zones.",
+    "taExample": "சுறுசுறுப்பான சுழற்சி முறை கூட்டங்களை முறையாகக் கடைப்பிடித்தது தொலைதூர பொறியாளர்களை ஒரே நேர்க்கோட்டில் இணைத்தது.",
+    "taWord": "முறைப்படியான கூட்டுக்கூட்டம்",
+    "pos": "noun",
+    "synonyms": [
+      "Agile ritual",
+      "Scrum meeting",
+      "Structured cadence"
+    ],
+    "antonyms": [
+      "Ad-hoc chat"
+    ]
+  },
+  {
+    "id": 2690,
+    "word": "Cycle time",
+    "definition": "The time spent actively developing and testing a task from when work begins to when it is done.",
+    "enExample": "Our QA automation reduced the pull request cycle time from twenty-four hours to under two hours.",
+    "taExample": "எங்கள் தானியங்கி சோதனை முறை புல் ரிக்வெஸ்ட் பணி சுழற்சி நேரத்தை இருபத்தி நான்கு மணி நேரத்திலிருந்து இரண்டு மணி நேரமாகக் குறைத்தது.",
+    "taWord": "செயல்பாட்டு சுழற்சி நேரம்",
+    "pos": "noun",
+    "synonyms": [
+      "Active working time",
+      "Processing duration"
+    ],
+    "antonyms": [
+      "Queue time"
+    ]
+  },
+  {
+    "id": 2697,
+    "word": "CI/CD",
+    "definition": "Continuous Integration and Continuous Delivery/Deployment; automated pipelines for building, testing, and shipping code.",
+    "enExample": "Our GitHub Actions CI/CD pipeline automatically runs linters, unit tests, and deploys to staging.",
+    "taExample": "எங்கள் சிஐ/சிடி குழாய்வழியானது தானாகவே சோதனைகளை இயக்கி நிலைநிறுத்தல் சேவையகத்தில் வெளியிடுகிறது.",
+    "taWord": "தொடர் ஒருங்கிணைப்பு மற்றும் தொடர் விநியோகம்",
+    "pos": "noun",
+    "synonyms": [
+      "Automated pipeline",
+      "Build pipeline",
+      "Continuous delivery"
+    ],
+    "antonyms": [
+      "Manual deployment"
+    ]
+  },
+  {
+    "id": 2698,
+    "word": "Containerization",
+    "definition": "Packaging an application together with all its dependencies and runtime libraries into an isolated container.",
+    "enExample": "Docker containerization ensured that the code behaved identically on local laptops and AWS ECS.",
+    "taExample": "டாக்கர் கொள்கலனாக்கம் மடிக்கணினியிலும் கிளவுட் சேவையகத்திலும் மென்பொருள் ஒரே மாதிரியாக இயங்குவதை உறுதி செய்தது.",
+    "taWord": "கொள்கலனாக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Dockerization",
+      "Encapsulation",
+      "Sandboxing"
+    ],
+    "antonyms": [
+      "Bare-metal execution"
+    ]
+  },
+  {
+    "id": 2710,
+    "word": "Code coverage",
+    "definition": "A software metric measuring the percentage of source code executed while running an automated test suite.",
+    "enExample": "Our pull request gating policy requires at least eighty-five percent code coverage before merging.",
+    "taExample": "இணைப்பதற்கு முன் எங்கள் அமைப்பிற்கு குறைந்தது எண்பத்தைந்து சதவீத குறியீட்டு சோதனைப் பாதுகாப்பு தேவைப்படுகிறது.",
+    "taWord": "குறியீட்டு சோதனைப் பாதுகாப்பு அளவு",
+    "pos": "noun",
+    "synonyms": [
+      "Test coverage",
+      "Line coverage",
+      "Branch coverage"
+    ],
+    "antonyms": [
+      "Untested code",
+      "Blind spots"
+    ]
   }
 ]

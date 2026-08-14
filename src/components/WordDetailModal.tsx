@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Volume2, Copy, Check, Bookmark, X, Share2, Sparkles, BookOpen, Globe } from 'lucide-react';
 import { LexiconWord } from '../types';
-import { speakWord } from '../utils/speech';
+import { speakWord, speakTamilWord } from '../utils/speech';
 import { AudioEqualizer } from './AudioEqualizer';
 
 interface WordDetailModalProps {
@@ -23,7 +23,8 @@ export function WordDetailModal({
   onWordSearch
 }: WordDetailModalProps) {
   const [copied, setCopied] = useState(false);
-  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [isSpeakingEn, setIsSpeakingEn] = useState(false);
+  const [isSpeakingTa, setIsSpeakingTa] = useState(false);
   const [shared, setShared] = useState(false);
 
   if (!word) return null;
@@ -38,19 +39,29 @@ export function WordDetailModal({
     }
   };
 
-  const handleSpeak = () => {
+  const handleSpeakEnglish = () => {
     triggerHaptic();
     speakWord(
       word.word,
-      () => setIsSpeaking(true),
-      () => setIsSpeaking(false),
-      () => setIsSpeaking(false)
+      () => setIsSpeakingEn(true),
+      () => setIsSpeakingEn(false),
+      () => setIsSpeakingEn(false)
+    );
+  };
+
+  const handleSpeakTamil = () => {
+    triggerHaptic();
+    speakTamilWord(
+      word.taWord,
+      () => setIsSpeakingTa(true),
+      () => setIsSpeakingTa(false),
+      () => setIsSpeakingTa(false)
     );
   };
 
   const handleCopy = () => {
     triggerHaptic();
-    navigator.clipboard.writeText(`${word.word} (${word.taWord})\nDef: ${word.definition}\nEN Example: ${word.enExample}\nTA Example: ${word.taExample}`);
+    navigator.clipboard.writeText(`${word.word} (${word.taWord})\nPOS: ${word.pos}\nDefinition: ${word.definition}\nEnglish Example: "${word.enExample}"\nTamil Context: "${word.taExample}"`);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -61,7 +72,7 @@ export function WordDetailModal({
       try {
         await navigator.share({
           title: `Engineer Lexicon: ${word.word}`,
-          text: `${word.word} - ${word.definition} (${word.taWord})`,
+          text: `${word.word} (${word.taWord}) - ${word.definition}`,
           url: window.location.href,
         });
       } catch (e) {
@@ -111,12 +122,13 @@ export function WordDetailModal({
                   {word.pos}
                 </span>
                 <span className="text-xs font-mono text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded-full border border-amber-400/20">
-                  Technical Lexicon
+                  Lexicon Word #{word.id}
                 </span>
               </div>
               <button
                 onClick={onClose}
                 className="p-2 rounded-full bg-zinc-800/60 hover:bg-zinc-700 text-zinc-400 hover:text-white transition-colors"
+                aria-label="Close modal"
               >
                 <X size={18} />
               </button>
@@ -124,25 +136,46 @@ export function WordDetailModal({
 
             {/* Word Header */}
             <div className="mb-8">
-              <div className="flex items-baseline justify-between gap-4">
-                <h2 className="text-4xl sm:text-5xl font-serif italic text-amber-400 tracking-tight">
-                  {word.word}
-                </h2>
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <h2 className="text-4xl sm:text-5xl font-serif italic text-amber-400 tracking-tight">
+                    {word.word}
+                  </h2>
+                  <div className="flex items-center gap-3 mt-2">
+                    <p className="text-xl font-tamil text-amber-300 font-medium">
+                      {word.taWord}
+                    </p>
+                    <button
+                      onClick={handleSpeakTamil}
+                      className={`px-2.5 py-0.5 rounded-full text-[11px] font-mono border transition-all flex items-center gap-1 ${
+                        isSpeakingTa
+                          ? 'bg-amber-400 text-black border-amber-400 font-bold'
+                          : 'bg-zinc-900 text-zinc-400 border-zinc-800 hover:text-amber-300 hover:border-amber-400/40'
+                      }`}
+                      title="Speak Tamil pronunciation"
+                    >
+                      <Volume2 size={12} />
+                      <span>TA Audio</span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* English Pronounce Action */}
                 <button
-                  onClick={handleSpeak}
-                  className={`p-3 rounded-full bg-amber-400 text-black hover:bg-amber-300 active:scale-95 transition-all shadow-lg flex items-center justify-center shrink-0 ${
-                    isSpeaking ? 'ring-4 ring-amber-400/40 animate-pulse' : ''
+                  onClick={handleSpeakEnglish}
+                  className={`p-3.5 rounded-full bg-amber-400 text-black hover:bg-amber-300 active:scale-95 transition-all shadow-lg flex items-center justify-center shrink-0 ${
+                    isSpeakingEn ? 'ring-4 ring-amber-400/40 animate-pulse' : ''
                   }`}
-                  title="Listen Pronunciation"
+                  title="Listen English Pronunciation"
                 >
-                  <Volume2 size={20} />
+                  {isSpeakingEn ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={20} />}
                 </button>
               </div>
 
-              {/* Sound Wave Animation when speaking */}
-              {isSpeaking && (
+              {/* Sound Wave Animation when speaking English */}
+              {isSpeakingEn && (
                 <div className="flex items-center gap-1 mt-3">
-                  <span className="text-xs font-mono text-amber-400 mr-2">Pronouncing...</span>
+                  <span className="text-xs font-mono text-amber-400 mr-2">Pronouncing in British English...</span>
                   {[0, 1, 2, 3, 4].map(i => (
                     <motion.div
                       key={i}
@@ -153,10 +186,6 @@ export function WordDetailModal({
                   ))}
                 </div>
               )}
-
-              <p className="text-xl font-tamil text-amber-400 font-medium mt-2">
-                {word.taWord}
-              </p>
             </div>
 
             {/* Quick Action Dock */}
@@ -181,7 +210,7 @@ export function WordDetailModal({
                 className="flex flex-col items-center justify-center py-2.5 px-3 rounded-xl transition-all text-xs font-mono text-zinc-400 hover:text-white hover:bg-zinc-800/50 gap-1.5"
               >
                 {copied ? <Check size={18} className="text-emerald-400" /> : <Copy size={18} />}
-                <span>{copied ? 'Copied' : 'Copy'}</span>
+                <span>{copied ? 'Copied!' : 'Copy'}</span>
               </button>
 
               <button
@@ -189,7 +218,7 @@ export function WordDetailModal({
                 className="flex flex-col items-center justify-center py-2.5 px-3 rounded-xl transition-all text-xs font-mono text-zinc-400 hover:text-white hover:bg-zinc-800/50 gap-1.5"
               >
                 {shared ? <Check size={18} className="text-emerald-400" /> : <Share2 size={18} />}
-                <span>{shared ? 'Shared' : 'Share'}</span>
+                <span>{shared ? 'Shared!' : 'Share'}</span>
               </button>
             </div>
 
@@ -210,7 +239,7 @@ export function WordDetailModal({
                 <div className="p-5 rounded-2xl bg-zinc-900/30 border border-zinc-800/50">
                   <div className="flex items-center gap-2 mb-2">
                     <Globe size={15} className="text-blue-300" />
-                    <h4 className="text-xs font-mono text-blue-300 uppercase tracking-widest">English Context</h4>
+                    <h4 className="text-xs font-mono text-blue-300 uppercase tracking-widest">Engineering Context</h4>
                   </div>
                   <p className="text-zinc-300 font-serif italic text-base sm:text-lg leading-relaxed">
                     "{word.enExample}"
@@ -220,7 +249,7 @@ export function WordDetailModal({
                 <div className="p-5 rounded-2xl bg-zinc-900/30 border border-zinc-800/50">
                   <div className="flex items-center gap-2 mb-2">
                     <span className="text-xs font-mono text-indigo-300">TA</span>
-                    <h4 className="text-xs font-mono text-indigo-300 uppercase tracking-widest">Tamil Context</h4>
+                    <h4 className="text-xs font-mono text-indigo-300 uppercase tracking-widest">Tamil Context & Usage</h4>
                   </div>
                   <p className="text-zinc-300 font-tamil text-base leading-relaxed">
                     "{word.taExample}"
@@ -276,3 +305,4 @@ export function WordDetailModal({
     </AnimatePresence>
   );
 }
+

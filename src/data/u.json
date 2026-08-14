@@ -300,5 +300,41 @@
       "Surrender",
       "Relinquish"
     ]
+  },
+  {
+    "id": 2745,
+    "word": "Ubiquitous Language",
+    "pos": "noun",
+    "definition": "A rigorous, shared terminology coined in Domain-Driven Design (DDD) used consistently between software engineers and non-technical domain experts.",
+    "taWord": "பொதுவான வணிக-தொழில்நுட்ப மொழி",
+    "enExample": "Establishing a ubiquitous language ensured our backend models used the exact same names as our finance department.",
+    "taExample": "வணிக நிபுணர்களும் நிரலாளர்களும் ஒரே வார்த்தைகளைப் பயன்படுத்தி குழப்பங்களை தவிர்க்கும் பொதுவான சொல்லகராதி.",
+    "synonyms": [
+      "domain vocabulary",
+      "shared terminology",
+      "DDD lexicon"
+    ],
+    "antonyms": [
+      "jargon disconnect",
+      "semantic mismatch"
+    ]
+  },
+  {
+    "id": 2746,
+    "word": "Unbounded Queue",
+    "pos": "noun",
+    "definition": "A queue data structure that has no predefined capacity limit, risking out-of-memory crashes if producers continuously outpace consumers.",
+    "taWord": "வரம்பற்ற வரிசை அமைப்பு",
+    "enExample": "Replacing the unbounded queue with a bounded buffer protected our worker services against memory exhaustion.",
+    "taExample": "வரம்பற்ற வரிசை அமைப்பிற்கு பதிலாக குறிப்பிட்ட அளவுடைய வரிசையை அமைத்து நினைவக முடக்கத்தைத் தவிர்த்தோம்.",
+    "synonyms": [
+      "infinite buffer",
+      "limitless queue"
+    ],
+    "antonyms": [
+      "bounded buffer",
+      "capped channel",
+      "ring buffer"
+    ]
   }
 ]

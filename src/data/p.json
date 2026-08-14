@@ -842,5 +842,59 @@
       "Barren",
       "Unproductive"
     ]
+  },
+  {
+    "id": 2658,
+    "word": "Pivot",
+    "definition": "A rapid, structured shift in business strategy, architecture, or product direction in response to new data.",
+    "enExample": "After reviewing user churn analytics, the startup decided to pivot from B2C to an enterprise B2B model.",
+    "taExample": "பயனர் வெளியேற்றத் தரவுகளை ஆய்வு செய்த பிறகு, அந்த நிறுவனம் நுகர்வோர் மாடலில் இருந்து பெருநிறுவன வணிக மாடலுக்கு தனது திசையை மாற்றியது.",
+    "taWord": "திசை திருப்புதல் / உத்தி மாற்றம்",
+    "pos": "verb",
+    "synonyms": [
+      "Shift",
+      "Reorient",
+      "Transform"
+    ],
+    "antonyms": [
+      "Persist",
+      "Maintain course"
+    ]
+  },
+  {
+    "id": 2667,
+    "word": "Parking lot",
+    "definition": "A dedicated repository or designated section in a meeting to hold tangential, out-of-scope ideas.",
+    "enExample": "Put that dark-mode request into the meeting parking lot so we can finish our compliance review.",
+    "taExample": "அந்த டார்க்-மோட் கோரிக்கையை கூடுதல் தலைப்புகள் பட்டியலில் வைத்துவிட்டு, நமது சட்ட விதிகளின் மறுஆய்வை முடிப்போம்.",
+    "taWord": "கூடுதல் தலைப்புகள் பட்டியல்",
+    "pos": "noun",
+    "synonyms": [
+      "Holding bin",
+      "Sidebar list",
+      "Idea backlog"
+    ],
+    "antonyms": [
+      "Current agenda",
+      "Main topic"
+    ]
+  },
+  {
+    "id": 2701,
+    "word": "Payload",
+    "definition": "The actual essential data carried within a network packet, API message, or HTTP request body.",
+    "enExample": "We compressed the JSON payload by stripping empty optional fields before network transmission.",
+    "taExample": "நெட்வொர்க் பரிமாற்றத்திற்கு முன் காலியான புலங்களை நீக்கி ஜேசன் (JSON) தரவுச் சுமையைச் சுருக்கினோம்.",
+    "taWord": "பரிமாற்றத் தரவுச் சுமை",
+    "pos": "noun",
+    "synonyms": [
+      "Data body",
+      "Content payload",
+      "Packet data"
+    ],
+    "antonyms": [
+      "Header",
+      "Metadata"
+    ]
   }
 ]

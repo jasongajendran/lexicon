@@ -291,5 +291,41 @@
       "Pragmatic",
       "Practical"
     ]
+  },
+  {
+    "id": 2738,
+    "word": "Query Planner",
+    "pos": "noun",
+    "definition": "A database engine subsystem that analyzes SQL queries to determine the most computationally efficient access paths and index scans.",
+    "taWord": "வினவல் திட்டமிடல் என்ஜின்",
+    "enExample": "Examining the EXPLAIN output showed the query planner switching from a slow sequential scan to an index scan.",
+    "taExample": "தரவுத்தளத்தின் Query Planner குறியீட்டைப் பகுப்பாய்வு செய்து வினவலை அதிவேகமாக இயக்க சரியான வழியைத் தேர்ந்தெடுத்தது.",
+    "synonyms": [
+      "query optimizer",
+      "execution plan generator",
+      "cost-based optimizer"
+    ],
+    "antonyms": [
+      "blind sequential scanner",
+      "unindexed lookup"
+    ]
+  },
+  {
+    "id": 2739,
+    "word": "Quality Gate",
+    "pos": "noun",
+    "definition": "A milestone check in a CI/CD build pipeline that enforces strict thresholds for code coverage, linting errors, and security vulnerabilities.",
+    "taWord": "தரக்கட்டுப்பாட்டு வாயில்",
+    "enExample": "The pull request was blocked by the quality gate because code coverage fell below the required 80 percent threshold.",
+    "taExample": "குறியீட்டின் தரம் மற்றும் சோதனைகள் நிர்ணயிக்கப்பட்ட அளவை எட்டாததால் Quality Gate மூலம் வெளியீடு தற்காலிகமாக நிறுத்தப்பட்டது.",
+    "synonyms": [
+      "pipeline milestone",
+      "build policy check",
+      "governance threshold"
+    ],
+    "antonyms": [
+      "unregulated deploy",
+      "bypassed check"
+    ]
   }
 ]

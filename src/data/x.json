@@ -257,5 +257,41 @@
       "Unknown quantity",
       "Special quality"
     ]
+  },
+  {
+    "id": 2750,
+    "word": "XML Schema",
+    "pos": "noun",
+    "definition": "A World Wide Web Consortium (W3C) recommendation (XSD) that formally defines the structure, elements, data types, and attributes of XML documents.",
+    "taWord": "எக்ஸ்.எம்.எல் கட்டமைப்பு வரைமுறை",
+    "enExample": "Enterprise banking feeds validate all incoming financial wire packets against an agreed XML Schema.",
+    "taExample": "நிதிப் பரிவர்த்தனை தகவல்களை அனுப்பும்போது அதன் கட்டமைப்பு விதிகள் XML Schema மூலம் உறுதி செய்யப்படுகின்றன.",
+    "synonyms": [
+      "XSD",
+      "document type definition",
+      "XML contract"
+    ],
+    "antonyms": [
+      "malformed XML",
+      "schemaless document"
+    ]
+  },
+  {
+    "id": 2751,
+    "word": "XOR Operation",
+    "pos": "noun",
+    "definition": "Exclusive OR; a foundational bitwise operation that evaluates to true if and only if one of its operands is true while the other is false.",
+    "taWord": "தனிப்பட்ட அல்லது செயல்பாடு",
+    "enExample": "Cryptographic hash routines leverage fast bitwise XOR operations to scramble and diffuse plaintext byte blocks.",
+    "taExample": "மறைகுறியாக்க விதிகளில் தரவுகளை பாதுகாப்பாக கலக்க பிட்நிலை XOR செயல்பாடுகள் பயன்படுகின்றன.",
+    "synonyms": [
+      "exclusive OR",
+      "bitwise XOR",
+      "modulo-2 addition"
+    ],
+    "antonyms": [
+      "equivalence",
+      "bitwise XNOR"
+    ]
   }
 ]
