@@ -99,6 +99,26 @@
     ]
   },
   {
+    "id": 2866,
+    "word": "Fallout",
+    "pos": "noun",
+    "definition": "The unexpected and adverse secondary consequences resulting from a major scandal, disaster, or policy.",
+    "enExample": "The political fallout from the leaked cabinet audio led to the resignation of three senior ministers.",
+    "taWord": "பின்னடைவு விளைவுகள் / எதிர்விளைவுகள்",
+    "taExample": "ரகசிய ஆடியோ கசிந்ததன் விளைவாக ஏற்பட்ட அரசியல் கொந்தளிப்பால் மூன்று அமைச்சர்கள் பதவி விலகினர்.",
+    "synonyms": [
+      "Aftermath",
+      "Repercussions",
+      "Backlash",
+      "Consequences"
+    ],
+    "antonyms": [
+      "Antecedent",
+      "Precursor",
+      "Direct cause"
+    ]
+  },
+  {
     "id": 628,
     "word": "Fastidious",
     "definition": "Very attentive to and concerned about accuracy and detail.",
@@ -367,6 +387,27 @@
     ]
   },
   {
+    "id": 2959,
+    "word": "Foment",
+    "pos": "verb",
+    "definition": "To instigate, stir up, or incite rebellion, civil unrest, discontent, or political strife.",
+    "enExample": "Hostile foreign actors used clandestine social media groups to foment civic riots ahead of the election.",
+    "taWord": "கலவரத்தை தூண்டிவிடுதல் / கொந்தளிப்பை உருவாக்குதல்",
+    "taExample": "தேர்தலுக்கு முன்பாக மக்கள் மத்தியில் கலவரத்தையும் பிரிவினையையும் தூண்ட சிலர் முயற்சி செய்தனர்.",
+    "synonyms": [
+      "Instigate",
+      "Incite",
+      "Provoke",
+      "Agitate"
+    ],
+    "antonyms": [
+      "Quell",
+      "Suppress",
+      "Pacify",
+      "Extinguish"
+    ]
+  },
+  {
     "id": 612,
     "word": "Footprint",
     "definition": "The area or amount of space occupied by something; resources used.",
@@ -491,6 +532,27 @@
     "antonyms": [
       "Suppress",
       "Discourage"
+    ]
+  },
+  {
+    "id": 2867,
+    "word": "Fractious",
+    "pos": "adj.",
+    "definition": "Irritable, quarrelsome, and difficult to keep united, especially within a governing coalition or political party.",
+    "enExample": "After months of infighting, the fractious ruling coalition failed to agree on the national healthcare reforms.",
+    "taWord": "பிளவடைந்த / சண்டையிடும்",
+    "taExample": "உள் முரண்பாடுகளால் பிளவடைந்த ஆளுங்கட்சி கூட்டணி புதிய மருத்துவக் கொள்கையில் உடன்பட முடியாமல் திணறியது.",
+    "synonyms": [
+      "Divisive",
+      "Quarrelsome",
+      "Contentious",
+      "Unruly"
+    ],
+    "antonyms": [
+      "Harmonious",
+      "United",
+      "Cooperative",
+      "Peaceable"
     ]
   },
   {
@@ -687,47 +749,6 @@
     "antonyms": [
       "Exact",
       "Precise"
-    ]
-  },
-  {
-    "id": 2866,
-    "word": "Fallout",
-    "pos": "noun",
-    "definition": "The unexpected and adverse secondary consequences resulting from a major scandal, disaster, or policy.",
-    "enExample": "The political fallout from the leaked cabinet audio led to the resignation of three senior ministers.",
-    "taWord": "பின்னடைவு விளைவுகள் / எதிர்விளைவுகள்",
-    "taExample": "ரகசிய ஆடியோ கசிந்ததன் விளைவாக ஏற்பட்ட அரசியல் கொந்தளிப்பால் மூன்று அமைச்சர்கள் பதவி விலகினர்.",
-    "synonyms": [
-      "Aftermath",
-      "Repercussions",
-      "Backlash",
-      "Consequences"
-    ],
-    "antonyms": [
-      "Antecedent",
-      "Precursor",
-      "Direct cause"
-    ]
-  },
-  {
-    "id": 2867,
-    "word": "Fractious",
-    "pos": "adj.",
-    "definition": "Irritable, quarrelsome, and difficult to keep united, especially within a governing coalition or political party.",
-    "enExample": "After months of infighting, the fractious ruling coalition failed to agree on the national healthcare reforms.",
-    "taWord": "பிளவடைந்த / சண்டையிடும்",
-    "taExample": "உள் முரண்பாடுகளால் பிளவடைந்த ஆளுங்கட்சி கூட்டணி புதிய மருத்துவக் கொள்கையில் உடன்பட முடியாமல் திணறியது.",
-    "synonyms": [
-      "Divisive",
-      "Quarrelsome",
-      "Contentious",
-      "Unruly"
-    ],
-    "antonyms": [
-      "Harmonious",
-      "United",
-      "Cooperative",
-      "Peaceable"
     ]
   }
 ]

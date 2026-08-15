@@ -86,6 +86,26 @@
     ]
   },
   {
+    "id": 2924,
+    "word": "Tariffs",
+    "pos": "noun",
+    "definition": "Customs taxes or duties levied by a sovereign government on specific classes of imported goods.",
+    "enExample": "The administration enacted retaliatory twenty-five percent tariffs on imported industrial steel.",
+    "taWord": "இறக்குமதி சுங்க வரிகள்",
+    "taExample": "வெளிநாட்டிலிருந்து இறக்குமதி செய்யப்படும் எஃகு மீது இருபத்தைந்து சதவீத சுங்க வரியை அரசு விதித்தது.",
+    "synonyms": [
+      "Import duties",
+      "Customs levies",
+      "Excise taxes",
+      "Tolls"
+    ],
+    "antonyms": [
+      "Subsidies",
+      "Duty-free trade",
+      "Tariff exemptions"
+    ]
+  },
+  {
     "id": 2825,
     "word": "Tech Debt",
     "pos": "noun",
@@ -166,6 +186,27 @@
       "Pattern",
       "Blueprint",
       "Boilerplate"
+    ]
+  },
+  {
+    "id": 2949,
+    "word": "Tenable",
+    "pos": "adj.",
+    "definition": "Able to be maintained, defended, or justified against objection, attack, or rational scrutiny.",
+    "enExample": "Without automated unit test suites, maintaining this monolithic code structure is simply no longer tenable.",
+    "taWord": "நிலைநிறுத்தக்கூடிய / நியாயப்படுத்தக்கூடிய",
+    "taExample": "தானியங்கி சோதனைகள் இல்லாமல் இவ்வளவு பெரிய சிக்கலான மென்பொருளை பராமரிப்பது இனி சாத்தியமற்றது.",
+    "synonyms": [
+      "Defensible",
+      "Justifiable",
+      "Viable",
+      "Sustainable"
+    ],
+    "antonyms": [
+      "Untenable",
+      "Defenseless",
+      "Flawed",
+      "Unsustainable"
     ]
   },
   {
@@ -490,6 +531,27 @@
     ]
   },
   {
+    "id": 2925,
+    "word": "Tumultuous",
+    "pos": "adj.",
+    "definition": "Characterized by loud, confused noise, chaotic disorder, volatile upheaval, or passionate agitation.",
+    "enExample": "The country endured a tumultuous election year marked by continuous protests and economic upheaval.",
+    "taWord": "கொந்தளிப்பான / குழப்பம் நிறைந்த",
+    "taExample": "தொடர் போராட்டங்களும் பொருளாதார வீழ்ச்சியும் நிறைந்த ஒரு கொந்தளிப்பான தேர்தல் ஆண்டை நாடு சந்தித்தது.",
+    "synonyms": [
+      "Turbulent",
+      "Tempestuous",
+      "Chaotic",
+      "Riotous"
+    ],
+    "antonyms": [
+      "Peaceful",
+      "Tranquil",
+      "Orderly",
+      "Serene"
+    ]
+  },
+  {
     "id": 2011,
     "word": "Tuple",
     "definition": "A finite ordered sequence of elements, often represented as fixed-length typed arrays in programming languages.",
@@ -535,47 +597,6 @@
     "antonyms": [
       "Type coercion",
       "Dynamic typing"
-    ]
-  },
-  {
-    "id": 2924,
-    "word": "Tariffs",
-    "pos": "noun",
-    "definition": "Customs taxes or duties levied by a sovereign government on specific classes of imported goods.",
-    "enExample": "The administration enacted retaliatory twenty-five percent tariffs on imported industrial steel.",
-    "taWord": "இறக்குமதி சுங்க வரிகள்",
-    "taExample": "வெளிநாட்டிலிருந்து இறக்குமதி செய்யப்படும் எஃகு மீது இருபத்தைந்து சதவீத சுங்க வரியை அரசு விதித்தது.",
-    "synonyms": [
-      "Import duties",
-      "Customs levies",
-      "Excise taxes",
-      "Tolls"
-    ],
-    "antonyms": [
-      "Subsidies",
-      "Duty-free trade",
-      "Tariff exemptions"
-    ]
-  },
-  {
-    "id": 2925,
-    "word": "Tumultuous",
-    "pos": "adj.",
-    "definition": "Characterized by loud, confused noise, chaotic disorder, volatile upheaval, or passionate agitation.",
-    "enExample": "The country endured a tumultuous election year marked by continuous protests and economic upheaval.",
-    "taWord": "கொந்தளிப்பான / குழப்பம் நிறைந்த",
-    "taExample": "தொடர் போராட்டங்களும் பொருளாதார வீழ்ச்சியும் நிறைந்த ஒரு கொந்தளிப்பான தேர்தல் ஆண்டை நாடு சந்தித்தது.",
-    "synonyms": [
-      "Turbulent",
-      "Tempestuous",
-      "Chaotic",
-      "Riotous"
-    ],
-    "antonyms": [
-      "Peaceful",
-      "Tranquil",
-      "Orderly",
-      "Serene"
     ]
   }
 ]

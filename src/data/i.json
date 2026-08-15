@@ -152,6 +152,47 @@
     ]
   },
   {
+    "id": 2870,
+    "word": "Impasse",
+    "pos": "noun",
+    "definition": "A situation where no progress or compromise is possible due to deadlock between opposing sides.",
+    "enExample": "The labor wage talks hit an insurmountable impasse after management refused inflation-pegged adjustments.",
+    "taWord": "முட்டுக்கட்டை / இழுபறி நிலை",
+    "taExample": "ஊதிய உயர்வு தொடர்பான பேச்சுவார்த்தையில் நிர்வாகம் பிடிவாதமாக இருந்ததால் பேச்சுவார்த்தை முட்டுக்கட்டையில் முடிந்தது.",
+    "synonyms": [
+      "Deadlock",
+      "Stalemate",
+      "Standstill",
+      "Gridlock"
+    ],
+    "antonyms": [
+      "Breakthrough",
+      "Resolution",
+      "Progress",
+      "Agreement"
+    ]
+  },
+  {
+    "id": 2871,
+    "word": "Impeachment",
+    "pos": "noun",
+    "definition": "A formal constitutional charge of treason, bribery, or high crimes brought against a public official by a legislature.",
+    "enExample": "The parliament drafted articles of impeachment against the president over allegations of abuse of executive power.",
+    "taWord": "பதவி நீக்க குற்றச்சாட்டு / பதவி நீக்க விசாரணை",
+    "taExample": "அதிகார துஷ்பிரயோக குற்றச்சாட்டுகளுக்காக அதிபருக்கு எதிராக பதவி நீக்க தீர்மானம் கொண்டுவரப்பட்டது.",
+    "synonyms": [
+      "Indictment",
+      "Arraignment",
+      "Formal trial for removal"
+    ],
+    "antonyms": [
+      "Reinstatement",
+      "Vindication",
+      "Acquittal",
+      "Endorsement"
+    ]
+  },
+  {
     "id": 2686,
     "word": "Impediment",
     "definition": "Any barrier, bottleneck, or obstruction that halts or slows an agile team's progress.",
@@ -202,6 +243,27 @@
     "antonyms": [
       "Cancel",
       "Halt"
+    ]
+  },
+  {
+    "id": 2872,
+    "word": "Implicate",
+    "pos": "verb",
+    "definition": "To show, suggest, or prove that someone is involved or connected to a crime or corrupt conspiracy.",
+    "enExample": "Testimony from the prime suspect directly implicated several senior intelligence officials in the plot.",
+    "taWord": "குற்றத்தில் தொடர்புபடுத்துதல்",
+    "taExample": "முக்கிய குற்றவாளி அளித்த வாக்குமூலம் பல உயர் அதிகாரிகளை இந்த சதியில் தொடர்புபடுத்தியது.",
+    "synonyms": [
+      "Incriminate",
+      "Involve",
+      "Entangle",
+      "Connect"
+    ],
+    "antonyms": [
+      "Exonerate",
+      "Absolve",
+      "Clear",
+      "Exclude"
     ]
   },
   {
@@ -256,6 +318,27 @@
     ]
   },
   {
+    "id": 2873,
+    "word": "Incite",
+    "pos": "verb",
+    "definition": "To encourage, provoke, or stir up people toward violent, unlawful, or riotous actions.",
+    "enExample": "The court found that the provocative broadcast was designed to incite civil disobedience.",
+    "taWord": "வன்முறைக்கு தூண்டுதல்",
+    "taExample": "மக்களிடையே வன்முறையையும் மோதலையும் தூண்டும் வகையில் அந்த பேச்சு அமைந்ததாக நீதிமன்றம் தெரிவித்தது.",
+    "synonyms": [
+      "Instigate",
+      "Provoke",
+      "Foment",
+      "Stir up"
+    ],
+    "antonyms": [
+      "Deter",
+      "Dissuade",
+      "Pacify",
+      "Calm"
+    ]
+  },
+  {
     "id": 934,
     "word": "Incorporate",
     "definition": "Take in or contain something as part of a larger whole.",
@@ -301,6 +384,27 @@
     "synonyms": [
       "Directory",
       "Indicator"
+    ]
+  },
+  {
+    "id": 2832,
+    "word": "Indignation",
+    "pos": "noun",
+    "definition": "Anger or righteous annoyance provoked by what is perceived as unfair, corrupt, or unjust treatment.",
+    "enExample": "The minister's statement sparked widespread public indignation across the nation.",
+    "taWord": "நியாயமான ஆத்திரம் / கொந்தளிப்பு",
+    "taExample": "அமைச்சரின் அறிக்கை மக்களிடையே கடுமையான ஆத்திரத்தையும் கொந்தளிப்பையும் ஏற்படுத்தியது.",
+    "synonyms": [
+      "Outrage",
+      "Resentment",
+      "Fury",
+      "Exasperation"
+    ],
+    "antonyms": [
+      "Contentment",
+      "Delight",
+      "Satisfaction",
+      "Complacency"
     ]
   },
   {
@@ -456,6 +560,27 @@
     ]
   },
   {
+    "id": 2874,
+    "word": "Injunction",
+    "pos": "noun",
+    "definition": "An authoritative court order restraining a party from doing or continuing an act, or compelling them to do it.",
+    "enExample": "The federal judge granted an emergency injunction blocking the deportation of asylum applicants.",
+    "taWord": "நீதிமன்ற இடைக்கால தடை உத்தரவு",
+    "taExample": "அகதிகளை உடனடியாக வெளியேற்றுவதற்கு எதிராக நீதிமன்றம் அவசர இடைக்கால தடை உத்தரவை பிறப்பித்தது.",
+    "synonyms": [
+      "Court restraining order",
+      "Stay order",
+      "Judicial ruling",
+      "Decree"
+    ],
+    "antonyms": [
+      "Authorization",
+      "Permit",
+      "Sanction",
+      "Allowance"
+    ]
+  },
+  {
     "id": 938,
     "word": "Insight",
     "definition": "The capacity to gain an accurate and deep intuitive understanding.",
@@ -470,6 +595,26 @@
     "antonyms": [
       "Ignorance",
       "Blindness"
+    ]
+  },
+  {
+    "id": 2875,
+    "word": "Insinuate",
+    "pos": "verb",
+    "definition": "To hint, suggest, or imply something sinister or derogatory in an indirect and sly manner.",
+    "enExample": "The debate moderator insinuated that the frontrunner had concealed offshore business holdings.",
+    "taWord": "மறைமுகமாக சுட்டிக்காட்டுதல் / அவதூறாக உணர்த்துதல்",
+    "taExample": "அவர் முறைகேடாக சொத்து சேர்த்துள்ளதாக விவாதத்தில் மறைமுகமாக குற்றம் சாட்டப்பட்டது.",
+    "synonyms": [
+      "Imply",
+      "Hint",
+      "Intimate",
+      "Suggest"
+    ],
+    "antonyms": [
+      "State explicitly",
+      "Declare openly",
+      "Proclaim"
     ]
   },
   {
@@ -500,6 +645,27 @@
     "synonyms": [
       "Example",
       "Occurrence"
+    ]
+  },
+  {
+    "id": 2876,
+    "word": "Insurgency",
+    "pos": "noun",
+    "definition": "An organized armed rebellion or revolt against a recognized government or occupying power.",
+    "enExample": "Special forces were deployed to stabilize border villages impacted by a cross-border insurgency.",
+    "taWord": "ஆயுதமேந்திய கிளர்ச்சி",
+    "taExample": "எல்லைப் பகுதிகளில் நிலவும் ஆயுதமேந்திய கிளர்ச்சியைக் கட்டுப்படுத்த சிறப்புப் படைகள் களமிறக்கப்பட்டன.",
+    "synonyms": [
+      "Uprising",
+      "Rebellion",
+      "Insurrection",
+      "Mutiny"
+    ],
+    "antonyms": [
+      "Peace",
+      "Submission",
+      "Loyalty",
+      "Obedience"
     ]
   },
   {
@@ -615,6 +781,27 @@
     "antonyms": [
       "Continue",
       "Resume"
+    ]
+  },
+  {
+    "id": 2877,
+    "word": "Intimidation",
+    "pos": "noun",
+    "definition": "The act of intentionally frightening or threatening someone to force them to do or refrain from doing something.",
+    "enExample": "Election monitors documented severe voter intimidation outside rural polling precincts.",
+    "taWord": "மிரட்டல் / அச்சுறுத்தல்",
+    "taExample": "வாக்காளர்களை அச்சுறுத்தி வாக்களிக்க விடாமல் தடுத்த சம்பவங்களை தேர்தல் பார்வையாளர்கள் பதிவு செய்தனர்.",
+    "synonyms": [
+      "Coercion",
+      "Menace",
+      "Terrorization",
+      "Bullying"
+    ],
+    "antonyms": [
+      "Encouragement",
+      "Reassurance",
+      "Persuasion",
+      "Comfort"
     ]
   },
   {
@@ -747,193 +934,6 @@
     "synonyms": [
       "Repeat",
       "Loop"
-    ]
-  },
-  {
-    "id": 2832,
-    "word": "Indignation",
-    "pos": "noun",
-    "definition": "Anger or righteous annoyance provoked by what is perceived as unfair, corrupt, or unjust treatment.",
-    "enExample": "The minister's statement sparked widespread public indignation across the nation.",
-    "taWord": "நியாயமான ஆத்திரம் / கொந்தளிப்பு",
-    "taExample": "அமைச்சரின் அறிக்கை மக்களிடையே கடுமையான ஆத்திரத்தையும் கொந்தளிப்பையும் ஏற்படுத்தியது.",
-    "synonyms": [
-      "Outrage",
-      "Resentment",
-      "Fury",
-      "Exasperation"
-    ],
-    "antonyms": [
-      "Contentment",
-      "Delight",
-      "Satisfaction",
-      "Complacency"
-    ]
-  },
-  {
-    "id": 2870,
-    "word": "Impasse",
-    "pos": "noun",
-    "definition": "A situation where no progress or compromise is possible due to deadlock between opposing sides.",
-    "enExample": "The labor wage talks hit an insurmountable impasse after management refused inflation-pegged adjustments.",
-    "taWord": "முட்டுக்கட்டை / இழுபறி நிலை",
-    "taExample": "ஊதிய உயர்வு தொடர்பான பேச்சுவார்த்தையில் நிர்வாகம் பிடிவாதமாக இருந்ததால் பேச்சுவார்த்தை முட்டுக்கட்டையில் முடிந்தது.",
-    "synonyms": [
-      "Deadlock",
-      "Stalemate",
-      "Standstill",
-      "Gridlock"
-    ],
-    "antonyms": [
-      "Breakthrough",
-      "Resolution",
-      "Progress",
-      "Agreement"
-    ]
-  },
-  {
-    "id": 2871,
-    "word": "Impeachment",
-    "pos": "noun",
-    "definition": "A formal constitutional charge of treason, bribery, or high crimes brought against a public official by a legislature.",
-    "enExample": "The parliament drafted articles of impeachment against the president over allegations of abuse of executive power.",
-    "taWord": "பதவி நீக்க குற்றச்சாட்டு / பதவி நீக்க விசாரணை",
-    "taExample": "அதிகார துஷ்பிரயோக குற்றச்சாட்டுகளுக்காக அதிபருக்கு எதிராக பதவி நீக்க தீர்மானம் கொண்டுவரப்பட்டது.",
-    "synonyms": [
-      "Indictment",
-      "Arraignment",
-      "Formal trial for removal"
-    ],
-    "antonyms": [
-      "Reinstatement",
-      "Vindication",
-      "Acquittal",
-      "Endorsement"
-    ]
-  },
-  {
-    "id": 2872,
-    "word": "Implicate",
-    "pos": "verb",
-    "definition": "To show, suggest, or prove that someone is involved or connected to a crime or corrupt conspiracy.",
-    "enExample": "Testimony from the prime suspect directly implicated several senior intelligence officials in the plot.",
-    "taWord": "குற்றத்தில் தொடர்புபடுத்துதல்",
-    "taExample": "முக்கிய குற்றவாளி அளித்த வாக்குமூலம் பல உயர் அதிகாரிகளை இந்த சதியில் தொடர்புபடுத்தியது.",
-    "synonyms": [
-      "Incriminate",
-      "Involve",
-      "Entangle",
-      "Connect"
-    ],
-    "antonyms": [
-      "Exonerate",
-      "Absolve",
-      "Clear",
-      "Exclude"
-    ]
-  },
-  {
-    "id": 2873,
-    "word": "Incite",
-    "pos": "verb",
-    "definition": "To encourage, provoke, or stir up people toward violent, unlawful, or riotous actions.",
-    "enExample": "The court found that the provocative broadcast was designed to incite civil disobedience.",
-    "taWord": "வன்முறைக்கு தூண்டுதல்",
-    "taExample": "மக்களிடையே வன்முறையையும் மோதலையும் தூண்டும் வகையில் அந்த பேச்சு அமைந்ததாக நீதிமன்றம் தெரிவித்தது.",
-    "synonyms": [
-      "Instigate",
-      "Provoke",
-      "Foment",
-      "Stir up"
-    ],
-    "antonyms": [
-      "Deter",
-      "Dissuade",
-      "Pacify",
-      "Calm"
-    ]
-  },
-  {
-    "id": 2874,
-    "word": "Injunction",
-    "pos": "noun",
-    "definition": "An authoritative court order restraining a party from doing or continuing an act, or compelling them to do it.",
-    "enExample": "The federal judge granted an emergency injunction blocking the deportation of asylum applicants.",
-    "taWord": "நீதிமன்ற இடைக்கால தடை உத்தரவு",
-    "taExample": "அகதிகளை உடனடியாக வெளியேற்றுவதற்கு எதிராக நீதிமன்றம் அவசர இடைக்கால தடை உத்தரவை பிறப்பித்தது.",
-    "synonyms": [
-      "Court restraining order",
-      "Stay order",
-      "Judicial ruling",
-      "Decree"
-    ],
-    "antonyms": [
-      "Authorization",
-      "Permit",
-      "Sanction",
-      "Allowance"
-    ]
-  },
-  {
-    "id": 2875,
-    "word": "Insinuate",
-    "pos": "verb",
-    "definition": "To hint, suggest, or imply something sinister or derogatory in an indirect and sly manner.",
-    "enExample": "The debate moderator insinuated that the frontrunner had concealed offshore business holdings.",
-    "taWord": "மறைமுகமாக சுட்டிக்காட்டுதல் / அவதூறாக உணர்த்துதல்",
-    "taExample": "அவர் முறைகேடாக சொத்து சேர்த்துள்ளதாக விவாதத்தில் மறைமுகமாக குற்றம் சாட்டப்பட்டது.",
-    "synonyms": [
-      "Imply",
-      "Hint",
-      "Intimate",
-      "Suggest"
-    ],
-    "antonyms": [
-      "State explicitly",
-      "Declare openly",
-      "Proclaim"
-    ]
-  },
-  {
-    "id": 2876,
-    "word": "Insurgency",
-    "pos": "noun",
-    "definition": "An organized armed rebellion or revolt against a recognized government or occupying power.",
-    "enExample": "Special forces were deployed to stabilize border villages impacted by a cross-border insurgency.",
-    "taWord": "ஆயுதமேந்திய கிளர்ச்சி",
-    "taExample": "எல்லைப் பகுதிகளில் நிலவும் ஆயுதமேந்திய கிளர்ச்சியைக் கட்டுப்படுத்த சிறப்புப் படைகள் களமிறக்கப்பட்டன.",
-    "synonyms": [
-      "Uprising",
-      "Rebellion",
-      "Insurrection",
-      "Mutiny"
-    ],
-    "antonyms": [
-      "Peace",
-      "Submission",
-      "Loyalty",
-      "Obedience"
-    ]
-  },
-  {
-    "id": 2877,
-    "word": "Intimidation",
-    "pos": "noun",
-    "definition": "The act of intentionally frightening or threatening someone to force them to do or refrain from doing something.",
-    "enExample": "Election monitors documented severe voter intimidation outside rural polling precincts.",
-    "taWord": "மிரட்டல் / அச்சுறுத்தல்",
-    "taExample": "வாக்காளர்களை அச்சுறுத்தி வாக்களிக்க விடாமல் தடுத்த சம்பவங்களை தேர்தல் பார்வையாளர்கள் பதிவு செய்தனர்.",
-    "synonyms": [
-      "Coercion",
-      "Menace",
-      "Terrorization",
-      "Bullying"
-    ],
-    "antonyms": [
-      "Encouragement",
-      "Reassurance",
-      "Persuasion",
-      "Comfort"
     ]
   }
 ]

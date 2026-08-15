@@ -1,5 +1,26 @@
 [
   {
+    "id": 2882,
+    "word": "Machination",
+    "pos": "noun",
+    "definition": "A crafty, sinister, or deceitful scheme or plot designed to accomplish an unethical political or financial end.",
+    "enExample": "Investigative journalists unraveled the behind-the-scenes political machinations that derailed the reform bill.",
+    "taWord": "சூழ்ச்சி / நயவஞ்சக சதித்திட்டம்",
+    "taExample": "சட்டத்திருத்த மசோதாவை முறியடிக்க பின்னணியில் நடந்த நயவஞ்சக அரசியல் சூழ்ச்சிகளை பத்திரிகை வெளிப்படுத்தியது.",
+    "synonyms": [
+      "Plot",
+      "Conspiracy",
+      "Intrigue",
+      "Scheme"
+    ],
+    "antonyms": [
+      "Honest dealing",
+      "Transparency",
+      "Fair play",
+      "Candor"
+    ]
+  },
+  {
     "id": 1301,
     "word": "Macro",
     "definition": "A single computer instruction or script that expands automatically into a set of instructions.",
@@ -83,6 +104,27 @@
     ]
   },
   {
+    "id": 2883,
+    "word": "Malfeasance",
+    "pos": "noun",
+    "definition": "Wrongdoing or unlawful conduct, especially by a public servant or elected official in violation of public trust.",
+    "enExample": "The anti-corruption bureau opened an official audit into alleged malfeasance in hospital procurement contracts.",
+    "taWord": "அதிகார முறைகேடு / சட்டவிரோத நடத்தை",
+    "taExample": "மருத்துவமனை உபகரணங்கள் வாங்கியதில் நடந்த அதிகார முறைகேடுகள் குறித்து தீவிர தணிக்கை தொடங்கியது.",
+    "synonyms": [
+      "Misconduct",
+      "Corruption",
+      "Wrongdoing",
+      "Delinquency"
+    ],
+    "antonyms": [
+      "Probity",
+      "Integrity",
+      "Uprightness",
+      "Rectitude"
+    ]
+  },
+  {
     "id": 1317,
     "word": "Malleable",
     "definition": "Easily influenced; pliable.",
@@ -116,6 +158,27 @@
     "antonyms": [
       "End-to-end encryption",
       "Mutual TLS validation"
+    ]
+  },
+  {
+    "id": 2884,
+    "word": "Mandate",
+    "pos": "noun",
+    "definition": "An official authority or democratic endorsement given by an electorate to a government to carry out policies.",
+    "enExample": "Winning an overwhelming parliamentary majority gave the party a strong mandate to reform the tax code.",
+    "taWord": "மக்கள் ஆணை / அதிகாரப்பூர்வ உத்தரவு",
+    "taExample": "பெரும்பான்மை வெற்றியைப் பெற்றதன் மூலம் வரி சீர்திருத்தங்களை மேற்கொள்ள அரசுக்கு வலுவான மக்கள் ஆணை கிடைத்தது.",
+    "synonyms": [
+      "Authorization",
+      "Endorsement",
+      "Directive",
+      "Sanction"
+    ],
+    "antonyms": [
+      "Prohibition",
+      "Refusal",
+      "Disapproval",
+      "Nullification"
     ]
   },
   {
@@ -196,6 +259,26 @@
     "antonyms": [
       "Unmarshalling",
       "Deserialization"
+    ]
+  },
+  {
+    "id": 2885,
+    "word": "Martyrdom",
+    "pos": "noun",
+    "definition": "The suffering of death, persecution, or supreme sacrifice on account of one's political or religious principles.",
+    "enExample": "The slain human rights campaigner's martyrdom inspired a new wave of democratic youth movements.",
+    "taWord": "தியாக மரணம் / தியாகம்",
+    "taExample": "ஜனநாயகத்திற்காக இன்னுயிரை நீத்த அந்தப் போராளியின் தியாக மரணம் இளைஞர்களிடையே புதிய எழுச்சியை ஏற்படுத்தியது.",
+    "synonyms": [
+      "Ultimate sacrifice",
+      "Persecution death",
+      "Heroic devotion"
+    ],
+    "antonyms": [
+      "Treachery",
+      "Apostasy",
+      "Cowardice",
+      "Survival"
     ]
   },
   {
@@ -420,6 +503,27 @@
     ]
   },
   {
+    "id": 2886,
+    "word": "Moratorium",
+    "pos": "noun",
+    "definition": "A temporary suspension, legally authorized pause, or delay of an activity, payment, or eviction.",
+    "enExample": "The city council approved a twelve-month moratorium on commercial waterfront construction projects.",
+    "taWord": "தற்காலிக நிறுத்திவைப்பு / காலநீட்டிப்பு",
+    "taExample": "சுற்றுச்சூழல் ஆய்வுகள் முடியும் வரை புதிய கட்டுமானப் பணிகளுக்கு தற்காலிக தடை விதிக்கப்பட்டது.",
+    "synonyms": [
+      "Suspension",
+      "Freeze",
+      "Postponement",
+      "Halt"
+    ],
+    "antonyms": [
+      "Continuation",
+      "Resumption",
+      "Acceleration",
+      "Perpetuation"
+    ]
+  },
+  {
     "id": 2651,
     "word": "Move the needle",
     "definition": "To make a noticeable, tangible, and meaningful impact or difference on a key metric.",
@@ -526,110 +630,6 @@
     "antonyms": [
       "race condition",
       "unlocked concurrency"
-    ]
-  },
-  {
-    "id": 2882,
-    "word": "Machination",
-    "pos": "noun",
-    "definition": "A crafty, sinister, or deceitful scheme or plot designed to accomplish an unethical political or financial end.",
-    "enExample": "Investigative journalists unraveled the behind-the-scenes political machinations that derailed the reform bill.",
-    "taWord": "சூழ்ச்சி / நயவஞ்சக சதித்திட்டம்",
-    "taExample": "சட்டத்திருத்த மசோதாவை முறியடிக்க பின்னணியில் நடந்த நயவஞ்சக அரசியல் சூழ்ச்சிகளை பத்திரிகை வெளிப்படுத்தியது.",
-    "synonyms": [
-      "Plot",
-      "Conspiracy",
-      "Intrigue",
-      "Scheme"
-    ],
-    "antonyms": [
-      "Honest dealing",
-      "Transparency",
-      "Fair play",
-      "Candor"
-    ]
-  },
-  {
-    "id": 2883,
-    "word": "Malfeasance",
-    "pos": "noun",
-    "definition": "Wrongdoing or unlawful conduct, especially by a public servant or elected official in violation of public trust.",
-    "enExample": "The anti-corruption bureau opened an official audit into alleged malfeasance in hospital procurement contracts.",
-    "taWord": "அதிகார முறைகேடு / சட்டவிரோத நடத்தை",
-    "taExample": "மருத்துவமனை உபகரணங்கள் வாங்கியதில் நடந்த அதிகார முறைகேடுகள் குறித்து தீவிர தணிக்கை தொடங்கியது.",
-    "synonyms": [
-      "Misconduct",
-      "Corruption",
-      "Wrongdoing",
-      "Delinquency"
-    ],
-    "antonyms": [
-      "Probity",
-      "Integrity",
-      "Uprightness",
-      "Rectitude"
-    ]
-  },
-  {
-    "id": 2884,
-    "word": "Mandate",
-    "pos": "noun",
-    "definition": "An official authority or democratic endorsement given by an electorate to a government to carry out policies.",
-    "enExample": "Winning an overwhelming parliamentary majority gave the party a strong mandate to reform the tax code.",
-    "taWord": "மக்கள் ஆணை / அதிகாரப்பூர்வ உத்தரவு",
-    "taExample": "பெரும்பான்மை வெற்றியைப் பெற்றதன் மூலம் வரி சீர்திருத்தங்களை மேற்கொள்ள அரசுக்கு வலுவான மக்கள் ஆணை கிடைத்தது.",
-    "synonyms": [
-      "Authorization",
-      "Endorsement",
-      "Directive",
-      "Sanction"
-    ],
-    "antonyms": [
-      "Prohibition",
-      "Refusal",
-      "Disapproval",
-      "Nullification"
-    ]
-  },
-  {
-    "id": 2885,
-    "word": "Martyrdom",
-    "pos": "noun",
-    "definition": "The suffering of death, persecution, or supreme sacrifice on account of one's political or religious principles.",
-    "enExample": "The slain human rights campaigner's martyrdom inspired a new wave of democratic youth movements.",
-    "taWord": "தியாக மரணம் / தியாகம்",
-    "taExample": "ஜனநாயகத்திற்காக இன்னுயிரை நீத்த அந்தப் போராளியின் தியாக மரணம் இளைஞர்களிடையே புதிய எழுச்சியை ஏற்படுத்தியது.",
-    "synonyms": [
-      "Ultimate sacrifice",
-      "Persecution death",
-      "Heroic devotion"
-    ],
-    "antonyms": [
-      "Treachery",
-      "Apostasy",
-      "Cowardice",
-      "Survival"
-    ]
-  },
-  {
-    "id": 2886,
-    "word": "Moratorium",
-    "pos": "noun",
-    "definition": "A temporary suspension, legally authorized pause, or delay of an activity, payment, or eviction.",
-    "enExample": "The city council approved a twelve-month moratorium on commercial waterfront construction projects.",
-    "taWord": "தற்காலிக நிறுத்திவைப்பு / காலநீட்டிப்பு",
-    "taExample": "சுற்றுச்சூழல் ஆய்வுகள் முடியும் வரை புதிய கட்டுமானப் பணிகளுக்கு தற்காலிக தடை விதிக்கப்பட்டது.",
-    "synonyms": [
-      "Suspension",
-      "Freeze",
-      "Postponement",
-      "Halt"
-    ],
-    "antonyms": [
-      "Continuation",
-      "Resumption",
-      "Acceleration",
-      "Perpetuation"
     ]
   }
 ]

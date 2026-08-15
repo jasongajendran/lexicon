@@ -81,6 +81,27 @@
     ]
   },
   {
+    "id": 2878,
+    "word": "Jeopardy",
+    "pos": "noun",
+    "definition": "A state of severe danger, peril, or risk of loss, injury, or catastrophic failure.",
+    "enExample": "The cancellation of the international treaty placed hundreds of green energy jobs in immediate jeopardy.",
+    "taWord": "ஆபத்து / பேராபத்தான நிலை",
+    "taExample": "ஒப்பந்தம் ரத்து செய்யப்பட்டதால் பல்லாயிரக்கணக்கான மக்களின் வேலைவாய்ப்பு பேராபத்தில் உள்ளது.",
+    "synonyms": [
+      "Peril",
+      "Risk",
+      "Hazard",
+      "Vulnerability"
+    ],
+    "antonyms": [
+      "Safety",
+      "Security",
+      "Protection",
+      "Sanctuary"
+    ]
+  },
+  {
     "id": 2719,
     "word": "JIT Compilation",
     "pos": "noun",
@@ -384,6 +405,24 @@
     ]
   },
   {
+    "id": 2879,
+    "word": "Junta",
+    "pos": "noun",
+    "definition": "A military or political faction that rules an authoritarian state following a violent coup or seizure of power.",
+    "enExample": "The military junta suspended the constitution and dissolved parliament following the midnight coup.",
+    "taWord": "ராணுவ ஆட்சி மன்றம் / ராணுவக் குழு",
+    "taExample": "ஆட்சியைக் கைப்பற்றிய ராணுவக் குழு அரசியலமைப்பை ரத்து செய்துவிட்டு அவசரநிலையை அறிவித்தது.",
+    "synonyms": [
+      "Military regime",
+      "Authoritarian faction",
+      "Coup committee"
+    ],
+    "antonyms": [
+      "Democratically elected government",
+      "Civilian rule"
+    ]
+  },
+  {
     "id": 1013,
     "word": "Jurisdictional",
     "definition": "Relating to official power or geographic boundaries governing data privacy compliance.",
@@ -460,45 +499,6 @@
     "antonyms": [
       "unauthenticated payload",
       "session cookie"
-    ]
-  },
-  {
-    "id": 2878,
-    "word": "Jeopardy",
-    "pos": "noun",
-    "definition": "A state of severe danger, peril, or risk of loss, injury, or catastrophic failure.",
-    "enExample": "The cancellation of the international treaty placed hundreds of green energy jobs in immediate jeopardy.",
-    "taWord": "ஆபத்து / பேராபத்தான நிலை",
-    "taExample": "ஒப்பந்தம் ரத்து செய்யப்பட்டதால் பல்லாயிரக்கணக்கான மக்களின் வேலைவாய்ப்பு பேராபத்தில் உள்ளது.",
-    "synonyms": [
-      "Peril",
-      "Risk",
-      "Hazard",
-      "Vulnerability"
-    ],
-    "antonyms": [
-      "Safety",
-      "Security",
-      "Protection",
-      "Sanctuary"
-    ]
-  },
-  {
-    "id": 2879,
-    "word": "Junta",
-    "pos": "noun",
-    "definition": "A military or political faction that rules an authoritarian state following a violent coup or seizure of power.",
-    "enExample": "The military junta suspended the constitution and dissolved parliament following the midnight coup.",
-    "taWord": "ராணுவ ஆட்சி மன்றம் / ராணுவக் குழு",
-    "taExample": "ஆட்சியைக் கைப்பற்றிய ராணுவக் குழு அரசியலமைப்பை ரத்து செய்துவிட்டு அவசரநிலையை அறிவித்தது.",
-    "synonyms": [
-      "Military regime",
-      "Authoritarian faction",
-      "Coup committee"
-    ],
-    "antonyms": [
-      "Democratically elected government",
-      "Civilian rule"
     ]
   }
 ]

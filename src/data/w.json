@@ -35,6 +35,26 @@
     ]
   },
   {
+    "id": 2931,
+    "word": "Watershed Moment",
+    "pos": "noun",
+    "definition": "An event or historical milestone that marks an irreversible and critical turning point in policy or affairs.",
+    "enExample": "The signing of the cross-border digital privacy treaty was hailed as a watershed moment for internet rights.",
+    "taWord": "வரலாற்று திருப்புமுனை தருணம்",
+    "taExample": "டிஜிட்டல் தனியுரிமை ஒப்பந்தம் கையெழுத்தான நிகழ்வு இணைய வரலாற்றில் ஒரு முக்கிய திருப்புமுனையாக பார்க்கப்பட்டது.",
+    "synonyms": [
+      "Turning point",
+      "Landmark event",
+      "Milestone",
+      "Crossroads"
+    ],
+    "antonyms": [
+      "Non-event",
+      "Minor incident",
+      "Status quo marker"
+    ]
+  },
+  {
     "id": 2314,
     "word": "WeakMap",
     "definition": "A collection of key/value pairs in JavaScript where keys must be objects and are held as weak references for garbage collection.",
@@ -174,6 +194,26 @@
     "antonyms": [
       "Serious",
       "Practical"
+    ]
+  },
+  {
+    "id": 2932,
+    "word": "Whistleblower",
+    "pos": "noun",
+    "definition": "An insider who courageously exposes illicit, illegal, or corrupt activities occurring within an organization to authorities or media.",
+    "enExample": "Testimony from a corporate whistleblower revealed that the automaker intentionally falsified diesel emission data.",
+    "taWord": "முறைகேடுகளை வெளிக்கொண்டுவரும் துணிச்சலான நபர்",
+    "taExample": "நிறுவனத்திற்குள் நடந்த ரகசிய மாசு மோசடிகளை அந்த உள்ளக ஊழியர் பொதுமக்களுக்கு வெளிப்படுத்தினார்.",
+    "synonyms": [
+      "Informant",
+      "Leaker",
+      "Public interest exposer",
+      "Deep Throat"
+    ],
+    "antonyms": [
+      "Conspirator",
+      "Cover-up agent",
+      "Corrupt insider"
     ]
   },
   {
@@ -323,6 +363,27 @@
     ]
   },
   {
+    "id": 2951,
+    "word": "Wrangle",
+    "pos": "verb",
+    "definition": "To engage in a long, complicated, and noisy dispute or argument; or herd and manipulate complex data.",
+    "enExample": "Data scientists often spend over half their time wrangling unstructured log data into clean tabular schemas.",
+    "taWord": "நீண்ட வாக்குவாதம் செய்தல் / சிரமப்பட்டு தரவுகளை சீரமைத்தல்",
+    "taExample": "முறைப்படுத்தப்படாத தகவல்களை சுத்தமான அட்டவணை வடிவில் சீரமைக்க தரவு ஆய்வாளர்கள் பெரும் முயற்சி எடுக்கின்றனர்.",
+    "synonyms": [
+      "Dispute",
+      "Bicker",
+      "Contend",
+      "Manipulate"
+    ],
+    "antonyms": [
+      "Agree",
+      "Concur",
+      "Harmonize",
+      "Concede"
+    ]
+  },
+  {
     "id": 2311,
     "word": "Wrapper",
     "definition": "A helper component or function wrapping another code entity to provide a clean simplified API or added behavior.",
@@ -370,46 +431,6 @@
     "antonyms": [
       "In-memory only write",
       "Unbuffered direct write"
-    ]
-  },
-  {
-    "id": 2931,
-    "word": "Watershed Moment",
-    "pos": "noun",
-    "definition": "An event or historical milestone that marks an irreversible and critical turning point in policy or affairs.",
-    "enExample": "The signing of the cross-border digital privacy treaty was hailed as a watershed moment for internet rights.",
-    "taWord": "வரலாற்று திருப்புமுனை தருணம்",
-    "taExample": "டிஜிட்டல் தனியுரிமை ஒப்பந்தம் கையெழுத்தான நிகழ்வு இணைய வரலாற்றில் ஒரு முக்கிய திருப்புமுனையாக பார்க்கப்பட்டது.",
-    "synonyms": [
-      "Turning point",
-      "Landmark event",
-      "Milestone",
-      "Crossroads"
-    ],
-    "antonyms": [
-      "Non-event",
-      "Minor incident",
-      "Status quo marker"
-    ]
-  },
-  {
-    "id": 2932,
-    "word": "Whistleblower",
-    "pos": "noun",
-    "definition": "An insider who courageously exposes illicit, illegal, or corrupt activities occurring within an organization to authorities or media.",
-    "enExample": "Testimony from a corporate whistleblower revealed that the automaker intentionally falsified diesel emission data.",
-    "taWord": "முறைகேடுகளை வெளிக்கொண்டுவரும் துணிச்சலான நபர்",
-    "taExample": "நிறுவனத்திற்குள் நடந்த ரகசிய மாசு மோசடிகளை அந்த உள்ளக ஊழியர் பொதுமக்களுக்கு வெளிப்படுத்தினார்.",
-    "synonyms": [
-      "Informant",
-      "Leaker",
-      "Public interest exposer",
-      "Deep Throat"
-    ],
-    "antonyms": [
-      "Conspirator",
-      "Cover-up agent",
-      "Corrupt insider"
     ]
   }
 ]

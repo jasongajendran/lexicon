@@ -1,5 +1,47 @@
 [
   {
+    "id": 2952,
+    "word": "Abate",
+    "pos": "verb",
+    "definition": "To become less intense, severe, or widespread; to subside or reduce in degree or force.",
+    "enExample": "Emergency storm warnings remained in effect until coastal wind speeds began to abate late Sunday evening.",
+    "taWord": "தணிதல் / வேகம் குறைதல்",
+    "taExample": "ஞாயிறு இரவு பலத்த காற்றின் வேகம் தணியும் வரை கடலோர எச்சரிக்கை நீடித்தது.",
+    "synonyms": [
+      "Subside",
+      "Diminish",
+      "Lessen",
+      "Dwindle"
+    ],
+    "antonyms": [
+      "Intensify",
+      "Escalate",
+      "Amplify",
+      "Surge"
+    ]
+  },
+  {
+    "id": 2953,
+    "word": "Aberration",
+    "pos": "noun",
+    "definition": "A departure or deviation from what is normal, usual, expected, or standard, typically an unwelcome one.",
+    "enExample": "The engineering lead noted that the latency spike was a momentary aberration caused by a database re-indexing job.",
+    "taWord": "வழக்கத்திற்கு மாறான விலகல் / பிறழ்வு",
+    "taExample": "தரவுத்தள சீரமைப்பு பணியின் போது ஏற்பட்ட வேகக்குறைவு வழக்கத்திற்கு மாறான தற்காலிக விலகலாகும்.",
+    "synonyms": [
+      "Anomaly",
+      "Deviation",
+      "Divergence",
+      "Irregularity"
+    ],
+    "antonyms": [
+      "Normality",
+      "Regularity",
+      "Standard",
+      "Conformity"
+    ]
+  },
+  {
     "id": 101,
     "word": "Abstract",
     "definition": "Existing in thought or as an idea but not having a physical or concrete existence.",
@@ -53,6 +95,26 @@
     ]
   },
   {
+    "id": 2840,
+    "word": "Acquittal",
+    "pos": "noun",
+    "definition": "A formal judgment in a court of law stating that a person is not guilty of the crime with which they were charged.",
+    "enExample": "The trial ended in a complete acquittal after key prosecution evidence was deemed inadmissible.",
+    "taWord": "குற்றமற்றவர் என விடுதலை",
+    "taExample": "போதிய ஆதாரங்கள் இல்லாததால் நீதிமன்றம் அவரை குற்றமற்றவர் என விடுதலை செய்தது.",
+    "synonyms": [
+      "Exoneration",
+      "Absolution",
+      "Vindication",
+      "Discharge"
+    ],
+    "antonyms": [
+      "Conviction",
+      "Condemnation",
+      "Guilty verdict"
+    ]
+  },
+  {
     "id": 139,
     "word": "Action Item",
     "definition": "A specific task or action assigned to an individual or team during a meeting.",
@@ -98,6 +160,27 @@
     "antonyms": [
       "Inadequate",
       "Deficient"
+    ]
+  },
+  {
+    "id": 2954,
+    "word": "Adjudicate",
+    "pos": "verb",
+    "definition": "To make a formal legal judgment, ruling, or decision on a disputed matter or contest.",
+    "enExample": "An international tribunal was established to adjudicate sovereign copyright infringements across digital platforms.",
+    "taWord": "முறைப்படி விசாரித்து தீர்ப்பளித்தல்",
+    "taExample": "டிஜிட்டல் தளங்களில் நடக்கும் காப்புரிமை மீறல்களை விசாரித்து தீர்ப்பளிக்க சர்வதேச தீர்ப்பாயம் அமைக்கப்பட்டது.",
+    "synonyms": [
+      "Arbitrate",
+      "Judge",
+      "Determine",
+      "Decide"
+    ],
+    "antonyms": [
+      "Defer",
+      "Ignore",
+      "Overlook",
+      "Avoid"
     ]
   },
   {
@@ -254,6 +337,27 @@
     "antonyms": [
       "Disagreement",
       "Misalignment"
+    ]
+  },
+  {
+    "id": 2841,
+    "word": "Allegation",
+    "pos": "noun",
+    "definition": "A formal claim or assertion that someone has committed an illegal or immoral act, typically made without proof yet.",
+    "enExample": "Law enforcement launched an investigation into fresh allegations of municipal corruption.",
+    "taWord": "குற்றச்சாட்டு",
+    "taExample": "ஊழல் குற்றச்சாட்டுகள் தொடர்பாக காவல் துறை தீவிர விசாரணை நடத்தி வருகிறது.",
+    "synonyms": [
+      "Accusation",
+      "Claim",
+      "Charge",
+      "Assertion"
+    ],
+    "antonyms": [
+      "Exoneration",
+      "Denial",
+      "Proof",
+      "Retraction"
     ]
   },
   {
@@ -421,6 +525,27 @@
     "antonyms": [
       "Remove",
       "Detach"
+    ]
+  },
+  {
+    "id": 2833,
+    "word": "Apprehensive",
+    "pos": "adj.",
+    "definition": "Anxious or fearful that something unpleasant, dangerous, or difficult is going to happen.",
+    "enExample": "Citizens remain deeply apprehensive about the economic fallout following the emergency interest rate hike.",
+    "taWord": "அச்சமடைந்த / கலக்கமடைந்த",
+    "taExample": "பொருளாதார நெருக்கடியின் விளைவுகள் குறித்து பொதுமக்கள் மிகுந்த அச்சத்தில் உள்ளனர்.",
+    "synonyms": [
+      "Anxious",
+      "Fearful",
+      "Uneasy",
+      "Trepidatious"
+    ],
+    "antonyms": [
+      "Confident",
+      "Assured",
+      "Unconcerned",
+      "Calm"
     ]
   },
   {
@@ -758,68 +883,6 @@
     "antonyms": [
       "Questionable",
       "Debatable"
-    ]
-  },
-  {
-    "id": 2833,
-    "word": "Apprehensive",
-    "pos": "adj.",
-    "definition": "Anxious or fearful that something unpleasant, dangerous, or difficult is going to happen.",
-    "enExample": "Citizens remain deeply apprehensive about the economic fallout following the emergency interest rate hike.",
-    "taWord": "அச்சமடைந்த / கலக்கமடைந்த",
-    "taExample": "பொருளாதார நெருக்கடியின் விளைவுகள் குறித்து பொதுமக்கள் மிகுந்த அச்சத்தில் உள்ளனர்.",
-    "synonyms": [
-      "Anxious",
-      "Fearful",
-      "Uneasy",
-      "Trepidatious"
-    ],
-    "antonyms": [
-      "Confident",
-      "Assured",
-      "Unconcerned",
-      "Calm"
-    ]
-  },
-  {
-    "id": 2840,
-    "word": "Acquittal",
-    "pos": "noun",
-    "definition": "A formal judgment in a court of law stating that a person is not guilty of the crime with which they were charged.",
-    "enExample": "The trial ended in a complete acquittal after key prosecution evidence was deemed inadmissible.",
-    "taWord": "குற்றமற்றவர் என விடுதலை",
-    "taExample": "போதிய ஆதாரங்கள் இல்லாததால் நீதிமன்றம் அவரை குற்றமற்றவர் என விடுதலை செய்தது.",
-    "synonyms": [
-      "Exoneration",
-      "Absolution",
-      "Vindication",
-      "Discharge"
-    ],
-    "antonyms": [
-      "Conviction",
-      "Condemnation",
-      "Guilty verdict"
-    ]
-  },
-  {
-    "id": 2841,
-    "word": "Allegation",
-    "pos": "noun",
-    "definition": "A formal claim or assertion that someone has committed an illegal or immoral act, typically made without proof yet.",
-    "enExample": "Law enforcement launched an investigation into fresh allegations of municipal corruption.",
-    "taWord": "குற்றச்சாட்டு",
-    "taExample": "ஊழல் குற்றச்சாட்டுகள் தொடர்பாக காவல் துறை தீவிர விசாரணை நடத்தி வருகிறது.",
-    "synonyms": [
-      "Accusation",
-      "Claim",
-      "Charge",
-      "Assertion"
-    ],
-    "antonyms": [
-      "Exoneration",
-      "Denial",
-      "Proof",
-      "Retraction"
     ]
   }
 ]

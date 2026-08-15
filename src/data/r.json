@@ -65,6 +65,48 @@
     ]
   },
   {
+    "id": 2939,
+    "word": "Ramification",
+    "pos": "noun",
+    "definition": "A complex, unintended, or far-reaching consequence resulting from an action, policy, or technical decision.",
+    "enExample": "Migrating the legacy core database to microservices has architectural ramifications that impact all client apps.",
+    "taWord": "நீண்டகால விளைவு / கிளைத்து எழும் தாக்கம்",
+    "taExample": "பழைய தரவுத்தளத்தை நவீன கட்டமைப்பிற்கு மாற்றுவது அனைத்து செயலிகளிலும் நீண்டகால தாக்கங்களை ஏற்படுத்தும்.",
+    "synonyms": [
+      "Consequence",
+      "Aftermath",
+      "Implication",
+      "Repercussion"
+    ],
+    "antonyms": [
+      "Root cause",
+      "Origin",
+      "Source",
+      "Inception"
+    ]
+  },
+  {
+    "id": 2938,
+    "word": "Rampant",
+    "pos": "adj.",
+    "definition": "Flourishing or spreading unchecked, especially of something unwelcome, harmful, or corrupt.",
+    "enExample": "Regulators introduced emergency monitoring tools to combat rampant price gouging across energy retailers.",
+    "taWord": "கட்டுக்கடங்காமல் பரவும் / தலைவிரித்தாடும்",
+    "taExample": "எரிசக்தி சந்தையில் தலைவிரித்தாடும் கொள்ளை லாபத்தைத் தடுக்க ஒழுங்குமுறை ஆணையம் புதிய விதிகளை கொண்டுவந்தது.",
+    "synonyms": [
+      "Uncontrolled",
+      "Unchecked",
+      "Pervasive",
+      "Widespread"
+    ],
+    "antonyms": [
+      "Controlled",
+      "Restrained",
+      "Curbed",
+      "Limited"
+    ]
+  },
+  {
     "id": 1804,
     "word": "Random",
     "definition": "Lacking a definite plan, purpose, or pattern; unpredictable number generation in computing.",
@@ -94,6 +136,27 @@
       "Span",
       "Extent",
       "Interval"
+    ]
+  },
+  {
+    "id": 2902,
+    "word": "Rapprochement",
+    "pos": "noun",
+    "definition": "An official reconciliation or restoration of peaceful diplomatic relations between hostile nations or factions.",
+    "enExample": "The historic peace summit marked an unexpected rapprochement between the two longtime adversaries.",
+    "taWord": "மீண்டும் சுமுக உறவு ஏற்படுதல் / சமரசம்",
+    "taExample": "நீண்டகாலமாக பகைமை பாராட்டிய இரு நாடுகளிடையே இந்த உச்சி மாநாடு சுமுக உறவை மீண்டும் ஏற்படுத்தியது.",
+    "synonyms": [
+      "Reconciliation",
+      "Detente",
+      "Peace accord",
+      "Thaw"
+    ],
+    "antonyms": [
+      "Estrangement",
+      "Rupture",
+      "Hostility",
+      "Alienation"
     ]
   },
   {
@@ -131,6 +194,48 @@
     ]
   },
   {
+    "id": 2941,
+    "word": "Ratification",
+    "pos": "noun",
+    "definition": "The formal act of officially approving, confirming, and making valid an international treaty, amendment, or contract.",
+    "enExample": "The international climate pact gained full legal force following ratification by the seventy-fifth sovereign parliament.",
+    "taWord": "முறைப்படியான அதிகாரப்பூர்வ ஏற்பு / ஒப்புதல் அளித்தல்",
+    "taExample": "நாடாளுமன்றங்கள் முறைப்படி ஒப்புதல் அளித்ததைத் தொடர்ந்து சர்வதேச சுற்றுச்சூழல் ஒப்பந்தம் அமலுக்கு வந்தது.",
+    "synonyms": [
+      "Confirmation",
+      "Endorsement",
+      "Validation",
+      "Sanction"
+    ],
+    "antonyms": [
+      "Rejection",
+      "Veto",
+      "Repudiation",
+      "Nullification"
+    ]
+  },
+  {
+    "id": 2903,
+    "word": "Ratify",
+    "pos": "verb",
+    "definition": "To give formal, binding, and legal consent to a treaty, international pact, or constitutional amendment.",
+    "enExample": "The national senate voted overwhelmingly to ratify the global climate mitigation accord.",
+    "taWord": "முறைப்படி ஒப்புதல் அளித்தல் / உறுதிப்படுத்துதல்",
+    "taExample": "பருவநிலை மாற்ற சர்வதேச ஒப்பந்தத்திற்கு நாடாளுமன்றம் முறைப்படி ஒப்புதல் அளித்து உறுதிசெய்தது.",
+    "synonyms": [
+      "Confirm",
+      "Sanction",
+      "Endorse",
+      "Authorize"
+    ],
+    "antonyms": [
+      "Reject",
+      "Nullify",
+      "Repudiate",
+      "Veto"
+    ]
+  },
+  {
     "id": 2636,
     "word": "Ratio",
     "definition": "When a reply or counter-argument receives overwhelmingly more support than the original claim.",
@@ -146,6 +251,27 @@
     "antonyms": [
       "Endorsed",
       "Approved"
+    ]
+  },
+  {
+    "id": 2940,
+    "word": "Rattle",
+    "pos": "verb",
+    "definition": "To disturb, shake, unsettle, or make someone nervous, unconfident, or alarmed; or make rapid knocking sounds.",
+    "enExample": "Sudden fluctuations in foreign exchange rates rattled investors across global financial exchanges.",
+    "taWord": "அதிர்ச்சியடையச் செய்தல் / கலங்கடித்தல்",
+    "taExample": "அந்நிய செலாவணி மதிப்பில் ஏற்பட்ட திடீர் மாற்றங்கள் உலக முதலீட்டாளர்களை பெரும் கலக்கத்திற்கு ஆளாக்கின.",
+    "synonyms": [
+      "Unnerve",
+      "Disconcert",
+      "Agitate",
+      "Faze"
+    ],
+    "antonyms": [
+      "Reassure",
+      "Calm",
+      "Soothe",
+      "Compose"
     ]
   },
   {
@@ -202,6 +328,27 @@
     ]
   },
   {
+    "id": 2944,
+    "word": "Rebuff",
+    "pos": "verb",
+    "definition": "To reject an offer, request, or friendly approach in an abrupt, curt, or ungracious manner.",
+    "enExample": "The semiconductor founder firmly rebuffed the merger proposal from a foreign competitor.",
+    "taWord": "திட்டவட்டமாக நிராகரித்தல் / முகத்திலடித்தாற்போல் மறுத்தல்",
+    "taExample": "வெளிநாட்டு போட்டியாளரின் நிறுவன இணைப்பு கோரிக்கையை நிறுவன தலைவர் திட்டவட்டமாக நிராகரித்தார்.",
+    "synonyms": [
+      "Reject",
+      "Spurn",
+      "Decline",
+      "Snub"
+    ],
+    "antonyms": [
+      "Accept",
+      "Welcome",
+      "Embrace",
+      "Approve"
+    ]
+  },
+  {
     "id": 1816,
     "word": "Recalcitrant",
     "definition": "Having an obstinately uncooperative attitude toward authority or discipline.",
@@ -220,6 +367,45 @@
     ]
   },
   {
+    "id": 2904,
+    "word": "Recidivism",
+    "pos": "noun",
+    "definition": "The persistent tendency of a convicted criminal to relapse back into criminal offenses after release.",
+    "enExample": "The justice ministry invested heavily in vocational education to reduce youth prison recidivism.",
+    "taWord": "மீண்டும் குற்றச் செயல்களில் ஈடுபடுதல்",
+    "taExample": "சிறையிலிருந்து வெளியேறியவர்கள் மீண்டும் தவறு செய்வதைத் தடுக்க தொழிற்கல்வி பயிற்சிகள் வழங்கப்பட்டன.",
+    "synonyms": [
+      "Relapse into crime",
+      "Reoffending",
+      "Habitual delinquency"
+    ],
+    "antonyms": [
+      "Rehabilitation",
+      "Reformation",
+      "Law-abiding conduct"
+    ]
+  },
+  {
+    "id": 2905,
+    "word": "Reckoning",
+    "pos": "noun",
+    "definition": "A critical time of judgment when past wrongdoings, mistakes, or debts must be confronted and held to account.",
+    "enExample": "The investigative documentary brought a long-overdue corporate reckoning for the pharmaceutical giant.",
+    "taWord": "கணக்குத் தீர்க்கும் நேரம் / நீதி வழங்கப்படும் தருணம்",
+    "taExample": "செய்த தவறுகளுக்கு பொறுப்பேற்று தகுந்த தண்டனையை எதிர்கொள்ளும் தருணம் அந்நிறுவனத்திற்கு வந்தது.",
+    "synonyms": [
+      "Day of judgment",
+      "Accountability",
+      "Retribution",
+      "Settling of scores"
+    ],
+    "antonyms": [
+      "Impunity",
+      "Absolution",
+      "Evasion of blame"
+    ]
+  },
+  {
     "id": 1809,
     "word": "Recursion",
     "definition": "A algorithm design method where a function calls itself repeatedly until a terminating base case condition is satisfied.",
@@ -233,6 +419,26 @@
     ],
     "antonyms": [
       "Iteration"
+    ]
+  },
+  {
+    "id": 2906,
+    "word": "Redact",
+    "pos": "verb",
+    "definition": "To censor, black out, or obscure confidential, classified, or sensitive text before public release.",
+    "enExample": "The justice department released the special counsel report after redacting all grand jury secrets.",
+    "taWord": "ரகசிய விவரங்களை நீக்கி வெளியிடுதல்",
+    "taExample": "பாதுகாப்பு கருதி ரகசிய தகவல்களை கருப்பு மையிட்டு மறைத்த பிறகே அறிக்கை பொதுமக்களுக்கு வெளியிடப்பட்டது.",
+    "synonyms": [
+      "Censor",
+      "Obscure",
+      "Black out",
+      "Sanitize"
+    ],
+    "antonyms": [
+      "Disclose fully",
+      "Uncensor",
+      "Publish raw"
     ]
   },
   {
@@ -264,6 +470,24 @@
       "Clean up",
       "Reorganize",
       "Restructure"
+    ]
+  },
+  {
+    "id": 2907,
+    "word": "Referendum",
+    "pos": "noun",
+    "definition": "A direct universal vote by the electorate on a single distinct political proposal or legislative amendment.",
+    "enExample": "Voters turned out in historic numbers to cast ballots in the landmark constitutional referendum.",
+    "taWord": "பொது வாக்கெடுப்பு",
+    "taExample": "அரசியலமைப்பு திருத்தம் தொடர்பாக நடைபெற்ற வரலாற்று சிறப்புமிக்க பொது வாக்கெடுப்பில் மக்கள் ஆர்வத்துடன் பங்கேற்றனர்.",
+    "synonyms": [
+      "Plebiscite",
+      "Popular ballot",
+      "Direct democratic vote"
+    ],
+    "antonyms": [
+      "Executive order",
+      "Parliamentary dictate"
     ]
   },
   {
@@ -367,6 +591,48 @@
     ]
   },
   {
+    "id": 2839,
+    "word": "Repercussion",
+    "pos": "noun",
+    "definition": "An unintended, indirect, and often unwelcome consequence occurring sometime after an event or policy decision.",
+    "enExample": "The sudden trade embargo is expected to have severe economic repercussions across global supply chains.",
+    "taWord": "பின்னடைவு விளைவு / எதிர்விளைவு",
+    "taExample": "திடீர் வர்த்தகத் தடையானது உலகளாவிய விநியோகச் சங்கிலியில் கடுமையான எதிர்விளைவுகளை ஏற்படுத்தும்.",
+    "synonyms": [
+      "Fallout",
+      "Aftermath",
+      "Backlash",
+      "Ramification"
+    ],
+    "antonyms": [
+      "Cause",
+      "Origin",
+      "Inception",
+      "Source"
+    ]
+  },
+  {
+    "id": 2934,
+    "word": "Replenish",
+    "pos": "verb",
+    "definition": "To restore a stock or supply of something to its former level or condition; to refill and restock.",
+    "enExample": "The automated logistics system triggers supplier purchase orders to replenish warehouse inventory before peak season.",
+    "taWord": "மீண்டும் நிரப்புதல் / இருப்பு புதுப்பித்தல்",
+    "taExample": "பண்டிகைக் காலத்திற்கு முன்பாக கிடங்கு சரக்குகளை மீண்டும் நிரப்ப தானியங்கி அமைப்பு உத்தரவிட்டது.",
+    "synonyms": [
+      "Refill",
+      "Restock",
+      "Restore",
+      "Renew"
+    ],
+    "antonyms": [
+      "Deplete",
+      "Drain",
+      "Exhaust",
+      "Consume"
+    ]
+  },
+  {
     "id": 1814,
     "word": "Repository",
     "definition": "A central storage location for tracking code files and complete revision history in version control systems.",
@@ -378,6 +644,69 @@
       "Repo",
       "Vault",
       "Archive"
+    ]
+  },
+  {
+    "id": 2838,
+    "word": "Reprehension",
+    "pos": "noun",
+    "definition": "The expression of severe blame, official disapproval, or stern rebuke for an act of wrongdoing.",
+    "enExample": "The governor's unilateral decision met with stern reprehension from constitutional scholars.",
+    "taWord": "கடுமையான கண்டனம் / கடிந்துகொள்ளுதல்",
+    "taExample": "ஆளுநரின் தன்னிச்சையான முடிவுக்கு சட்ட வல்லுநர்கள் கடுமையான கண்டனத்தை தெரிவித்தனர்.",
+    "synonyms": [
+      "Condemnation",
+      "Censure",
+      "Reproach",
+      "Rebuke"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commendation",
+      "Endorsement",
+      "Appreciation"
+    ]
+  },
+  {
+    "id": 2945,
+    "word": "Repudiate",
+    "pos": "verb",
+    "definition": "To refuse to accept or be associated with; to formally deny the validity or truth of a claim or debt.",
+    "enExample": "The foreign ministry issued a strongly worded communique to repudiate all allegations of treaty violations.",
+    "taWord": "முழுமையாக மறுத்தல் / ஒதுக்கித் தள்ளுதல்",
+    "taExample": "ஒப்பந்தத்தை மீறியதாக எழுந்த அனைத்து குற்றச்சாட்டுகளையும் வெளியுறவு அமைச்சகம் முற்றிலுமாக மறுத்தது.",
+    "synonyms": [
+      "Disown",
+      "Reject",
+      "Renounce",
+      "Disavow"
+    ],
+    "antonyms": [
+      "Affirm",
+      "Endorse",
+      "Acknowledge",
+      "Accept"
+    ]
+  },
+  {
+    "id": 2943,
+    "word": "Rescind",
+    "pos": "verb",
+    "definition": "To revoke, cancel, or formally repeal a law, decree, executive order, or contractual agreement.",
+    "enExample": "Following fierce public demonstrations, the municipal board voted to rescind the controversial toll tariff.",
+    "taWord": "ரத்து செய்தல் / திரும்பப் பெறுதல்",
+    "taExample": "மக்களின் கடும் எதிர்ப்பைத் தொடர்ந்து சர்ச்சைக்குரிய சுங்கக் கட்டண உத்தரவை மாநகராட்சி ரத்து செய்தது.",
+    "synonyms": [
+      "Revoke",
+      "Repeal",
+      "Cancel",
+      "Annul"
+    ],
+    "antonyms": [
+      "Enact",
+      "Enforce",
+      "Validate",
+      "Reaffirm"
     ]
   },
   {
@@ -418,6 +747,48 @@
     ]
   },
   {
+    "id": 2942,
+    "word": "Retaliate",
+    "pos": "verb",
+    "definition": "To make an attack, countermove, or aggressive response in return for a similar attack or grievance suffered.",
+    "enExample": "The tech giant threatened to retaliate with patent infringement lawsuits if licensing agreements were violated.",
+    "taWord": "பழிவாங்குதல் / எதிர் தாக்குதல் நடத்துதல்",
+    "taExample": "காப்புரிமை ஒப்பந்தங்கள் மீறப்பட்டால் கடுமையான சட்ட நடவடிக்கை மூலம் எதிர் தாக்குதல் நடத்தப்படும் என நிறுவனம் எச்சரித்தது.",
+    "synonyms": [
+      "Counterattack",
+      "Reciprocate",
+      "Avenge",
+      "Strike back"
+    ],
+    "antonyms": [
+      "Forgive",
+      "Pardon",
+      "Absolve",
+      "Yield"
+    ]
+  },
+  {
+    "id": 2908,
+    "word": "Retaliation",
+    "pos": "noun",
+    "definition": "The action of launching a counterstrike or inflicting harm in response to an attack or perceived injury.",
+    "enExample": "The military launched airstrikes in immediate retaliation for the embassy bomb attack.",
+    "taWord": "பழிவாங்கும் பதில் தாக்குதல் / எதிர் நடவடிக்கை",
+    "taExample": "தூதரகம் மீதான தாக்குதலுக்கு பதிலடியாக ராணுவம் உடனடி பதில் தாக்குதலை நடத்தியது.",
+    "synonyms": [
+      "Reprisal",
+      "Counterattack",
+      "Retribution",
+      "Vengeance"
+    ],
+    "antonyms": [
+      "Forgiveness",
+      "Pardon",
+      "Non-retaliation",
+      "Restraint"
+    ]
+  },
+  {
     "id": 1819,
     "word": "Retrospective",
     "definition": "A recurring team meeting held after a sprint or project to evaluate what went well and what can be improved.",
@@ -429,6 +800,27 @@
       "Post-mortem",
       "Review meeting",
       "Debrief"
+    ]
+  },
+  {
+    "id": 2909,
+    "word": "Rhetoric",
+    "pos": "noun",
+    "definition": "The art of persuasive language, often used in politics to sway crowds despite lacking sincerity or substance.",
+    "enExample": "Voters grew weary of empty campaign rhetoric that failed to address soaring inflation.",
+    "taWord": "சொல்லலங்காரப் பேச்சு / வெறும் வாய்வார்த்தை",
+    "taExample": "செயல்வடிவம் பெறாத வெறும் தேர்தல் சொல்லலங்காரப் பேச்சுகளை மக்கள் நிராகரிக்கத் தொடங்கினர்.",
+    "synonyms": [
+      "Oratory",
+      "Eloquence",
+      "Grandstanding",
+      "Bombast"
+    ],
+    "antonyms": [
+      "Substance",
+      "Plain speech",
+      "Concrete action",
+      "Truth"
     ]
   },
   {
@@ -545,209 +937,6 @@
     "antonyms": [
       "Insolvency",
       "Bankruptcy"
-    ]
-  },
-  {
-    "id": 2838,
-    "word": "Reprehension",
-    "pos": "noun",
-    "definition": "The expression of severe blame, official disapproval, or stern rebuke for an act of wrongdoing.",
-    "enExample": "The governor's unilateral decision met with stern reprehension from constitutional scholars.",
-    "taWord": "கடுமையான கண்டனம் / கடிந்துகொள்ளுதல்",
-    "taExample": "ஆளுநரின் தன்னிச்சையான முடிவுக்கு சட்ட வல்லுநர்கள் கடுமையான கண்டனத்தை தெரிவித்தனர்.",
-    "synonyms": [
-      "Condemnation",
-      "Censure",
-      "Reproach",
-      "Rebuke"
-    ],
-    "antonyms": [
-      "Praise",
-      "Commendation",
-      "Endorsement",
-      "Appreciation"
-    ]
-  },
-  {
-    "id": 2839,
-    "word": "Repercussion",
-    "pos": "noun",
-    "definition": "An unintended, indirect, and often unwelcome consequence occurring sometime after an event or policy decision.",
-    "enExample": "The sudden trade embargo is expected to have severe economic repercussions across global supply chains.",
-    "taWord": "பின்னடைவு விளைவு / எதிர்விளைவு",
-    "taExample": "திடீர் வர்த்தகத் தடையானது உலகளாவிய விநியோகச் சங்கிலியில் கடுமையான எதிர்விளைவுகளை ஏற்படுத்தும்.",
-    "synonyms": [
-      "Fallout",
-      "Aftermath",
-      "Backlash",
-      "Ramification"
-    ],
-    "antonyms": [
-      "Cause",
-      "Origin",
-      "Inception",
-      "Source"
-    ]
-  },
-  {
-    "id": 2902,
-    "word": "Rapprochement",
-    "pos": "noun",
-    "definition": "An official reconciliation or restoration of peaceful diplomatic relations between hostile nations or factions.",
-    "enExample": "The historic peace summit marked an unexpected rapprochement between the two longtime adversaries.",
-    "taWord": "மீண்டும் சுமுக உறவு ஏற்படுதல் / சமரசம்",
-    "taExample": "நீண்டகாலமாக பகைமை பாராட்டிய இரு நாடுகளிடையே இந்த உச்சி மாநாடு சுமுக உறவை மீண்டும் ஏற்படுத்தியது.",
-    "synonyms": [
-      "Reconciliation",
-      "Detente",
-      "Peace accord",
-      "Thaw"
-    ],
-    "antonyms": [
-      "Estrangement",
-      "Rupture",
-      "Hostility",
-      "Alienation"
-    ]
-  },
-  {
-    "id": 2903,
-    "word": "Ratify",
-    "pos": "verb",
-    "definition": "To give formal, binding, and legal consent to a treaty, international pact, or constitutional amendment.",
-    "enExample": "The national senate voted overwhelmingly to ratify the global climate mitigation accord.",
-    "taWord": "முறைப்படி ஒப்புதல் அளித்தல் / உறுதிப்படுத்துதல்",
-    "taExample": "பருவநிலை மாற்ற சர்வதேச ஒப்பந்தத்திற்கு நாடாளுமன்றம் முறைப்படி ஒப்புதல் அளித்து உறுதிசெய்தது.",
-    "synonyms": [
-      "Confirm",
-      "Sanction",
-      "Endorse",
-      "Authorize"
-    ],
-    "antonyms": [
-      "Reject",
-      "Nullify",
-      "Repudiate",
-      "Veto"
-    ]
-  },
-  {
-    "id": 2904,
-    "word": "Recidivism",
-    "pos": "noun",
-    "definition": "The persistent tendency of a convicted criminal to relapse back into criminal offenses after release.",
-    "enExample": "The justice ministry invested heavily in vocational education to reduce youth prison recidivism.",
-    "taWord": "மீண்டும் குற்றச் செயல்களில் ஈடுபடுதல்",
-    "taExample": "சிறையிலிருந்து வெளியேறியவர்கள் மீண்டும் தவறு செய்வதைத் தடுக்க தொழிற்கல்வி பயிற்சிகள் வழங்கப்பட்டன.",
-    "synonyms": [
-      "Relapse into crime",
-      "Reoffending",
-      "Habitual delinquency"
-    ],
-    "antonyms": [
-      "Rehabilitation",
-      "Reformation",
-      "Law-abiding conduct"
-    ]
-  },
-  {
-    "id": 2905,
-    "word": "Reckoning",
-    "pos": "noun",
-    "definition": "A critical time of judgment when past wrongdoings, mistakes, or debts must be confronted and held to account.",
-    "enExample": "The investigative documentary brought a long-overdue corporate reckoning for the pharmaceutical giant.",
-    "taWord": "கணக்குத் தீர்க்கும் நேரம் / நீதி வழங்கப்படும் தருணம்",
-    "taExample": "செய்த தவறுகளுக்கு பொறுப்பேற்று தகுந்த தண்டனையை எதிர்கொள்ளும் தருணம் அந்நிறுவனத்திற்கு வந்தது.",
-    "synonyms": [
-      "Day of judgment",
-      "Accountability",
-      "Retribution",
-      "Settling of scores"
-    ],
-    "antonyms": [
-      "Impunity",
-      "Absolution",
-      "Evasion of blame"
-    ]
-  },
-  {
-    "id": 2906,
-    "word": "Redact",
-    "pos": "verb",
-    "definition": "To censor, black out, or obscure confidential, classified, or sensitive text before public release.",
-    "enExample": "The justice department released the special counsel report after redacting all grand jury secrets.",
-    "taWord": "ரகசிய விவரங்களை நீக்கி வெளியிடுதல்",
-    "taExample": "பாதுகாப்பு கருதி ரகசிய தகவல்களை கருப்பு மையிட்டு மறைத்த பிறகே அறிக்கை பொதுமக்களுக்கு வெளியிடப்பட்டது.",
-    "synonyms": [
-      "Censor",
-      "Obscure",
-      "Black out",
-      "Sanitize"
-    ],
-    "antonyms": [
-      "Disclose fully",
-      "Uncensor",
-      "Publish raw"
-    ]
-  },
-  {
-    "id": 2907,
-    "word": "Referendum",
-    "pos": "noun",
-    "definition": "A direct universal vote by the electorate on a single distinct political proposal or legislative amendment.",
-    "enExample": "Voters turned out in historic numbers to cast ballots in the landmark constitutional referendum.",
-    "taWord": "பொது வாக்கெடுப்பு",
-    "taExample": "அரசியலமைப்பு திருத்தம் தொடர்பாக நடைபெற்ற வரலாற்று சிறப்புமிக்க பொது வாக்கெடுப்பில் மக்கள் ஆர்வத்துடன் பங்கேற்றனர்.",
-    "synonyms": [
-      "Plebiscite",
-      "Popular ballot",
-      "Direct democratic vote"
-    ],
-    "antonyms": [
-      "Executive order",
-      "Parliamentary dictate"
-    ]
-  },
-  {
-    "id": 2908,
-    "word": "Retaliation",
-    "pos": "noun",
-    "definition": "The action of launching a counterstrike or inflicting harm in response to an attack or perceived injury.",
-    "enExample": "The military launched airstrikes in immediate retaliation for the embassy bomb attack.",
-    "taWord": "பழிவாங்கும் பதில் தாக்குதல் / எதிர் நடவடிக்கை",
-    "taExample": "தூதரகம் மீதான தாக்குதலுக்கு பதிலடியாக ராணுவம் உடனடி பதில் தாக்குதலை நடத்தியது.",
-    "synonyms": [
-      "Reprisal",
-      "Counterattack",
-      "Retribution",
-      "Vengeance"
-    ],
-    "antonyms": [
-      "Forgiveness",
-      "Pardon",
-      "Non-retaliation",
-      "Restraint"
-    ]
-  },
-  {
-    "id": 2909,
-    "word": "Rhetoric",
-    "pos": "noun",
-    "definition": "The art of persuasive language, often used in politics to sway crowds despite lacking sincerity or substance.",
-    "enExample": "Voters grew weary of empty campaign rhetoric that failed to address soaring inflation.",
-    "taWord": "சொல்லலங்காரப் பேச்சு / வெறும் வாய்வார்த்தை",
-    "taExample": "செயல்வடிவம் பெறாத வெறும் தேர்தல் சொல்லலங்காரப் பேச்சுகளை மக்கள் நிராகரிக்கத் தொடங்கினர்.",
-    "synonyms": [
-      "Oratory",
-      "Eloquence",
-      "Grandstanding",
-      "Bombast"
-    ],
-    "antonyms": [
-      "Substance",
-      "Plain speech",
-      "Concrete action",
-      "Truth"
     ]
   }
 ]

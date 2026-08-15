@@ -71,6 +71,27 @@
     ]
   },
   {
+    "id": 2889,
+    "word": "Oblivious",
+    "pos": "adj.",
+    "definition": "Not aware of, blind to, or unconscious of what is happening in one's immediate environment.",
+    "enExample": "The administration seemed completely oblivious to the public outcry brewing across social media.",
+    "taWord": "கவனிக்காத / அறியாத நிலை",
+    "taExample": "மக்களிடையே எழுந்து வரும் கடும் எதிர்ப்பை சற்றும் உணராமல் அரசு தன் திட்டத்தைத் தொடர்ந்தது.",
+    "synonyms": [
+      "Unaware",
+      "Unconscious",
+      "Blind to",
+      "Heedless"
+    ],
+    "antonyms": [
+      "Aware",
+      "Conscious",
+      "Attentive",
+      "Mindful"
+    ]
+  },
+  {
     "id": 1503,
     "word": "Observability",
     "definition": "The degree to which the internal state of a system can be inferred from its external outputs like logs and metrics.",
@@ -140,6 +161,25 @@
     ]
   },
   {
+    "id": 2890,
+    "word": "Ombudsman",
+    "pos": "noun",
+    "definition": "An independent official appointed to investigate and resolve citizens' complaints against government administration or companies.",
+    "enExample": "The banking ombudsman ordered the lender to refund unauthorized hidden transaction fees.",
+    "taWord": "குறைதீர்ப்பாளர் / நடுநிலை விசாரணை அதிகாரி",
+    "taExample": "வாடிக்கையாளர்களின் புகார்களை விசாரித்த வங்கி குறைதீர்ப்பாளர் பணத்தை திரும்பத் தருமாறு உத்தரவிட்டார்.",
+    "synonyms": [
+      "Public advocate",
+      "Mediator",
+      "Independent arbiter",
+      "Investigator"
+    ],
+    "antonyms": [
+      "Biased authority",
+      "Partisan bureaucrat"
+    ]
+  },
+  {
     "id": 1507,
     "word": "Omnichannel",
     "definition": "A multichannel approach to sales or communication that seeks to provide seamless user experience across devices.",
@@ -172,6 +212,26 @@
     "antonyms": [
       "Off-shift leisure",
       "Unmonitored downtime"
+    ]
+  },
+  {
+    "id": 2891,
+    "word": "Onus",
+    "pos": "noun",
+    "definition": "Something that is one's heavy duty, burden, or moral and legal responsibility.",
+    "enExample": "The court ruled that the onus of proof lies entirely with the regulatory commission.",
+    "taWord": "முழுப் பொறுப்பு / சுமை",
+    "taExample": "குற்றத்தை சந்தேகத்திற்கு இடமின்றி நிரூபிக்கும் முழுப் பொறுப்பும் அரசு வழக்கறிஞரையே சாரும்.",
+    "synonyms": [
+      "Burden of proof",
+      "Responsibility",
+      "Obligation",
+      "Liability"
+    ],
+    "antonyms": [
+      "Exemption",
+      "Immunity",
+      "Freedom from duty"
     ]
   },
   {
@@ -334,6 +394,27 @@
     ]
   },
   {
+    "id": 2892,
+    "word": "Ostracize",
+    "pos": "verb",
+    "definition": "To systematically exclude, banish, or shun someone from a community, political caucus, or society.",
+    "enExample": "The faction voted to completely ostracize the lawmaker after he publicly opposed the party manifesto.",
+    "taWord": "சமூக விலக்கம் செய்தல் / ஒதுக்கிவைத்தல்",
+    "taExample": "கட்சி முடிவை எதிர்த்து பேசியதால் அவரை நாடாளுமன்றக் குழுவிலிருந்து முற்றிலும் ஒதுக்கி வைத்தனர்.",
+    "synonyms": [
+      "Shun",
+      "Banish",
+      "Boycott",
+      "Exclude"
+    ],
+    "antonyms": [
+      "Welcome",
+      "Integrate",
+      "Embrace",
+      "Include"
+    ]
+  },
+  {
     "id": 2737,
     "word": "Out-of-Memory",
     "pos": "noun",
@@ -401,87 +482,6 @@
     "antonyms": [
       "Underflow",
       "Deficit"
-    ]
-  },
-  {
-    "id": 2889,
-    "word": "Oblivious",
-    "pos": "adj.",
-    "definition": "Not aware of, blind to, or unconscious of what is happening in one's immediate environment.",
-    "enExample": "The administration seemed completely oblivious to the public outcry brewing across social media.",
-    "taWord": "கவனிக்காத / அறியாத நிலை",
-    "taExample": "மக்களிடையே எழுந்து வரும் கடும் எதிர்ப்பை சற்றும் உணராமல் அரசு தன் திட்டத்தைத் தொடர்ந்தது.",
-    "synonyms": [
-      "Unaware",
-      "Unconscious",
-      "Blind to",
-      "Heedless"
-    ],
-    "antonyms": [
-      "Aware",
-      "Conscious",
-      "Attentive",
-      "Mindful"
-    ]
-  },
-  {
-    "id": 2890,
-    "word": "Ombudsman",
-    "pos": "noun",
-    "definition": "An independent official appointed to investigate and resolve citizens' complaints against government administration or companies.",
-    "enExample": "The banking ombudsman ordered the lender to refund unauthorized hidden transaction fees.",
-    "taWord": "குறைதீர்ப்பாளர் / நடுநிலை விசாரணை அதிகாரி",
-    "taExample": "வாடிக்கையாளர்களின் புகார்களை விசாரித்த வங்கி குறைதீர்ப்பாளர் பணத்தை திரும்பத் தருமாறு உத்தரவிட்டார்.",
-    "synonyms": [
-      "Public advocate",
-      "Mediator",
-      "Independent arbiter",
-      "Investigator"
-    ],
-    "antonyms": [
-      "Biased authority",
-      "Partisan bureaucrat"
-    ]
-  },
-  {
-    "id": 2891,
-    "word": "Onus",
-    "pos": "noun",
-    "definition": "Something that is one's heavy duty, burden, or moral and legal responsibility.",
-    "enExample": "The court ruled that the onus of proof lies entirely with the regulatory commission.",
-    "taWord": "முழுப் பொறுப்பு / சுமை",
-    "taExample": "குற்றத்தை சந்தேகத்திற்கு இடமின்றி நிரூபிக்கும் முழுப் பொறுப்பும் அரசு வழக்கறிஞரையே சாரும்.",
-    "synonyms": [
-      "Burden of proof",
-      "Responsibility",
-      "Obligation",
-      "Liability"
-    ],
-    "antonyms": [
-      "Exemption",
-      "Immunity",
-      "Freedom from duty"
-    ]
-  },
-  {
-    "id": 2892,
-    "word": "Ostracize",
-    "pos": "verb",
-    "definition": "To systematically exclude, banish, or shun someone from a community, political caucus, or society.",
-    "enExample": "The faction voted to completely ostracize the lawmaker after he publicly opposed the party manifesto.",
-    "taWord": "சமூக விலக்கம் செய்தல் / ஒதுக்கிவைத்தல்",
-    "taExample": "கட்சி முடிவை எதிர்த்து பேசியதால் அவரை நாடாளுமன்றக் குழுவிலிருந்து முற்றிலும் ஒதுக்கி வைத்தனர்.",
-    "synonyms": [
-      "Shun",
-      "Banish",
-      "Boycott",
-      "Exclude"
-    ],
-    "antonyms": [
-      "Welcome",
-      "Integrate",
-      "Embrace",
-      "Include"
     ]
   },
   {

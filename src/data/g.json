@@ -204,6 +204,24 @@
     ]
   },
   {
+    "id": 2960,
+    "word": "Gerrymander",
+    "pos": "verb",
+    "definition": "To manipulate the geographical boundaries of an electoral constituency so as to favor one political party or class.",
+    "enExample": "Civil liberties watchdogs filed a lawsuit challenging the ruling party's attempt to gerrymander voting districts.",
+    "taWord": "தேர்தல் தொகுதி எல்லைகளை தனக்கு சாதகமாக மாற்றுதல்",
+    "taExample": "தேர்தலில் வெற்றி பெறுவதற்காக தொகுதி எல்லைகளை தங்களுக்கு சாதகமாக மாற்றியமைத்ததை எதிர்த்து வழக்கு தொடரப்பட்டது.",
+    "synonyms": [
+      "Manipulate districts",
+      "Rig boundaries",
+      "Redistrict unfairly"
+    ],
+    "antonyms": [
+      "Fair redistricting",
+      "Impartial boundary demarcation"
+    ]
+  },
+  {
     "id": 704,
     "word": "Global",
     "definition": "Relating to the whole of something, or of a group of things; accessible everywhere in a program.",
@@ -517,6 +535,27 @@
     ]
   },
   {
+    "id": 2868,
+    "word": "Gridlock",
+    "pos": "noun",
+    "definition": "A complete standstill or paralysis in a political legislature where no laws can pass due to evenly balanced opposing factions.",
+    "enExample": "Partisan rivalry in the senate led to months of legislative gridlock over the annual spending budget.",
+    "taWord": "செயலிழப்பு நிலை / முடக்கம்",
+    "taExample": "கட்சிகளுக்கிடையேயான கடுமையான மோதலால் நாடாளுமன்றத்தில் பட்ஜெட் நிறைவேறாமல் முடக்கம் ஏற்பட்டது.",
+    "synonyms": [
+      "Deadlock",
+      "Stalemate",
+      "Impasse",
+      "Standstill"
+    ],
+    "antonyms": [
+      "Breakthrough",
+      "Consensus",
+      "Progress",
+      "Bipartisanship"
+    ]
+  },
+  {
     "id": 2784,
     "word": "Grounding",
     "pos": "noun",
@@ -623,27 +662,6 @@
     "synonyms": [
       "Rule",
       "Principle"
-    ]
-  },
-  {
-    "id": 2868,
-    "word": "Gridlock",
-    "pos": "noun",
-    "definition": "A complete standstill or paralysis in a political legislature where no laws can pass due to evenly balanced opposing factions.",
-    "enExample": "Partisan rivalry in the senate led to months of legislative gridlock over the annual spending budget.",
-    "taWord": "செயலிழப்பு நிலை / முடக்கம்",
-    "taExample": "கட்சிகளுக்கிடையேயான கடுமையான மோதலால் நாடாளுமன்றத்தில் பட்ஜெட் நிறைவேறாமல் முடக்கம் ஏற்பட்டது.",
-    "synonyms": [
-      "Deadlock",
-      "Stalemate",
-      "Impasse",
-      "Standstill"
-    ],
-    "antonyms": [
-      "Breakthrough",
-      "Consensus",
-      "Progress",
-      "Bipartisanship"
     ]
   }
 ]

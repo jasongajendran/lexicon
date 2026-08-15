@@ -31,6 +31,27 @@
     ]
   },
   {
+    "id": 2843,
+    "word": "Calamity",
+    "pos": "noun",
+    "definition": "An event causing great and often sudden damage, suffering, or distress; a disaster.",
+    "enExample": "The flash flood was a catastrophic calamity that displaced thousands of coastal residents.",
+    "taWord": "பேரழிவு / பெருந்துன்பம்",
+    "taExample": "திடீர் வெள்ளப்பெருக்கு ஆயிரக்கணக்கான மக்களை இடம்பெயரச் செய்த பெரும் பேரழிவாக அமைந்தது.",
+    "synonyms": [
+      "Catastrophe",
+      "Disaster",
+      "Tragedy",
+      "Cataclysm"
+    ],
+    "antonyms": [
+      "Blessing",
+      "Boon",
+      "Godsend",
+      "Prosperity"
+    ]
+  },
+  {
     "id": 301,
     "word": "Canonical",
     "definition": "According to recognized rules or scientific laws; the standard version.",
@@ -110,6 +131,27 @@
     "antonyms": [
       "Praise",
       "Commend"
+    ]
+  },
+  {
+    "id": 2844,
+    "word": "Catastrophe",
+    "pos": "noun",
+    "definition": "An extremely destructive event that causes immense suffering, destruction, and chaos.",
+    "enExample": "Emergency relief crews worked around the clock to avert an environmental catastrophe at the oil terminal.",
+    "taWord": "பேரழிவு / பெருஞ்சேதம்",
+    "taExample": "எண்ணெய் முனையத்தில் ஏற்படவிருந்த சுற்றுச்சூழல் பேரழிவைத் தடுக்க மீட்புக் குழுவினர் தீவிரமாக உழைத்தனர்.",
+    "synonyms": [
+      "Calamity",
+      "Devastation",
+      "Cataclysm",
+      "Ruin"
+    ],
+    "antonyms": [
+      "Triumph",
+      "Miracle",
+      "Success",
+      "Fortune"
     ]
   },
   {
@@ -333,6 +375,27 @@
     ]
   },
   {
+    "id": 2956,
+    "word": "Coerce",
+    "pos": "verb",
+    "definition": "To persuade, compel, or force an unwilling person to do something by using threats, intimidation, or pressure.",
+    "enExample": "The whistleblower revealed that executives attempted to coerce internal auditors into altering financial sheets.",
+    "taWord": "மிரட்டி பணியவைத்தல் / கட்டாயப்படுத்துதல்",
+    "taExample": "கணக்கு விவரங்களை மாற்றியமைக்குமாறு தணிக்கையாளர்களை நிர்வாகிகள் மிரட்டி கட்டாயப்படுத்தியதை அவர் வெளிப்படுத்தினார்.",
+    "synonyms": [
+      "Compel",
+      "Force",
+      "Intimidate",
+      "Pressure"
+    ],
+    "antonyms": [
+      "Persuade",
+      "Encourage",
+      "Coax",
+      "Allow"
+    ]
+  },
+  {
     "id": 317,
     "word": "Cognitive",
     "definition": "Relating to cognition; mental processes.",
@@ -397,6 +460,27 @@
     "antonyms": [
       "Compete",
       "Oppose"
+    ]
+  },
+  {
+    "id": 2933,
+    "word": "Collate",
+    "pos": "verb",
+    "definition": "To collect, compare, and arrange pieces of data, documents, or reports in a meticulous, systematic order.",
+    "enExample": "Data engineers had to collate user analytics from multiple cloud partitions before generating the annual audit report.",
+    "taWord": "வரிசைப்படுத்தி ஒன்றுதிரட்டுதல் / தொகுத்தல்",
+    "taExample": "ஆண்டு தணிக்கை அறிக்கை தயாரிப்பதற்கு முன் பல்வேறு தரவுத்தளங்களிலிருந்து தகவல்களை முறைப்படி தொகுத்தனர்.",
+    "synonyms": [
+      "Assemble",
+      "Compile",
+      "Aggregate",
+      "Organize"
+    ],
+    "antonyms": [
+      "Disperse",
+      "Scatter",
+      "Disorganize",
+      "Divide"
     ]
   },
   {
@@ -518,6 +602,27 @@
     ]
   },
   {
+    "id": 2937,
+    "word": "Concede",
+    "pos": "verb",
+    "definition": "To formally admit, acknowledge, or yield that something is true or valid after first resisting; or surrender a contest.",
+    "enExample": "The opposition candidate conceded defeat following the certified announcement of the election tally.",
+    "taWord": "தோல்வியை ஒப்புக்கொள்ளுதல் / விட்டுக்கொடுத்தல்",
+    "taExample": "தேர்தல் முடிவுகள் அதிகாரப்பூர்வமாக அறிவிக்கப்பட்டதைத் தொடர்ந்து எதிர்க்கட்சி வேட்பாளர் தனது தோல்வியை ஒப்புக்கொண்டார்.",
+    "synonyms": [
+      "Acknowledge",
+      "Admit",
+      "Yield",
+      "Surrender"
+    ],
+    "antonyms": [
+      "Deny",
+      "Dispute",
+      "Refuse",
+      "Resist"
+    ]
+  },
+  {
     "id": 302,
     "word": "Concurrently",
     "definition": "At the same time; simultaneously.",
@@ -636,6 +741,27 @@
     ]
   },
   {
+    "id": 2845,
+    "word": "Contention",
+    "pos": "noun",
+    "definition": "Heated disagreement, debate, or dispute; or an assertion maintained in argument.",
+    "enExample": "The proposed border tax remains a major bone of contention between trade negotiators.",
+    "taWord": "சர்ச்சை / வாதம் / முரண்பாடு",
+    "taExample": "புதிய எல்லை வரி விதிப்பு இரு நாட்டு வர்த்தகப் பேச்சுவார்த்தையில் முக்கிய சர்ச்சையாக உள்ளது.",
+    "synonyms": [
+      "Dispute",
+      "Discord",
+      "Strife",
+      "Argument"
+    ],
+    "antonyms": [
+      "Consensus",
+      "Harmony",
+      "Agreement",
+      "Accord"
+    ]
+  },
+  {
     "id": 2772,
     "word": "Context Switching",
     "pos": "noun",
@@ -705,6 +831,27 @@
     ]
   },
   {
+    "id": 2936,
+    "word": "Convene",
+    "pos": "verb",
+    "definition": "To officially assemble, summon, or gather together for a formal meeting, conference, or council.",
+    "enExample": "The board of directors convened an emergency session to discuss the hostile takeover bid.",
+    "taWord": "முறைப்படி கூடி விவாதித்தல் / கூட்டத்தை கூட்டுதல்",
+    "taExample": "நிறுவனத்தை கையகப்படுத்தும் விவகாரம் குறித்து ஆலோசிக்க இயக்குநர் குழு அவசரக் கூட்டத்தைக் கூட்டியது.",
+    "synonyms": [
+      "Assemble",
+      "Summon",
+      "Gather",
+      "Convoke"
+    ],
+    "antonyms": [
+      "Disperse",
+      "Adjourn",
+      "Dissolve",
+      "Scatter"
+    ]
+  },
+  {
     "id": 333,
     "word": "Convey",
     "definition": "Make an idea, impression, or feeling known or understandable to someone.",
@@ -719,6 +866,47 @@
     "antonyms": [
       "Conceal",
       "Withhold"
+    ]
+  },
+  {
+    "id": 2836,
+    "word": "Convicted",
+    "pos": "verb",
+    "definition": "Formally declared guilty of a criminal offense by the verdict of a jury or the decision of a judge in a court of law.",
+    "enExample": "The former executive was convicted of insider trading and sentenced to five years in federal prison.",
+    "taWord": "குற்றவாளி என தண்டிக்கப்பட்ட",
+    "taExample": "முன்னாள் உயர் அதிகாரி முறைகேடான பங்கு வர்த்தகத்தில் குற்றவாளியாக தண்டிக்கப்பட்டார்.",
+    "synonyms": [
+      "Found guilty",
+      "Sentenced",
+      "Condemned"
+    ],
+    "antonyms": [
+      "Acquitted",
+      "Exonerated",
+      "Absolved",
+      "Cleared"
+    ]
+  },
+  {
+    "id": 2835,
+    "word": "Conviction",
+    "pos": "noun",
+    "definition": "A formal declaration by a verdict of a court that someone is guilty of a criminal offense, or a firmly held belief.",
+    "enExample": "The jury reached a unanimous conviction on all twelve counts of financial fraud.",
+    "taWord": "குற்றவாளி என தீர்ப்பு / உறுதிப்பாடு",
+    "taExample": "நிதி மோசடி வழக்கில் குற்றம் நிரூபிக்கப்பட்டு நீதிமன்றம் அவருக்கு தண்டனை விதித்தது.",
+    "synonyms": [
+      "Guilty verdict",
+      "Sentence",
+      "Firm belief",
+      "Assurance"
+    ],
+    "antonyms": [
+      "Acquittal",
+      "Exoneration",
+      "Doubt",
+      "Uncertainty"
     ]
   },
   {
@@ -954,110 +1142,6 @@
     ],
     "antonyms": [
       "Queue time"
-    ]
-  },
-  {
-    "id": 2835,
-    "word": "Conviction",
-    "pos": "noun",
-    "definition": "A formal declaration by a verdict of a court that someone is guilty of a criminal offense, or a firmly held belief.",
-    "enExample": "The jury reached a unanimous conviction on all twelve counts of financial fraud.",
-    "taWord": "குற்றவாளி என தீர்ப்பு / உறுதிப்பாடு",
-    "taExample": "நிதி மோசடி வழக்கில் குற்றம் நிரூபிக்கப்பட்டு நீதிமன்றம் அவருக்கு தண்டனை விதித்தது.",
-    "synonyms": [
-      "Guilty verdict",
-      "Sentence",
-      "Firm belief",
-      "Assurance"
-    ],
-    "antonyms": [
-      "Acquittal",
-      "Exoneration",
-      "Doubt",
-      "Uncertainty"
-    ]
-  },
-  {
-    "id": 2836,
-    "word": "Convicted",
-    "pos": "verb",
-    "definition": "Formally declared guilty of a criminal offense by the verdict of a jury or the decision of a judge in a court of law.",
-    "enExample": "The former executive was convicted of insider trading and sentenced to five years in federal prison.",
-    "taWord": "குற்றவாளி என தண்டிக்கப்பட்ட",
-    "taExample": "முன்னாள் உயர் அதிகாரி முறைகேடான பங்கு வர்த்தகத்தில் குற்றவாளியாக தண்டிக்கப்பட்டார்.",
-    "synonyms": [
-      "Found guilty",
-      "Sentenced",
-      "Condemned"
-    ],
-    "antonyms": [
-      "Acquitted",
-      "Exonerated",
-      "Absolved",
-      "Cleared"
-    ]
-  },
-  {
-    "id": 2843,
-    "word": "Calamity",
-    "pos": "noun",
-    "definition": "An event causing great and often sudden damage, suffering, or distress; a disaster.",
-    "enExample": "The flash flood was a catastrophic calamity that displaced thousands of coastal residents.",
-    "taWord": "பேரழிவு / பெருந்துன்பம்",
-    "taExample": "திடீர் வெள்ளப்பெருக்கு ஆயிரக்கணக்கான மக்களை இடம்பெயரச் செய்த பெரும் பேரழிவாக அமைந்தது.",
-    "synonyms": [
-      "Catastrophe",
-      "Disaster",
-      "Tragedy",
-      "Cataclysm"
-    ],
-    "antonyms": [
-      "Blessing",
-      "Boon",
-      "Godsend",
-      "Prosperity"
-    ]
-  },
-  {
-    "id": 2844,
-    "word": "Catastrophe",
-    "pos": "noun",
-    "definition": "An extremely destructive event that causes immense suffering, destruction, and chaos.",
-    "enExample": "Emergency relief crews worked around the clock to avert an environmental catastrophe at the oil terminal.",
-    "taWord": "பேரழிவு / பெருஞ்சேதம்",
-    "taExample": "எண்ணெய் முனையத்தில் ஏற்படவிருந்த சுற்றுச்சூழல் பேரழிவைத் தடுக்க மீட்புக் குழுவினர் தீவிரமாக உழைத்தனர்.",
-    "synonyms": [
-      "Calamity",
-      "Devastation",
-      "Cataclysm",
-      "Ruin"
-    ],
-    "antonyms": [
-      "Triumph",
-      "Miracle",
-      "Success",
-      "Fortune"
-    ]
-  },
-  {
-    "id": 2845,
-    "word": "Contention",
-    "pos": "noun",
-    "definition": "Heated disagreement, debate, or dispute; or an assertion maintained in argument.",
-    "enExample": "The proposed border tax remains a major bone of contention between trade negotiators.",
-    "taWord": "சர்ச்சை / வாதம் / முரண்பாடு",
-    "taExample": "புதிய எல்லை வரி விதிப்பு இரு நாட்டு வர்த்தகப் பேச்சுவார்த்தையில் முக்கிய சர்ச்சையாக உள்ளது.",
-    "synonyms": [
-      "Dispute",
-      "Discord",
-      "Strife",
-      "Argument"
-    ],
-    "antonyms": [
-      "Consensus",
-      "Harmony",
-      "Agreement",
-      "Accord"
     ]
   }
 ]

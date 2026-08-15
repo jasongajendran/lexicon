@@ -103,6 +103,27 @@
     ]
   },
   {
+    "id": 2887,
+    "word": "Nepotism",
+    "pos": "noun",
+    "definition": "The practice among those with power or influence of favoring family members or close relatives in appointments.",
+    "enExample": "The corporation came under heavy fire for blatant nepotism after the CEO appointed his son as head of finance.",
+    "taWord": "வாரிசு அரசியல் / உறவினர்களுக்கு சலுகை காட்டுதல்",
+    "taExample": "தகுதியானவர்களை விடுத்து தனது மகனுக்கு உயர் பதவி வழங்கிய நிறுவனத் தலைவர் மீது கடும் விமர்சனம் எழுந்தது.",
+    "synonyms": [
+      "Favoritism",
+      "Cronyism",
+      "Bias",
+      "Partisanship"
+    ],
+    "antonyms": [
+      "Meritocracy",
+      "Fairness",
+      "Impartiality",
+      "Objectivity"
+    ]
+  },
+  {
     "id": 1404,
     "word": "Nested",
     "definition": "Contained or placed structurally inside another element of the same or different type.",
@@ -257,6 +278,27 @@
     ]
   },
   {
+    "id": 2888,
+    "word": "Nonchalant",
+    "pos": "adj.",
+    "definition": "Appearing calm, relaxed, and unconcerned, especially in the face of serious crisis or controversy.",
+    "enExample": "The spokesperson remained surprisingly nonchalant when questioned about mounting budget deficits.",
+    "taWord": "அலட்சியமான / கவலையற்ற",
+    "taExample": "கடுமையான நிதி நெருக்கடி குறித்து கேள்வி எழுப்பப்பட்டபோதும் அவர் எந்தக் கவலையுமின்றி அலட்சியமாக பதிலளித்தார்.",
+    "synonyms": [
+      "Unconcerned",
+      "Indifferent",
+      "Aloof",
+      "Dispassionate"
+    ],
+    "antonyms": [
+      "Anxious",
+      "Agitated",
+      "Concerned",
+      "Alarmed"
+    ]
+  },
+  {
     "id": 1409,
     "word": "Normalization",
     "definition": "The process of structuring a database to reduce redundancy and improve data integrity.",
@@ -397,48 +439,6 @@
     "antonyms": [
       "Alphabetic",
       "Textual"
-    ]
-  },
-  {
-    "id": 2887,
-    "word": "Nepotism",
-    "pos": "noun",
-    "definition": "The practice among those with power or influence of favoring family members or close relatives in appointments.",
-    "enExample": "The corporation came under heavy fire for blatant nepotism after the CEO appointed his son as head of finance.",
-    "taWord": "வாரிசு அரசியல் / உறவினர்களுக்கு சலுகை காட்டுதல்",
-    "taExample": "தகுதியானவர்களை விடுத்து தனது மகனுக்கு உயர் பதவி வழங்கிய நிறுவனத் தலைவர் மீது கடும் விமர்சனம் எழுந்தது.",
-    "synonyms": [
-      "Favoritism",
-      "Cronyism",
-      "Bias",
-      "Partisanship"
-    ],
-    "antonyms": [
-      "Meritocracy",
-      "Fairness",
-      "Impartiality",
-      "Objectivity"
-    ]
-  },
-  {
-    "id": 2888,
-    "word": "Nonchalant",
-    "pos": "adj.",
-    "definition": "Appearing calm, relaxed, and unconcerned, especially in the face of serious crisis or controversy.",
-    "enExample": "The spokesperson remained surprisingly nonchalant when questioned about mounting budget deficits.",
-    "taWord": "அலட்சியமான / கவலையற்ற",
-    "taExample": "கடுமையான நிதி நெருக்கடி குறித்து கேள்வி எழுப்பப்பட்டபோதும் அவர் எந்தக் கவலையுமின்றி அலட்சியமாக பதிலளித்தார்.",
-    "synonyms": [
-      "Unconcerned",
-      "Indifferent",
-      "Aloof",
-      "Dispassionate"
-    ],
-    "antonyms": [
-      "Anxious",
-      "Agitated",
-      "Concerned",
-      "Alarmed"
     ]
   }
 ]

@@ -34,6 +34,27 @@
     ]
   },
   {
+    "id": 2894,
+    "word": "Pandemonium",
+    "pos": "noun",
+    "definition": "Wild, noisy, and chaotic disorder, uproar, and confusion breaking out in a public arena.",
+    "enExample": "Pandemonium erupted in the legislative chamber as rival delegates rushed the podium.",
+    "taWord": "பெரும் கூச்சல் குழப்பம் / அமளி",
+    "taExample": "எதிர்க்கட்சி உறுப்பினர்கள் மேடையை முற்றுகையிட்டதால் நாடாளுமன்றத்தில் பெரும் கூச்சல் குழப்பமும் அமளியும் நிலவியது.",
+    "synonyms": [
+      "Bedlam",
+      "Chaos",
+      "Tumult",
+      "Uproar"
+    ],
+    "antonyms": [
+      "Order",
+      "Peace",
+      "Silence",
+      "Tranquility"
+    ]
+  },
+  {
     "id": 2,
     "word": "Paradigm",
     "definition": "a typical pattern or model",
@@ -74,6 +95,27 @@
     "synonyms": [
       "Shift",
       "Displacement"
+    ]
+  },
+  {
+    "id": 2895,
+    "word": "Paralysis",
+    "pos": "noun",
+    "definition": "The state of being totally unable to function, make decisions, or take decisive political action.",
+    "enExample": "The split legislature led to a paralyzing governance deadlock over infrastructure spending.",
+    "taWord": "முழு முடக்கம் / இயலாமை",
+    "taExample": "அரசியல் பிளவுகளால் எந்த முக்கிய திட்டங்களையும் செயல்படுத்த முடியாமல் அரசு நிர்வாகம் முடங்கியது.",
+    "synonyms": [
+      "Immobilization",
+      "Deadlock",
+      "Standstill",
+      "Inertia"
+    ],
+    "antonyms": [
+      "Decisiveness",
+      "Action",
+      "Dynamism",
+      "Progress"
     ]
   },
   {
@@ -126,6 +168,27 @@
     "antonyms": [
       "Current agenda",
       "Main topic"
+    ]
+  },
+  {
+    "id": 2896,
+    "word": "Partisan",
+    "pos": "adj.",
+    "definition": "Fiercely and blindly biased in favor of a specific political party, faction, or ideological cause.",
+    "enExample": "Critics argued the congressional investigation had devolved into a bitter partisan witch hunt.",
+    "taWord": "கட்சி சார்புடைய / ஒருதலைப்பட்சமான",
+    "taExample": "விசாரணை நடுநிலையாக இல்லாமல் முழுக்க முழுக்க கட்சி சார்புடையதாக மாற்றப்பட்டுவிட்டதாக கூறப்பட்டது.",
+    "synonyms": [
+      "Biased",
+      "One-sided",
+      "Sectarian",
+      "Factional"
+    ],
+    "antonyms": [
+      "Non-partisan",
+      "Impartial",
+      "Bipartisan",
+      "Objective"
     ]
   },
   {
@@ -416,6 +479,24 @@
     ]
   },
   {
+    "id": 2897,
+    "word": "Plebiscite",
+    "pos": "noun",
+    "definition": "A direct, binding democratic vote of all the members of an electorate on an issue of major constitutional sovereignty.",
+    "enExample": "The regional assembly voted to hold a binding plebiscite on national self-determination.",
+    "taWord": "மக்கள் தீர்ப்பு வாக்கெடுப்பு / பொது வாக்கெடுப்பு",
+    "taExample": "சுயாட்சி கோரிக்கை குறித்து மக்களின் கருத்தறிய பொது வாக்கெடுப்பு நடத்த முடிவு செய்யப்பட்டது.",
+    "synonyms": [
+      "Referendum",
+      "Popular vote",
+      "Ballot on sovereignty"
+    ],
+    "antonyms": [
+      "Dictatorial decree",
+      "Autocratic ruling"
+    ]
+  },
+  {
     "id": 20,
     "word": "Plethora",
     "definition": "a large or excessive amount",
@@ -430,6 +511,48 @@
     "antonyms": [
       "Scarcity",
       "Lack"
+    ]
+  },
+  {
+    "id": 2898,
+    "word": "Plight",
+    "pos": "noun",
+    "definition": "A dangerous, unfortunate, or deeply sorrowful situation faced by an afflicted group of people.",
+    "enExample": "International aid agencies appealed for emergency funding to alleviate the plight of displaced war refugees.",
+    "taWord": "துயர நிலை / அவல நிலை",
+    "taExample": "போரினால் பாதிக்கப்பட்ட மக்களின் அவல நிலையைப் போக்க அவசர நிதி உதவி கோரப்பட்டது.",
+    "synonyms": [
+      "Predicament",
+      "Hardship",
+      "Distress",
+      "Trial"
+    ],
+    "antonyms": [
+      "Prosperity",
+      "Comfort",
+      "Fortune",
+      "Well-being"
+    ]
+  },
+  {
+    "id": 2837,
+    "word": "Plummet",
+    "pos": "verb",
+    "definition": "To drop, fall, or decline straight down at very high speed and magnitude.",
+    "enExample": "Stock indices plummeted by over eight hundred points following the central bank's unexpected inflation forecast.",
+    "taWord": "செங்குத்தாக சரிதல் / வேகமாகக் குறைதல்",
+    "taExample": "பணவீக்க அறிவிப்பைத் தொடர்ந்து பங்குச் சந்தை குறியீடுகள் செங்குத்தாக சரிந்தன.",
+    "synonyms": [
+      "Plunge",
+      "Dive",
+      "Nosedive",
+      "Collapse"
+    ],
+    "antonyms": [
+      "Skyrocket",
+      "Soar",
+      "Surge",
+      "Ascend"
     ]
   },
   {
@@ -448,6 +571,27 @@
     "antonyms": [
       "Valid payload",
       "Sanitized record"
+    ]
+  },
+  {
+    "id": 2899,
+    "word": "Polarize",
+    "pos": "verb",
+    "definition": "To divide public opinion or groups into sharply contrasting, hostile, and uncompromising factions.",
+    "enExample": "The controversial immigration legislation threatened to deeply polarize voters along demographic lines.",
+    "taWord": "இரு துருவங்களாக பிரித்தல்",
+    "taExample": "புதிய சட்டம் மக்களிடையே கருத்து வேறுபாடுகளை தீவிரப்படுத்தி சமூகத்தை இரு துருவங்களாக பிரித்தது.",
+    "synonyms": [
+      "Divide",
+      "Alienate",
+      "Fracture",
+      "Split"
+    ],
+    "antonyms": [
+      "Unify",
+      "Reconcile",
+      "Harmonize",
+      "Bridge"
     ]
   },
   {
@@ -564,6 +708,46 @@
     "antonyms": [
       "Include",
       "Permit"
+    ]
+  },
+  {
+    "id": 2900,
+    "word": "Predecessor",
+    "pos": "noun",
+    "definition": "A person who held a high office, public role, or position immediately before the current occupant.",
+    "enExample": "The newly sworn-in mayor reversed several municipal zoning ordinances enacted by her predecessor.",
+    "taWord": "முந்தைய பதவியில் இருந்தவர் / முன்னோடி",
+    "taExample": "புதிய மேயர் தனது முந்தைய அதிகாரியால் கொண்டுவரப்பட்ட பல விதிகளை உடனடியாக ரத்து செய்தார்.",
+    "synonyms": [
+      "Forerunner",
+      "Antecedent",
+      "Former holder"
+    ],
+    "antonyms": [
+      "Successor",
+      "Descendant",
+      "Follower"
+    ]
+  },
+  {
+    "id": 2834,
+    "word": "Predicament",
+    "pos": "noun",
+    "definition": "A difficult, unpleasant, or complex situation from which it is very hard to extricate oneself.",
+    "enExample": "The coalition government faces an impossible political predicament ahead of the vote of no confidence.",
+    "taWord": "நெருக்கடியான இக்கட்டான நிலை",
+    "taExample": "கூட்டணி அரசு நாடாளுமன்றத்தில் பெரும் இக்கட்டான நிலையை எதிர்கொண்டுள்ளது.",
+    "synonyms": [
+      "Quagmire",
+      "Dilemma",
+      "Plight",
+      "Impasse"
+    ],
+    "antonyms": [
+      "Advantage",
+      "Favorable position",
+      "Solution",
+      "Ease"
     ]
   },
   {
@@ -765,6 +949,27 @@
     "antonyms": [
       "Decrease",
       "Shrink"
+    ]
+  },
+  {
+    "id": 2901,
+    "word": "Proliferation",
+    "pos": "noun",
+    "definition": "A rapid and uncontrolled increase or spread in numbers, especially regarding weapons or illicit technology.",
+    "enExample": "The treaty was designed to halt the perilous proliferation of ballistic nuclear weapons.",
+    "taWord": "வேகமான பெருக்கம் / பரவல்",
+    "taExample": "அணு ஆயுதங்கள் மற்றும் ஆபத்தான ஏவுகணைகளின் பரவலைக் கட்டுப்படுத்த இந்த ஒப்பந்தம் கொண்டுவரப்பட்டது.",
+    "synonyms": [
+      "Multiplication",
+      "Rapid spread",
+      "Escalation",
+      "Expansion"
+    ],
+    "antonyms": [
+      "Reduction",
+      "Curtailment",
+      "Containment",
+      "Stagnation"
     ]
   },
   {
@@ -983,211 +1188,6 @@
     "synonyms": [
       "Scope",
       "Domain"
-    ]
-  },
-  {
-    "id": 2834,
-    "word": "Predicament",
-    "pos": "noun",
-    "definition": "A difficult, unpleasant, or complex situation from which it is very hard to extricate oneself.",
-    "enExample": "The coalition government faces an impossible political predicament ahead of the vote of no confidence.",
-    "taWord": "நெருக்கடியான இக்கட்டான நிலை",
-    "taExample": "கூட்டணி அரசு நாடாளுமன்றத்தில் பெரும் இக்கட்டான நிலையை எதிர்கொண்டுள்ளது.",
-    "synonyms": [
-      "Quagmire",
-      "Dilemma",
-      "Plight",
-      "Impasse"
-    ],
-    "antonyms": [
-      "Advantage",
-      "Favorable position",
-      "Solution",
-      "Ease"
-    ]
-  },
-  {
-    "id": 2837,
-    "word": "Plummet",
-    "pos": "verb",
-    "definition": "To drop, fall, or decline straight down at very high speed and magnitude.",
-    "enExample": "Stock indices plummeted by over eight hundred points following the central bank's unexpected inflation forecast.",
-    "taWord": "செங்குத்தாக சரிதல் / வேகமாகக் குறைதல்",
-    "taExample": "பணவீக்க அறிவிப்பைத் தொடர்ந்து பங்குச் சந்தை குறியீடுகள் செங்குத்தாக சரிந்தன.",
-    "synonyms": [
-      "Plunge",
-      "Dive",
-      "Nosedive",
-      "Collapse"
-    ],
-    "antonyms": [
-      "Skyrocket",
-      "Soar",
-      "Surge",
-      "Ascend"
-    ]
-  },
-  {
-    "id": 2894,
-    "word": "Pandemonium",
-    "pos": "noun",
-    "definition": "Wild, noisy, and chaotic disorder, uproar, and confusion breaking out in a public arena.",
-    "enExample": "Pandemonium erupted in the legislative chamber as rival delegates rushed the podium.",
-    "taWord": "பெரும் கூச்சல் குழப்பம் / அமளி",
-    "taExample": "எதிர்க்கட்சி உறுப்பினர்கள் மேடையை முற்றுகையிட்டதால் நாடாளுமன்றத்தில் பெரும் கூச்சல் குழப்பமும் அமளியும் நிலவியது.",
-    "synonyms": [
-      "Bedlam",
-      "Chaos",
-      "Tumult",
-      "Uproar"
-    ],
-    "antonyms": [
-      "Order",
-      "Peace",
-      "Silence",
-      "Tranquility"
-    ]
-  },
-  {
-    "id": 2895,
-    "word": "Paralysis",
-    "pos": "noun",
-    "definition": "The state of being totally unable to function, make decisions, or take decisive political action.",
-    "enExample": "The split legislature led to a paralyzing governance deadlock over infrastructure spending.",
-    "taWord": "முழு முடக்கம் / இயலாமை",
-    "taExample": "அரசியல் பிளவுகளால் எந்த முக்கிய திட்டங்களையும் செயல்படுத்த முடியாமல் அரசு நிர்வாகம் முடங்கியது.",
-    "synonyms": [
-      "Immobilization",
-      "Deadlock",
-      "Standstill",
-      "Inertia"
-    ],
-    "antonyms": [
-      "Decisiveness",
-      "Action",
-      "Dynamism",
-      "Progress"
-    ]
-  },
-  {
-    "id": 2896,
-    "word": "Partisan",
-    "pos": "adj.",
-    "definition": "Fiercely and blindly biased in favor of a specific political party, faction, or ideological cause.",
-    "enExample": "Critics argued the congressional investigation had devolved into a bitter partisan witch hunt.",
-    "taWord": "கட்சி சார்புடைய / ஒருதலைப்பட்சமான",
-    "taExample": "விசாரணை நடுநிலையாக இல்லாமல் முழுக்க முழுக்க கட்சி சார்புடையதாக மாற்றப்பட்டுவிட்டதாக கூறப்பட்டது.",
-    "synonyms": [
-      "Biased",
-      "One-sided",
-      "Sectarian",
-      "Factional"
-    ],
-    "antonyms": [
-      "Non-partisan",
-      "Impartial",
-      "Bipartisan",
-      "Objective"
-    ]
-  },
-  {
-    "id": 2897,
-    "word": "Plebiscite",
-    "pos": "noun",
-    "definition": "A direct, binding democratic vote of all the members of an electorate on an issue of major constitutional sovereignty.",
-    "enExample": "The regional assembly voted to hold a binding plebiscite on national self-determination.",
-    "taWord": "மக்கள் தீர்ப்பு வாக்கெடுப்பு / பொது வாக்கெடுப்பு",
-    "taExample": "சுயாட்சி கோரிக்கை குறித்து மக்களின் கருத்தறிய பொது வாக்கெடுப்பு நடத்த முடிவு செய்யப்பட்டது.",
-    "synonyms": [
-      "Referendum",
-      "Popular vote",
-      "Ballot on sovereignty"
-    ],
-    "antonyms": [
-      "Dictatorial decree",
-      "Autocratic ruling"
-    ]
-  },
-  {
-    "id": 2898,
-    "word": "Plight",
-    "pos": "noun",
-    "definition": "A dangerous, unfortunate, or deeply sorrowful situation faced by an afflicted group of people.",
-    "enExample": "International aid agencies appealed for emergency funding to alleviate the plight of displaced war refugees.",
-    "taWord": "துயர நிலை / அவல நிலை",
-    "taExample": "போரினால் பாதிக்கப்பட்ட மக்களின் அவல நிலையைப் போக்க அவசர நிதி உதவி கோரப்பட்டது.",
-    "synonyms": [
-      "Predicament",
-      "Hardship",
-      "Distress",
-      "Trial"
-    ],
-    "antonyms": [
-      "Prosperity",
-      "Comfort",
-      "Fortune",
-      "Well-being"
-    ]
-  },
-  {
-    "id": 2899,
-    "word": "Polarize",
-    "pos": "verb",
-    "definition": "To divide public opinion or groups into sharply contrasting, hostile, and uncompromising factions.",
-    "enExample": "The controversial immigration legislation threatened to deeply polarize voters along demographic lines.",
-    "taWord": "இரு துருவங்களாக பிரித்தல்",
-    "taExample": "புதிய சட்டம் மக்களிடையே கருத்து வேறுபாடுகளை தீவிரப்படுத்தி சமூகத்தை இரு துருவங்களாக பிரித்தது.",
-    "synonyms": [
-      "Divide",
-      "Alienate",
-      "Fracture",
-      "Split"
-    ],
-    "antonyms": [
-      "Unify",
-      "Reconcile",
-      "Harmonize",
-      "Bridge"
-    ]
-  },
-  {
-    "id": 2900,
-    "word": "Predecessor",
-    "pos": "noun",
-    "definition": "A person who held a high office, public role, or position immediately before the current occupant.",
-    "enExample": "The newly sworn-in mayor reversed several municipal zoning ordinances enacted by her predecessor.",
-    "taWord": "முந்தைய பதவியில் இருந்தவர் / முன்னோடி",
-    "taExample": "புதிய மேயர் தனது முந்தைய அதிகாரியால் கொண்டுவரப்பட்ட பல விதிகளை உடனடியாக ரத்து செய்தார்.",
-    "synonyms": [
-      "Forerunner",
-      "Antecedent",
-      "Former holder"
-    ],
-    "antonyms": [
-      "Successor",
-      "Descendant",
-      "Follower"
-    ]
-  },
-  {
-    "id": 2901,
-    "word": "Proliferation",
-    "pos": "noun",
-    "definition": "A rapid and uncontrolled increase or spread in numbers, especially regarding weapons or illicit technology.",
-    "enExample": "The treaty was designed to halt the perilous proliferation of ballistic nuclear weapons.",
-    "taWord": "வேகமான பெருக்கம் / பரவல்",
-    "taExample": "அணு ஆயுதங்கள் மற்றும் ஆபத்தான ஏவுகணைகளின் பரவலைக் கட்டுப்படுத்த இந்த ஒப்பந்தம் கொண்டுவரப்பட்டது.",
-    "synonyms": [
-      "Multiplication",
-      "Rapid spread",
-      "Escalation",
-      "Expansion"
-    ],
-    "antonyms": [
-      "Reduction",
-      "Curtailment",
-      "Containment",
-      "Stagnation"
     ]
   }
 ]

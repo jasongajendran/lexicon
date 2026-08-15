@@ -210,6 +210,48 @@
     ]
   },
   {
+    "id": 2926,
+    "word": "Unprecedented",
+    "pos": "adj.",
+    "definition": "Never having happened, been done, or been known before in recorded history.",
+    "enExample": "The central bank took the unprecedented step of lowering lending interest rates to zero percent.",
+    "taWord": "முன்னெப்போதும் இல்லாத / வரலாறு காணாத",
+    "taExample": "வட்டி விகிதத்தை பூஜ்ஜியமாக குறைக்கும் முன்னெப்போதும் இல்லாத அதிரடி நடவடிக்கையை மத்திய வங்கி எடுத்தது.",
+    "synonyms": [
+      "Unparalleled",
+      "Novel",
+      "Extraordinary",
+      "Groundbreaking"
+    ],
+    "antonyms": [
+      "Precedented",
+      "Routine",
+      "Commonplace",
+      "Familiar"
+    ]
+  },
+  {
+    "id": 2950,
+    "word": "Unravel",
+    "pos": "verb",
+    "definition": "To undo, untangle, or begin to fall apart, disintegrate, or fail progressively.",
+    "enExample": "The intricate tax evasion scheme began to unravel once forensic accountants examined the offshore ledger logs.",
+    "taWord": "சிக்கல் அவிழ்ந்து வெளிப்படுதல் / படிப்படியாக சிதைதல்",
+    "taExample": "ஆய்வாளர்கள் வெளிநாட்டு கணக்குகளை தீவிரமாக சோதித்தபோது அந்த மோசடி சதித்திட்டம் படிப்படியாக வெளிப்பட்டது.",
+    "synonyms": [
+      "Disintegrate",
+      "Untangle",
+      "Collapse",
+      "Decipher"
+    ],
+    "antonyms": [
+      "Entangle",
+      "Assemble",
+      "Strengthen",
+      "Solidify"
+    ]
+  },
+  {
     "id": 2109,
     "word": "Unset",
     "definition": "Removing or resetting a variable, environment configuration, or property back to undefined state.",
@@ -225,6 +267,27 @@
     "antonyms": [
       "Set",
       "Define"
+    ]
+  },
+  {
+    "id": 2927,
+    "word": "Upheaval",
+    "pos": "noun",
+    "definition": "A violent, sudden, and disruptive change or radical shift in society, politics, or financial systems.",
+    "enExample": "The military overthrow triggered months of severe civil upheaval across the capital city.",
+    "taWord": "தீவிர சமூக / அரசியல் கொந்தளிப்பு",
+    "taExample": "திடீர் ஆட்சி கவிழ்ப்பானது தலைநகர் முழுவதும் தீவிர மக்கள் கொந்தளிப்பையும் குழப்பத்தையும் ஏற்படுத்தியது.",
+    "synonyms": [
+      "Turmoil",
+      "Disruption",
+      "Convulsion",
+      "Cataclysm"
+    ],
+    "antonyms": [
+      "Stability",
+      "Status quo",
+      "Calm",
+      "Continuity"
     ]
   },
   {
@@ -335,48 +398,6 @@
       "Helper function",
       "Tool",
       "Routine"
-    ]
-  },
-  {
-    "id": 2926,
-    "word": "Unprecedented",
-    "pos": "adj.",
-    "definition": "Never having happened, been done, or been known before in recorded history.",
-    "enExample": "The central bank took the unprecedented step of lowering lending interest rates to zero percent.",
-    "taWord": "முன்னெப்போதும் இல்லாத / வரலாறு காணாத",
-    "taExample": "வட்டி விகிதத்தை பூஜ்ஜியமாக குறைக்கும் முன்னெப்போதும் இல்லாத அதிரடி நடவடிக்கையை மத்திய வங்கி எடுத்தது.",
-    "synonyms": [
-      "Unparalleled",
-      "Novel",
-      "Extraordinary",
-      "Groundbreaking"
-    ],
-    "antonyms": [
-      "Precedented",
-      "Routine",
-      "Commonplace",
-      "Familiar"
-    ]
-  },
-  {
-    "id": 2927,
-    "word": "Upheaval",
-    "pos": "noun",
-    "definition": "A violent, sudden, and disruptive change or radical shift in society, politics, or financial systems.",
-    "enExample": "The military overthrow triggered months of severe civil upheaval across the capital city.",
-    "taWord": "தீவிர சமூக / அரசியல் கொந்தளிப்பு",
-    "taExample": "திடீர் ஆட்சி கவிழ்ப்பானது தலைநகர் முழுவதும் தீவிர மக்கள் கொந்தளிப்பையும் குழப்பத்தையும் ஏற்படுத்தியது.",
-    "synonyms": [
-      "Turmoil",
-      "Disruption",
-      "Convulsion",
-      "Cataclysm"
-    ],
-    "antonyms": [
-      "Stability",
-      "Status quo",
-      "Calm",
-      "Continuity"
     ]
   }
 ]

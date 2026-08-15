@@ -249,6 +249,27 @@
     ]
   },
   {
+    "id": 2880,
+    "word": "Leniency",
+    "pos": "noun",
+    "definition": "The quality of being merciful, tolerant, or forgiving in handing down a legal penalty or punishment.",
+    "enExample": "Defense attorneys petitioned the bench for leniency, citing the defendant's full cooperation with prosecutors.",
+    "taWord": "மன்னிக்கும் குணம் / தண்டனைக் குறைப்பு சலுகை",
+    "taExample": "குற்றவாளி விசாரணைக்கு முழு ஒத்துழைப்பு அளித்ததால் தண்டனையை குறைத்து கருணை காட்டுமாறு கோரப்பட்டது.",
+    "synonyms": [
+      "Mercy",
+      "Clemency",
+      "Forgiveness",
+      "Tolerance"
+    ],
+    "antonyms": [
+      "Severity",
+      "Harshness",
+      "Draconian rigor",
+      "Cruelty"
+    ]
+  },
+  {
     "id": 2800,
     "word": "LGTM",
     "pos": "slang",
@@ -522,6 +543,27 @@
     ]
   },
   {
+    "id": 2881,
+    "word": "Looming",
+    "pos": "adj.",
+    "definition": "Appearing indistinctly as a large, threatening, or ominous event imminent in the near future.",
+    "enExample": "Central bankers held an emergency meeting to address the looming threat of global stagflation.",
+    "taWord": "அச்சுறுத்தும் வகையில் நெருங்கி வரும்",
+    "taExample": "அதிவேகமாக நெருங்கி வரும் பொருளாதார மந்தநிலையை எதிர்கொள்ள அவசரக் கூட்டம் கூட்டப்பட்டது.",
+    "synonyms": [
+      "Imminent",
+      "Impending",
+      "Approaching",
+      "Threatening"
+    ],
+    "antonyms": [
+      "Distant",
+      "Remote",
+      "Unlikely",
+      "Past"
+    ]
+  },
+  {
     "id": 1225,
     "word": "Loop",
     "definition": "A sequence of instructions that is continually repeated until a certain condition is reached.",
@@ -610,48 +652,6 @@
       "Highkey",
       "Overtly",
       "Blatantly"
-    ]
-  },
-  {
-    "id": 2880,
-    "word": "Leniency",
-    "pos": "noun",
-    "definition": "The quality of being merciful, tolerant, or forgiving in handing down a legal penalty or punishment.",
-    "enExample": "Defense attorneys petitioned the bench for leniency, citing the defendant's full cooperation with prosecutors.",
-    "taWord": "மன்னிக்கும் குணம் / தண்டனைக் குறைப்பு சலுகை",
-    "taExample": "குற்றவாளி விசாரணைக்கு முழு ஒத்துழைப்பு அளித்ததால் தண்டனையை குறைத்து கருணை காட்டுமாறு கோரப்பட்டது.",
-    "synonyms": [
-      "Mercy",
-      "Clemency",
-      "Forgiveness",
-      "Tolerance"
-    ],
-    "antonyms": [
-      "Severity",
-      "Harshness",
-      "Draconian rigor",
-      "Cruelty"
-    ]
-  },
-  {
-    "id": 2881,
-    "word": "Looming",
-    "pos": "adj.",
-    "definition": "Appearing indistinctly as a large, threatening, or ominous event imminent in the near future.",
-    "enExample": "Central bankers held an emergency meeting to address the looming threat of global stagflation.",
-    "taWord": "அச்சுறுத்தும் வகையில் நெருங்கி வரும்",
-    "taExample": "அதிவேகமாக நெருங்கி வரும் பொருளாதார மந்தநிலையை எதிர்கொள்ள அவசரக் கூட்டம் கூட்டப்பட்டது.",
-    "synonyms": [
-      "Imminent",
-      "Impending",
-      "Approaching",
-      "Threatening"
-    ],
-    "antonyms": [
-      "Distant",
-      "Remote",
-      "Unlikely",
-      "Past"
     ]
   }
 ]

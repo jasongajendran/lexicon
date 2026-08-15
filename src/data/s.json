@@ -1,5 +1,26 @@
 [
   {
+    "id": 2910,
+    "word": "Sabotage",
+    "pos": "verb",
+    "definition": "To deliberately destroy, disable, damage, or obstruct infrastructure or plans, especially for political advantage.",
+    "enExample": "Cyber operatives attempted to sabotage the national energy grid ahead of the general election.",
+    "taWord": "திட்டமிட்டு நாசவேலை செய்தல்",
+    "taExample": "தேர்தல் நேரத்தில் குழப்பத்தை ஏற்படுத்த நாட்டின் மின் விநியோகக் கட்டமைப்பை நாசவேலை செய்ய முயன்றனர்.",
+    "synonyms": [
+      "Vandalize",
+      "Subvert",
+      "Undermine",
+      "Disrupt"
+    ],
+    "antonyms": [
+      "Fortify",
+      "Protect",
+      "Support",
+      "Bolster"
+    ]
+  },
+  {
     "id": 2818,
     "word": "Saga Pattern",
     "pos": "noun",
@@ -53,6 +74,27 @@
     ]
   },
   {
+    "id": 2911,
+    "word": "Sanction",
+    "pos": "noun",
+    "definition": "A threatened penalty or international economic embargo imposed on a state to compel compliance with law.",
+    "enExample": "The international community enacted heavy banking sanctions against the illicit weapons program.",
+    "taWord": "பொருளாதார / வர்த்தகத் தடையாணை",
+    "taExample": "சர்வதேச விதிகளை மீறியதற்காக அந்நாட்டின் மீது கடுமையான வங்கி மற்றும் வர்த்தகத் தடையாணை விதிக்கப்பட்டது.",
+    "synonyms": [
+      "Embargo",
+      "Punitive restriction",
+      "Trade penalty",
+      "Interdict"
+    ],
+    "antonyms": [
+      "Trade concession",
+      "Reward",
+      "Approval",
+      "Endorsement"
+    ]
+  },
+  {
     "id": 1901,
     "word": "Sandbox",
     "definition": "An isolated execution environment that prevents untrusted code from modifying production databases or host systems.",
@@ -102,6 +144,26 @@
     "antonyms": [
       "Inelasticity",
       "Fragility"
+    ]
+  },
+  {
+    "id": 2912,
+    "word": "Scapegoat",
+    "pos": "noun",
+    "definition": "A person or demographic unfairly made to bear the blame for the mistakes, failures, or sins of others.",
+    "enExample": "The junior minister was made the scapegoat for the disastrous national railway collapse.",
+    "taWord": "பழிசுமத்தப்படும் நபர் / பலிகடா",
+    "taExample": "உயர்மட்ட நிர்வாகத் தோல்விகளை மறைக்க அந்த இளநிலை அதிகாரி பலிகடாவாக்கப்பட்டார்.",
+    "synonyms": [
+      "Whipping boy",
+      "Fall guy",
+      "Victim",
+      "Patsy"
+    ],
+    "antonyms": [
+      "True culprit",
+      "Beneficiary",
+      "Exonerated party"
     ]
   },
   {
@@ -185,6 +247,27 @@
     ]
   },
   {
+    "id": 2913,
+    "word": "Scrutiny",
+    "pos": "noun",
+    "definition": "Close, intense, critical, and exhaustive inspection or examination by media or regulators.",
+    "enExample": "The offshore bank accounts of high-ranking cabinet officials came under intense parliamentary scrutiny.",
+    "taWord": "தீவிர கண்காணிப்பு / நுணுக்கமான ஆய்வு",
+    "taExample": "அமைச்சர்களின் வெளிநாட்டு வங்கிக் கணக்குகள் நாடாளுமன்றத்தின் தீவிர ஆய்வுக்கு உட்படுத்தப்பட்டன.",
+    "synonyms": [
+      "Inspection",
+      "Examination",
+      "Audit",
+      "Surveillance"
+    ],
+    "antonyms": [
+      "Oversight lapse",
+      "Neglect",
+      "Blind spot",
+      "Disregard"
+    ]
+  },
+  {
     "id": 1905,
     "word": "SDK",
     "definition": "Software Development Kit; a collection of software tools, libraries, and docs for building apps for a specific platform.",
@@ -213,6 +296,27 @@
     "antonyms": [
       "Centralized secret vault",
       "Zero-secret codebase"
+    ]
+  },
+  {
+    "id": 2914,
+    "word": "Sedition",
+    "pos": "noun",
+    "definition": "Conduct, overt speech, or writing inciting rebellion against the authority or integrity of the state.",
+    "enExample": "The radical activist faced felony charges of sedition for urging a violent takeover of city hall.",
+    "taWord": "நாட்டுக்கு எதிரான கலகத் தூண்டல் / தேசத்துரோகம்",
+    "taExample": "அரசுக்கு எதிராக வன்முறை கலகத்தைத் தூண்டியதாக அவர் மீது தேசத்துரோக வழக்கு பதியப்பட்டது.",
+    "synonyms": [
+      "Insurrection",
+      "Treason",
+      "Subversion",
+      "Mutiny"
+    ],
+    "antonyms": [
+      "Allegiance",
+      "Loyalty",
+      "Patriotism",
+      "Obedience"
     ]
   },
   {
@@ -367,6 +471,27 @@
     ]
   },
   {
+    "id": 2915,
+    "word": "Slander",
+    "pos": "noun",
+    "definition": "The criminal or civil action of making a false spoken defamatory statement damaging to a person's reputation.",
+    "enExample": "The mayor filed a multi-million-dollar slander lawsuit against the rival broadcaster over fabricated bribery claims.",
+    "taWord": "வாய்மொழி அவதூறு / பழிதூற்றுதல்",
+    "taExample": "தன்மீது போலியான லஞ்சக் குற்றச்சாட்டுகளைக் கூறிய தொலைக்காட்சிக்கு எதிராக அவர் அவதூறு வழக்கு தொடர்ந்தார்.",
+    "synonyms": [
+      "Defamation",
+      "Calumny",
+      "Smear",
+      "Libel"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commendation",
+      "Tribute",
+      "Truthful defense"
+    ]
+  },
+  {
     "id": 2645,
     "word": "Slaps",
     "definition": "Is exceptionally good, effective, delightful, or impressively crafted.",
@@ -444,6 +569,27 @@
       "Endpoint",
       "Channel",
       "Port connection"
+    ]
+  },
+  {
+    "id": 2916,
+    "word": "Sovereignty",
+    "pos": "noun",
+    "definition": "The supreme, absolute, and independent power of a self-governing state over its territory and laws.",
+    "enExample": "The Prime Minister declared that maritime incursions were a direct violation of national sovereignty.",
+    "taWord": "இறையாண்மை / தன்னாட்சி அதிகாரம்",
+    "taExample": "எங்கள் கடல் எல்லைக்குள் அத்துமீறி நுழைவது நாட்டின் இறையாண்மைக்கு விடப்பட்ட நேரடி சவால் என்று பிரதமர் கூறினார்.",
+    "synonyms": [
+      "Autonomy",
+      "Independence",
+      "Self-determination",
+      "Dominion"
+    ],
+    "antonyms": [
+      "Subjugation",
+      "Dependency",
+      "Colonial rule",
+      "Servitude"
     ]
   },
   {
@@ -536,6 +682,27 @@
     ]
   },
   {
+    "id": 2935,
+    "word": "Staggered",
+    "pos": "adj.",
+    "definition": "Arranged in alternating, overlapping, or spaced time intervals rather than all occurring at once; or deeply shocked.",
+    "enExample": "The operations team implemented staggered deployment rollouts across regions to prevent sudden server overloads.",
+    "taWord": "படிப்படியான இடைவெளிகளில் அமைக்கப்பட்ட / வியப்பில் ஆழ்ந்த",
+    "taExample": "சர்வர் சுமை அதிகரிப்பதைத் தவிர்க்க பிராந்திய வாரியாக படிப்படியான இடைவெளிகளில் புதிய மென்பொருள் வெளியிடப்பட்டது.",
+    "synonyms": [
+      "Phased",
+      "Intermittent",
+      "Alternating",
+      "Spaced out"
+    ],
+    "antonyms": [
+      "Simultaneous",
+      "Concurrent",
+      "Synchronous",
+      "Immediate"
+    ]
+  },
+  {
     "id": 1920,
     "word": "Stakeholder",
     "definition": "A person or group with a direct interest or investment in the success and features of a project.",
@@ -550,6 +717,48 @@
     ]
   },
   {
+    "id": 2946,
+    "word": "Stalemate",
+    "pos": "noun",
+    "definition": "A position counting as a draw in which neither side can make a move, win, or make further progress.",
+    "enExample": "Months of intense multilateral negotiations ended in a complete stalemate over maritime boundary rights.",
+    "taWord": "இழுபறி நிலை / வெற்றி தோல்வியற்ற முடக்கம்",
+    "taExample": "கடல் எல்லை தொடர்பான பலதரப்பு பேச்சுவார்த்தைகள் எந்த முடிவும் எட்டப்படாமல் இழுபறி நிலையில் முடிவடைந்தன.",
+    "synonyms": [
+      "Deadlock",
+      "Impasse",
+      "Standstill",
+      "Gridlock"
+    ],
+    "antonyms": [
+      "Breakthrough",
+      "Resolution",
+      "Victory",
+      "Progress"
+    ]
+  },
+  {
+    "id": 2917,
+    "word": "Standoff",
+    "pos": "noun",
+    "definition": "A tense deadlock or situation in which neither side in a confrontation will yield or back down.",
+    "enExample": "The armed standoff between federal marshals and local militia entered its fifth day.",
+    "taWord": "நேருக்கு நேர் மோதல் நிலை / இழுபறி",
+    "taExample": "இரு தரப்பினரும் பின்வாங்க மறுத்ததால் அந்தப் பகுதியில் நேருக்கு நேர் மோதல் பதற்றம் நீடித்தது.",
+    "synonyms": [
+      "Deadlock",
+      "Stalemate",
+      "Confrontation",
+      "Impasse"
+    ],
+    "antonyms": [
+      "Resolution",
+      "Surrender",
+      "Settlement",
+      "Truce"
+    ]
+  },
+  {
     "id": 1919,
     "word": "Standup",
     "definition": "A brief daily meeting where agile team members share progress, plans, and blockers.",
@@ -560,6 +769,27 @@
     "synonyms": [
       "Daily sync",
       "Scrum meeting"
+    ]
+  },
+  {
+    "id": 2948,
+    "word": "Stifle",
+    "pos": "verb",
+    "definition": "To smother, restrain, suppress, or prevent something from developing freely and innovatively.",
+    "enExample": "Excessive bureaucratic micro-management can stifle developer creativity and slow down product delivery.",
+    "taWord": "சுதந்திரத்தை நசுக்குதல் / வளரவிடாமல் தடுத்தல்",
+    "taExample": "அதிகப்படியான அதிகாரத்துவ கட்டுப்பாடுகள் ஊழியர்களின் படைப்பாற்றலை நசுக்கி பணிகளை தாமதப்படுத்தும்.",
+    "synonyms": [
+      "Suppress",
+      "Smother",
+      "Choke",
+      "Throttle"
+    ],
+    "antonyms": [
+      "Encourage",
+      "Foster",
+      "Nurture",
+      "Promote"
     ]
   },
   {
@@ -593,6 +823,68 @@
     ]
   },
   {
+    "id": 2918,
+    "word": "Subpoena",
+    "pos": "noun",
+    "definition": "A formal writ issued by a court or legislative committee commanding a person to testify or produce documents under penalty.",
+    "enExample": "The congressional oversight committee issued a subpoena for the tech CEO to turn over internal communications.",
+    "taWord": "நீதிமன்ற சாட்சி ஆஜர் ஆணை / அழைப்பாணை",
+    "taExample": "முக்கிய ஆவணங்களுடன் நேரில் ஆஜராகி விளக்கம் அளிக்குமாறு அவருக்கு நீதிமன்ற அழைப்பாணை அனுப்பப்பட்டது.",
+    "synonyms": [
+      "Summons",
+      "Court order",
+      "Warrant for witness",
+      "Citation"
+    ],
+    "antonyms": [
+      "Release",
+      "Discharge",
+      "Waiver of appearance"
+    ]
+  },
+  {
+    "id": 2919,
+    "word": "Subversion",
+    "pos": "noun",
+    "definition": "The systematic undermining and destruction of the power, authority, and integrity of an established system.",
+    "enExample": "Foreign intelligence services uncovered covert campaigns aimed at the subversion of national elections.",
+    "taWord": "அமைப்பை சீர்குலைக்கும் ரகசிய சதி",
+    "taExample": "நாட்டின் ஜனநாயக தேர்தலை சீர்குலைக்கும் நோக்கில் நடத்தப்பட்ட ரகசிய சதித் திட்டங்களை உளவுத்துறை முறியடித்தது.",
+    "synonyms": [
+      "Destabilization",
+      "Sabotage",
+      "Undermining",
+      "Insurrection"
+    ],
+    "antonyms": [
+      "Preservation",
+      "Fortification",
+      "Protection",
+      "Support"
+    ]
+  },
+  {
+    "id": 2920,
+    "word": "Succumb",
+    "pos": "verb",
+    "definition": "To fail to resist pressure, temptation, intense attacks, or fatal illness; to yield or die.",
+    "enExample": "The besieged garrison was forced to succumb to intense artillery bombardment after weeks of resistance.",
+    "taWord": "பணிந்து போதல் / தோல்வியடைதல்",
+    "taExample": "தொடர் பீரங்கி தாக்குதல்களுக்கு ஈடுகொடுக்க முடியாமல் அந்த ராணுவப் படை பணிந்து சரணடைந்தது.",
+    "synonyms": [
+      "Yield",
+      "Surrender",
+      "Capitulate",
+      "Give in"
+    ],
+    "antonyms": [
+      "Resist",
+      "Withstand",
+      "Surmount",
+      "Conquer"
+    ]
+  },
+  {
     "id": 2671,
     "word": "Sunsetting",
     "definition": "The planned, phased decommissioning or retirement of a software feature, API, or legacy platform.",
@@ -609,6 +901,69 @@
       "Inauguration",
       "Launch",
       "Rollout"
+    ]
+  },
+  {
+    "id": 2921,
+    "word": "Suppress",
+    "pos": "verb",
+    "definition": "To forcibly put an end to an uprising by authority, or intentionally conceal documents and news from public exposure.",
+    "enExample": "The regime deployed riot police to violently suppress peaceful anti-corruption demonstrations.",
+    "taWord": "வன்முறையால் அடக்குதல் / மறைத்தல்",
+    "taExample": "அமைதியான முறையில் நடந்த போராட்டங்களை அரசு கடுமையான பலத்தை பிரயோகித்து அடக்கியது.",
+    "synonyms": [
+      "Quash",
+      "Stifle",
+      "Censor",
+      "Crush"
+    ],
+    "antonyms": [
+      "Encourage",
+      "Publicize",
+      "Liberate",
+      "Release"
+    ]
+  },
+  {
+    "id": 2947,
+    "word": "Surge",
+    "pos": "noun",
+    "definition": "A sudden powerful forward or upward movement, especially of crowds, prices, network traffic, or electrical current.",
+    "enExample": "The e-commerce platform automatically scaled container replicas to handle the massive Black Friday traffic surge.",
+    "taWord": "திடீர் எழுச்சி / பெரும் ஏற்றம்",
+    "taExample": "பண்டிகை கால விற்பனையின் போது இணையதளத்தில் ஏற்பட்ட திடீர் போக்குவரத்து அதிகரிப்பை சமாளிக்க கூடுதல் சர்வர்கள் இயக்கப்பட்டன.",
+    "synonyms": [
+      "Spike",
+      "Upsurge",
+      "Deluge",
+      "Rush"
+    ],
+    "antonyms": [
+      "Plummet",
+      "Decline",
+      "Downturn",
+      "Drop"
+    ]
+  },
+  {
+    "id": 2922,
+    "word": "Surmount",
+    "pos": "verb",
+    "definition": "To successfully overcome, conquer, or triumph over a major obstacle, crisis, or challenge.",
+    "enExample": "Diplomats managed to surmount deep geopolitical divisions to finalize the humanitarian ceasefire treaty.",
+    "taWord": "தடைகளை வெற்றிகரமாக கடந்து வெல்லுதல்",
+    "taExample": "கடுமையான அரசியல் முரண்பாடுகளை கடந்து தூதர்கள் போர் நிறுத்த அமைதி ஒப்பந்தத்தை இறுதி செய்தனர்.",
+    "synonyms": [
+      "Overcome",
+      "Conquer",
+      "Triumph over",
+      "Prevail"
+    ],
+    "antonyms": [
+      "Succumb to",
+      "Fail",
+      "Yield",
+      "Collapse under"
     ]
   },
   {
@@ -664,6 +1019,24 @@
     "antonyms": [
       "Siloed work",
       "Isolated coding"
+    ]
+  },
+  {
+    "id": 2923,
+    "word": "Sworn Testimony",
+    "pos": "noun",
+    "definition": "Formal evidence given by a witness under solemn oath in a court of law or before a legislative committee.",
+    "enExample": "In sworn testimony before parliament, the intelligence director affirmed that foreign meddling occurred.",
+    "taWord": "சத்தியப்பிரமாண சாட்சியம்",
+    "taExample": "நாடாளுமன்றத்தின் முன் சத்தியப்பிரமாணம் செய்து அளித்த சாட்சியத்தில் வெளிநாட்டு குறுக்கீடு நடந்ததை அவர் உறுதி செய்தார்.",
+    "synonyms": [
+      "Deposition",
+      "Testimony under oath",
+      "Affidavit"
+    ],
+    "antonyms": [
+      "Unverified hearsay",
+      "Fabricated rumor"
     ]
   },
   {
@@ -743,295 +1116,6 @@
       "Grammar",
       "Structure",
       "Rules"
-    ]
-  },
-  {
-    "id": 2910,
-    "word": "Sabotage",
-    "pos": "verb",
-    "definition": "To deliberately destroy, disable, damage, or obstruct infrastructure or plans, especially for political advantage.",
-    "enExample": "Cyber operatives attempted to sabotage the national energy grid ahead of the general election.",
-    "taWord": "திட்டமிட்டு நாசவேலை செய்தல்",
-    "taExample": "தேர்தல் நேரத்தில் குழப்பத்தை ஏற்படுத்த நாட்டின் மின் விநியோகக் கட்டமைப்பை நாசவேலை செய்ய முயன்றனர்.",
-    "synonyms": [
-      "Vandalize",
-      "Subvert",
-      "Undermine",
-      "Disrupt"
-    ],
-    "antonyms": [
-      "Fortify",
-      "Protect",
-      "Support",
-      "Bolster"
-    ]
-  },
-  {
-    "id": 2911,
-    "word": "Sanction",
-    "pos": "noun",
-    "definition": "A threatened penalty or international economic embargo imposed on a state to compel compliance with law.",
-    "enExample": "The international community enacted heavy banking sanctions against the illicit weapons program.",
-    "taWord": "பொருளாதார / வர்த்தகத் தடையாணை",
-    "taExample": "சர்வதேச விதிகளை மீறியதற்காக அந்நாட்டின் மீது கடுமையான வங்கி மற்றும் வர்த்தகத் தடையாணை விதிக்கப்பட்டது.",
-    "synonyms": [
-      "Embargo",
-      "Punitive restriction",
-      "Trade penalty",
-      "Interdict"
-    ],
-    "antonyms": [
-      "Trade concession",
-      "Reward",
-      "Approval",
-      "Endorsement"
-    ]
-  },
-  {
-    "id": 2912,
-    "word": "Scapegoat",
-    "pos": "noun",
-    "definition": "A person or demographic unfairly made to bear the blame for the mistakes, failures, or sins of others.",
-    "enExample": "The junior minister was made the scapegoat for the disastrous national railway collapse.",
-    "taWord": "பழிசுமத்தப்படும் நபர் / பலிகடா",
-    "taExample": "உயர்மட்ட நிர்வாகத் தோல்விகளை மறைக்க அந்த இளநிலை அதிகாரி பலிகடாவாக்கப்பட்டார்.",
-    "synonyms": [
-      "Whipping boy",
-      "Fall guy",
-      "Victim",
-      "Patsy"
-    ],
-    "antonyms": [
-      "True culprit",
-      "Beneficiary",
-      "Exonerated party"
-    ]
-  },
-  {
-    "id": 2913,
-    "word": "Scrutiny",
-    "pos": "noun",
-    "definition": "Close, intense, critical, and exhaustive inspection or examination by media or regulators.",
-    "enExample": "The offshore bank accounts of high-ranking cabinet officials came under intense parliamentary scrutiny.",
-    "taWord": "தீவிர கண்காணிப்பு / நுணுக்கமான ஆய்வு",
-    "taExample": "அமைச்சர்களின் வெளிநாட்டு வங்கிக் கணக்குகள் நாடாளுமன்றத்தின் தீவிர ஆய்வுக்கு உட்படுத்தப்பட்டன.",
-    "synonyms": [
-      "Inspection",
-      "Examination",
-      "Audit",
-      "Surveillance"
-    ],
-    "antonyms": [
-      "Oversight lapse",
-      "Neglect",
-      "Blind spot",
-      "Disregard"
-    ]
-  },
-  {
-    "id": 2914,
-    "word": "Sedition",
-    "pos": "noun",
-    "definition": "Conduct, overt speech, or writing inciting rebellion against the authority or integrity of the state.",
-    "enExample": "The radical activist faced felony charges of sedition for urging a violent takeover of city hall.",
-    "taWord": "நாட்டுக்கு எதிரான கலகத் தூண்டல் / தேசத்துரோகம்",
-    "taExample": "அரசுக்கு எதிராக வன்முறை கலகத்தைத் தூண்டியதாக அவர் மீது தேசத்துரோக வழக்கு பதியப்பட்டது.",
-    "synonyms": [
-      "Insurrection",
-      "Treason",
-      "Subversion",
-      "Mutiny"
-    ],
-    "antonyms": [
-      "Allegiance",
-      "Loyalty",
-      "Patriotism",
-      "Obedience"
-    ]
-  },
-  {
-    "id": 2915,
-    "word": "Slander",
-    "pos": "noun",
-    "definition": "The criminal or civil action of making a false spoken defamatory statement damaging to a person's reputation.",
-    "enExample": "The mayor filed a multi-million-dollar slander lawsuit against the rival broadcaster over fabricated bribery claims.",
-    "taWord": "வாய்மொழி அவதூறு / பழிதூற்றுதல்",
-    "taExample": "தன்மீது போலியான லஞ்சக் குற்றச்சாட்டுகளைக் கூறிய தொலைக்காட்சிக்கு எதிராக அவர் அவதூறு வழக்கு தொடர்ந்தார்.",
-    "synonyms": [
-      "Defamation",
-      "Calumny",
-      "Smear",
-      "Libel"
-    ],
-    "antonyms": [
-      "Praise",
-      "Commendation",
-      "Tribute",
-      "Truthful defense"
-    ]
-  },
-  {
-    "id": 2916,
-    "word": "Sovereignty",
-    "pos": "noun",
-    "definition": "The supreme, absolute, and independent power of a self-governing state over its territory and laws.",
-    "enExample": "The Prime Minister declared that maritime incursions were a direct violation of national sovereignty.",
-    "taWord": "இறையாண்மை / தன்னாட்சி அதிகாரம்",
-    "taExample": "எங்கள் கடல் எல்லைக்குள் அத்துமீறி நுழைவது நாட்டின் இறையாண்மைக்கு விடப்பட்ட நேரடி சவால் என்று பிரதமர் கூறினார்.",
-    "synonyms": [
-      "Autonomy",
-      "Independence",
-      "Self-determination",
-      "Dominion"
-    ],
-    "antonyms": [
-      "Subjugation",
-      "Dependency",
-      "Colonial rule",
-      "Servitude"
-    ]
-  },
-  {
-    "id": 2917,
-    "word": "Standoff",
-    "pos": "noun",
-    "definition": "A tense deadlock or situation in which neither side in a confrontation will yield or back down.",
-    "enExample": "The armed standoff between federal marshals and local militia entered its fifth day.",
-    "taWord": "நேருக்கு நேர் மோதல் நிலை / இழுபறி",
-    "taExample": "இரு தரப்பினரும் பின்வாங்க மறுத்ததால் அந்தப் பகுதியில் நேருக்கு நேர் மோதல் பதற்றம் நீடித்தது.",
-    "synonyms": [
-      "Deadlock",
-      "Stalemate",
-      "Confrontation",
-      "Impasse"
-    ],
-    "antonyms": [
-      "Resolution",
-      "Surrender",
-      "Settlement",
-      "Truce"
-    ]
-  },
-  {
-    "id": 2918,
-    "word": "Subpoena",
-    "pos": "noun",
-    "definition": "A formal writ issued by a court or legislative committee commanding a person to testify or produce documents under penalty.",
-    "enExample": "The congressional oversight committee issued a subpoena for the tech CEO to turn over internal communications.",
-    "taWord": "நீதிமன்ற சாட்சி ஆஜர் ஆணை / அழைப்பாணை",
-    "taExample": "முக்கிய ஆவணங்களுடன் நேரில் ஆஜராகி விளக்கம் அளிக்குமாறு அவருக்கு நீதிமன்ற அழைப்பாணை அனுப்பப்பட்டது.",
-    "synonyms": [
-      "Summons",
-      "Court order",
-      "Warrant for witness",
-      "Citation"
-    ],
-    "antonyms": [
-      "Release",
-      "Discharge",
-      "Waiver of appearance"
-    ]
-  },
-  {
-    "id": 2919,
-    "word": "Subversion",
-    "pos": "noun",
-    "definition": "The systematic undermining and destruction of the power, authority, and integrity of an established system.",
-    "enExample": "Foreign intelligence services uncovered covert campaigns aimed at the subversion of national elections.",
-    "taWord": "அமைப்பை சீர்குலைக்கும் ரகசிய சதி",
-    "taExample": "நாட்டின் ஜனநாயக தேர்தலை சீர்குலைக்கும் நோக்கில் நடத்தப்பட்ட ரகசிய சதித் திட்டங்களை உளவுத்துறை முறியடித்தது.",
-    "synonyms": [
-      "Destabilization",
-      "Sabotage",
-      "Undermining",
-      "Insurrection"
-    ],
-    "antonyms": [
-      "Preservation",
-      "Fortification",
-      "Protection",
-      "Support"
-    ]
-  },
-  {
-    "id": 2920,
-    "word": "Succumb",
-    "pos": "verb",
-    "definition": "To fail to resist pressure, temptation, intense attacks, or fatal illness; to yield or die.",
-    "enExample": "The besieged garrison was forced to succumb to intense artillery bombardment after weeks of resistance.",
-    "taWord": "பணிந்து போதல் / தோல்வியடைதல்",
-    "taExample": "தொடர் பீரங்கி தாக்குதல்களுக்கு ஈடுகொடுக்க முடியாமல் அந்த ராணுவப் படை பணிந்து சரணடைந்தது.",
-    "synonyms": [
-      "Yield",
-      "Surrender",
-      "Capitulate",
-      "Give in"
-    ],
-    "antonyms": [
-      "Resist",
-      "Withstand",
-      "Surmount",
-      "Conquer"
-    ]
-  },
-  {
-    "id": 2921,
-    "word": "Suppress",
-    "pos": "verb",
-    "definition": "To forcibly put an end to an uprising by authority, or intentionally conceal documents and news from public exposure.",
-    "enExample": "The regime deployed riot police to violently suppress peaceful anti-corruption demonstrations.",
-    "taWord": "வன்முறையால் அடக்குதல் / மறைத்தல்",
-    "taExample": "அமைதியான முறையில் நடந்த போராட்டங்களை அரசு கடுமையான பலத்தை பிரயோகித்து அடக்கியது.",
-    "synonyms": [
-      "Quash",
-      "Stifle",
-      "Censor",
-      "Crush"
-    ],
-    "antonyms": [
-      "Encourage",
-      "Publicize",
-      "Liberate",
-      "Release"
-    ]
-  },
-  {
-    "id": 2922,
-    "word": "Surmount",
-    "pos": "verb",
-    "definition": "To successfully overcome, conquer, or triumph over a major obstacle, crisis, or challenge.",
-    "enExample": "Diplomats managed to surmount deep geopolitical divisions to finalize the humanitarian ceasefire treaty.",
-    "taWord": "தடைகளை வெற்றிகரமாக கடந்து வெல்லுதல்",
-    "taExample": "கடுமையான அரசியல் முரண்பாடுகளை கடந்து தூதர்கள் போர் நிறுத்த அமைதி ஒப்பந்தத்தை இறுதி செய்தனர்.",
-    "synonyms": [
-      "Overcome",
-      "Conquer",
-      "Triumph over",
-      "Prevail"
-    ],
-    "antonyms": [
-      "Succumb to",
-      "Fail",
-      "Yield",
-      "Collapse under"
-    ]
-  },
-  {
-    "id": 2923,
-    "word": "Sworn Testimony",
-    "pos": "noun",
-    "definition": "Formal evidence given by a witness under solemn oath in a court of law or before a legislative committee.",
-    "enExample": "In sworn testimony before parliament, the intelligence director affirmed that foreign meddling occurred.",
-    "taWord": "சத்தியப்பிரமாண சாட்சியம்",
-    "taExample": "நாடாளுமன்றத்தின் முன் சத்தியப்பிரமாணம் செய்து அளித்த சாட்சியத்தில் வெளிநாட்டு குறுக்கீடு நடந்ததை அவர் உறுதி செய்தார்.",
-    "synonyms": [
-      "Deposition",
-      "Testimony under oath",
-      "Affidavit"
-    ],
-    "antonyms": [
-      "Unverified hearsay",
-      "Fabricated rumor"
     ]
   }
 ]

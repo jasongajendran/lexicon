@@ -178,6 +178,27 @@
     ]
   },
   {
+    "id": 2842,
+    "word": "Beleaguered",
+    "pos": "adj.",
+    "definition": "Beset with intense difficulties, severe criticisms, or hostile pressure from multiple sides.",
+    "enExample": "The beleaguered Prime Minister faced intense calls to resign following the budget disaster.",
+    "taWord": "நெருக்கடிகளில் சிக்கிய / தத்தளிக்கும்",
+    "taExample": "பட்ஜெட் குளறுபடிகளுக்குப் பிறகு நெருக்கடியில் சிக்கிய பிரதமர் பதவி விலகக் கோரப்பட்டார்.",
+    "synonyms": [
+      "Embattled",
+      "Besieged",
+      "Under fire",
+      "Hard-pressed"
+    ],
+    "antonyms": [
+      "Thriving",
+      "Carefree",
+      "Untroubled",
+      "Comfortable"
+    ]
+  },
+  {
     "id": 226,
     "word": "Bellicose",
     "definition": "Demonstrating aggression and willingness to fight.",
@@ -345,6 +366,27 @@
     "antonyms": [
       "Unbind",
       "Detach"
+    ]
+  },
+  {
+    "id": 2955,
+    "word": "Bipartisan",
+    "pos": "adj.",
+    "definition": "Involving the agreement, cooperation, or compromise of two opposing political parties.",
+    "enExample": "The cybersecurity infrastructure bill passed with overwhelming bipartisan support in both legislative houses.",
+    "taWord": "இரு கட்சிகளின் கூட்டு ஆதரவுடைய",
+    "taExample": "புதிய இணைய பாதுகாப்பு மசோதா ஆளுங்கட்சி மற்றும் எதிர்க்கட்சி ஆகிய இருதரப்பு ஆதரவுடன் நிறைவேற்றப்பட்டது.",
+    "synonyms": [
+      "Cross-party",
+      "Two-party",
+      "Collaborative",
+      "Unified"
+    ],
+    "antonyms": [
+      "Partisan",
+      "Sectarian",
+      "One-sided",
+      "Factions"
     ]
   },
   {
@@ -860,27 +902,6 @@
     "antonyms": [
       "Confront",
       "Face"
-    ]
-  },
-  {
-    "id": 2842,
-    "word": "Beleaguered",
-    "pos": "adj.",
-    "definition": "Beset with intense difficulties, severe criticisms, or hostile pressure from multiple sides.",
-    "enExample": "The beleaguered Prime Minister faced intense calls to resign following the budget disaster.",
-    "taWord": "நெருக்கடிகளில் சிக்கிய / தத்தளிக்கும்",
-    "taExample": "பட்ஜெட் குளறுபடிகளுக்குப் பிறகு நெருக்கடியில் சிக்கிய பிரதமர் பதவி விலகக் கோரப்பட்டார்.",
-    "synonyms": [
-      "Embattled",
-      "Besieged",
-      "Under fire",
-      "Hard-pressed"
-    ],
-    "antonyms": [
-      "Thriving",
-      "Carefree",
-      "Untroubled",
-      "Comfortable"
     ]
   }
 ]

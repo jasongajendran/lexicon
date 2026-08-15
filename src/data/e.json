@@ -1,5 +1,26 @@
 [
   {
+    "id": 2858,
+    "word": "Earmark",
+    "pos": "verb",
+    "definition": "To set aside, designate, or allocate specific funds or resources for a designated purpose.",
+    "enExample": "The state legislature voted to earmark fifty million dollars exclusively for flood barrier defenses.",
+    "taWord": "குறிப்பிட்ட பணிக்கென நிதி ஒதுக்குதல்",
+    "taExample": "வெள்ளத் தடுப்பு பணிகளுக்காக பிரத்யேகமாக ஐம்பது மில்லியன் டாலர் நிதியை அரசு ஒதுக்கியது.",
+    "synonyms": [
+      "Allocate",
+      "Designate",
+      "Set aside",
+      "Appropriate"
+    ],
+    "antonyms": [
+      "Generalize",
+      "Squander",
+      "Divert",
+      "Misappropriate"
+    ]
+  },
+  {
     "id": 526,
     "word": "Eclectic",
     "definition": "Deriving ideas, style, or taste from a broad and diverse range of sources.",
@@ -150,6 +171,26 @@
     ]
   },
   {
+    "id": 2860,
+    "word": "Embargo",
+    "pos": "noun",
+    "definition": "An official government ban on trade, oil, or commercial activity with a particular country.",
+    "enExample": "The United Nations imposed an arms embargo against the rogue regime to curb regional violence.",
+    "taWord": "வர்த்தகத் தடை / பொருளாதார தடை",
+    "taExample": "வன்முறையைக் கட்டுப்படுத்த அந்நாட்டுக்கு எதிரான ஆயுத விற்பனைத் தடையை ஐ.நா. விதித்தது.",
+    "synonyms": [
+      "Sanction",
+      "Trade ban",
+      "Blockade",
+      "Prohibition"
+    ],
+    "antonyms": [
+      "Free trade",
+      "Commercial treaty",
+      "Open market"
+    ]
+  },
+  {
     "id": 2778,
     "word": "Embeddings",
     "pos": "noun",
@@ -165,6 +206,48 @@
     "antonyms": [
       "Raw strings",
       "One-hot encodings"
+    ]
+  },
+  {
+    "id": 2859,
+    "word": "Embezzlement",
+    "pos": "noun",
+    "definition": "The theft, fraudulent appropriation, or secret diversion of funds placed in one's official trust.",
+    "enExample": "The city treasurer was indicted on federal charges of embezzlement involving municipal pension accounts.",
+    "taWord": "நம்பிக்கை துரோக நிதி மோசடி / கையாடல்",
+    "taExample": "நகராட்சி ஓய்வூதிய நிதியில் கோடிக்கணக்கான ரூபாயை கையாடல் செய்ததாக பொருளாளர் மீது குற்றம் சாட்டப்பட்டது.",
+    "synonyms": [
+      "Misappropriation",
+      "Peculation",
+      "Fraud",
+      "Theft"
+    ],
+    "antonyms": [
+      "Stewardship",
+      "Integrity",
+      "Accountability",
+      "Honesty"
+    ]
+  },
+  {
+    "id": 2861,
+    "word": "Embolden",
+    "pos": "verb",
+    "definition": "To give someone the confidence or audacity to take bold or aggressive actions.",
+    "enExample": "The lack of international pushback emboldened the military regime to seize control of neighboring territories.",
+    "taWord": "துணிச்சல் ஊட்டுதல் / தைரியமளித்தல்",
+    "taExample": "எதிர்ப்புகள் இல்லாதது அந்நாட்டு ராணுவத்திற்கு மேலும் ஆக்கிரமிப்பு செய்ய துணிச்சலை அளித்தது.",
+    "synonyms": [
+      "Encourage",
+      "Inspirit",
+      "Incentivize",
+      "Fortify"
+    ],
+    "antonyms": [
+      "Deter",
+      "Dishearten",
+      "Intimidate",
+      "Discourage"
     ]
   },
   {
@@ -504,6 +587,27 @@
     ]
   },
   {
+    "id": 2862,
+    "word": "Escalation",
+    "pos": "noun",
+    "definition": "A rapid increase in the intensity, seriousness, danger, or scale of a conflict or crisis.",
+    "enExample": "Diplomats worked tirelessly to prevent a dangerous military escalation along the disputed border.",
+    "taWord": "தீவிரம் அடைதல் / தீவிரமடைதல்",
+    "taExample": "எல்லைப் பகுதியில் பதற்றம் மேலும் தீவிரமடைவதைத் தடுக்க தூதர்கள் அவசர பேச்சுவார்த்தை நடத்தினர்.",
+    "synonyms": [
+      "Intensification",
+      "Expansion",
+      "Surge",
+      "Amplification"
+    ],
+    "antonyms": [
+      "De-escalation",
+      "Reduction",
+      "Cooling-off",
+      "Abatement"
+    ]
+  },
+  {
     "id": 528,
     "word": "Esoteric",
     "definition": "Intended for or likely to be understood by only a small number of people with a specialized knowledge or interest.",
@@ -602,6 +706,27 @@
     ]
   },
   {
+    "id": 2863,
+    "word": "Exacerbate",
+    "pos": "verb",
+    "definition": "To make a problem, conflict, disease, or difficult situation significantly worse.",
+    "enExample": "The heatwave and sudden drought exacerbated the country's ongoing grain shortages.",
+    "taWord": "மேலும் மோசமாக்குதல் / தீவிரப்படுத்துதல்",
+    "taExample": "கடும் வறட்சியும் வெப்ப அலையும் நாட்டின் உணவுப் பற்றாக்குறையை மேலும் தீவிரப்படுத்தின.",
+    "synonyms": [
+      "Aggravate",
+      "Worsen",
+      "Inflame",
+      "Intensify"
+    ],
+    "antonyms": [
+      "Alleviate",
+      "Mitigate",
+      "Soothe",
+      "Ameliorate"
+    ]
+  },
+  {
     "id": 517,
     "word": "Exclusive",
     "definition": "Restricted or limited to the person, group, or area concerned.",
@@ -650,6 +775,27 @@
     "antonyms": [
       "Incomplete",
       "Superficial"
+    ]
+  },
+  {
+    "id": 2864,
+    "word": "Exonerate",
+    "pos": "verb",
+    "definition": "To officially absolve someone from blame, guilt, or criminal responsibility for a wrongdoing.",
+    "enExample": "Newly analyzed DNA forensic evidence served to completely exonerate the wrongfully convicted journalist.",
+    "taWord": "குற்றச்சாட்டிலிருந்து விடுவித்தல்",
+    "taExample": "புதிய மரபணு தடய அறிவியல் சான்றுகள் அந்த பத்திரிகையாளரை குற்றச்சாட்டிலிருந்து முழுமையாக விடுவித்தன.",
+    "synonyms": [
+      "Acquit",
+      "Vindicate",
+      "Absolve",
+      "Clear"
+    ],
+    "antonyms": [
+      "Inculpate",
+      "Convict",
+      "Incriminate",
+      "Condemn"
     ]
   },
   {
@@ -756,169 +902,6 @@
     ]
   },
   {
-    "id": 524,
-    "word": "Extraneous",
-    "definition": "Irrelevant or unrelated to the subject being dealt with.",
-    "enExample": "Remove any extraneous dependencies from the package.json.",
-    "taExample": "package.json இலிருந்து எந்தவொரு தேவையற்ற சார்புகளையும் அகற்றவும்.",
-    "taWord": "தேவையற்ற",
-    "pos": "adj.",
-    "synonyms": [
-      "Irrelevant",
-      "Superfluous"
-    ],
-    "antonyms": [
-      "Relevant",
-      "Essential"
-    ]
-  },
-  {
-    "id": 2858,
-    "word": "Earmark",
-    "pos": "verb",
-    "definition": "To set aside, designate, or allocate specific funds or resources for a designated purpose.",
-    "enExample": "The state legislature voted to earmark fifty million dollars exclusively for flood barrier defenses.",
-    "taWord": "குறிப்பிட்ட பணிக்கென நிதி ஒதுக்குதல்",
-    "taExample": "வெள்ளத் தடுப்பு பணிகளுக்காக பிரத்யேகமாக ஐம்பது மில்லியன் டாலர் நிதியை அரசு ஒதுக்கியது.",
-    "synonyms": [
-      "Allocate",
-      "Designate",
-      "Set aside",
-      "Appropriate"
-    ],
-    "antonyms": [
-      "Generalize",
-      "Squander",
-      "Divert",
-      "Misappropriate"
-    ]
-  },
-  {
-    "id": 2859,
-    "word": "Embezzlement",
-    "pos": "noun",
-    "definition": "The theft, fraudulent appropriation, or secret diversion of funds placed in one's official trust.",
-    "enExample": "The city treasurer was indicted on federal charges of embezzlement involving municipal pension accounts.",
-    "taWord": "நம்பிக்கை துரோக நிதி மோசடி / கையாடல்",
-    "taExample": "நகராட்சி ஓய்வூதிய நிதியில் கோடிக்கணக்கான ரூபாயை கையாடல் செய்ததாக பொருளாளர் மீது குற்றம் சாட்டப்பட்டது.",
-    "synonyms": [
-      "Misappropriation",
-      "Peculation",
-      "Fraud",
-      "Theft"
-    ],
-    "antonyms": [
-      "Stewardship",
-      "Integrity",
-      "Accountability",
-      "Honesty"
-    ]
-  },
-  {
-    "id": 2860,
-    "word": "Embargo",
-    "pos": "noun",
-    "definition": "An official government ban on trade, oil, or commercial activity with a particular country.",
-    "enExample": "The United Nations imposed an arms embargo against the rogue regime to curb regional violence.",
-    "taWord": "வர்த்தகத் தடை / பொருளாதார தடை",
-    "taExample": "வன்முறையைக் கட்டுப்படுத்த அந்நாட்டுக்கு எதிரான ஆயுத விற்பனைத் தடையை ஐ.நா. விதித்தது.",
-    "synonyms": [
-      "Sanction",
-      "Trade ban",
-      "Blockade",
-      "Prohibition"
-    ],
-    "antonyms": [
-      "Free trade",
-      "Commercial treaty",
-      "Open market"
-    ]
-  },
-  {
-    "id": 2861,
-    "word": "Embolden",
-    "pos": "verb",
-    "definition": "To give someone the confidence or audacity to take bold or aggressive actions.",
-    "enExample": "The lack of international pushback emboldened the military regime to seize control of neighboring territories.",
-    "taWord": "துணிச்சல் ஊட்டுதல் / தைரியமளித்தல்",
-    "taExample": "எதிர்ப்புகள் இல்லாதது அந்நாட்டு ராணுவத்திற்கு மேலும் ஆக்கிரமிப்பு செய்ய துணிச்சலை அளித்தது.",
-    "synonyms": [
-      "Encourage",
-      "Inspirit",
-      "Incentivize",
-      "Fortify"
-    ],
-    "antonyms": [
-      "Deter",
-      "Dishearten",
-      "Intimidate",
-      "Discourage"
-    ]
-  },
-  {
-    "id": 2862,
-    "word": "Escalation",
-    "pos": "noun",
-    "definition": "A rapid increase in the intensity, seriousness, danger, or scale of a conflict or crisis.",
-    "enExample": "Diplomats worked tirelessly to prevent a dangerous military escalation along the disputed border.",
-    "taWord": "தீவிரம் அடைதல் / தீவிரமடைதல்",
-    "taExample": "எல்லைப் பகுதியில் பதற்றம் மேலும் தீவிரமடைவதைத் தடுக்க தூதர்கள் அவசர பேச்சுவார்த்தை நடத்தினர்.",
-    "synonyms": [
-      "Intensification",
-      "Expansion",
-      "Surge",
-      "Amplification"
-    ],
-    "antonyms": [
-      "De-escalation",
-      "Reduction",
-      "Cooling-off",
-      "Abatement"
-    ]
-  },
-  {
-    "id": 2863,
-    "word": "Exacerbate",
-    "pos": "verb",
-    "definition": "To make a problem, conflict, disease, or difficult situation significantly worse.",
-    "enExample": "The heatwave and sudden drought exacerbated the country's ongoing grain shortages.",
-    "taWord": "மேலும் மோசமாக்குதல் / தீவிரப்படுத்துதல்",
-    "taExample": "கடும் வறட்சியும் வெப்ப அலையும் நாட்டின் உணவுப் பற்றாக்குறையை மேலும் தீவிரப்படுத்தின.",
-    "synonyms": [
-      "Aggravate",
-      "Worsen",
-      "Inflame",
-      "Intensify"
-    ],
-    "antonyms": [
-      "Alleviate",
-      "Mitigate",
-      "Soothe",
-      "Ameliorate"
-    ]
-  },
-  {
-    "id": 2864,
-    "word": "Exonerate",
-    "pos": "verb",
-    "definition": "To officially absolve someone from blame, guilt, or criminal responsibility for a wrongdoing.",
-    "enExample": "Newly analyzed DNA forensic evidence served to completely exonerate the wrongfully convicted journalist.",
-    "taWord": "குற்றச்சாட்டிலிருந்து விடுவித்தல்",
-    "taExample": "புதிய மரபணு தடய அறிவியல் சான்றுகள் அந்த பத்திரிகையாளரை குற்றச்சாட்டிலிருந்து முழுமையாக விடுவித்தன.",
-    "synonyms": [
-      "Acquit",
-      "Vindicate",
-      "Absolve",
-      "Clear"
-    ],
-    "antonyms": [
-      "Inculpate",
-      "Convict",
-      "Incriminate",
-      "Condemn"
-    ]
-  },
-  {
     "id": 2865,
     "word": "Extradition",
     "pos": "noun",
@@ -935,6 +918,23 @@
       "Political asylum",
       "Safe harbor",
       "Refuge"
+    ]
+  },
+  {
+    "id": 524,
+    "word": "Extraneous",
+    "definition": "Irrelevant or unrelated to the subject being dealt with.",
+    "enExample": "Remove any extraneous dependencies from the package.json.",
+    "taExample": "package.json இலிருந்து எந்தவொரு தேவையற்ற சார்புகளையும் அகற்றவும்.",
+    "taWord": "தேவையற்ற",
+    "pos": "adj.",
+    "synonyms": [
+      "Irrelevant",
+      "Superfluous"
+    ],
+    "antonyms": [
+      "Relevant",
+      "Essential"
     ]
   }
 ]

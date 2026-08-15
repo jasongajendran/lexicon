@@ -54,6 +54,47 @@
     ]
   },
   {
+    "id": 2846,
+    "word": "Debacle",
+    "pos": "noun",
+    "definition": "A sudden, complete, and ignominious failure; a chaotic fiasco.",
+    "enExample": "The launch of the unverified voting software turned into a total national election debacle.",
+    "taWord": "படுதோல்வி / குளறுபடி",
+    "taExample": "சரிபார்க்கப்படாத வாக்குப்பதிவு மென்பொருள் தேர்தல் நாளன்று பெரும் படுதோல்வியாக முடிந்தது.",
+    "synonyms": [
+      "Fiasco",
+      "Catastrophe",
+      "Blunder",
+      "Collapse"
+    ],
+    "antonyms": [
+      "Triumph",
+      "Resounding success",
+      "Masterpiece"
+    ]
+  },
+  {
+    "id": 2957,
+    "word": "Debilitate",
+    "pos": "verb",
+    "definition": "To severely weaken, impair the strength of, or hinder the normal functioning of a person or system.",
+    "enExample": "A distributed denial-of-service attack threatened to debilitate the nation's critical banking transaction grid.",
+    "taWord": "வலுவிழக்கச் செய்தல் / பலவீனப்படுத்துதல்",
+    "taExample": "இணையவழி சைபர் தாக்குதலானது நாட்டின் முக்கிய வங்கி பணப்பரிவர்த்தனை கட்டமைப்பை முடக்கும் அபாயத்தை ஏற்படுத்தியது.",
+    "synonyms": [
+      "Weaken",
+      "Enfeeble",
+      "Incapacitate",
+      "Cripple"
+    ],
+    "antonyms": [
+      "Strengthen",
+      "Invigorate",
+      "Fortify",
+      "Energize"
+    ]
+  },
+  {
     "id": 401,
     "word": "Debug",
     "definition": "Identify and remove errors from computer hardware or software.",
@@ -153,6 +194,27 @@
     "antonyms": [
       "Advance",
       "Expedite"
+    ]
+  },
+  {
+    "id": 2847,
+    "word": "Defiance",
+    "pos": "noun",
+    "definition": "Open, bold resistance or refusal to obey authority or an opposing force.",
+    "enExample": "Thousands of demonstrators marched in direct defiance of the curfew order.",
+    "taWord": "மறுப்பு / அடங்காத எதிர்ப்பு",
+    "taExample": "ஊரடங்கு உத்தரவை துணிச்சலுடன் எதிர்த்து ஆயிரக்கணக்கான போராட்டக்காரர்கள் ஊர்வலம் சென்றனர்.",
+    "synonyms": [
+      "Rebellion",
+      "Disobedience",
+      "Resistance",
+      "Intransigence"
+    ],
+    "antonyms": [
+      "Compliance",
+      "Submission",
+      "Obedience",
+      "Surrender"
     ]
   },
   {
@@ -272,6 +334,25 @@
       "Pragmatic",
       "Grounded",
       "Realistic"
+    ]
+  },
+  {
+    "id": 2848,
+    "word": "Demagogue",
+    "pos": "noun",
+    "definition": "A political leader who gains popularity and power by appealing to emotions, fears, and prejudices rather than reasoned argument.",
+    "enExample": "Broadcasters warned that the charismatic demagogue was exploiting economic despair for electoral gain.",
+    "taWord": "மக்களை தூண்டிவிடும் பேச்சாளர் / போலித் தலைவர்",
+    "taExample": "மக்களின் அச்சத்தையும் உணர்ச்சிகளையும் தூண்டிவிட்டு ஆதாயம் தேடும் தலைவராக அவர் செயல்பட்டார்.",
+    "synonyms": [
+      "Rabble-rouser",
+      "Agitator",
+      "Populist firebrand"
+    ],
+    "antonyms": [
+      "Statesman",
+      "Diplomat",
+      "Rationalist"
     ]
   },
   {
@@ -419,6 +500,27 @@
     ]
   },
   {
+    "id": 2849,
+    "word": "Deteriorate",
+    "pos": "verb",
+    "definition": "To become progressively worse in quality, condition, health, or stability over time.",
+    "enExample": "Diplomatic relations between the neighboring states continued to deteriorate rapidly.",
+    "taWord": "மோசமடைதல் / சீர்கெடுதல்",
+    "taExample": "அண்டை நாடுகளுக்கிடையேயான தூதரக உறவுகள் நாளுக்கு நாள் வேகமாக மோசமடைந்து வருகின்றன.",
+    "synonyms": [
+      "Worsen",
+      "Degenerate",
+      "Decline",
+      "Decay"
+    ],
+    "antonyms": [
+      "Improve",
+      "Ameliorate",
+      "Recover",
+      "Flourish"
+    ]
+  },
+  {
     "id": 411,
     "word": "Deterministic",
     "definition": "Always producing the same output from a given starting condition or initial state.",
@@ -433,6 +535,27 @@
     "antonyms": [
       "Random",
       "Stochastic"
+    ]
+  },
+  {
+    "id": 2850,
+    "word": "Detrimental",
+    "pos": "adj.",
+    "definition": "Tending to cause harm, damage, injury, or disadvantage.",
+    "enExample": "Prolonged port strikes have had a deeply detrimental effect on regional food distribution.",
+    "taWord": "தீங்கிழைக்கும் / கேடு விளைவிக்கும்",
+    "taExample": "நீண்டகால துறைமுக வேலைநிறுத்தம் உணவுப் பொருள் விநியோகத்தில் பெரும் கேடு விளைவித்துள்ளது.",
+    "synonyms": [
+      "Harmful",
+      "Damaging",
+      "Inimical",
+      "Deleterious"
+    ],
+    "antonyms": [
+      "Beneficial",
+      "Advantageous",
+      "Constructive",
+      "Helpful"
     ]
   },
   {
@@ -501,6 +624,27 @@
     ]
   },
   {
+    "id": 2958,
+    "word": "Disavow",
+    "pos": "verb",
+    "definition": "To formally deny any responsibility, connection, knowledge, or support for an action or statement.",
+    "enExample": "The prime minister was forced to disavow controversial remarks made by a junior diplomat on state television.",
+    "taWord": "பொறுப்பில்லை என மறுத்தல் / தொடர்பை துண்டித்தல்",
+    "taExample": "தொலைக்காட்சியில் தூதர் பேசிய சர்ச்சைக்குரிய கருத்துக்களுக்கு அரசு பொறுப்பல்ல என பிரதமர் திட்டவட்டமாக தெரிவித்தார்.",
+    "synonyms": [
+      "Deny",
+      "Disown",
+      "Repudiate",
+      "Reject"
+    ],
+    "antonyms": [
+      "Acknowledge",
+      "Endorse",
+      "Affirm",
+      "Accept"
+    ]
+  },
+  {
     "id": 432,
     "word": "Discipline",
     "definition": "The practice of following rules or code of conduct strictly.",
@@ -552,6 +696,68 @@
     ]
   },
   {
+    "id": 2851,
+    "word": "Disinformation",
+    "pos": "noun",
+    "definition": "Deliberately false or misleading information spread intentionally to deceive public opinion or destabilize institutions.",
+    "enExample": "Intelligence agencies warned of automated bot networks spreading election disinformation.",
+    "taWord": "திட்டமிட்ட போலித் தகவல்",
+    "taExample": "தேர்தல் நேரத்தில் மக்களை திசைதிருப்ப திட்டமிட்டு பரப்பப்படும் போலிச் செய்திகள் குறித்து உளவுத்துறை எச்சரித்தது.",
+    "synonyms": [
+      "Fake news",
+      "Propaganda",
+      "Misinformation",
+      "Deception"
+    ],
+    "antonyms": [
+      "Verifiable facts",
+      "Truth",
+      "Authentic reporting"
+    ]
+  },
+  {
+    "id": 2852,
+    "word": "Dismantle",
+    "pos": "verb",
+    "definition": "To take apart a structure or machine, or systematically eliminate an established policy or organization.",
+    "enExample": "The reform committee moved to dismantle outdated bureaucratic trade barriers.",
+    "taWord": "படிப்படியாக உடைத்து அகற்றுதல்",
+    "taExample": "பழைய அதிகாரத்துவ வர்த்தகத் தடைகளை முழுமையாக அகற்ற ஆணையம் முடிவு செய்தது.",
+    "synonyms": [
+      "Demolish",
+      "Deconstruct",
+      "Abolish",
+      "Disband"
+    ],
+    "antonyms": [
+      "Construct",
+      "Assemble",
+      "Establish",
+      "Build"
+    ]
+  },
+  {
+    "id": 2853,
+    "word": "Disparity",
+    "pos": "noun",
+    "definition": "A noticeable, great difference or inequality between two or more groups, sectors, or metrics.",
+    "enExample": "The investigation exposed a widening wealth disparity across metropolitan provinces.",
+    "taWord": "ஏற்றத்தாழ்வு / வேறுபாடு",
+    "taExample": "நகர்ப்புறப் பகுதிகளில் நிலவும் கடுமையான செல்வ ஏற்றத்தாழ்வை இந்த ஆய்வு வெளிப்படுத்தியது.",
+    "synonyms": [
+      "Imbalance",
+      "Inequality",
+      "Divergence",
+      "Gap"
+    ],
+    "antonyms": [
+      "Parity",
+      "Equality",
+      "Uniformity",
+      "Equivalence"
+    ]
+  },
+  {
     "id": 415,
     "word": "Dispatch",
     "definition": "Send off to a destination or for a purpose.",
@@ -565,6 +771,48 @@
     ],
     "antonyms": [
       "Receive"
+    ]
+  },
+  {
+    "id": 2854,
+    "word": "Disproportionate",
+    "pos": "adj.",
+    "definition": "Too large, too small, or too severe in comparison with something else; out of proper proportion.",
+    "enExample": "Civil rights groups criticized the police response as a disproportionate use of force.",
+    "taWord": "விகிதாச்சாரமற்ற / மிகையான",
+    "taExample": "போராட்டக்காரர்கள் மீது காவல்துறை தேவையின்றி மிகையான பலத்தைப் பிரயோகித்ததாக குற்றம் சாட்டப்பட்டது.",
+    "synonyms": [
+      "Excessive",
+      "Inordinate",
+      "Unbalanced",
+      "Asymmetric"
+    ],
+    "antonyms": [
+      "Proportionate",
+      "Balanced",
+      "Commensurate",
+      "Fair"
+    ]
+  },
+  {
+    "id": 2855,
+    "word": "Disquiet",
+    "pos": "noun",
+    "definition": "A feeling of deep anxiety, unease, or agitation spreading through a population or organization.",
+    "enExample": "Rumors of impending bank closures caused intense disquiet among small business owners.",
+    "taWord": "அமைதியின்மை / கலக்கம்",
+    "taExample": "வங்கிகள் மூடப்படலாம் என்ற வதந்திகள் சிறு வணிகர்களிடையே பெரும் அமைதியின்மையை ஏற்படுத்தின.",
+    "synonyms": [
+      "Unease",
+      "Anxiety",
+      "Apprehension",
+      "Turbulence"
+    ],
+    "antonyms": [
+      "Serenity",
+      "Tranquility",
+      "Peace",
+      "Calm"
     ]
   },
   {
@@ -582,6 +830,27 @@
     "antonyms": [
       "Calming",
       "Settling"
+    ]
+  },
+  {
+    "id": 2856,
+    "word": "Dissent",
+    "pos": "noun",
+    "definition": "The expression or holding of opinions at variance with those commonly, officially, or politically held.",
+    "enExample": "The supreme court judge penned a passionate dissent challenging the constitutionality of the surveillance bill.",
+    "taWord": "மாறுபட்ட கருத்து / மாற்றுக்கருத்து",
+    "taExample": "புதிய கண்காணிப்பு சட்டத்திற்கு எதிராக உச்ச நீதிமன்ற நீதிபதி வலுவான மாற்றுக்கருத்து தீர்ப்பை வழங்கினார்.",
+    "synonyms": [
+      "Disagreement",
+      "Opposition",
+      "Nonconformity",
+      "Protest"
+    ],
+    "antonyms": [
+      "Assent",
+      "Conformity",
+      "Consensus",
+      "Agreement"
     ]
   },
   {
@@ -799,6 +1068,27 @@
     ]
   },
   {
+    "id": 2857,
+    "word": "Draconian",
+    "pos": "adj.",
+    "definition": "Excessively harsh, severe, or cruel, especially in relation to laws, penalties, or government rules.",
+    "enExample": "Human rights organizations denounced the new protest restrictions as draconian legislation.",
+    "taWord": "கடுமையான / கொடூரமான சட்டம்",
+    "taExample": "புதிய கட்டுப்பாட்டு விதிகள் மக்களின் அடிப்படை உரிமைகளைப் பறிக்கும் கொடூரமான சட்டங்கள் என விமர்சிக்கப்பட்டன.",
+    "synonyms": [
+      "Authoritarian",
+      "Severe",
+      "Harsh",
+      "Oppressive"
+    ],
+    "antonyms": [
+      "Lenient",
+      "Mild",
+      "Permissive",
+      "Tolerant"
+    ]
+  },
+  {
     "id": 437,
     "word": "Drive",
     "definition": "An innate impulse or motivation to achieve a goal.",
@@ -881,254 +1171,6 @@
     "antonyms": [
       "Static",
       "Fixed"
-    ]
-  },
-  {
-    "id": 2846,
-    "word": "Debacle",
-    "pos": "noun",
-    "definition": "A sudden, complete, and ignominious failure; a chaotic fiasco.",
-    "enExample": "The launch of the unverified voting software turned into a total national election debacle.",
-    "taWord": "படுதோல்வி / குளறுபடி",
-    "taExample": "சரிபார்க்கப்படாத வாக்குப்பதிவு மென்பொருள் தேர்தல் நாளன்று பெரும் படுதோல்வியாக முடிந்தது.",
-    "synonyms": [
-      "Fiasco",
-      "Catastrophe",
-      "Blunder",
-      "Collapse"
-    ],
-    "antonyms": [
-      "Triumph",
-      "Resounding success",
-      "Masterpiece"
-    ]
-  },
-  {
-    "id": 2847,
-    "word": "Defiance",
-    "pos": "noun",
-    "definition": "Open, bold resistance or refusal to obey authority or an opposing force.",
-    "enExample": "Thousands of demonstrators marched in direct defiance of the curfew order.",
-    "taWord": "மறுப்பு / அடங்காத எதிர்ப்பு",
-    "taExample": "ஊரடங்கு உத்தரவை துணிச்சலுடன் எதிர்த்து ஆயிரக்கணக்கான போராட்டக்காரர்கள் ஊர்வலம் சென்றனர்.",
-    "synonyms": [
-      "Rebellion",
-      "Disobedience",
-      "Resistance",
-      "Intransigence"
-    ],
-    "antonyms": [
-      "Compliance",
-      "Submission",
-      "Obedience",
-      "Surrender"
-    ]
-  },
-  {
-    "id": 2848,
-    "word": "Demagogue",
-    "pos": "noun",
-    "definition": "A political leader who gains popularity and power by appealing to emotions, fears, and prejudices rather than reasoned argument.",
-    "enExample": "Broadcasters warned that the charismatic demagogue was exploiting economic despair for electoral gain.",
-    "taWord": "மக்களை தூண்டிவிடும் பேச்சாளர் / போலித் தலைவர்",
-    "taExample": "மக்களின் அச்சத்தையும் உணர்ச்சிகளையும் தூண்டிவிட்டு ஆதாயம் தேடும் தலைவராக அவர் செயல்பட்டார்.",
-    "synonyms": [
-      "Rabble-rouser",
-      "Agitator",
-      "Populist firebrand"
-    ],
-    "antonyms": [
-      "Statesman",
-      "Diplomat",
-      "Rationalist"
-    ]
-  },
-  {
-    "id": 2849,
-    "word": "Deteriorate",
-    "pos": "verb",
-    "definition": "To become progressively worse in quality, condition, health, or stability over time.",
-    "enExample": "Diplomatic relations between the neighboring states continued to deteriorate rapidly.",
-    "taWord": "மோசமடைதல் / சீர்கெடுதல்",
-    "taExample": "அண்டை நாடுகளுக்கிடையேயான தூதரக உறவுகள் நாளுக்கு நாள் வேகமாக மோசமடைந்து வருகின்றன.",
-    "synonyms": [
-      "Worsen",
-      "Degenerate",
-      "Decline",
-      "Decay"
-    ],
-    "antonyms": [
-      "Improve",
-      "Ameliorate",
-      "Recover",
-      "Flourish"
-    ]
-  },
-  {
-    "id": 2850,
-    "word": "Detrimental",
-    "pos": "adj.",
-    "definition": "Tending to cause harm, damage, injury, or disadvantage.",
-    "enExample": "Prolonged port strikes have had a deeply detrimental effect on regional food distribution.",
-    "taWord": "தீங்கிழைக்கும் / கேடு விளைவிக்கும்",
-    "taExample": "நீண்டகால துறைமுக வேலைநிறுத்தம் உணவுப் பொருள் விநியோகத்தில் பெரும் கேடு விளைவித்துள்ளது.",
-    "synonyms": [
-      "Harmful",
-      "Damaging",
-      "Inimical",
-      "Deleterious"
-    ],
-    "antonyms": [
-      "Beneficial",
-      "Advantageous",
-      "Constructive",
-      "Helpful"
-    ]
-  },
-  {
-    "id": 2851,
-    "word": "Disinformation",
-    "pos": "noun",
-    "definition": "Deliberately false or misleading information spread intentionally to deceive public opinion or destabilize institutions.",
-    "enExample": "Intelligence agencies warned of automated bot networks spreading election disinformation.",
-    "taWord": "திட்டமிட்ட போலித் தகவல்",
-    "taExample": "தேர்தல் நேரத்தில் மக்களை திசைதிருப்ப திட்டமிட்டு பரப்பப்படும் போலிச் செய்திகள் குறித்து உளவுத்துறை எச்சரித்தது.",
-    "synonyms": [
-      "Fake news",
-      "Propaganda",
-      "Misinformation",
-      "Deception"
-    ],
-    "antonyms": [
-      "Verifiable facts",
-      "Truth",
-      "Authentic reporting"
-    ]
-  },
-  {
-    "id": 2852,
-    "word": "Dismantle",
-    "pos": "verb",
-    "definition": "To take apart a structure or machine, or systematically eliminate an established policy or organization.",
-    "enExample": "The reform committee moved to dismantle outdated bureaucratic trade barriers.",
-    "taWord": "படிப்படியாக உடைத்து அகற்றுதல்",
-    "taExample": "பழைய அதிகாரத்துவ வர்த்தகத் தடைகளை முழுமையாக அகற்ற ஆணையம் முடிவு செய்தது.",
-    "synonyms": [
-      "Demolish",
-      "Deconstruct",
-      "Abolish",
-      "Disband"
-    ],
-    "antonyms": [
-      "Construct",
-      "Assemble",
-      "Establish",
-      "Build"
-    ]
-  },
-  {
-    "id": 2853,
-    "word": "Disparity",
-    "pos": "noun",
-    "definition": "A noticeable, great difference or inequality between two or more groups, sectors, or metrics.",
-    "enExample": "The investigation exposed a widening wealth disparity across metropolitan provinces.",
-    "taWord": "ஏற்றத்தாழ்வு / வேறுபாடு",
-    "taExample": "நகர்ப்புறப் பகுதிகளில் நிலவும் கடுமையான செல்வ ஏற்றத்தாழ்வை இந்த ஆய்வு வெளிப்படுத்தியது.",
-    "synonyms": [
-      "Imbalance",
-      "Inequality",
-      "Divergence",
-      "Gap"
-    ],
-    "antonyms": [
-      "Parity",
-      "Equality",
-      "Uniformity",
-      "Equivalence"
-    ]
-  },
-  {
-    "id": 2854,
-    "word": "Disproportionate",
-    "pos": "adj.",
-    "definition": "Too large, too small, or too severe in comparison with something else; out of proper proportion.",
-    "enExample": "Civil rights groups criticized the police response as a disproportionate use of force.",
-    "taWord": "விகிதாச்சாரமற்ற / மிகையான",
-    "taExample": "போராட்டக்காரர்கள் மீது காவல்துறை தேவையின்றி மிகையான பலத்தைப் பிரயோகித்ததாக குற்றம் சாட்டப்பட்டது.",
-    "synonyms": [
-      "Excessive",
-      "Inordinate",
-      "Unbalanced",
-      "Asymmetric"
-    ],
-    "antonyms": [
-      "Proportionate",
-      "Balanced",
-      "Commensurate",
-      "Fair"
-    ]
-  },
-  {
-    "id": 2855,
-    "word": "Disquiet",
-    "pos": "noun",
-    "definition": "A feeling of deep anxiety, unease, or agitation spreading through a population or organization.",
-    "enExample": "Rumors of impending bank closures caused intense disquiet among small business owners.",
-    "taWord": "அமைதியின்மை / கலக்கம்",
-    "taExample": "வங்கிகள் மூடப்படலாம் என்ற வதந்திகள் சிறு வணிகர்களிடையே பெரும் அமைதியின்மையை ஏற்படுத்தின.",
-    "synonyms": [
-      "Unease",
-      "Anxiety",
-      "Apprehension",
-      "Turbulence"
-    ],
-    "antonyms": [
-      "Serenity",
-      "Tranquility",
-      "Peace",
-      "Calm"
-    ]
-  },
-  {
-    "id": 2856,
-    "word": "Dissent",
-    "pos": "noun",
-    "definition": "The expression or holding of opinions at variance with those commonly, officially, or politically held.",
-    "enExample": "The supreme court judge penned a passionate dissent challenging the constitutionality of the surveillance bill.",
-    "taWord": "மாறுபட்ட கருத்து / மாற்றுக்கருத்து",
-    "taExample": "புதிய கண்காணிப்பு சட்டத்திற்கு எதிராக உச்ச நீதிமன்ற நீதிபதி வலுவான மாற்றுக்கருத்து தீர்ப்பை வழங்கினார்.",
-    "synonyms": [
-      "Disagreement",
-      "Opposition",
-      "Nonconformity",
-      "Protest"
-    ],
-    "antonyms": [
-      "Assent",
-      "Conformity",
-      "Consensus",
-      "Agreement"
-    ]
-  },
-  {
-    "id": 2857,
-    "word": "Draconian",
-    "pos": "adj.",
-    "definition": "Excessively harsh, severe, or cruel, especially in relation to laws, penalties, or government rules.",
-    "enExample": "Human rights organizations denounced the new protest restrictions as draconian legislation.",
-    "taWord": "கடுமையான / கொடூரமான சட்டம்",
-    "taExample": "புதிய கட்டுப்பாட்டு விதிகள் மக்களின் அடிப்படை உரிமைகளைப் பறிக்கும் கொடூரமான சட்டங்கள் என விமர்சிக்கப்பட்டன.",
-    "synonyms": [
-      "Authoritarian",
-      "Severe",
-      "Harsh",
-      "Oppressive"
-    ],
-    "antonyms": [
-      "Lenient",
-      "Mild",
-      "Permissive",
-      "Tolerant"
     ]
   }
 ]
