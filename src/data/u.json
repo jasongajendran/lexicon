@@ -56,6 +56,28 @@
     ]
   },
   {
+    "id": 3157,
+    "word": "Umbrage",
+    "pos": "noun",
+    "definition": "Offense or annoyance caused by what is perceived as a slight or indignity.",
+    "enExample": "The team took umbrage at the executive's assertion that they were falling behind schedule.",
+    "taWord": "மனக்கசப்பு / மனத்தாங்கல்",
+    "taExample": "திட்டம் தாமதமாகிறது என்று நிர்வாகி கூறிய கூற்றுக்கு பொறியியல் குழுவினர் கடும் மனக்கசப்பை வெளிப்படுத்தினர்.",
+    "synonyms": [
+      "Offense",
+      "Annoyance",
+      "Resentment",
+      "Indignation",
+      "Pique"
+    ],
+    "antonyms": [
+      "Gratification",
+      "Delight",
+      "Satisfaction",
+      "Approval"
+    ]
+  },
+  {
     "id": 2101,
     "word": "Unary",
     "definition": "An operation or operator taking exactly one operand in mathematical or programming expressions.",
@@ -124,6 +146,28 @@
     "antonyms": [
       "Normal",
       "Ordinary"
+    ]
+  },
+  {
+    "id": 3158,
+    "word": "Unctuous",
+    "pos": "adj.",
+    "definition": "Excessively or ingratiatingly flattering; oily or greasy in manners.",
+    "enExample": "Developers saw right through the vendor's unctuous sales pitch and demanded raw performance metrics.",
+    "taWord": "வழவழப்பான முகஸ்துதி பேசுகிற / நயவஞ்சக பாசமுள்ள",
+    "taExample": "விற்பனையாளரின் வழவழப்பான வெற்றுப் புகழுரையை ஒதுக்கிவிட்டு நேரடி செயல்திறன் அளவீடுகளை பொறியாளர்கள் கோரினர்.",
+    "synonyms": [
+      "Oily",
+      "Ingratiating",
+      "Fawning",
+      "Smarmy",
+      "Sycophantic"
+    ],
+    "antonyms": [
+      "Blunt",
+      "Genuine",
+      "Sincere",
+      "Candid"
     ]
   },
   {
@@ -334,6 +378,28 @@
     ]
   },
   {
+    "id": 3159,
+    "word": "Upbraid",
+    "pos": "verb",
+    "definition": "To find fault with someone; scold, reprimand, or reproach severely.",
+    "enExample": "The lead engineer did not upbraid the junior developer for the bug, but used it as a learning opportunity.",
+    "taWord": "கடிந்து பேசுதல் / கண்டித்தல்",
+    "taExample": "மென்பொருள் பிழைக்காக இளநிலை பணியாளரைக் கண்டிக்காமல், அதை ஒரு நல்ல கற்றல் வாய்ப்பாக தலைமை மாற்றியது.",
+    "synonyms": [
+      "Scold",
+      "Reprimand",
+      "Rebuke",
+      "Reproach",
+      "Chide"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commend",
+      "Laud",
+      "Applaud"
+    ]
+  },
+  {
     "id": 2927,
     "word": "Upheaval",
     "pos": "noun",
@@ -399,6 +465,11 @@
       "Resource identifier",
       "URL",
       "URN"
+    ],
+    "antonyms": [
+      "Anonymous resource",
+      "Unaddressed object",
+      "Relative path fragment"
     ]
   },
   {
@@ -430,6 +501,11 @@
     "synonyms": [
       "Browser identifier",
       "Client string"
+    ],
+    "antonyms": [
+      "Headless daemon",
+      "Raw TCP packet",
+      "Anonymous socket"
     ]
   },
   {
@@ -462,6 +538,10 @@
       "Helper function",
       "Tool",
       "Routine"
+    ],
+    "antonyms": [
+      "Monolithic framework",
+      "Core domain business engine"
     ]
   }
 ]

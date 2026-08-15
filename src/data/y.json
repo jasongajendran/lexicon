@@ -27,6 +27,10 @@
     "synonyms": [
       "Fixed-point combinator",
       "Lambda recursion"
+    ],
+    "antonyms": [
+      "Explicit iterative loop",
+      "Named direct recursion"
     ]
   },
   {
@@ -72,6 +76,11 @@
     "synonyms": [
       "Vertical coordinate",
       "Y position"
+    ],
+    "antonyms": [
+      "X-Coordinate",
+      "Horizontal axis",
+      "Z-Depth point"
     ]
   },
   {
@@ -255,6 +264,10 @@
     "synonyms": [
       "Capacity optimization",
       "Resource scheduling"
+    ],
+    "antonyms": [
+      "Fixed flat pricing",
+      "Unoptimized capacity allocation"
     ]
   },
   {
@@ -303,6 +316,11 @@
     "synonyms": [
       "10^24 bytes",
       "Digital storage unit"
+    ],
+    "antonyms": [
+      "Single bit",
+      "Byte",
+      "Kilobyte"
     ]
   }
 ]

@@ -98,6 +98,12 @@
     "synonyms": [
       "Identifier",
       "Token"
+    ],
+    "antonyms": [
+      "Lock",
+      "Barrier",
+      "Obstacle",
+      "Dead end"
     ]
   },
   {
@@ -163,6 +169,10 @@
     "synonyms": [
       "Anchor point",
       "Waypoint"
+    ],
+    "antonyms": [
+      "Tweened intermediate frame",
+      "Static still image"
     ]
   },
   {
@@ -191,6 +201,11 @@
     "pos": "noun",
     "synonyms": [
       "Asymmetric key set"
+    ],
+    "antonyms": [
+      "Symmetric key",
+      "Unencrypted plaintext",
+      "Shared secret"
     ]
   },
   {
@@ -224,6 +239,11 @@
     "synonyms": [
       "Keypress",
       "Input action"
+    ],
+    "antonyms": [
+      "Idle input",
+      "Mouse click",
+      "Silence"
     ]
   },
   {
@@ -237,6 +257,11 @@
     "synonyms": [
       "Reserved word",
       "Search term"
+    ],
+    "antonyms": [
+      "Stop word",
+      "Filler word",
+      "Insignificant term"
     ]
   },
   {
@@ -286,6 +311,12 @@
     "pos": "noun",
     "synonyms": [
       "KB"
+    ],
+    "antonyms": [
+      "Bit",
+      "Nibble",
+      "Gigabyte",
+      "Terabyte"
     ]
   },
   {
@@ -329,6 +360,11 @@
     "pos": "noun",
     "synonyms": [
       "Optimization problem"
+    ],
+    "antonyms": [
+      "Infinite capacity",
+      "Unbounded resource",
+      "Empty set"
     ]
   },
   {
@@ -343,6 +379,12 @@
       "Toll",
       "Ringing",
       "Chime"
+    ],
+    "antonyms": [
+      "Birth",
+      "Beginning",
+      "Commencement",
+      "Overture"
     ]
   },
   {
@@ -372,6 +414,11 @@
     "synonyms": [
       "K8s",
       "Container orchestrator"
+    ],
+    "antonyms": [
+      "Manual deployment",
+      "Single monolithic server",
+      "Bare metal"
     ]
   },
   {

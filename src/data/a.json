@@ -42,6 +42,28 @@
     ]
   },
   {
+    "id": 3075,
+    "word": "Abnegate",
+    "pos": "verb",
+    "definition": "To renounce or reject something desired or valuable; to abdicate responsibility.",
+    "enExample": "Engineering leads cannot abnegate responsibility for security vulnerabilities introduced by dependencies.",
+    "taWord": "பொறுப்பை மறுத்தல் / துறத்தல்",
+    "taExample": "மூன்றாம் தரப்பு மென்பொருட்களால் ஏற்படும் பாதுகாப்புக் குறைபாடுகளுக்கான பொறுப்பை பொறியியல் தலைவர்கள் மறுக்க முடியாது.",
+    "synonyms": [
+      "Renounce",
+      "Relinquish",
+      "Surrender",
+      "Abdicate",
+      "Forgo"
+    ],
+    "antonyms": [
+      "Claim",
+      "Embrace",
+      "Assert",
+      "Accept"
+    ]
+  },
+  {
     "id": 101,
     "word": "Abstract",
     "definition": "Existing in thought or as an idea but not having a physical or concrete existence.",
@@ -56,6 +78,28 @@
     "antonyms": [
       "Concrete",
       "Actual"
+    ]
+  },
+  {
+    "id": 3098,
+    "word": "Abstruse",
+    "pos": "adj.",
+    "definition": "Difficult to understand; obscure, esoteric, and intellectually recondite.",
+    "enExample": "The cryptography paper contained abstruse mathematical proofs that baffled junior engineers.",
+    "taWord": "புரிந்துகொள்ளக் கடினமான / ஆழ்ந்த மறைபொருள் கொண்ட",
+    "taExample": "அந்த குறியாக்க ஆய்வறிக்கையில் இருந்த கடினமான கணித சூத்திரங்கள் இளநிலை பொறியாளர்களுக்குப் புரியவில்லை.",
+    "synonyms": [
+      "Esoteric",
+      "Recondite",
+      "Obscure",
+      "Arcane",
+      "Incomprehensible"
+    ],
+    "antonyms": [
+      "Clear",
+      "Lucid",
+      "Simple",
+      "Pellucid"
     ]
   },
   {
@@ -126,6 +170,11 @@
       "Task",
       "Assignment",
       "Deliverable"
+    ],
+    "antonyms": [
+      "Passive observation",
+      "Information-only note",
+      "Unassigned backlog"
     ]
   },
   {
@@ -544,6 +593,34 @@
     "synonyms": [
       "Spread out",
       "Pay off"
+    ],
+    "antonyms": [
+      "Lump-sum writeoff",
+      "Balloon payment",
+      "Front-load expense",
+      "Immediate charge"
+    ]
+  },
+  {
+    "id": 3099,
+    "word": "Anachronistic",
+    "pos": "adj.",
+    "definition": "Belonging or appropriate to a period other than that in which it exists; outdated.",
+    "enExample": "Using FTP servers for automated deployment feels hopelessly anachronistic in modern cloud DevOps.",
+    "taWord": "காலப்பொருத்தமற்ற / காலாவதியான பழைய",
+    "taExample": "நவீன மேகக்கணி தொழில்நுட்பத்தில் கோப்புகளை கைமுறையாக மாற்றுவது காலப்பொருத்தமற்ற பழைய முறையாகும்.",
+    "synonyms": [
+      "Outdated",
+      "Archaic",
+      "Antiquated",
+      "Obsolete",
+      "Past-era"
+    ],
+    "antonyms": [
+      "Modern",
+      "Contemporary",
+      "Futuristic",
+      "Timely"
     ]
   },
   {
@@ -617,6 +694,28 @@
     "antonyms": [
       "Unforeseen",
       "Surprise"
+    ]
+  },
+  {
+    "id": 3100,
+    "word": "Apocryphal",
+    "pos": "adj.",
+    "definition": "Of doubtful authenticity, although widely circulated as being true.",
+    "enExample": "The story that a stray space particle flipped a bit on our production server is likely apocryphal.",
+    "taWord": "உண்மைத்தன்மை உறுதிப்படுத்தப்படாத / போலியான",
+    "taExample": "சர்வர் பிழைக்கு விண்வெளி கதிர்வீச்சுதான் காரணம் என்ற கதை உண்மைத்தன்மை உறுதிப்படுத்தப்படாத ஒன்றாகவே கருதப்படுகிறது.",
+    "synonyms": [
+      "Dubious",
+      "Spurious",
+      "Fictitious",
+      "Unauthenticated",
+      "Fabricated"
+    ],
+    "antonyms": [
+      "Authentic",
+      "Genuine",
+      "Verifiable",
+      "True"
     ]
   },
   {
@@ -722,6 +821,11 @@
     "synonyms": [
       "Structure",
       "Design"
+    ],
+    "antonyms": [
+      "Ad-hoc coding",
+      "Disorganized structure",
+      "Chaotic implementation"
     ]
   },
   {
@@ -735,6 +839,33 @@
     "synonyms": [
       "Record",
       "Repository"
+    ],
+    "antonyms": [
+      "Active storage",
+      "Hot tier",
+      "Unarchive",
+      "Live memory"
+    ]
+  },
+  {
+    "id": 3169,
+    "word": "Armistice",
+    "pos": "noun",
+    "definition": "An agreement made by opposing sides in a war to stop fighting for a certain time; a truce.",
+    "enExample": "The warring factions finally signed an armistice to allow for humanitarian aid distribution.",
+    "taWord": "தற்காலிக போர் நிறுத்தம் / அமைதி ஒப்பந்தம்",
+    "taExample": "மனிதாபிமான உதவிகளை வழங்க ஏதுவாக இரு தரப்பினரும் இறுதியாக போர் நிறுத்த ஒப்பந்தத்தில் கையெழுத்திட்டனர்.",
+    "synonyms": [
+      "Truce",
+      "Ceasefire",
+      "Peace",
+      "Treaty"
+    ],
+    "antonyms": [
+      "War",
+      "Conflict",
+      "Hostility",
+      "Battle"
     ]
   },
   {
@@ -748,6 +879,11 @@
     "synonyms": [
       "Collection",
       "List"
+    ],
+    "antonyms": [
+      "Scalar",
+      "Single primitive value",
+      "Unordered set"
     ]
   },
   {
@@ -765,6 +901,50 @@
     "antonyms": [
       "Mumble",
       "Confuse"
+    ]
+  },
+  {
+    "id": 3088,
+    "word": "Artifice",
+    "pos": "noun",
+    "definition": "Clever or cunning devices or expedients, especially as used to trick or deceive others; subtle craftsmanship.",
+    "enExample": "Modern neural style transfer relies on mathematical artifice to mimic oil painting textures.",
+    "taWord": "தந்திரம் / நுட்பமான கைத்திறன்",
+    "taExample": "நவீன செயற்கை நுண்ணறிவு ஓவிய நுணுக்கங்களை பிரதிபலிக்க கணித தந்திரங்களையே பயன்படுத்துகிறது.",
+    "synonyms": [
+      "Cunning",
+      "Trickery",
+      "Craftiness",
+      "Device",
+      "Stratagem"
+    ],
+    "antonyms": [
+      "Candor",
+      "Simplicity",
+      "Artlessness",
+      "Sincerity"
+    ]
+  },
+  {
+    "id": 3101,
+    "word": "Ascetic",
+    "pos": "adj.",
+    "definition": "Characterized by severe self-discipline and abstention from all forms of indulgence; austere.",
+    "enExample": "The minimalist UI featured an ascetic design with zero animations or background imagery.",
+    "taWord": "துறவு போன்ற எளிமையான / ஆடம்பரமற்ற",
+    "taExample": "அந்த எளிய பயனர் இடைமுகம் அசைவூட்டங்களோ ஆடம்பரப் பின்னணிகளோ இன்றி முற்றிலும் எளிமையாக வடிவமைக்கப்பட்டது.",
+    "synonyms": [
+      "Austere",
+      "Spartan",
+      "Monastic",
+      "Severe",
+      "Strict"
+    ],
+    "antonyms": [
+      "Hedonistic",
+      "Luxurious",
+      "Indulgent",
+      "Flamboyant"
     ]
   },
   {
@@ -803,6 +983,28 @@
       "Negligent",
       "Careless",
       "Slothful"
+    ]
+  },
+  {
+    "id": 3065,
+    "word": "Astute",
+    "pos": "adj.",
+    "definition": "Having or showing an ability to accurately assess situations and turn this to one's advantage.",
+    "enExample": "An astute cloud architect negotiated reserved instance pricing to maximize budget runway.",
+    "taWord": "தந்திரமும் புத்திசாலித்தனமும் கொண்ட / கூர்மையான",
+    "taExample": "கூர்மையான மேகக்கணி வடிவமைப்பாளர் சிறந்த சேமிப்புத் திட்டங்களை பேசி நிறுவனத்தின் செலவைக் குறைத்தார்.",
+    "synonyms": [
+      "Shrewd",
+      "Sharp",
+      "Perspicacious",
+      "Discerning",
+      "Sagacious"
+    ],
+    "antonyms": [
+      "Naive",
+      "Foolish",
+      "Obtuse",
+      "Shortsighted"
     ]
   },
   {
@@ -891,6 +1093,11 @@
     "synonyms": [
       "Feature",
       "Characteristic"
+    ],
+    "antonyms": [
+      "Entire entity",
+      "Anonymous object",
+      "Aggregate whole"
     ]
   },
   {
@@ -922,6 +1129,12 @@
     "synonyms": [
       "Inspection",
       "Review"
+    ],
+    "antonyms": [
+      "Neglect",
+      "Disregard",
+      "Unchecked execution",
+      "Blind trust"
     ]
   },
   {

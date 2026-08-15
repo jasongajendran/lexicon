@@ -10,6 +10,10 @@
     "synonyms": [
       "Depth buffer",
       "Occlusion buffer"
+    ],
+    "antonyms": [
+      "Flat 2D painter algorithm",
+      "Unsorted depth rendering"
     ]
   },
   {
@@ -24,6 +28,10 @@
       "Stacking order",
       "Depth order",
       "Layer index"
+    ],
+    "antonyms": [
+      "Static document flow",
+      "Flat unlayered rendering"
     ]
   },
   {
@@ -37,6 +45,32 @@
     "synonyms": [
       "Depth order",
       "Layer hierarchy"
+    ],
+    "antonyms": [
+      "Flat unordered display",
+      "Default DOM order"
+    ]
+  },
+  {
+    "id": 3080,
+    "word": "Zeal",
+    "pos": "noun",
+    "definition": "Great energy or enthusiasm in pursuit of a cause, project, or objective.",
+    "enExample": "The open-source community embraced the new framework with tremendous passion and zeal.",
+    "taWord": "பேரூக்கம் / அதீத ஆர்வம்",
+    "taExample": "திறந்த மூல மென்பொருள் சமூகம் புதிய கட்டமைப்பை மிகுந்த பேரார்வத்துடனும் பேரூக்கத்துடனும் ஏற்றுக்கொண்டது.",
+    "synonyms": [
+      "Enthusiasm",
+      "Passion",
+      "Fervor",
+      "Ardor",
+      "Eagerness"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Indifference",
+      "Lethargy",
+      "Disinterest"
     ]
   },
   {
@@ -55,6 +89,28 @@
     "antonyms": [
       "Moderate",
       "Conservative"
+    ]
+  },
+  {
+    "id": 3097,
+    "word": "Zealous",
+    "pos": "adj.",
+    "definition": "Having or showing great energy, enthusiasm, and devotion in pursuit of a cause.",
+    "enExample": "Zealous adherents of strict test-driven development demand one hundred percent code coverage.",
+    "taWord": "தீவிர பற்றுறுதி கொண்ட / பேரார்வமிக்க",
+    "taExample": "சோதனை அடிப்படையிலான மென்பொருள் உருவாக்கத்தில் தீவிர பற்று கொண்டவர்கள் முழுமையான குறியீட்டு சோதனையை வலியுறுத்துகின்றனர்.",
+    "synonyms": [
+      "Fervent",
+      "Ardent",
+      "Passionate",
+      "Devoted",
+      "Enthusiastic"
+    ],
+    "antonyms": [
+      "Apathetic",
+      "Indifferent",
+      "Lethargic",
+      "Dispassionate"
     ]
   },
   {
@@ -170,6 +226,11 @@
     "synonyms": [
       "Zero-padding",
       "Blanking"
+    ],
+    "antonyms": [
+      "Garbage padding",
+      "Sign extension",
+      "Random bit fill"
     ]
   },
   {
@@ -251,6 +312,11 @@
     "synonyms": [
       "10^21 bytes",
       "Digital storage unit"
+    ],
+    "antonyms": [
+      "Single bit",
+      "Kilobyte",
+      "Megabyte"
     ]
   },
   {
@@ -280,6 +346,10 @@
     "synonyms": [
       "Deflate library",
       "Gzip engine"
+    ],
+    "antonyms": [
+      "Raw uncompressed stream",
+      "Lossy compression"
     ]
   },
   {
@@ -310,6 +380,11 @@
       "Availability zone",
       "Region",
       "Domain"
+    ],
+    "antonyms": [
+      "Global cloud cluster",
+      "Universal datacenter",
+      "Edge network"
     ]
   },
   {
@@ -323,6 +398,10 @@
     "synonyms": [
       "Consensus service",
       "Cluster coordinator"
+    ],
+    "antonyms": [
+      "Decentralized peer-to-peer gossip",
+      "Leaderless mesh network"
     ]
   }
 ]

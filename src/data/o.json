@@ -92,6 +92,28 @@
     ]
   },
   {
+    "id": 3120,
+    "word": "Obsequious",
+    "pos": "adj.",
+    "definition": "Obedient or attentive to an excessive, fawning, or servile degree; sycophantic.",
+    "enExample": "Engineering leadership discouraged obsequious consensus, encouraging genuine technical dissent.",
+    "taWord": "அடிபணிந்து புகழ்கிற / முகஸ்துதி செய்கிற",
+    "taExample": "தலைமை முகஸ்துதி செய்வதை விடுத்து நியாயமான தொழில்நுட்ப விமர்சனங்களை முன்வைக்க ஊக்குவித்தது.",
+    "synonyms": [
+      "Servile",
+      "Sycophantic",
+      "Fawning",
+      "Subservient",
+      "Cringing"
+    ],
+    "antonyms": [
+      "Assertive",
+      "Independent",
+      "Rebellious",
+      "Domineering"
+    ]
+  },
+  {
     "id": 1503,
     "word": "Observability",
     "definition": "The degree to which the internal state of a system can be inferred from its external outputs like logs and metrics.",
@@ -125,6 +147,28 @@
     "antonyms": [
       "Publisher",
       "Emitter"
+    ]
+  },
+  {
+    "id": 3121,
+    "word": "Obstinate",
+    "pos": "adj.",
+    "definition": "Stubbornly refusing to change one's opinion, course of action, or design despite persuasion.",
+    "enExample": "An obstinate refusal to adopt containerization left the infrastructure team maintaining brittle VMs.",
+    "taWord": "பிடிவாதமான / அசைக்க முடியாத பிடிவாதமுள்ள",
+    "taExample": "புதிய தொழில்நுட்பத்தை ஏற்க மறுத்த பிடிவாதத்தால் குழு பழைய சர்வர்களை பராமரிக்கும் நிலைக்குத் தள்ளப்பட்டது.",
+    "synonyms": [
+      "Stubborn",
+      "Intransigent",
+      "Refractory",
+      "Inflexible",
+      "Headstrong"
+    ],
+    "antonyms": [
+      "Tractable",
+      "Pliable",
+      "Compliant",
+      "Flexible"
     ]
   },
   {
@@ -179,6 +223,11 @@
       "Displacement",
       "Shift",
       "Margin"
+    ],
+    "antonyms": [
+      "Origin zero",
+      "Absolute start index",
+      "Full reset"
     ]
   },
   {
@@ -253,6 +302,28 @@
     "antonyms": [
       "Off-shift leisure",
       "Unmonitored downtime"
+    ]
+  },
+  {
+    "id": 3122,
+    "word": "Onerous",
+    "pos": "adj.",
+    "definition": "Involving a great amount of effort, difficulty, and oppressive burden.",
+    "enExample": "Manual regression testing across fifty device form factors became too onerous for the QA department.",
+    "taWord": "கடுமையான சுமை தருகிற / கடினமான",
+    "taExample": "ஐம்பதுக்கும் மேற்பட்ட சாதனங்களில் கைமுறையாக சோதனை செய்வது ஆய்வுக் குழுவிற்கு பெரும் சுமையாக மாறியது.",
+    "synonyms": [
+      "Burdensome",
+      "Arduous",
+      "Oppressive",
+      "Taxing",
+      "Demanding"
+    ],
+    "antonyms": [
+      "Effortless",
+      "Easy",
+      "Light",
+      "Simple"
     ]
   },
   {

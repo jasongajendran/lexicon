@@ -36,6 +36,28 @@
     ]
   },
   {
+    "id": 3149,
+    "word": "Tacit",
+    "pos": "adj.",
+    "definition": "Understood or implied without being directly stated in words; unspoken.",
+    "enExample": "There was a tacit agreement among the team to avoid deploying code changes on Friday afternoons.",
+    "taWord": "மறைமுகமாக ஒப்புக்கொள்ளப்பட்ட / சொல்லாமல் விளங்கும்",
+    "taExample": "வெள்ளிக்கிழமை மாலைகளில் மென்பொருள் மாற்றங்களை வெளியிடக் கூடாது என்ற மறைமுக ஒப்பந்தம் குழுவிடம் இருந்தது.",
+    "synonyms": [
+      "Implicit",
+      "Unspoken",
+      "Inferred",
+      "Implied",
+      "Understood"
+    ],
+    "antonyms": [
+      "Explicit",
+      "Stated",
+      "Express",
+      "Direct"
+    ]
+  },
+  {
     "id": 2016,
     "word": "Taciturn",
     "definition": "(of a person) reserved or uncommunicative in speech; saying little.",
@@ -83,6 +105,11 @@
       "Insight",
       "Key point",
       "Lesson"
+    ],
+    "antonyms": [
+      "Superficial chatter",
+      "Forgotten detail",
+      "Ignored finding"
     ]
   },
   {
@@ -105,6 +132,28 @@
       "Relevant",
       "Crucial",
       "Germane"
+    ]
+  },
+  {
+    "id": 3150,
+    "word": "Tantamount",
+    "pos": "adj.",
+    "definition": "Equivalent in seriousness, effect, or value to something; virtually the same as.",
+    "enExample": "Disabling automated security scanning before release is tantamount to inviting a cyber attack.",
+    "taWord": "சமமான / ஒன்றுக்கு இணையான",
+    "taExample": "பாதுகாப்பு சோதனைகளை முடக்கிவிட்டு மென்பொருளை வெளியிடுவது இணையத் தாக்குதலை நேரடியாக வரவேற்பதற்கு சமமானதாகும்.",
+    "synonyms": [
+      "Equivalent",
+      "Commensurate",
+      "Identical",
+      "Equal",
+      "Synonymous"
+    ],
+    "antonyms": [
+      "Different",
+      "Opposite",
+      "Unequal",
+      "Disparate"
     ]
   },
   {
@@ -176,6 +225,11 @@
       "Diagnostics",
       "Metrics collection",
       "Monitoring"
+    ],
+    "antonyms": [
+      "Blind monitoring",
+      "Unmeasured production state",
+      "Zero metrics"
     ]
   },
   {
@@ -208,6 +262,11 @@
       "Pattern",
       "Blueprint",
       "Boilerplate"
+    ],
+    "antonyms": [
+      "Finished instance",
+      "Bespoke unique document",
+      "Hardcoded output"
     ]
   },
   {
@@ -247,6 +306,50 @@
     "antonyms": [
       "Loose",
       "Weak"
+    ]
+  },
+  {
+    "id": 3079,
+    "word": "Tenacity",
+    "pos": "noun",
+    "definition": "The quality or fact of being very determined; unyielding persistence and grip.",
+    "enExample": "Debugging race conditions in distributed systems requires extraordinary technical tenacity.",
+    "taWord": "விடாப்பிடியான உறுதி / பற்றுறுதி",
+    "taExample": "சிக்கலான அமைப்புகளில் உள்ள நுட்பமான பிழைகளைக் கண்டறிந்து சரிசெய்ய மிகுந்த விடாப்பிடியான உறுதி தேவைப்படுகிறது.",
+    "synonyms": [
+      "Persistence",
+      "Perseverance",
+      "Determination",
+      "Resilience",
+      "Grit"
+    ],
+    "antonyms": [
+      "Vacillation",
+      "Surrender",
+      "Apathy",
+      "Lethargy"
+    ]
+  },
+  {
+    "id": 3151,
+    "word": "Tenuous",
+    "pos": "adj.",
+    "definition": "Very weak or slight; having little substance or validity.",
+    "enExample": "The connection between the UI glitch and the database deadlock proved to be completely tenuous.",
+    "taWord": "மெல்லிய / பலவீனமான ஆதாரமற்ற",
+    "taExample": "திரைப் பிழைக்கும் தரவுத்தள முடக்கத்திற்கும் இடையே இருந்த தொடர்பு முற்றிலும் பலவீனமானதாக அமைந்தது.",
+    "synonyms": [
+      "Weak",
+      "Slight",
+      "Frail",
+      "Fragile",
+      "Shaky"
+    ],
+    "antonyms": [
+      "Strong",
+      "Solid",
+      "Substantial",
+      "Robust"
     ]
   },
   {
@@ -295,6 +398,10 @@
       "Cutoff",
       "Limit",
       "Boundary"
+    ],
+    "antonyms": [
+      "Unbounded spectrum",
+      "Continuous continuous scale"
     ]
   },
   {
@@ -351,6 +458,28 @@
     ]
   },
   {
+    "id": 3152,
+    "word": "Timorous",
+    "pos": "adj.",
+    "definition": "Showing or suffering from nervousness, fear, or a lack of confidence.",
+    "enExample": "A timorous approach to refactoring allows legacy spaghetti code to fester and expand.",
+    "taWord": "அச்சம் நிறைந்த / தயக்கம் மிகுந்த",
+    "taExample": "பழைய குறியீடுகளை மாற்ற அஞ்சும் தயக்கம் மிகுந்த அணுகுமுறையானது மென்பொருள் பிழைகள் மேலும் வளரவே வழிவகுக்கும்.",
+    "synonyms": [
+      "Timid",
+      "Fearful",
+      "Apprehensive",
+      "Faint-hearted",
+      "Hesitant"
+    ],
+    "antonyms": [
+      "Bold",
+      "Audacious",
+      "Courageous",
+      "Brave"
+    ]
+  },
+  {
     "id": 2003,
     "word": "Token",
     "definition": "An encrypted security string representing user permissions, or a discrete atomic unit produced during code lexical analysis.",
@@ -362,6 +491,11 @@
       "Credential",
       "Ticket",
       "Lexeme"
+    ],
+    "antonyms": [
+      "Plain cleartext",
+      "Unparsed stream",
+      "Anonymous access"
     ]
   },
   {
@@ -376,6 +510,32 @@
       "Architecture",
       "Configuration",
       "Layout"
+    ],
+    "antonyms": [
+      "Chaotic network arrangement",
+      "Random unstructured sprawl"
+    ]
+  },
+  {
+    "id": 3153,
+    "word": "Torpid",
+    "pos": "adj.",
+    "definition": "Mentally or physically inactive; lethargic and sluggish in response.",
+    "enExample": "The application UI felt torpid because heavy computational tasks were blocking the main JavaScript thread.",
+    "taWord": "செயலற்ற மந்தமான / சோர்வான",
+    "taExample": "கடினமான கணக்கீடுகள் முக்கிய இழையை முடக்கியதால் செயலியின் இயக்கம் மிக மந்தமாக இருந்தது.",
+    "synonyms": [
+      "Lethargic",
+      "Sluggish",
+      "Inactive",
+      "Dormant",
+      "Stagnant"
+    ],
+    "antonyms": [
+      "Energetic",
+      "Active",
+      "Dynamic",
+      "Lively"
     ]
   },
   {
@@ -408,6 +568,33 @@
       "Check-in",
       "Meeting",
       "Contact point"
+    ],
+    "antonyms": [
+      "Siloed isolation",
+      "Zero interaction",
+      "Unannounced absence"
+    ]
+  },
+  {
+    "id": 3154,
+    "word": "Tractable",
+    "pos": "adj.",
+    "definition": "Easy to control, manipulate, or solve; manageable and compliant.",
+    "enExample": "Breaking down complex monolithic monoliths into microservices makes problems more tractable.",
+    "taWord": "எளிதில் கையாளக்கூடிய / நிர்வகிக்கத்தக்க",
+    "taExample": "பெரிய மென்பொருளை சிறிய பகுதிகளாக பிரிப்பது சிக்கல்களை மிக எளிதில் கையாளக்கூடியதாக மாற்றுகிறது.",
+    "synonyms": [
+      "Manageable",
+      "Compliant",
+      "Pliable",
+      "Yielding",
+      "Malleable"
+    ],
+    "antonyms": [
+      "Intractable",
+      "Unmanageable",
+      "Obstinate",
+      "Stubborn"
     ]
   },
   {
@@ -422,6 +609,11 @@
       "Compromise",
       "Balance",
       "Concession"
+    ],
+    "antonyms": [
+      "Free lunch",
+      "Win-win absolute outcome",
+      "Zero-compromise state"
     ]
   },
   {
@@ -436,6 +628,10 @@
       "ACID block",
       "Operation unit",
       "Exchange"
+    ],
+    "antonyms": [
+      "Dirty uncommitted read",
+      "Non-atomic partial operation"
     ]
   },
   {
@@ -470,6 +666,32 @@
     "synonyms": [
       "Source-to-source compiler",
       "Translator"
+    ],
+    "antonyms": [
+      "Direct binary compiler",
+      "Native virtual machine"
+    ]
+  },
+  {
+    "id": 3067,
+    "word": "Treacherous",
+    "pos": "adj.",
+    "definition": "Guilty of or involving deception and betrayal; presenting hidden, unpredictable dangers.",
+    "enExample": "Handling concurrent asynchronous database writes without distributed locks is treacherous territory.",
+    "taWord": "துரோகமான / மறைமுக ஆபத்துகள் நிறைந்த",
+    "taExample": "சரியான பாதுகாப்பு பூட்டுகள் இன்றி ஒரே நேரத்தில் தரவுகளை மாற்றுவது கடுமையான மறைமுக ஆபத்துகள் நிறைந்த செயலாகும்.",
+    "synonyms": [
+      "Perilous",
+      "Hazardous",
+      "Deceptive",
+      "Precarious",
+      "Dangerous"
+    ],
+    "antonyms": [
+      "Safe",
+      "Trustworthy",
+      "Reliable",
+      "Secure"
     ]
   },
   {
@@ -508,6 +730,28 @@
     ]
   },
   {
+    "id": 3095,
+    "word": "Trenchant",
+    "pos": "adj.",
+    "definition": "Vigorous or incisive in expression or style; sharp, keen, and penetrating.",
+    "enExample": "The senior architect gave a trenchant critique of the proposed microservice sprawl.",
+    "taWord": "கூரிய / வீரியமிக்க துல்லியமான",
+    "taExample": "மூத்த வடிவமைப்பாளர் தேவையின்றி நுண் சேவைகளை அதிகரிப்பது குறித்து கூரிய விமர்சனத்தை முன்வைத்தார்.",
+    "synonyms": [
+      "Incisive",
+      "Sharp",
+      "Penetrating",
+      "Acute",
+      "Keen"
+    ],
+    "antonyms": [
+      "Dull",
+      "Blunt",
+      "Vague",
+      "Weak"
+    ]
+  },
+  {
     "id": 2018,
     "word": "Trepidation",
     "definition": "A feeling of fear or agitation about something that may happen.",
@@ -537,6 +781,11 @@
       "Prioritization",
       "Assessment",
       "Categorization"
+    ],
+    "antonyms": [
+      "Random bug handling",
+      "Unprioritized chaos",
+      "Equal treatment of all bugs"
     ]
   },
   {
@@ -553,6 +802,28 @@
     ],
     "antonyms": [
       "Manual invocation"
+    ]
+  },
+  {
+    "id": 3155,
+    "word": "Truculent",
+    "pos": "adj.",
+    "definition": "Eager or quick to argue or fight; aggressively defiant and ferocious.",
+    "enExample": "The vendor adopted a truculent stance during contract negotiations, refusing any SLA revisions.",
+    "taWord": "ஆக்ரோஷமான / மிரட்டும் முரட்டுத்தனம் கொண்ட",
+    "taExample": "ஒப்பந்தப் பேச்சுகளின் போது விற்பனையாளர் எவ்வித சமரசத்திற்கும் இடமளிக்காமல் முரட்டுத்தனமான போக்கைக் கடைப்பிடித்தார்.",
+    "synonyms": [
+      "Aggressive",
+      "Defiant",
+      "Ferocious",
+      "Hostile",
+      "Combative"
+    ],
+    "antonyms": [
+      "Amiable",
+      "Gentle",
+      "Peaceable",
+      "Conciliatory"
     ]
   },
   {
@@ -606,6 +877,33 @@
       "Ordered pair",
       "Typed array",
       "Record"
+    ],
+    "antonyms": [
+      "Mutable list",
+      "Dynamic array",
+      "Unordered map"
+    ]
+  },
+  {
+    "id": 3156,
+    "word": "Turgid",
+    "pos": "adj.",
+    "definition": "Swollen and distended; or tediously pompous and bombastic in language and style.",
+    "enExample": "The specification manual was bogged down in turgid corporate jargon that obscured simple protocols.",
+    "taWord": "வீங்கிய / ஆடம்பர வார்த்தைகளால் வீங்கிய கடினமான",
+    "taExample": "விளக்கக் கையேடு கடினமான வெற்று வார்த்தைகளால் நிரம்பியிருந்ததால் எளிய விஷயங்களைப் புரிந்துகொள்வது கடினமானது.",
+    "synonyms": [
+      "Pompous",
+      "Bombastic",
+      "Overblown",
+      "Distended",
+      "Inflated"
+    ],
+    "antonyms": [
+      "Simple",
+      "Succinct",
+      "Lucid",
+      "Concise"
     ]
   },
   {

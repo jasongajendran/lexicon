@@ -95,6 +95,28 @@
     ]
   },
   {
+    "id": 3140,
+    "word": "Salubrious",
+    "pos": "adj.",
+    "definition": "Health-giving; healthy or wholesome for organizational culture and code health.",
+    "enExample": "A blameless post-mortem culture creates a salubrious environment where engineers learn from mistakes.",
+    "taWord": "நலம் பயக்கும் / ஆரோக்கியமான சூழல் தரும்",
+    "taExample": "பிழைகளை குற்றம் சாட்டாத அணுகுமுறையானது பொறியாளர்கள் தவறுகளிலிருந்து பாடம் கற்கும் ஆரோக்கியமான சூழலை உருவாக்குகிறது.",
+    "synonyms": [
+      "Healthy",
+      "Wholesome",
+      "Beneficial",
+      "Nutritious",
+      "Invigorating"
+    ],
+    "antonyms": [
+      "Unhealthy",
+      "Deleterious",
+      "Pernicious",
+      "Harmful"
+    ]
+  },
+  {
     "id": 2911,
     "word": "Sanction",
     "pos": "noun",
@@ -129,6 +151,28 @@
     ],
     "antonyms": [
       "Production system"
+    ]
+  },
+  {
+    "id": 3141,
+    "word": "Sanguine",
+    "pos": "adj.",
+    "definition": "Optimistic or positive, especially in an apparently bad or difficult situation.",
+    "enExample": "Despite the complex migration deadline, the engineering manager remained sanguine about delivering on time.",
+    "taWord": "நம்பிக்கை நிறைந்த / எதிலும் நன்மையைக் காண்கிற",
+    "taExample": "கடினமான சூழலிலும் திட்டத்தை குறித்த நேரத்தில் முடிக்க முடியும் என்ற நம்பிக்கை நிறைந்த மனநிலையில் மேலாளர் இருந்தார்.",
+    "synonyms": [
+      "Optimistic",
+      "Hopeful",
+      "Confident",
+      "Buoyant",
+      "Positive"
+    ],
+    "antonyms": [
+      "Pessimistic",
+      "Gloomy",
+      "Despondent",
+      "Doubtful"
     ]
   },
   {
@@ -199,6 +243,10 @@
       "Blueprint",
       "Structure",
       "Layout"
+    ],
+    "antonyms": [
+      "Schemaless unstructured JSON",
+      "Dynamic untyped document"
     ]
   },
   {
@@ -234,6 +282,11 @@
       "Visibility range",
       "Context",
       "Boundary"
+    ],
+    "antonyms": [
+      "Global namespace",
+      "Unbounded visibility",
+      "Unscoped leakage"
     ]
   },
   {
@@ -341,6 +394,11 @@
     "synonyms": [
       "Toolkit",
       "Dev kit"
+    ],
+    "antonyms": [
+      "Raw REST API",
+      "Low-level system calls",
+      "Bare socket"
     ]
   },
   {
@@ -380,6 +438,50 @@
       "Loyalty",
       "Patriotism",
       "Obedience"
+    ]
+  },
+  {
+    "id": 3057,
+    "word": "Sedulous",
+    "pos": "adj.",
+    "definition": "Showing dedication and unflagging diligence; meticulously dedicated to tasks.",
+    "enExample": "Through sedulous profiling of garbage collection cycles, the team eliminated latency spikes.",
+    "taWord": "விடாமுயற்சியுடன் உழைக்கிற / மிகுந்த கவனமுடைய",
+    "taExample": "நினைவக சுத்திகரிப்பு சுழற்சிகளை மிகுந்த கவனத்துடன் ஆராய்ந்ததன் மூலம் தாமதப் பிழைகளை குழு சரிசெய்தது.",
+    "synonyms": [
+      "Diligent",
+      "Assiduous",
+      "Painstaking",
+      "Meticulous",
+      "Industrious"
+    ],
+    "antonyms": [
+      "Indolent",
+      "Careless",
+      "Negligent",
+      "Slothful"
+    ]
+  },
+  {
+    "id": 3066,
+    "word": "Serendipitous",
+    "pos": "adj.",
+    "definition": "Occurring or discovered by chance in a happy, fortunate, or beneficial way.",
+    "enExample": "A serendipitous benchmark run revealed an unindexed table that was slowing down global search.",
+    "taWord": "எதிர்பாராத நல்வாய்ப்பாக நிகழ்கிற",
+    "taExample": "எதிர்பாராத நல்வாய்ப்பாக நடத்தப்பட்ட பரிசோதனை ஒன்று தேடலை தாமதப்படுத்திய அட்டவணைப் பிழையைக் கண்டறிய உதவியது.",
+    "synonyms": [
+      "Fortuitous",
+      "Lucky",
+      "Chance",
+      "Accidental",
+      "Providential"
+    ],
+    "antonyms": [
+      "Deliberate",
+      "Unfortunate",
+      "Calculated",
+      "Foreseen"
     ]
   },
   {
@@ -445,6 +547,10 @@
     "synonyms": [
       "Connection span",
       "Interactive state"
+    ],
+    "antonyms": [
+      "Stateless connection",
+      "Persistent global state"
     ]
   },
   {
@@ -618,6 +724,12 @@
       "Fragment",
       "Code piece",
       "Extract"
+    ],
+    "antonyms": [
+      "Complete application",
+      "Monolith",
+      "Whole codebase",
+      "Full text"
     ]
   },
   {
@@ -632,6 +744,54 @@
       "Endpoint",
       "Channel",
       "Port connection"
+    ],
+    "antonyms": [
+      "Disconnected endpoint",
+      "Stateless HTTP call"
+    ]
+  },
+  {
+    "id": 3142,
+    "word": "Solicitous",
+    "pos": "adj.",
+    "definition": "Characterized by or showing interest, concern, or eagerness to please.",
+    "enExample": "The developer relations team was exceptionally solicitous regarding developer feedback on the new SDK.",
+    "taWord": "கனிவான அக்கறை கொண்ட / பரிவுமிக்க",
+    "taExample": "மென்பொருள் தொடர்பு குழுவினர் பயனர்களின் கருத்துக்கள் மீது மிகுந்த கனிவான அக்கறை செலுத்தினர்.",
+    "synonyms": [
+      "Attentive",
+      "Caring",
+      "Concerned",
+      "Mindful",
+      "Thoughtful"
+    ],
+    "antonyms": [
+      "Unconcerned",
+      "Indifferent",
+      "Heedless",
+      "Neglectful"
+    ]
+  },
+  {
+    "id": 3143,
+    "word": "Soporific",
+    "pos": "adj.",
+    "definition": "Tending to induce drowsiness or sleep; tediously monotonous.",
+    "enExample": "A three-hour monologue on legacy database schema evolution proved thoroughly soporific.",
+    "taWord": "தூக்கமூட்டுகிற / அலுப்பூட்டும் சோர்வான",
+    "taExample": "பழைய தரவுத்தளம் குறித்த மூன்று மணி நேர தொடர் பேச்சு அனைவரையும் தூக்கமூட்டும் சோர்வை ஏற்படுத்தியது.",
+    "synonyms": [
+      "Sleep-inducing",
+      "Monotonous",
+      "Sedative",
+      "Tedious",
+      "Boring"
+    ],
+    "antonyms": [
+      "Stimulating",
+      "Invigorating",
+      "Exciting",
+      "Energizing"
     ]
   },
   {
@@ -653,6 +813,28 @@
       "Dependency",
       "Colonial rule",
       "Servitude"
+    ]
+  },
+  {
+    "id": 3144,
+    "word": "Specious",
+    "pos": "adj.",
+    "definition": "Superficially plausible, but actually wrong or misleading; deceptive in appearance.",
+    "enExample": "The vendor used specious marketing graphs with truncated Y-axes to exaggerate their speed advantages.",
+    "taWord": "மேலோட்டமாக சரியெனத் தோன்றும் ஆனால் தவறான",
+    "taExample": "விற்பனையாளர் தவறான வரைபடங்களை பயன்படுத்தி தங்களின் தயாரிப்பு வேகமானது போன்ற போலியான தோற்றத்தை உருவாக்கினர்.",
+    "synonyms": [
+      "Misleading",
+      "Deceptive",
+      "Fallacious",
+      "Spurious",
+      "Illusory"
+    ],
+    "antonyms": [
+      "Genuine",
+      "Sound",
+      "Valid",
+      "True"
     ]
   },
   {
@@ -728,6 +910,28 @@
     ]
   },
   {
+    "id": 3145,
+    "word": "Spurious",
+    "pos": "adj.",
+    "definition": "Not being what it purports to be; false, forged, or invalid.",
+    "enExample": "Flaky unit tests generate spurious alerts that cause alert fatigue across the on-call team.",
+    "taWord": "போலியான / ஆதாரமற்ற",
+    "taExample": "முறையற்ற மென்பொருள் சோதனைகள் போலியான எச்சரிக்கைகளை உருவாக்கி குழுவிற்கு தேவையற்ற சோர்வை ஏற்படுத்துகின்றன.",
+    "synonyms": [
+      "Fake",
+      "False",
+      "Bogus",
+      "Counterfeit",
+      "Fraudulent"
+    ],
+    "antonyms": [
+      "Authentic",
+      "Genuine",
+      "Legitimate",
+      "Valid"
+    ]
+  },
+  {
     "id": 1912,
     "word": "Stack",
     "definition": "A Last-In-First-Out (LIFO) data structure, or the set of technologies used to build a web application.",
@@ -777,6 +981,12 @@
       "Investor",
       "Sponsor",
       "Partner"
+    ],
+    "antonyms": [
+      "Bystander",
+      "Uninvolved party",
+      "Outsider",
+      "Disinterested person"
     ]
   },
   {
@@ -832,6 +1042,11 @@
     "synonyms": [
       "Daily sync",
       "Scrum meeting"
+    ],
+    "antonyms": [
+      "Siloed work",
+      "Asynchronous silence",
+      "Long board meeting"
     ]
   },
   {
@@ -883,6 +1098,33 @@
       "Flow",
       "Data feed",
       "Pipeline"
+    ],
+    "antonyms": [
+      "Batch processing",
+      "Static file dump",
+      "Buffered snapshot"
+    ]
+  },
+  {
+    "id": 3146,
+    "word": "Strident",
+    "pos": "adj.",
+    "definition": "Loud, harsh, grating, or presenting a point of view in an excessively forceful way.",
+    "enExample": "The engineer's strident objections in the pull request comments derailed constructive conversation.",
+    "taWord": "கடுமையான காதை உறுத்தும் / வன்மையான",
+    "taExample": "மென்பொருள் ஆய்வில் தெரிவிக்கப்பட்ட வன்மையான கருத்துக்கள் ஆக்கப்பூர்வமான உரையாடலை முடக்கின.",
+    "synonyms": [
+      "Harsh",
+      "Grating",
+      "Raucous",
+      "Jarring",
+      "Vociferous"
+    ],
+    "antonyms": [
+      "Soft",
+      "Gentle",
+      "Dulcet",
+      "Mellow"
     ]
   },
   {
@@ -905,6 +1147,28 @@
       "Lax",
       "Flexible",
       "Permissive"
+    ]
+  },
+  {
+    "id": 3147,
+    "word": "Stymie",
+    "pos": "verb",
+    "definition": "To prevent or hinder the progress of something; to thwart or block.",
+    "enExample": "A lack of documentation for the proprietary third-party API stymied the integration efforts for weeks.",
+    "taWord": "முட்டுக்கட்டை போடுதல் / தடுத்து நிறுத்துதல்",
+    "taExample": "முறையான ஆவணங்கள் இல்லாதது மென்பொருளை இணைக்கும் பணிகளுக்கு பல வாரங்களாக முட்டுக்கட்டையாக அமைந்தது.",
+    "synonyms": [
+      "Thwart",
+      "Hinder",
+      "Impede",
+      "Block",
+      "Obstruct"
+    ],
+    "antonyms": [
+      "Facilitate",
+      "Advance",
+      "Assist",
+      "Promote"
     ]
   },
   {
@@ -1051,6 +1315,28 @@
       "Inauguration",
       "Launch",
       "Rollout"
+    ]
+  },
+  {
+    "id": 3148,
+    "word": "Supercilious",
+    "pos": "adj.",
+    "definition": "Behaving or looking as though one thinks one is superior to others; arrogantly haughty.",
+    "enExample": "The senior engineer's supercilious attitude during interviews drove away talented prospective candidates.",
+    "taWord": "தலைக்கனம் கொண்ட / இறுமாப்புடைய",
+    "taExample": "நேர்காணலின் போது வெளிப்படுத்தப்பட்ட இறுமாப்பான தலைக்கனம் திறமையான பல விண்ணப்பதாரர்களை விலகச் செய்தது.",
+    "synonyms": [
+      "Arrogant",
+      "Haughty",
+      "Disdainful",
+      "Condescending",
+      "Pompous"
+    ],
+    "antonyms": [
+      "Humble",
+      "Modest",
+      "Deferential",
+      "Respectful"
     ]
   },
   {
@@ -1244,6 +1530,12 @@
       "Toady",
       "Creep",
       "Flatterer"
+    ],
+    "antonyms": [
+      "Rebel",
+      "Critic",
+      "Detractor",
+      "Independent skeptic"
     ]
   },
   {
@@ -1258,6 +1550,12 @@
       "Align",
       "Coordinate",
       "Touch base"
+    ],
+    "antonyms": [
+      "Async",
+      "Asynchronous drift",
+      "Desynchronization",
+      "Disconnect"
     ]
   },
   {
@@ -1349,6 +1647,12 @@
       "Grammar",
       "Structure",
       "Rules"
+    ],
+    "antonyms": [
+      "Semantics",
+      "Meaning",
+      "Logic content",
+      "Machine code"
     ]
   },
   {

@@ -1,5 +1,27 @@
 [
   {
+    "id": 3074,
+    "word": "Dampen",
+    "pos": "verb",
+    "definition": "To make something less strong, intense, or active; to suppress oscillations.",
+    "enExample": "Implementing exponential backoff retry algorithms helps dampen request stampedes during outages.",
+    "taWord": "குறைத்தல் / தீவிரத்தை தணித்தல்",
+    "taExample": "மீண்டும் முயற்சிக்கும் இடைவெளி முறையை அமைப்பது சேவை முடக்கத்தின் போது ஏற்படும் கடுமையான சுமையைத் தணிக்கிறது.",
+    "synonyms": [
+      "Attenuate",
+      "Lessen",
+      "Diminish",
+      "Mitigate",
+      "Curb"
+    ],
+    "antonyms": [
+      "Amplify",
+      "Intensify",
+      "Boost",
+      "Heighten"
+    ]
+  },
+  {
     "id": 2776,
     "word": "Dark Launching",
     "pos": "noun",
@@ -359,6 +381,12 @@
       "Output",
       "Product",
       "Result"
+    ],
+    "antonyms": [
+      "Idea",
+      "Concept",
+      "Work in progress",
+      "Intangible asset"
     ]
   },
   {
@@ -400,6 +428,28 @@
     ]
   },
   {
+    "id": 3060,
+    "word": "Demarcate",
+    "pos": "verb",
+    "definition": "To set boundaries, limits, or distinct separation lines between domains or entities.",
+    "enExample": "Microservices clearly demarcate responsibilities between user billing and inventory management.",
+    "taWord": "எல்லையை வகுத்தல் / வரம்புகளை பிரித்துக் காட்டுதல்",
+    "taExample": "நுண் சேவைகள் பயனாளர் கட்டண சேவைக்கும் சரக்கு மேலாண்மைக்கும் இடையிலான வரம்புகளை தெளிவாக பிரித்துக் காட்டுகின்றன.",
+    "synonyms": [
+      "Delimit",
+      "Delineate",
+      "Separate",
+      "Define",
+      "Distinguish"
+    ],
+    "antonyms": [
+      "Conflate",
+      "Blur",
+      "Merge",
+      "Confuse"
+    ]
+  },
+  {
     "id": 440,
     "word": "Demo",
     "definition": "A live demonstration or presentation of completed software features to stakeholders.",
@@ -411,6 +461,12 @@
       "Demonstration",
       "Walkthrough",
       "Presentation"
+    ],
+    "antonyms": [
+      "Production release",
+      "Final product",
+      "Theory",
+      "Concept"
     ]
   },
   {
@@ -613,6 +669,12 @@
     "synonyms": [
       "Analysis",
       "Troubleshooting"
+    ],
+    "antonyms": [
+      "Guesswork",
+      "Ignorance",
+      "Assumption",
+      "Blind operation"
     ]
   },
   {
@@ -631,6 +693,27 @@
     "antonyms": [
       "Similarity",
       "Unity"
+    ]
+  },
+  {
+    "id": 3104,
+    "word": "Didactic",
+    "pos": "adj.",
+    "definition": "Intended to teach, instruct, or provide moral guidance, often in a pedantic manner.",
+    "enExample": "The compiler error messages were redesigned to be didactic, guiding developers to the correct syntax.",
+    "taWord": "கற்றுத்தரும் நோக்கமுடைய / போதனை செய்கிற",
+    "taExample": "பிழைச் செய்திகள் மென்பொருள் உருவாக்குநர்களுக்கு சரியான வழியைக் கற்றுத்தரும் வகையில் மாற்றி அமைக்கப்பட்டன.",
+    "synonyms": [
+      "Instructive",
+      "Educational",
+      "Pedagogic",
+      "Academic",
+      "Informative"
+    ],
+    "antonyms": [
+      "Uninformative",
+      "Misleading",
+      "Entertaining only"
     ]
   },
   {
@@ -706,6 +789,28 @@
     ]
   },
   {
+    "id": 3071,
+    "word": "Discreet",
+    "pos": "adj.",
+    "definition": "Careful and circumspect in one's speech or actions, especially to avoid causing offense or revealing secrets.",
+    "enExample": "The audit logging subsystem runs discreetly in the background without degrading rendering framerates.",
+    "taWord": "ரகசியம் காக்கும் / விவேகமான கவனமுள்ள",
+    "taExample": "பாதுகாப்பு ஆய்வு அமைப்பு திரையின் வேகத்தைக் குறைக்காமல் பின்னணியில் விவேகமாக இயங்குகிறது.",
+    "synonyms": [
+      "Circumspect",
+      "Unobtrusive",
+      "Subtle",
+      "Tactful",
+      "Guarded"
+    ],
+    "antonyms": [
+      "Indiscreet",
+      "Obtrusive",
+      "Brash",
+      "Ostentatious"
+    ]
+  },
+  {
     "id": 413,
     "word": "Discrepancy",
     "definition": "A lack of compatibility or similarity between two or more facts.",
@@ -757,6 +862,28 @@
       "Verifiable facts",
       "Truth",
       "Authentic reporting"
+    ]
+  },
+  {
+    "id": 3077,
+    "word": "Disingenuous",
+    "pos": "adj.",
+    "definition": "Not candid, frank, or sincere, typically by pretending that one knows less about something than one really does.",
+    "enExample": "Claiming 100% uptime by simply redefining what counted as an outage was disingenuous.",
+    "taWord": "நேர்மையற்ற / பாசாங்கு செய்கிற",
+    "taExample": "சேவை முடக்கத்திற்கான வரையறையை மாற்றிவிட்டு முழுமையாக இயங்கியதாகக் கூறுவது நேர்மையற்ற செயலாகும்.",
+    "synonyms": [
+      "Insincere",
+      "Deceitful",
+      "Hypocritical",
+      "Duplicitous",
+      "Dishonest"
+    ],
+    "antonyms": [
+      "Candid",
+      "Sincere",
+      "Frank",
+      "Honest"
     ]
   },
   {
@@ -1077,6 +1204,12 @@
     "synonyms": [
       "Record",
       "Log"
+    ],
+    "antonyms": [
+      "Abstain",
+      "Halt",
+      "Cease",
+      "Reverse"
     ]
   },
   {
@@ -1114,6 +1247,28 @@
     ]
   },
   {
+    "id": 3082,
+    "word": "Dogmatic",
+    "pos": "adj.",
+    "definition": "Inclined to lay down principles as incontrovertibly true, without consideration of evidence or other opinions.",
+    "enExample": "Adopting a dogmatic refusal to use external libraries slowed down the startup's product launch.",
+    "taWord": "பிடிவாதமான கோட்பாடு கொண்ட / முரட்டுப் பிடிவாதமுடைய",
+    "taExample": "வெளிப்புற நூலகங்களை பயன்படுத்தவே மாட்டோம் என்ற முரட்டுப் பிடிவாதம் தயாரிப்பு வெளியீட்டை தாமதப்படுத்தியது.",
+    "synonyms": [
+      "Doctrinaire",
+      "Rigid",
+      "Inflexible",
+      "Opinionated",
+      "Imperious"
+    ],
+    "antonyms": [
+      "Open-minded",
+      "Pragmatic",
+      "Flexible",
+      "Empirical"
+    ]
+  },
+  {
     "id": 418,
     "word": "Domain",
     "definition": "A distinct subset of the Internet with addresses sharing a common suffix or under the control of a particular organization or individual.",
@@ -1124,6 +1279,11 @@
     "synonyms": [
       "Realm",
       "Territory"
+    ],
+    "antonyms": [
+      "General public space",
+      "Cross-cutting concern",
+      "Global scope"
     ]
   },
   {

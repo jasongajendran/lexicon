@@ -49,6 +49,12 @@
     "synonyms": [
       "Environment",
       "Network"
+    ],
+    "antonyms": [
+      "Isolated node",
+      "Vacuum",
+      "Silo",
+      "Standalone entity"
     ]
   },
   {
@@ -372,6 +378,12 @@
     "synonyms": [
       "Imitate",
       "Mimic"
+    ],
+    "antonyms": [
+      "Abstain",
+      "Halt",
+      "Cease",
+      "Reverse"
     ]
   },
   {
@@ -465,6 +477,28 @@
     ]
   },
   {
+    "id": 3105,
+    "word": "Enervate",
+    "pos": "verb",
+    "definition": "To cause someone or something to feel drained of energy or vitality; to weaken.",
+    "enExample": "Endless bureaucracy and redundant status meetings enervate engineering teams.",
+    "taWord": "சக்தியிழக்கச் செய்தல் / உற்சாகத்தை குறைத்தல்",
+    "taExample": "முடிவில்லாத நிர்வாக நடைமுறைகளும் தேவையற்ற கூட்டங்களும் பொறியியல் குழுவினரின் உற்சாகத்தை இழக்கச் செய்கின்றன.",
+    "synonyms": [
+      "Weaken",
+      "Exhaust",
+      "Drain",
+      "Fatigue",
+      "Debilitate"
+    ],
+    "antonyms": [
+      "Invigorate",
+      "Energize",
+      "Strengthen",
+      "Vitalize"
+    ]
+  },
+  {
     "id": 509,
     "word": "Enforce",
     "definition": "Compel observance of or compliance with a law, rule, or obligation.",
@@ -548,6 +582,12 @@
     "synonyms": [
       "Object",
       "Item"
+    ],
+    "antonyms": [
+      "Attribute",
+      "Property",
+      "Nonentity",
+      "Abstract concept"
     ]
   },
   {
@@ -583,6 +623,27 @@
     "antonyms": [
       "Subtask",
       "Micro-bug"
+    ]
+  },
+  {
+    "id": 3081,
+    "word": "Epiphany",
+    "pos": "noun",
+    "definition": "A moment of sudden, profound revelation or insight into the nature of a problem.",
+    "enExample": "The engineer had an epiphany while reviewing logs, realizing that a clock-skew caused the transaction lockup.",
+    "taWord": "திடீர் ஞானோதயம் / திடீர் உள்ளுணர்வு வெளிப்பாடு",
+    "taExample": "பதிவுகளை ஆய்வு செய்தபோது சர்வர் நேர வேறுபாடே பிழைக்கு காரணம் என்ற திடீர் ஞானோதயம் பொறியாளருக்கு ஏற்பட்டது.",
+    "synonyms": [
+      "Revelation",
+      "Insight",
+      "Discovery",
+      "Realization",
+      "Breakthrough"
+    ],
+    "antonyms": [
+      "Confusion",
+      "Obscurity",
+      "Blindness"
     ]
   },
   {
@@ -622,6 +683,28 @@
     "antonyms": [
       "Unfair",
       "Biased"
+    ]
+  },
+  {
+    "id": 3106,
+    "word": "Equivocate",
+    "pos": "verb",
+    "definition": "To use ambiguous language so as to conceal the truth or avoid committing oneself.",
+    "enExample": "When asked about the project delivery date, the vendor equivocated with vague assurances.",
+    "taWord": "தெளிவின்றி மழுப்பிப் பேசுதல் / இரட்டைப் பொருள் பட பேசுதல்",
+    "taExample": "பணிகள் எப்போது முடியும் எனக் கேட்டபோது, விற்பனையாளர் தெளிவான பதிலின்றி மழுப்பிப் பேசினார்.",
+    "synonyms": [
+      "Prevaricate",
+      "Hedge",
+      "Vacillate",
+      "Obscure",
+      "Dodge"
+    ],
+    "antonyms": [
+      "Speak frankly",
+      "Clarify",
+      "Directly state",
+      "Affirm"
     ]
   },
   {
@@ -772,6 +855,26 @@
     ]
   },
   {
+    "id": 3107,
+    "word": "Euphemism",
+    "pos": "noun",
+    "definition": "A mild or indirect word or expression substituted for one considered too harsh, blunt, or unpleasant.",
+    "enExample": "'Refactoring opportunity' is often used as a polite euphemism for horribly written spaghetti code.",
+    "taWord": "மங்கல வழக்கு / கசப்பானதை நயமாகக் கூறும் சொல்",
+    "taExample": "'குறியீட்டு சீரமைப்பு' என்பது மோசமாக எழுதப்பட்ட மென்பொருளை நயமாகக் குறிக்கப் பயன்படும் ஒரு சொல்லாகும்.",
+    "synonyms": [
+      "Polite term",
+      "Understatement",
+      "Softening",
+      "Alternative phrasing"
+    ],
+    "antonyms": [
+      "Dysphemism",
+      "Blunt truth",
+      "Harsh expression"
+    ]
+  },
+  {
     "id": 515,
     "word": "Evaluate",
     "definition": "Form an idea of the amount, number, or value of; assess.",
@@ -785,6 +888,28 @@
     ],
     "antonyms": [
       "Ignore"
+    ]
+  },
+  {
+    "id": 3091,
+    "word": "Evanescent",
+    "pos": "adj.",
+    "definition": "Soon passing out of sight, memory, or existence; quickly fading or ephemeral.",
+    "enExample": "Microsecond network packet drops are evanescent anomalies that require high-resolution tracing to detect.",
+    "taWord": "விரைவில் மறைந்து போகிற / கணநேர நிலையற்ற",
+    "taExample": "கணப்பொழுதில் மறைந்துவிடும் நெட்வொர்க் பிழைகளைக் கண்டறிய நுணுக்கமான கண்காணிப்பு கருவிகள் தேவை.",
+    "synonyms": [
+      "Ephemeral",
+      "Transient",
+      "Fleeting",
+      "Fugitive",
+      "Vanishing"
+    ],
+    "antonyms": [
+      "Permanent",
+      "Enduring",
+      "Lasting",
+      "Everlasting"
     ]
   },
   {
@@ -832,6 +957,12 @@
     "synonyms": [
       "Proof",
       "Data"
+    ],
+    "antonyms": [
+      "Conjecture",
+      "Speculation",
+      "Rumor",
+      "Assumption"
     ]
   },
   {
@@ -870,6 +1001,28 @@
     "antonyms": [
       "Shared",
       "Inclusive"
+    ]
+  },
+  {
+    "id": 3108,
+    "word": "Exculpate",
+    "pos": "verb",
+    "definition": "To show or declare that someone is not guilty of wrongdoing or system failure.",
+    "enExample": "The distributed tracing logs exculpated the payment gateway, proving the outage was an upstream DNS issue.",
+    "taWord": "குற்றமற்றவர் என நிரூபித்தல் / பிழையிலிருந்து விடுவித்தல்",
+    "taExample": "தொழில்நுட்பப் பதிவுகள் கட்டண அமைப்பில் தவறில்லை என்பதை நிரூபித்து அதை குற்றச்சாட்டிலிருந்து விடுவித்தன.",
+    "synonyms": [
+      "Vindicate",
+      "Exonerate",
+      "Absolve",
+      "Acquit",
+      "Clear"
+    ],
+    "antonyms": [
+      "Incriminate",
+      "Blame",
+      "Condemn",
+      "Culpate"
     ]
   },
   {
@@ -1059,6 +1212,28 @@
     "antonyms": [
       "Linear",
       "Gradual"
+    ]
+  },
+  {
+    "id": 3061,
+    "word": "Expound",
+    "pos": "verb",
+    "definition": "To present and explain a theory, system, or concept in systematic and comprehensive detail.",
+    "enExample": "The research engineer expounded upon the mathematical intricacies of the transformer attention layer.",
+    "taWord": "விளக்கமாக விரித்துரைத்தல் / விரிவான விளக்கம் அளித்தல்",
+    "taExample": "ஆய்வுப் பொறியாளர் நவீன செயற்கை நுண்ணறிவு மாதிரியின் கணித நுணுக்கங்கள் குறித்து விரிவான விளக்கம் அளித்தார்.",
+    "synonyms": [
+      "Elucidate",
+      "Explicate",
+      "Explain",
+      "Clarify",
+      "Interpret"
+    ],
+    "antonyms": [
+      "Obscure",
+      "Summarize",
+      "Conceal",
+      "Mystify"
     ]
   },
   {

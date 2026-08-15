@@ -61,6 +61,12 @@
     "synonyms": [
       "JS",
       "ECMAScript"
+    ],
+    "antonyms": [
+      "Static HTML",
+      "CSS",
+      "Markup language",
+      "Assembly"
     ]
   },
   {
@@ -150,6 +156,12 @@
       "Task",
       "Process",
       "Work unit"
+    ],
+    "antonyms": [
+      "Idleness",
+      "Leisure",
+      "Inactivity",
+      "Unemployment"
     ]
   },
   {
@@ -233,6 +245,12 @@
     "synonyms": [
       "Shock",
       "Impulse"
+    ],
+    "antonyms": [
+      "Smooth transition",
+      "Gentle nudge",
+      "Calm",
+      "Stillness"
     ]
   },
   {
@@ -246,6 +264,11 @@
     "synonyms": [
       "Logging",
       "Auditing"
+    ],
+    "antonyms": [
+      "Unlogged execution",
+      "Volatile memory write",
+      "Silent operation"
     ]
   },
   {
@@ -259,6 +282,12 @@
     "synonyms": [
       "Voyage",
       "Progression"
+    ],
+    "antonyms": [
+      "Stagnation",
+      "Standstill",
+      "Inaction",
+      "Fixation"
     ]
   },
   {
@@ -272,6 +301,11 @@
     "synonyms": [
       "Data format",
       "Payload format"
+    ],
+    "antonyms": [
+      "Binary blob",
+      "Unstructured text",
+      "Raw byte stream"
     ]
   },
   {
@@ -320,6 +354,11 @@
     "synonyms": [
       "Impartial",
       "Legal"
+    ],
+    "antonyms": [
+      "Inconsequential",
+      "Opposite",
+      "Irrelevant"
     ]
   },
   {
@@ -384,6 +423,12 @@
     "synonyms": [
       "Point",
       "Stage"
+    ],
+    "antonyms": [
+      "Continuity",
+      "Routine",
+      "Status quo",
+      "Unbroken phase"
     ]
   },
   {
@@ -433,6 +478,11 @@
     "synonyms": [
       "Legal boundary",
       "Regulatory"
+    ],
+    "antonyms": [
+      "Inconsequential",
+      "Opposite",
+      "Irrelevant"
     ]
   },
   {

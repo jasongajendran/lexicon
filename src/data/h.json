@@ -118,6 +118,11 @@
     "synonyms": [
       "Negotiation",
       "Agreement"
+    ],
+    "antonyms": [
+      "Abrupt termination",
+      "Silent drop",
+      "Unverified transmission"
     ]
   },
   {
@@ -199,6 +204,11 @@
     "synonyms": [
       "Digest",
       "Checksum"
+    ],
+    "antonyms": [
+      "Plaintext",
+      "Cleartext",
+      "Decrypted payload"
     ]
   },
   {
@@ -446,6 +456,26 @@
     ]
   },
   {
+    "id": 3170,
+    "word": "Hospice",
+    "pos": "noun",
+    "definition": "A home or service providing care for the sick or terminally ill.",
+    "enExample": "The philanthropic organization funded a new hospice to support patients requiring palliative care.",
+    "taWord": "ஆதரவற்றோர் காப்பகம் / நோயுற்றோர் புகலிடம்",
+    "taExample": "தொண்டமைப்பு ஒன்று நோயுற்றவர்களுக்கு உதவுவதற்காக புதியதொரு காப்பகத்திற்கு நிதியுதவி அளித்தது.",
+    "synonyms": [
+      "Shelter",
+      "Sanctuary",
+      "Palliative care",
+      "Nursing home"
+    ],
+    "antonyms": [
+      "Acute hospital ward",
+      "Intensive care",
+      "Outpatient clinic"
+    ]
+  },
+  {
     "id": 824,
     "word": "Hospitality",
     "definition": "The friendly and generous reception and entertainment of guests.",
@@ -593,6 +623,11 @@
     "synonyms": [
       "Link",
       "Reference"
+    ],
+    "antonyms": [
+      "Plain text",
+      "Dead end",
+      "Unlinked orphan"
     ]
   },
   {

@@ -10,6 +10,11 @@
     "synonyms": [
       "Unknown quantity",
       "Special quality"
+    ],
+    "antonyms": [
+      "Known constant",
+      "Predictable baseline",
+      "Deterministic input"
     ]
   },
   {
@@ -22,6 +27,10 @@
     "pos": "noun",
     "synonyms": [
       "MIME sniffing prevention header"
+    ],
+    "antonyms": [
+      "Permissive MIME sniffing",
+      "Unrestricted content parsing"
     ]
   },
   {
@@ -35,6 +44,10 @@
     "synonyms": [
       "Iframe security header",
       "Anti-clickjacking header"
+    ],
+    "antonyms": [
+      "Unrestricted iframe embedding",
+      "Open framing"
     ]
   },
   {
@@ -64,6 +77,10 @@
     "synonyms": [
       "Distributed tracer",
       "Telemetry analyzer"
+    ],
+    "antonyms": [
+      "Opaque blackbox",
+      "Unmonitored distributed system"
     ]
   },
   {
@@ -78,6 +95,11 @@
       "SSL certificate",
       "PKI certificate",
       "TLS cert"
+    ],
+    "antonyms": [
+      "Unsigned certificate",
+      "Self-signed root key",
+      "Plaintext connection"
     ]
   },
   {
@@ -144,6 +166,11 @@
     "synonyms": [
       "Gradient boosting",
       "ML library"
+    ],
+    "antonyms": [
+      "Naive Bayes",
+      "Linear regression",
+      "Random guessing"
     ]
   },
   {
@@ -152,7 +179,7 @@
     "definition": "XMLHttpRequest; a browser API object used to transfer data between web clients and servers asynchronously without reloading the page.",
     "enExample": "Modern fetch API wraps legacy XHR functionalities with clean JavaScript Promises.",
     "taExample": "நவீன ஃபெட்ச் API பழைய எக்ஸ்.ஹெச்.ஆர் (XHR) செயல்பாடுகளை சுத்தமான ஜாவாஸ்கிரிப்ட் வாக்குறுதிகளுடன் உறையிடுகிறது.",
-    "taWord": "XMLHttpRequest (XHR)",
+    "taWord": "பின்னணி தரவு பரிமாற்றம் (XHR)",
     "pos": "noun",
     "synonyms": [
       "XMLHttpRequest",
@@ -223,6 +250,10 @@
     "pos": "noun",
     "synonyms": [
       "XML namespace attribute"
+    ],
+    "antonyms": [
+      "Unqualified element name",
+      "Global XML collision"
     ]
   },
   {

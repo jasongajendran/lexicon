@@ -88,6 +88,28 @@
     ]
   },
   {
+    "id": 3109,
+    "word": "Idiosyncratic",
+    "pos": "adj.",
+    "definition": "Relating to idiosyncrasy; peculiar, distinct, or individualistic in style or behavior.",
+    "enExample": "The engineer had an idiosyncratic coding style with non-standard indentation and custom naming rules.",
+    "taWord": "தனித்துவமான விசித்திரப் பழக்கம் கொண்ட",
+    "taExample": "அந்த மென்பொருள் உருவாக்குநர் மற்றவர்களிடமிருந்து மாறுபட்ட தனித்துவமான குறியீட்டு முறையைக் கொண்டிருந்தார்.",
+    "synonyms": [
+      "Peculiar",
+      "Distinctive",
+      "Quirky",
+      "Eccentric",
+      "Individualistic"
+    ],
+    "antonyms": [
+      "Conventional",
+      "Standard",
+      "Typical",
+      "Conforming"
+    ]
+  },
+  {
     "id": 929,
     "word": "Illustrate",
     "definition": "Explain or make something clear using examples, charts, or diagrams.",
@@ -132,6 +154,12 @@
     "synonyms": [
       "Effect",
       "Impression"
+    ],
+    "antonyms": [
+      "Insignificance",
+      "Irrelevance",
+      "Impotence",
+      "Stagnation"
     ]
   },
   {
@@ -226,6 +254,50 @@
     "antonyms": [
       "Optional",
       "Unimportant"
+    ]
+  },
+  {
+    "id": 3110,
+    "word": "Impervious",
+    "pos": "adj.",
+    "definition": "Not allowing fluid to pass through; unable to be affected, penetrated, or compromised by external factors.",
+    "enExample": "The encrypted vault was designed to be impervious to quantum computing decryption attempts.",
+    "taWord": "ஊடுருவ முடியாத / பாதிப்படையாத",
+    "taExample": "ரகசிய பெட்டகம் எந்தவித கணினி தாக்குதல்களாலும் ஊடுருவ முடியாத வகையில் பாதுகாப்பாக வடிவமைக்கப்பட்டது.",
+    "synonyms": [
+      "Impenetrable",
+      "Immune",
+      "Invulnerable",
+      "Resistant",
+      "Proof"
+    ],
+    "antonyms": [
+      "Vulnerable",
+      "Susceptible",
+      "Permeable",
+      "Fragile"
+    ]
+  },
+  {
+    "id": 3083,
+    "word": "Impetuous",
+    "pos": "adj.",
+    "definition": "Acting or done quickly and without thought or care; moving with great force and violence.",
+    "enExample": "Making an impetuous hotfix directly to production without testing caused a database outage.",
+    "taWord": "ஆலோசிக்காமல் அவசரமாக செயல்படுகிற / பதற்றமான",
+    "taExample": "சோதிக்காமல் அவசரமாக நேரடியாக செய்யப்பட்ட மாற்றமானது தரவுத்தள முடக்கத்திற்கு வழிவகுத்தது.",
+    "synonyms": [
+      "Impulsive",
+      "Rash",
+      "Hasty",
+      "Reckless",
+      "Precipitous"
+    ],
+    "antonyms": [
+      "Circumspect",
+      "Cautious",
+      "Calculated",
+      "Deliberate"
     ]
   },
   {
@@ -340,6 +412,28 @@
     ]
   },
   {
+    "id": 3093,
+    "word": "Inchoate",
+    "pos": "adj.",
+    "definition": "Just begun and so not fully formed or developed; rudimentary and in early stages.",
+    "enExample": "The startup had an inchoate codebase that lacked unit tests and documentation.",
+    "taWord": "ஆரம்பக் கட்டத்திலுள்ள / முழு வடிவம் பெறாத",
+    "taExample": "ஆரம்பக் கட்ட நிறுவனத்தின் குறியீடுகள் இன்னும் முழு வடிவம் பெறாமலும் முறையான சோதனைகள் இன்றியும் இருந்தன.",
+    "synonyms": [
+      "Rudimentary",
+      "Nascent",
+      "Formless",
+      "Undeveloped",
+      "Embryonic"
+    ],
+    "antonyms": [
+      "Mature",
+      "Developed",
+      "Finished",
+      "Complete"
+    ]
+  },
+  {
     "id": 2873,
     "word": "Incite",
     "pos": "verb",
@@ -358,6 +452,28 @@
       "Dissuade",
       "Pacify",
       "Calm"
+    ]
+  },
+  {
+    "id": 3072,
+    "word": "Incongruous",
+    "pos": "adj.",
+    "definition": "Not in harmony or keeping with the surroundings or other aspects of something; out of place.",
+    "enExample": "Displaying a whimsical cartoon icon on an enterprise banking dashboard looked incongruous.",
+    "taWord": "பொருத்தமற்ற / முரணான",
+    "taExample": "நிறுவன வங்கி பயன்பாட்டுத் திரையில் வேடிக்கையான கேலிச்சித்திர சின்னத்தை வைத்தது பொருத்தமற்றதாகத் தெரிந்தது.",
+    "synonyms": [
+      "Incompatible",
+      "Out of place",
+      "Inconsistent",
+      "Anomalous",
+      "Discordant"
+    ],
+    "antonyms": [
+      "Harmonious",
+      "Compatible",
+      "Consistent",
+      "Fitting"
     ]
   },
   {
@@ -406,6 +522,11 @@
     "synonyms": [
       "Directory",
       "Indicator"
+    ],
+    "antonyms": [
+      "Full table scan",
+      "Unsorted sequence",
+      "Linear search"
     ]
   },
   {
@@ -444,6 +565,49 @@
     "antonyms": [
       "Disposable",
       "Superfluous"
+    ]
+  },
+  {
+    "id": 3111,
+    "word": "Indolent",
+    "pos": "adj.",
+    "definition": "Wanting to avoid activity or exertion; lazy, slothful, or inactive.",
+    "enExample": "The thread pool became indolent because worker threads were waiting endlessly for unreleased mutexes.",
+    "taWord": "சோம்பலான / செயலற்ற",
+    "taExample": "பூட்டுகள் திறக்கப்படாததால் வேலை செய்யும் இழைகள் இயங்காமல் சோம்பலாக செயலற்று நின்றன.",
+    "synonyms": [
+      "Lazy",
+      "Slothful",
+      "Inactive",
+      "Lethargic",
+      "Idle"
+    ],
+    "antonyms": [
+      "Diligent",
+      "Industrious",
+      "Active",
+      "Assiduous"
+    ]
+  },
+  {
+    "id": 3090,
+    "word": "Ineffable",
+    "pos": "adj.",
+    "definition": "Too great, beautiful, or extreme to be expressed or described in words.",
+    "enExample": "The speed increase from migrating to bare-metal WebAssembly modules brought ineffable satisfaction.",
+    "taWord": "வார்த்தைகளால் விவரிக்க முடியாத / சொல்லொணா",
+    "taExample": "மென்பொருளின் வேகம் பல மடங்கு அதிகரித்தது பொறியியல் குழுவிற்கு சொல்லொணா மகிழ்ச்சியைத் தந்தது.",
+    "synonyms": [
+      "Indescribable",
+      "Inexpressible",
+      "Transcendent",
+      "Unutterable"
+    ],
+    "antonyms": [
+      "Describable",
+      "Expressible",
+      "Utterable",
+      "Commonplace"
     ]
   },
   {
@@ -532,6 +696,12 @@
     "synonyms": [
       "Effect",
       "Control"
+    ],
+    "antonyms": [
+      "Powerlessness",
+      "Irrelevance",
+      "Impotence",
+      "Subordination"
     ]
   },
   {
@@ -625,6 +795,28 @@
     ]
   },
   {
+    "id": 3112,
+    "word": "Innocuous",
+    "pos": "adj.",
+    "definition": "Not harmful or offensive; producing no injury or ill effect.",
+    "enExample": "What seemed like an innocuous one-character typo in the regex caused catastrophic catastrophic backtracking.",
+    "taWord": "தீங்கற்ற / ஆபத்தில்லாத",
+    "taExample": "ஆபத்தில்லாதது போல் தோன்றிய ஒரு சிறிய எழுத்துப் பிழை முழு சர்வரின் இயக்கத்தையும் முடக்கியது.",
+    "synonyms": [
+      "Harmless",
+      "Safe",
+      "Inoffensive",
+      "Benign",
+      "Nontoxic"
+    ],
+    "antonyms": [
+      "Harmful",
+      "Pernicious",
+      "Deleterious",
+      "Toxic"
+    ]
+  },
+  {
     "id": 3027,
     "word": "Insidious",
     "pos": "adj.",
@@ -711,6 +903,11 @@
     "synonyms": [
       "Example",
       "Occurrence"
+    ],
+    "antonyms": [
+      "Class definition",
+      "Abstract interface",
+      "Blueprint type"
     ]
   },
   {
@@ -796,6 +993,11 @@
     "synonyms": [
       "Boundary",
       "Connection"
+    ],
+    "antonyms": [
+      "Concrete implementation",
+      "Internal logic",
+      "Private struct"
     ]
   },
   {
@@ -957,6 +1159,28 @@
     ]
   },
   {
+    "id": 3113,
+    "word": "Invective",
+    "pos": "noun",
+    "definition": "Insulting, abusive, or highly critical language directed at someone or something.",
+    "enExample": "The moderator deleted comments filled with invective to maintain a constructive developer forum.",
+    "taWord": "திட்டுரை / கடுமையான வசைச்சொல்",
+    "taExample": "ஆக்கப்பூர்வமான கலந்துரையாடலை உறுதி செய்ய கடுமையான வசைச்சொற்கள் நிறைந்த கருத்துக்களை நடுவர் நீக்கினார்.",
+    "synonyms": [
+      "Abuse",
+      "Vituperation",
+      "Insult",
+      "Denunciation",
+      "Reproach"
+    ],
+    "antonyms": [
+      "Praise",
+      "Compliment",
+      "Eulogy",
+      "Flattery"
+    ]
+  },
+  {
     "id": 920,
     "word": "Invoke",
     "definition": "Cite or appeal to (someone or something) as an authority for an action or in support of an argument.",
@@ -1000,6 +1224,12 @@
     "synonyms": [
       "Repeat",
       "Loop"
+    ],
+    "antonyms": [
+      "Abstain",
+      "Halt",
+      "Cease",
+      "Reverse"
     ]
   }
 ]

@@ -10,6 +10,11 @@
     "synonyms": [
       "Accumulation",
       "Reserve"
+    ],
+    "antonyms": [
+      "Completed archive",
+      "Discharged queue",
+      "Immediate delivery"
     ]
   },
   {
@@ -40,6 +45,11 @@
     "synonyms": [
       "Retrofit",
       "Apply"
+    ],
+    "antonyms": [
+      "Forward port",
+      "Upstream merge",
+      "Deprecate legacy"
     ]
   },
   {
@@ -88,6 +98,11 @@
     "synonyms": [
       "Capacity",
       "Time"
+    ],
+    "antonyms": [
+      "Latency",
+      "Throughput bottleneck",
+      "Network saturation"
     ]
   },
   {
@@ -136,6 +151,12 @@
     "synonyms": [
       "Standard",
       "Benchmark"
+    ],
+    "antonyms": [
+      "Outlier",
+      "Deviation",
+      "Anomaly",
+      "Extreme variance"
     ]
   },
   {
@@ -149,6 +170,11 @@
     "synonyms": [
       "Group",
       "Lot"
+    ],
+    "antonyms": [
+      "Real-time stream",
+      "Continuous processing",
+      "Single event loop"
     ]
   },
   {
@@ -162,6 +188,32 @@
     "synonyms": [
       "Guide",
       "Signal"
+    ],
+    "antonyms": [
+      "Stealth node",
+      "Silent receiver",
+      "Dead signal"
+    ]
+  },
+  {
+    "id": 3070,
+    "word": "Bedrock",
+    "pos": "noun",
+    "definition": "The solid rock underlying loose deposits; the fundamental principles on which something is based.",
+    "enExample": "Mathematical formal methods serve as the bedrock of mission-critical aerospace flight software.",
+    "taWord": "அடிப்படை பாறை / அடித்தளம்",
+    "taExample": "துல்லியமான கணித விதிகளே விண்வெளி பயண மென்பொருட்களின் நம்பகமான அடிப்படை அடித்தளமாக விளங்குகின்றன.",
+    "synonyms": [
+      "Foundation",
+      "Cornerstone",
+      "Basis",
+      "Keystone",
+      "Core"
+    ],
+    "antonyms": [
+      "Superficial layer",
+      "Periphery",
+      "Trimmings"
     ]
   },
   {
@@ -175,6 +227,11 @@
     "synonyms": [
       "Conduct",
       "Action"
+    ],
+    "antonyms": [
+      "Static state",
+      "Immutable structure",
+      "Passive data"
     ]
   },
   {
@@ -217,6 +274,28 @@
     ]
   },
   {
+    "id": 3102,
+    "word": "Belligerent",
+    "pos": "adj.",
+    "definition": "Hostile, aggressive, and eager to fight or argue.",
+    "enExample": "The open-source maintainer rejected pull requests with belligerent comments, damaging community morale.",
+    "taWord": "சண்டை மூட்டுகிற / ஆக்ரோஷமான பகைமை கொண்ட",
+    "taExample": "மென்பொருள் பராமரிப்பாளர் ஆக்ரோஷமான கருத்துக்களுடன் கோரிக்கைகளை நிராகரித்தது சமூகத்தின் உற்சாகத்தைக் குறைத்தது.",
+    "synonyms": [
+      "Hostile",
+      "Aggressive",
+      "Combative",
+      "Pugnacious",
+      "Antagonistic"
+    ],
+    "antonyms": [
+      "Peaceful",
+      "Conciliatory",
+      "Friendly",
+      "Harmonious"
+    ]
+  },
+  {
     "id": 202,
     "word": "Benchmark",
     "definition": "A standard or point of reference against which things may be compared or assessed.",
@@ -227,6 +306,11 @@
     "synonyms": [
       "Standard",
       "Baseline"
+    ],
+    "antonyms": [
+      "Unmeasured guess",
+      "Unverified claim",
+      "Arbitrary estimate"
     ]
   },
   {
@@ -244,6 +328,28 @@
     "antonyms": [
       "Drawback",
       "Disadvantage"
+    ]
+  },
+  {
+    "id": 3089,
+    "word": "Benevolence",
+    "pos": "noun",
+    "definition": "The quality of being well meaning; kindness and generosity of disposition.",
+    "enExample": "The open-source foundation operates with the benevolence of corporate sponsors who fund maintainers.",
+    "taWord": "கருணை / நற்பண்பு மிக்க தாராள குணம்",
+    "taExample": "திறந்த மூல மென்பொருள் அறக்கட்டளை நிறுவனங்களின் தாராள நிதியுதவி மற்றும் கருணையுடன் இயங்குகிறது.",
+    "synonyms": [
+      "Kindness",
+      "Goodwill",
+      "Generosity",
+      "Altruism",
+      "Charity"
+    ],
+    "antonyms": [
+      "Malevolence",
+      "Spite",
+      "Malice",
+      "Cruelty"
     ]
   },
   {
@@ -521,6 +627,12 @@
     "synonyms": [
       "Self-starting",
       "Initiating"
+    ],
+    "antonyms": [
+      "Abstain",
+      "Halt",
+      "Cease",
+      "Reverse"
     ]
   },
   {
@@ -569,6 +681,12 @@
     "synonyms": [
       "Limit",
       "Border"
+    ],
+    "antonyms": [
+      "Center",
+      "Core",
+      "Interior",
+      "Boundlessness"
     ]
   },
   {
@@ -734,6 +852,11 @@
     "synonyms": [
       "Cache",
       "Cushion"
+    ],
+    "antonyms": [
+      "Immediate flush",
+      "Unbuffered stream",
+      "Direct pipe"
     ]
   },
   {
@@ -866,6 +989,12 @@
     "synonyms": [
       "Enterprise",
       "Commerce"
+    ],
+    "antonyms": [
+      "Leisure",
+      "Hobby",
+      "Charity",
+      "Non-profit"
     ]
   },
   {

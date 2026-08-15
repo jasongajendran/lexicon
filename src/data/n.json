@@ -100,6 +100,12 @@
       "Routing",
       "Wayfinding",
       "Traversing"
+    ],
+    "antonyms": [
+      "Lost state",
+      "Wandering",
+      "Disorientation",
+      "Dead end"
     ]
   },
   {
@@ -192,6 +198,11 @@
       "Cognitive",
       "Connectionist",
       "AI-driven"
+    ],
+    "antonyms": [
+      "Inconsequential",
+      "Opposite",
+      "Irrelevant"
     ]
   },
   {
@@ -261,6 +272,11 @@
       "Vertex",
       "Point",
       "Host"
+    ],
+    "antonyms": [
+      "Edge connector",
+      "Empty graph",
+      "Network root"
     ]
   },
   {
@@ -366,6 +382,11 @@
       "Syntax",
       "Representation",
       "Symbolism"
+    ],
+    "antonyms": [
+      "Oral tradition",
+      "Unrecorded thought",
+      "Ambiguity"
     ]
   },
   {
@@ -380,6 +401,12 @@
       "Alert",
       "Banner",
       "Notification"
+    ],
+    "antonyms": [
+      "Ignorance",
+      "Overlook",
+      "Neglect",
+      "Silence"
     ]
   },
   {
@@ -394,6 +421,12 @@
       "Alert",
       "Message",
       "Dispatch"
+    ],
+    "antonyms": [
+      "Silence",
+      "Suppression",
+      "Muting",
+      "Ignorance"
     ]
   },
   {
@@ -408,6 +441,12 @@
       "Subtle distinction",
       "Shade",
       "Subtlety"
+    ],
+    "antonyms": [
+      "Bluntness",
+      "Obviousness",
+      "Simplicity",
+      "Crude distinction"
     ]
   },
   {

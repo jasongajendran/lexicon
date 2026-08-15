@@ -28,6 +28,12 @@
       "Cabinet",
       "Frame",
       "Chassis"
+    ],
+    "antonyms": [
+      "Desktop tower",
+      "Laptop",
+      "Virtual machine",
+      "Scattered hardware"
     ]
   },
   {
@@ -107,6 +113,28 @@
     ]
   },
   {
+    "id": 3136,
+    "word": "Rancor",
+    "pos": "noun",
+    "definition": "Bitterness or resentfulness, especially when long-standing; animosity.",
+    "enExample": "The architectural dispute ended without rancor after empirical benchmark data proved the winner.",
+    "taWord": "தீராத பகை / கசப்புணர்வு",
+    "taExample": "செயல்திறன் சோதனை முடிவுகள் உண்மையை தெளிவுபடுத்தியதால் விவாதம் எவ்வித கசப்புணர்வும் இன்றி முடிந்தது.",
+    "synonyms": [
+      "Bitterness",
+      "Resentment",
+      "Animosity",
+      "Malice",
+      "Spite"
+    ],
+    "antonyms": [
+      "Goodwill",
+      "Harmony",
+      "Benevolence",
+      "Amity"
+    ]
+  },
+  {
     "id": 1804,
     "word": "Random",
     "definition": "Lacking a definite plan, purpose, or pattern; unpredictable number generation in computing.",
@@ -136,6 +164,11 @@
       "Span",
       "Extent",
       "Interval"
+    ],
+    "antonyms": [
+      "Single point",
+      "Fixed value",
+      "Scalar limit"
     ]
   },
   {
@@ -367,6 +400,27 @@
     ]
   },
   {
+    "id": 3062,
+    "word": "Recapitulate",
+    "pos": "verb",
+    "definition": "To summarize and state again the main points or core findings of an argument or meeting.",
+    "enExample": "At the end of the sprint review, the Scrum Master recapitulated the team's key velocity metrics.",
+    "taWord": "சுருக்கிக் கூறுதல் / முக்கிய கருத்துக்களை மீட்டுரைத்தல்",
+    "taExample": "கூட்டத்தின் முடிவில் குழுவின் முக்கிய செயல்பாட்டு அளவீடுகளை ஒருங்கிணைப்பாளர் சுருக்கமாக மீட்டுரைத்தார்.",
+    "synonyms": [
+      "Summarize",
+      "Reiterate",
+      "Recap",
+      "Outline",
+      "Review"
+    ],
+    "antonyms": [
+      "Elaborate indefinitely",
+      "Expand",
+      "Obscure"
+    ]
+  },
+  {
     "id": 2904,
     "word": "Recidivism",
     "pos": "noun",
@@ -427,6 +481,28 @@
     ]
   },
   {
+    "id": 3137,
+    "word": "Recondite",
+    "pos": "adj.",
+    "definition": "Little known; abstruse, profound, and beyond the grasp of ordinary knowledge.",
+    "enExample": "The obscure compiler optimization bug was solved by consulting recondite hardware specification manuals.",
+    "taWord": "அரிதான ஆழ்ந்த மறைபொருள் கொண்ட / நுணுக்கமான",
+    "taExample": "கடினமான மென்பொருள் பிழையானது அரிதான வன்பொருள் கையேடுகளை ஆய்வு செய்ததன் மூலம் தீர்க்கப்பட்டது.",
+    "synonyms": [
+      "Abstruse",
+      "Arcane",
+      "Esoteric",
+      "Deep",
+      "Obscure"
+    ],
+    "antonyms": [
+      "Familiar",
+      "Common",
+      "Simple",
+      "Straightforward"
+    ]
+  },
+  {
     "id": 3011,
     "word": "Rectify",
     "pos": "verb",
@@ -484,6 +560,28 @@
     ]
   },
   {
+    "id": 3138,
+    "word": "Redoubtable",
+    "pos": "adj.",
+    "definition": "Formidable, especially as an opponent; inspiring fear or awe.",
+    "enExample": "The site reliability team proved to be a redoubtable defense against distributed denial-of-service attacks.",
+    "taWord": "அஞ்சத்தக்க வலிமை கொண்ட / மதிப்பிற்குரிய வலிமையான",
+    "taExample": "பாதுகாப்புக் குழு இணையத் தாக்குதல்களுக்கு எதிராக அஞ்சத்தக்க வலிமையான அரணாக செயல்பட்டது.",
+    "synonyms": [
+      "Formidable",
+      "Fearsome",
+      "Imposing",
+      "Daunting",
+      "Awe-inspiring"
+    ],
+    "antonyms": [
+      "Weak",
+      "Insignificant",
+      "Feeble",
+      "Unimposing"
+    ]
+  },
+  {
     "id": 1810,
     "word": "Redundancy",
     "definition": "Duplication of critical components or functions to increase reliability and fault tolerance.",
@@ -512,6 +610,11 @@
       "Clean up",
       "Reorganize",
       "Restructure"
+    ],
+    "antonyms": [
+      "Rewrite from scratch",
+      "Feature addition",
+      "Leave technical debt"
     ]
   },
   {
@@ -544,6 +647,10 @@
       "Catalog",
       "Repository",
       "Directory"
+    ],
+    "antonyms": [
+      "Local isolated filesystem",
+      "Unindexed local repo"
     ]
   },
   {
@@ -633,6 +740,12 @@
       "Draw",
       "Generate",
       "Paint"
+    ],
+    "antonyms": [
+      "Abstain",
+      "Halt",
+      "Cease",
+      "Reverse"
     ]
   },
   {
@@ -707,6 +820,10 @@
       "Repo",
       "Vault",
       "Archive"
+    ],
+    "antonyms": [
+      "Working directory",
+      "Unversioned folder"
     ]
   },
   {
@@ -831,6 +948,27 @@
     ]
   },
   {
+    "id": 3168,
+    "word": "Resonate",
+    "pos": "verb",
+    "definition": "To produce or be filled with a deep, full, reverberating sound; to evoke or suggest images, memories, or emotions.",
+    "enExample": "The CEO’s vision for sustainable engineering resonated with the entire development team.",
+    "taWord": "எதிரொலித்தல் / ஒத்ததிர்வு கொள்ளுதல்",
+    "taExample": "நிறுவனத் தலைவரின் தொலைநோக்குத் திட்டம் முழு பொறியியல் குழுவின் மனதிலும் ஆழமாக எதிரொலித்தது.",
+    "synonyms": [
+      "Reverberate",
+      "Echo",
+      "Connect",
+      "Align"
+    ],
+    "antonyms": [
+      "Clash",
+      "Dissonate",
+      "Disconnect",
+      "Alienate"
+    ]
+  },
+  {
     "id": 2942,
     "word": "Retaliate",
     "pos": "verb",
@@ -873,6 +1011,50 @@
     ]
   },
   {
+    "id": 3139,
+    "word": "Reticent",
+    "pos": "adj.",
+    "definition": "Not revealing one's thoughts or feelings readily; reserved and restrained in speech.",
+    "enExample": "The introverted engineer was reticent during meetings but expressed brilliant insights in code reviews.",
+    "taWord": "பேசத் தயங்குகிற / அடக்கமான மௌனமான",
+    "taExample": "கூட்டங்களில் அதிகம் பேசத் தயங்கிய அந்த பொறியாளர் தனது குறியீட்டு ஆய்வுகளில் அரிய கருத்துக்களை வழங்கினார்.",
+    "synonyms": [
+      "Reserved",
+      "Taciturn",
+      "Quiet",
+      "Uncommunicative",
+      "Restrained"
+    ],
+    "antonyms": [
+      "Loquacious",
+      "Garrulous",
+      "Voluble",
+      "Outspoken"
+    ]
+  },
+  {
+    "id": 3076,
+    "word": "Retract",
+    "pos": "verb",
+    "definition": "To draw back or in; to formally withdraw a statement, accusation, or promise.",
+    "enExample": "The team retracted the buggy package release within fifteen minutes of identifying data corruption.",
+    "taWord": "திரும்பப் பெறுதல் / பின்வாங்குதல்",
+    "taExample": "பிழையைக் கண்டறிந்த பதினைந்து நிமிடங்களுக்குள் தவறான மென்பொருள் பதிப்பை குழு உடனடியாக திரும்பப் பெற்றது.",
+    "synonyms": [
+      "Withdraw",
+      "Revoke",
+      "Rescind",
+      "Recall",
+      "Disavow"
+    ],
+    "antonyms": [
+      "Reaffirm",
+      "Assert",
+      "Publish",
+      "Promulgate"
+    ]
+  },
+  {
     "id": 1819,
     "word": "Retrospective",
     "definition": "A recurring team meeting held after a sprint or project to evaluate what went well and what can be improved.",
@@ -884,6 +1066,12 @@
       "Post-mortem",
       "Review meeting",
       "Debrief"
+    ],
+    "antonyms": [
+      "Foresight",
+      "Projection",
+      "Future planning",
+      "Ignorance"
     ]
   },
   {
@@ -954,6 +1142,12 @@
       "Strategy",
       "Timeline",
       "Milestone plan"
+    ],
+    "antonyms": [
+      "Aimlessness",
+      "Chaos",
+      "Ad-hoc process",
+      "Blind execution"
     ]
   },
   {
@@ -986,6 +1180,12 @@
       "Path",
       "Endpoint",
       "URL pattern"
+    ],
+    "antonyms": [
+      "Dead end",
+      "Blockage",
+      "Lost connection",
+      "No-path"
     ]
   },
   {

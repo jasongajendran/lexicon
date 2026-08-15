@@ -32,6 +32,11 @@
       "Script",
       "Shortcut",
       "Automation"
+    ],
+    "antonyms": [
+      "Micro-management",
+      "Manual execution",
+      "Single step"
     ]
   },
   {
@@ -192,6 +197,10 @@
     "synonyms": [
       "Metadata file",
       "Declaration"
+    ],
+    "antonyms": [
+      "Dynamic runtime discovery",
+      "Implicit auto-configuration"
     ]
   },
   {
@@ -206,6 +215,12 @@
       "Association",
       "Correlation",
       "Projection"
+    ],
+    "antonyms": [
+      "Disorientation",
+      "Misalignment",
+      "Randomness",
+      "Chaos"
     ]
   },
   {
@@ -293,6 +308,32 @@
       "Grid",
       "Array",
       "Table"
+    ],
+    "antonyms": [
+      "Scalar",
+      "Single value",
+      "One-dimensional array"
+    ]
+  },
+  {
+    "id": 3114,
+    "word": "Maverick",
+    "pos": "noun",
+    "definition": "An unorthodox, independent-minded person who refuses to conform to prevailing group dogma.",
+    "enExample": "The startup was founded by a maverick engineer who abandoned traditional relational databases for graph models.",
+    "taWord": "விசித்திரமான சுதந்திர சிந்தனையாளர் / மரபுசாராதவர்",
+    "taExample": "மரபுவழி முறைகளை விடுத்து புதிய வரைபட முறையை தைரியமாக கையாண்ட ஒரு சுதந்திர சிந்தனையாளரால் நிறுவனம் தொடங்கப்பட்டது.",
+    "synonyms": [
+      "Nonconformist",
+      "Individualist",
+      "Iconoclast",
+      "Rebel",
+      "Original"
+    ],
+    "antonyms": [
+      "Conformist",
+      "Follower",
+      "Traditionalist"
     ]
   },
   {
@@ -306,6 +347,12 @@
     "synonyms": [
       "Midpoint",
       "Middle value"
+    ],
+    "antonyms": [
+      "Outlier",
+      "Extreme",
+      "Anomaly",
+      "Fringe"
     ]
   },
   {
@@ -319,6 +366,11 @@
     "synonyms": [
       "Caching",
       "Result retention"
+    ],
+    "antonyms": [
+      "Redundant calculation",
+      "Re-computation",
+      "Inefficiency"
     ]
   },
   {
@@ -333,6 +385,56 @@
       "RAM",
       "Storage",
       "Buffer"
+    ],
+    "antonyms": [
+      "Storage",
+      "Disk space",
+      "Amnesia",
+      "Forgetting"
+    ]
+  },
+  {
+    "id": 3115,
+    "word": "Mendacious",
+    "pos": "adj.",
+    "definition": "Not telling the truth; lying, dishonest, or deceitful.",
+    "enExample": "The vendor made mendacious marketing claims about their cloud uptime guarantees.",
+    "taWord": "பொய்யான / உண்மையற்ற ஏமாற்றுகிற",
+    "taExample": "விற்பனை நிறுவனம் தனது சேவையின் நம்பகத்தன்மை குறித்து பொய்யான விளம்பரங்களை வெளியிட்டது.",
+    "synonyms": [
+      "Lying",
+      "Untruthful",
+      "Deceitful",
+      "Dishonest",
+      "False"
+    ],
+    "antonyms": [
+      "Veracious",
+      "Truthful",
+      "Honest",
+      "Frank"
+    ]
+  },
+  {
+    "id": 3116,
+    "word": "Mercurial",
+    "pos": "adj.",
+    "definition": "Subject to sudden or unpredictable changes of mood, condition, or temperament; volatile.",
+    "enExample": "The unpredictable performance of the flaky integration test was due to mercurial network latency.",
+    "taWord": "எளிதில் மாறக்கூடிய / நிலையற்ற கணிக்க முடியாத",
+    "taExample": "நெட்வொர்க் வேகத்தில் ஏற்பட்ட நிலையற்ற மாற்றங்களே சோதனையின் கணிக்க முடியாத முடிவுகளுக்கு காரணமாக அமைந்தது.",
+    "synonyms": [
+      "Volatile",
+      "Capricious",
+      "Unpredictable",
+      "Fickle",
+      "Erratic"
+    ],
+    "antonyms": [
+      "Stable",
+      "Constant",
+      "Steady",
+      "Predictable"
     ]
   },
   {
@@ -366,6 +468,11 @@
       "Descriptors",
       "Tags",
       "Header info"
+    ],
+    "antonyms": [
+      "Payload content",
+      "Primary body data",
+      "Raw byte array"
     ]
   },
   {
@@ -380,6 +487,12 @@
       "Function",
       "Procedure",
       "Routine"
+    ],
+    "antonyms": [
+      "Chaos",
+      "Disorder",
+      "Guesswork",
+      "Randomness"
     ]
   },
   {
@@ -450,6 +563,11 @@
     "synonyms": [
       "Interceptor",
       "Pipeline step"
+    ],
+    "antonyms": [
+      "Direct route handler",
+      "Kernel core",
+      "End client UI"
     ]
   },
   {
@@ -486,6 +604,50 @@
     "antonyms": [
       "Real integration",
       "Live endpoint"
+    ]
+  },
+  {
+    "id": 3117,
+    "word": "Mollify",
+    "pos": "verb",
+    "definition": "To appease the anger, anxiety, or frustration of someone; to soften or reduce the severity of something.",
+    "enExample": "The customer success lead offered service credits to mollify users affected by the prolonged outage.",
+    "taWord": "சாந்தப்படுத்துதல் / கோபத்தைத் தணித்தல்",
+    "taExample": "சேவை முடக்கத்தால் பாதிக்கப்பட்ட வாடிக்கையாளர்களின் கோபத்தைத் தணிக்க சலுகைகள் வழங்கப்பட்டன.",
+    "synonyms": [
+      "Appease",
+      "Placate",
+      "Pacify",
+      "Soothe",
+      "Conciliate"
+    ],
+    "antonyms": [
+      "Enrage",
+      "Infuriate",
+      "Aggravate",
+      "Provoke"
+    ]
+  },
+  {
+    "id": 3073,
+    "word": "Momentous",
+    "pos": "adj.",
+    "definition": "Of great importance or significance, especially in having a bearing on future events.",
+    "enExample": "The release of the open-weight model was a momentous milestone in open machine learning.",
+    "taWord": "மிக முக்கியமான / வரலாற்று சிறப்புமிக்க",
+    "taExample": "புதிய செயற்கை நுண்ணறிவு மாதிரியின் வெளியீடு கணினி துறையில் வரலாற்று சிறப்புமிக்க ஒரு மைல்கல்லாக அமைந்தது.",
+    "synonyms": [
+      "Crucial",
+      "Consequential",
+      "Historic",
+      "Pivotal",
+      "Monumental"
+    ],
+    "antonyms": [
+      "Trivial",
+      "Inconsequential",
+      "Insignificant",
+      "Negligible"
     ]
   },
   {
@@ -619,6 +781,28 @@
     ]
   },
   {
+    "id": 3118,
+    "word": "Munificent",
+    "pos": "adj.",
+    "definition": "Characterized by or displaying great generosity; lavish and bountiful.",
+    "enExample": "The software foundation received a munificent million-dollar grant to develop open-source security tools.",
+    "taWord": "தாராள குணமுடைய / பெரும் கொடையளிக்கும்",
+    "taExample": "பாதுகாப்பு கருவிகளை உருவாக்க அந்த மென்பொருள் அறக்கட்டளைக்கு பெரும் கொடையாக நிதி வழங்கப்பட்டது.",
+    "synonyms": [
+      "Generous",
+      "Bountiful",
+      "Lavish",
+      "Magnanimous",
+      "Charitable"
+    ],
+    "antonyms": [
+      "Parsimonious",
+      "Stingy",
+      "Miserly",
+      "Niggardly"
+    ]
+  },
+  {
     "id": 2703,
     "word": "Mutation",
     "definition": "Directly modifying or altering the internal state or properties of an in-memory object or variable.",
@@ -652,6 +836,28 @@
     "antonyms": [
       "race condition",
       "unlocked concurrency"
+    ]
+  },
+  {
+    "id": 3119,
+    "word": "Myriad",
+    "pos": "noun",
+    "definition": "A countless or extremely great number of things; an immense multitude.",
+    "enExample": "Modern web browsers execute a myriad of background optimization tasks during page rendering.",
+    "taWord": "எண்ணற்ற / கணக்கிலடங்காத பல",
+    "taExample": "வலைப்பக்கத்தை காண்பிக்கும் போது நவீன உலாவிகள் எண்ணற்ற பின்னணி பணிகளை மேற்கொள்கின்றன.",
+    "synonyms": [
+      "Multitude",
+      "Host",
+      "Plethora",
+      "Abundance",
+      "Profusion"
+    ],
+    "antonyms": [
+      "Handful",
+      "Few",
+      "Scarcity",
+      "Dearth"
     ]
   }
 ]

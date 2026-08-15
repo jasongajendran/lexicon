@@ -34,6 +34,26 @@
     ]
   },
   {
+    "id": 3123,
+    "word": "Panacea",
+    "pos": "noun",
+    "definition": "A solution or remedy for all difficulties, diseases, or architectural problems; a universal cure.",
+    "enExample": "Microservices are not a panacea; they introduce severe network latency and operational complexity.",
+    "taWord": "சர்வரோக நிவாரணி / அனைத்துக்கும் தீர்வாகும் மருந்து",
+    "taExample": "நுண் சேவைகள் அனைத்து பிரச்சனைகளுக்கும் தீர்வாகாது; அவை தமக்கே உரிய சிக்கல்களைக் கொண்டு வருகின்றன.",
+    "synonyms": [
+      "Cure-all",
+      "Universal remedy",
+      "Elixir",
+      "Magic bullet"
+    ],
+    "antonyms": [
+      "Toxin",
+      "Bane",
+      "Root problem"
+    ]
+  },
+  {
     "id": 2894,
     "word": "Pandemonium",
     "pos": "noun",
@@ -65,6 +85,12 @@
     "synonyms": [
       "Model",
       "Pattern"
+    ],
+    "antonyms": [
+      "Anomaly",
+      "Exception",
+      "Outlier",
+      "Irregularity"
     ]
   },
   {
@@ -85,6 +111,27 @@
     ]
   },
   {
+    "id": 3059,
+    "word": "Paragon",
+    "pos": "noun",
+    "definition": "A person or thing regarded as a perfect model of excellence or exemplary standard.",
+    "enExample": "The open-source repository is considered a paragon of maintainable documentation.",
+    "taWord": "தலைசிறந்த முன்மாதிரி / நற்குணத்தின் இலக்கணம்",
+    "taExample": "அந்த திறந்த மூல மென்பொருள் களஞ்சியம் சிறந்த ஆவணப்படுத்தலுக்கான தலைசிறந்த முன்மாதிரியாக கருதப்படுகிறது.",
+    "synonyms": [
+      "Model",
+      "Archetype",
+      "Exemplar",
+      "Standard",
+      "Ideal"
+    ],
+    "antonyms": [
+      "Flawed example",
+      "Imperfect model",
+      "Poor representation"
+    ]
+  },
+  {
     "id": 41,
     "word": "Parallax",
     "definition": "the effect whereby position differs when viewed from different positions",
@@ -95,6 +142,11 @@
     "synonyms": [
       "Shift",
       "Displacement"
+    ],
+    "antonyms": [
+      "Static background",
+      "Flat 2D rendering",
+      "Fixed perspective"
     ]
   },
   {
@@ -168,6 +220,28 @@
     "antonyms": [
       "Current agenda",
       "Main topic"
+    ]
+  },
+  {
+    "id": 3124,
+    "word": "Parsimonious",
+    "pos": "adj.",
+    "definition": "Very unwilling to spend money or use resources; excessively frugal or stingy.",
+    "enExample": "Embedded microcontrollers require parsimonious memory allocation to avoid running out of RAM.",
+    "taWord": "சிக்கனமான / கஞ்சத்தனமான மிகைக் கட்டுப்பாடு",
+    "taExample": "சிறிய சாதனங்களில் நினைவகப் பற்றாக்குறையைத் தவிர்க்க நினைவக பயன்பாடு மிகச் சிக்கனமாக இருக்க வேண்டும்.",
+    "synonyms": [
+      "Frugal",
+      "Stingy",
+      "Miserly",
+      "Penny-pinching",
+      "Spartan"
+    ],
+    "antonyms": [
+      "Lavish",
+      "Generous",
+      "Munificent",
+      "Profligate"
     ]
   },
   {
@@ -258,6 +332,28 @@
     "antonyms": [
       "Pragmatic",
       "Informal"
+    ]
+  },
+  {
+    "id": 3125,
+    "word": "Pejorative",
+    "pos": "adj.",
+    "definition": "Expressing contempt or disapproval; derogatory and belittling in connotation.",
+    "enExample": "In modern software discussions, 'monolithic' is unfairly used in a purely pejorative sense.",
+    "taWord": "இழிவுபடுத்துகிற / தாழ்த்திப் பேசுகிற",
+    "taExample": "மென்பொருள் உரையாடல்களில் 'பழைய கட்டமைப்பு' என்ற சொல் தவறாக இழிவுபடுத்தும் நோக்கில் பயன்படுத்தப்படுகிறது.",
+    "synonyms": [
+      "Derogatory",
+      "Disparaging",
+      "Deprecatory",
+      "Belittling",
+      "Contemptuous"
+    ],
+    "antonyms": [
+      "Complimentary",
+      "Laudatory",
+      "Appreciative",
+      "Praising"
     ]
   },
   {
@@ -399,6 +495,33 @@
     "synonyms": [
       "Variation",
       "Arrangement"
+    ],
+    "antonyms": [
+      "Fixed order",
+      "Stagnation",
+      "Single arrangement"
+    ]
+  },
+  {
+    "id": 3094,
+    "word": "Pernicious",
+    "pos": "adj.",
+    "definition": "Having a harmful effect, especially in a gradual, insidious, or subtle way.",
+    "enExample": "Silent data corruption is one of the most pernicious bugs because backups copy the bad data.",
+    "taWord": "மெதுவாகப் பரவி பெரும் நாசம் விளைவிக்கும்",
+    "taExample": "அமைதியாக நிகழும் தரவுச் சிதைவு மிகக் கொடிய பிழையாகும், ஏனெனில் காப்புப் பிரதிகளும் பிழையான தரவையே சேமிக்கின்றன.",
+    "synonyms": [
+      "Harmful",
+      "Destructive",
+      "Insidious",
+      "Deleterious",
+      "Malignant"
+    ],
+    "antonyms": [
+      "Beneficial",
+      "Salubrious",
+      "Harmless",
+      "Innocuous"
     ]
   },
   {
@@ -462,6 +585,28 @@
     ]
   },
   {
+    "id": 3092,
+    "word": "Perspicuous",
+    "pos": "adj.",
+    "definition": "Clearly expressed and easily understood; lucid in explanation and composition.",
+    "enExample": "The engineering design document was so perspicuous that implementation took only two days.",
+    "taWord": "மிகவும் எளிதாகப் புரிகிற / தெளிவான",
+    "taExample": "மென்பொருள் வடிவமைப்பு வரைவு மிகத் தெளிவாக இருந்ததால் இரண்டு நாட்களிலேயே பணிகளை முடிக்க முடிந்தது.",
+    "synonyms": [
+      "Lucid",
+      "Clear",
+      "Pellucid",
+      "Unambiguous",
+      "Transparent"
+    ],
+    "antonyms": [
+      "Obscure",
+      "Ambiguous",
+      "Confused",
+      "Muddled"
+    ]
+  },
+  {
     "id": 5,
     "word": "Pertinent",
     "definition": "relevant to the matter at hand",
@@ -493,6 +638,28 @@
     "antonyms": [
       "Rare",
       "Scarce"
+    ]
+  },
+  {
+    "id": 3126,
+    "word": "Petulant",
+    "pos": "adj.",
+    "definition": "Childishly sulky or bad-tempered; irritable and touchy over minor inconveniences.",
+    "enExample": "The engineer responded with petulant pushback when their pull request was rejected.",
+    "taWord": "சிறுபிள்ளைத்தனமாக சிணுங்குகிற / எளிதில் எரிச்சலடைகிற",
+    "taExample": "தனது குறியீடு நிராகரிக்கப்பட்டபோது அந்த மென்பொருள் உருவாக்குநர் எரிச்சலுடன் பதிலளித்தார்.",
+    "synonyms": [
+      "Peevish",
+      "Sulky",
+      "Bad-tempered",
+      "Touchy",
+      "Irritable"
+    ],
+    "antonyms": [
+      "Equable",
+      "Good-natured",
+      "Placid",
+      "Affable"
     ]
   },
   {
@@ -545,6 +712,27 @@
     "antonyms": [
       "Turbulent",
       "Agitated"
+    ]
+  },
+  {
+    "id": 3127,
+    "word": "Platitude",
+    "pos": "noun",
+    "definition": "A remark or statement, especially one with a moral content, that has been used too often to be interesting or thoughtful.",
+    "enExample": "Telling an exhausted engineering team to 'work smarter, not harder' was an unhelpful platitude.",
+    "taWord": "அடிக்கடி கூறி பழத்துப்போன வெற்று உபதேசம்",
+    "taExample": "களைப்படைந்த குழுவிடம் 'புத்திசாலித்தனமாக உழையுங்கள்' என்று கூறிய வெற்று உபதேசம் எந்த பயனும் தரவில்லை.",
+    "synonyms": [
+      "Cliché",
+      "Truism",
+      "Banality",
+      "Bromide",
+      "Commonplace"
+    ],
+    "antonyms": [
+      "Original thought",
+      "Profound insight",
+      "Novel perspective"
     ]
   },
   {
@@ -678,6 +866,28 @@
       "Reconcile",
       "Harmonize",
       "Bridge"
+    ]
+  },
+  {
+    "id": 3128,
+    "word": "Polemical",
+    "pos": "adj.",
+    "definition": "Relating to or involving strongly critical, controversial, or disputatious writing or speech.",
+    "enExample": "The developer published a polemical blog post criticizing the overuse of single-page applications.",
+    "taWord": "காரசாரமான வாதம் கொண்ட / சர்ச்சைக்குரிய விமர்சனம் நிறைந்த",
+    "taExample": "அந்த மென்பொருள் உருவாக்குநர் நவீன வலைப்பக்க வடிவமைப்பை காரசாரமாக விமர்சித்து கட்டுரை எழுதினார்.",
+    "synonyms": [
+      "Controversial",
+      "Combative",
+      "Contentious",
+      "Disputatious",
+      "Critical"
+    ],
+    "antonyms": [
+      "Conciliatory",
+      "Agreeable",
+      "Noncontroversial",
+      "Peaceable"
     ]
   },
   {
@@ -819,6 +1029,12 @@
     "synonyms": [
       "Example",
       "Standard"
+    ],
+    "antonyms": [
+      "Anomaly",
+      "First occurrence",
+      "Novelty",
+      "Exception"
     ]
   },
   {
@@ -858,6 +1074,28 @@
     "antonyms": [
       "Include",
       "Permit"
+    ]
+  },
+  {
+    "id": 3129,
+    "word": "Precocious",
+    "pos": "adj.",
+    "definition": "Having developed certain abilities, maturity, or proclivities at an earlier age than usual.",
+    "enExample": "The precocious intern wrote a custom compiler extension within their first week at the company.",
+    "taWord": "முன்கூட்டியே முதிர்ச்சி அடைந்த / சிறுவயதிலேயே அறிவுத்திறன் கொண்ட",
+    "taExample": "முன்கூட்டியே சிறந்த அறிவுத்திறன் பெற்றிருந்த அந்த பயிலுநர் தனது முதல் வாரத்திலேயே புதிய நிரல் கருவியை உருவாக்கினார்.",
+    "synonyms": [
+      "Gifted",
+      "Talented",
+      "Advanced",
+      "Forward",
+      "Mature"
+    ],
+    "antonyms": [
+      "Backward",
+      "Slow",
+      "Delayed",
+      "Retarded"
     ]
   },
   {
@@ -911,6 +1149,12 @@
     "synonyms": [
       "Base",
       "Establish"
+    ],
+    "antonyms": [
+      "Abstain",
+      "Halt",
+      "Cease",
+      "Reverse"
     ]
   },
   {
@@ -983,6 +1227,49 @@
     "antonyms": [
       "Obligation",
       "Duty"
+    ]
+  },
+  {
+    "id": 3063,
+    "word": "Presage",
+    "pos": "verb",
+    "definition": "To be a sign or warning that something (typically bad or momentous) is about to happen.",
+    "enExample": "Continuous disk input/output saturation can presage an impending hard drive hardware failure.",
+    "taWord": "முன்கூட்டியே எச்சரித்தல் / முன்குறி காட்டுதல்",
+    "taExample": "தொடர்ச்சியான வன்வட்டு சுமை அதிகரிப்பானது விரைவில் நிகழப்போகும் வன்பொருள் செயலிழப்பை முன்கூட்டியே எச்சரிக்கிறது.",
+    "synonyms": [
+      "Foreshadow",
+      "Portend",
+      "Predict",
+      "Prognosticate",
+      "Herald"
+    ],
+    "antonyms": [
+      "Follow",
+      "Occur subsequently",
+      "Hide"
+    ]
+  },
+  {
+    "id": 3130,
+    "word": "Prescient",
+    "pos": "adj.",
+    "definition": "Having or showing knowledge of events before they take place; visionary and far-sighted.",
+    "enExample": "The CTO made a prescient decision five years ago to adopt Kubernetes before it became the industry standard.",
+    "taWord": "எதிர்காலத்தை முன்கூட்டியே அறியும் தீர்க்கதரிசனமுடைய",
+    "taExample": "தொழில்நுட்ப மேலாளர் ஐந்து ஆண்டுகளுக்கு முன்பே சரியான அமைப்பைத் தேர்ந்தெடுத்து தீர்க்கதரிசனத்தை வெளிப்படுத்தினார்.",
+    "synonyms": [
+      "Visionary",
+      "Foresighted",
+      "Clairvoyant",
+      "Prophetic",
+      "Far-seeing"
+    ],
+    "antonyms": [
+      "Myopic",
+      "Shortsighted",
+      "Unforeseeing",
+      "Blind"
     ]
   },
   {
@@ -1060,6 +1347,28 @@
     ]
   },
   {
+    "id": 3068,
+    "word": "Proclivity",
+    "pos": "noun",
+    "definition": "A natural tendency to choose or do something regularly; an innate inclination.",
+    "enExample": "Junior engineers often have a proclivity to choose premature optimization over simple architecture.",
+    "taWord": "இயல்பான நாட்டம் / இயல்பான சாய்வு",
+    "taExample": "இளநிலை பொறியாளர்கள் பெரும்பாலும் எளிய வடிவமைப்பை விட முன்கூட்டியே மிகைப்படுத்துவதில் இயல்பான நாட்டம் கொண்டுள்ளனர்.",
+    "synonyms": [
+      "Inclination",
+      "Propensity",
+      "Penchant",
+      "Predisposition",
+      "Tendency"
+    ],
+    "antonyms": [
+      "Aversion",
+      "Antipathy",
+      "Disinclination",
+      "Reluctance"
+    ]
+  },
+  {
     "id": 49,
     "word": "Procure",
     "definition": "obtain (something), especially with care or effort",
@@ -1077,6 +1386,28 @@
     ]
   },
   {
+    "id": 3131,
+    "word": "Prodigious",
+    "pos": "adj.",
+    "definition": "Remarkably or impressively great in extent, size, quantity, or degree; monumental.",
+    "enExample": "The data ingestion pipeline processes a prodigious volume of fifty petabytes of sensor telemetry daily.",
+    "taWord": "பிரமாண்டமான / வியக்கத்தக்க அளவில் பெரிதான",
+    "taExample": "தரவு சேகரிப்பு அமைப்பு நாள்தோறும் பிரமாண்டமான அளவில் தரவுகளை கையாளுகிறது.",
+    "synonyms": [
+      "Enormous",
+      "Immense",
+      "Stupendous",
+      "Monumental",
+      "Colossal"
+    ],
+    "antonyms": [
+      "Tiny",
+      "Insignificant",
+      "Modest",
+      "Meager"
+    ]
+  },
+  {
     "id": 8,
     "word": "Proficient",
     "definition": "skilled and competent",
@@ -1091,6 +1422,28 @@
     "antonyms": [
       "Incompetent",
       "Unskilled"
+    ]
+  },
+  {
+    "id": 3132,
+    "word": "Profligate",
+    "pos": "adj.",
+    "definition": "Recklessly extravagant or wasteful in the use of resources; dissolute.",
+    "enExample": "Running unindexed queries across millions of rows is a profligate waste of database server CPU.",
+    "taWord": "வீண்விரயம் செய்கிற / பொறுப்பற்று செலவழிக்கிற",
+    "taExample": "அட்டவணைப்படுத்தப்படாத தேடல்களை மேற்கொள்வது சர்வரின் செயல்திறனை பொறுப்பற்று வீண்விரயம் செய்வதாகும்.",
+    "synonyms": [
+      "Wasteful",
+      "Extravagant",
+      "Spendthrift",
+      "Prodigal",
+      "Improvident"
+    ],
+    "antonyms": [
+      "Frugal",
+      "Thrifty",
+      "Economical",
+      "Parsimonious"
     ]
   },
   {
@@ -1303,6 +1656,28 @@
     ]
   },
   {
+    "id": 3133,
+    "word": "Propitious",
+    "pos": "adj.",
+    "definition": "Giving or indicating a good chance of success; favorable and auspicious.",
+    "enExample": "High developer sentiment and low bug backlogs made this a propitious time for the major framework upgrade.",
+    "taWord": "சாதகமான / நல்வாய்ப்பான சுபமான சூழல்",
+    "taExample": "குறைவான பிழைகளும் குழுவின் உற்சாகமும் புதிய மென்பொருள் மாற்றத்திற்கு மிகச் சாதகமான சூழலை உருவாக்கின.",
+    "synonyms": [
+      "Favorable",
+      "Auspicious",
+      "Promising",
+      "Advantageous",
+      "Fortunate"
+    ],
+    "antonyms": [
+      "Inauspicious",
+      "Unfavorable",
+      "Unpromising",
+      "Adverse"
+    ]
+  },
+  {
     "id": 29,
     "word": "Proponent",
     "definition": "a person who advocates a theory or project",
@@ -1334,6 +1709,27 @@
     "antonyms": [
       "Open-source",
       "Public"
+    ]
+  },
+  {
+    "id": 3173,
+    "word": "Proscription",
+    "pos": "noun",
+    "definition": "The action of forbidding something; banishment or exile.",
+    "enExample": "The corporate firewall policy included a strict proscription against accessing unauthorized external networks.",
+    "taWord": "தடை / விலக்குதல்",
+    "taExample": "அனுமதிக்கப்படாத வெளிப்புற வலைப்பின்னல்களை அணுகுவதற்கு எதிரான கடுமையான தடையை நிறுவனத்தின் பாதுகாப்பு கொள்கை உள்ளடக்கியிருந்தது.",
+    "synonyms": [
+      "Ban",
+      "Prohibition",
+      "Veto",
+      "Interdiction"
+    ],
+    "antonyms": [
+      "Permission",
+      "Allowance",
+      "Endorsement",
+      "Sanction"
     ]
   },
   {
@@ -1439,6 +1835,50 @@
     ]
   },
   {
+    "id": 3134,
+    "word": "Puerile",
+    "pos": "adj.",
+    "definition": "Childishly silly and trivial; immature.",
+    "enExample": "Engaging in puerile arguments over tab sizes versus spaces distracts from meaningful architecture debates.",
+    "taWord": "சிறுபிள்ளைத்தனமான / முதிர்ச்சியற்ற அற்பமான",
+    "taExample": "இடைவெளி அமைப்பது குறித்த சிறுபிள்ளைத்தனமான வாதங்கள் முக்கியமான கட்டமைப்பு விவாதங்களை திசைதிருப்புகின்றன.",
+    "synonyms": [
+      "Childish",
+      "Immature",
+      "Juvenile",
+      "Infantile",
+      "Silly"
+    ],
+    "antonyms": [
+      "Mature",
+      "Adult",
+      "Sensible",
+      "Sophisticated"
+    ]
+  },
+  {
+    "id": 3135,
+    "word": "Pugnacious",
+    "pos": "adj.",
+    "definition": "Eager or quick to argue, quarrel, or fight; combative by nature.",
+    "enExample": "A pugnacious code review tone discourages junior developers from submitting pull requests.",
+    "taWord": "சண்டைக்காரித்தனமான / வம்புக்கு வருகிற",
+    "taExample": "தேவையற்ற சண்டைக்காரித்தனமான ஆய்வுக் கருத்துக்கள் புதிய மென்பொருள் உருவாக்குநர்களை அச்சுறுத்துகின்றன.",
+    "synonyms": [
+      "Combative",
+      "Aggressive",
+      "Belligerent",
+      "Quarrelsome",
+      "Contentious"
+    ],
+    "antonyms": [
+      "Peaceable",
+      "Friendly",
+      "Conciliatory",
+      "Gentle"
+    ]
+  },
+  {
     "id": 37,
     "word": "Punctilious",
     "definition": "showing great attention to detail",
@@ -1466,6 +1906,12 @@
     "synonyms": [
       "Scope",
       "Domain"
+    ],
+    "antonyms": [
+      "Blind spot",
+      "Exclusion",
+      "Outside scope",
+      "Irrelevance"
     ]
   }
 ]

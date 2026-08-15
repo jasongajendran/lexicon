@@ -157,6 +157,27 @@
     ]
   },
   {
+    "id": 3160,
+    "word": "Venerable",
+    "pos": "adj.",
+    "definition": "Accorded a great deal of respect, especially because of age, wisdom, or character.",
+    "enExample": "C remains a venerable programming language that underpins operating systems worldwide.",
+    "taWord": "மதிப்பிற்குரிய / பெருமதிப்பு வாய்ந்த",
+    "taExample": "சி மொழி உலகெங்கிலும் உள்ள கணினி இயக்க அமைப்புகளுக்கு அடித்தளமாக விளங்கும் பெருமதிப்பு வாய்ந்த மொழியாகும்.",
+    "synonyms": [
+      "Respected",
+      "Revered",
+      "Hallowed",
+      "Distinguished",
+      "August"
+    ],
+    "antonyms": [
+      "Disreputable",
+      "Unrespected",
+      "Modern upstart"
+    ]
+  },
+  {
     "id": 2217,
     "word": "Venerate",
     "definition": "Regard with great respect; revere.",
@@ -197,6 +218,28 @@
     ]
   },
   {
+    "id": 3161,
+    "word": "Verbose",
+    "pos": "adj.",
+    "definition": "Using or expressed in more words than are needed; wordy and repetitious.",
+    "enExample": "Modern TypeScript allows expressive concise syntax instead of verbose boilerplate class declarations.",
+    "taWord": "அளவுக்கு அதிகமான சொற்களைப் பயன்படுத்துகிற / நீட்டி முழக்குகிற",
+    "taExample": "நவீன மொழிகள் நீட்டி முழக்கும் பழைய வரிகளுக்குப் பதிலாக சுருக்கமான எளிய குறியீட்டு முறைகளை வழங்குகின்றன.",
+    "synonyms": [
+      "Wordy",
+      "Prolix",
+      "Long-winded",
+      "Redundant",
+      "Voluble"
+    ],
+    "antonyms": [
+      "Concise",
+      "Succinct",
+      "Laconic",
+      "Terse"
+    ]
+  },
+  {
     "id": 3052,
     "word": "Verifiable",
     "pos": "adj.",
@@ -228,6 +271,32 @@
       "Revisioning",
       "SemVer",
       "Tagging"
+    ],
+    "antonyms": [
+      "Unversioned continuous mutate",
+      "Untracked changes"
+    ]
+  },
+  {
+    "id": 3162,
+    "word": "Vex",
+    "pos": "verb",
+    "definition": "To make someone feel annoyed, frustrated, or worried, especially with trivial matters.",
+    "enExample": "Intermittent heisenbugs that only appear in production continue to vex software engineers.",
+    "taWord": "எரிச்சலூட்டுதல் / மன உளைச்சலை உண்டாக்குதல்",
+    "taExample": "எப்போதாவது மட்டும் தோன்றும் விசித்திரமான மென்பொருள் பிழைகள் பொறியாளர்களுக்கு தொடர்ந்து பெரும் மன உளைச்சலைத் தருகின்றன.",
+    "synonyms": [
+      "Annoy",
+      "Frustrate",
+      "Irk",
+      "Pique",
+      "Exasperate"
+    ],
+    "antonyms": [
+      "Soothe",
+      "Placate",
+      "Delight",
+      "Mollify"
     ]
   },
   {
@@ -318,6 +387,33 @@
       "Display area",
       "Screen bounds",
       "Frame"
+    ],
+    "antonyms": [
+      "Offscreen canvas",
+      "Hidden virtual document",
+      "Full canvas size"
+    ]
+  },
+  {
+    "id": 3163,
+    "word": "Vilify",
+    "pos": "verb",
+    "definition": "To speak or write about in an abusively disparaging manner; to defame.",
+    "enExample": "It is unfair to vilify legacy monolith architectures that reliably generate billions in revenue.",
+    "taWord": "தூற்றுதல் / இழித்துப் பேசுதல்",
+    "taExample": "கோடிக்கணக்கான வருவாயை ஈட்டித்தரும் நிலையான பழைய கட்டமைப்புகளை தவறாக தூற்றிப் பேசுவது முறையல்ல.",
+    "synonyms": [
+      "Defame",
+      "Disparage",
+      "Denigrate",
+      "Malign",
+      "Slander"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commend",
+      "Extol",
+      "Laud"
     ]
   },
   {
@@ -393,6 +489,28 @@
     ]
   },
   {
+    "id": 3164,
+    "word": "Virulent",
+    "pos": "adj.",
+    "definition": "Extremely severe or harmful in its effects; bitterly hostile or destructive.",
+    "enExample": "The ransomware strain contained virulent self-propagating payload vectors.",
+    "taWord": "கொடிய நச்சுத்தன்மை கொண்ட / மிகத் தீவிரமான",
+    "taExample": "அந்த மால்வேர் மென்பொருளானது மிகத் தீவிரமாக தானாகவே பரவும் கொடிய நச்சுத் தன்மையைக் கொண்டிருந்தது.",
+    "synonyms": [
+      "Toxic",
+      "Poisonous",
+      "Harmful",
+      "Deadly",
+      "Venomous"
+    ],
+    "antonyms": [
+      "Innocuous",
+      "Harmless",
+      "Benign",
+      "Curative"
+    ]
+  },
+  {
     "id": 3050,
     "word": "Visceral",
     "pos": "adj.",
@@ -432,6 +550,28 @@
     ]
   },
   {
+    "id": 3165,
+    "word": "Vituperate",
+    "pos": "verb",
+    "definition": "To blame or insult someone in strong, violent, or abusive language.",
+    "enExample": "Senior staff members should mentor junior developers rather than vituperate them over outages.",
+    "taWord": "வன்மையாக வசைபாடுதல் / கடுமையாக ஏசுதல்",
+    "taExample": "பிழைகளின் போது இளநிலை பணியாளர்களை வன்மையாக ஏசாமல் அவர்களுக்கு வழிகாட்டுவதே மூத்த தலைவர்களின் கடமையாகும்.",
+    "synonyms": [
+      "Revile",
+      "Abuse",
+      "Berate",
+      "Scold",
+      "Castigate"
+    ],
+    "antonyms": [
+      "Praise",
+      "Compliment",
+      "Laud",
+      "Extol"
+    ]
+  },
+  {
     "id": 2218,
     "word": "Vociferous",
     "definition": "(especially of a person or speech) vehement or clamorous.",
@@ -466,6 +606,28 @@
     ]
   },
   {
+    "id": 3166,
+    "word": "Volatile",
+    "pos": "adj.",
+    "definition": "Liable to change rapidly and unpredictably, especially for the worse; easily evaporated.",
+    "enExample": "RAM is volatile memory that loses all stored variables when the physical computer loses power.",
+    "taWord": "நிலையற்ற எளிதில் ஆவியாகிற / மாறக்கூடிய",
+    "taExample": "கணினி நினைவகம் மின்சாரம் துண்டிக்கப்பட்டவுடன் தனக்குள் இருக்கும் அனைத்து தரவுகளையும் இழக்கும் நிலையற்ற நினைவகமாகும்.",
+    "synonyms": [
+      "Unstable",
+      "Mercurial",
+      "Capricious",
+      "Fluctuating",
+      "Transient"
+    ],
+    "antonyms": [
+      "Stable",
+      "Constant",
+      "Persistent",
+      "Immutable"
+    ]
+  },
+  {
     "id": 2930,
     "word": "Volatility",
     "pos": "noun",
@@ -484,6 +646,28 @@
       "Constancy",
       "Steadiness",
       "Equilibrium"
+    ]
+  },
+  {
+    "id": 3096,
+    "word": "Voracious",
+    "pos": "adj.",
+    "definition": "Wanting or devouring great quantities of food or information; insatiably eager.",
+    "enExample": "High-frequency machine learning training pipelines are voracious consumers of GPU compute.",
+    "taWord": "பேராசை கொண்ட / அடங்காத நுகர்வு பசி கொண்ட",
+    "taExample": "செயற்கை நுண்ணறிவு பயிற்சி அமைப்புகள் கணினி செயலிகளை மிக அதிக அளவில் நுகரும் தன்மையைக் கொண்டுள்ளன.",
+    "synonyms": [
+      "Insatiable",
+      "Greedy",
+      "Avid",
+      "Rapacious",
+      "Hungry"
+    ],
+    "antonyms": [
+      "Satiated",
+      "Moderate",
+      "Abstinent",
+      "Indifferent"
     ]
   },
   {

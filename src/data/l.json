@@ -11,6 +11,11 @@
       "Tag",
       "Marker",
       "Badge"
+    ],
+    "antonyms": [
+      "Anonymous value",
+      "Unmarked variable",
+      "Hidden metadata"
     ]
   },
   {
@@ -129,6 +134,11 @@
       "Tier",
       "Level",
       "Stratum"
+    ],
+    "antonyms": [
+      "Flat monolith",
+      "Single core",
+      "Unstructured mass"
     ]
   },
   {
@@ -143,6 +153,10 @@
       "Structure",
       "Arrangement",
       "Design"
+    ],
+    "antonyms": [
+      "Unordered layout",
+      "Chaotic overlapping elements"
     ]
   },
   {
@@ -299,6 +313,10 @@
       "Package",
       "Module",
       "Toolkit"
+    ],
+    "antonyms": [
+      "Self-contained executable",
+      "Standalone microservice"
     ]
   },
   {
@@ -312,6 +330,10 @@
     "synonyms": [
       "Lifespan",
       "Phases"
+    ],
+    "antonyms": [
+      "Ephemeral one-shot run",
+      "Stateless execution"
     ]
   },
   {
@@ -351,6 +373,28 @@
     ]
   },
   {
+    "id": 3069,
+    "word": "Limpid",
+    "pos": "adj.",
+    "definition": "Completely clear and transparent; free of obscurity or ambiguity in thought and style.",
+    "enExample": "The API documentation was written in limpid prose, enabling developers to integrate in minutes.",
+    "taWord": "படிகம் போன்ற தூய தெளிவான / களங்கமற்ற",
+    "taExample": "மென்பொருள் விளக்கக் குறிப்பேடு மிகத் தூய தெளிவான நடையில் எழுதப்பட்டிருந்ததால் உடனே இணைக்க முடிந்தது.",
+    "synonyms": [
+      "Clear",
+      "Lucid",
+      "Pellucid",
+      "Transparent",
+      "Crystal"
+    ],
+    "antonyms": [
+      "Murky",
+      "Opaque",
+      "Muddled",
+      "Obscure"
+    ]
+  },
+  {
     "id": 3035,
     "word": "Linchpin",
     "pos": "noun",
@@ -383,6 +427,11 @@
       "Provenance",
       "Origin",
       "Trace"
+    ],
+    "antonyms": [
+      "Orphan",
+      "Unknown origin",
+      "Unrelated state"
     ]
   },
   {
@@ -397,6 +446,12 @@
       "Hyperlink",
       "URL",
       "Anchor"
+    ],
+    "antonyms": [
+      "Barrier",
+      "Wall",
+      "Separation",
+      "Disconnection"
     ]
   },
   {
@@ -410,6 +465,12 @@
     "synonyms": [
       "Static analysis",
       "Code check"
+    ],
+    "antonyms": [
+      "Abstain",
+      "Halt",
+      "Cease",
+      "Reverse"
     ]
   },
   {
@@ -547,6 +608,11 @@
       "Audit trail",
       "Record",
       "Journal"
+    ],
+    "antonyms": [
+      "Silent execution",
+      "Unlogged operation",
+      "Volatile output"
     ]
   },
   {
@@ -561,6 +627,12 @@
       "Reasoning",
       "Rules",
       "Flow"
+    ],
+    "antonyms": [
+      "Irrationality",
+      "Chaos",
+      "Arbitrary guessing",
+      "Emotion"
     ]
   },
   {

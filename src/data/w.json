@@ -18,6 +18,28 @@
     ]
   },
   {
+    "id": 3167,
+    "word": "Wary",
+    "pos": "adj.",
+    "definition": "Feeling or showing caution about possible dangers or problems.",
+    "enExample": "Engineers are rightfully wary of third-party npm libraries that have few maintainers and no security audits.",
+    "taWord": "எச்சரிக்கையான / விழிப்புடன் கூடிய ஜாக்கிரதையான",
+    "taExample": "போதுமான பாதுகாப்பற்ற வெளிப்புற நூலகங்களை பயன்பாட்டில் சேர்க்கும்போது பொறியாளர்கள் மிகுந்த எச்சரிக்கையுடன் இருக்கின்றனர்.",
+    "synonyms": [
+      "Cautious",
+      "Circumspect",
+      "Chary",
+      "Guarded",
+      "Vigilant"
+    ],
+    "antonyms": [
+      "Reckless",
+      "Careless",
+      "Foolhardy",
+      "Rash"
+    ]
+  },
+  {
     "id": 2312,
     "word": "Waterfall",
     "definition": "A linear sequential project management methodology, or network loading behavior where requests block subsequent fetches.",
@@ -98,6 +120,10 @@
     "synonyms": [
       "3D canvas API",
       "GPU context"
+    ],
+    "antonyms": [
+      "Software CPU rasterizer",
+      "Plain 2D text terminal"
     ]
   },
   {
@@ -128,6 +154,10 @@
     "synonyms": [
       "Module bundler",
       "Asset pipeline"
+    ],
+    "antonyms": [
+      "Unbundled native ESM",
+      "Runtime script tag loading"
     ]
   },
   {
@@ -176,6 +206,11 @@
       "Coefficient",
       "Font-weight",
       "Importance"
+    ],
+    "antonyms": [
+      "Uniform significance",
+      "Zero bias",
+      "Unweighted variable"
     ]
   },
   {
@@ -346,6 +381,10 @@
       "Pipeline",
       "Process sequence",
       "Automation"
+    ],
+    "antonyms": [
+      "Chaotic manual steps",
+      "Unstructured improvisation"
     ]
   },
   {
@@ -360,6 +399,11 @@
       "Engineering PC",
       "Rig",
       "Terminal"
+    ],
+    "antonyms": [
+      "Low-power thin client",
+      "Mobile phone",
+      "IoT edge sensor"
     ]
   },
   {
@@ -395,6 +439,11 @@
       "Adapter",
       "Encapsulation",
       "Decorator"
+    ],
+    "antonyms": [
+      "Native unwrapped core",
+      "Raw primitive",
+      "Bare API"
     ]
   },
   {

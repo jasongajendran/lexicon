@@ -62,6 +62,12 @@
     "synonyms": [
       "Element",
       "Component"
+    ],
+    "antonyms": [
+      "Irrelevancy",
+      "Whole",
+      "Outcome",
+      "Result"
     ]
   },
   {
@@ -197,6 +203,12 @@
     "synonyms": [
       "Reaction",
       "Response"
+    ],
+    "antonyms": [
+      "Silence",
+      "Ignorance",
+      "One-way broadcast",
+      "Isolation"
     ]
   },
   {
@@ -461,6 +473,11 @@
     "synonyms": [
       "Impact",
       "Size"
+    ],
+    "antonyms": [
+      "Invisibility",
+      "Untraceability",
+      "Zero impact"
     ]
   },
   {
@@ -524,6 +541,11 @@
     "synonyms": [
       "Layout",
       "Arrangement"
+    ],
+    "antonyms": [
+      "Unstructured raw data",
+      "Binary blob",
+      "Malformed text"
     ]
   },
   {
@@ -648,6 +670,11 @@
     "synonyms": [
       "Structure",
       "Platform"
+    ],
+    "antonyms": [
+      "Ad-hoc script",
+      "Unstructured code",
+      "Spaghetti logic"
     ]
   },
   {
@@ -711,6 +738,11 @@
     "synonyms": [
       "Purpose",
       "Role"
+    ],
+    "antonyms": [
+      "Malfunction",
+      "Data payload",
+      "Static variable"
     ]
   },
   {

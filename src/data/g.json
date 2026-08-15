@@ -117,6 +117,11 @@
     "synonyms": [
       "Portal",
       "Entry point"
+    ],
+    "antonyms": [
+      "Direct internal node",
+      "Isolated intranet",
+      "Private proxy"
     ]
   },
   {
@@ -288,6 +293,12 @@
     "synonyms": [
       "Objective",
       "Target"
+    ],
+    "antonyms": [
+      "Aimlessness",
+      "Distraction",
+      "Apathy",
+      "Randomness"
     ]
   },
   {
@@ -437,6 +448,11 @@
     "synonyms": [
       "Network",
       "Chart"
+    ],
+    "antonyms": [
+      "Linear array",
+      "Flat list",
+      "Isolated tree"
     ]
   },
   {
@@ -553,6 +569,12 @@
     "synonyms": [
       "Network",
       "Matrix"
+    ],
+    "antonyms": [
+      "Chaos",
+      "Disorder",
+      "Unstructured layout",
+      "Random scatter"
     ]
   },
   {
@@ -605,6 +627,12 @@
     "synonyms": [
       "Foundation",
       "Basis"
+    ],
+    "antonyms": [
+      "Superstructure",
+      "Finishing touches",
+      "Surface level",
+      "Facade"
     ]
   },
   {
@@ -635,6 +663,12 @@
     "synonyms": [
       "Assurance",
       "Pledge"
+    ],
+    "antonyms": [
+      "Risk",
+      "Uncertainty",
+      "Disclaimer",
+      "Doubt"
     ]
   },
   {
@@ -683,6 +717,34 @@
     "synonyms": [
       "Rule",
       "Principle"
+    ],
+    "antonyms": [
+      "Strict law",
+      "Mandate",
+      "Arbitrary guess",
+      "Chaos"
+    ]
+  },
+  {
+    "id": 3078,
+    "word": "Guile",
+    "pos": "noun",
+    "definition": "Sly, crafty, or cunning intelligence used to deceive others.",
+    "enExample": "Social engineering hackers rely on psychological guile rather than software vulnerabilities.",
+    "taWord": "வஞ்சகம் / நயவஞ்சக தந்திரம்",
+    "taExample": "இணையத் தாக்குதல் நடத்துபவர்கள் மென்பொருள் பிழைகளை விட உளவியல் நயவஞ்சக தந்திரங்களையே அதிகம் பயன்படுத்துகின்றனர்.",
+    "synonyms": [
+      "Cunning",
+      "Deceit",
+      "Artifice",
+      "Duplicity",
+      "Wiliness"
+    ],
+    "antonyms": [
+      "Candor",
+      "Honesty",
+      "Frankness",
+      "Sincerity"
     ]
   }
 ]

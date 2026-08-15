@@ -10,6 +10,33 @@
     "synonyms": [
       "Store",
       "Buffer"
+    ],
+    "antonyms": [
+      "Cold storage",
+      "Origin database",
+      "Direct disk read"
+    ]
+  },
+  {
+    "id": 3103,
+    "word": "Cacophony",
+    "pos": "noun",
+    "definition": "A harsh, discordant, and confusing mixture of sounds or uncoordinated alerts.",
+    "enExample": "During the cluster crash, the Slack on-call channel turned into a deafening cacophony of alert pings.",
+    "taWord": "ஒவ்வாத பெரும் கூச்சல் / இரைச்சல் குழப்பம்",
+    "taExample": "கணினி முடங்கிய போது உதவி அலைவரிசை தொடர்ச்சியான எச்சரிக்கை சத்தங்களால் பெரும் குழப்பமாக மாறியது.",
+    "synonyms": [
+      "Dissonance",
+      "Discord",
+      "Clamor",
+      "Noise",
+      "Din"
+    ],
+    "antonyms": [
+      "Harmony",
+      "Symphony",
+      "Euphony",
+      "Silence"
     ]
   },
   {
@@ -101,6 +128,12 @@
     "synonyms": [
       "Volume",
       "Capability"
+    ],
+    "antonyms": [
+      "Overload",
+      "Deficit",
+      "Exhaustion",
+      "Resource starvation"
     ]
   },
   {
@@ -220,6 +253,27 @@
     ]
   },
   {
+    "id": 3084,
+    "word": "Cathartic",
+    "pos": "adj.",
+    "definition": "Providing psychological relief through the open release of strong emotions or long-standing burdens.",
+    "enExample": "Deleting ten thousand lines of deprecated legacy code was an immensely cathartic experience.",
+    "taWord": "சுமை குறைத்து நிம்மதி தருகிற / மன அமைதி அளிக்கிற",
+    "taExample": "பயனற்ற பத்தாயிரம் பழைய வரிக் குறியீடுகளை நீக்கியது குழுவிற்கு அளப்பரிய மன அமைதியைத் தந்தது.",
+    "synonyms": [
+      "Purging",
+      "Relieving",
+      "Cleansing",
+      "Therapeutic",
+      "Releasing"
+    ],
+    "antonyms": [
+      "Stressing",
+      "Burdensome",
+      "Aggravating"
+    ]
+  },
+  {
     "id": 2687,
     "word": "Ceremony",
     "definition": "A structured, regular meeting in Agile Scrum (e.g., Standup, Planning, Review, Retrospective).",
@@ -270,6 +324,50 @@
     "antonyms": [
       "Fragile deployment",
       "Unmonitored runtime"
+    ]
+  },
+  {
+    "id": 3058,
+    "word": "Chary",
+    "pos": "adj.",
+    "definition": "Cautiously or suspiciously reluctant to do something; wary and circumspect.",
+    "enExample": "Engineers are chary of granting blanket root permissions to third-party automation tools.",
+    "taWord": "எச்சரிக்கையான / தயக்கமுடைய",
+    "taExample": "மூன்றாம் தரப்பு மென்பொருட்களுக்கு வரம்பற்ற அனுமதிகளை வழங்க பொறியாளர்கள் மிகுந்த எச்சரிக்கையுடன் தயங்குகின்றனர்.",
+    "synonyms": [
+      "Wary",
+      "Cautious",
+      "Circumspect",
+      "Hesitant",
+      "Guarded"
+    ],
+    "antonyms": [
+      "Reckless",
+      "Bold",
+      "Rash",
+      "Careless"
+    ]
+  },
+  {
+    "id": 3085,
+    "word": "Chicanery",
+    "pos": "noun",
+    "definition": "The use of trickery, deceit, or sophisticated loopholes to achieve a political, financial, or legal purpose.",
+    "enExample": "Strict smart contracts eliminate administrative chicanery by executing deterministic code.",
+    "taWord": "வஞ்சகம் / ஏமாற்று வித்தை",
+    "taExample": "கணித அடிப்படையில் இயங்கும் ஒப்பந்தங்கள் நிர்வாக ஏமாற்று வித்தைகளை முற்றிலுமாகத் தவிர்க்கின்றன.",
+    "synonyms": [
+      "Trickery",
+      "Deception",
+      "Subterfuge",
+      "Guile",
+      "Duplicity"
+    ],
+    "antonyms": [
+      "Honesty",
+      "Transparency",
+      "Fairness",
+      "Candor"
     ]
   },
   {
@@ -326,6 +424,28 @@
     ]
   },
   {
+    "id": 3086,
+    "word": "Circumscribe",
+    "pos": "verb",
+    "definition": "To restrict something within strict limits or draw a boundary around it.",
+    "enExample": "Sandboxing circumscribes what local system APIs an untrusted browser extension can invoke.",
+    "taWord": "எல்லைக்குட்படுத்துதல் / கட்டுப்படுத்துதல்",
+    "taExample": "பாதுகாப்பு கட்டுப்பாட்டு அமைப்பு நம்பகமற்ற மென்பொருட்கள் கணினி சேவைகளை அணுகுவதை எல்லைக்குட்படுத்துகிறது.",
+    "synonyms": [
+      "Restrict",
+      "Limit",
+      "Confine",
+      "Bound",
+      "Demarcate"
+    ],
+    "antonyms": [
+      "Expand",
+      "Free",
+      "Broaden",
+      "Liberate"
+    ]
+  },
+  {
     "id": 3031,
     "word": "Circumspect",
     "pos": "adj.",
@@ -358,6 +478,12 @@
     "synonyms": [
       "Situation",
       "Condition"
+    ],
+    "antonyms": [
+      "Intention",
+      "Plan",
+      "Certainty",
+      "Design"
     ]
   },
   {
@@ -399,6 +525,28 @@
     ]
   },
   {
+    "id": 3087,
+    "word": "Cleave",
+    "pos": "verb",
+    "definition": "To split or sever something along a natural line; or to adhere strongly to a conviction.",
+    "enExample": "The database partition strategy will cleave tenant records based on geographic cloud regions.",
+    "taWord": "பிரித்தல் / பிளத்தல் அல்லது உறுதியாகப் பற்றிக்கொள்ளுதல்",
+    "taExample": "தரவுத்தள பிரிப்பு முறையானது பிராந்தியங்களின் அடிப்படையில் வாடிக்கையாளர் பதிவுகளை பிரித்து வைக்கிறது.",
+    "synonyms": [
+      "Split",
+      "Divide",
+      "Sever",
+      "Adhere",
+      "Cling"
+    ],
+    "antonyms": [
+      "Merge",
+      "Combine",
+      "Unite",
+      "Abandon"
+    ]
+  },
+  {
     "id": 310,
     "word": "Clunky",
     "definition": "Awkwardly solid, heavy, and outdated.",
@@ -426,6 +574,11 @@
     "synonyms": [
       "Group",
       "Batch"
+    ],
+    "antonyms": [
+      "Standalone node",
+      "Single instance",
+      "Isolated container"
     ]
   },
   {
@@ -838,6 +991,27 @@
     ]
   },
   {
+    "id": 3171,
+    "word": "Concur",
+    "pos": "verb",
+    "definition": "To be of the same opinion; to agree with a decision or statement.",
+    "enExample": "The senior developers concurred that the legacy monolithic system needed to be rewritten into microservices.",
+    "taWord": "ஒப்புக்கொள்ளுதல் / ஒத்த கருத்துடையவராதல்",
+    "taExample": "பழைய மென்பொருள் அமைப்பை மாற்றியமைக்க வேண்டும் என மூத்த உருவாக்குநர்கள் அனைவரும் ஒப்புக்கொண்டனர்.",
+    "synonyms": [
+      "Agree",
+      "Assent",
+      "Coincide",
+      "Harmonize"
+    ],
+    "antonyms": [
+      "Disagree",
+      "Dispute",
+      "Clash",
+      "Differ"
+    ]
+  },
+  {
     "id": 302,
     "word": "Concurrently",
     "definition": "At the same time; simultaneously.",
@@ -855,6 +1029,27 @@
     ]
   },
   {
+    "id": 3184,
+    "word": "Conducive",
+    "pos": "adj.",
+    "definition": "Making a certain situation or outcome likely or possible.",
+    "enExample": "The ergonomic open-plan office layout was designed to be conducive to organic team collaboration.",
+    "taWord": "ஏதுவான / துணைபுரியும்",
+    "taExample": "திறந்தவெளி அலுவலக வடிவமைப்பு குழுவினரின் இயல்பான ஒத்துழைப்பிற்கு ஏதுவாக இருக்கும் வகையில் வடிவமைக்கப்பட்டது.",
+    "synonyms": [
+      "Favorable",
+      "Beneficial",
+      "Encouraging",
+      "Helpful"
+    ],
+    "antonyms": [
+      "Hindering",
+      "Detrimental",
+      "Adverse",
+      "Unfavorable"
+    ]
+  },
+  {
     "id": 303,
     "word": "Configure",
     "definition": "Shape or put together in a particular form or configuration.",
@@ -868,6 +1063,48 @@
     ],
     "antonyms": [
       "Dismantle"
+    ]
+  },
+  {
+    "id": 3180,
+    "word": "Conflagration",
+    "pos": "noun",
+    "definition": "An extensive fire which destroys a great deal of land or property; a large destructive event.",
+    "enExample": "A minor misconfiguration quickly spiraled into a digital conflagration, taking down multiple regional servers.",
+    "taWord": "பெரும் தீ / பேரழிவு",
+    "taExample": "ஒரு சிறிய உள்ளமைவுப் பிழை மிக விரைவாக டிஜிட்டல் பேரழிவாக மாறி பல பிராந்திய சர்வர்களை முடக்கியது.",
+    "synonyms": [
+      "Inferno",
+      "Blaze",
+      "Holocaust",
+      "Firestorm"
+    ],
+    "antonyms": [
+      "Spark",
+      "Flicker",
+      "Tranquility",
+      "Extinguishment"
+    ]
+  },
+  {
+    "id": 3181,
+    "word": "Conflate",
+    "pos": "verb",
+    "definition": "To combine two or more separate texts, ideas, or pieces of information into one; often mistakenly.",
+    "enExample": "It is dangerous to conflate a temporary spike in traffic with a permanent increase in active users.",
+    "taWord": "ஒன்றிணைத்தல் / சேர்த்துக் குழப்புதல்",
+    "taExample": "தற்காலிகமாக அதிகரிக்கும் வலைப்பின்னல் பயன்பாட்டை நிரந்தர பயனர்களின் அதிகரிப்பாக சேர்த்துக் குழப்புவது ஆபத்தானது.",
+    "synonyms": [
+      "Merge",
+      "Blend",
+      "Fuse",
+      "Combine"
+    ],
+    "antonyms": [
+      "Separate",
+      "Distinguish",
+      "Divide",
+      "Isolate"
     ]
   },
   {
@@ -889,6 +1126,69 @@
       "Denote",
       "State explicitly",
       "Define literally"
+    ]
+  },
+  {
+    "id": 3172,
+    "word": "Conscription",
+    "pos": "noun",
+    "definition": "Compulsory enlistment for state service, typically into the armed forces.",
+    "enExample": "During the geopolitical crisis, the government announced a sudden conscription of all able-bodied citizens.",
+    "taWord": "கட்டாய ராணுவச் சேவை / கட்டாயப் பணிப்பிரிவு",
+    "taExample": "புவிசார் அரசியல் நெருக்கடியின் போது, அரசு அனைத்து தகுதியான குடிமக்களையும் கட்டாய ராணுவச் சேவையில் சேர்த்தது.",
+    "synonyms": [
+      "Draft",
+      "Enlistment",
+      "Impressment",
+      "Mobilization"
+    ],
+    "antonyms": [
+      "Volunteering",
+      "Discharge",
+      "Exemption",
+      "Demobilization"
+    ]
+  },
+  {
+    "id": 3175,
+    "word": "Consecrate",
+    "pos": "verb",
+    "definition": "To make or declare sacred; dedicate formally to a religious or divine purpose, or a high professional calling.",
+    "enExample": "The newly built research facility was consecrated to the advancement of sustainable energy technologies.",
+    "taWord": "புனிதப்படுத்துதல் / அர்ப்பணித்தல்",
+    "taExample": "புதிதாக கட்டப்பட்ட ஆராய்ச்சி மையம் நிலையான ஆற்றல் தொழில்நுட்பங்களின் மேம்பாட்டிற்காக அர்ப்பணிக்கப்பட்டது.",
+    "synonyms": [
+      "Dedicate",
+      "Sanctify",
+      "Devote",
+      "Bless"
+    ],
+    "antonyms": [
+      "Desecrate",
+      "Profane",
+      "Defile",
+      "Condemn"
+    ]
+  },
+  {
+    "id": 3174,
+    "word": "Consensus",
+    "pos": "noun",
+    "definition": "A general agreement among a group of people.",
+    "enExample": "The engineering team reached a consensus to migrate the legacy monolithic backend to microservices.",
+    "taWord": "ஒத்த கருத்து / பொதுவான இணக்கம்",
+    "taExample": "பழைய மென்பொருள் அமைப்பை நுண் சேவைகளாக மாற்றுவது குறித்து பொறியியல் குழு ஒத்த கருத்தை எட்டியது.",
+    "synonyms": [
+      "Agreement",
+      "Harmony",
+      "Unanimity",
+      "Accord"
+    ],
+    "antonyms": [
+      "Disagreement",
+      "Dissent",
+      "Conflict",
+      "Discord"
     ]
   },
   {
@@ -965,6 +1265,49 @@
     ]
   },
   {
+    "id": 3064,
+    "word": "Conspicuous",
+    "pos": "adj.",
+    "definition": "Standing out so as to be clearly visible; attracting noticeable attention.",
+    "enExample": "The missing authorization token was a conspicuous vulnerability in the authentication header.",
+    "taWord": "தெளிவாகத் தெரியும் / கண்களில் பளிச்சென படுகிற",
+    "taExample": "அங்கீகார தலைப்பில் விடுபட்ட பாதுகாப்பு குறியீடு மிக எளிதாக கவனத்தை ஈர்க்கும் ஒரு பலவீனமாக இருந்தது.",
+    "synonyms": [
+      "Prominent",
+      "Noticeable",
+      "Salient",
+      "Conspicuous",
+      "Obvious"
+    ],
+    "antonyms": [
+      "Inconspicuous",
+      "Hidden",
+      "Unnoticeable",
+      "Discreet"
+    ]
+  },
+  {
+    "id": 3178,
+    "word": "Consternation",
+    "pos": "noun",
+    "definition": "Feelings of anxiety or dismay, typically at something unexpected.",
+    "enExample": "There was widespread consternation among the stakeholders when the quarterly revenue dropped unexpectedly.",
+    "taWord": "திகில் / பெருங்குழப்பம்",
+    "taExample": "காலாண்டு வருவாய் எதிர்பாராத விதமாக குறைந்தபோது பங்குதாரர்களிடையே பெரும் திகிலும் குழப்பமும் ஏற்பட்டது.",
+    "synonyms": [
+      "Dismay",
+      "Perturbation",
+      "Alarm",
+      "Anxiety"
+    ],
+    "antonyms": [
+      "Composure",
+      "Calm",
+      "Reassurance",
+      "Equanimity"
+    ]
+  },
+  {
     "id": 304,
     "word": "Constraint",
     "definition": "A limitation or restriction.",
@@ -1004,6 +1347,27 @@
     ]
   },
   {
+    "id": 3176,
+    "word": "Consummate",
+    "pos": "adj.",
+    "definition": "Showing a high degree of skill and flair; complete or perfect.",
+    "enExample": "She handled the critical production outage with consummate professionalism and technical expertise.",
+    "taWord": "முழுமையான / மிகச் சிறந்த திறமையுடைய",
+    "taExample": "அவர் மிகச் சிறந்த திறமையுடனும் தொழில் நேர்த்தியுடனும் முக்கிய தொழில்நுட்ப முடக்கத்தை கையாண்டார்.",
+    "synonyms": [
+      "Flawless",
+      "Perfect",
+      "Exemplary",
+      "Masterful"
+    ],
+    "antonyms": [
+      "Amateurish",
+      "Incomplete",
+      "Deficient",
+      "Inept"
+    ]
+  },
+  {
     "id": 2698,
     "word": "Containerization",
     "definition": "Packaging an application together with all its dependencies and runtime libraries into an isolated container.",
@@ -1039,6 +1403,27 @@
       "Harmony",
       "Agreement",
       "Accord"
+    ]
+  },
+  {
+    "id": 3183,
+    "word": "Contentious",
+    "pos": "adj.",
+    "definition": "Causing or likely to cause an argument; controversial.",
+    "enExample": "The decision to deprecate the popular API endpoint proved to be a highly contentious issue among developers.",
+    "taWord": "சர்ச்சைக்குரிய / விவாதத்திற்குரிய",
+    "taExample": "பிரபலமான மென்பொருள் இடைமுகத்தை நிறுத்தும் முடிவு உருவாக்குநர்களிடையே பெரும் சர்ச்சைக்குரிய விஷயமாக மாறியது.",
+    "synonyms": [
+      "Controversial",
+      "Disputable",
+      "Debatable",
+      "Argumentative"
+    ],
+    "antonyms": [
+      "Undisputed",
+      "Agreeable",
+      "Harmonious",
+      "Uncontroversial"
     ]
   },
   {
@@ -1091,6 +1476,48 @@
     ],
     "antonyms": [
       "Certainty"
+    ]
+  },
+  {
+    "id": 3177,
+    "word": "Contingent",
+    "pos": "adj.",
+    "definition": "Subject to chance; occurring or existing only if certain other circumstances are the case; dependent on.",
+    "enExample": "The final release of the software is contingent upon passing all automated security audits.",
+    "taWord": "சார்ந்துள்ள / நிகழக்கூடிய",
+    "taExample": "மென்பொருளின் இறுதி வெளியீடானது அனைத்து தானியங்கி பாதுகாப்பு தணிக்கைகளிலும் தேர்ச்சி பெறுவதை சார்ந்துள்ளது.",
+    "synonyms": [
+      "Dependent",
+      "Conditional",
+      "Subject to",
+      "Reliant"
+    ],
+    "antonyms": [
+      "Independent",
+      "Certain",
+      "Unconditional",
+      "Guaranteed"
+    ]
+  },
+  {
+    "id": 3182,
+    "word": "Contrite",
+    "pos": "adj.",
+    "definition": "Feeling or expressing remorse or penitence; affected by guilt.",
+    "enExample": "The vendor issued a contrite public apology after their software update deleted user data.",
+    "taWord": "வருந்துகிற / குற்ற உணர்வுள்ள",
+    "taExample": "மென்பொருள் புதுப்பிப்பினால் பயனர் தரவுகள் அழிந்ததால், அந்நிறுவனம் வருத்தத்துடன் பொதுமன்னிப்பு கோரியது.",
+    "synonyms": [
+      "Remorseful",
+      "Apologetic",
+      "Penitent",
+      "Repentant"
+    ],
+    "antonyms": [
+      "Unrepentant",
+      "Defiant",
+      "Shameless",
+      "Callous"
     ]
   },
   {
@@ -1187,6 +1614,27 @@
       "Exoneration",
       "Doubt",
       "Uncertainty"
+    ]
+  },
+  {
+    "id": 3179,
+    "word": "Convivial",
+    "pos": "adj.",
+    "definition": "Friendly, lively, and enjoyable; cheerful and amicable.",
+    "enExample": "Despite the high-stress environment, the startup maintained a convivial atmosphere to boost morale.",
+    "taWord": "நட்பான / கலகலப்பான",
+    "taExample": "அதிக பணிச்சுமை இருந்தபோதிலும், நிறுவனத்தில் ஊழியர்களின் ஊக்கத்தை அதிகரிக்க கலகலப்பான சூழல் பராமரிக்கப்பட்டது.",
+    "synonyms": [
+      "Genial",
+      "Sociable",
+      "Amiable",
+      "Cheerful"
+    ],
+    "antonyms": [
+      "Hostile",
+      "Gloomy",
+      "Aloof",
+      "Unfriendly"
     ]
   },
   {
@@ -1470,6 +1918,11 @@
     "synonyms": [
       "Loop",
       "Rotation"
+    ],
+    "antonyms": [
+      "Linear progression",
+      "Dead end",
+      "Static state"
     ]
   },
   {

@@ -85,6 +85,11 @@
     "synonyms": [
       "Multiplier",
       "Repetition marker"
+    ],
+    "antonyms": [
+      "Uncountable entity",
+      "Qualitative trait",
+      "Ambiguity"
     ]
   },
   {
@@ -168,6 +173,11 @@
       "Request",
       "Search",
       "Fetch"
+    ],
+    "antonyms": [
+      "Command update",
+      "Write mutation",
+      "Blind insert"
     ]
   },
   {
@@ -199,6 +209,11 @@
     "synonyms": [
       "URL params",
       "Search string"
+    ],
+    "antonyms": [
+      "Request body",
+      "Headers",
+      "Static route path"
     ]
   },
   {
@@ -246,6 +261,11 @@
     "pos": "noun",
     "synonyms": [
       "Partition sort"
+    ],
+    "antonyms": [
+      "BubbleSort",
+      "Slow linear scan",
+      "Random shuffle"
     ]
   },
   {
@@ -368,6 +388,12 @@
       "Cite",
       "Enclose",
       "Escape"
+    ],
+    "antonyms": [
+      "Abstain",
+      "Halt",
+      "Cease",
+      "Reverse"
     ]
   },
   {
