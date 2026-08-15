@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Volume2, Bookmark, Shuffle, RotateCcw, ChevronLeft, ChevronRight, Sparkles, HelpCircle, CheckCircle2, Award, Zap, Layers } from 'lucide-react';
+import { Volume2, Bookmark, Shuffle, RotateCcw, ChevronLeft, ChevronRight, Sparkles, HelpCircle, CheckCircle2 } from 'lucide-react';
 import { LexiconWord } from '../types';
-import { speakWord, speakTamilWord } from '../utils/speech';
-import { AudioEqualizer } from './AudioEqualizer';
+import { speakWord } from '../utils/speech';
 
 interface FlashcardViewProps {
   words: LexiconWord[];
@@ -22,7 +21,6 @@ export function FlashcardView({
   const [isFlipped, setIsFlipped] = useState(false);
   const [direction, setDirection] = useState(1); // 1 = next, -1 = prev
   const [isSpeakingEn, setIsSpeakingEn] = useState(false);
-  const [isSpeakingTa, setIsSpeakingTa] = useState(false);
 
   // Touch Swipe tracking
   const touchStartXRef = useRef<number | null>(null);
@@ -161,25 +159,14 @@ export function FlashcardView({
   const isBookmarked = bookmarkedIds.includes(currentWord.id);
   const isMastered = masteredIds.includes(currentWord.id);
 
-  const handleSpeakEnglish = (e: React.MouseEvent) => {
-    e.stopPropagation();
+  const handleSpeakEnglish = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
     triggerHaptic();
     speakWord(
       currentWord.word,
       () => setIsSpeakingEn(true),
       () => setIsSpeakingEn(false),
       () => setIsSpeakingEn(false)
-    );
-  };
-
-  const handleSpeakTamil = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    triggerHaptic();
-    speakTamilWord(
-      currentWord.taWord,
-      () => setIsSpeakingTa(true),
-      () => setIsSpeakingTa(false),
-      () => setIsSpeakingTa(false)
     );
   };
 
@@ -409,14 +396,6 @@ export function FlashcardView({
                     Answer & Context
                   </span>
                   <div className="flex items-center gap-2">
-                    <button
-                      onClick={handleSpeakTamil}
-                      className="px-2.5 py-1 rounded-full bg-zinc-900 border border-zinc-700 text-zinc-300 hover:text-amber-300 text-[11px] font-mono flex items-center gap-1"
-                      title="Pronounce in Tamil"
-                    >
-                      <Volume2 size={13} />
-                      <span>TA Audio</span>
-                    </button>
                     <button
                       onClick={handleSpeakEnglish}
                       className="p-1.5 rounded-full bg-amber-400/15 text-amber-400 hover:bg-amber-400/25"

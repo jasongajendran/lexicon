@@ -1,4 +1,4 @@
-// Utility for speech synthesis with British female voice and Tamil voice selection
+// Utility for speech synthesis with British female voice selection
 
 let cachedVoices: SpeechSynthesisVoice[] = [];
 
@@ -116,15 +116,6 @@ function findYoungBritishFemaleVoice(voices: SpeechSynthesisVoice[]): SpeechSynt
   return nonMaleVoices[0] || null;
 }
 
-function findTamilVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | null {
-  if (!voices || voices.length === 0) return null;
-  const taVoice = voices.find(v => {
-    const lang = v.lang ? v.lang.toLowerCase().replace('_', '-') : '';
-    return lang.startsWith('ta') || v.name.toLowerCase().includes('tamil');
-  });
-  return taVoice || null;
-}
-
 export function speakWord(
   text: string,
   onStart?: () => void,
@@ -177,52 +168,5 @@ export function speakWord(
   }
 }
 
-export function speakTamilWord(
-  text: string,
-  onStart?: () => void,
-  onEnd?: () => void,
-  onError?: () => void
-) {
-  if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-    if (onError) onError();
-    return;
-  }
-
-  try {
-    window.speechSynthesis.cancel();
-
-    // Clean text (remove slashes or parentheses)
-    const cleanText = text.split('/')[0].replace(/[()]/g, '').trim();
-
-    const freshVoices = window.speechSynthesis.getVoices();
-    const voices = freshVoices.length > 0 ? freshVoices : cachedVoices;
-
-    const utterance = new SpeechSynthesisUtterance(cleanText);
-    utterance.lang = 'ta-IN';
-    utterance.pitch = 1.0;
-    utterance.rate = 0.88;
-
-    const voice = findTamilVoice(voices);
-    if (voice) {
-      utterance.voice = voice;
-    }
-
-    utterance.onstart = () => {
-      if (onStart) onStart();
-    };
-
-    utterance.onend = () => {
-      if (onEnd) onEnd();
-    };
-
-    utterance.onerror = () => {
-      if (onError) onError();
-    };
-
-    window.speechSynthesis.speak(utterance);
-  } catch (e) {
-    if (onError) onError();
-  }
-}
 
 

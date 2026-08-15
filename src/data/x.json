@@ -1,97 +1,83 @@
 [
   {
-    "id": 2401,
-    "word": "XML",
-    "definition": "Extensible Markup Language; a flexible text-based standard format for defining structured custom documents and configuration files.",
-    "enExample": "Android layouts and legacy SOAP APIs rely on structured XML files.",
-    "taExample": "ஆண்ட்ராய்டு தளவமைப்புகள் மற்றும் பழைய SOAP APIகள் கட்டமைக்கப்பட்ட XML கோப்புகளை நம்பியுள்ளன.",
-    "taWord": "விரிவாக்கக்கூடிய குறியீட்டு மொழி (XML)",
+    "id": 2417,
+    "word": "X factor",
+    "definition": "A variable in a given situation that could have the most significant impact on the outcome.",
+    "enExample": "The x factor in this election is the youth vote.",
+    "taExample": "இந்தத் தேர்தலில் சிறப்பு அம்சம் இளைஞர்களின் வாக்கு.",
+    "taWord": "சிறப்பு அம்சம்",
     "pos": "noun",
     "synonyms": [
-      "Extensible Markup Language",
-      "Structured markup"
-    ],
-    "antonyms": [
-      "JSON",
-      "YAML"
+      "Unknown quantity",
+      "Special quality"
     ]
   },
   {
-    "id": 2402,
-    "word": "XGBoost",
-    "definition": "Extreme Gradient Boosting; an optimized distributed gradient boosting machine learning library designed for high performance.",
-    "enExample": "XGBoost consistently outperforms standard neural networks on tabular dataset competitions.",
-    "taExample": "அட்டவணை தரவுத்தொகுப்புப் போட்டிகளில் XGBoost நிலையான நரம்பியல் வலைப்பின்னல்களை விட தொடர்ந்து சிறப்பாக செயல்படுகிறது.",
-    "taWord": "அதிவேக கிரேடியன்ட் பூஸ்டிங் (XGBoost)",
+    "id": 2415,
+    "word": "X-Content-Type-Options",
+    "definition": "An HTTP header preventing browsers from MIME-sniffing a response away from the declared content-type.",
+    "enExample": "Setting X-Content-Type-Options to nosniff enforces strict media content-type parsing.",
+    "taExample": "X-Content-Type-Options ஐ nosniff என அமைப்பது கடுமையான உள்ளடக்க வகை பகுப்பாய்வை நடைமுறைப்படுத்துகிறது.",
+    "taWord": "MIME பாதுகாப்புத் தலைப்பு",
     "pos": "noun",
     "synonyms": [
-      "Gradient boosting",
-      "ML library"
+      "MIME sniffing prevention header"
     ]
   },
   {
-    "id": 2403,
-    "word": "XSS",
-    "definition": "Cross-Site Scripting; a vulnerability where malicious scripts are injected into trusted web sites viewed by other users.",
-    "enExample": "Sanitize user inputs to protect application users from stored XSS attacks.",
-    "taExample": "சேமிக்கப்பட்ட எக்ஸ்.எஸ்.எஸ் (XSS) தாக்குதல்களிலிருந்து பயனர் பயன்பாட்டைப் பாதுகாக்க பயனர் உள்ளீடுகளைச் தூய்மைப்படுத்துங்கள்.",
-    "taWord": "இணைதள ஸ்கிரிப்ட் தாக்குதல் (XSS)",
+    "id": 2414,
+    "word": "X-Frame-Options",
+    "definition": "An HTTP security response header indicating whether a browser is allowed to render a page inside an iframe.",
+    "enExample": "Set X-Frame-Options to DENY to prevent clickjacking security vulnerabilities.",
+    "taExample": "கிளிக்ஜேக்கிங் பாதுகாப்புப் பலவீனங்களைத் தடுக்க X-Frame-Options ஐ DENY என அமைக்கவும்.",
+    "taWord": "எக்ஸ்-பிரேம் பாதுகாப்புத் தலைப்பு",
     "pos": "noun",
     "synonyms": [
-      "Cross-Site Scripting",
-      "Script injection"
-    ],
-    "antonyms": [
-      "Input sanitization",
-      "CSRF protection"
+      "Iframe security header",
+      "Anti-clickjacking header"
     ]
   },
   {
-    "id": 2404,
-    "word": "XHTML",
-    "definition": "Extensible HyperText Markup Language; HTML reformulated as a strict XML application.",
-    "enExample": "XHTML requires strict element closing tags and lowercase element syntax rules.",
-    "taExample": "XHTML க்கு கடுமையான தொடரியல் விதிகள் மற்றும் உறுப்பு மூடல்கள் தேவைப்படுகின்றன.",
-    "taWord": "விரிவாக்கப்பட்ட HTML (XHTML)",
+    "id": 2410,
+    "word": "X-Header",
+    "definition": "A convention for custom experimental or non-standard HTTP request/response headers prefixed with X-.",
+    "enExample": "The X-Request-ID custom header helps trace microservice request logs across systems.",
+    "taExample": "X-Request-ID விருப்பத் தலைப்பு அமைப்புகள் முழுவதும் மைக்ரோசர்வீஸ் கோரிக்கைப் பதிவுகளைத் தடமறிய உதவுகிறது.",
+    "taWord": "விருப்ப HTTP தலைப்பு (X-Header)",
     "pos": "noun",
     "synonyms": [
-      "Strict HTML",
-      "XML-compliant HTML"
+      "Custom header",
+      "Non-standard header"
     ],
     "antonyms": [
-      "HTML5"
+      "Standard HTTP header"
     ]
   },
   {
-    "id": 2405,
-    "word": "XPath",
-    "definition": "A query syntax language used for selecting specific nodes and values from XML or HTML document structures.",
-    "enExample": "Web scraping tools use XPath expressions to extract target text elements from complex DOM trees.",
-    "taExample": "இணையத் தரவுச் சுரங்கக் கருவிகள் சிக்கலான DOM மரங்களிலிருந்து உரை கூறுகளைப் பிரித்தெடுக்க XPath கோவைகளைப் பயன்படுத்துகின்றன.",
-    "taWord": "எக்ஸ்பாத் / XML பாதை (XPath)",
+    "id": 2412,
+    "word": "X-Ray",
+    "definition": "AWS X-Ray or automated distributed tracing tool that collects telemetry data to debug microservice performance.",
+    "enExample": "AWS X-Ray visualizes service bottlenecks across cloud lambda function invocation chains.",
+    "taExample": "AWS எக்ஸ்-ரே கிளவுட் லேம்ப்டா செயல்பாட்டு சங்கிலிகளில் சேவை பாட்டில்நெக்குகளைக் காட்சிப்படுத்துகிறது.",
+    "taWord": "எக்ஸ்-ரே / தடமறிதல் கருவி",
     "pos": "noun",
     "synonyms": [
-      "XML Path Language",
-      "DOM query syntax"
-    ],
-    "antonyms": [
-      "CSS selectors"
+      "Distributed tracer",
+      "Telemetry analyzer"
     ]
   },
   {
-    "id": 2406,
-    "word": "XHR",
-    "definition": "XMLHttpRequest; a browser API object used to transfer data between web clients and servers asynchronously without reloading the page.",
-    "enExample": "Modern fetch API wraps legacy XHR functionalities with clean JavaScript Promises.",
-    "taExample": "நவீன ஃபெட்ச் API பழைய எக்ஸ்.ஹெச்.ஆர் (XHR) செயல்பாடுகளை சுத்தமான ஜாவாஸ்கிரிப்ட் வாக்குறுதிகளுடன் உறையிடுகிறது.",
-    "taWord": "XMLHttpRequest (XHR)",
+    "id": 2409,
+    "word": "X.509",
+    "definition": "A standard defining the format of public key infrastructure (PKI) digital certificates used in HTTPS TLS/SSL connections.",
+    "enExample": "HTTPS web servers present X.509 certificates to prove domain ownership to web browsers.",
+    "taExample": "HTTPS வலை சேவையகங்கள் உலாவிக்கு டொமைன் உரிமையை நிரூபிக்க X.509 சான்றிதழ்களை வழங்குகின்றன.",
+    "taWord": "எக்ஸ்.509 சான்றிதழ் (X.509)",
     "pos": "noun",
     "synonyms": [
-      "XMLHttpRequest",
-      "AJAX request"
-    ],
-    "antonyms": [
-      "Fetch API"
+      "SSL certificate",
+      "PKI certificate",
+      "TLS cert"
     ]
   },
   {
@@ -130,104 +116,6 @@
     ]
   },
   {
-    "id": 2409,
-    "word": "X.509",
-    "definition": "A standard defining the format of public key infrastructure (PKI) digital certificates used in HTTPS TLS/SSL connections.",
-    "enExample": "HTTPS web servers present X.509 certificates to prove domain ownership to web browsers.",
-    "taExample": "HTTPS வலை சேவையகங்கள் உலாவிக்கு டொமைன் உரிமையை நிரூபிக்க X.509 சான்றிதழ்களை வழங்குகின்றன.",
-    "taWord": "எக்ஸ்.509 சான்றிதழ் (X.509)",
-    "pos": "noun",
-    "synonyms": [
-      "SSL certificate",
-      "PKI certificate",
-      "TLS cert"
-    ]
-  },
-  {
-    "id": 2410,
-    "word": "X-Header",
-    "definition": "A convention for custom experimental or non-standard HTTP request/response headers prefixed with X-.",
-    "enExample": "The X-Request-ID custom header helps trace microservice request logs across systems.",
-    "taExample": "X-Request-ID விருப்பத் தலைப்பு அமைப்புகள் முழுவதும் மைக்ரோசர்வீஸ் கோரிக்கைப் பதிவுகளைத் தடமறிய உதவுகிறது.",
-    "taWord": "விருப்ப HTTP தலைப்பு (X-Header)",
-    "pos": "noun",
-    "synonyms": [
-      "Custom header",
-      "Non-standard header"
-    ],
-    "antonyms": [
-      "Standard HTTP header"
-    ]
-  },
-  {
-    "id": 2411,
-    "word": "XOR",
-    "definition": "Exclusive OR; a bitwise logical operation returning true if and only if one operand is true while the other is false.",
-    "enExample": "Bitwise XOR is widely used in cryptographic algorithms and checksum error checking.",
-    "taExample": "பிட்வைஸ் XOR குறியாக்கவியல் அல்காரிதம்களிலும் பிழை சரிபார்ப்பிலும் பரவலாகப் பயன்படுத்தப்படுகிறது.",
-    "taWord": "எக்ஸ்.ஓ.ஆர் (XOR ஈருறுப்புத் தர்க்கம்)",
-    "pos": "noun",
-    "synonyms": [
-      "Exclusive OR",
-      "Bitwise logic"
-    ],
-    "antonyms": [
-      "XNOR",
-      "AND",
-      "OR"
-    ]
-  },
-  {
-    "id": 2412,
-    "word": "X-Ray",
-    "definition": "AWS X-Ray or automated distributed tracing tool that collects telemetry data to debug microservice performance.",
-    "enExample": "AWS X-Ray visualizes service bottlenecks across cloud lambda function invocation chains.",
-    "taExample": "AWS எக்ஸ்-ரே கிளவுட் லேம்ப்டா செயல்பாட்டு சங்கிலிகளில் சேவை பாட்டில்நெக்குகளைக் காட்சிப்படுத்துகிறது.",
-    "taWord": "எக்ஸ்-ரே / தடமறிதல் கருவி",
-    "pos": "noun",
-    "synonyms": [
-      "Distributed tracer",
-      "Telemetry analyzer"
-    ]
-  },
-  {
-    "id": 2413,
-    "word": "XMLNS",
-    "definition": "XML Namespace attribute used to provide uniquely named elements and attributes in an XML document.",
-    "enExample": "SVG root elements specify the xmlns attribute to identify W3C vector graphics standards.",
-    "taExample": "SVG மூலக் கூறுகள் W3C திசையன் கிராபிக்ஸ் தரநிலைகளை அடையாளம் காண xmlns பண்புக்கூறைக் குறிப்பிடுகின்றன.",
-    "taWord": "XML பெயர்வெளி (XMLNS)",
-    "pos": "noun",
-    "synonyms": [
-      "XML namespace attribute"
-    ]
-  },
-  {
-    "id": 2414,
-    "word": "X-Frame-Options",
-    "definition": "An HTTP security response header indicating whether a browser is allowed to render a page inside an iframe.",
-    "enExample": "Set X-Frame-Options to DENY to prevent clickjacking security vulnerabilities.",
-    "taExample": "கிளிக்ஜேக்கிங் பாதுகாப்புப் பலவீனங்களைத் தடுக்க X-Frame-Options ஐ DENY என அமைக்கவும்.",
-    "taWord": "எக்ஸ்-பிரேம் பாதுகாப்புத் தலைப்பு",
-    "pos": "noun",
-    "synonyms": [
-      "Iframe security header",
-      "Anti-clickjacking header"
-    ]
-  },
-  {
-    "id": 2415,
-    "word": "X-Content-Type-Options",
-    "definition": "An HTTP header preventing browsers from MIME-sniffing a response away from the declared content-type.",
-    "enExample": "Setting X-Content-Type-Options to nosniff enforces strict media content-type parsing.",
-    "taExample": "X-Content-Type-Options ஐ nosniff என அமைப்பது கடுமையான உள்ளடக்க வகை பகுப்பாய்வை நடைமுறைப்படுத்துகிறது.",
-    "taWord": "MIME பாதுகாப்புத் தலைப்பு",
-    "pos": "noun",
-    "synonyms": [
-      "MIME sniffing prevention header"
-    ]
-  },
-  {
     "id": 2416,
     "word": "Xenophobia",
     "definition": "Dislike of or prejudice against people from other countries.",
@@ -246,16 +134,65 @@
     ]
   },
   {
-    "id": 2417,
-    "word": "X factor",
-    "definition": "A variable in a given situation that could have the most significant impact on the outcome.",
-    "enExample": "The x factor in this election is the youth vote.",
-    "taExample": "இந்தத் தேர்தலில் சிறப்பு அம்சம் இளைஞர்களின் வாக்கு.",
-    "taWord": "சிறப்பு அம்சம்",
+    "id": 2402,
+    "word": "XGBoost",
+    "definition": "Extreme Gradient Boosting; an optimized distributed gradient boosting machine learning library designed for high performance.",
+    "enExample": "XGBoost consistently outperforms standard neural networks on tabular dataset competitions.",
+    "taExample": "அட்டவணை தரவுத்தொகுப்புப் போட்டிகளில் XGBoost நிலையான நரம்பியல் வலைப்பின்னல்களை விட தொடர்ந்து சிறப்பாக செயல்படுகிறது.",
+    "taWord": "அதிவேக கிரேடியன்ட் பூஸ்டிங் (XGBoost)",
     "pos": "noun",
     "synonyms": [
-      "Unknown quantity",
-      "Special quality"
+      "Gradient boosting",
+      "ML library"
+    ]
+  },
+  {
+    "id": 2406,
+    "word": "XHR",
+    "definition": "XMLHttpRequest; a browser API object used to transfer data between web clients and servers asynchronously without reloading the page.",
+    "enExample": "Modern fetch API wraps legacy XHR functionalities with clean JavaScript Promises.",
+    "taExample": "நவீன ஃபெட்ச் API பழைய எக்ஸ்.ஹெச்.ஆர் (XHR) செயல்பாடுகளை சுத்தமான ஜாவாஸ்கிரிப்ட் வாக்குறுதிகளுடன் உறையிடுகிறது.",
+    "taWord": "XMLHttpRequest (XHR)",
+    "pos": "noun",
+    "synonyms": [
+      "XMLHttpRequest",
+      "AJAX request"
+    ],
+    "antonyms": [
+      "Fetch API"
+    ]
+  },
+  {
+    "id": 2404,
+    "word": "XHTML",
+    "definition": "Extensible HyperText Markup Language; HTML reformulated as a strict XML application.",
+    "enExample": "XHTML requires strict element closing tags and lowercase element syntax rules.",
+    "taExample": "XHTML க்கு கடுமையான தொடரியல் விதிகள் மற்றும் உறுப்பு மூடல்கள் தேவைப்படுகின்றன.",
+    "taWord": "விரிவாக்கப்பட்ட HTML (XHTML)",
+    "pos": "noun",
+    "synonyms": [
+      "Strict HTML",
+      "XML-compliant HTML"
+    ],
+    "antonyms": [
+      "HTML5"
+    ]
+  },
+  {
+    "id": 2401,
+    "word": "XML",
+    "definition": "Extensible Markup Language; a flexible text-based standard format for defining structured custom documents and configuration files.",
+    "enExample": "Android layouts and legacy SOAP APIs rely on structured XML files.",
+    "taExample": "ஆண்ட்ராய்டு தளவமைப்புகள் மற்றும் பழைய SOAP APIகள் கட்டமைக்கப்பட்ட XML கோப்புகளை நம்பியுள்ளன.",
+    "taWord": "விரிவாக்கக்கூடிய குறியீட்டு மொழி (XML)",
+    "pos": "noun",
+    "synonyms": [
+      "Extensible Markup Language",
+      "Structured markup"
+    ],
+    "antonyms": [
+      "JSON",
+      "YAML"
     ]
   },
   {
@@ -277,6 +214,36 @@
     ]
   },
   {
+    "id": 2413,
+    "word": "XMLNS",
+    "definition": "XML Namespace attribute used to provide uniquely named elements and attributes in an XML document.",
+    "enExample": "SVG root elements specify the xmlns attribute to identify W3C vector graphics standards.",
+    "taExample": "SVG மூலக் கூறுகள் W3C திசையன் கிராபிக்ஸ் தரநிலைகளை அடையாளம் காண xmlns பண்புக்கூறைக் குறிப்பிடுகின்றன.",
+    "taWord": "XML பெயர்வெளி (XMLNS)",
+    "pos": "noun",
+    "synonyms": [
+      "XML namespace attribute"
+    ]
+  },
+  {
+    "id": 2411,
+    "word": "XOR",
+    "definition": "Exclusive OR; a bitwise logical operation returning true if and only if one operand is true while the other is false.",
+    "enExample": "Bitwise XOR is widely used in cryptographic algorithms and checksum error checking.",
+    "taExample": "பிட்வைஸ் XOR குறியாக்கவியல் அல்காரிதம்களிலும் பிழை சரிபார்ப்பிலும் பரவலாகப் பயன்படுத்தப்படுகிறது.",
+    "taWord": "எக்ஸ்.ஓ.ஆர் (XOR ஈருறுப்புத் தர்க்கம்)",
+    "pos": "noun",
+    "synonyms": [
+      "Exclusive OR",
+      "Bitwise logic"
+    ],
+    "antonyms": [
+      "XNOR",
+      "AND",
+      "OR"
+    ]
+  },
+  {
     "id": 2751,
     "word": "XOR Operation",
     "pos": "noun",
@@ -292,6 +259,39 @@
     "antonyms": [
       "equivalence",
       "bitwise XNOR"
+    ]
+  },
+  {
+    "id": 2405,
+    "word": "XPath",
+    "definition": "A query syntax language used for selecting specific nodes and values from XML or HTML document structures.",
+    "enExample": "Web scraping tools use XPath expressions to extract target text elements from complex DOM trees.",
+    "taExample": "இணையத் தரவுச் சுரங்கக் கருவிகள் சிக்கலான DOM மரங்களிலிருந்து உரை கூறுகளைப் பிரித்தெடுக்க XPath கோவைகளைப் பயன்படுத்துகின்றன.",
+    "taWord": "எக்ஸ்பாத் / XML பாதை (XPath)",
+    "pos": "noun",
+    "synonyms": [
+      "XML Path Language",
+      "DOM query syntax"
+    ],
+    "antonyms": [
+      "CSS selectors"
+    ]
+  },
+  {
+    "id": 2403,
+    "word": "XSS",
+    "definition": "Cross-Site Scripting; a vulnerability where malicious scripts are injected into trusted web sites viewed by other users.",
+    "enExample": "Sanitize user inputs to protect application users from stored XSS attacks.",
+    "taExample": "சேமிக்கப்பட்ட எக்ஸ்.எஸ்.எஸ் (XSS) தாக்குதல்களிலிருந்து பயனர் பயன்பாட்டைப் பாதுகாக்க பயனர் உள்ளீடுகளைச் தூய்மைப்படுத்துங்கள்.",
+    "taWord": "இணைதள ஸ்கிரிப்ட் தாக்குதல் (XSS)",
+    "pos": "noun",
+    "synonyms": [
+      "Cross-Site Scripting",
+      "Script injection"
+    ],
+    "antonyms": [
+      "Input sanitization",
+      "CSRF protection"
     ]
   }
 ]

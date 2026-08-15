@@ -1,5 +1,41 @@
 [
   {
+    "id": 1516,
+    "word": "Obdurate",
+    "definition": "Stubbornly refusing to change one's opinion or course of action.",
+    "enExample": "I argued this point with him, but he was obdurate.",
+    "taExample": "நான் இந்த விஷயத்தை அவரிடம் வாதிட்டேன், ஆனால் அவர் பிடிவாதமாக இருந்தார்.",
+    "taWord": "பிடிவாதமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Stubborn",
+      "Obstinate",
+      "Inflexible"
+    ],
+    "antonyms": [
+      "Malleable",
+      "Compliant"
+    ]
+  },
+  {
+    "id": 1517,
+    "word": "Obfuscate",
+    "definition": "Render obscure, unclear, or unintelligible.",
+    "enExample": "The spelling changes will deform some familiar words and obfuscate their etymological origins.",
+    "taExample": "எழுத்து மாற்றங்கள் சில தெரிந்த வார்த்தைகளை சிதைத்து அவற்றின் மூலத்தை குழப்பிவிடும்.",
+    "taWord": "குழப்பு",
+    "pos": "verb",
+    "synonyms": [
+      "Obscure",
+      "Confuse",
+      "Blur"
+    ],
+    "antonyms": [
+      "Clarify",
+      "Elucidate"
+    ]
+  },
+  {
     "id": 1501,
     "word": "Obfuscation",
     "definition": "The practice of making source or machine code difficult for humans to understand to protect IP.",
@@ -121,6 +157,24 @@
     ]
   },
   {
+    "id": 2806,
+    "word": "On-Call Pager",
+    "pos": "noun",
+    "definition": "The automated alerting rotation duty where an on-call engineer must respond immediately to high-severity production incidents 24/7.",
+    "enExample": "The on-call pager sounded at 3 AM when the primary database cluster suffered a hard disk saturation.",
+    "taWord": "அவசர அழைப்பு பணி சுழற்சி",
+    "taExample": "உற்பத்தி சூழல் முடங்கும் போது உடனடியாக சரிசெய்ய பொறியாளர்கள் ஏற்கும் அவசர எச்சரிக்கை பணி.",
+    "synonyms": [
+      "Incident rotation",
+      "Pager duty",
+      "Primary responder shift"
+    ],
+    "antonyms": [
+      "Off-shift leisure",
+      "Unmonitored downtime"
+    ]
+  },
+  {
     "id": 1508,
     "word": "Opaque",
     "definition": "Not transparent; internal data structure or visual layer that obscures underlying content.",
@@ -152,6 +206,24 @@
     ],
     "antonyms": [
       "Operator"
+    ]
+  },
+  {
+    "id": 2736,
+    "word": "Optimistic Locking",
+    "pos": "noun",
+    "definition": "A concurrency control strategy where record updates assume no conflict will occur, checking a version field prior to committing to catch collisions.",
+    "taWord": "நம்பிக்கை அடிப்படையிலான பூட்டுதல் முறை",
+    "enExample": "Optimistic locking with an incrementing record version integer stopped concurrent edits from overwriting each other.",
+    "taExample": "இரண்டு பயனர்கள் ஒரே பதிவை மாற்றும்போது பதிப்பு எண்ணை சரிபார்த்து முரண்பாடுகளைத் தவிர்க்கும் முறை.",
+    "synonyms": [
+      "version-check concurrency",
+      "non-blocking lock",
+      "optimistic concurrency"
+    ],
+    "antonyms": [
+      "pessimistic locking",
+      "exclusive table lock"
     ]
   },
   {
@@ -226,6 +298,77 @@
     ]
   },
   {
+    "id": 2735,
+    "word": "ORM",
+    "pos": "noun",
+    "definition": "Object-Relational Mapping; a software technique that bridges object-oriented code with relational databases, treating tables as queryable classes.",
+    "taWord": "ஆப்ஜெக்ட்-தரவுத்தள தொடர்பு முறைமை",
+    "enExample": "Prisma ORM provided end-to-end type safety between our PostgreSQL database schema and TypeScript application layer.",
+    "taExample": "SQL வினவல்களை நேரடியாக எழுதாமல் TypeScript மொழியிலேயே தரவுகளைக் கையாள ORM பயன்படுத்தப்பட்டது.",
+    "synonyms": [
+      "data mapper",
+      "relational bridge",
+      "active record"
+    ],
+    "antonyms": [
+      "raw SQL client",
+      "manual query driver"
+    ]
+  },
+  {
+    "id": 1518,
+    "word": "Ostentatious",
+    "definition": "Characterized by vulgar or pretentious display; designed to impress or attract notice.",
+    "enExample": "Books that people buy and display ostentatiously but never actually finish.",
+    "taExample": "மக்கள் வாங்கி பகட்டாகக் காட்டும் ஆனால் படித்து முடிக்காத புத்தகங்கள்.",
+    "taWord": "பகட்டான",
+    "pos": "adj.",
+    "synonyms": [
+      "Showy",
+      "Pretentious",
+      "Conspicuous"
+    ],
+    "antonyms": [
+      "Plain",
+      "Unobtrusive"
+    ]
+  },
+  {
+    "id": 2737,
+    "word": "Out-of-Memory",
+    "pos": "noun",
+    "definition": "A critical runtime condition (OOM) where the operating system or runtime engine terminates an application process because no free RAM is available.",
+    "taWord": "நினைவக பற்றாக்குறை முடக்கம்",
+    "enExample": "A hidden memory leak in our image processing pipeline caused the background container to get killed with an OOM error.",
+    "taExample": "நினைவகத்தில் தரவு தேங்கியதால் சர்வரில் போதுமான RAM இல்லாமல் பயன்பாடு OOM பிழையுடன் முடங்கியது.",
+    "synonyms": [
+      "OOM killer",
+      "memory exhaustion",
+      "heap overflow"
+    ],
+    "antonyms": [
+      "stable footprint",
+      "bounded memory pool"
+    ]
+  },
+  {
+    "id": 2805,
+    "word": "Outbox Pattern",
+    "pos": "noun",
+    "definition": "An architectural pattern that ensures reliable asynchronous event publishing by persisting messages in the same database transaction as domain entities.",
+    "enExample": "We implemented the transactional outbox pattern to eliminate dual-write inconsistencies between Postgres and Kafka.",
+    "taWord": "வெளியீட்டு பெட்டி வடிவமைப்பு முறை",
+    "taExample": "தரவுத்தள மாற்றமும் செய்தி வெளியீடும் முரண்பாடின்றி ஒரே நேரத்தில் நடப்பதை உறுதிசெய்யும் முறை.",
+    "synonyms": [
+      "Transactional outbox",
+      "Reliable message publishing"
+    ],
+    "antonyms": [
+      "Unreliable dual writes",
+      "Divergent message state"
+    ]
+  },
+  {
     "id": 1514,
     "word": "Output",
     "definition": "Data produced or returned by a computer program, function, or hardware device.",
@@ -261,111 +404,105 @@
     ]
   },
   {
-    "id": 1516,
-    "word": "Obdurate",
-    "definition": "Stubbornly refusing to change one's opinion or course of action.",
-    "enExample": "I argued this point with him, but he was obdurate.",
-    "taExample": "நான் இந்த விஷயத்தை அவரிடம் வாதிட்டேன், ஆனால் அவர் பிடிவாதமாக இருந்தார்.",
-    "taWord": "பிடிவாதமான",
+    "id": 2889,
+    "word": "Oblivious",
     "pos": "adj.",
+    "definition": "Not aware of, blind to, or unconscious of what is happening in one's immediate environment.",
+    "enExample": "The administration seemed completely oblivious to the public outcry brewing across social media.",
+    "taWord": "கவனிக்காத / அறியாத நிலை",
+    "taExample": "மக்களிடையே எழுந்து வரும் கடும் எதிர்ப்பை சற்றும் உணராமல் அரசு தன் திட்டத்தைத் தொடர்ந்தது.",
     "synonyms": [
-      "Stubborn",
-      "Obstinate",
-      "Inflexible"
+      "Unaware",
+      "Unconscious",
+      "Blind to",
+      "Heedless"
     ],
     "antonyms": [
-      "Malleable",
-      "Compliant"
+      "Aware",
+      "Conscious",
+      "Attentive",
+      "Mindful"
     ]
   },
   {
-    "id": 1517,
-    "word": "Obfuscate",
-    "definition": "Render obscure, unclear, or unintelligible.",
-    "enExample": "The spelling changes will deform some familiar words and obfuscate their etymological origins.",
-    "taExample": "எழுத்து மாற்றங்கள் சில தெரிந்த வார்த்தைகளை சிதைத்து அவற்றின் மூலத்தை குழப்பிவிடும்.",
-    "taWord": "குழப்பு",
+    "id": 2890,
+    "word": "Ombudsman",
+    "pos": "noun",
+    "definition": "An independent official appointed to investigate and resolve citizens' complaints against government administration or companies.",
+    "enExample": "The banking ombudsman ordered the lender to refund unauthorized hidden transaction fees.",
+    "taWord": "குறைதீர்ப்பாளர் / நடுநிலை விசாரணை அதிகாரி",
+    "taExample": "வாடிக்கையாளர்களின் புகார்களை விசாரித்த வங்கி குறைதீர்ப்பாளர் பணத்தை திரும்பத் தருமாறு உத்தரவிட்டார்.",
+    "synonyms": [
+      "Public advocate",
+      "Mediator",
+      "Independent arbiter",
+      "Investigator"
+    ],
+    "antonyms": [
+      "Biased authority",
+      "Partisan bureaucrat"
+    ]
+  },
+  {
+    "id": 2891,
+    "word": "Onus",
+    "pos": "noun",
+    "definition": "Something that is one's heavy duty, burden, or moral and legal responsibility.",
+    "enExample": "The court ruled that the onus of proof lies entirely with the regulatory commission.",
+    "taWord": "முழுப் பொறுப்பு / சுமை",
+    "taExample": "குற்றத்தை சந்தேகத்திற்கு இடமின்றி நிரூபிக்கும் முழுப் பொறுப்பும் அரசு வழக்கறிஞரையே சாரும்.",
+    "synonyms": [
+      "Burden of proof",
+      "Responsibility",
+      "Obligation",
+      "Liability"
+    ],
+    "antonyms": [
+      "Exemption",
+      "Immunity",
+      "Freedom from duty"
+    ]
+  },
+  {
+    "id": 2892,
+    "word": "Ostracize",
     "pos": "verb",
+    "definition": "To systematically exclude, banish, or shun someone from a community, political caucus, or society.",
+    "enExample": "The faction voted to completely ostracize the lawmaker after he publicly opposed the party manifesto.",
+    "taWord": "சமூக விலக்கம் செய்தல் / ஒதுக்கிவைத்தல்",
+    "taExample": "கட்சி முடிவை எதிர்த்து பேசியதால் அவரை நாடாளுமன்றக் குழுவிலிருந்து முற்றிலும் ஒதுக்கி வைத்தனர்.",
     "synonyms": [
-      "Obscure",
-      "Confuse",
-      "Blur"
+      "Shun",
+      "Banish",
+      "Boycott",
+      "Exclude"
     ],
     "antonyms": [
-      "Clarify",
-      "Elucidate"
+      "Welcome",
+      "Integrate",
+      "Embrace",
+      "Include"
     ]
   },
   {
-    "id": 1518,
-    "word": "Ostentatious",
-    "definition": "Characterized by vulgar or pretentious display; designed to impress or attract notice.",
-    "enExample": "Books that people buy and display ostentatiously but never actually finish.",
-    "taExample": "மக்கள் வாங்கி பகட்டாகக் காட்டும் ஆனால் படித்து முடிக்காத புத்தகங்கள்.",
-    "taWord": "பகட்டான",
-    "pos": "adj.",
-    "synonyms": [
-      "Showy",
-      "Pretentious",
-      "Conspicuous"
-    ],
-    "antonyms": [
-      "Plain",
-      "Unobtrusive"
-    ]
-  },
-  {
-    "id": 2735,
-    "word": "ORM",
+    "id": 2893,
+    "word": "Overhaul",
     "pos": "noun",
-    "definition": "Object-Relational Mapping; a software technique that bridges object-oriented code with relational databases, treating tables as queryable classes.",
-    "taWord": "ஆப்ஜெக்ட்-தரவுத்தள தொடர்பு முறைமை",
-    "enExample": "Prisma ORM provided end-to-end type safety between our PostgreSQL database schema and TypeScript application layer.",
-    "taExample": "SQL வினவல்களை நேரடியாக எழுதாமல் TypeScript மொழியிலேயே தரவுகளைக் கையாள ORM பயன்படுத்தப்பட்டது.",
+    "definition": "A thorough, comprehensive examination and complete renovation of a system, machine, or policy framework.",
+    "enExample": "The newly elected governor announced a sweeping overhaul of the statewide public transportation grid.",
+    "taWord": "முழுமையான சீரமைப்பு / புனரமைப்பு",
+    "taExample": "போக்குவரத்து சேவைகளை மேம்படுத்த முழுமையான கட்டமைப்பு சீரமைப்பு திட்டத்தை அரசு அறிவித்தது.",
     "synonyms": [
-      "data mapper",
-      "relational bridge",
-      "active record"
+      "Revamp",
+      "Restructuring",
+      "Reconstruction",
+      "Reorganization"
     ],
     "antonyms": [
-      "raw SQL client",
-      "manual query driver"
-    ]
-  },
-  {
-    "id": 2736,
-    "word": "Optimistic Locking",
-    "pos": "noun",
-    "definition": "A concurrency control strategy where record updates assume no conflict will occur, checking a version field prior to committing to catch collisions.",
-    "taWord": "நம்பிக்கை அடிப்படையிலான பூட்டுதல் முறை",
-    "enExample": "Optimistic locking with an incrementing record version integer stopped concurrent edits from overwriting each other.",
-    "taExample": "இரண்டு பயனர்கள் ஒரே பதிவை மாற்றும்போது பதிப்பு எண்ணை சரிபார்த்து முரண்பாடுகளைத் தவிர்க்கும் முறை.",
-    "synonyms": [
-      "version-check concurrency",
-      "non-blocking lock",
-      "optimistic concurrency"
-    ],
-    "antonyms": [
-      "pessimistic locking",
-      "exclusive table lock"
-    ]
-  },
-  {
-    "id": 2737,
-    "word": "Out-of-Memory",
-    "pos": "noun",
-    "definition": "A critical runtime condition (OOM) where the operating system or runtime engine terminates an application process because no free RAM is available.",
-    "taWord": "நினைவக பற்றாக்குறை முடக்கம்",
-    "enExample": "A hidden memory leak in our image processing pipeline caused the background container to get killed with an OOM error.",
-    "taExample": "நினைவகத்தில் தரவு தேங்கியதால் சர்வரில் போதுமான RAM இல்லாமல் பயன்பாடு OOM பிழையுடன் முடங்கியது.",
-    "synonyms": [
-      "OOM killer",
-      "memory exhaustion",
-      "heap overflow"
-    ],
-    "antonyms": [
-      "stable footprint",
-      "bounded memory pool"
+      "Neglect",
+      "Patch job",
+      "Superficial fix",
+      "Abandonment"
     ]
   }
 ]

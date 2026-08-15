@@ -1,5 +1,23 @@
 [
   {
+    "id": 2216,
+    "word": "Vacillate",
+    "definition": "Alternate or waver between different opinions or actions; be indecisive.",
+    "enExample": "I had for a time vacillated between teaching and journalism.",
+    "taExample": "கற்பித்தல் மற்றும் இதழியலுக்கு இடையே நான் சில காலம் ஊசலாடினேன்.",
+    "taWord": "ஊசலாடு",
+    "pos": "verb",
+    "synonyms": [
+      "Dither",
+      "Be indecisive",
+      "Waver"
+    ],
+    "antonyms": [
+      "Resolute",
+      "Decide"
+    ]
+  },
+  {
     "id": 2201,
     "word": "Validation",
     "definition": "Verifying input data to ensure it adheres to specified formats, constraints, and business rules before processing.",
@@ -15,6 +33,40 @@
     "antonyms": [
       "Invalidation",
       "Corruption"
+    ]
+  },
+  {
+    "id": 2213,
+    "word": "Value Object",
+    "definition": "A small immutable object in domain-driven design whose equality is determined by its values rather than identity.",
+    "enExample": "Money with currency and amount is a classic value object pattern.",
+    "taExample": "நாணயம் மற்றும் தொகையைக் கொண்ட பணம் ஒரு உன்னதமான மதிப்பு ஆப்ஜெக்ட் (Value object) வடிவமாகும்.",
+    "taWord": "மதிப்பு ஆப்ஜெக்ட் (Value Object)",
+    "pos": "noun",
+    "synonyms": [
+      "Immutable struct",
+      "Value type"
+    ],
+    "antonyms": [
+      "Entity"
+    ]
+  },
+  {
+    "id": 2656,
+    "word": "Value proposition",
+    "definition": "A statement outlining the unique benefit and core value a product or feature delivers to customers.",
+    "enExample": "The BSA refined the value proposition so enterprise clients understand the ROI of our automated billing.",
+    "taExample": "பெருநிறுவன வாடிக்கையாளர்கள் எங்கள் தானியங்கி பில்லிங் அமைப்பின் பயனைப் புரிந்துகொள்ளும் வகையில் வணிக ஆய்வாளர் மதிப்பு முன்மொழிவைச் செம்மைப்படுத்தினார்.",
+    "taWord": "மதிப்பு முன்மொழிவு",
+    "pos": "noun",
+    "synonyms": [
+      "Core benefit",
+      "Unique selling point",
+      "Value promise"
+    ],
+    "antonyms": [
+      "Commodity",
+      "Generic pitch"
     ]
   },
   {
@@ -53,6 +105,40 @@
     ]
   },
   {
+    "id": 2214,
+    "word": "Vector Database",
+    "definition": "A specialized database designed to store, index, and query high-dimensional vector embeddings for AI similarity search.",
+    "enExample": "Pinecone and Qdrant are vector databases used for RAG application retrieval.",
+    "taExample": "Pinecone மற்றும் Qdrant ஆகியவை AI ஒற்றுமை தேடலுக்குப் பயன்படுத்தப்படும் திசையன் தரவுத்தளங்கள் (Vector databases) ஆகும்.",
+    "taWord": "திசையன் தரவுத்தளம் (Vector DB)",
+    "pos": "noun",
+    "synonyms": [
+      "Embedding database",
+      "Similarity store"
+    ],
+    "antonyms": [
+      "Relational database"
+    ]
+  },
+  {
+    "id": 2676,
+    "word": "Velocity",
+    "definition": "The amount of work (in story points or tickets) an agile team consistently completes per sprint.",
+    "enExample": "Our team velocity stabilized at forty story points after three sprints of working together.",
+    "taExample": "மூன்று ஸ்பிரிண்ட்டுகள் ஒன்றாகப் பணியாற்றிய பிறகு, எங்கள் குழுவின் பணி வேக அளவு நாற்பது புள்ளிகளாக நிலைபெற்றது.",
+    "taWord": "குழுவின் பணி வேக அளவு",
+    "pos": "noun",
+    "synonyms": [
+      "Capacity",
+      "Throughput rate",
+      "Pace"
+    ],
+    "antonyms": [
+      "Stagnation",
+      "Sluggishness"
+    ]
+  },
+  {
     "id": 2204,
     "word": "Vendor",
     "definition": "An external third-party provider or directory housing compiled dependency packages and binaries.",
@@ -71,6 +157,24 @@
     ]
   },
   {
+    "id": 2217,
+    "word": "Venerate",
+    "definition": "Regard with great respect; revere.",
+    "enExample": "Mother Teresa is venerated as a saint.",
+    "taExample": "அன்னை தெரசா ஒரு புனிதராக மதிக்கப்படுகிறார்.",
+    "taWord": "மதி",
+    "pos": "verb",
+    "synonyms": [
+      "Revere",
+      "Respect",
+      "Worship"
+    ],
+    "antonyms": [
+      "Despise",
+      "Disrespect"
+    ]
+  },
+  {
     "id": 2205,
     "word": "Versioning",
     "definition": "Assigning unique release numbers or commit hashes to track software evolution over time.",
@@ -82,6 +186,22 @@
       "Revisioning",
       "SemVer",
       "Tagging"
+    ]
+  },
+  {
+    "id": 2638,
+    "word": "Vibe check",
+    "definition": "An assessment of a person's, team's, or situation's general mood, energy, or cultural alignment.",
+    "enExample": "Let's do a quick vibe check at the start of the sprint retrospective to see how everyone feels.",
+    "taExample": "ஸ்பிரிண்ட் மறுஆய்வுக் கூட்டத்தின் தொடக்கத்தில் அனைவரின் மனநிலையையும் உற்சாகத்தையும் சுருக்கமாக அறிந்துகொள்வோம்.",
+    "taWord": "மனநிலை மற்றும் சூழல் பரிசோதனை",
+    "pos": "noun",
+    "synonyms": [
+      "Mood evaluation",
+      "Atmosphere check"
+    ],
+    "antonyms": [
+      "Indifference"
     ]
   },
   {
@@ -117,6 +237,39 @@
     ]
   },
   {
+    "id": 2209,
+    "word": "Virtual DOM",
+    "definition": "An in-memory lightweight tree representation of the actual browser DOM used by UI frameworks for batch diffing.",
+    "enExample": "React calculates minimal real DOM patches by diffing two Virtual DOM trees.",
+    "taExample": "இரண்டு மெய்நிகர் DOM (Virtual DOM) மரங்களை ஒப்பிடுவதன் மூலம் ரியாக்ட் குறைந்தபட்ச உண்மையான DOM புதுப்பிப்புகளைக் கணக்கிடுகிறது.",
+    "taWord": "மெய்நிகர் DOM (Virtual DOM)",
+    "pos": "noun",
+    "synonyms": [
+      "In-memory DOM",
+      "Shadow DOM"
+    ],
+    "antonyms": [
+      "Real DOM"
+    ]
+  },
+  {
+    "id": 2215,
+    "word": "Virtual Machine",
+    "definition": "An emulation of a computer system providing hardware functionality and operating system isolation.",
+    "enExample": "Cloud providers run guest operating systems inside hypervisor-managed virtual machines.",
+    "taExample": "கிளவுட் வழங்குநர்கள் ஹைப்பர்வைசர் நிர்வகிக்கும் மெய்நிகர் இயந்திரங்களுக்குள் (Virtual machines) விருந்தினர் இயக்க முறைமைகளை இயக்குகிறார்கள்.",
+    "taWord": "மெய்நிகர் கணினி (Virtual Machine)",
+    "pos": "noun",
+    "synonyms": [
+      "VM",
+      "Guest OS",
+      "Emulator"
+    ],
+    "antonyms": [
+      "Bare-metal server"
+    ]
+  },
+  {
     "id": 2208,
     "word": "Virtualization",
     "definition": "Creating virtual instances of hardware resources, operating systems, or rendering windows.",
@@ -135,22 +288,6 @@
     ]
   },
   {
-    "id": 2209,
-    "word": "Virtual DOM",
-    "definition": "An in-memory lightweight tree representation of the actual browser DOM used by UI frameworks for batch diffing.",
-    "enExample": "React calculates minimal real DOM patches by diffing two Virtual DOM trees.",
-    "taExample": "இரண்டு மெய்நிகர் DOM (Virtual DOM) மரங்களை ஒப்பிடுவதன் மூலம் ரியாக்ட் குறைந்தபட்ச உண்மையான DOM புதுப்பிப்புகளைக் கணக்கிடுகிறது.",
-    "taWord": "மெய்நிகர் DOM (Virtual DOM)",
-    "pos": "noun",
-    "synonyms": [
-      "In-memory DOM",
-      "Shadow DOM"
-    ],
-    "antonyms": [
-      "Real DOM"
-    ]
-  },
-  {
     "id": 2210,
     "word": "Visibility",
     "definition": "The property defining whether an element is visible, hidden, or accessible within a specified scope.",
@@ -166,6 +303,24 @@
     "antonyms": [
       "Invisibility",
       "Opacity"
+    ]
+  },
+  {
+    "id": 2218,
+    "word": "Vociferous",
+    "definition": "(especially of a person or speech) vehement or clamorous.",
+    "enExample": "He was a vociferous opponent of the takeover.",
+    "taExample": "அவர் கையகப்படுத்துதலின் சத்தமாக வெளிப்படுத்தும் எதிர்ப்பாளராக இருந்தார்.",
+    "taWord": "சத்தமாக வெளிப்படுத்தும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Loud",
+      "Vocal",
+      "Outspoken"
+    ],
+    "antonyms": [
+      "Silent",
+      "Quiet"
     ]
   },
   {
@@ -203,161 +358,6 @@
     ]
   },
   {
-    "id": 2213,
-    "word": "Value Object",
-    "definition": "A small immutable object in domain-driven design whose equality is determined by its values rather than identity.",
-    "enExample": "Money with currency and amount is a classic value object pattern.",
-    "taExample": "நாணயம் மற்றும் தொகையைக் கொண்ட பணம் ஒரு உன்னதமான மதிப்பு ஆப்ஜெக்ட் (Value object) வடிவமாகும்.",
-    "taWord": "மதிப்பு ஆப்ஜெக்ட் (Value Object)",
-    "pos": "noun",
-    "synonyms": [
-      "Immutable struct",
-      "Value type"
-    ],
-    "antonyms": [
-      "Entity"
-    ]
-  },
-  {
-    "id": 2214,
-    "word": "Vector Database",
-    "definition": "A specialized database designed to store, index, and query high-dimensional vector embeddings for AI similarity search.",
-    "enExample": "Pinecone and Qdrant are vector databases used for RAG application retrieval.",
-    "taExample": "Pinecone மற்றும் Qdrant ஆகியவை AI ஒற்றுமை தேடலுக்குப் பயன்படுத்தப்படும் திசையன் தரவுத்தளங்கள் (Vector databases) ஆகும்.",
-    "taWord": "திசையன் தரவுத்தளம் (Vector DB)",
-    "pos": "noun",
-    "synonyms": [
-      "Embedding database",
-      "Similarity store"
-    ],
-    "antonyms": [
-      "Relational database"
-    ]
-  },
-  {
-    "id": 2215,
-    "word": "Virtual Machine",
-    "definition": "An emulation of a computer system providing hardware functionality and operating system isolation.",
-    "enExample": "Cloud providers run guest operating systems inside hypervisor-managed virtual machines.",
-    "taExample": "கிளவுட் வழங்குநர்கள் ஹைப்பர்வைசர் நிர்வகிக்கும் மெய்நிகர் இயந்திரங்களுக்குள் (Virtual machines) விருந்தினர் இயக்க முறைமைகளை இயக்குகிறார்கள்.",
-    "taWord": "மெய்நிகர் கணினி (Virtual Machine)",
-    "pos": "noun",
-    "synonyms": [
-      "VM",
-      "Guest OS",
-      "Emulator"
-    ],
-    "antonyms": [
-      "Bare-metal server"
-    ]
-  },
-  {
-    "id": 2216,
-    "word": "Vacillate",
-    "definition": "Alternate or waver between different opinions or actions; be indecisive.",
-    "enExample": "I had for a time vacillated between teaching and journalism.",
-    "taExample": "கற்பித்தல் மற்றும் இதழியலுக்கு இடையே நான் சில காலம் ஊசலாடினேன்.",
-    "taWord": "ஊசலாடு",
-    "pos": "verb",
-    "synonyms": [
-      "Dither",
-      "Be indecisive",
-      "Waver"
-    ],
-    "antonyms": [
-      "Resolute",
-      "Decide"
-    ]
-  },
-  {
-    "id": 2217,
-    "word": "Venerate",
-    "definition": "Regard with great respect; revere.",
-    "enExample": "Mother Teresa is venerated as a saint.",
-    "taExample": "அன்னை தெரசா ஒரு புனிதராக மதிக்கப்படுகிறார்.",
-    "taWord": "மதி",
-    "pos": "verb",
-    "synonyms": [
-      "Revere",
-      "Respect",
-      "Worship"
-    ],
-    "antonyms": [
-      "Despise",
-      "Disrespect"
-    ]
-  },
-  {
-    "id": 2218,
-    "word": "Vociferous",
-    "definition": "(especially of a person or speech) vehement or clamorous.",
-    "enExample": "He was a vociferous opponent of the takeover.",
-    "taExample": "அவர் கையகப்படுத்துதலின் சத்தமாக வெளிப்படுத்தும் எதிர்ப்பாளராக இருந்தார்.",
-    "taWord": "சத்தமாக வெளிப்படுத்தும்",
-    "pos": "adj.",
-    "synonyms": [
-      "Loud",
-      "Vocal",
-      "Outspoken"
-    ],
-    "antonyms": [
-      "Silent",
-      "Quiet"
-    ]
-  },
-  {
-    "id": 2638,
-    "word": "Vibe check",
-    "definition": "An assessment of a person's, team's, or situation's general mood, energy, or cultural alignment.",
-    "enExample": "Let's do a quick vibe check at the start of the sprint retrospective to see how everyone feels.",
-    "taExample": "ஸ்பிரிண்ட் மறுஆய்வுக் கூட்டத்தின் தொடக்கத்தில் அனைவரின் மனநிலையையும் உற்சாகத்தையும் சுருக்கமாக அறிந்துகொள்வோம்.",
-    "taWord": "மனநிலை மற்றும் சூழல் பரிசோதனை",
-    "pos": "noun",
-    "synonyms": [
-      "Mood evaluation",
-      "Atmosphere check"
-    ],
-    "antonyms": [
-      "Indifference"
-    ]
-  },
-  {
-    "id": 2656,
-    "word": "Value proposition",
-    "definition": "A statement outlining the unique benefit and core value a product or feature delivers to customers.",
-    "enExample": "The BSA refined the value proposition so enterprise clients understand the ROI of our automated billing.",
-    "taExample": "பெருநிறுவன வாடிக்கையாளர்கள் எங்கள் தானியங்கி பில்லிங் அமைப்பின் பயனைப் புரிந்துகொள்ளும் வகையில் வணிக ஆய்வாளர் மதிப்பு முன்மொழிவைச் செம்மைப்படுத்தினார்.",
-    "taWord": "மதிப்பு முன்மொழிவு",
-    "pos": "noun",
-    "synonyms": [
-      "Core benefit",
-      "Unique selling point",
-      "Value promise"
-    ],
-    "antonyms": [
-      "Commodity",
-      "Generic pitch"
-    ]
-  },
-  {
-    "id": 2676,
-    "word": "Velocity",
-    "definition": "The amount of work (in story points or tickets) an agile team consistently completes per sprint.",
-    "enExample": "Our team velocity stabilized at forty story points after three sprints of working together.",
-    "taExample": "மூன்று ஸ்பிரிண்ட்டுகள் ஒன்றாகப் பணியாற்றிய பிறகு, எங்கள் குழுவின் பணி வேக அளவு நாற்பது புள்ளிகளாக நிலைபெற்றது.",
-    "taWord": "குழுவின் பணி வேக அளவு",
-    "pos": "noun",
-    "synonyms": [
-      "Capacity",
-      "Throughput rate",
-      "Pace"
-    ],
-    "antonyms": [
-      "Stagnation",
-      "Sluggishness"
-    ]
-  },
-  {
     "id": 2747,
     "word": "Vulnerability Assessment",
     "pos": "noun",
@@ -373,6 +373,87 @@
     "antonyms": [
       "unverified deployment",
       "security ignorance"
+    ]
+  },
+  {
+    "id": 2827,
+    "word": "Vulnerability Scanning",
+    "pos": "noun",
+    "definition": "Automated scanning of code repositories, third-party dependencies, and container images to identify published security vulnerabilities (CVEs).",
+    "enExample": "Nightly vulnerability scanning alerted the infrastructure team to an outdated OpenSSL library with a critical CVSS score.",
+    "taWord": "பாதுகாப்பு ஓட்டை கண்டறிதல்",
+    "taExample": "நிரலிலும் பயன்படுத்தப்படும் நூலகங்களிலும் உள்ள பாதுகாப்பு குறைபாடுகளை தானாக சோதித்து கண்டறியும் முறை.",
+    "synonyms": [
+      "CVE scanning",
+      "Dependency audit",
+      "Security audit"
+    ],
+    "antonyms": [
+      "Unchecked dependencies",
+      "Blind deployment"
+    ]
+  },
+  {
+    "id": 2928,
+    "word": "Vexing",
+    "pos": "adj.",
+    "definition": "Causing persistent frustration, worry, distress, or difficult confusion.",
+    "enExample": "Curbing youth unemployment remains the most vexing challenge facing the economic advisory council.",
+    "taWord": "மன உளைச்சலளிக்கும் / மிகுந்த சிரமமளிக்கும்",
+    "taExample": "இளைஞர்களுக்கான வேலைவாய்ப்பை உருவாக்குவது அரசுக்கு தீர்க்க முடியாத பெரும் சவாலாக உள்ளது.",
+    "synonyms": [
+      "Frustrating",
+      "Troublesome",
+      "Perplexing",
+      "Irksome"
+    ],
+    "antonyms": [
+      "Pleasing",
+      "Straightforward",
+      "Soothing",
+      "Comforting"
+    ]
+  },
+  {
+    "id": 2929,
+    "word": "Vindicate",
+    "pos": "verb",
+    "definition": "To clear someone of blame or suspicion; or to prove a disputed policy or forecast to be entirely right.",
+    "enExample": "The successful clinical trial results served to fully vindicate the chief scientist's unconventional hypothesis.",
+    "taWord": "சரியானது என நிரூபித்தல் / குற்றமற்றவர் என நிரூபித்தல்",
+    "taExample": "சோதனை முடிவுகள் சாதகமாக அமைந்ததன் மூலம் விஞ்ஞானியின் கூற்று முற்றிலும் சரியானது என்பது நிரூபணமானது.",
+    "synonyms": [
+      "Exonerate",
+      "Absolve",
+      "Justify",
+      "Validate"
+    ],
+    "antonyms": [
+      "Condemn",
+      "Incriminate",
+      "Disprove",
+      "Refute"
+    ]
+  },
+  {
+    "id": 2930,
+    "word": "Volatility",
+    "pos": "noun",
+    "definition": "The liability to change rapidly and unpredictably, especially for the worse in geopolitical or stock markets.",
+    "enExample": "Geopolitical tensions in the strait caused severe volatility in global crude oil prices.",
+    "taWord": "நிலையற்ற தன்மை / அதிரடி ஏற்ற இறக்க நிலை",
+    "taExample": "எல்லைப் பதற்றம் காரணமாக உலக சந்தையில் கச்சா எண்ணெய் விலையில் கடும் நிலையற்ற தன்மை நிலவியது.",
+    "synonyms": [
+      "Instability",
+      "Turbulence",
+      "Unpredictability",
+      "Fluctuation"
+    ],
+    "antonyms": [
+      "Stability",
+      "Constancy",
+      "Steadiness",
+      "Equilibrium"
     ]
   }
 ]

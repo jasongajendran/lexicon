@@ -17,6 +17,24 @@
     ]
   },
   {
+    "id": 626,
+    "word": "Facetious",
+    "definition": "Treating serious issues with deliberately inappropriate humor.",
+    "enExample": "A facetious remark.",
+    "taExample": "ஒரு வேடிக்கையான கருத்து.",
+    "taWord": "வேடிக்கையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Flippant",
+      "Glib",
+      "Tongue-in-cheek"
+    ],
+    "antonyms": [
+      "Serious",
+      "Solemn"
+    ]
+  },
+  {
     "id": 602,
     "word": "Facilitate",
     "definition": "Make (an action or process) easy or easier.",
@@ -34,6 +52,37 @@
     ]
   },
   {
+    "id": 629,
+    "word": "Factor",
+    "definition": "A fact or condition that contributes to a particular result or decision.",
+    "enExample": "Latency is a critical factor when choosing a cloud region.",
+    "taExample": "கிளவுட் பிராந்தியத்தைத் தேர்ந்தெடுக்கும்போது தாமதம் ஒரு முக்கிய காரணியாகும்.",
+    "taWord": "காரணி",
+    "pos": "noun",
+    "synonyms": [
+      "Element",
+      "Component"
+    ]
+  },
+  {
+    "id": 627,
+    "word": "Fallacious",
+    "definition": "Based on a mistaken belief.",
+    "enExample": "Fallacious arguments.",
+    "taExample": "தவறான வாதங்கள்.",
+    "taWord": "தவறான",
+    "pos": "adj.",
+    "synonyms": [
+      "False",
+      "Untrue",
+      "Wrong"
+    ],
+    "antonyms": [
+      "True",
+      "Correct"
+    ]
+  },
+  {
     "id": 603,
     "word": "Fallback",
     "definition": "An alternative plan that may be used in an emergency.",
@@ -47,6 +96,24 @@
     ],
     "antonyms": [
       "Primary"
+    ]
+  },
+  {
+    "id": 628,
+    "word": "Fastidious",
+    "definition": "Very attentive to and concerned about accuracy and detail.",
+    "enExample": "He chooses his words with fastidious care.",
+    "taExample": "அவர் தனது வார்த்தைகளை மிகவும் நேர்த்தியான கவனத்துடன் தேர்ந்தெடுக்கிறார்.",
+    "taWord": "நேர்த்தியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Scrupulous",
+      "Punctilious",
+      "Meticulous"
+    ],
+    "antonyms": [
+      "Careless",
+      "Sloppy"
     ]
   },
   {
@@ -100,6 +167,19 @@
     ]
   },
   {
+    "id": 638,
+    "word": "Feedback",
+    "definition": "Information about reactions or performance used as a basis for improvement.",
+    "enExample": "Constructive feedback during pull requests helps junior developers grow.",
+    "taExample": "புல் கோரிக்கைகளின் போது ஆக்கபூர்வமான பின்னூட்டம் இளநிலை டெவலப்பர்கள் வளர உதவுகிறது.",
+    "taWord": "பின்னூட்டம்",
+    "pos": "noun",
+    "synonyms": [
+      "Reaction",
+      "Response"
+    ]
+  },
+  {
     "id": 607,
     "word": "Fetch",
     "definition": "Go for and then bring back (someone or something).",
@@ -117,6 +197,23 @@
     ]
   },
   {
+    "id": 2783,
+    "word": "Few-Shot Prompting",
+    "pos": "noun",
+    "definition": "A prompting strategy providing an AI model with two or three contextual examples in the prompt to guide output schema and tone.",
+    "enExample": "Providing three few-shot prompting examples eliminated formatting errors in the generated CSV output.",
+    "taWord": "மாதிரி உதாரணங்களுடன் வழிகாட்டல்",
+    "taExample": "விரும்பிய பதிலை சரியாகப் பெற சில உதாரணங்களை முன்னதாகவே மாதிரிக்குக் கொடுக்கும் முறை.",
+    "synonyms": [
+      "In-context example prompting",
+      "Exemplar-based prompting"
+    ],
+    "antonyms": [
+      "Zero-shot prompting",
+      "Blind prompting"
+    ]
+  },
+  {
     "id": 608,
     "word": "Filter",
     "definition": "Process or assess items in order to reject those that are unwanted.",
@@ -131,6 +228,24 @@
     "antonyms": [
       "Combine",
       "Include"
+    ]
+  },
+  {
+    "id": 2781,
+    "word": "Fine-Tuning",
+    "pos": "noun",
+    "definition": "The machine learning process of adjusting pre-trained model weights by training on a specialized, high-quality domain dataset.",
+    "enExample": "We performed fine-tuning on twenty thousand proprietary medical transcripts to improve diagnostic terminology classification.",
+    "taWord": "துல்லிய சீரமைப்பு",
+    "taExample": "ஏற்கனவே பயிற்சி பெற்ற மாதிரியை குறிப்பிட்ட துறை சார்ந்த தரவுகளைக் கொண்டு மேலும் மெருகேற்றுதல்.",
+    "synonyms": [
+      "Weight adjustment",
+      "Domain adaptation",
+      "Supervised fine-tuning"
+    ],
+    "antonyms": [
+      "Pre-training from scratch",
+      "Zero-shot inference"
     ]
   },
   {
@@ -167,6 +282,41 @@
     ]
   },
   {
+    "id": 2634,
+    "word": "Flex",
+    "definition": "To show off, boast, or demonstrate skills, wealth, or technical prowess.",
+    "enExample": "Writing a custom compiler in Rust just for a weekend hackathon is a huge technical flex.",
+    "taExample": "வார இறுதி ஹேக்கத்தானுக்காக ரஸ்ட் மொழியில் தனிப்பயன் கம்பைலரை உருவாக்குவது ஒரு மிகப்பெரிய தொழில்நுட்பத் திறமை வெளிப்பாடு.",
+    "taWord": "திறமையை பெருமையுடன் வெளிப்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Show off",
+      "Flaunt",
+      "Boast"
+    ],
+    "antonyms": [
+      "Downplay",
+      "Conceal"
+    ]
+  },
+  {
+    "id": 630,
+    "word": "Flexible",
+    "definition": "Capable of modifying to respond to altered circumstances or conditions.",
+    "enExample": "The design system provides flexible components for different screen sizes.",
+    "taExample": "வடிவமைப்பு அமைப்பு வெவ்வேறு திரை அளவுகளுக்கு நெகிழ்வான கூறுகளை வழங்குகிறது.",
+    "taWord": "நெகிழ்வான",
+    "pos": "adj.",
+    "synonyms": [
+      "Adaptable",
+      "Versatile"
+    ],
+    "antonyms": [
+      "Rigid",
+      "Inflexible"
+    ]
+  },
+  {
     "id": 611,
     "word": "Flush",
     "definition": "Cleanse (something) by passing large quantities of liquid through it; clear a buffer.",
@@ -181,6 +331,39 @@
     "antonyms": [
       "Store",
       "Retain"
+    ]
+  },
+  {
+    "id": 2662,
+    "word": "Flywheel",
+    "definition": "A self-reinforcing business or system cycle where each victory builds compounding momentum for the next.",
+    "enExample": "Faster deployment cycles create a developer flywheel that accelerates feature delivery.",
+    "taExample": "வேகமான வெளியீட்டு சுழற்சிகள் டெவலப்பர்களுக்கு தொடர் உந்துதலை உருவாக்கி புதிய அம்சங்களின் விநியோகத்தை விரைவுபடுத்துகிறது.",
+    "taWord": "சுய-உந்துதல் சுழற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Compounding momentum",
+      "Virtuous cycle"
+    ],
+    "antonyms": [
+      "Vicious cycle",
+      "Stagnation"
+    ]
+  },
+  {
+    "id": 631,
+    "word": "Focus",
+    "definition": "The main center of interest, attention, or activity.",
+    "enExample": "Our immediate focus is resolving the memory leak before release.",
+    "taExample": "வெளியீட்டிற்கு முன் நினைவக கசிவை தீர்ப்பதே நமது உடனடி கவனமாகும்.",
+    "taWord": "கவனம் / மையம்",
+    "pos": "noun",
+    "synonyms": [
+      "Emphasis",
+      "Priority"
+    ],
+    "antonyms": [
+      "Distraction"
     ]
   },
   {
@@ -230,6 +413,23 @@
     ]
   },
   {
+    "id": 632,
+    "word": "Formal",
+    "definition": "Done in accordance with established rules, procedures, or conventions.",
+    "enExample": "We conducted a formal security audit prior to launching.",
+    "taExample": "அறிமுகப்படுத்துவதற்கு முன் நாங்கள் ஒரு முறையான பாதுகாப்பு தணிக்கையை நடத்தினோம்.",
+    "taWord": "முறையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Official",
+      "Systematic"
+    ],
+    "antonyms": [
+      "Informal",
+      "Casual"
+    ]
+  },
+  {
     "id": 615,
     "word": "Format",
     "definition": "The way in which something is arranged or set out.",
@@ -240,6 +440,57 @@
     "synonyms": [
       "Layout",
       "Arrangement"
+    ]
+  },
+  {
+    "id": 633,
+    "word": "Formidable",
+    "definition": "Inspiring respect or awe through being impressively capable or powerful.",
+    "enExample": "She is a formidable architect who modernized our legacy platform.",
+    "taExample": "அவள் எங்கள் பழைய தளத்தை நவீனமாக்கிய ஒரு வல்லமைமிக்க வடிவமைப்பாளர்.",
+    "taWord": "வல்லமைமிக்க / அஞ்சத்தக்க",
+    "pos": "adj.",
+    "synonyms": [
+      "Impressive",
+      "Powerful"
+    ],
+    "antonyms": [
+      "Weak",
+      "Insignificant"
+    ]
+  },
+  {
+    "id": 625,
+    "word": "Formulate",
+    "definition": "Create or devise methodically.",
+    "enExample": "Formulate a plan for the next sprint.",
+    "taExample": "அடுத்த ஸ்பிரிண்டிற்கான திட்டத்தை வகுக்கவும்.",
+    "taWord": "வகுத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Devise",
+      "Develop"
+    ],
+    "antonyms": [
+      "Destroy",
+      "Ruined"
+    ]
+  },
+  {
+    "id": 634,
+    "word": "Foster",
+    "definition": "Encourage or promote the development or growth of something beneficial.",
+    "enExample": "Open feedback channels foster trust and continuous improvement.",
+    "taExample": "திறந்த கருத்து வழிகள் நம்பிக்கையையும் தொடர்ச்சியான மேம்பாட்டையும் வளர்க்கின்றன.",
+    "taWord": "வளர்த்தெடுத்தல் / ஊக்குவித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Encourage",
+      "Nurture"
+    ],
+    "antonyms": [
+      "Suppress",
+      "Discourage"
     ]
   },
   {
@@ -303,6 +554,54 @@
     ],
     "antonyms": [
       "Edge"
+    ]
+  },
+  {
+    "id": 635,
+    "word": "Fulfill",
+    "definition": "Achieve, satisfy, or carry out a requirement, promise, or goal.",
+    "enExample": "The updated API fulfills all user accessibility guidelines.",
+    "taExample": "புதுப்பிக்கப்பட்ட API அனைத்து பயனர் அணுகல் வழிகாட்டுதல்களையும் நிறைவேற்றுகிறது.",
+    "taWord": "நிறைவேற்றுதல் / பூர்த்தி செய்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Satisfy",
+      "Accomplish"
+    ],
+    "antonyms": [
+      "Fail",
+      "Neglect"
+    ]
+  },
+  {
+    "id": 636,
+    "word": "Function",
+    "definition": "The purpose or natural action of a person, mechanism, or software module.",
+    "enExample": "The core function of this module is data validation.",
+    "taExample": "இந்த தொகுதியின் முக்கிய செயல்பாடு தரவு சரிபார்ப்பு ஆகும்.",
+    "taWord": "செயல்பாடு / பணி",
+    "pos": "noun",
+    "synonyms": [
+      "Purpose",
+      "Role"
+    ]
+  },
+  {
+    "id": 2782,
+    "word": "Function Calling",
+    "pos": "noun",
+    "definition": "The capability of an LLM to generate structured JSON schema parameters enabling external APIs and databases to execute deterministically.",
+    "enExample": "Using function calling, the AI agent accurately invoked our currency conversion endpoint with structured parameters.",
+    "taWord": "கருவி அழைப்பு / நிரல் இணைப்பு",
+    "taExample": "செயற்கை நுண்ணறிவு மாதிரி பிற பயன்பாடுகளின் நிரல்களை இயக்கும் வகையில் தரவுகளை வழங்கும் முறை.",
+    "synonyms": [
+      "Tool use",
+      "Structured tool invocation",
+      "API triggering"
+    ],
+    "antonyms": [
+      "Pure conversational output",
+      "Unstructured text generation"
     ]
   },
   {
@@ -391,249 +690,44 @@
     ]
   },
   {
-    "id": 625,
-    "word": "Formulate",
-    "definition": "Create or devise methodically.",
-    "enExample": "Formulate a plan for the next sprint.",
-    "taExample": "அடுத்த ஸ்பிரிண்டிற்கான திட்டத்தை வகுக்கவும்.",
-    "taWord": "வகுத்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Devise",
-      "Develop"
-    ],
-    "antonyms": [
-      "Destroy",
-      "Ruined"
-    ]
-  },
-  {
-    "id": 626,
-    "word": "Facetious",
-    "definition": "Treating serious issues with deliberately inappropriate humor.",
-    "enExample": "A facetious remark.",
-    "taExample": "ஒரு வேடிக்கையான கருத்து.",
-    "taWord": "வேடிக்கையான",
-    "pos": "adj.",
-    "synonyms": [
-      "Flippant",
-      "Glib",
-      "Tongue-in-cheek"
-    ],
-    "antonyms": [
-      "Serious",
-      "Solemn"
-    ]
-  },
-  {
-    "id": 627,
-    "word": "Fallacious",
-    "definition": "Based on a mistaken belief.",
-    "enExample": "Fallacious arguments.",
-    "taExample": "தவறான வாதங்கள்.",
-    "taWord": "தவறான",
-    "pos": "adj.",
-    "synonyms": [
-      "False",
-      "Untrue",
-      "Wrong"
-    ],
-    "antonyms": [
-      "True",
-      "Correct"
-    ]
-  },
-  {
-    "id": 628,
-    "word": "Fastidious",
-    "definition": "Very attentive to and concerned about accuracy and detail.",
-    "enExample": "He chooses his words with fastidious care.",
-    "taExample": "அவர் தனது வார்த்தைகளை மிகவும் நேர்த்தியான கவனத்துடன் தேர்ந்தெடுக்கிறார்.",
-    "taWord": "நேர்த்தியான",
-    "pos": "adj.",
-    "synonyms": [
-      "Scrupulous",
-      "Punctilious",
-      "Meticulous"
-    ],
-    "antonyms": [
-      "Careless",
-      "Sloppy"
-    ]
-  },
-  {
-    "id": 629,
-    "word": "Factor",
-    "definition": "A fact or condition that contributes to a particular result or decision.",
-    "enExample": "Latency is a critical factor when choosing a cloud region.",
-    "taExample": "கிளவுட் பிராந்தியத்தைத் தேர்ந்தெடுக்கும்போது தாமதம் ஒரு முக்கிய காரணியாகும்.",
-    "taWord": "காரணி",
+    "id": 2866,
+    "word": "Fallout",
     "pos": "noun",
+    "definition": "The unexpected and adverse secondary consequences resulting from a major scandal, disaster, or policy.",
+    "enExample": "The political fallout from the leaked cabinet audio led to the resignation of three senior ministers.",
+    "taWord": "பின்னடைவு விளைவுகள் / எதிர்விளைவுகள்",
+    "taExample": "ரகசிய ஆடியோ கசிந்ததன் விளைவாக ஏற்பட்ட அரசியல் கொந்தளிப்பால் மூன்று அமைச்சர்கள் பதவி விலகினர்.",
     "synonyms": [
-      "Element",
-      "Component"
+      "Aftermath",
+      "Repercussions",
+      "Backlash",
+      "Consequences"
+    ],
+    "antonyms": [
+      "Antecedent",
+      "Precursor",
+      "Direct cause"
     ]
   },
   {
-    "id": 630,
-    "word": "Flexible",
-    "definition": "Capable of modifying to respond to altered circumstances or conditions.",
-    "enExample": "The design system provides flexible components for different screen sizes.",
-    "taExample": "வடிவமைப்பு அமைப்பு வெவ்வேறு திரை அளவுகளுக்கு நெகிழ்வான கூறுகளை வழங்குகிறது.",
-    "taWord": "நெகிழ்வான",
+    "id": 2867,
+    "word": "Fractious",
     "pos": "adj.",
+    "definition": "Irritable, quarrelsome, and difficult to keep united, especially within a governing coalition or political party.",
+    "enExample": "After months of infighting, the fractious ruling coalition failed to agree on the national healthcare reforms.",
+    "taWord": "பிளவடைந்த / சண்டையிடும்",
+    "taExample": "உள் முரண்பாடுகளால் பிளவடைந்த ஆளுங்கட்சி கூட்டணி புதிய மருத்துவக் கொள்கையில் உடன்பட முடியாமல் திணறியது.",
     "synonyms": [
-      "Adaptable",
-      "Versatile"
+      "Divisive",
+      "Quarrelsome",
+      "Contentious",
+      "Unruly"
     ],
     "antonyms": [
-      "Rigid",
-      "Inflexible"
-    ]
-  },
-  {
-    "id": 631,
-    "word": "Focus",
-    "definition": "The main center of interest, attention, or activity.",
-    "enExample": "Our immediate focus is resolving the memory leak before release.",
-    "taExample": "வெளியீட்டிற்கு முன் நினைவக கசிவை தீர்ப்பதே நமது உடனடி கவனமாகும்.",
-    "taWord": "கவனம் / மையம்",
-    "pos": "noun",
-    "synonyms": [
-      "Emphasis",
-      "Priority"
-    ],
-    "antonyms": [
-      "Distraction"
-    ]
-  },
-  {
-    "id": 632,
-    "word": "Formal",
-    "definition": "Done in accordance with established rules, procedures, or conventions.",
-    "enExample": "We conducted a formal security audit prior to launching.",
-    "taExample": "அறிமுகப்படுத்துவதற்கு முன் நாங்கள் ஒரு முறையான பாதுகாப்பு தணிக்கையை நடத்தினோம்.",
-    "taWord": "முறையான",
-    "pos": "adj.",
-    "synonyms": [
-      "Official",
-      "Systematic"
-    ],
-    "antonyms": [
-      "Informal",
-      "Casual"
-    ]
-  },
-  {
-    "id": 633,
-    "word": "Formidable",
-    "definition": "Inspiring respect or awe through being impressively capable or powerful.",
-    "enExample": "She is a formidable architect who modernized our legacy platform.",
-    "taExample": "அவள் எங்கள் பழைய தளத்தை நவீனமாக்கிய ஒரு வல்லமைமிக்க வடிவமைப்பாளர்.",
-    "taWord": "வல்லமைமிக்க / அஞ்சத்தக்க",
-    "pos": "adj.",
-    "synonyms": [
-      "Impressive",
-      "Powerful"
-    ],
-    "antonyms": [
-      "Weak",
-      "Insignificant"
-    ]
-  },
-  {
-    "id": 634,
-    "word": "Foster",
-    "definition": "Encourage or promote the development or growth of something beneficial.",
-    "enExample": "Open feedback channels foster trust and continuous improvement.",
-    "taExample": "திறந்த கருத்து வழிகள் நம்பிக்கையையும் தொடர்ச்சியான மேம்பாட்டையும் வளர்க்கின்றன.",
-    "taWord": "வளர்த்தெடுத்தல் / ஊக்குவித்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Encourage",
-      "Nurture"
-    ],
-    "antonyms": [
-      "Suppress",
-      "Discourage"
-    ]
-  },
-  {
-    "id": 635,
-    "word": "Fulfill",
-    "definition": "Achieve, satisfy, or carry out a requirement, promise, or goal.",
-    "enExample": "The updated API fulfills all user accessibility guidelines.",
-    "taExample": "புதுப்பிக்கப்பட்ட API அனைத்து பயனர் அணுகல் வழிகாட்டுதல்களையும் நிறைவேற்றுகிறது.",
-    "taWord": "நிறைவேற்றுதல் / பூர்த்தி செய்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Satisfy",
-      "Accomplish"
-    ],
-    "antonyms": [
-      "Fail",
-      "Neglect"
-    ]
-  },
-  {
-    "id": 636,
-    "word": "Function",
-    "definition": "The purpose or natural action of a person, mechanism, or software module.",
-    "enExample": "The core function of this module is data validation.",
-    "taExample": "இந்த தொகுதியின் முக்கிய செயல்பாடு தரவு சரிபார்ப்பு ஆகும்.",
-    "taWord": "செயல்பாடு / பணி",
-    "pos": "noun",
-    "synonyms": [
-      "Purpose",
-      "Role"
-    ]
-  },
-  {
-    "id": 638,
-    "word": "Feedback",
-    "definition": "Information about reactions or performance used as a basis for improvement.",
-    "enExample": "Constructive feedback during pull requests helps junior developers grow.",
-    "taExample": "புல் கோரிக்கைகளின் போது ஆக்கபூர்வமான பின்னூட்டம் இளநிலை டெவலப்பர்கள் வளர உதவுகிறது.",
-    "taWord": "பின்னூட்டம்",
-    "pos": "noun",
-    "synonyms": [
-      "Reaction",
-      "Response"
-    ]
-  },
-  {
-    "id": 2634,
-    "word": "Flex",
-    "definition": "To show off, boast, or demonstrate skills, wealth, or technical prowess.",
-    "enExample": "Writing a custom compiler in Rust just for a weekend hackathon is a huge technical flex.",
-    "taExample": "வார இறுதி ஹேக்கத்தானுக்காக ரஸ்ட் மொழியில் தனிப்பயன் கம்பைலரை உருவாக்குவது ஒரு மிகப்பெரிய தொழில்நுட்பத் திறமை வெளிப்பாடு.",
-    "taWord": "திறமையை பெருமையுடன் வெளிப்படுத்துதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Show off",
-      "Flaunt",
-      "Boast"
-    ],
-    "antonyms": [
-      "Downplay",
-      "Conceal"
-    ]
-  },
-  {
-    "id": 2662,
-    "word": "Flywheel",
-    "definition": "A self-reinforcing business or system cycle where each victory builds compounding momentum for the next.",
-    "enExample": "Faster deployment cycles create a developer flywheel that accelerates feature delivery.",
-    "taExample": "வேகமான வெளியீட்டு சுழற்சிகள் டெவலப்பர்களுக்கு தொடர் உந்துதலை உருவாக்கி புதிய அம்சங்களின் விநியோகத்தை விரைவுபடுத்துகிறது.",
-    "taWord": "சுய-உந்துதல் சுழற்சி",
-    "pos": "noun",
-    "synonyms": [
-      "Compounding momentum",
-      "Virtuous cycle"
-    ],
-    "antonyms": [
-      "Vicious cycle",
-      "Stagnation"
+      "Harmonious",
+      "United",
+      "Cooperative",
+      "Peaceable"
     ]
   }
 ]

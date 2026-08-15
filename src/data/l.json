@@ -14,6 +14,24 @@
     ]
   },
   {
+    "id": 1226,
+    "word": "Laconic",
+    "definition": "(of a person, speech, or style of writing) using very few words.",
+    "enExample": "His laconic reply suggested a lack of interest.",
+    "taExample": "அவரது சுருக்கமான பதில் ஆர்வமின்மையைக் காட்டியது.",
+    "taWord": "சுருக்கமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Brief",
+      "Concise",
+      "Terse"
+    ],
+    "antonyms": [
+      "Verbose",
+      "Loquacious"
+    ]
+  },
+  {
     "id": 1202,
     "word": "Lambda",
     "definition": "An anonymous function or a serverless cloud computing event handler.",
@@ -27,6 +45,24 @@
     ],
     "antonyms": [
       "Named function"
+    ]
+  },
+  {
+    "id": 1227,
+    "word": "Languid",
+    "definition": "Displaying or having a disinclination for physical exertion or effort; slow and relaxed.",
+    "enExample": "They turned with languid movements from back to front so as to tan evenly.",
+    "taExample": "சமமாக வெயில் படுவதற்கு அவர்கள் மெதுவாகவும் தளர்வாகவும் திரும்பினார்கள்.",
+    "taWord": "தளர்வான",
+    "pos": "adj.",
+    "synonyms": [
+      "Relaxed",
+      "Unhurried",
+      "Slow"
+    ],
+    "antonyms": [
+      "Energetic",
+      "Active"
     ]
   },
   {
@@ -44,6 +80,23 @@
     "antonyms": [
       "Throughput",
       "Speed"
+    ]
+  },
+  {
+    "id": 2796,
+    "word": "Latent Space",
+    "pos": "noun",
+    "definition": "A multidimensional mathematical space where an AI model maps underlying semantic properties, concepts, and relationships.",
+    "enExample": "In the image model's latent space, images of cats and lions are grouped in close mathematical proximity.",
+    "taWord": "கருத்தியல் கணித வெளி",
+    "taExample": "தரவுகளின் உள்ளார்ந்த பண்புகளை எண்களாக ஒழுங்கமைக்கும் பல பரிமாண வெளி.",
+    "synonyms": [
+      "Embedding space",
+      "Vector representation manifold"
+    ],
+    "antonyms": [
+      "Pixel space",
+      "Raw input surface"
     ]
   },
   {
@@ -79,6 +132,20 @@
     ]
   },
   {
+    "id": 1207,
+    "word": "Layout",
+    "definition": "The structural arrangement of visual and interactive elements on a page or screen.",
+    "enExample": "Flexbox and CSS Grid are modern tools for building visual layouts.",
+    "taExample": "ஃப்ளெக்ஸ்பாக்ஸ் மற்றும் சிஎஸ்எஸ் கிரிட் ஆகியவை காட்சித் தளவமைப்புகளை உருவாக்குவதற்கான நவீன கருவிகளாகும்.",
+    "taWord": "தளவமைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Structure",
+      "Arrangement",
+      "Design"
+    ]
+  },
+  {
     "id": 1206,
     "word": "Lazy",
     "definition": "A design pattern that postpones initialization or loading of an object until it is needed.",
@@ -96,20 +163,6 @@
     ]
   },
   {
-    "id": 1207,
-    "word": "Layout",
-    "definition": "The structural arrangement of visual and interactive elements on a page or screen.",
-    "enExample": "Flexbox and CSS Grid are modern tools for building visual layouts.",
-    "taExample": "ஃப்ளெக்ஸ்பாக்ஸ் மற்றும் சிஎஸ்எஸ் கிரிட் ஆகியவை காட்சித் தளவமைப்புகளை உருவாக்குவதற்கான நவீன கருவிகளாகும்.",
-    "taWord": "தளவமைப்பு",
-    "pos": "noun",
-    "synonyms": [
-      "Structure",
-      "Arrangement",
-      "Design"
-    ]
-  },
-  {
     "id": 1208,
     "word": "Lead",
     "definition": "To guide a project or engineering team; a top-level software architect or manager.",
@@ -124,6 +177,39 @@
     ],
     "antonyms": [
       "Follower"
+    ]
+  },
+  {
+    "id": 2689,
+    "word": "Lead time",
+    "definition": "The total latency elapsed from the initial customer request until the working feature is delivered.",
+    "enExample": "Automated CI/CD reduced our lead time for critical hotfixes from three days to thirty minutes.",
+    "taExample": "தானியங்கி சிஐ/சிடி அவசரத் திருத்தங்களுக்கான கோரிக்கை முதல் விநியோக நேரத்தை மூன்று நாட்களிலிருந்து முப்பது நிமிடங்களாகக் குறைத்தது.",
+    "taWord": "கோரிக்கை முதல் விநியோக நேரம்",
+    "pos": "noun",
+    "synonyms": [
+      "Turnaround time",
+      "End-to-end duration"
+    ],
+    "antonyms": [
+      "Idle wait"
+    ]
+  },
+  {
+    "id": 2798,
+    "word": "Leader Election",
+    "pos": "noun",
+    "definition": "The consensus algorithm protocol used in distributed clusters (like Raft or Paxos) to designate one node as the authoritative coordinator.",
+    "enExample": "When the primary database failed, Raft completed a leader election in less than two hundred milliseconds.",
+    "taWord": "தலைமை சேவையக தேர்வு முறை",
+    "taExample": "முதன்மை சேவையகம் செயலிழக்கும் போது மற்றவற்றில் இருந்து புதிய தலைமை சேவையகத்தை தேர்ந்தெடுக்கும் முறை.",
+    "synonyms": [
+      "Primary election",
+      "Master designation protocol"
+    ],
+    "antonyms": [
+      "Split-brain chaos",
+      "Leaderless quorum"
     ]
   },
   {
@@ -160,6 +246,24 @@
     "antonyms": [
       "Modern",
       "State-of-the-art"
+    ]
+  },
+  {
+    "id": 2800,
+    "word": "LGTM",
+    "pos": "slang",
+    "definition": "An abbreviation for 'Looks Good To Me'; standard developer shorthand approving a code change in Pull Request reviews.",
+    "enExample": "After verifying the unit tests passed, senior engineers commented 'LGTM' and approved the pull request.",
+    "taWord": "நன்றாக உள்ளது / ஒப்புதல்",
+    "taExample": "நிரல் மதிப்பாய்வில் குறியீட்டை ஏற்றுக்கொண்டு ஒப்புதல் அளிக்கப் பயன்படும் சுருக்கச் சொல்.",
+    "synonyms": [
+      "Approved",
+      "Ship it",
+      "Passes review"
+    ],
+    "antonyms": [
+      "Changes requested",
+      "Block PR"
     ]
   },
   {
@@ -301,6 +405,24 @@
     ]
   },
   {
+    "id": 2799,
+    "word": "Liveness Probe",
+    "pos": "noun",
+    "definition": "A diagnostic check in container orchestrators that determines if an application process has crashed or entered an unrecoverable deadlock.",
+    "enExample": "When the memory leak locked the thread pool, the failing liveness probe prompted Kubernetes to restart the pod.",
+    "taWord": "உயிர்வாழும் நிலை ஆய்வு",
+    "taExample": "செயலி சரியாக இயங்குகிறதா அல்லது முடங்கிவிட்டதா என்பதை தானாக ஆய்வு செய்யும் முறை.",
+    "synonyms": [
+      "Health check probe",
+      "Deadlock detector",
+      "Restart trigger probe"
+    ],
+    "antonyms": [
+      "Readiness probe",
+      "Unmonitored runtime"
+    ]
+  },
+  {
     "id": 1220,
     "word": "Load",
     "definition": "The amount of computational work or traffic handled by a server or database.",
@@ -315,6 +437,24 @@
     ],
     "antonyms": [
       "Idle"
+    ]
+  },
+  {
+    "id": 2713,
+    "word": "Load testing",
+    "definition": "Subjecting a software system to heavy simulated traffic loads to observe stability and identify performance bottlenecks.",
+    "enExample": "Load testing simulated ten thousand concurrent checkouts to ensure our database connections wouldn't exhaust.",
+    "taExample": "டேட்டாபேஸ் இணைப்புகள் தீர்ந்துவிடாமல் இருப்பதை உறுதிசெய்ய பத்தாயிரம் ஒரேநேர வாடிக்கையாளர் சுமைச் சோதனையை நடத்தினோம்.",
+    "taWord": "சுமைத் தாங்குதிறன் சோதனை",
+    "pos": "noun",
+    "synonyms": [
+      "Stress testing",
+      "Performance testing",
+      "Capacity test"
+    ],
+    "antonyms": [
+      "Idle test",
+      "Low-load test"
     ]
   },
   {
@@ -400,42 +540,6 @@
     ]
   },
   {
-    "id": 1226,
-    "word": "Laconic",
-    "definition": "(of a person, speech, or style of writing) using very few words.",
-    "enExample": "His laconic reply suggested a lack of interest.",
-    "taExample": "அவரது சுருக்கமான பதில் ஆர்வமின்மையைக் காட்டியது.",
-    "taWord": "சுருக்கமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Brief",
-      "Concise",
-      "Terse"
-    ],
-    "antonyms": [
-      "Verbose",
-      "Loquacious"
-    ]
-  },
-  {
-    "id": 1227,
-    "word": "Languid",
-    "definition": "Displaying or having a disinclination for physical exertion or effort; slow and relaxed.",
-    "enExample": "They turned with languid movements from back to front so as to tan evenly.",
-    "taExample": "சமமாக வெயில் படுவதற்கு அவர்கள் மெதுவாகவும் தளர்வாகவும் திரும்பினார்கள்.",
-    "taWord": "தளர்வான",
-    "pos": "adj.",
-    "synonyms": [
-      "Relaxed",
-      "Unhurried",
-      "Slow"
-    ],
-    "antonyms": [
-      "Energetic",
-      "Active"
-    ]
-  },
-  {
     "id": 1228,
     "word": "Loquacious",
     "definition": "Tending to talk a great deal; talkative.",
@@ -451,6 +555,42 @@
     "antonyms": [
       "Reticent",
       "Taciturn"
+    ]
+  },
+  {
+    "id": 2797,
+    "word": "LoRA",
+    "pos": "noun",
+    "definition": "Low-Rank Adaptation; an efficient fine-tuning technique that freezes base model weights and trains small low-rank adapter matrices.",
+    "enExample": "By utilizing LoRA adapters, we fine-tuned the seventy-billion parameter model using only twenty-four gigabytes of GPU VRAM.",
+    "taWord": "குறைந்த-வரிசை மாதிரி தழுவல் முறை",
+    "taExample": "குறைந்த நினைவகத்தைப் பயன்படுத்தி பெரிய மாதிரிகளை குறிப்பிட்ட தேவைக்கு மாற்றியமைக்கும் முறை.",
+    "synonyms": [
+      "Parameter-efficient fine tuning",
+      "PEFT",
+      "Adapter fine-tuning"
+    ],
+    "antonyms": [
+      "Full parameter fine-tuning",
+      "Scratch pre-training"
+    ]
+  },
+  {
+    "id": 2650,
+    "word": "Low-hanging fruit",
+    "definition": "Easily achievable goals, quick wins, or obvious tasks that require minimal effort for immediate value.",
+    "enExample": "Enabling gzip compression on the asset server is low-hanging fruit for web performance.",
+    "taExample": "வலைத்தள செயல்திறனை அதிகரிக்க அஸெட் சர்வருக்கு ஜிஜிப் கம்ப்ரஷனை இயக்குவது எளிதில் அடையக்கூடிய உடனடி இலக்காகும்.",
+    "taWord": "எளிதில் அடையக்கூடிய இலக்கு",
+    "pos": "idiom",
+    "synonyms": [
+      "Quick win",
+      "Easy target",
+      "Obvious win"
+    ],
+    "antonyms": [
+      "Complex endeavor",
+      "Uphill battle"
     ]
   },
   {
@@ -473,55 +613,45 @@
     ]
   },
   {
-    "id": 2650,
-    "word": "Low-hanging fruit",
-    "definition": "Easily achievable goals, quick wins, or obvious tasks that require minimal effort for immediate value.",
-    "enExample": "Enabling gzip compression on the asset server is low-hanging fruit for web performance.",
-    "taExample": "வலைத்தள செயல்திறனை அதிகரிக்க அஸெட் சர்வருக்கு ஜிஜிப் கம்ப்ரஷனை இயக்குவது எளிதில் அடையக்கூடிய உடனடி இலக்காகும்.",
-    "taWord": "எளிதில் அடையக்கூடிய இலக்கு",
-    "pos": "idiom",
+    "id": 2880,
+    "word": "Leniency",
+    "pos": "noun",
+    "definition": "The quality of being merciful, tolerant, or forgiving in handing down a legal penalty or punishment.",
+    "enExample": "Defense attorneys petitioned the bench for leniency, citing the defendant's full cooperation with prosecutors.",
+    "taWord": "மன்னிக்கும் குணம் / தண்டனைக் குறைப்பு சலுகை",
+    "taExample": "குற்றவாளி விசாரணைக்கு முழு ஒத்துழைப்பு அளித்ததால் தண்டனையை குறைத்து கருணை காட்டுமாறு கோரப்பட்டது.",
     "synonyms": [
-      "Quick win",
-      "Easy target",
-      "Obvious win"
+      "Mercy",
+      "Clemency",
+      "Forgiveness",
+      "Tolerance"
     ],
     "antonyms": [
-      "Complex endeavor",
-      "Uphill battle"
+      "Severity",
+      "Harshness",
+      "Draconian rigor",
+      "Cruelty"
     ]
   },
   {
-    "id": 2689,
-    "word": "Lead time",
-    "definition": "The total latency elapsed from the initial customer request until the working feature is delivered.",
-    "enExample": "Automated CI/CD reduced our lead time for critical hotfixes from three days to thirty minutes.",
-    "taExample": "தானியங்கி சிஐ/சிடி அவசரத் திருத்தங்களுக்கான கோரிக்கை முதல் விநியோக நேரத்தை மூன்று நாட்களிலிருந்து முப்பது நிமிடங்களாகக் குறைத்தது.",
-    "taWord": "கோரிக்கை முதல் விநியோக நேரம்",
-    "pos": "noun",
+    "id": 2881,
+    "word": "Looming",
+    "pos": "adj.",
+    "definition": "Appearing indistinctly as a large, threatening, or ominous event imminent in the near future.",
+    "enExample": "Central bankers held an emergency meeting to address the looming threat of global stagflation.",
+    "taWord": "அச்சுறுத்தும் வகையில் நெருங்கி வரும்",
+    "taExample": "அதிவேகமாக நெருங்கி வரும் பொருளாதார மந்தநிலையை எதிர்கொள்ள அவசரக் கூட்டம் கூட்டப்பட்டது.",
     "synonyms": [
-      "Turnaround time",
-      "End-to-end duration"
+      "Imminent",
+      "Impending",
+      "Approaching",
+      "Threatening"
     ],
     "antonyms": [
-      "Idle wait"
-    ]
-  },
-  {
-    "id": 2713,
-    "word": "Load testing",
-    "definition": "Subjecting a software system to heavy simulated traffic loads to observe stability and identify performance bottlenecks.",
-    "enExample": "Load testing simulated ten thousand concurrent checkouts to ensure our database connections wouldn't exhaust.",
-    "taExample": "டேட்டாபேஸ் இணைப்புகள் தீர்ந்துவிடாமல் இருப்பதை உறுதிசெய்ய பத்தாயிரம் ஒரேநேர வாடிக்கையாளர் சுமைச் சோதனையை நடத்தினோம்.",
-    "taWord": "சுமைத் தாங்குதிறன் சோதனை",
-    "pos": "noun",
-    "synonyms": [
-      "Stress testing",
-      "Performance testing",
-      "Capacity test"
-    ],
-    "antonyms": [
-      "Idle test",
-      "Low-load test"
+      "Distant",
+      "Remote",
+      "Unlikely",
+      "Past"
     ]
   }
 ]

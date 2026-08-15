@@ -1,5 +1,23 @@
 [
   {
+    "id": 526,
+    "word": "Eclectic",
+    "definition": "Deriving ideas, style, or taste from a broad and diverse range of sources.",
+    "enExample": "Her musical tastes are eclectic.",
+    "taExample": "அவளது இசை ரசனைகள் பலதரப்பட்டவை.",
+    "taWord": "பலதரப்பட்ட",
+    "pos": "adj.",
+    "synonyms": [
+      "Wide-ranging",
+      "Broad-based",
+      "Diverse"
+    ],
+    "antonyms": [
+      "Narrow",
+      "Dogmatic"
+    ]
+  },
+  {
     "id": 501,
     "word": "Ecosystem",
     "definition": "A complex network or interconnected system, often of software or services.",
@@ -30,6 +48,23 @@
     ]
   },
   {
+    "id": 529,
+    "word": "Effective",
+    "definition": "Successful in producing a desired or intended result.",
+    "enExample": "Continuous integration is an effective strategy for reducing deployment bugs.",
+    "taExample": "தொடர்ச்சியான ஒருங்கிணைப்பு என்பது வரிசைப்படுத்தல் பிழைகளைக் குறைப்பதற்கான ஒரு பயனுள்ள உத்தியாகும்.",
+    "taWord": "பயனுள்ள / திறம்பட்ட",
+    "pos": "adj.",
+    "synonyms": [
+      "Successful",
+      "Productive"
+    ],
+    "antonyms": [
+      "Ineffective",
+      "Useless"
+    ]
+  },
+  {
     "id": 503,
     "word": "Efficiency",
     "definition": "The state or quality of being efficient, avoiding wasting materials, energy, efforts, money, and time.",
@@ -47,6 +82,41 @@
     ]
   },
   {
+    "id": 530,
+    "word": "Elaborate",
+    "definition": "Develop or present a theory, plan, or system in detail.",
+    "enExample": "Could you elaborate on how the authentication service handles refresh tokens?",
+    "taExample": "அங்கீகார சேவை எவ்வாறு புதுப்பிப்பு டோக்கன்களைக் கையாள்கிறது என்பதை விரிவாகக் கூற முடியுமா?",
+    "taWord": "விரிவாகக் கூறுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Expand",
+      "Detail"
+    ],
+    "antonyms": [
+      "Simplify",
+      "Summarize"
+    ]
+  },
+  {
+    "id": 2664,
+    "word": "Elevator pitch",
+    "definition": "A succinct, persuasive overview of a product, service, or concept deliverable in thirty seconds.",
+    "enExample": "The product manager crafted a crisp elevator pitch for the venture capital investors.",
+    "taExample": "முதலீட்டாளர்களுக்காக தயாரிப்பு மேலாளர் சுருக்கமான மற்றும் ஈர்க்கக்கூடிய முப்பது வினாடி விளக்கத்தை உருவாக்கினார்.",
+    "taWord": "சுருக்கமான ஈர்ப்பு விளக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Quick pitch",
+      "Brief summary",
+      "Synopsis"
+    ],
+    "antonyms": [
+      "Long dissertation",
+      "Monologue"
+    ]
+  },
+  {
     "id": 504,
     "word": "Elicit",
     "definition": "Evoke or draw out a response, answer, or fact from someone.",
@@ -60,6 +130,92 @@
     ],
     "antonyms": [
       "Suppress"
+    ]
+  },
+  {
+    "id": 527,
+    "word": "Eloquent",
+    "definition": "Fluent or persuasive in speaking or writing.",
+    "enExample": "An eloquent speech.",
+    "taExample": "ஒரு சொல்திறன் மிக்க உரை.",
+    "taWord": "சொல்திறன் மிக்க",
+    "pos": "adj.",
+    "synonyms": [
+      "Fluent",
+      "Persuasive",
+      "Articulate"
+    ],
+    "antonyms": [
+      "Inarticulate"
+    ]
+  },
+  {
+    "id": 2778,
+    "word": "Embeddings",
+    "pos": "noun",
+    "definition": "Dense numerical vector representations of text, audio, or images capturing semantic meanings in mathematical latent space.",
+    "enExample": "The semantic search engine converts query strings into vector embeddings to find conceptually related documentation.",
+    "taWord": "திசையன் குறிமுறை உருவகம்",
+    "taExample": "சொற்களின் கருத்துப் பொருளை எண்களாக மாற்றி தேடலுக்குப் பயன்படுத்தும் முறை.",
+    "synonyms": [
+      "Vector representations",
+      "Semantic vectors",
+      "Latent representations"
+    ],
+    "antonyms": [
+      "Raw strings",
+      "One-hot encodings"
+    ]
+  },
+  {
+    "id": 531,
+    "word": "Emerging",
+    "definition": "Becoming apparent, prominent, or widely recognized.",
+    "enExample": "AI-driven developer tooling is an emerging trend in engineering.",
+    "taExample": "AI-இயக்கப்படும் டெவலப்பர் கருவிகள் பொறியியலில் வளர்ந்து வரும் ஒரு போக்காகும்.",
+    "taWord": "வளர்ந்து வரும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Developing",
+      "Rising"
+    ],
+    "antonyms": [
+      "Fading",
+      "Declining"
+    ]
+  },
+  {
+    "id": 525,
+    "word": "Emit",
+    "definition": "Produce and discharge (something, especially gas or radiation).",
+    "enExample": "The component will emit an event when clicked.",
+    "taExample": "கூறு கிளிக் செய்யப்படும்போது ஒரு நிகழ்வை வெளிப்படுத்தும்.",
+    "taWord": "வெளிப்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Discharge",
+      "Release"
+    ],
+    "antonyms": [
+      "Absorb",
+      "Contain"
+    ]
+  },
+  {
+    "id": 532,
+    "word": "Empathy",
+    "definition": "The ability to understand and share the feelings and perspective of another.",
+    "enExample": "Empathy is vital when designing products for users with disabilities.",
+    "taExample": "மாற்றுத்திறனாளி பயனர்களுக்கான தயாரிப்புகளை வடிவமைக்கும் போது புரிந்துணர்வு அவசியமானது.",
+    "taWord": "புரிந்துணர்வு / அனுதாபம்",
+    "pos": "noun",
+    "synonyms": [
+      "Compassion",
+      "Understanding"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Indifference"
     ]
   },
   {
@@ -90,6 +246,23 @@
     "synonyms": [
       "Imitate",
       "Mimic"
+    ]
+  },
+  {
+    "id": 533,
+    "word": "Enable",
+    "definition": "Give someone or something the operational means or authority to do something.",
+    "enExample": "Feature flags enable safe, gradual feature rollouts.",
+    "taExample": "அம்சக் கொடிகள் பாதுகாப்பான, படிப்படியான அம்ச வெளியீடுகளைச் செயல்படுத்த உதவுகின்றன.",
+    "taWord": "செயல்படுத்த உதவுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Allow",
+      "Permit"
+    ],
+    "antonyms": [
+      "Disable",
+      "Prevent"
     ]
   },
   {
@@ -127,6 +300,24 @@
     ]
   },
   {
+    "id": 2711,
+    "word": "End-to-End",
+    "definition": "Testing an entire software workflow from the user interface down to the backend database and network layers.",
+    "enExample": "Playwright is used for End-to-End browser testing to simulate authentic user purchase journeys.",
+    "taExample": "உண்மையான வாடிக்கையாளர் கொள்முதல் அனுபவத்தை உருவகப்படுத்த தொடக்கம் முதல் முடிவு வரையிலான உலாவி சோதனைகளுக்கு பிளேரைட் பயன்படுகிறது.",
+    "taWord": "தொடக்கம் முதல் முடிவு வரையிலான சோதனை",
+    "pos": "adj.",
+    "synonyms": [
+      "E2E",
+      "Full-flow testing",
+      "System test"
+    ],
+    "antonyms": [
+      "Unit test",
+      "Isolated test"
+    ]
+  },
+  {
     "id": 509,
     "word": "Enforce",
     "definition": "Compel observance of or compliance with a law, rule, or obligation.",
@@ -161,6 +352,23 @@
     ]
   },
   {
+    "id": 534,
+    "word": "Enthusiasm",
+    "definition": "Intense and eager enjoyment, interest, or approval.",
+    "enExample": "Her enthusiasm for open-source software motivated the team.",
+    "taExample": "ஓப்பன் சோர்ஸ் மென்பொருள் மீதான அவளது ஆர்வம் அணியை ஊக்குவித்தது.",
+    "taWord": "ஆர்வமிகுதி",
+    "pos": "noun",
+    "synonyms": [
+      "Passion",
+      "Eagerness"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Boredom"
+    ]
+  },
+  {
     "id": 511,
     "word": "Entity",
     "definition": "A thing with distinct and independent existence.",
@@ -191,6 +399,59 @@
     ]
   },
   {
+    "id": 2685,
+    "word": "Epic",
+    "definition": "A large body of work that can be broken down into smaller user stories across multiple sprints.",
+    "enExample": "The 'Self-Service Subscription Portal' epic took our team four sprints to fully deliver.",
+    "taExample": "'சுயசேவை சந்தா தளம்' என்ற பெருந்திட்டப் பணியை முழுமையாக முடிக்க எங்கள் குழுவிற்கு நான்கு ஸ்பிரிண்ட்டுகள் தேவைப்பட்டன.",
+    "taWord": "பெருந்திட்டப் பணி",
+    "pos": "noun",
+    "synonyms": [
+      "Macro-feature",
+      "Mega-story",
+      "Major initiative"
+    ],
+    "antonyms": [
+      "Subtask",
+      "Micro-bug"
+    ]
+  },
+  {
+    "id": 535,
+    "word": "Equitable",
+    "definition": "Fair and impartial; dealing equally with all concerned.",
+    "enExample": "The team agreed on an equitable distribution of project tasks.",
+    "taExample": "திட்டப் பணிகளை நியாயமான முறையில் பகிர்ந்தளிக்க குழு ஒப்புக்கொண்டது.",
+    "taWord": "நியாயமான / சமமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Fair",
+      "Just"
+    ],
+    "antonyms": [
+      "Unfair",
+      "Biased"
+    ]
+  },
+  {
+    "id": 2643,
+    "word": "Era",
+    "definition": "A defined, characteristic personal or professional phase or period of focus.",
+    "enExample": "I am entering my test-driven development era to avoid production fire drills.",
+    "taExample": "தயாரிப்பு நேர அவசரச் சிக்கல்களைத் தவிர்க்க நான் சோதனை சார்ந்த மேம்பாட்டு காலகட்டத்திற்குள் நுழைகிறேன்.",
+    "taWord": "குறிப்பிட்ட காலகட்டம் / பருவம்",
+    "pos": "noun",
+    "synonyms": [
+      "Phase",
+      "Epoch",
+      "Stage"
+    ],
+    "antonyms": [
+      "Instant",
+      "Moment"
+    ]
+  },
+  {
     "id": 513,
     "word": "Erroneous",
     "definition": "Wrong; incorrect.",
@@ -205,6 +466,24 @@
     "antonyms": [
       "Correct",
       "Accurate"
+    ]
+  },
+  {
+    "id": 2780,
+    "word": "Error Budget",
+    "pos": "noun",
+    "definition": "The calculated threshold of permitted downtime and errors defined by a Service Level Objective (SLO) before new feature work is frozen.",
+    "enExample": "After exhausting eighty percent of our quarterly error budget, the team paused new feature releases to prioritize reliability.",
+    "taWord": "அனுமதிக்கப்பட்ட பிழை அளவு",
+    "taExample": "சேவை தர ஒப்பந்தத்தின்படி அமைப்பில் ஏற்படக்கூடிய அனுமதிக்கப்பட்ட அதிகபட்ச பிழை வரம்பு.",
+    "synonyms": [
+      "SLO margin",
+      "Reliability buffer",
+      "Permitted downtime allowance"
+    ],
+    "antonyms": [
+      "Zero error allowance",
+      "Unmonitored downtime"
     ]
   },
   {
@@ -225,6 +504,41 @@
     ]
   },
   {
+    "id": 528,
+    "word": "Esoteric",
+    "definition": "Intended for or likely to be understood by only a small number of people with a specialized knowledge or interest.",
+    "enExample": "Esoteric philosophical debates.",
+    "taExample": "சிலருக்கு மட்டுமே தெரிந்த தத்துவ விவாதங்கள்.",
+    "taWord": "ரகசியமான / சிலருக்கு மட்டுமே தெரிந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Obscure",
+      "Arcane",
+      "Complex"
+    ],
+    "antonyms": [
+      "Common",
+      "Familiar"
+    ]
+  },
+  {
+    "id": 536,
+    "word": "Essential",
+    "definition": "Absolutely necessary; extremely important in a particular situation.",
+    "enExample": "Writing clean tests is essential for long-term codebase maintenance.",
+    "taExample": "நீண்ட கால குறியீட்டுத் தளப் பராமரிப்பிற்கு தூய்மையான சோதனைகளை எழுதுவது அத்தியாவசியமானது.",
+    "taWord": "அத்தியாவசியமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Vital",
+      "Crucial"
+    ],
+    "antonyms": [
+      "Optional",
+      "Superfluous"
+    ]
+  },
+  {
     "id": 515,
     "word": "Evaluate",
     "definition": "Form an idea of the amount, number, or value of; assess.",
@@ -238,6 +552,23 @@
     ],
     "antonyms": [
       "Ignore"
+    ]
+  },
+  {
+    "id": 2779,
+    "word": "Eventual Consistency",
+    "pos": "noun",
+    "definition": "A distributed consistency model guaranteeing that if no new updates are made, all replicas will eventually return the latest value.",
+    "enExample": "The global feed relies on eventual consistency to maximize write throughput across multiple AWS regions.",
+    "taWord": "காலப்போக்கில் சீரான தன்மை",
+    "taExample": "அனைத்து சேவையகங்களும் சிறிது நேரத்தில் ஒரே மாதிரியான தரவை உறுதிசெய்யும் முறை.",
+    "synonyms": [
+      "Optimistic replication",
+      "Weak consistency guarantee"
+    ],
+    "antonyms": [
+      "Linearizable consistency",
+      "Strict ACID serializability"
     ]
   },
   {
@@ -258,6 +589,19 @@
     ]
   },
   {
+    "id": 537,
+    "word": "Evidence",
+    "definition": "The available body of facts or information indicating whether a hypothesis is true.",
+    "enExample": "Empirical telemetry provides evidence of memory improvements.",
+    "taExample": "அனுபவபூர்வமான தொலைஅளவியல் நினைவக மேம்பாடுகளுக்கான சான்றுகளை வழங்குகிறது.",
+    "taWord": "சான்று / ஆதாரம்",
+    "pos": "noun",
+    "synonyms": [
+      "Proof",
+      "Data"
+    ]
+  },
+  {
     "id": 517,
     "word": "Exclusive",
     "definition": "Restricted or limited to the person, group, or area concerned.",
@@ -272,6 +616,23 @@
     "antonyms": [
       "Shared",
       "Inclusive"
+    ]
+  },
+  {
+    "id": 538,
+    "word": "Exemplary",
+    "definition": "Serving as a desirable model; representing the best of its kind.",
+    "enExample": "His pull request was praised as an exemplary code contribution.",
+    "taExample": "அவரது புல் கோரிக்கை ஒரு முன்னுதாரணமான குறியீட்டு பங்களிப்பாக பாராட்டப்பட்டது.",
+    "taWord": "முன்னுதாரணமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Model",
+      "Commendable"
+    ],
+    "antonyms": [
+      "Poor",
+      "Inadequate"
     ]
   },
   {
@@ -323,6 +684,24 @@
     "antonyms": [
       "Protect",
       "Defend"
+    ]
+  },
+  {
+    "id": 2716,
+    "word": "Exploratory testing",
+    "definition": "An unscripted testing approach where testers dynamically discover edge-case bugs through intuitive interaction.",
+    "enExample": "Exploratory testing discovered that entering emoji characters in the coupon code field caused a server crash.",
+    "taExample": "சுயாதீன ஆய்வுச் சோதனையானது கூப்பன் குறியீட்டில் எமோஜிகளை உள்ளிடுவது சர்வரை செயலிழக்கச் செய்வதைக் கண்டறிந்தது.",
+    "taWord": "சுயாதீன ஆய்வுச் சோதனை",
+    "pos": "noun",
+    "synonyms": [
+      "Intuitive testing",
+      "Unscripted testing",
+      "Ad-hoc QA"
+    ],
+    "antonyms": [
+      "Scripted testing",
+      "Automated regression"
     ]
   },
   {
@@ -394,329 +773,168 @@
     ]
   },
   {
-    "id": 525,
-    "word": "Emit",
-    "definition": "Produce and discharge (something, especially gas or radiation).",
-    "enExample": "The component will emit an event when clicked.",
-    "taExample": "கூறு கிளிக் செய்யப்படும்போது ஒரு நிகழ்வை வெளிப்படுத்தும்.",
-    "taWord": "வெளிப்படுத்துதல்",
+    "id": 2858,
+    "word": "Earmark",
     "pos": "verb",
+    "definition": "To set aside, designate, or allocate specific funds or resources for a designated purpose.",
+    "enExample": "The state legislature voted to earmark fifty million dollars exclusively for flood barrier defenses.",
+    "taWord": "குறிப்பிட்ட பணிக்கென நிதி ஒதுக்குதல்",
+    "taExample": "வெள்ளத் தடுப்பு பணிகளுக்காக பிரத்யேகமாக ஐம்பது மில்லியன் டாலர் நிதியை அரசு ஒதுக்கியது.",
     "synonyms": [
-      "Discharge",
-      "Release"
+      "Allocate",
+      "Designate",
+      "Set aside",
+      "Appropriate"
     ],
     "antonyms": [
-      "Absorb",
-      "Contain"
+      "Generalize",
+      "Squander",
+      "Divert",
+      "Misappropriate"
     ]
   },
   {
-    "id": 526,
-    "word": "Eclectic",
-    "definition": "Deriving ideas, style, or taste from a broad and diverse range of sources.",
-    "enExample": "Her musical tastes are eclectic.",
-    "taExample": "அவளது இசை ரசனைகள் பலதரப்பட்டவை.",
-    "taWord": "பலதரப்பட்ட",
-    "pos": "adj.",
+    "id": 2859,
+    "word": "Embezzlement",
+    "pos": "noun",
+    "definition": "The theft, fraudulent appropriation, or secret diversion of funds placed in one's official trust.",
+    "enExample": "The city treasurer was indicted on federal charges of embezzlement involving municipal pension accounts.",
+    "taWord": "நம்பிக்கை துரோக நிதி மோசடி / கையாடல்",
+    "taExample": "நகராட்சி ஓய்வூதிய நிதியில் கோடிக்கணக்கான ரூபாயை கையாடல் செய்ததாக பொருளாளர் மீது குற்றம் சாட்டப்பட்டது.",
     "synonyms": [
-      "Wide-ranging",
-      "Broad-based",
-      "Diverse"
+      "Misappropriation",
+      "Peculation",
+      "Fraud",
+      "Theft"
     ],
     "antonyms": [
-      "Narrow",
-      "Dogmatic"
+      "Stewardship",
+      "Integrity",
+      "Accountability",
+      "Honesty"
     ]
   },
   {
-    "id": 527,
-    "word": "Eloquent",
-    "definition": "Fluent or persuasive in speaking or writing.",
-    "enExample": "An eloquent speech.",
-    "taExample": "ஒரு சொல்திறன் மிக்க உரை.",
-    "taWord": "சொல்திறன் மிக்க",
-    "pos": "adj.",
+    "id": 2860,
+    "word": "Embargo",
+    "pos": "noun",
+    "definition": "An official government ban on trade, oil, or commercial activity with a particular country.",
+    "enExample": "The United Nations imposed an arms embargo against the rogue regime to curb regional violence.",
+    "taWord": "வர்த்தகத் தடை / பொருளாதார தடை",
+    "taExample": "வன்முறையைக் கட்டுப்படுத்த அந்நாட்டுக்கு எதிரான ஆயுத விற்பனைத் தடையை ஐ.நா. விதித்தது.",
     "synonyms": [
-      "Fluent",
-      "Persuasive",
-      "Articulate"
+      "Sanction",
+      "Trade ban",
+      "Blockade",
+      "Prohibition"
     ],
     "antonyms": [
-      "Inarticulate"
+      "Free trade",
+      "Commercial treaty",
+      "Open market"
     ]
   },
   {
-    "id": 528,
-    "word": "Esoteric",
-    "definition": "Intended for or likely to be understood by only a small number of people with a specialized knowledge or interest.",
-    "enExample": "Esoteric philosophical debates.",
-    "taExample": "சிலருக்கு மட்டுமே தெரிந்த தத்துவ விவாதங்கள்.",
-    "taWord": "ரகசியமான / சிலருக்கு மட்டுமே தெரிந்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Obscure",
-      "Arcane",
-      "Complex"
-    ],
-    "antonyms": [
-      "Common",
-      "Familiar"
-    ]
-  },
-  {
-    "id": 529,
-    "word": "Effective",
-    "definition": "Successful in producing a desired or intended result.",
-    "enExample": "Continuous integration is an effective strategy for reducing deployment bugs.",
-    "taExample": "தொடர்ச்சியான ஒருங்கிணைப்பு என்பது வரிசைப்படுத்தல் பிழைகளைக் குறைப்பதற்கான ஒரு பயனுள்ள உத்தியாகும்.",
-    "taWord": "பயனுள்ள / திறம்பட்ட",
-    "pos": "adj.",
-    "synonyms": [
-      "Successful",
-      "Productive"
-    ],
-    "antonyms": [
-      "Ineffective",
-      "Useless"
-    ]
-  },
-  {
-    "id": 530,
-    "word": "Elaborate",
-    "definition": "Develop or present a theory, plan, or system in detail.",
-    "enExample": "Could you elaborate on how the authentication service handles refresh tokens?",
-    "taExample": "அங்கீகார சேவை எவ்வாறு புதுப்பிப்பு டோக்கன்களைக் கையாள்கிறது என்பதை விரிவாகக் கூற முடியுமா?",
-    "taWord": "விரிவாகக் கூறுதல்",
+    "id": 2861,
+    "word": "Embolden",
     "pos": "verb",
+    "definition": "To give someone the confidence or audacity to take bold or aggressive actions.",
+    "enExample": "The lack of international pushback emboldened the military regime to seize control of neighboring territories.",
+    "taWord": "துணிச்சல் ஊட்டுதல் / தைரியமளித்தல்",
+    "taExample": "எதிர்ப்புகள் இல்லாதது அந்நாட்டு ராணுவத்திற்கு மேலும் ஆக்கிரமிப்பு செய்ய துணிச்சலை அளித்தது.",
     "synonyms": [
-      "Expand",
-      "Detail"
+      "Encourage",
+      "Inspirit",
+      "Incentivize",
+      "Fortify"
     ],
     "antonyms": [
-      "Simplify",
-      "Summarize"
+      "Deter",
+      "Dishearten",
+      "Intimidate",
+      "Discourage"
     ]
   },
   {
-    "id": 531,
-    "word": "Emerging",
-    "definition": "Becoming apparent, prominent, or widely recognized.",
-    "enExample": "AI-driven developer tooling is an emerging trend in engineering.",
-    "taExample": "AI-இயக்கப்படும் டெவலப்பர் கருவிகள் பொறியியலில் வளர்ந்து வரும் ஒரு போக்காகும்.",
-    "taWord": "வளர்ந்து வரும்",
-    "pos": "adj.",
-    "synonyms": [
-      "Developing",
-      "Rising"
-    ],
-    "antonyms": [
-      "Fading",
-      "Declining"
-    ]
-  },
-  {
-    "id": 532,
-    "word": "Empathy",
-    "definition": "The ability to understand and share the feelings and perspective of another.",
-    "enExample": "Empathy is vital when designing products for users with disabilities.",
-    "taExample": "மாற்றுத்திறனாளி பயனர்களுக்கான தயாரிப்புகளை வடிவமைக்கும் போது புரிந்துணர்வு அவசியமானது.",
-    "taWord": "புரிந்துணர்வு / அனுதாபம்",
+    "id": 2862,
+    "word": "Escalation",
     "pos": "noun",
+    "definition": "A rapid increase in the intensity, seriousness, danger, or scale of a conflict or crisis.",
+    "enExample": "Diplomats worked tirelessly to prevent a dangerous military escalation along the disputed border.",
+    "taWord": "தீவிரம் அடைதல் / தீவிரமடைதல்",
+    "taExample": "எல்லைப் பகுதியில் பதற்றம் மேலும் தீவிரமடைவதைத் தடுக்க தூதர்கள் அவசர பேச்சுவார்த்தை நடத்தினர்.",
     "synonyms": [
-      "Compassion",
-      "Understanding"
+      "Intensification",
+      "Expansion",
+      "Surge",
+      "Amplification"
     ],
     "antonyms": [
-      "Apathy",
-      "Indifference"
+      "De-escalation",
+      "Reduction",
+      "Cooling-off",
+      "Abatement"
     ]
   },
   {
-    "id": 533,
-    "word": "Enable",
-    "definition": "Give someone or something the operational means or authority to do something.",
-    "enExample": "Feature flags enable safe, gradual feature rollouts.",
-    "taExample": "அம்சக் கொடிகள் பாதுகாப்பான, படிப்படியான அம்ச வெளியீடுகளைச் செயல்படுத்த உதவுகின்றன.",
-    "taWord": "செயல்படுத்த உதவுதல்",
+    "id": 2863,
+    "word": "Exacerbate",
     "pos": "verb",
+    "definition": "To make a problem, conflict, disease, or difficult situation significantly worse.",
+    "enExample": "The heatwave and sudden drought exacerbated the country's ongoing grain shortages.",
+    "taWord": "மேலும் மோசமாக்குதல் / தீவிரப்படுத்துதல்",
+    "taExample": "கடும் வறட்சியும் வெப்ப அலையும் நாட்டின் உணவுப் பற்றாக்குறையை மேலும் தீவிரப்படுத்தின.",
     "synonyms": [
-      "Allow",
-      "Permit"
+      "Aggravate",
+      "Worsen",
+      "Inflame",
+      "Intensify"
     ],
     "antonyms": [
-      "Disable",
-      "Prevent"
+      "Alleviate",
+      "Mitigate",
+      "Soothe",
+      "Ameliorate"
     ]
   },
   {
-    "id": 534,
-    "word": "Enthusiasm",
-    "definition": "Intense and eager enjoyment, interest, or approval.",
-    "enExample": "Her enthusiasm for open-source software motivated the team.",
-    "taExample": "ஓப்பன் சோர்ஸ் மென்பொருள் மீதான அவளது ஆர்வம் அணியை ஊக்குவித்தது.",
-    "taWord": "ஆர்வமிகுதி",
+    "id": 2864,
+    "word": "Exonerate",
+    "pos": "verb",
+    "definition": "To officially absolve someone from blame, guilt, or criminal responsibility for a wrongdoing.",
+    "enExample": "Newly analyzed DNA forensic evidence served to completely exonerate the wrongfully convicted journalist.",
+    "taWord": "குற்றச்சாட்டிலிருந்து விடுவித்தல்",
+    "taExample": "புதிய மரபணு தடய அறிவியல் சான்றுகள் அந்த பத்திரிகையாளரை குற்றச்சாட்டிலிருந்து முழுமையாக விடுவித்தன.",
+    "synonyms": [
+      "Acquit",
+      "Vindicate",
+      "Absolve",
+      "Clear"
+    ],
+    "antonyms": [
+      "Inculpate",
+      "Convict",
+      "Incriminate",
+      "Condemn"
+    ]
+  },
+  {
+    "id": 2865,
+    "word": "Extradition",
     "pos": "noun",
+    "definition": "The formal legal surrender of a fugitive or convicted individual by one foreign sovereign jurisdiction to another.",
+    "enExample": "The high court approved the extradition of the fugitive billionaire to face money laundering charges.",
+    "taWord": "குற்றவாளியை சொந்த நாட்டுக்கு ஒப்படைத்தல்",
+    "taExample": "மோசடி வழக்குகளை எதிர்கொள்ள தலைமறைவாக இருந்த தொழிலதிபரை சொந்த நாட்டுக்கு ஒப்படைக்க நீதிமன்றம் உத்தரவிட்டது.",
     "synonyms": [
-      "Passion",
-      "Eagerness"
+      "Surrender of fugitive",
+      "Deportation",
+      "Handover"
     ],
     "antonyms": [
-      "Apathy",
-      "Boredom"
-    ]
-  },
-  {
-    "id": 535,
-    "word": "Equitable",
-    "definition": "Fair and impartial; dealing equally with all concerned.",
-    "enExample": "The team agreed on an equitable distribution of project tasks.",
-    "taExample": "திட்டப் பணிகளை நியாயமான முறையில் பகிர்ந்தளிக்க குழு ஒப்புக்கொண்டது.",
-    "taWord": "நியாயமான / சமமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Fair",
-      "Just"
-    ],
-    "antonyms": [
-      "Unfair",
-      "Biased"
-    ]
-  },
-  {
-    "id": 536,
-    "word": "Essential",
-    "definition": "Absolutely necessary; extremely important in a particular situation.",
-    "enExample": "Writing clean tests is essential for long-term codebase maintenance.",
-    "taExample": "நீண்ட கால குறியீட்டுத் தளப் பராமரிப்பிற்கு தூய்மையான சோதனைகளை எழுதுவது அத்தியாவசியமானது.",
-    "taWord": "அத்தியாவசியமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Vital",
-      "Crucial"
-    ],
-    "antonyms": [
-      "Optional",
-      "Superfluous"
-    ]
-  },
-  {
-    "id": 537,
-    "word": "Evidence",
-    "definition": "The available body of facts or information indicating whether a hypothesis is true.",
-    "enExample": "Empirical telemetry provides evidence of memory improvements.",
-    "taExample": "அனுபவபூர்வமான தொலைஅளவியல் நினைவக மேம்பாடுகளுக்கான சான்றுகளை வழங்குகிறது.",
-    "taWord": "சான்று / ஆதாரம்",
-    "pos": "noun",
-    "synonyms": [
-      "Proof",
-      "Data"
-    ]
-  },
-  {
-    "id": 538,
-    "word": "Exemplary",
-    "definition": "Serving as a desirable model; representing the best of its kind.",
-    "enExample": "His pull request was praised as an exemplary code contribution.",
-    "taExample": "அவரது புல் கோரிக்கை ஒரு முன்னுதாரணமான குறியீட்டு பங்களிப்பாக பாராட்டப்பட்டது.",
-    "taWord": "முன்னுதாரணமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Model",
-      "Commendable"
-    ],
-    "antonyms": [
-      "Poor",
-      "Inadequate"
-    ]
-  },
-  {
-    "id": 2643,
-    "word": "Era",
-    "definition": "A defined, characteristic personal or professional phase or period of focus.",
-    "enExample": "I am entering my test-driven development era to avoid production fire drills.",
-    "taExample": "தயாரிப்பு நேர அவசரச் சிக்கல்களைத் தவிர்க்க நான் சோதனை சார்ந்த மேம்பாட்டு காலகட்டத்திற்குள் நுழைகிறேன்.",
-    "taWord": "குறிப்பிட்ட காலகட்டம் / பருவம்",
-    "pos": "noun",
-    "synonyms": [
-      "Phase",
-      "Epoch",
-      "Stage"
-    ],
-    "antonyms": [
-      "Instant",
-      "Moment"
-    ]
-  },
-  {
-    "id": 2664,
-    "word": "Elevator pitch",
-    "definition": "A succinct, persuasive overview of a product, service, or concept deliverable in thirty seconds.",
-    "enExample": "The product manager crafted a crisp elevator pitch for the venture capital investors.",
-    "taExample": "முதலீட்டாளர்களுக்காக தயாரிப்பு மேலாளர் சுருக்கமான மற்றும் ஈர்க்கக்கூடிய முப்பது வினாடி விளக்கத்தை உருவாக்கினார்.",
-    "taWord": "சுருக்கமான ஈர்ப்பு விளக்கம்",
-    "pos": "noun",
-    "synonyms": [
-      "Quick pitch",
-      "Brief summary",
-      "Synopsis"
-    ],
-    "antonyms": [
-      "Long dissertation",
-      "Monologue"
-    ]
-  },
-  {
-    "id": 2685,
-    "word": "Epic",
-    "definition": "A large body of work that can be broken down into smaller user stories across multiple sprints.",
-    "enExample": "The 'Self-Service Subscription Portal' epic took our team four sprints to fully deliver.",
-    "taExample": "'சுயசேவை சந்தா தளம்' என்ற பெருந்திட்டப் பணியை முழுமையாக முடிக்க எங்கள் குழுவிற்கு நான்கு ஸ்பிரிண்ட்டுகள் தேவைப்பட்டன.",
-    "taWord": "பெருந்திட்டப் பணி",
-    "pos": "noun",
-    "synonyms": [
-      "Macro-feature",
-      "Mega-story",
-      "Major initiative"
-    ],
-    "antonyms": [
-      "Subtask",
-      "Micro-bug"
-    ]
-  },
-  {
-    "id": 2711,
-    "word": "End-to-End",
-    "definition": "Testing an entire software workflow from the user interface down to the backend database and network layers.",
-    "enExample": "Playwright is used for End-to-End browser testing to simulate authentic user purchase journeys.",
-    "taExample": "உண்மையான வாடிக்கையாளர் கொள்முதல் அனுபவத்தை உருவகப்படுத்த தொடக்கம் முதல் முடிவு வரையிலான உலாவி சோதனைகளுக்கு பிளேரைட் பயன்படுகிறது.",
-    "taWord": "தொடக்கம் முதல் முடிவு வரையிலான சோதனை",
-    "pos": "adj.",
-    "synonyms": [
-      "E2E",
-      "Full-flow testing",
-      "System test"
-    ],
-    "antonyms": [
-      "Unit test",
-      "Isolated test"
-    ]
-  },
-  {
-    "id": 2716,
-    "word": "Exploratory testing",
-    "definition": "An unscripted testing approach where testers dynamically discover edge-case bugs through intuitive interaction.",
-    "enExample": "Exploratory testing discovered that entering emoji characters in the coupon code field caused a server crash.",
-    "taExample": "சுயாதீன ஆய்வுச் சோதனையானது கூப்பன் குறியீட்டில் எமோஜிகளை உள்ளிடுவது சர்வரை செயலிழக்கச் செய்வதைக் கண்டறிந்தது.",
-    "taWord": "சுயாதீன ஆய்வுச் சோதனை",
-    "pos": "noun",
-    "synonyms": [
-      "Intuitive testing",
-      "Unscripted testing",
-      "Ad-hoc QA"
-    ],
-    "antonyms": [
-      "Scripted testing",
-      "Automated regression"
+      "Political asylum",
+      "Safe harbor",
+      "Refuge"
     ]
   }
 ]

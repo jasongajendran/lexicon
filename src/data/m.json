@@ -14,6 +14,41 @@
     ]
   },
   {
+    "id": 1316,
+    "word": "Magnanimous",
+    "definition": "Very generous or forgiving, especially toward a rival or someone less powerful than oneself.",
+    "enExample": "She should be magnanimous in victory.",
+    "taExample": "அவள் வெற்றியில் பெருந்தன்மையாக இருக்க வேண்டும்.",
+    "taWord": "பெருந்தன்மையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Generous",
+      "Charitable",
+      "Benevolent"
+    ],
+    "antonyms": [
+      "Mean-spirited",
+      "Selfish"
+    ]
+  },
+  {
+    "id": 2630,
+    "word": "Main character",
+    "definition": "Behaving as if one is the central protagonist, drawing all focus and attention.",
+    "enExample": "He had main character energy when he stepped in and resolved the tier-one incident single-handedly.",
+    "taExample": "முதல் நிலை சேவை முடக்கப் பிழையை ஒற்றை ஆளாகத் தீர்த்தபோது அவர் கதாநாயகனைப் போன்ற தன்னம்பிக்கையுடன் விளங்கினார்.",
+    "taWord": "கதாநாயக மிடுக்கு",
+    "pos": "phrase",
+    "synonyms": [
+      "Protagonist",
+      "Showstopper"
+    ],
+    "antonyms": [
+      "Background player",
+      "Wallflower"
+    ]
+  },
+  {
     "id": 1302,
     "word": "Mainframe",
     "definition": "A large, powerful computer used by large organizations for bulk data processing.",
@@ -45,6 +80,42 @@
     "antonyms": [
       "Fragility",
       "Rigidity"
+    ]
+  },
+  {
+    "id": 1317,
+    "word": "Malleable",
+    "definition": "Easily influenced; pliable.",
+    "enExample": "Anna was shaken enough to be malleable.",
+    "taExample": "அன்னா எளிதாக வளைக்கக்கூடிய அளவிற்கு அதிர்ச்சியடைந்தாள்.",
+    "taWord": "வளைக்கக்கூடிய",
+    "pos": "adj.",
+    "synonyms": [
+      "Suggestible",
+      "Susceptible",
+      "Impressionable"
+    ],
+    "antonyms": [
+      "Intractable",
+      "Rigid"
+    ]
+  },
+  {
+    "id": 2803,
+    "word": "Man-in-the-Middle",
+    "pos": "noun",
+    "definition": "A cybersecurity attack where an adversary secretly intercepts and relays communications between two parties who believe they communicate directly.",
+    "enExample": "Enforcing TLS with HTTP Strict Transport Security prevented adversaries from staging man-in-the-middle packet eavesdropping.",
+    "taWord": "இடைமறிக்கும் தாக்குதல்",
+    "taExample": "இருவருக்கு இடையே நடக்கும் தகவல் தொடர்பை மூன்றாம் நபர் ரகசியமாக இடைமறித்து திருடும் முறை.",
+    "synonyms": [
+      "MitM attack",
+      "Interception exploit",
+      "Packet eavesdropping"
+    ],
+    "antonyms": [
+      "End-to-end encryption",
+      "Mutual TLS validation"
     ]
   },
   {
@@ -89,6 +160,25 @@
     ],
     "antonyms": [
       "Padding"
+    ]
+  },
+  {
+    "id": 2732,
+    "word": "Marshaling",
+    "pos": "noun",
+    "definition": "The process of transforming the memory representation of an object into a standardized byte format suitable for network transmission or cross-language RPCs.",
+    "taWord": "தரவு வரிசைப்படுத்துதல் / உருமாற்றம்",
+    "enExample": "Protocol Buffers handles the high-speed marshaling of Go structs into wire-efficient binary streams.",
+    "taExample": "நெட்வொர்க் பரிமாற்றத்திற்காக மெமரி ஆப்ஜெக்ட்களை பைனரி தரவாக Marshaling மூலம் உருமாற்றினோம்.",
+    "synonyms": [
+      "serialization",
+      "encoding",
+      "pickling"
+    ],
+    "antonyms": [
+      "unmarshaling",
+      "deserialization",
+      "decoding"
     ]
   },
   {
@@ -210,87 +300,19 @@
     ]
   },
   {
-    "id": 1315,
-    "word": "Middleware",
-    "definition": "Software glue that provides services to applications beyond those available from the operating system.",
-    "enExample": "Express middleware functions inspect and mutate incoming HTTP request headers.",
-    "taExample": "Express மிடில்வேர் செயல்பாடுகள் உள்வரும் HTTP கோரிக்கை தலைப்புகளை ஆய்வு செய்து மாற்றுகின்றன.",
-    "taWord": "இடைநிலை மென்பொருள் (Middleware)",
+    "id": 2696,
+    "word": "Microservices",
+    "definition": "An architectural style that structures an application as a collection of small, independently deployable services.",
+    "enExample": "Using microservices allowed our payment and catalog teams to deploy independently without coordination locks.",
+    "taExample": "மைக்ரோசர்வீஸ்களைப் பயன்படுத்தியதால் பணம் செலுத்துதல் மற்றும் பட்டியல் குழுக்கள் ஒன்றையொன்று சாராமல் சுதந்திரமாக வெளியிட முடிந்தது.",
+    "taWord": "நுண் சேவைகள் கட்டமைப்பு",
     "pos": "noun",
     "synonyms": [
-      "Interceptor",
-      "Pipeline step"
-    ]
-  },
-  {
-    "id": 1316,
-    "word": "Magnanimous",
-    "definition": "Very generous or forgiving, especially toward a rival or someone less powerful than oneself.",
-    "enExample": "She should be magnanimous in victory.",
-    "taExample": "அவள் வெற்றியில் பெருந்தன்மையாக இருக்க வேண்டும்.",
-    "taWord": "பெருந்தன்மையான",
-    "pos": "adj.",
-    "synonyms": [
-      "Generous",
-      "Charitable",
-      "Benevolent"
+      "Distributed services",
+      "Service-oriented architecture"
     ],
     "antonyms": [
-      "Mean-spirited",
-      "Selfish"
-    ]
-  },
-  {
-    "id": 1317,
-    "word": "Malleable",
-    "definition": "Easily influenced; pliable.",
-    "enExample": "Anna was shaken enough to be malleable.",
-    "taExample": "அன்னா எளிதாக வளைக்கக்கூடிய அளவிற்கு அதிர்ச்சியடைந்தாள்.",
-    "taWord": "வளைக்கக்கூடிய",
-    "pos": "adj.",
-    "synonyms": [
-      "Suggestible",
-      "Susceptible",
-      "Impressionable"
-    ],
-    "antonyms": [
-      "Intractable",
-      "Rigid"
-    ]
-  },
-  {
-    "id": 1318,
-    "word": "Mitigate",
-    "definition": "Make less severe, serious, or painful.",
-    "enExample": "He wanted to mitigate misery in the world.",
-    "taExample": "அவர் உலகின் துயரத்தை குறைக்க விரும்பினார்.",
-    "taWord": "குறை",
-    "pos": "verb",
-    "synonyms": [
-      "Alleviate",
-      "Reduce",
-      "Diminish"
-    ],
-    "antonyms": [
-      "Aggravate",
-      "Intensify"
-    ]
-  },
-  {
-    "id": 2630,
-    "word": "Main character",
-    "definition": "Behaving as if one is the central protagonist, drawing all focus and attention.",
-    "enExample": "He had main character energy when he stepped in and resolved the tier-one incident single-handedly.",
-    "taExample": "முதல் நிலை சேவை முடக்கப் பிழையை ஒற்றை ஆளாகத் தீர்த்தபோது அவர் கதாநாயகனைப் போன்ற தன்னம்பிக்கையுடன் விளங்கினார்.",
-    "taWord": "கதாநாயக மிடுக்கு",
-    "pos": "phrase",
-    "synonyms": [
-      "Protagonist",
-      "Showstopper"
-    ],
-    "antonyms": [
-      "Background player",
-      "Wallflower"
+      "Monolith"
     ]
   },
   {
@@ -313,21 +335,52 @@
     ]
   },
   {
-    "id": 2651,
-    "word": "Move the needle",
-    "definition": "To make a noticeable, tangible, and meaningful impact or difference on a key metric.",
-    "enExample": "Reducing customer onboarding from ten steps to three will truly move the needle on conversions.",
-    "taExample": "வாடிக்கையாளர் இணைவுப் படிகளை பத்திலிருந்து மூன்றாகக் குறைப்பது பயன்பாட்டு மாற்ற விகிதத்தில் குறிப்பிடத்தக்க முன்னேற்றத்தை ஏற்படுத்தும்.",
-    "taWord": "குறிப்பிடத்தக்க முன்னேற்றம் ஏற்படுத்துதல்",
-    "pos": "phrase",
+    "id": 1315,
+    "word": "Middleware",
+    "definition": "Software glue that provides services to applications beyond those available from the operating system.",
+    "enExample": "Express middleware functions inspect and mutate incoming HTTP request headers.",
+    "taExample": "Express மிடில்வேர் செயல்பாடுகள் உள்வரும் HTTP கோரிக்கை தலைப்புகளை ஆய்வு செய்து மாற்றுகின்றன.",
+    "taWord": "இடைநிலை மென்பொருள் (Middleware)",
+    "pos": "noun",
     "synonyms": [
-      "Make an impact",
-      "Change outcomes",
-      "Shift metrics"
+      "Interceptor",
+      "Pipeline step"
+    ]
+  },
+  {
+    "id": 1318,
+    "word": "Mitigate",
+    "definition": "Make less severe, serious, or painful.",
+    "enExample": "He wanted to mitigate misery in the world.",
+    "taExample": "அவர் உலகின் துயரத்தை குறைக்க விரும்பினார்.",
+    "taWord": "குறை",
+    "pos": "verb",
+    "synonyms": [
+      "Alleviate",
+      "Reduce",
+      "Diminish"
     ],
     "antonyms": [
-      "Stagnate",
-      "Have zero effect"
+      "Aggravate",
+      "Intensify"
+    ]
+  },
+  {
+    "id": 2702,
+    "word": "Mocking",
+    "definition": "Creating simulated, fake objects or endpoints to replicate the behavior of real dependencies during automated tests.",
+    "enExample": "Mocking the Stripe payment API allowed us to test subscription edge cases without charging real credit cards.",
+    "taExample": "ஸ்ட்ரைப் கட்டண ஏபிஐ-யை மாதிரிப் போலியாக உருவாக்கியதன் மூலம் உண்மையான அட்டைக் கட்டணமின்றி சோதிக்க முடிந்தது.",
+    "taWord": "போலி மாதிரி உருவாக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Stubbing",
+      "Simulating",
+      "Faking"
+    ],
+    "antonyms": [
+      "Real integration",
+      "Live endpoint"
     ]
   },
   {
@@ -348,37 +401,95 @@
     ]
   },
   {
-    "id": 2696,
-    "word": "Microservices",
-    "definition": "An architectural style that structures an application as a collection of small, independently deployable services.",
-    "enExample": "Using microservices allowed our payment and catalog teams to deploy independently without coordination locks.",
-    "taExample": "மைக்ரோசர்வீஸ்களைப் பயன்படுத்தியதால் பணம் செலுத்துதல் மற்றும் பட்டியல் குழுக்கள் ஒன்றையொன்று சாராமல் சுதந்திரமாக வெளியிட முடிந்தது.",
-    "taWord": "நுண் சேவைகள் கட்டமைப்பு",
+    "id": 2730,
+    "word": "Monorepo",
     "pos": "noun",
+    "definition": "A software development architectural approach where code for multiple separate projects, packages, and services is stored in a single unified version control repository.",
+    "taWord": "ஒருங்கிணைந்த மூலக்குறியீட்டு களஞ்சியம்",
+    "enExample": "Switching to a monorepo with Turborepo allowed frontend and backend teams to share TypeScript types seamlessly.",
+    "taExample": "அனைத்து திட்டக் குறியீடுகளையும் ஒரே Monorepo களஞ்சியத்தில் வைத்ததால் குழுக்களிடையே வகை அமைப்புகளைப் பகிர்வது எளிதானது.",
     "synonyms": [
-      "Distributed services",
-      "Service-oriented architecture"
+      "unified repository",
+      "single-repo architecture",
+      "poly-package repo"
     ],
     "antonyms": [
-      "Monolith"
+      "multi-repo",
+      "polyrepo",
+      "isolated repositories"
     ]
   },
   {
-    "id": 2702,
-    "word": "Mocking",
-    "definition": "Creating simulated, fake objects or endpoints to replicate the behavior of real dependencies during automated tests.",
-    "enExample": "Mocking the Stripe payment API allowed us to test subscription edge cases without charging real credit cards.",
-    "taExample": "ஸ்ட்ரைப் கட்டண ஏபிஐ-யை மாதிரிப் போலியாக உருவாக்கியதன் மூலம் உண்மையான அட்டைக் கட்டணமின்றி சோதிக்க முடிந்தது.",
-    "taWord": "போலி மாதிரி உருவாக்கம்",
-    "pos": "noun",
+    "id": 2651,
+    "word": "Move the needle",
+    "definition": "To make a noticeable, tangible, and meaningful impact or difference on a key metric.",
+    "enExample": "Reducing customer onboarding from ten steps to three will truly move the needle on conversions.",
+    "taExample": "வாடிக்கையாளர் இணைவுப் படிகளை பத்திலிருந்து மூன்றாகக் குறைப்பது பயன்பாட்டு மாற்ற விகிதத்தில் குறிப்பிடத்தக்க முன்னேற்றத்தை ஏற்படுத்தும்.",
+    "taWord": "குறிப்பிடத்தக்க முன்னேற்றம் ஏற்படுத்துதல்",
+    "pos": "phrase",
     "synonyms": [
-      "Stubbing",
-      "Simulating",
-      "Faking"
+      "Make an impact",
+      "Change outcomes",
+      "Shift metrics"
     ],
     "antonyms": [
-      "Real integration",
-      "Live endpoint"
+      "Stagnate",
+      "Have zero effect"
+    ]
+  },
+  {
+    "id": 2802,
+    "word": "MTTD",
+    "pos": "noun",
+    "definition": "Mean Time to Detect; the average time elapsed between the inception of a system failure and its initial detection by alerts.",
+    "enExample": "By establishing real-time anomaly alerts on error rates, our team reduced MTTD to under thirty seconds.",
+    "taWord": "சராசரி பிழை கண்டறியும் நேரம்",
+    "taExample": "அமைப்பில் ஒரு தவறு நடந்த தருணத்திலிருந்து அதை எச்சரிக்கைகள் மூலம் கண்டறிய எடுக்கும் நேரம்.",
+    "synonyms": [
+      "Detection time",
+      "Time-to-alert",
+      "Discovery latency"
+    ],
+    "antonyms": [
+      "Silent unspotted failure",
+      "Delayed alert"
+    ]
+  },
+  {
+    "id": 2801,
+    "word": "MTTR",
+    "pos": "noun",
+    "definition": "Mean Time to Resolution / Repair; the average time taken by an engineering team to fully restore service after an outage occurs.",
+    "enExample": "Automating our rollback runbooks reduced our incident MTTR from forty-five minutes down to under four minutes.",
+    "taWord": "சராசரி சரிசெய்யும் நேரம்",
+    "taExample": "சேவை முடங்கியதில் இருந்து அதை முழுமையாக சரிசெய்ய எடுக்கும் சராசரி நேரம்.",
+    "synonyms": [
+      "Recovery time",
+      "Resolution duration",
+      "Incident turnaround"
+    ],
+    "antonyms": [
+      "Extended downtime",
+      "Prolonged outage"
+    ]
+  },
+  {
+    "id": 2731,
+    "word": "Multitenancy",
+    "pos": "noun",
+    "definition": "A software architecture where a single running instance of an application serves multiple distinct customer organizations (tenants) with strictly isolated data.",
+    "taWord": "பல்-நிறுவன பகிர்வு கட்டமைப்பு",
+    "enExample": "Our SaaS platform uses row-level database security to enforce clean multitenancy between enterprise clients.",
+    "taExample": "எங்கள் கிளவுட் மென்பொருள் ஒரே சர்வரில் இயங்கினாலும் ஒவ்வொரு நிறுவனத்தின் தரவுகளையும் தனித்தனியாக பிரித்து பாதுகாக்கிறது.",
+    "synonyms": [
+      "tenant isolation",
+      "shared infrastructure SaaS",
+      "partitioned hosting"
+    ],
+    "antonyms": [
+      "single-tenant",
+      "dedicated hosting",
+      "isolated instance"
     ]
   },
   {
@@ -418,60 +529,107 @@
     ]
   },
   {
-    "id": 2730,
-    "word": "Monorepo",
+    "id": 2882,
+    "word": "Machination",
     "pos": "noun",
-    "definition": "A software development architectural approach where code for multiple separate projects, packages, and services is stored in a single unified version control repository.",
-    "taWord": "ஒருங்கிணைந்த மூலக்குறியீட்டு களஞ்சியம்",
-    "enExample": "Switching to a monorepo with Turborepo allowed frontend and backend teams to share TypeScript types seamlessly.",
-    "taExample": "அனைத்து திட்டக் குறியீடுகளையும் ஒரே Monorepo களஞ்சியத்தில் வைத்ததால் குழுக்களிடையே வகை அமைப்புகளைப் பகிர்வது எளிதானது.",
+    "definition": "A crafty, sinister, or deceitful scheme or plot designed to accomplish an unethical political or financial end.",
+    "enExample": "Investigative journalists unraveled the behind-the-scenes political machinations that derailed the reform bill.",
+    "taWord": "சூழ்ச்சி / நயவஞ்சக சதித்திட்டம்",
+    "taExample": "சட்டத்திருத்த மசோதாவை முறியடிக்க பின்னணியில் நடந்த நயவஞ்சக அரசியல் சூழ்ச்சிகளை பத்திரிகை வெளிப்படுத்தியது.",
     "synonyms": [
-      "unified repository",
-      "single-repo architecture",
-      "poly-package repo"
+      "Plot",
+      "Conspiracy",
+      "Intrigue",
+      "Scheme"
     ],
     "antonyms": [
-      "multi-repo",
-      "polyrepo",
-      "isolated repositories"
+      "Honest dealing",
+      "Transparency",
+      "Fair play",
+      "Candor"
     ]
   },
   {
-    "id": 2731,
-    "word": "Multitenancy",
+    "id": 2883,
+    "word": "Malfeasance",
     "pos": "noun",
-    "definition": "A software architecture where a single running instance of an application serves multiple distinct customer organizations (tenants) with strictly isolated data.",
-    "taWord": "பல்-நிறுவன பகிர்வு கட்டமைப்பு",
-    "enExample": "Our SaaS platform uses row-level database security to enforce clean multitenancy between enterprise clients.",
-    "taExample": "எங்கள் கிளவுட் மென்பொருள் ஒரே சர்வரில் இயங்கினாலும் ஒவ்வொரு நிறுவனத்தின் தரவுகளையும் தனித்தனியாக பிரித்து பாதுகாக்கிறது.",
+    "definition": "Wrongdoing or unlawful conduct, especially by a public servant or elected official in violation of public trust.",
+    "enExample": "The anti-corruption bureau opened an official audit into alleged malfeasance in hospital procurement contracts.",
+    "taWord": "அதிகார முறைகேடு / சட்டவிரோத நடத்தை",
+    "taExample": "மருத்துவமனை உபகரணங்கள் வாங்கியதில் நடந்த அதிகார முறைகேடுகள் குறித்து தீவிர தணிக்கை தொடங்கியது.",
     "synonyms": [
-      "tenant isolation",
-      "shared infrastructure SaaS",
-      "partitioned hosting"
+      "Misconduct",
+      "Corruption",
+      "Wrongdoing",
+      "Delinquency"
     ],
     "antonyms": [
-      "single-tenant",
-      "dedicated hosting",
-      "isolated instance"
+      "Probity",
+      "Integrity",
+      "Uprightness",
+      "Rectitude"
     ]
   },
   {
-    "id": 2732,
-    "word": "Marshaling",
+    "id": 2884,
+    "word": "Mandate",
     "pos": "noun",
-    "definition": "The process of transforming the memory representation of an object into a standardized byte format suitable for network transmission or cross-language RPCs.",
-    "taWord": "தரவு வரிசைப்படுத்துதல் / உருமாற்றம்",
-    "enExample": "Protocol Buffers handles the high-speed marshaling of Go structs into wire-efficient binary streams.",
-    "taExample": "நெட்வொர்க் பரிமாற்றத்திற்காக மெமரி ஆப்ஜெக்ட்களை பைனரி தரவாக Marshaling மூலம் உருமாற்றினோம்.",
+    "definition": "An official authority or democratic endorsement given by an electorate to a government to carry out policies.",
+    "enExample": "Winning an overwhelming parliamentary majority gave the party a strong mandate to reform the tax code.",
+    "taWord": "மக்கள் ஆணை / அதிகாரப்பூர்வ உத்தரவு",
+    "taExample": "பெரும்பான்மை வெற்றியைப் பெற்றதன் மூலம் வரி சீர்திருத்தங்களை மேற்கொள்ள அரசுக்கு வலுவான மக்கள் ஆணை கிடைத்தது.",
     "synonyms": [
-      "serialization",
-      "encoding",
-      "pickling"
+      "Authorization",
+      "Endorsement",
+      "Directive",
+      "Sanction"
     ],
     "antonyms": [
-      "unmarshaling",
-      "deserialization",
-      "decoding"
+      "Prohibition",
+      "Refusal",
+      "Disapproval",
+      "Nullification"
+    ]
+  },
+  {
+    "id": 2885,
+    "word": "Martyrdom",
+    "pos": "noun",
+    "definition": "The suffering of death, persecution, or supreme sacrifice on account of one's political or religious principles.",
+    "enExample": "The slain human rights campaigner's martyrdom inspired a new wave of democratic youth movements.",
+    "taWord": "தியாக மரணம் / தியாகம்",
+    "taExample": "ஜனநாயகத்திற்காக இன்னுயிரை நீத்த அந்தப் போராளியின் தியாக மரணம் இளைஞர்களிடையே புதிய எழுச்சியை ஏற்படுத்தியது.",
+    "synonyms": [
+      "Ultimate sacrifice",
+      "Persecution death",
+      "Heroic devotion"
+    ],
+    "antonyms": [
+      "Treachery",
+      "Apostasy",
+      "Cowardice",
+      "Survival"
+    ]
+  },
+  {
+    "id": 2886,
+    "word": "Moratorium",
+    "pos": "noun",
+    "definition": "A temporary suspension, legally authorized pause, or delay of an activity, payment, or eviction.",
+    "enExample": "The city council approved a twelve-month moratorium on commercial waterfront construction projects.",
+    "taWord": "தற்காலிக நிறுத்திவைப்பு / காலநீட்டிப்பு",
+    "taExample": "சுற்றுச்சூழல் ஆய்வுகள் முடியும் வரை புதிய கட்டுமானப் பணிகளுக்கு தற்காலிக தடை விதிக்கப்பட்டது.",
+    "synonyms": [
+      "Suspension",
+      "Freeze",
+      "Postponement",
+      "Halt"
+    ],
+    "antonyms": [
+      "Continuation",
+      "Resumption",
+      "Acceleration",
+      "Perpetuation"
     ]
   }
 ]

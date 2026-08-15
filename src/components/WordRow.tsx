@@ -11,16 +11,14 @@ interface WordRowProps {
   index: number;
   isBookmarked: boolean;
   onToggleBookmark: () => void;
-  onSelectWord: (word: LexiconWord) => void;
   onWordSearch?: (word: string) => void;
 }
 
 export function WordRow({ 
   word, 
-  index,
-  isBookmarked,
+  index, 
+  isBookmarked, 
   onToggleBookmark,
-  onSelectWord,
   onWordSearch
 }: WordRowProps) {
   const [copied, setCopied] = useState(false);
@@ -29,7 +27,7 @@ export function WordRow({
   const rowRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Only apply Intersection Observer for mobile/tablet where hover doesn't work well for scrolling
+    // Apply Intersection Observer for mobile/tablet where hover doesn't work well for scrolling
     if (typeof window !== 'undefined' && window.innerWidth < 1024) {
       const observer = new IntersectionObserver(
         ([entry]) => {
@@ -61,8 +59,8 @@ export function WordRow({
     }
   };
 
-  const handleSpeak = (e: React.MouseEvent) => {
-    e.stopPropagation();
+  const handleSpeak = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
     triggerHaptic();
     speakWord(
       word.word,
@@ -75,7 +73,7 @@ export function WordRow({
   const handleCopy = (e: React.MouseEvent) => {
     e.stopPropagation();
     triggerHaptic();
-    navigator.clipboard.writeText(`${word.word} - ${word.definition}\nEN: ${word.enExample}\nTA: ${word.taExample}`);
+    navigator.clipboard.writeText(`${word.word} (${word.taWord})\nPOS: ${word.pos}\nDefinition: ${word.definition}\nEN: ${word.enExample}\nTA: ${word.taExample}`);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -93,10 +91,9 @@ export function WordRow({
     }
   };
 
-  // Helper to highlight occurrences of the word within the text on hover or when centered
+  // Helper to highlight occurrences of the word within the text
   const highlightMatch = (text: string, match: string) => {
     if (!match || typeof match !== 'string' || typeof text !== 'string') return text;
-    // Handle multiple terms (e.g., "மாதிரி / சிந்தனை முறை")
     const matchTerms = match.split('/').map(t => t.trim()).filter(Boolean);
     const safeMatches = matchTerms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
     const parts = text.split(new RegExp(`(${safeMatches.join('|')})`, 'gi'));
@@ -122,13 +119,7 @@ export function WordRow({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-      onTouchStart={() => {}} 
-      onClick={() => {
-        triggerHaptic();
-        onSelectWord(word);
-      }}
-      tabIndex={0}
-      className={`group relative flex flex-col md:flex-row gap-6 md:gap-12 py-12 md:py-20 border-t border-zinc-800/50 transition-all duration-300 px-4 md:px-8 cursor-pointer focus:outline-none ${isCentered ? 'bg-zinc-900/40' : 'hover:bg-zinc-900/40 active:bg-zinc-900/60'}`}
+      className={`group relative flex flex-col md:flex-row gap-6 md:gap-12 py-12 md:py-16 border-t border-zinc-800/50 transition-all duration-300 px-4 md:px-8 ${isCentered ? 'bg-zinc-900/40' : 'hover:bg-zinc-900/30'}`}
     >
       {/* Index Number */}
       <div className="absolute top-4 left-4 md:top-8 md:left-8 text-xs font-mono text-zinc-600 tracking-widest flex items-center gap-2">
@@ -137,7 +128,7 @@ export function WordRow({
       </div>
 
       {/* Top Right Actions */}
-      <div className="absolute top-4 right-4 md:top-8 md:right-8 flex items-center gap-2 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <div className="absolute top-4 right-4 md:top-8 md:right-8 flex items-center gap-2 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
         <button 
           onClick={handleBookmark}
           className={`p-2 rounded-full bg-zinc-900/80 md:bg-transparent hover:bg-zinc-800 transition-colors ${isBookmarked ? 'text-amber-400' : 'text-zinc-400 hover:text-amber-400'}`}
@@ -150,7 +141,7 @@ export function WordRow({
           className={`p-2 rounded-full bg-zinc-900/80 md:bg-transparent hover:bg-zinc-800 transition-colors ${
             isSpeaking ? 'text-amber-400' : 'text-zinc-400 hover:text-amber-400'
           }`}
-          title="Pronounce word"
+          title="Pronounce word in English"
         >
           {isSpeaking ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
         </button>
@@ -165,18 +156,25 @@ export function WordRow({
 
       {/* Left Column: Word & Definition */}
       <div className="md:w-5/12 flex flex-col justify-center">
-        <div className="flex items-baseline gap-4">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif italic tracking-tight text-amber-400">
-            {word.word}
-          </h2>
-          <span className="text-sm font-mono text-purple-300 bg-purple-400/10 px-2 py-0.5 rounded border border-purple-400/20">{word.pos}</span>
+        <div className="flex items-baseline gap-4 flex-wrap">
+          <button 
+            onClick={handleSpeak}
+            className="text-left group/title flex items-baseline gap-2 cursor-pointer focus:outline-none"
+            title="Click to pronounce"
+          >
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif italic tracking-tight text-amber-400 group-hover/title:text-amber-300 transition-colors">
+              {word.word}
+            </h2>
+            <Volume2 size={18} className="text-zinc-600 group-hover/title:text-amber-400 transition-colors opacity-0 group-hover/title:opacity-100" />
+          </button>
+          <span className="text-xs font-mono text-purple-300 bg-purple-400/10 px-2 py-0.5 rounded border border-purple-400/20">{word.pos}</span>
         </div>
-        <div className="mt-6 flex flex-col gap-4">
-          <p className="text-zinc-400 font-sans text-sm md:text-base leading-relaxed tracking-wide">
+        <div className="mt-5 flex flex-col gap-3">
+          <p className="text-zinc-300 font-sans text-sm md:text-base leading-relaxed tracking-wide">
             <span className="text-zinc-500 italic mr-2 text-xs">def.</span>
             {word.definition}
           </p>
-          <p className="text-zinc-400 font-tamil text-sm md:text-base leading-relaxed tracking-wide">
+          <p className="text-zinc-300 font-tamil text-sm md:text-base leading-relaxed tracking-wide">
             <span className="text-zinc-500 font-mono mr-2 text-xs">ta.</span>
             <span className="font-medium text-amber-400">
               {word.taWord}
@@ -191,13 +189,13 @@ export function WordRow({
                   <span className="text-[10px] font-mono text-emerald-400/70 uppercase tracking-widest">Syn</span>
                   <div className="flex flex-wrap gap-1.5">
                     {word.synonyms.map((syn, i) => (
-                      <span 
+                      <button 
                         key={i} 
                         onClick={(e) => handleSynAntClick(e, syn)}
                         className="text-xs text-emerald-300 bg-emerald-400/10 hover:bg-emerald-400/20 px-2 py-0.5 rounded border border-emerald-400/20 cursor-pointer transition-colors"
                       >
                         {syn}
-                      </span>
+                      </button>
                     ))}
                   </div>
                 </div>
@@ -207,13 +205,13 @@ export function WordRow({
                   <span className="text-[10px] font-mono text-rose-400/70 uppercase tracking-widest">Ant</span>
                   <div className="flex flex-wrap gap-1.5">
                     {word.antonyms.map((ant, i) => (
-                      <span 
+                      <button 
                         key={i} 
                         onClick={(e) => handleSynAntClick(e, ant)}
                         className="text-xs text-rose-300 bg-rose-400/10 hover:bg-rose-400/20 px-2 py-0.5 rounded border border-rose-400/20 cursor-pointer transition-colors"
                       >
                         {ant}
-                      </span>
+                      </button>
                     ))}
                   </div>
                 </div>
@@ -224,11 +222,11 @@ export function WordRow({
       </div>
 
       {/* Right Column: Examples */}
-      <div className="md:w-7/12 flex flex-col justify-center gap-6 md:gap-8">
+      <div className="md:w-7/12 flex flex-col justify-center gap-5 md:gap-6">
         {/* English Example */}
         <div className={`relative pl-6 md:pl-8 border-l transition-colors duration-500 ${isCentered ? 'border-amber-400/30' : 'border-zinc-800 group-hover:border-amber-400/30'}`}>
           <span className="absolute -left-3 top-0 text-xs font-mono text-blue-300 bg-[#0a0a0a] py-1 px-2 rounded-full border border-blue-400/20 shadow-sm shadow-blue-400/5">EN</span>
-          <p className="text-lg md:text-xl font-serif text-zinc-300 leading-relaxed">
+          <p className="text-base md:text-lg font-serif text-zinc-200 leading-relaxed">
             "{highlightMatch(word.enExample, word.word)}"
           </p>
         </div>
@@ -236,7 +234,7 @@ export function WordRow({
         {/* Tamil Example */}
         <div className={`relative pl-6 md:pl-8 border-l transition-colors duration-500 ${isCentered ? 'border-amber-400/30' : 'border-zinc-800 group-hover:border-amber-400/30'}`}>
           <span className="absolute -left-3 top-0 text-xs font-mono text-indigo-300 bg-[#0a0a0a] py-1 px-2 rounded-full border border-indigo-400/20 shadow-sm shadow-indigo-400/5">TA</span>
-          <p className="text-base md:text-lg font-tamil text-zinc-400 leading-relaxed font-light">
+          <p className="text-sm md:text-base font-tamil text-zinc-300 leading-relaxed font-light">
             "{highlightMatch(word.taExample, word.taWord)}"
           </p>
         </div>

@@ -17,6 +17,60 @@
     ]
   },
   {
+    "id": 816,
+    "word": "Hackneyed",
+    "definition": "(of a phrase or idea) lacking significance through having been overused.",
+    "enExample": "Hackneyed old sayings.",
+    "taExample": "பழமையான சொலவடைகள்.",
+    "taWord": "பழமையான / தேய்வழக்கான",
+    "pos": "adj.",
+    "synonyms": [
+      "Overused",
+      "Overworked",
+      "Clichéd"
+    ],
+    "antonyms": [
+      "Original",
+      "Fresh"
+    ]
+  },
+  {
+    "id": 817,
+    "word": "Halcyon",
+    "definition": "Denoting a period of time in the past that was idyllically happy and peaceful.",
+    "enExample": "The halcyon days of the mid-1980s.",
+    "taExample": "1980களின் நடுப்பகுதியில் அமைதியான நாட்கள்.",
+    "taWord": "அமைதியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Serene",
+      "Calm",
+      "Pleasant"
+    ],
+    "antonyms": [
+      "Troubled",
+      "Stormy"
+    ]
+  },
+  {
+    "id": 2790,
+    "word": "Hallucination",
+    "pos": "noun",
+    "definition": "A phenomenon where an AI language model generates convincing, grammatically fluent statements that are completely factually incorrect.",
+    "enExample": "The legal assistant generated a citation for a non-existent supreme court ruling due to an unchecked hallucination.",
+    "taWord": "பொய்யான/தவறான அனுமானம்",
+    "taExample": "உண்மைக்கு மாறான தவறான தகவல்களை உண்மை போல் செயற்கை நுண்ணறிவு மாதிரி உருவாக்கும் நிலை.",
+    "synonyms": [
+      "Confabulation",
+      "Model fabrication",
+      "Fact divergence"
+    ],
+    "antonyms": [
+      "Grounded accuracy",
+      "Verifiable factuality"
+    ]
+  },
+  {
     "id": 802,
     "word": "Halt",
     "definition": "Bring or come to an abrupt stop.",
@@ -47,6 +101,23 @@
     ]
   },
   {
+    "id": 2659,
+    "word": "Hard stop",
+    "definition": "A non-negotiable, strict time boundary when someone must leave a meeting or call.",
+    "enExample": "I have a hard stop at 3:00 PM for the client demo, so let's cover priority agenda items first.",
+    "taExample": "வாடிக்கையாளர் செயல்விளக்கத்திற்காக எனக்கு மதியம் 3:00 மணிக்கு கட்டாய வெளியேறும் நேரம் உள்ளது, எனவே முன்னுரிமை அம்சங்களை முதலில் விவாதிப்போம்.",
+    "taWord": "கட்டாய வெளியேறும் நேரம்",
+    "pos": "noun",
+    "synonyms": [
+      "Strict cutoff",
+      "Firm deadline"
+    ],
+    "antonyms": [
+      "Open-ended time",
+      "Flexibility"
+    ]
+  },
+  {
     "id": 804,
     "word": "Hardcode",
     "definition": "Fix (data or parameters) in a program in such a way that they cannot be altered without modifying the program.",
@@ -64,6 +135,40 @@
     ]
   },
   {
+    "id": 819,
+    "word": "Harmonious",
+    "definition": "Forming a pleasing or consistent whole without conflict.",
+    "enExample": "Color choices in UI design should create a harmonious visual structure.",
+    "taExample": "பயனர் இடைமுக வடிவமைப்பில் வண்ணத் தேர்வுகள் இணக்கமான பார்வை அமைப்பை உருவாக்க வேண்டும்.",
+    "taWord": "இணக்கமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Consistent",
+      "Balanced"
+    ],
+    "antonyms": [
+      "Discordant",
+      "Incompatible"
+    ]
+  },
+  {
+    "id": 815,
+    "word": "Harness",
+    "definition": "Control and make use of (natural resources), especially to produce energy.",
+    "enExample": "We need to harness the power of machine learning.",
+    "taExample": "இயந்திர கற்றலின் சக்தியை நாம் பயன்படுத்திக்கொள்ள வேண்டும்.",
+    "taWord": "பயன்படுத்திக்கொள்ளுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Utilize",
+      "Exploit"
+    ],
+    "antonyms": [
+      "Waste",
+      "Ignore"
+    ]
+  },
+  {
     "id": 805,
     "word": "Hash",
     "definition": "A mathematical algorithm that maps data of arbitrary size to a bit string of a fixed size.",
@@ -74,6 +179,23 @@
     "synonyms": [
       "Digest",
       "Checksum"
+    ]
+  },
+  {
+    "id": 820,
+    "word": "Hazardous",
+    "definition": "Risky; dangerous to health, security, or stability.",
+    "enExample": "Deploying untested code directly to production is hazardous.",
+    "taExample": "சோதிக்கப்படாத குறியீட்டை நேரடியாக உற்பத்திக்கு வரிசைப்படுத்துவது அபாயகரமானது.",
+    "taWord": "அபாயகரமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Risky",
+      "Dangerous"
+    ],
+    "antonyms": [
+      "Safe",
+      "Secure"
     ]
   },
   {
@@ -107,6 +229,77 @@
     ],
     "antonyms": [
       "Stack"
+    ]
+  },
+  {
+    "id": 2792,
+    "word": "Heartbeat Mechanism",
+    "pos": "noun",
+    "definition": "A periodic signal sent between distributed nodes to inform the cluster coordinator that the worker remains active and healthy.",
+    "enExample": "When three consecutive heartbeat signals were missed, Kubernetes automatically marked the worker node as unready.",
+    "taWord": "தொடர் துடிப்பு சமிக்ஞை",
+    "taExample": "சேவையகம் முறையாக இயங்கிக்கொண்டிருக்கிறது என்பதை உறுதிப்படுத்த அனுப்பப்படும் தொடர் சமிக்ஞை.",
+    "synonyms": [
+      "Keep-alive signal",
+      "Ping health check",
+      "Liveness pulse"
+    ],
+    "antonyms": [
+      "Dead silent node",
+      "Zombie process"
+    ]
+  },
+  {
+    "id": 829,
+    "word": "Heavy lifting",
+    "definition": "The most difficult, demanding, or complex part of a task.",
+    "enExample": "The database query does all the heavy lifting, so the frontend stays fast.",
+    "taExample": "தரவுத்தள வினவலே அனைத்து கடினமான வேலைகளையும் செய்கிறது, எனவே முன்பகுதி வேகமாக இருக்கும்.",
+    "taWord": "கடினமான வேலை / பெரும்பணி",
+    "pos": "noun",
+    "synonyms": [
+      "Hard work",
+      "Main effort",
+      "Bulk of the work"
+    ],
+    "antonyms": [
+      "Easy part",
+      "Trivial task"
+    ]
+  },
+  {
+    "id": 2791,
+    "word": "Heisenbug",
+    "pos": "noun",
+    "definition": "A notorious software bug that disappears or alters its behavior when you attempt to isolate, inspect, or debug it in development.",
+    "enExample": "Adding a logger statement caused the multithreaded race condition to vanish, creating a classic heisenbug.",
+    "taWord": "கண்டறிய முயலும்போது மறையும் பிழை",
+    "taExample": "சோதனை செய்யும்போது மறைந்து, உற்பத்தி சூழலில் மீண்டும் தோன்றும் விசித்திரமான பிழை.",
+    "synonyms": [
+      "Schroedinbug",
+      "Transient race bug",
+      "Ephemeral defect"
+    ],
+    "antonyms": [
+      "Deterministic bug",
+      "Reproducible defect"
+    ]
+  },
+  {
+    "id": 821,
+    "word": "Hesitate",
+    "definition": "Pause before saying or doing something, often due to uncertainty.",
+    "enExample": "Do not hesitate to reach out if you encounter build errors.",
+    "taExample": "உருவாக்க பிழைகளை நீங்கள் சந்தித்ததால் தொடர்பு கொள்ள தயங்க வேண்டாம்.",
+    "taWord": "தயங்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Pause",
+      "Waver"
+    ],
+    "antonyms": [
+      "Proceed",
+      "Decide"
     ]
   },
   {
@@ -144,6 +337,41 @@
     ]
   },
   {
+    "id": 2648,
+    "word": "Highkey",
+    "definition": "Openly, overtly, undeniably, or intensely; without any attempt at subtlety.",
+    "enExample": "We highkey need a complete rewrite of the authentication flow before the public launch.",
+    "taExample": "பொது வெளியீட்டிற்கு முன் அங்கீகார ஓட்டத்தை நாம் முற்றிலும் புதிதாக மாற்றி எழுதியே ஆகவேண்டும் என்பது மறுக்கமுடியாத உண்மை.",
+    "taWord": "வெளிப்படையாக / அப்பட்டமாக",
+    "pos": "adv.",
+    "synonyms": [
+      "Overtly",
+      "Blatantly",
+      "Undeniably"
+    ],
+    "antonyms": [
+      "Lowkey",
+      "Subtly"
+    ]
+  },
+  {
+    "id": 822,
+    "word": "Highlight",
+    "definition": "Draw special attention to or emphasize an important feature or text.",
+    "enExample": "Use active state styling to highlight the currently selected tab.",
+    "taExample": "தற்போது தேர்ந்தெடுக்கப்பட்ட தாவலை முன்னிலைப்படுத்த செயலில் உள்ள வடிவமைப்பு பாணியைப் பயன்படுத்தவும்.",
+    "taWord": "முன்னிலைப்படுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Emphasize",
+      "Accentuate"
+    ],
+    "antonyms": [
+      "Obscure",
+      "Ignore"
+    ]
+  },
+  {
     "id": 810,
     "word": "Hinder",
     "definition": "Create difficulties for (someone or something), resulting in delay or obstruction.",
@@ -161,6 +389,39 @@
     ]
   },
   {
+    "id": 823,
+    "word": "Honesty",
+    "definition": "The quality of being truthful, sincere, and free of deceit.",
+    "enExample": "Transparent communication and honesty strengthen remote team culture.",
+    "taExample": "வெளிப்படையான தகவல்தொடர்பு மற்றும் நேர்மை ஆகியவை தொலைதூரக் குழு கலாச்சாரத்தை வலுப்படுத்துகின்றன.",
+    "taWord": "நேர்மை",
+    "pos": "noun",
+    "synonyms": [
+      "Integrity",
+      "Truthfulness"
+    ],
+    "antonyms": [
+      "Dishonesty",
+      "Deceit"
+    ]
+  },
+  {
+    "id": 824,
+    "word": "Hospitality",
+    "definition": "The friendly and generous reception and entertainment of guests.",
+    "enExample": "The conference organizers showed wonderful hospitality to speakers.",
+    "taExample": "மாநாட்டின் அமைப்பாளர்கள் பேச்சாளர்களுக்கு அருமையான விருந்தோம்பலை வழங்கினர்.",
+    "taWord": "விருந்தோம்பல்",
+    "pos": "noun",
+    "synonyms": [
+      "Welcomeness",
+      "Warmth"
+    ],
+    "antonyms": [
+      "Hostility"
+    ]
+  },
+  {
     "id": 811,
     "word": "Host",
     "definition": "A computer or other device connected to a computer network.",
@@ -175,6 +436,93 @@
     "antonyms": [
       "Client",
       "Guest"
+    ]
+  },
+  {
+    "id": 825,
+    "word": "Hostile",
+    "definition": "Showing or feeling opposition or unfriendliness.",
+    "enExample": "A hostile network environment requires robust end-to-end encryption.",
+    "taExample": "ஒரு பகைமையான நெட்வொர்க் சூழலுக்கு வலுவான முனைக்கு முனை குறியாக்கம் தேவைப்படுகிறது.",
+    "taWord": "பகைமையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Unfriendly",
+      "Adverse"
+    ],
+    "antonyms": [
+      "Friendly",
+      "Welcoming"
+    ]
+  },
+  {
+    "id": 2694,
+    "word": "Hotfix",
+    "definition": "An emergency code patch deployed immediately to production to resolve a critical, live defect.",
+    "enExample": "The DevOps engineer pushed a hotfix at midnight to patch the SQL injection vulnerability.",
+    "taExample": "பாதுகாப்புக் குறைபாட்டைச் சரிசெய்ய டெவ்ஆப்ஸ் பொறியாளர் நள்ளிரவில் உடனடி அவசரத் திருத்தத்தை வெளியிட்டார்.",
+    "taWord": "உடனடி அவசரத் திருத்தம்",
+    "pos": "noun",
+    "synonyms": [
+      "Emergency patch",
+      "Quick fix",
+      "Live patch"
+    ],
+    "antonyms": [
+      "Scheduled release",
+      "Major version"
+    ]
+  },
+  {
+    "id": 818,
+    "word": "Hubris",
+    "definition": "Excessive pride or self-confidence.",
+    "enExample": "The self-assured hubris among economists was shaken in the late 1980s.",
+    "taExample": "பொருளாதார நிபுணர்களிடையேயான தன்னம்பிக்கை ஆணவம் 1980களின் பிற்பகுதியில் ஆட்டம் கண்டது.",
+    "taWord": "ஆணவம்",
+    "pos": "noun",
+    "synonyms": [
+      "Arrogance",
+      "Conceit",
+      "Haughtiness"
+    ],
+    "antonyms": [
+      "Humility",
+      "Modesty"
+    ]
+  },
+  {
+    "id": 826,
+    "word": "Humane",
+    "definition": "Having or showing compassion, kindness, or benevolence towards others.",
+    "enExample": "Designing humane technology respects user attention and mental wellbeing.",
+    "taExample": "மனிதநேயமுள்ள தொழில்நுட்பத்தை வடிவமைப்பது பயனரின் கவனத்தையும் மன நலத்தையும் மதிக்கிறது.",
+    "taWord": "மனிதநேயமுள்ள",
+    "pos": "adj.",
+    "synonyms": [
+      "Compassionate",
+      "Kind"
+    ],
+    "antonyms": [
+      "Inhumane",
+      "Cruel"
+    ]
+  },
+  {
+    "id": 827,
+    "word": "Humble",
+    "definition": "Having or showing a modest estimate of one's own importance.",
+    "enExample": "Great leaders remain humble and open to continuous learning.",
+    "taExample": "சிறந்த தலைவர்கள் பணிவுடனும் தொடர்ச்சியான கற்றலுக்குத் திறந்த மனதுடனும் இருக்கிறார்கள்.",
+    "taWord": "பணிவான / அடக்கமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Modest",
+      "Unassuming"
+    ],
+    "antonyms": [
+      "Arrogant",
+      "Proud"
     ]
   },
   {
@@ -225,229 +573,6 @@
     ]
   },
   {
-    "id": 815,
-    "word": "Harness",
-    "definition": "Control and make use of (natural resources), especially to produce energy.",
-    "enExample": "We need to harness the power of machine learning.",
-    "taExample": "இயந்திர கற்றலின் சக்தியை நாம் பயன்படுத்திக்கொள்ள வேண்டும்.",
-    "taWord": "பயன்படுத்திக்கொள்ளுதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Utilize",
-      "Exploit"
-    ],
-    "antonyms": [
-      "Waste",
-      "Ignore"
-    ]
-  },
-  {
-    "id": 816,
-    "word": "Hackneyed",
-    "definition": "(of a phrase or idea) lacking significance through having been overused.",
-    "enExample": "Hackneyed old sayings.",
-    "taExample": "பழமையான சொலவடைகள்.",
-    "taWord": "பழமையான / தேய்வழக்கான",
-    "pos": "adj.",
-    "synonyms": [
-      "Overused",
-      "Overworked",
-      "Clichéd"
-    ],
-    "antonyms": [
-      "Original",
-      "Fresh"
-    ]
-  },
-  {
-    "id": 817,
-    "word": "Halcyon",
-    "definition": "Denoting a period of time in the past that was idyllically happy and peaceful.",
-    "enExample": "The halcyon days of the mid-1980s.",
-    "taExample": "1980களின் நடுப்பகுதியில் அமைதியான நாட்கள்.",
-    "taWord": "அமைதியான",
-    "pos": "adj.",
-    "synonyms": [
-      "Serene",
-      "Calm",
-      "Pleasant"
-    ],
-    "antonyms": [
-      "Troubled",
-      "Stormy"
-    ]
-  },
-  {
-    "id": 818,
-    "word": "Hubris",
-    "definition": "Excessive pride or self-confidence.",
-    "enExample": "The self-assured hubris among economists was shaken in the late 1980s.",
-    "taExample": "பொருளாதார நிபுணர்களிடையேயான தன்னம்பிக்கை ஆணவம் 1980களின் பிற்பகுதியில் ஆட்டம் கண்டது.",
-    "taWord": "ஆணவம்",
-    "pos": "noun",
-    "synonyms": [
-      "Arrogance",
-      "Conceit",
-      "Haughtiness"
-    ],
-    "antonyms": [
-      "Humility",
-      "Modesty"
-    ]
-  },
-  {
-    "id": 819,
-    "word": "Harmonious",
-    "definition": "Forming a pleasing or consistent whole without conflict.",
-    "enExample": "Color choices in UI design should create a harmonious visual structure.",
-    "taExample": "பயனர் இடைமுக வடிவமைப்பில் வண்ணத் தேர்வுகள் இணக்கமான பார்வை அமைப்பை உருவாக்க வேண்டும்.",
-    "taWord": "இணக்கமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Consistent",
-      "Balanced"
-    ],
-    "antonyms": [
-      "Discordant",
-      "Incompatible"
-    ]
-  },
-  {
-    "id": 820,
-    "word": "Hazardous",
-    "definition": "Risky; dangerous to health, security, or stability.",
-    "enExample": "Deploying untested code directly to production is hazardous.",
-    "taExample": "சோதிக்கப்படாத குறியீட்டை நேரடியாக உற்பத்திக்கு வரிசைப்படுத்துவது அபாயகரமானது.",
-    "taWord": "அபாயகரமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Risky",
-      "Dangerous"
-    ],
-    "antonyms": [
-      "Safe",
-      "Secure"
-    ]
-  },
-  {
-    "id": 821,
-    "word": "Hesitate",
-    "definition": "Pause before saying or doing something, often due to uncertainty.",
-    "enExample": "Do not hesitate to reach out if you encounter build errors.",
-    "taExample": "உருவாக்க பிழைகளை நீங்கள் சந்தித்ததால் தொடர்பு கொள்ள தயங்க வேண்டாம்.",
-    "taWord": "தயங்குதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Pause",
-      "Waver"
-    ],
-    "antonyms": [
-      "Proceed",
-      "Decide"
-    ]
-  },
-  {
-    "id": 822,
-    "word": "Highlight",
-    "definition": "Draw special attention to or emphasize an important feature or text.",
-    "enExample": "Use active state styling to highlight the currently selected tab.",
-    "taExample": "தற்போது தேர்ந்தெடுக்கப்பட்ட தாவலை முன்னிலைப்படுத்த செயலில் உள்ள வடிவமைப்பு பாணியைப் பயன்படுத்தவும்.",
-    "taWord": "முன்னிலைப்படுத்துதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Emphasize",
-      "Accentuate"
-    ],
-    "antonyms": [
-      "Obscure",
-      "Ignore"
-    ]
-  },
-  {
-    "id": 823,
-    "word": "Honesty",
-    "definition": "The quality of being truthful, sincere, and free of deceit.",
-    "enExample": "Transparent communication and honesty strengthen remote team culture.",
-    "taExample": "வெளிப்படையான தகவல்தொடர்பு மற்றும் நேர்மை ஆகியவை தொலைதூரக் குழு கலாச்சாரத்தை வலுப்படுத்துகின்றன.",
-    "taWord": "நேர்மை",
-    "pos": "noun",
-    "synonyms": [
-      "Integrity",
-      "Truthfulness"
-    ],
-    "antonyms": [
-      "Dishonesty",
-      "Deceit"
-    ]
-  },
-  {
-    "id": 824,
-    "word": "Hospitality",
-    "definition": "The friendly and generous reception and entertainment of guests.",
-    "enExample": "The conference organizers showed wonderful hospitality to speakers.",
-    "taExample": "மாநாட்டின் அமைப்பாளர்கள் பேச்சாளர்களுக்கு அருமையான விருந்தோம்பலை வழங்கினர்.",
-    "taWord": "விருந்தோம்பல்",
-    "pos": "noun",
-    "synonyms": [
-      "Welcomeness",
-      "Warmth"
-    ],
-    "antonyms": [
-      "Hostility"
-    ]
-  },
-  {
-    "id": 825,
-    "word": "Hostile",
-    "definition": "Showing or feeling opposition or unfriendliness.",
-    "enExample": "A hostile network environment requires robust end-to-end encryption.",
-    "taExample": "ஒரு பகைமையான நெட்வொர்க் சூழலுக்கு வலுவான முனைக்கு முனை குறியாக்கம் தேவைப்படுகிறது.",
-    "taWord": "பகைமையான",
-    "pos": "adj.",
-    "synonyms": [
-      "Unfriendly",
-      "Adverse"
-    ],
-    "antonyms": [
-      "Friendly",
-      "Welcoming"
-    ]
-  },
-  {
-    "id": 826,
-    "word": "Humane",
-    "definition": "Having or showing compassion, kindness, or benevolence towards others.",
-    "enExample": "Designing humane technology respects user attention and mental wellbeing.",
-    "taExample": "மனிதநேயமுள்ள தொழில்நுட்பத்தை வடிவமைப்பது பயனரின் கவனத்தையும் மன நலத்தையும் மதிக்கிறது.",
-    "taWord": "மனிதநேயமுள்ள",
-    "pos": "adj.",
-    "synonyms": [
-      "Compassionate",
-      "Kind"
-    ],
-    "antonyms": [
-      "Inhumane",
-      "Cruel"
-    ]
-  },
-  {
-    "id": 827,
-    "word": "Humble",
-    "definition": "Having or showing a modest estimate of one's own importance.",
-    "enExample": "Great leaders remain humble and open to continuous learning.",
-    "taExample": "சிறந்த தலைவர்கள் பணிவுடனும் தொடர்ச்சியான கற்றலுக்குத் திறந்த மனதுடனும் இருக்கிறார்கள்.",
-    "taWord": "பணிவான / அடக்கமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Modest",
-      "Unassuming"
-    ],
-    "antonyms": [
-      "Arrogant",
-      "Proud"
-    ]
-  },
-  {
     "id": 828,
     "word": "Hypothetical",
     "definition": "Based on or serving as a hypothesis or supposed scenario.",
@@ -465,74 +590,23 @@
     ]
   },
   {
-    "id": 829,
-    "word": "Heavy lifting",
-    "definition": "The most difficult, demanding, or complex part of a task.",
-    "enExample": "The database query does all the heavy lifting, so the frontend stays fast.",
-    "taExample": "தரவுத்தள வினவலே அனைத்து கடினமான வேலைகளையும் செய்கிறது, எனவே முன்பகுதி வேகமாக இருக்கும்.",
-    "taWord": "கடினமான வேலை / பெரும்பணி",
+    "id": 2869,
+    "word": "Hegemony",
     "pos": "noun",
+    "definition": "Dominant political, economic, or military authority and leadership exercised by one nation over others.",
+    "enExample": "The summit addressed emerging regional alliances challenging traditional Western economic hegemony.",
+    "taWord": "மேலாதிக்கம் / ஆதிக்க தலைமை",
+    "taExample": "உலகளாவிய வர்த்தகத்தில் ஒரு நாட்டின் மேலாதிக்கத்தை குறைக்க புதிய கூட்டணிகள் உருவாயின.",
     "synonyms": [
-      "Hard work",
-      "Main effort",
-      "Bulk of the work"
+      "Dominance",
+      "Supremacy",
+      "Ascendancy",
+      "Mastery"
     ],
     "antonyms": [
-      "Easy part",
-      "Trivial task"
-    ]
-  },
-  {
-    "id": 2648,
-    "word": "Highkey",
-    "definition": "Openly, overtly, undeniably, or intensely; without any attempt at subtlety.",
-    "enExample": "We highkey need a complete rewrite of the authentication flow before the public launch.",
-    "taExample": "பொது வெளியீட்டிற்கு முன் அங்கீகார ஓட்டத்தை நாம் முற்றிலும் புதிதாக மாற்றி எழுதியே ஆகவேண்டும் என்பது மறுக்கமுடியாத உண்மை.",
-    "taWord": "வெளிப்படையாக / அப்பட்டமாக",
-    "pos": "adv.",
-    "synonyms": [
-      "Overtly",
-      "Blatantly",
-      "Undeniably"
-    ],
-    "antonyms": [
-      "Lowkey",
-      "Subtly"
-    ]
-  },
-  {
-    "id": 2659,
-    "word": "Hard stop",
-    "definition": "A non-negotiable, strict time boundary when someone must leave a meeting or call.",
-    "enExample": "I have a hard stop at 3:00 PM for the client demo, so let's cover priority agenda items first.",
-    "taExample": "வாடிக்கையாளர் செயல்விளக்கத்திற்காக எனக்கு மதியம் 3:00 மணிக்கு கட்டாய வெளியேறும் நேரம் உள்ளது, எனவே முன்னுரிமை அம்சங்களை முதலில் விவாதிப்போம்.",
-    "taWord": "கட்டாய வெளியேறும் நேரம்",
-    "pos": "noun",
-    "synonyms": [
-      "Strict cutoff",
-      "Firm deadline"
-    ],
-    "antonyms": [
-      "Open-ended time",
-      "Flexibility"
-    ]
-  },
-  {
-    "id": 2694,
-    "word": "Hotfix",
-    "definition": "An emergency code patch deployed immediately to production to resolve a critical, live defect.",
-    "enExample": "The DevOps engineer pushed a hotfix at midnight to patch the SQL injection vulnerability.",
-    "taExample": "பாதுகாப்புக் குறைபாட்டைச் சரிசெய்ய டெவ்ஆப்ஸ் பொறியாளர் நள்ளிரவில் உடனடி அவசரத் திருத்தத்தை வெளியிட்டார்.",
-    "taWord": "உடனடி அவசரத் திருத்தம்",
-    "pos": "noun",
-    "synonyms": [
-      "Emergency patch",
-      "Quick fix",
-      "Live patch"
-    ],
-    "antonyms": [
-      "Scheduled release",
-      "Major version"
+      "Subjugation",
+      "Egalitarianism",
+      "Multilateral balance"
     ]
   }
 ]

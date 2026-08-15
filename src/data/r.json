@@ -48,6 +48,23 @@
     ]
   },
   {
+    "id": 2813,
+    "word": "RAG",
+    "pos": "noun",
+    "definition": "Retrieval-Augmented Generation; an AI architecture that fetches relevant domain documents from external databases and injects them into LLM prompts.",
+    "enExample": "Our internal search uses RAG to provide accurate answers with direct source citations from our Confluence workspace.",
+    "taWord": "தேடல்சார் பதிலாக்கம்",
+    "taExample": "வெளிப்புற ஆவணங்களைத் தேடி எடுத்து அவற்றை அடிப்படையாகக் கொண்டு சரியான பதில்களை உருவாக்கும் செயற்கை நுண்ணறிவு முறை.",
+    "synonyms": [
+      "Retrieval augmented generation",
+      "Knowledge-augmented inference"
+    ],
+    "antonyms": [
+      "Un-grounded generation",
+      "Pure parametric recall"
+    ]
+  },
+  {
     "id": 1804,
     "word": "Random",
     "definition": "Lacking a definite plan, purpose, or pattern; unpredictable number generation in computing.",
@@ -96,6 +113,42 @@
     ]
   },
   {
+    "id": 2740,
+    "word": "Rate Limiting",
+    "pos": "noun",
+    "definition": "A traffic shaping technique that caps the frequency of incoming API requests from a client within a set timeframe to prevent abuse and denial of service.",
+    "taWord": "கோரிக்கை வேகக் கட்டுப்பாடு",
+    "enExample": "Our public endpoints enforce a rate limit of 100 requests per minute per API key using a token bucket algorithm.",
+    "taExample": "சேவையக நெரிசல் மற்றும் தவறான பயன்பாட்டைத் தடுக்க நிமிடத்திற்கு இத்தனை கோரிக்கைகள் மட்டுமே என Rate Limiting செய்யப்பட்டுள்ளது.",
+    "synonyms": [
+      "throttling",
+      "traffic shaping",
+      "token bucket limiter"
+    ],
+    "antonyms": [
+      "unbounded traffic",
+      "unrestricted throughput"
+    ]
+  },
+  {
+    "id": 2636,
+    "word": "Ratio",
+    "definition": "When a reply or counter-argument receives overwhelmingly more support than the original claim.",
+    "enExample": "The proposal to abandon TypeScript got instantly ratioed by the entire engineering team.",
+    "taExample": "டைப்ஸ்கிரிப்டை கைவிடுவதற்கான முன்மொழிவை ஒட்டுமொத்த பொறியியல் குழுவும் பெருவாரியான எதிர்ப்பால் நிராகரித்தது.",
+    "taWord": "பெரும்பான்மை எதிர்ப்பால் முறியடித்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Outvoted",
+      "Rebutted",
+      "Overruled"
+    ],
+    "antonyms": [
+      "Endorsed",
+      "Approved"
+    ]
+  },
+  {
     "id": 1807,
     "word": "Reactive",
     "definition": "A programming model where components automatically update in response to changes in underlying state or data streams.",
@@ -129,6 +182,41 @@
     "antonyms": [
       "Read-write",
       "Writable"
+    ]
+  },
+  {
+    "id": 2815,
+    "word": "Readiness Probe",
+    "pos": "noun",
+    "definition": "A Kubernetes container check that determines if a pod has completed warmup and is prepared to accept live user traffic.",
+    "enExample": "The readiness probe returns 200 OK only after the cache has been populated with product catalogs.",
+    "taWord": "சேவைக்கு தயார்நிலை ஆய்வு",
+    "taExample": "ஒரு சேவையகம் பயனர் கோரிக்கைகளை ஏற்க தயாராக உள்ளதா என்பதை உறுதி செய்யும் தானியங்கி ஆய்வு.",
+    "synonyms": [
+      "Traffic readiness check",
+      "Warmup verification probe"
+    ],
+    "antonyms": [
+      "Liveness probe",
+      "Cold request routing"
+    ]
+  },
+  {
+    "id": 1816,
+    "word": "Recalcitrant",
+    "definition": "Having an obstinately uncooperative attitude toward authority or discipline.",
+    "enExample": "A class of recalcitrant fifteen-year-olds.",
+    "taExample": "அடங்காத பதினைந்து வயதுடைய ஒரு வகுப்பு.",
+    "taWord": "அடங்காத",
+    "pos": "adj.",
+    "synonyms": [
+      "Uncooperative",
+      "Intractable",
+      "Insubordinate"
+    ],
+    "antonyms": [
+      "Docile",
+      "Compliant"
     ]
   },
   {
@@ -193,63 +281,39 @@
     ]
   },
   {
-    "id": 1813,
-    "word": "Render",
-    "definition": "Transforming raw data, templates, or geometry models into visible pixels or graphical output.",
-    "enExample": "React components re-render automatically whenever their internal state updates.",
-    "taExample": "ரியாக்ட் கூறுகள் அவற்றின் உள் நிலை புதுப்பிக்கப்படும் போதெல்லாம் தானாகவே மீண்டும் இயற்றுகின்றன (Re-render).",
-    "taWord": "இயற்றுதல் / வரைதல் (Render)",
-    "pos": "verb",
-    "synonyms": [
-      "Draw",
-      "Generate",
-      "Paint"
-    ]
-  },
-  {
-    "id": 1814,
-    "word": "Repository",
-    "definition": "A central storage location for tracking code files and complete revision history in version control systems.",
-    "enExample": "Clone the remote GitHub repository to set up your local development environment.",
-    "taExample": "உங்கள் உள்ளூர் மேம்பாட்டு சூழலை அமைக்க தொலைநிலை கிட்ஹப் களஞ்சியத்தை (Repository) க்ளோன் செய்யவும்.",
-    "taWord": "களஞ்சியம் (Repository)",
+    "id": 2706,
+    "word": "Regression",
+    "definition": "A software bug where a previously working feature breaks unintentionally after a recent code commit.",
+    "enExample": "Automated test suites run before every PR to catch regression bugs in the checkout flow.",
+    "taExample": "பணம் செலுத்தும் முறையில் பின்விளைவுப் பிழைகள் ஏற்படுவதைத் தடுக்க ஒவ்வொரு புல் ரிக்வெஸ்ட்டிற்கும் முன் சோதனைகள் இயங்குகின்றன.",
+    "taWord": "பின்விளைவுப் பிழை",
     "pos": "noun",
     "synonyms": [
-      "Repo",
-      "Vault",
-      "Archive"
-    ]
-  },
-  {
-    "id": 1815,
-    "word": "Route",
-    "definition": "A mapped path or URL endpoint defining how HTTP requests map to specific controller handlers.",
-    "enExample": "Define an Express API route for handling user registration POST requests.",
-    "taExample": "பயனர் பதிவுக் கோரிக்கைகளைக் கையாள ஒரு Express API வழியை (Route) வரையறுக்கவும்.",
-    "taWord": "வழி / URL பாதை",
-    "pos": "noun",
-    "synonyms": [
-      "Path",
-      "Endpoint",
-      "URL pattern"
-    ]
-  },
-  {
-    "id": 1816,
-    "word": "Recalcitrant",
-    "definition": "Having an obstinately uncooperative attitude toward authority or discipline.",
-    "enExample": "A class of recalcitrant fifteen-year-olds.",
-    "taExample": "அடங்காத பதினைந்து வயதுடைய ஒரு வகுப்பு.",
-    "taWord": "அடங்காத",
-    "pos": "adj.",
-    "synonyms": [
-      "Uncooperative",
-      "Intractable",
-      "Insubordinate"
+      "Relapse",
+      "Breakage",
+      "Retrograde bug"
     ],
     "antonyms": [
-      "Docile",
-      "Compliant"
+      "Improvement",
+      "Stability"
+    ]
+  },
+  {
+    "id": 2742,
+    "word": "Rehydration",
+    "pos": "noun",
+    "definition": "In server-side rendering (SSR), the client-side JavaScript process of attaching interactive DOM event listeners to static HTML rendered by the server.",
+    "taWord": "செயலூக்க மறுஇணைப்பு",
+    "enExample": "React rehydration completes within milliseconds, turning static HTML into a fully interactive single-page application.",
+    "taExample": "சர்வரில் இருந்து வந்த நிலையான HTML பக்கத்துடன் உலாவியின் JavaScript இணைந்து அதை ஊடாடும் பக்கமாக மாற்றும் முறை.",
+    "synonyms": [
+      "DOM hydration",
+      "event binding",
+      "client bootup"
+    ],
+    "antonyms": [
+      "static dehydration",
+      "pure HTML rendering"
     ]
   },
   {
@@ -268,6 +332,71 @@
     "antonyms": [
       "Promote",
       "Upgrade"
+    ]
+  },
+  {
+    "id": 1813,
+    "word": "Render",
+    "definition": "Transforming raw data, templates, or geometry models into visible pixels or graphical output.",
+    "enExample": "React components re-render automatically whenever their internal state updates.",
+    "taExample": "ரியாக்ட் கூறுகள் அவற்றின் உள் நிலை புதுப்பிக்கப்படும் போதெல்லாம் தானாகவே மீண்டும் இயற்றுகின்றன (Re-render).",
+    "taWord": "இயற்றுதல் / வரைதல் (Render)",
+    "pos": "verb",
+    "synonyms": [
+      "Draw",
+      "Generate",
+      "Paint"
+    ]
+  },
+  {
+    "id": 2628,
+    "word": "Rent-free",
+    "definition": "Occupying someone's thoughts persistently without any effort or reason.",
+    "enExample": "That unhandled null pointer exception has been living rent-free in my mind all weekend.",
+    "taExample": "அந்த கையாளப்படாத நல் பாயிண்டர் பிழை வார இறுதி முழுவதும் என் மனதில் இடைவிடாமல் ஓடிக்கொண்டே இருந்தது.",
+    "taWord": "மனதில் நீங்காமல் இருத்தல்",
+    "pos": "phrase",
+    "synonyms": [
+      "Obsessing",
+      "Preoccupying",
+      "Haunting"
+    ],
+    "antonyms": [
+      "Forgotten",
+      "Dismissed"
+    ]
+  },
+  {
+    "id": 1814,
+    "word": "Repository",
+    "definition": "A central storage location for tracking code files and complete revision history in version control systems.",
+    "enExample": "Clone the remote GitHub repository to set up your local development environment.",
+    "taExample": "உங்கள் உள்ளூர் மேம்பாட்டு சூழலை அமைக்க தொலைநிலை கிட்ஹப் களஞ்சியத்தை (Repository) க்ளோன் செய்யவும்.",
+    "taWord": "களஞ்சியம் (Repository)",
+    "pos": "noun",
+    "synonyms": [
+      "Repo",
+      "Vault",
+      "Archive"
+    ]
+  },
+  {
+    "id": 2741,
+    "word": "Resiliency",
+    "pos": "noun",
+    "definition": "The architectural capability of a software system to gracefully absorb disruptions, transient failures, and network partitions while maintaining service.",
+    "taWord": "மீள்திறன் / தடுமாற்றத்தைத் தாங்கும் ஆற்றல்",
+    "enExample": "Implementing automatic retries, fallback caches, and health checks improved the platform's resiliency during cloud regional outages.",
+    "taExample": "வலையமைப்பு துண்டிக்கப்பட்டாலும் மாற்று வழிகள் மூலம் இயங்கும் மீள்திறன் (Resiliency) மென்பொருளில் கட்டமைக்கப்பட்டது.",
+    "synonyms": [
+      "fault tolerance",
+      "robustness",
+      "graceful degradation"
+    ],
+    "antonyms": [
+      "brittleness",
+      "fragility",
+      "single point of failure"
     ]
   },
   {
@@ -303,20 +432,6 @@
     ]
   },
   {
-    "id": 1820,
-    "word": "Roadmap",
-    "definition": "A strategic plan or presentation outlining long-term goals, milestones, and release schedules.",
-    "enExample": "The product manager shared the Q3 technology roadmap during the all-hands presentation.",
-    "taExample": "தயாரிப்பு மேலாளர் அனைத்து உறுப்பினர்களின் கூட்டத்தில் Q3 தொழில்நுட்ப சாலைவரைபடத்தை (Roadmap) பகிர்ந்துகொண்டார்.",
-    "taWord": "சாலைவரைபடம் / திட்டப்பாதை (Roadmap)",
-    "pos": "noun",
-    "synonyms": [
-      "Strategy",
-      "Timeline",
-      "Milestone plan"
-    ]
-  },
-  {
     "id": 2619,
     "word": "Rizz",
     "definition": "Charisma, charm, or the natural ability to persuade, impress, or attract others.",
@@ -335,57 +450,34 @@
     ]
   },
   {
-    "id": 2628,
-    "word": "Rent-free",
-    "definition": "Occupying someone's thoughts persistently without any effort or reason.",
-    "enExample": "That unhandled null pointer exception has been living rent-free in my mind all weekend.",
-    "taExample": "அந்த கையாளப்படாத நல் பாயிண்டர் பிழை வார இறுதி முழுவதும் என் மனதில் இடைவிடாமல் ஓடிக்கொண்டே இருந்தது.",
-    "taWord": "மனதில் நீங்காமல் இருத்தல்",
-    "pos": "phrase",
+    "id": 2814,
+    "word": "RLHF",
+    "pos": "noun",
+    "definition": "Reinforcement Learning from Human Feedback; training method aligning AI models with human values, helpfulness, and safety preferences.",
+    "enExample": "RLHF fine-tuning transformed the raw base model into a polite, secure, and helpful chat assistant.",
+    "taWord": "மனித பின்னூட்டம் வழி கற்றல்",
+    "taExample": "மனிதர்களின் மதிப்பீடுகளை அடிப்படையாகக் கொண்டு செயற்கை நுண்ணறிவின் நடத்தை மற்றும் பாதுகாப்பை செம்மைப்படுத்தும் முறை.",
     "synonyms": [
-      "Obsessing",
-      "Preoccupying",
-      "Haunting"
+      "Human alignment training",
+      "Preference optimization"
     ],
     "antonyms": [
-      "Forgotten",
-      "Dismissed"
+      "Unsupervised pretraining",
+      "Raw token prediction"
     ]
   },
   {
-    "id": 2636,
-    "word": "Ratio",
-    "definition": "When a reply or counter-argument receives overwhelmingly more support than the original claim.",
-    "enExample": "The proposal to abandon TypeScript got instantly ratioed by the entire engineering team.",
-    "taExample": "டைப்ஸ்கிரிப்டை கைவிடுவதற்கான முன்மொழிவை ஒட்டுமொத்த பொறியியல் குழுவும் பெருவாரியான எதிர்ப்பால் நிராகரித்தது.",
-    "taWord": "பெரும்பான்மை எதிர்ப்பால் முறியடித்தல்",
+    "id": 1820,
+    "word": "Roadmap",
+    "definition": "A strategic plan or presentation outlining long-term goals, milestones, and release schedules.",
+    "enExample": "The product manager shared the Q3 technology roadmap during the all-hands presentation.",
+    "taExample": "தயாரிப்பு மேலாளர் அனைத்து உறுப்பினர்களின் கூட்டத்தில் Q3 தொழில்நுட்ப சாலைவரைபடத்தை (Roadmap) பகிர்ந்துகொண்டார்.",
+    "taWord": "சாலைவரைபடம் / திட்டப்பாதை (Roadmap)",
     "pos": "noun",
     "synonyms": [
-      "Outvoted",
-      "Rebutted",
-      "Overruled"
-    ],
-    "antonyms": [
-      "Endorsed",
-      "Approved"
-    ]
-  },
-  {
-    "id": 2670,
-    "word": "Runway",
-    "definition": "The amount of time a project or company can survive before running out of funding or resources.",
-    "enExample": "With our current cloud spend and developer burn rate, the startup has twelve months of runway.",
-    "taExample": "தற்போதைய கிளவுட் செலவுகள் மற்றும் செயல்பாட்டுச் செலவுகளின்படி, நிறுவனத்திற்கு பன்னிரண்டு மாத கால நிதி இருப்பு உள்ளது.",
-    "taWord": "நிதி இருப்புக்காலம்",
-    "pos": "noun",
-    "synonyms": [
-      "Cash buffer",
-      "Survival timeframe",
-      "Operational lifespan"
-    ],
-    "antonyms": [
-      "Insolvency",
-      "Bankruptcy"
+      "Strategy",
+      "Timeline",
+      "Milestone plan"
     ]
   },
   {
@@ -407,76 +499,255 @@
     ]
   },
   {
-    "id": 2706,
-    "word": "Regression",
-    "definition": "A software bug where a previously working feature breaks unintentionally after a recent code commit.",
-    "enExample": "Automated test suites run before every PR to catch regression bugs in the checkout flow.",
-    "taExample": "பணம் செலுத்தும் முறையில் பின்விளைவுப் பிழைகள் ஏற்படுவதைத் தடுக்க ஒவ்வொரு புல் ரிக்வெஸ்ட்டிற்கும் முன் சோதனைகள் இயங்குகின்றன.",
-    "taWord": "பின்விளைவுப் பிழை",
+    "id": 1815,
+    "word": "Route",
+    "definition": "A mapped path or URL endpoint defining how HTTP requests map to specific controller handlers.",
+    "enExample": "Define an Express API route for handling user registration POST requests.",
+    "taExample": "பயனர் பதிவுக் கோரிக்கைகளைக் கையாள ஒரு Express API வழியை (Route) வரையறுக்கவும்.",
+    "taWord": "வழி / URL பாதை",
     "pos": "noun",
     "synonyms": [
-      "Relapse",
-      "Breakage",
-      "Retrograde bug"
-    ],
-    "antonyms": [
-      "Improvement",
-      "Stability"
+      "Path",
+      "Endpoint",
+      "URL pattern"
     ]
   },
   {
-    "id": 2740,
-    "word": "Rate Limiting",
+    "id": 2816,
+    "word": "Rubber Ducking",
     "pos": "noun",
-    "definition": "A traffic shaping technique that caps the frequency of incoming API requests from a client within a set timeframe to prevent abuse and denial of service.",
-    "taWord": "கோரிக்கை வேகக் கட்டுப்பாடு",
-    "enExample": "Our public endpoints enforce a rate limit of 100 requests per minute per API key using a token bucket algorithm.",
-    "taExample": "சேவையக நெரிசல் மற்றும் தவறான பயன்பாட்டைத் தடுக்க நிமிடத்திற்கு இத்தனை கோரிக்கைகள் மட்டுமே என Rate Limiting செய்யப்பட்டுள்ளது.",
+    "definition": "The practice of debugging complex code by explaining logic line-by-line in plain English to an inanimate object or colleague.",
+    "enExample": "Ten minutes of rubber ducking with my desk figurine helped me discover the missing edge case in the recursive loop.",
+    "taWord": "விளக்கிப் பேசி தீர்வு காணுதல்",
+    "taExample": "நிரலின் ஒவ்வொரு வரியையும் சத்தமாக விளக்கிப் பேசுவதன் மூலம் சிக்கலை எளிதாக கண்டறியும் முறை.",
     "synonyms": [
-      "throttling",
-      "traffic shaping",
-      "token bucket limiter"
+      "Rubber duck debugging",
+      "Verbal line-by-line debugging"
     ],
     "antonyms": [
-      "unbounded traffic",
-      "unrestricted throughput"
+      "Silent frustration",
+      "Random code tinkering"
     ]
   },
   {
-    "id": 2741,
-    "word": "Resiliency",
+    "id": 2670,
+    "word": "Runway",
+    "definition": "The amount of time a project or company can survive before running out of funding or resources.",
+    "enExample": "With our current cloud spend and developer burn rate, the startup has twelve months of runway.",
+    "taExample": "தற்போதைய கிளவுட் செலவுகள் மற்றும் செயல்பாட்டுச் செலவுகளின்படி, நிறுவனத்திற்கு பன்னிரண்டு மாத கால நிதி இருப்பு உள்ளது.",
+    "taWord": "நிதி இருப்புக்காலம்",
     "pos": "noun",
-    "definition": "The architectural capability of a software system to gracefully absorb disruptions, transient failures, and network partitions while maintaining service.",
-    "taWord": "மீள்திறன் / தடுமாற்றத்தைத் தாங்கும் ஆற்றல்",
-    "enExample": "Implementing automatic retries, fallback caches, and health checks improved the platform's resiliency during cloud regional outages.",
-    "taExample": "வலையமைப்பு துண்டிக்கப்பட்டாலும் மாற்று வழிகள் மூலம் இயங்கும் மீள்திறன் (Resiliency) மென்பொருளில் கட்டமைக்கப்பட்டது.",
     "synonyms": [
-      "fault tolerance",
-      "robustness",
-      "graceful degradation"
+      "Cash buffer",
+      "Survival timeframe",
+      "Operational lifespan"
     ],
     "antonyms": [
-      "brittleness",
-      "fragility",
-      "single point of failure"
+      "Insolvency",
+      "Bankruptcy"
     ]
   },
   {
-    "id": 2742,
-    "word": "Rehydration",
+    "id": 2838,
+    "word": "Reprehension",
     "pos": "noun",
-    "definition": "In server-side rendering (SSR), the client-side JavaScript process of attaching interactive DOM event listeners to static HTML rendered by the server.",
-    "taWord": "செயலூக்க மறுஇணைப்பு",
-    "enExample": "React rehydration completes within milliseconds, turning static HTML into a fully interactive single-page application.",
-    "taExample": "சர்வரில் இருந்து வந்த நிலையான HTML பக்கத்துடன் உலாவியின் JavaScript இணைந்து அதை ஊடாடும் பக்கமாக மாற்றும் முறை.",
+    "definition": "The expression of severe blame, official disapproval, or stern rebuke for an act of wrongdoing.",
+    "enExample": "The governor's unilateral decision met with stern reprehension from constitutional scholars.",
+    "taWord": "கடுமையான கண்டனம் / கடிந்துகொள்ளுதல்",
+    "taExample": "ஆளுநரின் தன்னிச்சையான முடிவுக்கு சட்ட வல்லுநர்கள் கடுமையான கண்டனத்தை தெரிவித்தனர்.",
     "synonyms": [
-      "DOM hydration",
-      "event binding",
-      "client bootup"
+      "Condemnation",
+      "Censure",
+      "Reproach",
+      "Rebuke"
     ],
     "antonyms": [
-      "static dehydration",
-      "pure HTML rendering"
+      "Praise",
+      "Commendation",
+      "Endorsement",
+      "Appreciation"
+    ]
+  },
+  {
+    "id": 2839,
+    "word": "Repercussion",
+    "pos": "noun",
+    "definition": "An unintended, indirect, and often unwelcome consequence occurring sometime after an event or policy decision.",
+    "enExample": "The sudden trade embargo is expected to have severe economic repercussions across global supply chains.",
+    "taWord": "பின்னடைவு விளைவு / எதிர்விளைவு",
+    "taExample": "திடீர் வர்த்தகத் தடையானது உலகளாவிய விநியோகச் சங்கிலியில் கடுமையான எதிர்விளைவுகளை ஏற்படுத்தும்.",
+    "synonyms": [
+      "Fallout",
+      "Aftermath",
+      "Backlash",
+      "Ramification"
+    ],
+    "antonyms": [
+      "Cause",
+      "Origin",
+      "Inception",
+      "Source"
+    ]
+  },
+  {
+    "id": 2902,
+    "word": "Rapprochement",
+    "pos": "noun",
+    "definition": "An official reconciliation or restoration of peaceful diplomatic relations between hostile nations or factions.",
+    "enExample": "The historic peace summit marked an unexpected rapprochement between the two longtime adversaries.",
+    "taWord": "மீண்டும் சுமுக உறவு ஏற்படுதல் / சமரசம்",
+    "taExample": "நீண்டகாலமாக பகைமை பாராட்டிய இரு நாடுகளிடையே இந்த உச்சி மாநாடு சுமுக உறவை மீண்டும் ஏற்படுத்தியது.",
+    "synonyms": [
+      "Reconciliation",
+      "Detente",
+      "Peace accord",
+      "Thaw"
+    ],
+    "antonyms": [
+      "Estrangement",
+      "Rupture",
+      "Hostility",
+      "Alienation"
+    ]
+  },
+  {
+    "id": 2903,
+    "word": "Ratify",
+    "pos": "verb",
+    "definition": "To give formal, binding, and legal consent to a treaty, international pact, or constitutional amendment.",
+    "enExample": "The national senate voted overwhelmingly to ratify the global climate mitigation accord.",
+    "taWord": "முறைப்படி ஒப்புதல் அளித்தல் / உறுதிப்படுத்துதல்",
+    "taExample": "பருவநிலை மாற்ற சர்வதேச ஒப்பந்தத்திற்கு நாடாளுமன்றம் முறைப்படி ஒப்புதல் அளித்து உறுதிசெய்தது.",
+    "synonyms": [
+      "Confirm",
+      "Sanction",
+      "Endorse",
+      "Authorize"
+    ],
+    "antonyms": [
+      "Reject",
+      "Nullify",
+      "Repudiate",
+      "Veto"
+    ]
+  },
+  {
+    "id": 2904,
+    "word": "Recidivism",
+    "pos": "noun",
+    "definition": "The persistent tendency of a convicted criminal to relapse back into criminal offenses after release.",
+    "enExample": "The justice ministry invested heavily in vocational education to reduce youth prison recidivism.",
+    "taWord": "மீண்டும் குற்றச் செயல்களில் ஈடுபடுதல்",
+    "taExample": "சிறையிலிருந்து வெளியேறியவர்கள் மீண்டும் தவறு செய்வதைத் தடுக்க தொழிற்கல்வி பயிற்சிகள் வழங்கப்பட்டன.",
+    "synonyms": [
+      "Relapse into crime",
+      "Reoffending",
+      "Habitual delinquency"
+    ],
+    "antonyms": [
+      "Rehabilitation",
+      "Reformation",
+      "Law-abiding conduct"
+    ]
+  },
+  {
+    "id": 2905,
+    "word": "Reckoning",
+    "pos": "noun",
+    "definition": "A critical time of judgment when past wrongdoings, mistakes, or debts must be confronted and held to account.",
+    "enExample": "The investigative documentary brought a long-overdue corporate reckoning for the pharmaceutical giant.",
+    "taWord": "கணக்குத் தீர்க்கும் நேரம் / நீதி வழங்கப்படும் தருணம்",
+    "taExample": "செய்த தவறுகளுக்கு பொறுப்பேற்று தகுந்த தண்டனையை எதிர்கொள்ளும் தருணம் அந்நிறுவனத்திற்கு வந்தது.",
+    "synonyms": [
+      "Day of judgment",
+      "Accountability",
+      "Retribution",
+      "Settling of scores"
+    ],
+    "antonyms": [
+      "Impunity",
+      "Absolution",
+      "Evasion of blame"
+    ]
+  },
+  {
+    "id": 2906,
+    "word": "Redact",
+    "pos": "verb",
+    "definition": "To censor, black out, or obscure confidential, classified, or sensitive text before public release.",
+    "enExample": "The justice department released the special counsel report after redacting all grand jury secrets.",
+    "taWord": "ரகசிய விவரங்களை நீக்கி வெளியிடுதல்",
+    "taExample": "பாதுகாப்பு கருதி ரகசிய தகவல்களை கருப்பு மையிட்டு மறைத்த பிறகே அறிக்கை பொதுமக்களுக்கு வெளியிடப்பட்டது.",
+    "synonyms": [
+      "Censor",
+      "Obscure",
+      "Black out",
+      "Sanitize"
+    ],
+    "antonyms": [
+      "Disclose fully",
+      "Uncensor",
+      "Publish raw"
+    ]
+  },
+  {
+    "id": 2907,
+    "word": "Referendum",
+    "pos": "noun",
+    "definition": "A direct universal vote by the electorate on a single distinct political proposal or legislative amendment.",
+    "enExample": "Voters turned out in historic numbers to cast ballots in the landmark constitutional referendum.",
+    "taWord": "பொது வாக்கெடுப்பு",
+    "taExample": "அரசியலமைப்பு திருத்தம் தொடர்பாக நடைபெற்ற வரலாற்று சிறப்புமிக்க பொது வாக்கெடுப்பில் மக்கள் ஆர்வத்துடன் பங்கேற்றனர்.",
+    "synonyms": [
+      "Plebiscite",
+      "Popular ballot",
+      "Direct democratic vote"
+    ],
+    "antonyms": [
+      "Executive order",
+      "Parliamentary dictate"
+    ]
+  },
+  {
+    "id": 2908,
+    "word": "Retaliation",
+    "pos": "noun",
+    "definition": "The action of launching a counterstrike or inflicting harm in response to an attack or perceived injury.",
+    "enExample": "The military launched airstrikes in immediate retaliation for the embassy bomb attack.",
+    "taWord": "பழிவாங்கும் பதில் தாக்குதல் / எதிர் நடவடிக்கை",
+    "taExample": "தூதரகம் மீதான தாக்குதலுக்கு பதிலடியாக ராணுவம் உடனடி பதில் தாக்குதலை நடத்தியது.",
+    "synonyms": [
+      "Reprisal",
+      "Counterattack",
+      "Retribution",
+      "Vengeance"
+    ],
+    "antonyms": [
+      "Forgiveness",
+      "Pardon",
+      "Non-retaliation",
+      "Restraint"
+    ]
+  },
+  {
+    "id": 2909,
+    "word": "Rhetoric",
+    "pos": "noun",
+    "definition": "The art of persuasive language, often used in politics to sway crowds despite lacking sincerity or substance.",
+    "enExample": "Voters grew weary of empty campaign rhetoric that failed to address soaring inflation.",
+    "taWord": "சொல்லலங்காரப் பேச்சு / வெறும் வாய்வார்த்தை",
+    "taExample": "செயல்வடிவம் பெறாத வெறும் தேர்தல் சொல்லலங்காரப் பேச்சுகளை மக்கள் நிராகரிக்கத் தொடங்கினர்.",
+    "synonyms": [
+      "Oratory",
+      "Eloquence",
+      "Grandstanding",
+      "Bombast"
+    ],
+    "antonyms": [
+      "Substance",
+      "Plain speech",
+      "Concrete action",
+      "Truth"
     ]
   }
 ]

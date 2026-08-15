@@ -1,5 +1,86 @@
 [
   {
+    "id": 2316,
+    "word": "Wane",
+    "definition": "(of a state or feeling) decrease in vigor, power, or extent; become weaker.",
+    "enExample": "Confidence in the dollar waned.",
+    "taExample": "டாலர் மீதான நம்பிக்கை தேய்ந்தது.",
+    "taWord": "தேய் / குறை",
+    "pos": "verb",
+    "synonyms": [
+      "Decrease",
+      "Decline",
+      "Diminish"
+    ],
+    "antonyms": [
+      "Wax",
+      "Grow"
+    ]
+  },
+  {
+    "id": 2312,
+    "word": "Waterfall",
+    "definition": "A linear sequential project management methodology, or network loading behavior where requests block subsequent fetches.",
+    "enExample": "Avoid API call waterfalls by fetching independent user data requests concurrently using Promise.all.",
+    "taExample": "Promise.all ஐப் பயன்படுத்தி ஒரே நேரத்தில் தரவைக் கொண்டுவருவதன் மூலம் API நீர்வீழ்ச்சித் (Waterfall) தடையைத் தவிர்க்கவும்.",
+    "taWord": "நீர்வீழ்ச்சி முறை / தொடர் ஏற்றுதல்",
+    "pos": "noun",
+    "synonyms": [
+      "Sequential flow",
+      "Linear process"
+    ],
+    "antonyms": [
+      "Agile",
+      "Concurrent loading"
+    ]
+  },
+  {
+    "id": 2314,
+    "word": "WeakMap",
+    "definition": "A collection of key/value pairs in JavaScript where keys must be objects and are held as weak references for garbage collection.",
+    "enExample": "WeakMap is ideal for storing private metadata without creating memory leaks.",
+    "taExample": "நினைவகக் கசிவை உருவாக்காமல் தனிப்பட்ட மெட்டாடேட்டாவைச் சேமிக்க WeakMap மிகவும் உகந்தது.",
+    "taWord": "வீன்தொடர்பு வரைபடம் (WeakMap)",
+    "pos": "noun",
+    "synonyms": [
+      "Weak reference map"
+    ],
+    "antonyms": [
+      "Strong Reference Map"
+    ]
+  },
+  {
+    "id": 2748,
+    "word": "WebAssembly",
+    "pos": "noun",
+    "definition": "A low-level binary instruction format (Wasm) designed for executing high-performance portable code in web browsers at near-native speeds.",
+    "taWord": "இணைய பைனரி இயந்திர குறியீடு",
+    "enExample": "We compiled our C++ video rendering engine into WebAssembly to achieve 60 FPS real-time rendering inside Chrome.",
+    "taExample": "C++ நிரலை WebAssembly வடிவில் மாற்றி இணைய உலாவியிலேயே அதிவேகமாக இயங்கச் செய்தோம்.",
+    "synonyms": [
+      "Wasm",
+      "binary bytecode for web",
+      "near-native browser runtime"
+    ],
+    "antonyms": [
+      "interpreted scripting",
+      "uncompiled JS"
+    ]
+  },
+  {
+    "id": 2302,
+    "word": "WebGL",
+    "definition": "A JavaScript API for rendering interactive 2D and 3D computer graphics within HTML canvases without plugins.",
+    "enExample": "Three.js wraps low-level WebGL context primitives to render 3D scenes in web browsers.",
+    "taExample": "Three.js உலாவிக்குள் 3D காட்சிகளை வரைந்து காட்ட குறைந்த அளவிலான WebGL கூறுகளின் மீது எளிமையான இடைமுகத்தை வழங்குகிறது.",
+    "taWord": "இணைய கிராபிக்ஸ் நூலகம் (WebGL)",
+    "pos": "noun",
+    "synonyms": [
+      "3D canvas API",
+      "GPU context"
+    ]
+  },
+  {
     "id": 2301,
     "word": "Webhook",
     "definition": "An automated HTTP POST callback triggered by server events to transmit real-time data notifications to external systems.",
@@ -17,16 +98,16 @@
     ]
   },
   {
-    "id": 2302,
-    "word": "WebGL",
-    "definition": "A JavaScript API for rendering interactive 2D and 3D computer graphics within HTML canvases without plugins.",
-    "enExample": "Three.js wraps low-level WebGL context primitives to render 3D scenes in web browsers.",
-    "taExample": "Three.js உலாவிக்குள் 3D காட்சிகளை வரைந்து காட்ட குறைந்த அளவிலான WebGL கூறுகளின் மீது எளிமையான இடைமுகத்தை வழங்குகிறது.",
-    "taWord": "இணைய கிராபிக்ஸ் நூலகம் (WebGL)",
+    "id": 2304,
+    "word": "Webpack",
+    "definition": "A static module bundler for modern JavaScript applications that packages modules and assets into browser bundles.",
+    "enExample": "Webpack processes CSS modules, images, and TypeScript files into optimized asset bundles.",
+    "taExample": "வெப்பேக் (Webpack) CSS தொகுதிகள், படங்கள் மற்றும் டைப்ஸ்கிரிப்ட் கோப்புகளை உகந்ததாக்கப்பட்ட சொத்துத் மூட்டைகளாகச் செயலாக்குகிறது.",
+    "taWord": "வெப்பேக் / மாடியூல் கட்டுநர்",
     "pos": "noun",
     "synonyms": [
-      "3D canvas API",
-      "GPU context"
+      "Module bundler",
+      "Asset pipeline"
     ]
   },
   {
@@ -46,16 +127,21 @@
     ]
   },
   {
-    "id": 2304,
-    "word": "Webpack",
-    "definition": "A static module bundler for modern JavaScript applications that packages modules and assets into browser bundles.",
-    "enExample": "Webpack processes CSS modules, images, and TypeScript files into optimized asset bundles.",
-    "taExample": "வெப்பேக் (Webpack) CSS தொகுதிகள், படங்கள் மற்றும் டைப்ஸ்கிரிப்ட் கோப்புகளை உகந்ததாக்கப்பட்ட சொத்துத் மூட்டைகளாகச் செயலாக்குகிறது.",
-    "taWord": "வெப்பேக் / மாடியூல் கட்டுநர்",
-    "pos": "noun",
+    "id": 2319,
+    "word": "Wee",
+    "definition": "Little, small. Often used in Scottish and UK contexts to refer to something minor or small in scale.",
+    "enExample": "There's a wee bug in the layout, but we'll sort it out.",
+    "taExample": "தளவமைப்பில் ஒரு சிறிய (Wee) பிழை உள்ளது, ஆனால் நாங்கள் அதைச் சரிசெய்வோம்.",
+    "taWord": "சிறிய",
+    "pos": "adj.",
     "synonyms": [
-      "Module bundler",
-      "Asset pipeline"
+      "Small",
+      "Little",
+      "Tiny"
+    ],
+    "antonyms": [
+      "Huge",
+      "Massive"
     ]
   },
   {
@@ -70,6 +156,24 @@
       "Coefficient",
       "Font-weight",
       "Importance"
+    ]
+  },
+  {
+    "id": 2317,
+    "word": "Whimsical",
+    "definition": "Playfully quaint or fanciful, especially in an appealing and amusing way.",
+    "enExample": "A whimsical sense of humor.",
+    "taExample": "ஒரு விசித்திரமான நகைச்சுவை உணர்வு.",
+    "taWord": "விசித்திரமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Fanciful",
+      "Playful",
+      "Mischievous"
+    ],
+    "antonyms": [
+      "Serious",
+      "Practical"
     ]
   },
   {
@@ -106,6 +210,42 @@
     ]
   },
   {
+    "id": 2318,
+    "word": "Winsome",
+    "definition": "Attractive or appealing in appearance or character.",
+    "enExample": "A winsome smile.",
+    "taExample": "ஒரு கவர்ச்சியான புன்னகை.",
+    "taWord": "கவர்ச்சியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Appealing",
+      "Engaging",
+      "Charming"
+    ],
+    "antonyms": [
+      "Unattractive",
+      "Repellent"
+    ]
+  },
+  {
+    "id": 2682,
+    "word": "WIP",
+    "definition": "Work In Progress; items currently started but not yet completed, often capped by WIP limits.",
+    "enExample": "Setting a WIP limit of three tasks per developer reduced our context switching drastically.",
+    "taExample": "ஒரு டெவலப்பருக்கு மூன்று பணிகள் மட்டுமே என்ற வரம்பை அமைத்தது கவனச்சிதறலை பெருமளவு குறைத்தது.",
+    "taWord": "நடைமுறையில் உள்ள பணி",
+    "pos": "noun",
+    "synonyms": [
+      "Work in progress",
+      "Active tasks",
+      "In-flight work"
+    ],
+    "antonyms": [
+      "Completed work",
+      "Backlog"
+    ]
+  },
+  {
     "id": 2308,
     "word": "Wireframe",
     "definition": "A low-fidelity visual schematic outline representing the layout, content hierarchy, and navigational structure of a web page.",
@@ -139,51 +279,6 @@
     ]
   },
   {
-    "id": 2310,
-    "word": "Workflow",
-    "definition": "A sequence of automated or manual steps required to complete a complex business process or CI/CD deployment pipeline.",
-    "enExample": "GitHub Actions automates code linting and testing inside a defined YAML workflow.",
-    "taExample": "கிட்ஹப் ஆக்ஷன்ஸ் வரையறுக்கப்பட்ட YAML பணிப்பாய்வுக்குள் (Workflow) குறியீட்டு சோதனையைத் தானியங்குபடுத்துகிறது.",
-    "taWord": "பணிப்பாய்வு (Workflow)",
-    "pos": "noun",
-    "synonyms": [
-      "Pipeline",
-      "Process sequence",
-      "Automation"
-    ]
-  },
-  {
-    "id": 2311,
-    "word": "Wrapper",
-    "definition": "A helper component or function wrapping another code entity to provide a clean simplified API or added behavior.",
-    "enExample": "The Axios wrapper automatically attaches bearer authorization headers to outgoing HTTP requests.",
-    "taExample": "ஆக்சியோஸ் உறை (Axios wrapper) வெளிச்செல்லும் HTTP கோரிக்கைகளுடன் தானாகவே அங்கீகாரத் தலைப்புகளை இணைக்கிறது.",
-    "taWord": "உறை / மறைப்புக் கூறு (Wrapper)",
-    "pos": "noun",
-    "synonyms": [
-      "Adapter",
-      "Encapsulation",
-      "Decorator"
-    ]
-  },
-  {
-    "id": 2312,
-    "word": "Waterfall",
-    "definition": "A linear sequential project management methodology, or network loading behavior where requests block subsequent fetches.",
-    "enExample": "Avoid API call waterfalls by fetching independent user data requests concurrently using Promise.all.",
-    "taExample": "Promise.all ஐப் பயன்படுத்தி ஒரே நேரத்தில் தரவைக் கொண்டுவருவதன் மூலம் API நீர்வீழ்ச்சித் (Waterfall) தடையைத் தவிர்க்கவும்.",
-    "taWord": "நீர்வீழ்ச்சி முறை / தொடர் ஏற்றுதல்",
-    "pos": "noun",
-    "synonyms": [
-      "Sequential flow",
-      "Linear process"
-    ],
-    "antonyms": [
-      "Agile",
-      "Concurrent loading"
-    ]
-  },
-  {
     "id": 2313,
     "word": "Worker Thread",
     "definition": "In Node.js, an isolated thread capable of executing parallel CPU-intensive JavaScript operations.",
@@ -200,18 +295,17 @@
     ]
   },
   {
-    "id": 2314,
-    "word": "WeakMap",
-    "definition": "A collection of key/value pairs in JavaScript where keys must be objects and are held as weak references for garbage collection.",
-    "enExample": "WeakMap is ideal for storing private metadata without creating memory leaks.",
-    "taExample": "நினைவகக் கசிவை உருவாக்காமல் தனிப்பட்ட மெட்டாடேட்டாவைச் சேமிக்க WeakMap மிகவும் உகந்தது.",
-    "taWord": "வீன்தொடர்பு வரைபடம் (WeakMap)",
+    "id": 2310,
+    "word": "Workflow",
+    "definition": "A sequence of automated or manual steps required to complete a complex business process or CI/CD deployment pipeline.",
+    "enExample": "GitHub Actions automates code linting and testing inside a defined YAML workflow.",
+    "taExample": "கிட்ஹப் ஆக்ஷன்ஸ் வரையறுக்கப்பட்ட YAML பணிப்பாய்வுக்குள் (Workflow) குறியீட்டு சோதனையைத் தானியங்குபடுத்துகிறது.",
+    "taWord": "பணிப்பாய்வு (Workflow)",
     "pos": "noun",
     "synonyms": [
-      "Weak reference map"
-    ],
-    "antonyms": [
-      "Strong Reference Map"
+      "Pipeline",
+      "Process sequence",
+      "Automation"
     ]
   },
   {
@@ -229,111 +323,17 @@
     ]
   },
   {
-    "id": 2316,
-    "word": "Wane",
-    "definition": "(of a state or feeling) decrease in vigor, power, or extent; become weaker.",
-    "enExample": "Confidence in the dollar waned.",
-    "taExample": "டாலர் மீதான நம்பிக்கை தேய்ந்தது.",
-    "taWord": "தேய் / குறை",
-    "pos": "verb",
-    "synonyms": [
-      "Decrease",
-      "Decline",
-      "Diminish"
-    ],
-    "antonyms": [
-      "Wax",
-      "Grow"
-    ]
-  },
-  {
-    "id": 2317,
-    "word": "Whimsical",
-    "definition": "Playfully quaint or fanciful, especially in an appealing and amusing way.",
-    "enExample": "A whimsical sense of humor.",
-    "taExample": "ஒரு விசித்திரமான நகைச்சுவை உணர்வு.",
-    "taWord": "விசித்திரமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Fanciful",
-      "Playful",
-      "Mischievous"
-    ],
-    "antonyms": [
-      "Serious",
-      "Practical"
-    ]
-  },
-  {
-    "id": 2318,
-    "word": "Winsome",
-    "definition": "Attractive or appealing in appearance or character.",
-    "enExample": "A winsome smile.",
-    "taExample": "ஒரு கவர்ச்சியான புன்னகை.",
-    "taWord": "கவர்ச்சியான",
-    "pos": "adj.",
-    "synonyms": [
-      "Appealing",
-      "Engaging",
-      "Charming"
-    ],
-    "antonyms": [
-      "Unattractive",
-      "Repellent"
-    ]
-  },
-  {
-    "id": 2319,
-    "word": "Wee",
-    "definition": "Little, small. Often used in Scottish and UK contexts to refer to something minor or small in scale.",
-    "enExample": "There's a wee bug in the layout, but we'll sort it out.",
-    "taExample": "தளவமைப்பில் ஒரு சிறிய (Wee) பிழை உள்ளது, ஆனால் நாங்கள் அதைச் சரிசெய்வோம்.",
-    "taWord": "சிறிய",
-    "pos": "adj.",
-    "synonyms": [
-      "Small",
-      "Little",
-      "Tiny"
-    ],
-    "antonyms": [
-      "Huge",
-      "Massive"
-    ]
-  },
-  {
-    "id": 2682,
-    "word": "WIP",
-    "definition": "Work In Progress; items currently started but not yet completed, often capped by WIP limits.",
-    "enExample": "Setting a WIP limit of three tasks per developer reduced our context switching drastically.",
-    "taExample": "ஒரு டெவலப்பருக்கு மூன்று பணிகள் மட்டுமே என்ற வரம்பை அமைத்தது கவனச்சிதறலை பெருமளவு குறைத்தது.",
-    "taWord": "நடைமுறையில் உள்ள பணி",
+    "id": 2311,
+    "word": "Wrapper",
+    "definition": "A helper component or function wrapping another code entity to provide a clean simplified API or added behavior.",
+    "enExample": "The Axios wrapper automatically attaches bearer authorization headers to outgoing HTTP requests.",
+    "taExample": "ஆக்சியோஸ் உறை (Axios wrapper) வெளிச்செல்லும் HTTP கோரிக்கைகளுடன் தானாகவே அங்கீகாரத் தலைப்புகளை இணைக்கிறது.",
+    "taWord": "உறை / மறைப்புக் கூறு (Wrapper)",
     "pos": "noun",
     "synonyms": [
-      "Work in progress",
-      "Active tasks",
-      "In-flight work"
-    ],
-    "antonyms": [
-      "Completed work",
-      "Backlog"
-    ]
-  },
-  {
-    "id": 2748,
-    "word": "WebAssembly",
-    "pos": "noun",
-    "definition": "A low-level binary instruction format (Wasm) designed for executing high-performance portable code in web browsers at near-native speeds.",
-    "taWord": "இணைய பைனரி இயந்திர குறியீடு",
-    "enExample": "We compiled our C++ video rendering engine into WebAssembly to achieve 60 FPS real-time rendering inside Chrome.",
-    "taExample": "C++ நிரலை WebAssembly வடிவில் மாற்றி இணைய உலாவியிலேயே அதிவேகமாக இயங்கச் செய்தோம்.",
-    "synonyms": [
-      "Wasm",
-      "binary bytecode for web",
-      "near-native browser runtime"
-    ],
-    "antonyms": [
-      "interpreted scripting",
-      "uncompiled JS"
+      "Adapter",
+      "Encapsulation",
+      "Decorator"
     ]
   },
   {
@@ -352,6 +352,64 @@
     "antonyms": [
       "in-memory-only store",
       "unlogged mutations"
+    ]
+  },
+  {
+    "id": 2828,
+    "word": "Write-Ahead Logging",
+    "pos": "noun",
+    "definition": "A durability protocol ensuring database modifications are appended to a persistent disk log before changes are written to database data pages.",
+    "enExample": "PostgreSQL recovers effortlessly from unexpected power outages by replaying uncommitted transactions from the Write-Ahead Logging file.",
+    "taWord": "முன் பதிவு முறை",
+    "taExample": "தரவுத்தளத்தில் மாற்றங்களைச் செய்வதற்கு முன் பாதுகாப்பிற்காக ஒரு கோப்பில் வரிசையாக பதிவு செய்யும் முறை.",
+    "synonyms": [
+      "WAL",
+      "Redo logging",
+      "Journaling"
+    ],
+    "antonyms": [
+      "In-memory only write",
+      "Unbuffered direct write"
+    ]
+  },
+  {
+    "id": 2931,
+    "word": "Watershed Moment",
+    "pos": "noun",
+    "definition": "An event or historical milestone that marks an irreversible and critical turning point in policy or affairs.",
+    "enExample": "The signing of the cross-border digital privacy treaty was hailed as a watershed moment for internet rights.",
+    "taWord": "வரலாற்று திருப்புமுனை தருணம்",
+    "taExample": "டிஜிட்டல் தனியுரிமை ஒப்பந்தம் கையெழுத்தான நிகழ்வு இணைய வரலாற்றில் ஒரு முக்கிய திருப்புமுனையாக பார்க்கப்பட்டது.",
+    "synonyms": [
+      "Turning point",
+      "Landmark event",
+      "Milestone",
+      "Crossroads"
+    ],
+    "antonyms": [
+      "Non-event",
+      "Minor incident",
+      "Status quo marker"
+    ]
+  },
+  {
+    "id": 2932,
+    "word": "Whistleblower",
+    "pos": "noun",
+    "definition": "An insider who courageously exposes illicit, illegal, or corrupt activities occurring within an organization to authorities or media.",
+    "enExample": "Testimony from a corporate whistleblower revealed that the automaker intentionally falsified diesel emission data.",
+    "taWord": "முறைகேடுகளை வெளிக்கொண்டுவரும் துணிச்சலான நபர்",
+    "taExample": "நிறுவனத்திற்குள் நடந்த ரகசிய மாசு மோசடிகளை அந்த உள்ளக ஊழியர் பொதுமக்களுக்கு வெளிப்படுத்தினார்.",
+    "synonyms": [
+      "Informant",
+      "Leaker",
+      "Public interest exposer",
+      "Deep Throat"
+    ],
+    "antonyms": [
+      "Conspirator",
+      "Cover-up agent",
+      "Corrupt insider"
     ]
   }
 ]

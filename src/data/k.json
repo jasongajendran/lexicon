@@ -1,5 +1,58 @@
 [
   {
+    "id": 2691,
+    "word": "Kanban",
+    "definition": "A lean workflow management method designed to visualize work, maximize efficiency, and optimize continuous flow.",
+    "enExample": "Our platform operations team uses a Kanban board to manage ad-hoc infrastructure requests.",
+    "taExample": "எங்கள் உள்கட்டமைப்பு செயல்பாட்டுக் குழு எதிர்பாராத கோரிக்கைகளை நிர்வகிக்க கான்பன் பலகையைப் பயன்படுத்துகிறது.",
+    "taWord": "கான்பன் பணிப்பாய்வு முறை",
+    "pos": "noun",
+    "synonyms": [
+      "Visual workflow",
+      "Lean board",
+      "Continuous flow system"
+    ],
+    "antonyms": [
+      "Timeboxed batching"
+    ]
+  },
+  {
+    "id": 1116,
+    "word": "Keen",
+    "definition": "Having or showing eagerness or enthusiasm.",
+    "enExample": "Keen believers in the monetary system.",
+    "taExample": "பணவியல் அமைப்பில் கூர்மையான நம்பிக்கை கொண்டவர்கள்.",
+    "taWord": "கூர்மையான / ஆர்வமுள்ள",
+    "pos": "adj.",
+    "synonyms": [
+      "Eager",
+      "Anxious",
+      "Intent"
+    ],
+    "antonyms": [
+      "Apathetic",
+      "Reluctant"
+    ]
+  },
+  {
+    "id": 2727,
+    "word": "Keep-Alive",
+    "pos": "noun",
+    "definition": "A protocol header or heartbeat packet maintaining a single open TCP connection across multiple sequential HTTP requests to avoid handshake overhead.",
+    "taWord": "தொடர் இணைப்பு சமிக்ஞை",
+    "enExample": "Enabling HTTP Keep-Alive dramatically reduced socket connection latency on our mobile API gateways.",
+    "taExample": "HTTP Keep-Alive அமைப்பை இயக்கியதால் ஒவ்வொரு கோரிக்கைக்கும் புதிய இணைப்பு தொடங்கும் நேர விரயம் தவிர்க்கப்பட்டது.",
+    "synonyms": [
+      "persistent connection",
+      "heartbeat ping",
+      "TCP keepalive"
+    ],
+    "antonyms": [
+      "connection teardown",
+      "ephemeral socket"
+    ]
+  },
+  {
     "id": 1101,
     "word": "Kernel",
     "definition": "The core program of an operating system that has complete control over everything in the system.",
@@ -17,6 +70,24 @@
     ]
   },
   {
+    "id": 2726,
+    "word": "Kernel Space",
+    "pos": "noun",
+    "definition": "The protected memory region where the core operating system kernel executes, possessing direct, privileged access to system hardware.",
+    "taWord": "இயக்க முறைமை பிரதான நினைவக பகுதி",
+    "enExample": "System calls bridge the gap between user space applications and privileged drivers running in kernel space.",
+    "taExample": "கணினி பயன்பாடுகள் வன்பொருளை அணுகும்போது Kernel Space நினைவகத்துடன் கணினி அழைப்புகள் மூலம் தொடர்பு கொள்கின்றன.",
+    "synonyms": [
+      "privileged ring",
+      "ring 0",
+      "system space"
+    ],
+    "antonyms": [
+      "user space",
+      "application sandbox"
+    ]
+  },
+  {
     "id": 1102,
     "word": "Key",
     "definition": "A unique value used to identify records in a database or to encrypt and decrypt data.",
@@ -30,16 +101,21 @@
     ]
   },
   {
-    "id": 1103,
-    "word": "Keyframe",
-    "definition": "A location on a timeline that marks the beginning or end of a transition in animation.",
-    "enExample": "CSS keyframe animations enable smooth motion transitions.",
-    "taExample": "CSS கீபிரேம் அனிமேஷன்கள் மென்மையான இயக்க மாற்றங்களை சாத்தியமாக்குகின்றன.",
-    "taWord": "முதன்மை காட்சிச்சட்டகம் (Keyframe)",
+    "id": 2728,
+    "word": "Key Management Service",
     "pos": "noun",
+    "definition": "A cloud-hosted managed security service (KMS) that enables centralized creation, rotation, auditing, and deletion of cryptographic keys.",
+    "taWord": "மறைகுறியீட்டு சாவி மேலாண்மை சேவை",
+    "enExample": "Database backups were encrypted at rest with keys managed securely through AWS KMS.",
+    "taExample": "தரவுத்தளத்தின் காப்புப்பிரதிகள் KMS சேவை மூலம் நிர்வகிக்கப்படும் சாவிகளால் என்க்ரிப்ட் செய்யப்பட்டுள்ளன.",
     "synonyms": [
-      "Anchor point",
-      "Waypoint"
+      "KMS",
+      "crypto key vault",
+      "secrets manager"
+    ],
+    "antonyms": [
+      "hardcoded secrets",
+      "plaintext credentials"
     ]
   },
   {
@@ -56,6 +132,65 @@
     ],
     "antonyms": [
       "Relational"
+    ]
+  },
+  {
+    "id": 2724,
+    "word": "Key-Value Store",
+    "pos": "noun",
+    "definition": "A high-performance non-relational database storage paradigm that manages data as an associative array where each unique key maps to a specific value.",
+    "taWord": "சாவி-மதிப்பு தரவுத்தளம்",
+    "enExample": "We utilized Redis as an in-memory key-value store to cache live session tokens and user rate limits.",
+    "taExample": "பயனர் அமர்வுத் தகவல்களை அதிவேகமாக மீட்டெடுக்க Redis போன்ற சாவி-மதிப்பு தரவுத்தளத்தைப் பயன்படுத்தினோம்.",
+    "synonyms": [
+      "dictionary store",
+      "hash store",
+      "associative database"
+    ],
+    "antonyms": [
+      "relational table",
+      "graph database"
+    ]
+  },
+  {
+    "id": 1103,
+    "word": "Keyframe",
+    "definition": "A location on a timeline that marks the beginning or end of a transition in animation.",
+    "enExample": "CSS keyframe animations enable smooth motion transitions.",
+    "taExample": "CSS கீபிரேம் அனிமேஷன்கள் மென்மையான இயக்க மாற்றங்களை சாத்தியமாக்குகின்றன.",
+    "taWord": "முதன்மை காட்சிச்சட்டகம் (Keyframe)",
+    "pos": "noun",
+    "synonyms": [
+      "Anchor point",
+      "Waypoint"
+    ]
+  },
+  {
+    "id": 1114,
+    "word": "Keylock",
+    "definition": "A hardware or software mechanism used to lock access to specific controls.",
+    "enExample": "Enable keylock to avoid accidental touches during video playback.",
+    "taExample": "வீடியோ இயக்கத்தின் போது தற்செயலான தொடுதல்களைத் தவிர்க்க விசைப்பூட்டைப் பயன்படுத்தவும்.",
+    "taWord": "விசைப்பூட்டு",
+    "pos": "noun",
+    "synonyms": [
+      "Lockout",
+      "Protection"
+    ],
+    "antonyms": [
+      "Unlock"
+    ]
+  },
+  {
+    "id": 1111,
+    "word": "Keypair",
+    "definition": "A set of two linked cryptographic keys consisting of a public key and a private key.",
+    "enExample": "Generate an SSH keypair to authenticate securely with GitHub.",
+    "taExample": "கிட்ஹப் உடன் பாதுகாப்பாகச் சான்றளிக்க ஒரு SSH திறவுகோல் ஜோடியை உருவாக்கவும்.",
+    "taWord": "திறவுகோல் ஜோடி",
+    "pos": "noun",
+    "synonyms": [
+      "Asymmetric key set"
     ]
   },
   {
@@ -104,6 +239,24 @@
     ]
   },
   {
+    "id": 2725,
+    "word": "Kill Switch",
+    "pos": "noun",
+    "definition": "A remote mechanism, circuit breaker, or feature toggle designed to immediately deactivate a broken service or compromised feature in production without redeploying code.",
+    "taWord": "அவசர நிறுத்த அமைப்பு",
+    "enExample": "When the payment gateway started throwing 500 errors, our release team flipped the remote kill switch to prevent corrupted transactions.",
+    "taExample": "பணம் செலுத்தும் சேவையில் பிழை ஏற்பட்டவுடன், அவசர நிறுத்த அமைப்பு (Kill switch) மூலம் அந்த அம்சம் உடனடியாக முடக்கப்பட்டது.",
+    "synonyms": [
+      "emergency shutdown",
+      "circuit breaker",
+      "safety toggle"
+    ],
+    "antonyms": [
+      "auto-restart loop",
+      "hardcoded logic"
+    ]
+  },
+  {
     "id": 1108,
     "word": "Kilobyte",
     "definition": "A unit of memory or data storage capacity equal to 1,024 bytes.",
@@ -113,6 +266,63 @@
     "pos": "noun",
     "synonyms": [
       "KB"
+    ]
+  },
+  {
+    "id": 1113,
+    "word": "Kinetic",
+    "definition": "Relating to or resulting from motion in interactive physics-based UI design.",
+    "enExample": "Kinetic scrolling creates natural deceleration physics when dragging elements.",
+    "taExample": "இயக்கவியல் சுருள்வு (Kinetic scrolling) உருப்படிகளை இழுக்கும்போது இயல்பான வேகம் குறைப்பை உருவாக்குகிறது.",
+    "taWord": "இயக்கவியல் / நகர்வு சார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Dynamic",
+      "Motion-based"
+    ],
+    "antonyms": [
+      "Static"
+    ]
+  },
+  {
+    "id": 1112,
+    "word": "Kiosk",
+    "definition": "A system mode configured to run a single application with restricted user permissions.",
+    "enExample": "The museum terminal operates in full-screen kiosk mode.",
+    "taExample": "அருங்காட்சியக முனையம் முழுத் திரை கியோஸ்க் (Kiosk) முறையில் இயங்குகிறது.",
+    "taWord": "கியோஸ்க் / கட்டுப்பாட்டு முறைமை",
+    "pos": "noun",
+    "synonyms": [
+      "Locked-down interface"
+    ],
+    "antonyms": [
+      "Unrestricted OS"
+    ]
+  },
+  {
+    "id": 1115,
+    "word": "Knapsack",
+    "definition": "A classic combinatorial optimization algorithm problem in computer science.",
+    "enExample": "The 0/1 Knapsack problem can be solved efficiently using dynamic programming.",
+    "taExample": "0/1 நॅपசாக் சிக்கலை டைனமிக் புரோகிராமிங் மூலம் திறம்பட தீர்க்க முடியும்.",
+    "taWord": "பை அல்காரிதம் (Knapsack)",
+    "pos": "noun",
+    "synonyms": [
+      "Optimization problem"
+    ]
+  },
+  {
+    "id": 1117,
+    "word": "Knell",
+    "definition": "The sound of a bell, especially when rung solemnly for a death or funeral.",
+    "enExample": "The defeat sounded the death knell for the company.",
+    "taExample": "அந்தத் தோல்வி நிறுவனத்திற்கு சாவு மணியாக அமைந்தது.",
+    "taWord": "சாவு மணி",
+    "pos": "noun",
+    "synonyms": [
+      "Toll",
+      "Ringing",
+      "Chime"
     ]
   },
   {
@@ -145,109 +355,6 @@
     ]
   },
   {
-    "id": 1111,
-    "word": "Keypair",
-    "definition": "A set of two linked cryptographic keys consisting of a public key and a private key.",
-    "enExample": "Generate an SSH keypair to authenticate securely with GitHub.",
-    "taExample": "கிட்ஹப் உடன் பாதுகாப்பாகச் சான்றளிக்க ஒரு SSH திறவுகோல் ஜோடியை உருவாக்கவும்.",
-    "taWord": "திறவுகோல் ஜோடி",
-    "pos": "noun",
-    "synonyms": [
-      "Asymmetric key set"
-    ]
-  },
-  {
-    "id": 1112,
-    "word": "Kiosk",
-    "definition": "A system mode configured to run a single application with restricted user permissions.",
-    "enExample": "The museum terminal operates in full-screen kiosk mode.",
-    "taExample": "அருங்காட்சியக முனையம் முழுத் திரை கியோஸ்க் (Kiosk) முறையில் இயங்குகிறது.",
-    "taWord": "கியோஸ்க் / கட்டுப்பாட்டு முறைமை",
-    "pos": "noun",
-    "synonyms": [
-      "Locked-down interface"
-    ],
-    "antonyms": [
-      "Unrestricted OS"
-    ]
-  },
-  {
-    "id": 1113,
-    "word": "Kinetic",
-    "definition": "Relating to or resulting from motion in interactive physics-based UI design.",
-    "enExample": "Kinetic scrolling creates natural deceleration physics when dragging elements.",
-    "taExample": "இயக்கவியல் சுருள்வு (Kinetic scrolling) உருப்படிகளை இழுக்கும்போது இயல்பான வேகம் குறைப்பை உருவாக்குகிறது.",
-    "taWord": "இயக்கவியல் / நகர்வு சார்ந்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Dynamic",
-      "Motion-based"
-    ],
-    "antonyms": [
-      "Static"
-    ]
-  },
-  {
-    "id": 1114,
-    "word": "Keylock",
-    "definition": "A hardware or software mechanism used to lock access to specific controls.",
-    "enExample": "Enable keylock to avoid accidental touches during video playback.",
-    "taExample": "வீடியோ இயக்கத்தின் போது தற்செயலான தொடுதல்களைத் தவிர்க்க விசைப்பூட்டைப் பயன்படுத்தவும்.",
-    "taWord": "விசைப்பூட்டு",
-    "pos": "noun",
-    "synonyms": [
-      "Lockout",
-      "Protection"
-    ],
-    "antonyms": [
-      "Unlock"
-    ]
-  },
-  {
-    "id": 1115,
-    "word": "Knapsack",
-    "definition": "A classic combinatorial optimization algorithm problem in computer science.",
-    "enExample": "The 0/1 Knapsack problem can be solved efficiently using dynamic programming.",
-    "taExample": "0/1 நॅपசாக் சிக்கலை டைனமிக் புரோகிராமிங் மூலம் திறம்பட தீர்க்க முடியும்.",
-    "taWord": "பை அல்காரிதம் (Knapsack)",
-    "pos": "noun",
-    "synonyms": [
-      "Optimization problem"
-    ]
-  },
-  {
-    "id": 1116,
-    "word": "Keen",
-    "definition": "Having or showing eagerness or enthusiasm.",
-    "enExample": "Keen believers in the monetary system.",
-    "taExample": "பணவியல் அமைப்பில் கூர்மையான நம்பிக்கை கொண்டவர்கள்.",
-    "taWord": "கூர்மையான / ஆர்வமுள்ள",
-    "pos": "adj.",
-    "synonyms": [
-      "Eager",
-      "Anxious",
-      "Intent"
-    ],
-    "antonyms": [
-      "Apathetic",
-      "Reluctant"
-    ]
-  },
-  {
-    "id": 1117,
-    "word": "Knell",
-    "definition": "The sound of a bell, especially when rung solemnly for a death or funeral.",
-    "enExample": "The defeat sounded the death knell for the company.",
-    "taExample": "அந்தத் தோல்வி நிறுவனத்திற்கு சாவு மணியாக அமைந்தது.",
-    "taWord": "சாவு மணி",
-    "pos": "noun",
-    "synonyms": [
-      "Toll",
-      "Ringing",
-      "Chime"
-    ]
-  },
-  {
     "id": 1118,
     "word": "Kudos",
     "definition": "Praise and honor received for an achievement.",
@@ -263,113 +370,6 @@
     "antonyms": [
       "Dishonor",
       "Criticism"
-    ]
-  },
-  {
-    "id": 2691,
-    "word": "Kanban",
-    "definition": "A lean workflow management method designed to visualize work, maximize efficiency, and optimize continuous flow.",
-    "enExample": "Our platform operations team uses a Kanban board to manage ad-hoc infrastructure requests.",
-    "taExample": "எங்கள் உள்கட்டமைப்பு செயல்பாட்டுக் குழு எதிர்பாராத கோரிக்கைகளை நிர்வகிக்க கான்பன் பலகையைப் பயன்படுத்துகிறது.",
-    "taWord": "கான்பன் பணிப்பாய்வு முறை",
-    "pos": "noun",
-    "synonyms": [
-      "Visual workflow",
-      "Lean board",
-      "Continuous flow system"
-    ],
-    "antonyms": [
-      "Timeboxed batching"
-    ]
-  },
-  {
-    "id": 2724,
-    "word": "Key-Value Store",
-    "pos": "noun",
-    "definition": "A high-performance non-relational database storage paradigm that manages data as an associative array where each unique key maps to a specific value.",
-    "taWord": "சாவி-மதிப்பு தரவுத்தளம்",
-    "enExample": "We utilized Redis as an in-memory key-value store to cache live session tokens and user rate limits.",
-    "taExample": "பயனர் அமர்வுத் தகவல்களை அதிவேகமாக மீட்டெடுக்க Redis போன்ற சாவி-மதிப்பு தரவுத்தளத்தைப் பயன்படுத்தினோம்.",
-    "synonyms": [
-      "dictionary store",
-      "hash store",
-      "associative database"
-    ],
-    "antonyms": [
-      "relational table",
-      "graph database"
-    ]
-  },
-  {
-    "id": 2725,
-    "word": "Kill Switch",
-    "pos": "noun",
-    "definition": "A remote mechanism, circuit breaker, or feature toggle designed to immediately deactivate a broken service or compromised feature in production without redeploying code.",
-    "taWord": "அவசர நிறுத்த அமைப்பு",
-    "enExample": "When the payment gateway started throwing 500 errors, our release team flipped the remote kill switch to prevent corrupted transactions.",
-    "taExample": "பணம் செலுத்தும் சேவையில் பிழை ஏற்பட்டவுடன், அவசர நிறுத்த அமைப்பு (Kill switch) மூலம் அந்த அம்சம் உடனடியாக முடக்கப்பட்டது.",
-    "synonyms": [
-      "emergency shutdown",
-      "circuit breaker",
-      "safety toggle"
-    ],
-    "antonyms": [
-      "auto-restart loop",
-      "hardcoded logic"
-    ]
-  },
-  {
-    "id": 2726,
-    "word": "Kernel Space",
-    "pos": "noun",
-    "definition": "The protected memory region where the core operating system kernel executes, possessing direct, privileged access to system hardware.",
-    "taWord": "இயக்க முறைமை பிரதான நினைவக பகுதி",
-    "enExample": "System calls bridge the gap between user space applications and privileged drivers running in kernel space.",
-    "taExample": "கணினி பயன்பாடுகள் வன்பொருளை அணுகும்போது Kernel Space நினைவகத்துடன் கணினி அழைப்புகள் மூலம் தொடர்பு கொள்கின்றன.",
-    "synonyms": [
-      "privileged ring",
-      "ring 0",
-      "system space"
-    ],
-    "antonyms": [
-      "user space",
-      "application sandbox"
-    ]
-  },
-  {
-    "id": 2727,
-    "word": "Keep-Alive",
-    "pos": "noun",
-    "definition": "A protocol header or heartbeat packet maintaining a single open TCP connection across multiple sequential HTTP requests to avoid handshake overhead.",
-    "taWord": "தொடர் இணைப்பு சமிக்ஞை",
-    "enExample": "Enabling HTTP Keep-Alive dramatically reduced socket connection latency on our mobile API gateways.",
-    "taExample": "HTTP Keep-Alive அமைப்பை இயக்கியதால் ஒவ்வொரு கோரிக்கைக்கும் புதிய இணைப்பு தொடங்கும் நேர விரயம் தவிர்க்கப்பட்டது.",
-    "synonyms": [
-      "persistent connection",
-      "heartbeat ping",
-      "TCP keepalive"
-    ],
-    "antonyms": [
-      "connection teardown",
-      "ephemeral socket"
-    ]
-  },
-  {
-    "id": 2728,
-    "word": "Key Management Service",
-    "pos": "noun",
-    "definition": "A cloud-hosted managed security service (KMS) that enables centralized creation, rotation, auditing, and deletion of cryptographic keys.",
-    "taWord": "மறைகுறியீட்டு சாவி மேலாண்மை சேவை",
-    "enExample": "Database backups were encrypted at rest with keys managed securely through AWS KMS.",
-    "taExample": "தரவுத்தளத்தின் காப்புப்பிரதிகள் KMS சேவை மூலம் நிர்வகிக்கப்படும் சாவிகளால் என்க்ரிப்ட் செய்யப்பட்டுள்ளன.",
-    "synonyms": [
-      "KMS",
-      "crypto key vault",
-      "secrets manager"
-    ],
-    "antonyms": [
-      "hardcoded secrets",
-      "plaintext credentials"
     ]
   }
 ]

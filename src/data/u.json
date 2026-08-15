@@ -1,5 +1,41 @@
 [
   {
+    "id": 2116,
+    "word": "Ubiquitous",
+    "definition": "Present, appearing, or found everywhere.",
+    "enExample": "His ubiquitous influence was felt by all the family.",
+    "taExample": "அவரது எங்கும் நிறைந்த செல்வாக்கை குடும்பத்தினர் அனைவரும் உணர்ந்தனர்.",
+    "taWord": "எங்கும் நிறைந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Omnipresent",
+      "Everywhere",
+      "Pervasive"
+    ],
+    "antonyms": [
+      "Rare",
+      "Scarce"
+    ]
+  },
+  {
+    "id": 2745,
+    "word": "Ubiquitous Language",
+    "pos": "noun",
+    "definition": "A rigorous, shared terminology coined in Domain-Driven Design (DDD) used consistently between software engineers and non-technical domain experts.",
+    "taWord": "பொதுவான வணிக-தொழில்நுட்ப மொழி",
+    "enExample": "Establishing a ubiquitous language ensured our backend models used the exact same names as our finance department.",
+    "taExample": "வணிக நிபுணர்களும் நிரலாளர்களும் ஒரே வார்த்தைகளைப் பயன்படுத்தி குழப்பங்களை தவிர்க்கும் பொதுவான சொல்லகராதி.",
+    "synonyms": [
+      "domain vocabulary",
+      "shared terminology",
+      "DDD lexicon"
+    ],
+    "antonyms": [
+      "jargon disconnect",
+      "semantic mismatch"
+    ]
+  },
+  {
     "id": 2101,
     "word": "Unary",
     "definition": "An operation or operator taking exactly one operand in mathematical or programming expressions.",
@@ -14,6 +50,24 @@
     "antonyms": [
       "Binary",
       "Ternary"
+    ]
+  },
+  {
+    "id": 2746,
+    "word": "Unbounded Queue",
+    "pos": "noun",
+    "definition": "A queue data structure that has no predefined capacity limit, risking out-of-memory crashes if producers continuously outpace consumers.",
+    "taWord": "வரம்பற்ற வரிசை அமைப்பு",
+    "enExample": "Replacing the unbounded queue with a bounded buffer protected our worker services against memory exhaustion.",
+    "taExample": "வரம்பற்ற வரிசை அமைப்பிற்கு பதிலாக குறிப்பிட்ட அளவுடைய வரிசையை அமைத்து நினைவக முடக்கத்தைத் தவிர்த்தோம்.",
+    "synonyms": [
+      "infinite buffer",
+      "limitless queue"
+    ],
+    "antonyms": [
+      "bounded buffer",
+      "capped channel",
+      "ring buffer"
     ]
   },
   {
@@ -32,6 +86,24 @@
     "antonyms": [
       "Bundling",
       "Monolith"
+    ]
+  },
+  {
+    "id": 2117,
+    "word": "Uncanny",
+    "definition": "Strange or mysterious, especially in an unsettling way.",
+    "enExample": "An uncanny feeling that she was being watched.",
+    "taExample": "அவள் கண்காணிக்கப்படுகிறாள் என்ற விசித்திரமான உணர்வு.",
+    "taWord": "விசித்திரமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Eerie",
+      "Unnatural",
+      "Weird"
+    ],
+    "antonyms": [
+      "Normal",
+      "Ordinary"
     ]
   },
   {
@@ -234,56 +306,6 @@
     ]
   },
   {
-    "id": 2115,
-    "word": "Utility",
-    "definition": "A small, specialized helper function or program that performs a single routine task.",
-    "enExample": "Tailwind utility classes allow rapid UI styling directly inside HTML JSX templates.",
-    "taExample": "டெயில்விண்ட் பயன்பாட்டு (Utility) வகுப்புகள் HTML JSX டெம்ப்ளேட்களுக்குள் நேரடியாக விரைவான UI வடிவமைப்பை அனுமதிக்கின்றன.",
-    "taWord": "பயன்பாட்டுச் செயல்பாடு (Utility)",
-    "pos": "noun",
-    "synonyms": [
-      "Helper function",
-      "Tool",
-      "Routine"
-    ]
-  },
-  {
-    "id": 2116,
-    "word": "Ubiquitous",
-    "definition": "Present, appearing, or found everywhere.",
-    "enExample": "His ubiquitous influence was felt by all the family.",
-    "taExample": "அவரது எங்கும் நிறைந்த செல்வாக்கை குடும்பத்தினர் அனைவரும் உணர்ந்தனர்.",
-    "taWord": "எங்கும் நிறைந்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Omnipresent",
-      "Everywhere",
-      "Pervasive"
-    ],
-    "antonyms": [
-      "Rare",
-      "Scarce"
-    ]
-  },
-  {
-    "id": 2117,
-    "word": "Uncanny",
-    "definition": "Strange or mysterious, especially in an unsettling way.",
-    "enExample": "An uncanny feeling that she was being watched.",
-    "taExample": "அவள் கண்காணிக்கப்படுகிறாள் என்ற விசித்திரமான உணர்வு.",
-    "taWord": "விசித்திரமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Eerie",
-      "Unnatural",
-      "Weird"
-    ],
-    "antonyms": [
-      "Normal",
-      "Ordinary"
-    ]
-  },
-  {
     "id": 2118,
     "word": "Usurp",
     "definition": "Take (a position of power or importance) illegally or by force.",
@@ -302,39 +324,59 @@
     ]
   },
   {
-    "id": 2745,
-    "word": "Ubiquitous Language",
+    "id": 2115,
+    "word": "Utility",
+    "definition": "A small, specialized helper function or program that performs a single routine task.",
+    "enExample": "Tailwind utility classes allow rapid UI styling directly inside HTML JSX templates.",
+    "taExample": "டெயில்விண்ட் பயன்பாட்டு (Utility) வகுப்புகள் HTML JSX டெம்ப்ளேட்களுக்குள் நேரடியாக விரைவான UI வடிவமைப்பை அனுமதிக்கின்றன.",
+    "taWord": "பயன்பாட்டுச் செயல்பாடு (Utility)",
     "pos": "noun",
-    "definition": "A rigorous, shared terminology coined in Domain-Driven Design (DDD) used consistently between software engineers and non-technical domain experts.",
-    "taWord": "பொதுவான வணிக-தொழில்நுட்ப மொழி",
-    "enExample": "Establishing a ubiquitous language ensured our backend models used the exact same names as our finance department.",
-    "taExample": "வணிக நிபுணர்களும் நிரலாளர்களும் ஒரே வார்த்தைகளைப் பயன்படுத்தி குழப்பங்களை தவிர்க்கும் பொதுவான சொல்லகராதி.",
     "synonyms": [
-      "domain vocabulary",
-      "shared terminology",
-      "DDD lexicon"
-    ],
-    "antonyms": [
-      "jargon disconnect",
-      "semantic mismatch"
+      "Helper function",
+      "Tool",
+      "Routine"
     ]
   },
   {
-    "id": 2746,
-    "word": "Unbounded Queue",
-    "pos": "noun",
-    "definition": "A queue data structure that has no predefined capacity limit, risking out-of-memory crashes if producers continuously outpace consumers.",
-    "taWord": "வரம்பற்ற வரிசை அமைப்பு",
-    "enExample": "Replacing the unbounded queue with a bounded buffer protected our worker services against memory exhaustion.",
-    "taExample": "வரம்பற்ற வரிசை அமைப்பிற்கு பதிலாக குறிப்பிட்ட அளவுடைய வரிசையை அமைத்து நினைவக முடக்கத்தைத் தவிர்த்தோம்.",
+    "id": 2926,
+    "word": "Unprecedented",
+    "pos": "adj.",
+    "definition": "Never having happened, been done, or been known before in recorded history.",
+    "enExample": "The central bank took the unprecedented step of lowering lending interest rates to zero percent.",
+    "taWord": "முன்னெப்போதும் இல்லாத / வரலாறு காணாத",
+    "taExample": "வட்டி விகிதத்தை பூஜ்ஜியமாக குறைக்கும் முன்னெப்போதும் இல்லாத அதிரடி நடவடிக்கையை மத்திய வங்கி எடுத்தது.",
     "synonyms": [
-      "infinite buffer",
-      "limitless queue"
+      "Unparalleled",
+      "Novel",
+      "Extraordinary",
+      "Groundbreaking"
     ],
     "antonyms": [
-      "bounded buffer",
-      "capped channel",
-      "ring buffer"
+      "Precedented",
+      "Routine",
+      "Commonplace",
+      "Familiar"
+    ]
+  },
+  {
+    "id": 2927,
+    "word": "Upheaval",
+    "pos": "noun",
+    "definition": "A violent, sudden, and disruptive change or radical shift in society, politics, or financial systems.",
+    "enExample": "The military overthrow triggered months of severe civil upheaval across the capital city.",
+    "taWord": "தீவிர சமூக / அரசியல் கொந்தளிப்பு",
+    "taExample": "திடீர் ஆட்சி கவிழ்ப்பானது தலைநகர் முழுவதும் தீவிர மக்கள் கொந்தளிப்பையும் குழப்பத்தையும் ஏற்படுத்தியது.",
+    "synonyms": [
+      "Turmoil",
+      "Disruption",
+      "Convulsion",
+      "Cataclysm"
+    ],
+    "antonyms": [
+      "Stability",
+      "Status quo",
+      "Calm",
+      "Continuity"
     ]
   }
 ]

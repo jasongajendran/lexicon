@@ -1,5 +1,23 @@
 [
   {
+    "id": 1716,
+    "word": "Quagmire",
+    "definition": "An awkward, complex, or hazardous situation.",
+    "enExample": "A legal quagmire.",
+    "taExample": "ஒரு கடினமான சட்டச் சிக்கல் நிலை.",
+    "taWord": "கடினமான நிலை / சிக்கல்",
+    "pos": "noun",
+    "synonyms": [
+      "Muddle",
+      "Mess",
+      "Predicament"
+    ],
+    "antonyms": [
+      "Solution",
+      "Boon"
+    ]
+  },
+  {
     "id": 1701,
     "word": "Quality",
     "definition": "The degree to which software meets specified requirements and user expectations.",
@@ -18,6 +36,24 @@
     ]
   },
   {
+    "id": 2739,
+    "word": "Quality Gate",
+    "pos": "noun",
+    "definition": "A milestone check in a CI/CD build pipeline that enforces strict thresholds for code coverage, linting errors, and security vulnerabilities.",
+    "taWord": "தரக்கட்டுப்பாட்டு வாயில்",
+    "enExample": "The pull request was blocked by the quality gate because code coverage fell below the required 80 percent threshold.",
+    "taExample": "குறியீட்டின் தரம் மற்றும் சோதனைகள் நிர்ணயிக்கப்பட்ட அளவை எட்டாததால் Quality Gate மூலம் வெளியீடு தற்காலிகமாக நிறுத்தப்பட்டது.",
+    "synonyms": [
+      "pipeline milestone",
+      "build policy check",
+      "governance threshold"
+    ],
+    "antonyms": [
+      "unregulated deploy",
+      "bypassed check"
+    ]
+  },
+  {
     "id": 1702,
     "word": "Quantifier",
     "definition": "A element in regular expressions specifying the number of occurrences of a character or pattern.",
@@ -28,6 +64,23 @@
     "synonyms": [
       "Multiplier",
       "Repetition marker"
+    ]
+  },
+  {
+    "id": 2812,
+    "word": "Quantization",
+    "pos": "noun",
+    "definition": "The machine learning technique of compressing AI model weights from floating-point (FP16/FP32) to lower-bit integers (INT8/INT4) for fast inference.",
+    "enExample": "By applying 4-bit quantization, we ran a thirty-billion parameter model on a single consumer laptop with high throughput.",
+    "taWord": "மாதிரி சுருக்க முறை",
+    "taExample": "மாதிரியின் துல்லியத்தை பெரிதாக பாதிக்காமல் அதன் அளவையும் நினைவக தேவையையும் சுருக்கும் தொழில்நுட்பம்.",
+    "synonyms": [
+      "Weight compression",
+      "Low-bit precision quantization"
+    ],
+    "antonyms": [
+      "Full float32 precision",
+      "Uncompressed weights"
     ]
   },
   {
@@ -65,6 +118,24 @@
     ]
   },
   {
+    "id": 1717,
+    "word": "Quell",
+    "definition": "Put an end to (a rebellion or other disorder), typically by the use of force.",
+    "enExample": "Extra police were called to quell the disturbance.",
+    "taExample": "கலவரத்தை அடக்க கூடுதல் காவல்துறையினர் அழைக்கப்பட்டனர்.",
+    "taWord": "அடக்கு",
+    "pos": "verb",
+    "synonyms": [
+      "End",
+      "Crush",
+      "Quash"
+    ],
+    "antonyms": [
+      "Foment",
+      "Incite"
+    ]
+  },
+  {
     "id": 1705,
     "word": "Query",
     "definition": "A request for information from a database, search engine, or API endpoint.",
@@ -76,6 +147,37 @@
       "Request",
       "Search",
       "Fetch"
+    ]
+  },
+  {
+    "id": 2738,
+    "word": "Query Planner",
+    "pos": "noun",
+    "definition": "A database engine subsystem that analyzes SQL queries to determine the most computationally efficient access paths and index scans.",
+    "taWord": "வினவல் திட்டமிடல் என்ஜின்",
+    "enExample": "Examining the EXPLAIN output showed the query planner switching from a slow sequential scan to an index scan.",
+    "taExample": "தரவுத்தளத்தின் Query Planner குறியீட்டைப் பகுப்பாய்வு செய்து வினவலை அதிவேகமாக இயக்க சரியான வழியைத் தேர்ந்தெடுத்தது.",
+    "synonyms": [
+      "query optimizer",
+      "execution plan generator",
+      "cost-based optimizer"
+    ],
+    "antonyms": [
+      "blind sequential scanner",
+      "unindexed lookup"
+    ]
+  },
+  {
+    "id": 1711,
+    "word": "QueryString",
+    "definition": "The portion of a URL containing key-value parameters assigned after a question mark.",
+    "enExample": "Parse the URL queryString to extract search keywords and page numbers.",
+    "taExample": "தேடல் முக்கிய வார்த்தைகள் மற்றும் பக்க எண்களைப் பிரித்தெடுக்க URL வினவல் சரத்தை (QueryString) பாகுபடுத்துங்கள்.",
+    "taWord": "வினவல் சரம் (QueryString)",
+    "pos": "noun",
+    "synonyms": [
+      "URL params",
+      "Search string"
     ]
   },
   {
@@ -96,6 +198,24 @@
     ]
   },
   {
+    "id": 1712,
+    "word": "Quickfix",
+    "definition": "An immediate, temporary patch applied to resolve an urgent software bug.",
+    "enExample": "The developer applied a quickfix while preparing a comprehensive patch for the next sprint.",
+    "taExample": "அடுத்த ஸ்பிரிண்டிற்கான விரிவான இணைப்பைத் தயாரிக்கும் போது டெவலப்பர் ஒரு விரைவுத் தீர்வைப் (Quickfix) பயன்படுத்தினார்.",
+    "taWord": "விரைவுத் தீர்வு / தற்காலிக சரிசெய்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Hotfix",
+      "Patch",
+      "Workaround"
+    ],
+    "antonyms": [
+      "Permanent fix",
+      "Refactor"
+    ]
+  },
+  {
     "id": 1707,
     "word": "QuickSort",
     "definition": "An efficient divide-and-conquer sorting algorithm based on partitioning arrays around a pivot element.",
@@ -105,6 +225,76 @@
     "pos": "noun",
     "synonyms": [
       "Partition sort"
+    ]
+  },
+  {
+    "id": 1713,
+    "word": "Quiescent",
+    "definition": "A state of inactivity, dormancy, or stillness in a process, system, or circuit.",
+    "enExample": "Database connections enter a quiescent state when no incoming traffic is detected.",
+    "taExample": "உள்வரும் போக்குவரத்து கண்டறியப்படாதபோது தரவுத்தள இணைப்புகள் அமைதியான நிலைக்குச் (Quiescent) செல்கின்றன.",
+    "taWord": "செயலற்ற / அமைதியான நிலை",
+    "pos": "adj.",
+    "synonyms": [
+      "Dormant",
+      "Idle",
+      "Inactive"
+    ],
+    "antonyms": [
+      "Active",
+      "Busy"
+    ]
+  },
+  {
+    "id": 1715,
+    "word": "Quiet",
+    "definition": "Suppressing non-essential command line diagnostic output during automated script runs.",
+    "enExample": "Pass the --quiet flag to npm install to suppress detailed download progress logs.",
+    "taExample": "விரிவான பதிவுகளைத் தவிர்க்க npm install கட்டளையில் --quiet கொடியை வழங்கவும்.",
+    "taWord": "அமைதியான / வெளியீடற்ற முறை",
+    "pos": "adj.",
+    "synonyms": [
+      "Silent",
+      "Muted",
+      "Terse"
+    ],
+    "antonyms": [
+      "Verbose",
+      "Debug"
+    ]
+  },
+  {
+    "id": 1718,
+    "word": "Quixotic",
+    "definition": "Exceedingly idealistic; unrealistic and impractical.",
+    "enExample": "A vast and perhaps quixotic project.",
+    "taExample": "ஒரு பெரிய மற்றும் நடைமுறைக்கு ஒவ்வாத கற்பனைத் திட்டம்.",
+    "taWord": "நடைமுறைக்கு ஒவ்வாத கற்பனை",
+    "pos": "adj.",
+    "synonyms": [
+      "Idealistic",
+      "Romantic",
+      "Visionary"
+    ],
+    "antonyms": [
+      "Pragmatic",
+      "Practical"
+    ]
+  },
+  {
+    "id": 1714,
+    "word": "Quorum",
+    "definition": "The minimum number of votes or consensus nodes required to validate distributed database operations.",
+    "enExample": "A quorum of cluster nodes must agree before committing distributed transactions.",
+    "taExample": "விநியோகிக்கப்பட்ட பரிவர்த்தனைகளைச் செய்வதற்கு முன் கிளஸ்டர் முனைகளின் குறைந்தபட்ச ஒப்புதல் (Quorum) அவசியம்.",
+    "taWord": "குறைந்தபட்ச ஒப்புதல் (Quorum)",
+    "pos": "noun",
+    "synonyms": [
+      "Consensus majority",
+      "Minimum votes"
+    ],
+    "antonyms": [
+      "Minority"
     ]
   },
   {
@@ -153,179 +343,6 @@
     "antonyms": [
       "Product",
       "Remainder"
-    ]
-  },
-  {
-    "id": 1711,
-    "word": "QueryString",
-    "definition": "The portion of a URL containing key-value parameters assigned after a question mark.",
-    "enExample": "Parse the URL queryString to extract search keywords and page numbers.",
-    "taExample": "தேடல் முக்கிய வார்த்தைகள் மற்றும் பக்க எண்களைப் பிரித்தெடுக்க URL வினவல் சரத்தை (QueryString) பாகுபடுத்துங்கள்.",
-    "taWord": "வினவல் சரம் (QueryString)",
-    "pos": "noun",
-    "synonyms": [
-      "URL params",
-      "Search string"
-    ]
-  },
-  {
-    "id": 1712,
-    "word": "Quickfix",
-    "definition": "An immediate, temporary patch applied to resolve an urgent software bug.",
-    "enExample": "The developer applied a quickfix while preparing a comprehensive patch for the next sprint.",
-    "taExample": "அடுத்த ஸ்பிரிண்டிற்கான விரிவான இணைப்பைத் தயாரிக்கும் போது டெவலப்பர் ஒரு விரைவுத் தீர்வைப் (Quickfix) பயன்படுத்தினார்.",
-    "taWord": "விரைவுத் தீர்வு / தற்காலிக சரிசெய்தல்",
-    "pos": "noun",
-    "synonyms": [
-      "Hotfix",
-      "Patch",
-      "Workaround"
-    ],
-    "antonyms": [
-      "Permanent fix",
-      "Refactor"
-    ]
-  },
-  {
-    "id": 1713,
-    "word": "Quiescent",
-    "definition": "A state of inactivity, dormancy, or stillness in a process, system, or circuit.",
-    "enExample": "Database connections enter a quiescent state when no incoming traffic is detected.",
-    "taExample": "உள்வரும் போக்குவரத்து கண்டறியப்படாதபோது தரவுத்தள இணைப்புகள் அமைதியான நிலைக்குச் (Quiescent) செல்கின்றன.",
-    "taWord": "செயலற்ற / அமைதியான நிலை",
-    "pos": "adj.",
-    "synonyms": [
-      "Dormant",
-      "Idle",
-      "Inactive"
-    ],
-    "antonyms": [
-      "Active",
-      "Busy"
-    ]
-  },
-  {
-    "id": 1714,
-    "word": "Quorum",
-    "definition": "The minimum number of votes or consensus nodes required to validate distributed database operations.",
-    "enExample": "A quorum of cluster nodes must agree before committing distributed transactions.",
-    "taExample": "விநியோகிக்கப்பட்ட பரிவர்த்தனைகளைச் செய்வதற்கு முன் கிளஸ்டர் முனைகளின் குறைந்தபட்ச ஒப்புதல் (Quorum) அவசியம்.",
-    "taWord": "குறைந்தபட்ச ஒப்புதல் (Quorum)",
-    "pos": "noun",
-    "synonyms": [
-      "Consensus majority",
-      "Minimum votes"
-    ],
-    "antonyms": [
-      "Minority"
-    ]
-  },
-  {
-    "id": 1715,
-    "word": "Quiet",
-    "definition": "Suppressing non-essential command line diagnostic output during automated script runs.",
-    "enExample": "Pass the --quiet flag to npm install to suppress detailed download progress logs.",
-    "taExample": "விரிவான பதிவுகளைத் தவிர்க்க npm install கட்டளையில் --quiet கொடியை வழங்கவும்.",
-    "taWord": "அமைதியான / வெளியீடற்ற முறை",
-    "pos": "adj.",
-    "synonyms": [
-      "Silent",
-      "Muted",
-      "Terse"
-    ],
-    "antonyms": [
-      "Verbose",
-      "Debug"
-    ]
-  },
-  {
-    "id": 1716,
-    "word": "Quagmire",
-    "definition": "An awkward, complex, or hazardous situation.",
-    "enExample": "A legal quagmire.",
-    "taExample": "ஒரு கடினமான சட்டச் சிக்கல் நிலை.",
-    "taWord": "கடினமான நிலை / சிக்கல்",
-    "pos": "noun",
-    "synonyms": [
-      "Muddle",
-      "Mess",
-      "Predicament"
-    ],
-    "antonyms": [
-      "Solution",
-      "Boon"
-    ]
-  },
-  {
-    "id": 1717,
-    "word": "Quell",
-    "definition": "Put an end to (a rebellion or other disorder), typically by the use of force.",
-    "enExample": "Extra police were called to quell the disturbance.",
-    "taExample": "கலவரத்தை அடக்க கூடுதல் காவல்துறையினர் அழைக்கப்பட்டனர்.",
-    "taWord": "அடக்கு",
-    "pos": "verb",
-    "synonyms": [
-      "End",
-      "Crush",
-      "Quash"
-    ],
-    "antonyms": [
-      "Foment",
-      "Incite"
-    ]
-  },
-  {
-    "id": 1718,
-    "word": "Quixotic",
-    "definition": "Exceedingly idealistic; unrealistic and impractical.",
-    "enExample": "A vast and perhaps quixotic project.",
-    "taExample": "ஒரு பெரிய மற்றும் நடைமுறைக்கு ஒவ்வாத கற்பனைத் திட்டம்.",
-    "taWord": "நடைமுறைக்கு ஒவ்வாத கற்பனை",
-    "pos": "adj.",
-    "synonyms": [
-      "Idealistic",
-      "Romantic",
-      "Visionary"
-    ],
-    "antonyms": [
-      "Pragmatic",
-      "Practical"
-    ]
-  },
-  {
-    "id": 2738,
-    "word": "Query Planner",
-    "pos": "noun",
-    "definition": "A database engine subsystem that analyzes SQL queries to determine the most computationally efficient access paths and index scans.",
-    "taWord": "வினவல் திட்டமிடல் என்ஜின்",
-    "enExample": "Examining the EXPLAIN output showed the query planner switching from a slow sequential scan to an index scan.",
-    "taExample": "தரவுத்தளத்தின் Query Planner குறியீட்டைப் பகுப்பாய்வு செய்து வினவலை அதிவேகமாக இயக்க சரியான வழியைத் தேர்ந்தெடுத்தது.",
-    "synonyms": [
-      "query optimizer",
-      "execution plan generator",
-      "cost-based optimizer"
-    ],
-    "antonyms": [
-      "blind sequential scanner",
-      "unindexed lookup"
-    ]
-  },
-  {
-    "id": 2739,
-    "word": "Quality Gate",
-    "pos": "noun",
-    "definition": "A milestone check in a CI/CD build pipeline that enforces strict thresholds for code coverage, linting errors, and security vulnerabilities.",
-    "taWord": "தரக்கட்டுப்பாட்டு வாயில்",
-    "enExample": "The pull request was blocked by the quality gate because code coverage fell below the required 80 percent threshold.",
-    "taExample": "குறியீட்டின் தரம் மற்றும் சோதனைகள் நிர்ணயிக்கப்பட்ட அளவை எட்டாததால் Quality Gate மூலம் வெளியீடு தற்காலிகமாக நிறுத்தப்பட்டது.",
-    "synonyms": [
-      "pipeline milestone",
-      "build policy check",
-      "governance threshold"
-    ],
-    "antonyms": [
-      "unregulated deploy",
-      "bypassed check"
     ]
   }
 ]

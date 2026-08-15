@@ -1,5 +1,36 @@
 [
   {
+    "id": 308,
+    "word": "Cache",
+    "definition": "A collection of items of the same type stored in a hidden or inaccessible place.",
+    "enExample": "Clear the cache to see the latest changes.",
+    "taExample": "சமீபத்திய மாற்றங்களைக் காண தற்காலிக சேமிப்பை அழிக்கவும்.",
+    "taWord": "தற்காலிக சேமிப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Store",
+      "Buffer"
+    ]
+  },
+  {
+    "id": 2683,
+    "word": "Cadence",
+    "definition": "A rhythmic, predictable schedule and pattern of events, meetings, or release deployments.",
+    "enExample": "Our bi-weekly sprint cadence provides predictable delivery timelines to executive stakeholders.",
+    "taExample": "எங்கள் இருவார சுழற்சி முறைமை நிர்வாகப் பங்குதாரர்களுக்கு கணிக்கக்கூடிய வெளியீட்டு காலக்கெடுவை வழங்குகிறது.",
+    "taWord": "ஒழுங்குமுறை காலச் சுழற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Rhythm",
+      "Tempo",
+      "Regular schedule"
+    ],
+    "antonyms": [
+      "Erratic pace",
+      "Unpredictability"
+    ]
+  },
+  {
     "id": 301,
     "word": "Canonical",
     "definition": "According to recognized rules or scientific laws; the standard version.",
@@ -17,87 +48,304 @@
     ]
   },
   {
-    "id": 302,
-    "word": "Concurrently",
-    "definition": "At the same time; simultaneously.",
-    "enExample": "The tasks will run concurrently to save time.",
-    "taExample": "நேரத்தைச் சேமிக்க பணிகள் ஒரே நேரத்தில் இயங்கும்.",
-    "taWord": "ஒரே நேரத்தில்",
-    "pos": "adv.",
-    "synonyms": [
-      "Simultaneously",
-      "Together"
-    ],
-    "antonyms": [
-      "Sequentially",
-      "Serially"
-    ]
-  },
-  {
-    "id": 303,
-    "word": "Configure",
-    "definition": "Shape or put together in a particular form or configuration.",
-    "enExample": "Configure the server to accept HTTPS connections.",
-    "taExample": "HTTPS இணைப்புகளை ஏற்க சேவையகத்தை உள்ளமைக்கவும்.",
-    "taWord": "உள்ளமைத்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Set up",
-      "Arrange"
-    ],
-    "antonyms": [
-      "Dismantle"
-    ]
-  },
-  {
-    "id": 304,
-    "word": "Constraint",
-    "definition": "A limitation or restriction.",
-    "enExample": "Memory is a major constraint on this device.",
-    "taExample": "இந்தச் சாதனத்தில் நினைவகம் ஒரு முக்கியக் கட்டுப்பாடாகும்.",
-    "taWord": "கட்டுப்பாடு",
+    "id": 336,
+    "word": "Capacity",
+    "definition": "The maximum amount that something can contain, produce, or handle.",
+    "enExample": "The cache server is operating at maximum capacity.",
+    "taExample": "கேச் சேவையகம் அதிகபட்ச கொள்ளளவில் இயங்குகிறது.",
+    "taWord": "கொள்ளளவு / திறன்",
     "pos": "noun",
     "synonyms": [
-      "Limitation",
-      "Restriction"
-    ],
-    "antonyms": [
-      "Freedom",
-      "Liberty"
+      "Volume",
+      "Capability"
     ]
   },
   {
-    "id": 305,
-    "word": "Convoluted",
-    "definition": "Extremely complex and difficult to follow.",
-    "enExample": "This legacy code is too convoluted.",
-    "taExample": "இந்த பழைய குறியீடு மிகவும் சிக்கலானதாக உள்ளது.",
-    "taWord": "சிக்கலான",
+    "id": 326,
+    "word": "Capricious",
+    "definition": "Given to sudden and unaccountable changes of mood or behavior.",
+    "enExample": "A capricious and often brutal administration.",
+    "taExample": "கணிக்க முடியாத மற்றும் அடிக்கடி மிருகத்தனமான நிர்வாகம்.",
+    "taWord": "கணிக்க முடியாத",
     "pos": "adj.",
     "synonyms": [
-      "Complicated",
-      "Complex"
+      "Fickle",
+      "Inconstant",
+      "Variable"
     ],
     "antonyms": [
-      "Simple",
-      "Straightforward"
+      "Stable",
+      "Consistent"
     ]
   },
   {
-    "id": 306,
-    "word": "Correlate",
-    "definition": "Have a mutual relationship or connection.",
-    "enExample": "Can we correlate the errors with the recent deployment?",
-    "taExample": "சமீபத்திய வரிசைப்படுத்தலுடன் பிழைகளைத் தொடர்புபடுத்த முடியுமா?",
-    "taWord": "தொடர்புபடுத்துதல்",
+    "id": 309,
+    "word": "Cascade",
+    "definition": "A process whereby something, typically information or knowledge, is successively passed on.",
+    "enExample": "The database deletion will cascade to related records.",
+    "taExample": "தரவுத்தள நீக்கம் தொடர்புடைய பதிவுகளுக்கும் தொடர்ச்சியாகச் செல்லும்.",
+    "taWord": "தொடர்ச்சியாகச் செல்லுதல்",
     "pos": "verb",
     "synonyms": [
-      "Associate",
-      "Connect"
+      "Flow",
+      "Pour"
     ],
     "antonyms": [
-      "Disconnect",
-      "Separate"
+      "Halt"
+    ]
+  },
+  {
+    "id": 327,
+    "word": "Castigate",
+    "definition": "Reprimand (someone) severely.",
+    "enExample": "He was castigated for not setting a good example.",
+    "taExample": "ஒரு நல்ல முன்னுதாரணத்தை அமைக்காததற்காக அவர் கடுமையாக கண்டிக்கப்பட்டார்.",
+    "taWord": "கடுமையாக கண்டி",
+    "pos": "verb",
+    "synonyms": [
+      "Reprimand",
+      "Rebuke",
+      "Admonish"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commend"
+    ]
+  },
+  {
+    "id": 2687,
+    "word": "Ceremony",
+    "definition": "A structured, regular meeting in Agile Scrum (e.g., Standup, Planning, Review, Retrospective).",
+    "enExample": "Adhering to our agile ceremonies kept remote engineers synchronized across three time zones.",
+    "taExample": "சுறுசுறுப்பான சுழற்சி முறை கூட்டங்களை முறையாகக் கடைப்பிடித்தது தொலைதூர பொறியாளர்களை ஒரே நேர்க்கோட்டில் இணைத்தது.",
+    "taWord": "முறைப்படியான கூட்டுக்கூட்டம்",
+    "pos": "noun",
+    "synonyms": [
+      "Agile ritual",
+      "Scrum meeting",
+      "Structured cadence"
+    ],
+    "antonyms": [
+      "Ad-hoc chat"
+    ]
+  },
+  {
+    "id": 2764,
+    "word": "Chain-of-Thought",
+    "pos": "noun",
+    "definition": "A prompting technique enabling AI models to break complex reasoning into intermediate step-by-step logical deductions before concluding.",
+    "enExample": "By appending step-by-step chain-of-thought prompts, the model solved the mathematical proof with ninety percent accuracy.",
+    "taWord": "படிமுறை சிந்தனை தூண்டல்",
+    "taExample": "சிக்கலான கேள்விகளுக்கு விடையளிக்க படிப்படியான காரணங்களை விளக்குமாறு மாதிரிக்கு அறிவுறுத்தப்பட்டது.",
+    "synonyms": [
+      "Step-by-step reasoning",
+      "Iterative deduction",
+      "Thought scaffolding"
+    ],
+    "antonyms": [
+      "Direct answer",
+      "Shotgun guessing"
+    ]
+  },
+  {
+    "id": 2768,
+    "word": "Chaos Engineering",
+    "pos": "noun",
+    "definition": "The discipline of deliberately injecting simulated faults into production systems to uncover weaknesses and build fault tolerance.",
+    "enExample": "We run automated chaos engineering experiments weekly by randomly terminating Kubernetes pods during business hours.",
+    "taWord": "திட்டமிட்ட குறைபாட்டு சோதனை",
+    "taExample": "உற்பத்தி சூழலில் வேண்டுமென்றே தடங்கல்களை ஏற்படுத்தி அமைப்பின் மீள்தன்மையை சோதித்தோம்.",
+    "synonyms": [
+      "Failure injection",
+      "Resilience testing",
+      "Chaos testing"
+    ],
+    "antonyms": [
+      "Fragile deployment",
+      "Unmonitored runtime"
+    ]
+  },
+  {
+    "id": 2697,
+    "word": "CI/CD",
+    "definition": "Continuous Integration and Continuous Delivery/Deployment; automated pipelines for building, testing, and shipping code.",
+    "enExample": "Our GitHub Actions CI/CD pipeline automatically runs linters, unit tests, and deploys to staging.",
+    "taExample": "எங்கள் சிஐ/சிடி குழாய்வழியானது தானாகவே சோதனைகளை இயக்கி நிலைநிறுத்தல் சேவையகத்தில் வெளியிடுகிறது.",
+    "taWord": "தொடர் ஒருங்கிணைப்பு மற்றும் தொடர் விநியோகம்",
+    "pos": "noun",
+    "synonyms": [
+      "Automated pipeline",
+      "Build pipeline",
+      "Continuous delivery"
+    ],
+    "antonyms": [
+      "Manual deployment"
+    ]
+  },
+  {
+    "id": 2666,
+    "word": "Circle back",
+    "definition": "To return to or revisit a previously raised topic or question at a future time.",
+    "enExample": "Let me gather the latency telemetry logs and circle back to you by end of day.",
+    "taExample": "நான் செயல்திறன் தரவுகளைச் சேகரித்து, மாலைக்குள் உங்களிடம் மீண்டும் இதுபற்றிப் பேசுகிறேன்.",
+    "taWord": "மீண்டும் விவாதிக்கத் திரும்புதல்",
+    "pos": "idiom",
+    "synonyms": [
+      "Revisit",
+      "Follow up",
+      "Recheck"
+    ],
+    "antonyms": [
+      "Forget",
+      "Ignore"
+    ]
+  },
+  {
+    "id": 2766,
+    "word": "Circuit Breaker",
+    "pos": "noun",
+    "definition": "A software design pattern that automatically trips open to stop calling a failing dependency, returning fallback responses.",
+    "enExample": "The circuit breaker tripped immediately when the external SMS gateway failed, preventing application thread starvation.",
+    "taWord": "சுற்று முறிப்பான் முறை",
+    "taExample": "வெளிப்புற சேவை இயங்காத போது முழு பயன்பாடும் முடங்குவதைத் தடுக்க இந்த முறை பயன்பட்டது.",
+    "synonyms": [
+      "Fault isolator",
+      "Fail-fast safeguard",
+      "Cascade prevention"
+    ],
+    "antonyms": [
+      "Uncontrolled cascade",
+      "Blind retry loop"
+    ]
+  },
+  {
+    "id": 337,
+    "word": "Circumstance",
+    "definition": "A fact or condition connected with or relevant to an event or action.",
+    "enExample": "Under no circumstance should secret keys be committed to source control.",
+    "taExample": "எந்த சூழ்நிலையிலும் இரகசிய விசைகளை மூலக் கட்டுப்பாட்டில் சேர்க்கக் கூடாது.",
+    "taWord": "சூழ்நிலை / நிலைமை",
+    "pos": "noun",
+    "synonyms": [
+      "Situation",
+      "Condition"
+    ]
+  },
+  {
+    "id": 329,
+    "word": "Clarify",
+    "definition": "Make a statement or situation clearer and easier to understand.",
+    "enExample": "Please clarify the requirements for the API endpoint.",
+    "taExample": "API முனைக்கான தேவைகளை தெளிவுபடுத்தவும்.",
+    "taWord": "தெளிவுபடுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Explain",
+      "Elucidate"
+    ],
+    "antonyms": [
+      "Confuse",
+      "Obscure"
+    ]
+  },
+  {
+    "id": 310,
+    "word": "Clunky",
+    "definition": "Awkwardly solid, heavy, and outdated.",
+    "enExample": "The old user interface feels very clunky.",
+    "taExample": "பழைய பயனர் இடைமுகம் மிகவும் விகாரமாக (பழமையானதாக) உணர்கிறது.",
+    "taWord": "விகாரமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Awkward",
+      "Cumbersome"
+    ],
+    "antonyms": [
+      "Elegant",
+      "Streamlined"
+    ]
+  },
+  {
+    "id": 316,
+    "word": "Cluster",
+    "definition": "A group of similar things or people positioned or occurring closely together.",
+    "enExample": "We deployed the app to a Kubernetes cluster.",
+    "taExample": "நாங்கள் பயன்பாட்டை குபெர்னெட்டீஸ் கிளஸ்டரில் (கொத்தாக) வரிசைப்படுத்தினோம்.",
+    "taWord": "கொத்து",
+    "pos": "noun",
+    "synonyms": [
+      "Group",
+      "Batch"
+    ]
+  },
+  {
+    "id": 2631,
+    "word": "Clutch",
+    "definition": "Performing successfully in a critical, high-pressure, or last-minute moment.",
+    "enExample": "Her clutch hotfix at 11:59 PM prevented the payment gateway timeout during Cyber Monday.",
+    "taExample": "இரவு 11:59 மணிக்கு அவர் செய்த நெருக்கடி நேர பிழைத்திருத்தம் பணப்பரிவர்த்தனை செயலிழப்பை தடுத்தது.",
+    "taWord": "நெருக்கடி நேர வெற்றி",
+    "pos": "adj.",
+    "synonyms": [
+      "Decisive",
+      "Crucial",
+      "Timely"
+    ],
+    "antonyms": [
+      "Choking",
+      "Faltering"
+    ]
+  },
+  {
+    "id": 2710,
+    "word": "Code coverage",
+    "definition": "A software metric measuring the percentage of source code executed while running an automated test suite.",
+    "enExample": "Our pull request gating policy requires at least eighty-five percent code coverage before merging.",
+    "taExample": "இணைப்பதற்கு முன் எங்கள் அமைப்பிற்கு குறைந்தது எண்பத்தைந்து சதவீத குறியீட்டு சோதனைப் பாதுகாப்பு தேவைப்படுகிறது.",
+    "taWord": "குறியீட்டு சோதனைப் பாதுகாப்பு அளவு",
+    "pos": "noun",
+    "synonyms": [
+      "Test coverage",
+      "Line coverage",
+      "Branch coverage"
+    ],
+    "antonyms": [
+      "Untested code",
+      "Blind spots"
+    ]
+  },
+  {
+    "id": 2771,
+    "word": "Code Smell",
+    "pos": "noun",
+    "definition": "A symptom in source code that hints at deeper architectural flaws, tight coupling, or poor maintainability.",
+    "enExample": "A twelve-hundred line controller method with nested if-statements was a glaring code smell.",
+    "taWord": "குறியீட்டு குறைபாட்டின் அறிகுறி",
+    "taExample": "நிரலில் காணப்படும் தேவையற்ற நீளமும் குழப்பமும் அதன் பின்னணியில் உள்ள குறைபாட்டைக் காட்டுகிறது.",
+    "synonyms": [
+      "Design anti-pattern",
+      "Code flaw",
+      "Maintainability warning"
+    ],
+    "antonyms": [
+      "Clean architecture",
+      "Idiomatic code"
+    ]
+  },
+  {
+    "id": 317,
+    "word": "Cognitive",
+    "definition": "Relating to cognition; mental processes.",
+    "enExample": "Reduce the cognitive load on the user interface.",
+    "taExample": "பயனர் இடைமுகத்தில் அறிவாற்றல் சுமையைக் குறைக்கவும்.",
+    "taWord": "அறிவாற்றல்",
+    "pos": "adj.",
+    "synonyms": [
+      "Mental",
+      "Intellectual"
+    ],
+    "antonyms": [
+      "Physical"
     ]
   },
   {
@@ -118,49 +366,71 @@
     ]
   },
   {
-    "id": 308,
-    "word": "Cache",
-    "definition": "A collection of items of the same type stored in a hidden or inaccessible place.",
-    "enExample": "Clear the cache to see the latest changes.",
-    "taExample": "சமீபத்திய மாற்றங்களைக் காண தற்காலிக சேமிப்பை அழிக்கவும்.",
-    "taWord": "தற்காலிக சேமிப்பு",
+    "id": 2769,
+    "word": "Cold Start",
     "pos": "noun",
+    "definition": "The latency delay incurred when a serverless function executes on a freshly initialized container rather than a warm runtime.",
+    "enExample": "We configured provisioned concurrency on AWS Lambda to eradicate cold start delays on payment endpoints.",
+    "taWord": "முதன்முறை துவக்க தாமதம்",
+    "taExample": "புதிய சேவையக கொள்கலன் துவங்கும் போது ஏற்படும் சிறிய நேர தாமதத்தை குறைத்தோம்.",
     "synonyms": [
-      "Store",
-      "Buffer"
+      "Spin-up latency",
+      "Container warmup delay"
+    ],
+    "antonyms": [
+      "Warm container execution",
+      "Instant hot path"
     ]
   },
   {
-    "id": 309,
-    "word": "Cascade",
-    "definition": "A process whereby something, typically information or knowledge, is successively passed on.",
-    "enExample": "The database deletion will cascade to related records.",
-    "taExample": "தரவுத்தள நீக்கம் தொடர்புடைய பதிவுகளுக்கும் தொடர்ச்சியாகச் செல்லும்.",
-    "taWord": "தொடர்ச்சியாகச் செல்லுதல்",
+    "id": 330,
+    "word": "Collaborate",
+    "definition": "Work jointly with others on an activity or project.",
+    "enExample": "Frontend and backend teams collaborate closely on data schemas.",
+    "taExample": "முன்-இறுதி மற்றும் பின்-இறுதி அணிகள் தரவுத் திட்டங்களில் நெருக்கமாக இணைந்து செயல்படுகின்றன.",
+    "taWord": "இணைந்து செயல்படுதல்",
     "pos": "verb",
     "synonyms": [
-      "Flow",
-      "Pour"
+      "Cooperate",
+      "Partner"
     ],
     "antonyms": [
-      "Halt"
+      "Compete",
+      "Oppose"
     ]
   },
   {
-    "id": 310,
-    "word": "Clunky",
-    "definition": "Awkwardly solid, heavy, and outdated.",
-    "enExample": "The old user interface feels very clunky.",
-    "taExample": "பழைய பயனர் இடைமுகம் மிகவும் விகாரமாக (பழமையானதாக) உணர்கிறது.",
-    "taWord": "விகாரமான",
+    "id": 318,
+    "word": "Compatible",
+    "definition": "Able to exist or occur together without conflict.",
+    "enExample": "The new version is fully backward compatible.",
+    "taExample": "புதிய பதிப்பு பழைய பதிப்புகளுடன் முழுமையாக இணக்கமானது.",
+    "taWord": "இணக்கமான",
     "pos": "adj.",
     "synonyms": [
-      "Awkward",
-      "Cumbersome"
+      "Suited",
+      "Matching"
     ],
     "antonyms": [
-      "Elegant",
-      "Streamlined"
+      "Incompatible",
+      "Conflicting"
+    ]
+  },
+  {
+    "id": 338,
+    "word": "Compelling",
+    "definition": "Evoking interest, attention, or admiration in a powerfully convincing way.",
+    "enExample": "She presented a compelling business case for the architecture upgrade.",
+    "taExample": "கட்டமைப்பு மேம்பாட்டிற்காக அவள் ஒரு ஈர்க்கக்கூடிய வணிக காரணத்தை முன்வைத்தார்.",
+    "taWord": "ஈர்க்கக்கூடிய / கட்டாயப்படுத்தும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Convincing",
+      "Persuasive"
+    ],
+    "antonyms": [
+      "Unconvincing",
+      "Boring"
     ]
   },
   {
@@ -197,103 +467,6 @@
     ]
   },
   {
-    "id": 313,
-    "word": "Concatenate",
-    "definition": "Link (things) together in a chain or series.",
-    "enExample": "Concatenate the first and last name strings.",
-    "taExample": "முதல் மற்றும் கடைசிப் பெயர் சரங்களை ஒன்றிணைக்கவும்.",
-    "taWord": "ஒன்றிணைத்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Join",
-      "Link"
-    ],
-    "antonyms": [
-      "Separate",
-      "Split"
-    ]
-  },
-  {
-    "id": 314,
-    "word": "Consolidate",
-    "definition": "Make (something) physically stronger or more solid.",
-    "enExample": "We should consolidate our microservices into fewer repos.",
-    "taExample": "நமது மைக்ரோ சர்வீஸ்களைக் குறைவான களஞ்சியங்களில் ஒருங்கிணைக்க வேண்டும்.",
-    "taWord": "ஒருங்கிணைத்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Combine",
-      "Merge"
-    ],
-    "antonyms": [
-      "Separate",
-      "Divide"
-    ]
-  },
-  {
-    "id": 315,
-    "word": "Cryptic",
-    "definition": "Having a meaning that is mysterious or obscure.",
-    "enExample": "The error message is too cryptic for users.",
-    "taExample": "பிழை செய்தி பயனர்களுக்கு மிகவும் புரியாதவாறு உள்ளது.",
-    "taWord": "புரியாத",
-    "pos": "adj.",
-    "synonyms": [
-      "Mysterious",
-      "Obscure"
-    ],
-    "antonyms": [
-      "Clear",
-      "Obvious"
-    ]
-  },
-  {
-    "id": 316,
-    "word": "Cluster",
-    "definition": "A group of similar things or people positioned or occurring closely together.",
-    "enExample": "We deployed the app to a Kubernetes cluster.",
-    "taExample": "நாங்கள் பயன்பாட்டை குபெர்னெட்டீஸ் கிளஸ்டரில் (கொத்தாக) வரிசைப்படுத்தினோம்.",
-    "taWord": "கொத்து",
-    "pos": "noun",
-    "synonyms": [
-      "Group",
-      "Batch"
-    ]
-  },
-  {
-    "id": 317,
-    "word": "Cognitive",
-    "definition": "Relating to cognition; mental processes.",
-    "enExample": "Reduce the cognitive load on the user interface.",
-    "taExample": "பயனர் இடைமுகத்தில் அறிவாற்றல் சுமையைக் குறைக்கவும்.",
-    "taWord": "அறிவாற்றல்",
-    "pos": "adj.",
-    "synonyms": [
-      "Mental",
-      "Intellectual"
-    ],
-    "antonyms": [
-      "Physical"
-    ]
-  },
-  {
-    "id": 318,
-    "word": "Compatible",
-    "definition": "Able to exist or occur together without conflict.",
-    "enExample": "The new version is fully backward compatible.",
-    "taExample": "புதிய பதிப்பு பழைய பதிப்புகளுடன் முழுமையாக இணக்கமானது.",
-    "taWord": "இணக்கமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Suited",
-      "Matching"
-    ],
-    "antonyms": [
-      "Incompatible",
-      "Conflicting"
-    ]
-  },
-  {
     "id": 319,
     "word": "Component",
     "definition": "A part or element of a larger whole.",
@@ -308,190 +481,6 @@
     "antonyms": [
       "Whole",
       "Entirety"
-    ]
-  },
-  {
-    "id": 320,
-    "word": "Contingency",
-    "definition": "A future event or circumstance which is possible but cannot be predicted with certainty.",
-    "enExample": "What is our contingency plan for server failure?",
-    "taExample": "சேவையக செயலிழப்புக்கான நமது மாற்றுத் திட்டம் என்ன?",
-    "taWord": "மாற்றுத் திட்டம் / எதிர்பாராத நிகழ்வு",
-    "pos": "noun",
-    "synonyms": [
-      "Emergency",
-      "Possibility"
-    ],
-    "antonyms": [
-      "Certainty"
-    ]
-  },
-  {
-    "id": 321,
-    "word": "Critical",
-    "definition": "Expressing adverse or disapproving comments or judgments; vital.",
-    "enExample": "This is a critical bug that needs immediate fixing.",
-    "taExample": "இது உடனடியாகத் தீர்க்கப்பட வேண்டிய முக்கியமான பிழையாகும்.",
-    "taWord": "முக்கியமான / நெருக்கடியான",
-    "pos": "adj.",
-    "synonyms": [
-      "Vital",
-      "Crucial"
-    ],
-    "antonyms": [
-      "Trivial",
-      "Unimportant"
-    ]
-  },
-  {
-    "id": 322,
-    "word": "Cumulative",
-    "definition": "Increasing or increased in quantity, degree, or force by successive additions.",
-    "enExample": "Check the cumulative impact of these small changes.",
-    "taExample": "இந்த சிறிய மாற்றங்களின் ஒட்டுமொத்த தாக்கத்தை சரிபார்க்கவும்.",
-    "taWord": "ஒட்டுமொத்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Aggregated",
-      "Accumulative"
-    ],
-    "antonyms": [
-      "Decreasing",
-      "Subtracting"
-    ]
-  },
-  {
-    "id": 323,
-    "word": "Cycle",
-    "definition": "A series of events that are regularly repeated in the same order.",
-    "enExample": "We are entering the final testing cycle.",
-    "taExample": "நாங்கள் இறுதி சோதனை சுழற்சியில் நுழைகிறோம்.",
-    "taWord": "சுழற்சி",
-    "pos": "noun",
-    "synonyms": [
-      "Loop",
-      "Rotation"
-    ]
-  },
-  {
-    "id": 324,
-    "word": "Custom",
-    "definition": "Made or done to order for a particular customer.",
-    "enExample": "We need a custom solution for this client.",
-    "taExample": "இந்த வாடிக்கையாளருக்கு நமக்கு ஒரு தனிப்பயன் தீர்வு தேவை.",
-    "taWord": "தனிப்பயன்",
-    "pos": "adj.",
-    "synonyms": [
-      "Bespoke",
-      "Tailored"
-    ],
-    "antonyms": [
-      "Standard",
-      "Generic"
-    ]
-  },
-  {
-    "id": 325,
-    "word": "Core",
-    "definition": "The central or most important part of something.",
-    "enExample": "Don't modify the core logic without reviewing.",
-    "taExample": "மதிப்பாய்வு செய்யாமல் முக்கிய தர்க்கத்தை மாற்ற வேண்டாம்.",
-    "taWord": "மையம் / முக்கிய",
-    "pos": "noun",
-    "synonyms": [
-      "Center",
-      "Heart"
-    ],
-    "antonyms": [
-      "Periphery",
-      "Surface"
-    ]
-  },
-  {
-    "id": 326,
-    "word": "Capricious",
-    "definition": "Given to sudden and unaccountable changes of mood or behavior.",
-    "enExample": "A capricious and often brutal administration.",
-    "taExample": "கணிக்க முடியாத மற்றும் அடிக்கடி மிருகத்தனமான நிர்வாகம்.",
-    "taWord": "கணிக்க முடியாத",
-    "pos": "adj.",
-    "synonyms": [
-      "Fickle",
-      "Inconstant",
-      "Variable"
-    ],
-    "antonyms": [
-      "Stable",
-      "Consistent"
-    ]
-  },
-  {
-    "id": 327,
-    "word": "Castigate",
-    "definition": "Reprimand (someone) severely.",
-    "enExample": "He was castigated for not setting a good example.",
-    "taExample": "ஒரு நல்ல முன்னுதாரணத்தை அமைக்காததற்காக அவர் கடுமையாக கண்டிக்கப்பட்டார்.",
-    "taWord": "கடுமையாக கண்டி",
-    "pos": "verb",
-    "synonyms": [
-      "Reprimand",
-      "Rebuke",
-      "Admonish"
-    ],
-    "antonyms": [
-      "Praise",
-      "Commend"
-    ]
-  },
-  {
-    "id": 328,
-    "word": "Conundrum",
-    "definition": "A confusing and difficult problem or question.",
-    "enExample": "One of the most difficult conundrums for the experts.",
-    "taExample": "நிபுணர்களுக்கு இது மிகவும் கடினமான புதிர்களில் ஒன்றாகும்.",
-    "taWord": "புதிர்",
-    "pos": "noun",
-    "synonyms": [
-      "Problem",
-      "Difficult question",
-      "Puzzle"
-    ],
-    "antonyms": [
-      "Solution"
-    ]
-  },
-  {
-    "id": 329,
-    "word": "Clarify",
-    "definition": "Make a statement or situation clearer and easier to understand.",
-    "enExample": "Please clarify the requirements for the API endpoint.",
-    "taExample": "API முனைக்கான தேவைகளை தெளிவுபடுத்தவும்.",
-    "taWord": "தெளிவுபடுத்துதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Explain",
-      "Elucidate"
-    ],
-    "antonyms": [
-      "Confuse",
-      "Obscure"
-    ]
-  },
-  {
-    "id": 330,
-    "word": "Collaborate",
-    "definition": "Work jointly with others on an activity or project.",
-    "enExample": "Frontend and backend teams collaborate closely on data schemas.",
-    "taExample": "முன்-இறுதி மற்றும் பின்-இறுதி அணிகள் தரவுத் திட்டங்களில் நெருக்கமாக இணைந்து செயல்படுகின்றன.",
-    "taWord": "இணைந்து செயல்படுதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Cooperate",
-      "Partner"
-    ],
-    "antonyms": [
-      "Compete",
-      "Oppose"
     ]
   },
   {
@@ -512,6 +501,56 @@
     ]
   },
   {
+    "id": 313,
+    "word": "Concatenate",
+    "definition": "Link (things) together in a chain or series.",
+    "enExample": "Concatenate the first and last name strings.",
+    "taExample": "முதல் மற்றும் கடைசிப் பெயர் சரங்களை ஒன்றிணைக்கவும்.",
+    "taWord": "ஒன்றிணைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Join",
+      "Link"
+    ],
+    "antonyms": [
+      "Separate",
+      "Split"
+    ]
+  },
+  {
+    "id": 302,
+    "word": "Concurrently",
+    "definition": "At the same time; simultaneously.",
+    "enExample": "The tasks will run concurrently to save time.",
+    "taExample": "நேரத்தைச் சேமிக்க பணிகள் ஒரே நேரத்தில் இயங்கும்.",
+    "taWord": "ஒரே நேரத்தில்",
+    "pos": "adv.",
+    "synonyms": [
+      "Simultaneously",
+      "Together"
+    ],
+    "antonyms": [
+      "Sequentially",
+      "Serially"
+    ]
+  },
+  {
+    "id": 303,
+    "word": "Configure",
+    "definition": "Shape or put together in a particular form or configuration.",
+    "enExample": "Configure the server to accept HTTPS connections.",
+    "taExample": "HTTPS இணைப்புகளை ஏற்க சேவையகத்தை உள்ளமைக்கவும்.",
+    "taWord": "உள்ளமைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Set up",
+      "Arrange"
+    ],
+    "antonyms": [
+      "Dismantle"
+    ]
+  },
+  {
     "id": 332,
     "word": "Consistent",
     "definition": "Acting or done in the same way over time; dependable.",
@@ -526,6 +565,143 @@
     "antonyms": [
       "Inconsistent",
       "Erratic"
+    ]
+  },
+  {
+    "id": 2765,
+    "word": "Consistent Hashing",
+    "pos": "noun",
+    "definition": "A distributed hashing technique that minimizes key remapping across caching servers when nodes are added or removed.",
+    "enExample": "Consistent hashing ensured only five percent of cached session keys migrated when we added three new Memcached servers.",
+    "taWord": "நிலையான ஹாஷிங் முறை",
+    "taExample": "புதிய சேவையகங்கள் சேர்க்கப்படும் போது குறைந்த அளவிலான தரவு மட்டுமே நகர்த்தப்படும் வகையில் இது உதவுகிறது.",
+    "synonyms": [
+      "Ring hashing",
+      "Distributed partition mapping"
+    ],
+    "antonyms": [
+      "Modulo hashing",
+      "Full cache rehash"
+    ]
+  },
+  {
+    "id": 314,
+    "word": "Consolidate",
+    "definition": "Make (something) physically stronger or more solid.",
+    "enExample": "We should consolidate our microservices into fewer repos.",
+    "taExample": "நமது மைக்ரோ சர்வீஸ்களைக் குறைவான களஞ்சியங்களில் ஒருங்கிணைக்க வேண்டும்.",
+    "taWord": "ஒருங்கிணைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Combine",
+      "Merge"
+    ],
+    "antonyms": [
+      "Separate",
+      "Divide"
+    ]
+  },
+  {
+    "id": 304,
+    "word": "Constraint",
+    "definition": "A limitation or restriction.",
+    "enExample": "Memory is a major constraint on this device.",
+    "taExample": "இந்தச் சாதனத்தில் நினைவகம் ஒரு முக்கியக் கட்டுப்பாடாகும்.",
+    "taWord": "கட்டுப்பாடு",
+    "pos": "noun",
+    "synonyms": [
+      "Limitation",
+      "Restriction"
+    ],
+    "antonyms": [
+      "Freedom",
+      "Liberty"
+    ]
+  },
+  {
+    "id": 2698,
+    "word": "Containerization",
+    "definition": "Packaging an application together with all its dependencies and runtime libraries into an isolated container.",
+    "enExample": "Docker containerization ensured that the code behaved identically on local laptops and AWS ECS.",
+    "taExample": "டாக்கர் கொள்கலனாக்கம் மடிக்கணினியிலும் கிளவுட் சேவையகத்திலும் மென்பொருள் ஒரே மாதிரியாக இயங்குவதை உறுதி செய்தது.",
+    "taWord": "கொள்கலனாக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Dockerization",
+      "Encapsulation",
+      "Sandboxing"
+    ],
+    "antonyms": [
+      "Bare-metal execution"
+    ]
+  },
+  {
+    "id": 2772,
+    "word": "Context Switching",
+    "pos": "noun",
+    "definition": "The mental friction and productivity loss incurred when shifting attention across distinct tasks, meetings, or codebases.",
+    "enExample": "Designating meeting-free Wednesdays protected engineers from destructive context switching throughout sprint cycles.",
+    "taWord": "கவனச் சிதறல் / பல வேலை மாற்றீடு",
+    "taExample": "அடிக்கடி வேறு வேலைகளுக்கு மாறுவது நிரலாளர்களின் கவனத்தையும் உற்பத்தித்திறனையும் குறைக்கும்.",
+    "synonyms": [
+      "Task thrashing",
+      "Mental interruption",
+      "Cognitive load shift"
+    ],
+    "antonyms": [
+      "Deep work",
+      "Hyperfocus state"
+    ]
+  },
+  {
+    "id": 2763,
+    "word": "Context Window",
+    "pos": "noun",
+    "definition": "The maximum number of tokens or text input an AI language model can process and retain in a single generation prompt.",
+    "enExample": "The updated model features a one-million token context window, allowing entire codebase repositories to be analyzed at once.",
+    "taWord": "சூழ்நிலை அளவு வரம்பு",
+    "taExample": "ஒரு உரையாடலில் மொழி மாதிரி நினைவில் வைத்துக்கொள்ளக்கூடிய அதிகபட்ச சொல் அளவு இதுவாகும்.",
+    "synonyms": [
+      "Token limit",
+      "Context length",
+      "Working memory"
+    ],
+    "antonyms": [
+      "Zero memory",
+      "Token truncation"
+    ]
+  },
+  {
+    "id": 320,
+    "word": "Contingency",
+    "definition": "A future event or circumstance which is possible but cannot be predicted with certainty.",
+    "enExample": "What is our contingency plan for server failure?",
+    "taExample": "சேவையக செயலிழப்புக்கான நமது மாற்றுத் திட்டம் என்ன?",
+    "taWord": "மாற்றுத் திட்டம் / எதிர்பாராத நிகழ்வு",
+    "pos": "noun",
+    "synonyms": [
+      "Emergency",
+      "Possibility"
+    ],
+    "antonyms": [
+      "Certainty"
+    ]
+  },
+  {
+    "id": 328,
+    "word": "Conundrum",
+    "definition": "A confusing and difficult problem or question.",
+    "enExample": "One of the most difficult conundrums for the experts.",
+    "taExample": "நிபுணர்களுக்கு இது மிகவும் கடினமான புதிர்களில் ஒன்றாகும்.",
+    "taWord": "புதிர்",
+    "pos": "noun",
+    "synonyms": [
+      "Problem",
+      "Difficult question",
+      "Puzzle"
+    ],
+    "antonyms": [
+      "Solution"
     ]
   },
   {
@@ -546,80 +722,20 @@
     ]
   },
   {
-    "id": 334,
-    "word": "Courteous",
-    "definition": "Polite, respectful, or considerate in manner.",
-    "enExample": "Maintain a courteous tone in code reviews and discussions.",
-    "taExample": "குறியீட்டு மதிப்பாய்வுகள் மற்றும் விவாதங்களில் மரியாதையான தொனியைப் பேணுங்கள்.",
-    "taWord": "மரியாதையான",
+    "id": 305,
+    "word": "Convoluted",
+    "definition": "Extremely complex and difficult to follow.",
+    "enExample": "This legacy code is too convoluted.",
+    "taExample": "இந்த பழைய குறியீடு மிகவும் சிக்கலானதாக உள்ளது.",
+    "taWord": "சிக்கலான",
     "pos": "adj.",
     "synonyms": [
-      "Polite",
-      "Respectful"
+      "Complicated",
+      "Complex"
     ],
     "antonyms": [
-      "Rude",
-      "Impolite"
-    ]
-  },
-  {
-    "id": 335,
-    "word": "Cultivate",
-    "definition": "Try to acquire or develop a quality, skill, or relationship.",
-    "enExample": "Cultivate a culture of continuous learning within the team.",
-    "taExample": "அணியினரிடையே தொடர்ச்சியான கற்றல் கலாச்சாரத்தை வளர்த்தெடுக்கவும்.",
-    "taWord": "வளர்த்தெடுத்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Foster",
-      "Develop"
-    ],
-    "antonyms": [
-      "Neglect",
-      "Destroy"
-    ]
-  },
-  {
-    "id": 336,
-    "word": "Capacity",
-    "definition": "The maximum amount that something can contain, produce, or handle.",
-    "enExample": "The cache server is operating at maximum capacity.",
-    "taExample": "கேச் சேவையகம் அதிகபட்ச கொள்ளளவில் இயங்குகிறது.",
-    "taWord": "கொள்ளளவு / திறன்",
-    "pos": "noun",
-    "synonyms": [
-      "Volume",
-      "Capability"
-    ]
-  },
-  {
-    "id": 337,
-    "word": "Circumstance",
-    "definition": "A fact or condition connected with or relevant to an event or action.",
-    "enExample": "Under no circumstance should secret keys be committed to source control.",
-    "taExample": "எந்த சூழ்நிலையிலும் இரகசிய விசைகளை மூலக் கட்டுப்பாட்டில் சேர்க்கக் கூடாது.",
-    "taWord": "சூழ்நிலை / நிலைமை",
-    "pos": "noun",
-    "synonyms": [
-      "Situation",
-      "Condition"
-    ]
-  },
-  {
-    "id": 338,
-    "word": "Compelling",
-    "definition": "Evoking interest, attention, or admiration in a powerfully convincing way.",
-    "enExample": "She presented a compelling business case for the architecture upgrade.",
-    "taExample": "கட்டமைப்பு மேம்பாட்டிற்காக அவள் ஒரு ஈர்க்கக்கூடிய வணிக காரணத்தை முன்வைத்தார்.",
-    "taWord": "ஈர்க்கக்கூடிய / கட்டாயப்படுத்தும்",
-    "pos": "adj.",
-    "synonyms": [
-      "Convincing",
-      "Persuasive"
-    ],
-    "antonyms": [
-      "Unconvincing",
-      "Boring"
+      "Simple",
+      "Straightforward"
     ]
   },
   {
@@ -642,74 +758,186 @@
     ]
   },
   {
-    "id": 2631,
-    "word": "Clutch",
-    "definition": "Performing successfully in a critical, high-pressure, or last-minute moment.",
-    "enExample": "Her clutch hotfix at 11:59 PM prevented the payment gateway timeout during Cyber Monday.",
-    "taExample": "இரவு 11:59 மணிக்கு அவர் செய்த நெருக்கடி நேர பிழைத்திருத்தம் பணப்பரிவர்த்தனை செயலிழப்பை தடுத்தது.",
-    "taWord": "நெருக்கடி நேர வெற்றி",
+    "id": 325,
+    "word": "Core",
+    "definition": "The central or most important part of something.",
+    "enExample": "Don't modify the core logic without reviewing.",
+    "taExample": "மதிப்பாய்வு செய்யாமல் முக்கிய தர்க்கத்தை மாற்ற வேண்டாம்.",
+    "taWord": "மையம் / முக்கிய",
+    "pos": "noun",
+    "synonyms": [
+      "Center",
+      "Heart"
+    ],
+    "antonyms": [
+      "Periphery",
+      "Surface"
+    ]
+  },
+  {
+    "id": 306,
+    "word": "Correlate",
+    "definition": "Have a mutual relationship or connection.",
+    "enExample": "Can we correlate the errors with the recent deployment?",
+    "taExample": "சமீபத்திய வரிசைப்படுத்தலுடன் பிழைகளைத் தொடர்புபடுத்த முடியுமா?",
+    "taWord": "தொடர்புபடுத்துதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Associate",
+      "Connect"
+    ],
+    "antonyms": [
+      "Disconnect",
+      "Separate"
+    ]
+  },
+  {
+    "id": 334,
+    "word": "Courteous",
+    "definition": "Polite, respectful, or considerate in manner.",
+    "enExample": "Maintain a courteous tone in code reviews and discussions.",
+    "taExample": "குறியீட்டு மதிப்பாய்வுகள் மற்றும் விவாதங்களில் மரியாதையான தொனியைப் பேணுங்கள்.",
+    "taWord": "மரியாதையான",
     "pos": "adj.",
     "synonyms": [
-      "Decisive",
-      "Crucial",
-      "Timely"
+      "Polite",
+      "Respectful"
     ],
     "antonyms": [
-      "Choking",
-      "Faltering"
+      "Rude",
+      "Impolite"
     ]
   },
   {
-    "id": 2666,
-    "word": "Circle back",
-    "definition": "To return to or revisit a previously raised topic or question at a future time.",
-    "enExample": "Let me gather the latency telemetry logs and circle back to you by end of day.",
-    "taExample": "நான் செயல்திறன் தரவுகளைச் சேகரித்து, மாலைக்குள் உங்களிடம் மீண்டும் இதுபற்றிப் பேசுகிறேன்.",
-    "taWord": "மீண்டும் விவாதிக்கத் திரும்புதல்",
-    "pos": "idiom",
+    "id": 2767,
+    "word": "CQRS",
+    "pos": "noun",
+    "definition": "Command Query Responsibility Segregation; an architectural pattern separating read operations from write mutations into distinct models.",
+    "enExample": "We adopted CQRS to allow millions of read requests without blocking write operations on transactional ledger tables.",
+    "taWord": "கட்டளை-விசாரணை பிரிப்பு முறை",
+    "taExample": "தரவுகளை எழுதுவதையும் வாசிப்பதையும் தனித்தனி வழிகளில் கையாண்டு செயல்திறனை கூட்டினோம்.",
     "synonyms": [
-      "Revisit",
-      "Follow up",
-      "Recheck"
+      "Read-write segregation",
+      "Command query separation"
     ],
     "antonyms": [
-      "Forget",
-      "Ignore"
+      "Unified CRUD model",
+      "Monolithic data model"
     ]
   },
   {
-    "id": 2683,
-    "word": "Cadence",
-    "definition": "A rhythmic, predictable schedule and pattern of events, meetings, or release deployments.",
-    "enExample": "Our bi-weekly sprint cadence provides predictable delivery timelines to executive stakeholders.",
-    "taExample": "எங்கள் இருவார சுழற்சி முறைமை நிர்வாகப் பங்குதாரர்களுக்கு கணிக்கக்கூடிய வெளியீட்டு காலக்கெடுவை வழங்குகிறது.",
-    "taWord": "ஒழுங்குமுறை காலச் சுழற்சி",
+    "id": 321,
+    "word": "Critical",
+    "definition": "Expressing adverse or disapproving comments or judgments; vital.",
+    "enExample": "This is a critical bug that needs immediate fixing.",
+    "taExample": "இது உடனடியாகத் தீர்க்கப்பட வேண்டிய முக்கியமான பிழையாகும்.",
+    "taWord": "முக்கியமான / நெருக்கடியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Vital",
+      "Crucial"
+    ],
+    "antonyms": [
+      "Trivial",
+      "Unimportant"
+    ]
+  },
+  {
+    "id": 2770,
+    "word": "Cross-Origin Resource Sharing",
+    "pos": "noun",
+    "definition": "A browser security header mechanism permitting or restricting API requests originating from a different web domain.",
+    "enExample": "Misconfigured CORS headers in the API gateway accidentally blocked our frontend staging environment from fetching user data.",
+    "taWord": "டொமைன் அனுமதி நெறிமுறை",
+    "taExample": "பிற இணையதளங்களில் இருந்து வரும் கோரிக்கைகளை சரிபார்த்து அனுமதிக்கும் உலாவி பாதுகாப்பு விதி.",
+    "synonyms": [
+      "CORS policy",
+      "Cross-domain access header"
+    ],
+    "antonyms": [
+      "Same-origin lockdown",
+      "Unrestricted origin"
+    ]
+  },
+  {
+    "id": 315,
+    "word": "Cryptic",
+    "definition": "Having a meaning that is mysterious or obscure.",
+    "enExample": "The error message is too cryptic for users.",
+    "taExample": "பிழை செய்தி பயனர்களுக்கு மிகவும் புரியாதவாறு உள்ளது.",
+    "taWord": "புரியாத",
+    "pos": "adj.",
+    "synonyms": [
+      "Mysterious",
+      "Obscure"
+    ],
+    "antonyms": [
+      "Clear",
+      "Obvious"
+    ]
+  },
+  {
+    "id": 335,
+    "word": "Cultivate",
+    "definition": "Try to acquire or develop a quality, skill, or relationship.",
+    "enExample": "Cultivate a culture of continuous learning within the team.",
+    "taExample": "அணியினரிடையே தொடர்ச்சியான கற்றல் கலாச்சாரத்தை வளர்த்தெடுக்கவும்.",
+    "taWord": "வளர்த்தெடுத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Foster",
+      "Develop"
+    ],
+    "antonyms": [
+      "Neglect",
+      "Destroy"
+    ]
+  },
+  {
+    "id": 322,
+    "word": "Cumulative",
+    "definition": "Increasing or increased in quantity, degree, or force by successive additions.",
+    "enExample": "Check the cumulative impact of these small changes.",
+    "taExample": "இந்த சிறிய மாற்றங்களின் ஒட்டுமொத்த தாக்கத்தை சரிபார்க்கவும்.",
+    "taWord": "ஒட்டுமொத்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Aggregated",
+      "Accumulative"
+    ],
+    "antonyms": [
+      "Decreasing",
+      "Subtracting"
+    ]
+  },
+  {
+    "id": 324,
+    "word": "Custom",
+    "definition": "Made or done to order for a particular customer.",
+    "enExample": "We need a custom solution for this client.",
+    "taExample": "இந்த வாடிக்கையாளருக்கு நமக்கு ஒரு தனிப்பயன் தீர்வு தேவை.",
+    "taWord": "தனிப்பயன்",
+    "pos": "adj.",
+    "synonyms": [
+      "Bespoke",
+      "Tailored"
+    ],
+    "antonyms": [
+      "Standard",
+      "Generic"
+    ]
+  },
+  {
+    "id": 323,
+    "word": "Cycle",
+    "definition": "A series of events that are regularly repeated in the same order.",
+    "enExample": "We are entering the final testing cycle.",
+    "taExample": "நாங்கள் இறுதி சோதனை சுழற்சியில் நுழைகிறோம்.",
+    "taWord": "சுழற்சி",
     "pos": "noun",
     "synonyms": [
-      "Rhythm",
-      "Tempo",
-      "Regular schedule"
-    ],
-    "antonyms": [
-      "Erratic pace",
-      "Unpredictability"
-    ]
-  },
-  {
-    "id": 2687,
-    "word": "Ceremony",
-    "definition": "A structured, regular meeting in Agile Scrum (e.g., Standup, Planning, Review, Retrospective).",
-    "enExample": "Adhering to our agile ceremonies kept remote engineers synchronized across three time zones.",
-    "taExample": "சுறுசுறுப்பான சுழற்சி முறை கூட்டங்களை முறையாகக் கடைப்பிடித்தது தொலைதூர பொறியாளர்களை ஒரே நேர்க்கோட்டில் இணைத்தது.",
-    "taWord": "முறைப்படியான கூட்டுக்கூட்டம்",
-    "pos": "noun",
-    "synonyms": [
-      "Agile ritual",
-      "Scrum meeting",
-      "Structured cadence"
-    ],
-    "antonyms": [
-      "Ad-hoc chat"
+      "Loop",
+      "Rotation"
     ]
   },
   {
@@ -729,55 +957,107 @@
     ]
   },
   {
-    "id": 2697,
-    "word": "CI/CD",
-    "definition": "Continuous Integration and Continuous Delivery/Deployment; automated pipelines for building, testing, and shipping code.",
-    "enExample": "Our GitHub Actions CI/CD pipeline automatically runs linters, unit tests, and deploys to staging.",
-    "taExample": "எங்கள் சிஐ/சிடி குழாய்வழியானது தானாகவே சோதனைகளை இயக்கி நிலைநிறுத்தல் சேவையகத்தில் வெளியிடுகிறது.",
-    "taWord": "தொடர் ஒருங்கிணைப்பு மற்றும் தொடர் விநியோகம்",
+    "id": 2835,
+    "word": "Conviction",
     "pos": "noun",
+    "definition": "A formal declaration by a verdict of a court that someone is guilty of a criminal offense, or a firmly held belief.",
+    "enExample": "The jury reached a unanimous conviction on all twelve counts of financial fraud.",
+    "taWord": "குற்றவாளி என தீர்ப்பு / உறுதிப்பாடு",
+    "taExample": "நிதி மோசடி வழக்கில் குற்றம் நிரூபிக்கப்பட்டு நீதிமன்றம் அவருக்கு தண்டனை விதித்தது.",
     "synonyms": [
-      "Automated pipeline",
-      "Build pipeline",
-      "Continuous delivery"
+      "Guilty verdict",
+      "Sentence",
+      "Firm belief",
+      "Assurance"
     ],
     "antonyms": [
-      "Manual deployment"
+      "Acquittal",
+      "Exoneration",
+      "Doubt",
+      "Uncertainty"
     ]
   },
   {
-    "id": 2698,
-    "word": "Containerization",
-    "definition": "Packaging an application together with all its dependencies and runtime libraries into an isolated container.",
-    "enExample": "Docker containerization ensured that the code behaved identically on local laptops and AWS ECS.",
-    "taExample": "டாக்கர் கொள்கலனாக்கம் மடிக்கணினியிலும் கிளவுட் சேவையகத்திலும் மென்பொருள் ஒரே மாதிரியாக இயங்குவதை உறுதி செய்தது.",
-    "taWord": "கொள்கலனாக்கம்",
-    "pos": "noun",
+    "id": 2836,
+    "word": "Convicted",
+    "pos": "verb",
+    "definition": "Formally declared guilty of a criminal offense by the verdict of a jury or the decision of a judge in a court of law.",
+    "enExample": "The former executive was convicted of insider trading and sentenced to five years in federal prison.",
+    "taWord": "குற்றவாளி என தண்டிக்கப்பட்ட",
+    "taExample": "முன்னாள் உயர் அதிகாரி முறைகேடான பங்கு வர்த்தகத்தில் குற்றவாளியாக தண்டிக்கப்பட்டார்.",
     "synonyms": [
-      "Dockerization",
-      "Encapsulation",
-      "Sandboxing"
+      "Found guilty",
+      "Sentenced",
+      "Condemned"
     ],
     "antonyms": [
-      "Bare-metal execution"
+      "Acquitted",
+      "Exonerated",
+      "Absolved",
+      "Cleared"
     ]
   },
   {
-    "id": 2710,
-    "word": "Code coverage",
-    "definition": "A software metric measuring the percentage of source code executed while running an automated test suite.",
-    "enExample": "Our pull request gating policy requires at least eighty-five percent code coverage before merging.",
-    "taExample": "இணைப்பதற்கு முன் எங்கள் அமைப்பிற்கு குறைந்தது எண்பத்தைந்து சதவீத குறியீட்டு சோதனைப் பாதுகாப்பு தேவைப்படுகிறது.",
-    "taWord": "குறியீட்டு சோதனைப் பாதுகாப்பு அளவு",
+    "id": 2843,
+    "word": "Calamity",
     "pos": "noun",
+    "definition": "An event causing great and often sudden damage, suffering, or distress; a disaster.",
+    "enExample": "The flash flood was a catastrophic calamity that displaced thousands of coastal residents.",
+    "taWord": "பேரழிவு / பெருந்துன்பம்",
+    "taExample": "திடீர் வெள்ளப்பெருக்கு ஆயிரக்கணக்கான மக்களை இடம்பெயரச் செய்த பெரும் பேரழிவாக அமைந்தது.",
     "synonyms": [
-      "Test coverage",
-      "Line coverage",
-      "Branch coverage"
+      "Catastrophe",
+      "Disaster",
+      "Tragedy",
+      "Cataclysm"
     ],
     "antonyms": [
-      "Untested code",
-      "Blind spots"
+      "Blessing",
+      "Boon",
+      "Godsend",
+      "Prosperity"
+    ]
+  },
+  {
+    "id": 2844,
+    "word": "Catastrophe",
+    "pos": "noun",
+    "definition": "An extremely destructive event that causes immense suffering, destruction, and chaos.",
+    "enExample": "Emergency relief crews worked around the clock to avert an environmental catastrophe at the oil terminal.",
+    "taWord": "பேரழிவு / பெருஞ்சேதம்",
+    "taExample": "எண்ணெய் முனையத்தில் ஏற்படவிருந்த சுற்றுச்சூழல் பேரழிவைத் தடுக்க மீட்புக் குழுவினர் தீவிரமாக உழைத்தனர்.",
+    "synonyms": [
+      "Calamity",
+      "Devastation",
+      "Cataclysm",
+      "Ruin"
+    ],
+    "antonyms": [
+      "Triumph",
+      "Miracle",
+      "Success",
+      "Fortune"
+    ]
+  },
+  {
+    "id": 2845,
+    "word": "Contention",
+    "pos": "noun",
+    "definition": "Heated disagreement, debate, or dispute; or an assertion maintained in argument.",
+    "enExample": "The proposed border tax remains a major bone of contention between trade negotiators.",
+    "taWord": "சர்ச்சை / வாதம் / முரண்பாடு",
+    "taExample": "புதிய எல்லை வரி விதிப்பு இரு நாட்டு வர்த்தகப் பேச்சுவார்த்தையில் முக்கிய சர்ச்சையாக உள்ளது.",
+    "synonyms": [
+      "Dispute",
+      "Discord",
+      "Strife",
+      "Argument"
+    ],
+    "antonyms": [
+      "Consensus",
+      "Harmony",
+      "Agreement",
+      "Accord"
     ]
   }
 ]

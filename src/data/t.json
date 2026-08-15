@@ -1,5 +1,209 @@
 [
   {
+    "id": 2665,
+    "word": "Table",
+    "definition": "To postpone, suspend, or set aside consideration of an agenda item for a later meeting.",
+    "enExample": "We agreed to table the microservice migration discussion until Q4 budget approvals arrive.",
+    "taExample": "Q4 பட்ஜெட் ஒப்புதல்கள் வரும் வரை மைக்ரோசர்வீஸ் மாற்ற விவாதத்தை ஒத்திவைக்க நாங்கள் ஒப்புக்கொண்டோம்.",
+    "taWord": "ஒத்திவைத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Postpone",
+      "Shelve",
+      "Defer"
+    ],
+    "antonyms": [
+      "Enact",
+      "Address immediately"
+    ]
+  },
+  {
+    "id": 2826,
+    "word": "Table This Discussion",
+    "pos": "phrase",
+    "definition": "To temporarily postpone or shelf a debate or proposal during a meeting to maintain focus on the immediate agenda.",
+    "enExample": "Since we lack database load numbers today, let us table this discussion until our sync on Friday.",
+    "taWord": "பிறகு விவாதிக்கலாம் என தள்ளிவைப்பது",
+    "taExample": "தற்போதைய கூட்டத்தின் நேரத்தை கருத்தில் கொண்டு ஒரு விவாதத்தை அடுத்த கூட்டத்திற்கு ஒத்திவைத்தல்.",
+    "synonyms": [
+      "Postpone discussion",
+      "Shelf topic",
+      "Park for later"
+    ],
+    "antonyms": [
+      "Decide immediately",
+      "Debate now"
+    ]
+  },
+  {
+    "id": 2016,
+    "word": "Taciturn",
+    "definition": "(of a person) reserved or uncommunicative in speech; saying little.",
+    "enExample": "After such gatherings she would be taciturn and morose.",
+    "taExample": "இதுபோன்ற கூட்டங்களுக்குப் பிறகு அவள் அதிகம் பேசாமல் இருப்பாள்.",
+    "taWord": "அதிகம் பேசாத",
+    "pos": "adj.",
+    "synonyms": [
+      "Untalkative",
+      "Uncommunicative",
+      "Reticent"
+    ],
+    "antonyms": [
+      "Talkative",
+      "Loquacious"
+    ]
+  },
+  {
+    "id": 2661,
+    "word": "Take offline",
+    "definition": "To move a specific discussion outside the current group meeting to be resolved privately.",
+    "enExample": "That CSS styling debate is eating up time, let's take it offline between the two frontend engineers.",
+    "taExample": "அந்த சிஎஸ்எஸ் வடிவமைப்பு விவாதம் நேரத்தை வீணடிக்கிறது, அதை இரு முன்னணி பொறியாளர்களும் தனியாக விவாதித்து முடிவெடுக்கலாம்.",
+    "taWord": "தனியாக விவாதிக்க மாற்றுதல்",
+    "pos": "idiom",
+    "synonyms": [
+      "Discuss privately",
+      "Defer",
+      "Side-channel"
+    ],
+    "antonyms": [
+      "Address publicly",
+      "Discuss in forum"
+    ]
+  },
+  {
+    "id": 2019,
+    "word": "Takeaway",
+    "definition": "A key point, lesson, or insight learned from a meeting, presentation, or discussion.",
+    "enExample": "The main takeaway from the system architecture presentation was to keep services decoupled.",
+    "taExample": "அமைப்புக் கட்டமைப்பு விளக்கக்காட்சியின் முக்கிய கற்றுக்கொண்ட பாடம் சேவைகளைத் தனித்தனியாக வைப்பதாகும்.",
+    "taWord": "முக்கிய செய்தி / கற்றுக்கொண்ட பாடம்",
+    "pos": "noun",
+    "synonyms": [
+      "Insight",
+      "Key point",
+      "Lesson"
+    ]
+  },
+  {
+    "id": 2825,
+    "word": "Tech Debt",
+    "pos": "noun",
+    "definition": "The implied future rework and maintenance cost caused by choosing an expedited, shortcut solution today over better engineering design.",
+    "enExample": "Taking shortcuts during the product launch accumulated mounting tech debt that slowed down subsequent feature releases.",
+    "taWord": "தொழில்நுட்ப கடன்",
+    "taExample": "வேகமாக முடிக்க தவறான வழிகளைத் தேர்ந்தெடுப்பதால் எதிர்காலத்தில் ஏற்படும் கூடுதல் உழைப்பும் சிக்கலும்.",
+    "synonyms": [
+      "Technical debt",
+      "Code debt",
+      "Architectural shortcuts"
+    ],
+    "antonyms": [
+      "Clean architecture",
+      "Debt refactoring",
+      "Long-term engineering"
+    ]
+  },
+  {
+    "id": 2693,
+    "word": "Technical debt",
+    "definition": "The implied future rework cost caused by choosing a quick, expedient solution now instead of a sound approach.",
+    "enExample": "Skipping unit tests to meet the launch date added massive technical debt to our codebase.",
+    "taExample": "வெளியீட்டுத் தேதியை எட்ட சோதனைகளைத் தவிர்த்தது எங்கள் குறியீட்டில் மிகப்பெரிய தொழில்நுட்பக் கடனை சேர்த்தது.",
+    "taWord": "தொழில்நுட்பக் கடன் / பிந்தைய சீரமைப்புச் சுமை",
+    "pos": "noun",
+    "synonyms": [
+      "Code debt",
+      "Architectural debt",
+      "Deficit"
+    ],
+    "antonyms": [
+      "Clean architecture",
+      "Robust code"
+    ]
+  },
+  {
+    "id": 2012,
+    "word": "Telemetry",
+    "definition": "Automated remote collection and measurement of performance metrics and log diagnostics from live production systems.",
+    "enExample": "OpenTelemetry standardizes trace collection for cloud-native microservice architectures.",
+    "taExample": "OpenTelemetry கிளவுட்-நேட்டிவ் மைக்ரோசர்வீஸ் கட்டமைப்புகளுக்கான தடம் சேகரிப்பைத் தரப்படுத்துகிறது.",
+    "taWord": "தொலைவழிக் கண்காணிப்பு (Telemetry)",
+    "pos": "noun",
+    "synonyms": [
+      "Diagnostics",
+      "Metrics collection",
+      "Monitoring"
+    ]
+  },
+  {
+    "id": 2823,
+    "word": "Temperature",
+    "pos": "noun",
+    "definition": "A hyperparameter in generative AI models that controls randomness: low values yield deterministic output, while high values encourage creativity.",
+    "enExample": "We set the model temperature to 0.1 for deterministic SQL query generation and 0.8 for creative marketing copy.",
+    "taWord": "பதில் மாறுபாட்டு அளவு",
+    "taExample": "செயற்கை நுண்ணறிவின் பதிலில் உள்ள கற்பனை மற்றும் மாறுபாட்டை கட்டுப்படுத்தும் அளவுரு.",
+    "synonyms": [
+      "Sampling randomness",
+      "Creativity coefficient",
+      "Entropy control"
+    ],
+    "antonyms": [
+      "Deterministic greedy decoding",
+      "Argmax sampling"
+    ]
+  },
+  {
+    "id": 2013,
+    "word": "Template",
+    "definition": "A pre-formatted blueprint file or component containing parameterized placeholders for generating dynamic content.",
+    "enExample": "React JSX templates seamlessly render state data into dynamic HTML markup.",
+    "taExample": "ரியாக்ட் JSX டெம்ப்ளேட்கள் நிலைத் தரவை மாறும் HTML குறியீடாக தடையின்றி இயற்றுகின்றன.",
+    "taWord": "வார்ப்புரு (Template)",
+    "pos": "noun",
+    "synonyms": [
+      "Pattern",
+      "Blueprint",
+      "Boilerplate"
+    ]
+  },
+  {
+    "id": 2017,
+    "word": "Tenacious",
+    "definition": "Tending to keep a firm hold of something; clinging or adhering closely.",
+    "enExample": "A tenacious grip.",
+    "taExample": "ஒரு பிடிவாதமான பிடி.",
+    "taWord": "பிடிவாதமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Firm",
+      "Tight",
+      "Fast"
+    ],
+    "antonyms": [
+      "Loose",
+      "Weak"
+    ]
+  },
+  {
+    "id": 2715,
+    "word": "Test harness",
+    "definition": "A collection of software, test scripts, stubs, and configuration data configured to execute automated test suites.",
+    "enExample": "The QA team developed a resilient test harness to run regression suites across multiple browsers in parallel.",
+    "taExample": "பல்வேறு உலாவிகளில் ஒரே நேரத்தில் சோதனைகளை இயக்க சோதனைக் குழு வலுவான தானியங்கி சோதனைக் கட்டமைப்பை உருவாக்கியது.",
+    "taWord": "தானியங்கி சோதனைக் கட்டமைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Test framework",
+      "Automation suite",
+      "Testing scaffold"
+    ],
+    "antonyms": [
+      "Manual testing"
+    ]
+  },
+  {
     "id": 2001,
     "word": "Thread",
     "definition": "The smallest sequence of programmed instructions that can be managed independently by an operating system scheduler.",
@@ -14,6 +218,20 @@
     ],
     "antonyms": [
       "Single process"
+    ]
+  },
+  {
+    "id": 2014,
+    "word": "Threshold",
+    "definition": "A predefined value or condition limit that triggers an alert, scale event, or state transition when breached.",
+    "enExample": "Exceeding the eighty percent CPU utilization threshold triggers autoscaling instances.",
+    "taExample": "எண்பது சதவீத CPU பயன்பாட்டு வரம்பை (Threshold) மீறுவது தானியங்கு அளவீட்டு நிகழ்வுகளைத் தூண்டுகிறது.",
+    "taWord": "வரம்பு மதிப்பு (Threshold)",
+    "pos": "noun",
+    "synonyms": [
+      "Cutoff",
+      "Limit",
+      "Boundary"
     ]
   },
   {
@@ -32,6 +250,41 @@
     "antonyms": [
       "Latency",
       "Bottleneck"
+    ]
+  },
+  {
+    "id": 2744,
+    "word": "Time-to-Live",
+    "pos": "noun",
+    "definition": "A numerical threshold or expiration timer (TTL) that dictates the lifespan or hop-limit of cached data, DNS records, or network packets.",
+    "taWord": "வாழ்நாள் காலக்கெடு / தற்காலிக கால எல்லை",
+    "enExample": "We configured a 15-minute TTL on the Redis cache key to guarantee users see fresh inventory data.",
+    "taExample": "தற்காலிக நினைவகத்தில் உள்ள தரவுகள் 15 நிமிடங்களுக்குப் பிறகு தானாக காலாவதியாகுமாறு TTL காலக்கெடு அமைக்கப்பட்டது.",
+    "synonyms": [
+      "TTL",
+      "cache expiration",
+      "lifespan duration"
+    ],
+    "antonyms": [
+      "infinite persistence",
+      "permanent retention"
+    ]
+  },
+  {
+    "id": 2680,
+    "word": "Timebox",
+    "definition": "A fixed, predetermined period of time strictly allocated to an activity or meeting.",
+    "enExample": "Let's timebox the architecture brainstorming session to forty-five minutes.",
+    "taExample": "கட்டமைப்பு குறித்த மூளைச்சலவைக் கூட்டத்தை நாற்பத்தைந்து நிமிடங்களுக்குள் கண்டிப்பாக முடிப்போம்.",
+    "taWord": "வரையறுக்கப்பட்ட கால அளவு",
+    "pos": "noun",
+    "synonyms": [
+      "Fixed duration",
+      "Time limit",
+      "Scheduled window"
+    ],
+    "antonyms": [
+      "Open-ended discussion"
     ]
   },
   {
@@ -60,6 +313,52 @@
       "Architecture",
       "Configuration",
       "Layout"
+    ]
+  },
+  {
+    "id": 2627,
+    "word": "Touch grass",
+    "definition": "To disconnect from internet/screens and reconnect with reality and the physical world.",
+    "enExample": "After debugging CI/CD pipeline YAML scripts for ten straight hours, you need to go touch grass.",
+    "taExample": "தொடர்ந்து பத்து மணிநேரம் சிஐ/சிடி அமைப்பை சரிபார்த்த பிறகு, நீங்கள் திரையை விட்டு வெளியே சென்று உலகை உணர வேண்டும்.",
+    "taWord": "நிஜ உலகிற்கு திரும்புதல் / ஓய்வெடுத்தல்",
+    "pos": "idiom",
+    "synonyms": [
+      "Unplug",
+      "Get outside",
+      "Ground yourself"
+    ],
+    "antonyms": [
+      "Doomscroll",
+      "Overwork"
+    ]
+  },
+  {
+    "id": 2020,
+    "word": "Touchpoint",
+    "definition": "A scheduled interaction or meeting between teams, stakeholders, or clients.",
+    "enExample": "Weekly touchpoints keep the cross-functional team aligned on project progress.",
+    "taExample": "வாராந்திர தொடர்பு கூட்டங்கள் (Touchpoints) திட்டத்தின் முன்னேற்றத்தில் பலதுறை குழுவை ஒத்திசைவாக வைத்திருக்கின்றன.",
+    "taWord": "தொடர்பு கூட்டம் / தொடர்பு புள்ளி",
+    "pos": "noun",
+    "synonyms": [
+      "Check-in",
+      "Meeting",
+      "Contact point"
+    ]
+  },
+  {
+    "id": 2021,
+    "word": "Trade-off",
+    "definition": "A compromise where one benefit is accepted in exchange for accepting a limitation in another area.",
+    "enExample": "We made a conscious trade-off between build time and runtime rendering performance.",
+    "taExample": "உருவாக்கும் நேரம் மற்றும் இயக்க நேர வரைதல் செயல்திறனுக்கு இடையே நாம் உணர்வுபூர்வமான சமரசத்தை (Trade-off) மேற்கொண்டோம்.",
+    "taWord": "சமரசம் / சாதக பாதக பரிமாற்றம்",
+    "pos": "noun",
+    "synonyms": [
+      "Compromise",
+      "Balance",
+      "Concession"
     ]
   },
   {
@@ -104,6 +403,42 @@
     ],
     "antonyms": [
       "Graph with cycles"
+    ]
+  },
+  {
+    "id": 2743,
+    "word": "Tree Shaking",
+    "pos": "noun",
+    "definition": "A build optimization process in JavaScript bundlers that statically analyzes ES module import graphs to remove unused code exports from final production bundles.",
+    "taWord": "தேவையற்ற குறியீடுகளை நீக்கும் உத்தி",
+    "enExample": "By importing only specific Lucide icons, Rollup's tree shaking reduced our client JavaScript bundle by 40 percent.",
+    "taExample": "பயன்படுத்தப்படாத உதிரி நிரல்களை Tree Shaking மூலம் நீக்கி செயலியை மிகச் சிறிய அளவில் உருவாக்கினோம்.",
+    "synonyms": [
+      "dead code elimination",
+      "bundle optimization",
+      "export pruning"
+    ],
+    "antonyms": [
+      "bloated bundling",
+      "full module inclusion"
+    ]
+  },
+  {
+    "id": 2018,
+    "word": "Trepidation",
+    "definition": "A feeling of fear or agitation about something that may happen.",
+    "enExample": "The men set off in fear and trepidation.",
+    "taExample": "அந்த மனிதர்கள் பயத்துடனும் அச்சத்துடனும் புறப்பட்டனர்.",
+    "taWord": "அச்சம்",
+    "pos": "noun",
+    "synonyms": [
+      "Fear",
+      "Apprehension",
+      "Dread"
+    ],
+    "antonyms": [
+      "Calm",
+      "Equanimity"
     ]
   },
   {
@@ -169,45 +504,20 @@
     ]
   },
   {
-    "id": 2012,
-    "word": "Telemetry",
-    "definition": "Automated remote collection and measurement of performance metrics and log diagnostics from live production systems.",
-    "enExample": "OpenTelemetry standardizes trace collection for cloud-native microservice architectures.",
-    "taExample": "OpenTelemetry கிளவுட்-நேட்டிவ் மைக்ரோசர்வீஸ் கட்டமைப்புகளுக்கான தடம் சேகரிப்பைத் தரப்படுத்துகிறது.",
-    "taWord": "தொலைவழிக் கண்காணிப்பு (Telemetry)",
+    "id": 2824,
+    "word": "Two-Phase Commit",
     "pos": "noun",
+    "definition": "A classic distributed atomic commit protocol where a coordinator asks all participating nodes to prepare before executing the final commit.",
+    "enExample": "Although Two-Phase Commit guarantees strict consistency across database shards, it suffers high latency under heavy contention.",
+    "taWord": "இருபடி ஒப்புதல் நெறிமுறை",
+    "taExample": "அனைத்து சேவையகங்களும் தயார் என்பதை உறுதி செய்த பின்பே மாற்றங்களை பதிவு செய்யும் முறை.",
     "synonyms": [
-      "Diagnostics",
-      "Metrics collection",
-      "Monitoring"
-    ]
-  },
-  {
-    "id": 2013,
-    "word": "Template",
-    "definition": "A pre-formatted blueprint file or component containing parameterized placeholders for generating dynamic content.",
-    "enExample": "React JSX templates seamlessly render state data into dynamic HTML markup.",
-    "taExample": "ரியாக்ட் JSX டெம்ப்ளேட்கள் நிலைத் தரவை மாறும் HTML குறியீடாக தடையின்றி இயற்றுகின்றன.",
-    "taWord": "வார்ப்புரு (Template)",
-    "pos": "noun",
-    "synonyms": [
-      "Pattern",
-      "Blueprint",
-      "Boilerplate"
-    ]
-  },
-  {
-    "id": 2014,
-    "word": "Threshold",
-    "definition": "A predefined value or condition limit that triggers an alert, scale event, or state transition when breached.",
-    "enExample": "Exceeding the eighty percent CPU utilization threshold triggers autoscaling instances.",
-    "taExample": "எண்பது சதவீத CPU பயன்பாட்டு வரம்பை (Threshold) மீறுவது தானியங்கு அளவீட்டு நிகழ்வுகளைத் தூண்டுகிறது.",
-    "taWord": "வரம்பு மதிப்பு (Threshold)",
-    "pos": "noun",
-    "synonyms": [
-      "Cutoff",
-      "Limit",
-      "Boundary"
+      "2PC",
+      "Distributed atomic commit"
+    ],
+    "antonyms": [
+      "Eventual consistency",
+      "Saga pattern"
     ]
   },
   {
@@ -228,241 +538,44 @@
     ]
   },
   {
-    "id": 2016,
-    "word": "Taciturn",
-    "definition": "(of a person) reserved or uncommunicative in speech; saying little.",
-    "enExample": "After such gatherings she would be taciturn and morose.",
-    "taExample": "இதுபோன்ற கூட்டங்களுக்குப் பிறகு அவள் அதிகம் பேசாமல் இருப்பாள்.",
-    "taWord": "அதிகம் பேசாத",
+    "id": 2924,
+    "word": "Tariffs",
+    "pos": "noun",
+    "definition": "Customs taxes or duties levied by a sovereign government on specific classes of imported goods.",
+    "enExample": "The administration enacted retaliatory twenty-five percent tariffs on imported industrial steel.",
+    "taWord": "இறக்குமதி சுங்க வரிகள்",
+    "taExample": "வெளிநாட்டிலிருந்து இறக்குமதி செய்யப்படும் எஃகு மீது இருபத்தைந்து சதவீத சுங்க வரியை அரசு விதித்தது.",
+    "synonyms": [
+      "Import duties",
+      "Customs levies",
+      "Excise taxes",
+      "Tolls"
+    ],
+    "antonyms": [
+      "Subsidies",
+      "Duty-free trade",
+      "Tariff exemptions"
+    ]
+  },
+  {
+    "id": 2925,
+    "word": "Tumultuous",
     "pos": "adj.",
+    "definition": "Characterized by loud, confused noise, chaotic disorder, volatile upheaval, or passionate agitation.",
+    "enExample": "The country endured a tumultuous election year marked by continuous protests and economic upheaval.",
+    "taWord": "கொந்தளிப்பான / குழப்பம் நிறைந்த",
+    "taExample": "தொடர் போராட்டங்களும் பொருளாதார வீழ்ச்சியும் நிறைந்த ஒரு கொந்தளிப்பான தேர்தல் ஆண்டை நாடு சந்தித்தது.",
     "synonyms": [
-      "Untalkative",
-      "Uncommunicative",
-      "Reticent"
+      "Turbulent",
+      "Tempestuous",
+      "Chaotic",
+      "Riotous"
     ],
     "antonyms": [
-      "Talkative",
-      "Loquacious"
-    ]
-  },
-  {
-    "id": 2017,
-    "word": "Tenacious",
-    "definition": "Tending to keep a firm hold of something; clinging or adhering closely.",
-    "enExample": "A tenacious grip.",
-    "taExample": "ஒரு பிடிவாதமான பிடி.",
-    "taWord": "பிடிவாதமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Firm",
-      "Tight",
-      "Fast"
-    ],
-    "antonyms": [
-      "Loose",
-      "Weak"
-    ]
-  },
-  {
-    "id": 2018,
-    "word": "Trepidation",
-    "definition": "A feeling of fear or agitation about something that may happen.",
-    "enExample": "The men set off in fear and trepidation.",
-    "taExample": "அந்த மனிதர்கள் பயத்துடனும் அச்சத்துடனும் புறப்பட்டனர்.",
-    "taWord": "அச்சம்",
-    "pos": "noun",
-    "synonyms": [
-      "Fear",
-      "Apprehension",
-      "Dread"
-    ],
-    "antonyms": [
-      "Calm",
-      "Equanimity"
-    ]
-  },
-  {
-    "id": 2019,
-    "word": "Takeaway",
-    "definition": "A key point, lesson, or insight learned from a meeting, presentation, or discussion.",
-    "enExample": "The main takeaway from the system architecture presentation was to keep services decoupled.",
-    "taExample": "அமைப்புக் கட்டமைப்பு விளக்கக்காட்சியின் முக்கிய கற்றுக்கொண்ட பாடம் சேவைகளைத் தனித்தனியாக வைப்பதாகும்.",
-    "taWord": "முக்கிய செய்தி / கற்றுக்கொண்ட பாடம்",
-    "pos": "noun",
-    "synonyms": [
-      "Insight",
-      "Key point",
-      "Lesson"
-    ]
-  },
-  {
-    "id": 2020,
-    "word": "Touchpoint",
-    "definition": "A scheduled interaction or meeting between teams, stakeholders, or clients.",
-    "enExample": "Weekly touchpoints keep the cross-functional team aligned on project progress.",
-    "taExample": "வாராந்திர தொடர்பு கூட்டங்கள் (Touchpoints) திட்டத்தின் முன்னேற்றத்தில் பலதுறை குழுவை ஒத்திசைவாக வைத்திருக்கின்றன.",
-    "taWord": "தொடர்பு கூட்டம் / தொடர்பு புள்ளி",
-    "pos": "noun",
-    "synonyms": [
-      "Check-in",
-      "Meeting",
-      "Contact point"
-    ]
-  },
-  {
-    "id": 2021,
-    "word": "Trade-off",
-    "definition": "A compromise where one benefit is accepted in exchange for accepting a limitation in another area.",
-    "enExample": "We made a conscious trade-off between build time and runtime rendering performance.",
-    "taExample": "உருவாக்கும் நேரம் மற்றும் இயக்க நேர வரைதல் செயல்திறனுக்கு இடையே நாம் உணர்வுபூர்வமான சமரசத்தை (Trade-off) மேற்கொண்டோம்.",
-    "taWord": "சமரசம் / சாதக பாதக பரிமாற்றம்",
-    "pos": "noun",
-    "synonyms": [
-      "Compromise",
-      "Balance",
-      "Concession"
-    ]
-  },
-  {
-    "id": 2627,
-    "word": "Touch grass",
-    "definition": "To disconnect from internet/screens and reconnect with reality and the physical world.",
-    "enExample": "After debugging CI/CD pipeline YAML scripts for ten straight hours, you need to go touch grass.",
-    "taExample": "தொடர்ந்து பத்து மணிநேரம் சிஐ/சிடி அமைப்பை சரிபார்த்த பிறகு, நீங்கள் திரையை விட்டு வெளியே சென்று உலகை உணர வேண்டும்.",
-    "taWord": "நிஜ உலகிற்கு திரும்புதல் / ஓய்வெடுத்தல்",
-    "pos": "idiom",
-    "synonyms": [
-      "Unplug",
-      "Get outside",
-      "Ground yourself"
-    ],
-    "antonyms": [
-      "Doomscroll",
-      "Overwork"
-    ]
-  },
-  {
-    "id": 2661,
-    "word": "Take offline",
-    "definition": "To move a specific discussion outside the current group meeting to be resolved privately.",
-    "enExample": "That CSS styling debate is eating up time, let's take it offline between the two frontend engineers.",
-    "taExample": "அந்த சிஎஸ்எஸ் வடிவமைப்பு விவாதம் நேரத்தை வீணடிக்கிறது, அதை இரு முன்னணி பொறியாளர்களும் தனியாக விவாதித்து முடிவெடுக்கலாம்.",
-    "taWord": "தனியாக விவாதிக்க மாற்றுதல்",
-    "pos": "idiom",
-    "synonyms": [
-      "Discuss privately",
-      "Defer",
-      "Side-channel"
-    ],
-    "antonyms": [
-      "Address publicly",
-      "Discuss in forum"
-    ]
-  },
-  {
-    "id": 2665,
-    "word": "Table",
-    "definition": "To postpone, suspend, or set aside consideration of an agenda item for a later meeting.",
-    "enExample": "We agreed to table the microservice migration discussion until Q4 budget approvals arrive.",
-    "taExample": "Q4 பட்ஜெட் ஒப்புதல்கள் வரும் வரை மைக்ரோசர்வீஸ் மாற்ற விவாதத்தை ஒத்திவைக்க நாங்கள் ஒப்புக்கொண்டோம்.",
-    "taWord": "ஒத்திவைத்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Postpone",
-      "Shelve",
-      "Defer"
-    ],
-    "antonyms": [
-      "Enact",
-      "Address immediately"
-    ]
-  },
-  {
-    "id": 2680,
-    "word": "Timebox",
-    "definition": "A fixed, predetermined period of time strictly allocated to an activity or meeting.",
-    "enExample": "Let's timebox the architecture brainstorming session to forty-five minutes.",
-    "taExample": "கட்டமைப்பு குறித்த மூளைச்சலவைக் கூட்டத்தை நாற்பத்தைந்து நிமிடங்களுக்குள் கண்டிப்பாக முடிப்போம்.",
-    "taWord": "வரையறுக்கப்பட்ட கால அளவு",
-    "pos": "noun",
-    "synonyms": [
-      "Fixed duration",
-      "Time limit",
-      "Scheduled window"
-    ],
-    "antonyms": [
-      "Open-ended discussion"
-    ]
-  },
-  {
-    "id": 2693,
-    "word": "Technical debt",
-    "definition": "The implied future rework cost caused by choosing a quick, expedient solution now instead of a sound approach.",
-    "enExample": "Skipping unit tests to meet the launch date added massive technical debt to our codebase.",
-    "taExample": "வெளியீட்டுத் தேதியை எட்ட சோதனைகளைத் தவிர்த்தது எங்கள் குறியீட்டில் மிகப்பெரிய தொழில்நுட்பக் கடனை சேர்த்தது.",
-    "taWord": "தொழில்நுட்பக் கடன் / பிந்தைய சீரமைப்புச் சுமை",
-    "pos": "noun",
-    "synonyms": [
-      "Code debt",
-      "Architectural debt",
-      "Deficit"
-    ],
-    "antonyms": [
-      "Clean architecture",
-      "Robust code"
-    ]
-  },
-  {
-    "id": 2715,
-    "word": "Test harness",
-    "definition": "A collection of software, test scripts, stubs, and configuration data configured to execute automated test suites.",
-    "enExample": "The QA team developed a resilient test harness to run regression suites across multiple browsers in parallel.",
-    "taExample": "பல்வேறு உலாவிகளில் ஒரே நேரத்தில் சோதனைகளை இயக்க சோதனைக் குழு வலுவான தானியங்கி சோதனைக் கட்டமைப்பை உருவாக்கியது.",
-    "taWord": "தானியங்கி சோதனைக் கட்டமைப்பு",
-    "pos": "noun",
-    "synonyms": [
-      "Test framework",
-      "Automation suite",
-      "Testing scaffold"
-    ],
-    "antonyms": [
-      "Manual testing"
-    ]
-  },
-  {
-    "id": 2743,
-    "word": "Tree Shaking",
-    "pos": "noun",
-    "definition": "A build optimization process in JavaScript bundlers that statically analyzes ES module import graphs to remove unused code exports from final production bundles.",
-    "taWord": "தேவையற்ற குறியீடுகளை நீக்கும் உத்தி",
-    "enExample": "By importing only specific Lucide icons, Rollup's tree shaking reduced our client JavaScript bundle by 40 percent.",
-    "taExample": "பயன்படுத்தப்படாத உதிரி நிரல்களை Tree Shaking மூலம் நீக்கி செயலியை மிகச் சிறிய அளவில் உருவாக்கினோம்.",
-    "synonyms": [
-      "dead code elimination",
-      "bundle optimization",
-      "export pruning"
-    ],
-    "antonyms": [
-      "bloated bundling",
-      "full module inclusion"
-    ]
-  },
-  {
-    "id": 2744,
-    "word": "Time-to-Live",
-    "pos": "noun",
-    "definition": "A numerical threshold or expiration timer (TTL) that dictates the lifespan or hop-limit of cached data, DNS records, or network packets.",
-    "taWord": "வாழ்நாள் காலக்கெடு / தற்காலிக கால எல்லை",
-    "enExample": "We configured a 15-minute TTL on the Redis cache key to guarantee users see fresh inventory data.",
-    "taExample": "தற்காலிக நினைவகத்தில் உள்ள தரவுகள் 15 நிமிடங்களுக்குப் பிறகு தானாக காலாவதியாகுமாறு TTL காலக்கெடு அமைக்கப்பட்டது.",
-    "synonyms": [
-      "TTL",
-      "cache expiration",
-      "lifespan duration"
-    ],
-    "antonyms": [
-      "infinite persistence",
-      "permanent retention"
+      "Peaceful",
+      "Tranquil",
+      "Orderly",
+      "Serene"
     ]
   }
 ]

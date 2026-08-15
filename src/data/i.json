@@ -1,5 +1,58 @@
 [
   {
+    "id": 2635,
+    "word": "Ick",
+    "definition": "A sudden feeling of repulsion, cringe, or distaste toward a habit or practice.",
+    "enExample": "Seeing global mutable state in a modern React codebase gives me an instant ick.",
+    "taExample": "நவீன ரியாக்ட் குறியீட்டுத் தொகுப்பில் உலகளாவிய மாற்றக்கூடிய மாறிகளைக் காண்பது எனக்கு உடனடியாக ஒவ்வாமையை ஏற்படுத்துகிறது.",
+    "taWord": "திடீர் அருவருப்பு / ஒவ்வாமை",
+    "pos": "noun",
+    "synonyms": [
+      "Distaste",
+      "Repulsion",
+      "Aversion"
+    ],
+    "antonyms": [
+      "Affection",
+      "Admiration"
+    ]
+  },
+  {
+    "id": 926,
+    "word": "Iconoclast",
+    "definition": "A person who attacks cherished beliefs or institutions.",
+    "enExample": "Notorious as an iconoclast, that music critic isn’t afraid to go after sacred cows.",
+    "taExample": "மரபுகளை உடைப்பவர் என்று பெயரெடுத்த அந்த இசை விமர்சகர் புனிதமானவற்றையும் விமர்சிக்க தயங்குவதில்லை.",
+    "taWord": "மரபுகளை உடைப்பவர்",
+    "pos": "noun",
+    "synonyms": [
+      "Critic",
+      "Skeptic",
+      "Heretic"
+    ],
+    "antonyms": [
+      "Conformist",
+      "Believer"
+    ]
+  },
+  {
+    "id": 2794,
+    "word": "Idempotency Key",
+    "pos": "noun",
+    "definition": "A unique identifier attached to an API mutation request ensuring that duplicate network retries perform the operation exactly once.",
+    "enExample": "Stripe relies on an idempotency key to guarantee a customer's credit card is never charged twice during network timeouts.",
+    "taWord": "மீள்செயல் மாறா விசை",
+    "taExample": "தொடர்பு துண்டிக்கப்பட்டு மீண்டும் கோரிக்கை அனுப்பப்பட்டாலும் ஒரே ஒரு முறை மட்டுமே பணப்பரிவர்த்தனை நடப்பதை உறுதிசெய்யும் விசை.",
+    "synonyms": [
+      "De-duplication token",
+      "Transaction idempotency token"
+    ],
+    "antonyms": [
+      "Non-idempotent retry",
+      "Duplicate side effect"
+    ]
+  },
+  {
     "id": 901,
     "word": "Idempotent",
     "definition": "Denoting an operation that can be applied multiple times without changing the result beyond the initial application.",
@@ -17,6 +70,41 @@
     ]
   },
   {
+    "id": 2795,
+    "word": "Identity Provider",
+    "pos": "noun",
+    "definition": "A trusted authentication authority (such as Okta, Google Auth, or Auth0) that creates, maintains, and validates user identity claims.",
+    "enExample": "Our SSO architecture redirects login requests to our corporate identity provider via OpenID Connect.",
+    "taWord": "பயனர் அடையாள வழங்குநர்",
+    "taExample": "பயனர்களின் அங்கீகாரத்தை சரிபார்த்து உறுதிசெய்யும் பாதுகாப்பு அமைப்பு.",
+    "synonyms": [
+      "IdP",
+      "Authentication server",
+      "Auth broker"
+    ],
+    "antonyms": [
+      "Relying party",
+      "Service provider client"
+    ]
+  },
+  {
+    "id": 929,
+    "word": "Illustrate",
+    "definition": "Explain or make something clear using examples, charts, or diagrams.",
+    "enExample": "Use flowcharts to illustrate the state machine transitions.",
+    "taExample": "நிலை இயந்திர மாற்றங்களை விளக்க பாய்வுப்படங்களைப் பயன்படுத்தவும்.",
+    "taWord": "விளக்குதல் / எடுத்துக்காட்டுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Demonstrate",
+      "Clarify"
+    ],
+    "antonyms": [
+      "Obscure",
+      "Confuse"
+    ]
+  },
+  {
     "id": 902,
     "word": "Immutable",
     "definition": "Unchanging over time or unable to be changed.",
@@ -31,6 +119,72 @@
     "antonyms": [
       "Mutable",
       "Variable"
+    ]
+  },
+  {
+    "id": 930,
+    "word": "Impact",
+    "definition": "A marked effect or influence produced by an event or decision.",
+    "enExample": "Refactoring the legacy backend produced an immediate positive impact on performance.",
+    "taExample": "பழைய பின்-இறுதியை சீரமைப்பது செயல்திறனில் உடனடி நேர்மறையான தாக்கத்தை ஏற்படுத்தியது.",
+    "taWord": "தாக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Effect",
+      "Impression"
+    ]
+  },
+  {
+    "id": 931,
+    "word": "Impartial",
+    "definition": "Treating all rivals or perspectives equally; fair and unbiased.",
+    "enExample": "Code reviews should offer an impartial evaluation of architecture choices.",
+    "taExample": "குறியீட்டு மதிப்பாய்வுகள் கட்டமைப்பு தேர்வுகளின் நடுநிலையான மதிப்பீட்டை வழங்க வேண்டும்.",
+    "taWord": "நடுநிலையான / பட்சபாதமற்ற",
+    "pos": "adj.",
+    "synonyms": [
+      "Unbiased",
+      "Fair"
+    ],
+    "antonyms": [
+      "Biased",
+      "Partial"
+    ]
+  },
+  {
+    "id": 2686,
+    "word": "Impediment",
+    "definition": "Any barrier, bottleneck, or obstruction that halts or slows an agile team's progress.",
+    "enExample": "The iteration manager worked diligently to remove the VPN access impediment for offshore testers.",
+    "taExample": "வெளிநாட்டு சோதனையாளர்களின் வி.பி.என் அணுகல் தடையை நீக்க மறுஆய்வு மேலாளர் தீவிரமாக செயல்பட்டார்.",
+    "taWord": "பணித்தடை / இடையூறு",
+    "pos": "noun",
+    "synonyms": [
+      "Obstacle",
+      "Barrier",
+      "Roadblock"
+    ],
+    "antonyms": [
+      "Catalyst",
+      "Enabler",
+      "Accelerator"
+    ]
+  },
+  {
+    "id": 932,
+    "word": "Imperative",
+    "definition": "Of vital importance; crucial and requiring immediate attention.",
+    "enExample": "It is imperative to patch critical security vulnerabilities without delay.",
+    "taExample": "முக்கிய பாதுகாப்பு பலவீனங்களை தாமதமின்றி சரிசெய்வது அவசியமானது.",
+    "taWord": "அவசியமான / கட்டாயமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Crucial",
+      "Vital"
+    ],
+    "antonyms": [
+      "Optional",
+      "Unimportant"
     ]
   },
   {
@@ -68,6 +222,23 @@
     ]
   },
   {
+    "id": 933,
+    "word": "Incentive",
+    "definition": "A thing that motivates or encourages someone to do something.",
+    "enExample": "Faster load times provide strong incentive for users to remain on the site.",
+    "taExample": "வேகமான ஏற்ற நேரங்கள் பயனர்கள் தளத்தில் தொடர வலுவான தூண்டுதலை வழங்குகின்றன.",
+    "taWord": "தூண்டுதல் / ஊக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Motivation",
+      "Encouragement"
+    ],
+    "antonyms": [
+      "Deterrent",
+      "Disincentive"
+    ]
+  },
+  {
     "id": 905,
     "word": "Incentivize",
     "definition": "Provide (someone) with an incentive for doing something.",
@@ -85,6 +256,41 @@
     ]
   },
   {
+    "id": 934,
+    "word": "Incorporate",
+    "definition": "Take in or contain something as part of a larger whole.",
+    "enExample": "We decided to incorporate user feedback into the redesign.",
+    "taExample": "மறுவடிவமைப்பில் பயனர்களின் கருத்துக்களைச் சேர்த்துக்கொள்ள முடிவு செய்தோம்.",
+    "taWord": "சேர்த்துக்கொள்ளுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Integrate",
+      "Include"
+    ],
+    "antonyms": [
+      "Exclude",
+      "Separate"
+    ]
+  },
+  {
+    "id": 2684,
+    "word": "Increment",
+    "definition": "The concrete, usable, inspectable outcome of sprint work that steps toward the product goal.",
+    "enExample": "Each sprint must result in a potentially shippable product increment that adds real value.",
+    "taExample": "ஒவ்வொரு ஸ்பிரிண்ட்டும் உண்மையான பயனைத் தரும் வெளியிடக்கூடிய மென்பொருள் முன்னேற்றத்தை உருவாக்க வேண்டும்.",
+    "taWord": "பயன்படுத்தக்கூடிய மென்பொருள் முன்னேற்றம்",
+    "pos": "noun",
+    "synonyms": [
+      "Deliverable build",
+      "Working version",
+      "Milestone output"
+    ],
+    "antonyms": [
+      "Static plan",
+      "Conceptual model"
+    ]
+  },
+  {
     "id": 906,
     "word": "Index",
     "definition": "An indicator, sign, or measure of something; a data structure that improves the speed of data retrieval operations on a database table.",
@@ -95,6 +301,23 @@
     "synonyms": [
       "Directory",
       "Indicator"
+    ]
+  },
+  {
+    "id": 935,
+    "word": "Indispensable",
+    "definition": "Absolutely necessary; essential and incapable of being done without.",
+    "enExample": "Automated test suites have become indispensable for continuous deployment.",
+    "taExample": "தானியங்கு சோதனைத் தொகுப்புகள் தொடர்ச்சியான வரிசைப்படுத்தலுக்கு தவிர்க்க முடியாதவையாக மாறிவிட்டன.",
+    "taWord": "தவிர்க்க முடியாத / அவசியமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Essential",
+      "Vital"
+    ],
+    "antonyms": [
+      "Disposable",
+      "Superfluous"
     ]
   },
   {
@@ -115,6 +338,73 @@
     ]
   },
   {
+    "id": 927,
+    "word": "Inexorable",
+    "definition": "Impossible to stop or prevent.",
+    "enExample": "The seemingly inexorable march of new technology.",
+    "taExample": "புதிய தொழில்நுட்பத்தின் தடுக்க முடியாத முன்னேற்றம்.",
+    "taWord": "தடுக்க முடியாத",
+    "pos": "adj.",
+    "synonyms": [
+      "Relentless",
+      "Unstoppable",
+      "Inevitable"
+    ],
+    "antonyms": [
+      "Flexible",
+      "Preventable"
+    ]
+  },
+  {
+    "id": 2793,
+    "word": "Inference",
+    "pos": "noun",
+    "definition": "The execution phase where a trained machine learning model processes live inputs to generate predictions, tokens, or classifications.",
+    "enExample": "We deployed our LLM to GPU instances in Tokyo to lower inference latency for our Asian user base.",
+    "taWord": "பயன்பாட்டு முடிவு உருவாக்கம்",
+    "taExample": "பயிற்சி பெற்ற மாதிரி நேரடி தரவுகளைப் பெற்று முடிவுகளை வழங்கும் கட்டம்.",
+    "synonyms": [
+      "Model evaluation",
+      "Runtime prediction",
+      "Forward pass"
+    ],
+    "antonyms": [
+      "Model training",
+      "Weight backpropagation"
+    ]
+  },
+  {
+    "id": 936,
+    "word": "Influence",
+    "definition": "The capacity to have an effect on the character, development, or behavior of someone or something.",
+    "enExample": "Design decisions strongly influence user retention.",
+    "taExample": "வடிவமைப்பு முடிவுகள் பயனர் தக்கவைப்பில் வலுவான செல்வாக்கைச் செலுத்துகின்றன.",
+    "taWord": "செல்வாக்கு / தாக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Effect",
+      "Control"
+    ]
+  },
+  {
+    "id": 2699,
+    "word": "Ingestion",
+    "definition": "The process of absorbing, importing, and loading massive volumes of real-time data into a processing pipeline.",
+    "enExample": "Our Kafka streaming pipeline handles the ingestion of five million analytics events every minute.",
+    "taExample": "எங்கள் காஃப்கா ஓட்டமானது நிமிடத்திற்கு ஐந்து மில்லியன் நிகழ்வுத் தரவுகளை உள்ளிழுத்துச் செயலாக்குகிறது.",
+    "taWord": "தரவு உள்ளிழுத்தல் / ஏற்றம்",
+    "pos": "noun",
+    "synonyms": [
+      "Data intake",
+      "Importation",
+      "Data loading"
+    ],
+    "antonyms": [
+      "Data export",
+      "Egress"
+    ]
+  },
+  {
     "id": 908,
     "word": "Inherent",
     "definition": "Existing in something as a permanent, essential, or characteristic attribute.",
@@ -132,6 +422,23 @@
     ]
   },
   {
+    "id": 937,
+    "word": "Initiative",
+    "definition": "The ability to assess and initiate things independently; a fresh strategy.",
+    "enExample": "Taking the initiative to refactor messy code builds engineering trust.",
+    "taExample": "குழப்பமான குறியீட்டைச் சீரமைக்க முன்முயற்சி எடுப்பது பொறியியல் நம்பிக்கையை உருவாக்குகிறது.",
+    "taWord": "முன்முயற்சி",
+    "pos": "noun",
+    "synonyms": [
+      "Drive",
+      "Leadership"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Lethargy"
+    ]
+  },
+  {
     "id": 909,
     "word": "Inject",
     "definition": "Introduce (something, under pressure) into a passage, cavity, or solid material.",
@@ -146,6 +453,23 @@
     "antonyms": [
       "Extract",
       "Remove"
+    ]
+  },
+  {
+    "id": 938,
+    "word": "Insight",
+    "definition": "The capacity to gain an accurate and deep intuitive understanding.",
+    "enExample": "User analytics provide deep insight into drop-off rates.",
+    "taExample": "பயனர் பகுப்பாய்வு வெளியேற்ற விகிதங்களைப் பற்றிய ஆழமான நுண்ணறிவை வழங்குகிறது.",
+    "taWord": "நுண்ணறிவு / உண்ணோக்கு",
+    "pos": "noun",
+    "synonyms": [
+      "Perception",
+      "Understanding"
+    ],
+    "antonyms": [
+      "Ignorance",
+      "Blindness"
     ]
   },
   {
@@ -213,6 +537,23 @@
     ]
   },
   {
+    "id": 925,
+    "word": "Intercept",
+    "definition": "Obstruct (someone or something) so as to prevent them from continuing to a destination.",
+    "enExample": "We use middleware to intercept the request and add headers.",
+    "taExample": "கோரிக்கையை இடைமறித்து தலைப்புகளைச் சேர்க்க மிடில்வேரைப் பயன்படுத்துகிறோம்.",
+    "taWord": "இடைமறித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Obstruct",
+      "Block"
+    ],
+    "antonyms": [
+      "Allow",
+      "Permit"
+    ]
+  },
+  {
     "id": 914,
     "word": "Interface",
     "definition": "A point where two systems, subjects, organizations, etc., meet and interact.",
@@ -277,6 +618,24 @@
     ]
   },
   {
+    "id": 928,
+    "word": "Intransigent",
+    "definition": "Unwilling or refusing to change one's views or to agree about something.",
+    "enExample": "Her father had tried persuasion, but she was intransigent.",
+    "taExample": "அவளது தந்தை சம்மதிக்க வைக்க முயன்றார், ஆனால் அவள் விட்டுகொடுக்காதவளாக இருந்தாள்.",
+    "taWord": "விட்டுகொடுக்காத",
+    "pos": "adj.",
+    "synonyms": [
+      "Uncompromising",
+      "Stubborn",
+      "Obstinate"
+    ],
+    "antonyms": [
+      "Compliant",
+      "Flexible"
+    ]
+  },
+  {
     "id": 918,
     "word": "Intricate",
     "definition": "Very complicated or detailed.",
@@ -291,6 +650,40 @@
     "antonyms": [
       "Simple",
       "Straightforward"
+    ]
+  },
+  {
+    "id": 924,
+    "word": "Intrinsic",
+    "definition": "Belonging naturally; essential.",
+    "enExample": "Performance is an intrinsic feature of this new architecture.",
+    "taExample": "செயல்திறன் என்பது இந்த புதிய கட்டமைப்பின் உள்ளார்ந்த அம்சமாகும்.",
+    "taWord": "உள்ளார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Inherent",
+      "Essential"
+    ],
+    "antonyms": [
+      "Extrinsic",
+      "Acquired"
+    ]
+  },
+  {
+    "id": 923,
+    "word": "Intuitive",
+    "definition": "Using or based on what one feels to be true even without conscious reasoning; instinctive.",
+    "enExample": "The new navigation menu is much more intuitive.",
+    "taExample": "புதிய வழிசெலுத்தல் பட்டி மிகவும் உள்ளுணர்வுடன் கூடியதாக (எளிதில் புரிந்துகொள்ளும்படி) உள்ளது.",
+    "taWord": "உள்ளுணர்வுடன் கூடிய",
+    "pos": "adj.",
+    "synonyms": [
+      "Instinctive",
+      "Natural"
+    ],
+    "antonyms": [
+      "Calculated",
+      "Unnatural"
     ]
   },
   {
@@ -357,343 +750,190 @@
     ]
   },
   {
-    "id": 923,
-    "word": "Intuitive",
-    "definition": "Using or based on what one feels to be true even without conscious reasoning; instinctive.",
-    "enExample": "The new navigation menu is much more intuitive.",
-    "taExample": "புதிய வழிசெலுத்தல் பட்டி மிகவும் உள்ளுணர்வுடன் கூடியதாக (எளிதில் புரிந்துகொள்ளும்படி) உள்ளது.",
-    "taWord": "உள்ளுணர்வுடன் கூடிய",
-    "pos": "adj.",
+    "id": 2832,
+    "word": "Indignation",
+    "pos": "noun",
+    "definition": "Anger or righteous annoyance provoked by what is perceived as unfair, corrupt, or unjust treatment.",
+    "enExample": "The minister's statement sparked widespread public indignation across the nation.",
+    "taWord": "நியாயமான ஆத்திரம் / கொந்தளிப்பு",
+    "taExample": "அமைச்சரின் அறிக்கை மக்களிடையே கடுமையான ஆத்திரத்தையும் கொந்தளிப்பையும் ஏற்படுத்தியது.",
     "synonyms": [
-      "Instinctive",
-      "Natural"
+      "Outrage",
+      "Resentment",
+      "Fury",
+      "Exasperation"
     ],
     "antonyms": [
-      "Calculated",
-      "Unnatural"
+      "Contentment",
+      "Delight",
+      "Satisfaction",
+      "Complacency"
     ]
   },
   {
-    "id": 924,
-    "word": "Intrinsic",
-    "definition": "Belonging naturally; essential.",
-    "enExample": "Performance is an intrinsic feature of this new architecture.",
-    "taExample": "செயல்திறன் என்பது இந்த புதிய கட்டமைப்பின் உள்ளார்ந்த அம்சமாகும்.",
-    "taWord": "உள்ளார்ந்த",
-    "pos": "adj.",
+    "id": 2870,
+    "word": "Impasse",
+    "pos": "noun",
+    "definition": "A situation where no progress or compromise is possible due to deadlock between opposing sides.",
+    "enExample": "The labor wage talks hit an insurmountable impasse after management refused inflation-pegged adjustments.",
+    "taWord": "முட்டுக்கட்டை / இழுபறி நிலை",
+    "taExample": "ஊதிய உயர்வு தொடர்பான பேச்சுவார்த்தையில் நிர்வாகம் பிடிவாதமாக இருந்ததால் பேச்சுவார்த்தை முட்டுக்கட்டையில் முடிந்தது.",
     "synonyms": [
-      "Inherent",
-      "Essential"
+      "Deadlock",
+      "Stalemate",
+      "Standstill",
+      "Gridlock"
     ],
     "antonyms": [
-      "Extrinsic",
-      "Acquired"
+      "Breakthrough",
+      "Resolution",
+      "Progress",
+      "Agreement"
     ]
   },
   {
-    "id": 925,
-    "word": "Intercept",
-    "definition": "Obstruct (someone or something) so as to prevent them from continuing to a destination.",
-    "enExample": "We use middleware to intercept the request and add headers.",
-    "taExample": "கோரிக்கையை இடைமறித்து தலைப்புகளைச் சேர்க்க மிடில்வேரைப் பயன்படுத்துகிறோம்.",
-    "taWord": "இடைமறித்தல்",
+    "id": 2871,
+    "word": "Impeachment",
+    "pos": "noun",
+    "definition": "A formal constitutional charge of treason, bribery, or high crimes brought against a public official by a legislature.",
+    "enExample": "The parliament drafted articles of impeachment against the president over allegations of abuse of executive power.",
+    "taWord": "பதவி நீக்க குற்றச்சாட்டு / பதவி நீக்க விசாரணை",
+    "taExample": "அதிகார துஷ்பிரயோக குற்றச்சாட்டுகளுக்காக அதிபருக்கு எதிராக பதவி நீக்க தீர்மானம் கொண்டுவரப்பட்டது.",
+    "synonyms": [
+      "Indictment",
+      "Arraignment",
+      "Formal trial for removal"
+    ],
+    "antonyms": [
+      "Reinstatement",
+      "Vindication",
+      "Acquittal",
+      "Endorsement"
+    ]
+  },
+  {
+    "id": 2872,
+    "word": "Implicate",
     "pos": "verb",
+    "definition": "To show, suggest, or prove that someone is involved or connected to a crime or corrupt conspiracy.",
+    "enExample": "Testimony from the prime suspect directly implicated several senior intelligence officials in the plot.",
+    "taWord": "குற்றத்தில் தொடர்புபடுத்துதல்",
+    "taExample": "முக்கிய குற்றவாளி அளித்த வாக்குமூலம் பல உயர் அதிகாரிகளை இந்த சதியில் தொடர்புபடுத்தியது.",
     "synonyms": [
-      "Obstruct",
-      "Block"
+      "Incriminate",
+      "Involve",
+      "Entangle",
+      "Connect"
     ],
     "antonyms": [
-      "Allow",
-      "Permit"
+      "Exonerate",
+      "Absolve",
+      "Clear",
+      "Exclude"
     ]
   },
   {
-    "id": 926,
-    "word": "Iconoclast",
-    "definition": "A person who attacks cherished beliefs or institutions.",
-    "enExample": "Notorious as an iconoclast, that music critic isn’t afraid to go after sacred cows.",
-    "taExample": "மரபுகளை உடைப்பவர் என்று பெயரெடுத்த அந்த இசை விமர்சகர் புனிதமானவற்றையும் விமர்சிக்க தயங்குவதில்லை.",
-    "taWord": "மரபுகளை உடைப்பவர்",
-    "pos": "noun",
-    "synonyms": [
-      "Critic",
-      "Skeptic",
-      "Heretic"
-    ],
-    "antonyms": [
-      "Conformist",
-      "Believer"
-    ]
-  },
-  {
-    "id": 927,
-    "word": "Inexorable",
-    "definition": "Impossible to stop or prevent.",
-    "enExample": "The seemingly inexorable march of new technology.",
-    "taExample": "புதிய தொழில்நுட்பத்தின் தடுக்க முடியாத முன்னேற்றம்.",
-    "taWord": "தடுக்க முடியாத",
-    "pos": "adj.",
-    "synonyms": [
-      "Relentless",
-      "Unstoppable",
-      "Inevitable"
-    ],
-    "antonyms": [
-      "Flexible",
-      "Preventable"
-    ]
-  },
-  {
-    "id": 928,
-    "word": "Intransigent",
-    "definition": "Unwilling or refusing to change one's views or to agree about something.",
-    "enExample": "Her father had tried persuasion, but she was intransigent.",
-    "taExample": "அவளது தந்தை சம்மதிக்க வைக்க முயன்றார், ஆனால் அவள் விட்டுகொடுக்காதவளாக இருந்தாள்.",
-    "taWord": "விட்டுகொடுக்காத",
-    "pos": "adj.",
-    "synonyms": [
-      "Uncompromising",
-      "Stubborn",
-      "Obstinate"
-    ],
-    "antonyms": [
-      "Compliant",
-      "Flexible"
-    ]
-  },
-  {
-    "id": 929,
-    "word": "Illustrate",
-    "definition": "Explain or make something clear using examples, charts, or diagrams.",
-    "enExample": "Use flowcharts to illustrate the state machine transitions.",
-    "taExample": "நிலை இயந்திர மாற்றங்களை விளக்க பாய்வுப்படங்களைப் பயன்படுத்தவும்.",
-    "taWord": "விளக்குதல் / எடுத்துக்காட்டுதல்",
+    "id": 2873,
+    "word": "Incite",
     "pos": "verb",
+    "definition": "To encourage, provoke, or stir up people toward violent, unlawful, or riotous actions.",
+    "enExample": "The court found that the provocative broadcast was designed to incite civil disobedience.",
+    "taWord": "வன்முறைக்கு தூண்டுதல்",
+    "taExample": "மக்களிடையே வன்முறையையும் மோதலையும் தூண்டும் வகையில் அந்த பேச்சு அமைந்ததாக நீதிமன்றம் தெரிவித்தது.",
     "synonyms": [
-      "Demonstrate",
-      "Clarify"
+      "Instigate",
+      "Provoke",
+      "Foment",
+      "Stir up"
     ],
     "antonyms": [
-      "Obscure",
-      "Confuse"
+      "Deter",
+      "Dissuade",
+      "Pacify",
+      "Calm"
     ]
   },
   {
-    "id": 930,
-    "word": "Impact",
-    "definition": "A marked effect or influence produced by an event or decision.",
-    "enExample": "Refactoring the legacy backend produced an immediate positive impact on performance.",
-    "taExample": "பழைய பின்-இறுதியை சீரமைப்பது செயல்திறனில் உடனடி நேர்மறையான தாக்கத்தை ஏற்படுத்தியது.",
-    "taWord": "தாக்கம்",
+    "id": 2874,
+    "word": "Injunction",
     "pos": "noun",
+    "definition": "An authoritative court order restraining a party from doing or continuing an act, or compelling them to do it.",
+    "enExample": "The federal judge granted an emergency injunction blocking the deportation of asylum applicants.",
+    "taWord": "நீதிமன்ற இடைக்கால தடை உத்தரவு",
+    "taExample": "அகதிகளை உடனடியாக வெளியேற்றுவதற்கு எதிராக நீதிமன்றம் அவசர இடைக்கால தடை உத்தரவை பிறப்பித்தது.",
     "synonyms": [
-      "Effect",
-      "Impression"
-    ]
-  },
-  {
-    "id": 931,
-    "word": "Impartial",
-    "definition": "Treating all rivals or perspectives equally; fair and unbiased.",
-    "enExample": "Code reviews should offer an impartial evaluation of architecture choices.",
-    "taExample": "குறியீட்டு மதிப்பாய்வுகள் கட்டமைப்பு தேர்வுகளின் நடுநிலையான மதிப்பீட்டை வழங்க வேண்டும்.",
-    "taWord": "நடுநிலையான / பட்சபாதமற்ற",
-    "pos": "adj.",
-    "synonyms": [
-      "Unbiased",
-      "Fair"
+      "Court restraining order",
+      "Stay order",
+      "Judicial ruling",
+      "Decree"
     ],
     "antonyms": [
-      "Biased",
-      "Partial"
+      "Authorization",
+      "Permit",
+      "Sanction",
+      "Allowance"
     ]
   },
   {
-    "id": 932,
-    "word": "Imperative",
-    "definition": "Of vital importance; crucial and requiring immediate attention.",
-    "enExample": "It is imperative to patch critical security vulnerabilities without delay.",
-    "taExample": "முக்கிய பாதுகாப்பு பலவீனங்களை தாமதமின்றி சரிசெய்வது அவசியமானது.",
-    "taWord": "அவசியமான / கட்டாயமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Crucial",
-      "Vital"
-    ],
-    "antonyms": [
-      "Optional",
-      "Unimportant"
-    ]
-  },
-  {
-    "id": 933,
-    "word": "Incentive",
-    "definition": "A thing that motivates or encourages someone to do something.",
-    "enExample": "Faster load times provide strong incentive for users to remain on the site.",
-    "taExample": "வேகமான ஏற்ற நேரங்கள் பயனர்கள் தளத்தில் தொடர வலுவான தூண்டுதலை வழங்குகின்றன.",
-    "taWord": "தூண்டுதல் / ஊக்கம்",
-    "pos": "noun",
-    "synonyms": [
-      "Motivation",
-      "Encouragement"
-    ],
-    "antonyms": [
-      "Deterrent",
-      "Disincentive"
-    ]
-  },
-  {
-    "id": 934,
-    "word": "Incorporate",
-    "definition": "Take in or contain something as part of a larger whole.",
-    "enExample": "We decided to incorporate user feedback into the redesign.",
-    "taExample": "மறுவடிவமைப்பில் பயனர்களின் கருத்துக்களைச் சேர்த்துக்கொள்ள முடிவு செய்தோம்.",
-    "taWord": "சேர்த்துக்கொள்ளுதல்",
+    "id": 2875,
+    "word": "Insinuate",
     "pos": "verb",
+    "definition": "To hint, suggest, or imply something sinister or derogatory in an indirect and sly manner.",
+    "enExample": "The debate moderator insinuated that the frontrunner had concealed offshore business holdings.",
+    "taWord": "மறைமுகமாக சுட்டிக்காட்டுதல் / அவதூறாக உணர்த்துதல்",
+    "taExample": "அவர் முறைகேடாக சொத்து சேர்த்துள்ளதாக விவாதத்தில் மறைமுகமாக குற்றம் சாட்டப்பட்டது.",
     "synonyms": [
-      "Integrate",
-      "Include"
+      "Imply",
+      "Hint",
+      "Intimate",
+      "Suggest"
     ],
     "antonyms": [
-      "Exclude",
-      "Separate"
+      "State explicitly",
+      "Declare openly",
+      "Proclaim"
     ]
   },
   {
-    "id": 935,
-    "word": "Indispensable",
-    "definition": "Absolutely necessary; essential and incapable of being done without.",
-    "enExample": "Automated test suites have become indispensable for continuous deployment.",
-    "taExample": "தானியங்கு சோதனைத் தொகுப்புகள் தொடர்ச்சியான வரிசைப்படுத்தலுக்கு தவிர்க்க முடியாதவையாக மாறிவிட்டன.",
-    "taWord": "தவிர்க்க முடியாத / அவசியமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Essential",
-      "Vital"
-    ],
-    "antonyms": [
-      "Disposable",
-      "Superfluous"
-    ]
-  },
-  {
-    "id": 936,
-    "word": "Influence",
-    "definition": "The capacity to have an effect on the character, development, or behavior of someone or something.",
-    "enExample": "Design decisions strongly influence user retention.",
-    "taExample": "வடிவமைப்பு முடிவுகள் பயனர் தக்கவைப்பில் வலுவான செல்வாக்கைச் செலுத்துகின்றன.",
-    "taWord": "செல்வாக்கு / தாக்கம்",
+    "id": 2876,
+    "word": "Insurgency",
     "pos": "noun",
+    "definition": "An organized armed rebellion or revolt against a recognized government or occupying power.",
+    "enExample": "Special forces were deployed to stabilize border villages impacted by a cross-border insurgency.",
+    "taWord": "ஆயுதமேந்திய கிளர்ச்சி",
+    "taExample": "எல்லைப் பகுதிகளில் நிலவும் ஆயுதமேந்திய கிளர்ச்சியைக் கட்டுப்படுத்த சிறப்புப் படைகள் களமிறக்கப்பட்டன.",
     "synonyms": [
-      "Effect",
-      "Control"
+      "Uprising",
+      "Rebellion",
+      "Insurrection",
+      "Mutiny"
+    ],
+    "antonyms": [
+      "Peace",
+      "Submission",
+      "Loyalty",
+      "Obedience"
     ]
   },
   {
-    "id": 937,
-    "word": "Initiative",
-    "definition": "The ability to assess and initiate things independently; a fresh strategy.",
-    "enExample": "Taking the initiative to refactor messy code builds engineering trust.",
-    "taExample": "குழப்பமான குறியீட்டைச் சீரமைக்க முன்முயற்சி எடுப்பது பொறியியல் நம்பிக்கையை உருவாக்குகிறது.",
-    "taWord": "முன்முயற்சி",
+    "id": 2877,
+    "word": "Intimidation",
     "pos": "noun",
+    "definition": "The act of intentionally frightening or threatening someone to force them to do or refrain from doing something.",
+    "enExample": "Election monitors documented severe voter intimidation outside rural polling precincts.",
+    "taWord": "மிரட்டல் / அச்சுறுத்தல்",
+    "taExample": "வாக்காளர்களை அச்சுறுத்தி வாக்களிக்க விடாமல் தடுத்த சம்பவங்களை தேர்தல் பார்வையாளர்கள் பதிவு செய்தனர்.",
     "synonyms": [
-      "Drive",
-      "Leadership"
+      "Coercion",
+      "Menace",
+      "Terrorization",
+      "Bullying"
     ],
     "antonyms": [
-      "Apathy",
-      "Lethargy"
-    ]
-  },
-  {
-    "id": 938,
-    "word": "Insight",
-    "definition": "The capacity to gain an accurate and deep intuitive understanding.",
-    "enExample": "User analytics provide deep insight into drop-off rates.",
-    "taExample": "பயனர் பகுப்பாய்வு வெளியேற்ற விகிதங்களைப் பற்றிய ஆழமான நுண்ணறிவை வழங்குகிறது.",
-    "taWord": "நுண்ணறிவு / உண்ணோக்கு",
-    "pos": "noun",
-    "synonyms": [
-      "Perception",
-      "Understanding"
-    ],
-    "antonyms": [
-      "Ignorance",
-      "Blindness"
-    ]
-  },
-  {
-    "id": 2635,
-    "word": "Ick",
-    "definition": "A sudden feeling of repulsion, cringe, or distaste toward a habit or practice.",
-    "enExample": "Seeing global mutable state in a modern React codebase gives me an instant ick.",
-    "taExample": "நவீன ரியாக்ட் குறியீட்டுத் தொகுப்பில் உலகளாவிய மாற்றக்கூடிய மாறிகளைக் காண்பது எனக்கு உடனடியாக ஒவ்வாமையை ஏற்படுத்துகிறது.",
-    "taWord": "திடீர் அருவருப்பு / ஒவ்வாமை",
-    "pos": "noun",
-    "synonyms": [
-      "Distaste",
-      "Repulsion",
-      "Aversion"
-    ],
-    "antonyms": [
-      "Affection",
-      "Admiration"
-    ]
-  },
-  {
-    "id": 2684,
-    "word": "Increment",
-    "definition": "The concrete, usable, inspectable outcome of sprint work that steps toward the product goal.",
-    "enExample": "Each sprint must result in a potentially shippable product increment that adds real value.",
-    "taExample": "ஒவ்வொரு ஸ்பிரிண்ட்டும் உண்மையான பயனைத் தரும் வெளியிடக்கூடிய மென்பொருள் முன்னேற்றத்தை உருவாக்க வேண்டும்.",
-    "taWord": "பயன்படுத்தக்கூடிய மென்பொருள் முன்னேற்றம்",
-    "pos": "noun",
-    "synonyms": [
-      "Deliverable build",
-      "Working version",
-      "Milestone output"
-    ],
-    "antonyms": [
-      "Static plan",
-      "Conceptual model"
-    ]
-  },
-  {
-    "id": 2686,
-    "word": "Impediment",
-    "definition": "Any barrier, bottleneck, or obstruction that halts or slows an agile team's progress.",
-    "enExample": "The iteration manager worked diligently to remove the VPN access impediment for offshore testers.",
-    "taExample": "வெளிநாட்டு சோதனையாளர்களின் வி.பி.என் அணுகல் தடையை நீக்க மறுஆய்வு மேலாளர் தீவிரமாக செயல்பட்டார்.",
-    "taWord": "பணித்தடை / இடையூறு",
-    "pos": "noun",
-    "synonyms": [
-      "Obstacle",
-      "Barrier",
-      "Roadblock"
-    ],
-    "antonyms": [
-      "Catalyst",
-      "Enabler",
-      "Accelerator"
-    ]
-  },
-  {
-    "id": 2699,
-    "word": "Ingestion",
-    "definition": "The process of absorbing, importing, and loading massive volumes of real-time data into a processing pipeline.",
-    "enExample": "Our Kafka streaming pipeline handles the ingestion of five million analytics events every minute.",
-    "taExample": "எங்கள் காஃப்கா ஓட்டமானது நிமிடத்திற்கு ஐந்து மில்லியன் நிகழ்வுத் தரவுகளை உள்ளிழுத்துச் செயலாக்குகிறது.",
-    "taWord": "தரவு உள்ளிழுத்தல் / ஏற்றம்",
-    "pos": "noun",
-    "synonyms": [
-      "Data intake",
-      "Importation",
-      "Data loading"
-    ],
-    "antonyms": [
-      "Data export",
-      "Egress"
+      "Encouragement",
+      "Reassurance",
+      "Persuasion",
+      "Comfort"
     ]
   }
 ]

@@ -1,526 +1,19 @@
 [
   {
-    "id": 1,
-    "word": "Pragmatic",
-    "definition": "practical rather than idealistic",
-    "enExample": "Let's be pragmatic and ship the MVP first.",
-    "taExample": "நாம் நடைமுறைசார்ந்த அணுகுமுறையை கடைபிடித்து முதலில் MVP-யை வெளியிடுவோம்.",
-    "taWord": "நடைமுறைசார்ந்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Practical",
-      "Realistic"
-    ],
-    "antonyms": [
-      "Theoretical",
-      "Idealistic"
-    ]
-  },
-  {
-    "id": 2,
-    "word": "Paradigm",
-    "definition": "a typical pattern or model",
-    "enExample": "Microservices represent a shift in architectural paradigm.",
-    "taExample": "மைக்ரோசர்வீசஸ் ஒரு புதிய கட்டமைப்பு மாதிரியை குறிக்கிறது.",
-    "taWord": "மாதிரி / சிந்தனை முறை",
+    "id": 2809,
+    "word": "PACELC Theorem",
     "pos": "noun",
+    "definition": "An extension of the CAP theorem stating that in a partitioned system, one chooses Availability or Consistency; else, Latency or Consistency.",
+    "enExample": "DynamoDB's design decisions are deeply rooted in the PACELC theorem, favoring low latency under normal network operations.",
+    "taWord": "பேசெல்க் தேற்றம்",
+    "taExample": "பரவிய கணினி அமைப்புகளில் தாமதத்திற்கும் தரவு சீரான தன்மைக்கும் இடையே உள்ள சமநிலையை விளக்கும் விதி.",
     "synonyms": [
-      "Model",
-      "Pattern"
-    ]
-  },
-  {
-    "id": 3,
-    "word": "Proliferate",
-    "definition": "to increase rapidly in number",
-    "enExample": "Config files proliferated across the repo without a clear owner.",
-    "taExample": "தெளிவான உரிமையாளர் இல்லாமல் கட்டமைப்பு கோப்புகள் பெருகின.",
-    "taWord": "பெருகுதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Multiply",
-      "Expand"
+      "Extended CAP theorem",
+      "Distributed trade-off law"
     ],
     "antonyms": [
-      "Decrease",
-      "Shrink"
-    ]
-  },
-  {
-    "id": 4,
-    "word": "Precedent",
-    "definition": "an earlier event used as a guide",
-    "enExample": "This bug fix sets a precedent for how we handle retries.",
-    "taExample": "இந்த பிழை திருத்தம் மறு முயற்சிகளை எப்படி கையாள்வது என்பதற்கு முன்னுதாரணமாக அமைகிறது.",
-    "taWord": "முன்னுதாரணம்",
-    "pos": "noun",
-    "synonyms": [
-      "Example",
-      "Standard"
-    ]
-  },
-  {
-    "id": 5,
-    "word": "Pertinent",
-    "definition": "relevant to the matter at hand",
-    "enExample": "Please include only pertinent logs in the bug report.",
-    "taExample": "பிழை அறிக்கையில் பொருத்தமான பதிவுகளை மட்டும் சேர்க்கவும்.",
-    "taWord": "பொருத்தமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Relevant",
-      "Applicable"
-    ],
-    "antonyms": [
-      "Irrelevant",
-      "Inapplicable"
-    ]
-  },
-  {
-    "id": 6,
-    "word": "Plausible",
-    "definition": "seeming reasonable or probable",
-    "enExample": "A memory leak is a plausible explanation for the crash.",
-    "taExample": "நினைவக கசிவு இந்த செயலிழப்புக்கு நம்பகத்தன்மையான காரணமாக இருக்கலாம்.",
-    "taWord": "நம்பகத்தன்மையான",
-    "pos": "adj.",
-    "synonyms": [
-      "Credible",
-      "Probable"
-    ],
-    "antonyms": [
-      "Unlikely",
-      "Impossible"
-    ]
-  },
-  {
-    "id": 7,
-    "word": "Prudent",
-    "definition": "acting with care and foresight",
-    "enExample": "It's prudent to write tests before refactoring critical code.",
-    "taExample": "முக்கியமான குறியீட்டை மறுசீரமைக்கும் முன் சோதனைகள் எழுதுவது விவேகமானது.",
-    "taWord": "விவேகமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Sensible",
-      "Cautious"
-    ],
-    "antonyms": [
-      "Reckless",
-      "Careless"
-    ]
-  },
-  {
-    "id": 8,
-    "word": "Proficient",
-    "definition": "skilled and competent",
-    "enExample": "She's proficient in both frontend and backend development.",
-    "taExample": "அவள் முன்-இறுதி மற்றும் பின்-இறுதி வளர்ச்சியில் திறமையானவள்.",
-    "taWord": "திறமையான",
-    "pos": "adj.",
-    "synonyms": [
-      "Skilled",
-      "Capable"
-    ],
-    "antonyms": [
-      "Incompetent",
-      "Unskilled"
-    ]
-  },
-  {
-    "id": 9,
-    "word": "Provision",
-    "definition": "to supply or prepare in advance",
-    "enExample": "We need to provision extra servers before the sale event.",
-    "taExample": "விற்பனை நிகழ்வுக்கு முன் கூடுதல் சேவையகங்களை ஏற்பாடு செய்ய வேண்டும்.",
-    "taWord": "ஏற்பாடு செய்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Supply",
-      "Provide"
-    ],
-    "antonyms": [
-      "Remove",
-      "Deprive"
-    ]
-  },
-  {
-    "id": 10,
-    "word": "Predicate",
-    "definition": "to base something on a condition",
-    "enExample": "Our rollout is predicated on the QA sign-off.",
-    "taExample": "எங்கள் வெளியீடு QA ஒப்புதலை அடிப்படையாகக் கொண்டது.",
-    "taWord": "அடிப்படையாகக் கொள்ளுதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Base",
-      "Establish"
-    ]
-  },
-  {
-    "id": 11,
-    "word": "Permutation",
-    "definition": "a way of arranging things",
-    "enExample": "We tested every permutation of input parameters.",
-    "taExample": "நுழைவு அளவுருக்களின் ஒவ்வொரு வரிசைமாற்றையும் சோதித்தோம்.",
-    "taWord": "வரிசைமாற்று",
-    "pos": "noun",
-    "synonyms": [
-      "Variation",
-      "Arrangement"
-    ]
-  },
-  {
-    "id": 12,
-    "word": "Paradox",
-    "definition": "a seemingly contradictory situation",
-    "enExample": "It's a paradox that adding more logging slowed debugging.",
-    "taExample": "அதிக பதிவு சேர்ப்பது பிழைத்திருத்தத்தை மெதுவாக்கியது ஒரு முரண்பாடு.",
-    "taWord": "முரண்பாடு",
-    "pos": "noun",
-    "synonyms": [
-      "Contradiction",
-      "Anomaly"
-    ],
-    "antonyms": [
-      "Standard",
-      "Norm"
-    ]
-  },
-  {
-    "id": 13,
-    "word": "Parity",
-    "definition": "equality or equivalence",
-    "enExample": "We need feature parity between the iOS and Android apps.",
-    "taExample": "iOS மற்றும் Android செயலிகளுக்கு இடையே அம்ச சமநிலை தேவை.",
-    "taWord": "சமநிலை",
-    "pos": "noun",
-    "synonyms": [
-      "Equality",
-      "Equivalence"
-    ],
-    "antonyms": [
-      "Disparity",
-      "Inequality"
-    ]
-  },
-  {
-    "id": 14,
-    "word": "Prerequisite",
-    "definition": "something required beforehand",
-    "enExample": "Docker knowledge is a prerequisite for this role.",
-    "taExample": "இந்த பணிக்கு Docker அறிவு ஒரு முன்நிபந்தனை.",
-    "taWord": "முன்நிபந்தனை",
-    "pos": "noun",
-    "synonyms": [
-      "Requirement",
-      "Condition"
-    ],
-    "antonyms": [
-      "Option",
-      "Choice"
-    ]
-  },
-  {
-    "id": 15,
-    "word": "Propagate",
-    "definition": "to spread or transmit",
-    "enExample": "The exception propagates up the call stack if uncaught.",
-    "taExample": "பிடிக்கப்படாவிட்டால் விதிவிலக்கு அழைப்பு அடுக்கின் மேலே பரவுகிறது.",
-    "taWord": "பரவுதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Spread",
-      "Transmit"
-    ],
-    "antonyms": [
-      "Halt",
-      "Contain"
-    ]
-  },
-  {
-    "id": 16,
-    "word": "Pivotal",
-    "definition": "of crucial importance",
-    "enExample": "This release is pivotal for the product's future.",
-    "taExample": "இந்த வெளியீடு தயாரிப்பின் எதிர்காலத்திற்கு மையமானது.",
-    "taWord": "முக்கியமான / மையமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Crucial",
-      "Vital"
-    ],
-    "antonyms": [
-      "Trivial",
-      "Minor"
-    ]
-  },
-  {
-    "id": 17,
-    "word": "Peripheral",
-    "definition": "of secondary importance; on the edge",
-    "enExample": "Let's fix the core bug first; the UI polish is peripheral.",
-    "taExample": "முதலில் முக்கிய பிழையை சரிசெய்வோம்; UI மெருகூட்டல் இரண்டாம்நிலையானது.",
-    "taWord": "புறம்பான / இரண்டாம்நிலை",
-    "pos": "adj.",
-    "synonyms": [
-      "Secondary",
-      "Marginal"
-    ],
-    "antonyms": [
-      "Core",
-      "Central"
-    ]
-  },
-  {
-    "id": 18,
-    "word": "Prohibitive",
-    "definition": "too costly or restrictive to allow",
-    "enExample": "Running that query on every request is computationally prohibitive.",
-    "taExample": "ஒவ்வொரு கோரிக்கையிலும் அந்த வினவலை இயக்குவது கணக்கீட்டு ரீதியாக அதிக செலவானது.",
-    "taWord": "தடுக்கும் / அதிக செலவான",
-    "pos": "adj.",
-    "synonyms": [
-      "Restrictive",
-      "Excessive"
-    ],
-    "antonyms": [
-      "Affordable",
-      "Reasonable"
-    ]
-  },
-  {
-    "id": 19,
-    "word": "Protracted",
-    "definition": "lasting longer than expected",
-    "enExample": "The migration turned into a protracted, multi-month effort.",
-    "taExample": "இடம்பெயர்வு பல மாத நீடித்த முயற்சியாக மாறியது.",
-    "taWord": "நீடித்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Prolonged",
-      "Extended"
-    ],
-    "antonyms": [
-      "Brief",
-      "Short"
-    ]
-  },
-  {
-    "id": 20,
-    "word": "Plethora",
-    "definition": "a large or excessive amount",
-    "enExample": "There's a plethora of JavaScript frameworks to choose from.",
-    "taExample": "தேர்வு செய்ய ஏராளமான JavaScript சட்டகங்கள் உள்ளன.",
-    "taWord": "மிகுதி / ஏராளம்",
-    "pos": "noun",
-    "synonyms": [
-      "Abundance",
-      "Excess"
-    ],
-    "antonyms": [
-      "Scarcity",
-      "Lack"
-    ]
-  },
-  {
-    "id": 21,
-    "word": "Perfunctory",
-    "definition": "done with minimal effort or interest",
-    "enExample": "The code review felt perfunctory and missed key issues.",
-    "taExample": "குறியீடு மதிப்பாய்வு மேலோட்டமாக இருந்தது, முக்கிய சிக்கல்களை தவறவிட்டது.",
-    "taWord": "மேலோட்டமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Superficial",
-      "Hasty"
-    ],
-    "antonyms": [
-      "Thorough",
-      "Careful"
-    ]
-  },
-  {
-    "id": 22,
-    "word": "Preclude",
-    "definition": "to prevent from happening",
-    "enExample": "Strict typing precludes many runtime errors.",
-    "taExample": "கடுமையான வகைப்படுத்தல் பல இயக்க நேர பிழைகளை தடுக்கிறது.",
-    "taWord": "தடுத்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Prevent",
-      "Exclude"
-    ],
-    "antonyms": [
-      "Include",
-      "Permit"
-    ]
-  },
-  {
-    "id": 23,
-    "word": "Presumptuous",
-    "definition": "overly bold or assuming too much",
-    "enExample": "It felt presumptuous to merge without a review.",
-    "taExample": "மதிப்பாய்வு இல்லாமல் இணைப்பது அளவுக்கு மீறிய துணிச்சலாக தோன்றியது.",
-    "taWord": "துணிச்சலான / அளவுக்கு மீறிய",
-    "pos": "adj.",
-    "synonyms": [
-      "Arrogant",
-      "Overconfident"
-    ],
-    "antonyms": [
-      "Humble",
-      "Modest"
-    ]
-  },
-  {
-    "id": 24,
-    "word": "Proactive",
-    "definition": "acting in advance of a future problem",
-    "enExample": "Being proactive about monitoring prevents outages.",
-    "taExample": "கண்காணிப்பில் முன்கூட்டியே செயல்படுவது செயலிழப்புகளை தடுக்கிறது.",
-    "taWord": "முன்கூட்டியே செயல்படும்",
-    "pos": "adj.",
-    "synonyms": [
-      "Anticipatory",
-      "Driven"
-    ],
-    "antonyms": [
-      "Reactive",
-      "Passive"
-    ]
-  },
-  {
-    "id": 25,
-    "word": "Purview",
-    "definition": "the scope or range of authority",
-    "enExample": "Database schema changes fall outside my purview.",
-    "taExample": "தரவுத்தள திட்டகம் மாற்றங்கள் எனது பொறுப்பு எல்லைக்கு வெளியே உள்ளன.",
-    "taWord": "அதிகார எல்லை / பொறுப்பு",
-    "pos": "noun",
-    "synonyms": [
-      "Scope",
-      "Domain"
-    ]
-  },
-  {
-    "id": 26,
-    "word": "Performant",
-    "definition": "functioning well or quickly",
-    "enExample": "We need a performant solution for this scaling issue.",
-    "taExample": "இந்த அளவிடுதல் சிக்கலுக்கு நமக்கு ஒரு சிறப்பான செயல்திறன் கொண்ட தீர்வு தேவை.",
-    "taWord": "சிறப்பான செயல்திறன்",
-    "pos": "adj.",
-    "synonyms": [
-      "Efficient",
-      "Fast"
-    ],
-    "antonyms": [
-      "Sluggish",
-      "Slow"
-    ]
-  },
-  {
-    "id": 27,
-    "word": "Polymorphism",
-    "definition": "occurring in several different forms",
-    "enExample": "Polymorphism allows our functions to handle different object types.",
-    "taExample": "பல்லுருவாக்கம் எங்கள் செயல்பாடுகள் வெவ்வேறு பொருள் வகைகளைக் கையாள அனுமதிக்கிறது.",
-    "taWord": "பல்லுருவாக்கம்",
-    "pos": "noun",
-    "synonyms": [
-      "Versatility",
-      "Flexibility"
-    ],
-    "antonyms": [
-      "Rigidity",
-      "Uniformity"
-    ]
-  },
-  {
-    "id": 28,
-    "word": "Pervasive",
-    "definition": "spreading widely throughout an area",
-    "enExample": "Mobile usage is pervasive in our user base.",
-    "taExample": "எங்கள் பயனர் தளத்தில் மொபைல் பயன்பாடு பரவலாக உள்ளது.",
-    "taWord": "பரவலான",
-    "pos": "adj.",
-    "synonyms": [
-      "Widespread",
-      "Omnipresent"
-    ],
-    "antonyms": [
-      "Rare",
-      "Scarce"
-    ]
-  },
-  {
-    "id": 29,
-    "word": "Proponent",
-    "definition": "a person who advocates a theory or project",
-    "enExample": "He is a strong proponent of test-driven development.",
-    "taExample": "அவர் சோதனை சார்ந்த மேம்பாட்டின் வலுவான ஆதரவாளர்.",
-    "taWord": "ஆதரவாளர்",
-    "pos": "noun",
-    "synonyms": [
-      "Advocate",
-      "Supporter"
-    ],
-    "antonyms": [
-      "Opponent",
-      "Critic"
-    ]
-  },
-  {
-    "id": 30,
-    "word": "Partition",
-    "definition": "to divide into parts",
-    "enExample": "We need to partition the database to improve query speeds.",
-    "taExample": "வினவல் வேகத்தை மேம்படுத்த தரவுத்தளத்தை பிரிக்க வேண்டும்.",
-    "taWord": "பிரித்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Divide",
-      "Segment"
-    ],
-    "antonyms": [
-      "Unite",
-      "Combine"
-    ]
-  },
-  {
-    "id": 31,
-    "word": "Prerogative",
-    "definition": "a right or privilege exclusive to a particular individual",
-    "enExample": "As the tech lead, it is her prerogative to choose the tech stack.",
-    "taExample": "தொழில்நுட்ப தலைவராக, தொழில்நுட்ப அடுக்கைத் தேர்ந்தெடுப்பது அவரது தனிச்சிறப்புரிமை.",
-    "taWord": "தனிச்சிறப்புரிமை",
-    "pos": "noun",
-    "synonyms": [
-      "Right",
-      "Privilege"
-    ],
-    "antonyms": [
-      "Obligation",
-      "Duty"
-    ]
-  },
-  {
-    "id": 32,
-    "word": "Persist",
-    "definition": "to continue to exist",
-    "enExample": "The user state must persist across browser reloads.",
-    "taExample": "உலாவி மறுஏற்றங்களிலும் பயனர் நிலைமை நிலைத்திருக்க வேண்டும்.",
-    "taWord": "நிலைத்திருத்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Endure",
-      "Continue"
-    ],
-    "antonyms": [
-      "Cease",
-      "Stop"
+      "Unconstrained consistency",
+      "Magic zero-latency scaling"
     ]
   },
   {
@@ -541,122 +34,33 @@
     ]
   },
   {
-    "id": 34,
-    "word": "Preempt",
-    "definition": "take action in order to prevent an anticipated event",
-    "enExample": "We preempted the server crash by adding auto-scaling.",
-    "taExample": "தானியங்கு அளவிடுதலை சேர்ப்பதன் மூலம் சேவையக செயலிழப்பை முன்கூட்டியே தடுத்தோம்.",
-    "taWord": "முன்கூட்டியே தடுத்தல்",
-    "pos": "verb",
+    "id": 2,
+    "word": "Paradigm",
+    "definition": "a typical pattern or model",
+    "enExample": "Microservices represent a shift in architectural paradigm.",
+    "taExample": "மைக்ரோசர்வீசஸ் ஒரு புதிய கட்டமைப்பு மாதிரியை குறிக்கிறது.",
+    "taWord": "மாதிரி / சிந்தனை முறை",
+    "pos": "noun",
     "synonyms": [
-      "Forestall",
-      "Anticipate"
-    ],
-    "antonyms": [
-      "React",
-      "Follow"
+      "Model",
+      "Pattern"
     ]
   },
   {
-    "id": 35,
-    "word": "Peculiar",
-    "definition": "strange or odd; unusual",
-    "enExample": "There is a peculiar bug in the routing logic.",
-    "taExample": "வழித்தட தர்க்கத்தில் ஒரு விசித்திரமான பிழை உள்ளது.",
-    "taWord": "விசித்திரமான",
-    "pos": "adj.",
+    "id": 12,
+    "word": "Paradox",
+    "definition": "a seemingly contradictory situation",
+    "enExample": "It's a paradox that adding more logging slowed debugging.",
+    "taExample": "அதிக பதிவு சேர்ப்பது பிழைத்திருத்தத்தை மெதுவாக்கியது ஒரு முரண்பாடு.",
+    "taWord": "முரண்பாடு",
+    "pos": "noun",
     "synonyms": [
-      "Unusual",
-      "Odd"
+      "Contradiction",
+      "Anomaly"
     ],
     "antonyms": [
-      "Common",
-      "Standard"
-    ]
-  },
-  {
-    "id": 36,
-    "word": "Placid",
-    "definition": "not easily upset or excited; calm",
-    "enExample": "She remained placid even during the production outage.",
-    "taExample": "உற்பத்தி செயலிழப்பின் போது கூட அவள் அமைதியாக இருந்தாள்.",
-    "taWord": "அமைதியான",
-    "pos": "adj.",
-    "synonyms": [
-      "Calm",
-      "Peaceful"
-    ],
-    "antonyms": [
-      "Turbulent",
-      "Agitated"
-    ]
-  },
-  {
-    "id": 37,
-    "word": "Punctilious",
-    "definition": "showing great attention to detail",
-    "enExample": "We need a punctilious review of this security patch.",
-    "taExample": "இந்த பாதுகாப்பு இணைப்பின் மிகக் கவனமான மதிப்பாய்வு நமக்குத் தேவை.",
-    "taWord": "மிகக் கவனமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Meticulous",
-      "Strict"
-    ],
-    "antonyms": [
-      "Careless",
-      "Sloppy"
-    ]
-  },
-  {
-    "id": 38,
-    "word": "Provocative",
-    "definition": "causing a strong reaction, especially deliberately",
-    "enExample": "His provocative comments on the PR sparked a huge debate.",
-    "taExample": "PR-ல் அவரது ஆத்திரமூட்டும் கருத்துக்கள் பெரும் விவாதத்தைத் தூண்டின.",
-    "taWord": "ஆத்திரமூட்டும்",
-    "pos": "adj.",
-    "synonyms": [
-      "Stimulating",
-      "Challenging"
-    ],
-    "antonyms": [
-      "Dull",
-      "Boring"
-    ]
-  },
-  {
-    "id": 39,
-    "word": "Provisional",
-    "definition": "arranged for the present, possibly to be changed later",
-    "enExample": "We've deployed a provisional fix while we wait for the vendor patch.",
-    "taExample": "விற்பனையாளர் இணைப்புக்காக காத்திருக்கும் போது தற்காலிக தீர்வை வெளியிட்டுள்ளோம்.",
-    "taWord": "தற்காலிக",
-    "pos": "adj.",
-    "synonyms": [
-      "Temporary",
-      "Conditional"
-    ],
-    "antonyms": [
-      "Permanent",
-      "Final"
-    ]
-  },
-  {
-    "id": 40,
-    "word": "Pedantic",
-    "definition": "excessively concerned with minor details or rules",
-    "enExample": "Don't be too pedantic about the spacing in the config file.",
-    "taExample": "கட்டமைப்பு கோப்பில் இடைவெளி குறித்து அதிகப்படியான நுட்பங்களை எதிர்பார்க்க வேண்டாம்.",
-    "taWord": "அதிகப்படியான நுட்பம்",
-    "pos": "adj.",
-    "synonyms": [
-      "Fussy",
-      "Overexacting"
-    ],
-    "antonyms": [
-      "Pragmatic",
-      "Informal"
+      "Standard",
+      "Norm"
     ]
   },
   {
@@ -670,74 +74,6 @@
     "synonyms": [
       "Shift",
       "Displacement"
-    ]
-  },
-  {
-    "id": 42,
-    "word": "Permeate",
-    "definition": "spread throughout (something)",
-    "enExample": "Security best practices should permeate the entire development lifecycle.",
-    "taExample": "பாதுகாப்பு சிறந்த நடைமுறைகள் முழு வளர்ச்சி சுழற்சியிலும் ஊடுருவ வேண்டும்.",
-    "taWord": "ஊடுருவுதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Pervade",
-      "Infuse"
-    ],
-    "antonyms": [
-      "Drain",
-      "Deplete"
-    ]
-  },
-  {
-    "id": 43,
-    "word": "Potent",
-    "definition": "having great power, influence, or effect",
-    "enExample": "This is a potent caching strategy that halved our latency.",
-    "taExample": "இது நமது தாமதத்தை பாதியாகக் குறைத்த ஒரு சக்திவாய்ந்த கேச்சிங் உத்தி.",
-    "taWord": "சக்திவாய்ந்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Powerful",
-      "Strong"
-    ],
-    "antonyms": [
-      "Weak",
-      "Ineffective"
-    ]
-  },
-  {
-    "id": 44,
-    "word": "Perceptive",
-    "definition": "having or showing sensitive insight",
-    "enExample": "That was a perceptive comment about the race condition.",
-    "taExample": "அது பந்தய நிலை பற்றிய ஒரு கூர்ந்தறிவுள்ள கருத்தாகும்.",
-    "taWord": "கூர்ந்தறிவுள்ள",
-    "pos": "adj.",
-    "synonyms": [
-      "Astute",
-      "Observant"
-    ],
-    "antonyms": [
-      "Oblivious",
-      "Ignorant"
-    ]
-  },
-  {
-    "id": 45,
-    "word": "Prospective",
-    "definition": "expected or expecting to be something particular in the future",
-    "enExample": "We are interviewing prospective candidates for the DevOps role.",
-    "taExample": "டெவொப்ஸ் பணிக்காக வருங்கால வேட்பாளர்களை நேர்காணல் செய்து வருகிறோம்.",
-    "taWord": "வருங்கால",
-    "pos": "adj.",
-    "synonyms": [
-      "Potential",
-      "Expected"
-    ],
-    "antonyms": [
-      "Current",
-      "Past"
     ]
   },
   {
@@ -758,107 +94,20 @@
     ]
   },
   {
-    "id": 47,
-    "word": "Ponder",
-    "definition": "think about (something) carefully",
-    "enExample": "I need to ponder the implications of changing the database schema.",
-    "taExample": "தரவுத்தள திட்டத்தை மாற்றுவதன் விளைவுகளை நான் ஆழமாகச் சிந்திக்க வேண்டும்.",
-    "taWord": "ஆழமாகச் சிந்தித்தல்",
-    "pos": "verb",
+    "id": 13,
+    "word": "Parity",
+    "definition": "equality or equivalence",
+    "enExample": "We need feature parity between the iOS and Android apps.",
+    "taExample": "iOS மற்றும் Android செயலிகளுக்கு இடையே அம்ச சமநிலை தேவை.",
+    "taWord": "சமநிலை",
+    "pos": "noun",
     "synonyms": [
-      "Consider",
-      "Reflect"
+      "Equality",
+      "Equivalence"
     ],
     "antonyms": [
-      "Ignore",
-      "Dismiss"
-    ]
-  },
-  {
-    "id": 48,
-    "word": "Profuse",
-    "definition": "exuberantly plentiful; abundant",
-    "enExample": "The service is generating profuse amounts of telemetry data.",
-    "taExample": "இந்த சேவை ஏராளமான அளவீட்டு தரவுகளை உருவாக்குகிறது.",
-    "taWord": "ஏராளமான",
-    "pos": "adj.",
-    "synonyms": [
-      "Abundant",
-      "Copious"
-    ],
-    "antonyms": [
-      "Sparse",
-      "Lacking"
-    ]
-  },
-  {
-    "id": 49,
-    "word": "Procure",
-    "definition": "obtain (something), especially with care or effort",
-    "enExample": "We need to procure additional licenses for the new developers.",
-    "taExample": "புதிய டெவலப்பர்களுக்காக கூடுதல் உரிமங்களை நாம் கொள்முதல் செய்ய வேண்டும்.",
-    "taWord": "கொள்முதல் செய்தல்",
-    "pos": "verb",
-    "synonyms": [
-      "Acquire",
-      "Obtain"
-    ],
-    "antonyms": [
-      "Lose",
-      "Forfeit"
-    ]
-  },
-  {
-    "id": 50,
-    "word": "Proprietary",
-    "definition": "relating to an owner or ownership",
-    "enExample": "We cannot use that library because it is proprietary software.",
-    "taExample": "அது தனியுரிமை கொண்ட மென்பொருள் என்பதால் அந்த நூலகத்தை நாம் பயன்படுத்த முடியாது.",
-    "taWord": "தனியுரிமை கொண்ட",
-    "pos": "adj.",
-    "synonyms": [
-      "Exclusive",
-      "Private"
-    ],
-    "antonyms": [
-      "Open-source",
-      "Public"
-    ]
-  },
-  {
-    "id": 53,
-    "word": "Prolific",
-    "definition": "Producing much fruit or foliage or many offspring; present in large numbers or quantities.",
-    "enExample": "In captivity, tigers are prolific breeders.",
-    "taExample": "காப்பகங்களில் புலிகள் அதிகம் உருவாக்கும் இனப்பெருக்கிகளாக உள்ளன.",
-    "taWord": "அதிகம் உருவாக்கும்",
-    "pos": "adj.",
-    "synonyms": [
-      "Productive",
-      "Creative",
-      "Inventive"
-    ],
-    "antonyms": [
-      "Barren",
-      "Unproductive"
-    ]
-  },
-  {
-    "id": 2658,
-    "word": "Pivot",
-    "definition": "A rapid, structured shift in business strategy, architecture, or product direction in response to new data.",
-    "enExample": "After reviewing user churn analytics, the startup decided to pivot from B2C to an enterprise B2B model.",
-    "taExample": "பயனர் வெளியேற்றத் தரவுகளை ஆய்வு செய்த பிறகு, அந்த நிறுவனம் நுகர்வோர் மாடலில் இருந்து பெருநிறுவன வணிக மாடலுக்கு தனது திசையை மாற்றியது.",
-    "taWord": "திசை திருப்புதல் / உத்தி மாற்றம்",
-    "pos": "verb",
-    "synonyms": [
-      "Shift",
-      "Reorient",
-      "Transform"
-    ],
-    "antonyms": [
-      "Persist",
-      "Maintain course"
+      "Disparity",
+      "Inequality"
     ]
   },
   {
@@ -880,6 +129,23 @@
     ]
   },
   {
+    "id": 30,
+    "word": "Partition",
+    "definition": "to divide into parts",
+    "enExample": "We need to partition the database to improve query speeds.",
+    "taExample": "வினவல் வேகத்தை மேம்படுத்த தரவுத்தளத்தை பிரிக்க வேண்டும்.",
+    "taWord": "பிரித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Divide",
+      "Segment"
+    ],
+    "antonyms": [
+      "Unite",
+      "Combine"
+    ]
+  },
+  {
     "id": 2701,
     "word": "Payload",
     "definition": "The actual essential data carried within a network packet, API message, or HTTP request body.",
@@ -895,6 +161,1033 @@
     "antonyms": [
       "Header",
       "Metadata"
+    ]
+  },
+  {
+    "id": 35,
+    "word": "Peculiar",
+    "definition": "strange or odd; unusual",
+    "enExample": "There is a peculiar bug in the routing logic.",
+    "taExample": "வழித்தட தர்க்கத்தில் ஒரு விசித்திரமான பிழை உள்ளது.",
+    "taWord": "விசித்திரமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Unusual",
+      "Odd"
+    ],
+    "antonyms": [
+      "Common",
+      "Standard"
+    ]
+  },
+  {
+    "id": 40,
+    "word": "Pedantic",
+    "definition": "excessively concerned with minor details or rules",
+    "enExample": "Don't be too pedantic about the spacing in the config file.",
+    "taExample": "கட்டமைப்பு கோப்பில் இடைவெளி குறித்து அதிகப்படியான நுட்பங்களை எதிர்பார்க்க வேண்டாம்.",
+    "taWord": "அதிகப்படியான நுட்பம்",
+    "pos": "adj.",
+    "synonyms": [
+      "Fussy",
+      "Overexacting"
+    ],
+    "antonyms": [
+      "Pragmatic",
+      "Informal"
+    ]
+  },
+  {
+    "id": 44,
+    "word": "Perceptive",
+    "definition": "having or showing sensitive insight",
+    "enExample": "That was a perceptive comment about the race condition.",
+    "taExample": "அது பந்தய நிலை பற்றிய ஒரு கூர்ந்தறிவுள்ள கருத்தாகும்.",
+    "taWord": "கூர்ந்தறிவுள்ள",
+    "pos": "adj.",
+    "synonyms": [
+      "Astute",
+      "Observant"
+    ],
+    "antonyms": [
+      "Oblivious",
+      "Ignorant"
+    ]
+  },
+  {
+    "id": 26,
+    "word": "Performant",
+    "definition": "functioning well or quickly",
+    "enExample": "We need a performant solution for this scaling issue.",
+    "taExample": "இந்த அளவிடுதல் சிக்கலுக்கு நமக்கு ஒரு சிறப்பான செயல்திறன் கொண்ட தீர்வு தேவை.",
+    "taWord": "சிறப்பான செயல்திறன்",
+    "pos": "adj.",
+    "synonyms": [
+      "Efficient",
+      "Fast"
+    ],
+    "antonyms": [
+      "Sluggish",
+      "Slow"
+    ]
+  },
+  {
+    "id": 21,
+    "word": "Perfunctory",
+    "definition": "done with minimal effort or interest",
+    "enExample": "The code review felt perfunctory and missed key issues.",
+    "taExample": "குறியீடு மதிப்பாய்வு மேலோட்டமாக இருந்தது, முக்கிய சிக்கல்களை தவறவிட்டது.",
+    "taWord": "மேலோட்டமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Superficial",
+      "Hasty"
+    ],
+    "antonyms": [
+      "Thorough",
+      "Careful"
+    ]
+  },
+  {
+    "id": 17,
+    "word": "Peripheral",
+    "definition": "of secondary importance; on the edge",
+    "enExample": "Let's fix the core bug first; the UI polish is peripheral.",
+    "taExample": "முதலில் முக்கிய பிழையை சரிசெய்வோம்; UI மெருகூட்டல் இரண்டாம்நிலையானது.",
+    "taWord": "புறம்பான / இரண்டாம்நிலை",
+    "pos": "adj.",
+    "synonyms": [
+      "Secondary",
+      "Marginal"
+    ],
+    "antonyms": [
+      "Core",
+      "Central"
+    ]
+  },
+  {
+    "id": 42,
+    "word": "Permeate",
+    "definition": "spread throughout (something)",
+    "enExample": "Security best practices should permeate the entire development lifecycle.",
+    "taExample": "பாதுகாப்பு சிறந்த நடைமுறைகள் முழு வளர்ச்சி சுழற்சியிலும் ஊடுருவ வேண்டும்.",
+    "taWord": "ஊடுருவுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Pervade",
+      "Infuse"
+    ],
+    "antonyms": [
+      "Drain",
+      "Deplete"
+    ]
+  },
+  {
+    "id": 11,
+    "word": "Permutation",
+    "definition": "a way of arranging things",
+    "enExample": "We tested every permutation of input parameters.",
+    "taExample": "நுழைவு அளவுருக்களின் ஒவ்வொரு வரிசைமாற்றையும் சோதித்தோம்.",
+    "taWord": "வரிசைமாற்று",
+    "pos": "noun",
+    "synonyms": [
+      "Variation",
+      "Arrangement"
+    ]
+  },
+  {
+    "id": 32,
+    "word": "Persist",
+    "definition": "to continue to exist",
+    "enExample": "The user state must persist across browser reloads.",
+    "taExample": "உலாவி மறுஏற்றங்களிலும் பயனர் நிலைமை நிலைத்திருக்க வேண்டும்.",
+    "taWord": "நிலைத்திருத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Endure",
+      "Continue"
+    ],
+    "antonyms": [
+      "Cease",
+      "Stop"
+    ]
+  },
+  {
+    "id": 5,
+    "word": "Pertinent",
+    "definition": "relevant to the matter at hand",
+    "enExample": "Please include only pertinent logs in the bug report.",
+    "taExample": "பிழை அறிக்கையில் பொருத்தமான பதிவுகளை மட்டும் சேர்க்கவும்.",
+    "taWord": "பொருத்தமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Relevant",
+      "Applicable"
+    ],
+    "antonyms": [
+      "Irrelevant",
+      "Inapplicable"
+    ]
+  },
+  {
+    "id": 28,
+    "word": "Pervasive",
+    "definition": "spreading widely throughout an area",
+    "enExample": "Mobile usage is pervasive in our user base.",
+    "taExample": "எங்கள் பயனர் தளத்தில் மொபைல் பயன்பாடு பரவலாக உள்ளது.",
+    "taWord": "பரவலான",
+    "pos": "adj.",
+    "synonyms": [
+      "Widespread",
+      "Omnipresent"
+    ],
+    "antonyms": [
+      "Rare",
+      "Scarce"
+    ]
+  },
+  {
+    "id": 2658,
+    "word": "Pivot",
+    "definition": "A rapid, structured shift in business strategy, architecture, or product direction in response to new data.",
+    "enExample": "After reviewing user churn analytics, the startup decided to pivot from B2C to an enterprise B2B model.",
+    "taExample": "பயனர் வெளியேற்றத் தரவுகளை ஆய்வு செய்த பிறகு, அந்த நிறுவனம் நுகர்வோர் மாடலில் இருந்து பெருநிறுவன வணிக மாடலுக்கு தனது திசையை மாற்றியது.",
+    "taWord": "திசை திருப்புதல் / உத்தி மாற்றம்",
+    "pos": "verb",
+    "synonyms": [
+      "Shift",
+      "Reorient",
+      "Transform"
+    ],
+    "antonyms": [
+      "Persist",
+      "Maintain course"
+    ]
+  },
+  {
+    "id": 16,
+    "word": "Pivotal",
+    "definition": "of crucial importance",
+    "enExample": "This release is pivotal for the product's future.",
+    "taExample": "இந்த வெளியீடு தயாரிப்பின் எதிர்காலத்திற்கு மையமானது.",
+    "taWord": "முக்கியமான / மையமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Crucial",
+      "Vital"
+    ],
+    "antonyms": [
+      "Trivial",
+      "Minor"
+    ]
+  },
+  {
+    "id": 36,
+    "word": "Placid",
+    "definition": "not easily upset or excited; calm",
+    "enExample": "She remained placid even during the production outage.",
+    "taExample": "உற்பத்தி செயலிழப்பின் போது கூட அவள் அமைதியாக இருந்தாள்.",
+    "taWord": "அமைதியான",
+    "pos": "adj.",
+    "synonyms": [
+      "Calm",
+      "Peaceful"
+    ],
+    "antonyms": [
+      "Turbulent",
+      "Agitated"
+    ]
+  },
+  {
+    "id": 6,
+    "word": "Plausible",
+    "definition": "seeming reasonable or probable",
+    "enExample": "A memory leak is a plausible explanation for the crash.",
+    "taExample": "நினைவக கசிவு இந்த செயலிழப்புக்கு நம்பகத்தன்மையான காரணமாக இருக்கலாம்.",
+    "taWord": "நம்பகத்தன்மையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Credible",
+      "Probable"
+    ],
+    "antonyms": [
+      "Unlikely",
+      "Impossible"
+    ]
+  },
+  {
+    "id": 20,
+    "word": "Plethora",
+    "definition": "a large or excessive amount",
+    "enExample": "There's a plethora of JavaScript frameworks to choose from.",
+    "taExample": "தேர்வு செய்ய ஏராளமான JavaScript சட்டகங்கள் உள்ளன.",
+    "taWord": "மிகுதி / ஏராளம்",
+    "pos": "noun",
+    "synonyms": [
+      "Abundance",
+      "Excess"
+    ],
+    "antonyms": [
+      "Scarcity",
+      "Lack"
+    ]
+  },
+  {
+    "id": 2810,
+    "word": "Poison Pill",
+    "pos": "noun",
+    "definition": "A corrupt or malformed message placed in a queue that crashes consumers every time it is picked up for processing.",
+    "enExample": "The consumer pod entered an infinite crash loop until we manually purged the poison pill message from the queue.",
+    "taWord": "முடக்கும் நச்சு செய்தி",
+    "taExample": "செயலியை மீண்டும் மீண்டும் செயலிழக்கச் செய்யும் தவறான வடிவமைப்பு கொண்ட செய்தி.",
+    "synonyms": [
+      "Toxic message",
+      "Crash-loop message",
+      "Fatal payload"
+    ],
+    "antonyms": [
+      "Valid payload",
+      "Sanitized record"
+    ]
+  },
+  {
+    "id": 27,
+    "word": "Polymorphism",
+    "definition": "occurring in several different forms",
+    "enExample": "Polymorphism allows our functions to handle different object types.",
+    "taExample": "பல்லுருவாக்கம் எங்கள் செயல்பாடுகள் வெவ்வேறு பொருள் வகைகளைக் கையாள அனுமதிக்கிறது.",
+    "taWord": "பல்லுருவாக்கம்",
+    "pos": "noun",
+    "synonyms": [
+      "Versatility",
+      "Flexibility"
+    ],
+    "antonyms": [
+      "Rigidity",
+      "Uniformity"
+    ]
+  },
+  {
+    "id": 47,
+    "word": "Ponder",
+    "definition": "think about (something) carefully",
+    "enExample": "I need to ponder the implications of changing the database schema.",
+    "taExample": "தரவுத்தள திட்டத்தை மாற்றுவதன் விளைவுகளை நான் ஆழமாகச் சிந்திக்க வேண்டும்.",
+    "taWord": "ஆழமாகச் சிந்தித்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Consider",
+      "Reflect"
+    ],
+    "antonyms": [
+      "Ignore",
+      "Dismiss"
+    ]
+  },
+  {
+    "id": 2811,
+    "word": "Post-Mortem",
+    "pos": "noun",
+    "definition": "A blameless engineering review meeting conducted after an incident to analyze root causes, document timeline, and assign prevention items.",
+    "enExample": "The blameless post-mortem concluded that a DNS misconfiguration triggered the two-hour checkout outage.",
+    "taWord": "காரண காரிய ஆய்வு கூட்டம்",
+    "taExample": "ஒரு சிக்கல் முடிந்த பிறகு அதன் மூலக் காரணத்தை ஆராய்ந்து மீண்டும் நிகழாமல் தடுக்க நடத்தப்படும் ஆய்வுக் கூட்டம்.",
+    "synonyms": [
+      "Incident retrospective",
+      "Root cause analysis review",
+      "Blameless retro"
+    ],
+    "antonyms": [
+      "Blame game",
+      "Ignored incident"
+    ]
+  },
+  {
+    "id": 43,
+    "word": "Potent",
+    "definition": "having great power, influence, or effect",
+    "enExample": "This is a potent caching strategy that halved our latency.",
+    "taExample": "இது நமது தாமதத்தை பாதியாகக் குறைத்த ஒரு சக்திவாய்ந்த கேச்சிங் உத்தி.",
+    "taWord": "சக்திவாய்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Powerful",
+      "Strong"
+    ],
+    "antonyms": [
+      "Weak",
+      "Ineffective"
+    ]
+  },
+  {
+    "id": 1,
+    "word": "Pragmatic",
+    "definition": "practical rather than idealistic",
+    "enExample": "Let's be pragmatic and ship the MVP first.",
+    "taExample": "நாம் நடைமுறைசார்ந்த அணுகுமுறையை கடைபிடித்து முதலில் MVP-யை வெளியிடுவோம்.",
+    "taWord": "நடைமுறைசார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Practical",
+      "Realistic"
+    ],
+    "antonyms": [
+      "Theoretical",
+      "Idealistic"
+    ]
+  },
+  {
+    "id": 4,
+    "word": "Precedent",
+    "definition": "an earlier event used as a guide",
+    "enExample": "This bug fix sets a precedent for how we handle retries.",
+    "taExample": "இந்த பிழை திருத்தம் மறு முயற்சிகளை எப்படி கையாள்வது என்பதற்கு முன்னுதாரணமாக அமைகிறது.",
+    "taWord": "முன்னுதாரணம்",
+    "pos": "noun",
+    "synonyms": [
+      "Example",
+      "Standard"
+    ]
+  },
+  {
+    "id": 22,
+    "word": "Preclude",
+    "definition": "to prevent from happening",
+    "enExample": "Strict typing precludes many runtime errors.",
+    "taExample": "கடுமையான வகைப்படுத்தல் பல இயக்க நேர பிழைகளை தடுக்கிறது.",
+    "taWord": "தடுத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Prevent",
+      "Exclude"
+    ],
+    "antonyms": [
+      "Include",
+      "Permit"
+    ]
+  },
+  {
+    "id": 10,
+    "word": "Predicate",
+    "definition": "to base something on a condition",
+    "enExample": "Our rollout is predicated on the QA sign-off.",
+    "taExample": "எங்கள் வெளியீடு QA ஒப்புதலை அடிப்படையாகக் கொண்டது.",
+    "taWord": "அடிப்படையாகக் கொள்ளுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Base",
+      "Establish"
+    ]
+  },
+  {
+    "id": 34,
+    "word": "Preempt",
+    "definition": "take action in order to prevent an anticipated event",
+    "enExample": "We preempted the server crash by adding auto-scaling.",
+    "taExample": "தானியங்கு அளவிடுதலை சேர்ப்பதன் மூலம் சேவையக செயலிழப்பை முன்கூட்டியே தடுத்தோம்.",
+    "taWord": "முன்கூட்டியே தடுத்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Forestall",
+      "Anticipate"
+    ],
+    "antonyms": [
+      "React",
+      "Follow"
+    ]
+  },
+  {
+    "id": 14,
+    "word": "Prerequisite",
+    "definition": "something required beforehand",
+    "enExample": "Docker knowledge is a prerequisite for this role.",
+    "taExample": "இந்த பணிக்கு Docker அறிவு ஒரு முன்நிபந்தனை.",
+    "taWord": "முன்நிபந்தனை",
+    "pos": "noun",
+    "synonyms": [
+      "Requirement",
+      "Condition"
+    ],
+    "antonyms": [
+      "Option",
+      "Choice"
+    ]
+  },
+  {
+    "id": 31,
+    "word": "Prerogative",
+    "definition": "a right or privilege exclusive to a particular individual",
+    "enExample": "As the tech lead, it is her prerogative to choose the tech stack.",
+    "taExample": "தொழில்நுட்ப தலைவராக, தொழில்நுட்ப அடுக்கைத் தேர்ந்தெடுப்பது அவரது தனிச்சிறப்புரிமை.",
+    "taWord": "தனிச்சிறப்புரிமை",
+    "pos": "noun",
+    "synonyms": [
+      "Right",
+      "Privilege"
+    ],
+    "antonyms": [
+      "Obligation",
+      "Duty"
+    ]
+  },
+  {
+    "id": 23,
+    "word": "Presumptuous",
+    "definition": "overly bold or assuming too much",
+    "enExample": "It felt presumptuous to merge without a review.",
+    "taExample": "மதிப்பாய்வு இல்லாமல் இணைப்பது அளவுக்கு மீறிய துணிச்சலாக தோன்றியது.",
+    "taWord": "துணிச்சலான / அளவுக்கு மீறிய",
+    "pos": "adj.",
+    "synonyms": [
+      "Arrogant",
+      "Overconfident"
+    ],
+    "antonyms": [
+      "Humble",
+      "Modest"
+    ]
+  },
+  {
+    "id": 2808,
+    "word": "Principle of Least Privilege",
+    "pos": "noun",
+    "definition": "A foundational security concept stating that users and services should only be granted the minimum permissions required to perform their jobs.",
+    "enExample": "By applying the principle of least privilege, we revoked write access to production databases from developer roles.",
+    "taWord": "குறைந்தபட்ச அணுகல் உரிமை விதி",
+    "taExample": "ஒவ்வொரு பயனருக்கும் சேவைக்கும் தேவையான மிகக் குறைந்த உரிமைகளை மட்டுமே வழங்கும் பாதுகாப்பு நெறிமுறை.",
+    "synonyms": [
+      "PoLP",
+      "Minimal access rule",
+      "Least privilege model"
+    ],
+    "antonyms": [
+      "Superuser grant",
+      "Unrestricted root access"
+    ]
+  },
+  {
+    "id": 24,
+    "word": "Proactive",
+    "definition": "acting in advance of a future problem",
+    "enExample": "Being proactive about monitoring prevents outages.",
+    "taExample": "கண்காணிப்பில் முன்கூட்டியே செயல்படுவது செயலிழப்புகளை தடுக்கிறது.",
+    "taWord": "முன்கூட்டியே செயல்படும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Anticipatory",
+      "Driven"
+    ],
+    "antonyms": [
+      "Reactive",
+      "Passive"
+    ]
+  },
+  {
+    "id": 49,
+    "word": "Procure",
+    "definition": "obtain (something), especially with care or effort",
+    "enExample": "We need to procure additional licenses for the new developers.",
+    "taExample": "புதிய டெவலப்பர்களுக்காக கூடுதல் உரிமங்களை நாம் கொள்முதல் செய்ய வேண்டும்.",
+    "taWord": "கொள்முதல் செய்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Acquire",
+      "Obtain"
+    ],
+    "antonyms": [
+      "Lose",
+      "Forfeit"
+    ]
+  },
+  {
+    "id": 8,
+    "word": "Proficient",
+    "definition": "skilled and competent",
+    "enExample": "She's proficient in both frontend and backend development.",
+    "taExample": "அவள் முன்-இறுதி மற்றும் பின்-இறுதி வளர்ச்சியில் திறமையானவள்.",
+    "taWord": "திறமையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Skilled",
+      "Capable"
+    ],
+    "antonyms": [
+      "Incompetent",
+      "Unskilled"
+    ]
+  },
+  {
+    "id": 48,
+    "word": "Profuse",
+    "definition": "exuberantly plentiful; abundant",
+    "enExample": "The service is generating profuse amounts of telemetry data.",
+    "taExample": "இந்த சேவை ஏராளமான அளவீட்டு தரவுகளை உருவாக்குகிறது.",
+    "taWord": "ஏராளமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Abundant",
+      "Copious"
+    ],
+    "antonyms": [
+      "Sparse",
+      "Lacking"
+    ]
+  },
+  {
+    "id": 18,
+    "word": "Prohibitive",
+    "definition": "too costly or restrictive to allow",
+    "enExample": "Running that query on every request is computationally prohibitive.",
+    "taExample": "ஒவ்வொரு கோரிக்கையிலும் அந்த வினவலை இயக்குவது கணக்கீட்டு ரீதியாக அதிக செலவானது.",
+    "taWord": "தடுக்கும் / அதிக செலவான",
+    "pos": "adj.",
+    "synonyms": [
+      "Restrictive",
+      "Excessive"
+    ],
+    "antonyms": [
+      "Affordable",
+      "Reasonable"
+    ]
+  },
+  {
+    "id": 3,
+    "word": "Proliferate",
+    "definition": "to increase rapidly in number",
+    "enExample": "Config files proliferated across the repo without a clear owner.",
+    "taExample": "தெளிவான உரிமையாளர் இல்லாமல் கட்டமைப்பு கோப்புகள் பெருகின.",
+    "taWord": "பெருகுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Multiply",
+      "Expand"
+    ],
+    "antonyms": [
+      "Decrease",
+      "Shrink"
+    ]
+  },
+  {
+    "id": 53,
+    "word": "Prolific",
+    "definition": "Producing much fruit or foliage or many offspring; present in large numbers or quantities.",
+    "enExample": "In captivity, tigers are prolific breeders.",
+    "taExample": "காப்பகங்களில் புலிகள் அதிகம் உருவாக்கும் இனப்பெருக்கிகளாக உள்ளன.",
+    "taWord": "அதிகம் உருவாக்கும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Productive",
+      "Creative",
+      "Inventive"
+    ],
+    "antonyms": [
+      "Barren",
+      "Unproductive"
+    ]
+  },
+  {
+    "id": 2807,
+    "word": "Prompt Injection",
+    "pos": "noun",
+    "definition": "A security vulnerability where untrusted user input manipulates an LLM's system instructions to bypass safeguards or leak secrets.",
+    "enExample": "The attacker bypassed system guardrails using a prompt injection disguised as a translation request.",
+    "taWord": "கட்டளை திணிப்பு ஊடுருவல்",
+    "taExample": "மொழி மாதிரியின் பாதுகாப்பு விதிகளை மீறும் வகையில் தீங்கிழைக்கும் கட்டளைகளை செலுத்தும் முறை.",
+    "synonyms": [
+      "Prompt jailbreak",
+      "Adversarial instruction injection"
+    ],
+    "antonyms": [
+      "Grounded prompt safety",
+      "Strict input isolation"
+    ]
+  },
+  {
+    "id": 15,
+    "word": "Propagate",
+    "definition": "to spread or transmit",
+    "enExample": "The exception propagates up the call stack if uncaught.",
+    "taExample": "பிடிக்கப்படாவிட்டால் விதிவிலக்கு அழைப்பு அடுக்கின் மேலே பரவுகிறது.",
+    "taWord": "பரவுதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Spread",
+      "Transmit"
+    ],
+    "antonyms": [
+      "Halt",
+      "Contain"
+    ]
+  },
+  {
+    "id": 29,
+    "word": "Proponent",
+    "definition": "a person who advocates a theory or project",
+    "enExample": "He is a strong proponent of test-driven development.",
+    "taExample": "அவர் சோதனை சார்ந்த மேம்பாட்டின் வலுவான ஆதரவாளர்.",
+    "taWord": "ஆதரவாளர்",
+    "pos": "noun",
+    "synonyms": [
+      "Advocate",
+      "Supporter"
+    ],
+    "antonyms": [
+      "Opponent",
+      "Critic"
+    ]
+  },
+  {
+    "id": 50,
+    "word": "Proprietary",
+    "definition": "relating to an owner or ownership",
+    "enExample": "We cannot use that library because it is proprietary software.",
+    "taExample": "அது தனியுரிமை கொண்ட மென்பொருள் என்பதால் அந்த நூலகத்தை நாம் பயன்படுத்த முடியாது.",
+    "taWord": "தனியுரிமை கொண்ட",
+    "pos": "adj.",
+    "synonyms": [
+      "Exclusive",
+      "Private"
+    ],
+    "antonyms": [
+      "Open-source",
+      "Public"
+    ]
+  },
+  {
+    "id": 45,
+    "word": "Prospective",
+    "definition": "expected or expecting to be something particular in the future",
+    "enExample": "We are interviewing prospective candidates for the DevOps role.",
+    "taExample": "டெவொப்ஸ் பணிக்காக வருங்கால வேட்பாளர்களை நேர்காணல் செய்து வருகிறோம்.",
+    "taWord": "வருங்கால",
+    "pos": "adj.",
+    "synonyms": [
+      "Potential",
+      "Expected"
+    ],
+    "antonyms": [
+      "Current",
+      "Past"
+    ]
+  },
+  {
+    "id": 19,
+    "word": "Protracted",
+    "definition": "lasting longer than expected",
+    "enExample": "The migration turned into a protracted, multi-month effort.",
+    "taExample": "இடம்பெயர்வு பல மாத நீடித்த முயற்சியாக மாறியது.",
+    "taWord": "நீடித்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Prolonged",
+      "Extended"
+    ],
+    "antonyms": [
+      "Brief",
+      "Short"
+    ]
+  },
+  {
+    "id": 9,
+    "word": "Provision",
+    "definition": "to supply or prepare in advance",
+    "enExample": "We need to provision extra servers before the sale event.",
+    "taExample": "விற்பனை நிகழ்வுக்கு முன் கூடுதல் சேவையகங்களை ஏற்பாடு செய்ய வேண்டும்.",
+    "taWord": "ஏற்பாடு செய்தல்",
+    "pos": "verb",
+    "synonyms": [
+      "Supply",
+      "Provide"
+    ],
+    "antonyms": [
+      "Remove",
+      "Deprive"
+    ]
+  },
+  {
+    "id": 39,
+    "word": "Provisional",
+    "definition": "arranged for the present, possibly to be changed later",
+    "enExample": "We've deployed a provisional fix while we wait for the vendor patch.",
+    "taExample": "விற்பனையாளர் இணைப்புக்காக காத்திருக்கும் போது தற்காலிக தீர்வை வெளியிட்டுள்ளோம்.",
+    "taWord": "தற்காலிக",
+    "pos": "adj.",
+    "synonyms": [
+      "Temporary",
+      "Conditional"
+    ],
+    "antonyms": [
+      "Permanent",
+      "Final"
+    ]
+  },
+  {
+    "id": 38,
+    "word": "Provocative",
+    "definition": "causing a strong reaction, especially deliberately",
+    "enExample": "His provocative comments on the PR sparked a huge debate.",
+    "taExample": "PR-ல் அவரது ஆத்திரமூட்டும் கருத்துக்கள் பெரும் விவாதத்தைத் தூண்டின.",
+    "taWord": "ஆத்திரமூட்டும்",
+    "pos": "adj.",
+    "synonyms": [
+      "Stimulating",
+      "Challenging"
+    ],
+    "antonyms": [
+      "Dull",
+      "Boring"
+    ]
+  },
+  {
+    "id": 7,
+    "word": "Prudent",
+    "definition": "acting with care and foresight",
+    "enExample": "It's prudent to write tests before refactoring critical code.",
+    "taExample": "முக்கியமான குறியீட்டை மறுசீரமைக்கும் முன் சோதனைகள் எழுதுவது விவேகமானது.",
+    "taWord": "விவேகமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Sensible",
+      "Cautious"
+    ],
+    "antonyms": [
+      "Reckless",
+      "Careless"
+    ]
+  },
+  {
+    "id": 37,
+    "word": "Punctilious",
+    "definition": "showing great attention to detail",
+    "enExample": "We need a punctilious review of this security patch.",
+    "taExample": "இந்த பாதுகாப்பு இணைப்பின் மிகக் கவனமான மதிப்பாய்வு நமக்குத் தேவை.",
+    "taWord": "மிகக் கவனமான",
+    "pos": "adj.",
+    "synonyms": [
+      "Meticulous",
+      "Strict"
+    ],
+    "antonyms": [
+      "Careless",
+      "Sloppy"
+    ]
+  },
+  {
+    "id": 25,
+    "word": "Purview",
+    "definition": "the scope or range of authority",
+    "enExample": "Database schema changes fall outside my purview.",
+    "taExample": "தரவுத்தள திட்டகம் மாற்றங்கள் எனது பொறுப்பு எல்லைக்கு வெளியே உள்ளன.",
+    "taWord": "அதிகார எல்லை / பொறுப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Scope",
+      "Domain"
+    ]
+  },
+  {
+    "id": 2834,
+    "word": "Predicament",
+    "pos": "noun",
+    "definition": "A difficult, unpleasant, or complex situation from which it is very hard to extricate oneself.",
+    "enExample": "The coalition government faces an impossible political predicament ahead of the vote of no confidence.",
+    "taWord": "நெருக்கடியான இக்கட்டான நிலை",
+    "taExample": "கூட்டணி அரசு நாடாளுமன்றத்தில் பெரும் இக்கட்டான நிலையை எதிர்கொண்டுள்ளது.",
+    "synonyms": [
+      "Quagmire",
+      "Dilemma",
+      "Plight",
+      "Impasse"
+    ],
+    "antonyms": [
+      "Advantage",
+      "Favorable position",
+      "Solution",
+      "Ease"
+    ]
+  },
+  {
+    "id": 2837,
+    "word": "Plummet",
+    "pos": "verb",
+    "definition": "To drop, fall, or decline straight down at very high speed and magnitude.",
+    "enExample": "Stock indices plummeted by over eight hundred points following the central bank's unexpected inflation forecast.",
+    "taWord": "செங்குத்தாக சரிதல் / வேகமாகக் குறைதல்",
+    "taExample": "பணவீக்க அறிவிப்பைத் தொடர்ந்து பங்குச் சந்தை குறியீடுகள் செங்குத்தாக சரிந்தன.",
+    "synonyms": [
+      "Plunge",
+      "Dive",
+      "Nosedive",
+      "Collapse"
+    ],
+    "antonyms": [
+      "Skyrocket",
+      "Soar",
+      "Surge",
+      "Ascend"
+    ]
+  },
+  {
+    "id": 2894,
+    "word": "Pandemonium",
+    "pos": "noun",
+    "definition": "Wild, noisy, and chaotic disorder, uproar, and confusion breaking out in a public arena.",
+    "enExample": "Pandemonium erupted in the legislative chamber as rival delegates rushed the podium.",
+    "taWord": "பெரும் கூச்சல் குழப்பம் / அமளி",
+    "taExample": "எதிர்க்கட்சி உறுப்பினர்கள் மேடையை முற்றுகையிட்டதால் நாடாளுமன்றத்தில் பெரும் கூச்சல் குழப்பமும் அமளியும் நிலவியது.",
+    "synonyms": [
+      "Bedlam",
+      "Chaos",
+      "Tumult",
+      "Uproar"
+    ],
+    "antonyms": [
+      "Order",
+      "Peace",
+      "Silence",
+      "Tranquility"
+    ]
+  },
+  {
+    "id": 2895,
+    "word": "Paralysis",
+    "pos": "noun",
+    "definition": "The state of being totally unable to function, make decisions, or take decisive political action.",
+    "enExample": "The split legislature led to a paralyzing governance deadlock over infrastructure spending.",
+    "taWord": "முழு முடக்கம் / இயலாமை",
+    "taExample": "அரசியல் பிளவுகளால் எந்த முக்கிய திட்டங்களையும் செயல்படுத்த முடியாமல் அரசு நிர்வாகம் முடங்கியது.",
+    "synonyms": [
+      "Immobilization",
+      "Deadlock",
+      "Standstill",
+      "Inertia"
+    ],
+    "antonyms": [
+      "Decisiveness",
+      "Action",
+      "Dynamism",
+      "Progress"
+    ]
+  },
+  {
+    "id": 2896,
+    "word": "Partisan",
+    "pos": "adj.",
+    "definition": "Fiercely and blindly biased in favor of a specific political party, faction, or ideological cause.",
+    "enExample": "Critics argued the congressional investigation had devolved into a bitter partisan witch hunt.",
+    "taWord": "கட்சி சார்புடைய / ஒருதலைப்பட்சமான",
+    "taExample": "விசாரணை நடுநிலையாக இல்லாமல் முழுக்க முழுக்க கட்சி சார்புடையதாக மாற்றப்பட்டுவிட்டதாக கூறப்பட்டது.",
+    "synonyms": [
+      "Biased",
+      "One-sided",
+      "Sectarian",
+      "Factional"
+    ],
+    "antonyms": [
+      "Non-partisan",
+      "Impartial",
+      "Bipartisan",
+      "Objective"
+    ]
+  },
+  {
+    "id": 2897,
+    "word": "Plebiscite",
+    "pos": "noun",
+    "definition": "A direct, binding democratic vote of all the members of an electorate on an issue of major constitutional sovereignty.",
+    "enExample": "The regional assembly voted to hold a binding plebiscite on national self-determination.",
+    "taWord": "மக்கள் தீர்ப்பு வாக்கெடுப்பு / பொது வாக்கெடுப்பு",
+    "taExample": "சுயாட்சி கோரிக்கை குறித்து மக்களின் கருத்தறிய பொது வாக்கெடுப்பு நடத்த முடிவு செய்யப்பட்டது.",
+    "synonyms": [
+      "Referendum",
+      "Popular vote",
+      "Ballot on sovereignty"
+    ],
+    "antonyms": [
+      "Dictatorial decree",
+      "Autocratic ruling"
+    ]
+  },
+  {
+    "id": 2898,
+    "word": "Plight",
+    "pos": "noun",
+    "definition": "A dangerous, unfortunate, or deeply sorrowful situation faced by an afflicted group of people.",
+    "enExample": "International aid agencies appealed for emergency funding to alleviate the plight of displaced war refugees.",
+    "taWord": "துயர நிலை / அவல நிலை",
+    "taExample": "போரினால் பாதிக்கப்பட்ட மக்களின் அவல நிலையைப் போக்க அவசர நிதி உதவி கோரப்பட்டது.",
+    "synonyms": [
+      "Predicament",
+      "Hardship",
+      "Distress",
+      "Trial"
+    ],
+    "antonyms": [
+      "Prosperity",
+      "Comfort",
+      "Fortune",
+      "Well-being"
+    ]
+  },
+  {
+    "id": 2899,
+    "word": "Polarize",
+    "pos": "verb",
+    "definition": "To divide public opinion or groups into sharply contrasting, hostile, and uncompromising factions.",
+    "enExample": "The controversial immigration legislation threatened to deeply polarize voters along demographic lines.",
+    "taWord": "இரு துருவங்களாக பிரித்தல்",
+    "taExample": "புதிய சட்டம் மக்களிடையே கருத்து வேறுபாடுகளை தீவிரப்படுத்தி சமூகத்தை இரு துருவங்களாக பிரித்தது.",
+    "synonyms": [
+      "Divide",
+      "Alienate",
+      "Fracture",
+      "Split"
+    ],
+    "antonyms": [
+      "Unify",
+      "Reconcile",
+      "Harmonize",
+      "Bridge"
+    ]
+  },
+  {
+    "id": 2900,
+    "word": "Predecessor",
+    "pos": "noun",
+    "definition": "A person who held a high office, public role, or position immediately before the current occupant.",
+    "enExample": "The newly sworn-in mayor reversed several municipal zoning ordinances enacted by her predecessor.",
+    "taWord": "முந்தைய பதவியில் இருந்தவர் / முன்னோடி",
+    "taExample": "புதிய மேயர் தனது முந்தைய அதிகாரியால் கொண்டுவரப்பட்ட பல விதிகளை உடனடியாக ரத்து செய்தார்.",
+    "synonyms": [
+      "Forerunner",
+      "Antecedent",
+      "Former holder"
+    ],
+    "antonyms": [
+      "Successor",
+      "Descendant",
+      "Follower"
+    ]
+  },
+  {
+    "id": 2901,
+    "word": "Proliferation",
+    "pos": "noun",
+    "definition": "A rapid and uncontrolled increase or spread in numbers, especially regarding weapons or illicit technology.",
+    "enExample": "The treaty was designed to halt the perilous proliferation of ballistic nuclear weapons.",
+    "taWord": "வேகமான பெருக்கம் / பரவல்",
+    "taExample": "அணு ஆயுதங்கள் மற்றும் ஆபத்தான ஏவுகணைகளின் பரவலைக் கட்டுப்படுத்த இந்த ஒப்பந்தம் கொண்டுவரப்பட்டது.",
+    "synonyms": [
+      "Multiplication",
+      "Rapid spread",
+      "Escalation",
+      "Expansion"
+    ],
+    "antonyms": [
+      "Reduction",
+      "Curtailment",
+      "Containment",
+      "Stagnation"
     ]
   }
 ]

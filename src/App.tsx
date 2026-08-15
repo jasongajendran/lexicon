@@ -1,10 +1,9 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'motion/react';
-import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Sparkles, Filter, X, Keyboard, ArrowUp, CheckCircle, RotateCcw } from 'lucide-react';
+import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Filter, X, Keyboard, ArrowUp, RotateCcw } from 'lucide-react';
 import { wordsData } from './data';
 import { WordRow } from './components/WordRow';
 import { WordCard } from './components/WordCard';
-import { WordDetailModal } from './components/WordDetailModal';
 import { FlashcardView } from './components/FlashcardView';
 import { FilterSheet } from './components/FilterSheet';
 import { BottomNav } from './components/BottomNav';
@@ -32,8 +31,6 @@ export default function App() {
   // Mobile & View State
   const [viewMode, setViewMode] = useState<'list' | 'grid'>('list');
   const [currentTab, setCurrentTab] = useState<'feed' | 'study'>('feed');
-  const [selectedWord, setSelectedWord] = useState<LexiconWord | null>(null);
-  const [isDetailOpen, setIsDetailOpen] = useState(false);
   const [isFilterSheetOpen, setIsFilterSheetOpen] = useState(false);
   const [isKeyboardHelpOpen, setIsKeyboardHelpOpen] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
@@ -92,22 +89,19 @@ export default function App() {
   const handleSelectRandomWord = () => {
     if (wordsData.length === 0) return;
     const randomIndex = Math.floor(Math.random() * wordsData.length);
-    setSelectedWord(wordsData[randomIndex]);
-    setIsDetailOpen(true);
+    const randomWord = wordsData[randomIndex];
+    setSearchQuery(randomWord.word);
+    setActiveLetter('all');
+    setActivePos('all');
+    setShowOnlyBookmarks(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleWordLinkClick = (wordText: string) => {
-    const cleanWord = wordText.trim().toLowerCase();
-    const foundWord = wordsData.find(w => w.word.toLowerCase() === cleanWord);
-    if (foundWord) {
-      setSelectedWord(foundWord);
-      setIsDetailOpen(true);
-    } else {
-      // Search for the term
-      setSearchQuery(wordText);
-      setActiveLetter('all');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+    setSearchQuery(wordText);
+    setActiveLetter('all');
+    setActivePos('all');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // Keyboard Navigation Listener
@@ -124,7 +118,6 @@ export default function App() {
       }
 
       if (e.key === 'Escape') {
-        setIsDetailOpen(false);
         setIsKeyboardHelpOpen(false);
         setIsFilterSheetOpen(false);
         return;
@@ -259,7 +252,7 @@ export default function App() {
               <button
                 onClick={handleSelectRandomWord}
                 className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 active:scale-95 transition-all text-xs font-mono flex items-center gap-1.5"
-                title="Random Word (R)"
+                title="Explore Random Word (R)"
               >
                 <Shuffle size={14} />
                 <span className="hidden sm:inline">Random</span>
@@ -561,10 +554,7 @@ export default function App() {
               word={spotlightWord}
               isBookmarked={bookmarkedIds.includes(spotlightWord.id)}
               onToggleBookmark={() => toggleBookmark(spotlightWord.id)}
-              onSelectWord={(w) => {
-                setSelectedWord(w);
-                setIsDetailOpen(true);
-              }}
+              onWordSearch={handleWordLinkClick}
             />
           )}
 
@@ -594,10 +584,6 @@ export default function App() {
                       index={index + 1} 
                       isBookmarked={bookmarkedIds.includes(word.id)}
                       onToggleBookmark={() => toggleBookmark(word.id)}
-                      onSelectWord={(w) => {
-                        setSelectedWord(w);
-                        setIsDetailOpen(true);
-                      }}
                       onWordSearch={handleWordLinkClick}
                     />
                   ))}
@@ -615,10 +601,6 @@ export default function App() {
                       index={index + 1}
                       isBookmarked={bookmarkedIds.includes(word.id)}
                       onToggleBookmark={() => toggleBookmark(word.id)}
-                      onSelectWord={(w) => {
-                        setSelectedWord(w);
-                        setIsDetailOpen(true);
-                      }}
                       onWordSearch={handleWordLinkClick}
                     />
                   ))}
@@ -692,16 +674,6 @@ export default function App() {
           </motion.button>
         )}
       </AnimatePresence>
-
-      {/* Expanded Word Detail Modal / Bottom Sheet */}
-      <WordDetailModal
-        word={selectedWord}
-        isOpen={isDetailOpen}
-        onClose={() => setIsDetailOpen(false)}
-        isBookmarked={selectedWord ? bookmarkedIds.includes(selectedWord.id) : false}
-        onToggleBookmark={() => selectedWord && toggleBookmark(selectedWord.id)}
-        onWordSearch={handleWordLinkClick}
-      />
 
       {/* Keyboard Shortcuts Guide Modal */}
       <KeyboardShortcutsModal

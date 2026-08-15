@@ -16,6 +16,41 @@
     ]
   },
   {
+    "id": 2722,
+    "word": "Jank",
+    "pos": "noun",
+    "definition": "Visual stuttering, skipped frames, or sluggish UI responsiveness caused when rendering pipelines miss their 60 FPS (16ms) deadline.",
+    "taWord": "திரை நடுக்கம் / பிரேம் இழப்பு",
+    "enExample": "Moving heavy JSON parsing off the main UI thread eliminated scrolling jank completely.",
+    "taExample": "கடினமான தரவு செயலாக்கத்தை பிரதான இழையிலிருந்து (UI thread) மாற்றியதால் திரை நடுக்கம் (Jank) நீங்கியது.",
+    "synonyms": [
+      "frame drop",
+      "stutter",
+      "lag"
+    ],
+    "antonyms": [
+      "fluidity",
+      "60fps smoothness",
+      "butter-smooth"
+    ]
+  },
+  {
+    "id": 1012,
+    "word": "Jargon",
+    "definition": "Special words or expressions used by a profession or group that are difficult for others to understand.",
+    "enExample": "Try to minimize technical jargon when writing documentation for users.",
+    "taExample": "பயனர்களுக்காக ஆவணங்களை எழுதும்போது தொழில்நுட்ப சிறப்புச் சொற்களைக் குறைக்க முயற்சிக்கவும்.",
+    "taWord": "சிறப்புச் சொற்கள் / தொழில்நுட்பச் சொற்கள்",
+    "pos": "noun",
+    "synonyms": [
+      "Terminology",
+      "Lingo"
+    ],
+    "antonyms": [
+      "Plain language"
+    ]
+  },
+  {
     "id": 1002,
     "word": "JavaScript",
     "definition": "A high-level, interpreted programming language that conforms to the ECMAScript specification.",
@@ -26,6 +61,60 @@
     "synonyms": [
       "JS",
       "ECMAScript"
+    ]
+  },
+  {
+    "id": 1020,
+    "word": "Jeopardize",
+    "definition": "Put someone or something into a situation with danger of loss or failure.",
+    "enExample": "Cutting corners on code validation could jeopardize the whole release.",
+    "taExample": "குறியீட்டு சரிபார்ப்பில் சமரசம் செய்வது முழு வெளியீட்டையும் ஆபத்துக்குள்ளாக்கக்கூடும்.",
+    "taWord": "ஆபத்துக்குள்ளாக்குதல்",
+    "pos": "verb",
+    "synonyms": [
+      "Endanger",
+      "Risk"
+    ],
+    "antonyms": [
+      "Protect",
+      "Safeguard"
+    ]
+  },
+  {
+    "id": 2719,
+    "word": "JIT Compilation",
+    "pos": "noun",
+    "definition": "Just-In-Time compilation where bytecode is converted to native machine instructions dynamically at runtime rather than beforehand.",
+    "taWord": "நிகழ்நேர இயந்திர மொழிமாற்றம்",
+    "enExample": "The V8 JavaScript engine utilizes JIT compilation with hot-path optimizations to execute code at near-native speeds.",
+    "taExample": "V8 என்ஜின் நிகழ்நேர மொழிமாற்றம் (JIT) மூலம் இயங்கும்போதே குறியீட்டை அதிவேக இயந்திர மொழியாக மாற்றுகிறது.",
+    "synonyms": [
+      "dynamic translation",
+      "runtime compilation",
+      "hot-spot compilation"
+    ],
+    "antonyms": [
+      "AOT compilation",
+      "static interpretation"
+    ]
+  },
+  {
+    "id": 2717,
+    "word": "Jitter",
+    "pos": "noun",
+    "definition": "Variation in latency or arrival time of transmitted packets over a network or within clock cycles.",
+    "taWord": "அதிர்வு மாறுபாடு / நேர தாமத விலகல்",
+    "enExample": "Adding randomized jitter to our exponential backoff prevented API thundering herd problems.",
+    "taExample": "மீண்டும் முயற்சிக்கும் இடைவெளியில் சீரற்ற நேர மாற்றத்தை (Jitter) சேர்த்ததன் மூலம் சேவையக நெரிசல் தடுக்கப்பட்டது.",
+    "synonyms": [
+      "latency variation",
+      "fluctuation",
+      "timing variance"
+    ],
+    "antonyms": [
+      "consistency",
+      "uniformity",
+      "clock stability"
     ]
   },
   {
@@ -40,6 +129,41 @@
       "Task",
       "Process",
       "Work unit"
+    ]
+  },
+  {
+    "id": 2721,
+    "word": "Job Scheduler",
+    "pos": "noun",
+    "definition": "A system or daemon that automatically executes batch programs or recurring background tasks according to a predetermined timetable or trigger.",
+    "taWord": "தானியங்கி பணி திட்டமிடல் அமைப்பு",
+    "enExample": "We configured a distributed job scheduler to handle nightly data warehouse syncs and reporting pipelines.",
+    "taExample": "இரவு நேர தரவு ஒத்திசைவு பணிகளை இயக்க ஒரு விநியோகிக்கப்பட்ட Job Scheduler-ஐ அமைத்தோம்.",
+    "synonyms": [
+      "cron daemon",
+      "task runner",
+      "batch orchestrator"
+    ],
+    "antonyms": [
+      "manual executor",
+      "interactive thread"
+    ]
+  },
+  {
+    "id": 1014,
+    "word": "Jocular",
+    "definition": "Fond of or characterized by joking; humorous or playful.",
+    "enExample": "Her jocular presentation style kept the engineering audience engaged.",
+    "taExample": "அவளது வேடிக்கையான விளக்கக்காட்சி பாணி பொறியியல் பார்வையாளர்களை ஈர்த்தது.",
+    "taWord": "வேடிக்கையான / நகைச்சுவையான",
+    "pos": "adj.",
+    "synonyms": [
+      "Humorous",
+      "Amusing"
+    ],
+    "antonyms": [
+      "Serious",
+      "Earnest"
     ]
   },
   {
@@ -61,6 +185,36 @@
     ]
   },
   {
+    "id": 1019,
+    "word": "Joint",
+    "definition": "Shared, held, or made by two or more parties together.",
+    "enExample": "The feature was a joint effort between design and development teams.",
+    "taExample": "இந்த அம்சம் வடிவமைப்பு மற்றும் மேம்பாட்டுக் குழுக்களின் கூட்டு முயற்சியாகும்.",
+    "taWord": "கூட்டு / இணைந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Combined",
+      "Shared"
+    ],
+    "antonyms": [
+      "Sole",
+      "Individual"
+    ]
+  },
+  {
+    "id": 1021,
+    "word": "Jolt",
+    "definition": "Give a sudden surprise, shock, or impetus to action.",
+    "enExample": "The security breach served as a jolt to improve system hardening.",
+    "taExample": "பாதுகாப்பு மீறல் கணினியை பலப்படுத்துவதற்கான ஒரு அதிர்ச்சியாக அமைந்தது.",
+    "taWord": "அதிர்ச்சி / திடுக்கிடச் செய்தல்",
+    "pos": "noun",
+    "synonyms": [
+      "Shock",
+      "Impulse"
+    ]
+  },
+  {
     "id": 1005,
     "word": "Journaling",
     "definition": "A file system feature that logs changes to a journal before committing them to the main file system.",
@@ -74,6 +228,19 @@
     ]
   },
   {
+    "id": 1017,
+    "word": "Journey",
+    "definition": "The process of traveling, growing, or developing over time.",
+    "enExample": "Mastering software architecture is an ongoing learning journey.",
+    "taExample": "மென்பொருள் கட்டமைப்பில் தேர்ச்சி பெறுவது ஒரு தொடர்ச்சியான கற்றல் பயணமாகும்.",
+    "taWord": "பயணம் / கற்றல் பாதை",
+    "pos": "noun",
+    "synonyms": [
+      "Voyage",
+      "Progression"
+    ]
+  },
+  {
     "id": 1006,
     "word": "JSON",
     "definition": "JavaScript Object Notation, a lightweight data-interchange format easy for humans to read and write.",
@@ -84,6 +251,149 @@
     "synonyms": [
       "Data format",
       "Payload format"
+    ]
+  },
+  {
+    "id": 2723,
+    "word": "JSON Schema",
+    "pos": "noun",
+    "definition": "A vocabulary and format standard used to annotate and validate the structure, types, and constraints of JSON documents.",
+    "taWord": "ஜேசன் கட்டமைப்பு வரையறை",
+    "enExample": "All inbound webhook payloads are validated against a strict JSON Schema before entering the processing queue.",
+    "taExample": "அனைத்து உள்வரும் தரவுகளும் முன்கூட்டியே வரையறுக்கப்பட்ட JSON Schema விதிகளுக்கு உட்பட்டு சரிபார்க்கப்படுகின்றன.",
+    "synonyms": [
+      "contract specification",
+      "data shape validator",
+      "payload blueprint"
+    ],
+    "antonyms": [
+      "untyped payload",
+      "schemaless blob"
+    ]
+  },
+  {
+    "id": 1016,
+    "word": "Jubilant",
+    "definition": "Feeling or expressing great happiness, joy, and triumph.",
+    "enExample": "The team was jubilant after successfully deploying the platform overhaul.",
+    "taExample": "தள மறுசீரமைப்பை வெற்றிகரமாக வரிசைப்படுத்திய பிறகு குழு மிகுந்த மகிழ்ச்சியடைந்தது.",
+    "taWord": "மிக்க மகிழ்ச்சியடைந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Elated",
+      "Overjoyed"
+    ],
+    "antonyms": [
+      "Despondent",
+      "Miserable"
+    ]
+  },
+  {
+    "id": 1022,
+    "word": "Judicial",
+    "definition": "Relating to impartial judgment or official decision-making processes.",
+    "enExample": "The review board exercised judicial review over API policy changes.",
+    "taExample": "மதிப்பாய்வு வாரியம் API கொள்கை மாற்றங்கள் குறித்து நடுநிலையான மதிப்பாய்வை மேற்கொண்டது.",
+    "taWord": "நீதித் துறை சார்ந்த / மதிப்பீட்டு சார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Impartial",
+      "Legal"
+    ]
+  },
+  {
+    "id": 1015,
+    "word": "Judicious",
+    "definition": "Having, showing, or done with good judgment or sense.",
+    "enExample": "Judicious use of caching reduced database load by sixty percent.",
+    "taExample": "விவேகமான தற்காலிக சேமிப்பு பயன்பாடு தரவுத்தள சுமையை அறுபது சதவீதம் குறைத்தது.",
+    "taWord": "விவேகமான / விவேகத்துடன் கூடிய",
+    "pos": "adj.",
+    "synonyms": [
+      "Prudent",
+      "Wise"
+    ],
+    "antonyms": [
+      "Foolish",
+      "Imprudent"
+    ]
+  },
+  {
+    "id": 2720,
+    "word": "Jump Host",
+    "pos": "noun",
+    "definition": "A hardened intermediary server positioned in a secure perimeter that system administrators connect to before accessing internal network servers.",
+    "taWord": "பாதுகாப்பு இடைநிலை சர்வர் / பாஸ்டியன்",
+    "enExample": "Engineers must SSH through a jump host protected by multi-factor authentication to access production database clusters.",
+    "taExample": "உற்பத்தி தரவுத்தளங்களை அணுக பொறியாளர்கள் முதலில் Jump Host வழியாக உள்நுழைய வேண்டும்.",
+    "synonyms": [
+      "bastion host",
+      "transit server",
+      "gateway proxy"
+    ],
+    "antonyms": [
+      "public endpoint",
+      "direct node"
+    ]
+  },
+  {
+    "id": 1011,
+    "word": "Junction",
+    "definition": "A point where two or more paths, data flows, or circuits meet.",
+    "enExample": "A file system junction point redirects directory queries to another location.",
+    "taExample": "கோப்பு முறைமை சந்திப்பு புள்ளி வேறு இடத்திற்கு வினவல்களை வழிநடத்துகிறது.",
+    "taWord": "சந்திப்பு / இணைப்பு",
+    "pos": "noun",
+    "synonyms": [
+      "Intersection",
+      "Connection"
+    ],
+    "antonyms": [
+      "Separation"
+    ]
+  },
+  {
+    "id": 1018,
+    "word": "Juncture",
+    "definition": "A particular, crucial point in time or event progression.",
+    "enExample": "At this critical juncture, we must prioritize system security.",
+    "taExample": "இந்த முக்கியமான கட்டத்தில், கணினி பாதுகாப்பிற்கு முன்னுரிமை அளிக்க வேண்டும்.",
+    "taWord": "முக்கிய கட்டம் / தருணம்",
+    "pos": "noun",
+    "synonyms": [
+      "Point",
+      "Stage"
+    ]
+  },
+  {
+    "id": 1010,
+    "word": "Junk",
+    "definition": "Unwanted or corrupted data that occupies memory or storage without adding value.",
+    "enExample": "Run the cleanup script to remove junk files from the server.",
+    "taExample": "சேவையகத்திலிருந்து பயனற்ற கோப்புகளை அகற்ற துப்புரவு ஸ்கிரிப்டை இயக்கவும்.",
+    "taWord": "பயனற்ற தரவு / குப்பை",
+    "pos": "noun",
+    "synonyms": [
+      "Trash",
+      "Garbage",
+      "Waste"
+    ],
+    "antonyms": [
+      "Clean data",
+      "Valuable data"
+    ]
+  },
+  {
+    "id": 1013,
+    "word": "Jurisdictional",
+    "definition": "Relating to official power or geographic boundaries governing data privacy compliance.",
+    "enExample": "Ensure cloud server hosting complies with regional jurisdictional laws.",
+    "taExample": "கிளவுட் சேவையக ஹோஸ்டிங் பிராந்திய அதிகார வரம்பு சட்டங்களுக்கு கட்டுப்படுவதை உறுதிசெய்யவும்.",
+    "taWord": "அதிகார வரம்பு சார்ந்த",
+    "pos": "adj.",
+    "synonyms": [
+      "Legal boundary",
+      "Regulatory"
     ]
   },
   {
@@ -135,225 +445,6 @@
     ]
   },
   {
-    "id": 1010,
-    "word": "Junk",
-    "definition": "Unwanted or corrupted data that occupies memory or storage without adding value.",
-    "enExample": "Run the cleanup script to remove junk files from the server.",
-    "taExample": "சேவையகத்திலிருந்து பயனற்ற கோப்புகளை அகற்ற துப்புரவு ஸ்கிரிப்டை இயக்கவும்.",
-    "taWord": "பயனற்ற தரவு / குப்பை",
-    "pos": "noun",
-    "synonyms": [
-      "Trash",
-      "Garbage",
-      "Waste"
-    ],
-    "antonyms": [
-      "Clean data",
-      "Valuable data"
-    ]
-  },
-  {
-    "id": 1011,
-    "word": "Junction",
-    "definition": "A point where two or more paths, data flows, or circuits meet.",
-    "enExample": "A file system junction point redirects directory queries to another location.",
-    "taExample": "கோப்பு முறைமை சந்திப்பு புள்ளி வேறு இடத்திற்கு வினவல்களை வழிநடத்துகிறது.",
-    "taWord": "சந்திப்பு / இணைப்பு",
-    "pos": "noun",
-    "synonyms": [
-      "Intersection",
-      "Connection"
-    ],
-    "antonyms": [
-      "Separation"
-    ]
-  },
-  {
-    "id": 1012,
-    "word": "Jargon",
-    "definition": "Special words or expressions used by a profession or group that are difficult for others to understand.",
-    "enExample": "Try to minimize technical jargon when writing documentation for users.",
-    "taExample": "பயனர்களுக்காக ஆவணங்களை எழுதும்போது தொழில்நுட்ப சிறப்புச் சொற்களைக் குறைக்க முயற்சிக்கவும்.",
-    "taWord": "சிறப்புச் சொற்கள் / தொழில்நுட்பச் சொற்கள்",
-    "pos": "noun",
-    "synonyms": [
-      "Terminology",
-      "Lingo"
-    ],
-    "antonyms": [
-      "Plain language"
-    ]
-  },
-  {
-    "id": 1013,
-    "word": "Jurisdictional",
-    "definition": "Relating to official power or geographic boundaries governing data privacy compliance.",
-    "enExample": "Ensure cloud server hosting complies with regional jurisdictional laws.",
-    "taExample": "கிளவுட் சேவையக ஹோஸ்டிங் பிராந்திய அதிகார வரம்பு சட்டங்களுக்கு கட்டுப்படுவதை உறுதிசெய்யவும்.",
-    "taWord": "அதிகார வரம்பு சார்ந்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Legal boundary",
-      "Regulatory"
-    ]
-  },
-  {
-    "id": 1014,
-    "word": "Jocular",
-    "definition": "Fond of or characterized by joking; humorous or playful.",
-    "enExample": "Her jocular presentation style kept the engineering audience engaged.",
-    "taExample": "அவளது வேடிக்கையான விளக்கக்காட்சி பாணி பொறியியல் பார்வையாளர்களை ஈர்த்தது.",
-    "taWord": "வேடிக்கையான / நகைச்சுவையான",
-    "pos": "adj.",
-    "synonyms": [
-      "Humorous",
-      "Amusing"
-    ],
-    "antonyms": [
-      "Serious",
-      "Earnest"
-    ]
-  },
-  {
-    "id": 1015,
-    "word": "Judicious",
-    "definition": "Having, showing, or done with good judgment or sense.",
-    "enExample": "Judicious use of caching reduced database load by sixty percent.",
-    "taExample": "விவேகமான தற்காலிக சேமிப்பு பயன்பாடு தரவுத்தள சுமையை அறுபது சதவீதம் குறைத்தது.",
-    "taWord": "விவேகமான / விவேகத்துடன் கூடிய",
-    "pos": "adj.",
-    "synonyms": [
-      "Prudent",
-      "Wise"
-    ],
-    "antonyms": [
-      "Foolish",
-      "Imprudent"
-    ]
-  },
-  {
-    "id": 1016,
-    "word": "Jubilant",
-    "definition": "Feeling or expressing great happiness, joy, and triumph.",
-    "enExample": "The team was jubilant after successfully deploying the platform overhaul.",
-    "taExample": "தள மறுசீரமைப்பை வெற்றிகரமாக வரிசைப்படுத்திய பிறகு குழு மிகுந்த மகிழ்ச்சியடைந்தது.",
-    "taWord": "மிக்க மகிழ்ச்சியடைந்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Elated",
-      "Overjoyed"
-    ],
-    "antonyms": [
-      "Despondent",
-      "Miserable"
-    ]
-  },
-  {
-    "id": 1017,
-    "word": "Journey",
-    "definition": "The process of traveling, growing, or developing over time.",
-    "enExample": "Mastering software architecture is an ongoing learning journey.",
-    "taExample": "மென்பொருள் கட்டமைப்பில் தேர்ச்சி பெறுவது ஒரு தொடர்ச்சியான கற்றல் பயணமாகும்.",
-    "taWord": "பயணம் / கற்றல் பாதை",
-    "pos": "noun",
-    "synonyms": [
-      "Voyage",
-      "Progression"
-    ]
-  },
-  {
-    "id": 1018,
-    "word": "Juncture",
-    "definition": "A particular, crucial point in time or event progression.",
-    "enExample": "At this critical juncture, we must prioritize system security.",
-    "taExample": "இந்த முக்கியமான கட்டத்தில், கணினி பாதுகாப்பிற்கு முன்னுரிமை அளிக்க வேண்டும்.",
-    "taWord": "முக்கிய கட்டம் / தருணம்",
-    "pos": "noun",
-    "synonyms": [
-      "Point",
-      "Stage"
-    ]
-  },
-  {
-    "id": 1019,
-    "word": "Joint",
-    "definition": "Shared, held, or made by two or more parties together.",
-    "enExample": "The feature was a joint effort between design and development teams.",
-    "taExample": "இந்த அம்சம் வடிவமைப்பு மற்றும் மேம்பாட்டுக் குழுக்களின் கூட்டு முயற்சியாகும்.",
-    "taWord": "கூட்டு / இணைந்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Combined",
-      "Shared"
-    ],
-    "antonyms": [
-      "Sole",
-      "Individual"
-    ]
-  },
-  {
-    "id": 1020,
-    "word": "Jeopardize",
-    "definition": "Put someone or something into a situation with danger of loss or failure.",
-    "enExample": "Cutting corners on code validation could jeopardize the whole release.",
-    "taExample": "குறியீட்டு சரிபார்ப்பில் சமரசம் செய்வது முழு வெளியீட்டையும் ஆபத்துக்குள்ளாக்கக்கூடும்.",
-    "taWord": "ஆபத்துக்குள்ளாக்குதல்",
-    "pos": "verb",
-    "synonyms": [
-      "Endanger",
-      "Risk"
-    ],
-    "antonyms": [
-      "Protect",
-      "Safeguard"
-    ]
-  },
-  {
-    "id": 1021,
-    "word": "Jolt",
-    "definition": "Give a sudden surprise, shock, or impetus to action.",
-    "enExample": "The security breach served as a jolt to improve system hardening.",
-    "taExample": "பாதுகாப்பு மீறல் கணினியை பலப்படுத்துவதற்கான ஒரு அதிர்ச்சியாக அமைந்தது.",
-    "taWord": "அதிர்ச்சி / திடுக்கிடச் செய்தல்",
-    "pos": "noun",
-    "synonyms": [
-      "Shock",
-      "Impulse"
-    ]
-  },
-  {
-    "id": 1022,
-    "word": "Judicial",
-    "definition": "Relating to impartial judgment or official decision-making processes.",
-    "enExample": "The review board exercised judicial review over API policy changes.",
-    "taExample": "மதிப்பாய்வு வாரியம் API கொள்கை மாற்றங்கள் குறித்து நடுநிலையான மதிப்பாய்வை மேற்கொண்டது.",
-    "taWord": "நீதித் துறை சார்ந்த / மதிப்பீட்டு சார்ந்த",
-    "pos": "adj.",
-    "synonyms": [
-      "Impartial",
-      "Legal"
-    ]
-  },
-  {
-    "id": 2717,
-    "word": "Jitter",
-    "pos": "noun",
-    "definition": "Variation in latency or arrival time of transmitted packets over a network or within clock cycles.",
-    "taWord": "அதிர்வு மாறுபாடு / நேர தாமத விலகல்",
-    "enExample": "Adding randomized jitter to our exponential backoff prevented API thundering herd problems.",
-    "taExample": "மீண்டும் முயற்சிக்கும் இடைவெளியில் சீரற்ற நேர மாற்றத்தை (Jitter) சேர்த்ததன் மூலம் சேவையக நெரிசல் தடுக்கப்பட்டது.",
-    "synonyms": [
-      "latency variation",
-      "fluctuation",
-      "timing variance"
-    ],
-    "antonyms": [
-      "consistency",
-      "uniformity",
-      "clock stability"
-    ]
-  },
-  {
     "id": 2718,
     "word": "JWT",
     "pos": "noun",
@@ -372,94 +463,42 @@
     ]
   },
   {
-    "id": 2719,
-    "word": "JIT Compilation",
+    "id": 2878,
+    "word": "Jeopardy",
     "pos": "noun",
-    "definition": "Just-In-Time compilation where bytecode is converted to native machine instructions dynamically at runtime rather than beforehand.",
-    "taWord": "நிகழ்நேர இயந்திர மொழிமாற்றம்",
-    "enExample": "The V8 JavaScript engine utilizes JIT compilation with hot-path optimizations to execute code at near-native speeds.",
-    "taExample": "V8 என்ஜின் நிகழ்நேர மொழிமாற்றம் (JIT) மூலம் இயங்கும்போதே குறியீட்டை அதிவேக இயந்திர மொழியாக மாற்றுகிறது.",
+    "definition": "A state of severe danger, peril, or risk of loss, injury, or catastrophic failure.",
+    "enExample": "The cancellation of the international treaty placed hundreds of green energy jobs in immediate jeopardy.",
+    "taWord": "ஆபத்து / பேராபத்தான நிலை",
+    "taExample": "ஒப்பந்தம் ரத்து செய்யப்பட்டதால் பல்லாயிரக்கணக்கான மக்களின் வேலைவாய்ப்பு பேராபத்தில் உள்ளது.",
     "synonyms": [
-      "dynamic translation",
-      "runtime compilation",
-      "hot-spot compilation"
+      "Peril",
+      "Risk",
+      "Hazard",
+      "Vulnerability"
     ],
     "antonyms": [
-      "AOT compilation",
-      "static interpretation"
+      "Safety",
+      "Security",
+      "Protection",
+      "Sanctuary"
     ]
   },
   {
-    "id": 2720,
-    "word": "Jump Host",
+    "id": 2879,
+    "word": "Junta",
     "pos": "noun",
-    "definition": "A hardened intermediary server positioned in a secure perimeter that system administrators connect to before accessing internal network servers.",
-    "taWord": "பாதுகாப்பு இடைநிலை சர்வர் / பாஸ்டியன்",
-    "enExample": "Engineers must SSH through a jump host protected by multi-factor authentication to access production database clusters.",
-    "taExample": "உற்பத்தி தரவுத்தளங்களை அணுக பொறியாளர்கள் முதலில் Jump Host வழியாக உள்நுழைய வேண்டும்.",
+    "definition": "A military or political faction that rules an authoritarian state following a violent coup or seizure of power.",
+    "enExample": "The military junta suspended the constitution and dissolved parliament following the midnight coup.",
+    "taWord": "ராணுவ ஆட்சி மன்றம் / ராணுவக் குழு",
+    "taExample": "ஆட்சியைக் கைப்பற்றிய ராணுவக் குழு அரசியலமைப்பை ரத்து செய்துவிட்டு அவசரநிலையை அறிவித்தது.",
     "synonyms": [
-      "bastion host",
-      "transit server",
-      "gateway proxy"
+      "Military regime",
+      "Authoritarian faction",
+      "Coup committee"
     ],
     "antonyms": [
-      "public endpoint",
-      "direct node"
-    ]
-  },
-  {
-    "id": 2721,
-    "word": "Job Scheduler",
-    "pos": "noun",
-    "definition": "A system or daemon that automatically executes batch programs or recurring background tasks according to a predetermined timetable or trigger.",
-    "taWord": "தானியங்கி பணி திட்டமிடல் அமைப்பு",
-    "enExample": "We configured a distributed job scheduler to handle nightly data warehouse syncs and reporting pipelines.",
-    "taExample": "இரவு நேர தரவு ஒத்திசைவு பணிகளை இயக்க ஒரு விநியோகிக்கப்பட்ட Job Scheduler-ஐ அமைத்தோம்.",
-    "synonyms": [
-      "cron daemon",
-      "task runner",
-      "batch orchestrator"
-    ],
-    "antonyms": [
-      "manual executor",
-      "interactive thread"
-    ]
-  },
-  {
-    "id": 2722,
-    "word": "Jank",
-    "pos": "noun",
-    "definition": "Visual stuttering, skipped frames, or sluggish UI responsiveness caused when rendering pipelines miss their 60 FPS (16ms) deadline.",
-    "taWord": "திரை நடுக்கம் / பிரேம் இழப்பு",
-    "enExample": "Moving heavy JSON parsing off the main UI thread eliminated scrolling jank completely.",
-    "taExample": "கடினமான தரவு செயலாக்கத்தை பிரதான இழையிலிருந்து (UI thread) மாற்றியதால் திரை நடுக்கம் (Jank) நீங்கியது.",
-    "synonyms": [
-      "frame drop",
-      "stutter",
-      "lag"
-    ],
-    "antonyms": [
-      "fluidity",
-      "60fps smoothness",
-      "butter-smooth"
-    ]
-  },
-  {
-    "id": 2723,
-    "word": "JSON Schema",
-    "pos": "noun",
-    "definition": "A vocabulary and format standard used to annotate and validate the structure, types, and constraints of JSON documents.",
-    "taWord": "ஜேசன் கட்டமைப்பு வரையறை",
-    "enExample": "All inbound webhook payloads are validated against a strict JSON Schema before entering the processing queue.",
-    "taExample": "அனைத்து உள்வரும் தரவுகளும் முன்கூட்டியே வரையறுக்கப்பட்ட JSON Schema விதிகளுக்கு உட்பட்டு சரிபார்க்கப்படுகின்றன.",
-    "synonyms": [
-      "contract specification",
-      "data shape validator",
-      "payload blueprint"
-    ],
-    "antonyms": [
-      "untyped payload",
-      "schemaless blob"
+      "Democratically elected government",
+      "Civilian rule"
     ]
   }
 ]
