@@ -261,6 +261,49 @@
     ]
   },
   {
+    "id": 3040,
+    "word": "Pellucid",
+    "pos": "adj.",
+    "definition": "Translucently clear in style, thought, or expression; easily understood.",
+    "enExample": "The author provided a pellucid explanation of how garbage collection works under the hood in Node.js.",
+    "taWord": "படிகம் போல் தெளிவான / எளிதில் புரிகிற",
+    "taExample": "நூலாசிரியர் கணினியின் நினைவக சுத்திகரிப்பு முறை எவ்வாறு இயங்குகிறது என்பதை படிகம் போல் தெளிவாக விளக்கினார்.",
+    "synonyms": [
+      "Transparent",
+      "Clear",
+      "Lucid",
+      "Limpid",
+      "Unambiguous"
+    ],
+    "antonyms": [
+      "Opaque",
+      "Muddled",
+      "Obscure",
+      "Confused"
+    ]
+  },
+  {
+    "id": 3041,
+    "word": "Penchant",
+    "pos": "noun",
+    "definition": "A strong, habitual liking or inclination toward something.",
+    "enExample": "Senior developers often have a penchant for simple, decoupled code over intricate abstractions.",
+    "taWord": "விருப்பம் / தனி ஈர்ப்பு",
+    "taExample": "மூத்த மென்பொருள் உருவாக்குநர்களுக்கு சிக்கலான அமைப்புகளை விட எளிமையான குறியீடுகள் மீதே தனி ஈர்ப்பு இருக்கும்.",
+    "synonyms": [
+      "Predilection",
+      "Proclivity",
+      "Inclination",
+      "Preference",
+      "Taste"
+    ],
+    "antonyms": [
+      "Aversion",
+      "Dislike",
+      "Antipathy"
+    ]
+  },
+  {
     "id": 44,
     "word": "Perceptive",
     "definition": "having or showing sensitive insight",
@@ -359,6 +402,28 @@
     ]
   },
   {
+    "id": 2987,
+    "word": "Perpetuate",
+    "pos": "verb",
+    "definition": "To cause an attitude, system, or situation to continue indefinitely; to preserve from extinction.",
+    "enExample": "Copying outdated stack traces without understanding root causes only perpetuates technical debt.",
+    "taWord": "தொடரச் செய்தல் / நிலைநிறுத்துதல்",
+    "taExample": "மூலக் காரணத்தை அறியாமல் பிழைகளை நகலெடுப்பது தொழில்நுட்பக் கடனைத் தொடர்ந்து நீடிக்கச் செய்யும்.",
+    "synonyms": [
+      "Continue",
+      "Maintain",
+      "Preserve",
+      "Sustain",
+      "Prolong"
+    ],
+    "antonyms": [
+      "Halt",
+      "Abolish",
+      "Discontinue",
+      "Stop"
+    ]
+  },
+  {
     "id": 32,
     "word": "Persist",
     "definition": "to continue to exist",
@@ -373,6 +438,27 @@
     "antonyms": [
       "Cease",
       "Stop"
+    ]
+  },
+  {
+    "id": 3017,
+    "word": "Perspicacious",
+    "pos": "adj.",
+    "definition": "Having keen mental perception, insight, and understanding; discerning and sharp-witted.",
+    "enExample": "The perspicacious code reviewer spotted a subtle race condition that others had overlooked.",
+    "taWord": "கூரிய நுண்மதி கொண்ட / தீர்க்கமான பார்வை உள்ள",
+    "taExample": "கூரிய நுண்மதி கொண்ட குறியீட்டு ஆய்வாளர் மற்றவர்கள் கவனிக்கத் தவறிய நுட்பமான பிழையைக் கண்டுபிடித்தார்.",
+    "synonyms": [
+      "Discerning",
+      "Insightful",
+      "Shrewd",
+      "Acutely aware",
+      "Astute"
+    ],
+    "antonyms": [
+      "Dull",
+      "Unperceptive",
+      "Ignorant"
     ]
   },
   {
@@ -647,6 +733,28 @@
     ]
   },
   {
+    "id": 2971,
+    "word": "Postulate",
+    "pos": "verb",
+    "definition": "To suggest, propose, or assume the truth, existence, or necessity of something as a foundational axiom for reasoning or debate.",
+    "enExample": "Distributed systems theorists postulate that achieving consistency, availability, and partition tolerance simultaneously is impossible.",
+    "taWord": "அடிப்படை கருதுகோளாக முன்வைத்தல்",
+    "taExample": "பரவலாக்கப்பட்ட கணினி கட்டமைப்பில் மூன்று முக்கிய நன்மைகளையும் ஒரே நேரத்தில் அடைவது சாத்தியமற்றது என்ற கருதுகோளை ஆய்வாளர்கள் முன்வைக்கின்றனர்.",
+    "synonyms": [
+      "Hypothesize",
+      "Propose",
+      "Posit",
+      "Premise",
+      "Assert"
+    ],
+    "antonyms": [
+      "Disprove",
+      "Refute",
+      "Deny",
+      "Reject"
+    ]
+  },
+  {
     "id": 43,
     "word": "Potent",
     "definition": "having great power, influence, or effect",
@@ -681,6 +789,26 @@
     ]
   },
   {
+    "id": 3053,
+    "word": "Pragmatism",
+    "pos": "noun",
+    "definition": "An approach to problems that evaluates theories or beliefs solely in terms of the success of their practical application.",
+    "enExample": "Engineering leadership displayed pragmatism by choosing a stable framework over shiny new experimental tech.",
+    "taWord": "செயல்முறைச் சாத்தியக்கூறு / நடைமுறைச் சாத்தியம்",
+    "taExample": "பொறியியல் தலைமை சோதனை கட்ட தொழில்நுட்பங்களை விட நிலையான அமைப்பைத் தேர்ந்தெடுத்து நடைமுறைச் சாத்தியத்தை வெளிப்படுத்தியது.",
+    "synonyms": [
+      "Practicality",
+      "Realism",
+      "Utility",
+      "Common sense"
+    ],
+    "antonyms": [
+      "Idealism",
+      "Impracticality",
+      "Theoreticalism"
+    ]
+  },
+  {
     "id": 4,
     "word": "Precedent",
     "definition": "an earlier event used as a guide",
@@ -691,6 +819,28 @@
     "synonyms": [
       "Example",
       "Standard"
+    ]
+  },
+  {
+    "id": 3008,
+    "word": "Precipitate",
+    "pos": "verb",
+    "definition": "To cause an event or situation (typically undesirable) to happen suddenly, unexpectedly, or prematurely.",
+    "enExample": "A misconfigured deployment script precipitated a temporary region-wide cloud outage.",
+    "taWord": "திடீரென நிகழச்செய்தல் / விரைவுபடுத்துதல்",
+    "taExample": "தவறாக அமைக்கப்பட்ட வெளியீட்டு நிரல் திடீரென பிராந்திய சேவை முடக்கத்தை ஏற்படுத்தியது.",
+    "synonyms": [
+      "Trigger",
+      "Cause",
+      "Instigate",
+      "Accelerate",
+      "Hasten"
+    ],
+    "antonyms": [
+      "Prevent",
+      "Delay",
+      "Halt",
+      "Block"
     ]
   },
   {
@@ -781,6 +931,27 @@
     ]
   },
   {
+    "id": 3003,
+    "word": "Preponderance",
+    "pos": "noun",
+    "definition": "The quality or state of being greater in number, quantity, power, or importance; predominance.",
+    "enExample": "The preponderance of evidence suggested that the memory crash was caused by unhandled exceptions.",
+    "taWord": "பெரும்பான்மை / மேலாதிக்கம்",
+    "taExample": "பெரும்பான்மையான ஆதாரங்கள் மென்பொருள் செயலிழப்பிற்கு தவறான விதிவிலக்குகளே காரணம் எனக் காட்டின.",
+    "synonyms": [
+      "Predominance",
+      "Majority",
+      "Prevalence",
+      "Dominance",
+      "Mass"
+    ],
+    "antonyms": [
+      "Minority",
+      "Scarcity",
+      "Inferiority"
+    ]
+  },
+  {
     "id": 14,
     "word": "Prerequisite",
     "definition": "something required beforehand",
@@ -829,6 +1000,28 @@
     "antonyms": [
       "Humble",
       "Modest"
+    ]
+  },
+  {
+    "id": 2967,
+    "word": "Presuppose",
+    "pos": "verb",
+    "definition": "To tacitly require or assume as an essential antecedent condition for an action, argument, or system state to hold true.",
+    "enExample": "Zero-trust network architecture presupposes that every incoming network packet is potentially untrusted and hostile.",
+    "taWord": "முன்நிபந்தனையாகக் கொள்ளுதல் / முன்கூட்டியே யூகித்து ஏற்றுக்கொள்வது",
+    "taExample": "ஜீரோ-டிரஸ்ட் நெட்வொர்க் முறையானது அனைத்து உள்வரும் சிக்னல்களும் பாதுகாப்பற்றவையாக இருக்கலாம் என்பதை முன்நிபந்தனையாகக் கொள்கிறது.",
+    "synonyms": [
+      "Assume",
+      "Presume",
+      "Premise",
+      "Require",
+      "Postulate"
+    ],
+    "antonyms": [
+      "Doubt",
+      "Disregard",
+      "Prove",
+      "Reject"
     ]
   },
   {
@@ -918,6 +1111,27 @@
     ]
   },
   {
+    "id": 2989,
+    "word": "Prognosticate",
+    "pos": "verb",
+    "definition": "To forecast, predict, or prophesy future events based on current indicators and statistical patterns.",
+    "enExample": "Machine learning models analyze historical telemetry to prognosticate hardware component failure times.",
+    "taWord": "முன்கூட்டியே கணித்தல் / எதிர்காலத்தைக் கூறுதல்",
+    "taExample": "இயந்திர கற்றல் மாதிரிகள் முந்தைய தரவுகளைக் கொண்டு வன்பொருள் கோளாறுகளை முன்கூட்டியே கணிக்கின்றன.",
+    "synonyms": [
+      "Forecast",
+      "Predict",
+      "Foretell",
+      "Presage",
+      "Project"
+    ],
+    "antonyms": [
+      "Recount",
+      "Remember",
+      "Retrospect"
+    ]
+  },
+  {
     "id": 18,
     "word": "Prohibitive",
     "definition": "too costly or restrictive to allow",
@@ -991,6 +1205,27 @@
     ]
   },
   {
+    "id": 3015,
+    "word": "Prominent",
+    "pos": "adj.",
+    "definition": "Standing out so as to be seen easily; particularly noticeable, important, or famous.",
+    "enExample": "The primary call-to-action button was given a prominent position in the user interface layout.",
+    "taWord": "முக்கியமான / பளிச்சென்ற இடத்திலுள்ள",
+    "taExample": "முதன்மை முகப்பு பொத்தான் பயனர்களின் பார்வையில் எளிதாக படும்படி முக்கிய இடத்தில் வைக்கப்பட்டது.",
+    "synonyms": [
+      "Noticeable",
+      "Conspicuous",
+      "Salient",
+      "Eminent",
+      "Leading"
+    ],
+    "antonyms": [
+      "Inconspicuous",
+      "Obscure",
+      "Hidden"
+    ]
+  },
+  {
     "id": 2807,
     "word": "Prompt Injection",
     "pos": "noun",
@@ -1008,6 +1243,28 @@
     ]
   },
   {
+    "id": 2983,
+    "word": "Promulgate",
+    "pos": "verb",
+    "definition": "To formally proclaim, announce, or promote an official policy, standard, or law to a wide audience.",
+    "enExample": "The security taskforce promulgated new mandatory OAuth authentication rules across all engineering teams.",
+    "taWord": "அதிகாரப்பூர்வமாக அறிவித்தல் / பரப்புதல்",
+    "taExample": "பாதுகாப்புக் குழு புதிய கட்டாய அங்கீகார விதிகளை அனைத்து பொறியியல் குழுக்களுக்கும் அதிகாரப்பூர்வமாக அறிவித்தது.",
+    "synonyms": [
+      "Proclaim",
+      "Announce",
+      "Broadcast",
+      "Publish",
+      "Promote"
+    ],
+    "antonyms": [
+      "Suppress",
+      "Conceal",
+      "Withhold",
+      "Repress"
+    ]
+  },
+  {
     "id": 15,
     "word": "Propagate",
     "definition": "to spread or transmit",
@@ -1022,6 +1279,27 @@
     "antonyms": [
       "Halt",
       "Contain"
+    ]
+  },
+  {
+    "id": 3055,
+    "word": "Propensity",
+    "pos": "noun",
+    "definition": "An innate inclination or natural tendency to behave in a particular way or prefer a specific outcome.",
+    "enExample": "Unchecked codebases have a propensity to accumulate technical debt if continuous refactoring is omitted.",
+    "taWord": "இயல்பான சாய்வு / பிறவிப் போக்கு",
+    "taExample": "தொடர் பராமரிப்பு இல்லாத மென்பொருள் குறியீடுகள் பிழைகளைச் சேர்க்கும் இயல்பான போக்கினைக் கொண்டுள்ளன.",
+    "synonyms": [
+      "Tendency",
+      "Inclination",
+      "Proclivity",
+      "Penchant",
+      "Predisposition"
+    ],
+    "antonyms": [
+      "Inaptitude",
+      "Disinclination",
+      "Aversion"
     ]
   },
   {

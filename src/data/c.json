@@ -52,6 +52,28 @@
     ]
   },
   {
+    "id": 3056,
+    "word": "Candor",
+    "pos": "noun",
+    "definition": "The quality of being open, honest, and sincere in speech or expression.",
+    "enExample": "The team appreciated the lead architect's candor regarding the technical challenges of the rewrite.",
+    "taWord": "நேர்மையான வெளிப்படைத்தன்மை / ஒளிவு மறைவின்மை",
+    "taExample": "தொழில்நுட்ப சவால்கள் குறித்த தலைமைப் பொறியாளரின் நேர்மையான வெளிப்படைத்தன்மையை குழு பாராட்டியது.",
+    "synonyms": [
+      "Frankness",
+      "Openness",
+      "Honesty",
+      "Sincerity",
+      "Directness"
+    ],
+    "antonyms": [
+      "Deceit",
+      "Disingenuousness",
+      "Evasiveness",
+      "Guile"
+    ]
+  },
+  {
     "id": 301,
     "word": "Canonical",
     "definition": "According to recognized rules or scientific laws; the standard version.",
@@ -79,6 +101,28 @@
     "synonyms": [
       "Volume",
       "Capability"
+    ]
+  },
+  {
+    "id": 2985,
+    "word": "Capitulate",
+    "pos": "verb",
+    "definition": "To surrender, yield, or give up resistance under agreed conditions or overwhelmed pressure.",
+    "enExample": "After hours of failing legacy support, the product manager capitulated to replacing the outdated SOAP service.",
+    "taWord": "பணியுதல் / சரணடைதல்",
+    "taExample": "பழைய அமைப்பை பராமரிக்க முடியாத சூழலில், புதிய தொழில்நுட்பத்திற்கு மாற தயாரிப்பு மேலாளர் சம்மதித்து பணிந்தார்.",
+    "synonyms": [
+      "Surrender",
+      "Yield",
+      "Succumb",
+      "Concede",
+      "Relinquish"
+    ],
+    "antonyms": [
+      "Resist",
+      "Conquer",
+      "Persist",
+      "Withstand"
     ]
   },
   {
@@ -131,6 +175,27 @@
     "antonyms": [
       "Praise",
       "Commend"
+    ]
+  },
+  {
+    "id": 3004,
+    "word": "Catalyst",
+    "pos": "noun",
+    "definition": "A person, event, or factor that precipitates or accelerates a significant change or action.",
+    "enExample": "The security breach served as a catalyst for modernizing the enterprise zero-trust infrastructure.",
+    "taWord": "வினையூக்கி / மாற்றத்தைத் தூண்டும் காரணி",
+    "taExample": "பாதுகாப்பு மீறல் நிகழ்வு நிறுவனத்தின் பாதுகாப்பு முறைகளை நவீனமயமாக்க ஒரு முக்கிய வினையூக்கியாக அமைந்தது.",
+    "synonyms": [
+      "Spark",
+      "Stimulus",
+      "Incentive",
+      "Impulse",
+      "Trigger"
+    ],
+    "antonyms": [
+      "Deterrent",
+      "Block",
+      "Hindrance"
     ]
   },
   {
@@ -261,6 +326,28 @@
     ]
   },
   {
+    "id": 3031,
+    "word": "Circumspect",
+    "pos": "adj.",
+    "definition": "Wary, cautious, and unwilling to take unnecessary risks; carefully taking all circumstances into account.",
+    "enExample": "Senior DevOps engineers take a circumspect approach when modifying core production routing tables during business hours.",
+    "taWord": "எச்சரிக்கையான / சூழ்நிலை அறிந்து செயல்படும்",
+    "taExample": "அலுவலக நேரங்களில் முக்கியமான நெட்வொர்க் அமைப்புகளை மாற்றும்போது பொறியாளர்கள் மிகுந்த எச்சரிக்கையுடன் செயல்படுகின்றனர்.",
+    "synonyms": [
+      "Cautious",
+      "Prudent",
+      "Guarded",
+      "Vigilant",
+      "Chary"
+    ],
+    "antonyms": [
+      "Reckless",
+      "Careless",
+      "Rash",
+      "Foolhardy"
+    ]
+  },
+  {
     "id": 337,
     "word": "Circumstance",
     "definition": "A fact or condition connected with or relevant to an event or action.",
@@ -271,6 +358,27 @@
     "synonyms": [
       "Situation",
       "Condition"
+    ]
+  },
+  {
+    "id": 3013,
+    "word": "Circumvent",
+    "pos": "verb",
+    "definition": "To find a way around an obstacle, restriction, or rule, often cleverly or surreptitiously.",
+    "enExample": "Developers created a local mock server to circumvent slow staging network latency.",
+    "taWord": "சூழ்ச்சியால் / திறமையால் கடந்து செல்லுதல்",
+    "taExample": "மென்பொருள் உருவாக்குநர்கள் மெதுவான நெட்வொர்க் தொடர்பைத் தவிர்க்க உள்ளூர் போலி சேவையகத்தை உருவாக்கினர்.",
+    "synonyms": [
+      "Bypass",
+      "Evade",
+      "Avoid",
+      "Sidestep",
+      "Outwit"
+    ],
+    "antonyms": [
+      "Confront",
+      "Comply",
+      "Face"
     ]
   },
   {
@@ -339,6 +447,28 @@
     ]
   },
   {
+    "id": 3007,
+    "word": "Coalesce",
+    "pos": "verb",
+    "definition": "To come together, combine, or fuse into a single mass, whole, or unified system.",
+    "enExample": "Several independent open-source projects coalesced to create a powerful standard container ecosystem.",
+    "taWord": "ஒன்றாகக் கூடுதல் / இணைந்து ஒன்றாதல்",
+    "taExample": "பல சுயாதீன திறந்த மூல திட்டங்கள் இணைந்து ஒரு வலிமையான மென்பொருள் அமைப்பை உருவாக்கின.",
+    "synonyms": [
+      "Merge",
+      "Unite",
+      "Fuse",
+      "Consolidate",
+      "Combine"
+    ],
+    "antonyms": [
+      "Separate",
+      "Divide",
+      "Disperse",
+      "Split"
+    ]
+  },
+  {
     "id": 2710,
     "word": "Code coverage",
     "definition": "A software metric measuring the percentage of source code executed while running an automated test suite.",
@@ -396,6 +526,28 @@
     ]
   },
   {
+    "id": 3029,
+    "word": "Cogent",
+    "pos": "adj.",
+    "definition": "Clear, logical, convincing, and forcibly persuasive to the intellect.",
+    "enExample": "The principal architect presented a cogent argument for adopting event-driven architecture to eliminate backend bottlenecks.",
+    "taWord": "தர்க்கரீதியாக ஒப்புக்கொள்ளக்கூடிய / ஏற்றுக்கொள்ளக்கூடிய நியாயமான",
+    "taExample": "முதன்மை பொறியாளர் சேவைகளின் வேகத்தை அதிகரிக்க தர்க்கரீதியாக ஒப்புக்கொள்ளக்கூடிய தெளிவான வாதங்களை முன்வைத்தார்.",
+    "synonyms": [
+      "Persuasive",
+      "Compelling",
+      "Convincing",
+      "Lucid",
+      "Sound"
+    ],
+    "antonyms": [
+      "Unconvincing",
+      "Weak",
+      "Incoherent",
+      "Illogical"
+    ]
+  },
+  {
     "id": 317,
     "word": "Cognitive",
     "definition": "Relating to cognition; mental processes.",
@@ -409,6 +561,27 @@
     ],
     "antonyms": [
       "Physical"
+    ]
+  },
+  {
+    "id": 3037,
+    "word": "Cognizant",
+    "pos": "adj.",
+    "definition": "Having knowledge, awareness, or mindfulness of something.",
+    "enExample": "Software developers must remain cognizant of memory footprints when building applications for mobile environments.",
+    "taWord": "அறிந்திருத்தல் / விழிப்புணர்வுடன் இருத்தல்",
+    "taExample": "மொபைல் செயலிகளை உருவாக்கும் போது கணினி நினைவக பயன்பாட்டை மென்பொருள் உருவாக்குநர்கள் நன்கு அறிந்திருக்க வேண்டும்.",
+    "synonyms": [
+      "Aware",
+      "Mindful",
+      "Conscious",
+      "Apprised",
+      "Informed"
+    ],
+    "antonyms": [
+      "Unaware",
+      "Oblivious",
+      "Ignorant"
     ]
   },
   {
@@ -481,6 +654,27 @@
       "Scatter",
       "Disorganize",
       "Divide"
+    ]
+  },
+  {
+    "id": 2996,
+    "word": "Commensurate",
+    "pos": "adj.",
+    "definition": "Corresponding in size, degree, extent, or proportion; equal or adequate in measure.",
+    "enExample": "The infrastructure budget was increased commensurate with the rapid growth in active platform users.",
+    "taWord": "சமமான / பொருத்தமான அளவில் உள்ள",
+    "taExample": "பயனர்களின் எண்ணிக்கைக்கு ஏற்ற பொருத்தமான அளவில் உள்கட்டமைப்பு செலவினங்கள் அதிகரிக்கப்பட்டன.",
+    "synonyms": [
+      "Proportional",
+      "Corresponding",
+      "Equivalent",
+      "Comparable",
+      "Matching"
+    ],
+    "antonyms": [
+      "Disproportionate",
+      "Inadequate",
+      "Unequal"
     ]
   },
   {
@@ -623,6 +817,27 @@
     ]
   },
   {
+    "id": 3002,
+    "word": "Concomitant",
+    "pos": "adj.",
+    "definition": "Naturally accompanying or associated with something else; happening alongside.",
+    "enExample": "Rapid user acquisition brought a concomitant increase in customer support tickets.",
+    "taWord": "உடனடியாக ஏற்படும் / உடன் நிகழும்",
+    "taExample": "பயனர்களின் எண்ணிக்கை விரைவாக உயர்ந்ததன் உடன் விளைவாக உதவி சேவை கோரிக்கைகளும் அதிகரித்தன.",
+    "synonyms": [
+      "Accompanying",
+      "Attendant",
+      "Concurrent",
+      "Associated",
+      "Related"
+    ],
+    "antonyms": [
+      "Unrelated",
+      "Independent",
+      "Separate"
+    ]
+  },
+  {
     "id": 302,
     "word": "Concurrently",
     "definition": "At the same time; simultaneously.",
@@ -653,6 +868,49 @@
     ],
     "antonyms": [
       "Dismantle"
+    ]
+  },
+  {
+    "id": 2968,
+    "word": "Connote",
+    "pos": "verb",
+    "definition": "To imply, suggest, or evoke a cultural, emotional, or secondary association in addition to a word or term's explicit literal meaning.",
+    "enExample": "In modern API design, the prefix 'deprecated' connotes that a function is scheduled for complete removal in the next major version.",
+    "taWord": "கூடுதல் பொருளை உணர்த்துதல் / உட்கருத்தை வெளிப்படுத்துதல்",
+    "taExample": "மென்பொருள் வடிவமைப்பில் 'டிப்ரிகேட்டட்' என்ற சொல் அடுத்த பதிப்பில் அந்த செயல்முறை முற்றிலும் நீக்கப்படும் என்ற உட்கருத்தை உணர்த்துகிறது.",
+    "synonyms": [
+      "Suggest",
+      "Imply",
+      "Signify",
+      "Hint",
+      "Intimate"
+    ],
+    "antonyms": [
+      "Denote",
+      "State explicitly",
+      "Define literally"
+    ]
+  },
+  {
+    "id": 2977,
+    "word": "Consequential",
+    "pos": "adj.",
+    "definition": "Following as a direct, significant logical result or effect; having enormous weight, gravity, or long-term consequence.",
+    "enExample": "The executive team made a highly consequential decision to open-source their core machine learning framework.",
+    "taWord": "முக்கிய தாக்கத்தை ஏற்படுத்தும் / விளைவாக உருவாகும்",
+    "taExample": "தங்களது முக்கிய செயற்கை நுண்ணறிவு கட்டமைப்பை இலவசமாக பொதுவெளியில் வெளியிடுவது என்ற மிக முக்கியமான முடிவை நிர்வாகம் எடுத்தது.",
+    "synonyms": [
+      "Momentous",
+      "Significant",
+      "Impactful",
+      "Resultant",
+      "Crucial"
+    ],
+    "antonyms": [
+      "Inconsequential",
+      "Trivial",
+      "Insignificant",
+      "Negligible"
     ]
   },
   {
@@ -721,6 +979,28 @@
     "antonyms": [
       "Freedom",
       "Liberty"
+    ]
+  },
+  {
+    "id": 2972,
+    "word": "Construe",
+    "pos": "verb",
+    "definition": "To interpret, translate, or understand the meaning, intent, or significance of a statement, code block, or regulatory mandate.",
+    "enExample": "Strict GDPR privacy compliance requires that ambiguity in data consent prompts cannot be construed as affirmative consent.",
+    "taWord": "விளக்கம் கொடுத்தல் / குறிப்பிட்ட வகையில் புரிந்துகொள்ளுதல்",
+    "taExample": "கடுமையான தனியுரிமை விதிகளின்படி, தெளிவற்ற அனுமதிக் கோரிக்கைகளை பயனர் ஒப்புதல் அளித்ததாக தவறாக புரிந்து கொள்ளக் கூடாது.",
+    "synonyms": [
+      "Interpret",
+      "Understand",
+      "Decode",
+      "Analyze",
+      "Decipher"
+    ],
+    "antonyms": [
+      "Misconstrue",
+      "Misunderstand",
+      "Confuse",
+      "Obscure"
     ]
   },
   {
@@ -963,6 +1243,48 @@
     ]
   },
   {
+    "id": 3051,
+    "word": "Cornerstone",
+    "pos": "noun",
+    "definition": "An indispensable, fundamental quality, feature, or premise on which something relies.",
+    "enExample": "Clean code documentation is the cornerstone of effective team collaboration in large engineering orgs.",
+    "taWord": "மூலக்கல்லான அடிப்படை / அஸ்திவாரம்",
+    "taExample": "தெளிவான மென்பொருள் குறிப்பேடுகளைப் பராமரிப்பதே குழுவின் சிறந்த செயல்பாட்டிற்கு மூலக்கல்லான அடிப்படையாகும்.",
+    "synonyms": [
+      "Foundation",
+      "Keystone",
+      "Basis",
+      "Pillar",
+      "Bedrock"
+    ],
+    "antonyms": [
+      "Trimmings",
+      "Peripheral"
+    ]
+  },
+  {
+    "id": 2969,
+    "word": "Corollary",
+    "pos": "noun",
+    "definition": "A direct, natural proposition, practical consequence, or logical deduction that immediately follows from an already established premise.",
+    "enExample": "A natural corollary of adopting automated continuous deployment is the critical need for comprehensive rollback pipelines.",
+    "taWord": "இயற்கையான துணை விளைவு / நேரடி துணை முடிவு",
+    "taExample": "தானியங்கி மென்பொருள் வெளியீட்டு முறையை ஏற்றுக்கொள்வதன் இயற்கையான துணை முடிவு, உடனடியாக பழைய நிலைக்கு திரும்பும் அமைப்பை உருவாக்குவதாகும்.",
+    "synonyms": [
+      "Consequence",
+      "Aftereffect",
+      "Result",
+      "Deduction",
+      "Sequel"
+    ],
+    "antonyms": [
+      "Origin",
+      "Cause",
+      "Premise",
+      "Precondition"
+    ]
+  },
+  {
     "id": 306,
     "word": "Correlate",
     "definition": "Have a mutual relationship or connection.",
@@ -977,6 +1299,28 @@
     "antonyms": [
       "Disconnect",
       "Separate"
+    ]
+  },
+  {
+    "id": 2965,
+    "word": "Corroborate",
+    "pos": "verb",
+    "definition": "To confirm, support, or authenticate a statement, theory, or empirical finding with additional validating evidence.",
+    "enExample": "Independent client telemetry was collected to corroborate the backend monitoring graphs showing reduced latency.",
+    "taWord": "ஆதாரங்களுடன் உறுதிப்படுத்துதல் / மெய்ப்பித்தல்",
+    "taExample": "பின்னணி சேவைகளின் வேகம் அதிகரித்ததை மெய்ப்பிக்க, பயனர்களின் நேரடி பயன்பாட்டு தரவுகள் சேகரிக்கப்பட்டு உறுதிப்படுத்தப்பட்டன.",
+    "synonyms": [
+      "Confirm",
+      "Verify",
+      "Validate",
+      "Substantiate",
+      "Authenticate"
+    ],
+    "antonyms": [
+      "Contradict",
+      "Refute",
+      "Disprove",
+      "Undermine"
     ]
   },
   {

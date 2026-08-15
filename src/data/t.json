@@ -86,6 +86,28 @@
     ]
   },
   {
+    "id": 2993,
+    "word": "Tangential",
+    "pos": "adj.",
+    "definition": "Diverging from a central topic, core requirement, or main line of thought; peripheral or barely relevant.",
+    "enExample": "During the sprint planning call, the team set aside tangential feature requests to focus on security.",
+    "taWord": "தொடர்பற்ற / விலகிச் செல்லும்",
+    "taExample": "திட்டமிடுதல் கூட்டத்தின் போது, முதன்மை விஷயங்களில் கவனம் செலுத்த தொடர்பற்ற கோரிக்கைகளை ஒதுக்கி வைத்தனர்.",
+    "synonyms": [
+      "Peripheral",
+      "Divergent",
+      "Extraneous",
+      "Secondary",
+      "Incidental"
+    ],
+    "antonyms": [
+      "Central",
+      "Relevant",
+      "Crucial",
+      "Germane"
+    ]
+  },
+  {
     "id": 2924,
     "word": "Tariffs",
     "pos": "noun",
@@ -414,6 +436,27 @@
       "ACID block",
       "Operation unit",
       "Exchange"
+    ]
+  },
+  {
+    "id": 3009,
+    "word": "Transcend",
+    "pos": "verb",
+    "definition": "To rise above, go beyond, or surpass normal limits, boundaries, or expectations.",
+    "enExample": "Next-generation quantum algorithms aim to transcend traditional silicon computing constraints.",
+    "taWord": "எல்லைகளைக் கடந்து செல்லுதல் / விஞ்சுதல்",
+    "taExample": "அடுத்த தலைமுறை கணினி வழிமுறைகள் பாரம்பரிய கணினிகளின் எல்லைகளைக் கடந்து செயல்பட முயல்கின்றன.",
+    "synonyms": [
+      "Surpass",
+      "Exceed",
+      "Outstrip",
+      "Overcome",
+      "Eclipse"
+    ],
+    "antonyms": [
+      "Fail",
+      "Fall short",
+      "Surrender"
     ]
   },
   {

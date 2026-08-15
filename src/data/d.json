@@ -128,6 +128,28 @@
     ]
   },
   {
+    "id": 2964,
+    "word": "Deduce",
+    "pos": "verb",
+    "definition": "To arrive at a specific fact or conclusion by reasoning logically from general principles, known equations, or established evidence.",
+    "enExample": "From the memory dump analysis, the senior reliability engineer was able to deduce the exact null-pointer dereference.",
+    "taWord": "தர்க்கரீதியாக உய்த்துணர்தல் / பகுத்தறிந்து முடிவெடுத்தல்",
+    "taExample": "நினைவக ஆய்வு அறிக்கையிலிருந்து, மென்பொருள் செயலிழந்ததற்கான துல்லியமான காரணத்தை பொறியாளர் தர்க்கரீதியாக உய்த்துணர்ந்தார்.",
+    "synonyms": [
+      "Infer",
+      "Derive",
+      "Reason",
+      "Conclude",
+      "Formulate"
+    ],
+    "antonyms": [
+      "Induce",
+      "Misjudge",
+      "Speculate",
+      "Disregard"
+    ]
+  },
+  {
     "id": 2649,
     "word": "Deep dive",
     "definition": "An in-depth, comprehensive analysis, exploration, or review of a complex topic.",
@@ -301,6 +323,28 @@
     "antonyms": [
       "Accidental",
       "Unintentional"
+    ]
+  },
+  {
+    "id": 2981,
+    "word": "Delineate",
+    "pos": "verb",
+    "definition": "To describe, portray, or outline the precise boundaries, scope, or features of something with clarity.",
+    "enExample": "The API specification clearly delineates the required request headers and optional payload properties.",
+    "taWord": "வரையறுத்தல் / தெளிவான எல்லையிடுதல்",
+    "taExample": "தரவு பரிமாற்ற விவரக்குறிப்பு கோரிக்கை தேவைகளையும் விருப்பத் தேர்வுகளையும் தெளிவாக வரையறுக்கிறது.",
+    "synonyms": [
+      "Outline",
+      "Define",
+      "Depict",
+      "Demarcate",
+      "Detail"
+    ],
+    "antonyms": [
+      "Obscure",
+      "Blur",
+      "Distort",
+      "Confuse"
     ]
   },
   {
@@ -737,6 +781,28 @@
     ]
   },
   {
+    "id": 2980,
+    "word": "Disparate",
+    "pos": "adj.",
+    "definition": "Essentially different in kind, composition, or quality; impossible or difficult to compare.",
+    "enExample": "The data integration engine ingests logs from disparate microservices and unifies them into a single stream.",
+    "taWord": "வெவ்வேறு வகையான / வேறுபட்ட",
+    "taExample": "தரவு இணைப்பு பொறிமுறையானது வெவ்வேறு வகையான அமைப்புகளிலிருந்து வரும் பதிவுகளை ஒன்றுதிரட்டி ஒரே ஓட்டமாக மாற்றுகிறது.",
+    "synonyms": [
+      "Diverse",
+      "Heterogeneous",
+      "Distinct",
+      "Divergent",
+      "Dissimilar"
+    ],
+    "antonyms": [
+      "Similar",
+      "Homogeneous",
+      "Identical",
+      "Uniform"
+    ]
+  },
+  {
     "id": 2853,
     "word": "Disparity",
     "pos": "noun",
@@ -755,6 +821,28 @@
       "Equality",
       "Uniformity",
       "Equivalence"
+    ]
+  },
+  {
+    "id": 3024,
+    "word": "Dispassionate",
+    "pos": "adj.",
+    "definition": "Free from emotional bias or personal involvement; objective, rational, and impartial.",
+    "enExample": "Incident post-mortems require a dispassionate review of timeline events to identify system weaknesses.",
+    "taWord": "பக்கச்சார்பற்ற / உணர்ச்சியற்ற நடுநிலை",
+    "taExample": "செயலிழப்பு ஆய்வுகள் கணினியின் பலவீனங்களைக் கண்டறிய நடுநிலையான மற்றும் பக்கச்சார்பற்ற மதிப்பீட்டைக் கோருகின்றன.",
+    "synonyms": [
+      "Objective",
+      "Impartial",
+      "Unbiased",
+      "Neutral",
+      "Rational"
+    ],
+    "antonyms": [
+      "Biased",
+      "Emotional",
+      "Partial",
+      "Prejudiced"
     ]
   },
   {
@@ -830,6 +918,28 @@
     "antonyms": [
       "Calming",
       "Settling"
+    ]
+  },
+  {
+    "id": 2988,
+    "word": "Disseminate",
+    "pos": "verb",
+    "definition": "To spread, scatter, or circulate information, knowledge, or news widely among people or systems.",
+    "enExample": "Event-driven architecture relies on message brokers to disseminate updates instantly to subscriber services.",
+    "taWord": "பரப்புதல் / பகிர்ந்தளித்தல்",
+    "taExample": "நிகழ்வு அடிப்படையிலான அமைப்பு புதிய செய்திகளை இணைக்கப்பட்ட சேவைகளுக்கு உடனுக்குடன் பகிர்ந்தளிக்கிறது.",
+    "synonyms": [
+      "Broadcast",
+      "Distribute",
+      "Spread",
+      "Circulate",
+      "Disperse"
+    ],
+    "antonyms": [
+      "Gather",
+      "Suppress",
+      "Collect",
+      "Withhold"
     ]
   },
   {

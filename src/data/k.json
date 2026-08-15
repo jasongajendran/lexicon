@@ -194,6 +194,26 @@
     ]
   },
   {
+    "id": 3044,
+    "word": "Keystone",
+    "pos": "noun",
+    "definition": "The central supporting element or principle on which an entire structure or system depends.",
+    "enExample": "Data encryption at rest is the keystone of our enterprise security policy.",
+    "taWord": "முக்கிய ஆதாரத் தூண் / அடிப்படையான உறுதியான கல்",
+    "taExample": "தரவுகளை குறியாக்க முறையில் பாதுகாப்பதே நமது நிறுவனத்தின் பாதுகாப்பு கொள்கைக்கு முக்கிய ஆதாரத் தூணாகும்.",
+    "synonyms": [
+      "Cornerstone",
+      "Linchpin",
+      "Foundation",
+      "Basis",
+      "Anchor"
+    ],
+    "antonyms": [
+      "Periphery",
+      "Extra"
+    ]
+  },
+  {
     "id": 1105,
     "word": "Keystroke",
     "definition": "A single depression of a key on a computer keyboard.",

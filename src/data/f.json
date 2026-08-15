@@ -234,6 +234,27 @@
     ]
   },
   {
+    "id": 3019,
+    "word": "Fidelity",
+    "pos": "noun",
+    "definition": "Strict adherence to facts, detail, or original accuracy; faithfulness and precision in representation.",
+    "enExample": "High-fidelity wireframes give stakeholders an exact preview of the final product UI.",
+    "taWord": "துல்லியம் / உண்மையோடிருத்தல்",
+    "taExample": "உயர் துல்லியமான வரைபடங்கள் இறுதி தயாரிப்பு எவ்வாறு இருக்கும் என்பதை துல்லியமாக காட்டுகின்றன.",
+    "synonyms": [
+      "Accuracy",
+      "Precision",
+      "Exactness",
+      "Faithfulness",
+      "Truthfulness"
+    ],
+    "antonyms": [
+      "Inaccuracy",
+      "Infidelity",
+      "Falsehood"
+    ]
+  },
+  {
     "id": 608,
     "word": "Filter",
     "definition": "Process or assess items in order to reject those that are unwanted.",
@@ -266,6 +287,28 @@
     "antonyms": [
       "Pre-training from scratch",
       "Zero-shot inference"
+    ]
+  },
+  {
+    "id": 2978,
+    "word": "Finesse",
+    "pos": "verb",
+    "definition": "To handle, maneuver, or accomplish a delicate situation with subtle skill, elegance, and refined expertise.",
+    "enExample": "The principal architect was able to finesse the legacy database migration without triggering any system downtime.",
+    "taWord": "நுட்பமாக கையாளுதல் / திறம்பட கையாளுதல்",
+    "taExample": "பிரதான வடிவமைப்பாளர் கணினி சேவைகள் எதுவும் முടങ്ങாமல் பழைய தரவுத்தள மாற்றத்தை திறம்பட கையாண்டார்.",
+    "synonyms": [
+      "Maneuver",
+      "Tact",
+      "Diplomacy",
+      "Skill",
+      "Subtlety"
+    ],
+    "antonyms": [
+      "Clumsiness",
+      "Bluntness",
+      "Incompetence",
+      "Awkwardness"
     ]
   },
   {
@@ -515,6 +558,28 @@
     "antonyms": [
       "Destroy",
       "Ruined"
+    ]
+  },
+  {
+    "id": 3026,
+    "word": "Fortuitous",
+    "pos": "adj.",
+    "definition": "Happening by chance or accident rather than design, often resulting in a fortunate or beneficial outcome.",
+    "enExample": "A fortuitous discovery during load testing revealed an unindexed table before product launch.",
+    "taWord": "தற்செயலான நல்வாய்ப்பு",
+    "taExample": "தயாரிப்பு வெளியீட்டிற்கு முன் தற்செயலாக நடத்தப்பட்ட பரிசோதனை அட்டவணைப் பிழையைக் கண்டுபிடிக்க உதவியது.",
+    "synonyms": [
+      "Accidental",
+      "Chance",
+      "Lucky",
+      "Serendipitous",
+      "Unexpected"
+    ],
+    "antonyms": [
+      "Intentional",
+      "Deliberate",
+      "Planned",
+      "Calculated"
     ]
   },
   {

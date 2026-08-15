@@ -383,6 +383,28 @@
     ]
   },
   {
+    "id": 2991,
+    "word": "Meticulous",
+    "pos": "adj.",
+    "definition": "Showing extreme care, thoroughness, and precise attention to tiny details.",
+    "enExample": "The database administrator performed meticulous checks before executing the production migration script.",
+    "taWord": "மிகவும் கவனமான / துல்லியமான",
+    "taExample": "தரவுத்தள நிர்வாகி முக்கிய மாற்றங்களைச் செய்யும் முன் மிகக் கவனமான ஆய்வுகளை மேற்கொண்டார்.",
+    "synonyms": [
+      "Precise",
+      "Thorough",
+      "Scrupulous",
+      "Painstaking",
+      "Fastidious"
+    ],
+    "antonyms": [
+      "Careless",
+      "Sloppy",
+      "Negligent",
+      "Inaccurate"
+    ]
+  },
+  {
     "id": 2696,
     "word": "Microservices",
     "definition": "An architectural style that structures an application as a collection of small, independently deployable services.",

@@ -175,6 +175,48 @@
     ]
   },
   {
+    "id": 3036,
+    "word": "Veracity",
+    "pos": "noun",
+    "definition": "Conformity to facts; accuracy, truthfulness, and absolute reliability.",
+    "enExample": "Automated test suites verify the veracity of financial calculations across edge case scenarios.",
+    "taWord": "உண்மைத் தன்மை / துல்லியம்",
+    "taExample": "தானியங்கி சோதனை முறைகள் நிதி கணக்கீடுகளின் உண்மைத் தன்மையை அனைத்து சூழல்களிலும் சரிபார்க்கின்றன.",
+    "synonyms": [
+      "Truthfulness",
+      "Accuracy",
+      "Correctness",
+      "Fidelity",
+      "Authenticity"
+    ],
+    "antonyms": [
+      "Falsehood",
+      "Inaccuracy",
+      "Deceit",
+      "Dishonesty"
+    ]
+  },
+  {
+    "id": 3052,
+    "word": "Verifiable",
+    "pos": "adj.",
+    "definition": "Able to be tested, confirmed, or demonstrated to be accurate and truthful through evidence.",
+    "enExample": "Blockchain protocols rely on cryptographically verifiable proofs to establish trust across nodes.",
+    "taWord": "சரிபார்க்கக்கூடிய / உறுதிப்படுத்தத்தக்க",
+    "taExample": "விநியோகிக்கப்பட்ட அமைப்புகள் நம்பிக்கையை நிறுவ கணிதரீதியாக சரிபார்க்கக்கூடிய சான்றுகளைச் சார்கின்றன.",
+    "synonyms": [
+      "Checkable",
+      "Confirmable",
+      "Authenticable",
+      "Demonstrable"
+    ],
+    "antonyms": [
+      "Unverifiable",
+      "Dubious",
+      "Refutable"
+    ]
+  },
+  {
     "id": 2205,
     "word": "Versioning",
     "definition": "Assigning unique release numbers or commit hashes to track software evolution over time.",
@@ -223,6 +265,27 @@
     ],
     "antonyms": [
       "Indifference"
+    ]
+  },
+  {
+    "id": 3006,
+    "word": "Vicissitude",
+    "pos": "noun",
+    "definition": "A change of circumstances or fortune, typically one that is unwelcome, unpredictable, or challenging.",
+    "enExample": "Resilient cloud systems are engineered to withstand the vicissitudes of fluctuating network bandwidth.",
+    "taWord": "வாழ்வின் மாற்றங்கள் / ஏற்ற இறக்கங்கள்",
+    "taExample": "நம்பகமான மேகக்கணி அமைப்புகள் இணைய வேகத்தின் எதிர்பாராத ஏற்ற இறக்கங்களைத் தாங்கும் வகையில் வடிவமைக்கப்படுகின்றன.",
+    "synonyms": [
+      "Fluctuation",
+      "Change",
+      "Shift",
+      "Variation",
+      "Alternation"
+    ],
+    "antonyms": [
+      "Stability",
+      "Constancy",
+      "Uniformity"
     ]
   },
   {
@@ -327,6 +390,27 @@
     "antonyms": [
       "Physical hardware",
       "Direct rendering"
+    ]
+  },
+  {
+    "id": 3050,
+    "word": "Visceral",
+    "pos": "adj.",
+    "definition": "Relating to deep inward feelings, instinct, or gut reactions rather than intellect or logic.",
+    "enExample": "Users experienced a visceral sense of delight when the app launched instantly with smooth 60fps animations.",
+    "taWord": "ஆழ்மன உணர்வு சார்ந்த / இயல்பான உள்ளுணர்வு",
+    "taExample": "செயலி உடனடி வேகத்துடன் சீராக இயங்கியபோது பயனர்கள் ஆழ்மன மகிழ்ச்சியை உணர்ந்தனர்.",
+    "synonyms": [
+      "Instinctive",
+      "Gut-level",
+      "Intuitive",
+      "Emotional",
+      "Inward"
+    ],
+    "antonyms": [
+      "Intellectual",
+      "Logical",
+      "Calculated"
     ]
   },
   {

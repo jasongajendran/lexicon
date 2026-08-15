@@ -86,6 +86,27 @@
     ]
   },
   {
+    "id": 3020,
+    "word": "Efficacy",
+    "pos": "noun",
+    "definition": "The power or capacity to produce a desired, intended, or effective result under real-world conditions.",
+    "enExample": "Clinical studies proved the high efficacy of the new compression algorithm on video streams.",
+    "taWord": "ஆற்றல் / விரும்பிய பலனைத் தரும் திறன்",
+    "taExample": "ஆய்வுகள் புதிய தரவு சுருக்க முறை வீடியோ தொடர்புகளில் மிகச்சிறந்த பலனைத் தருவதாக நிரூபித்தன.",
+    "synonyms": [
+      "Effectiveness",
+      "Potency",
+      "Success",
+      "Utility",
+      "Productivity"
+    ],
+    "antonyms": [
+      "Ineffectiveness",
+      "Inefficacy",
+      "Impotence"
+    ]
+  },
+  {
     "id": 503,
     "word": "Efficiency",
     "definition": "The state or quality of being efficient, avoiding wasting materials, energy, efforts, money, and time.",
@@ -168,6 +189,28 @@
     ],
     "antonyms": [
       "Inarticulate"
+    ]
+  },
+  {
+    "id": 2979,
+    "word": "Elucidate",
+    "pos": "verb",
+    "definition": "To make something clear, lucid, or easily understood; to explain or clarify complex concepts comprehensively.",
+    "enExample": "The staff engineer created detailed architecture diagrams to elucidate the distributed consensus protocol.",
+    "taWord": "தெளிவுபடுத்துதல் / விரிவாக விளக்குதல்",
+    "taExample": "முக்கிய பொறியாளர் விநியோகிக்கப்பட்ட கணினி விதியை அனைவருக்கும் புரியும் வகையில் விரிவாக விளக்கி வரைபடமிட்டார்.",
+    "synonyms": [
+      "Clarify",
+      "Explain",
+      "Illuminate",
+      "Explicate",
+      "Expound"
+    ],
+    "antonyms": [
+      "Obscure",
+      "Confuse",
+      "Complicate",
+      "Muddle"
     ]
   },
   {
@@ -401,6 +444,27 @@
     ]
   },
   {
+    "id": 3046,
+    "word": "Endemic",
+    "pos": "adj.",
+    "definition": "Regularly found, native, or deeply ingrained within a particular area, domain, or codebase.",
+    "enExample": "Memory corruption bugs were endemic in C-based codebases before modern memory-safe languages emerged.",
+    "taWord": "குறிப்பிட்ட சூழலில் இயல்பாகவே நிறைந்துள்ள",
+    "taExample": "நவீன பாதுகாப்பான மொழிகள் வருவதற்கு முன் பழமையான குறியீடுகளில் நினைவகப் பிழைகள் இயல்பாகவே நிறைந்திருந்தன.",
+    "synonyms": [
+      "Ingrained",
+      "Native",
+      "Prevalent",
+      "Widespread",
+      "Inherent"
+    ],
+    "antonyms": [
+      "Foreign",
+      "Extraneous",
+      "Rare"
+    ]
+  },
+  {
     "id": 509,
     "word": "Enforce",
     "definition": "Compel observance of or compliance with a law, rule, or obligation.",
@@ -432,6 +496,28 @@
     "antonyms": [
       "Degrade",
       "Diminish"
+    ]
+  },
+  {
+    "id": 2963,
+    "word": "Entail",
+    "pos": "verb",
+    "definition": "To involve, necessitate, or require something as an inevitable, unavoidable part or logical consequence.",
+    "enExample": "Migrating from a monolithic framework to a distributed event-driven architecture will entail rigorous observability refactoring.",
+    "taWord": "தேவைப்படுத்துதல் / தவிர்க்க முடியாத பகுதியாகக் கொண்டிருத்தல்",
+    "taExample": "கட்டமைப்பை நிகழ்வு அடிப்படையிலான நவீன முறைக்கு மாற்றுவது விரிவான கண்காணிப்பு மேம்பாடுகளை அவசியமாக தேவைப்படுத்துகிறது.",
+    "synonyms": [
+      "Necessitate",
+      "Involve",
+      "Require",
+      "Demand",
+      "Encompass"
+    ],
+    "antonyms": [
+      "Exclude",
+      "Preclude",
+      "Eliminate",
+      "Omit"
     ]
   },
   {
@@ -497,6 +583,28 @@
     "antonyms": [
       "Subtask",
       "Micro-bug"
+    ]
+  },
+  {
+    "id": 3025,
+    "word": "Equanimity",
+    "pos": "noun",
+    "definition": "Mental calmness, composure, and evenness of temper, especially in a difficult, high-stress situation.",
+    "enExample": "The site reliability manager handled the critical database outage with impressive equanimity.",
+    "taWord": "மன அமைதி / பதற்றமில்லாத மனநிலை",
+    "taExample": "கணினி தொழில்நுட்ப மேலாளர் கடுமையான தரவுத்தள கோளாறை மிகச்சிறந்த பதற்றமில்லாத மனநிலையுடன் கையாண்டார்.",
+    "synonyms": [
+      "Composure",
+      "Calmness",
+      "Serenity",
+      "Poise",
+      "Self-possession"
+    ],
+    "antonyms": [
+      "Agitation",
+      "Anxiety",
+      "Panic",
+      "Excitability"
     ]
   },
   {
@@ -567,6 +675,27 @@
     "antonyms": [
       "Zero error allowance",
       "Unmonitored downtime"
+    ]
+  },
+  {
+    "id": 3032,
+    "word": "Erudite",
+    "pos": "adj.",
+    "definition": "Having or showing great knowledge, learning, or scholarly sophistication.",
+    "enExample": "The staff engineer published an erudite treatise on the mathematical foundations of distributed consensus.",
+    "taWord": "ஆழ்ந்த புலமை வாய்ந்த / பெரும் கற்றறிந்த",
+    "taExample": "முக்கிய பொறியாளர் விநியோகிக்கப்பட்ட கணினி முறைகளின் கணிதக் கோட்பாடுகள் குறித்து ஆழ்ந்த புலமை வாய்ந்த கட்டுரையை வெளியிட்டார்.",
+    "synonyms": [
+      "Scholarly",
+      "Learned",
+      "Knowledgeable",
+      "Cultured",
+      "Intellectual"
+    ],
+    "antonyms": [
+      "Ignorant",
+      "Uneducated",
+      "Illiterate"
     ]
   },
   {
@@ -799,6 +928,71 @@
     ]
   },
   {
+    "id": 2997,
+    "word": "Expedient",
+    "pos": "adj.",
+    "definition": "Convenient, practical, and suitable for achieving a particular end, though possibly lacking long-term rigor.",
+    "enExample": "Hardcoding the API credentials was an expedient temporary fix, but unacceptable for production deployments.",
+    "taWord": "தற்காலிக வசதியான / சுலபமான வழி",
+    "taExample": "ரகசியக் குறியீடுகளை நேரடியாக எழுதுவது தற்காலிக சுலபமான வழியாக இருந்தாலும், நிரந்தர தீர்வாகாது.",
+    "synonyms": [
+      "Practical",
+      "Convenient",
+      "Pragmatic",
+      "Advantageous",
+      "Opportunistic"
+    ],
+    "antonyms": [
+      "Inexpedient",
+      "Impractical",
+      "Disadvantageous"
+    ]
+  },
+  {
+    "id": 2990,
+    "word": "Expedite",
+    "pos": "verb",
+    "definition": "To make an action or process happen more quickly or efficiently; to accelerate progress.",
+    "enExample": "Implementing continuous integration pipelines helped expedite software release cycles dramatically.",
+    "taWord": "விரைவுபடுத்துதல் / முடக்குதல் இன்றி வேகப்படுத்துதல்",
+    "taExample": "தானியங்கி முறைகளை நிறுவியது மென்பொருள் வெளியீட்டு செயல்பாடுகளை பெருமளவில் விரைவுபடுத்தியது.",
+    "synonyms": [
+      "Accelerate",
+      "Hasten",
+      "Speed up",
+      "Facilitate",
+      "Advance"
+    ],
+    "antonyms": [
+      "Delay",
+      "Hinder",
+      "Impede",
+      "Retard"
+    ]
+  },
+  {
+    "id": 2976,
+    "word": "Explicate",
+    "pos": "verb",
+    "definition": "To analyze, unpack, and explain a complex principle, algorithm, or text in meticulous, clear, and comprehensive detail.",
+    "enExample": "The research paper explicates the mathematical underpinnings of transformer attention mechanisms.",
+    "taWord": "விளக்கமாக விரித்துரைத்தல் / நுணுக்கமாக ஆராய்ந்து விளக்குதல்",
+    "taExample": "அந்த ஆய்வறிக்கை செயற்கை நுண்ணறிவு மாதிரிகளின் கவன ஈர்ப்பு கணித சூத்திரங்களை நுணுக்கமாக விரித்துரைக்கிறது.",
+    "synonyms": [
+      "Clarify",
+      "Explain",
+      "Elucidate",
+      "Expound",
+      "Unpack"
+    ],
+    "antonyms": [
+      "Obscure",
+      "Complicate",
+      "Confuse",
+      "Conceal"
+    ]
+  },
+  {
     "id": 519,
     "word": "Explicit",
     "definition": "Stated clearly and in detail, leaving no room for confusion or doubt.",
@@ -935,6 +1129,49 @@
     "antonyms": [
       "Relevant",
       "Essential"
+    ]
+  },
+  {
+    "id": 2970,
+    "word": "Extrapolate",
+    "pos": "verb",
+    "definition": "To estimate or project future trends, values, or behaviors by extending known statistical data and historical observations.",
+    "enExample": "Capacity planning engineers extrapolate past holiday shopping traffic to provision sufficient Kubernetes cluster autoscaling.",
+    "taWord": "தெரிந்த தரவுகளிலிருந்து எதிர்வரும் நிலையை கணித்தல்",
+    "taExample": "முந்தைய பண்டிகைக் கால இணைய பயன்பாட்டுத் தரவுகளைக் கொண்டு, எதிர்வரும் தேவையை கணித்து அதற்கேற்ப சர்வர்களை பொறியாளர்கள் தயார் செய்கின்றனர்.",
+    "synonyms": [
+      "Project",
+      "Estimate",
+      "Deduce",
+      "Forecast",
+      "Generalize"
+    ],
+    "antonyms": [
+      "Interpolate",
+      "Ignore",
+      "Underestimate"
+    ]
+  },
+  {
+    "id": 3043,
+    "word": "Extrinsic",
+    "pos": "adj.",
+    "definition": "Not part of the essential nature of someone or something; coming or operating from the outside.",
+    "enExample": "Network latency caused by internet service provider outages is an extrinsic factor beyond our server control.",
+    "taWord": "வெளிப்புற காரணி சார்ந்த / அமைப்பிற்கு அப்பாற்பட்ட",
+    "taExample": "இணைய சேவை நிறுவனங்களால் ஏற்படும் தாமதம் என்பது நமது சர்வர் கட்டுப்பாட்டிற்கு அப்பாற்பட்ட வெளிப்புற காரணியாகும்.",
+    "synonyms": [
+      "External",
+      "Outward",
+      "Exogenous",
+      "Foreign",
+      "Peripheral"
+    ],
+    "antonyms": [
+      "Intrinsic",
+      "Inherent",
+      "Internal",
+      "Innate"
     ]
   }
 ]

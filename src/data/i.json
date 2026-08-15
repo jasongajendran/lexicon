@@ -284,6 +284,28 @@
     ]
   },
   {
+    "id": 2961,
+    "word": "Imply",
+    "pos": "verb",
+    "definition": "To strongly suggest the truth or existence of something without explicitly stating it; or logically involve as a necessary consequence.",
+    "enExample": "A sudden 500% increase in database lock latency implies that concurrent read-write transactions are colliding.",
+    "taWord": "மறைமுகமாக உணர்த்துதல் / குறிப்பால் சுட்டிக்காட்டுதல்",
+    "taExample": "தரவுத்தள தாமதத்தின் திடீர் அதிகரிப்பானது, ஒரே நேரத்தில் நடக்கும் பரிவர்த்தனைகள் மோதுவதை மறைமுகமாக சுட்டிக்காட்டுகிறது.",
+    "synonyms": [
+      "Suggest",
+      "Hint",
+      "Intimate",
+      "Insinuate",
+      "Connote"
+    ],
+    "antonyms": [
+      "State explicitly",
+      "Declare",
+      "Specify",
+      "Express directly"
+    ]
+  },
+  {
     "id": 933,
     "word": "Incentive",
     "definition": "A thing that motivates or encourages someone to do something.",
@@ -460,6 +482,28 @@
     ]
   },
   {
+    "id": 2962,
+    "word": "Infer",
+    "pos": "verb",
+    "definition": "To deduce, conclude, or derive information from factual evidence and reasoning rather than from direct explicit statements.",
+    "enExample": "By analyzing server access logs, network security engineers can infer the geographical origin and attack vector of a botnet.",
+    "taWord": "ஆதாரங்களின் அடிப்படையில் யூகித்து அறிதல் / முடிவுக்கு வருதல்",
+    "taExample": "சர்வர் பதிவேடுகளை ஆராய்வதன் மூலம், பாதுகாப்பு பொறியாளர்கள் சைபர் தாக்குதலின் தோற்றுவாயை துல்லியமாக கண்டறிந்து யூகித்து அறிகின்றனர்.",
+    "synonyms": [
+      "Deduce",
+      "Conclude",
+      "Derive",
+      "Extrapolate",
+      "Surmise"
+    ],
+    "antonyms": [
+      "Misinterpret",
+      "Guess blindly",
+      "Assume",
+      "State"
+    ]
+  },
+  {
     "id": 2793,
     "word": "Inference",
     "pos": "noun",
@@ -578,6 +622,28 @@
       "Permit",
       "Sanction",
       "Allowance"
+    ]
+  },
+  {
+    "id": 3027,
+    "word": "Insidious",
+    "pos": "adj.",
+    "definition": "Proceeding in a gradual, subtle way, but with harmful, destructive, or treacherous effects.",
+    "enExample": "Memory leaks are insidious bugs because they degrade system performance slowly over weeks.",
+    "taWord": "மெதுவாகப் பரவி தீங்கிழைக்கும் / மறைமுக ஆபத்தான",
+    "taExample": "நினைவக கசிவுகள் ஆபத்தான பிழைகளாகும், ஏனெனில் அவை அமைப்பின் வேகத்தை மெதுவாக பல வாரங்களில் குறைக்கின்றன.",
+    "synonyms": [
+      "Subtle",
+      "Stealthy",
+      "Treacherous",
+      "Deceitful",
+      "Harmful"
+    ],
+    "antonyms": [
+      "Overt",
+      "Harmless",
+      "Honest",
+      "Direct"
     ]
   },
   {

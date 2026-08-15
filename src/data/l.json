@@ -351,6 +351,27 @@
     ]
   },
   {
+    "id": 3035,
+    "word": "Linchpin",
+    "pos": "noun",
+    "definition": "A person, component, or principle that is vital and indispensable to holding a complex system or team together.",
+    "enExample": "The Redis caching cluster acts as the operational linchpin for our high-throughput user authentication system.",
+    "taWord": "அச்சாணி / முதன்மை ஆதாரமான தூண்",
+    "taExample": "வேகமான பயனாளர் சரிபார்ப்பு முறைக்கு இந்த தரவு நினைவக அமைப்பே முதன்மை ஆதாரமான அச்சாணியாக செயல்படுகிறது.",
+    "synonyms": [
+      "Keystone",
+      "Anchor",
+      "Cornerstone",
+      "Mainstay",
+      "Pillar"
+    ],
+    "antonyms": [
+      "Peripheral",
+      "Extra",
+      "Nonessential"
+    ]
+  },
+  {
     "id": 1215,
     "word": "Lineage",
     "definition": "The history and origin tracking of data transformation pipelines.",

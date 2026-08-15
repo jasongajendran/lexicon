@@ -56,6 +56,27 @@
     ]
   },
   {
+    "id": 3001,
+    "word": "Salient",
+    "pos": "adj.",
+    "definition": "Most noticeable, prominent, or important; standing out conspicuously from context.",
+    "enExample": "The executive overview highlighted the salient architectural changes planned for the upcoming quarter.",
+    "taWord": "முக்கியமான / பளிச்சென்று தெரியும்",
+    "taExample": "நிர்வாக சுருக்கம் அடுத்த காலாண்டில் செய்யப்பட வேண்டிய முக்கியமான கட்டமைப்பு மாற்றங்களை உயர்த்திக் காட்டியது.",
+    "synonyms": [
+      "Prominent",
+      "Important",
+      "Noticeable",
+      "Conspicuous",
+      "Key"
+    ],
+    "antonyms": [
+      "Inconspicuous",
+      "Minor",
+      "Unimportant"
+    ]
+  },
+  {
     "id": 2637,
     "word": "Salty",
     "definition": "Bitter, resentful, or visibly annoyed over a minor disappointment or defeat.",
@@ -181,6 +202,27 @@
     ]
   },
   {
+    "id": 3016,
+    "word": "Scintillating",
+    "pos": "adj.",
+    "definition": "Sparkling, brilliant, clever, or exceptionally animated and intellectually stimulating.",
+    "enExample": "The keynote speaker delivered a scintillating presentation on the future of generative AI.",
+    "taWord": "மின்னுக்கிற / அறிவுப்பூர்வமான பிரகாசமான",
+    "taExample": "சிறப்பு விருந்தினர் செயற்கை நுண்ணறிவின் எதிர்காலம் குறித்து மிகவும் அறிவுப்பூர்வமான உரையை வழங்கினார்.",
+    "synonyms": [
+      "Brilliant",
+      "Sparkling",
+      "Dazzling",
+      "Stimulating",
+      "Witty"
+    ],
+    "antonyms": [
+      "Dull",
+      "Boring",
+      "Monotonous"
+    ]
+  },
+  {
     "id": 1903,
     "word": "Scope",
     "definition": "The context or region within a program where a variable, function, or binding is visible and accessible.",
@@ -244,6 +286,27 @@
     ],
     "antonyms": [
       "Authoritarian manager"
+    ]
+  },
+  {
+    "id": 2998,
+    "word": "Scrupulous",
+    "pos": "adj.",
+    "definition": "Having strict regard for what is right or exact; meticulously attentive to details and moral standards.",
+    "enExample": "Financial software requires scrupulous auditing of all transaction ledgers to prevent accounting errors.",
+    "taWord": "நேர்மையான / மிகக் கவனமான",
+    "taExample": "நிதி மென்பொருட்களில் பிழைகளைத் தவிர்க்க அனைத்து கணக்குப் பதிவுகளையும் நேர்மையாகவும் கவனமாகவும் தணிக்கை செய்ய வேண்டும்.",
+    "synonyms": [
+      "Meticulous",
+      "Conscientious",
+      "Honest",
+      "Rigorous",
+      "Precise"
+    ],
+    "antonyms": [
+      "Unscrupulous",
+      "Careless",
+      "Dishonest"
     ]
   },
   {
@@ -823,6 +886,28 @@
     ]
   },
   {
+    "id": 3034,
+    "word": "Stringent",
+    "pos": "adj.",
+    "definition": "Strict, precise, exacting, and rigorously enforced regarding rules, standards, or performance conditions.",
+    "enExample": "Fintech platforms must satisfy stringent data encryption standards to maintain operating compliance.",
+    "taWord": "கடுமையான / நெகிழ்வற்ற கடுமையான",
+    "taExample": "நிதி மென்பொருள் தளங்கள் தங்களின் பாதுகாப்பை உறுதிப்படுத்த கடுமையான தரவு குறியாக்க விதிகளுக்கு உட்பட வேண்டும்.",
+    "synonyms": [
+      "Rigorous",
+      "Strict",
+      "Exacting",
+      "Demanding",
+      "Severe"
+    ],
+    "antonyms": [
+      "Lenient",
+      "Lax",
+      "Flexible",
+      "Permissive"
+    ]
+  },
+  {
     "id": 2918,
     "word": "Subpoena",
     "pos": "noun",
@@ -840,6 +925,49 @@
       "Release",
       "Discharge",
       "Waiver of appearance"
+    ]
+  },
+  {
+    "id": 2966,
+    "word": "Substantiate",
+    "pos": "verb",
+    "definition": "To provide concrete evidence, proof, or factual documentation to demonstrate the absolute truth or validity of a claim.",
+    "enExample": "The security researcher provided a working proof-of-concept exploit to substantiate the vulnerability report.",
+    "taWord": "நிரூபித்துக் காட்டுதல் / சான்றுகளுடன் நிலைநிறுத்துதல்",
+    "taExample": "பாதுகாப்புக் குறைபாடு குறித்த தனது அறிக்கையை சான்றுகளுடன் நிலைநிறுத்த ஆய்வாளர் செயல்முறை விளக்கத்தை அளித்தார்.",
+    "synonyms": [
+      "Validate",
+      "Prove",
+      "Support",
+      "Authenticate",
+      "Verify"
+    ],
+    "antonyms": [
+      "Disprove",
+      "Invalidate",
+      "Refute",
+      "Debunk"
+    ]
+  },
+  {
+    "id": 3033,
+    "word": "Subsume",
+    "pos": "verb",
+    "definition": "To include, absorb, or classify something under a broader category, rule, or overall framework.",
+    "enExample": "The new unified API platform will subsume all legacy regional payment gateways into a single endpoint.",
+    "taWord": "உள்ளடக்குதல் / தன்னுள் இணைத்துக்கொள்ளுதல்",
+    "taExample": "புதிய ஒருங்கிணைந்த சேவை தளம் அனைத்து பழைய உள்ளூர் கட்டண வழிகளையும் தன்னுள் இணைத்துக்கொள்ளும்.",
+    "synonyms": [
+      "Incorporate",
+      "Absorb",
+      "Include",
+      "Encompass",
+      "Integrate"
+    ],
+    "antonyms": [
+      "Exclude",
+      "Separate",
+      "Isolate"
     ]
   },
   {
@@ -861,6 +989,28 @@
       "Fortification",
       "Protection",
       "Support"
+    ]
+  },
+  {
+    "id": 3010,
+    "word": "Subvert",
+    "pos": "verb",
+    "definition": "To undermine or overthrow the power, authority, or integrity of an established system, protocol, or institution.",
+    "enExample": "Malicious actors attempted to subvert the authentication layer using SQL injection vectors.",
+    "taWord": "அழித்தல் / சீர்குலைத்தல்",
+    "taExample": "தீங்கிழைப்பவர்கள் தவறான தரவுகளை உள்ளீடு செய்து பாதுகாப்பு அமைப்பை சீர்குலைக்க முயன்றனர்.",
+    "synonyms": [
+      "Undermine",
+      "Overthrow",
+      "Sabotage",
+      "Corrupt",
+      "Destabilize"
+    ],
+    "antonyms": [
+      "Support",
+      "Uphold",
+      "Strengthen",
+      "Protect"
     ]
   },
   {
@@ -904,6 +1054,28 @@
     ]
   },
   {
+    "id": 3023,
+    "word": "Superfluous",
+    "pos": "adj.",
+    "definition": "Exceeding what is sufficient, necessary, or desired; redundant and unneeded.",
+    "enExample": "Refactoring removed superfluous logging statements that were cluttering the production console.",
+    "taWord": "தேவையற்ற / அளவுக்கு அதிகமான",
+    "taExample": "குறியீட்டை சீரமைத்தது திரை வெளியீட்டை அடைத்துக் கொண்டிருந்த தேவையற்ற பதிவுகளை நீக்கியது.",
+    "synonyms": [
+      "Redundant",
+      "Unnecessary",
+      "Excessive",
+      "Extra",
+      "Surplus"
+    ],
+    "antonyms": [
+      "Essential",
+      "Necessary",
+      "Vital",
+      "Required"
+    ]
+  },
+  {
     "id": 2921,
     "word": "Suppress",
     "pos": "verb",
@@ -943,6 +1115,27 @@
       "Decline",
       "Downturn",
       "Drop"
+    ]
+  },
+  {
+    "id": 2973,
+    "word": "Surmise",
+    "pos": "verb",
+    "definition": "To suppose that something is true or probable without having full or conclusive proof; to make an educated conjecture.",
+    "enExample": "From the intermittent socket connection drops, DevOps engineers surmised that a core router was experiencing thermal throttling.",
+    "taWord": "முழு ஆதாரமின்றி ஊகித்தல் / கணித்து அறிதல்",
+    "taExample": "இணைப்பில் ஏற்பட்ட விட்டுவிட்டு வந்த தடங்கல்களை வைத்து, முக்கிய திசைவி சாதனம் அதிக வெப்பத்தால் பாதிக்கப்பட்டுள்ளது என பொறியாளர்கள் ஊகித்தனர்.",
+    "synonyms": [
+      "Conjecture",
+      "Guess",
+      "Hypothesize",
+      "Infer",
+      "Speculate"
+    ],
+    "antonyms": [
+      "Know for certain",
+      "Verify",
+      "Prove conclusively"
     ]
   },
   {
@@ -1068,6 +1261,25 @@
     ]
   },
   {
+    "id": 3022,
+    "word": "Synchronicity",
+    "pos": "noun",
+    "definition": "The simultaneous occurrence of events that appear meaningfully related but have no direct causal connection.",
+    "enExample": "By remarkable synchronicity, two independent researchers published identical security fixes on the same day.",
+    "taWord": "ஒரே நேரத்தில் நடக்கும் நிகழ்வு / தற்செயல் ஒருங்கிணைப்பு",
+    "taExample": "ஒரே நாளில் இரண்டு வெவ்வேறு ஆய்வாளர்கள் ஒரே மாதிரியான பாதுகாப்பு தீர்வுகளை வெளியிட்டது ஒரு தற்செயல் ஒருங்கிணைப்பாகும்.",
+    "synonyms": [
+      "Coincidence",
+      "Concurrency",
+      "Simultaneity",
+      "Harmonic timing"
+    ],
+    "antonyms": [
+      "Asynchrony",
+      "Mismatch"
+    ]
+  },
+  {
     "id": 1915,
     "word": "Synchronous",
     "definition": "Operations that execute sequentially, blocking execution until each task finishes completely.",
@@ -1083,6 +1295,27 @@
     "antonyms": [
       "Asynchronous",
       "Non-blocking"
+    ]
+  },
+  {
+    "id": 2995,
+    "word": "Synergistic",
+    "pos": "adj.",
+    "definition": "Relating to the combined, cooperative interaction of elements that produces a total effect greater than the sum of individual parts.",
+    "enExample": "Combining cloud server infrastructure with edge edge-caching provided a synergistic speed boost to global users.",
+    "taWord": "கூட்டு விளைவு தருகிற / ஒன்றிணைந்த ஆற்றல் கொண்ட",
+    "taExample": "மேகக்கணி சர்வர்களையும் உள்ளூர் சேமிப்பகத்தையும் ஒன்றிணைத்தது பயனர்களுக்கு சிறந்த வேகத்தை வழங்கியது.",
+    "synonyms": [
+      "Cooperative",
+      "Collaborative",
+      "Combined",
+      "Interactive",
+      "Harmonious"
+    ],
+    "antonyms": [
+      "Antagonistic",
+      "Conflicting",
+      "Incompatible"
     ]
   },
   {
@@ -1116,6 +1349,27 @@
       "Grammar",
       "Structure",
       "Rules"
+    ]
+  },
+  {
+    "id": 3042,
+    "word": "Systemic",
+    "pos": "adj.",
+    "definition": "Relating to or affecting an entire system as a whole, rather than an isolated or localized part.",
+    "enExample": "The outage was not an isolated bug but the result of a systemic failure in the authentication cluster.",
+    "taWord": "அமைப்பு முழுமைக்கும் உரிய / ஒட்டுமொத்த பாதிப்பு ஏற்படுத்தும்",
+    "taExample": "இந்த சேவை முடக்கம் தனிப்பட்ட பிழை அல்ல, மாறாக அங்கீகார அமைப்பின் ஒட்டுமொத்த தோல்வியின் விளைவு.",
+    "synonyms": [
+      "Pervasive",
+      "Structural",
+      "Comprehensive",
+      "Inherent",
+      "Widespread"
+    ],
+    "antonyms": [
+      "Localized",
+      "Isolated",
+      "Specific"
     ]
   }
 ]

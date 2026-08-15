@@ -53,6 +53,26 @@
     ]
   },
   {
+    "id": 3047,
+    "word": "Hallmark",
+    "pos": "noun",
+    "definition": "A distinctive feature, characteristic quality, or stamp of excellence.",
+    "enExample": "High responsiveness and zero layout shift are the hallmarks of modern web user interfaces.",
+    "taWord": "சிறப்பு அடையாளம் / தரமான அம்சம்",
+    "taExample": "உடனடி இயங்குதன்மையும் மென்மையான வடிவமைப்பும் நவீன வலைதளங்களின் முக்கிய சிறப்பு அடையாளங்களாகும்.",
+    "synonyms": [
+      "Trademark",
+      "Indicia",
+      "Badge",
+      "Feature",
+      "Stamp"
+    ],
+    "antonyms": [
+      "Anomalous feature",
+      "Imperfection"
+    ]
+  },
+  {
     "id": 2790,
     "word": "Hallucination",
     "pos": "noun",

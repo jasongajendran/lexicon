@@ -129,6 +129,28 @@
     ]
   },
   {
+    "id": 3028,
+    "word": "Acumen",
+    "pos": "noun",
+    "definition": "Keen insight, shrewdness, and remarkable quickness in understanding and deciding in a specialized domain.",
+    "enExample": "The CTO's business acumen helped the engineering department double its system scale while cutting cloud infrastructure costs in half.",
+    "taWord": "கூரிய அறிவு / தொழில்சார் நுண்ணறிவு",
+    "taExample": "தொழில்நுட்ப மேலாளரின் கூரிய தொழில்சார் நுண்ணறிவு கணினி செலவுகளை பாதியாகக் குறைத்து ஆற்றலை இரட்டிப்பாக்க உதவியது.",
+    "synonyms": [
+      "Insight",
+      "Shrewdness",
+      "Acuity",
+      "Astuteness",
+      "Discernment"
+    ],
+    "antonyms": [
+      "Ignorance",
+      "Stupidity",
+      "Ineptitude",
+      "Obtuseness"
+    ]
+  },
+  {
     "id": 130,
     "word": "Adaptable",
     "definition": "Able to adjust quickly to new conditions or requirements.",
@@ -143,6 +165,28 @@
     "antonyms": [
       "Rigid",
       "Inflexible"
+    ]
+  },
+  {
+    "id": 2975,
+    "word": "Adduce",
+    "pos": "verb",
+    "definition": "To cite, offer, or present an example, legal precedent, or quantitative metric as valid evidence or justification.",
+    "enExample": "The staff engineer adduced three years of production incident logs to advocate for rewriting the legacy authentication module.",
+    "taWord": "சான்றாக மேற்கோள் காட்டுதல் / ஆதாரமாக முன்வைத்தல்",
+    "taExample": "பழைய அங்கீகார முறையை மாற்றி எழுத வேண்டும் என்பதை நியாயப்படுத்த, மூன்று ஆண்டுகால இயக்கப் பிழைப் பதிவுகளை பொறியாளர் ஆதாரமாக முன்வைத்தார்.",
+    "synonyms": [
+      "Cite",
+      "Present",
+      "Quote",
+      "Offer",
+      "Advance"
+    ],
+    "antonyms": [
+      "Withdraw",
+      "Conceal",
+      "Withhold",
+      "Retract"
     ]
   },
   {
@@ -395,6 +439,49 @@
     ]
   },
   {
+    "id": 2974,
+    "word": "Allude",
+    "pos": "verb",
+    "definition": "To suggest or call attention to something indirectly, covertly, or in passing without naming it explicitly.",
+    "enExample": "The architectural RFC alluded to upcoming cloud pricing tier revisions without specifying exact dollar amounts.",
+    "taWord": "மறைமுகமாக சுட்டிக்காட்டுதல் / கோடிட்டு காட்டுதல்",
+    "taExample": "புதிய தொழில்நுட்ப வரைவு அறிக்கை, கட்டண மாற்றங்களை வெளிப்படையாகக் கூறாமல் மறைமுகமாக கோடிட்டு காட்டியது.",
+    "synonyms": [
+      "Hint at",
+      "Suggest",
+      "Refer indirectly",
+      "Intimate",
+      "Insinuate"
+    ],
+    "antonyms": [
+      "Specify",
+      "Declare openly",
+      "State explicitly"
+    ]
+  },
+  {
+    "id": 2984,
+    "word": "Amalgamate",
+    "pos": "verb",
+    "definition": "To combine, unite, or merge multiple distinct entities into a single cohesive structure or organization.",
+    "enExample": "The tech conglomerate decided to amalgamate three independent monitoring tools into a unified observability platform.",
+    "taWord": "ஒன்றிணைத்தல் / சேர்த்தல்",
+    "taExample": "தொழில்நுட்ப நிறுவனம் மூன்று தனித்தனி கண்காணிப்பு கருவிகளை ஒரே தளமாக ஒன்றிணைக்க முடிவு செய்தது.",
+    "synonyms": [
+      "Merge",
+      "Combine",
+      "Unify",
+      "Consolidate",
+      "Fuse"
+    ],
+    "antonyms": [
+      "Separate",
+      "Divide",
+      "Disintegrate",
+      "Split"
+    ]
+  },
+  {
     "id": 105,
     "word": "Ambiguous",
     "definition": "Open to more than one interpretation; not having one obvious meaning.",
@@ -474,6 +561,28 @@
     "antonyms": [
       "Intuitive",
       "Uncritical"
+    ]
+  },
+  {
+    "id": 2999,
+    "word": "Anomalous",
+    "pos": "adj.",
+    "definition": "Deviating from what is standard, normal, expected, or natural; irregular or abnormal.",
+    "enExample": "The anomaly detection algorithm flagged an anomalous spike in outbound network traffic.",
+    "taWord": "இயல்புக்கு மாறான / வழக்கத்திற்கு மாறான",
+    "taExample": "கண்காணிப்பு பொறிமுறையானது வெளியே செல்லும் இணைய போக்குவரத்தில் வழக்கத்திற்கு மாறான உயர்வை கண்டறிந்தது.",
+    "synonyms": [
+      "Abnormal",
+      "Irregular",
+      "Atypical",
+      "Incongruous",
+      "Unusual"
+    ],
+    "antonyms": [
+      "Normal",
+      "Standard",
+      "Typical",
+      "Regular"
     ]
   },
   {
@@ -582,6 +691,27 @@
     ]
   },
   {
+    "id": 3038,
+    "word": "Archetype",
+    "pos": "noun",
+    "definition": "A very typical, original, or ideal example of a recurring concept, pattern, or model.",
+    "enExample": "The Model-View-Controller design pattern serves as the classic archetype for modern web application frameworks.",
+    "taWord": "மூல மாதிரி / முதன்மை வடிவம்",
+    "taExample": "இந்த வடிவமைப்பு முறையானது நவீன வலைப்பின்னல் செயலிகளுக்கான மூல மாதிரியாக செயல்படுகிறது.",
+    "synonyms": [
+      "Prototype",
+      "Model",
+      "Pattern",
+      "Paragon",
+      "Original"
+    ],
+    "antonyms": [
+      "Derivative",
+      "Copy",
+      "Imitation"
+    ]
+  },
+  {
     "id": 109,
     "word": "Architecture",
     "definition": "The complex or carefully designed structure of something.",
@@ -654,6 +784,28 @@
     ]
   },
   {
+    "id": 3039,
+    "word": "Assiduous",
+    "pos": "adj.",
+    "definition": "Showing great care, attention, persistent effort, and unflagging diligence.",
+    "enExample": "Assiduous monitoring of system metrics helped the SRE team catch memory leaks before they caused crashes.",
+    "taWord": "விடாமுயற்சியுடைய / இடைவிடாத கவனமுள்ள",
+    "taExample": "கணினியின் இயக்க அளவீடுகளை இடைவிடாது கவனித்தது, செயலிழப்பு ஏற்படும் முன் பிழைகளை கண்டறிய உதவியது.",
+    "synonyms": [
+      "Diligent",
+      "Industrious",
+      "Sedulous",
+      "Meticulous",
+      "Attentive"
+    ],
+    "antonyms": [
+      "Lazy",
+      "Negligent",
+      "Careless",
+      "Slothful"
+    ]
+  },
+  {
     "id": 110,
     "word": "Asynchronous",
     "definition": "Not existing or occurring at the same time.",
@@ -704,6 +856,28 @@
     "antonyms": [
       "Security perimeter",
       "Defensive barrier"
+    ]
+  },
+  {
+    "id": 2982,
+    "word": "Attenuate",
+    "pos": "verb",
+    "definition": "To reduce the force, intensity, effect, or value of something; to weaken or make slender.",
+    "enExample": "Adding a server-side caching layer helped attenuate peak CPU usage during flash sales.",
+    "taWord": "வீரியத்தை குறைத்தல் / பலவீனப்படுத்துதல்",
+    "taExample": "சர்வர் பக்க நினைவக அமைப்பை சேர்த்தது அதிகப்படியான வணிக நேரங்களில் செயலியின் சுமையைக் குறைக்க உதவியது.",
+    "synonyms": [
+      "Weaken",
+      "Reduce",
+      "Mitigate",
+      "Dampen",
+      "Diminish"
+    ],
+    "antonyms": [
+      "Amplify",
+      "Strengthen",
+      "Intensify",
+      "Boost"
     ]
   },
   {
@@ -850,6 +1024,26 @@
     "antonyms": [
       "Dependent",
       "Subordinate"
+    ]
+  },
+  {
+    "id": 3021,
+    "word": "Autonomy",
+    "pos": "noun",
+    "definition": "The state or condition of self-government, independence, and freedom from external control.",
+    "enExample": "Microservice architecture grants individual feature teams complete deployment autonomy.",
+    "taWord": "தன்னாட்சி / சுயாதீன உரிமை",
+    "taExample": "நுண் சேவை கட்டமைப்பு தனித்தனி குழுக்களுக்கு தங்களின் மென்பொருளை சுதந்திரமாக வெளியிடும் உரிமையை வழங்குகிறது.",
+    "synonyms": [
+      "Independence",
+      "Self-governance",
+      "Freedom",
+      "Sovereignty"
+    ],
+    "antonyms": [
+      "Dependence",
+      "Subjection",
+      "Control"
     ]
   },
   {

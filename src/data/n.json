@@ -103,6 +103,28 @@
     ]
   },
   {
+    "id": 3054,
+    "word": "Nebulous",
+    "pos": "noun",
+    "definition": "In the form of a cloud or haze; vague, ill-defined, or lacking clear form.",
+    "enExample": "Before writing code, the team refined the nebulous feature requirement into crisp acceptance criteria.",
+    "taWord": "தெளிவற்ற / மங்கலான வடிவம் கொண்ட",
+    "taExample": "குறியீட்டை எழுதுவதற்கு முன், தெளிவற்ற கோரிக்கைகளைத் துல்லியமான தேவைகளாக குழு முறைப்படுத்தியது.",
+    "synonyms": [
+      "Vague",
+      "Indistinct",
+      "Hazy",
+      "Unclear",
+      "Formless"
+    ],
+    "antonyms": [
+      "Clear",
+      "Distinct",
+      "Definite",
+      "Precise"
+    ]
+  },
+  {
     "id": 2887,
     "word": "Nepotism",
     "pos": "noun",

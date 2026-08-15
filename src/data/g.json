@@ -204,6 +204,27 @@
     ]
   },
   {
+    "id": 3000,
+    "word": "Germane",
+    "pos": "adj.",
+    "definition": "Relevant, pertinent, and appropriate to a subject or matter under consideration.",
+    "enExample": "The reviewer asked only questions that were directly germane to the security architecture of the PR.",
+    "taWord": "பொருத்தமான / நேரடித் தொடர்புடைய",
+    "taExample": "பரிசீலனையாளர் பாதுகாப்பு கட்டமைப்புடன் நேரடியாகத் தொடர்புடைய கேள்விகளை மட்டுமே கேட்டார்.",
+    "synonyms": [
+      "Relevant",
+      "Pertinent",
+      "Applicable",
+      "Appropriate",
+      "Material"
+    ],
+    "antonyms": [
+      "Irrelevant",
+      "Inappropriate",
+      "Tangential"
+    ]
+  },
+  {
     "id": 2960,
     "word": "Gerrymander",
     "pos": "verb",

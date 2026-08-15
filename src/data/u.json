@@ -36,6 +36,26 @@
     ]
   },
   {
+    "id": 3018,
+    "word": "Ubiquity",
+    "pos": "noun",
+    "definition": "The state of being everywhere or appearing to be present everywhere simultaneously.",
+    "enExample": "The ubiquity of smartphones has made responsive mobile-first design an absolute necessity.",
+    "taWord": "எங்கும் நிறைந்திருக்கும் தன்மை",
+    "taExample": "ஸ்மார்ட்போன்களின் எங்கும் நிறைந்திருக்கும் தன்மை மொபைலுக்கு ஏற்ற வடிவமைப்பு முறையை அத்தியாவசியமாக்கியுள்ளது.",
+    "synonyms": [
+      "Omnipresence",
+      "Pervasiveness",
+      "Universality",
+      "Prevalence"
+    ],
+    "antonyms": [
+      "Rarity",
+      "Scarcity",
+      "Infrequency"
+    ]
+  },
+  {
     "id": 2101,
     "word": "Unary",
     "definition": "An operation or operator taking exactly one operand in mathematical or programming expressions.",
@@ -123,6 +143,28 @@
     ]
   },
   {
+    "id": 2994,
+    "word": "Unequivocal",
+    "pos": "adj.",
+    "definition": "Leaving no doubt or ambiguity; clear, unmistakable, and absolute in meaning or commitment.",
+    "enExample": "The benchmark results provided unequivocal proof that the new query index improved search performance.",
+    "taWord": "சந்தேகத்திற்கு இடமில்லாத / தெளிவான",
+    "taExample": "செயல்திறன் பரிசோதனை முடிவுகள் புதிய முறை தேடலை வேகப்படுத்தியது என்பதற்கு சந்தேகத்திற்கு இடமில்லாத ஆதாரத்தை அளித்தன.",
+    "synonyms": [
+      "Unambiguous",
+      "Clear",
+      "Absolute",
+      "Indisputable",
+      "Explicit"
+    ],
+    "antonyms": [
+      "Ambiguous",
+      "Equivocal",
+      "Uncertain",
+      "Vague"
+    ]
+  },
+  {
     "id": 2104,
     "word": "Unicode",
     "definition": "An international computing standard providing consistent encoding, representation, and handling of text across global languages.",
@@ -207,6 +249,28 @@
     "antonyms": [
       "Mount",
       "Attach"
+    ]
+  },
+  {
+    "id": 3045,
+    "word": "Unobtrusive",
+    "pos": "adj.",
+    "definition": "Not conspicuous, aggressive, or attracting undue attention; subtle and integrated seamlessly.",
+    "enExample": "The background update notification was designed to be unobtrusive so it wouldn't disrupt user workflow.",
+    "taWord": "கவனத்தை திசைதிருப்பாத / கவனமாக தழுவி நிற்கும்",
+    "taExample": "பின்னணி புதுப்பிப்பு அறிவிப்புகள் பயனரின் பணிகளுக்கு இடையூறு விளைவிக்காதவாறு நுட்பமாக அமைக்கப்பட்டன.",
+    "synonyms": [
+      "Inconspicuous",
+      "Subtle",
+      "Discreet",
+      "Low-profile",
+      "Unpretentious"
+    ],
+    "antonyms": [
+      "Obtrusive",
+      "Conspicuous",
+      "Bold",
+      "Aggressive"
     ]
   },
   {

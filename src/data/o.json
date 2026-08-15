@@ -128,6 +128,27 @@
     ]
   },
   {
+    "id": 3012,
+    "word": "Obviate",
+    "pos": "verb",
+    "definition": "To anticipate and remove or prevent difficulties, risks, or the need for something.",
+    "enExample": "Automated scaling algorithms obviate the need for manual server provisioning during traffic spikes.",
+    "taWord": "தேவையைத் தவிர்த்தல் / அகற்றுதல்",
+    "taExample": "தானியங்கி முறைகள் அதிக பயன்பாட்டின் போது மனிதர்களின் நேரடித் தலையீட்டின் தேவையைத் தவிர்க்கின்றன.",
+    "synonyms": [
+      "Preclude",
+      "Prevent",
+      "Eliminate",
+      "Avoid",
+      "Remove"
+    ],
+    "antonyms": [
+      "Require",
+      "Necessitate",
+      "Cause"
+    ]
+  },
+  {
     "id": 1505,
     "word": "Offline",
     "definition": "Operating while disconnected from a primary network, internet connection, or central server.",
@@ -194,6 +215,26 @@
     ],
     "antonyms": [
       "Single-channel"
+    ]
+  },
+  {
+    "id": 3049,
+    "word": "Omnipresent",
+    "pos": "adj.",
+    "definition": "Present everywhere at the same time; widely or constantly encountered.",
+    "enExample": "In modern software architecture, cloud-hosted microservices have become virtually omnipresent.",
+    "taWord": "எங்கும் நிறைந்துள்ள / அனைத்து இடங்களிலும் காணப்படுகிற",
+    "taExample": "நவீன மென்பொருள் கட்டமைப்பில் மேகக்கணி நுண் சேவைகள் எங்கும் நிறைந்துள்ள ஒன்றாக மாறியுள்ளன.",
+    "synonyms": [
+      "Ubiquitous",
+      "Pervasive",
+      "Universal",
+      "Everywhere"
+    ],
+    "antonyms": [
+      "Rare",
+      "Scarce",
+      "Absent"
     ]
   },
   {
@@ -373,6 +414,28 @@
     "antonyms": [
       "raw SQL client",
       "manual query driver"
+    ]
+  },
+  {
+    "id": 2992,
+    "word": "Ostensible",
+    "pos": "adj.",
+    "definition": "Stated or appearing to be true or genuine, but not necessarily so; professed or surface-level.",
+    "enExample": "The ostensible cause of the outage was network congestion, but deep inspection revealed a memory leak.",
+    "taWord": "வெளிப்படையாகத் தோன்றும் / மேலோட்டமான",
+    "taExample": "சேவை முடக்கத்திற்கு மேலோட்டமான காரணம் நெட்வொர்க் நெருக்கடி போலத் தெரிந்தாலும், உண்மையான காரணம் நினைவகக் கசிவுதான்.",
+    "synonyms": [
+      "Apparent",
+      "Seeming",
+      "Professed",
+      "Supposed",
+      "Surface"
+    ],
+    "antonyms": [
+      "Genuine",
+      "Real",
+      "Actual",
+      "Hidden"
     ]
   },
   {

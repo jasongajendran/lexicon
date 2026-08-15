@@ -54,6 +54,27 @@
     ]
   },
   {
+    "id": 3005,
+    "word": "Quandary",
+    "pos": "noun",
+    "definition": "A state of perplexity, uncertainty, or doubt over what to do in a difficult situation.",
+    "enExample": "Engineers faced a quandary between prioritizing new product features or refactoring technical debt.",
+    "taWord": "சங்கடம் / குழப்பமான நிலை",
+    "taExample": "புதிய வசதிகளை உருவாக்குவதா அல்லது பழைய குறியீடுகளை சீரமைப்பதா என்ற குழப்பமான நிலையில் பொறியாளர்கள் இருந்தனர்.",
+    "synonyms": [
+      "Dilemma",
+      "Predicament",
+      "Plight",
+      "Confusion",
+      "Stalemate"
+    ],
+    "antonyms": [
+      "Certainty",
+      "Solution",
+      "Resolution"
+    ]
+  },
+  {
     "id": 1702,
     "word": "Quantifier",
     "definition": "A element in regular expressions specifying the number of occurrences of a character or pattern.",
@@ -261,6 +282,27 @@
     "antonyms": [
       "Verbose",
       "Debug"
+    ]
+  },
+  {
+    "id": 3030,
+    "word": "Quintessential",
+    "pos": "adj.",
+    "definition": "Representing the most perfect, ideal, or typical example of a quality, class, or state.",
+    "enExample": "The Unix philosophy—doing one thing well and piping outputs—remains the quintessential model for modular software design.",
+    "taWord": "மிகச் சரியான முன்மாதிரியாக உள்ள / தலையாய மாதிரியான",
+    "taExample": "ஒரு பணியை துல்லியமாக செய்து முடிக்கும் முறையானது மென்பொருள் வடிவமைப்பிற்கு மிகச் சரியான முன்மாதிரியாக விளங்குகிறது.",
+    "synonyms": [
+      "Prototypical",
+      "Archetypal",
+      "Classic",
+      "Exemplary",
+      "Definitive"
+    ],
+    "antonyms": [
+      "Atypical",
+      "Unrepresentative",
+      "Abnormal"
     ]
   },
   {

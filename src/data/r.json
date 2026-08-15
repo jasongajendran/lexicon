@@ -406,6 +406,48 @@
     ]
   },
   {
+    "id": 3014,
+    "word": "Reconcile",
+    "pos": "verb",
+    "definition": "To restore friendly relations, harmonize conflicting viewpoints, or make consistent two disparate data sources.",
+    "enExample": "The nightly background job reconciles internal payment ledgers with Stripe transaction records.",
+    "taWord": "ஒப்பிட்டுச் சரிபார்த்தல் / இணக்கமாக்குதல்",
+    "taExample": "இரவு நேர அமைப்பானது உள்நாட்டு கணக்குகளை வெளிநாட்டு வங்கி பதிவுகளுடன் ஒப்பிட்டுச் சரிபார்க்கிறது.",
+    "synonyms": [
+      "Harmonize",
+      "Settle",
+      "Align",
+      "Adjust",
+      "Resolve"
+    ],
+    "antonyms": [
+      "Estrange",
+      "Invalidate",
+      "Disagree"
+    ]
+  },
+  {
+    "id": 3011,
+    "word": "Rectify",
+    "pos": "verb",
+    "definition": "To put right, correct, or remedy a mistake, defect, or erroneous condition.",
+    "enExample": "The engineering team worked overnight to rectify the data corruption bug in the release build.",
+    "taWord": "சரிசெய்தல் / பிழைதிருத்துதல்",
+    "taExample": "பொறியியல் குழு இரவோடு இரவாக மென்பொருளில் இருந்த தரவுப் பிழையை சரிசெய்தது.",
+    "synonyms": [
+      "Correct",
+      "Remedy",
+      "Fix",
+      "Amend",
+      "Repair"
+    ],
+    "antonyms": [
+      "Worsen",
+      "Corrupt",
+      "Damage"
+    ]
+  },
+  {
     "id": 1809,
     "word": "Recursion",
     "definition": "A algorithm design method where a function calls itself repeatedly until a terminating base case condition is satisfied.",
@@ -538,6 +580,27 @@
     "antonyms": [
       "static dehydration",
       "pure HTML rendering"
+    ]
+  },
+  {
+    "id": 2986,
+    "word": "Reiterate",
+    "pos": "verb",
+    "definition": "To say or do something again repeatedly, typically for emphasis, clarity, or reassurance.",
+    "enExample": "The tech lead reiterated that code readability is far more valuable than clever one-line tricks.",
+    "taWord": "மீண்டும் வலியுறுத்தல் / திரும்பக் கூறுதல்",
+    "taExample": "குறியீட்டின் எளிமையான புரிதலே மிக முக்கியம் என்பதை தொழில்நுட்பத் தலைவர் மீண்டும் வலியுறுத்தினார்.",
+    "synonyms": [
+      "Repeat",
+      "Restate",
+      "Reaffirm",
+      "Emphasize",
+      "Recapitulate"
+    ],
+    "antonyms": [
+      "Retract",
+      "Withdraw",
+      "Cancel"
     ]
   },
   {
@@ -686,6 +749,27 @@
       "Endorse",
       "Acknowledge",
       "Accept"
+    ]
+  },
+  {
+    "id": 3048,
+    "word": "Requisite",
+    "pos": "adj.",
+    "definition": "Made necessary by particular circumstances, regulations, or core dependencies.",
+    "enExample": "Passing all automated security scans is a requisite step before deploying code to production.",
+    "taWord": "அவசியமான முன்நிபந்தனை / கட்டாயத் தேவை",
+    "taExample": "மென்பொருளை வெளியிடுவதற்கு முன் அனைத்து பாதுகாப்பு பரிசோதனைகளிலும் தேர்ச்சி பெறுவது கட்டாயத் தேவையாகும்.",
+    "synonyms": [
+      "Necessary",
+      "Required",
+      "Essential",
+      "Mandatory",
+      "Vital"
+    ],
+    "antonyms": [
+      "Unnecessary",
+      "Optional",
+      "Superfluous"
     ]
   },
   {
