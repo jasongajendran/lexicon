@@ -14,7 +14,9 @@
     "antonyms": [
       "X-Axis",
       "Abscissa"
-    ]
+    ],
+    "enExample2": "The monitoring dashboard plots server request latency in milliseconds along the vertical Y-Axis.",
+    "taExample2": "கண்காணிப்பு பலகை சேவையக கோரிக்கை தாமதத்தை மில்லி விநாடிகளில் செங்குத்து Y-அச்சில் (Y-Axis) காட்டுகிறது."
   },
   {
     "id": 2507,
@@ -31,7 +33,9 @@
     "antonyms": [
       "Explicit iterative loop",
       "Named direct recursion"
-    ]
+    ],
+    "enExample2": "The Y-Combinator is a foundational functional programming construct enabling recursion in lambda calculus without named functions.",
+    "taExample2": "ஒய்-காம்பினேட்டர் (Y-Combinator) என்பது பெயரிடப்பட்ட செயல்பாடுகள் இன்றி சுழல்நிலையை செயல்படுத்தும் அடிப்படைக் கணிதக் கட்டமைப்பாகும்."
   },
   {
     "id": 2512,
@@ -47,7 +51,9 @@
     ],
     "antonyms": [
       "X-Delta"
-    ]
+    ],
+    "enExample2": "Measuring the Y-Delta difference between two performance runs reveals the exact impact of our database indexing.",
+    "taExample2": "இரண்டு சோதனை ஓட்டங்களுக்கு இடையிலான Y-Delta வேறுபாட்டை அளவிடுவது எங்கள் தரவுத்தள குறியீட்டின் துல்லியமான தாக்கத்தை வெளிப்படுத்துகிறது."
   },
   {
     "id": 2510,
@@ -63,7 +69,9 @@
     ],
     "antonyms": [
       "X-intercept"
-    ]
+    ],
+    "enExample2": "In linear regression analysis, the Y-Intercept represents the baseline latency when network payload size is zero.",
+    "taExample2": "நேரியல் பின்னடைவு பகுப்பாய்வில் Y-Intercept என்பது தரவு அளவு பூஜ்ஜியமாக இருக்கும்போது உள்ள அடிப்படை தாமதத்தைக் குறிக்கிறது."
   },
   {
     "id": 2515,
@@ -81,7 +89,9 @@
       "X-Coordinate",
       "Horizontal axis",
       "Z-Depth point"
-    ]
+    ],
+    "enExample2": "The mouse tracking telemetry recorded the precise Y-Point coordinate of every user click across the screen.",
+    "taExample2": "மவுஸ் கண்காணிப்பு அமைப்பு திரையில் பயனர் கிளிக் செய்த ஒவ்வொரு இடத்தின் துல்லியமான Y-Point ஆயத்தொலைவை பதிவு செய்தது."
   },
   {
     "id": 2511,
@@ -97,7 +107,9 @@
     ],
     "antonyms": [
       "X-Scale"
-    ]
+    ],
+    "enExample2": "Using a logarithmic Y-Scale on throughput charts prevents high traffic spikes from flattening baseline variance.",
+    "taExample2": "வரைபடங்களில் மடக்கை Y-Scale-ஐப் பயன்படுத்துவது அதிக போக்குவரத்து அதிகரிப்பு அடிப்படை மாறுபாடுகளை மறைப்பதைத் தடுக்கிறது."
   },
   {
     "id": 2504,
@@ -114,7 +126,9 @@
     "antonyms": [
       "Over-engineering",
       "Premature optimization"
-    ]
+    ],
+    "enExample2": "Following the YAGNI ('You Aren't Gonna Need It') principle helps engineers avoid over-engineering speculative features.",
+    "taExample2": "YAGNI கொள்கையைப் பின்பற்றுவது பொறியாளர்கள் தேவையில்லாத கற்பனை அம்சங்களை முன்கூட்டியே உருவாக்கி சிக்கலாக்குவதைத் தடுக்கிறது."
   },
   {
     "id": 2829,
@@ -131,7 +145,9 @@
     "antonyms": [
       "Direct execution",
       "Laser focus"
-    ]
+    ],
+    "enExample2": "What began as a simple CSS color tweak turned into four hours of yak shaving to update compiler build tools.",
+    "taExample2": "எளிய வண்ண மாற்றமாகத் தொடங்கியது தொகுப்பி கருவிகளைப் புதுப்பிக்கும் நான்கு மணி நேர வீண் அலைக்கழிப்பாக (Yak Shaving) மாறியது."
   },
   {
     "id": 2501,
@@ -148,7 +164,9 @@
     "antonyms": [
       "JSON",
       "XML"
-    ]
+    ],
+    "enExample2": "Kubernetes manifests and GitHub Actions workflows are declared using human-readable YAML configuration files.",
+    "taExample2": "குபெர்னெட்டீஸ் மற்றும் GitHub Actions பணிப்பாய்வுகள் எளிதில் வாசிக்கக்கூடிய YAML கட்டமைப்பு கோப்புகள் மூலம் அறிவிக்கப்படுகின்றன."
   },
   {
     "id": 2626,
@@ -166,7 +184,9 @@
     "antonyms": [
       "Be concise",
       "Summarize"
-    ]
+    ],
+    "enExample2": "Engineers wished the vendor would stop the endless sales yap and provide concrete technical benchmark charts.",
+    "taExample2": "விற்பனையாளர் முடிவில்லாத வெற்றுப் பேச்சை (Yap) நிறுத்திவிட்டு உறுதியான சோதனை வரைபடங்களை வழங்க வேண்டும் என பொறியாளர்கள் விரும்பினர்."
   },
   {
     "id": 2503,
@@ -183,7 +203,9 @@
     "antonyms": [
       "npm",
       "pnpm"
-    ]
+    ],
+    "enExample2": "Yarn package manager caches downloaded npm modules locally to accelerate reproducible build speeds.",
+    "taExample2": "யார்ன் (Yarn) தொகுப்பு மேலாளர் பதிவிறக்கப்பட்ட நூலகங்களை உள்ளூரில் சேமித்து உருவாக்க வேகத்தை அதிகரிக்கிறது."
   },
   {
     "id": 2509,
@@ -199,7 +221,9 @@
     ],
     "antonyms": [
       "Sequential growth"
-    ]
+    ],
+    "enExample2": "The platform recorded a seventy percent Year-Over-Year growth in daily active API transactions.",
+    "taExample2": "இந்த தளம் தினசரி செயலில் உள்ள API பரிவர்த்தனைகளில் ஆண்டுக்கு ஆண்டு (Year-Over-Year) எழுபது சதவீத வளர்ச்சியைப் பதிவு செய்தது."
   },
   {
     "id": 2516,
@@ -217,7 +241,9 @@
     "antonyms": [
       "Despise",
       "Dislike"
-    ]
+    ],
+    "enExample2": "Senior developers yearn for simple, lightweight architectures that avoid unnecessary framework complexity.",
+    "taExample2": "தேவையற்ற கட்டமைப்பு சிக்கல்கள் இல்லாத எளிய, இலகுரக மென்பொருள் வடிவமைப்பையே மூத்த உருவாக்குநர்கள் பெரிதும் விரும்புகின்றனர் (Yearn)."
   },
   {
     "id": 2514,
@@ -234,7 +260,9 @@
     "antonyms": [
       "Greenfield",
       "Brownfield"
-    ]
+    ],
+    "enExample2": "A yellowfield project requires modernizing existing legacy systems while maintaining continuous live customer traffic.",
+    "taExample2": "ஒரு எல்லோஃபீல்ட் (Yellowfield) திட்டம் நேரலை போக்குவரத்தைப் பராமரித்துக் கொண்டே ஏற்கனவே உள்ள பழைய அமைப்புகளை நவீனமயமாக்குவதைக் கோருகிறது."
   },
   {
     "id": 2502,
@@ -251,7 +279,9 @@
     ],
     "antonyms": [
       "Return"
-    ]
+    ],
+    "enExample2": "JavaScript generator functions use the 'yield' keyword to pause execution and emit sequential stream values on demand.",
+    "taExample2": "ஜாவாஸ்கிரிப்ட் ஜெனரேட்டர்கள் இயக்கத்தை தற்காலிகமாக நிறுத்தி தேவைக்கேற்ப தொடர் மதிப்புகளை வெளியிட 'yield' வார்த்தையைப் பயன்படுத்துகின்றன."
   },
   {
     "id": 2513,
@@ -268,7 +298,9 @@
     "antonyms": [
       "Fixed flat pricing",
       "Unoptimized capacity allocation"
-    ]
+    ],
+    "enExample2": "Cloud providers apply dynamic yield management algorithms to maximize server hardware utilization and revenue.",
+    "taExample2": "கிளவுட் நிறுவனங்கள் வன்பொருள் பயன்பாட்டையும் வருவாயையும் அதிகரிக்க டைனமிக் வருவாய் மேலாண்மை (Yield Management) வழிமுறைகளைப் பயன்படுத்துகின்றன."
   },
   {
     "id": 2508,
@@ -285,6 +317,30 @@
     "antonyms": [
       "Blocking",
       "Monopolizing"
+    ],
+    "enExample2": "Yielding control back to the browser event loop prevents long-running JavaScript loops from freezing the UI.",
+    "taExample2": "கட்டுப்பாட்டை உலாவி நிகழ்வு வளையத்திற்கு விட்டுக் கொடுப்பது (Yielding) நீண்ட சுழல்கள் திரையை உறையச் செய்வதைத் தடுக்கிறது."
+  },
+  {
+    "id": 3392,
+    "word": "yoke",
+    "pos": "noun",
+    "definition": "A wooden crosspiece binding working animals; metaphorically, a burden, obligation, or spiritual connection.",
+    "taWord": "நுகத்தடி (பிணைப்பு / பொறுப்பு)",
+    "enExample": "The team shed the heavy yoke of legacy technical debt by re-platforming to cloud-native microservices.",
+    "taExample": "கிளவுட் அமைப்புகளுக்கு மாறியதன் மூலம் பொறியியல் குழு பழைய தொழில்நுட்பக் கடனின் பாரமான நுகத்தடியை இறக்கி வைத்தது.",
+    "enExample2": "Jesus said, 'Take my yoke upon you and learn from me, for I am gentle and humble in heart.'",
+    "taExample2": "'என் நுகத்தடியை உங்கள் மேல் ஏற்றுக்கொண்டு என்னிடத்தில் கற்றுக்கொள்ளுங்கள்; நான் மனத்தாழ்மையுள்ளவனாயிருக்கிறேன்' என்று இயேசு கூறினார்.",
+    "synonyms": [
+      "bond",
+      "harness",
+      "burden",
+      "tie"
+    ],
+    "antonyms": [
+      "freedom",
+      "liberation",
+      "release"
     ]
   },
   {
@@ -303,7 +359,9 @@
     "antonyms": [
       "Sophisticate",
       "City slicker"
-    ]
+    ],
+    "enExample2": "Sophisticated social engineering attackers deliberately pretend to be a clueless yokel to trick support agents into resetting passwords.",
+    "taExample2": "ஆதரவு ஊழியர்களை ஏமாற்றி கடவுச்சொற்களை மீட்டமைக்க சமூக பொறியியல் தாக்குதல் நடத்துபவர்கள் விவரமறியாத வெள்ளந்தியாகப் (Yokel) பாசாங்கு செய்கிறார்கள்."
   },
   {
     "id": 2505,
@@ -321,6 +379,8 @@
       "Single bit",
       "Byte",
       "Kilobyte"
-    ]
+    ],
+    "enExample2": "A yottabyte represents an astronomical volume of data equal to one trillion terabytes.",
+    "taExample2": "ஒரு யோட்டாபைட் (Yottabyte) என்பது ஒரு டிரில்லியன் டெராபைட்டுகளுக்கு சமமான பிரம்மாண்டமான வானியல் தரவு அளவைக் குறிக்கிறது."
   }
 ]

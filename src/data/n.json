@@ -14,7 +14,9 @@
     "antonyms": [
       "Monolithic",
       "Single-tier"
-    ]
+    ],
+    "enExample2": "An enterprise N-tier architecture separates presentation, application logic, and data persistence into distinct tiers.",
+    "taExample2": "நிறுவன N-அடுக்கு (N-tier) கட்டமைப்பு காட்சி, பயன்பாட்டுத் தர்க்கம் மற்றும் தரவு சேமிப்பை தனித்தனி அடுக்குகளாகப் பிரிக்கிறது."
   },
   {
     "id": 1416,
@@ -32,6 +34,30 @@
     "antonyms": [
       "Zenith",
       "Peak"
+    ],
+    "enExample2": "The massive four-hour worldwide outage marked the lowest operational nadir in the company's decade-long history.",
+    "taExample2": "நான்கு மணி நேர உலகளாவிய முடக்கம் நிறுவனத்தின் பத்தாண்டு வரலாற்றில் மிக மோசமான கீழ்நிலையைக் (Nadir) குறித்தது."
+  },
+  {
+    "id": 3322,
+    "word": "Naff",
+    "pos": "Adjective",
+    "definition": "UK informal word meaning lacking style, tasteless, or poorly designed UI/code.",
+    "taWord": "சுவையற்ற/மோசமான (Suvaiyatra/mosaamaana)",
+    "enExample": "The old user interface looked completely naff compared to modern Tailwind CSS designs.",
+    "taExample": "நவீன Tailwind CSS வடிவமைப்புகளுடன் ஒப்பிடும்போது பழைய பயனர் இடைமுகம் முற்றிலும் மோசமாகத் தெரிந்தது.",
+    "enExample2": "Avoid using naff clipart; modern web apps require clean, crisp vector graphics.",
+    "taExample2": "மோசமான கிளிபார்ட்டைப் பயன்படுத்துவதைத் தவிர்க்கவும்; நவீன வலை பயன்பாடுகளுக்கு சுத்தமான வெக்டார் கிராபிக்ஸ் தேவைப்படுகிறது.",
+    "synonyms": [
+      "tacky",
+      "unstylish",
+      "subpar",
+      "poorly executed"
+    ],
+    "antonyms": [
+      "stylish",
+      "elegant",
+      "chic"
     ]
   },
   {
@@ -49,6 +75,29 @@
     ],
     "antonyms": [
       "Global scope"
+    ],
+    "enExample2": "Kubernetes namespaces isolate distinct staging, testing, and production environments within a single cluster.",
+    "taExample2": "குபெர்னெட்டீஸ் பெயர்வெளிகள் (Namespaces) ஒரே கிளஸ்டருக்குள் சோதனை மற்றும் உற்பத்தி சூழல்களை தனிமைப்படுத்துகின்றன."
+  },
+  {
+    "id": 3370,
+    "word": "narrative",
+    "pos": "noun",
+    "definition": "A connected series of events represented in story form or used to frame public understanding.",
+    "taWord": "கதைக்களம் (செய்திப் பின்னணி)",
+    "enExample": "The engineering blog framed the cloud migration narrative around cost reduction and developer speed.",
+    "taExample": "என்ஜினீயரிங் பதிவு கிளவுட் மாற்றத்தின் கதைக்களத்தை செலவு குறைப்பு மற்றும் வேகத்தை மையமாகக் கொண்டு அமைத்தது.",
+    "enExample2": "Political commentators analyzed how media coverage shapes the public narrative around inflation.",
+    "taExample2": "ஊடகங்கள் எவ்வாறு பணவீக்கம் பற்றிய மக்களின் புரிதலை வடிவமைக்கின்றன என்று அரசியல் விமர்சகர்கள் ஆராய்ந்தனர்.",
+    "synonyms": [
+      "story",
+      "account",
+      "framing",
+      "perspective"
+    ],
+    "antonyms": [
+      "raw data",
+      "random facts"
     ]
   },
   {
@@ -67,7 +116,9 @@
     "antonyms": [
       "Developed",
       "Mature"
-    ]
+    ],
+    "enExample2": "The company established a dedicated research lab to explore nascent quantum machine learning architectures.",
+    "taExample2": "வளர்ந்து வரும் (Nascent) குவாண்டம் இயந்திர கற்றல் கட்டமைப்புகளை ஆராய நிறுவனம் ஒரு பிரத்யேக ஆய்வகத்தை அமைத்தது."
   },
   {
     "id": 1402,
@@ -86,7 +137,9 @@
       "Emulated",
       "Interpreted",
       "Cross-platform"
-    ]
+    ],
+    "enExample2": "Writing native Swift code allows iOS applications to leverage Apple Neural Engine hardware with maximum speed.",
+    "taExample2": "சுயாதீன (Native) Swift குறியீட்டை எழுதுவது iOS பயன்பாடுகள் ஆப்பிள் நியூரல் என்ஜின் வன்பொருளை முழு வேகத்தில் பயன்படுத்த அனுமதிக்கிறது."
   },
   {
     "id": 1403,
@@ -106,7 +159,9 @@
       "Wandering",
       "Disorientation",
       "Dead end"
-    ]
+    ],
+    "enExample2": "Accessible keyboard navigation ensures users can tab through all interactive buttons without a mouse.",
+    "taExample2": "விசைப்பலகை வழிசெலுத்தல் (Navigation) பயனர்கள் மவுஸ் இன்றி அனைத்து பொத்தான்களையும் எளிதாக அணுகுவதை உறுதி செய்கிறது."
   },
   {
     "id": 3054,
@@ -128,6 +183,50 @@
       "Distinct",
       "Definite",
       "Precise"
+    ],
+    "enExample2": "The product proposal received pushback due to nebulous business goals and ill-defined technical scope.",
+    "taExample2": "தெளிவற்ற (Nebulous) வணிக இலக்குகள் மற்றும் முறையற்ற தொழில்நுட்ப வரையறை காரணமாக அந்த திட்ட முன்மொழிவு நிராகரிக்கப்பட்டது."
+  },
+  {
+    "id": 3371,
+    "word": "neologism",
+    "pos": "noun",
+    "definition": "A newly coined word, expression, or technical term introduced into a language.",
+    "taWord": "புதிய சொல் (புதிதாக உருவாக்கப்படும் சொல்)",
+    "enExample": "Terms like 'DevOps' and 'Serverless' were tech neologisms that eventually became standard industry parlance.",
+    "taExample": "'தேவ்ஆப்ஸ்' மற்றும் 'சர்வர்லெஸ்' போன்ற சொற்கள் தொழில்துறையில் பொதுவான புதிய சொற்களாக மாறின.",
+    "enExample2": "Linguists track social media neologisms to study how youth culture transforms spoken English.",
+    "taExample2": "இளைஞர் கலாச்சாரம் பேசும் மொழியை எவ்வாறு மாற்றுகிறது என்பதைப் படிக்க மொழியியலாளர்கள் புதிய சொற்களைக் கண்காணிக்கிறார்கள்.",
+    "synonyms": [
+      "coinage",
+      "new expression",
+      "buzzword"
+    ],
+    "antonyms": [
+      "archaism",
+      "obsolete word"
+    ]
+  },
+  {
+    "id": 3278,
+    "word": "Neophyte",
+    "pos": "Noun",
+    "definition": "A person who is new to a subject, technology, or faith; a beginner or junior developer.",
+    "taWord": "புதியவர்/தொடக்கநிலை நபர் (Puthiyavar/thodakkanilai napar)",
+    "enExample": "Senior developers provided patient mentoring to help the coding neophyte learn Git workflows.",
+    "taExample": "மூத்த டெவலப்பர்கள் குறியீட்டு புதியவர் Git பணிப்பாய்வுகளைக் கற்றுக்கொள்ள நோயாற்ற வழிகாட்டுதலை வழங்கினர்.",
+    "enExample2": "A neophyte in fellowship is encouraged by mature believers to grow in knowledge and faith.",
+    "taExample2": "தோழமையில் உள்ள ஒரு புதியவர் அறிவிலும் நம்பிக்கையிலும் வளர முதிர்ந்த விசுவாசிகளால் ஊக்குவிக்கப்படுகிறார்.",
+    "synonyms": [
+      "beginner",
+      "novice",
+      "fledgling",
+      "initiate"
+    ],
+    "antonyms": [
+      "veteran",
+      "expert",
+      "master"
     ]
   },
   {
@@ -149,7 +248,9 @@
       "Fairness",
       "Impartiality",
       "Objectivity"
-    ]
+    ],
+    "enExample2": "The company implemented blind, standardized technical interviews to eliminate bias and nepotism in hiring.",
+    "taExample2": "பணியமர்த்தலில் பாரபட்சம் மற்றும் வேண்டியவருக்கு முன்னுரிமை அளிப்பதை (Nepotism) ஒழிக்க நிறுவனம் தரப்படுத்தப்பட்ட நேர்காணல்களை அமைத்தது."
   },
   {
     "id": 1404,
@@ -167,7 +268,9 @@
     "antonyms": [
       "Flat",
       "Outer"
-    ]
+    ],
+    "enExample2": "Deeply nested JSON objects can increase deserialization latency and complicate TypeScript type definitions.",
+    "taExample2": "ஆழமாக ஒன்றனுள் ஒன்று பொதிந்த (Nested) JSON தரவுகள் மாற்றும் நேரத்தை அதிகரித்து வகை வரையறைகளை சிக்கலாக்கும்."
   },
   {
     "id": 1405,
@@ -184,7 +287,9 @@
     ],
     "antonyms": [
       "Standalone"
-    ]
+    ],
+    "enExample2": "A fiber-optic backbone connects the distributed datacenters across a low-latency private network.",
+    "taExample2": "ஃபைபர்-ஆப்டிக் இணைப்பானது குறைந்த தாமத தனியார் வலையமைப்பின் (Network) மூலம் விநியோகிக்கப்பட்ட தரவு மையங்களை இணைக்கிறது."
   },
   {
     "id": 1406,
@@ -203,7 +308,9 @@
       "Inconsequential",
       "Opposite",
       "Irrelevant"
-    ]
+    ],
+    "enExample2": "Modern smartphone processors include specialized neural cores dedicated to on-device computer vision tasks.",
+    "taExample2": "நவீன ஸ்மார்ட்போன் செயலிகள் பட செயலாக்கப் பணிகளுக்கான பிரத்யேக நியூரல் (Neural) உள்ளகங்களைக் கொண்டுள்ளன."
   },
   {
     "id": 2804,
@@ -221,7 +328,9 @@
     "antonyms": [
       "Blocker issue",
       "Critical bug finding"
-    ]
+    ],
+    "enExample2": "Reviewers should focus on architectural design rather than nitpick over single-line variable naming choices.",
+    "taExample2": "மறுஆய்வாளர்கள் சிறிய மாறிப் பெயர்களில் அற்பக் குறைகளைத் தேடாமல் (Nitpick) கட்டமைப்பு வடிவமைப்பில் கவனம் செலுத்த வேண்டும்."
   },
   {
     "id": 1419,
@@ -239,7 +348,9 @@
     "antonyms": [
       "High-level",
       "Overview"
-    ]
+    ],
+    "enExample2": "After the high-level roadmap presentation, the team dug into the nitty-gritty implementation details of the migration.",
+    "taExample2": "உயர்நிலை திட்ட அறிமுகத்திற்குப் பிறகு குழு மாற்றத்தின் அடிப்படை நுணுக்கமான விவரங்களில் (Nitty-gritty) இறங்கி செயல்பட்டது."
   },
   {
     "id": 2620,
@@ -258,7 +369,9 @@
       "Capping",
       "Lying",
       "Exaggerating"
-    ]
+    ],
+    "enExample2": "Upgrading our database to the latest NVMe storage instances made our API three times faster, no cap.",
+    "taExample2": "எங்கள் தரவுத்தளத்தை புதிய சேமிப்பகத்திற்கு மாற்றியது எங்கள் API-ஐ மூன்று மடங்கு வேகமாக்கியது, முற்றிலும் உண்மை (No Cap)."
   },
   {
     "id": 1407,
@@ -277,7 +390,9 @@
       "Edge connector",
       "Empty graph",
       "Network root"
-    ]
+    ],
+    "enExample2": "Each compute node in the distributed cluster processes a subset of incoming analytics partitions in parallel.",
+    "taExample2": "விநியோகிக்கப்பட்ட கிளஸ்டரில் உள்ள ஒவ்வொரு கணினி முனையமும் (Node) பகுப்பாய்வுப் பிரிவுகளை ஒரே நேரத்தில் செயலாக்குகிறது."
   },
   {
     "id": 1408,
@@ -294,7 +409,9 @@
     "antonyms": [
       "Blocking",
       "Synchronous"
-    ]
+    ],
+    "enExample2": "Using non-blocking asynchronous file streams allows the server to serve thousands of concurrent downloads.",
+    "taExample2": "முடக்காத (Non-blocking) ஒத்திசைவற்ற கோப்பு ஓட்டங்களைப் பயன்படுத்துவது ஒரே நேரத்தில் ஆயிரக்கணக்கான பதிவிறக்கங்களை வழங்க உதவுகிறது."
   },
   {
     "id": 2733,
@@ -313,7 +430,9 @@
       "static token",
       "reusable key",
       "fixed hash"
-    ]
+    ],
+    "enExample2": "Cryptographic protocols generate a single-use random nonce with each request to prevent replay attacks.",
+    "taExample2": "மீண்டும் இயக்கும் தாக்குதல்களைத் தடுக்க குறியாக்க நெறிமுறைகள் ஒவ்வொரு கோரிக்கையுடனும் ஒரு முறை மட்டுமே பயன்படும் சீரற்ற குறியீட்டை (Nonce) உருவாக்குகின்றன."
   },
   {
     "id": 2888,
@@ -334,7 +453,9 @@
       "Agitated",
       "Concerned",
       "Alarmed"
-    ]
+    ],
+    "enExample2": "The lead engineer remained nonchalant under pressure, calmly resolving the live database deadlock in minutes.",
+    "taExample2": "அழுத்தமான சூழலிலும் முதன்மை பொறியாளர் பதற்றமின்றி அமைதியாக இருந்து சில நிமிடங்களில் நேரலை பிழையை சரிசெய்தார்."
   },
   {
     "id": 1409,
@@ -350,7 +471,9 @@
     ],
     "antonyms": [
       "Denormalization"
-    ]
+    ],
+    "enExample2": "Third normal form normalization minimizes data redundancy across relational database schemas.",
+    "taExample2": "மூன்றாம் நிலை தரவு இயல்பாக்கம் (Normalization) ரிலேஷனல் தரவுத்தளங்களில் தேவையற்ற தரவு நகல்களை மிகக் குறைக்கிறது."
   },
   {
     "id": 2663,
@@ -368,6 +491,50 @@
     "antonyms": [
       "Distraction",
       "Vanity metric"
+    ],
+    "enExample2": "Sub-100ms global search latency is the north star metric guiding our infrastructure optimization efforts.",
+    "taExample2": "100 மில்லி விநாடிக்கு குறைவான உலகளாவிய தேடல் நேரமே எங்கள் உள்கட்டமைப்பு உகப்பாக்க முயற்சிகளை வழிநடத்தும் துருவ நட்சத்திர (North Star) அளவீடாகும்."
+  },
+  {
+    "id": 3221,
+    "word": "North-star",
+    "pos": "Noun",
+    "definition": "A key guiding architectural metric or vision that aligns engineering, product, and business goals.",
+    "taWord": "வழிகாட்டும் இலக்கு (Vazhikaattum ilakku)",
+    "enExample": "Reducing API latency below 50 milliseconds was our engineering department's North-star metric.",
+    "taExample": "API தாமதத்தை 50 மில்லி விநாடிகளுக்குக் கீழே குறைப்பது எங்கள் பொறியியல் துறையின் வழிகாட்டும் இலக்கு அளவீடாகும்.",
+    "enExample2": "A well-defined product North-star prevents feature creep during long development cycles.",
+    "taExample2": "நன்கு வரையறுக்கப்பட்ட தயாரிப்பு வழிகாட்டும் இலக்கு நீண்ட வளர்ச்சி சுழற்சிகளின் போது தேவையற்ற அம்சங்கள் சேருவதைத் தடுக்கிறது.",
+    "synonyms": [
+      "guiding principle",
+      "beacon",
+      "ultimate goal",
+      "benchmark"
+    ],
+    "antonyms": [
+      "distraction",
+      "deviation"
+    ]
+  },
+  {
+    "id": 3323,
+    "word": "Nosh",
+    "pos": "Noun",
+    "definition": "UK and Scottish informal word for food or enjoying a light meal together during breaks.",
+    "taWord": "சிற்றுண்டி (Sittrundi)",
+    "enExample": "The team grabbed some tasty nosh during the mid-sprint engineering hackathon break.",
+    "taExample": "ஸ்பிரின்ட்டின் நடுப்பகுதியில் நடந்த பொறியியல் ஹேக்கத்தான் இடைவேளையின் போது குழு சில சுவையான சிற்றுண்டிகளை சாப்பிட்டது.",
+    "enExample2": "Fellowship meetings often include hot drinks and friendly nosh.",
+    "taExample2": "தோழமைக் கூட்டங்களில் பெரும்பாலும் சூடான பானங்கள் மற்றும் நட்பு சிற்றுண்டி ஆகியவை அடங்கும்.",
+    "synonyms": [
+      "food",
+      "snack",
+      "refreshment",
+      "grub"
+    ],
+    "antonyms": [
+      "fasting",
+      "starvation"
     ]
   },
   {
@@ -387,7 +554,9 @@
       "Oral tradition",
       "Unrecorded thought",
       "Ambiguity"
-    ]
+    ],
+    "enExample2": "Big O notation provides a standardized mathematical framework to describe algorithmic time and space complexity.",
+    "taExample2": "பிக் ஓ குறியீடு (Big O Notation) வழிமுறைகளின் நேர மற்றும் நினைவக சிக்கலை விவரிக்க ஒரு தரப்படுத்தப்பட்ட கணித அமைப்பை வழங்குகிறது."
   },
   {
     "id": 1410,
@@ -407,7 +576,9 @@
       "Overlook",
       "Neglect",
       "Silence"
-    ]
+    ],
+    "enExample2": "The cloud provider gave a six-month advance notice before deprecating the legacy serverless runtime version.",
+    "taExample2": "பழைய சர்வர்லெஸ் இயக்க பதிப்பை நிறுத்துவதற்கு முன் கிளவுட் நிறுவனம் ஆறு மாத முன்கூட்டிய அறிவிப்பை (Notice) வழங்கியது."
   },
   {
     "id": 1414,
@@ -427,7 +598,9 @@
       "Suppression",
       "Muting",
       "Ignorance"
-    ]
+    ],
+    "enExample2": "The mobile app uses push notification payloads to alert users about urgent security policy updates.",
+    "taExample2": "அவசர பாதுகாப்பு விதிகள் குறித்து பயனர்களை எச்சரிக்க மொபைல் செயலி புஷ் அறிவிப்புகளைப் (Notification) பயன்படுத்துகிறது."
   },
   {
     "id": 1418,
@@ -447,7 +620,9 @@
       "Obviousness",
       "Simplicity",
       "Crude distinction"
-    ]
+    ],
+    "enExample2": "Understanding the nuance between optimistic and pessimistic database concurrency prevents subtle race conditions.",
+    "taExample2": "நம்பிக்கை மற்றும் அவநம்பிக்கை தரவுத்தள பூட்டுதலுக்கு இடையிலான நுணுக்கமான வேறுபாட்டைப் (Nuance) புரிந்துகொள்வது சமகால பிழைகளைத் தவிர்க்கிறது."
   },
   {
     "id": 1411,
@@ -465,7 +640,9 @@
     "antonyms": [
       "Value",
       "Defined"
-    ]
+    ],
+    "enExample2": "In TypeScript, strict null checking ensures developers explicitly handle unassigned object references.",
+    "taExample2": "TypeScript-ல் கடுமையான Null சரிபார்ப்பு உருவாக்குநர்கள் ஒதுக்கப்படாத மாறிகளை முறையாகக் கையாள்வதை உறுதி செய்கிறது."
   },
   {
     "id": 2734,
@@ -483,7 +660,9 @@
     "antonyms": [
       "falsy coercion",
       "implicit casting"
-    ]
+    ],
+    "enExample2": "Using the nullish coalescing operator (??) ensures default values apply only when a property is null or undefined.",
+    "taExample2": "Nullish Coalescing குறியீட்டைப் (??) பயன்படுத்துவது ஒரு மதிப்பு null அல்லது undefined ஆக இருக்கும்போது மட்டுமே இயல்புநிலை மதிப்புகளை அமைக்கிறது."
   },
   {
     "id": 1412,
@@ -500,6 +679,8 @@
     "antonyms": [
       "Alphabetic",
       "Textual"
-    ]
+    ],
+    "enExample2": "High-precision numeric types prevent rounding errors in financial calculation engines.",
+    "taExample2": "உயர் துல்லிய எண் (Numeric) வகைகள் நிதி கணக்கீட்டு இயந்திரங்களில் தசம தவறுகள் ஏற்படுவதைத் தடுக்கின்றன."
   }
 ]

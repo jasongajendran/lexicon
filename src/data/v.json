@@ -15,7 +15,9 @@
     "antonyms": [
       "Resolute",
       "Decide"
-    ]
+    ],
+    "enExample2": "Management must not vacillate between competing cloud platforms when planning multi-year infrastructure investments.",
+    "taExample2": "நீண்டகால உள்கட்டமைப்பு திட்டமிடலின் போது போட்டி கிளவுட் தளங்களுக்கு இடையே நிர்வாகம் தயங்கி அலைபாயக் (Vacillate) கூடாது."
   },
   {
     "id": 2201,
@@ -33,6 +35,30 @@
     "antonyms": [
       "Invalidation",
       "Corruption"
+    ],
+    "enExample2": "Client-side schema validation gives immediate visual feedback before form submissions reach the backend API.",
+    "taExample2": "வாடிக்கையாளர் பக்க சரிபார்ப்பு (Validation) கோரிக்கைகள் சர்வரை அடைவதற்கு முன்பே உடனடி பிழை அறிவிப்புகளை வழங்குகிறது."
+  },
+  {
+    "id": 3387,
+    "word": "validity",
+    "pos": "noun",
+    "definition": "The quality of being logically or factually sound, correct, and legally or technically binding.",
+    "taWord": "செல்லுபடி தன்மை (உண்மைத் தன்மை)",
+    "enExample": "Automated unit tests confirm the validity of API request payloads before persisting data.",
+    "taExample": "தானியங்கி சோதனைகள் தகவல்களைச் சேமிப்பதற்கு முன் ஏபிஐ கோரிக்கைகளின் உண்மைத் தன்மையை உறுதிப்படுத்துகின்றன.",
+    "enExample2": "The high court upheld the legal validity of the constitutional amendment voted on by parliament.",
+    "taExample2": "நாடாளுமன்றத்தில் வாக்களிக்கப்பட்ட அரசியலமைப்பு திருத்தத்தின் சட்டப்பூர்வ செல்லுபடி தன்மையை உயர் நீதிமன்றம் உறுதி செய்தது.",
+    "synonyms": [
+      "soundness",
+      "legitimacy",
+      "authenticity",
+      "correctness"
+    ],
+    "antonyms": [
+      "invalidity",
+      "falsity",
+      "flimsiness"
     ]
   },
   {
@@ -49,7 +75,9 @@
     ],
     "antonyms": [
       "Entity"
-    ]
+    ],
+    "enExample2": "In Domain-Driven Design, a Value Object is defined purely by its immutable attributes rather than a persistent ID.",
+    "taExample2": "டொமைன்-டிரிவன் டிசைனில் ஒரு மதிப்புப் பொருள் (Value Object) அடையாள எண்ணை விட அதன் மாறாத பண்புகளாலேயே வரையறுக்கப்படுகிறது."
   },
   {
     "id": 2656,
@@ -67,7 +95,9 @@
     "antonyms": [
       "Commodity",
       "Generic pitch"
-    ]
+    ],
+    "enExample2": "The clear value proposition of serverless computing is paying exclusively for actual execution time rather than idle servers.",
+    "taExample2": "பயன்படாத சர்வர்களுக்கு அல்லாமல் உண்மையான இயக்க நேரத்திற்கு மட்டுமே கட்டணம் செலுத்துவதே சர்வர்லெஸ் கணினியின் முக்கிய மதிப்பு முன்மொழிவாகும் (Value proposition)."
   },
   {
     "id": 2202,
@@ -85,7 +115,9 @@
     "antonyms": [
       "Constant",
       "Literal"
-    ]
+    ],
+    "enExample2": "Declaring immutable constants with 'const' prevents unexpected variable reassignments in JavaScript.",
+    "taExample2": "'const' மூலம் மாறிலிகளை அறிவிப்பது ஜாவாஸ்கிரிப்ட்டில் மாறிகள் (Variables) எதிர்பாராதவிதமாக மாற்றப்படுவதைத் தடுக்கிறது."
   },
   {
     "id": 2203,
@@ -102,7 +134,9 @@
     "antonyms": [
       "Raster",
       "Scalar"
-    ]
+    ],
+    "enExample2": "SVG vector graphics maintain pristine resolution across both high-density mobile screens and 4K desktop displays.",
+    "taExample2": "SVG வெக்டர் (Vector) வரைபடங்கள் மொபைல் திரைகள் மற்றும் 4K கணினிகள் இரண்டிலும் சிறந்த தெளிவுத்திறனைப் பராமரிக்கின்றன."
   },
   {
     "id": 2214,
@@ -118,7 +152,9 @@
     ],
     "antonyms": [
       "Relational database"
-    ]
+    ],
+    "enExample2": "A vector database indexes high-dimensional embeddings to perform semantic search across unstructured text documents.",
+    "taExample2": "ஒரு வெக்டர் தரவுத்தளம் (Vector Database) ஆவணங்களில் சொற்பொருள் தேடலைச் செய்ய உயர் பரிமாண எம்படிங்குகளை குறியிடுகிறது."
   },
   {
     "id": 2676,
@@ -136,7 +172,9 @@
     "antonyms": [
       "Stagnation",
       "Sluggishness"
-    ]
+    ],
+    "enExample2": "Automated continuous delivery pipelines dramatically boost sprint velocity across the engineering organization.",
+    "taExample2": "தானியங்கி தொடர் வெளியீட்டு பைப்லைன்கள் பொறியியல் துறை முழுவதும் ஸ்பிரிண்ட் வேகத்தை (Velocity) பெரிதும் அதிகரிக்கின்றன."
   },
   {
     "id": 2204,
@@ -154,7 +192,9 @@
     "antonyms": [
       "Internal",
       "Native"
-    ]
+    ],
+    "enExample2": "The company selected a specialized vendor to manage enterprise single sign-on authentication infrastructure.",
+    "taExample2": "பெருநிறுவன ஒற்றை உள்நுழைவு அமைப்பை நிர்வகிக்க நிறுவனம் ஒரு சிறப்பு சேவை விற்பனையாளரைத் (Vendor) தேர்ந்தெடுத்தது."
   },
   {
     "id": 3160,
@@ -175,7 +215,9 @@
       "Disreputable",
       "Unrespected",
       "Modern upstart"
-    ]
+    ],
+    "enExample2": "The venerable Unix command-line utilities remain the foundation of modern cloud DevOps scripting.",
+    "taExample2": "மதிப்பிற்குரிய பாரம்பரிய (Venerable) Unix கட்டளைகள் நவீன கிளவுட் DevOps ஸ்கிரிப்டிங்கின் அடித்தளமாக இன்றும் உள்ளன."
   },
   {
     "id": 2217,
@@ -193,6 +235,29 @@
     "antonyms": [
       "Despise",
       "Disrespect"
+    ],
+    "enExample2": "Junior developers venerate the senior architect for her encyclopedic knowledge of distributed systems.",
+    "taExample2": "விநியோகிக்கப்பட்ட அமைப்புகள் பற்றிய பரந்த அறிவிற்காக இளம் உருவாக்குநர்கள் மூத்த வடிவமைப்பாளரை மிகவும் மதிக்கின்றனர் (Venerate)."
+  },
+  {
+    "id": 3285,
+    "word": "Veneration",
+    "pos": "Noun",
+    "definition": "Great respect, honor, and awe paid to a person, sacred scripture, or foundational principle.",
+    "taWord": "மரியாதை/வணக்கம் (Mariyaathai/vanakkam)",
+    "enExample": "Experienced developers hold legendary computer science pioneers in high veneration.",
+    "taExample": "அனுபவம் வாய்ந்த டெவலப்பர்கள் பழம்பெரும் கணினி அறிவியல் முன்னோடிகளை மிகுந்த மரியாதையுடன் நடத்துகிறார்கள்.",
+    "enExample2": "Fellowship members treat sacred scripture with veneration and careful study.",
+    "taExample2": "தோழமை உறுப்பினர்கள் புனித வேதத்தை மரியாதையுடனும் கவனமான படிப்புடனும் நடத்துகிறார்கள்.",
+    "synonyms": [
+      "reverence",
+      "profound respect",
+      "adoration"
+    ],
+    "antonyms": [
+      "disrespect",
+      "scorn",
+      "disdain"
     ]
   },
   {
@@ -215,7 +280,9 @@
       "Inaccuracy",
       "Deceit",
       "Dishonesty"
-    ]
+    ],
+    "enExample2": "Cryptographic hash checksums verify the veracity of downloaded open-source installation binaries.",
+    "taExample2": "குறியாக்க செக்சம்கள் பதிவிறக்கம் செய்யப்பட்ட மென்பொருள் கோப்புகளின் உண்மைத்தன்மையை (Veracity) உறுதி செய்கின்றன."
   },
   {
     "id": 3161,
@@ -237,7 +304,9 @@
       "Succinct",
       "Laconic",
       "Terse"
-    ]
+    ],
+    "enExample2": "Setting the logger to verbose mode outputs granular debug traces for every incoming HTTP request.",
+    "taExample2": "பதிவை விரிவான (Verbose) நிலைக்கு அமைப்பது ஒவ்வொரு உள்வரும் HTTP கோரிக்கைக்கும் நுணுக்கமான பிழைத்திருத்த தகவல்களை வெளியிடுகிறது."
   },
   {
     "id": 3052,
@@ -257,7 +326,9 @@
       "Unverifiable",
       "Dubious",
       "Refutable"
-    ]
+    ],
+    "enExample2": "Blockchain smart contracts provide verifiable execution logs that cannot be altered retroactively.",
+    "taExample2": "பிளாக்செயின் ஸ்மார்ட் ஒப்பந்தங்கள் பின்னர் மாற்ற முடியாத சரிபார்க்கக்கூடிய (Verifiable) இயக்கப் பதிவுகளை வழங்குகின்றன."
   },
   {
     "id": 2205,
@@ -275,6 +346,30 @@
     "antonyms": [
       "Unversioned continuous mutate",
       "Untracked changes"
+    ],
+    "enExample2": "Semantic versioning (SemVer) communicates breaking changes, new features, and bug fixes through clear version numbers.",
+    "taExample2": "சொற்பொருள் பதிப்பாக்கம் (Versioning) தெளிவான எண்கள் மூலம் புதிய வசதிகள் மற்றும் பிழை திருத்தங்களைத் தெரிவிக்கிறது."
+  },
+  {
+    "id": 3212,
+    "word": "Vetting",
+    "pos": "Noun",
+    "definition": "The rigorous examination and security evaluation of third-party dependencies, open-source code, or candidates.",
+    "taWord": "ஆராய்ந்து சரிபார்த்தல் (Araandhu saripaarthal)",
+    "enExample": "Security vetting of open-source packages prevents supply-chain malware from infiltrating the repository.",
+    "taExample": "திறந்த மூல தொகுப்புகளின் பாதுகாப்பு ஆராய்ந்து சரிபார்த்தல் விநியோகச் சங்கிலி தீம்பொருள் களஞ்சியத்தில் ஊடுருவுவதைத் தடுக்கிறது.",
+    "enExample2": "Thorough technical vetting ensures newly hired senior engineers excel in system design.",
+    "taExample2": "முழுமையான தொழில்நுட்ப ஆராய்ந்து சரிபார்த்தல் புதிதாக பணியமர்த்தப்பட்ட மூத்த பொறியாளர்கள் கணினி வடிவமைப்பில் சிறந்து விளங்குவதை உறுதி செய்கிறது.",
+    "synonyms": [
+      "screening",
+      "scrutiny",
+      "validation",
+      "audit"
+    ],
+    "antonyms": [
+      "neglect",
+      "disregard",
+      "approval without check"
     ]
   },
   {
@@ -297,7 +392,9 @@
       "Placate",
       "Delight",
       "Mollify"
-    ]
+    ],
+    "enExample2": "Intermittent network timeouts continue to vex the site reliability team during high-traffic sales.",
+    "taExample2": "அவ்வப்போது ஏற்படும் நெட்வொர்க் காலாவதிகள் அதிக போக்குவரத்து விற்பனையின் போது நம்பகத்தன்மை குழுவை அலைக்கழிக்கின்றன (Vex)."
   },
   {
     "id": 2928,
@@ -318,6 +415,30 @@
       "Straightforward",
       "Soothing",
       "Comforting"
+    ],
+    "enExample2": "Debugging a non-deterministic concurrency race condition is one of the most vexing engineering challenges.",
+    "taExample2": "கணிக்க முடியாத சமகால போட்டி நிலை பிழையைத் திருத்துவது மிகவும் எரிச்சலூட்டும் (Vexing) பொறியியல் சவால்களில் ஒன்றாகும்."
+  },
+  {
+    "id": 3288,
+    "word": "Viable",
+    "pos": "Adjective",
+    "definition": "Capable of working successfully, executing reliably, or surviving in production environments.",
+    "taWord": "சாத்தியமான (Saathiyamaana)",
+    "enExample": "Building a minimum viable product allows startups to test market demand with minimal code.",
+    "taExample": "குறைந்தபட்ச சாத்தியமான தயாரிப்பை உருவாக்குவது தொடக்க நிறுவனங்கள் குறைந்தபட்ச குறியீட்டைக் கொண்டு சந்தை தேவையை சோதிக்க அனுமதிக்கிறது.",
+    "enExample2": "Serverless architecture proved to be a viable solution for handling sporadic traffic spikes.",
+    "taExample2": "ஆங்காங்கே ஏற்படும் போக்குவரத்து கூர்மைப்பாடுகளைக் கையாள்வதற்கு சர்வர்லெஸ் கட்டிடக்கலை ஒரு சாத்தியமான தீர்வாக நிரூபிக்கப்பட்டது.",
+    "synonyms": [
+      "feasible",
+      "workable",
+      "practicable",
+      "tenable"
+    ],
+    "antonyms": [
+      "unviable",
+      "impractical",
+      "impossible"
     ]
   },
   {
@@ -334,6 +455,47 @@
     ],
     "antonyms": [
       "Indifference"
+    ],
+    "enExample2": "The engineering team held a quick vibe check during the retrospective to gauge team morale after the release.",
+    "taExample2": "வெளியீட்டிற்குப் பின் குழுவின் மனநிலையை அறிய மீளாய்வுக் கூட்டத்தில் ஒரு விரைவான மனநிலை சரிபார்ப்பை (Vibe check) நடத்தினர்."
+  },
+  {
+    "id": 3314,
+    "word": "Vibe-check",
+    "pos": "Noun",
+    "definition": "A quick informal assessment of the mood, architectural harmony, or team energy around a proposal.",
+    "taWord": "சூழல் கணக்கெடுப்பு (Soozhal kanakkeduppu)",
+    "enExample": "Before submitting the massive PR, the developer ran an informal vibe-check with senior reviewers.",
+    "taExample": "பாரிய PR ஐ சமர்ப்பிப்பதற்கு முன், டெவலப்பர் மூத்த மதிப்பாய்வாளர்களுடன் ஒரு முறைசாரா சூழல் கணக்கெடுப்பை நடத்தினார்.",
+    "enExample2": "A team vibe-check during sprint retro helps identify unspoken frustration early.",
+    "taExample2": "ஸ்பிரின்ட் ரெட்ரோவின் போது ஒரு குழு சூழல் கணக்கெடுப்பு பேசப்படாத விரக்தியை ஆரம்பத்திலேயே గుర్తிக்க உதவுகிறது.",
+    "synonyms": [
+      "mood check",
+      "pulse check",
+      "informal assessment"
+    ],
+    "antonyms": [
+      "formal audit",
+      "rigid inspection"
+    ]
+  },
+  {
+    "id": 3388,
+    "word": "vibecheck",
+    "pos": "noun",
+    "definition": "Informal assessment of the general mood, attitude, or emotional atmosphere of a group or candidate.",
+    "taWord": "மனநிலை மதிப்பீடு (சூழல் கணிப்பு)",
+    "enExample": "The technical interview concluded with a quick team vibecheck to ensure culture fit.",
+    "taExample": "தொழில்நுட்ப நேர்காணல் கலாச்சாரப் பொருத்தத்தை உறுதிப்படுத்தும் விரைவான மனநிலை மதிப்பீட்டுடன் முடிந்தது.",
+    "enExample2": "Social media commentators conducted a vibecheck on public reaction following the election speech.",
+    "taExample2": "தேர்தல் உரைக்குப் பிறகு மக்களின் எதிர்வினையை அறியச் சமூக ஊடக விமர்சகர்கள் பொது மனநிலை மதிப்பீட்டை மேற்கொண்டனர்.",
+    "synonyms": [
+      "mood check",
+      "attitude assessment",
+      "atmosphere evaluation"
+    ],
+    "antonyms": [
+      "formal audit"
     ]
   },
   {
@@ -355,7 +517,9 @@
       "Stability",
       "Constancy",
       "Uniformity"
-    ]
+    ],
+    "enExample2": "A resilient cloud architecture withstands the vicissitudes of sudden traffic spikes and hardware outages.",
+    "taExample2": "ஒரு சிறந்த கிளவுட் கட்டமைப்பு திடீர் போக்குவரத்து ஏற்ற இறக்கங்கள் மற்றும் வன்பொருள் முடக்கங்களின் மாற்றங்களை (Vicissitudes) தாங்குகிறது."
   },
   {
     "id": 2206,
@@ -373,7 +537,9 @@
     "antonyms": [
       "Model",
       "Controller"
-    ]
+    ],
+    "enExample2": "A database view encapsulates a complex multi-table SQL query into a reusable virtual table structure.",
+    "taExample2": "ஒரு தரவுத்தள பார்வை (View) சிக்கலான SQL வினவலை மீண்டும் பயன்படுத்தக்கூடிய மெய்நிகர் அட்டவணையாக இணைக்கிறது."
   },
   {
     "id": 2207,
@@ -392,7 +558,9 @@
       "Offscreen canvas",
       "Hidden virtual document",
       "Full canvas size"
-    ]
+    ],
+    "enExample2": "Setting the responsive viewport meta tag ensures mobile browsers scale text and layouts accurately.",
+    "taExample2": "பதிலளிக்கக்கூடிய வியூபோர்ட் (Viewport) மெட்டா குறியீட்டை அமைப்பது மொபைல் உலாவிகள் தளத்தை சரியாகக் காட்டுவதை உறுதி செய்கிறது."
   },
   {
     "id": 3163,
@@ -414,7 +582,9 @@
       "Commend",
       "Extol",
       "Laud"
-    ]
+    ],
+    "enExample2": "It is unfair to vilify an on-call engineer for a cascading outage caused by systemic architectural debt.",
+    "taExample2": "அமைப்பு ரீதியான குறைபாடுகளால் ஏற்பட்ட முடக்கத்திற்காக பணியில் இருந்த பொறியாளரை பழித்துரைப்பது (Vilify) நியாயமற்றது."
   },
   {
     "id": 2929,
@@ -435,6 +605,29 @@
       "Incriminate",
       "Disprove",
       "Refute"
+    ],
+    "enExample2": "Flawless uptime during Black Friday helped vindicate our decision to migrate to serverless microservices.",
+    "taExample2": "சிறப்பு விற்பனையின் போது ஏற்பட்ட தடையற்ற இயக்கம் சர்வர்லெஸ் நுண்சேவைகளுக்கு மாற நாங்கள் எடுத்த முடிவை நியாயப்படுத்தி நிரூபித்தது (Vindicate)."
+  },
+  {
+    "id": 3389,
+    "word": "viral",
+    "pos": "adjective",
+    "definition": "Spreading rapidly and widely from one user to another through internet networks or social media.",
+    "taWord": "வைரலான (வேகமாக பரவும்)",
+    "enExample": "The developer's open source benchmarking tool went viral on GitHub, gaining thousands of stars overnight.",
+    "taExample": "டெவலப்பரின் ஓபன் சோர்ஸ் ஒப்பீட்டுக் கருவி கிட்ஹப்பில் வைரலாகி ஒரே இரவில் ஆயிரக்கணக்கான நட்சத்திரங்களைப் பெற்றது.",
+    "enExample2": "The news anchor highlighted how a heartwarming Scottish charity video went viral across social media.",
+    "taExample2": "ஒரு நெகிழ்ச்சியான ஸ்காட்டிஷ் தொண்டு நிறுவனக் காணொளி சமூக ஊடகங்களில் எவ்வாறு வைரலானது என்பதைச் செய்தித் தொகுப்பாளர் சுட்டிக்காட்டினார்.",
+    "synonyms": [
+      "wildly popular",
+      "fast-spreading",
+      "trending"
+    ],
+    "antonyms": [
+      "unnoticed",
+      "ignored",
+      "obscure"
     ]
   },
   {
@@ -451,7 +644,9 @@
     ],
     "antonyms": [
       "Real DOM"
-    ]
+    ],
+    "enExample2": "React updates the Virtual DOM first, performing minimal targeted batch updates on the actual browser DOM.",
+    "taExample2": "React முதலில் விர்ச்சுவல் DOM-ஐ (Virtual DOM) புதுப்பித்து உலாவியின் உண்மையான DOM-ல் குறைந்தபட்ச மாற்றங்களை மட்டுமே செய்கிறது."
   },
   {
     "id": 2215,
@@ -468,7 +663,9 @@
     ],
     "antonyms": [
       "Bare-metal server"
-    ]
+    ],
+    "enExample2": "A hypervisor emulates physical hardware to run multiple virtual machine operating systems on a single server.",
+    "taExample2": "ஒரே சர்வரில் பல மெய்நிகர் கணினி (Virtual Machine) இயக்க முறைமைகளை இயக்க ஒரு ஹைப்பர்வைசர் வன்பொருளை உருவகப்படுத்துகிறது."
   },
   {
     "id": 2208,
@@ -486,7 +683,9 @@
     "antonyms": [
       "Physical hardware",
       "Direct rendering"
-    ]
+    ],
+    "enExample2": "Hardware virtualization maximizes server utilization by running isolated container workloads on shared infrastructure.",
+    "taExample2": "வன்பொருள் மெய்நிகராக்கம் (Virtualization) பகிரப்பட்ட அமைப்பில் தனித்தனி பணிகளை இயக்கி சேவையக பயன்பாட்டை அதிகரிக்கிறது."
   },
   {
     "id": 3164,
@@ -508,7 +707,9 @@
       "Harmless",
       "Benign",
       "Curative"
-    ]
+    ],
+    "enExample2": "The cybersecurity team patched an unauthenticated remote code execution vulnerability before a virulent worm could spread.",
+    "taExample2": "தீவிரமான வைரஸ் (Virulent) பரவுவதற்கு முன் அங்கீகாரமற்ற தொலைதூர குறியீட்டு பாதுகாப்பு பிழையை சைபர் குழு சரிசெய்தது."
   },
   {
     "id": 3050,
@@ -529,7 +730,9 @@
       "Intellectual",
       "Logical",
       "Calculated"
-    ]
+    ],
+    "enExample2": "Seeing the production database crash during a live keynote triggered a visceral panic across the team.",
+    "taExample2": "நேரலை உரையின் போது தயாரிப்பு தரவுத்தளம் செயலிழந்ததைக் கண்டது குழு முழுவதும் ஒரு உள்ளார்ந்த அதிர்ச்சியைத் (Visceral) தூண்டியது."
   },
   {
     "id": 2210,
@@ -547,7 +750,9 @@
     "antonyms": [
       "Invisibility",
       "Opacity"
-    ]
+    ],
+    "enExample2": "Distributed tracing gives engineers complete visibility into slow microservice dependencies across the system.",
+    "taExample2": "விநியோகிக்கப்பட்ட தடமறிதல் மெதுவான சேவைகளைக் கண்டறிய பொறியாளர்களுக்கு முழுமையான கணினித் தெரிவுநிலையை (Visibility) வழங்குகிறது."
   },
   {
     "id": 3165,
@@ -569,7 +774,9 @@
       "Compliment",
       "Laud",
       "Extol"
-    ]
+    ],
+    "enExample2": "Constructive feedback focuses on code improvements rather than attempting to vituperate the author personally.",
+    "taExample2": "ஆக்கப்பூர்வமான கருத்துக்கள் ஆசிரியரை தனிப்பட்ட முறையில் நிந்திக்காமல் (Vituperate) குறியீட்டு மேம்பாட்டில் கவனம் செலுத்துகின்றன."
   },
   {
     "id": 2218,
@@ -587,7 +794,9 @@
     "antonyms": [
       "Silent",
       "Quiet"
-    ]
+    ],
+    "enExample2": "The developer was a vociferous advocate for strict static typing and automated test-driven development.",
+    "taExample2": "கடுமையான நிலையான வகைப்படுத்தல் மற்றும் சோதனை சார்ந்த உருவாக்கத்தின் தீவிர குரல் கொடுக்கும் ஆதரவாளராக (Vociferous) அந்த உருவாக்குநர் இருந்தார்."
   },
   {
     "id": 2211,
@@ -603,7 +812,9 @@
     ],
     "antonyms": [
       "Value-returning"
-    ]
+    ],
+    "enExample2": "In TypeScript, the void return type indicates that a function performs actions without returning a value.",
+    "taExample2": "TypeScript-ல் void வகை என்பது ஒரு செயல்பாடு எந்த மதிப்பையும் தராமல் பணிகளை மட்டுமே செய்கிறது என்பதைக் குறிக்கிறது."
   },
   {
     "id": 3166,
@@ -625,7 +836,9 @@
       "Constant",
       "Persistent",
       "Immutable"
-    ]
+    ],
+    "enExample2": "RAM is volatile memory that loses all stored data when physical server power is disconnected.",
+    "taExample2": "RAM என்பது நிலையற்ற (Volatile) நினைவகம் ஆகும், சர்வர் மின் இணைப்பு துண்டிக்கப்படும் போது அதில் உள்ள தரவு அழிகிறது."
   },
   {
     "id": 2930,
@@ -646,7 +859,9 @@
       "Constancy",
       "Steadiness",
       "Equilibrium"
-    ]
+    ],
+    "enExample2": "Using stable currency stablecoins hedges against extreme price volatility in decentralized finance applications.",
+    "taExample2": "நிலையான நாணயங்களைப் பயன்படுத்துவது பரவலாக்கப்பட்ட நிதி பயன்பாடுகளில் தீவிர விலை ஏற்ற இறக்கத்திற்கு (Volatility) எதிராக பாதுகாக்கிறது."
   },
   {
     "id": 3096,
@@ -668,7 +883,9 @@
       "Moderate",
       "Abstinent",
       "Indifferent"
-    ]
+    ],
+    "enExample2": "Deep neural network training clusters have a voracious appetite for high-bandwidth memory and compute power.",
+    "taExample2": "ஆழ்ந்த நியூரல் நெட்வொர்க் பயிற்சிக் கிளஸ்டர்கள் அதிக அலைவரிசை நினைவகம் மற்றும் கணினி ஆற்றலின் தீவிர பசியைக் (Voracious) கொண்டுள்ளன."
   },
   {
     "id": 2212,
@@ -686,7 +903,9 @@
     "antonyms": [
       "Hardening",
       "Security"
-    ]
+    ],
+    "enExample2": "Security researchers reported an SQL injection vulnerability in the legacy user search endpoint.",
+    "taExample2": "பழைய பயனர் தேடல் பகுதியில் உள்ள SQL ஊடுருவல் பாதுகாப்பு குறைபாட்டை (Vulnerability) பாதுகாப்பு ஆய்வாளர்கள் தெரிவித்தனர்."
   },
   {
     "id": 2747,
@@ -704,7 +923,9 @@
     "antonyms": [
       "unverified deployment",
       "security ignorance"
-    ]
+    ],
+    "enExample2": "The automated pipeline conducts a daily vulnerability assessment to detect outdated and insecure dependencies.",
+    "taExample2": "தானியங்கி அமைப்பு காலாவதியான மற்றும் பாதுகாப்பற்ற நூலகங்களைக் கண்டறிய தினசரி பாதிப்பு மதிப்பீட்டை (Vulnerability Assessment) நடத்துகிறது."
   },
   {
     "id": 2827,
@@ -722,6 +943,8 @@
     "antonyms": [
       "Unchecked dependencies",
       "Blind deployment"
-    ]
+    ],
+    "enExample2": "Container vulnerability scanning inspects Docker base images for known security CVEs before production deployment.",
+    "taExample2": "கொள்கலன் பாதிப்பு ஸ்கேனிங் (Vulnerability Scanning) வெளியீட்டிற்கு முன் டாக்கர் படங்களில் அறியப்பட்ட பாதுகாப்பு பிழைகளை ஆய்வு செய்கிறது."
   }
 ]

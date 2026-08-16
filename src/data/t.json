@@ -1,5 +1,25 @@
 [
   {
+    "id": 3283,
+    "word": "Tabernacle",
+    "pos": "Noun",
+    "definition": "A dwelling place or sanctuary representing divine presence among a community.",
+    "taWord": "ஆசரிப்புக் கூடாரம் (Aasarippuk koodaram)",
+    "enExample": "The ancient tabernacle served as a mobile center for worship and spiritual fellowship.",
+    "taExample": "பண்டைய ஆசரிப்புக் கூடாரம் வழிபாடு மற்றும் ஆன்மீகத் தோழமைக்கான மொபைல் மையமாக செயல்பட்டது.",
+    "enExample2": "Modern church sanctuaries are sometimes referred to as a tabernacle of praise.",
+    "taExample2": "நவீன திருச்சபை வழிபாட்டுத் தலங்கள் சில நேரங்களில் துதியின் கூடாரம் என்று குறிப்பிடப்படுகின்றன.",
+    "synonyms": [
+      "sanctuary",
+      "dwelling place",
+      "shrine",
+      "temple"
+    ],
+    "antonyms": [
+      "secular arena"
+    ]
+  },
+  {
     "id": 2665,
     "word": "Table",
     "definition": "To postpone, suspend, or set aside consideration of an agenda item for a later meeting.",
@@ -15,7 +35,9 @@
     "antonyms": [
       "Enact",
       "Address immediately"
-    ]
+    ],
+    "enExample2": "The database table stores user session metadata indexed by unique UUID tokens.",
+    "taExample2": "தரவுத்தள அட்டவணை (Table) தனித்துவமான UUID குறியீடுகளால் வரிசைப்படுத்தப்பட்ட பயனர் அமர்வுத் தகவல்களை சேமிக்கிறது."
   },
   {
     "id": 2826,
@@ -33,7 +55,9 @@
     "antonyms": [
       "Decide immediately",
       "Debate now"
-    ]
+    ],
+    "enExample2": "Let us table this discussion on framework migration until the quarterly budget is finalized.",
+    "taExample2": "காலாண்டு நிதி ஒதுக்கீடு முடியும் வரை இந்த கட்டமைப்பு மாற்றம் குறித்த விவாதத்தை ஒத்திவைப்போம் (Table This Discussion)."
   },
   {
     "id": 3149,
@@ -55,7 +79,9 @@
       "Stated",
       "Express",
       "Direct"
-    ]
+    ],
+    "enExample2": "The team operated under a tacit understanding that all production changes required at least two peer approvals.",
+    "taExample2": "அனைத்து தயாரிப்பு மாற்றங்களுக்கும் குறைந்தது இரண்டு சக பொறியாளர்களின் ஒப்புதல் தேவை என்ற மறைமுக (Tacit) புரிதலுடன் குழு செயல்பட்டது."
   },
   {
     "id": 2016,
@@ -73,7 +99,9 @@
     "antonyms": [
       "Talkative",
       "Loquacious"
-    ]
+    ],
+    "enExample2": "The lead architect was taciturn during planning meetings, speaking only to offer decisive technical solutions.",
+    "taExample2": "திட்டமிடல் கூட்டங்களின் போது முதன்மை வடிவமைப்பாளர் மிகக் குறைவாகப் பேசினாலும் (Taciturn) உறுதியான தொழில்நுட்பத் தீர்வுகளை வழங்கினார்."
   },
   {
     "id": 2661,
@@ -91,7 +119,9 @@
     "antonyms": [
       "Address publicly",
       "Discuss in forum"
-    ]
+    ],
+    "enExample2": "Since this database schema nuance affects only two developers, let us take it offline after the standup.",
+    "taExample2": "இந்த தரவுத்தள மாற்றம் இரண்டு பேரை மட்டுமே பாதிப்பதால், கூட்டத்திற்குப் பின் இதை தனியாக விவாதிப்போம் (Take offline)."
   },
   {
     "id": 2019,
@@ -110,7 +140,9 @@
       "Superficial chatter",
       "Forgotten detail",
       "Ignored finding"
-    ]
+    ],
+    "enExample2": "The primary takeaway from the blameless post-mortem was the urgent need for automated database rollback scripts.",
+    "taExample2": "சம்பவ ஆய்வின் முக்கிய படிப்பினை (Takeaway) தானியங்கி தரவுத்தள மீட்பு ஸ்கிரிப்ட்களின் அவசரத் தேவையாகும்."
   },
   {
     "id": 2993,
@@ -132,6 +164,30 @@
       "Relevant",
       "Crucial",
       "Germane"
+    ],
+    "enExample2": "The scrum master gently steered the conversation away from tangential infrastructure debates back to the sprint goal.",
+    "taExample2": "ஸ்க்ரம் மாஸ்டர் தேவையில்லாத பக்கவாட்டு (Tangential) விவாதங்களிலிருந்து உரையாடலை ஸ்பிரிண்ட் இலக்குக்கு மாற்றினார்."
+  },
+  {
+    "id": 3293,
+    "word": "Tangible",
+    "pos": "Adjective",
+    "definition": "Perceptible by touch; clear, definite, and measurable impact or software output.",
+    "taWord": "புலனாகக்கூடிய/தெளிவான (Pulanaagakkoodiya/thelivana)",
+    "enExample": "Optimizing backend queries delivered tangible improvements in mobile application battery life.",
+    "taExample": "பின்தள வினவல்களை உகதாக்குவது மொபைல் பயன்பாட்டு பேட்டரி ஆயுளில் தெளிவான மேம்பாடுகளை வழங்கியது.",
+    "enExample2": "The sprint review demonstrated tangible progress toward shipping the new analytics dashboard.",
+    "taExample2": "ஸ்பிரின்ட் மதிப்பாய்வு புதிய பகுப்பாய்வு டாஷ்போர்டை அனுப்புவதில் தெளிவான முன்னேற்றத்தை வெளிப்படுத்தியது.",
+    "synonyms": [
+      "concrete",
+      "measurable",
+      "palpable",
+      "real"
+    ],
+    "antonyms": [
+      "intangible",
+      "abstract",
+      "imperceptible"
     ]
   },
   {
@@ -154,7 +210,9 @@
       "Opposite",
       "Unequal",
       "Disparate"
-    ]
+    ],
+    "enExample2": "Disabling automated unit testing in continuous integration is tantamount to inviting critical production outages.",
+    "taExample2": "தானியங்கி சோதனைகளை முடக்குவது தீவிரமான கணினி முடக்கங்களை நாமே அழைப்பதற்குச் சமமானதாகும் (Tantamount)."
   },
   {
     "id": 2924,
@@ -174,7 +232,9 @@
       "Subsidies",
       "Duty-free trade",
       "Tariff exemptions"
-    ]
+    ],
+    "enExample2": "New international hardware import tariffs increased the operational cost of expanding physical cloud datacenters.",
+    "taExample2": "புதிய சர்வதேச வன்பொருள் இறக்குமதி வரிகள் (Tariffs) இயற்பியல் தரவு மையங்களை விரிவாக்குவதற்கான செலவை அதிகரித்தன."
   },
   {
     "id": 2825,
@@ -193,6 +253,28 @@
       "Clean architecture",
       "Debt refactoring",
       "Long-term engineering"
+    ],
+    "enExample2": "Rushing features without refactoring accumulates tech debt that eventually grinds new development to a halt.",
+    "taExample2": "குறியீட்டை செம்மைப்படுத்தாமல் அவசரமாக பணிகளை முடிப்பது தொழில்நுட்பக் கடனை (Tech Debt) சேர்த்து வேகத்தைக் குறைக்கும்."
+  },
+  {
+    "id": 3313,
+    "word": "Tech-debt",
+    "pos": "Noun",
+    "definition": "The implied cost of future rework caused by choosing an easy quick fix now over a better architectural design.",
+    "taWord": "தொழில்நுட்பக் கடன் (Thozhilnutpa kadan)",
+    "enExample": "Allocating twenty percent of each sprint to refactoring keeps tech-debt manageable.",
+    "taExample": "ஒவ்வொரு ஸ்பிரின்ட்டிலும் இருபது சதவீதத்தை மறுசீரமைப்பிற்கு ஒதுக்குவது தொழில்நுட்பக் கடனைக் கட்டுப்படியாக வைத்திருக்கிறது.",
+    "enExample2": "Ignoring tech-debt eventually slows down feature delivery and increases production outages.",
+    "taExample2": "தொழில்நுட்பக் கடனைப் புறக்கணிப்பது இறுதியில் அம்ச விநியோகத்தை மெதுவாக்குகிறது மற்றும் தயாரிப்பு முடக்கங்களை அதிகரிக்கிறது.",
+    "synonyms": [
+      "architectural deficit",
+      "code debt",
+      "deferred maintenance"
+    ],
+    "antonyms": [
+      "clean architecture",
+      "refactored codebase"
     ]
   },
   {
@@ -211,7 +293,9 @@
     "antonyms": [
       "Clean architecture",
       "Robust code"
-    ]
+    ],
+    "enExample2": "Allocating twenty percent of each sprint to address technical debt keeps the codebase maintainable.",
+    "taExample2": "ஒவ்வொரு சுழற்சியிலும் இருபது சதவீத நேரத்தை தொழில்நுட்பக் கடனைத் தீர்க்க ஒதுக்குவது குறியீட்டை எளிதில் பராமரிக்க வைக்கிறது."
   },
   {
     "id": 2012,
@@ -230,7 +314,9 @@
       "Blind monitoring",
       "Unmeasured production state",
       "Zero metrics"
-    ]
+    ],
+    "enExample2": "OpenTelemetry agents capture distributed transaction traces to pinpoint backend microservice bottlenecks.",
+    "taExample2": "OpenTelemetry முகவர்கள் நுண்சேவை நெரிசல்களைக் கண்டறிய விநியோகிக்கப்பட்ட பரிவர்த்தனை அளவீடுகளைத் (Telemetry) திரட்டுகின்றன."
   },
   {
     "id": 2823,
@@ -248,7 +334,9 @@
     "antonyms": [
       "Deterministic greedy decoding",
       "Argmax sampling"
-    ]
+    ],
+    "enExample2": "Setting the LLM sampling temperature to 0.2 produces deterministic and highly focused structured JSON outputs.",
+    "taExample2": "AI மாதிரியின் வெப்பநிலை (Temperature) அளவை 0.2 என அமைப்பது துல்லியமான மற்றும் நிலையான JSON முடிவுகளைத் தருகிறது."
   },
   {
     "id": 2013,
@@ -267,7 +355,9 @@
       "Finished instance",
       "Bespoke unique document",
       "Hardcoded output"
-    ]
+    ],
+    "enExample2": "The team authored a standard pull request template to ensure every submission includes test instructions.",
+    "taExample2": "ஒவ்வொரு சமர்ப்பிப்பிலும் சோதனை வழிமுறைகள் இருப்பதை உறுதி செய்ய குழு ஒரு நிலையான வார்ப்புருவை (Template) உருவாக்கியது."
   },
   {
     "id": 2949,
@@ -288,7 +378,9 @@
       "Defenseless",
       "Flawed",
       "Unsustainable"
-    ]
+    ],
+    "enExample2": "Maintaining five distinct legacy API versions simultaneously is no longer an operationally tenable strategy.",
+    "taExample2": "ஒரே நேரத்தில் ஐந்து பழைய API பதிப்புகளைப் பராமரிப்பது இனி சாத்தியமான (Tenable) அணுகுமுறையாக இருக்காது."
   },
   {
     "id": 2017,
@@ -306,7 +398,9 @@
     "antonyms": [
       "Loose",
       "Weak"
-    ]
+    ],
+    "enExample2": "Her tenacious debugging effort over three days finally uncovered the elusive memory allocation bug.",
+    "taExample2": "மூன்று நாட்களாக அவர் மேற்கொண்ட விடாமுயற்சியான (Tenacious) பிழைத்திருத்த உழைப்பு இறுதியாக அந்த அரிய நினைவக பிழையைக் கண்டறிந்தது."
   },
   {
     "id": 3079,
@@ -328,7 +422,9 @@
       "Surrender",
       "Apathy",
       "Lethargy"
-    ]
+    ],
+    "enExample2": "Navigating complex distributed consensus protocols requires remarkable analytical tenacity and patience.",
+    "taExample2": "சிக்கலான விநியோகிக்கப்பட்ட ஒருமித்த நெறிமுறைகளை வடிவமைக்க அசாத்தியமான பகுப்பாய்வு விடாமுயற்சி (Tenacity) தேவைப்படுகிறது."
   },
   {
     "id": 3151,
@@ -350,7 +446,9 @@
       "Solid",
       "Substantial",
       "Robust"
-    ]
+    ],
+    "enExample2": "The argument that avoiding automated testing speeds up long-term feature delivery is tenuous at best.",
+    "taExample2": "தானியங்கி சோதனைகளைத் தவிர்ப்பது நீண்டகால விநியோகத்தை வேகமாக்கும் என்ற வாதம் மிகவும் பலவீனமானதாகும் (Tenuous)."
   },
   {
     "id": 2715,
@@ -367,6 +465,48 @@
     ],
     "antonyms": [
       "Manual testing"
+    ],
+    "enExample2": "The automated test harness spins up isolated container mock servers to validate network retry resilience.",
+    "taExample2": "தானியங்கி சோதனை கட்டமைப்பு (Test Harness) நெட்வொர்க் மீள்தன்மையை சோதிக்க தனிமைப்படுத்தப்பட்ட போலி சர்வர்களை உருவாக்குகிறது."
+  },
+  {
+    "id": 3383,
+    "word": "testimony",
+    "pos": "noun",
+    "definition": "A formal written or spoken statement, especially a public account of personal faith or evidence.",
+    "taWord": "சாட்சியம் (சான்று உரை)",
+    "enExample": "Client success metrics provided compelling testimony to the reliability of our cloud infrastructure.",
+    "taExample": "வாடிக்கையாளர்களின் வெற்றி அளவீடுகள் எங்கள் கிளவுட் உள்கட்டமைப்பின் நம்பகத்தன்மைக்கு வலுவான சாட்சியமாக அமைந்தன.",
+    "enExample2": "During the fellowship meeting, a member shared a powerful testimony of spiritual healing and hope.",
+    "taExample2": "தோழமைக் கூட்டத்தில் ஒரு உறுப்பினர் தனது ஆன்மீக சுகமளிப்பு மற்றும் நம்பிக்கை பற்றிய சக்திவாய்ந்த சாட்சியத்தைப் பகிர்ந்தார்.",
+    "synonyms": [
+      "evidence",
+      "witness",
+      "declaration",
+      "statement"
+    ],
+    "antonyms": [
+      "refutation",
+      "denial"
+    ]
+  },
+  {
+    "id": 3284,
+    "word": "Theocracy",
+    "pos": "Noun",
+    "definition": "A system of government or rule in which divine law and spiritual authorities govern.",
+    "taWord": "இறை ஆட்சி (Irai aatchi)",
+    "enExample": "Historical studies examine ancient Israel's period of transition from a theocracy to a monarchy.",
+    "taExample": "வரலாற்று ஆய்வுகள் பண்டைய இஸ்ரேலின் இறை ஆட்சியிலிருந்து ஒரு முடியாட்சிக்கு மாறிய காலத்தை ஆராய்கின்றன.",
+    "enExample2": "Understanding theocracy provides context when reading Old Testament historical books.",
+    "taExample2": "இறை ஆட்சியைப் புரிந்துகொள்வது பழைய ஏற்பாட்டு வரலாற்றுப் புத்தகங்களைப் படிக்கும்போது சூழலை வழங்குகிறது.",
+    "synonyms": [
+      "divine rule",
+      "god-governed state"
+    ],
+    "antonyms": [
+      "secular democracy",
+      "autocracy"
     ]
   },
   {
@@ -384,7 +524,9 @@
     ],
     "antonyms": [
       "Single process"
-    ]
+    ],
+    "enExample2": "Worker threads allow CPU-intensive image compression to run in parallel without blocking the main event loop.",
+    "taExample2": "பணி இழைகள் (Worker Threads) முக்கிய நிகழ்வு வளையத்தை முடக்காமல் படச் சுருக்குதலை ஒரே நேரத்தில் இயக்க அனுமதிக்கின்றன."
   },
   {
     "id": 2014,
@@ -402,7 +544,9 @@
     "antonyms": [
       "Unbounded spectrum",
       "Continuous continuous scale"
-    ]
+    ],
+    "enExample2": "The monitoring alert triggers an automated page whenever CPU utilization crosses the ninety percent threshold.",
+    "taExample2": "CPU பயன்பாடு தொண்ணூறு சதவீத வரம்பை (Threshold) தாண்டும் போதெல்லாம் கண்காணிப்பு அமைப்பு அவசர எச்சரிக்கையை விடுக்கிறது."
   },
   {
     "id": 2002,
@@ -420,7 +564,9 @@
     "antonyms": [
       "Latency",
       "Bottleneck"
-    ]
+    ],
+    "enExample2": "Switching from JSON to binary serialization doubled the maximum transaction throughput of our payment gateway.",
+    "taExample2": "பைனரி முறைக்கு மாறியது எங்கள் கட்டண நுழைவாயிலின் அதிகபட்ச பரிவர்த்தனை வேகத்தை (Throughput) இரட்டிப்பாக்கியது."
   },
   {
     "id": 2744,
@@ -438,7 +584,9 @@
     "antonyms": [
       "infinite persistence",
       "permanent retention"
-    ]
+    ],
+    "enExample2": "Setting a thirty-minute Time-to-Live (TTL) on cached session objects ensures stale user tokens expire automatically.",
+    "taExample2": "தற்காலிக சேமிப்பில் முப்பது நிமிட வாழ்நாள் வரம்பை (TTL) அமைப்பது பழைய பயனர் டோக்கன்கள் தானாகவே காலாவதியாவதை உறுதி செய்கிறது."
   },
   {
     "id": 2680,
@@ -455,7 +603,9 @@
     ],
     "antonyms": [
       "Open-ended discussion"
-    ]
+    ],
+    "enExample2": "Let us timebox the experimental architecture spike to two days so we can deliver sprint commitments on time.",
+    "taExample2": "திட்ட இலக்குகளை சரியான நேரத்தில் முடிக்க இந்த புதிய ஆய்வுக்கு இரண்டு நாட்கள் கால வரம்பு (Timebox) நிர்ணயிப்போம்."
   },
   {
     "id": 3152,
@@ -477,7 +627,9 @@
       "Audacious",
       "Courageous",
       "Brave"
-    ]
+    ],
+    "enExample2": "A timorous approach to cloud migration leaves legacy enterprises vulnerable to agile digital competitors.",
+    "taExample2": "கிளவுட் மாற்றத்தில் காட்டும் தயக்கமான மற்றும் அச்சம் நிறைந்த (Timorous) அணுகுமுறை நிறுவனங்களை போட்டிக்கு பின்வாங்கச் செய்கிறது."
   },
   {
     "id": 2003,
@@ -496,7 +648,9 @@
       "Plain cleartext",
       "Unparsed stream",
       "Anonymous access"
-    ]
+    ],
+    "enExample2": "The API gateway validates the cryptographic signature of the Bearer token before routing requests.",
+    "taExample2": "கோரிக்கைகளை வழிநடத்துவதற்கு முன் API நுழைவாயில் அங்கீகார டோக்கனின் (Token) குறியாக்க கையொப்பத்தை சரிபார்க்கிறது."
   },
   {
     "id": 2004,
@@ -514,7 +668,9 @@
     "antonyms": [
       "Chaotic network arrangement",
       "Random unstructured sprawl"
-    ]
+    ],
+    "enExample2": "The multi-region network topology routes client traffic to the nearest datacenter edge node automatically.",
+    "taExample2": "பல பிராந்திய நெட்வொர்க் கட்டமைப்பு (Topology) வாடிக்கையாளர் போக்குவரத்தை தானாகவே அருகிலுள்ள முனையத்திற்கு வழிநடத்துகிறது."
   },
   {
     "id": 3153,
@@ -536,7 +692,9 @@
       "Active",
       "Dynamic",
       "Lively"
-    ]
+    ],
+    "enExample2": "The application suffered from torpid database query execution due to missing composite table indexes.",
+    "taExample2": "கூட்டு அட்டவணை குறியீடுகள் இல்லாததால் பயன்பாடு மிகவும் மந்தமான (Torpid) தரவுத்தள வினவல் வேகத்தால் பாதிக்கப்பட்டது."
   },
   {
     "id": 2627,
@@ -554,7 +712,9 @@
     "antonyms": [
       "Doomscroll",
       "Overwork"
-    ]
+    ],
+    "enExample2": "After working twelve straight hours debugging a distributed deadlock, the lead engineer went outside to touch grass.",
+    "taExample2": "பன்னிரண்டு மணி நேர தொடர் பிழைத்திருத்தத்திற்குப் பிறகு முதன்மை பொறியாளர் மனதை ஆசுவாசப்படுத்த வெளியே சென்றார் (Touch grass)."
   },
   {
     "id": 2020,
@@ -573,7 +733,9 @@
       "Siloed isolation",
       "Zero interaction",
       "Unannounced absence"
-    ]
+    ],
+    "enExample2": "The redesign optimized every digital touchpoint along the customer onboarding and subscription journey.",
+    "taExample2": "புதிய வடிவமைப்பு வாடிக்கையாளர் பதிவு மற்றும் சந்தா பயணத்தில் உள்ள ஒவ்வொரு டிஜிட்டல் தொடர்பு புள்ளியையும் (Touchpoint) உகந்ததாக்கியது."
   },
   {
     "id": 3154,
@@ -595,7 +757,9 @@
       "Unmanageable",
       "Obstinate",
       "Stubborn"
-    ]
+    ],
+    "enExample2": "Breaking the large monolithic codebase into modular sub-packages made ongoing refactoring mathematically tractable.",
+    "taExample2": "பெரிய ஒற்றைக் குறியீட்டை சிறிய தொகுப்புகளாகப் பிரிப்பது தொடர் சீரமைப்பை எளிதில் கையாளக்கூடியதாக (Tractable) மாற்றியது."
   },
   {
     "id": 2021,
@@ -614,6 +778,28 @@
       "Free lunch",
       "Win-win absolute outcome",
       "Zero-compromise state"
+    ],
+    "enExample2": "Choosing eventual consistency represents a conscious trade-off to achieve ultra-high write throughput.",
+    "taExample2": "இறுதி நிலைத்தன்மையை (Eventual Consistency) தேர்ந்தெடுப்பது அதிவேக எழுத்து வேகத்தைப் பெறுவதற்கான ஒரு நனவான சமரசமாகும் (Trade-off)."
+  },
+  {
+    "id": 3384,
+    "word": "tradeoff",
+    "pos": "noun",
+    "definition": "A compromise balancing two desirable but mutually exclusive features, qualities, or outcomes.",
+    "taWord": "சமரச முடிவு (நிறை-குறை ஒப்பீடு)",
+    "enExample": "Choosing consistency over eventual availability is a fundamental database architecture tradeoff.",
+    "taExample": "தரவுத்தள அமைப்பில் தகவல்களின் உடனடித் துல்லியத்திற்கு முன்னுரிமை அளிப்பது ஒரு முக்கிய சமரச முடிவாகும்.",
+    "enExample2": "Policymakers debated the economic tradeoff between raising taxes and reducing national infrastructure debt.",
+    "taExample2": "வரி உயர்வுக்கும் தேசிய உள்கட்டமுறைக் கடனைக் குறைப்பதற்கும் இடையிலான பொருளாதார சமரசத்தை ஆட்சியாளர்கள் விவாதித்தனர்.",
+    "synonyms": [
+      "compromise",
+      "balance",
+      "concession"
+    ],
+    "antonyms": [
+      "win-win",
+      "absolute solution"
     ]
   },
   {
@@ -632,7 +818,9 @@
     "antonyms": [
       "Dirty uncommitted read",
       "Non-atomic partial operation"
-    ]
+    ],
+    "enExample2": "ACID database transactions guarantee that either all balance transfer updates succeed or none take effect.",
+    "taExample2": "ACID தரவுத்தள பரிவர்த்தனைகள் (Transactions) அனைத்து பணப் பரிமாற்ற மாற்றங்களும் முழுமையாக வெற்றிபெறுவதை உறுதி செய்கின்றன."
   },
   {
     "id": 3009,
@@ -653,6 +841,30 @@
       "Fail",
       "Fall short",
       "Surrender"
+    ],
+    "enExample2": "Great software architectures transcend specific programming languages and remain resilient over decades.",
+    "taExample2": "சிறந்த மென்பொருள் கட்டமைப்புகள் குறிப்பிட்ட நிரலாக்க மொழிகளைக் கடந்து (Transcend) பல தசாப்தங்களாக நிலைத்து நிற்கின்றன."
+  },
+  {
+    "id": 3238,
+    "word": "Transparency",
+    "pos": "Noun",
+    "definition": "The quality of being open, clear, and easily inspectable in communication, code, or governance.",
+    "taWord": "வெளிப்படைத்தன்மை (Velippadaithanmai)",
+    "enExample": "Open-source software fosters security transparency by allowing global security researchers to inspect code.",
+    "taExample": "திறந்த மூல மென்பொருள் உலகளாவிய பாதுகாப்பு ஆராய்ச்சியாளர்களை குறியீட்டை ஆய்வு செய்ய அனுமதிப்பதன் மூலம் பாதுகாப்பு வெளிப்படைத்தன்மையை வளர்க்கிறது.",
+    "enExample2": "Clear post-incident communication maintains customer trust through full operational transparency.",
+    "taExample2": "தெளிவான சம்பவத்திற்குப் பிந்தைய தொடர்பு முழு செயல்பாட்டு வெளிப்படைத்தன்மை மூலம் வாடிக்கையாளர் நம்பிக்கையைப் பராமரிக்கிறது.",
+    "synonyms": [
+      "clarity",
+      "openness",
+      "candor",
+      "inspectability"
+    ],
+    "antonyms": [
+      "opacity",
+      "secrecy",
+      "concealment"
     ]
   },
   {
@@ -670,7 +882,9 @@
     "antonyms": [
       "Direct binary compiler",
       "Native virtual machine"
-    ]
+    ],
+    "enExample2": "Babel acts as a JavaScript transpiler, converting modern ECMAScript features into backward-compatible ES5 code.",
+    "taExample2": "Babel ஒரு மொழிமாற்றியாக (Transpiler) செயல்பட்டு நவீன ஜாவாஸ்கிரிப்ட் குறியீட்டை பழைய உலாவிகளுக்கு ஏற்றவாறு மாற்றுகிறது."
   },
   {
     "id": 3067,
@@ -692,7 +906,9 @@
       "Trustworthy",
       "Reliable",
       "Secure"
-    ]
+    ],
+    "enExample2": "Executing manual schema migrations directly on a live production database is a treacherous undertaking.",
+    "taExample2": "நேரலை தயாரிப்பு தரவுத்தளத்தில் கையேடு மாற்றங்களை நேரடியாகச் செய்வது மிகவும் ஆபத்தான (Treacherous) செயலாகும்."
   },
   {
     "id": 2007,
@@ -709,7 +925,9 @@
     ],
     "antonyms": [
       "Graph with cycles"
-    ]
+    ],
+    "enExample2": "The DOM tree represents HTML elements as a hierarchical node structure in browser memory.",
+    "taExample2": "DOM மரம் (Tree) உலாவி நினைவகத்தில் HTML கூறுகளை ஒரு படிநிலை முனைய அமைப்பாகக் குறிக்கிறது."
   },
   {
     "id": 2743,
@@ -727,7 +945,9 @@
     "antonyms": [
       "bloated bundling",
       "full module inclusion"
-    ]
+    ],
+    "enExample2": "Webpack uses static analysis to perform tree shaking, eliminating dead and unused JavaScript exports from bundles.",
+    "taExample2": "Webpack பயன்பாட்டின் அளவைக் குறைக்க பயன்படுத்தப்படாத தேவையற்ற குறியீடுகளை ட்ரீ-ஷேக்கிங் (Tree Shaking) மூலம் நீக்குகிறது."
   },
   {
     "id": 3095,
@@ -749,7 +969,9 @@
       "Blunt",
       "Vague",
       "Weak"
-    ]
+    ],
+    "enExample2": "Her trenchant critique of our microservices sprawl forced leadership to consolidate redundant backend services.",
+    "taExample2": "எங்கள் சேவைகளின் கட்டுப்பாடற்ற பெருக்கம் குறித்த அவரது கூர்மையான மற்றும் ஆழமான விமர்சனம் (Trenchant) மறுசீரமைப்பைத் தூண்டியது."
   },
   {
     "id": 2018,
@@ -767,7 +989,9 @@
     "antonyms": [
       "Calm",
       "Equanimity"
-    ]
+    ],
+    "enExample2": "The DevOps team initiated the multi-region database failover with considerable trepidation.",
+    "taExample2": "பொறியியல் குழு கணிசமான நடுக்கத்துடனும் அச்சத்துடனும் (Trepidation) பல பிராந்திய தரவுத்தள மாற்றத்தைத் தொடங்கியது."
   },
   {
     "id": 2008,
@@ -786,7 +1010,9 @@
       "Random bug handling",
       "Unprioritized chaos",
       "Equal treatment of all bugs"
-    ]
+    ],
+    "enExample2": "During an incident, engineers triage error logs to identify and prioritize the most critical service failures.",
+    "taExample2": "ஒரு விபத்தின் போது பொறியாளர்கள் மிக முக்கியமான சேவைத் தோல்விகளை முன்னுரிமைப்படுத்த பதிவுகளை ஆய்வு செய்து பிரிக்கின்றனர் (Triage)."
   },
   {
     "id": 2009,
@@ -802,7 +1028,9 @@
     ],
     "antonyms": [
       "Manual invocation"
-    ]
+    ],
+    "enExample2": "Database triggers execute automated audit logging functions whenever a record row is inserted or updated.",
+    "taExample2": "தரவுத்தள தூண்டிகள் (Triggers) ஒரு வரிசை உருவாக்கப்படும் போது தானியங்கி தணிக்கை செயல்பாடுகளை இயக்குகின்றன."
   },
   {
     "id": 3155,
@@ -824,7 +1052,9 @@
       "Gentle",
       "Peaceable",
       "Conciliatory"
-    ]
+    ],
+    "enExample2": "The truculent reviewer rejected every pull request without providing constructive suggestions for improvement.",
+    "taExample2": "அந்த ஆக்ரோஷமான (Truculent) மதிப்பாய்வாளர் ஆக்கப்பூர்வமான பரிந்துரைகளை வழங்காமல் அனைத்து குறியீடுகளையும் நிராகரித்தார்."
   },
   {
     "id": 2010,
@@ -842,7 +1072,9 @@
     "antonyms": [
       "Extend",
       "Pad"
-    ]
+    ],
+    "enExample2": "Use TRUNCATE TABLE to purge all test records rapidly without logging individual row deletion events.",
+    "taExample2": "தனித்தனி வரிசைகளை நீக்காமல் அனைத்து சோதனை பதிவுகளையும் மிக வேகமாக அழிக்க TRUNCATE கட்டளையைப் பயன்படுத்தவும்."
   },
   {
     "id": 2925,
@@ -863,7 +1095,9 @@
       "Tranquil",
       "Orderly",
       "Serene"
-    ]
+    ],
+    "enExample2": "The tumultuous week following the zero-day vulnerability required continuous patching and emergency redeployments.",
+    "taExample2": "பாதுகாப்புக் குறைபாட்டைத் தொடர்ந்து வந்த கொந்தளிப்பான (Tumultuous) வாரம் தொடர் அவசர வெளியீடுகளைக் கோரியது."
   },
   {
     "id": 2011,
@@ -882,7 +1116,9 @@
       "Mutable list",
       "Dynamic array",
       "Unordered map"
-    ]
+    ],
+    "enExample2": "TypeScript tuples allow developers to define fixed-length arrays with strictly specified element types.",
+    "taExample2": "TypeScript டூப்பிள்கள் (Tuples) குறிப்பிட்ட தரவு வகைகளைக் கொண்ட நிலையான நீள அணிகளை வரையறுக்க அனுமதிக்கின்றன."
   },
   {
     "id": 3156,
@@ -904,7 +1140,9 @@
       "Succinct",
       "Lucid",
       "Concise"
-    ]
+    ],
+    "enExample2": "The developer rewrote the turgid, overly verbose documentation into clean, concise getting-started guides.",
+    "taExample2": "மிகவும் நீண்ட மற்றும் சிக்கலான (Turgid) ஆவணங்களை உருவாக்குநர் தெளிவான சுருக்கமான வழிகாட்டிகளாக மீண்டும் எழுதினார்."
   },
   {
     "id": 2824,
@@ -921,7 +1159,9 @@
     "antonyms": [
       "Eventual consistency",
       "Saga pattern"
-    ]
+    ],
+    "enExample2": "Two-Phase Commit (2PC) guarantees atomic transaction success across distributed databases despite network partitions.",
+    "taExample2": "இருபடி ஒப்புதல் நெறிமுறை (Two-Phase Commit) விநியோகிக்கப்பட்ட தரவுத்தளங்களில் முழுமையான பரிவர்த்தனை வெற்றியை உறுதி செய்கிறது."
   },
   {
     "id": 2015,
@@ -938,6 +1178,8 @@
     "antonyms": [
       "Type coercion",
       "Dynamic typing"
-    ]
+    ],
+    "enExample2": "Static type safety catches misspelled object property names at compile-time before code reaches staging.",
+    "taExample2": "நிலையான வகை பாதுகாப்பு (Type Safety) தவறாக எழுதப்பட்ட மாறிப் பெயர்களை குறியீடு இயங்குவதற்கு முன்பே கண்டறிகிறது."
   }
 ]

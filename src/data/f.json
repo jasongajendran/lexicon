@@ -14,7 +14,9 @@
     "antonyms": [
       "Core",
       "Interior"
-    ]
+    ],
+    "enExample2": "The API gateway provides a clean facade that hides the complexity of internal microservices.",
+    "taExample2": "API நுழைவாயில் உள்நாட்டு நுண்சேவைகளின் சிக்கலை மறைக்கும் ஒரு நேர்த்தியான முகப்பாக செயல்படுகிறது."
   },
   {
     "id": 626,
@@ -32,7 +34,9 @@
     "antonyms": [
       "Serious",
       "Solemn"
-    ]
+    ],
+    "enExample2": "His facetious remarks during the serious post-incident review were deemed inappropriate by the team.",
+    "taExample2": "தீவிரமான சம்பவ மறுஆய்வின் போது அவர் கூறிய கேலியான கருத்துக்கள் குழுவால் பொருத்தமற்றதாகக் கருதப்பட்டன."
   },
   {
     "id": 602,
@@ -49,7 +53,9 @@
     "antonyms": [
       "Hinder",
       "Impede"
-    ]
+    ],
+    "enExample2": "Automated code formatting tools facilitate smooth collaboration across large distributed engineering teams.",
+    "taExample2": "தானியங்கி குறியீட்டு வடிவமைப்பு கருவிகள் பெரிய பொறியியல் குழுக்களிடையே சீரான ஒத்துழைப்பை எளிதாக்குகின்றன."
   },
   {
     "id": 629,
@@ -68,6 +74,29 @@
       "Whole",
       "Outcome",
       "Result"
+    ],
+    "enExample2": "Network latency is a critical factor when choosing between multi-region and single-region database deployments.",
+    "taExample2": "தரவுத்தள வரிசைப்படுத்தலைத் தேர்ந்தெடுக்கும் போது நெட்வொர்க் தாமதம் ஒரு முக்கியமான காரணியாகும்."
+  },
+  {
+    "id": 3299,
+    "word": "Faff",
+    "pos": "Verb",
+    "definition": "UK and Scottish slang meaning to spend time in ineffective, disorganized, or clumsy activity.",
+    "taWord": "நேரத்தை வீணடித்தல் (Neerathai veenaditthal)",
+    "enExample": "Instead of faffing around with manual configuration files, we automated container setup with Docker.",
+    "taExample": "கையேடு உள்ளமைவு கோப்புகளுடன் நேரத்தை வீணடிப்பதற்கு பதிலாக, Docker உடன் கொள்கலன் அமைப்பை தானியங்குபடுத்தினோம்.",
+    "enExample2": "Stop faffing and merge the pull request before the deployment window closes.",
+    "taExample2": "நேரத்தை வீணடிப்பதை நிறுத்திவிட்டு, வரிசைப்படுத்தல் சாளரம் మూடுவதற்கு முன் பிடிப்பு கோரிக்கையை இணைக்கவும்.",
+    "synonyms": [
+      "dally",
+      "dawdle",
+      "waste time",
+      "mess about"
+    ],
+    "antonyms": [
+      "get down to business",
+      "act promptly"
     ]
   },
   {
@@ -86,7 +115,9 @@
     "antonyms": [
       "True",
       "Correct"
-    ]
+    ],
+    "enExample2": "Assuming that adding more developers to a late project will speed it up is a fallacious belief.",
+    "taExample2": "தாமதமான திட்டத்தில் கூடுதல் உருவாக்குநர்களைச் சேர்ப்பது அதை விரைவுபடுத்தும் என்று கருதுவது தவறான நம்பிக்கையாகும்."
   },
   {
     "id": 603,
@@ -102,7 +133,9 @@
     ],
     "antonyms": [
       "Primary"
-    ]
+    ],
+    "enExample2": "The application renders a local cached fallback view whenever the remote payment service is unreachable.",
+    "taExample2": "தொலைதூர கட்டணச் சேவையை அணுக முடியாத போது இந்த பயன்பாடு உள்ளூர் மாற்று காட்சியை (Fallback) காட்டுகிறது."
   },
   {
     "id": 2866,
@@ -122,7 +155,9 @@
       "Antecedent",
       "Precursor",
       "Direct cause"
-    ]
+    ],
+    "enExample2": "The engineering VP managed the operational fallout from the prolonged cloud infrastructure outage.",
+    "taExample2": "நீண்ட கிளவுட் முடக்கத்தால் ஏற்பட்ட செயல்பாட்டு பின்விளைவுகளை பொறியியல் துணைத் தலைவர் திறம்பட கையாண்டார்."
   },
   {
     "id": 628,
@@ -140,7 +175,9 @@
     "antonyms": [
       "Careless",
       "Sloppy"
-    ]
+    ],
+    "enExample2": "Her fastidious approach to writing unit tests ensured zero regression defects in the payment module.",
+    "taExample2": "சோதனைகளை எழுதுவதில் அவரது அதீத துல்லியமான அணுகுமுறை கட்டணப் பகுதியில் பிழைகள் எதுவும் இல்லாததை உறுதி செய்தது."
   },
   {
     "id": 604,
@@ -157,7 +194,9 @@
     "antonyms": [
       "Impossible",
       "Impractical"
-    ]
+    ],
+    "enExample2": "After technical prototyping, the team concluded that real-time video transcribing on edge devices was feasible.",
+    "taExample2": "தொழில்நுட்ப முன்மாதிரி ஆய்வுக்குப் பிறகு விளிம்பு சாதனங்களில் நிகழ்நேர வீடியோ உரையாக்கம் சாத்தியமானது என முடிவு செய்யப்பட்டது."
   },
   {
     "id": 605,
@@ -174,7 +213,9 @@
     "antonyms": [
       "Bug",
       "Flaw"
-    ]
+    ],
+    "enExample2": "The dark mode toggle is the most requested user feature in the upcoming quarterly release.",
+    "taExample2": "இருண்ட பயன்முறை மாற்றம் வரவிருக்கும் காலாண்டு வெளியீட்டில் பயனர்களால் அதிகம் கோரப்பட்ட அம்சமாகும்."
   },
   {
     "id": 606,
@@ -190,7 +231,9 @@
     ],
     "antonyms": [
       "Separation"
-    ]
+    ],
+    "enExample2": "GraphQL federation allows separate engineering squads to maintain their own subgraphs independently.",
+    "taExample2": "GraphQL கூட்டமைப்பு (Federation) தனித்தனி பொறியியல் குழுக்கள் தங்கள் வரைபடங்களை தன்னாட்சியுடன் பராமரிக்க அனுமதிக்கிறது."
   },
   {
     "id": 638,
@@ -209,6 +252,30 @@
       "Ignorance",
       "One-way broadcast",
       "Isolation"
+    ],
+    "enExample2": "Continuous user feedback loops help product designers iterate rapidly on navigation layouts.",
+    "taExample2": "தொடர்ச்சியான பயனர் கருத்துப் பின்னூட்டங்கள் தயாரிப்பு வடிவமைப்பாளர்கள் திரைகளை விரைவாக மேம்படுத்த உதவுகின்றன."
+  },
+  {
+    "id": 3270,
+    "word": "Fellowship",
+    "pos": "Noun",
+    "definition": "Friendly association, community, and mutual encouragement among people sharing common faith or goals.",
+    "taWord": "தோழமை/ஐக்கியம் (Thozhamai/aikkiyam)",
+    "enExample": "Weekly developer meetups foster a spirit of technical fellowship and shared learning.",
+    "taExample": "வாராந்திர டெவலப்பர் சந்திப்புகள் தொழில்நுட்பத் தோழமை மற்றும் பகிர்ந்த கற்றலின் ஆவியை வளர்க்கின்றன.",
+    "enExample2": "Christian fellowship provides strength, accountability, and joy through shared worship.",
+    "taExample2": "கிறிஸ்தவ தோழமை பகிர்ந்த வழிபாட்டின் மூலம் வலிமை, பொறுப்புக்கூறல் மற்றும் மகிழ்ச்சியை வழங்குகிறது.",
+    "synonyms": [
+      "camaraderie",
+      "community",
+      "communion",
+      "companionship"
+    ],
+    "antonyms": [
+      "isolation",
+      "estrangement",
+      "hostility"
     ]
   },
   {
@@ -226,7 +293,9 @@
     "antonyms": [
       "Send",
       "Push"
-    ]
+    ],
+    "enExample2": "The browser uses modern Fetch API calls to retrieve JSON payloads asynchronously from the backend.",
+    "taExample2": "பின்தளத்திலிருந்து தரவை ஒத்திசைவற்ற முறையில் பெற உலாவி நவீன Fetch API அழைப்புகளைப் பயன்படுத்துகிறது."
   },
   {
     "id": 2783,
@@ -243,7 +312,9 @@
     "antonyms": [
       "Zero-shot prompting",
       "Blind prompting"
-    ]
+    ],
+    "enExample2": "By providing three high-quality input-output pairs through few-shot prompting, extraction accuracy doubled.",
+    "taExample2": "சில மாதிரி உதாரணங்களை (Few-Shot Prompting) வழங்கியதன் மூலம் தரவு பிரித்தெடுத்தல் துல்லியம் இரட்டிப்பானது."
   },
   {
     "id": 3019,
@@ -264,6 +335,29 @@
       "Inaccuracy",
       "Infidelity",
       "Falsehood"
+    ],
+    "enExample2": "High-fidelity prototypes allow stakeholders to experience user workflows before backend implementation begins.",
+    "taExample2": "உயர் நம்பகத்தன்மை முன்மாதிரிகள் மென்பொருள் உருவாக்கத்திற்கு முன்பே பயனர் அனுபவத்தை நேரில் உணர உதவுகின்றன."
+  },
+  {
+    "id": 3224,
+    "word": "Filibuster",
+    "pos": "Noun",
+    "definition": "A tactic used in legislative assemblies or meetings to obstruct or delay action by delivering prolonged speeches.",
+    "taWord": "தடங்கல் உரை (Thadangal urai)",
+    "enExample": "The senator engaged in a twelve-hour filibuster to delay the vote on digital privacy regulation.",
+    "taExample": "டிஜிட்டல் தனியுரிமை ஒழுங்குமுறை மீதான வாக்கெடுப்பைத் தாமதப்படுத்த செனட்டர் பன்னிரண்டு மணி நேர தடங்கல் உரையில் ஈடுபட்டார்.",
+    "enExample2": "Developers joked that the marathon meeting felt like an internal engineering filibuster.",
+    "taExample2": "மேரத்தான் கூட்டம் ஒரு உள் பொறியியல் தடங்கல் உரை போல உணர்ந்ததாக டெவலப்பர்கள் நகைச்சுவையாகக் கூறினர்.",
+    "synonyms": [
+      "obstruction",
+      "procrastination",
+      "delay tactic"
+    ],
+    "antonyms": [
+      "expedition",
+      "closure",
+      "prompt action"
     ]
   },
   {
@@ -281,7 +375,9 @@
     "antonyms": [
       "Combine",
       "Include"
-    ]
+    ],
+    "enExample2": "Users can apply a multi-select filter to narrow search results by category, rating, and price.",
+    "taExample2": "பயனர்கள் வகை, மதிப்பீடு மற்றும் விலை ஆகியவற்றின் அடிப்படையில் தேடல் முடிவுகளை சுருக்க வடிகட்டியைப் பயன்படுத்தலாம்."
   },
   {
     "id": 2781,
@@ -299,7 +395,9 @@
     "antonyms": [
       "Pre-training from scratch",
       "Zero-shot inference"
-    ]
+    ],
+    "enExample2": "Fine-tuning the language model on medical literature significantly improved diagnostic terminology understanding.",
+    "taExample2": "மருத்துவ நூல்களில் மொழி மாதிரியை நுணுக்கமாகப் பயிற்றுவித்தது (Fine-Tuning) மருத்துவச் சொற்களின் புரிதலை பெரிதும் மேம்படுத்தியது."
   },
   {
     "id": 2978,
@@ -321,6 +419,50 @@
       "Bluntness",
       "Incompetence",
       "Awkwardness"
+    ],
+    "enExample2": "She resolved the complex database deadlock issue with remarkable technical finesse and minimal downtime.",
+    "taExample2": "அவர் சிக்கலான தரவுத்தள முடக்கப் பிரச்சனையை மிகக் குறைந்த முடக்க நேரத்துடன் குறிப்பிடத்தக்க நேர்த்தியுடன் தீர்த்தார்."
+  },
+  {
+    "id": 3353,
+    "word": "firewalling",
+    "pos": "noun",
+    "definition": "The practice of creating boundaries to isolate risks, networks, or team domains.",
+    "taWord": "சுவரமைத்துப் பாதுகாப்பு (தனிமைப்படுத்துதல்)",
+    "enExample": "Microservice firewalling prevented the memory overflow in the billing pod from crashing user auth.",
+    "taExample": "மைக்ரோசர்வீஸ் பாதுகாப்புச் சுவர் கட்டணச் சேவையின் நினைவகக் கோளாறு பயனர் கணக்கை பாதிக்காமல் தடுத்தது.",
+    "enExample2": "The minister emphasized firewalling personal ethics against political corruption pressures.",
+    "taExample2": "அரசியல் ஊழல் அழுத்தங்களிலிருந்து தனிநபர் ஒழுக்கத்தைப் பாதுகாப்பதன் அவசியத்தை அமைச்சர் வலியுறுத்தினார்.",
+    "synonyms": [
+      "isolation",
+      "segmentation",
+      "safeguarding"
+    ],
+    "antonyms": [
+      "exposure",
+      "integration"
+    ]
+  },
+  {
+    "id": 3354,
+    "word": "flagship",
+    "pos": "adjective",
+    "definition": "The best, highest priority, or most important product, service, or initiative of an organization.",
+    "taWord": "முதன்மைத் திட்டம் (முக்கியத் தயாரிப்பு)",
+    "enExample": "The cloud platform unveiled its flagship developer tool equipped with native AI code completion.",
+    "taExample": "கிளவுட் நிறுவனம் தனது முதன்மை டெவலப்பர் கருவியை ஏஐ கோட் நிறைவு அம்சத்துடன் அறிமுகப்படுத்தியது.",
+    "enExample2": "BBC News broadcasted the political debate live from their flagship London studio.",
+    "taExample2": "பிபிசி செய்தி நிறுவனம் தன் முதன்மை லண்டன் ஸ்டுடியோவிலிருந்து அரசியல் விவாதத்தை நேரலையில் ஒளிபரப்பியது.",
+    "synonyms": [
+      "premier",
+      "lead",
+      "primary",
+      "front-line"
+    ],
+    "antonyms": [
+      "secondary",
+      "minor",
+      "subsidiary"
     ]
   },
   {
@@ -338,7 +480,9 @@
     "antonyms": [
       "Stable",
       "Reliable"
-    ]
+    ],
+    "enExample2": "The QA team quarantined flaky end-to-end browser tests to keep the main build pipeline fast and trustworthy.",
+    "taExample2": "முக்கிய உருவாக்க அமைப்பை நம்பகமாக வைத்திருக்க நிலையற்ற (Flaky) சோதனைகளை தரக்கட்டுப்பாட்டுக் குழு தனிமைப்படுத்தியது."
   },
   {
     "id": 610,
@@ -354,7 +498,9 @@
     ],
     "antonyms": [
       "Single"
-    ]
+    ],
+    "enExample2": "The DevOps dashboard monitors the CPU health of our entire fleet of over five thousand cloud servers.",
+    "taExample2": "எங்கள் ஐயாயிரத்திற்கும் மேற்பட்ட கிளவுட் சேவையகப் படையின் CPU நிலையை கண்காணிப்பு பலகை கண்காணிக்கிறது."
   },
   {
     "id": 2634,
@@ -372,7 +518,9 @@
     "antonyms": [
       "Downplay",
       "Conceal"
-    ]
+    ],
+    "enExample2": "The engineering team demonstrated their technical flex by open-sourcing a ultra-fast JavaScript runtime.",
+    "taExample2": "அதிவேக ஜாவாஸ்கிரிப்ட் இயக்க நேரத்தை திறந்த மூலமாக வெளியிட்டதன் மூலம் பொறியியல் குழு தனது தொழில்நுட்ப வல்லமையை நிரூபித்தது."
   },
   {
     "id": 630,
@@ -389,7 +537,9 @@
     "antonyms": [
       "Rigid",
       "Inflexible"
-    ]
+    ],
+    "enExample2": "A flexible database schema allows developers to store evolving JSON attributes without running migrations.",
+    "taExample2": "ஒரு நெகிழ்வான தரவுத்தள அமைப்பு உருவாக்குநர்கள் மாற்றங்களைச் செய்யாமல் விரிவடையும் தரவுகளைச் சேமிக்க அனுமதிக்கிறது."
   },
   {
     "id": 611,
@@ -406,7 +556,9 @@
     "antonyms": [
       "Store",
       "Retain"
-    ]
+    ],
+    "enExample2": "The logging buffer flushes accumulated trace events to disk every ten seconds or whenever capacity is reached.",
+    "taExample2": "பதிவு நினைவகம் சேகரிக்கப்பட்ட நிகழ்வுகளை ஒவ்வொரு பத்து விநாடிகளுக்கும் அல்லது கொள்ளளவை எட்டும் போது வட்டில் உடனடியாக வெளியேற்றுகிறது (Flush)."
   },
   {
     "id": 2662,
@@ -423,7 +575,9 @@
     "antonyms": [
       "Vicious cycle",
       "Stagnation"
-    ]
+    ],
+    "enExample2": "High code quality creates a positive engineering flywheel, leading to faster feature shipping and fewer bugs.",
+    "taExample2": "உயர்தர குறியீடு நேர்மறையான பொறியியல் வேகத்தை உருவாக்குகிறது, இது வேகமான வெளியீட்டிற்கும் குறைவான பிழைகளுக்கும் வழிவகுக்கிறது."
   },
   {
     "id": 631,
@@ -439,7 +593,9 @@
     ],
     "antonyms": [
       "Distraction"
-    ]
+    ],
+    "enExample2": "The team agreed to maintain strict focus on core latency reduction before developing secondary widgets.",
+    "taExample2": "கூடுதல் வசதிகளை உருவாக்குவதற்கு முன் தாமதத்தைக் குறைப்பதில் மட்டுமே தீவிர கவனம் செலுத்த குழு ஒப்புக்கொண்டது."
   },
   {
     "id": 2959,
@@ -460,7 +616,9 @@
       "Suppress",
       "Pacify",
       "Extinguish"
-    ]
+    ],
+    "enExample2": "Unfair on-call scheduling can foment frustration and resentment across distributed engineering teams.",
+    "taExample2": "முறையற்ற சுழற்சி முறை பணிகள் பொறியியல் குழுக்களிடையே விரக்தியையும் அமைதியின்மையையும் தூண்டக்கூடும்."
   },
   {
     "id": 612,
@@ -478,7 +636,9 @@
       "Invisibility",
       "Untraceability",
       "Zero impact"
-    ]
+    ],
+    "enExample2": "Compiling code with WebAssembly significantly reduces the binary memory footprint on embedded devices.",
+    "taExample2": "WebAssembly மூலம் தொகுப்பது உட்பொதிக்கப்பட்ட சாதனங்களில் பயன்பாட்டின் நினைவக அளவை கணிசமாகக் குறைக்கிறது."
   },
   {
     "id": 613,
@@ -494,7 +654,9 @@
     ],
     "antonyms": [
       "Background"
-    ]
+    ],
+    "enExample2": "The mobile app pauses resource-heavy animations whenever the activity is no longer in the foreground.",
+    "taExample2": "பயன்பாடு திரையின் முன்புறத்தில் (Foreground) இல்லாத போதெல்லாம் அதிக வளங்களைப் பயன்படுத்தும் அனிமேஷன்களை நிறுத்துகிறது."
   },
   {
     "id": 614,
@@ -511,7 +673,9 @@
     "antonyms": [
       "Merge",
       "Join"
-    ]
+    ],
+    "enExample2": "The community decided to fork the abandoned open-source project to continue active security maintenance.",
+    "taExample2": "கைவிடப்பட்ட திறந்த மூலத் திட்டத்தை தொடர்ந்து பராமரிக்க சமூகம் அதை தனி கிளையாக பிரித்து (Fork) உருவாக்க முடிவு செய்தது."
   },
   {
     "id": 632,
@@ -528,7 +692,9 @@
     "antonyms": [
       "Informal",
       "Casual"
-    ]
+    ],
+    "enExample2": "Mission-critical aerospace systems use formal verification methods to mathematically prove code correctness.",
+    "taExample2": "விண்வெளி அமைப்புகள் குறியீட்டின் துல்லியத்தை கணித ரீதியாக நிரூபிக்க முறையான சரிபார்ப்பு முறைகளைப் பயன்படுத்துகின்றன."
   },
   {
     "id": 615,
@@ -546,7 +712,9 @@
       "Unstructured raw data",
       "Binary blob",
       "Malformed text"
-    ]
+    ],
+    "enExample2": "Prettier is configured to automatically format TypeScript files upon saving changes in the code editor.",
+    "taExample2": "குறியீட்டுத் தொகுப்பில் மாற்றங்களைச் சேமிக்கும் போது தானாகவே கோப்புகளை வடிவமைக்க (Format) Prettier கட்டமைக்கப்பட்டுள்ளது."
   },
   {
     "id": 633,
@@ -563,7 +731,9 @@
     "antonyms": [
       "Weak",
       "Insignificant"
-    ]
+    ],
+    "enExample2": "Migrating a petabyte-scale database with zero downtime proved to be a formidable engineering challenge.",
+    "taExample2": "பூஜ்ஜிய முடக்க நேரத்துடன் பிரம்மாண்டமான தரவுத்தளத்தை மாற்றுவது ஒரு வலிமையான பொறியியல் சவாலாக அமைந்தது."
   },
   {
     "id": 625,
@@ -580,7 +750,9 @@
     "antonyms": [
       "Destroy",
       "Ruined"
-    ]
+    ],
+    "enExample2": "The platform architects met to formulate a comprehensive disaster recovery and business continuity strategy.",
+    "taExample2": "விரிவான அவசரகால மீட்பு மற்றும் தொடர்ச்சி உத்தியை வகுக்க தள வடிவமைப்பாளர்கள் கூடினர்."
   },
   {
     "id": 3026,
@@ -602,7 +774,9 @@
       "Deliberate",
       "Planned",
       "Calculated"
-    ]
+    ],
+    "enExample2": "The server upgrade was fortuitous timing, as traffic doubled the following day due to a viral social campaign.",
+    "taExample2": "சர்வர் மேம்படுத்தல் சரியான நேரத்தில் அமைந்தது, ஏனெனில் அடுத்த நாளே போக்குவரத்து இருமடங்காக அதிகரித்தது."
   },
   {
     "id": 634,
@@ -619,7 +793,9 @@
     "antonyms": [
       "Suppress",
       "Discourage"
-    ]
+    ],
+    "enExample2": "Blameless postmortems foster an open engineering culture focused on continuous systemic improvement.",
+    "taExample2": "குற்றஞ்சாட்டாத மறுஆய்வுகள் தொடர்ச்சியான அமைப்பு மேம்பாட்டில் கவனம் செலுத்தும் திறந்த பொறியியல் கலாச்சாரத்தை வளர்க்கின்றன."
   },
   {
     "id": 2867,
@@ -640,7 +816,9 @@
       "United",
       "Cooperative",
       "Peaceable"
-    ]
+    ],
+    "enExample2": "The architectural dispute between backend and frontend teams grew increasingly fractious before management stepped in.",
+    "taExample2": "நிர்வாகம் தலையிடுவதற்கு முன் குழுக்களுக்கிடையேயான கட்டமைப்பு விவாதம் மிகவும் கசப்பானதாக மாறியது."
   },
   {
     "id": 616,
@@ -657,7 +835,9 @@
     "antonyms": [
       "Whole",
       "Complete"
-    ]
+    ],
+    "enExample2": "Large network packets may fragment across multiple transmission paths, increasing reassembly latency.",
+    "taExample2": "பெரிய நெட்வொர்க் பாக்கெட்டுகள் பல பாதைகளில் துண்டுகளாகப் பிரிந்து மீண்டும் இணைக்கும் தாமதத்தை அதிகரிக்கலாம்."
   },
   {
     "id": 617,
@@ -675,7 +855,9 @@
       "Ad-hoc script",
       "Unstructured code",
       "Spaghetti logic"
-    ]
+    ],
+    "enExample2": "Selecting the right web framework accelerates frontend prototyping and simplifies complex state management.",
+    "taExample2": "சரியான வலை கட்டமைப்பைத் தேர்ந்தெடுப்பது முன்மாதிரி உருவாக்கத்தை விரைவுபடுத்தி நிலை மேலாண்மையை எளிதாக்குகிறது."
   },
   {
     "id": 618,
@@ -692,6 +874,30 @@
     "antonyms": [
       "Ease",
       "Harmony"
+    ],
+    "enExample2": "Streamlining single sign-on authentication removes unnecessary user friction during enterprise onboarding.",
+    "taExample2": "ஒற்றை உள்நுழைவு முறையை நெறிப்படுத்துவது வாடிக்கையாளர் இணைப்பின் போது தேவையற்ற உராய்வுகளை நீக்குகிறது."
+  },
+  {
+    "id": 3355,
+    "word": "frictionless",
+    "pos": "adjective",
+    "definition": "Achieved with smooth efficiency, lacking conflict, delay, or resistance.",
+    "taWord": "தடையற்ற (மென்மையான இயக்கம்)",
+    "enExample": "Single Sign-On (SSO) enables a frictionless authentication workflow for enterprise employees.",
+    "taExample": "ஒற்றை உள்நுழைவு (SSO) நிறுவனம் சார்ந்த ஊழியர்களுக்குத் தடையற்ற அங்கீகாரப் பணிப்பாய்வை வழங்குகிறது.",
+    "enExample2": "The government aimed to build a frictionless trade protocol across international borders.",
+    "taExample2": "சர்வதேச எல்லைகளுக்கு இடையே தடையற்ற வர்த்தக ஒப்பந்தத்தை உருவாக்க அரசாங்கம் இலக்கு நிர்ணயித்தது.",
+    "synonyms": [
+      "seamless",
+      "smooth",
+      "effortless",
+      "unimpeded"
+    ],
+    "antonyms": [
+      "cumbersome",
+      "clunky",
+      "resistive"
     ]
   },
   {
@@ -708,7 +914,9 @@
     ],
     "antonyms": [
       "Edge"
-    ]
+    ],
+    "enExample2": "Reliable automated continuous integration served as the fulcrum for our high-velocity release engineering.",
+    "taExample2": "நம்பகமான தானியங்கி தொடர் ஒருங்கிணைப்பே எங்கள் அதிவேக வெளியீட்டு பொறியியலின் முக்கிய ஆதார மையமாக விளங்கியது."
   },
   {
     "id": 635,
@@ -725,7 +933,9 @@
     "antonyms": [
       "Fail",
       "Neglect"
-    ]
+    ],
+    "enExample2": "The inventory microservice must fulfill thousands of real-time orders during flash sales without data loss.",
+    "taExample2": "இருப்பு நுண்சேவையானது சிறப்பு விற்பனையின் போது ஆயிரக்கணக்கான நிகழ்நேர ஆர்டர்களை தரவு இழப்பின்றி நிறைவேற்ற வேண்டும்."
   },
   {
     "id": 636,
@@ -743,7 +953,9 @@
       "Malfunction",
       "Data payload",
       "Static variable"
-    ]
+    ],
+    "enExample2": "Each lambda function executes independently in an isolated, stateless sandbox environment.",
+    "taExample2": "ஒவ்வொரு லேம்ப்டா செயல்பாடும் (Function) தனிமைப்படுத்தப்பட்ட சர்வர்லெஸ் சூழலில் சுயாதீனமாக இயங்குகிறது."
   },
   {
     "id": 2782,
@@ -761,7 +973,9 @@
     "antonyms": [
       "Pure conversational output",
       "Unstructured text generation"
-    ]
+    ],
+    "enExample2": "Using function calling, the LLM converts conversational queries into structured database parameters.",
+    "taExample2": "செயல்பாட்டு அழைப்பைப் (Function Calling) பயன்படுத்தி AI மாதிரி உரையாடல்களை கட்டமைக்கப்பட்ட வினவல்களாக மாற்றுகிறது."
   },
   {
     "id": 620,
@@ -778,7 +992,9 @@
     "antonyms": [
       "Advanced",
       "Peripheral"
-    ]
+    ],
+    "enExample2": "Understanding algorithmic time complexity is a fundamental requirement for software engineering roles.",
+    "taExample2": "அல்காரித நேரச் சிக்கலைப் புரிந்துகொள்வது மென்பொருள் பொறியியல் பணிகளுக்கான அடிப்படைத் தேவையாகும்."
   },
   {
     "id": 621,
@@ -795,7 +1011,9 @@
     "antonyms": [
       "Unique",
       "Incomparable"
-    ]
+    ],
+    "enExample2": "Stateless compute containers are completely fungible and can be replaced instantly without losing state.",
+    "taExample2": "நிலையற்ற கணினி கொள்கலன்கள் ஒன்றுக்கு பதிலாக மற்றொன்று எளிதில் மாற்றக்கூடியவையாகும் (Fungible)."
   },
   {
     "id": 622,
@@ -812,7 +1030,9 @@
     "antonyms": [
       "Separate",
       "Divide"
-    ]
+    ],
+    "enExample2": "The compilation step fuses multiple stylesheet chunks into a single optimized CSS stylesheet.",
+    "taExample2": "தொகுப்பு செயல்முறை பல ஸ்டைல் துண்டுகளை ஒன்றிணைத்து ஒற்றை உகந்த CSS கோப்பாக மாற்றுகிறது."
   },
   {
     "id": 623,
@@ -829,7 +1049,9 @@
     "antonyms": [
       "Useful",
       "Effective"
-    ]
+    ],
+    "enExample2": "Attempting to manually inspect millions of server log entries is a futile task without automated log analyzers.",
+    "taExample2": "தானியங்கி பகுப்பாய்வுக் கருவிகள் இன்றி மில்லியன் கணக்கான பதிவு வரிகளை கையேடாக ஆய்வு செய்ய முயல்வது பயனற்ற செயலாகும்."
   },
   {
     "id": 624,
@@ -846,6 +1068,8 @@
     "antonyms": [
       "Exact",
       "Precise"
-    ]
+    ],
+    "enExample2": "The search bar utilizes fuzzy matching algorithms to return accurate results even with misspelled keywords.",
+    "taExample2": "எழுத்துப் பிழைகள் இருந்தாலும் துல்லியமான முடிவுகளை வழங்க தேடல் பட்டி தோராயப் பொருத்த (Fuzzy Matching) வழிமுறைகளைப் பயன்படுத்துகிறது."
   }
 ]

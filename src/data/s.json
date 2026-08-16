@@ -1,5 +1,25 @@
 [
   {
+    "id": 3312,
+    "word": "SaaS",
+    "pos": "Noun",
+    "definition": "Software as a Service; a cloud distribution model where applications are hosted centrally and accessed via web.",
+    "taWord": "சேவையாக மென்பொருள் (Saevaiyaaga menporul)",
+    "enExample": "Our SaaS platform provides real-time monitoring dashboard analytics for cloud applications.",
+    "taExample": "எங்கள் SaaS தளம் கிளவுட் பயன்பாடுகளுக்கான நிகழ்நேர கண்காணிப்பு டாஷ்போர்டு பகுப்பாய்வை வழங்குகிறது.",
+    "enExample2": "Subscription-based SaaS models eliminate the hassle of manual desktop software installations.",
+    "taExample2": "சந்தா அடிப்படையிலான SaaS மாதிரிகள் கைமுறையாக டெஸ்க்டாப் மென்பொருள் நிறுவல்களின் தொந்தரவை நீக்குகின்றன.",
+    "synonyms": [
+      "cloud software",
+      "hosted application",
+      "web service"
+    ],
+    "antonyms": [
+      "on-premises software",
+      "installed desktop app"
+    ]
+  },
+  {
     "id": 2910,
     "word": "Sabotage",
     "pos": "verb",
@@ -18,7 +38,9 @@
       "Protect",
       "Support",
       "Bolster"
-    ]
+    ],
+    "enExample2": "Strict peer code reviews prevent rogue commits from attempting to sabotage production deployment pipelines.",
+    "taExample2": "கடுமையான சக குறியீட்டு மறுஆய்வுகள் திட்டமிட்டு உற்பத்தி பைப்லைன்களை நாசமாக்கும் (Sabotage) முயற்சிகளைத் தடுக்கின்றன."
   },
   {
     "id": 2818,
@@ -35,7 +57,9 @@
     "antonyms": [
       "Two-phase commit blocking",
       "Unchecked partial state"
-    ]
+    ],
+    "enExample2": "The Saga Pattern manages distributed transactions across microservices using a series of local compensating steps.",
+    "taExample2": "சாகா கட்டமைப்பு முறை (Saga Pattern) உள்ளூர் மாற்று படிகளைப் பயன்படுத்தி நுண்சேவைகளில் விநியோகிக்கப்பட்ட பரிவர்த்தனைகளை நிர்வகிக்கிறது."
   },
   {
     "id": 1916,
@@ -53,7 +77,9 @@
     "antonyms": [
       "Foolish",
       "Stupid"
-    ]
+    ],
+    "enExample2": "Her sagacious recommendation to adopt TypeScript early saved our startup from countless runtime bugs.",
+    "taExample2": "TypeScript-ஐ முன்கூட்டியே ஏற்க வேண்டும் என்ற அவரது விவேகமான (Sagacious) பரிந்துரை எண்ணற்ற பிழைகளிலிருந்து எங்கள் நிறுவனத்தைக் காப்பாற்றியது."
   },
   {
     "id": 3001,
@@ -74,7 +100,9 @@
       "Inconspicuous",
       "Minor",
       "Unimportant"
-    ]
+    ],
+    "enExample2": "The executive summary highlighted only the salient architectural differences between SQL and NoSQL engines.",
+    "taExample2": "நிர்வாக சுருக்கம் SQL மற்றும் NoSQL அமைப்புகளுக்கு இடையிலான மிக முக்கியமான (Salient) கட்டமைப்பு வேறுபாடுகளை மட்டுமே முன்னிலைப்படுத்தியது."
   },
   {
     "id": 2637,
@@ -92,7 +120,9 @@
     "antonyms": [
       "Gracious",
       "Cheerfully accepting"
-    ]
+    ],
+    "enExample2": "The junior engineer felt salty after their pull request was rejected due to missing automated test coverage.",
+    "taExample2": "சோதனைப் பாதுகாப்பு இல்லாததால் தனது குறியீடு நிராகரிக்கப்பட்ட போது அந்த இளம் உருவாக்குநர் வருத்தமும் எரிச்சலும் (Salty) அடைந்தார்."
   },
   {
     "id": 3140,
@@ -114,6 +144,29 @@
       "Deleterious",
       "Pernicious",
       "Harmful"
+    ],
+    "enExample2": "Establishing flexible remote work policies created a salubrious work environment that boosted team productivity.",
+    "taExample2": "நெகிழ்வான தொலைதூர வேலைக் கொள்கைகளை அமைத்தது குழுவின் உற்பத்தித்திறனை உயர்த்தும் ஆரோக்கியமான (Salubrious) பணிச்சூழலை உருவாக்கியது."
+  },
+  {
+    "id": 3265,
+    "word": "Sanctification",
+    "pos": "Noun",
+    "definition": "The progressive process of purification, growth in holiness, and alignment with high standards.",
+    "taWord": "பரிசுத்தமாக்குதல் (Parisuthamaakkuthal)",
+    "enExample": "Continuous code refactoring mirrors sanctification—gradually purging flaws to achieve higher purity.",
+    "taExample": "தொடர்ச்சியான குறியீட்டு சீரமைப்பு பரிசுத்தமாக்குதலைப் பிரதிபலிக்கிறது-உயர்ந்த தூய்மையை அடைய படிப்படியாக குறைபாடுகளை நீக்குகிறது.",
+    "enExample2": "Sanctification is an ongoing journey of character transformation and spiritual growth.",
+    "taExample2": "பரிசுத்தமாக்குதல் என்பது குணநல மாற்றம் மற்றும் ஆன்மீக வளர்ச்சியின் தொடர்ச்சியான பயணமாகும்.",
+    "synonyms": [
+      "purification",
+      "consecration",
+      "holiness growth"
+    ],
+    "antonyms": [
+      "degradation",
+      "pollution",
+      "decline"
     ]
   },
   {
@@ -135,7 +188,9 @@
       "Reward",
       "Approval",
       "Endorsement"
-    ]
+    ],
+    "enExample2": "International regulatory bodies may impose strict financial sanctions on organizations violating data privacy laws.",
+    "taExample2": "தரவு தனியுரிமை சட்டங்களை மீறும் நிறுவனங்கள் மீது சர்வதேச ஒழுங்குமுறை அமைப்புகள் கடுமையான நிதித் தடைகளை (Sanctions) விதிக்கலாம்."
   },
   {
     "id": 1901,
@@ -151,7 +206,9 @@
     ],
     "antonyms": [
       "Production system"
-    ]
+    ],
+    "enExample2": "Developers run experimental scripts inside an isolated container sandbox to prevent corrupting host systems.",
+    "taExample2": "முதன்மை கணினி பாதிக்கப்படுவதைத் தவிர்க்க உருவாக்குநர்கள் தனிமைப்படுத்தப்பட்ட மணல்தொட்டி (Sandbox) சூழலில் சோதனைக் குறியீடுகளை இயக்குகின்றனர்."
   },
   {
     "id": 3141,
@@ -173,7 +230,9 @@
       "Gloomy",
       "Despondent",
       "Doubtful"
-    ]
+    ],
+    "enExample2": "The engineering VP remained sanguine about hitting our product launch deadline despite unexpected staging bugs.",
+    "taExample2": "எதிர்பாராத பிழைகள் இருந்தபோதிலும் வெளியீட்டு காலக்கெடுவை அடைவது குறித்து பொறியியல் துணைத் தலைவர் நம்பிக்கையுடன் (Sanguine) இருந்தார்."
   },
   {
     "id": 2707,
@@ -191,7 +250,9 @@
     "antonyms": [
       "Full regression",
       "Deep audit"
-    ]
+    ],
+    "enExample2": "Running a quick sanity test verified that the core login endpoint responded correctly after the database patch.",
+    "taExample2": "ஒரு விரைவான அடிப்படை சரிபார்ப்பு சோதனையை (Sanity Test) இயக்கியது தரவுத்தள திருத்தத்திற்குப் பின் உள்நுழைவு சரியாக செயல்படுவதை உறுதி செய்தது."
   },
   {
     "id": 2700,
@@ -209,7 +270,9 @@
     "antonyms": [
       "Inelasticity",
       "Fragility"
-    ]
+    ],
+    "enExample2": "Stateless microservices architecture provides horizontal scalability to handle millions of concurrent users.",
+    "taExample2": "நிலையற்ற நுண்சேவை கட்டமைப்பு மில்லியன் கணக்கான ஒரே நேர பயனர்களைக் கையாளும் கிடைமட்ட விரிவாக்கத் திறனை (Scalability) வழங்குகிறது."
   },
   {
     "id": 2912,
@@ -229,7 +292,9 @@
       "True culprit",
       "Beneficiary",
       "Exonerated party"
-    ]
+    ],
+    "enExample2": "A blameless postmortem culture ensures junior developers are never made a scapegoat for systemic server outages.",
+    "taExample2": "குற்றஞ்சாட்டாத ஆய்வுக் கலாச்சாரம் கணினி முடக்கங்களுக்காக இளம் உருவாக்குநர்களை ஒருபோதும் பலிகடாவாக்காமல் (Scapegoat) இருப்பதை உறுதி செய்கிறது."
   },
   {
     "id": 1902,
@@ -247,6 +312,30 @@
     "antonyms": [
       "Schemaless unstructured JSON",
       "Dynamic untyped document"
+    ],
+    "enExample2": "Defining a strict GraphQL schema enforces clear contract validation between the client and the backend API.",
+    "taExample2": "கடுமையான GraphQL திட்டத்தை (Schema) வரையறுப்பது வாடிக்கையாளர் மற்றும் பின்தள API-க்கு இடையே தெளிவான ஒப்பந்த சரிபார்ப்பை செயல்படுத்துகிறது."
+  },
+  {
+    "id": 3266,
+    "word": "Schism",
+    "pos": "Noun",
+    "definition": "A formal division or split within a organization, church, or community caused by opposing views.",
+    "taWord": "பிளவு (Pilavu)",
+    "enExample": "The architectural controversy caused a temporary schism between the backend and infrastructure teams.",
+    "taExample": "கட்டிடக்கலை சர்ச்சை பின்தளத்திற்கும் உள்கட்டமைப்புக் குழுக்களுக்கும் இடையே ஒரு தற்காலிக பிளவை ஏற்படுத்தியது.",
+    "enExample2": "Historical church schisms often arose from disagreements over doctrinal interpretation.",
+    "taExample2": "வரலாற்றுத் திருச்சபை பிளவுகள் பெரும்பாலும் கோட்பாட்டு விளக்கம் தொடர்பான கருத்து வேறுபாடுகளால் எழுந்தன.",
+    "synonyms": [
+      "split",
+      "rift",
+      "division",
+      "breakup"
+    ],
+    "antonyms": [
+      "reunification",
+      "unity",
+      "harmony"
     ]
   },
   {
@@ -268,7 +357,9 @@
       "Dull",
       "Boring",
       "Monotonous"
-    ]
+    ],
+    "enExample2": "The conference keynote was a scintillating presentation showcasing the next decade of agentic AI workflows.",
+    "taExample2": "மாநாட்டு முதன்மை உரை தன்னாட்சி AI பணிப்பாய்வுகளின் அடுத்த பத்தாண்டை காட்சிப்படுத்தும் ஒரு மின்னும் அறிவார்ந்த (Scintillating) விளக்கமாக அமைந்தது."
   },
   {
     "id": 1903,
@@ -287,7 +378,9 @@
       "Global namespace",
       "Unbounded visibility",
       "Unscoped leakage"
-    ]
+    ],
+    "enExample2": "JavaScript block scope ensures variables declared with 'let' and 'const' are not accessible outside their enclosing braces.",
+    "taExample2": "ஜாவாஸ்கிரிப்ட் தொகுதி எல்லை (Scope) 'let' மற்றும் 'const' மாறிகள் அவற்றின் அடைப்புக்குறிக்கு வெளியே அணுகப்படாமல் இருப்பதை உறுதி செய்கிறது."
   },
   {
     "id": 2654,
@@ -305,7 +398,9 @@
     "antonyms": [
       "Scope control",
       "Strict boundary"
-    ]
+    ],
+    "enExample2": "Uncontrolled scope creep delayed the mobile application release by three consecutive quarterly milestones.",
+    "taExample2": "கட்டுப்பாடற்ற எல்லை விரிவாக்கம் (Scope Creep) மொபைல் செயலி வெளியீட்டை தொடர்ந்து மூன்று காலாண்டுகள் தாமதப்படுத்தியது."
   },
   {
     "id": 1904,
@@ -322,7 +417,9 @@
     ],
     "antonyms": [
       "Compiled binary"
-    ]
+    ],
+    "enExample2": "An automated bash script provisions cloud development environments and installs required tools in minutes.",
+    "taExample2": "ஒரு தானியங்கி ஸ்கிரிப்ட் (Script) கிளவுட் உருவாக்க சூழல்களை அமைத்து தேவையான கருவிகளை சில நிமிடங்களில் நிறுவுகிறது."
   },
   {
     "id": 2692,
@@ -339,7 +436,9 @@
     ],
     "antonyms": [
       "Authoritarian manager"
-    ]
+    ],
+    "enExample2": "The Scrum Master facilitated daily standups and helped eliminate blockers impeding sprint deliverables.",
+    "taExample2": "ஸ்க்ரம் மாஸ்டர் (Scrum Master) தினசரி கூட்டங்களை வழிநடத்தி ஸ்பிரிண்ட் பணிகளைத் தடுக்கும் தடைகளை நீக்க உதவினார்."
   },
   {
     "id": 2998,
@@ -360,7 +459,9 @@
       "Unscrupulous",
       "Careless",
       "Dishonest"
-    ]
+    ],
+    "enExample2": "Her scrupulous attention to encryption protocols ensured zero vulnerabilities were exposed during external penetration tests.",
+    "taExample2": "குறியாக்க நெறிமுறைகளில் அவரது அதீத கவனமான (Scrupulous) அணுகுமுறை வெளிப்புற சோதனைகளின் போது எந்தவொரு பாதுகாப்புக் குறைபாடும் இல்லை என்பதை உறுதி செய்தது."
   },
   {
     "id": 2913,
@@ -381,7 +482,9 @@
       "Neglect",
       "Blind spot",
       "Disregard"
-    ]
+    ],
+    "enExample2": "The open-source cryptographic library underwent intense security scrutiny from peer researchers worldwide.",
+    "taExample2": "திறந்த மூல குறியாக்க நூலகம் உலகளாவிய ஆராய்ச்சியாளர்களிடமிருந்து தீவிர பாதுகாப்பு ஆய்வுக்கு (Scrutiny) உட்படுத்தப்பட்டது."
   },
   {
     "id": 1905,
@@ -399,7 +502,9 @@
       "Raw REST API",
       "Low-level system calls",
       "Bare socket"
-    ]
+    ],
+    "enExample2": "The cloud vendor released an official TypeScript SDK to simplify authenticating and querying storage buckets.",
+    "taExample2": "சேமிப்பகங்களை எளிதாக இணைக்க மற்றும் வினவ கிளவுட் நிறுவனம் அதிகாரப்பூர்வ TypeScript SDK-ஐ வெளியிட்டது."
   },
   {
     "id": 2819,
@@ -417,7 +522,9 @@
     "antonyms": [
       "Centralized secret vault",
       "Zero-secret codebase"
-    ]
+    ],
+    "enExample2": "Implementing an enterprise secrets manager prevented secret sprawl across distributed Git repositories and CI logs.",
+    "taExample2": "நிறுவன ரகசிய மேலாளரை செயல்படுத்தியது கடவுச்சொற்கள் Git களஞ்சியங்கள் மற்றும் பதிவு கோப்புகளில் சிதறி பரவுவதைத் (Secret Sprawl) தடுத்தது."
   },
   {
     "id": 2914,
@@ -438,7 +545,9 @@
       "Loyalty",
       "Patriotism",
       "Obedience"
-    ]
+    ],
+    "enExample2": "The whistleblower exposed digital surveillance systems used by authoritarian states to suppress perceived sedition.",
+    "taExample2": "அரசுக்கு எதிரான கிளர்ச்சிகளை (Sedition) ஒடுக்க சர்வாதிகார அரசுகள் பயன்படுத்திய டிஜிட்டல் கண்காணிப்பு அமைப்புகளை தகவல் தருநர் அம்பலப்படுத்தினார்."
   },
   {
     "id": 3057,
@@ -460,7 +569,9 @@
       "Careless",
       "Negligent",
       "Slothful"
-    ]
+    ],
+    "enExample2": "Through sedulous optimization of database query plans, the team halved average page response times.",
+    "taExample2": "தரவுத்தள வினவல் திட்டங்களை விடாமுயற்சியுடன் (Sedulous) உகப்பாக்கியதன் மூலம் சராசரி பக்க மறுமொழி நேரத்தை குழு பாதியாகக் குறைத்தது."
   },
   {
     "id": 3066,
@@ -482,7 +593,9 @@
       "Unfortunate",
       "Calculated",
       "Foreseen"
-    ]
+    ],
+    "enExample2": "Discovering an unindexed foreign key column was a serendipitous breakthrough that fixed our query latency.",
+    "taExample2": "குறியிடப்படாத வெளிநாட்டு விசை நெடுவரிசையைக் கண்டறிந்தது எங்கள் வினவல் தாமதத்தை சரிசெய்த ஒரு தற்செயலான அதிர்ஷ்ட (Serendipitous) திருப்புமுனையாக அமைந்தது."
   },
   {
     "id": 1906,
@@ -499,7 +612,9 @@
     "antonyms": [
       "Deserialization",
       "Unmarshalling"
-    ]
+    ],
+    "enExample2": "Protocol Buffers offer faster binary serialization compared to traditional JSON text payloads.",
+    "taExample2": "பாரம்பரிய JSON உரையை விட புரோட்டோகால் பஃபர்ஸ் அதிவேக பைனரி வரிசையாக்கத்தை (Serialization) வழங்குகிறது."
   },
   {
     "id": 1907,
@@ -516,7 +631,9 @@
     "antonyms": [
       "Self-hosted",
       "Dedicated server"
-    ]
+    ],
+    "enExample2": "Serverless functions automatically scale from zero to thousands of instances in response to incoming traffic bursts.",
+    "taExample2": "சர்வர்லெஸ் (Serverless) செயல்பாடுகள் உள்வரும் போக்குவரத்து அதிகரிப்புக்கு ஏற்ப பூஜ்ஜியத்திலிருந்து ஆயிரக்கணக்கான முனையங்களாக தானாக விரிவடைகின்றன."
   },
   {
     "id": 2821,
@@ -534,7 +651,9 @@
     "antonyms": [
       "Unmeasured uptime",
       "SLA violation"
-    ]
+    ],
+    "enExample2": "Our Service Level Objective (SLO) mandates that 99.9% of HTTP requests resolve in under 200 milliseconds.",
+    "taExample2": "எங்கள் சேவை நிலை நோக்கம் (SLO) 99.9% கோரிக்கைகள் 200 மில்லி விநாடிகளுக்குள் முடிவடைவதை கட்டாயமாக்குகிறது."
   },
   {
     "id": 1908,
@@ -551,7 +670,9 @@
     "antonyms": [
       "Stateless connection",
       "Persistent global state"
-    ]
+    ],
+    "enExample2": "The web application stores authenticated user session tokens inside secure, HTTP-only browser cookies.",
+    "taExample2": "வலை பயன்பாடு சரிபார்க்கப்பட்ட பயனர் அமர்வு (Session) டோக்கன்களை பாதுகாப்பான பிரத்யேக குக்கீகளில் சேமிக்கிறது."
   },
   {
     "id": 2705,
@@ -569,6 +690,30 @@
     "antonyms": [
       "Centralization",
       "Single-instance DB"
+    ],
+    "enExample2": "Database sharding distributes large tables across multiple server clusters based on tenant ID hashes.",
+    "taExample2": "தரவுத்தள பகிர்வு (Sharding) பயனர் அடையாள எண்களின் அடிப்படையில் பெரிய அட்டவணைகளை பல சர்வர் கிளஸ்டர்களில் பிரித்து வைக்கிறது."
+  },
+  {
+    "id": 3326,
+    "word": "Shenanigans",
+    "pos": "Noun",
+    "definition": "Secret, dishonest, or complex maneuvering or unexpected system quirks.",
+    "taWord": "குறும்புத்தனங்கள்/தந்திரங்கள் (Kurumbutthanangal/thanthirangal)",
+    "enExample": "Strict security logs prevented internal credential shenanigans during the audit.",
+    "taExample": "கடுமையான பாதுகாப்புப் பதிவுகள் தணிக்கையின் போது உள் சான்றளிப்பு தந்திரங்களைத் தடுத்தன.",
+    "enExample2": "Debugging third-party library shenanigans took the team the whole afternoon.",
+    "taExample2": "மூன்றாம் தரப்பு நூலக குறும்புத்தனங்களை பிழைத்திருத்தம் செய்வது குழுவிற்கு முழு பிற்பகலையும் எடுத்தது.",
+    "synonyms": [
+      "mischief",
+      "trickery",
+      "high jinks",
+      "skulduggery"
+    ],
+    "antonyms": [
+      "honesty",
+      "transparency",
+      "straightforwardness"
     ]
   },
   {
@@ -586,7 +731,9 @@
     "antonyms": [
       "Post-deployment audit",
       "Late-stage patching"
-    ]
+    ],
+    "enExample2": "Adopting shift-left security integrates automated vulnerability scans directly into developer IDEs and Git pull requests.",
+    "taExample2": "ஷிஃப்ட்-லெஃப்ட் பாதுகாப்பை (Shift-Left Security) ஏற்றுக்கொள்வது பாதுகாப்புக் குறைபாடு சோதனைகளை நேரடியாக உருவாக்குநர் குறியீட்டு நிலையிலேயே இணைக்கிறது."
   },
   {
     "id": 2822,
@@ -604,7 +751,9 @@
     "antonyms": [
       "Hold release",
       "Block deployment"
-    ]
+    ],
+    "enExample2": "With all integration tests passing and zero blockers identified, the engineering director gave the command: 'Ship it!'",
+    "taExample2": "அனைத்து சோதனைகளும் தேர்ச்சி பெற்று தடைகள் எதுவும் இல்லாத நிலையில் பொறியியல் இயக்குனர் 'வெளியிடுங்கள்!' (Ship It) என்று கட்டளையிட்டார்."
   },
   {
     "id": 2644,
@@ -621,6 +770,49 @@
     "antonyms": [
       "Warm smile",
       "Approval"
+    ],
+    "enExample2": "The senior engineer gave serious side eye when a developer suggested turning off unit tests to hit the deadline.",
+    "taExample2": "காலக்கெடுவை எட்ட சோதனைகளை முடக்கலாம் என்று ஒரு உருவாக்குநர் கூறிய போது மூத்த பொறியாளர் தீவிரமான சந்தேகப் பார்வையை (Side eye) வீசினார்."
+  },
+  {
+    "id": 3211,
+    "word": "Silo",
+    "pos": "Noun",
+    "definition": "An isolated department, system, or database that operates independently without sharing context or telemetry.",
+    "taWord": "தனித்தனி பிரிவு (Thanithani pirivu)",
+    "enExample": "Breaking down organizational silos allowed frontend and backend engineers to standardize API contracts.",
+    "taExample": "நிறுவன தனித்தனி பிரிவுகளை உடைப்பது முகப்பு மற்றும் பின்தள பொறியாளர்களை API ஒப்பந்தங்களை தரப்படுத்த அனுமதித்தது.",
+    "enExample2": "Data stored in isolated silos hinders holistic analytics and real-time machine learning inference.",
+    "taExample2": "தனிமைப்படுத்தப்பட்ட பிரிவுகளில் சேமிக்கப்பட்ட தரவு முழுமையான பகுப்பாய்வு மற்றும் நிகழ்நேர இயந்திர கற்றல் அனுமானத்தைத் தடுக்கிறது.",
+    "synonyms": [
+      "isolation",
+      "compartment",
+      "fragmentation"
+    ],
+    "antonyms": [
+      "integration",
+      "collaboration",
+      "unity"
+    ]
+  },
+  {
+    "id": 3222,
+    "word": "Single-point-of-failure",
+    "pos": "Noun",
+    "definition": "A critical architecture node whose malfunction will stop the entire application from functioning.",
+    "taWord": "ஒற்றைப் புள்ளித் தோல்வி (Ontrai pullith tholvi)",
+    "enExample": "Adding multi-region database replicas eliminated our single-point-of-failure in disaster recovery.",
+    "taExample": "பல பிராந்திய தரவுத்தள படிகளைச் சேர்ப்பது பேரழிவு மீட்பில் எங்கள் ஒற்றைப் புள்ளித் தோல்வியை நீக்கியது.",
+    "enExample2": "Identified single-point-of-failure components should be prioritized for high-availability redundancy.",
+    "taExample2": "அடையாளம் காணப்பட்ட ஒற்றைப் புள்ளித் தோல்வி கூறுகளுக்கு அதிகக் கிடைக்கும்தன்மை பணிநீக்கத்திற்கு முன்னுரிமை அளிக்கப்பட வேண்டும்.",
+    "synonyms": [
+      "critical weakness",
+      "vulnerability",
+      "bottleneck"
+    ],
+    "antonyms": [
+      "redundant cluster",
+      "fault-tolerant system"
     ]
   },
   {
@@ -637,6 +829,51 @@
     ],
     "antonyms": [
       "Multi-instance"
+    ],
+    "enExample2": "The database connection manager is implemented as a Singleton to ensure only one shared connection pool exists.",
+    "taExample2": "ஒரே ஒரு பகிரப்பட்ட இணைப்புத் தொகுப்பு மட்டுமே இருப்பதை உறுதி செய்ய தரவுத்தள இணைப்பு மேலாளர் சிங்கிள்டன் (Singleton) முறையில் உருவாக்கப்பட்டுள்ளது."
+  },
+  {
+    "id": 3306,
+    "word": "Skelp",
+    "pos": "Verb",
+    "definition": "Scottish and UK slang meaning to strike with force, or to move/drive very fast across a pipeline.",
+    "taWord": "வேகமாக இயக்கு/அடி (Vaekamaaga iyakku/adi)",
+    "enExample": "The new build pipeline skelps through two thousand unit tests in under fifteen seconds.",
+    "taExample": "புதிய உருவாக்க பைப்லைன் பதினைந்து விநாடிகளுக்குள் இரண்டாயிரம் யூனிட் சோதனைகளை வேகமாக இயக்கி முடிகிறது.",
+    "enExample2": "Scottish developers joked about skelping through bug backlogs before Friday afternoon.",
+    "taExample2": "வெள்ளிக்கிழமை பிற்பகலுக்குள் பிழை நிலுவைகளை வேகமாக முடிப்பதைப் பற்றி ஸ்காட்டிஷ் டெவலப்பர்கள் நகைச்சுவையாகப் பேசினர்.",
+    "synonyms": [
+      "whip through",
+      "speed along",
+      "strike"
+    ],
+    "antonyms": [
+      "drag",
+      "crawl",
+      "stall"
+    ]
+  },
+  {
+    "id": 3327,
+    "word": "Skint",
+    "pos": "Adjective",
+    "definition": "UK and Scottish slang meaning having no money or operating on a depleted cloud budget.",
+    "taWord": "பணமில்லாத (Panamillaatha)",
+    "enExample": "The bootstrapped startup was skint, forcing developers to optimize for free-tier cloud resources.",
+    "taExample": "தொடக்க நிறுவனம் பணமில்லாமல் இருந்தது, இலவச அடுக்கு கிளவுட் வளங்களுக்கு உகதாக்க டெவலப்பர்களைக் கட்டாயப்படுத்தியது.",
+    "enExample2": "He spent all his fellowship savings on tech books and was skint for the rest of the month.",
+    "taExample2": "அவர் தனது அனைத்து தோழமை சேமிப்பையும் தொழில்நுட்ப புத்தகங்களுக்காக செலவழித்தார், மேலும் மாதத்தின் எஞ்சிய பகுதிக்கு பணமில்லாமல் இருந்தார்.",
+    "synonyms": [
+      "broke",
+      "penniless",
+      "bankrupt",
+      "impoverished"
+    ],
+    "antonyms": [
+      "wealthy",
+      "affluent",
+      "flush"
     ]
   },
   {
@@ -658,7 +895,9 @@
       "Commendation",
       "Tribute",
       "Truthful defense"
-    ]
+    ],
+    "enExample2": "Spreading false rumors about competitors in public tech forums constitutes actionable commercial slander.",
+    "taExample2": "பொது தொழில்நுட்ப தளங்களில் போட்டியாளர்களைப் பற்றி தவறான வதந்திகளைப் பரப்புவது சட்டப்படி தண்டனைக்குரிய வணிக அவதூறாகும் (Slander)."
   },
   {
     "id": 2645,
@@ -676,7 +915,9 @@
     "antonyms": [
       "Disappoints",
       "Lacks"
-    ]
+    ],
+    "enExample2": "The newly released audio transcoding library slaps with its sub-millisecond conversion latency.",
+    "taExample2": "புதிதாக வெளியிடப்பட்ட ஆடியோ மாற்ற நூலகம் மில்லி விநாடிக்கும் குறைவான தாமதத்துடன் மிக அற்புதமாகச் செயல்படுகிறது (Slaps)."
   },
   {
     "id": 2625,
@@ -694,6 +935,48 @@
     "antonyms": [
       "Fail",
       "Flop"
+    ],
+    "enExample2": "Our frontend team continues to slay every sprint, shipping accessible components ahead of schedule.",
+    "taExample2": "எங்கள் முன்னணி குழு ஒவ்வொரு சுழற்சியிலும் அட்டகாசமாகச் செயல்பட்டு (Slay) திட்டமிடப்பட்ட நேரத்திற்கு முன்பே பணிகளை முடிக்கிறது."
+  },
+  {
+    "id": 3328,
+    "word": "Sledge",
+    "pos": "Verb",
+    "definition": "To make competitive, witty taunts to an opponent in sports or friendly workplace contests.",
+    "taWord": "கேலி பேசு (Kaeli paesu)",
+    "enExample": "Engineers good-humoredly sledged each other during the company gaming tournament.",
+    "taExample": "நிறுவன கேமிங் போட்டியின் போது பொறியாளர்கள் ஒருவரையொருவர் நல்மனதுடன் கேலி பேசிக் கொண்டனர்.",
+    "enExample2": "Friendly workplace sledging should always remain respectful and lighthearted.",
+    "taExample2": "நட்பு பணியிட கேலி பேச்சு எப்போதும் மரியாதைக்குரியதாகவும் இலகுவானதாகவும் இருக்க வேண்டும்.",
+    "synonyms": [
+      "taunt",
+      "tease",
+      "banter competitively"
+    ],
+    "antonyms": [
+      "compliment",
+      "praise"
+    ]
+  },
+  {
+    "id": 3379,
+    "word": "slop",
+    "pos": "noun",
+    "definition": "Popular 2025/2026 tech slang for low-quality, mass-produced AI-generated content cluttering the web.",
+    "taWord": "செயற்கை நுண்ணறிவு குப்பைத் தகவல்",
+    "enExample": "Search engines are implementing strict quality filters to hide automated AI slop from technical queries.",
+    "taExample": "தேடுபொறிகள் தானியங்கி ஏஐ குப்பைத் தகவல்களைத் தேடல்களிலிருந்து மறைக்கக் கடுமையான தர வடிகட்டிகளைப் பயன்படுத்துகின்றன.",
+    "enExample2": "Social media users complained about feeds overflowing with generic AI slop instead of human art.",
+    "taExample2": "மனிதக் கலைக்குப் பதிலாக ஏஐ குப்பைப் படங்கள் இணையத்தில் நிறைந்து இருப்பதாகச் சமூக ஊடக பயனர்கள் புகார் கூறினர்.",
+    "synonyms": [
+      "AI clutter",
+      "junk content",
+      "automated spam"
+    ],
+    "antonyms": [
+      "curated content",
+      "human craftsmanship"
     ]
   },
   {
@@ -710,7 +993,9 @@
     ],
     "antonyms": [
       "Detailed inspection"
-    ]
+    ],
+    "enExample2": "Running an automated smoke test immediately after deployment confirms the production health endpoint returns 200 OK.",
+    "taExample2": "வெளியீட்டிற்குப் பின் உடனடி அடிப்படைப் புகைச் சோதனையை (Smoke Test) இயக்குவது சர்வர் சரியாக இயங்குவதை உறுதி செய்கிறது."
   },
   {
     "id": 1910,
@@ -730,7 +1015,9 @@
       "Monolith",
       "Whole codebase",
       "Full text"
-    ]
+    ],
+    "enExample2": "The developer documentation includes a copyable code snippet illustrating how to initialize the payment client.",
+    "taExample2": "கட்டண சேவையை எவ்வாறு தொடங்குவது என்பதை விளக்கும் நகலெடுக்கக்கூடிய குறியீட்டு துணுக்கை (Snippet) ஆவணம் கொண்டுள்ளது."
   },
   {
     "id": 1911,
@@ -748,6 +1035,30 @@
     "antonyms": [
       "Disconnected endpoint",
       "Stateless HTTP call"
+    ],
+    "enExample2": "WebSockets open a persistent bidirectional network socket between the client browser and the backend server.",
+    "taExample2": "WebSocket உலாவிக்கும் பின்தள சேவையகத்திற்கும் இடையே தொடர்ச்சியான இருவழி நெட்வொர்க் இணைப்பை (Socket) திறக்கிறது."
+  },
+  {
+    "id": 3380,
+    "word": "solemnity",
+    "pos": "noun",
+    "definition": "The state or quality of being serious, dignified, and formal.",
+    "taWord": "கம்பீரம் (கண்ணியம் / அமைதியான கண்டிப்பு)",
+    "enExample": "The engineering VP spoke with solemnity during the root cause analysis after the service outage.",
+    "taExample": "சேவைக் கோளாறுக்கான காரணத்தை ஆராயும் கூட்டத்தில் என்ஜினீயரிங் விபி தீவிரக் கம்பீரத்தோடு பேசினார்.",
+    "enExample2": "The church congregation observed the Remembrance Sunday service with deep reverence and solemnity.",
+    "taExample2": "நினைவு ஞாயிறு ஆராதனையைத் திருச்சபை மக்கள் ஆழந்த மரியாதையுடனும் கம்பீரத்துடனும் அனுசரித்தனர்.",
+    "synonyms": [
+      "seriousness",
+      "dignity",
+      "gravity",
+      "reverence"
+    ],
+    "antonyms": [
+      "levity",
+      "frivolity",
+      "frivolousness"
     ]
   },
   {
@@ -770,7 +1081,9 @@
       "Indifferent",
       "Heedless",
       "Neglectful"
-    ]
+    ],
+    "enExample2": "The engineering manager was solicitous regarding the on-call engineer's mental health following a major overnight outage.",
+    "taExample2": "இரவு நேர பெரிய முடக்கத்தைத் தொடர்ந்து பணியில் இருந்த பொறியாளரின் நலனில் மேலாளர் மிகுந்த அக்கறையுடன் (Solicitous) இருந்தார்."
   },
   {
     "id": 3143,
@@ -792,6 +1105,29 @@
       "Invigorating",
       "Exciting",
       "Energizing"
+    ],
+    "enExample2": "The three-hour monologue on legacy database maintenance procedures proved to be completely soporific.",
+    "taExample2": "பழைய தரவுத்தள பராமரிப்பு நடைமுறைகள் பற்றிய மூன்று மணி நேர உரை முற்றிலும் தூக்கத்தை வரவழைப்பதாக (Soporific) இருந்தது."
+  },
+  {
+    "id": 3381,
+    "word": "soundbite",
+    "pos": "noun",
+    "definition": "A short, catchy excerpt from a speech or interview chosen for television broadcasting or social media.",
+    "taWord": "குறும் செய்தித் துணுக்கு (ஒலித் துணுக்கு)",
+    "enExample": "The CEO summarized our technical vision into a memorable soundbite for the press release.",
+    "taExample": "செய்திக் குறிப்பிற்காகத் தலைமைக் அதிகாரி எங்கள் தொழில்நுட்ப தொலைநோக்குப் பார்வையை ஒரு சுருக்கமான துணுக்காக மாற்றினார்.",
+    "enExample2": "Political campaign managers train candidates to deliver memorable soundbites during television debates.",
+    "taExample2": "தொலைக்காட்சி விவாதங்களில் நினைவில் நிற்கக்கூடிய ஒலித் துணுக்குகளை வழங்க அரசியல் பிரச்சார மேலாளர்கள் பயிற்சி அளிக்கிறார்கள்.",
+    "synonyms": [
+      "excerpt",
+      "quote",
+      "snippet",
+      "clip"
+    ],
+    "antonyms": [
+      "full transcript",
+      "extended treatise"
     ]
   },
   {
@@ -813,7 +1149,9 @@
       "Dependency",
       "Colonial rule",
       "Servitude"
-    ]
+    ],
+    "enExample2": "Data sovereignty laws require personal European customer records to remain physically stored within EU borders.",
+    "taExample2": "தரவு இறையாண்மை (Sovereignty) சட்டங்கள் ஐரோப்பிய வாடிக்கையாளர் தரவு ஐரோப்பிய ஒன்றிய எல்லைக்குள் சேமிக்கப்பட வேண்டும் என்று கோருகின்றன."
   },
   {
     "id": 3144,
@@ -835,7 +1173,9 @@
       "Sound",
       "Valid",
       "True"
-    ]
+    ],
+    "enExample2": "The vendor made a specious argument that their proprietary framework was inherently immune to memory leaks.",
+    "taExample2": "தங்கள் மென்பொருள் நினைவக கசிவுகளுக்கு அப்பாற்பட்டது என்று அந்த நிறுவனம் வெளிப்பார்வைக்கு உண்மையானது போலத் தோன்றும் போலி வாதத்தை (Specious) முன்வைத்தது."
   },
   {
     "id": 2674,
@@ -853,6 +1193,28 @@
     "antonyms": [
       "Production story",
       "Standard delivery"
+    ],
+    "enExample2": "The team conducted a two-day technical spike to evaluate the performance viability of WebAssembly in our video pipeline.",
+    "taExample2": "எங்கள் வீடியோ அமைப்பில் WebAssembly-இன் செயல்திறனை மதிப்பிடுவதற்கு குழு இரண்டு நாள் தொழில்நுட்ப முன்மாதிரி ஆய்வை (Spike) நடத்தியது."
+  },
+  {
+    "id": 3228,
+    "word": "Spin",
+    "pos": "Noun",
+    "definition": "The deliberate presentation of news, incident logs, or metrics in a heavily favorable light.",
+    "taWord": "சாதகமான விளக்கம் (Saadhakamana vilakkam)",
+    "enExample": "The PR department put a positive spin on the delayed software launch by emphasizing enhanced security.",
+    "taExample": "PR துறை மேம்படுத்தப்பட்ட பாதுகாப்பை வலியுறுத்துவதன் மூலம் தாமதமான மென்பொருள் வெளியீட்டில் நேர்மறையான சாதகமான விளக்கத்தை அளித்தது.",
+    "enExample2": "Engineers expect objective data without corporate spin during post-incident reviews.",
+    "taExample2": "சம்பவத்திற்குப் பிந்தைய மதிப்பாய்வுகளின் போது கார்ப்பரேட் சாதகமான விளக்கம் இல்லாமல் குறிக்கோள் தரவை பொறியாளர்கள் எதிர்பார்க்கிறார்கள்.",
+    "synonyms": [
+      "slant",
+      "bias",
+      "favorable interpretation"
+    ],
+    "antonyms": [
+      "objective truth",
+      "unvarnished fact"
     ]
   },
   {
@@ -870,7 +1232,9 @@
     "antonyms": [
       "Consensus agreement",
       "Quorum-protected single leader"
-    ]
+    ],
+    "enExample2": "Using a distributed consensus algorithm prevents split-brain scenarios where two database nodes claim to be the primary leader.",
+    "taExample2": "ஒருமித்த வழிமுறையைப் பயன்படுத்துவது இரண்டு முனையங்கள் ஒரே நேரத்தில் முதன்மைத் தலைவர் எனக் கூறும் பிளவுபட்ட மூளை (Split-Brain) குழப்பத்தைத் தடுக்கிறது."
   },
   {
     "id": 1922,
@@ -889,7 +1253,9 @@
       "Continuous",
       "Frequent",
       "Steady"
-    ]
+    ],
+    "enExample2": "The team diagnosed sporadic packet loss that only occurred when network switches handled heavy multicast traffic.",
+    "taExample2": "அதிக போக்குவரத்து இருக்கும் போது மட்டுமே ஏற்படும் அவ்வப்போதைய (Sporadic) பாக்கெட் இழப்பை குழு ஆய்வு செய்தது."
   },
   {
     "id": 2673,
@@ -907,7 +1273,9 @@
     "antonyms": [
       "Perpetual development",
       "Waterfall phase"
-    ]
+    ],
+    "enExample2": "During each two-week agile sprint, the team commits to delivering a defined set of prioritized user stories.",
+    "taExample2": "ஒவ்வொரு இரண்டு வார சுறுசுறுப்பான ஸ்பிரிண்ட்டிலும் (Sprint) குழு முன்னுரிமை அளிக்கப்பட்ட பயனர் தேவைகளை வழங்க உறுதிபூண்கிறது."
   },
   {
     "id": 3145,
@@ -929,7 +1297,9 @@
       "Genuine",
       "Legitimate",
       "Valid"
-    ]
+    ],
+    "enExample2": "The intrusion detection system threw spurious alerts due to a misconfigured heartbeat health check.",
+    "taExample2": "தவறாக அமைக்கப்பட்ட இதயத்துடிப்பு ஆய்வு காரணமாக ஊடுருவல் தடுப்பு அமைப்பு போலியான (Spurious) எச்சரிக்கைகளை விடுத்தது."
   },
   {
     "id": 1912,
@@ -946,7 +1316,9 @@
     ],
     "antonyms": [
       "Queue"
-    ]
+    ],
+    "enExample2": "A recursive function that fails to reach its base condition will eventually trigger a stack overflow error.",
+    "taExample2": "அடிப்படை நிபந்தனையை அடையத் தவறும் ஒரு சுழல்நிலை சார்பு இறுதியில் ஸ்டேக் (Stack) நிரம்பி வழியும் பிழையைத் தூண்டும்."
   },
   {
     "id": 2935,
@@ -967,7 +1339,9 @@
       "Concurrent",
       "Synchronous",
       "Immediate"
-    ]
+    ],
+    "enExample2": "The deployment pipeline uses staggered rolling updates to prevent all backend server nodes from restarting simultaneously.",
+    "taExample2": "அனைத்து சர்வர்களும் ஒரே நேரத்தில் மறுதொடக்கம் ஆவதைத் தவிர்க்க வெளியீட்டு அமைப்பு படிநிலைப்படுத்தப்பட்ட (Staggered) தொடர் புதுப்பிப்புகளைப் பயன்படுத்துகிறது."
   },
   {
     "id": 1920,
@@ -987,7 +1361,9 @@
       "Uninvolved party",
       "Outsider",
       "Disinterested person"
-    ]
+    ],
+    "enExample2": "The product manager met with key business stakeholders to align feature requirements before starting development.",
+    "taExample2": "மென்பொருள் உருவாக்கத்தைத் தொடங்குவதற்கு முன் தேவைகளை ஒத்திசைக்க தயாரிப்பு மேலாளர் முக்கிய வணிகப் பங்குதாரர்களைச் (Stakeholders) சந்தித்தார்."
   },
   {
     "id": 2946,
@@ -1008,7 +1384,9 @@
       "Resolution",
       "Victory",
       "Progress"
-    ]
+    ],
+    "enExample2": "Architecture discussions reached a stalemate until empirical load testing data conclusively resolved the dispute.",
+    "taExample2": "நம்பகமான சுமை சோதனைத் தரவுகள் சர்ச்சையைத் தீர்க்கும் வரை கட்டமைப்பு விவாதங்கள் ஒரு முட்டுக்கட்டை சமநிலையில் (Stalemate) நீடித்தன."
   },
   {
     "id": 2917,
@@ -1029,7 +1407,9 @@
       "Surrender",
       "Settlement",
       "Truce"
-    ]
+    ],
+    "enExample2": "The tense standoff between developers and security auditors resolved once an automated compliance scanner was deployed.",
+    "taExample2": "தானியங்கி இணக்க ஸ்கேனர் நிறுவப்பட்டவுடன் உருவாக்குநர்களுக்கும் பாதுகாப்பு தணிக்கையாளர்களுக்கும் இடையிலான பதற்றமான நிலை முடிவுக்கு வந்தது."
   },
   {
     "id": 1919,
@@ -1047,6 +1427,30 @@
       "Siloed work",
       "Asynchronous silence",
       "Long board meeting"
+    ],
+    "enExample2": "The daily morning standup keeps the engineering team aligned on blockers, current tasks, and daily sprint goals.",
+    "taExample2": "தினசரி காலை ஸ்டாண்ட்-அப் (Standup) கூட்டம் தடைகள், நடப்பு பணிகள் மற்றும் இலக்குகளில் பொறியியல் குழுவை ஒத்திசைவாக வைத்திருக்கிறது."
+  },
+  {
+    "id": 3267,
+    "word": "Stewardship",
+    "pos": "Noun",
+    "definition": "The responsible management, protection, and care of codebases, cloud budgets, or community trust.",
+    "taWord": "பொறுப்புப் பராமரிப்பு (Poruppu paraamarippu)",
+    "enExample": "Good open-source software stewardship requires maintaining documentation and triaging issues promptly.",
+    "taExample": "நல்ல திறந்த மூல மென்பொருள் பொறுப்புப் பராமரிப்பிற்கு ஆவணங்களைப் பராமரிப்பது மற்றும் சிக்கல்களை உடனடியாகத் தீர்ப்பது தேவைப்படுகிறது.",
+    "enExample2": "Faithful stewardship of resources ensures long-term impact in charitable missions.",
+    "taExample2": "வளங்களின் விசுவாசமான பொறுப்புப் பராமரிப்பு தொண்டுப் பணிகளில் நீண்டகால தாக்கத்தை உறுதி செய்கிறது.",
+    "synonyms": [
+      "management",
+      "custodianship",
+      "care",
+      "guardianship"
+    ],
+    "antonyms": [
+      "mismanagement",
+      "neglect",
+      "wastefulness"
     ]
   },
   {
@@ -1068,6 +1472,30 @@
       "Foster",
       "Nurture",
       "Promote"
+    ],
+    "enExample2": "Excessive bureaucratic approval processes stifle technical innovation and slow down developer velocity.",
+    "taExample2": "அதிகப்படியான நிர்வாக ஒப்புதல் நடைமுறைகள் தொழில்நுட்ப புதுமைகளை முடக்கி (Stifle) உருவாக்குநர்களின் வேகத்தைக் குறைக்கின்றன."
+  },
+  {
+    "id": 3229,
+    "word": "Stigma",
+    "pos": "Noun",
+    "definition": "A mark of disgrace or negative perception associated with a particular mistake or failure.",
+    "taWord": "அவப்பெயர்/களங்கம் (Avappeyar/kalangam)",
+    "enExample": "Blameless postmortems remove the stigma of making mistakes when deploying complex code.",
+    "taExample": "குற்றமற்ற சம்பவப் பகுப்பாய்வுகள் சிக்கலான குறியீட்டைப் பயன்படுத்தும் போது தவறுகள் செய்வதன் களங்கத்தை நீக்குகின்றன.",
+    "enExample2": "There is no longer a stigma attached to using open-source libraries in enterprise software.",
+    "taExample2": "நிறுவன மென்பொருளில் திறந்த மூல நூலகங்களைப் பயன்படுத்துவதில் இப்போது எந்தக் களங்கமும் இல்லை.",
+    "synonyms": [
+      "disgrace",
+      "shame",
+      "reproach",
+      "taint"
+    ],
+    "antonyms": [
+      "honor",
+      "prestige",
+      "acclaim"
     ]
   },
   {
@@ -1084,7 +1512,9 @@
     ],
     "antonyms": [
       "Hours (strict time)"
-    ]
+    ],
+    "enExample2": "During backlog grooming, the team estimates story points to gauge the relative effort and complexity of tasks.",
+    "taExample2": "பணிப்பட்டியல் ஆய்வின் போது பணிகளின் உழைப்பு மற்றும் சிக்கலை மதிப்பிட குழு ஸ்டோரி பாயிண்ட்டுகளை (Story points) மதிப்பிடுகிறது."
   },
   {
     "id": 1913,
@@ -1103,7 +1533,9 @@
       "Batch processing",
       "Static file dump",
       "Buffered snapshot"
-    ]
+    ],
+    "enExample2": "Node.js readable streams process large gigabyte files chunk by chunk without exhausting server RAM.",
+    "taExample2": "Node.js ஸ்ட்ரீம்கள் (Streams) சர்வர் நினைவகத்தை விழுங்காமல் பெரிய ஜிகாபைட் கோப்புகளை துண்டு துண்டாகச் செயலாக்குகின்றன."
   },
   {
     "id": 3146,
@@ -1125,7 +1557,9 @@
       "Gentle",
       "Dulcet",
       "Mellow"
-    ]
+    ],
+    "enExample2": "The reviewer's strident feedback in the pull request comments created unnecessary hostility within the team.",
+    "taExample2": "குறியீட்டு மறுஆய்வில் மதிப்பாய்வாளரின் கடுமையான மற்றும் கசப்பான (Strident) கருத்துக்கள் குழுவிற்குள் தேவையற்ற பகையை உருவாக்கின."
   },
   {
     "id": 3034,
@@ -1147,7 +1581,9 @@
       "Lax",
       "Flexible",
       "Permissive"
-    ]
+    ],
+    "enExample2": "The banking application underwent stringent cybersecurity penetration testing before receiving regulatory production certification.",
+    "taExample2": "வங்கி பயன்பாடு தயாரிப்பு சான்றிதழைப் பெறுவதற்கு முன் கடுமையான (Stringent) இணையப் பாதுகாப்பு ஊடுருவல் சோதனைக்கு உட்படுத்தப்பட்டது."
   },
   {
     "id": 3147,
@@ -1169,7 +1605,9 @@
       "Advance",
       "Assist",
       "Promote"
-    ]
+    ],
+    "enExample2": "A missing environment variable should not stymie the entire automated continuous deployment pipeline.",
+    "taExample2": "விடுபட்ட ஒரு சூழல் மாறி ஒட்டுமொத்த தானியங்கி தொடர் வெளியீட்டு பைப்லைனையும் தடுத்து நிறுத்தக் (Stymie) கூடாது."
   },
   {
     "id": 2918,
@@ -1189,7 +1627,9 @@
       "Release",
       "Discharge",
       "Waiver of appearance"
-    ]
+    ],
+    "enExample2": "The cloud platform complied with a legal subpoena requesting anonymized access logs for an ongoing cybercrime investigation.",
+    "taExample2": "சைபர் குற்ற விசாரணைக்காக அநாமதேய அணுகல் பதிவுகளைக் கோரும் சட்டப்பூர்வ நீதிமன்ற அழைப்பாணைக்கு (Subpoena) கிளவுட் தளம் இணங்கியது."
   },
   {
     "id": 2966,
@@ -1211,7 +1651,9 @@
       "Invalidate",
       "Refute",
       "Debunk"
-    ]
+    ],
+    "enExample2": "Engineers must substantiate claims of performance improvements by providing reproducible benchmark flame graphs.",
+    "taExample2": "செயல்திறன் மேம்பாடு குறித்த கூற்றுகளை பொறியாளர்கள் நிரூபிக்கக்கூடிய சோதனை வரைபடங்களை வழங்கி உறுதிப்படுத்த (Substantiate) வேண்டும்."
   },
   {
     "id": 3033,
@@ -1232,7 +1674,9 @@
       "Exclude",
       "Separate",
       "Isolate"
-    ]
+    ],
+    "enExample2": "The modern all-in-one observability platform will subsume our separate logging, tracing, and metric collection tools.",
+    "taExample2": "நவீன ஒருங்கிணைந்த கண்காணிப்புத் தளம் எங்கள் தனித்தனி பதிவு, தடமறிதல் மற்றும் அளவீட்டுக் கருவிகளைத் தன்னுள் இணைத்துக் கொள்ளும் (Subsume)."
   },
   {
     "id": 2919,
@@ -1253,7 +1697,9 @@
       "Fortification",
       "Protection",
       "Support"
-    ]
+    ],
+    "enExample2": "The cybersecurity audit uncovered a malicious developer's deliberate subversion of authentication token verification.",
+    "taExample2": "அங்கீகார டோக்கன் சரிபார்ப்பை தீங்கிழைக்கும் உருவாக்குநர் திட்டமிட்டு சீர்குலைத்ததை (Subversion) சைபர் பாதுகாப்பு தணிக்கை கண்டறிந்தது."
   },
   {
     "id": 3010,
@@ -1275,7 +1721,9 @@
       "Uphold",
       "Strengthen",
       "Protect"
-    ]
+    ],
+    "enExample2": "Attackers attempted to subvert the input sanitization parser by injecting double-encoded Unicode characters.",
+    "taExample2": "இரட்டை குறியாக்கம் செய்யப்பட்ட எழுத்துக்களை உட்செலுத்தி உள்ளீட்டு சரிபார்ப்பு அமைப்பை சீர்குலைக்க (Subvert) தாக்குதல் நடத்தியவர்கள் முயன்றனர்."
   },
   {
     "id": 2920,
@@ -1296,7 +1744,9 @@
       "Withstand",
       "Surmount",
       "Conquer"
-    ]
+    ],
+    "enExample2": "Without active rate limiting, the authentication service will succumb to distributed brute-force login floods.",
+    "taExample2": "கோரிக்கை வரம்பு இல்லாவிட்டால் அங்கீகார சேவையானது தொடர் கடவுச்சொல் தாக்குதல்களுக்கு அடிபணிந்து செயலிழக்கும் (Succumb)."
   },
   {
     "id": 2671,
@@ -1315,7 +1765,9 @@
       "Inauguration",
       "Launch",
       "Rollout"
-    ]
+    ],
+    "enExample2": "The cloud provider gave a twelve-month notice before sunsetting their legacy REST API in favor of GraphQL.",
+    "taExample2": "GraphQL-க்கு மாறுவதற்காக பழைய REST API-ஐ நிறுத்துவதற்கு (Sunsetting) முன் கிளவுட் நிறுவனம் பன்னிரண்டு மாத கால அவகாசம் அளித்தது."
   },
   {
     "id": 3148,
@@ -1337,7 +1789,9 @@
       "Modest",
       "Deferential",
       "Respectful"
-    ]
+    ],
+    "enExample2": "Senior engineers must avoid adopting a supercilious attitude when mentoring junior team members during code reviews.",
+    "taExample2": "குறியீட்டு மறுஆய்வுகளின் போது இளம் உருவாக்குநர்களுக்கு வழிகாட்டும் போது மூத்த பொறியாளர்கள் அகம்பாவமான (Supercilious) அணுகுமுறையைத் தவிர்க்க வேண்டும்."
   },
   {
     "id": 3023,
@@ -1359,6 +1813,29 @@
       "Necessary",
       "Vital",
       "Required"
+    ],
+    "enExample2": "Tree-shaking eliminates superfluous unused library imports to keep JavaScript production bundles minimal.",
+    "taExample2": "ட்ரீ-ஷேக்கிங் தொழில்நுட்பம் பயன்பாட்டின் கோப்பு அளவைக் குறைக்க தேவையற்ற (Superfluous) பயன்படுத்தப்படாத நூலகங்களை நீக்குகிறது."
+  },
+  {
+    "id": 3268,
+    "word": "Supplication",
+    "pos": "Noun",
+    "definition": "The act of asking or begging humbly and earnestly for help, grace, or divine assistance.",
+    "taWord": "மன்றாட்டு (Manraattu)",
+    "enExample": "The fellowship joined in humble supplication for wisdom before launching the new initiative.",
+    "taExample": "புதிய முயற்சியைத் தொடங்குவதற்கு முன் ஞானத்திற்காக தோழமைக்குழு தாழ்மையான மன்றாட்டில் இணைந்தது.",
+    "enExample2": "Prayers of supplication express dependence on divine grace during times of hardship.",
+    "taExample2": "மன்றாட்டு ஜெபங்கள் கஷ்ட காலங்களில் தெய்வீக கிருபையின் மீதான நம்பிக்கையை வெளிப்படுத்துகின்றன.",
+    "synonyms": [
+      "petition",
+      "plea",
+      "entreaty",
+      "humble prayer"
+    ],
+    "antonyms": [
+      "demand",
+      "arrogant decree"
     ]
   },
   {
@@ -1380,7 +1857,9 @@
       "Publicize",
       "Liberate",
       "Release"
-    ]
+    ],
+    "enExample2": "Never suppress TypeScript compiler errors with '@ts-ignore' comments without documenting the exact reason.",
+    "taExample2": "சரியான காரணத்தை ஆவணப்படுத்தாமல் TypeScript தொகுப்பி பிழைகளை '@ts-ignore' மூலம் ஒருபோதும் மறைக்க (Suppress) வேண்டாம்."
   },
   {
     "id": 2947,
@@ -1401,7 +1880,9 @@
       "Decline",
       "Downturn",
       "Drop"
-    ]
+    ],
+    "enExample2": "The autoscaling orchestrator provisioned twenty additional server nodes to absorb the sudden cyber sale traffic surge.",
+    "taExample2": "விற்பனை நெரிசலின் திடீர் போக்குவரத்து எழுச்சியை (Surge) சமாளிக்க தானியங்கி அமைப்பு இருபது கூடுதல் சர்வர்களை உருவாக்கியது."
   },
   {
     "id": 2973,
@@ -1422,7 +1903,9 @@
       "Know for certain",
       "Verify",
       "Prove conclusively"
-    ]
+    ],
+    "enExample2": "From the elevated memory graphs, the reliability engineer could surmise that an unclosed stream caused the leak.",
+    "taExample2": "உயர்ந்த நினைவக வரைபடங்களிலிருந்து மூடப்படாத ஸ்ட்ரீமே கசிவுக்குக் காரணம் என்பதை நம்பகத்தன்மை பொறியாளரால் ஊகிக்க (Surmise) முடிந்தது."
   },
   {
     "id": 2922,
@@ -1443,7 +1926,9 @@
       "Fail",
       "Yield",
       "Collapse under"
-    ]
+    ],
+    "enExample2": "Through diligent profiling and algorithmic optimization, the team was able to surmount the database latency bottleneck.",
+    "taExample2": "கவனமான ஆய்வு மற்றும் வழிமுறை உகப்பாக்கம் மூலம் தரவுத்தள தாமதத் தடையை குழுவால் வெற்றிகரமாக சமாளிக்க (Surmount) முடிந்தது."
   },
   {
     "id": 1917,
@@ -1461,6 +1946,29 @@
     "antonyms": [
       "Blatant",
       "Open"
+    ],
+    "enExample2": "The malicious script made surreptitious outbound API calls to exfiltrate user session cookies in the background.",
+    "taExample2": "தீங்கிழைக்கும் ஸ்கிரிப்ட் பின்னணியில் பயனர் குக்கீகளை திருட இரகசியமான (Surreptitious) வெளிச்செல்லும் API அழைப்புகளைச் செய்தது."
+  },
+  {
+    "id": 3230,
+    "word": "Surrogate",
+    "pos": "Noun",
+    "definition": "A designated substitute or representative speaking or acting on behalf of a leader or candidate.",
+    "taWord": "பதிலாளி/பிரதிநிதி (Pathilaali/prathinidhi)",
+    "enExample": "The engineering VP acted as a surrogate for the CEO during the technical investor briefing.",
+    "taExample": "தொழில்நுட்ப முதலீட்டாளர் சந்திப்பின் போது பொறியியல் துணைத் தலைவர் CEO க்கான பதிலாக செயல்பட்டார்.",
+    "enExample2": "Political surrogates toured media outlets to advocate for the proposed infrastructure bill.",
+    "taExample2": "முன்மொழியப்பட்ட உள்கட்டமைப்பு மசோதாவை ஆதரிக்க அரசியல் பதிலாளிகள் ஊடக நிறுவனங்களுக்குச் சென்றனர்.",
+    "synonyms": [
+      "proxy",
+      "substitute",
+      "representative",
+      "delegate"
+    ],
+    "antonyms": [
+      "principal",
+      "original person"
     ]
   },
   {
@@ -1480,7 +1988,9 @@
       "Legitimate",
       "Trustworthy",
       "Authentic"
-    ]
+    ],
+    "enExample2": "The security team flagged an unverified third-party npm dependency that looked extremely sus during code audit.",
+    "taExample2": "குறியீட்டுத் தணிக்கையின் போது மிகவும் சந்தேகத்திற்குரியதாகத் (Sus) தோன்றிய சரிபார்க்கப்படாத ஒரு நூலகத்தை பாதுகாப்புக் குழு சுட்டிக்காட்டியது."
   },
   {
     "id": 2688,
@@ -1498,7 +2008,9 @@
     "antonyms": [
       "Siloed work",
       "Isolated coding"
-    ]
+    ],
+    "enExample2": "The entire engineering squad engaged in swarming to diagnose and resolve the critical production payment bug.",
+    "taExample2": "முக்கியமான தயாரிப்பு கட்டணப் பிழையைக் கண்டறிந்து சரிசெய்ய ஒட்டுமொத்த பொறியியல் குழுவும் ஒன்றாகக் கூடி (Swarming) உழைத்தது."
   },
   {
     "id": 2923,
@@ -1516,7 +2028,9 @@
     "antonyms": [
       "Unverified hearsay",
       "Fabricated rumor"
-    ]
+    ],
+    "enExample2": "The cybersecurity officer gave sworn testimony regarding evidence collected during the digital data theft trial.",
+    "taExample2": "டிஜிட்டல் தரவு திருட்டு விசாரணையின் போது சேகரிக்கப்பட்ட ஆதாரங்கள் குறித்து பாதுகாப்பு அதிகாரி நீதிமன்றத்தில் சத்தியப் பிரமாண வாக்குமூலம் (Sworn Testimony) அளித்தார்."
   },
   {
     "id": 1918,
@@ -1536,7 +2050,9 @@
       "Critic",
       "Detractor",
       "Independent skeptic"
-    ]
+    ],
+    "enExample2": "A great engineering leader seeks honest critical feedback rather than surrounding themselves with agreeable sycophants.",
+    "taExample2": "ஒரு சிறந்த பொறியியல் தலைவர் முகஸ்துதி செய்யும் நபர்களுக்குப் (Sycophants) பதிலாக உண்மையான விமர்சனக் கருத்துக்களைத் தேடுகிறார்."
   },
   {
     "id": 1921,
@@ -1556,7 +2072,9 @@
       "Asynchronous drift",
       "Desynchronization",
       "Disconnect"
-    ]
+    ],
+    "enExample2": "The mobile app uses background synchronization to sync offline user drafts once network connectivity is restored.",
+    "taExample2": "இணைய இணைப்பு மீண்டும் கிடைத்தவுடன் வரைவுத் தகவல்களை ஒத்திசைக்க (Sync) மொபைல் செயலி பின்னணி ஒத்திசைவைப் பயன்படுத்துகிறது."
   },
   {
     "id": 3022,
@@ -1575,7 +2093,9 @@
     "antonyms": [
       "Asynchrony",
       "Mismatch"
-    ]
+    ],
+    "enExample2": "Achieving true distributed synchronicity requires synchronizing physical hardware clocks using PTP protocols.",
+    "taExample2": "உண்மையான விநியோகிக்கப்பட்ட நேர ஒத்திசைவை (Synchronicity) அடைய வன்பொருள் கடிகாரங்களை PTP நெறிமுறைகள் மூலம் ஒத்திசைக்க வேண்டும்."
   },
   {
     "id": 1915,
@@ -1593,7 +2113,9 @@
     "antonyms": [
       "Asynchronous",
       "Non-blocking"
-    ]
+    ],
+    "enExample2": "Making synchronous HTTP network requests inside the main browser thread causes the UI to freeze unresponsively.",
+    "taExample2": "உலாவியின் முக்கிய திரையில் நேரடி ஒத்திசைவு (Synchronous) கோரிக்கைகளை உருவாக்குவது பயனர் இடைமுகத்தை உறையச் செய்கிறது."
   },
   {
     "id": 2995,
@@ -1614,7 +2136,9 @@
       "Antagonistic",
       "Conflicting",
       "Incompatible"
-    ]
+    ],
+    "enExample2": "Pairing automated unit tests with continuous integration creates a synergistic boost in overall engineering velocity.",
+    "taExample2": "தானியங்கி சோதனைகளை தொடர் வெளியீட்டுடன் இணைப்பது ஒட்டுமொத்த பொறியியல் வேகத்தில் ஒரு ஒருங்கிணைந்த கூட்டு வளர்ச்சியை (Synergistic) உருவாக்குகிறது."
   },
   {
     "id": 2652,
@@ -1633,6 +2157,30 @@
       "Divide",
       "Conflict",
       "Isolate"
+    ],
+    "enExample2": "The design system and component engineering squads must synergize their efforts to ship accessible UI components.",
+    "taExample2": "அணுகக்கூடிய பயனர் இடைமுகக் கூறுகளை வெளியிட வடிவமைப்பு மற்றும் பொறியியல் குழுக்கள் தங்கள் முயற்சிகளை ஒன்றிணைக்க (Synergize) வேண்டும்."
+  },
+  {
+    "id": 3382,
+    "word": "synergy",
+    "pos": "noun",
+    "definition": "The combined interaction of two elements that produces a total effect greater than the sum of individual parts.",
+    "taWord": "கூட்டுச் சேர்க்கை வீரியம் (ஒருங்கிணைந்த ஆற்றல்)",
+    "enExample": "Pairing frontend UI designers with backend engineers created tremendous synergy in shipping feature updates.",
+    "taExample": "முன்பக்க வடிவமைப்பு மற்றும் பின்பக்க பொறியாளர்களின் கூட்டுச் சேர்க்கை புதிய அம்சங்களை விரைவாக உருவாக்க உதவியது.",
+    "enExample2": "The merger between the two UK broadcasting networks generated strategic synergy across digital platforms.",
+    "taExample2": "இரண்டு பிரித்தானிய தொலைக்காட்சி நிறுவனங்களின் இணைப்பு டிஜிட்டல் தளங்களில் பெரும் உத்தி ரீதியான வீரியத்தை உருவாக்கியது.",
+    "synonyms": [
+      "cooperation",
+      "collaboration",
+      "symbiosis",
+      "union"
+    ],
+    "antonyms": [
+      "discord",
+      "antagonism",
+      "incompatibility"
     ]
   },
   {
@@ -1653,6 +2201,52 @@
       "Meaning",
       "Logic content",
       "Machine code"
+    ],
+    "enExample2": "A missing semicolon or mismatched parenthesis in JavaScript triggers an immediate syntax error during compilation.",
+    "taExample2": "ஜாவாஸ்கிரிப்ட்டில் விடுபட்ட அரைப்புள்ளி அல்லது தவறான அடைப்புக்குறி தொகுப்பின் போது உடனடி தொடரியல் (Syntax) பிழையைத் தூண்டுகிறது."
+  },
+  {
+    "id": 3291,
+    "word": "Synthesis",
+    "pos": "Noun",
+    "definition": "The combination of diverse ideas, components, or software modules into a coherent unified whole.",
+    "taWord": "ஒருங்கிணைப்பு (Oringinaippu)",
+    "enExample": "The architect presented a elegant synthesis of machine learning and real-time database queries.",
+    "taExample": "இயந்திர கற்றல் மற்றும் நிகழ்நேர தரவுத்தள வினவல்களின் நேர்த்தியான ஒருங்கிணைப்பை கட்டிடக் கலைஞர் வழங்கினார்.",
+    "enExample2": "Effective problem solving requires the synthesis of user research and technical engineering.",
+    "taExample2": "பயனுள்ள சிக்கலைத் தீர்ப்பதற்கு பயனர் ஆராய்ச்சி மற்றும் தொழில்நுட்ப பொறியியலின் ஒருங்கிணைப்பு தேவைப்படுகிறது.",
+    "synonyms": [
+      "integration",
+      "fusion",
+      "amalgamation",
+      "combination"
+    ],
+    "antonyms": [
+      "analysis",
+      "separation",
+      "decomposition"
+    ]
+  },
+  {
+    "id": 3292,
+    "word": "Systematic",
+    "pos": "Adjective",
+    "definition": "Done according to a fixed plan, organized method, or structured procedure.",
+    "taWord": "முறையான (Muraiyaana)",
+    "enExample": "Systematic performance profiling identified memory leaks that casual testing missed.",
+    "taExample": "முறையான செயல்திறன் சுயவிவரம் சாதாரண சோதனை தவறவிட்ட நினைவக கசிவுகளை அடையாளம் கண்டது.",
+    "enExample2": "A systematic approach to debugging saves hours of random trial-and-error effort.",
+    "taExample2": "பிழைத்திருத்தத்திற்கான ஒரு முறையான அணுகுமுறை மணிக்கணக்கில் சீரற்ற முயற்சி மற்றும் பிழை முயற்சியை சேமிக்கிறது.",
+    "synonyms": [
+      "methodical",
+      "structured",
+      "organized",
+      "orderly"
+    ],
+    "antonyms": [
+      "haphazard",
+      "random",
+      "chaotic"
     ]
   },
   {
@@ -1674,6 +2268,8 @@
       "Localized",
       "Isolated",
       "Specific"
-    ]
+    ],
+    "enExample2": "The recurring outages were caused by systemic architectural flaws rather than individual developer mistakes.",
+    "taExample2": "தொடர் முடக்கங்கள் தனிப்பட்ட உருவாக்குநர்களின் தவறுகளால் அல்லாமல் அமைப்பு ரீதியான (Systemic) கட்டமைப்பு குறைபாடுகளாலேயே ஏற்பட்டன."
   }
 ]

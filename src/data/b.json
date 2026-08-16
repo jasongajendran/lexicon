@@ -15,7 +15,9 @@
       "Completed archive",
       "Discharged queue",
       "Immediate delivery"
-    ]
+    ],
+    "enExample2": "The product manager prioritizes technical debt tickets directly in the sprint backlog.",
+    "taExample2": "தயாரிப்பு மேலாளர் தொழில்நுட்ப கடன் பணிகளை ஸ்பிரிண்ட் பணிப்பட்டியலில் நேரடியாக முன்னுரிமைப்படுத்துகிறார்."
   },
   {
     "id": 2675,
@@ -32,7 +34,9 @@
     ],
     "antonyms": [
       "Unplanned work"
-    ]
+    ],
+    "enExample2": "During weekly backlog refinement, developers estimate story points for upcoming milestone epics.",
+    "taExample2": "வாராந்திர பணிப்பட்டியல் சீரமைப்பின் போது, வரவிருக்கும் திட்டங்களுக்கான புள்ளிகளை உருவாக்குநர்கள் மதிப்பிடுகின்றனர்."
   },
   {
     "id": 219,
@@ -50,7 +54,9 @@
       "Forward port",
       "Upstream merge",
       "Deprecate legacy"
-    ]
+    ],
+    "enExample2": "The security team had to backport the zero-day patch to older long-term support versions.",
+    "taExample2": "பழைய ஆதரவு பதிப்புகளுக்கும் அந்த அவசர பாதுகாப்பு திருத்தத்தை குழு பின்னோக்கி செயல்படுத்த வேண்டியிருந்தது."
   },
   {
     "id": 2757,
@@ -68,6 +74,30 @@
     "antonyms": [
       "Buffer overflow",
       "Unbounded queuing"
+    ],
+    "enExample2": "Reactive streams apply backpressure to ensure slow consumers are not overwhelmed by fast producers.",
+    "taExample2": "வேகமான தரவு உற்பத்தியாளர்களால் மெதுவான நுகர்வோர் திணறாமல் இருக்க ரியாக்டிவ் ஸ்ட்ரீம்கள் பின் அழுத்தக் கட்டுப்பாட்டைப் பயன்படுத்துகின்றன."
+  },
+  {
+    "id": 3294,
+    "word": "Baffle",
+    "pos": "Verb",
+    "definition": "To completely confuse, perplex, or puzzle an engineer, audience, or investigator.",
+    "taWord": "குழப்பமடையச் செய் (Kuzhappamadaiya sey)",
+    "enExample": "The intermittent concurrency bug continued to baffle even senior software architects.",
+    "taExample": "இடைவிட்டு வரும் ஒரே நேர செயல்பாட்டுப் பிழை மூத்த மென்பொருள் கட்டிடக் கலைஞர்களையும் தொடர்ந்து குழப்பமடையச் செய்தது.",
+    "enExample2": "UK news headlines reported baffling infrastructure failures across the national grid.",
+    "taExample2": "இங்கிலாந்து செய்தி தலைப்புச் செய்திகள் தேசிய கட்டம் முழுவதும் குழப்பமடையச் செய்யும் உள்கட்டமைப்பு தோல்விகளைப் பற்றி புகாரளித்தன.",
+    "synonyms": [
+      "perplex",
+      "bewilder",
+      "confuse",
+      "stump"
+    ],
+    "antonyms": [
+      "clarify",
+      "enlighten",
+      "explain"
     ]
   },
   {
@@ -85,7 +115,9 @@
     "antonyms": [
       "Imbalance",
       "Disproportion"
-    ]
+    ],
+    "enExample2": "Engineering leadership must balance rapid feature velocity with long-term codebase maintainability.",
+    "taExample2": "பொறியியல் தலைமை வேகமான புதிய அம்ச உருவாக்கத்தையும் நீண்டகால குறியீட்டு நிலைத்தன்மையையும் சமநிலைப்படுத்த வேண்டும்."
   },
   {
     "id": 201,
@@ -103,6 +135,49 @@
       "Latency",
       "Throughput bottleneck",
       "Network saturation"
+    ],
+    "enExample2": "Compressing API payloads reduces network bandwidth consumption on constrained mobile connections.",
+    "taExample2": "API தரவை சுருக்குவது, வரம்புக்குட்பட்ட கைபேசி இணைப்புகளில் நெட்வொர்க் அலைவரிசை பயன்பாட்டைக் குறைக்கிறது."
+  },
+  {
+    "id": 3315,
+    "word": "Banter",
+    "pos": "Noun",
+    "definition": "Good-humored, playful, and witty conversation common in tech workplaces and fellowship settings.",
+    "taWord": "நட்பு உரையாடல்/கேலி (Natpu uraiyaadal/kaeli)",
+    "enExample": "Lighthearted banter during code review breaks builds strong team camaraderie.",
+    "taExample": "குறியீட்டு மதிப்பாய்வு இடைவேளையின் போது இலகுவான நட்பு உரையாடல் வலுவான குழுத் தோழமையை உருவாக்குகிறது.",
+    "enExample2": "UK developers enjoyed friendly banter while discussing football and framework choices.",
+    "taExample2": "இங்கிலாந்து டெவலப்பர்கள் கால்பந்து மற்றும் கட்டமைப்புத் தேர்வுகளை விவாதிக்கும் போது நட்பு உரையாடலை அனுபவித்தனர்.",
+    "synonyms": [
+      "repartee",
+      "playful chat",
+      "good-natured teasing"
+    ],
+    "antonyms": [
+      "argument",
+      "quarrel",
+      "serious lecture"
+    ]
+  },
+  {
+    "id": 3336,
+    "word": "barometer",
+    "pos": "noun",
+    "definition": "Something that reflects or indicates changes in market conditions or public opinion.",
+    "taWord": "மனநிலை காட்டி (மாற்றத்தின் குறியீடு)",
+    "enExample": "API response throughput served as a reliable barometer for the health of our infrastructure.",
+    "taExample": "ஏபிஐ பதிலளிப்பு வேகம் எங்கள் உள்கட்டமைப்பின் ஆரோக்கியத்தைக் காட்டும் நம்பகமான குறியீடாக செயல்பட்டது.",
+    "enExample2": "Political commentators view suburban voter turnout as a primary barometer for national election trends.",
+    "taExample2": "அரசியல் விமர்சகர்கள் புறநகர் வாக்காளர்களின் வருகையை தேசிய தேர்தல் போக்கின் முக்கிய குறியீடாக கருதுகின்றனர்.",
+    "synonyms": [
+      "indicator",
+      "gauge",
+      "index",
+      "benchmark"
+    ],
+    "antonyms": [
+      "misleading metric"
     ]
   },
   {
@@ -120,7 +195,9 @@
     "antonyms": [
       "Bridge",
       "Gateway"
-    ]
+    ],
+    "enExample2": "Complex authentication steps create an unnecessary barrier for onboarding first-time customers.",
+    "taExample2": "சிக்கலான அங்கீகார படிகள் புதிய வாடிக்கையாளர்களை எளிதாக இணைப்பதற்கு தேவையற்ற தடையை உருவாக்குகின்றன."
   },
   {
     "id": 2646,
@@ -138,7 +215,9 @@
     "antonyms": [
       "Conformist",
       "Spineless"
-    ]
+    ],
+    "enExample2": "The recommendation engine is based on collaborative filtering and vector embeddings.",
+    "taExample2": "பரிந்துரை இயந்திரமானது ஒத்துழைப்பு வடிகட்டுதல் மற்றும் வெக்டர் உள்ளமைவுகளை அடிப்படையாகக் கொண்டது."
   },
   {
     "id": 231,
@@ -157,7 +236,9 @@
       "Deviation",
       "Anomaly",
       "Extreme variance"
-    ]
+    ],
+    "enExample2": "We established a performance baseline under normal load before conducting stress tests.",
+    "taExample2": "தீவிர சுமை சோதனைகளை நடத்துவதற்கு முன் சாதாரண சுமையின் கீழ் ஒரு செயல்திறன் அடிப்படை அளவை நிறுவினோம்."
   },
   {
     "id": 220,
@@ -175,7 +256,9 @@
       "Real-time stream",
       "Continuous processing",
       "Single event loop"
-    ]
+    ],
+    "enExample2": "Running background database updates in a batch process prevents locking live transactional tables.",
+    "taExample2": "பின்னணி தரவு புதுப்பிப்புகளை மொத்த தொகுப்பாக (Batch) இயக்குவது நேரடி பரிவர்த்தனை அட்டவணைகள் முடங்குவதைத் தடுக்கிறது."
   },
   {
     "id": 236,
@@ -193,6 +276,30 @@
       "Stealth node",
       "Silent receiver",
       "Dead signal"
+    ],
+    "enExample2": "The browser sends a lightweight telemetry beacon when the user unloads or refreshes the page.",
+    "taExample2": "பயனர் பக்கத்தை மூடும் போது அல்லது புதுப்பிக்கும் போது உலாவி ஒரு சிறிய தகவல் சமிக்ஞையை (Beacon) அனுப்புகிறது."
+  },
+  {
+    "id": 3337,
+    "word": "beatitude",
+    "pos": "noun",
+    "definition": "Supreme blessedness or holy happiness, famously declared in Biblical sermons.",
+    "taWord": "பேரின்பம் (பாக்கியம்)",
+    "enExample": "The dev team experienced pure beatitude when the complex migration succeeded without a single downtime alert.",
+    "taExample": "சிக்கலான டேட்டாபேஸ் மாற்றம் எந்தவித தடங்கலும் இன்றி வெற்றி பெற்றபோது என்ஜினீயரிங் குழு பெரும் மகிழ்ச்சியை உணர்ந்தது.",
+    "enExample2": "The pastor preached on the Sermon on the Mount, focusing on humility in the beatitudes.",
+    "taExample2": "போதகர் மலைப் பிரசங்கத்தில் குறிப்பிடப்பட்டுள்ள பாக்கியங்கள் மற்றும் மனத்தாழ்மை பற்றி பிரசங்கித்தார்.",
+    "synonyms": [
+      "blessedness",
+      "bliss",
+      "felicity",
+      "exaltation"
+    ],
+    "antonyms": [
+      "misery",
+      "wretchedness",
+      "sorrow"
     ]
   },
   {
@@ -214,7 +321,9 @@
       "Superficial layer",
       "Periphery",
       "Trimmings"
-    ]
+    ],
+    "enExample2": "Comprehensive unit testing forms the bedrock of reliable and continuous deployment pipelines.",
+    "taExample2": "நம்பகமான மற்றும் தொடர்ச்சியான வெளியீட்டு அமைப்புகளுக்கு விரிவான அடிப்படை சோதனைகளே அடித்தளமாக அமைகின்றன."
   },
   {
     "id": 238,
@@ -232,7 +341,9 @@
       "Static state",
       "Immutable structure",
       "Passive data"
-    ]
+    ],
+    "enExample2": "Mocking third-party API behavior ensures deterministic unit tests without network dependencies.",
+    "taExample2": "வெளிப்புற API நடத்தையை போலியாக மாற்றுவது இணைய இணைப்பைச் சாராமல் துல்லியமான சோதனைக்கு உதவுகிறது."
   },
   {
     "id": 2842,
@@ -253,7 +364,9 @@
       "Carefree",
       "Untroubled",
       "Comfortable"
-    ]
+    ],
+    "enExample2": "The beleaguered support team worked overnight to triage hundreds of customer bug reports.",
+    "taExample2": "பணிச்சுமையால் திணறிய ஆதரவுக் குழு நூற்றுக்கணக்கான வாடிக்கையாளர் பிழை அறிக்கைகளை வரிசைப்படுத்த இரவு முழுவதும் உழைத்தது."
   },
   {
     "id": 226,
@@ -271,7 +384,9 @@
     "antonyms": [
       "Peaceable",
       "Pacifist"
-    ]
+    ],
+    "enExample2": "The tone in the code review comments became needlessly bellicose instead of remaining constructive.",
+    "taExample2": "குறியீட்டு மறுஆய்வு கருத்துக்களின் தொனி ஆக்கப்பூர்வமாக இருப்பதற்குப் பதிலாக தேவையற்ற ஆக்ரோஷத்துடன் இருந்தது."
   },
   {
     "id": 3102,
@@ -293,7 +408,9 @@
       "Conciliatory",
       "Friendly",
       "Harmonious"
-    ]
+    ],
+    "enExample2": "The belligerent competitor initiated frivolous patent litigation against the open-source library.",
+    "taExample2": "போட்டி நிறுவனம் திறந்த மூல மென்பொருளுக்கு எதிராக தேவையற்ற காப்புரிமை வழக்குகளைத் தொடங்கியது."
   },
   {
     "id": 202,
@@ -311,6 +428,50 @@
       "Unmeasured guess",
       "Unverified claim",
       "Arbitrary estimate"
+    ],
+    "enExample2": "The team ran an industry standard benchmark to compare HTTP/2 and HTTP/3 throughput.",
+    "taExample2": "HTTP/2 மற்றும் HTTP/3 செயல்திறனை ஒப்பிட்டுப் பார்க்க குழு தொழில்முறை அளவுகோல் சோதனையை நடத்தியது."
+  },
+  {
+    "id": 3338,
+    "word": "benchmarking",
+    "pos": "noun",
+    "definition": "The practice of evaluating performance by comparison with a standard or baseline.",
+    "taWord": "தரவரிசை ஒப்பீடு (பெஞ்ச்மார்க்கிங்)",
+    "enExample": "Automated benchmarking showed that the Rust rewrite executed queries three times faster than Node.js.",
+    "taExample": "தானியங்கி ஒப்பீட்டுச் சோதனை மூலம் ரஸ்ட் மொழியில் எழுதப்பட்ட குறியீடு மூன்று மடங்கு வேகமானது எனத் தெரிந்தது.",
+    "enExample2": "The UK department launched performance benchmarking across state schools to elevate educational standards.",
+    "taExample2": "பிரித்தானிய அரசுத் துறை கல்வித் தரத்தை உயர்த்த அரசுப் பள்ளிகளிடையே ஒப்பீட்டு மதிப்பீட்டை அறிமுகப்படுத்தியது.",
+    "synonyms": [
+      "evaluation",
+      "comparison",
+      "standardization",
+      "testing"
+    ],
+    "antonyms": [
+      "guesswork",
+      "estimation"
+    ]
+  },
+  {
+    "id": 3250,
+    "word": "Benediction",
+    "pos": "Noun",
+    "definition": "A formal utterance of blessing delivered at the conclusion of a fellowship service or meeting.",
+    "taWord": "ஆசீர்வாதம் (Aaseervaatham)",
+    "enExample": "The pastor pronounced a heartwarming benediction over the congregation at the end of the service.",
+    "taExample": "ஆராதனையின் முடிவில் போதகர் சபையின் மீது மனமார்ந்த ஆசீர்வாதத்தை வழங்கினார்.",
+    "enExample2": "The team meeting closed with a brief word of encouragement acting as a professional benediction.",
+    "taExample2": "குழு கூட்டம் ஒரு தொழில்முறை ஆசீர்வாதமாக செயல்படும் சுருக்கமான ஊக்குவிப்பு வார்த்தையுடன் முடிந்தது.",
+    "synonyms": [
+      "blessing",
+      "invocation",
+      "benison"
+    ],
+    "antonyms": [
+      "curse",
+      "execration",
+      "malediction"
     ]
   },
   {
@@ -328,7 +489,9 @@
     "antonyms": [
       "Drawback",
       "Disadvantage"
-    ]
+    ],
+    "enExample2": "A primary benefit of serverless architecture is automatic scale-to-zero during idle periods.",
+    "taExample2": "சர்வர்லெஸ் கட்டமைப்பின் முக்கிய நன்மை செயலற்ற நேரங்களில் செலவு பூஜ்ஜியமாகக் குறைவதே ஆகும்."
   },
   {
     "id": 3089,
@@ -350,7 +513,9 @@
       "Spite",
       "Malice",
       "Cruelty"
-    ]
+    ],
+    "enExample2": "Open source maintainers donate their time out of pure benevolence to help the global community.",
+    "taExample2": "திறந்த மூல உருவாக்குநர்கள் உலகளாவிய சமூகத்திற்கு உதவ தங்களது நேரத்தை நல்லெண்ணத்துடன் அர்ப்பணிக்கின்றனர்."
   },
   {
     "id": 227,
@@ -368,6 +533,30 @@
     "antonyms": [
       "Malevolent",
       "Cruel"
+    ],
+    "enExample2": "The startup flourished under the guidance of a benevolent mentor with deep industry expertise.",
+    "taExample2": "தொழில்நுட்ப அனுபவம் வாய்ந்த கனிவான வழிகாட்டியின் கீழ் அந்த புத்தொழில் நிறுவனம் சிறப்பாக வளர்ந்தது."
+  },
+  {
+    "id": 3249,
+    "word": "Berean",
+    "pos": "Adjective",
+    "definition": "Characterized by diligently searching, verifying, and examining scriptures or claims before accepting them.",
+    "taWord": "ஆராய்ந்து பார்க்கும் குணமுள்ள (Araandhu paarkkum gunamulla)",
+    "enExample": "Engineers should adopt a Berean mindset, independently verifying third-party library code before usage.",
+    "taExample": "பொறியாளர்கள் பயன்பாட்டிற்கு முன் திறந்த மூல நூலகக் குறியீட்டை சுயாதீனமாக சரிபார்த்து, ஆராய்ந்து பார்க்கும் மனநிலையை பின்பற்ற வேண்டும்.",
+    "enExample2": "The Bible commends the Bereans for daily examining scriptures to verify the truth.",
+    "taExample2": "உண்மையை சரிபார்க்க தினமும் வேதங்களை ஆராய்ந்ததற்காக பெரோயர்களை பைபிள் பாராட்டுகிறது.",
+    "synonyms": [
+      "inquisitive",
+      "discerning",
+      "analytical",
+      "scrutinizing"
+    ],
+    "antonyms": [
+      "gullible",
+      "unquestioning",
+      "blindly accepting"
     ]
   },
   {
@@ -385,7 +574,9 @@
     "antonyms": [
       "Off-the-shelf",
       "Standard"
-    ]
+    ],
+    "enExample2": "Enterprise clients often contract custom development teams to build bespoke CRM integrations.",
+    "taExample2": "பெரிய நிறுவனங்கள் தங்களுக்கென பிரத்யேகமாக வடிவமைக்கப்பட்ட மென்பொருள் ஒருங்கிணைப்புகளை உருவாக்க ஒப்பந்தம் செய்கின்றன."
   },
   {
     "id": 2621,
@@ -403,7 +594,9 @@
     "antonyms": [
       "No way",
       "Disagreed"
-    ]
+    ],
+    "enExample2": "The leadership team made a strategic bet on Rust for rebuilding their core storage engine.",
+    "taExample2": "தலைமைக் குழு தனது முதன்மை சேமிப்பக இயந்திரத்தை மீண்டும் உருவாக்க ரஸ்ட் மொழியின் மீது உத்தி சார்ந்த நம்பிக்கையை வைத்தது."
   },
   {
     "id": 217,
@@ -420,7 +613,9 @@
     "antonyms": [
       "Merge",
       "Converge"
-    ]
+    ],
+    "enExample2": "When traffic spikes, the router bifurcates requests between cached read replicas and write masters.",
+    "taExample2": "போக்குவரத்து அதிகரிக்கும் போது நெட்வொர்க் ரவுட்டர் கோரிக்கைகளை படிக்கும் மற்றும் எழுதும் முனையங்களிடையே இரண்டாகப் பிரிக்கிறது."
   },
   {
     "id": 2759,
@@ -438,6 +633,29 @@
     "antonyms": [
       "Macro-focus",
       "Strategic decision-making"
+    ],
+    "enExample2": "The pull request debate devolved into bike-shedding over bracket indentation rather than core logic.",
+    "taExample2": "குறியீட்டு விவாதம் முக்கிய தர்க்கத்திற்குப் பதிலாக அடைப்புக்குறி இடைவெளி போன்ற அற்ப விஷயங்களில் தேவையற்ற நேர விரயமானது."
+  },
+  {
+    "id": 3232,
+    "word": "Bilateral",
+    "pos": "Adjective",
+    "definition": "Involving two parties, nations, or systems in mutual agreement or formal protocol.",
+    "taWord": "இருதரப்பு (Irutharappu)",
+    "enExample": "The two tech companies signed a bilateral agreement to share threat intelligence telemetry.",
+    "taExample": "இரண்டு தொழில்நுட்ப நிறுவனங்களும் அச்சுறுத்தல் நுண்ணறிவுத் தரவைப் பகிர்ந்து கொள்ள இருதரப்பு ஒப்பந்தத்தில் கையெழுத்திட்டன.",
+    "enExample2": "Bilateral API synchronization ensures real-time parity between payments servers.",
+    "taExample2": "இருதரப்பு API ஒத்திசைவு கட்டண சேவையகங்களுக்கு இடையே நிகழ்நேர சமநிலையை உறுதி செய்கிறது.",
+    "synonyms": [
+      "two-sided",
+      "mutual",
+      "reciprocal",
+      "joint"
+    ],
+    "antonyms": [
+      "unilateral",
+      "one-sided"
     ]
   },
   {
@@ -455,7 +673,9 @@
     "antonyms": [
       "Multiple",
       "Continuous"
-    ]
+    ],
+    "enExample2": "The compiler packages the source code into an optimized standalone binary executable.",
+    "taExample2": "தொகுப்பி (Compiler) மூலக் குறியீட்டை ஒரு முழுமையான உகந்த பைனரி இயங்கு கோப்பாக மாற்றுகிறது."
   },
   {
     "id": 221,
@@ -472,7 +692,9 @@
     "antonyms": [
       "Unbind",
       "Detach"
-    ]
+    ],
+    "enExample2": "Socket listeners bind to port 8080 to accept incoming secure web connections.",
+    "taExample2": "இணைய இணைப்புகளைப் பெறுவதற்காக சாக்கெட் கேட்பவர்கள் போர்ட் 8080-உடன் இணைகிறார்கள்."
   },
   {
     "id": 2955,
@@ -493,7 +715,9 @@
       "Sectarian",
       "One-sided",
       "Factions"
-    ]
+    ],
+    "enExample2": "The standardization proposal received bipartisan approval from competing browser vendors.",
+    "taExample2": "தரநிலையாக்க முன்மொழிவுக்கு போட்டியிடும் உலாவி நிறுவனங்கள் அனைவரிடமிருந்தும் ஒருமித்த ஒப்புதல் கிடைத்தது."
   },
   {
     "id": 2712,
@@ -510,7 +734,9 @@
     "antonyms": [
       "White-box testing",
       "Clear-box testing"
-    ]
+    ],
+    "enExample2": "Quality assurance performed black-box testing solely by verifying inputs and expected UI outputs.",
+    "taExample2": "உள் குறியீட்டைப் பார்க்காமல் உள்ளீடுகளையும் திரையின் வெளியீடுகளையும் மட்டுமே சரிபார்த்து தரக்கட்டுப்பாடு சோதனை செய்யப்பட்டது."
   },
   {
     "id": 2758,
@@ -528,6 +754,28 @@
     "antonyms": [
       "Zero impact",
       "Contained scope"
+    ],
+    "enExample2": "Containerizing services minimizes the blast radius if a critical vulnerability is exploited.",
+    "taExample2": "சேவைகளை தனித்தனியாக கொள்கலன்களில் அடைப்பது ஏதேனும் பாதுகாப்பு குறைபாடு ஏற்பட்டால் அதன் பாதிப்பு பரப்பளவைக் குறைக்கிறது."
+  },
+  {
+    "id": 3213,
+    "word": "Blast-radius",
+    "pos": "Noun",
+    "definition": "The maximum extent of impact or disruption caused by a software bug, infrastructure failure, or deployment error.",
+    "taWord": "பாதிப்பு வரம்பு (Paathippu varambu)",
+    "enExample": "Canary deployments limit the blast-radius of a faulty build to just two percent of active users.",
+    "taExample": "கேனரி வரிசைப்படுத்தல்கள் தவறான உருவாக்கத்தின் பாதிப்பு வரம்பை செயலில் உள்ள பயனர்களில் இரண்டு சதவீதமாக மட்டுமே கட்டுப்படுத்துகின்றன.",
+    "enExample2": "Decoupling services reduces the blast-radius when an downstream payment API fails.",
+    "taExample2": "சேவைகளைப் பிரிப்பது கீழ்நிலை கட்டண API தோல்வியடையும் போது பாதிப்பு வரம்பைக் குறைக்கிறது.",
+    "synonyms": [
+      "impact area",
+      "scope of outage",
+      "damage footprint"
+    ],
+    "antonyms": [
+      "containment zone",
+      "isolated region"
     ]
   },
   {
@@ -545,7 +793,9 @@
     "antonyms": [
       "Enabler",
       "Facilitator"
-    ]
+    ],
+    "enExample2": "A missing third-party API credential became a severe blocker for the release candidate build.",
+    "taExample2": "வெளிப்புற API சான்றுகள் இல்லாதது மென்பொருள் வெளியீட்டிற்கு ஒரு பெரிய முட்டுக்கட்டையாக மாறியது."
   },
   {
     "id": 2761,
@@ -562,7 +812,9 @@
     "antonyms": [
       "In-place deployment",
       "Maintenance window outage"
-    ]
+    ],
+    "enExample2": "Switching routing targets during blue-green deployment eliminated all user downtime.",
+    "taExample2": "நீல-பச்சை வரிசைப்படுத்தலின் போது வழிகளை மாற்றுவது பயனர்களுக்கு பூஜ்ஜிய முடக்க நேரத்தை உறுதி செய்தது."
   },
   {
     "id": 2653,
@@ -579,7 +831,9 @@
     "antonyms": [
       "Scope tightly",
       "Focus"
-    ]
+    ],
+    "enExample2": "Start with an MVP rather than trying to boil the ocean on the first platform iteration.",
+    "taExample2": "முதல் பதிப்பிலேயே அனைத்தையும் ஒரே நேரத்தில் செய்ய முயலாமல் எளிய முன்மாதிரியுடன் தொடங்குங்கள்."
   },
   {
     "id": 205,
@@ -596,7 +850,9 @@
     "antonyms": [
       "Custom",
       "Original"
-    ]
+    ],
+    "enExample2": "Modern web frameworks use code generators to eliminate repetitive setup boilerplate.",
+    "taExample2": "நவீன வலை கட்டமைப்புகள் தொடக்க கட்டமைப்புக்கான தேவையற்ற மாதிரி குறியீடுகளை நீக்க உதவுகின்றன."
   },
   {
     "id": 228,
@@ -614,7 +870,9 @@
     "antonyms": [
       "Undermine",
       "Weaken"
-    ]
+    ],
+    "enExample2": "Enabling multi-factor authentication will significantly bolster account security.",
+    "taExample2": "இருபடி அங்கீகாரத்தை செயல்படுத்துவது கணக்கின் பாதுகாப்பை கணிசமாக வலுப்படுத்தும்."
   },
   {
     "id": 211,
@@ -633,7 +891,9 @@
       "Halt",
       "Cease",
       "Reverse"
-    ]
+    ],
+    "enExample2": "The startup grew sustainably by bootstrapping operations entirely through customer revenues.",
+    "taExample2": "அந்த புத்தொழில் நிறுவனம் வெளிப்புற நிதி இன்றி வாடிக்கையாளர் வருவாய் மூலம் சுயமாக வளர்ந்தது."
   },
   {
     "id": 2639,
@@ -651,7 +911,9 @@
     "antonyms": [
       "Dud",
       "Flop"
-    ]
+    ],
+    "enExample2": "The rhythmic notification sound provided a subtle bop whenever a task was marked complete.",
+    "taExample2": "ஒரு பணி நிறைவடையும் போதெல்லாம் மெல்லிய தாள ஒலி அறிவிப்பு இனிமையாக ஒலித்தது."
   },
   {
     "id": 206,
@@ -668,7 +930,9 @@
     "antonyms": [
       "Opening",
       "Flow"
-    ]
+    ],
+    "enExample2": "Slow disk write I/O turned out to be the primary throughput bottleneck in the logging service.",
+    "taExample2": "மெதுவான சேமிப்பக செயல்பாடே தகவல் பதிவு சேவையின் முதன்மை செயலாக்கத் தடையாக இருந்தது."
   },
   {
     "id": 237,
@@ -687,6 +951,49 @@
       "Core",
       "Interior",
       "Boundlessness"
+    ],
+    "enExample2": "Clear modular boundaries prevent unwanted coupling across different sub-services.",
+    "taExample2": "தெளிவான தொகுதி எல்லைகள் வெவ்வேறு சேவைகளுக்கிடையே தேவையற்ற சார்புநிலைகளைத் தடுக்கின்றன."
+  },
+  {
+    "id": 3339,
+    "word": "brainrot",
+    "pos": "noun",
+    "definition": "Slang for cognitive decline or superficial focus caused by overconsuming low-quality online media.",
+    "taWord": "சிந்தனைச் சிதைவு (இணையச் சோர்வு)",
+    "enExample": "Endless scrolling through low-quality tech forum memes induces cognitive brainrot before code review.",
+    "taExample": "குறைந்த தரமான மீம்களை தொடர்ந்து பார்ப்பது கோட் ரிவ்யூ செய்வதற்கு முன் மூளைக்கு பெரும் சோர்வை ஏற்படுத்துகிறது.",
+    "enExample2": "Teachers expressed concern over students absorbing internet brainrot instead of reading literature.",
+    "taExample2": "மாணவர்கள் புத்தகங்களைப் படிப்பதற்குப் பதிலாக இணையத்தில் பயனற்ற விஷயங்களைப் பார்ப்பது குறித்து ஆசிரியர்கள் கவலைப்பட்டனர்.",
+    "synonyms": [
+      "mindlessness",
+      "digital fatigue",
+      "cognitive decay"
+    ],
+    "antonyms": [
+      "mental clarity",
+      "sharpness",
+      "focus"
+    ]
+  },
+  {
+    "id": 3295,
+    "word": "Braintrust",
+    "pos": "Noun",
+    "definition": "A select panel of experienced technical experts gathered to review architecture and advise leaders.",
+    "taWord": "வல்லுநர் குழு (Vallunar kuzhu)",
+    "enExample": "The executive team called upon the engineering braintrust to solve the database scaling issue.",
+    "taExample": "தரவுத்தள அளவாக்க சிக்கலைத் தீர்க்க நிர்வாகக் குழு பொறியியல் வல்லுநர் குழுவை அழைத்தது.",
+    "enExample2": "Joining the company's technical braintrust is a hallmark achievement for senior architects.",
+    "taExample2": "நிறுவனத்தின் தொழில்நுட்ப வல்லுநர் குழுவில் சேர்வது மூத்த கட்டிடக் கலைஞர்களுக்கு ஒரு அடையாள சாதனையாகும்.",
+    "synonyms": [
+      "think tank",
+      "expert panel",
+      "advisory board"
+    ],
+    "antonyms": [
+      "novice group",
+      "unqualified panel"
     ]
   },
   {
@@ -703,6 +1010,30 @@
     ],
     "antonyms": [
       "Merge"
+    ],
+    "enExample2": "Create a feature branch in Git before making any experimental frontend changes.",
+    "taExample2": "முன்னணி மாற்றங்களைச் செய்வதற்கு முன் Git-ல் ஒரு தனி அம்சக் கிளையை (Branch) உருவாக்கவும்."
+  },
+  {
+    "id": 3296,
+    "word": "Braw",
+    "pos": "Adjective",
+    "definition": "Scottish dialect word meaning fine, excellent, handsome, or outstanding in quality.",
+    "taWord": "சிறப்பான/அழகான (Sirappaana/azhakaana)",
+    "enExample": "The lead developer from Edinburgh described the clean, well-factored React UI as a braw piece of code.",
+    "taExample": "எடின்பர்க்கைச் சேர்ந்த முதன்மை டெவலப்பர் சுத்தமான, நன்கு காரணியாக்கப்பட்ட React UI ஐ ஒரு சிறப்பான குறியீடு என்று விவரித்தார்.",
+    "enExample2": "It was a braw day for launching the open-source community platform in Scotland.",
+    "taExample2": "ஸ்காட்லாந்தில் திறந்த மூல சமூக தளத்தைத் தொடங்குவதற்கு இது ஒரு சிறப்பான நாளாக இருந்தது.",
+    "synonyms": [
+      "splendid",
+      "fine",
+      "excellent",
+      "handsome"
+    ],
+    "antonyms": [
+      "poor",
+      "shabby",
+      "subpar"
     ]
   },
   {
@@ -720,7 +1051,9 @@
     "antonyms": [
       "Verbosity",
       "Lengthiness"
-    ]
+    ],
+    "enExample2": "The team appreciated the brevity and clarity of the post-incident postmortem report.",
+    "taExample2": "சம்பவத்திற்குப் பிந்தைய ஆய்வறிக்கையின் சுருக்கத்தையும் தெளிவையும் குழு மிகவும் பாராட்டியது."
   },
   {
     "id": 222,
@@ -737,7 +1070,9 @@
     "antonyms": [
       "Detailed",
       "Lengthy"
-    ]
+    ],
+    "enExample2": "The engineering manager gave a brief summary of quarterly product deliverables.",
+    "taExample2": "பொறியியல் மேலாளர் காலாண்டு தயாரிப்பு இலக்குகள் குறித்த ஒரு சுருக்கமான கண்ணோட்டத்தை வழங்கினார்."
   },
   {
     "id": 224,
@@ -754,7 +1089,9 @@
     "antonyms": [
       "Slow",
       "Sluggish"
-    ]
+    ],
+    "enExample2": "The server sustained a brisk transaction processing rate throughout the flash sale.",
+    "taExample2": "சிறப்பு விற்பனை முழுவதும் சர்வர் மிகவும் சுறுசுறுப்பான பரிவர்த்தனை வேகத்தைத் தக்கவைத்துக் கொண்டது."
   },
   {
     "id": 215,
@@ -771,7 +1108,9 @@
     "antonyms": [
       "Robust",
       "Flexible"
-    ]
+    ],
+    "enExample2": "Hardcoded configuration values make automated continuous integration tests brittle and flaky.",
+    "taExample2": "மாறிலி மதிப்புகளை நேரடியாக குறியீட்டில் எழுதுவது தானியங்கி சோதனைகளை எளிதில் உடையக்கூடியதாக மாற்றுகிறது."
   },
   {
     "id": 213,
@@ -788,7 +1127,9 @@
     "antonyms": [
       "Unicast",
       "Receive"
-    ]
+    ],
+    "enExample2": "The WebSocket gateway broadcasts real-time price updates to all connected trading dashboards.",
+    "taExample2": "WebSocket நுழைவாயில் அனைத்து வர்த்தக திரைகளுக்கும் நிகழ்நேர விலை மாற்றங்களை ஒரே நேரத்தில் ஒளிபரப்புகிறது."
   },
   {
     "id": 233,
@@ -805,7 +1146,9 @@
     "antonyms": [
       "Narrow",
       "Restrict"
-    ]
+    ],
+    "enExample2": "We added internationalization plugins to broaden the global appeal of our mobile application.",
+    "taExample2": "எங்கள் மொபைல் பயன்பாட்டின் உலகளாவிய ஈர்ப்பை விரிவுபடுத்த பலமொழி நீட்டிப்புகளைச் சேர்த்தோம்."
   },
   {
     "id": 2669,
@@ -822,7 +1165,9 @@
     "antonyms": [
       "Greenfield",
       "Clean slate"
-    ]
+    ],
+    "enExample2": "Migrating a brownfield enterprise system requires maintaining backwards database compatibility.",
+    "taExample2": "ஏற்கனவே இயங்கும் பழைய அமைப்பை மாற்றுவதற்கு முந்தைய பதிப்புகளுக்கான தரவுத்தள இணக்கத்தன்மை அவசியம்."
   },
   {
     "id": 2762,
@@ -839,7 +1184,9 @@
     "antonyms": [
       "Greenfield project",
       "Clean-slate design"
-    ]
+    ],
+    "enExample2": "Working on a brownfield project involves refactoring legacy modules without disrupting live users.",
+    "taExample2": "ஏற்கனவே பயன்பாட்டில் உள்ள திட்டத்தில் பணிபுரிவது பயனர்களுக்கு இடையூறு இல்லாமல் பழைய பகுதிகளை மாற்றியமைப்பதை உள்ளடக்கியது."
   },
   {
     "id": 207,
@@ -857,7 +1204,9 @@
       "Immediate flush",
       "Unbuffered stream",
       "Direct pipe"
-    ]
+    ],
+    "enExample2": "A ring buffer in shared memory prevents packet loss during sudden network data bursts.",
+    "taExample2": "பகிரப்பட்ட நினைவகத்தில் உள்ள இடைக்கால சேமிப்பகம் (Buffer) திடீர் நெட்வொர்க் அதிகரிப்பின் போது தரவு இழப்பைத் தடுக்கிறது."
   },
   {
     "id": 208,
@@ -874,7 +1223,9 @@
     "antonyms": [
       "Fix",
       "Feature"
-    ]
+    ],
+    "enExample2": "A subtle off-by-one bug in the pagination loop caused the last item to be omitted.",
+    "taExample2": "பக்கமாக்கல் வளையத்தில் இருந்த ஒரு சிறிய எண் பிழை கடைசி உருப்படி விடுபடக் காரணமாக அமைந்தது."
   },
   {
     "id": 2714,
@@ -891,7 +1242,9 @@
     ],
     "antonyms": [
       "Ignoring bugs"
-    ]
+    ],
+    "enExample2": "The engineering team holds a daily bug triage to categorize incoming security and UI defects.",
+    "taExample2": "பாதுகாப்பு மற்றும் வடிவமைப்பு பிழைகளை வகைப்படுத்த பொறியியல் குழு தினமும் பிழை தரம் பிரிக்கும் கூட்டத்தை நடத்துகிறது."
   },
   {
     "id": 225,
@@ -908,7 +1261,9 @@
     "antonyms": [
       "Destroy",
       "Dismantle"
-    ]
+    ],
+    "enExample2": "The automated production build minifies CSS bundles and outputs tree-shaken JavaScript.",
+    "taExample2": "தானியங்கி உற்பத்தி கட்டமைப்பு CSS கோப்புகளை சுருக்கி தேவையற்ற ஜாவாஸ்கிரிப்ட் பகுதிகளை நீக்கி வெளியிடுகிறது."
   },
   {
     "id": 214,
@@ -925,7 +1280,9 @@
     "antonyms": [
       "Individual",
       "Single"
-    ]
+    ],
+    "enExample2": "Use bulk inserts when importing millions of rows to significantly speed up database population.",
+    "taExample2": "மில்லியன் கணக்கான வரிசைகளை உள்ளிடும் போது தரவுத்தள பதிவேற்றத்தை விரைவுபடுத்த மொத்த உள்ளீட்டு முறையைப் பயன்படுத்தவும்."
   },
   {
     "id": 216,
@@ -942,7 +1299,9 @@
     "antonyms": [
       "Separate",
       "Split"
-    ]
+    ],
+    "enExample2": "Webpack creates an optimized client bundle by splitting vendor libraries from application code.",
+    "taExample2": "வெளிப்புற நூலகங்களை முக்கிய குறியீட்டிலிருந்து பிரிப்பதன் மூலம் Webpack ஒரு உகந்த தொகுப்பை உருவாக்குகிறது."
   },
   {
     "id": 2681,
@@ -959,6 +1318,29 @@
     ],
     "antonyms": [
       "Static backlog"
+    ],
+    "enExample2": "The sprint burndown chart visualizes the remaining story points day by day.",
+    "taExample2": "ஸ்பிரிண்ட் பணிநிறைவு வரைபடம் நாளுக்கு நாள் மீதமுள்ள பணிகளை வரைபடமாக காட்சிப்படுத்துகிறது."
+  },
+  {
+    "id": 3308,
+    "word": "Burnout",
+    "pos": "Noun",
+    "definition": "State of emotional, physical, and mental exhaustion caused by excessive long-term workplace stress.",
+    "taWord": "மன/உடல் சோர்வு (Mana/udal sorvu)",
+    "enExample": "Promoting reasonable work hours and healthy sprint velocity prevents developer burnout.",
+    "taExample": "நியாயமான வேலை நேரம் மற்றும் ஆரோக்கியமான ஸ்பிரின்ட் வேகத்தை ஊக்குவிப்பது டெவலப்பர் மன சோர்வைத் தடுக்கிறது.",
+    "enExample2": "Taking regular breaks and vacations is essential for recovering from tech industry burnout.",
+    "taExample2": "தொழில்நுட்பத் தொழில் மன சோர்விலிருந்து மீள்வதற்கு வழக்கமான இடைவேளைகளையும் விடுமுறைகளையும் எடுப்பது அவசியமானது.",
+    "synonyms": [
+      "exhaustion",
+      "fatigue",
+      "depletion"
+    ],
+    "antonyms": [
+      "vitality",
+      "vigor",
+      "rejuvenation"
     ]
   },
   {
@@ -976,7 +1358,9 @@
     "antonyms": [
       "Distributed knowledge",
       "Cross-trained team"
-    ]
+    ],
+    "enExample2": "Cross-training team members increases the bus factor and eliminates single points of human failure.",
+    "taExample2": "குழு உறுப்பினர்களுக்கு பல்துறை பயிற்சி அளிப்பது ஒரு குறிப்பிட்ட நபரை மட்டுமே சார்ந்திருக்கும் ஆபத்தைக் குறைக்கிறது."
   },
   {
     "id": 234,
@@ -995,7 +1379,9 @@
       "Hobby",
       "Charity",
       "Non-profit"
-    ]
+    ],
+    "enExample2": "Aligning technical roadmap milestones with core business goals ensures executive sponsorship.",
+    "taExample2": "தொழில்நுட்ப மைல்கற்களை முதன்மை வணிக இலக்குகளுடன் இணைப்பது நிர்வாக ஆதரவை உறுதி செய்கிறது."
   },
   {
     "id": 2655,
@@ -1014,7 +1400,9 @@
       "Resistance",
       "Dissent",
       "Pushback"
-    ]
+    ],
+    "enExample2": "Securing stakeholder buy-in early prevented scope disputes later in the development cycle.",
+    "taExample2": "பங்குதாரர்களின் ஒப்புதலை முன்கூட்டியே பெறுவது பிற்காலத்தில் திட்ட எல்லை தகராறுகள் ஏற்படுவதைத் தடுத்தது."
   },
   {
     "id": 209,
@@ -1031,6 +1419,8 @@
     "antonyms": [
       "Confront",
       "Face"
-    ]
+    ],
+    "enExample2": "Administrative users can bypass standard cache policies to view real-time database state.",
+    "taExample2": "நிர்வாகப் பயனர்கள் நிகழ்நேர தரவுத்தள நிலையைக் காண நிலையான தற்காலிக சேமிப்புக் கொள்கைகளைத் தவிர்க்கலாம்."
   }
 ]

@@ -14,6 +14,27 @@
     "antonyms": [
       "Fix",
       "Standard"
+    ],
+    "enExample2": "Using a CSS timeout hack to fix layout shifts is unacceptable for production enterprise code.",
+    "taExample2": "திரை மாற்றங்களைச் சரிசெய்ய தற்காலிக குறுக்குவழிகளைப் (Hack) பயன்படுத்துவது உற்பத்தி குறியீட்டிற்கு ஏற்றதல்ல."
+  },
+  {
+    "id": 3358,
+    "word": "hackathon",
+    "pos": "noun",
+    "definition": "An event in which computer programmers collaborate intensively to build software solutions quickly.",
+    "taWord": "ஹேக்கத்தான் (விரைவு நிரலாக்க போட்டி)",
+    "enExample": "The company host an annual weekend hackathon to prototype innovative AI feature proposals.",
+    "taExample": "புதிய ஏஐ பயன்பாடுகளை விரைவாக உருவாக்க நிறுவனம் ஆண்டுதோறும் ஹேக்கத்தான் போட்டியை நடத்துகிறது.",
+    "enExample2": "Students at the Scottish university organized a charity hackathon to build civic tracking apps.",
+    "taExample2": "ஸாட்லாந்து பல்கலைக்கழக மாணவர்கள் தொண்டு பயன்பாடுகளை உருவாக்க ஹேக்கத்தான் போட்டியை ஏற்பாடு செய்தனர்.",
+    "synonyms": [
+      "coding marathon",
+      "devfest",
+      "buildathon"
+    ],
+    "antonyms": [
+      "routine work"
     ]
   },
   {
@@ -32,7 +53,9 @@
     "antonyms": [
       "Original",
       "Fresh"
-    ]
+    ],
+    "enExample2": "The marketing team replaced hackneyed slogans with clear technical descriptions of product features.",
+    "taExample2": "சந்தைப்படுத்தல் குழு சலிப்பூட்டும் பழைய வாசகங்களுக்குப் பதிலாக தயாரிப்பு அம்சங்களின் தெளிவான விளக்கங்களை அமைத்தது."
   },
   {
     "id": 817,
@@ -50,7 +73,9 @@
     "antonyms": [
       "Troubled",
       "Stormy"
-    ]
+    ],
+    "enExample2": "Veterans fondly recalled the halcyon days of the startup before enterprise compliance overhead was introduced.",
+    "taExample2": "அதிகப்படியான விதிமுறைகள் வருவதற்கு முன்பிருந்த அந்த புத்தொழில் நிறுவனத்தின் பொற்கால அமைதியான நாட்களை மூத்தவர்கள் நினைவு கூர்ந்தனர்."
   },
   {
     "id": 3047,
@@ -70,7 +95,9 @@
     "antonyms": [
       "Anomalous feature",
       "Imperfection"
-    ]
+    ],
+    "enExample2": "Sub-millisecond query response time is the hallmark of an optimized in-memory key-value database.",
+    "taExample2": "மில்லி விநாடிக்கும் குறைவான தேடல் நேரமே உகந்த நினைவக தரவுத்தளத்தின் முதன்மை அடையாளமாகும் (Hallmark)."
   },
   {
     "id": 2790,
@@ -88,7 +115,9 @@
     "antonyms": [
       "Grounded accuracy",
       "Verifiable factuality"
-    ]
+    ],
+    "enExample2": "Adding strict retrieval constraints minimized model hallucination during legal document synthesis.",
+    "taExample2": "கடுமையான தேடல் வரம்புகளைச் சேர்த்தது சட்ட ஆவண உருவாக்கத்தின் போது AI மாதிரி உண்மைக்கு மாறான தகவல்களை உருவாக்குவதைக் குறைத்தது."
   },
   {
     "id": 802,
@@ -105,7 +134,9 @@
     "antonyms": [
       "Continue",
       "Start"
-    ]
+    ],
+    "enExample2": "The continuous deployment pipeline will automatically halt execution if any critical unit test fails.",
+    "taExample2": "ஏதேனும் முக்கியமான சோதனை தோல்வியடைந்தால் தானியங்கி வெளியீட்டு அமைப்பு உடனடியாக செயல்பாட்டை நிறுத்தும் (Halt)."
   },
   {
     "id": 803,
@@ -123,7 +154,9 @@
       "Abrupt termination",
       "Silent drop",
       "Unverified transmission"
-    ]
+    ],
+    "enExample2": "TLS 1.3 reduces the cryptographic handshake latency by completing the secure exchange in a single round trip.",
+    "taExample2": "TLS 1.3 நெறிமுறை ஒற்றை சுழற்சியில் பரிமாற்றத்தை முடிப்பதன் மூலம் பாதுகாப்பு கைகுலுக்கல் (Handshake) தாமதத்தைக் குறைக்கிறது."
   },
   {
     "id": 2659,
@@ -140,7 +173,9 @@
     "antonyms": [
       "Open-ended time",
       "Flexibility"
-    ]
+    ],
+    "enExample2": "The team has a hard stop at 5 PM due to the scheduled datacenter power maintenance window.",
+    "taExample2": "திட்டமிடப்பட்ட தரவு மைய பராமரிப்பு காரணமாக குழுவிற்கு மாலை 5 மணிக்கு திட்டவட்டமான நிறுத்த நேரம் (Hard Stop) உள்ளது."
   },
   {
     "id": 804,
@@ -157,7 +192,9 @@
     "antonyms": [
       "Dynamic",
       "Configure"
-    ]
+    ],
+    "enExample2": "Never hardcode database passwords or private API tokens directly into frontend source code files.",
+    "taExample2": "தரவுத்தள கடவுச்சொற்கள் அல்லது ரகசிய குறியீடுகளை ஒருபோதும் மூலக் குறியீட்டில் நேரடியாக எழுத வேண்டாம்."
   },
   {
     "id": 819,
@@ -174,7 +211,9 @@
     "antonyms": [
       "Discordant",
       "Incompatible"
-    ]
+    ],
+    "enExample2": "The typography and color palette created a harmonious and accessible visual aesthetic across the application.",
+    "taExample2": "எழுத்துரு மற்றும் வண்ண அமைப்பு பயன்பாடு முழுவதும் இணக்கமான மற்றும் அணுகக்கூடிய அழகியலை உருவாக்கியது."
   },
   {
     "id": 815,
@@ -191,7 +230,9 @@
     "antonyms": [
       "Waste",
       "Ignore"
-    ]
+    ],
+    "enExample2": "Engineers built a custom test harness to simulate ten thousand concurrent WebSocket transactions.",
+    "taExample2": "ஒரே நேரத்தில் பத்தாயிரம் பரிவர்த்தனைகளை உருவகப்படுத்த பொறியாளர்கள் தனிப்பயன் சோதனை கட்டமைப்பை உருவாக்கினர்."
   },
   {
     "id": 805,
@@ -209,7 +250,9 @@
       "Plaintext",
       "Cleartext",
       "Decrypted payload"
-    ]
+    ],
+    "enExample2": "The authentication service computes a SHA-256 hash of the password before storing it securely.",
+    "taExample2": "அங்கீகார சேவை கடவுச்சொல்லை பாதுகாப்பாக சேமிப்பதற்கு முன் அதன் SHA-256 ஹாஷ் (Hash) மதிப்பை கணக்கிடுகிறது."
   },
   {
     "id": 820,
@@ -226,7 +269,9 @@
     "antonyms": [
       "Safe",
       "Secure"
-    ]
+    ],
+    "enExample2": "Deploying untested schema changes directly to production databases is an extremely hazardous practice.",
+    "taExample2": "சோதிக்கப்படாத தரவுத்தள மாற்றங்களை நேரடியாக தயாரிப்பு அமைப்பில் வெளியிடுவது மிகவும் ஆபத்தான செயலாகும்."
   },
   {
     "id": 806,
@@ -243,7 +288,9 @@
     "antonyms": [
       "Visual",
       "Interactive"
-    ]
+    ],
+    "enExample2": "A headless CMS delivers structured content over REST and GraphQL APIs without mandating a specific frontend UI.",
+    "taExample2": "ஹெட்லெஸ் CMS ஒரு குறிப்பிட்ட இடைமுகத்தைக் கட்டாயப்படுத்தாமல் API வழியாக கட்டமைக்கப்பட்ட உள்ளடக்கத்தை வழங்குகிறது."
   },
   {
     "id": 807,
@@ -259,6 +306,28 @@
     ],
     "antonyms": [
       "Stack"
+    ],
+    "enExample2": "The garbage collector freed up unused objects from the heap to prevent an out-of-memory exception.",
+    "taExample2": "நினைவக பற்றாக்குறை பிழையைத் தவிர்க்க தூய்மைப்படுத்தும் நிரல் பயன்படுத்தப்படாத பொருட்களை ஹீப் நினைவகத்திலிருந்து விடுவித்தது."
+  },
+  {
+    "id": 3233,
+    "word": "Hearsay",
+    "pos": "Noun",
+    "definition": "Unverified information or rumors received from others, lacking direct log evidence or proof.",
+    "taWord": "செவிவழி செய்தி (Sevivazhi seythi)",
+    "enExample": "Rely on server telemetry logs rather than unverified hearsay when diagnosing memory leaks.",
+    "taExample": "நினைவக கசிவுகளைக் கண்டறியும் போது சரிபார்க்கப்படாத செவிவழிச் செய்தியை விட சேவையக பதிவுப் பதிவுகளை நம்பியிருங்கள்.",
+    "enExample2": "Courtrooms reject hearsay evidence unless supported by primary documentation.",
+    "taExample2": "முதன்மை ஆவணங்களால் ஆதரிக்கப்படாவிட்டால் நீதிமன்றங்கள் செவிவழிச் செய்தி ஆதாரங்களை நிராகரிக்கின்றன.",
+    "synonyms": [
+      "rumor",
+      "gossip",
+      "unverified report"
+    ],
+    "antonyms": [
+      "direct evidence",
+      "firsthand proof"
     ]
   },
   {
@@ -277,7 +346,9 @@
     "antonyms": [
       "Dead silent node",
       "Zombie process"
-    ]
+    ],
+    "enExample2": "The orchestrator uses a periodic heartbeat mechanism to detect and replace unresponsive worker pods.",
+    "taExample2": "செயலிழந்த சர்வர்களைக் கண்டறிந்து மாற்ற நிர்வாக அமைப்பு குறிப்பிட்ட கால இடைவெளியில் இயங்கும் இதயத்துடிப்பு பொறிமுறையைப் பயன்படுத்துகிறது."
   },
   {
     "id": 829,
@@ -295,6 +366,28 @@
     "antonyms": [
       "Easy part",
       "Trivial task"
+    ],
+    "enExample2": "The cloud data warehouse handles all the computational heavy lifting for complex historical analytics queries.",
+    "taExample2": "சிக்கலான வரலாற்று பகுப்பாய்வு வினவல்களுக்கான அனைத்து கடினமான கணக்கீட்டு வேலைகளையும் கிளவுட் தரவுக் கிடங்கு கையாள்கிறது."
+  },
+  {
+    "id": 3218,
+    "word": "Heavy-lifting",
+    "pos": "Noun",
+    "definition": "The most demanding, complex, or computationally intensive portion of a project or software system.",
+    "taWord": "கடினமான பணி (Kadinamana pani)",
+    "enExample": "Our background worker service handles all the heavy-lifting of video encoding and image compression.",
+    "taExample": "எங்கள் பின்னணி சேவை வீடியோ குறியாக்கம் மற்றும் பட சுருக்கத்தின் அனைத்து கடினமான பணியையும் கையாள்கிறது.",
+    "enExample2": "Cloud managed databases take care of infrastructure heavy-lifting so developers can focus on features.",
+    "taExample2": "கிளவுட் நிர்வகிக்கப்படும் தரவுத்தளங்கள் உள்கட்டமைப்பு கடினமான பணியை கவனித்துக்கொள்கின்றன, எனவே டெவலப்பர்கள் அம்சங்களில் கவனம் செலுத்த முடியும்.",
+    "synonyms": [
+      "drudgery",
+      "core computation",
+      "strenuous work"
+    ],
+    "antonyms": [
+      "light task",
+      "trivial work"
     ]
   },
   {
@@ -315,7 +408,9 @@
       "Subjugation",
       "Egalitarianism",
       "Multilateral balance"
-    ]
+    ],
+    "enExample2": "Open-source cross-platform engines challenged the market hegemony of proprietary desktop frameworks.",
+    "taExample2": "திறந்த மூல குறுக்கு-தள இயந்திரங்கள் தனியுரிம கட்டமைப்புகளின் சந்தை ஆதிக்கத்திற்கு பெரும் சவாலாக அமைந்தன."
   },
   {
     "id": 2791,
@@ -333,6 +428,50 @@
     "antonyms": [
       "Deterministic bug",
       "Reproducible defect"
+    ],
+    "enExample2": "The concurrency glitch was a classic Heisenbug that mysteriously disappeared whenever a debugger was attached.",
+    "taExample2": "பிழைத்திருத்தி இணைக்கப்படும் போதெல்லாம் மாயமாக மறைந்துவிடும் ஒரு விசித்திரமான பிழையாக (Heisenbug) அது இருந்தது."
+  },
+  {
+    "id": 3359,
+    "word": "hench",
+    "pos": "adjective",
+    "definition": "UK and Scottish slang for having a large, muscular, or powerful build.",
+    "taWord": "திடகாத்திரமான (உடற்பயிற்சி பெற்ற)",
+    "enExample": "The server room was equipped with hench industrial racks designed to support heavy enterprise hardware.",
+    "taExample": "சர்வர் அறை அதிக எடை கொண்ட கணினிகளைத் தாங்கும் திடகாத்திரமான தொழிற்துறை ரேக்குகளுடன் அமைக்கப்பட்டது.",
+    "enExample2": "Fellowship members helped move heavy furniture into the new community center thanks to a few hench volunteers.",
+    "taExample2": "சில திடகாத்திரமான தன்னார்வலர்களின் உதவியால் சமூக மையத்திற்குள் கனமான மரச்சாமான்கள் நகர்த்தப்பட்டன.",
+    "synonyms": [
+      "muscular",
+      "burly",
+      "strapping",
+      "robust"
+    ],
+    "antonyms": [
+      "slender",
+      "frail",
+      "puny"
+    ]
+  },
+  {
+    "id": 3257,
+    "word": "Hermeneutics",
+    "pos": "Noun",
+    "definition": "The branch of knowledge that deals with interpretation, especially of scriptures or complex specifications.",
+    "taWord": "விளக்கவியல் (Vilakkaviyal)",
+    "enExample": "Applying sound hermeneutics prevents misinterpretation of ambiguous software specification requirements.",
+    "taExample": "சரியான விளக்கவியலைப் பயன்படுத்துவது தெளிவற்ற மென்பொருள் விவரக்குறிப்புத் தேவைகளின் தவறான விளக்கத்தைத் தடுக்கிறது.",
+    "enExample2": "Theological hermeneutics provides a framework for understanding biblical passages accurately.",
+    "taExample2": "இறையியல் விளக்கவியல் பைபிள் பகுதிகளைத் துல்லியமாகப் புரிந்துகொள்வதற்கான ஒரு கட்டமைப்பை வழங்குகிறது.",
+    "synonyms": [
+      "interpretation theory",
+      "exegesis method",
+      "deciphering"
+    ],
+    "antonyms": [
+      "misconstruction",
+      "confusion"
     ]
   },
   {
@@ -350,7 +489,9 @@
     "antonyms": [
       "Proceed",
       "Decide"
-    ]
+    ],
+    "enExample2": "Do not hesitate to escalate production anomalies to the on-call engineer when latency spikes above SLA thresholds.",
+    "taExample2": "தாமதம் வரம்புகளைத் தாண்டும் போது நேரலை பிரச்சனைகளை பணியில் உள்ள பொறியாளரிடம் தெரிவிக்க தயங்க வேண்டாம்."
   },
   {
     "id": 808,
@@ -367,7 +508,9 @@
     "antonyms": [
       "Exact",
       "Algorithmic"
-    ]
+    ],
+    "enExample2": "The spam filter applies a smart heuristic based on keyword density and sender domain reputation.",
+    "taExample2": "தேவையற்ற அஞ்சல் வடிகட்டியானது முக்கிய சொல் அடர்த்தி மற்றும் அனுப்புநரின் நற்பெயரின் அடிப்படையில் விவேகமான உத்தியைப் பயன்படுத்துகிறது."
   },
   {
     "id": 809,
@@ -384,7 +527,9 @@
     "antonyms": [
       "Flat",
       "Egalitarian"
-    ]
+    ],
+    "enExample2": "The user permission hierarchy ranges from read-only viewers up to global organization administrators.",
+    "taExample2": "பயனர் அனுமதி படிநிலையானது வாசிப்பு மட்டும் பார்வையாளர் முதல் முதன்மை நிர்வாகி வரை விரிவடைந்துள்ளது."
   },
   {
     "id": 2648,
@@ -402,7 +547,9 @@
     "antonyms": [
       "Lowkey",
       "Subtly"
-    ]
+    ],
+    "enExample2": "The new serverless architecture is highkey one of the best infrastructure upgrades the company ever made.",
+    "taExample2": "புதிய சர்வர்லெஸ் கட்டமைப்பு நிறுவனம் மேற்கொண்ட மிகச் சிறந்த உள்கட்டமைப்பு மேம்பாடுகளில் ஒன்றாக வெளிப்படையாகத் திகழ்கிறது."
   },
   {
     "id": 822,
@@ -419,7 +566,9 @@
     "antonyms": [
       "Obscure",
       "Ignore"
-    ]
+    ],
+    "enExample2": "The code editor uses syntax rules to highlight language keywords, strings, and variable declarations.",
+    "taExample2": "குறியீட்டுத் தொகுப்பாளர் மொழிச் சொற்கள், சரங்கள் மற்றும் மாறிகளை தெளிவாகக் காட்ட சிறப்பம்ச வண்ணங்களைப் பயன்படுத்துகிறது."
   },
   {
     "id": 810,
@@ -436,6 +585,49 @@
     "antonyms": [
       "Facilitate",
       "Help"
+    ],
+    "enExample2": "Excessive bureaucratic approval processes hinder the team's ability to ship urgent customer hotfixes.",
+    "taExample2": "அதிகப்படியான நிர்வாக ஒப்புதல் நடைமுறைகள் அவசர திருத்தங்களை வெளியிடும் குழுவின் திறனைத் தடுக்கின்றன."
+  },
+  {
+    "id": 3360,
+    "word": "holistic",
+    "pos": "adjective",
+    "definition": "Characterized by comprehension of the parts of something as intimately interconnected to the whole.",
+    "taWord": "முழுமையான (அனைத்தையும் உள்ளடக்கிய)",
+    "enExample": "Site Reliability Engineering takes a holistic view of software design, infrastructure, and user telemetry.",
+    "taExample": "தள நம்பகத்தன்மை பொறியியல் என்பது மென்பொருள் வடிவமைப்பு மற்றும் உள்கட்டமைப்பை முழுமையாக அணுகுகிறது.",
+    "enExample2": "The community center offered a holistic support program covering mental, financial, and spiritual health.",
+    "taExample2": "சமூக மையம் மன ஆரோக்கியம், நிதி மற்றும் ஆன்மீக நலனை உள்ளடக்கிய முழுமையான உதவித் திட்டத்தை வழங்கியது.",
+    "synonyms": [
+      "comprehensive",
+      "integrated",
+      "thorough",
+      "all-inclusive"
+    ],
+    "antonyms": [
+      "partial",
+      "fragmented",
+      "narrow"
+    ]
+  },
+  {
+    "id": 3276,
+    "word": "Homiletics",
+    "pos": "Noun",
+    "definition": "The art and methodology of preaching and communicating spiritual truth effectively.",
+    "taWord": "பிரசங்கவியல் (Pirasangaviyal)",
+    "enExample": "Studying homiletics helps speakers present technical ideas clearly and persuasively during engineering keynotes.",
+    "taExample": "பிரசங்கவியலைப் படிப்பது பேச்சாளர்கள் பொறியியல் முதன்மை உரைகளின் போது தொழில்நுட்ப யோசனைகளைத் தெளிவாகவும் ஈர்க்கக்கூடியதாகவும் வழங்க உதவுகிறது.",
+    "enExample2": "Effective homiletics combines biblical scholarship with practical application for daily living.",
+    "taExample2": "பயனுள்ள பிரசங்கவியல் பைபிள் புலமையை அன்றாட வாழ்க்கைக்கான நடைமுறை பயன்பாட்டுடன் இணைக்கிறது.",
+    "synonyms": [
+      "preaching art",
+      "sermon preparation",
+      "rhetoric"
+    ],
+    "antonyms": [
+      "incoherent babble"
     ]
   },
   {
@@ -453,7 +645,9 @@
     "antonyms": [
       "Dishonesty",
       "Deceit"
-    ]
+    ],
+    "enExample2": "Maintaining complete honesty during incident retrospectives ensures real systemic flaws are addressed.",
+    "taExample2": "சம்பவ ஆய்வுக் கூட்டங்களின் போது முழுமையான நேர்மையைப் பேணுவது உண்மையான அமைப்பு குறைபாடுகளை சரிசெய்வதை உறுதி செய்கிறது."
   },
   {
     "id": 3170,
@@ -473,7 +667,9 @@
       "Acute hospital ward",
       "Intensive care",
       "Outpatient clinic"
-    ]
+    ],
+    "enExample2": "The aging enterprise monolith entered hospice phase as engineers shifted new features to microservices.",
+    "taExample2": "பொறியாளர்கள் புதிய அம்சங்களை நுண்சேவைகளுக்கு மாற்றியதால் பழைய ஒற்றை அமைப்பு இறுதி பராமரிப்பு நிலைக்கு சென்றது."
   },
   {
     "id": 824,
@@ -489,7 +685,9 @@
     ],
     "antonyms": [
       "Hostility"
-    ]
+    ],
+    "enExample2": "The engineering conference welcomed international contributors with warm hospitality and accessible venues.",
+    "taExample2": "தொழில்நுட்ப மாநாடு சர்வதேச பங்களிப்பாளர்களை அன்பான விருந்தோம்பலுடன் வரவேற்றது."
   },
   {
     "id": 811,
@@ -506,7 +704,9 @@
     "antonyms": [
       "Client",
       "Guest"
-    ]
+    ],
+    "enExample2": "Cloud storage buckets can host static web applications with global SSL certificates out of the box.",
+    "taExample2": "கிளவுட் சேமிப்பக கொள்கலன்கள் நிலையான வலைப்பயன்பாடுகளை உலகளாவிய பாதுகாப்பு சான்றிதழ்களுடன் வழங்க (Host) முடியும்."
   },
   {
     "id": 825,
@@ -523,6 +723,28 @@
     "antonyms": [
       "Friendly",
       "Welcoming"
+    ],
+    "enExample2": "The firewall automatically isolates hostile IP subnets engaged in coordinated brute-force login attempts.",
+    "taExample2": "தாக்குதல் நடத்தும் விரோதமான ஐபி முகவரிகளை ஃபயர்வால் தானாகவே தனிமைப்படுத்துகிறது."
+  },
+  {
+    "id": 3361,
+    "word": "hot-take",
+    "pos": "noun",
+    "definition": "A provocative, immediate opinion on a current news event or trend expressed with little deliberation.",
+    "taWord": "திடீர் கருத்து (சூடான விமர்சனம்)",
+    "enExample": "The developer shared a hot-take on social media claiming monolithic architecture would replace microservices.",
+    "taExample": "ஒற்றை மென்பொருள் அமைப்புகள் மீண்டும் பிரபலமாகும் என்று ஒரு பொறியாளர் இணையத்தில் திடீர் கருத்தைப் பகிர்ந்தார்.",
+    "enExample2": "Political talk shows rely on pundits delivering hot-takes during election night broadcasts.",
+    "taExample2": "அரசியல் விவாத நிகழ்ச்சிகள் தேர்தல் இரவில் வல்லுநர்களின் சூடான விமர்சனங்களை பெரிதும் நம்பியுள்ளன.",
+    "synonyms": [
+      "provocative view",
+      "snap judgment",
+      "instant reaction"
+    ],
+    "antonyms": [
+      "considered analysis",
+      "deliberate verdict"
     ]
   },
   {
@@ -541,7 +763,9 @@
     "antonyms": [
       "Scheduled release",
       "Major version"
-    ]
+    ],
+    "enExample2": "The DevOps engineer deployed an emergency hotfix to patch the memory leak within twenty minutes.",
+    "taExample2": "நினைவக கசிவை சரிசெய்ய சுழற்சி முறை பொறியாளர் இருபது நிமிடங்களில் அவசர மென்பொருள் திருத்தத்தை (Hotfix) வெளியிட்டார்."
   },
   {
     "id": 818,
@@ -559,7 +783,9 @@
     "antonyms": [
       "Humility",
       "Modesty"
-    ]
+    ],
+    "enExample2": "Skipping staging environment testing before a major database migration proved to be costly hubris.",
+    "taExample2": "ஒரு பெரிய தரவுத்தள மாற்றத்திற்கு முன் சோதனை சூழலைத் தவிர்த்தது அதிக செலவை ஏற்படுத்திய அதீத தன்னம்பிக்கையாக அமைந்தது."
   },
   {
     "id": 826,
@@ -576,7 +802,9 @@
     "antonyms": [
       "Inhumane",
       "Cruel"
-    ]
+    ],
+    "enExample2": "A humane on-call rotation ensures engineers are not scheduled for weekend shifts two weeks in a row.",
+    "taExample2": "மனிதாபிமானமுள்ள சுழற்சி முறை பணி பொறியாளர்கள் அடுத்தடுத்த வார இறுதி நாட்களில் பணியாற்றாமல் இருப்பதை உறுதி செய்கிறது."
   },
   {
     "id": 827,
@@ -593,6 +821,29 @@
     "antonyms": [
       "Arrogant",
       "Proud"
+    ],
+    "enExample2": "Despite inventing the widely used database engine, the lead architect remained remarkably humble and approachable.",
+    "taExample2": "பிரபலமான தரவுத்தளத்தை உருவாக்கிய போதிலும் முதன்மை வடிவமைப்பாளர் மிகவும் எளிமையாகவும் அணுகக்கூடியவராகவும் இருந்தார்."
+  },
+  {
+    "id": 3320,
+    "word": "Hunky-dory",
+    "pos": "Adjective",
+    "definition": "Spoken idiom meaning fine, satisfactory, or going smoothly without problems.",
+    "taWord": "எல்லாம் சரி/நன்றாக (Ellaam sari/nandraaga)",
+    "enExample": "Once the hotfix was deployed, system health metrics returned to hunky-dory status.",
+    "taExample": "ஹாட்ஃபிக்ஸ் பயன்படுத்தப்பட்டதும், கணினி சுகாதார அளவீடுகள் எல்லாம் சரி நிலைக்கு திரும்பின.",
+    "enExample2": "Everything is hunky-dory as long as the cloud automated backups run without error.",
+    "taExample2": "கிளவுட் தானியங்கி காப்புப்பிரதிகள் பிழையின்றி இயங்கும் வரை அனைத்தும் நன்றாக இருக்கும்.",
+    "synonyms": [
+      "satisfactory",
+      "fine",
+      "smooth-sailing"
+    ],
+    "antonyms": [
+      "troubled",
+      "disrupted",
+      "chaotic"
     ]
   },
   {
@@ -610,7 +861,9 @@
     "antonyms": [
       "Pure",
       "Homogeneous"
-    ]
+    ],
+    "enExample2": "A hybrid cloud setup combines on-premise secure hardware with elastic public cloud compute nodes.",
+    "taExample2": "ஒரு கலப்பு (Hybrid) கிளவுட் அமைப்பு உள்ளக பாதுகாப்பான வன்பொருளை பொது கிளவுட் சேவையகங்களுடன் இணைக்கிறது."
   },
   {
     "id": 813,
@@ -628,7 +881,9 @@
       "Plain text",
       "Dead end",
       "Unlinked orphan"
-    ]
+    ],
+    "enExample2": "Clicking the documentation hyperlink opens the corresponding OpenAPI endpoint schema in a new tab.",
+    "taExample2": "ஆவண ஹைப்பர்லிங்கை (Hyperlink) கிளிக் செய்வது தொடர்புடைய API திட்டத்தை புதிய தாவலில் திறக்கிறது."
   },
   {
     "id": 814,
@@ -645,7 +900,9 @@
     "antonyms": [
       "Fact",
       "Certainty"
-    ]
+    ],
+    "enExample2": "Our performance hypothesis was validated when adding an in-memory Redis cache reduced latency by 80%.",
+    "taExample2": "நினைவக தற்காலிக சேமிப்பைச் சேர்த்தது தாமதத்தை 80% குறைத்த போது எங்கள் செயல்திறன் கருதுகோள் நிரூபிக்கப்பட்டது."
   },
   {
     "id": 828,
@@ -662,6 +919,8 @@
     "antonyms": [
       "Actual",
       "Real"
-    ]
+    ],
+    "enExample2": "The disaster simulation tested hypothetical scenarios where two major cloud datacenters fail simultaneously.",
+    "taExample2": "பேரழிவு உருவகப்படுத்துதல் இரண்டு முக்கிய தரவு மையங்கள் ஒரே நேரத்தில் செயலிழக்கும் கற்பனையான காட்சிகளை சோதித்தது."
   }
 ]

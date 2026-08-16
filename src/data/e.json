@@ -18,6 +18,49 @@
       "Squander",
       "Divert",
       "Misappropriate"
+    ],
+    "enExample2": "The engineering VP decided to earmark 20% of engineering sprint capacity exclusively for technical debt reduction.",
+    "taExample2": "பொறியியல் துணைத் தலைவர் தொழில்நுட்பக் கடனைக் குறைப்பதற்காக ஸ்பிரிண்ட் திறனில் 20%-ஐ பிரத்யேகமாக ஒதுக்கீடு செய்தார்."
+  },
+  {
+    "id": 3347,
+    "word": "ecclesia",
+    "pos": "noun",
+    "definition": "A political assembly of citizens or, in Christian theology, the universal body of believers.",
+    "taWord": "சபை (மக்கள் கூட்டம்)",
+    "enExample": "The open source developer community operates like a digital ecclesia, governing collective software standards.",
+    "taExample": "ஓபன் சோர்ஸ் மென்பொருள் சமுதாயம் ஒரு டிஜிட்டல் சபையைப் போல செயல்பட்டு பொதுவான தரநிலைகளை நிர்வகிக்கிறது.",
+    "enExample2": "Biblical scholars study how the early New Testament ecclesia gathered in homes for prayer and communion.",
+    "taExample2": "ஆரம்பகால புதிய ஏற்பாட்டு சபை எவ்வாறு ஜெபத்திற்காகவும் கூட்டுறவுக்காகவும் வீடுகளில் கூடியது என்பதை அறிஞர்கள் ஆராய்கின்றனர்.",
+    "synonyms": [
+      "assembly",
+      "congregation",
+      "gathering",
+      "fellowship"
+    ],
+    "antonyms": [
+      "dispersion",
+      "isolation"
+    ]
+  },
+  {
+    "id": 3348,
+    "word": "echochamber",
+    "pos": "noun",
+    "definition": "An environment where beliefs are amplified by communication inside a closed system.",
+    "taWord": "ஒத்த கருத்து அலைவரிசை (மூடிய குழு)",
+    "enExample": "Relying strictly on internal team feedback can create an echochamber that masks product usability flaws.",
+    "taExample": "உள் குழுவின் பின்னூட்டங்களை மட்டுமே நம்பியிருப்பது பயன்பாட்டுக் குறைபாடுகளை மறைக்கும் மூடிய குழு சூழலை உருவாக்கும்.",
+    "enExample2": "Social media algorithms tend to trap users inside political echochambers that reinforce personal bias.",
+    "taExample2": "சமூக ஊடக அல்காரிதம்கள் பயனர்களை அவர்களின் சொந்த எண்ணங்களை மட்டுமே பிரதிபலிக்கும் அரசியல்குழுக்களுக்குள் சிறைபிடிக்கின்றன.",
+    "synonyms": [
+      "bubble",
+      "closed loop",
+      "confirmation bias trap"
+    ],
+    "antonyms": [
+      "diverse forum",
+      "open dialogue"
     ]
   },
   {
@@ -36,7 +79,9 @@
     "antonyms": [
       "Narrow",
       "Dogmatic"
-    ]
+    ],
+    "enExample2": "The platform's frontend stack uses an eclectic combination of WebAssembly, WebGL, and React components.",
+    "taExample2": "தளத்தின் முன்னணி கட்டமைப்பு WebAssembly, WebGL மற்றும் React கூறுகளின் பல்துறை கலவையைப் பயன்படுத்துகிறது."
   },
   {
     "id": 501,
@@ -55,6 +100,30 @@
       "Vacuum",
       "Silo",
       "Standalone entity"
+    ],
+    "enExample2": "The robust open-source ecosystem around Kubernetes makes deploying containerized applications straightforward.",
+    "taExample2": "குபெர்னெட்டீஸைச் சுற்றியுள்ள வலுவான திறந்த மூல சூழல் கொள்கலன் பயன்பாடுகளை நிறுவுவதை எளிதாக்குகிறது."
+  },
+  {
+    "id": 3349,
+    "word": "ecumenical",
+    "pos": "adjective",
+    "definition": "Representing or promoting unity among different Christian churches or diverse global groups.",
+    "taWord": "சர்வலோக (ஒன்றிணைந்த சபை சார்ந்த)",
+    "enExample": "The cloud foundation adopted an ecumenical posture, welcoming contributions across Linux, Windows, and macOS.",
+    "taExample": "கிளவுட் அமைப்பானது அனைத்து இயக்க முறைமைகளின் பங்களிப்புகளையும் வரவேற்கும் பரந்த மனப்பான்மையைக் கொண்டிருந்தது.",
+    "enExample2": "Leaders from various denominations gathered for an ecumenical prayer breakfast in downtown London.",
+    "taExample2": "வெவ்வேறு பிரிவுகளைச் சேர்ந்த தலைவர்கள் லண்டனில் நடைபெற்ற சர்வலோக ஜெபக் கூட்டத்திற்காக ஒன்றுகூடினர்.",
+    "synonyms": [
+      "universal",
+      "inclusive",
+      "all-embracing",
+      "unifying"
+    ],
+    "antonyms": [
+      "denominational",
+      "sectarian",
+      "exclusive"
     ]
   },
   {
@@ -72,6 +141,30 @@
     "antonyms": [
       "Center",
       "Core"
+    ],
+    "enExample2": "Deploying serverless functions at the network edge minimizes roundtrip latency for international users.",
+    "taExample2": "நெட்வொர்க் விளிம்பில் (Edge) சர்வர்லெஸ் சேவைகளை இயக்குவது உலகளாவிய பயனர்களுக்கான தாமதத்தை மிகக் குறைக்கிறது."
+  },
+  {
+    "id": 3254,
+    "word": "Edification",
+    "pos": "Noun",
+    "definition": "The instruction, moral uplifting, or intellectual improvement of a person or community.",
+    "taWord": "பக்திவிருத்தி/முன்னேற்றம் (Bhakthiviruthi/munnetram)",
+    "enExample": "Code reviews should focus on constructive feedback for the developer's growth and edification.",
+    "taExample": "குறியீட்டு மதிப்பாய்வுகள் டெவலப்பரின் வளர்ச்சி மற்றும் முன்னேற்றத்திற்கான ஆக்கபூர்வமான கருத்துக்களில் கவனம் செலுத்த வேண்டும்.",
+    "enExample2": "Fellowship meetings aim for the spiritual edification and encouragement of all members.",
+    "taExample2": "தோழமைக் கூட்டங்கள் அனைத்து உறுப்பினர்களின் ஆன்மீக பக்திவிருத்தி மற்றும் ஊக்குவிப்பை நோக்கமாகக் கொண்டுள்ளன.",
+    "synonyms": [
+      "upliftment",
+      "enlightenment",
+      "instruction",
+      "improvement"
+    ],
+    "antonyms": [
+      "degradation",
+      "corruption",
+      "demoralization"
     ]
   },
   {
@@ -89,7 +182,9 @@
     "antonyms": [
       "Ineffective",
       "Useless"
-    ]
+    ],
+    "enExample2": "Rate limiting is an effective mitigation strategy against automated credential-stuffing attacks.",
+    "taExample2": "கோரிக்கை வரம்பு (Rate Limiting) என்பது கடவுச்சொல் திருட்டுத் தாக்குதல்களுக்கு எதிரான ஒரு பயனுள்ள பாதுகாப்பு உத்தியாகும்."
   },
   {
     "id": 3020,
@@ -110,7 +205,9 @@
       "Ineffectiveness",
       "Inefficacy",
       "Impotence"
-    ]
+    ],
+    "enExample2": "We ran automated A/B tests to measure the real-world efficacy of the new search ranking algorithm.",
+    "taExample2": "புதிய தேடல் வரிசைப்படுத்தல் வழிமுறையின் நிஜ உலக செயல்திறனை அளவிட தானியங்கி A/B சோதனைகளை நடத்தினோம்."
   },
   {
     "id": 503,
@@ -127,7 +224,9 @@
     "antonyms": [
       "Inefficiency",
       "Wastefulness"
-    ]
+    ],
+    "enExample2": "Switching from JSON to binary serialization significantly improved the network efficiency of our RPC protocol.",
+    "taExample2": "JSON-லிருந்து பைனரி வடிவத்திற்கு மாறியது எங்கள் RPC நெறிமுறையின் நெட்வொர்க் செயல்திறனை கணிசமாக மேம்படுத்தியது."
   },
   {
     "id": 530,
@@ -144,7 +243,9 @@
     "antonyms": [
       "Simplify",
       "Summarize"
-    ]
+    ],
+    "enExample2": "The lead architect authored an elaborate design document outlining the next-generation billing engine.",
+    "taExample2": "அடுத்த தலைமுறை கட்டண இயந்திரத்தை விவரிக்கும் விரிவான வடிவமைப்பு ஆவணத்தை முதன்மை வடிவமைப்பாளர் தயாரித்தார்."
   },
   {
     "id": 2664,
@@ -162,6 +263,28 @@
     "antonyms": [
       "Long dissertation",
       "Monologue"
+    ],
+    "enExample2": "The founder gave a concise elevator pitch summarizing how the platform reduces cloud infrastructure costs.",
+    "taExample2": "தளம் எவ்வாறு கிளவுட் செலவுகளைக் குறைக்கிறது என்பதை சுருக்கமாக விளக்கும் எளிய அறிமுகத்தை நிறுவனர் வழங்கினார்."
+  },
+  {
+    "id": 3217,
+    "word": "Elevator-pitch",
+    "pos": "Noun",
+    "definition": "A concise, persuasive summary explaining a software product, architecture, or business feature in under 60 seconds.",
+    "taWord": "சுருக்கமான அறிமுக உரை (Surukkamana arimuka urai)",
+    "enExample": "The lead developer gave a compelling elevator-pitch to convince executives to fund cloud migration.",
+    "taExample": "கிளவுட் இடப்பெயர்வுக்கு நிதியளிக்க நிர்வாகிகளை நம்பவைக்க முதன்மை டெவலப்பர் ஒரு ஈர்க்கக்கூடிய சுருக்கமான அறிமுக உரையை வழங்கினார்.",
+    "enExample2": "Every open-source repository readme should start with a clear, punchy elevator-pitch.",
+    "taExample2": "ஒவ்வொரு திறந்த மூல களஞ்சியத்தின் readme-யும் தெளிவான, சுருக்கமான அறிமுக உரையுடன் தொடங்க வேண்டும்.",
+    "synonyms": [
+      "brief summary",
+      "executive pitch",
+      "synopsis"
+    ],
+    "antonyms": [
+      "exposition",
+      "lengthy lecture"
     ]
   },
   {
@@ -178,7 +301,9 @@
     ],
     "antonyms": [
       "Suppress"
-    ]
+    ],
+    "enExample2": "User experience researchers conduct usability interviews to elicit authentic feedback on UI navigation.",
+    "taExample2": "பயனர் அனுபவ ஆய்வாளர்கள் திரைப் பயன்பாடு குறித்த உண்மையான கருத்துக்களைப் பெற நேர்காணல்களை நடத்துகின்றனர்."
   },
   {
     "id": 527,
@@ -195,7 +320,9 @@
     ],
     "antonyms": [
       "Inarticulate"
-    ]
+    ],
+    "enExample2": "She delivered an eloquent presentation articulating the long-term benefits of adopting micro-frontends.",
+    "taExample2": "மைக்ரோ-ஃப்ரண்ட்எண்ட்களை ஏற்றுக்கொள்வதன் நீண்டகால நன்மைகளை எடுத்துரைக்கும் ஒரு சிறந்த விளக்கவுரையை அவர் வழங்கினார்."
   },
   {
     "id": 2979,
@@ -217,7 +344,9 @@
       "Confuse",
       "Complicate",
       "Muddle"
-    ]
+    ],
+    "enExample2": "The technical documentation uses sequence diagrams to elucidate the complex OAuth 2.0 authentication flow.",
+    "taExample2": "தொழில்நுட்ப ஆவணம் சிக்கலான OAuth 2.0 அங்கீகார செயல்முறையை விளக்க வரைபடங்களைப் பயன்படுத்துகிறது."
   },
   {
     "id": 2860,
@@ -237,7 +366,9 @@
       "Free trade",
       "Commercial treaty",
       "Open market"
-    ]
+    ],
+    "enExample2": "Security researchers placed a 90-day embargo on the zero-day exploit to allow the vendor time to patch it.",
+    "taExample2": "பாதுகாப்பு ஆராய்ச்சியாளர்கள் நிறுவனம் பிழையை சரிசெய்ய அவகாசம் அளிக்கும் வகையில் 90 நாட்கள் தகவல் வெளியீட்டுத் தடையை விதித்தனர்."
   },
   {
     "id": 2778,
@@ -255,7 +386,9 @@
     "antonyms": [
       "Raw strings",
       "One-hot encodings"
-    ]
+    ],
+    "enExample2": "Vector embeddings represent text meaning in a multidimensional mathematical space for semantic search.",
+    "taExample2": "வெக்டர் உள்ளமைவுகள் சொற்பொருள் தேடலுக்காக உரையின் அர்த்தத்தை பல பரிமாண கணித வெளியில் குறிக்கின்றன."
   },
   {
     "id": 2859,
@@ -276,7 +409,9 @@
       "Integrity",
       "Accountability",
       "Honesty"
-    ]
+    ],
+    "enExample2": "Automated cryptographic audit logs were deployed to prevent internal embezzlement and unauthorized ledger modifications.",
+    "taExample2": "உள்நாட்டு நிதி கையாடல் மற்றும் அங்கீகரிக்கப்படாத மாற்றங்களைத் தடுக்க தானியங்கி தணிக்கைப் பதிவுகள் நிறுவப்பட்டன."
   },
   {
     "id": 2861,
@@ -297,7 +432,9 @@
       "Dishearten",
       "Intimidate",
       "Discourage"
-    ]
+    ],
+    "enExample2": "Passing all automated regression tests will embolden the engineering team to ship major updates more frequently.",
+    "taExample2": "அனைத்து தானியங்கி சோதனைகளிலும் வெற்றி பெறுவது முக்கிய மேம்பாடுகளை அடிக்கடி வெளியிட பொறியியல் குழுவிற்கு தைரியத்தை அளிக்கும்."
   },
   {
     "id": 531,
@@ -314,7 +451,9 @@
     "antonyms": [
       "Fading",
       "Declining"
-    ]
+    ],
+    "enExample2": "Quantum-resistant encryption is an emerging technical discipline within modern enterprise cybersecurity.",
+    "taExample2": "குவாண்டம் எதிர்ப்பு குறியாக்கம் என்பது நவீன நிறுவன சைபர் பாதுகாப்பில் வளர்ந்து வரும் ஒரு புதிய துறையாகும்."
   },
   {
     "id": 525,
@@ -331,7 +470,9 @@
     "antonyms": [
       "Absorb",
       "Contain"
-    ]
+    ],
+    "enExample2": "The IoT temperature sensor is configured to emit metric telemetry data every five seconds.",
+    "taExample2": "IoT வெப்பநிலை சென்சார் ஒவ்வொரு ஐந்து விநாடிகளுக்கும் அளவீட்டுத் தகவல்களை வெளியிடும் வகையில் கட்டமைக்கப்பட்டுள்ளது."
   },
   {
     "id": 532,
@@ -348,7 +489,9 @@
     "antonyms": [
       "Apathy",
       "Indifference"
-    ]
+    ],
+    "enExample2": "Designing accessible software requires deep empathy for users with diverse physical and visual abilities.",
+    "taExample2": "அனைவருக்கும் ஏற்ற மென்பொருளை வடிவமைப்பது பல்வேறு திறன்களைக் கொண்ட பயனர்கள் மீதான ஆழ்ந்த புரிதலைக் கோருகிறது."
   },
   {
     "id": 505,
@@ -365,7 +508,9 @@
     "antonyms": [
       "Theoretical",
       "Hypothetical"
-    ]
+    ],
+    "enExample2": "Rather than relying on intuition, the performance team collected empirical profiling metrics under simulated load.",
+    "taExample2": "வெறும் அனுமானங்களை நம்புவதற்குப் பதிலாக செயல்திறன் குழு உருவகப்படுத்தப்பட்ட சுமையின் கீழ் சோதனை அளவீடுகளைச் சேகரித்தது."
   },
   {
     "id": 506,
@@ -384,7 +529,9 @@
       "Halt",
       "Cease",
       "Reverse"
-    ]
+    ],
+    "enExample2": "Local development containers emulate production cloud services using lightweight mock adapters.",
+    "taExample2": "உள்ளூர் உருவாக்க கொள்கலன்கள் இலகுரக அடாப்டர்களைப் பயன்படுத்தி உற்பத்தி கிளவுட் சேவைகளைப் போலச் செயல்படுகின்றன."
   },
   {
     "id": 533,
@@ -401,7 +548,9 @@
     "antonyms": [
       "Disable",
       "Prevent"
-    ]
+    ],
+    "enExample2": "Feature flags allow product managers to dynamically enable experimental capabilities for select beta users.",
+    "taExample2": "ஃபீச்சர் ஃபிளாக்ஸ் (Feature Flags) குறிப்பிட்ட சோதனைப் பயனர்களுக்கு மட்டும் புதிய வசதிகளை இயக்க அனுமதிக்கின்றன."
   },
   {
     "id": 507,
@@ -418,7 +567,9 @@
     "antonyms": [
       "Expose",
       "Reveal"
-    ]
+    ],
+    "enExample2": "Custom React hooks encapsulate complex state logic and lifecycle subscriptions cleanly.",
+    "taExample2": "தனிப்பயன் ரியாக்ட் ஹூக்குகள் சிக்கலான நிலைத் தர்க்கத்தை நேர்த்தியாக தன்னுள் பொதிந்து (Encapsulate) வைக்கின்றன."
   },
   {
     "id": 508,
@@ -435,7 +586,9 @@
     "antonyms": [
       "Decode",
       "Decrypt"
-    ]
+    ],
+    "enExample2": "The media pipeline uses hardware acceleration to encode 4K video streams into optimized H.265 files.",
+    "taExample2": "ஊடக அமைப்பு 4K வீடியோக்களை உகந்த H.265 கோப்புகளாக குறியாக்கம் (Encode) செய்ய வன்பொருள் முடுக்கத்தைப் பயன்படுத்துகிறது."
   },
   {
     "id": 2711,
@@ -453,7 +606,9 @@
     "antonyms": [
       "Unit test",
       "Isolated test"
-    ]
+    ],
+    "enExample2": "Automated end-to-end browser tests verify the complete checkout journey from login to payment confirmation.",
+    "taExample2": "முழுமையான தானியங்கி உலாவி சோதனைகள் உள்நுழைவு முதல் கட்டண உறுதிப்படுத்தல் வரையிலான முழு செயல்முறையையும் சரிபார்க்கின்றன."
   },
   {
     "id": 3046,
@@ -474,7 +629,9 @@
       "Foreign",
       "Extraneous",
       "Rare"
-    ]
+    ],
+    "enExample2": "Technical debt became endemic across the legacy monolithic codebase due to years of rushed product deadlines.",
+    "taExample2": "பல ஆண்டுகளாக அவசர காலக்கெடு காரணமாக பழைய மென்பொருளில் தொழில்நுட்பக் கடன் எங்கும் பரவியுள்ள ஒரு பிரச்சனையாக மாறியது."
   },
   {
     "id": 3105,
@@ -496,7 +653,9 @@
       "Energize",
       "Strengthen",
       "Vitalize"
-    ]
+    ],
+    "enExample2": "Constant pager interruptions during the night enervate on-call engineers and lead to burnout.",
+    "taExample2": "இரவு நேரங்களில் வரும் தொடர் அவசர எச்சரிக்கைகள் பணியில் உள்ள பொறியாளர்களை சோர்வடையச் செய்து மன அழுத்தத்திற்கு வழிவகுக்கும்."
   },
   {
     "id": 509,
@@ -513,7 +672,9 @@
     "antonyms": [
       "Relax",
       "Waive"
-    ]
+    ],
+    "enExample2": "Automated linter rules enforce consistent code formatting across all project repositories.",
+    "taExample2": "தானியங்கி லின்டர் விதிகள் அனைத்து திட்டக் களஞ்சியங்களிலும் சீரான குறியீட்டு வடிவமைப்பை உறுதிப்படுத்துகின்றன."
   },
   {
     "id": 510,
@@ -530,6 +691,28 @@
     "antonyms": [
       "Degrade",
       "Diminish"
+    ],
+    "enExample2": "Adding GPU acceleration will significantly enhance model inference throughput for real-time applications.",
+    "taExample2": "GPU முடுக்கத்தைச் சேர்ப்பது நிகழ்நேர பயன்பாடுகளுக்கான மாதிரி செயலாக்க செயல்திறனை கணிசமாக மேம்படுத்தும்."
+  },
+  {
+    "id": 3298,
+    "word": "Enshittification",
+    "pos": "Noun",
+    "definition": "The gradual degradation in quality and user experience of a digital platform over time for monetized gain.",
+    "taWord": "தரம் குறைதல் (Tharam kuraithal)",
+    "enExample": "Adding invasive pop-up ads to the search engine led critics to lament its enshittification.",
+    "taExample": "தேடுபொறியில் ஆக்கிரமிப்பு பாப்-அப் விளம்பரங்களைச் சேர்ப்பது விமர்சகர்களை அதன் தரம் குறைதலைப் புலம்ப வைத்தது.",
+    "enExample2": "Open-source alternatives gain popularity when commercial platforms suffer from enshittification.",
+    "taExample2": "வணிகத் தளங்கள் தரம் குறைதலால் அவதிப்படும்போது திறந்த மூல மாற்றுகள் பிரபலமடைகின்றன.",
+    "synonyms": [
+      "platform decay",
+      "service degradation",
+      "monetization creep"
+    ],
+    "antonyms": [
+      "continuous improvement",
+      "user-centric refinement"
     ]
   },
   {
@@ -552,7 +735,9 @@
       "Preclude",
       "Eliminate",
       "Omit"
-    ]
+    ],
+    "enExample2": "Migrating from a relational SQL database to a distributed NoSQL cluster will entail significant query refactoring.",
+    "taExample2": "ரிலேஷனல் தரவுத்தளத்திலிருந்து NoSQL கிளஸ்டருக்கு மாறுவது பெரிய அளவிலான வினவல் மாற்றங்களை உள்ளடக்கும்."
   },
   {
     "id": 534,
@@ -569,7 +754,9 @@
     "antonyms": [
       "Apathy",
       "Boredom"
-    ]
+    ],
+    "enExample2": "The developer community greeted the new open-source UI framework with immense enthusiasm.",
+    "taExample2": "புதிய திறந்த மூல UI கட்டமைப்பை மென்பொருள் உருவாக்குநர் சமூகம் மிகுந்த உற்சாகத்துடன் வரவேற்றது."
   },
   {
     "id": 511,
@@ -588,7 +775,9 @@
       "Property",
       "Nonentity",
       "Abstract concept"
-    ]
+    ],
+    "enExample2": "In relational database design, each entity is represented by an individual table with defined columns.",
+    "taExample2": "ரிலேஷனல் தரவுத்தள வடிவமைப்பில் ஒவ்வொரு உருப்படியும் (Entity) வரையறுக்கப்பட்ட நெடுவரிசைகளைக் கொண்ட தனி அட்டவணையாகக் குறிக்கப்படுகிறது."
   },
   {
     "id": 512,
@@ -605,7 +794,9 @@
     "antonyms": [
       "Permanent",
       "Enduring"
-    ]
+    ],
+    "enExample2": "Kubernetes pods store temporary scratch data on ephemeral disks that are wiped upon pod termination.",
+    "taExample2": "குபெர்னெட்டீஸ் பாட்கள் தற்காலிகத் தரவை பாட் நிறுத்தப்படும் போது அழியக்கூடிய தற்காலிக சேமிப்பகத்தில் வைக்கின்றன."
   },
   {
     "id": 2685,
@@ -623,7 +814,9 @@
     "antonyms": [
       "Subtask",
       "Micro-bug"
-    ]
+    ],
+    "enExample2": "The migration of the billing engine was organized as a multi-month Jira epic spanning several squads.",
+    "taExample2": "கட்டண இயந்திர மாற்றம் பல குழுக்களை உள்ளடக்கிய பல மாத பெரிய திட்டப் பணியாக (Epic) ஒழுங்கமைக்கப்பட்டது."
   },
   {
     "id": 3081,
@@ -644,6 +837,48 @@
       "Confusion",
       "Obscurity",
       "Blindness"
+    ],
+    "enExample2": "After hours of profiling memory, the developer had an epiphany and identified the unclosed stream socket.",
+    "taExample2": "நினைவகத்தை பல மணி நேரம் ஆய்வு செய்த பிறகு, மூடப்படாத சாக்கெட்டைக் கண்டறிந்த அந்த கணத்தில் அவருக்கு திடீர் தெளிவு பிறந்தது."
+  },
+  {
+    "id": 3350,
+    "word": "epistemology",
+    "pos": "noun",
+    "definition": "The branch of philosophy concerned with the nature, origin, and limits of human knowledge.",
+    "taWord": "அறிவாராய்ச்சி இயல் (அறிவுக்கோட்பாடு)",
+    "enExample": "Debugging legacy software forces developers to question their epistemological assumptions about system state.",
+    "taExample": "பழைய மென்பொருளை சோதிப்பது கணினியின் இயக்கம் குறித்த பொறியாளர்களின் அறிவுசார் அனுமானங்களை கேள்விக்குள்ளாக்குகிறது.",
+    "enExample2": "The university lectures explored how modern social media impacts political epistemology and truth.",
+    "taExample2": "நவீன சமூக ஊடகங்கள் அரசியல் அறிவுக்கோட்பாட்டையும் உண்மையையும் எவ்வாறு பாதிக்கின்றன என்பதை பல்கலைக்கழக விரிவுரை ஆராய்ந்தது.",
+    "synonyms": [
+      "theory of knowledge",
+      "philosophy of mind",
+      "epistemic theory"
+    ],
+    "antonyms": [
+      "dogma",
+      "ignorance"
+    ]
+  },
+  {
+    "id": 3274,
+    "word": "Epistle",
+    "pos": "Noun",
+    "definition": "A formal instructive letter, particularly those written by apostles in the New Testament to early churches.",
+    "taWord": "நிருபம்/கடிதம் (Nirubam/kaditham)",
+    "enExample": "The tech lead sent an architectural epistle detailing our migration roadmap to all engineering teams.",
+    "taExample": "தொழில்நுட்பத் தலைவர் எங்கள் இடப்பெயர்வு வழிகாட்டியை விவரிக்கும் ஒரு கட்டிடக்கலை நிருபத்தை அனைத்து பொறியியல் குழுக்களுக்கும் அனுப்பினார்.",
+    "enExample2": "Apostolic epistles provide timeless counsel on church unity, faith, and ethical conduct.",
+    "taExample2": "அப்போஸ்தலர்களின் நிருபங்கள் திருச்சபை ஒற்றுமை, நம்பிக்கை மற்றும் நெறிமுறை நடத்தை பற்றிய காலமற்ற ஆலோசனைகளை வழங்குகின்றன.",
+    "synonyms": [
+      "missive",
+      "formal letter",
+      "communication"
+    ],
+    "antonyms": [
+      "verbal whisper",
+      "informal chat"
     ]
   },
   {
@@ -666,7 +901,9 @@
       "Anxiety",
       "Panic",
       "Excitability"
-    ]
+    ],
+    "enExample2": "The site reliability engineer handled the sudden production outage with impressive calmness and equanimity.",
+    "taExample2": "தள நம்பகத்தன்மை பொறியாளர் திடீர் உற்பத்தி முடக்கத்தை ஈர்க்கக்கூடிய மன அமைதியுடனும் நிதானத்துடனும் கையாண்டார்."
   },
   {
     "id": 535,
@@ -683,7 +920,9 @@
     "antonyms": [
       "Unfair",
       "Biased"
-    ]
+    ],
+    "enExample2": "The cloud load balancer distributes incoming client traffic in an equitable round-robin manner.",
+    "taExample2": "கிளவுட் லோட் பேலன்சர் உள்வரும் பயனர் போக்குவரத்தை அனைத்து சர்வர்களுக்கும் சமமான முறையில் பகிர்ந்து அளிக்கிறது."
   },
   {
     "id": 3106,
@@ -705,7 +944,9 @@
       "Clarify",
       "Directly state",
       "Affirm"
-    ]
+    ],
+    "enExample2": "When asked about the security breach, the vendor attempted to equivocate rather than giving straight answers.",
+    "taExample2": "பாதுகாப்பு மீறல் குறித்து கேட்கப்பட்டபோது, நிறுவனம் நேரடிப் பதில்களைத் தராமல் மழுப்பலாகப் பேச முயன்றது."
   },
   {
     "id": 2643,
@@ -723,7 +964,9 @@
     "antonyms": [
       "Instant",
       "Moment"
-    ]
+    ],
+    "enExample2": "The widespread adoption of large language models marks a transformative new era in software engineering.",
+    "taExample2": "AI மொழி மாதிரிகளின் பரவலான பயன்பாடு மென்பொருள் பொறியியலில் ஒரு மாற்றத்தக்க புதிய சகாப்தத்தைக் குறிக்கிறது."
   },
   {
     "id": 513,
@@ -740,7 +983,9 @@
     "antonyms": [
       "Correct",
       "Accurate"
-    ]
+    ],
+    "enExample2": "An erroneous regular expression caused the input validator to reject valid international email addresses.",
+    "taExample2": "ஒரு தவறான ரெஜெக்ஸ் குறியீடு செல்லுபடியாகும் சர்வதேச மின்னஞ்சல் முகவரிகளை நிராகரிக்க வழிவகுத்தது."
   },
   {
     "id": 2780,
@@ -758,7 +1003,9 @@
     "antonyms": [
       "Zero error allowance",
       "Unmonitored downtime"
-    ]
+    ],
+    "enExample2": "The team paused new feature releases until their depleted monthly reliability error budget recovered.",
+    "taExample2": "மாதாந்திர நம்பகத்தன்மை பிழை வரம்பு மீட்கப்படும் வரை குழு புதிய அம்ச வெளியீடுகளை தற்காலிகமாக நிறுத்தியது."
   },
   {
     "id": 3032,
@@ -779,7 +1026,9 @@
       "Ignorant",
       "Uneducated",
       "Illiterate"
-    ]
+    ],
+    "enExample2": "The research paper presented an erudite analysis of consensus algorithms in distributed networks.",
+    "taExample2": "அந்த ஆய்வுக் கட்டுரை விநியோகிக்கப்பட்ட அமைப்புகளின் ஒருமித்த வழிமுறைகள் பற்றிய ஆழ்ந்த மற்றும் புலமைமிக்க ஆய்வை வழங்கியது."
   },
   {
     "id": 514,
@@ -796,7 +1045,9 @@
     "antonyms": [
       "Decrease",
       "De-escalate"
-    ]
+    ],
+    "enExample2": "If the initial restart fails, the monitoring script will escalate the alert to the on-call engineer.",
+    "taExample2": "முதல் மறுதொடக்கம் தோல்வியடைந்தால் கண்காணிப்பு ஸ்கிரிப்ட் எச்சரிக்கையை பணியில் உள்ள மூத்த பொறியாளருக்கு அனுப்பும்."
   },
   {
     "id": 2862,
@@ -817,6 +1068,27 @@
       "Reduction",
       "Cooling-off",
       "Abatement"
+    ],
+    "enExample2": "Clear incident escalation paths ensure that critical production bugs reach senior architects immediately.",
+    "taExample2": "தெளிவான தீவிரப்படுத்தும் நடைமுறைகள் முக்கியமான பிழைகள் உடனடியாக மூத்த வடிவமைப்பாளர்களை அடைவதை உறுதி செய்கின்றன."
+  },
+  {
+    "id": 3269,
+    "word": "Eschatology",
+    "pos": "Noun",
+    "definition": "The branch of theology concerned with ultimate outcomes, final events, or systemic end-states.",
+    "taWord": "இறுதிநாட்களியல் (Iruthinaatkalaiyal)",
+    "enExample": "System deprecation planning resembles software eschatology—preparing for the ultimate retirement of legacy systems.",
+    "taExample": "கணினி பணிநிறுத்தல் திட்டமிடல் மென்பொருள் இறுதிநாட்களியலை ஒத்திருக்கிறது-பழைய அமைப்புகளின் இறுதி ஓய்வுக்கு தயாராகிறது.",
+    "enExample2": "Eschatology explores biblical prophecies regarding the culmination of human history.",
+    "taExample2": "இறுதிநாட்களியல் மனித வரலாற்றின் உச்சம் பற்றிய பைபிள் தீர்க்கதரிசனங்களை ஆராய்கிறது.",
+    "synonyms": [
+      "doctrine of last things",
+      "end-times theology"
+    ],
+    "antonyms": [
+      "genesis",
+      "creation theology"
     ]
   },
   {
@@ -835,7 +1107,9 @@
     "antonyms": [
       "Common",
       "Familiar"
-    ]
+    ],
+    "enExample2": "The codebase contained esoteric bitwise operations that only the original library author understood.",
+    "taExample2": "அந்த குறியீட்டில் மூல நூலகத்தை எழுதியவருக்கு மட்டுமே புரியக்கூடிய மிகச் சிலருக்கே தெரிந்த பிட் செயல்பாடுகள் இருந்தன."
   },
   {
     "id": 536,
@@ -852,6 +1126,29 @@
     "antonyms": [
       "Optional",
       "Superfluous"
+    ],
+    "enExample2": "Proper input sanitization is essential for preventing dangerous SQL injection and XSS exploits.",
+    "taExample2": "ஆபத்தான SQL ஊடுருவல் மற்றும் XSS தாக்குதல்களைத் தடுக்க முறையான பயனர் உள்ளீட்டுத் தூய்மைப்படுத்தல் மிக அவசியமாகும்."
+  },
+  {
+    "id": 3351,
+    "word": "ethos",
+    "pos": "noun",
+    "definition": "The characteristic spirit, beliefs, or culture of a community, team, or era.",
+    "taWord": "குழுப் பண்பாடு (அடிப்படை தர்மம்)",
+    "enExample": "Blameless post-mortems are central to the operational ethos of high-performing engineering organizations.",
+    "taExample": "யாரையும் பழிக்காத தவறு ஆய்வுக் கூட்டங்கள் சிறந்த பொறியியல் நிறுவனங்களின் முக்கிய பண்பாடாக விளங்குகின்றன.",
+    "enExample2": "The charity operated on a faith-based ethos dedicated to serving vulnerable urban communities.",
+    "taExample2": "இந்த தொண்டு நிறுவனம் எளிய நகர்ப்புற மக்களுக்கு சேவை செய்வதை நோக்கமாகக் கொண்ட விசுவாசப் பண்பாட்டில் இயங்கியது.",
+    "synonyms": [
+      "spirit",
+      "character",
+      "tenets",
+      "culture"
+    ],
+    "antonyms": [
+      "immorality",
+      "apathy"
     ]
   },
   {
@@ -872,7 +1169,9 @@
       "Dysphemism",
       "Blunt truth",
       "Harsh expression"
-    ]
+    ],
+    "enExample2": "The press release used the euphemism 'streamlining operations' to announce widespread engineering layoffs.",
+    "taExample2": "பத்திரிகைக் குறிப்பு பொறியியல் ஆட்குறைப்பை அறிவிக்க 'செயல்பாடுகளை நெறிப்படுத்துதல்' என்ற மறைமுக மென்சொல்லைப் பயன்படுத்தியது."
   },
   {
     "id": 515,
@@ -888,7 +1187,9 @@
     ],
     "antonyms": [
       "Ignore"
-    ]
+    ],
+    "enExample2": "The architecture review board meets weekly to evaluate the security and scalability of proposed designs.",
+    "taExample2": "முன்மொழியப்பட்ட வடிவமைப்புகளின் பாதுகாப்பு மற்றும் அளவிடுதலை மதிப்பிட கட்டட மறுஆய்வு வாரியம் வாரந்தோறும் கூடுகிறது."
   },
   {
     "id": 3091,
@@ -910,6 +1211,29 @@
       "Enduring",
       "Lasting",
       "Everlasting"
+    ],
+    "enExample2": "Microsecond network glitches are evanescent events that can be exceedingly difficult to reproduce in local tests.",
+    "taExample2": "மைக்ரோ விநாடி நெட்வொர்க் தடுமாற்றங்கள் மிக விரைவாக மறையக்கூடிய நிகழ்வுகள் என்பதால் சோதனைகளில் அவற்றை மீண்டும் உருவாக்குவது கடினம்."
+  },
+  {
+    "id": 3352,
+    "word": "evangelism",
+    "pos": "noun",
+    "definition": "The zealous advocacy of a cause, technology, or gospel message.",
+    "taWord": "சுவிசேஷப் பணி (கொள்கைப் பரப்புரை)",
+    "enExample": "The Developer Relations team leads technology evangelism to showcase the new cloud SDK.",
+    "taExample": "டெவலப்பர் தொடர்பு குழு புதிய கிளவுட் எஸ்டிகே கருவிகளைப் பிரச்சாரம் செய்யும் தொழில்முறைப் பணியை முன்னெடுக்கிறது.",
+    "enExample2": "Church members participated in personal evangelism during their weekend neighborhood outreach.",
+    "taExample2": "திருச்சபை உறுப்பினர்கள் தங்கள் வார இறுதி சமூக நலப்பணியின் போது தனிநபர் சுவிசேஷப் பணியில் ஈடுபட்டனர்.",
+    "synonyms": [
+      "advocacy",
+      "proselytizing",
+      "promotion",
+      "preaching"
+    ],
+    "antonyms": [
+      "discouragement",
+      "suppression"
     ]
   },
   {
@@ -927,7 +1251,9 @@
     "antonyms": [
       "Linearizable consistency",
       "Strict ACID serializability"
-    ]
+    ],
+    "enExample2": "Globally distributed NoSQL databases rely on eventual consistency to achieve low-latency read performance.",
+    "taExample2": "உலகளவில் விநியோகிக்கப்பட்ட NoSQL தரவுத்தளங்கள் குறைந்த தாமதத்தில் படிக்க முடிவதை உறுதி செய்ய படிப்படியான நிலைத்தன்மையை நம்பியுள்ளன."
   },
   {
     "id": 516,
@@ -944,7 +1270,9 @@
     "antonyms": [
       "Admit",
       "Keep"
-    ]
+    ],
+    "enExample2": "When memory limits are reached, the cache algorithm will evict the least recently accessed keys.",
+    "taExample2": "நினைவக வரம்பை எட்டும் போது தற்காலிக சேமிப்பக வழிமுறை மிகக் குறைந்த அளவில் பயன்படுத்தப்பட்ட விசைகளை வெளியேற்றும்."
   },
   {
     "id": 537,
@@ -963,7 +1291,9 @@
       "Speculation",
       "Rumor",
       "Assumption"
-    ]
+    ],
+    "enExample2": "Log files provided indisputable empirical evidence that the crash was triggered by an out-of-bounds array access.",
+    "taExample2": "வரம்பை மீறிய வரிசை அணுகலால் தான் செயலிழப்பு ஏற்பட்டது என்பதற்கான மறுக்க முடியாத ஆதாரங்களை பதிவு கோப்புகள் அளித்தன."
   },
   {
     "id": 2863,
@@ -984,7 +1314,9 @@
       "Mitigate",
       "Soothe",
       "Ameliorate"
-    ]
+    ],
+    "enExample2": "Aggressive client retry loops without exponential backoff will only exacerbate server overload during an outage.",
+    "taExample2": "கால இடைவெளியற்ற தொடர் மறுமுயற்சிகள் சேவையக சுமையை மேலும் தீவிரப்படுத்தும்."
   },
   {
     "id": 517,
@@ -1001,7 +1333,9 @@
     "antonyms": [
       "Shared",
       "Inclusive"
-    ]
+    ],
+    "enExample2": "The database transaction acquired an exclusive lock on the account record before transferring balance funds.",
+    "taExample2": "நிதிப் பரிமாற்றத்திற்கு முன் தரவுத்தளமானது கணக்குப் பதிவேட்டில் பிரத்யேக தனி உரிமையைப் பெற்றது."
   },
   {
     "id": 3108,
@@ -1023,6 +1357,29 @@
       "Blame",
       "Condemn",
       "Culpate"
+    ],
+    "enExample2": "The detailed audit traces served to exculpate the engineering team from allegations of deliberate data tampering.",
+    "taExample2": "விரிவான தணிக்கைப் பதிவுகள் தரவை வேண்டுமென்றே மாற்றிய குற்றச்சாட்டிலிருந்து பொறியியல் குழுவை விடுவிக்க உதவியது."
+  },
+  {
+    "id": 3255,
+    "word": "Exegesis",
+    "pos": "Noun",
+    "definition": "Critical explanation, deep analytical study, or systematic interpretation of a text or specification.",
+    "taWord": "வேத ஆராய்ச்சி/விளக்கம் (Vetha aaraaichi/vilakkam)",
+    "enExample": "Thorough code exegesis revealed subtle race conditions in the legacy multithreaded module.",
+    "taExample": "முழுமையான குறியீட்டு ஆராய்ச்சி பழைய பல இழைத் தொகுதியில் நுட்பமான ரேஸ் நிலைமைகளை வெளிப்படுத்தியது.",
+    "enExample2": "Biblical exegesis requires understanding historical context and original linguistic nuance.",
+    "taExample2": "பைபிள் ஆராய்ச்சிக்கு வரலாற்று சூழல் மற்றும் அசல் மொழியியல் நுணுக்கங்களைப் புரிந்துகொள்வது தேவைப்படுகிறது.",
+    "synonyms": [
+      "interpretation",
+      "exposition",
+      "analysis",
+      "explanation"
+    ],
+    "antonyms": [
+      "eisegesis",
+      "misinterpretation"
     ]
   },
   {
@@ -1040,7 +1397,9 @@
     "antonyms": [
       "Poor",
       "Inadequate"
-    ]
+    ],
+    "enExample2": "Her exemplary refactoring of the payment service reduced code complexity while maintaining 100% test coverage.",
+    "taExample2": "கட்டண சேவையை அவர் மிகச் சிறந்த முறையில் மறுசீரமைத்தது குறியீட்டு சிக்கலைக் குறைத்து சோதனைகளை முழுமையாக்கியது."
   },
   {
     "id": 518,
@@ -1057,6 +1416,29 @@
     "antonyms": [
       "Incomplete",
       "Superficial"
+    ],
+    "enExample2": "The quality assurance team conducted an exhaustive battery of load tests before certifying the release candidate.",
+    "taExample2": "தரக்கட்டுப்பாட்டுக் குழு வெளியீட்டை உறுதிப்படுத்துவதற்கு முன் முழுமையான தீவிர சுமை சோதனைகளை நடத்தியது."
+  },
+  {
+    "id": 3256,
+    "word": "Exhortation",
+    "pos": "Noun",
+    "definition": "An earnest message or communication passionately encouraging people to uphold integrity and faith.",
+    "taWord": "அறிவுரை/விழிப்புரை (Arivurai/vizhippurai)",
+    "enExample": "The tech lead's exhortation inspired the team to maintain high security standards during crunch time.",
+    "taExample": "தொழில்நுட்ப தலைவரின் விழிப்புரை நெருக்கடியான நேரத்தில் உயர் பாதுகாப்புத் தரங்களைப் பராமரிக்க குழுவை ஊக்கப்படுத்தியது.",
+    "enExample2": "The pastor offered a passionate exhortation on perseverance during times of trial.",
+    "taExample2": "போதகர் சோதனைகளின் போது விடாமுயற்சி குறித்த உணர்ச்சிமிக்க விழிப்புரையை வழங்கினார்.",
+    "synonyms": [
+      "encouragement",
+      "urging",
+      "admonition",
+      "appeal"
+    ],
+    "antonyms": [
+      "discouragement",
+      "deterrent"
     ]
   },
   {
@@ -1078,7 +1460,9 @@
       "Convict",
       "Incriminate",
       "Condemn"
-    ]
+    ],
+    "enExample2": "The network packet capture logs helped exonerate the application code by proving the ISP dropped traffic.",
+    "taExample2": "இணைய சேவை நிறுவனமே இணைப்பைத் துண்டித்தது என்பதை நிரூபித்து மென்பொருள் குறியீட்டை பதிவு கோப்புகள் விடுவித்தன."
   },
   {
     "id": 2997,
@@ -1099,7 +1483,9 @@
       "Inexpedient",
       "Impractical",
       "Disadvantageous"
-    ]
+    ],
+    "enExample2": "While using an in-memory mock was expedient for the prototype, production required a robust PostgreSQL database.",
+    "taExample2": "முன்மாதிரிக்கு தற்காலிக நினைவகத்தைப் பயன்படுத்துவது எளிதாக இருந்தபோதிலும் உற்பத்திக்கு வலுவான தரவுத்தளம் தேவைப்பட்டது."
   },
   {
     "id": 2990,
@@ -1121,7 +1507,9 @@
       "Hinder",
       "Impede",
       "Retard"
-    ]
+    ],
+    "enExample2": "The team added extra compute nodes to expedite the training of the neural network model.",
+    "taExample2": "நியூரல் நெட்வொர்க் மாதிரிப் பயிற்சியை விரைவுபடுத்துவதற்காக குழு கூடுதல் கணினி சர்வர்களைச் சேர்த்தது."
   },
   {
     "id": 2976,
@@ -1143,7 +1531,9 @@
       "Complicate",
       "Confuse",
       "Conceal"
-    ]
+    ],
+    "enExample2": "The author wrote an extensive blog post to explicate the mathematical principles behind vector search indexing.",
+    "taExample2": "வெக்டர் தேடல் குறியீட்டின் பின்னணியில் உள்ள கணிதக் கொள்கைகளை விளக்க ஆசிரியர் விரிவான வலைப்பதிவை எழுதினார்."
   },
   {
     "id": 519,
@@ -1160,7 +1550,9 @@
     "antonyms": [
       "Implicit",
       "Vague"
-    ]
+    ],
+    "enExample2": "TypeScript requires explicit type annotations when compiler inference cannot resolve ambiguous object shapes.",
+    "taExample2": "தெளிவற்ற தரவு அமைப்புகளை தொகுப்பியால் தீர்மானிக்க முடியாத போது TypeScript நேரடி வகை வரையறைகளைக் கோருகிறது."
   },
   {
     "id": 520,
@@ -1177,7 +1569,9 @@
     "antonyms": [
       "Protect",
       "Defend"
-    ]
+    ],
+    "enExample2": "The white-hat security researcher discovered an unpatched exploit in the legacy session management handler.",
+    "taExample2": "பாதுகாப்பு ஆய்வாளர் பழைய அமர்வு மேலாளரில் சரிசெய்யப்படாத ஒரு பாதுகாப்பு ஓட்டையைக் கண்டறிந்தார்."
   },
   {
     "id": 2716,
@@ -1195,7 +1589,9 @@
     "antonyms": [
       "Scripted testing",
       "Automated regression"
-    ]
+    ],
+    "enExample2": "Experienced QA engineers perform exploratory testing to uncover subtle usability bugs that scripted suites miss.",
+    "taExample2": "அனுபவம் வாய்ந்த சோதனையாளர்கள் தானியங்கி சோதனைகளில் விடுபடும் நுட்பமான பயன்பாட்டு பிழைகளைக் கண்டறிய ஆய்வு சோதனைகளை நடத்துகின்றனர்."
   },
   {
     "id": 521,
@@ -1212,7 +1608,9 @@
     "antonyms": [
       "Linear",
       "Gradual"
-    ]
+    ],
+    "enExample2": "The application experienced exponential user growth following its showcase on the primary tech news portal.",
+    "taExample2": "முக்கிய தொழில்நுட்ப செய்தி போர்ட்டலில் அறிமுகப்படுத்தப்பட்டதைத் தொடர்ந்து இந்த பயன்பாடு அபரிமிதமான பயனர் வளர்ச்சியைப் பெற்றது."
   },
   {
     "id": 3061,
@@ -1234,7 +1632,9 @@
       "Summarize",
       "Conceal",
       "Mystify"
-    ]
+    ],
+    "enExample2": "The keynote speaker took the stage to expound on the future of autonomous agentic AI in software development.",
+    "taExample2": "மென்பொருள் உருவாக்கத்தில் தன்னாட்சி AI-இன் எதிர்காலம் குறித்து விரிவாக எடுத்துரைக்க முதன்மை பேச்சாளர் மேடை ஏறினார்."
   },
   {
     "id": 522,
@@ -1251,7 +1651,9 @@
     "antonyms": [
       "Rigid",
       "Fixed"
-    ]
+    ],
+    "enExample2": "A clean plugin architecture makes the text editor easily extensible with custom themes and syntax highlighters.",
+    "taExample2": "நேர்த்தியான செருகுநிரல் கட்டமைப்பு இந்த உரைத் தொகுப்பியை தனிப்பயன் தோற்றங்கள் மற்றும் குறியீட்டு சிறப்பம்சங்களுடன் எளிதில் விரிவாக்கக்கூடியதாக மாற்றுகிறது."
   },
   {
     "id": 523,
@@ -1268,7 +1670,9 @@
     "antonyms": [
       "Insert",
       "Inject"
-    ]
+    ],
+    "enExample2": "The ETL pipeline extracts raw event records from cloud storage before transforming them into analytical tables.",
+    "taExample2": "பகுப்பாய்வு அட்டவணைகளாக மாற்றுவதற்கு முன் ETL குழாய் கிளவுட் சேமிப்பகத்திலிருந்து மூல நிகழ்வுப் பதிவுகளைப் பிரித்தெடுக்கிறது."
   },
   {
     "id": 2865,
@@ -1287,7 +1691,9 @@
       "Political asylum",
       "Safe harbor",
       "Refuge"
-    ]
+    ],
+    "enExample2": "The cross-border cybercrime suspect was subject to an international extradition treaty between the two nations.",
+    "taExample2": "சர்வதேச குற்றவாளி இரு நாடுகளுக்கிடையேயான குற்றவாளிகள் ஒப்படைப்பு ஒப்பந்தத்திற்கு உட்படுத்தப்பட்டார்."
   },
   {
     "id": 524,
@@ -1304,7 +1710,9 @@
     "antonyms": [
       "Relevant",
       "Essential"
-    ]
+    ],
+    "enExample2": "Tree-shaking during the production build removes extraneous unused exports to keep JavaScript bundles tiny.",
+    "taExample2": "உற்பத்தி உருவாக்கத்தின் போது தேவையற்ற பயன்படுத்தப்படாத குறியீடுகளை நீக்குவது ஜாவாஸ்கிரிப்ட் கோப்புகளை மிகச் சிறியதாக வைத்திருக்கிறது."
   },
   {
     "id": 2970,
@@ -1325,7 +1733,9 @@
       "Interpolate",
       "Ignore",
       "Underestimate"
-    ]
+    ],
+    "enExample2": "We can extrapolate future server capacity requirements from the current monthly active user growth trajectory.",
+    "taExample2": "தற்போதைய மாதாந்திர பயனர் வளர்ச்சிப் பாதையிலிருந்து எதிர்கால சர்வர் சேமிப்புத் தேவைகளை நாம் முன்கூட்டியே கணிக்க முடியும்."
   },
   {
     "id": 3043,
@@ -1347,6 +1757,8 @@
       "Inherent",
       "Internal",
       "Innate"
-    ]
+    ],
+    "enExample2": "While bonuses provide extrinsic motivation, engineers thrive most when driven by intrinsic autonomy and craftsmanship.",
+    "taExample2": "ஊக்கத்தொகைகள் வெளிப்புற உந்துதலை அளித்தாலும் சுயாட்சியும் தொழில் நேர்த்தியுமே பொறியாளர்களை அதிகம் ஊக்குவிக்கின்றன."
   }
 ]

@@ -14,7 +14,9 @@
     ],
     "antonyms": [
       "Timeboxed batching"
-    ]
+    ],
+    "enExample2": "The infrastructure squad uses a Kanban board to visualize ongoing tasks and enforce work-in-progress limits.",
+    "taExample2": "உட்கட்டமைப்புக் குழு பணிகளை காட்சிப்படுத்தவும் நிலுவை வரம்புகளை அமல்படுத்தவும் கான்பன் (Kanban) பலகையைப் பயன்படுத்துகிறது."
   },
   {
     "id": 1116,
@@ -32,7 +34,9 @@
     "antonyms": [
       "Apathetic",
       "Reluctant"
-    ]
+    ],
+    "enExample2": "Junior engineers were keen to participate in the open-source hackathon to develop real-world coding experience.",
+    "taExample2": "நிஜ உலக குறியீட்டு அனுபவத்தைப் பெற திறந்த மூல போட்டியில் பங்கேற்க இளம் பொறியாளர்கள் மிகுந்த ஆர்வத்துடன் இருந்தனர்."
   },
   {
     "id": 2727,
@@ -50,7 +54,9 @@
     "antonyms": [
       "connection teardown",
       "ephemeral socket"
-    ]
+    ],
+    "enExample2": "Enabling HTTP Keep-Alive allows multiple client requests to reuse the same established TCP connection.",
+    "taExample2": "HTTP Keep-Alive-ஐ இயக்குவது பல கோரிக்கைகள் ஏற்கனவே நிறுவப்பட்ட அதே TCP இணைப்பை மீண்டும் பயன்படுத்த அனுமதிக்கிறது."
   },
   {
     "id": 1101,
@@ -67,7 +73,9 @@
     "antonyms": [
       "Userland",
       "Shell"
-    ]
+    ],
+    "enExample2": "The Linux kernel manages CPU scheduling, virtual memory allocation, and hardware device communication.",
+    "taExample2": "லினக்ஸ் கர்னல் (Kernel) செயலி திட்டமிடல், மெய்நிகர் நினைவக ஒதுக்கீடு மற்றும் வன்பொருள் தொடர்புகளை நிர்வகிக்கிறது."
   },
   {
     "id": 2726,
@@ -85,7 +93,9 @@
     "antonyms": [
       "user space",
       "application sandbox"
-    ]
+    ],
+    "enExample2": "Device drivers execute in privileged kernel space with direct unrestricted access to physical hardware registers.",
+    "taExample2": "சாதன இயக்கிகள் இயற்பியல் வன்பொருளை நேரடியாக அணுகும் சலுகை பெற்ற கர்னல் பகுதியில் (Kernel Space) இயங்குகின்றன."
   },
   {
     "id": 1102,
@@ -104,7 +114,9 @@
       "Barrier",
       "Obstacle",
       "Dead end"
-    ]
+    ],
+    "enExample2": "Redis uses the cache key to perform lightning-fast O(1) hash map lookups in memory.",
+    "taExample2": "நினைவகத்தில் மிக அதிவேகமாக தகவல்களைத் தேட Redis தற்காலிக சேமிப்பு விசையைப் (Key) பயன்படுத்துகிறது."
   },
   {
     "id": 2728,
@@ -122,7 +134,9 @@
     "antonyms": [
       "hardcoded secrets",
       "plaintext credentials"
-    ]
+    ],
+    "enExample2": "The cloud Key Management Service handles the automated rotation and secure storage of encryption master keys.",
+    "taExample2": "கிளவுட் விசை மேலாண்மை சேவை (KMS) குறியாக்க முதன்மை விசைகளின் தானியங்கி சுழற்சி மற்றும் பாதுகாப்பான சேமிப்பைக் கையாள்கிறது."
   },
   {
     "id": 1104,
@@ -138,7 +152,9 @@
     ],
     "antonyms": [
       "Relational"
-    ]
+    ],
+    "enExample2": "A key-value store provides ultra-low-latency read and write operations for session caching.",
+    "taExample2": "ஒரு விசை-மதிப்பு (Key-Value) சேமிப்பகம் அமர்வு தற்காலிக சேமிப்பிற்கு மிகக் குறைந்த தாமத செயல்பாடுகளை வழங்குகிறது."
   },
   {
     "id": 2724,
@@ -156,7 +172,9 @@
     "antonyms": [
       "relational table",
       "graph database"
-    ]
+    ],
+    "enExample2": "Engineers selected an in-memory key-value store to manage fast rate-limiting counters across API gateways.",
+    "taExample2": "கோரிக்கை வரம்பு எண்ணிக்கைகளை விரைவாக நிர்வகிக்க பொறியாளர்கள் ஒரு அதிவேக கீ-வேல்யூ சேமிப்பகத்தைத் தேர்ந்தெடுத்தனர்."
   },
   {
     "id": 1103,
@@ -173,7 +191,9 @@
     "antonyms": [
       "Tweened intermediate frame",
       "Static still image"
-    ]
+    ],
+    "enExample2": "CSS keyframe animations enable smooth layout transitions and pulse effects on UI notification badges.",
+    "taExample2": "CSS கீஃப்ரேம் (Keyframe) அனிமேஷன்கள் மென்மையான திரை மாற்றங்களையும் அறிவிப்பு அசைவுகளையும் செயல்படுத்துகின்றன."
   },
   {
     "id": 1114,
@@ -189,6 +209,28 @@
     ],
     "antonyms": [
       "Unlock"
+    ],
+    "enExample2": "The physical server rack in the datacenter is secured with a biometric scanner and dual keylock mechanism.",
+    "taExample2": "தரவு மையத்தில் உள்ள சேவையக ரேக் பயோமெட்ரிக் மற்றும் இரட்டை விசை பூட்டு பொறிமுறையுடன் பாதுகாக்கப்பட்டுள்ளது."
+  },
+  {
+    "id": 3205,
+    "word": "Keynote",
+    "pos": "Noun",
+    "definition": "The central address or principal presentation at a technical developer conference or product launch.",
+    "taWord": "முதன்மை உரை (Mudhalmai urai)",
+    "enExample": "The CTO delivered a keynote on distributed systems and cloud security at the developer summit.",
+    "taExample": "டெவலப்பர் உச்சிமாநாட்டில் விநியோகிக்கப்பட்ட அமைப்புகள் மற்றும் கிளவுட் பாதுகாப்பு குறித்து CTO முதன்மை உரையாற்றினார்.",
+    "enExample2": "The keynote highlighted breakthrough optimizations in compiler infrastructure.",
+    "taExample2": "முதன்மை உரையானது கம்பைலர் உள்கட்டமைப்பில் திருப்புமுனை உகப்பாக்கங்களை எடுத்துக்காட்டியது.",
+    "synonyms": [
+      "plenary speech",
+      "main address",
+      "centerpiece"
+    ],
+    "antonyms": [
+      "footnote",
+      "side talk"
     ]
   },
   {
@@ -206,7 +248,9 @@
       "Symmetric key",
       "Unencrypted plaintext",
       "Shared secret"
-    ]
+    ],
+    "enExample2": "SSH authentication uses an asymmetric keypair consisting of a public key on the server and a private key on the client.",
+    "taExample2": "SSH அங்கீகாரம் சர்வரில் பொது விசை மற்றும் பயனரிடம் தனிப்பட்ட விசை கொண்ட சமச்சீரற்ற விசை இணையைப் (Keypair) பயன்படுத்துகிறது."
   },
   {
     "id": 3044,
@@ -226,7 +270,9 @@
     "antonyms": [
       "Periphery",
       "Extra"
-    ]
+    ],
+    "enExample2": "Comprehensive automated unit testing is the keystone that ensures stability across continuous integration builds.",
+    "taExample2": "விரிவான தானியங்கி சோதனையே தொடர் வெளியீட்டு நிலைத்தன்மையை உறுதி செய்யும் மையக்கல்லாக (Keystone) விளங்குகிறது."
   },
   {
     "id": 1105,
@@ -244,7 +290,9 @@
       "Idle input",
       "Mouse click",
       "Silence"
-    ]
+    ],
+    "enExample2": "The search component debounces keystroke events by 300 milliseconds to avoid spamming the backend API.",
+    "taExample2": "தேடல் பகுதி பின்நிலை API-க்கு அதிக சுமை ஏற்படுவதைத் தவிர்க்க விசை அழுத்த நிகழ்வுகளை 300 மில்லி விநாடிகள் தாமதப்படுத்துகிறது."
   },
   {
     "id": 1106,
@@ -262,7 +310,9 @@
       "Stop word",
       "Filler word",
       "Insignificant term"
-    ]
+    ],
+    "enExample2": "The full-text search engine indexes document keywords to provide instant relevant search rankings.",
+    "taExample2": "முழு உரை தேடுபொறி உடனடி பொருத்தமான தேடல் முடிவுகளை வழங்க ஆவண முக்கிய வார்த்தைகளை (Keywords) குறியிடுகிறது."
   },
   {
     "id": 1107,
@@ -281,7 +331,9 @@
       "Spawn",
       "Start",
       "Launch"
-    ]
+    ],
+    "enExample2": "The operating system will kill processes that exceed their maximum allowed container memory limit.",
+    "taExample2": "அனுமதிக்கப்பட்ட நினைவக வரம்பை மீறும் செயல்முறைகளை இயக்க முறைமை தானாகவே நிறுத்தும் (Kill)."
   },
   {
     "id": 2725,
@@ -299,7 +351,9 @@
     "antonyms": [
       "auto-restart loop",
       "hardcoded logic"
-    ]
+    ],
+    "enExample2": "DevOps implemented an emergency kill switch to disable third-party integrations instantly during a security incident.",
+    "taExample2": "பாதுகாப்பு விபத்தின் போது மூன்றாம் தரப்பு இணைப்புகளை உடனடியாக முடக்க அவசர நிறுத்த பொறிமுறை (Kill Switch) அமைக்கப்பட்டது."
   },
   {
     "id": 1108,
@@ -317,7 +371,9 @@
       "Nibble",
       "Gigabyte",
       "Terabyte"
-    ]
+    ],
+    "enExample2": "Optimizing the SVG icon library saved over two hundred kilobytes from the initial web page payload.",
+    "taExample2": "SVG ஐகான்களை உகப்பாக்கியது ஆரம்ப வலைப்பக்க பதிவிறக்க அளவிலிருந்து இருநூறு கிலோபைட்டுகளுக்கு மேல் சேமித்தது."
   },
   {
     "id": 1113,
@@ -333,6 +389,30 @@
     ],
     "antonyms": [
       "Static"
+    ],
+    "enExample2": "Mobile gesture animations use simulated kinetic momentum to create a natural, physics-driven scrolling feel.",
+    "taExample2": "மொபைல் அசைவு அனிமேஷன்கள் இயற்கையான இயற்பியல் உணர்வை உருவாக்க இயக்க உந்தத்தைப் (Kinetic Momentum) பயன்படுத்துகின்றன."
+  },
+  {
+    "id": 3364,
+    "word": "kinship",
+    "pos": "noun",
+    "definition": "A feeling of close connection, shared origin, or family-like bond among a group.",
+    "taWord": "உறவுமுறை (பிணைப்பு / சொந்தம்)",
+    "enExample": "Engineers working on open source libraries feel a strong sense of technical kinship across global borders.",
+    "taExample": "ஓபன் சோர்ஸ் மென்பொருளில் பணியாற்றும் பொறியாளர்கள் உலகளவில் ஒரு வலுவான தொழில்முறை உறவை உணர்கிறார்கள்.",
+    "enExample2": "The church fellowship breakfast fostered a warm sense of spiritual kinship among new attendees.",
+    "taExample2": "திருச்சபையின் காலை உணவுக் கூடுகை புதிய வருகையாளர்களிடையே ஒரு நல்ல ஆவிக்குரிய உறவை வளர்த்தது.",
+    "synonyms": [
+      "affinity",
+      "bond",
+      "connection",
+      "camaraderie"
+    ],
+    "antonyms": [
+      "estrangement",
+      "hostility",
+      "alienation"
     ]
   },
   {
@@ -348,7 +428,9 @@
     ],
     "antonyms": [
       "Unrestricted OS"
-    ]
+    ],
+    "enExample2": "The airport check-in terminal runs the web app in a locked-down, single-application kiosk mode.",
+    "taExample2": "விமான நிலைய முனையம் வலை பயன்பாட்டை பூட்டப்பட்ட பிரத்யேக கியோஸ்க் (Kiosk) பயன்முறையில் இயக்குகிறது."
   },
   {
     "id": 1115,
@@ -365,7 +447,9 @@
       "Infinite capacity",
       "Unbounded resource",
       "Empty set"
-    ]
+    ],
+    "enExample2": "The resource scheduler uses a variation of the 0/1 knapsack algorithm to pack containers efficiently onto nodes.",
+    "taExample2": "வள திட்டமிடுபவர் முனையங்களில் கொள்கலன்களை திறம்பட பொருத்த நாப்சேக் (Knapsack) வழிமுறையைப் பயன்படுத்துகிறார்."
   },
   {
     "id": 1117,
@@ -385,7 +469,9 @@
       "Beginning",
       "Commencement",
       "Overture"
-    ]
+    ],
+    "enExample2": "The sudden deprecation of the browser plugin sounded the death knell for legacy Flash applications.",
+    "taExample2": "உலாவி செருகுநிரலின் திடீர் நிறுத்தம் பழைய ஃப்ளாஷ் பயன்பாடுகளின் இறுதி முடிவைக் குறித்தது."
   },
   {
     "id": 1109,
@@ -401,7 +487,9 @@
     ],
     "antonyms": [
       "Ignorance"
-    ]
+    ],
+    "enExample2": "The engineering team maintains an internal knowledge base documenting troubleshooting runbooks and architecture RFCs.",
+    "taExample2": "பொறியியல் குழு சரிசெய்தல் வழிகாட்டிகள் மற்றும் கட்டமைப்பு ஆவணங்களை உள்ளடக்கிய உள்நாட்டு அறிவுத் தளத்தை (Knowledge Base) பராமரிக்கிறது."
   },
   {
     "id": 1110,
@@ -419,7 +507,9 @@
       "Manual deployment",
       "Single monolithic server",
       "Bare metal"
-    ]
+    ],
+    "enExample2": "Kubernetes automatically manages container scheduling, scaling, and self-healing across cloud clusters.",
+    "taExample2": "குபெர்னெட்டீஸ் (Kubernetes) கிளவுட் கிளஸ்டர்களில் கொள்கலன் திட்டமிடல், அளவிடுதல் மற்றும் தானியங்கி மீட்டெடுப்பை நிர்வகிக்கிறது."
   },
   {
     "id": 1118,
@@ -437,6 +527,8 @@
     "antonyms": [
       "Dishonor",
       "Criticism"
-    ]
+    ],
+    "enExample2": "The VP of Engineering gave kudos to the incident response team for resolving the zero-day bug within hours.",
+    "taExample2": "பாதுகாப்பு பிழையை சில மணி நேரங்களில் சரிசெய்ததற்காக மீட்புக் குழுவிற்கு பொறியியல் துணைத் தலைவர் பாராட்டுகளைத் (Kudos) தெரிவித்தார்."
   }
 ]

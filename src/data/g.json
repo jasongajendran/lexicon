@@ -14,7 +14,9 @@
     "antonyms": [
       "Unprofitable",
       "Useless"
-    ]
+    ],
+    "enExample2": "Contributing to impactful open-source repositories provided engineers with gainful career growth opportunities.",
+    "taExample2": "முக்கிய திறந்த மூல திட்டங்களில் பங்களிப்பது பொறியாளர்களுக்கு பயனுள்ள தொழில் வளர்ச்சி வாய்ப்புகளை வழங்கியது."
   },
   {
     "id": 716,
@@ -32,7 +34,9 @@
     "antonyms": [
       "Demotivate",
       "Deter"
-    ]
+    ],
+    "enExample2": "The sudden zero-day security alert helped galvanize the entire company into upgrading all library dependencies.",
+    "taExample2": "திடீர் பாதுகாப்பு எச்சரிக்கை நிறுவனம் முழுவதும் உள்ள அனைத்து நூலகங்களையும் மேம்படுத்த ஒட்டுமொத்த குழுவையும் தூண்டியது."
   },
   {
     "id": 701,
@@ -49,7 +53,9 @@
     "antonyms": [
       "Active",
       "Referenced"
-    ]
+    ],
+    "enExample2": "The V8 JavaScript runtime initiates automatic garbage collection when memory thresholds are approached.",
+    "taExample2": "நினைவக வரம்பை நெருங்கும் போது V8 ஜாவாஸ்கிரிப்ட் என்ஜின் தானியங்கி நினைவக தூய்மைப்படுத்தலை (Garbage Collection) தொடங்குகிறது."
   },
   {
     "id": 717,
@@ -67,7 +73,9 @@
     "antonyms": [
       "Taciturn",
       "Reticent"
-    ]
+    ],
+    "enExample2": "The garrulous presenter exceeded their allotted speaking time during the technical lightning talk session.",
+    "taExample2": "அதிகமாகப் பேசிய அந்த பேச்சாளர் தொழில்நுட்ப மின்னல் உரையின் போது தனக்கு ஒதுக்கப்பட்ட நேரத்தைத் தாண்டிப் பேசினார்."
   },
   {
     "id": 2640,
@@ -85,6 +93,29 @@
     "antonyms": [
       "Reassure",
       "Validate"
+    ],
+    "enExample2": "A good engineering manager will never gaslight developers when they raise valid concerns about technical debt.",
+    "taExample2": "தொழில்நுட்ப கடன் குறித்த நியாயமான கவலைகளை எழுப்பும் போது ஒரு நல்ல மேலாளர் உருவாக்குநர்களை ஒருபோதும் திசைதிருப்ப மாட்டார்."
+  },
+  {
+    "id": 3300,
+    "word": "Gaslighting",
+    "pos": "Verb",
+    "definition": "Manipulating someone psychologically into questioning their own sanity, memory, or log evidence.",
+    "taWord": "மன ரீதியாக ஏமாற்றுதல் (Mana reethiyaaga eamaattruthal)",
+    "enExample": "Denying an obvious bug when the server logs clearly confirm it feels like technical gaslighting.",
+    "taExample": "சேவையகப் பதிவுகள் அதைத் தெளிவாக உறுதிப்படுத்தும் போது ஒரு வெளிப்படையான பிழையை மறுப்பது தொழில்நுட்ப மன ரீதியாக ஏமாற்றுவது போல உணர்கிறது.",
+    "enExample2": "Transparent telemetry metrics prevent workplace gaslighting regarding system performance.",
+    "taExample2": "வெளிப்படையான தொலைநிலை அளவீடுகள் கணினி செயல்திறன் தொடர்பான பணியிட மன ரீதியான ஏமாற்றுதலைத் தடுக்கின்றன.",
+    "synonyms": [
+      "psychological manipulation",
+      "deception",
+      "misleading"
+    ],
+    "antonyms": [
+      "honesty",
+      "validation",
+      "candor"
     ]
   },
   {
@@ -104,6 +135,29 @@
       "Share",
       "Democratize",
       "Open up"
+    ],
+    "enExample2": "Senior engineers should mentor newcomers rather than gatekeep architectural discussions.",
+    "taExample2": "மூத்த பொறியாளர்கள் கட்டமைப்பு விவாதங்களைத் தடுத்து கட்டுப்படுத்தாமல் புதியவர்களுக்கு வழிகாட்ட வேண்டும்."
+  },
+  {
+    "id": 3356,
+    "word": "gatekeeping",
+    "pos": "noun",
+    "definition": "The activity of controlling, limiting, or selectively granting access to a community or resource.",
+    "taWord": "அனுமதி கட்டுப்பாடு (வாயில் காத்தல்)",
+    "enExample": "Senior developers must avoid gatekeeping code repositories and instead welcome open contributions.",
+    "taExample": "மூத்த டெவலப்பர்கள் கோட் மாற்றங்களைக் கட்டுப்படுத்துவதைத் தவிர்த்து திறந்த பங்களிப்புகளை வரவேற்க வேண்டும்.",
+    "enExample2": "Critics accused academic journals of gatekeeping research by imposing excessive subscription fees.",
+    "taExample2": "அதிக சந்தாக் கட்டணம் வசூலிப்பதன் மூலம் கல்விக்கூட இதழ்கள் ஆராய்ச்சிகளைக் கட்டுப்படுத்துவதாக விமர்சகர்கள் குற்றம் சாட்டினர்.",
+    "synonyms": [
+      "restricting access",
+      "filtering",
+      "guarding"
+    ],
+    "antonyms": [
+      "open access",
+      "inclusion",
+      "democratization"
     ]
   },
   {
@@ -122,7 +176,9 @@
       "Direct internal node",
       "Isolated intranet",
       "Private proxy"
-    ]
+    ],
+    "enExample2": "The API gateway handles authentication, SSL termination, and rate limiting for all incoming traffic.",
+    "taExample2": "API நுழைவாயில் உள்வரும் அனைத்து போக்குவரத்திற்கும் அங்கீகாரம் மற்றும் கோரிக்கை வரம்பைக் கையாள்கிறது."
   },
   {
     "id": 719,
@@ -139,7 +195,9 @@
     "antonyms": [
       "Disperse",
       "Scatter"
-    ]
+    ],
+    "enExample2": "The telemetry daemon gathers CPU, RAM, and network metrics from every cloud node every second.",
+    "taExample2": "கண்காணிப்பு சேவை ஒவ்வொரு நொடியும் அனைத்து முனையங்களிலிருந்தும் கணினி அளவீடுகளைச் சேகரிக்கிறது."
   },
   {
     "id": 713,
@@ -155,7 +213,9 @@
     ],
     "antonyms": [
       "Guess"
-    ]
+    ],
+    "enExample2": "The product manager organized user interviews to gauge customer interest in the new analytics feature.",
+    "taExample2": "புதிய பகுப்பாய்வு அம்சம் குறித்த வாடிக்கையாளர் ஆர்வத்தை மதிப்பிடுவதற்கு தயாரிப்பு மேலாளர் நேர்காணல்களை ஏற்பாடு செய்தார்."
   },
   {
     "id": 703,
@@ -172,7 +232,9 @@
     "antonyms": [
       "Destroy",
       "Delete"
-    ]
+    ],
+    "enExample2": "The automated documentation generator parses JSDoc comments to generate HTML API reference pages.",
+    "taExample2": "தானியங்கி ஆவண உருவாக்கி குறியீட்டுக் குறிப்புகளை ஆய்வு செய்து இணைய ஆவணப் பக்கங்களை உருவாக்குகிறது (Generate)."
   },
   {
     "id": 711,
@@ -189,6 +251,27 @@
     "antonyms": [
       "Specific",
       "Custom"
+    ],
+    "enExample2": "TypeScript generics allow developers to author flexible, reusable data structures with strong type safety.",
+    "taExample2": "TypeScript ஜெனரிக்ஸ் உருவாக்குநர்கள் வலுவான வகை பாதுகாப்புடன் மீண்டும் பயன்படுத்தக்கூடிய தரவுக் கட்டமைப்புகளை எழுத அனுமதிக்கிறது."
+  },
+  {
+    "id": 3275,
+    "word": "Gentile",
+    "pos": "Noun",
+    "definition": "A person who is not Jewish, widely referenced in biblical history and fellowship studies.",
+    "taWord": "புறஜாதியார் (Purajaathiyaar)",
+    "enExample": "Early church fellowship expanded rapidly as Gentiles embraced the gospel message.",
+    "taExample": "புறஜாதியார் நற்செய்தி செய்தியை ஏற்றுக் கொண்டதால் ஆரம்பகால திருச்சபை தோழமை வேகமாக விரிவடைந்தது.",
+    "enExample2": "Apostle Paul's mission focused heavily on bringing truth and grace to Gentile nations.",
+    "taExample2": "அப்போஸ்தலனாகிய பவுலின் பணி புறஜாதி நாடுகளுக்கு உண்மையையும் கிருபையையும் கொண்டு வருவதில் பெரிதும் கவனம் செலுத்தியது.",
+    "synonyms": [
+      "non-Jew",
+      "outsider in historical context"
+    ],
+    "antonyms": [
+      "Israelite",
+      "Jew"
     ]
   },
   {
@@ -206,7 +289,9 @@
     "antonyms": [
       "Fake",
       "Counterfeit"
-    ]
+    ],
+    "enExample2": "Her genuine passion for distributed systems architecture motivated the entire engineering department.",
+    "taExample2": "விநியோகிக்கப்பட்ட அமைப்புகளின் கட்டமைப்பின் மீதான அவரது உண்மையான ஆர்வம் ஒட்டுமொத்த பொறியியல் துறையையும் ஊக்குவித்தது."
   },
   {
     "id": 3000,
@@ -227,7 +312,9 @@
       "Irrelevant",
       "Inappropriate",
       "Tangential"
-    ]
+    ],
+    "enExample2": "During sprint planning, only discussions germane to current milestone deliverables are permitted.",
+    "taExample2": "ஸ்பிரிண்ட் திட்டமிடலின் போது தற்போதைய மைல்கல் பணிகளுக்கு தொடர்புடைய விவாதங்கள் மட்டுமே அனுமதிக்கப்படுகின்றன."
   },
   {
     "id": 2960,
@@ -245,6 +332,49 @@
     "antonyms": [
       "Fair redistricting",
       "Impartial boundary demarcation"
+    ],
+    "enExample2": "Attempting to gerrymander code ownership boundaries creates confusing silos across development teams.",
+    "taExample2": "குறியீட்டு உரிமை எல்லைகளை முறையற்ற முறையில் பிரிப்பது உருவாக்கக் குழுக்களிடையே தேவையற்ற குழப்பத்தை ஏற்படுத்துகிறது."
+  },
+  {
+    "id": 3357,
+    "word": "gestalt",
+    "pos": "noun",
+    "definition": "An organized whole that is perceived as more than the sum of its individual parts.",
+    "taWord": "முழுமைத் தோற்றம் (ஒருங்கிணைந்த வடிவம்)",
+    "enExample": "The modern software design system creates a unified visual gestalt across mobile and desktop apps.",
+    "taExample": "நவீன மென்பொருள் வடிவமைப்பு அமைப்பு கைபேசி மற்றும் கணினி செயலிகளில் ஒரு ஒருங்கிணைந்த தோற்றத்தை உருவாக்குகிறது.",
+    "enExample2": "Psychology researchers examine how human perception constructs a gestalt from isolated visual inputs.",
+    "taExample2": "மனிதப் பார்வை தனித்தனி காட்சித் தகவல்களிலிருந்து எவ்வாறு ஒரு முழுமைத் தோற்றத்தை உருவாக்குகிறது என ஆய்வாளர்கள் ஆராய்கின்றனர்.",
+    "synonyms": [
+      "unified whole",
+      "configuration",
+      "structure",
+      "totality"
+    ],
+    "antonyms": [
+      "fragmentation",
+      "disarray"
+    ]
+  },
+  {
+    "id": 3301,
+    "word": "Ghosting",
+    "pos": "Noun",
+    "definition": "Abruptly stopping all communication with a recruiter, team, or API client without explanation.",
+    "taWord": "திடீரென தொடர்பை துண்டித்தல் (Thideerena thodarpai thunditthal)",
+    "enExample": "Candidate ghosting during technical interview pipelines wastes recruiting resources and developer time.",
+    "taExample": "தொழில்நுட்ப நேர்காணல் பைப்லைன்களின் போது வேட்பாளர் திடீரென தொடர்பை துண்டிப்பது ஆட்சேர்ப்பு வளங்களையும் டெவலப்பர் நேரத்தையும் வீணடிக்கிறது.",
+    "enExample2": "Proper API error handling prevents silent ghosting when remote servers drop connections.",
+    "taExample2": "தொலைநிலை சேவையகங்கள் இணைப்புகளைக் கைவிடும்போது சரியான API பிழை கையாளுதல் அமைதியான திடீர் தொடர்பு துண்டிப்பைத் தடுக்கிறது.",
+    "synonyms": [
+      "abandonment",
+      "cutting off communication",
+      "silent departure"
+    ],
+    "antonyms": [
+      "responsiveness",
+      "clear feedback"
     ]
   },
   {
@@ -262,7 +392,9 @@
     "antonyms": [
       "Local",
       "Scoped"
-    ]
+    ],
+    "enExample2": "Global content delivery networks route users to the geographically nearest server for lowest latency.",
+    "taExample2": "உலகளாவிய உள்ளடக்க விநியோக வலையமைப்புகள் மிகக் குறைந்த தாமதத்திற்காக பயனர்களை அருகிலுள்ள சர்வருக்கு வழிநடத்துகின்றன."
   },
   {
     "id": 2629,
@@ -280,7 +412,9 @@
     "antonyms": [
       "Degradation",
       "Decline"
-    ]
+    ],
+    "enExample2": "The legacy enterprise dashboard received a massive visual and UX glow-up in the latest platform release.",
+    "taExample2": "பழைய தகவல் பலகை சமீபத்திய வெளியீட்டில் மிகப்பெரிய காட்சி மற்றும் பயன்பாட்டு மேம்பாட்டைப் (Glow-up) பெற்றது."
   },
   {
     "id": 726,
@@ -299,7 +433,9 @@
       "Distraction",
       "Apathy",
       "Randomness"
-    ]
+    ],
+    "enExample2": "Our primary engineering goal this quarter is achieving 99.99% availability for the checkout gateway.",
+    "taExample2": "கட்டண நுழைவாயிலுக்கு 99.99% கிடைக்கும் தன்மையை அடைவதே இந்த காலாண்டில் எங்கள் முதன்மை பொறியியல் இலக்காகும்."
   },
   {
     "id": 2642,
@@ -317,6 +453,30 @@
     "antonyms": [
       "Inferior",
       "Flawed"
+    ],
+    "enExample2": "Her lightning-fast debugging of the kernel deadlock proved she is truly goated in low-level systems engineering.",
+    "taExample2": "முடக்கப் பிழையை மிக விரைவாக சரிசெய்ததன் மூலம் கணினி பொறியியலில் தான் எப்போதும் தலைசிறந்தவர் என்பதை அவர் நிரூபித்தார்."
+  },
+  {
+    "id": 3302,
+    "word": "Gobsmacked",
+    "pos": "Adjective",
+    "definition": "Spoken UK and Scottish slang meaning utterly astonished, amazed, or speechlessly shocked.",
+    "taWord": "திகைப்படைந்தது (Thigaippadainthathu)",
+    "enExample": "The engineering team was gobsmacked when the new compiler reduced build times by eighty percent.",
+    "taExample": "புதிய கம்பைலர் உருவாக்க நேரத்தை எண்பது சதவீதம் குறைத்தபோது பொறியியல் குழு திகைப்படைந்தது.",
+    "enExample2": "I was gobsmacked by the flawless performance of the real-time AI translation algorithm.",
+    "taExample2": "நிகழ்நேர AI மொழிபெயர்ப்பு அல்காரிதத்தின் குறைபாடற்ற செயல்திறனால் நான் திகைப்படைந்தேன்.",
+    "synonyms": [
+      "astonished",
+      "dumbfounded",
+      "flabbergasted",
+      "stunned"
+    ],
+    "antonyms": [
+      "unimpressed",
+      "indifferent",
+      "expectant"
     ]
   },
   {
@@ -334,7 +494,9 @@
     "antonyms": [
       "Unmonitored black box",
       "Vanity metrics"
-    ]
+    ],
+    "enExample2": "Site reliability engineers monitor latency, traffic, errors, and saturation as the four golden signals.",
+    "taExample2": "தள நம்பகத்தன்மை பொறியாளர்கள் தாமதம், போக்குவரத்து, பிழைகள் மற்றும் சுமை ஆகியவற்றை நான்கு பொற்கால சிக்னல்களாகக் கண்காணிக்கின்றனர்."
   },
   {
     "id": 2786,
@@ -351,7 +513,9 @@
     "antonyms": [
       "Centralized master broker",
       "Single-point registry"
-    ]
+    ],
+    "enExample2": "Cassandra clusters use a decentralized gossip protocol to broadcast node health across datacenters.",
+    "taExample2": "கசாண்ட்ரா கிளஸ்டர்கள் தரவு மையங்கள் முழுவதும் முனையங்களின் நிலையை ஒளிபரப்ப கிசுகிசு நெறிமுறையைப் (Gossip Protocol) பயன்படுத்துகின்றன."
   },
   {
     "id": 714,
@@ -367,7 +531,9 @@
     ],
     "antonyms": [
       "Neglect"
-    ]
+    ],
+    "enExample2": "Strict data privacy regulations govern how user tracking data must be stored and processed.",
+    "taExample2": "கடுமையான தரவு தனியுரிமை விதிமுறைகள் பயனர் தரவு எவ்வாறு சேமிக்கப்பட வேண்டும் மற்றும் செயலாக்கப்பட வேண்டும் என்பதை நிர்வகிக்கின்றன."
   },
   {
     "id": 705,
@@ -384,7 +550,9 @@
     "antonyms": [
       "Abrupt",
       "Harsh"
-    ]
+    ],
+    "enExample2": "The server executed a graceful shutdown by completing all in-flight HTTP requests before closing sockets.",
+    "taExample2": "சர்வர் இணைப்புகளை மூடுவதற்கு முன் அனைத்து நடப்பு கோரிக்கைகளையும் முடித்து நேர்த்தியான பணிநிறுத்தத்தை மேற்கொண்டது."
   },
   {
     "id": 2788,
@@ -401,7 +569,9 @@
     "antonyms": [
       "Catastrophic system failure",
       "Total system freeze"
-    ]
+    ],
+    "enExample2": "Under severe load, the streaming platform applies graceful degradation by disabling high-definition playback.",
+    "taExample2": "அதிக சுமையின் போது ஸ்ட்ரீமிங் தளம் உயர் தெளிவுத்திறனை தற்காலிகமாக முடக்கி படிப்படியான தற்காப்பை (Graceful Degradation) மேற்கொள்கிறது."
   },
   {
     "id": 721,
@@ -418,7 +588,9 @@
     "antonyms": [
       "Sudden",
       "Abrupt"
-    ]
+    ],
+    "enExample2": "A gradual canary rollout allows the team to detect regressions before exposing all users to the update.",
+    "taExample2": "படிப்படியான வெளியீடு அனைத்து பயனர்களுக்கும் புதுப்பிப்பை வெளியிடுவதற்கு முன் பிழைகளைக் கண்டறிய குழுவுக்கு உதவுகிறது."
   },
   {
     "id": 706,
@@ -435,7 +607,9 @@
     "antonyms": [
       "Coarse",
       "Broad"
-    ]
+    ],
+    "enExample2": "Role-based access control provides granular permission settings for individual database tables.",
+    "taExample2": "பங்கு சார்ந்த அணுகல் கட்டுப்பாடு தனிப்பட்ட தரவுத்தள அட்டவணைகளுக்கான நுணுக்கமான (Granular) அனுமதி அமைப்புகளை வழங்குகிறது."
   },
   {
     "id": 707,
@@ -453,7 +627,9 @@
       "Linear array",
       "Flat list",
       "Isolated tree"
-    ]
+    ],
+    "enExample2": "Social networks utilize graph databases to efficiently traverse interconnected user relationships.",
+    "taExample2": "சமூக வலைப்பின்னல்கள் ஒன்றோடொன்று இணைக்கப்பட்ட பயனர் உறவுகளைத் திறம்படக் கண்டறிய வரைபடத் தரவுத்தளங்களைப் பயன்படுத்துகின்றன."
   },
   {
     "id": 722,
@@ -470,7 +646,9 @@
     "antonyms": [
       "Misunderstand",
       "Miss"
-    ]
+    ],
+    "enExample2": "Junior engineers quickly developed a solid grasp of container orchestration with Docker and Kubernetes.",
+    "taExample2": "இளம் பொறியாளர்கள் டாக்கர் மற்றும் குபெர்னெட்டீஸ் கொள்கலன் நிர்வாகத்தில் விரைவாக வலுவான பிடிப்பை வளர்த்துக் கொண்டனர்."
   },
   {
     "id": 723,
@@ -486,7 +664,9 @@
     ],
     "antonyms": [
       "Ingratitude"
-    ]
+    ],
+    "enExample2": "The community expressed sincere gratitude to the maintainers who worked overtime to resolve the security CVE.",
+    "taExample2": "பாதுகாப்புப் பிழையைத் தீர்க்க கூடுதல் நேரம் உழைத்த மென்பொருள் பராமரிப்பாளர்களுக்கு சமூகம் மனமார்ந்த நன்றியைத் தெரிவித்தது."
   },
   {
     "id": 708,
@@ -503,7 +683,9 @@
     "antonyms": [
       "Optimal",
       "Calculated"
-    ]
+    ],
+    "enExample2": "The compression algorithm uses a greedy heuristic to find local matches rapidly across binary buffers.",
+    "taExample2": "சுருக்குதல் வழிமுறை பைனரி தரவுகளில் உள்ளூர் பொருத்தங்களை விரைவாகக் கண்டறிய பேராசை உத்தியைப் (Greedy Algorithm) பயன்படுத்துகிறது."
   },
   {
     "id": 2668,
@@ -521,7 +703,9 @@
     "antonyms": [
       "Brownfield",
       "Legacy-bound"
-    ]
+    ],
+    "enExample2": "Building a greenfield application allows the team to adopt modern frameworks without legacy constraints.",
+    "taExample2": "ஒரு புதிய தளத்தை புதிதாக (Greenfield) உருவாக்குவது பழைய கட்டுப்பாடுகள் இல்லாமல் நவீன தொழில்நுட்பங்களை ஏற்க அனுமதிக்கிறது."
   },
   {
     "id": 2789,
@@ -538,7 +722,9 @@
     "antonyms": [
       "Brownfield project",
       "Legacy refactor"
-    ]
+    ],
+    "enExample2": "Architects selected Rust and WebAssembly for the new greenfield project to achieve maximum compute performance.",
+    "taExample2": "அதிகபட்ச செயல்திறனை அடைய புதிய திட்டப்பணிக்கு (Greenfield Project) வடிவமைப்பாளர்கள் ரஸ்ட் மற்றும் WebAssembly-ஐ தேர்ந்தெடுத்தனர்."
   },
   {
     "id": 718,
@@ -556,7 +742,9 @@
     "antonyms": [
       "Unsociable",
       "Reserved"
-    ]
+    ],
+    "enExample2": "His gregarious personality made him an excellent developer advocate at international tech conferences.",
+    "taExample2": "அவரது கலகலப்பான மற்றும் பழகும் சுபாவம் சர்வதேச மாநாடுகளில் ஒரு சிறந்த தொழில்நுட்ப பிரதிநிதியாக அவரை மாற்றியது."
   },
   {
     "id": 709,
@@ -575,7 +763,9 @@
       "Disorder",
       "Unstructured layout",
       "Random scatter"
-    ]
+    ],
+    "enExample2": "CSS Grid allows frontend developers to build complex responsive multi-column dashboard layouts with ease.",
+    "taExample2": "CSS கிரிட் (Grid) பல நெடுவரிசை தகவல் பலகை அமைப்புகளை எளிதாக உருவாக்க முன்னணி உருவாக்குநர்களுக்கு உதவுகிறது."
   },
   {
     "id": 2868,
@@ -596,7 +786,9 @@
       "Consensus",
       "Progress",
       "Bipartisanship"
-    ]
+    ],
+    "enExample2": "Conflicting database transactions caused a complete lock gridlock on the global inventory table.",
+    "taExample2": "முரண்பட்ட தரவுத்தள பரிவர்த்தனைகள் உலகளாவிய இருப்பு அட்டவணையில் முழுமையான முடக்க நெரிசலை ஏற்படுத்தின."
   },
   {
     "id": 2784,
@@ -614,7 +806,9 @@
     "antonyms": [
       "Hallucination",
       "Unconstrained generation"
-    ]
+    ],
+    "enExample2": "Grounding generative AI models in verified corporate knowledge bases eliminates factual hallucinations.",
+    "taExample2": "நம்பகமான நிறுவன அறிவுத் தளங்களில் AI மாதிரிகளை நிலைநிறுத்துவது (Grounding) உண்மைக்கு மாறான தவறான தகவல்களைத் தவிர்க்கிறது."
   },
   {
     "id": 715,
@@ -633,7 +827,9 @@
       "Finishing touches",
       "Surface level",
       "Facade"
-    ]
+    ],
+    "enExample2": "Refactoring the authentication library laid the necessary groundwork for implementing Single Sign-On.",
+    "taExample2": "அங்கீகார நூலகத்தை சீரமைத்தது ஒற்றை உள்நுழைவு முறையை செயல்படுத்துவதற்கான தேவையான அடித்தளத்தை அமைத்தது."
   },
   {
     "id": 724,
@@ -650,7 +846,9 @@
     "antonyms": [
       "Decline",
       "Stagnation"
-    ]
+    ],
+    "enExample2": "Optimizing the mobile onboarding flow resulted in a 35% month-over-month growth in active subscribers.",
+    "taExample2": "மொபைல் பயன்பாட்டு இணைப்பை மேம்படுத்தியது சந்தாதாரர்களின் எண்ணிக்கையில் மாதந்தோறும் 35% வளர்ச்சியை ஏற்படுத்தியது."
   },
   {
     "id": 725,
@@ -669,7 +867,9 @@
       "Uncertainty",
       "Disclaimer",
       "Doubt"
-    ]
+    ],
+    "enExample2": "ACID-compliant relational databases guarantee that committed financial transactions are never lost.",
+    "taExample2": "ACID இணக்கமான தரவுத்தளங்கள் உறுதிப்படுத்தப்பட்ட நிதிப் பரிவர்த்தனைகள் ஒருபோதும் இழக்கப்படாது என்பதை உத்தரவாதம் செய்கின்றன."
   },
   {
     "id": 710,
@@ -686,6 +886,30 @@
     "antonyms": [
       "Expose",
       "Endanger"
+    ],
+    "enExample2": "TypeScript type guards ensure runtime values conform to expected interfaces before properties are accessed.",
+    "taExample2": "TypeScript வகை காவலர்கள் (Type Guards) அணுகப்படுவதற்கு முன் மதிப்புகள் சரியான அமைப்பில் இருப்பதை உறுதி செய்கின்றன."
+  },
+  {
+    "id": 3202,
+    "word": "Guardrail",
+    "pos": "Noun",
+    "definition": "An automated safety rule, lint policy, or operational boundary preventing security risks and regressions.",
+    "taWord": "பாதுகாப்பு வரம்பு (Paathukaappu varambu)",
+    "enExample": "We implemented strict CI/CD guardrails to prevent developers from merging unvetted dependencies.",
+    "taExample": "சரிபார்க்கப்படாத சார்புகளை மேம்படுத்துநர்கள் இணைப்பதைத் தடுக்க நாங்கள் கடுமையான CI/CD பாதுகாப்பு வரம்புகளை அமல்படுத்தினோம்.",
+    "enExample2": "Architectural guardrails ensure that microservices maintain high availability during peak traffic.",
+    "taExample2": "கட்டிடக்கலை பாதுகாப்பு வரம்புகள் அதிக போக்குவரத்தின் போது நுண் சேவைகள் அதிக கிடைக்கும்தன்மையை பராமரிப்பதை உறுதி செய்கின்றன.",
+    "synonyms": [
+      "safeguard",
+      "boundary",
+      "constraint",
+      "protection"
+    ],
+    "antonyms": [
+      "vulnerability",
+      "hazard",
+      "exposure"
     ]
   },
   {
@@ -704,7 +928,9 @@
     "antonyms": [
       "Unfiltered output",
       "Unsafe prompts"
-    ]
+    ],
+    "enExample2": "Setting up safety guardrails on automated AI systems prevents unauthorized execution of destructive commands.",
+    "taExample2": "தானியங்கி AI அமைப்புகளில் பாதுகாப்பு வரம்புகளை அமைப்பது ஆபத்தான கட்டளைகள் செயல்படுத்தப்படுவதைத் தடுக்கிறது."
   },
   {
     "id": 712,
@@ -723,7 +949,9 @@
       "Mandate",
       "Arbitrary guess",
       "Chaos"
-    ]
+    ],
+    "enExample2": "The engineering guideline mandates writing unit tests for all newly added utility functions.",
+    "taExample2": "புதிதாக சேர்க்கப்படும் அனைத்து பயன்பாட்டு செயல்பாடுகளுக்கும் சோதனைகள் எழுதுவதை பொறியியல் வழிகாட்டுதல் கட்டாயமாக்குகிறது."
   },
   {
     "id": 3078,
@@ -745,6 +973,29 @@
       "Honesty",
       "Frankness",
       "Sincerity"
+    ],
+    "enExample2": "The attacker used sophisticated social engineering guile to trick the employee into sharing their two-factor code.",
+    "taExample2": "தாக்குதல் நடத்தியவர் ஊழியரை ஏமாற்றி இருபடி பாதுகாப்பு குறியீட்டைப் பெற தந்திரமான வழிகளைப் பயன்படுத்தினார்."
+  },
+  {
+    "id": 3319,
+    "word": "Gutted",
+    "pos": "Adjective",
+    "definition": "UK and Scottish informal word meaning bitterly disappointed or devastated by bad news or outage.",
+    "taWord": "மனமுடைந்தது (Manamudainthathu)",
+    "enExample": "The developers were gutted when a cloud provider outage wiped out three hours of staging data.",
+    "taExample": "கிளவுட் வழங்குனர் முடக்கம் மூன்று மணிநேர ஸ்டேஜிங் தரவை அழித்தபோது டெவலப்பர்கள் மனமுடைந்தனர்.",
+    "enExample2": "He felt gutted after missing the bug submission deadline by two minutes.",
+    "taExample2": "இரண்டு நிமிடங்களில் பிழை சமர்ப்பிப்பு காலக்கெடுவை தவறவிட்ட பிறகு அவர் மனமுடைந்ததை உணர்ந்தார்.",
+    "synonyms": [
+      "disappointed",
+      "heartbroken",
+      "devastated"
+    ],
+    "antonyms": [
+      "overjoyed",
+      "elated",
+      "thrilled"
     ]
   }
 ]

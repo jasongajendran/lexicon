@@ -15,7 +15,9 @@
     "antonyms": [
       "Malleable",
       "Compliant"
-    ]
+    ],
+    "enExample2": "The vendor remained obdurate in refusing to lower renewal pricing despite competing multi-cloud options.",
+    "taExample2": "மாற்று கிளவுட் தேர்வுகள் இருந்தபோதிலும் புதுப்பித்தல் விலையைக் குறைக்க நிறுவனம் பிடிவாதமாக (Obdurate) மறுத்துவிட்டது."
   },
   {
     "id": 1517,
@@ -33,7 +35,9 @@
     "antonyms": [
       "Clarify",
       "Elucidate"
-    ]
+    ],
+    "enExample2": "Production build tools minify and obfuscate client JavaScript to protect proprietary algorithms from reverse engineering.",
+    "taExample2": "உற்பத்தி உருவாக்க கருவிகள் தனியுரிம வழிமுறைகளைப் பாதுகாக்க ஜாவாஸ்கிரிப்ட் குறியீட்டை சுருக்கி தெளிவற்றதாக்குகின்றன (Obfuscate)."
   },
   {
     "id": 1501,
@@ -51,7 +55,9 @@
     "antonyms": [
       "Deobfuscation",
       "Clarification"
-    ]
+    ],
+    "enExample2": "Code obfuscation adds an extra layer of defense against tampering on mobile application binaries.",
+    "taExample2": "குறியீட்டு மறைத்தல் (Obfuscation) மொபைல் பயன்பாடுகளில் சிதைவு மற்றும் திருட்டுக்கு எதிராக கூடுதல் பாதுகாப்பைச் சேர்க்கிறது."
   },
   {
     "id": 1502,
@@ -68,7 +74,9 @@
     ],
     "antonyms": [
       "Primitive"
-    ]
+    ],
+    "enExample2": "In object-oriented programming, each object encapsulates its internal state and exposes methods.",
+    "taExample2": "பொருள் சார்ந்த நிரலாக்கத்தில் ஒவ்வொரு பொருளும் (Object) அதன் உள் நிலையை மறைத்து செயல்பாடுகளை வழங்குகிறது."
   },
   {
     "id": 2889,
@@ -89,7 +97,9 @@
       "Conscious",
       "Attentive",
       "Mindful"
-    ]
+    ],
+    "enExample2": "The developer was oblivious to the memory leak until the continuous integration suite ran out of RAM.",
+    "taExample2": "சோதனை அமைப்பு முழு நினைவகத்தையும் இழக்கும் வரை அந்த நினைவக கசிவை உருவாக்குநர் அறியாமல் (Oblivious) இருந்தார்."
   },
   {
     "id": 3120,
@@ -111,7 +121,9 @@
       "Independent",
       "Rebellious",
       "Domineering"
-    ]
+    ],
+    "enExample2": "Rather than seeking obsequious agreement, the CTO encouraged constructive technical debate among engineers.",
+    "taExample2": "முகஸ்துதி ஒப்புதல்களை எதிர்பார்ப்பதற்குப் பதிலாக தலைமை தொழில்நுட்ப அதிகாரி ஆக்கப்பூர்வமான தொழில்நுட்ப விவாதங்களை ஊக்குவித்தார்."
   },
   {
     "id": 1503,
@@ -129,7 +141,9 @@
     "antonyms": [
       "Opacity",
       "Invisibility"
-    ]
+    ],
+    "enExample2": "Combining logs, metrics, and traces provides comprehensive observability across microservice architectures.",
+    "taExample2": "பதிவுகள், அளவீடுகள் மற்றும் தடங்களை இணைப்பது நுண்சேவை கட்டமைப்புகளில் முழுமையான கண்காணிப்புத் திறனை (Observability) வழங்குகிறது."
   },
   {
     "id": 1504,
@@ -147,7 +161,9 @@
     "antonyms": [
       "Publisher",
       "Emitter"
-    ]
+    ],
+    "enExample2": "The Observer pattern allows state changes in one component to automatically notify all registered listeners.",
+    "taExample2": "Observer வடிவமைப்பு முறை ஒரு கூறில் ஏற்படும் மாற்றங்களை பதிவுசெய்யப்பட்ட அனைத்து கேட்பவர்களுக்கும் தானாக அறிவிக்க அனுமதிக்கிறது."
   },
   {
     "id": 3121,
@@ -169,7 +185,9 @@
       "Pliable",
       "Compliant",
       "Flexible"
-    ]
+    ],
+    "enExample2": "An obstinate refusal to adopt automated testing left the legacy software team prone to frequent regressions.",
+    "taExample2": "தானியங்கி சோதனைகளை ஏற்க மறுத்த பிடிவாதமான (Obstinate) அணுகுமுறை பழைய குழுவை தொடர் பிழைகளுக்கு ஆளாக்கியது."
   },
   {
     "id": 3012,
@@ -190,6 +208,28 @@
       "Require",
       "Necessitate",
       "Cause"
+    ],
+    "enExample2": "Adopting a serverless architecture obviates the need for manual server provisioning and OS patching.",
+    "taExample2": "சர்வர்லெஸ் கட்டமைப்பை ஏற்றுக்கொள்வது சேவையகங்களை உருவாக்குதல் மற்றும் OS மேம்படுத்தலின் தேவையை முற்றிலும் நீக்குகிறது (Obviate)."
+  },
+  {
+    "id": 3207,
+    "word": "Offboarding",
+    "pos": "Noun",
+    "definition": "The formal procedure of revoking system access, archiving keys, and transferring code ownership when an employee leaves.",
+    "taWord": "வெளியேற்றச் செயல்முறை (Veliyetru seyalmurai)",
+    "enExample": "Automated user offboarding instantly revokes AWS keys and GitHub organization access upon departure.",
+    "taExample": "தானியங்கி பயனர் வெளியேற்றச் செயல்முறை புறப்படும்போது AWS சாவிகள் மற்றும் GitHub அமைப்பு அணுகலை உடனடியாக ரத்து செய்கிறது.",
+    "enExample2": "Thorough developer offboarding includes comprehensive code handovers and credential rotations.",
+    "taExample2": "முழுமையான டெவலப்பர் வெளியேற்றச் செயல்முறையானது விரிவான குறியீடு ஒப்படைப்புகள் மற்றும் சான்றளிப்பு சுழற்சிகளை உள்ளடக்கியது.",
+    "synonyms": [
+      "deprovisioning",
+      "deactivation",
+      "exit protocol"
+    ],
+    "antonyms": [
+      "onboarding",
+      "provisioning"
     ]
   },
   {
@@ -209,7 +249,9 @@
       "Online",
       "Connected",
       "Live"
-    ]
+    ],
+    "enExample2": "Progressive Web Apps cache application shells to deliver reliable offline experiences on flaky connections.",
+    "taExample2": "PWA பயன்பாடுகள் இணையற்ற (Offline) நிலையிலும் இயங்குவதற்காக தளத்தின் முக்கிய பகுதிகளை முன்பே சேமிக்கின்றன."
   },
   {
     "id": 1506,
@@ -228,7 +270,9 @@
       "Origin zero",
       "Absolute start index",
       "Full reset"
-    ]
+    ],
+    "enExample2": "Using keyset pagination instead of numeric offset queries dramatically accelerates deep database searches.",
+    "taExample2": "எண் அடிப்படையிலான ஆஃப்செட் (Offset) வினவல்களுக்குப் பதிலாக கீசெட் முறையைப் பயன்படுத்துவது ஆழமான தரவுத்தள தேடலை விரைவுபடுத்துகிறது."
   },
   {
     "id": 2890,
@@ -247,7 +291,9 @@
     "antonyms": [
       "Biased authority",
       "Partisan bureaucrat"
-    ]
+    ],
+    "enExample2": "The open-source foundation appointed an independent ombudsman to mediate community governance disputes.",
+    "taExample2": "சமூக நிர்வாக தகராறுகளை மத்தியஸ்தம் செய்ய திறந்த மூல அறக்கட்டளை ஒரு சுயாதீன நடுவரை (Ombudsman) நியமித்தது."
   },
   {
     "id": 1507,
@@ -264,6 +310,29 @@
     ],
     "antonyms": [
       "Single-channel"
+    ],
+    "enExample2": "The platform provides an omnichannel customer experience synchronizing cart state across mobile, desktop, and physical kiosks.",
+    "taExample2": "இந்த தளம் மொபைல், கணினி மற்றும் கடைகளுக்கிடையே ஒரே மாதிரியான ஒருங்கிணைந்த பலவழி (Omnichannel) பயனர் அனுபவத்தை வழங்குகிறது."
+  },
+  {
+    "id": 3260,
+    "word": "Omnipotent",
+    "pos": "Adjective",
+    "definition": "Having unlimited power, supreme authority, or absolute capability.",
+    "taWord": "எல்லாம் வல்ல (Ellaam valla)",
+    "enExample": "No single administrative service account should hold omnipotent root permissions over production cloud assets.",
+    "taExample": "எந்தவொரு தனிப்பட்ட நிர்வாக கணக்கும் தயாரிப்பு கிளவுட் சொத்துக்கள் மீது எல்லாம் வல்ல ரூட் அனுமதிகளைக் கொண்டிருக்கக்கூடாது.",
+    "enExample2": "Faith celebrates God as omnipotent, sovereign, and compassionate.",
+    "taExample2": "நம்பிக்கை கடவுளை எல்லாம் வல்லவராகவும், இறையாண்மை உள்ளவராகவும், இரக்கமுள்ளவராகவும் கொண்டாடுகிறது.",
+    "synonyms": [
+      "almighty",
+      "all-powerful",
+      "supreme"
+    ],
+    "antonyms": [
+      "powerless",
+      "impotent",
+      "weak"
     ]
   },
   {
@@ -284,6 +353,29 @@
       "Rare",
       "Scarce",
       "Absent"
+    ],
+    "enExample2": "Smartphone connectivity has made cloud applications an omnipresent part of modern professional life.",
+    "taExample2": "ஸ்மார்ட்போன் இணைப்பு கிளவுட் பயன்பாடுகளை நவீன தொழில்முறை வாழ்க்கையின் எங்கும் நிறைந்த (Omnipresent) பகுதியாக மாற்றியுள்ளது."
+  },
+  {
+    "id": 3261,
+    "word": "Omniscient",
+    "pos": "Adjective",
+    "definition": "Having complete, infinite knowledge and total awareness of all events and data.",
+    "taWord": "எல்லாம் அறிந்த (Ellaam arindha)",
+    "enExample": "Observability platforms aim for near-omniscient visibility into system metrics and request traces.",
+    "taExample": "கண்காணிப்பு தளங்கள் கணினி அளவீடுகள் மற்றும் கோரிக்கை தடங்கள் பற்றிய அண்மித்த எல்லாம் அறிந்த தெரிவுநிலையை நோக்கமாகக் கொண்டுள்ளன.",
+    "enExample2": "Scripture describes an omniscient God who knows the thoughts and hearts of all people.",
+    "taExample2": "வேதம் அனைத்து மனிதர்களின் எண்ணங்களையும் இதயங்களையும் அறிந்த எல்லாம் அறிந்த கடவுளை விவரிக்கிறது.",
+    "synonyms": [
+      "all-knowing",
+      "all-seeing",
+      "infinitely wise"
+    ],
+    "antonyms": [
+      "ignorant",
+      "unaware",
+      "uninformed"
     ]
   },
   {
@@ -302,6 +394,28 @@
     "antonyms": [
       "Off-shift leisure",
       "Unmonitored downtime"
+    ],
+    "enExample2": "The on-call pager alerted the site reliability engineer to an elevated 5xx error rate on the payment gateway.",
+    "taExample2": "சுழற்சி முறை அவசர அலாரம் (On-Call Pager) கட்டண நுழைவாயிலில் ஏற்பட்ட பிழைகள் குறித்து பொறியாளரை எச்சரித்தது."
+  },
+  {
+    "id": 3208,
+    "word": "Onboarding",
+    "pos": "Noun",
+    "definition": "The structured process of orienting a new engineer to repository architecture, dev setups, and team workflow.",
+    "taWord": "இணைப்புச் செயல்முறை (Inaippu seyalmurai)",
+    "enExample": "Our developer onboarding guide helps new engineers deploy their first PR on day one.",
+    "taExample": "எங்கள் டெவலப்பர் இணைப்புச் செயல்முறை வழிகாட்டி புதிய பொறியாளர்களுக்கு முதல் நாளிலேயே அவர்களின் முதல் PR ஐப் பயன்படுத்த உதவுகிறது.",
+    "enExample2": "Streamlined developer onboarding drastically reduces the time needed to achieve full productivity.",
+    "taExample2": "நெறிப்படுத்தப்பட்ட டெவலப்பர் இணைப்புச் செயல்முறை முழு உற்பத்தித்திறனை அடைய தேவைப்படும் நேரத்தைக் கணிசமாகக் குறைக்கிறது.",
+    "synonyms": [
+      "integration",
+      "orientation",
+      "provisioning"
+    ],
+    "antonyms": [
+      "offboarding",
+      "termination"
     ]
   },
   {
@@ -324,7 +438,9 @@
       "Easy",
       "Light",
       "Simple"
-    ]
+    ],
+    "enExample2": "The team automated manual spreadsheet compliance audits to eliminate an onerous weekly administrative burden.",
+    "taExample2": "வாராந்திர கடினமான (Onerous) நிர்வாக சுமையை நீக்க குழு கையேடு சரிபார்ப்புகளை தானியக்கமாக்கியது."
   },
   {
     "id": 2891,
@@ -344,7 +460,9 @@
       "Exemption",
       "Immunity",
       "Freedom from duty"
-    ]
+    ],
+    "enExample2": "The onus is on the pull request author to provide unit tests and documentation before requesting reviews.",
+    "taExample2": "மறுஆய்வைக் கோருவதற்கு முன் சோதனைகள் மற்றும் ஆவணங்களை வழங்குவதற்கான முழுப் பொறுப்பும் (Onus) குறியீட்டு ஆசிரியரையே சாரும்."
   },
   {
     "id": 1508,
@@ -362,7 +480,9 @@
     "antonyms": [
       "Transparent",
       "Clear"
-    ]
+    ],
+    "enExample2": "The API client returned an opaque error token that required internal server logs to decode.",
+    "taExample2": "API கிளையண்ட் உள்நாட்டு சேவையக பதிவுகள் இல்லாமல் புரிந்துகொள்ள முடியாத ஒரு தெளிவற்ற (Opaque) பிழைக் குறியீட்டைத் தந்தது."
   },
   {
     "id": 1509,
@@ -378,7 +498,9 @@
     ],
     "antonyms": [
       "Operator"
-    ]
+    ],
+    "enExample2": "In the expression a + b, both variables a and b serve as operands for the addition operator.",
+    "taExample2": "a + b என்ற கணிதக் கூற்றில் a மற்றும் b மாறிகள் கூட்டல் குறியீட்டிற்கான செயலேற்பிகளாக (Operands) செயல்படுகின்றன."
   },
   {
     "id": 2736,
@@ -396,7 +518,9 @@
     "antonyms": [
       "pessimistic locking",
       "exclusive table lock"
-    ]
+    ],
+    "enExample2": "Optimistic locking uses a record version number to prevent conflicting updates without blocking database reads.",
+    "taExample2": "நம்பிக்கை அடிப்படையிலான பூட்டுதல் (Optimistic Locking) வாசிப்பை முடக்காமல் பதிப்பு எண்ணைப் பயன்படுத்தி முரண்பட்ட மாற்றங்களைத் தடுக்கிறது."
   },
   {
     "id": 1510,
@@ -414,7 +538,9 @@
     "antonyms": [
       "Degradation",
       "Bloat"
-    ]
+    ],
+    "enExample2": "Query index optimization reduced database CPU utilization from ninety percent down to twenty-five percent.",
+    "taExample2": "வினவல் குறியீட்டு உகப்பாக்கம் (Optimization) தரவுத்தள செயலி பயன்பாட்டை தொண்ணூறு சதவீதத்திலிருந்து இருபத்தைந்து சதவீதமாகக் குறைத்தது."
   },
   {
     "id": 1511,
@@ -433,7 +559,9 @@
       "Required",
       "Mandatory",
       "Compulsory"
-    ]
+    ],
+    "enExample2": "TypeScript optional chaining (?.) gracefully handles undefined properties without throwing runtime exceptions.",
+    "taExample2": "TypeScript விருப்பத்தேர்வு இணைப்பு (?.) இயக்க நேரப் பிழைகள் இல்லாமல் வரையறுக்கப்படாத மதிப்புகளை பாதுகாப்பாகக் கையாள்கிறது."
   },
   {
     "id": 1512,
@@ -450,6 +578,28 @@
     ],
     "antonyms": [
       "Manual configuration"
+    ],
+    "enExample2": "Container orchestration tools automate the deployment, scaling, and networking of microservices across clusters.",
+    "taExample2": "கொள்கலன் ஒருங்கிணைப்புக் (Orchestration) கருவிகள் கிளஸ்டர்களில் நுண்சேவைகளின் வரிசைப்படுத்தல் மற்றும் அளவிடுதலை தானியக்கமாக்குகின்றன."
+  },
+  {
+    "id": 3262,
+    "word": "Ordination",
+    "pos": "Noun",
+    "definition": "The official ceremony conferring spiritual authority or leadership status upon a minister or leader.",
+    "taWord": "குருப்பட்டம்/பதவியேற்பு (Kuruppattam/pathaviyaerpu)",
+    "enExample": "The fellowship celebrated the pastor's ordination after years of dedicated ministry and study.",
+    "taExample": "பல வருட அர்ப்பணிப்புள்ள பணி மற்றும் படிப்புக்குப் பிறகு போதகரின் குருப்பட்டத்தை தோழமைக்குழு கொண்டாடியது.",
+    "enExample2": "Ordination marks a commitment to spiritual service and pastoral stewardship.",
+    "taExample2": "குருப்பட்டம் என்பது ஆன்மீக சேவை மற்றும் மேய்ப்புப் பணிப் பொறுப்பிற்கான அர்ப்பணிப்பைக் குறிக்கிறது.",
+    "synonyms": [
+      "consecration",
+      "investiture",
+      "appointment"
+    ],
+    "antonyms": [
+      "de-frocking",
+      "removal from office"
     ]
   },
   {
@@ -467,7 +617,9 @@
     ],
     "antonyms": [
       "Destination"
-    ]
+    ],
+    "enExample2": "Cross-Origin Resource Sharing rules prevent unauthorized scripts from accessing APIs hosted on a different origin.",
+    "taExample2": "CORS விதிகள் பிற மூலத்தில் (Origin) உள்ள API-களை அங்கீகரிக்கப்படாத ஸ்கிரிப்டுகள் அணுகுவதைத் தடுக்கின்றன."
   },
   {
     "id": 2735,
@@ -485,7 +637,9 @@
     "antonyms": [
       "raw SQL client",
       "manual query driver"
-    ]
+    ],
+    "enExample2": "Prisma ORM provides type-safe database queries and automated schema migrations out of the box.",
+    "taExample2": "Prisma ORM தானியங்கி வகை பாதுகாப்பு மற்றும் தரவுத்தள கட்டமைப்பு மாற்றங்களை வழங்குகிறது."
   },
   {
     "id": 2992,
@@ -507,7 +661,9 @@
       "Real",
       "Actual",
       "Hidden"
-    ]
+    ],
+    "enExample2": "The ostensible purpose of the meeting was architecture review, but the real topic was budget reallocations.",
+    "taExample2": "கூட்டத்தின் வெளிப்படையான (Ostensible) நோக்கம் கட்டமைப்பு மறுஆய்வு என கூறப்பட்டாலும் உண்மையான விஷயம் நிதி மறுஒதுக்கீடே ஆகும்."
   },
   {
     "id": 1518,
@@ -525,7 +681,9 @@
     "antonyms": [
       "Plain",
       "Unobtrusive"
-    ]
+    ],
+    "enExample2": "Users preferred a clean, minimalist typography over the ostentatious glowing gradients of the initial mockup.",
+    "taExample2": "ஆரம்ப மாதிரியின் பகட்டான (Ostentatious) மினுமினுப்புகளை விட எளிமையான நேர்த்தியான தோற்றத்தையே பயனர்கள் விரும்பினர்."
   },
   {
     "id": 2892,
@@ -546,7 +704,9 @@
       "Integrate",
       "Embrace",
       "Include"
-    ]
+    ],
+    "enExample2": "A collaborative engineering team will never ostracize a developer for asking clarifying questions during design reviews.",
+    "taExample2": "ஒரு சிறந்த பொறியியல் குழு வடிவமைப்பு விவாதங்களின் போது கேள்விகள் கேட்கும் ஒருவரை ஒருபோதும் புறக்கணிக்காது (Ostracize)."
   },
   {
     "id": 2737,
@@ -564,7 +724,9 @@
     "antonyms": [
       "stable footprint",
       "bounded memory pool"
-    ]
+    ],
+    "enExample2": "An unconstrained unbounded cache triggered an Out-of-Memory (OOM) killer event that crashed the web node.",
+    "taExample2": "கட்டுப்பாடற்ற தற்காலிக சேமிப்பு நினைவக பற்றாக்குறை (OOM) செயலிழப்பைத் தூண்டி சர்வரை முடக்கியது."
   },
   {
     "id": 2805,
@@ -581,6 +743,30 @@
     "antonyms": [
       "Unreliable dual writes",
       "Divergent message state"
+    ],
+    "enExample2": "The transactional outbox pattern guarantees reliable event publishing even during distributed database network partitions.",
+    "taExample2": "அவுட்பாக்ஸ் கட்டமைப்பு வடிவம் (Outbox Pattern) நெட்வொர்க் முறிவுகளின் போதும் நம்பகமான நிகழ்வு வெளியீட்டை உறுதி செய்கிறது."
+  },
+  {
+    "id": 3303,
+    "word": "Outlier",
+    "pos": "Noun",
+    "definition": "A data point, system metric, or latency reading that differs significantly from all others in a sample.",
+    "taWord": "விதிவிலக்கான தகவல் (Vithivilakkaana thagaval)",
+    "enExample": "We filtered out outlier latency spikes caused by garbage collection to calculate accurate response averages.",
+    "taExample": "துல்லியமான மறுமொழி சராசரிகளைக் கணக்கிட குப்பை சேகரிப்பால் ஏற்படும் விதிவிலக்கான தாமதக் கூர்மைப்பாடுகளை வடிகட்டினோம்.",
+    "enExample2": "High-performing senior engineers are often productivity outliers in software benchmarks.",
+    "taExample2": "உயர் செயல்திறன் கொண்ட மூத்த பொறியாளர்கள் பெரும்பாலும் மென்பொருள் அளவுகோல்களில் உற்பத்தித்திறன் விதிவிலக்கானவர்களாக இருக்கிறார்கள்.",
+    "synonyms": [
+      "anomaly",
+      "deviation",
+      "exception",
+      "singularity"
+    ],
+    "antonyms": [
+      "norm",
+      "average",
+      "standard"
     ]
   },
   {
@@ -598,6 +784,28 @@
     ],
     "antonyms": [
       "Input"
+    ],
+    "enExample2": "The compiler writes the optimized production output files directly into the build directory.",
+    "taExample2": "தொகுப்பி உகந்த தயாரிப்பு வெளியீட்டுக் (Output) கோப்புகளை நேரடியாக உருவாக்கக் கோப்பகத்தில் எழுதுகிறது."
+  },
+  {
+    "id": 3372,
+    "word": "outwith",
+    "pos": "preposition",
+    "definition": "Scottish English preposition meaning outside of, beyond the scope of, or external to.",
+    "taWord": "வெளியே (வரம்பிற்கு அப்பாற்பட்ட - ஸ்காட்டிஷ் சொல்)",
+    "enExample": "Modifying production database schemas without approval is strictly outwith engineering governance policy.",
+    "taExample": "அனுமதியின்றி உற்பத்தித் தரவுத்தளத்தில் மாற்றங்களைச் செய்வது பொறியியல் விதமுறைகளுக்கு முற்றிலும் அப்பாற்பட்டது.",
+    "enExample2": "The decision was made outwith the normal parliamentary session during an emergency Cabinet meeting.",
+    "taExample2": "அவசர அமைச்சரவைக் கூட்டத்தின் போது சாதாரண நாடாளுமன்ற அமர்வுக்கு வெளியே இந்த முடிவு எடுக்கப்பட்டது.",
+    "synonyms": [
+      "outside of",
+      "beyond",
+      "external to"
+    ],
+    "antonyms": [
+      "within",
+      "inside"
     ]
   },
   {
@@ -616,7 +824,9 @@
     "antonyms": [
       "Underflow",
       "Deficit"
-    ]
+    ],
+    "enExample2": "Setting CSS overflow to hidden prevents unconstrained text content from breaking the card boundary.",
+    "taExample2": "CSS overflow-ஐ மறைத்து வைப்பது எல்லை மீறும் உரை அட்டையின் விளிம்பைத் தாண்டி உடைவதைத் தடுக்கிறது."
   },
   {
     "id": 2893,
@@ -637,6 +847,8 @@
       "Patch job",
       "Superficial fix",
       "Abandonment"
-    ]
+    ],
+    "enExample2": "The engineering team completed a comprehensive overhaul of the legacy authentication pipeline to support biometric logins.",
+    "taExample2": "பயோமெட்ரிக் உள்நுழைவை ஆதரிக்க பழைய அங்கீகார அமைப்பில் ஒரு முழுமையான மறுசீரமைப்பை (Overhaul) குழு நிறைவு செய்தது."
   }
 ]

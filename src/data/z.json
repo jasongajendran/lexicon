@@ -14,7 +14,9 @@
     "antonyms": [
       "Flat 2D painter algorithm",
       "Unsorted depth rendering"
-    ]
+    ],
+    "enExample2": "The graphics rendering engine uses a Z-Buffer to determine which polygon surfaces are occluded and hidden from view.",
+    "taExample2": "கிராபிக்ஸ் எஞ்சின் எந்த முப்பரிமாண மேற்பரப்புகள் பார்வையில் இருந்து மறைக்கப்பட்டுள்ளன என்பதைத் தீர்மானிக்க Z-Buffer-ஐப் பயன்படுத்துகிறது."
   },
   {
     "id": 2604,
@@ -32,7 +34,9 @@
     "antonyms": [
       "Static document flow",
       "Flat unlayered rendering"
-    ]
+    ],
+    "enExample2": "Setting a higher CSS z-index ensures that modal dialogue backdrops render above all background page elements.",
+    "taExample2": "அதிக CSS z-index மதிப்பை அமைப்பது உரையாடல் பெட்டிகள் பின்னணி கூறுகளுக்கு மேலே தோன்றுவதை உறுதி செய்கிறது."
   },
   {
     "id": 2613,
@@ -49,7 +53,9 @@
     "antonyms": [
       "Flat unordered display",
       "Default DOM order"
-    ]
+    ],
+    "enExample2": "Vector drawing applications allow users to adjust the Z-Order layering of overlapping geometric canvas paths.",
+    "taExample2": "வெக்டர் வரைதல் பயன்பாடுகள் ஒன்றன் மேல் ஒன்றாக இருக்கும் வரைபட அடுக்குகளின் Z-Order படிநிலையை சரிசெய்ய பயனர்களை அனுமதிக்கின்றன."
   },
   {
     "id": 3080,
@@ -71,7 +77,9 @@
       "Indifference",
       "Lethargy",
       "Disinterest"
-    ]
+    ],
+    "enExample2": "The security team audited access credentials with relentless zeal following the unauthorized access incident.",
+    "taExample2": "அங்கீகாரமற்ற அணுகல் சம்பவத்தைத் தொடர்ந்து பாதுகாப்புக் குழு தீவிர வைராக்கியத்துடனும் ஆர்வத்துடனும் (Zeal) சான்றுகளை தணிக்கை செய்தது."
   },
   {
     "id": 2616,
@@ -89,7 +97,9 @@
     "antonyms": [
       "Moderate",
       "Conservative"
-    ]
+    ],
+    "enExample2": "He was a command-line zealot who adamantly refused to use visual IDEs or graphical Git clients.",
+    "taExample2": "வரைகலை கருவிகளைப் பயன்படுத்த பிடிவாதமாக மறுத்த ஒரு தீவிர கட்டளை வரி வெறியராக (Zealot) அவர் இருந்தார்."
   },
   {
     "id": 3097,
@@ -111,7 +121,9 @@
       "Indifferent",
       "Lethargic",
       "Dispassionate"
-    ]
+    ],
+    "enExample2": "The team maintained a zealous commitment to achieving 100% test code coverage across all microservices.",
+    "taExample2": "அனைத்து நுண்சேவைகளிலும் 100% சோதனைப் பாதுகாப்பை அடைவதில் குழு தீவிரமான உறுதியுடன் (Zealous) இருந்தது."
   },
   {
     "id": 2617,
@@ -129,7 +141,9 @@
     "antonyms": [
       "Nadir",
       "Bottom"
-    ]
+    ],
+    "enExample2": "The release of the groundbreaking AI agent marked the zenith of the organization's engineering innovation.",
+    "taExample2": "புரட்சிகரமான AI முகவரின் வெளியீடு நிறுவனத்தின் பொறியியல் புதுமையின் உச்சக்கட்டத்தை (Zenith) குறித்தது."
   },
   {
     "id": 2601,
@@ -145,7 +159,9 @@
     ],
     "antonyms": [
       "Buffer copying"
-    ]
+    ],
+    "enExample2": "Using zero-copy network sockets transfers raw byte streams directly from disk to network without intermediate CPU buffering.",
+    "taExample2": "ஜீரோ-காப்பி (Zero-Copy) சாக்கெட்டுகளைப் பயன்படுத்துவது இடைநிலை CPU நகல் இல்லாமல் வட்டில் இருந்து நேரடியாக நெட்வொர்க்கிற்கு பைட்களை அனுப்புகிறது."
   },
   {
     "id": 2602,
@@ -161,7 +177,9 @@
     ],
     "antonyms": [
       "Patched vulnerability"
-    ]
+    ],
+    "enExample2": "The cybersecurity squad deployed an immediate patch to neutralize an active zero-day vulnerability in the logging library.",
+    "taExample2": "பதிவு நூலகத்தில் உள்ள தீவிரமான ஜீரோ-டே (Zero-Day) பாதுகாப்புக் குறைபாட்டைச் சரிசெய்ய சைபர் குழு உடனடி திருத்தத்தை வெளியிட்டது."
   },
   {
     "id": 2830,
@@ -178,7 +196,9 @@
     "antonyms": [
       "Patched vulnerability",
       "Disclosed and mitigated CVE"
-    ]
+    ],
+    "enExample2": "Web Application Firewalls analyze traffic patterns to detect zero-day exploits before vendors issue official security patches.",
+    "taExample2": "நிறுவனங்கள் அதிகாரப்பூர்வ திருத்தங்களை வெளியிடுவதற்கு முன்பே ஜீரோ-டே தாக்குதல்களைக் (Zero-Day Exploit) கண்டறிய WAF ஃபயர்வால்கள் உதவுகின்றன."
   },
   {
     "id": 2611,
@@ -195,7 +215,9 @@
     "antonyms": [
       "Scheduled maintenance",
       "Outage"
-    ]
+    ],
+    "enExample2": "Blue-green deployment strategies achieve zero-downtime updates by routing live traffic between parallel production clusters.",
+    "taExample2": "ப்ளூ-கிரீன் வெளியீட்டு முறைகள் நேரலை போக்குவரத்தை மாற்றுவதன் மூலம் பூஜ்ஜிய முடக்க நேர (Zero-Downtime) புதுப்பிப்புகளை அடைகின்றன."
   },
   {
     "id": 2753,
@@ -213,7 +235,9 @@
     "antonyms": [
       "maintenance outage",
       "cold restart downtime"
-    ]
+    ],
+    "enExample2": "Kubernetes rolling updates execute zero-downtime deployments by replacing old container pods one by one seamlessly.",
+    "taExample2": "குபெர்னெட்டீஸ் ரோலிங் புதுப்பிப்புகள் பழைய கொள்கலன்களை ஒவ்வொன்றாக மாற்றுவதன் மூலம் தடையற்ற பூஜ்ஜிய முடக்க வெளியீட்டை (Zero-Downtime Deployment) செய்கின்றன."
   },
   {
     "id": 2612,
@@ -231,7 +255,9 @@
       "Garbage padding",
       "Sign extension",
       "Random bit fill"
-    ]
+    ],
+    "enExample2": "The unsigned right shift operator (>>>) performs zero-fill right shifting across 32-bit binary integers in JavaScript.",
+    "taExample2": "ஜாவாஸ்கிரிப்ட்டில் '>>>' செயற்குறி 32-பிட் பைனரி எண்களில் பூஜ்ஜிய நிரப்பல் வலது மாற்றத்தை (Zero-Fill) செய்கிறது."
   },
   {
     "id": 2615,
@@ -247,7 +273,9 @@
     ],
     "antonyms": [
       "Plaintext disclosure"
-    ]
+    ],
+    "enExample2": "Zero-knowledge proofs allow a client to verify identity mathematically without transmitting the underlying secret password.",
+    "taExample2": "பூஜ்ஜிய அறிவு சான்றுகள் (Zero-Knowledge Proofs) உண்மையான கடவுச்சொல்லை அனுப்பாமலேயே அடையாளத்தை கணித ரீதியாக சரிபார்க்க அனுமதிக்கின்றன."
   },
   {
     "id": 2831,
@@ -264,7 +292,9 @@
     "antonyms": [
       "Few-shot prompting",
       "In-context learning with examples"
-    ]
+    ],
+    "enExample2": "Zero-shot prompting instructs the LLM to classify user sentiment accurately without providing any prior reference examples.",
+    "taExample2": "எந்த முன் உதாரணங்களையும் வழங்காமல் பயனர் உணர்வை துல்லியமாக வகைப்படுத்த AI மாதிரிக்கு பூஜ்ஜிய-ஷாட் ப்ராம்ப்டிங் (Zero-Shot Prompting) வழிகாட்டுகிறது."
   },
   {
     "id": 2603,
@@ -281,7 +311,9 @@
     "antonyms": [
       "Implicit trust",
       "Perimeter security"
-    ]
+    ],
+    "enExample2": "A zero-trust architecture requires continuous mutual authentication for every internal microservice network call.",
+    "taExample2": "ஜீரோ-ட்ரஸ்ட் (Zero-Trust) கட்டமைப்பு ஒவ்வொரு உள்நாட்டு சேவை அழைப்புக்கும் தொடர்ச்சியான பரஸ்பர அங்கீகாரத்தை கட்டாயமாக்குகிறது."
   },
   {
     "id": 2752,
@@ -299,7 +331,9 @@
     "antonyms": [
       "implicit trust",
       "castle-and-moat perimeter"
-    ]
+    ],
+    "enExample2": "Implementing a Zero-Trust Architecture ensures that internal network traffic is verified with the same rigor as public internet traffic.",
+    "taExample2": "ஜீரோ-ட்ரஸ்ட் கட்டமைப்பை (Zero-Trust Architecture) செயல்படுத்துவது உள்நாட்டு போக்குவரத்தும் பொது இணையத்தைப் போலவே கடுமையான சரிபார்ப்பிற்கு உட்படுவதை உறுதி செய்கிறது."
   },
   {
     "id": 2606,
@@ -317,7 +351,9 @@
       "Single bit",
       "Kilobyte",
       "Megabyte"
-    ]
+    ],
+    "enExample2": "Global annual internet data traffic has already surpassed multiple zettabytes per year.",
+    "taExample2": "உலகளாவிய வருடாந்திர இணைய தரவு போக்குவரத்து ஏற்கனவே ஆண்டுக்கு பல ஜெட்டாபைட்டுகளைத் (Zettabytes) தாண்டியுள்ளது."
   },
   {
     "id": 2605,
@@ -333,7 +369,9 @@
     ],
     "antonyms": [
       "Uncompressed folder"
-    ]
+    ],
+    "enExample2": "The CI pipeline bundles all compiled distribution artifacts into a single compressed zip file for deployment.",
+    "taExample2": "வெளியீட்டு அமைப்பு அனைத்து தொகுக்கப்பட்ட தயாரிப்புக் கோப்புகளையும் ஒரு சுருக்கப்பட்ட zip கோப்பாக இணைக்கிறது."
   },
   {
     "id": 2614,
@@ -350,7 +388,9 @@
     "antonyms": [
       "Raw uncompressed stream",
       "Lossy compression"
-    ]
+    ],
+    "enExample2": "Node.js utilizes the native zlib library to provide high-speed gzip and deflate compression streams.",
+    "taExample2": "Node.js அதிவேக gzip மற்றும் deflate சுருக்குதல் ஓட்டங்களை வழங்க உள்ளமைக்கப்பட்ட zlib நூலகத்தைப் பயன்படுத்துகிறது."
   },
   {
     "id": 2607,
@@ -366,7 +406,9 @@
     ],
     "antonyms": [
       "Active process"
-    ]
+    ],
+    "enExample2": "A zombie process remains in the operating system process table after termination until its parent reads its exit code.",
+    "taExample2": "ஒரு ஜாம்பி செயல்முறை (Zombie Process) முடிந்த பிறகும் முதன்மை செயல்முறை அதன் முடிவை வாசிக்கும் வரை இயக்க முறைமை அட்டவணையில் நீடிக்கிறது."
   },
   {
     "id": 2608,
@@ -385,7 +427,9 @@
       "Global cloud cluster",
       "Universal datacenter",
       "Edge network"
-    ]
+    ],
+    "enExample2": "Deploying microservices across multiple availability zones prevents regional datacenter power failures from taking down the app.",
+    "taExample2": "பல கிடைக்கும் மண்டலங்களில் (Zones) சேவைகளை வரிசைப்படுத்துவது பிராந்திய தரவு மைய முடக்கங்கள் பயன்பாட்டை செயலிழக்கச் செய்வதைத் தடுக்கிறது."
   },
   {
     "id": 2609,
@@ -402,6 +446,8 @@
     "antonyms": [
       "Decentralized peer-to-peer gossip",
       "Leaderless mesh network"
-    ]
+    ],
+    "enExample2": "Apache ZooKeeper provides high-availability distributed configuration coordination and leader election for Kafka clusters.",
+    "taExample2": "அப்பாச்சி ஜூக்கீப்பர் (ZooKeeper) விநியோகிக்கப்பட்ட கட்டமைப்பு ஒருங்கிணைப்பு மற்றும் தலைவர் தேர்தலை வழங்குகிறது."
   }
 ]

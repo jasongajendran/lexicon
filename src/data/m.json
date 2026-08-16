@@ -18,7 +18,9 @@
       "Transparency",
       "Fair play",
       "Candor"
-    ]
+    ],
+    "enExample2": "The internal audit revealed a rival vendor's secret machination to undermine the open bidding process.",
+    "taExample2": "வெளிப்படையான ஏல நடைமுறையை சீர்குலைக்க போட்டி நிறுவனம் மேற்கொண்ட ரகசிய சதித்திட்டத்தை உள்நாட்டு தணிக்கை அம்பலப்படுத்தியது."
   },
   {
     "id": 1301,
@@ -37,7 +39,9 @@
       "Micro-management",
       "Manual execution",
       "Single step"
-    ]
+    ],
+    "enExample2": "Rust macros allow developers to generate repetitive boilerplate code at compile-time with full type safety.",
+    "taExample2": "ரஸ்ட் மேக்ரோக்கள் (Macros) முழுமையான வகை பாதுகாப்புடன் தொகுக்கும் நேரத்தில் மாதிரி குறியீடுகளை உருவாக்க அனுமதிக்கின்றன."
   },
   {
     "id": 1316,
@@ -55,7 +59,9 @@
     "antonyms": [
       "Mean-spirited",
       "Selfish"
-    ]
+    ],
+    "enExample2": "The open-source creator was magnanimous in welcoming former critics as core library maintainers.",
+    "taExample2": "திறந்த மூல உருவாக்குநர் முந்தைய விமர்சகர்களை முதன்மை பராமரிப்பாளர்களாக பெருந்தன்மையுடன் வரவேற்றார்."
   },
   {
     "id": 2630,
@@ -72,6 +78,29 @@
     "antonyms": [
       "Background player",
       "Wallflower"
+    ],
+    "enExample2": "The lead designer acted like the main character during the all-hands meeting, taking sole credit for the launch.",
+    "taExample2": "பொதுக் கூட்டத்தின் போது முதன்மை வடிவமைப்பாளர் வெளியீட்டின் முழு பெருமையையும் தானே எடுத்துக்கொண்டு செயல்பட்டார்."
+  },
+  {
+    "id": 3366,
+    "word": "main-character",
+    "pos": "adjective",
+    "definition": "Trending phrase describing behavior where someone acts like the central hero of their surroundings.",
+    "taWord": "கதாநாயக மனப்பான்மை (சுய முக்கியத்துவம்)",
+    "enExample": "The speaker brought a humorous main-character energy to the developer conference keynote.",
+    "taExample": "பேச்சாளர் மாநாட்டின் சிறப்பு உரையில் நகைச்சுவையான கதாநாயக மனப்பான்மையை வெளிப்படுத்தினார்.",
+    "enExample2": "Social media videos popularizing main-character aesthetics encourage users to romanticize daily life.",
+    "taExample2": "சுய முக்கியத்துவ காணொளிகள் சமூக ஊடகங்களில் மக்கள் தங்கள் அன்றாட வாழ்க்கையை ரசித்து வாழ ஊக்கமளிக்கின்றன.",
+    "synonyms": [
+      "self-centered",
+      "protagonist mindset",
+      "charismatic"
+    ],
+    "antonyms": [
+      "self-effacing",
+      "modest",
+      "unobtrusive"
     ]
   },
   {
@@ -89,7 +118,9 @@
     "antonyms": [
       "Microcomputer",
       "Mobile device"
-    ]
+    ],
+    "enExample2": "The legacy banking network still relies on an IBM mainframe for batch transaction settlement every midnight.",
+    "taExample2": "பழைய வங்கி வலையமைப்பு நள்ளிரவு பரிவர்த்தனை பணிகளுக்கு இன்னும் IBM மெயின்பிரேம் (Mainframe) கணினியை நம்பியுள்ளது."
   },
   {
     "id": 1303,
@@ -106,7 +137,9 @@
     "antonyms": [
       "Fragility",
       "Rigidity"
-    ]
+    ],
+    "enExample2": "Writing modular components and comprehensive unit tests improves long-term codebase maintainability.",
+    "taExample2": "தனித்தனி கூறுகள் மற்றும் முழுமையான சோதனைகளை எழுதுவது மென்பொருள் குறியீட்டின் நீண்டகால பராமரிப்புத் திறனை (Maintainability) மேம்படுத்துகிறது."
   },
   {
     "id": 2883,
@@ -127,7 +160,9 @@
       "Integrity",
       "Uprightness",
       "Rectitude"
-    ]
+    ],
+    "enExample2": "An independent investigation was launched following reports of corporate malfeasance and insider trading.",
+    "taExample2": "நிறுவன முறைகேடு மற்றும் உள் வர்த்தக புகார்களைத் தொடர்ந்து ஒரு சுயாதீன விசாரணை தொடங்கப்பட்டது."
   },
   {
     "id": 1317,
@@ -145,7 +180,9 @@
     "antonyms": [
       "Intractable",
       "Rigid"
-    ]
+    ],
+    "enExample2": "JSON documents provide a malleable data model that easily accommodates evolving schema attributes.",
+    "taExample2": "JSON ஆவணங்கள் மாறும் பண்புகளுக்கு எளிதில் தகவமைக்கக்கூடிய ஒரு நெகிழ்வான (Malleable) தரவு மாதிரியை வழங்குகின்றன."
   },
   {
     "id": 2803,
@@ -163,7 +200,9 @@
     "antonyms": [
       "End-to-end encryption",
       "Mutual TLS validation"
-    ]
+    ],
+    "enExample2": "Enforcing strict HTTPS encryption with HTTP Strict Transport Security protects users from Man-in-the-Middle attacks.",
+    "taExample2": "கடுமையான HTTPS குறியாக்கத்தை அமல்படுத்துவது பயனர்களை இடைமறிப்புத் தாக்குதல்களிலிருந்து (Man-in-the-Middle) பாதுகாக்கிறது."
   },
   {
     "id": 2884,
@@ -184,7 +223,9 @@
       "Refusal",
       "Disapproval",
       "Nullification"
-    ]
+    ],
+    "enExample2": "Executive leadership issued a security mandate requiring two-factor authentication for all internal tools.",
+    "taExample2": "அனைத்து உள்நாட்டு கருவிகளுக்கும் இருபடி அங்கீகாரத்தைக் கட்டாயமாக்கும் பாதுகாப்பு உத்தரவை (Mandate) நிர்வாகம் பிறப்பித்தது."
   },
   {
     "id": 1304,
@@ -201,6 +242,29 @@
     "antonyms": [
       "Dynamic runtime discovery",
       "Implicit auto-configuration"
+    ],
+    "enExample2": "The Kubernetes deployment manifest declares container resource limits, replica counts, and health probes.",
+    "taExample2": "குபெர்னெட்டீஸ் வரிசைப்படுத்தல் ஆவணம் (Manifest) கொள்கலன் வரம்புகள், பிரதிகள் மற்றும் சுகாதார ஆய்வுகளை அறிவிக்கிறது."
+  },
+  {
+    "id": 3367,
+    "word": "manifesto",
+    "pos": "noun",
+    "definition": "A public declaration of motives, principles, or intentions by an organization or movement.",
+    "taWord": "கொள்கைப் பிரகடனம் (அறிக்கை)",
+    "enExample": "The Agile Software Development Manifesto revolutionized how modern software engineering teams ship code.",
+    "taExample": "அஜைல் மென்பொருள் கொள்கைப் பிரகடனம் நவீன என்ஜினீயரிங் குழுக்கள் வேலை செய்யும் முறையை மாற்றியமைத்தது.",
+    "enExample2": "Political parties publish detailed election manifestos outlining their public spending proposals.",
+    "taExample2": "அரசியல் கட்சிகள் தங்களின் மக்கள் செலவின முன்மொழிவுகளைக் கோடிட்டுக் காட்டும் தேர்தல் அறிக்கைகளை வெளியிடுகின்றன.",
+    "synonyms": [
+      "proclamation",
+      "creed",
+      "declaration",
+      "policy statement"
+    ],
+    "antonyms": [
+      "secret agenda",
+      "concealment"
     ]
   },
   {
@@ -221,7 +285,9 @@
       "Misalignment",
       "Randomness",
       "Chaos"
-    ]
+    ],
+    "enExample2": "Object-relational mapping translates database rows into typed JavaScript classes automatically.",
+    "taExample2": "ஆப்ஜெக்ட்-ரிலேஷனல் மேப்பிங் (Mapping) தரவுத்தள வரிசைகளை தானாகவே ஜாவாஸ்கிரிப்ட் வகைகளாக மாற்றுகிறது."
   },
   {
     "id": 1306,
@@ -238,7 +304,9 @@
     ],
     "antonyms": [
       "Padding"
-    ]
+    ],
+    "enExample2": "Tailwind utility classes allow developers to adjust outer margin spacing without writing custom CSS.",
+    "taExample2": "Tailwind பயன்பாட்டு வகுப்புகள் உருவாக்குநர்கள் தனிப்பயன் CSS இல்லாமல் வெளிப்புற இடைவெளி விளிம்பை (Margin) சரிசெய்ய அனுமதிக்கின்றன."
   },
   {
     "id": 2732,
@@ -257,7 +325,9 @@
       "unmarshaling",
       "deserialization",
       "decoding"
-    ]
+    ],
+    "enExample2": "The network layer handles the marshaling of in-memory data structures into a binary byte stream for transmission.",
+    "taExample2": "நெட்வொர்க் அடுக்கு பரிமாற்றத்திற்காக நினைவக தரவுகளை பைனரி ஸ்ட்ரீமாக மாற்றும் பணியை (Marshaling) கையாள்கிறது."
   },
   {
     "id": 1307,
@@ -274,7 +344,9 @@
     "antonyms": [
       "Unmarshalling",
       "Deserialization"
-    ]
+    ],
+    "enExample2": "Efficient data marshalling reduces serialization CPU overhead in high-frequency trading platforms.",
+    "taExample2": "திறமையான தரவு மாற்றமைப்பு (Marshalling) அதிவேக வர்த்தக தளங்களில் CPU சுமையைக் குறைக்கிறது."
   },
   {
     "id": 2885,
@@ -294,7 +366,9 @@
       "Apostasy",
       "Cowardice",
       "Survival"
-    ]
+    ],
+    "enExample2": "Working eighty-hour weeks without vacation is unnecessary martyrdom that leads directly to developer burnout.",
+    "taExample2": "விடுமுறையின்றி வாரத்திற்கு எண்பது மணி நேரம் உழைப்பது பொறியாளர்களை மன அழுத்தத்தில் ஆழ்த்தும் தேவையற்ற தியாகமாகும்."
   },
   {
     "id": 1308,
@@ -313,7 +387,9 @@
       "Scalar",
       "Single value",
       "One-dimensional array"
-    ]
+    ],
+    "enExample2": "The test matrix verified browser compatibility across Chrome, Safari, Edge, and Firefox across mobile and desktop.",
+    "taExample2": "சோதனை அட்டவணை (Matrix) மொபைல் மற்றும் டெஸ்க்டாப்பில் அனைத்து முக்கிய உலாவிகளிலும் பயன்பாட்டு இணக்கத்தன்மையை சரிபார்த்தது."
   },
   {
     "id": 3114,
@@ -334,7 +410,9 @@
       "Conformist",
       "Follower",
       "Traditionalist"
-    ]
+    ],
+    "enExample2": "The maverick engineer ignored established conventions to prototype a radically faster distributed file system.",
+    "taExample2": "வழக்கமான மரபுகளைப் புறக்கணித்து அந்த தனித்துவமான பொறியாளர் அதிவேக கோப்பு முறைமை முன்மாதிரியை உருவாக்கினார்."
   },
   {
     "id": 1309,
@@ -353,7 +431,9 @@
       "Extreme",
       "Anomaly",
       "Fringe"
-    ]
+    ],
+    "enExample2": "Engineers monitor median response time (p50) alongside tail latencies (p99) to measure user experience accurately.",
+    "taExample2": "பயனர் அனுபவத்தைத் துல்லியமாக அளவிட பொறியாளர்கள் சராசரி நடுநிலை நேரத்தை (Median) உச்ச தாமதங்களுடன் கண்காணிக்கின்றனர்."
   },
   {
     "id": 1310,
@@ -371,7 +451,9 @@
       "Redundant calculation",
       "Re-computation",
       "Inefficiency"
-    ]
+    ],
+    "enExample2": "React useMemo uses memoization to avoid re-executing expensive mathematical calculations on every render.",
+    "taExample2": "ஒவ்வொரு திரை புதுப்பித்தலின் போதும் கடினமான கணக்கீடுகளை மீண்டும் செய்வதைத் தவிர்க்க React useMemo நினைவாக்கத்தைப் (Memoization) பயன்படுத்துகிறது."
   },
   {
     "id": 1311,
@@ -391,7 +473,9 @@
       "Disk space",
       "Amnesia",
       "Forgetting"
-    ]
+    ],
+    "enExample2": "A persistent leak in the cache map gradually consumed all available heap memory, causing the server to crash.",
+    "taExample2": "தற்காலிக சேமிப்பில் ஏற்பட்ட தொடர் கசிவு அனைத்து நினைவகத்தையும் (Memory) விழுங்கி சேவையகத்தை முடக்கியது."
   },
   {
     "id": 3115,
@@ -413,7 +497,9 @@
       "Truthful",
       "Honest",
       "Frank"
-    ]
+    ],
+    "enExample2": "The vendor made mendacious uptime claims that were quickly disproved by independent monitoring logs.",
+    "taExample2": "நிறுவனம் கூறிய பொய்யான சேவை உத்தரவாதங்கள் வெளிப்புற கண்காணிப்பு பதிவுகளால் விரைவாக மறுக்கப்பட்டன."
   },
   {
     "id": 3116,
@@ -435,7 +521,9 @@
       "Constant",
       "Steady",
       "Predictable"
-    ]
+    ],
+    "enExample2": "Navigating mercurial product requirements requires an agile architecture designed for rapid iteration.",
+    "taExample2": "அடிக்கடி மாறும் கணிக்க முடியாத தயாரிப்புத் தேவைகளைக் கையாள விரைவான மாற்றங்களுக்கு ஏற்ற கட்டமைப்பு தேவைப்படுகிறது."
   },
   {
     "id": 1312,
@@ -454,7 +542,9 @@
       "Branch",
       "Split",
       "Separate"
-    ]
+    ],
+    "enExample2": "The lead maintainer approved the pull request to merge the performance optimizations into the main branch.",
+    "taExample2": "செயல்திறன் மேம்பாடுகளை முதன்மைக் கிளையுடன் இணைக்க (Merge) முதன்மை பராமரிப்பாளர் ஒப்புதல் அளித்தார்."
   },
   {
     "id": 1313,
@@ -473,7 +563,9 @@
       "Payload content",
       "Primary body data",
       "Raw byte array"
-    ]
+    ],
+    "enExample2": "Image files store EXIF metadata including camera aperture, timestamp, and geolocation coordinates.",
+    "taExample2": "படக் கோப்புகள் கேமரா அமைப்புகள், நேரம் மற்றும் இருப்பிடத் தகவல்கள் போன்ற கூடுதல் தரவை (Metadata) சேமிக்கின்றன."
   },
   {
     "id": 1314,
@@ -493,7 +585,9 @@
       "Disorder",
       "Guesswork",
       "Randomness"
-    ]
+    ],
+    "enExample2": "The REST API exposes a GET method to fetch user profile information securely.",
+    "taExample2": "REST API பயனர் சுயவிவரத் தகவல்களைப் பாதுகாப்பாகப் பெற GET முறையை (Method) வழங்குகிறது."
   },
   {
     "id": 2991,
@@ -515,6 +609,29 @@
       "Sloppy",
       "Negligent",
       "Inaccurate"
+    ],
+    "enExample2": "His meticulous attention to schema validation prevented malformed payloads from corrupting the database.",
+    "taExample2": "தரவு சரிபார்ப்பில் அவரது அதீத கவனமான அணுகுமுறை தவறான கோரிக்கைகள் தரவுத்தளத்தை சேதப்படுத்துவதைத் தடுத்தது."
+  },
+  {
+    "id": 3368,
+    "word": "microaggression",
+    "pos": "noun",
+    "definition": "A statement, action, or incident regarded as subtle, indirect, or unintentional prejudice.",
+    "taWord": "நுட்பமான அவமதிப்பு (மறைமுகப் புறக்கணிப்பு)",
+    "enExample": "Dismissing a developer question as trivial during public sprint demos can be perceived as a microaggression.",
+    "taExample": "பொதுக் கூட்டத்தில் ஒரு பொறியாளரின் கேள்வியை அலட்சியப்படுத்துவது நுட்பமான அவமதிப்பாகக் கருதப்படலாம்.",
+    "enExample2": "Human resource workshops train corporate leaders to recognize and eliminate workplace microaggressions.",
+    "taExample2": "பணியிடத்தில் ஏற்படும் மறைமுகப் புறக்கணிப்புகளை அடையாளம் கண்டு அகற்ற மனிதவளப் பயிலரங்குகள் பயிற்சி அளிக்கின்றன.",
+    "synonyms": [
+      "subtle insult",
+      "indirect slight",
+      "implicit bias"
+    ],
+    "antonyms": [
+      "affirmation",
+      "validation",
+      "inclusion"
     ]
   },
   {
@@ -531,7 +648,9 @@
     ],
     "antonyms": [
       "Monolith"
-    ]
+    ],
+    "enExample2": "Decomposing the monolith into independently deployable microservices allowed teams to scale services separately.",
+    "taExample2": "ஒற்றை அமைப்பை தனித்தனி நுண்சேவைகளாகப் (Microservices) பிரித்தது குழுக்கள் சேவைகளை சுதந்திரமாக அளவிட அனுமதித்தது."
   },
   {
     "id": 2633,
@@ -550,7 +669,9 @@
       "Outstanding",
       "Goated",
       "Exceptional"
-    ]
+    ],
+    "enExample2": "The performance of the newly hyped database turned out to be fairly mid compared to existing solutions.",
+    "taExample2": "மிகவும் விளம்பரப்படுத்தப்பட்ட அந்த புதிய தரவுத்தளத்தின் செயல்திறன் ஏற்கனவே உள்ள தீர்வுகளுடன் ஒப்பிடுகையில் சுமாரானதாகவே (Mid) இருந்தது."
   },
   {
     "id": 1315,
@@ -568,6 +689,30 @@
       "Direct route handler",
       "Kernel core",
       "End client UI"
+    ],
+    "enExample2": "Express middleware intercepts incoming requests to perform authentication checks and parse JSON request bodies.",
+    "taExample2": "எக்ஸ்பிரஸ் இடைநிலை மென்பொருள் (Middleware) உள்வரும் கோரிக்கைகளை இடைமறித்து அங்கீகாரத்தைச் சரிபார்க்கிறது."
+  },
+  {
+    "id": 3369,
+    "word": "misinformation",
+    "pos": "noun",
+    "definition": "False or inaccurate information that is spread regardless of whether there is intent to deceive.",
+    "taWord": "தவறான செய்தி (தவறான தகவல்)",
+    "enExample": "Outdated documentation spreads technical misinformation among junior engineers learning the codebase.",
+    "taExample": "பழைய மென்பொருள் ஆவணங்கள் புதிய பொறியாளர்களிடையே தவறான தொழில்நுட்பத் தகவல்களைப் பரப்புகின்றன.",
+    "enExample2": "News broadcasting networks implemented AI verification tools to combat viral political misinformation.",
+    "taExample2": "செய்தி நிறுவனங்கள் பரவி வரும் தவறான அரசியல் தகவல்களைத் தடுக்க ஏஐ சரிபார்ப்புக் கருவிகளைப் பயன்படுத்தின.",
+    "synonyms": [
+      "disinformation",
+      "falsehood",
+      "untruth",
+      "fake news"
+    ],
+    "antonyms": [
+      "truth",
+      "verified fact",
+      "accuracy"
     ]
   },
   {
@@ -586,7 +731,9 @@
     "antonyms": [
       "Aggravate",
       "Intensify"
-    ]
+    ],
+    "enExample2": "Deploying a global content delivery network helped mitigate latency spikes for international users.",
+    "taExample2": "உலகளாவிய உள்ளடக்க விநியோக வலையமைப்பை நிறுவியது சர்வதேச பயனர்களுக்கான தாமத உயர்வைத் தணிக்க (Mitigate) உதவியது."
   },
   {
     "id": 2702,
@@ -604,7 +751,9 @@
     "antonyms": [
       "Real integration",
       "Live endpoint"
-    ]
+    ],
+    "enExample2": "Mocking the third-party payment gateway enables fast, deterministic automated test execution.",
+    "taExample2": "வெளிப்புற கட்டண நுழைவாயிலை போலியாக மாற்றுவது (Mocking) வேகமான, நம்பகமான தானியங்கி சோதனையை செயல்படுத்துகிறது."
   },
   {
     "id": 3117,
@@ -626,7 +775,9 @@
       "Infuriate",
       "Aggravate",
       "Provoke"
-    ]
+    ],
+    "enExample2": "The company offered service credits to mollify customers frustrated by the unexpected cloud outage.",
+    "taExample2": "எதிர்பாராத கிளவுட் முடக்கத்தால் விரக்தியடைந்த வாடிக்கையாளர்களை அமைதிப்படுத்த நிறுவனம் கட்டணக் கழிவுகளை வழங்கியது."
   },
   {
     "id": 3073,
@@ -648,7 +799,9 @@
       "Inconsequential",
       "Insignificant",
       "Negligible"
-    ]
+    ],
+    "enExample2": "Decommissioning the last legacy physical datacenter was a momentous milestone for the infrastructure team.",
+    "taExample2": "கடைசி பழைய தரவு மையத்தை மூடியது உட்கட்டமைப்புக் குழுவிற்கு ஒரு வரலாற்றுச் சிறப்புமிக்க (Momentous) மைல்கல்லாக அமைந்தது."
   },
   {
     "id": 2695,
@@ -665,7 +818,9 @@
     "antonyms": [
       "Microservices",
       "Serverless"
-    ]
+    ],
+    "enExample2": "The startup began with a modular Ruby on Rails monolith before scaling out to distributed microservices.",
+    "taExample2": "அந்த புத்தொழில் நிறுவனம் நுண்சேவைகளுக்கு மாறுவதற்கு முன் ஒரு ஒற்றை (Monolith) மென்பொருள் கட்டமைப்பில் தொடங்கியது."
   },
   {
     "id": 2730,
@@ -684,7 +839,9 @@
       "multi-repo",
       "polyrepo",
       "isolated repositories"
-    ]
+    ],
+    "enExample2": "Using a monorepo allows frontend and backend packages to share common TypeScript types and lint configurations.",
+    "taExample2": "ஒற்றைக் களஞ்சியத்தைப் (Monorepo) பயன்படுத்துவது முன்னணி மற்றும் பின்தள திட்டங்கள் பொதுவான வகைகளைப் பகிர அனுமதிக்கிறது."
   },
   {
     "id": 2886,
@@ -705,6 +862,29 @@
       "Resumption",
       "Acceleration",
       "Perpetuation"
+    ],
+    "enExample2": "Management declared a code freeze moratorium on non-critical releases throughout the December holiday shopping peak.",
+    "taExample2": "டிசம்பர் பண்டிகை கால விற்பனை முழுவதும் தேவையற்ற மென்பொருள் வெளியீடுகளுக்கு நிர்வாகம் தற்காலிகத் தடை விதித்தது."
+  },
+  {
+    "id": 3220,
+    "word": "Morphology",
+    "pos": "Noun",
+    "definition": "The study of structural forms, patterns, and organization in code bases, linguistics, or systems.",
+    "taWord": "வடிவமைப்பியல் (Vadivamaippiyal)",
+    "enExample": "Analyzing the morphology of user queries helped improve our natural language search algorithms.",
+    "taExample": "பயனர் வினவல்களின் வடிவமைப்பியலை பகுப்பாய்வு செய்வது எங்கள் இயற்கை மொழி தேடல் அல்காரிதம்களை மேம்படுத்த உதவியது.",
+    "enExample2": "The morphology of modular software architectures emphasizes loose coupling and high cohesion.",
+    "taExample2": "மாடுலார் மென்பொருள் கட்டிடக்கலைகளின் வடிவமைப்பியல் தளர்வான இணைப்பு மற்றும் அதிக ஒத்திசைவை வலியுறுத்துகிறது.",
+    "synonyms": [
+      "structure",
+      "anatomy",
+      "formation",
+      "framework"
+    ],
+    "antonyms": [
+      "disorganization",
+      "shapelessness"
     ]
   },
   {
@@ -723,7 +903,9 @@
     "antonyms": [
       "Stagnate",
       "Have zero effect"
-    ]
+    ],
+    "enExample2": "Refactoring the entire backend framework was a heavy effort that ultimately failed to move the needle on user retention.",
+    "taExample2": "பின்தளத்தை முழுமையாக மாற்றியமைத்தது பயனர்களைத் தக்கவைப்பதில் எந்தவொரு குறிப்பிடத்தக்க முன்னேற்றத்தையும் ஏற்படுத்தவில்லை."
   },
   {
     "id": 2802,
@@ -741,7 +923,9 @@
     "antonyms": [
       "Silent unspotted failure",
       "Delayed alert"
-    ]
+    ],
+    "enExample2": "Automated anomaly alerts reduced our Mean Time to Detect (MTTD) down to under sixty seconds.",
+    "taExample2": "தானியங்கி முரண்பாட்டு எச்சரிக்கைகள் எங்கள் சராசரி கண்டறியும் நேரத்தை (MTTD) அறுபது விநாடிகளுக்குள் குறைத்தன."
   },
   {
     "id": 2801,
@@ -759,7 +943,9 @@
     "antonyms": [
       "Extended downtime",
       "Prolonged outage"
-    ]
+    ],
+    "enExample2": "Automated rollback pipelines cut the Mean Time to Recovery (MTTR) by more than seventy percent.",
+    "taExample2": "தானியங்கி மீட்டெடுப்பு அமைப்புகள் சராசரி மீட்பு நேரத்தை (MTTR) எழுபது சதவீதத்திற்கும் அதிகமாகக் குறைத்தன."
   },
   {
     "id": 2731,
@@ -778,6 +964,30 @@
       "single-tenant",
       "dedicated hosting",
       "isolated instance"
+    ],
+    "enExample2": "Database multitenancy with tenant-isolated row schemas ensures strict enterprise customer data segregation.",
+    "taExample2": "பயனர் தனிமைப்படுத்தப்பட்ட தரவுத்தள பகிர்வு (Multitenancy) வாடிக்கையாளர் தரவின் கடுமையான பிரிப்பை உறுதி செய்கிறது."
+  },
+  {
+    "id": 3226,
+    "word": "Mundane",
+    "pos": "Adjective",
+    "definition": "Lacking interest or excitement; dull routine administrative or operational duties.",
+    "taWord": "சாதாரண/அன்றாட (Saathaarana/andraada)",
+    "enExample": "Automating mundane server maintenance scripts freed engineers to build innovative features.",
+    "taExample": "சாதாரண சேவையக பராமரிப்பு ஸ்கிரிப்ட்களை தானியங்குபடுத்துவது பொறியையாளர்களுக்கு புதுமையான அம்சங்களை உருவாக்க நேரத்தை அளித்தது.",
+    "enExample2": "AI tools excel at handling mundane data entry and log categorization tasks.",
+    "taExample2": "AI கருவிகள் சாதாரண தரவு உள்ளீடு மற்றும் பதிவு வகைப்படுத்தல் பணிகளைக்ையாள்வதில் சிறந்து விளங்குகின்றன.",
+    "synonyms": [
+      "routine",
+      "prosaic",
+      "humdrum",
+      "ordinary"
+    ],
+    "antonyms": [
+      "extraordinary",
+      "exciting",
+      "exotic"
     ]
   },
   {
@@ -800,7 +1010,9 @@
       "Stingy",
       "Miserly",
       "Niggardly"
-    ]
+    ],
+    "enExample2": "The tech foundation provided a munificent grant to fund continuous development of the open-source compiler.",
+    "taExample2": "திறந்த மூல தொகுப்பியின் தொடர் வளர்ச்சிக்காக தொழில்நுட்ப அறக்கட்டளை ஒரு தாராளமான நிதி உதவியை வழங்கியது."
   },
   {
     "id": 2703,
@@ -818,7 +1030,9 @@
     "antonyms": [
       "Immutability",
       "Constancy"
-    ]
+    ],
+    "enExample2": "In GraphQL, clients execute a mutation to create, update, or delete records on the backend server.",
+    "taExample2": "GraphQL-ல் பின்தளத்தில் தரவை உருவாக்க, மாற்ற அல்லது நீக்க பயனர்கள் உருமாற்றத்தை (Mutation) இயக்குகிறார்கள்."
   },
   {
     "id": 2729,
@@ -836,7 +1050,9 @@
     "antonyms": [
       "race condition",
       "unlocked concurrency"
-    ]
+    ],
+    "enExample2": "Acquiring a mutex before modifying shared memory buffers prevents concurrent thread data corruption.",
+    "taExample2": "பகிரப்பட்ட நினைவகத்தை மாற்றும் முன் ஒரு மியூடெக்ஸைப் (Mutex) பெறுவது ஒரே நேர நூல் தரவு சேதத்தைத் தடுக்கிறது."
   },
   {
     "id": 3119,
@@ -858,6 +1074,8 @@
       "Few",
       "Scarcity",
       "Dearth"
-    ]
+    ],
+    "enExample2": "The cloud platform provides a myriad of managed services, ranging from serverless compute to vector databases.",
+    "taExample2": "கிளவுட் தளம் சர்வர்லெஸ் கணினிகள் முதல் வெக்டர் தரவுத்தளங்கள் வரை எண்ணற்ற (Myriad) மேலாண்மை சேவைகளை வழங்குகிறது."
   }
 ]

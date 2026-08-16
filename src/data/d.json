@@ -1,5 +1,27 @@
 [
   {
+    "id": 3318,
+    "word": "Daft",
+    "pos": "Adjective",
+    "definition": "UK and Scottish spoken word meaning silly, foolish, or absurdly impractical.",
+    "taWord": "முட்டாள்தனமான (Muttaalthanamana)",
+    "enExample": "Hardcoding database passwords inside client-side JavaScript is a daft security mistake.",
+    "taExample": "கிளையண்ட் பக்க ஜாவாஸ்கிரிப்டிற்குள் தரவுத்தள கடவுச்சொற்களை வன்குறியீடு செய்வது ஒரு முட்டாள்தனமான பாதுகாப்புத் தவறாகும்.",
+    "enExample2": "It would be daft to deploy un-tested microservices directly to production on Friday evening.",
+    "taExample2": "வெள்ளிக்கிழமை மாலையில் சோதிக்கப்படாத நுண் சேவைகளை நேரடியாக தயாரிப்பிற்குப் பயன்படுத்துவது முட்டாள்தனமாக இருக்கும்.",
+    "synonyms": [
+      "foolish",
+      "silly",
+      "absurd",
+      "senseless"
+    ],
+    "antonyms": [
+      "sensible",
+      "wise",
+      "prudent"
+    ]
+  },
+  {
     "id": 3074,
     "word": "Dampen",
     "pos": "verb",
@@ -19,7 +41,9 @@
       "Intensify",
       "Boost",
       "Heighten"
-    ]
+    ],
+    "enExample2": "The rate limiter helped dampen traffic spikes before they reached the core authentication service.",
+    "taExample2": "கோரிக்கை வரம்பு, போக்குவரத்து உயர்வை முதன்மை அங்கீகார சேவையை அடைவதற்கு முன்பே கட்டுப்படுத்த உதவியது."
   },
   {
     "id": 2776,
@@ -37,6 +61,30 @@
     "antonyms": [
       "Hard launch",
       "Big bang release"
+    ],
+    "enExample2": "By dark launching the recommendation engine, we measured latency impacts without exposing users to UI changes.",
+    "taExample2": "பரிந்துரை இயந்திரத்தை மறைமுகமாக இயக்கியதன் மூலம் (Dark Launching), பயனர்களுக்கு இடையூறு இல்லாமல் செயல்திறன் தாக்கங்களை அளந்தோம்."
+  },
+  {
+    "id": 3215,
+    "word": "De-risk",
+    "pos": "Verb",
+    "definition": "To take early technical actions, build prototypes, or add automated tests to minimize project failure risk.",
+    "taWord": "ஆபத்தைக் குறைத்தல் (Aabathai kuraitthal)",
+    "enExample": "We built a proof-of-concept to de-risk the database migration before executing it in production.",
+    "taExample": "தயாரிப்பில் செயல்படுத்துவதற்கு முன் தரவுத்தள இடப்பெயர்வின் ஆபத்தைக் குறைக்க நாங்கள் ஒரு கருத்துச் சான்றை உருவாக்கினோம்.",
+    "enExample2": "Feature flags help de-risk major frontend UI redesigns by enabling gradual rollouts.",
+    "taExample2": "அம்சக் கொடிகள் படிப்படியான வெளியீடுகளை இயக்குவதன் மூலம் முக்கிய முகப்பு UI மறுவடிவமைப்புகளின் ஆபத்தைக் குறைக்க உதவுகின்றன.",
+    "synonyms": [
+      "mitigate risk",
+      "safeguard",
+      "hedge",
+      "insulate"
+    ],
+    "antonyms": [
+      "endanger",
+      "jeopardize",
+      "expose"
     ]
   },
   {
@@ -55,7 +103,9 @@
     "antonyms": [
       "Active processing queue",
       "Immediate message drop"
-    ]
+    ],
+    "enExample2": "Messages that fail schema validation three consecutive times are routed into a dead letter queue for inspection.",
+    "taExample2": "தொடர்ந்து மூன்று முறை தரவு சரிபார்ப்பில் தோல்வியடையும் செய்திகள் ஆய்வுக்காக முடக்கப்பட்ட செய்தி வரிசைக்கு (Dead Letter Queue) அனுப்பப்படுகின்றன."
   },
   {
     "id": 426,
@@ -73,7 +123,9 @@
     "antonyms": [
       "Abundance",
       "Surplus"
-    ]
+    ],
+    "enExample2": "A critical dearth of senior distributed systems engineers delayed the multi-cloud migration initiative.",
+    "taExample2": "விநியோகிக்கப்பட்ட கணினி நிபுணர்களின் தீவிர பற்றாக்குறை கிளவுட் மாற்றத் திட்டத்தைத் தாமதப்படுத்தியது."
   },
   {
     "id": 2846,
@@ -93,7 +145,9 @@
       "Triumph",
       "Resounding success",
       "Masterpiece"
-    ]
+    ],
+    "enExample2": "A missed environment variable led to a production outage debacle during the high-traffic cyber sale.",
+    "taExample2": "விடுபட்ட சூழல் மாறி ஒன்று விற்பனை உச்ச நேரத்தின் போது உற்பத்தி முடக்கப் பெரும் தோல்விக்கு வழிவகுத்தது."
   },
   {
     "id": 2957,
@@ -114,6 +168,29 @@
       "Invigorate",
       "Fortify",
       "Energize"
+    ],
+    "enExample2": "Unindexed database queries can debilitate an entire server pool by exhausting available connection threads.",
+    "taExample2": "குறியிடப்படாத வினவல்கள் இணைப்பு த்ரெட்களை முழுமையாகப் பயன்படுத்தி ஒட்டுமொத்த சர்வர் தொகுப்பையும் முடக்கக்கூடும்."
+  },
+  {
+    "id": 3201,
+    "word": "Debrief",
+    "pos": "Noun",
+    "definition": "A structured post-project or incident review meeting to analyze outcomes, metrics, and lessons learned.",
+    "taWord": "ஆய்வுக் கூட்டம் (Aayvu kootam)",
+    "enExample": "After resolving the production outage, the engineering team held a debrief to document the root cause.",
+    "taExample": "தயாரிப்பு முடக்கத்தைத் தீர்த்த பிறகு, பொறியியல் குழு மூலக் காரணத்தை ஆவணப்படுத்த ஒரு ஆய்வுக் கூட்டத்தை நடத்தியது.",
+    "enExample2": "The lead architect debriefed the developers on the security compliance audit results.",
+    "taExample2": "முதன்மை கட்டிடக் கலைஞர் பாதுகாப்பு இணக்கத் தணிக்கை முடிவுகள் குறித்து மேம்படுத்துநர்களுக்கு விவரித்தார்.",
+    "synonyms": [
+      "retrospective",
+      "post-mortem",
+      "review",
+      "summary"
+    ],
+    "antonyms": [
+      "pre-planning",
+      "conception"
     ]
   },
   {
@@ -130,7 +207,9 @@
     ],
     "antonyms": [
       "Corrupt"
-    ]
+    ],
+    "enExample2": "Engineers used dynamic tracing tools to debug intermittent WebSocket dropouts in the chat application.",
+    "taExample2": "உரையாடல் பயன்பாட்டில் ஏற்பட்ட அவ்வப்போதைய இணைப்புத் துண்டிப்புகளை பிழைத்திருத்த (Debug) பொறியாளர்கள் ஆய்வுக் கருவிகளைப் பயன்படுத்தினர்."
   },
   {
     "id": 402,
@@ -147,7 +226,9 @@
     "antonyms": [
       "Couple",
       "Integrate"
-    ]
+    ],
+    "enExample2": "Using message brokers allows us to decouple payment processing from the synchronous checkout flow.",
+    "taExample2": "செய்தி இடைத்தரகர்களைப் பயன்படுத்துவது கட்டணச் செயலாக்கத்தை நேரடி செக்அவுட் செயல்முறையிலிருந்து பிரிக்க உதவுகிறது."
   },
   {
     "id": 2964,
@@ -169,7 +250,9 @@
       "Misjudge",
       "Speculate",
       "Disregard"
-    ]
+    ],
+    "enExample2": "From the memory allocation graphs, we were able to deduce the exact function leaking heap memory.",
+    "taExample2": "நினைவக ஒதுக்கீட்டு வரைபடங்களிலிருந்து எந்த செயல்பாடு நினைவகத்தை கசிகிறது என்பதை எங்களால் துல்லியமாகக் கண்டறிய முடிந்தது."
   },
   {
     "id": 2649,
@@ -187,7 +270,9 @@
     "antonyms": [
       "Surface overview",
       "Glance"
-    ]
+    ],
+    "enExample2": "The senior architect led a technical deep dive on migrating our legacy relational tables to graph databases.",
+    "taExample2": "பழைய தரவுத்தளங்களை வரைபடத் தரவுத்தளங்களாக மாற்றுவது குறித்து முதன்மை வடிவமைப்பாளர் விரிவான ஆழமான ஆய்வை மேற்கொண்டார்."
   },
   {
     "id": 2777,
@@ -205,7 +290,9 @@
     "antonyms": [
       "Context switching",
       "Distracted multitasking"
-    ]
+    ],
+    "enExample2": "Scheduling uninterrupted blocks for deep work enabled engineers to solve complex compiler optimization bugs.",
+    "taExample2": "இடையூறுகளற்ற தீவிர கவனப் பணி நேரங்களை ஒதுக்கியது சிக்கலான தொகுப்பிப் பிழைகளைத் தீர்க்க பொறியாளர்களுக்கு உதவியது."
   },
   {
     "id": 403,
@@ -221,7 +308,9 @@
     ],
     "antonyms": [
       "Custom"
-    ]
+    ],
+    "enExample2": "The framework enables strict security headers by default to prevent cross-site scripting vulnerabilities.",
+    "taExample2": "பாதுகாப்புக் குறைபாடுகளைத் தடுக்க இந்த கட்டமைப்பு இயல்பாகவே (Default) கடுமையான பாதுகாப்புத் தலைப்புகளை இயக்குகிறது."
   },
   {
     "id": 404,
@@ -238,7 +327,9 @@
     "antonyms": [
       "Advance",
       "Expedite"
-    ]
+    ],
+    "enExample2": "The browser can defer non-critical JavaScript execution until the main DOM tree finishes rendering.",
+    "taExample2": "முக்கிய DOM மரம் முழுமையாக ஏற்றப்படும் வரை அவசியமற்ற ஜாவாஸ்கிரிப்ட் இயக்கத்தை உலாவி தள்ளிப்போடலாம்."
   },
   {
     "id": 2847,
@@ -259,7 +350,9 @@
       "Submission",
       "Obedience",
       "Surrender"
-    ]
+    ],
+    "enExample2": "In defiance of company-wide coding guidelines, the legacy module bypassed static security analysis.",
+    "taExample2": "நிறுவனத்தின் வழிகாட்டுதல்களை மீறி அந்த பழைய பகுதி நிலையான பாதுகாப்பு ஆய்வைத் தவிர்த்தது."
   },
   {
     "id": 2678,
@@ -277,7 +370,9 @@
     "antonyms": [
       "Incomplete draft",
       "Work in progress"
-    ]
+    ],
+    "enExample2": "Writing unit tests and updating API documentation are mandatory steps in our team's definition of done.",
+    "taExample2": "சோதனைகளை எழுதுவதும் ஆவணங்களைப் புதுப்பிப்பதும் எங்கள் குழுவின் பணி நிறைவு வரையறையில் கட்டாயப் படிகளாகும்."
   },
   {
     "id": 2679,
@@ -294,7 +389,9 @@
     ],
     "antonyms": [
       "Unprepared backlog item"
-    ]
+    ],
+    "enExample2": "A user story must have accepted wireframes and mockups to satisfy the definition of ready for sprint inclusion.",
+    "taExample2": "ஸ்பிரிண்ட்டில் சேர்க்கப்பட ஒரு பயனர் தேவைக்கு முழுமையான வடிவமைப்பு மாதிரிகள் இருப்பது அவசியமாகும்."
   },
   {
     "id": 405,
@@ -310,7 +407,9 @@
     ],
     "antonyms": [
       "Retain"
-    ]
+    ],
+    "enExample2": "The principal engineer chose to delegate cloud provisioning tasks to the junior platform team.",
+    "taExample2": "முதன்மை பொறியாளர் கிளவுட் கட்டமைப்பு பணிகளை இளம் தள பொறியியல் குழுவிடம் ஒப்படைத்தார்."
   },
   {
     "id": 427,
@@ -328,7 +427,9 @@
     "antonyms": [
       "Beneficial",
       "Advantageous"
-    ]
+    ],
+    "enExample2": "Running unindexed wildcard searches produces a deleterious effect on overall database performance.",
+    "taExample2": "முறையான குறியீடற்ற தேடல்களை இயக்குவது ஒட்டுமொத்த தரவுத்தள செயல்திறனில் கடுமையான தீங்கு விளைவிக்கும்."
   },
   {
     "id": 429,
@@ -345,7 +446,9 @@
     "antonyms": [
       "Accidental",
       "Unintentional"
-    ]
+    ],
+    "enExample2": "The architecture council held a deliberate discussion regarding the choice of protocol buffers versus JSON.",
+    "taExample2": "JSON அல்லது புரோட்டோகால் பஃபர்ஸை தேர்ந்தெடுப்பது குறித்து கட்டடக் குழு தீவிர விவாதத்தை நடத்தியது."
   },
   {
     "id": 2981,
@@ -367,7 +470,9 @@
       "Blur",
       "Distort",
       "Confuse"
-    ]
+    ],
+    "enExample2": "The API specification clearly delineates public interfaces from internal implementation details.",
+    "taExample2": "API ஆவணம் பொது இடைமுகங்களை உள்நாட்டு உருவாக்க விவரங்களிலிருந்து மிகத் தெளிவாக வேறுபடுத்திக் காட்டுகிறது."
   },
   {
     "id": 439,
@@ -387,7 +492,9 @@
       "Concept",
       "Work in progress",
       "Intangible asset"
-    ]
+    ],
+    "enExample2": "The primary deliverable for this sprint is a fully functional user authentication service.",
+    "taExample2": "இந்த ஸ்பிரிண்ட்டின் முதன்மை தயாரிப்பு வெளியீடு முழுமையாக செயல்படும் பயனர் அங்கீகார சேவையாகும்."
   },
   {
     "id": 2618,
@@ -406,7 +513,9 @@
       "Pragmatic",
       "Grounded",
       "Realistic"
-    ]
+    ],
+    "enExample2": "Expecting a single server to handle millions of concurrent WebSocket connections without clustering is delulu.",
+    "taExample2": "பல சர்வர்கள் இல்லாமல் ஒரே சர்வரில் மில்லியன் கணக்கான இணைப்புகளை கையாள முடியும் என்று எதிர்பார்ப்பது நடைமுறைக்கு சாத்தியமற்ற மாயையாகும்."
   },
   {
     "id": 2848,
@@ -425,7 +534,9 @@
       "Statesman",
       "Diplomat",
       "Rationalist"
-    ]
+    ],
+    "enExample2": "The conference speaker acted like a tech demagogue, dismissing all existing frameworks without empirical data.",
+    "taExample2": "அந்த பேச்சாளர் எந்தவித சோதனைத் தரவுகளும் இன்றி அனைத்து கட்டமைப்புகளையும் நிராகரித்து உணர்ச்சிவசப்பட்டுப் பேசினார்."
   },
   {
     "id": 3060,
@@ -447,7 +558,9 @@
       "Blur",
       "Merge",
       "Confuse"
-    ]
+    ],
+    "enExample2": "Clear network subnets demarcate internal banking databases from public-facing web servers.",
+    "taExample2": "தெளிவான நெட்வொர்க் பிரிவுகள் உள்நாட்டு வங்கித் தரவுத்தளங்களை வெளிப்படையான வலை சர்வர்களிடமிருந்து பிரித்துக் காட்டுகின்றன."
   },
   {
     "id": 440,
@@ -467,7 +580,9 @@
       "Final product",
       "Theory",
       "Concept"
-    ]
+    ],
+    "enExample2": "During sprint review, each developer presented a live interactive demo of their newly shipped feature.",
+    "taExample2": "ஸ்பிரிண்ட் மறுஆய்வின் போது ஒவ்வொரு உருவாக்குநரும் தாங்கள் புதிதாக உருவாக்கிய அம்சத்தின் நேரடி செயல்விளக்கத்தை (Demo) வழங்கினர்."
   },
   {
     "id": 430,
@@ -484,7 +599,9 @@
     "antonyms": [
       "Disprove",
       "Conceal"
-    ]
+    ],
+    "enExample2": "The automated benchmarks demonstrate a 40% reduction in API response times after query optimization.",
+    "taExample2": "வினவல் உகப்பாக்கத்திற்குப் பிறகு API பதில் நேரத்தில் 40% குறைப்பு ஏற்பட்டுள்ளதை தானியங்கி அளவீடுகள் நிரூபிக்கின்றன."
   },
   {
     "id": 406,
@@ -500,6 +617,30 @@
     ],
     "antonyms": [
       "Independence"
+    ],
+    "enExample2": "Regularly auditing third-party dependencies prevents known vulnerabilities from infiltrating production code.",
+    "taExample2": "மூன்றாம் தரப்பு சார்பு நூலகங்களை வழக்கமாக ஆய்வு செய்வது உற்பத்தி குறியீட்டில் பாதுகாப்பு குறைபாடுகள் ஏற்படுவதைத் தடுக்கிறது."
+  },
+  {
+    "id": 3343,
+    "word": "deplatform",
+    "pos": "verb",
+    "definition": "To remove or suspend a user or organization from a digital service or forum to limit their reach.",
+    "taWord": "தளத்திலிருந்து நீக்கு (இணையத் தடை)",
+    "enExample": "The social network chose to deplatform automated spam bots attempting API rate limit manipulation.",
+    "taExample": "தானியங்கி முறையில் போலி செயல்பாடுகளைச் செய்த போட்களை சமூக வலைத்தளம் தன் தளத்திலிருந்து நீக்கியது.",
+    "enExample2": "Free speech debates intensified after the broadcasting authority moved to deplatform controversial figures.",
+    "taExample2": "சர்ச்சைக்குரிய நபர்களை தொலைக்காட்சி நிறுவனம் தடை செய்த பிறகு கருத்து சுதந்திர விவாதங்கள் தீவிரமடைந்தன.",
+    "synonyms": [
+      "ban",
+      "suspend",
+      "censor",
+      "remove"
+    ],
+    "antonyms": [
+      "platform",
+      "host",
+      "encourage"
     ]
   },
   {
@@ -516,7 +657,9 @@
     ],
     "antonyms": [
       "Withdraw"
-    ]
+    ],
+    "enExample2": "Automated pipelines allow our engineering teams to safely deploy updates multiple times per day.",
+    "taExample2": "தானியங்கி பைப்லைன்கள் எங்கள் குழுக்களை நாளொன்றுக்கு பலமுறை பாதுகாப்பாக மேம்பாடுகளை வெளியிட (Deploy) அனுமதிக்கின்றன."
   },
   {
     "id": 408,
@@ -533,7 +676,9 @@
     "antonyms": [
       "Endorse",
       "Introduce"
-    ]
+    ],
+    "enExample2": "We plan to deprecate version 1 of our REST API in favor of the newly launched GraphQL interface.",
+    "taExample2": "புதிய GraphQL இடைமுகத்திற்கு ஆதரவாக எங்கள் பழைய REST API பதிப்பு 1-ஐ கைவிட (Deprecate) திட்டமிட்டுள்ளோம்."
   },
   {
     "id": 409,
@@ -549,7 +694,9 @@
     ],
     "antonyms": [
       "Invent"
-    ]
+    ],
+    "enExample2": "The recommendation engine derives user preferences from historical transaction patterns and search queries.",
+    "taExample2": "பரிந்துரை இயந்திரம் முந்தைய பரிவர்த்தனை முறைகள் மற்றும் தேடல் வினவல்களிலிருந்து பயனர் விருப்பங்களைப் பெறுகிறது."
   },
   {
     "id": 421,
@@ -565,6 +712,30 @@
     ],
     "antonyms": [
       "Vague"
+    ],
+    "enExample2": "Using descriptive commit messages makes it easy for teammates to understand the historical context of changes.",
+    "taExample2": "விளக்கமான கமிட் செய்திகளைப் பயன்படுத்துவது மாற்றங்களின் வரலாற்றுச் சூழலை குழுவினர் எளிதில் புரிந்து கொள்ள உதவுகிறது."
+  },
+  {
+    "id": 3344,
+    "word": "desecration",
+    "pos": "noun",
+    "definition": "The act of treating a revered place, principle, or system with disrespect or damage.",
+    "taWord": "அவமதிப்பு (புனிதக்கேடு)",
+    "enExample": "Injecting malicious backdoor code into open source repositories is seen as a desecration of developer trust.",
+    "taExample": "ஓபன் சோர்ஸ் குறியீட்டில் தீங்கிழைக்கும் கோட்களை ஊடுருவச் செய்வது டெவலப்பர்களின் நம்பிக்கைக்கு செய்யும் அவமதிப்பாகும்.",
+    "enExample2": "Vandals faced swift legal consequences for the desecration of historical heritage monuments.",
+    "taExample2": "வரலாற்றுப் பாரம்பரிய சின்னங்களை அவமதித்ததற்காக சமூக விரோதிகள் விரைவான சட்ட நடவடிக்கைகளை எதிர்கொண்டனர்.",
+    "synonyms": [
+      "profanation",
+      "violation",
+      "defilement",
+      "sacrilege"
+    ],
+    "antonyms": [
+      "consecration",
+      "reverence",
+      "veneration"
     ]
   },
   {
@@ -581,7 +752,9 @@
     ],
     "antonyms": [
       "Dismiss"
-    ]
+    ],
+    "enExample2": "The operations team designated two high-memory nodes specifically for background machine learning tasks.",
+    "taExample2": "செயல்பாட்டுக் குழு இயந்திர கற்றல் பணிகளுக்காக இரண்டு உயர் நினைவக சேவையகங்களை பிரத்யேகமாக நியமித்தது."
   },
   {
     "id": 422,
@@ -597,7 +770,9 @@
     ],
     "antonyms": [
       "Ignore"
-    ]
+    ],
+    "enExample2": "The intrusion prevention system can detect unusual packet anomalies in under ten milliseconds.",
+    "taExample2": "ஊடுருவல் தடுப்பு அமைப்பு அசாதாரண நெட்வொர்க் முரண்பாடுகளை பத்து மில்லி விநாடிகளுக்குள் கண்டறிய முடியும்."
   },
   {
     "id": 2849,
@@ -618,7 +793,9 @@
       "Ameliorate",
       "Recover",
       "Flourish"
-    ]
+    ],
+    "enExample2": "Without regular database vacuuming, search index performance will steadily deteriorate over time.",
+    "taExample2": "வழக்கமான தரவுத்தள தூய்மைப்படுத்தல் இல்லாவிட்டால் தேடல் குறியீட்டின் செயல்திறன் காலப்போக்கில் சீர்குலையும்."
   },
   {
     "id": 411,
@@ -635,6 +812,29 @@
     "antonyms": [
       "Random",
       "Stochastic"
+    ],
+    "enExample2": "Pure functional programming patterns ensure that functions produce deterministic outputs for identical inputs.",
+    "taExample2": "தூய செயல்பாட்டு நிரலாக்க முறைகள் ஒரே மாதிரியான உள்ளீடுகளுக்கு நிலையான துல்லியமான வெளியீடுகளை உறுதி செய்கின்றன."
+  },
+  {
+    "id": 3242,
+    "word": "Deterrent",
+    "pos": "Noun",
+    "definition": "A control, rule, or security measure that discourages unauthorized access or malicious attacks.",
+    "taWord": "தடுப்புக் காரணி (Thaduppuk kaarani)",
+    "enExample": "Multi-factor authentication serves as an effective deterrent against credential stuffing attacks.",
+    "taExample": "பல்வேறு காரணி அங்கீகாரமானது சான்றளிப்பு திணிப்புத் தாக்குதல்களுக்கு எதிராக ஒரு சிறந்த தடுப்புக் காரணியாக செயல்படுகிறது.",
+    "enExample2": "Heavy fines act as a financial deterrent against corporate data compliance violations.",
+    "taExample2": "கார்ப்பரேட் தரவு இணக்க மீறல்களுக்கு எதிராக அதிக அபராதங்கள் நிதித் தடுப்புக் காரணியாக செயல்படுகின்றன.",
+    "synonyms": [
+      "discouragement",
+      "obstacle",
+      "preventative measure"
+    ],
+    "antonyms": [
+      "incentive",
+      "catalyst",
+      "encouragement"
     ]
   },
   {
@@ -656,7 +856,9 @@
       "Advantageous",
       "Constructive",
       "Helpful"
-    ]
+    ],
+    "enExample2": "Blocking the main browser thread with heavy calculations has a detrimental impact on user interaction responsiveness.",
+    "taExample2": "அதிகப்படியான கணக்கீடுகளுடன் முக்கிய திரையை முடக்குவது பயனர் தொடர்பின் வேகத்தில் மோசமான பாதிப்பை ஏற்படுத்துகிறது."
   },
   {
     "id": 412,
@@ -675,6 +877,29 @@
       "Ignorance",
       "Assumption",
       "Blind operation"
+    ],
+    "enExample2": "Enabling detailed logging diagnostics helped engineers isolate the root cause of the memory spike.",
+    "taExample2": "விரிவான கண்டறியும் பதிவுகளை (Diagnostics) இயக்கியது நினைவக உயர்வின் மூல காரணத்தைக் கண்டறிய பொறியாளர்களுக்கு உதவியது."
+  },
+  {
+    "id": 3345,
+    "word": "diaspora",
+    "pos": "noun",
+    "definition": "The dispersion or spread of any people from their original homeland across the globe.",
+    "taWord": "புலம்பெயர் மக்கள் (டயஸ்போரா)",
+    "enExample": "The tech startup built a money transfer app specifically designed for the global Indian software diaspora.",
+    "taExample": "உலகெங்கிலும் வாழும் இந்திய தொழில்நுட்பப் பொறியாளர்களுக்காகவே இந்த ஸ்டார்ட்அப் பணப் பரிவர்த்தனை செயலியை உருவாக்கியது.",
+    "enExample2": "The church fellowship organized international mission relief to assist displaced diaspora communities.",
+    "taExample2": "புலம்பெயர்ந்து வாழும் மக்களுக்கு உதவ திருச்சபை தோழமை சர்வதேச தொண்டு உதவிகளை ஏற்பாடு செய்தது.",
+    "synonyms": [
+      "dispersion",
+      "migration",
+      "exile",
+      "scattering"
+    ],
+    "antonyms": [
+      "native population",
+      "concentration"
     ]
   },
   {
@@ -693,7 +918,9 @@
     "antonyms": [
       "Similarity",
       "Unity"
-    ]
+    ],
+    "enExample2": "There is often a sharp dichotomy between rapid feature development speed and rigorous security hardening.",
+    "taExample2": "வேகமான புதிய அம்ச உருவாக்கத்திற்கும் கடுமையான பாதுகாப்பு உறுதிப்படுத்தலுக்கும் இடையே ஒரு தெளிவான முரண்பாடு உள்ளது."
   },
   {
     "id": 3104,
@@ -714,7 +941,9 @@
       "Uninformative",
       "Misleading",
       "Entertaining only"
-    ]
+    ],
+    "enExample2": "The framework documentation includes didactic tutorials with interactive live code playgrounds.",
+    "taExample2": "கட்டமைப்பு ஆவணத்தில் நேரடி குறியீட்டு சோதனைக் களங்களுடன் கூடிய விளக்கமான கற்பித்தல் பயிற்சிகள் உள்ளன."
   },
   {
     "id": 431,
@@ -731,7 +960,9 @@
     "antonyms": [
       "Negligence",
       "Carelessness"
-    ]
+    ],
+    "enExample2": "Through extraordinary diligence, the security response team patched the zero-day exploit before public disclosure.",
+    "taExample2": "மிகுந்த கவனமுடன் கூடிய முயற்சியால் பாதுகாப்புக் குழு பொதுவெளியில் வெளியாவதற்கு முன்பே பாதுகாப்புப் பிழையைச் சரிசெய்தது."
   },
   {
     "id": 423,
@@ -748,7 +979,9 @@
     "antonyms": [
       "Increase",
       "Enhance"
-    ]
+    ],
+    "enExample2": "Compressing images on the edge helps diminish mobile data consumption for end users.",
+    "taExample2": "படங்களை முன்கூட்டியே சுருக்குவது பயனர்களுக்கான மொபைல் தரவு பயன்பாட்டைக் குறைக்க உதவுகிறது."
   },
   {
     "id": 2958,
@@ -769,6 +1002,28 @@
       "Endorse",
       "Affirm",
       "Accept"
+    ],
+    "enExample2": "The open-source foundation disavowed any responsibility for malicious third-party fork distributions.",
+    "taExample2": "தீங்கிழைக்கும் மூன்றாம் தரப்பு போலி மென்பொருள் பிரதிகளுக்கு எந்தப் பொறுப்பும் இல்லை என அறக்கட்டளை மறுத்தது."
+  },
+  {
+    "id": 3252,
+    "word": "Discipleship",
+    "pos": "Noun",
+    "definition": "The active process of mentoring, guiding, and nurturing others in faith and technical wisdom.",
+    "taWord": "சீஷத்துவம் (Seeshathuvam)",
+    "enExample": "Senior staff developers practice technical discipleship by pairing daily with junior programmers.",
+    "taExample": "மூத்த டெவலப்பர்கள் ஜூனியர் புரோகிராமர்களுடன் தினமும் இணைவதன் மூலம் தொழில்நுட்ப சீஷத்துவத்தைப் பயிற்சி செய்கிறார்கள்.",
+    "enExample2": "Church fellowship groups foster discipleship through weekly bible study and prayer support.",
+    "taExample2": "திருச்சபை தோழமைக் குழுக்கள் வாராந்திர பைபிள் படிப்பு மற்றும் ஜெப ஆதரவு மூலம் சீஷத்துவத்தை வளர்க்கின்றன.",
+    "synonyms": [
+      "mentorship",
+      "spiritual guidance",
+      "tutelage"
+    ],
+    "antonyms": [
+      "neglect",
+      "abandonment"
     ]
   },
   {
@@ -786,7 +1041,9 @@
     "antonyms": [
       "Chaos",
       "Disorder"
-    ]
+    ],
+    "enExample2": "Software engineering discipline requires writing automated unit tests alongside functional implementation.",
+    "taExample2": "மென்பொருள் பொறியியல் ஒழுக்கம் என்பது புதிய குறியீட்டுடன் தானியங்கி சோதனைகளையும் எழுதுவதைக் கோருகிறது."
   },
   {
     "id": 3071,
@@ -808,7 +1065,9 @@
       "Obtrusive",
       "Brash",
       "Ostentatious"
-    ]
+    ],
+    "enExample2": "The notification service showed a discreet subtle banner rather than interrupting the user with modal popups.",
+    "taExample2": "அறிவிப்பு சேவையானது பயனருக்கு தொந்தரவு தராமல் ஒரு மெல்லிய பேனரை மட்டுமே காட்டியது."
   },
   {
     "id": 413,
@@ -825,7 +1084,9 @@
     "antonyms": [
       "Similarity",
       "Agreement"
-    ]
+    ],
+    "enExample2": "An automated reconciliation script identified a monetary discrepancy between the database and payment provider logs.",
+    "taExample2": "தானியங்கி சரிபார்ப்பு ஸ்கிரிப்ட் தரவுத்தளத்திற்கும் கட்டண நிறுவனப் பதிவுகளுக்கும் இடையேயான நிதி முரண்பாட்டைக் கண்டறிந்தது."
   },
   {
     "id": 414,
@@ -842,7 +1103,9 @@
     "antonyms": [
       "Continuous",
       "Connected"
-    ]
+    ],
+    "enExample2": "The application was refactored into discrete independent services communicating over gRPC.",
+    "taExample2": "பயன்பாடானது gRPC வழியாக தொடர்பு கொள்ளும் தனித்தனி சுயாதீன சேவைகளாக மறுசீரமைக்கப்பட்டது."
   },
   {
     "id": 2851,
@@ -862,7 +1125,9 @@
       "Verifiable facts",
       "Truth",
       "Authentic reporting"
-    ]
+    ],
+    "enExample2": "The social platform developed automated machine learning classifiers to detect coordinated disinformation campaigns.",
+    "taExample2": "திட்டமிடப்பட்ட போலித் தகவல் பரப்பல்களைக் கண்டறிய சமூக வலைத்தளம் தானியங்கி AI வகைப்படுத்திகளை உருவாக்கியது."
   },
   {
     "id": 3077,
@@ -884,7 +1149,9 @@
       "Sincere",
       "Frank",
       "Honest"
-    ]
+    ],
+    "enExample2": "Claiming 100% uptime while excluding scheduled maintenance outages was considered disingenuous by enterprise clients.",
+    "taExample2": "பராமரிப்பு முடக்கங்களை மறைத்து 100% சேவை வழங்கியதாகக் கூறுவது நேர்மையற்றதாகக் கருதப்பட்டது."
   },
   {
     "id": 2852,
@@ -905,7 +1172,9 @@
       "Assemble",
       "Establish",
       "Build"
-    ]
+    ],
+    "enExample2": "The DevOps team completed a multi-month project to dismantle the aging on-premise datacenter infrastructure.",
+    "taExample2": "பழைய உள்ளக தரவு மைய கட்டமைப்பை பாதுகாப்பாக அகற்றி அகற்றும் பல மாத திட்டத்தை குழு நிறைவு செய்தது."
   },
   {
     "id": 2980,
@@ -927,7 +1196,9 @@
       "Homogeneous",
       "Identical",
       "Uniform"
-    ]
+    ],
+    "enExample2": "The enterprise data warehouse ingests disparate data streams from marketing, billing, and server logs.",
+    "taExample2": "நிறுவன தரவுக் கிடங்கு சந்தைப்படுத்தல், கட்டணம் மற்றும் சர்வர் பதிவுகளிலிருந்து மாறுபட்ட தரவு ஓட்டங்களை ஒருங்கிணைக்கிறது."
   },
   {
     "id": 2853,
@@ -948,7 +1219,9 @@
       "Equality",
       "Uniformity",
       "Equivalence"
-    ]
+    ],
+    "enExample2": "A significant disparity between dev and production server environments caused unexpected runtime failures.",
+    "taExample2": "உருவாக்க சூழலுக்கும் உற்பத்தி சூழலுக்கும் இடையே இருந்த பெரும் முரண்பாடு எதிர்பாராத இயக்க பிழைகளுக்கு வழிவகுத்தது."
   },
   {
     "id": 3024,
@@ -970,7 +1243,9 @@
       "Emotional",
       "Partial",
       "Prejudiced"
-    ]
+    ],
+    "enExample2": "Engineers should conduct dispassionate code reviews focusing purely on architecture and performance metrics.",
+    "taExample2": "பொறியாளர்கள் உணர்ச்சிகளுக்கு இடமளிக்காமல் கட்டமைப்பு மற்றும் செயல்திறனில் மட்டுமே கவனம் செலுத்தி மறுஆய்வு செய்ய வேண்டும்."
   },
   {
     "id": 415,
@@ -986,7 +1261,9 @@
     ],
     "antonyms": [
       "Receive"
-    ]
+    ],
+    "enExample2": "The event dispatcher can dispatch thousands of incoming webhook notifications per second.",
+    "taExample2": "நிகழ்வு அனுப்புநர் (Dispatcher) வினாடிக்கு ஆயிரக்கணக்கான உள்வரும் அறிவிப்புகளை அனுப்ப முடியும்."
   },
   {
     "id": 2854,
@@ -1007,7 +1284,9 @@
       "Balanced",
       "Commensurate",
       "Fair"
-    ]
+    ],
+    "enExample2": "A single unoptimized search query consumed a disproportionate share of the total database CPU resources.",
+    "taExample2": "உகப்பாக்கப்படாத ஒரே ஒரு தேடல் வினவல் தரவுத்தளத்தின் மொத்த செயலி வளங்களில் சமமற்ற பெரும்பகுதியைப் பயன்படுத்தியது."
   },
   {
     "id": 2855,
@@ -1028,7 +1307,9 @@
       "Tranquility",
       "Peace",
       "Calm"
-    ]
+    ],
+    "enExample2": "News of an impending corporate reorganization created considerable disquiet across the engineering org.",
+    "taExample2": "நிறுவன மறுசீரமைப்பு பற்றிய செய்தி பொறியியல் துறை முழுவதும் கணிசமான அமைதியின்மையையும் கவலையையும் ஏற்படுத்தியது."
   },
   {
     "id": 424,
@@ -1045,6 +1326,28 @@
     "antonyms": [
       "Calming",
       "Settling"
+    ],
+    "enExample2": "Serverless edge computing is a disruptive architecture that minimizes round-trip latency for global users.",
+    "taExample2": "சர்வர்லெஸ் எட்ஜ் கம்ப்யூட்டிங் என்பது உலகளாவிய பயனர்களுக்கான தாமதத்தை மிகக் குறைக்கும் ஒரு புரட்சிகரமான மாற்றமாகும்."
+  },
+  {
+    "id": 3310,
+    "word": "Disruptor",
+    "pos": "Noun",
+    "definition": "A company, technology, or innovation that radically alters established industry paradigms.",
+    "taWord": "சீர்குலைப்பாளர்/மாற்றியமைப்பாளர் (Seergulaippaalar/maatruyammaippaalar)",
+    "enExample": "The cloud platform emerged as a major disruptor in the traditional enterprise database market.",
+    "taExample": "கிளவுட் தளம் பாரம்பரிய நிறுவன தரவுத்தள சந்தையில் ஒரு முக்கிய மாற்றியமைப்பாளராக உருவெடுத்தது.",
+    "enExample2": "AI startups act as industry disruptors by automating complex software generation.",
+    "taExample2": "AI தொடக்க நிறுவனங்கள் சிக்கலான மென்பொருள் உருவாக்கத்தை தானியங்குபடுத்துவதன் மூலம் தொழில் மாற்றியமைப்பாளர்களாக செயல்படுகின்றன.",
+    "synonyms": [
+      "innovator",
+      "game-changer",
+      "pioneer"
+    ],
+    "antonyms": [
+      "traditionalist",
+      "status-quo defender"
     ]
   },
   {
@@ -1067,7 +1370,9 @@
       "Suppress",
       "Collect",
       "Withhold"
-    ]
+    ],
+    "enExample2": "Content delivery networks disseminate cached static website assets to edge points of presence worldwide.",
+    "taExample2": "CDN நெட்வொர்க்குகள் உலகம் முழுவதும் உள்ள விளிம்பு முனையங்களுக்கு வலைத்தள தரவுகளை பரப்புகின்றன."
   },
   {
     "id": 2856,
@@ -1088,7 +1393,9 @@
       "Conformity",
       "Consensus",
       "Agreement"
-    ]
+    ],
+    "enExample2": "The lead architect welcomed constructive dissent during technical design reviews to surface hidden risks.",
+    "taExample2": "மறைக்கப்பட்ட அபாயங்களை வெளிக்கொணர தொழில்நுட்ப வடிவமைப்பு கூட்டங்களில் ஆக்கப்பூர்வமான மாற்றுக் கருத்துக்களை முதன்மை வடிவமைப்பாளர் வரவேற்றார்."
   },
   {
     "id": 438,
@@ -1105,7 +1412,9 @@
     "antonyms": [
       "Common",
       "Generic"
-    ]
+    ],
+    "enExample2": "The user interface features a distinctive minimalist typography that improves long-form reading comfort.",
+    "taExample2": "பயனர் இடைமுகம் நீண்ட வாசிப்பு வசதியை மேம்படுத்தும் தனித்துவமான நேர்த்தியான எழுத்துரு பாணியைக் கொண்டுள்ளது."
   },
   {
     "id": 435,
@@ -1122,7 +1431,9 @@
     "antonyms": [
       "Confuse",
       "Equate"
-    ]
+    ],
+    "enExample2": "The intrusion detection system can distinguish legitimate burst traffic from malicious distributed denial-of-service floods.",
+    "taExample2": "பாதுகாப்பு அமைப்பு உண்மையான பயனர் போக்குவரத்தை தீங்கிழைக்கும் DDoS தாக்குதல்களிலிருந்து துல்லியமாக வேறுபடுத்தி அறிய முடியும்."
   },
   {
     "id": 2775,
@@ -1140,7 +1451,9 @@
     "antonyms": [
       "Race condition",
       "Unlocked concurrency"
-    ]
+    ],
+    "enExample2": "Redis was used to acquire a distributed lock ensuring that periodic billing runs execute exactly once.",
+    "taExample2": "குறிப்பிட்ட கட்டண நடைமுறைகள் ஒரே ஒரு முறை மட்டுமே இயங்குவதை உறுதி செய்ய Redis விநியோகிக்கப்பட்ட பூட்டுதல் (Distributed Lock) பயன்படுத்தப்பட்டது."
   },
   {
     "id": 2773,
@@ -1157,7 +1470,9 @@
     "antonyms": [
       "Monolithic local logging",
       "Blind service execution"
-    ]
+    ],
+    "enExample2": "Implementing distributed tracing allowed the team to pinpoint which microservice was causing transaction latency.",
+    "taExample2": "விநியோகிக்கப்பட்ட தடமறிதலை (Distributed Tracing) செயல்படுத்தியது எந்த நுண்சேவை தாமதத்தை ஏற்படுத்துகிறது என்பதைக் கண்டறிய குழுவுக்கு உதவியது."
   },
   {
     "id": 416,
@@ -1174,7 +1489,9 @@
     "antonyms": [
       "Converge",
       "Merge"
-    ]
+    ],
+    "enExample2": "If two long-running Git branches diverge significantly, resolving merge conflicts becomes extremely difficult.",
+    "taExample2": "இரண்டு Git கிளைகள் அதிக அளவில் விலகி மாறுபட்டால் அவற்றின் முரண்பாடுகளைத் தீர்ப்பது மிகவும் கடினமாகிவிடும்."
   },
   {
     "id": 433,
@@ -1191,7 +1508,9 @@
     "antonyms": [
       "Homogeneous",
       "Similar"
-    ]
+    ],
+    "enExample2": "The application supports a diverse range of client platforms, from smart watches to desktop browsers.",
+    "taExample2": "இந்த பயன்பாடு ஸ்மார்ட் வாட்ச்கள் முதல் டெஸ்க்டாப் உலாவிகள் வரை பலதரப்பட்ட பயனர் தளங்களை ஆதரிக்கிறது."
   },
   {
     "id": 417,
@@ -1210,7 +1529,9 @@
       "Halt",
       "Cease",
       "Reverse"
-    ]
+    ],
+    "enExample2": "Engineers must thoroughly document all public API endpoints using interactive Swagger specifications.",
+    "taExample2": "பொறியாளர்கள் அனைத்து பொது API சேவைகளையும் விரிவாக ஆவணப்படுத்த வேண்டும்."
   },
   {
     "id": 441,
@@ -1227,7 +1548,9 @@
     "antonyms": [
       "Reliable",
       "Solid"
-    ]
+    ],
+    "enExample2": "The security scanner flagged a dodgy third-party dependency with unverified download checksums.",
+    "taExample2": "பாதுகாப்பு ஸ்கேனர் சரிபார்க்கப்படாத பதிவிறக்கக் குறியீடுகளைக் கொண்ட சந்தேகத்திற்குரிய நூலகத்தை சுட்டிக்காட்டியது."
   },
   {
     "id": 2704,
@@ -1244,6 +1567,30 @@
     ],
     "antonyms": [
       "External trial"
+    ],
+    "enExample2": "By dogfooding our own internal messaging platform, we identified several UX bottlenecks prior to beta release.",
+    "taExample2": "எங்கள் சொந்த தகவல் தொடர்பு தளத்தை நாங்களே பயன்படுத்திப் பார்த்ததன் மூலம் வெளியீட்டிற்கு முன்பே பல பயன்பாட்டு சிக்கல்களைக் கண்டறிந்தோம்."
+  },
+  {
+    "id": 3216,
+    "word": "Dogma",
+    "pos": "Noun",
+    "definition": "A set of rigid architectural principles or opinions held as unquestionable without empirical validation.",
+    "taWord": "கோட்பாட்டுப் பிடிவாதம் (Kotpattu pidivaatham)",
+    "enExample": "Avoid architectural dogma; select technology based on benchmark data rather than pure personal preference.",
+    "taExample": "கட்டிடக்கலை கோட்பாட்டுப் பிடிவாதத்தைத் தவிர்க்கவும்; தனிப்பட்ட விருப்பத்தை விட அளவுகோல் தரவின் அடிப்படையில் தொழில்நுட்பத்தைத் தேர்ந்தெடுக்கவும்.",
+    "enExample2": "Engineering teams should challenge outdated dogmas when adopting modern serverless patterns.",
+    "taExample2": "நவீன சர்வர்லெஸ் முறைகளை ஏற்கும் போது பொறியியல் குழுக்கள் காலாவதியான கோட்பாட்டுப் பிடிவாதங்களை சவால் செய்ய வேண்டும்.",
+    "synonyms": [
+      "doctrine",
+      "tenet",
+      "unquestioned belief",
+      "creed"
+    ],
+    "antonyms": [
+      "skepticism",
+      "empirical reasoning",
+      "flexibility"
     ]
   },
   {
@@ -1266,7 +1613,9 @@
       "Pragmatic",
       "Flexible",
       "Empirical"
-    ]
+    ],
+    "enExample2": "Rather than taking a dogmatic approach to design patterns, the team adopted pragmatic solutions that fit the problem.",
+    "taExample2": "வடிவமைப்பு விதிகளில் பிடிவாதமாக இருப்பதற்குப் பதிலாக குழு பிரச்சனைக்கு ஏற்ற நடைமுறைத் தீர்வுகளைத் தேர்ந்தெடுத்தது."
   },
   {
     "id": 418,
@@ -1284,7 +1633,9 @@
       "General public space",
       "Cross-cutting concern",
       "Global scope"
-    ]
+    ],
+    "enExample2": "In Domain-Driven Design, software components are structured around real-world business logic domains.",
+    "taExample2": "டொமைன் சார்ந்த வடிவமைப்பில் மென்பொருள் கூறுகள் நிஜ உலக வணிகத் துறைக்கு ஏற்ப கட்டமைக்கப்படுகின்றன."
   },
   {
     "id": 436,
@@ -1301,6 +1652,27 @@
     "antonyms": [
       "Minor",
       "Subordinate"
+    ],
+    "enExample2": "Relational SQL databases remain the dominant storage paradigm for transactional enterprise financial data.",
+    "taExample2": "நிறுவன நிதி பரிவர்த்தனை தரவுகளுக்கு ரிலேஷனல் SQL தரவுத்தளங்களே ஆதிக்கமிக்க சேமிப்பக முறையாகத் திகழ்கின்றன."
+  },
+  {
+    "id": 3297,
+    "word": "Doomscrolling",
+    "pos": "Noun",
+    "definition": "Obsessively reading negative social media news, outage reports, or incident logs continuously.",
+    "taWord": "திளைத்து வாசித்தல் (Thilaithu vaasitthal)",
+    "enExample": "Engineers caught in an outage loop had to stop doomscrolling status pages and focus on mitigation.",
+    "taExample": "முடக்கச் சுழற்சியில் சிக்கிய பொறியாளர்கள் நிலைமைப் பக்கங்களை திளைத்து வாசிப்பதை நிறுத்திவிட்டு தணிப்பில் கவனம் செலுத்த வேண்டியிருந்தது.",
+    "enExample2": "Doomscrolling social media late at night reduces productivity and increases work anxiety.",
+    "taExample2": "இரவில் தாமதமாக சமூக ஊடகங்களை திளைத்து வாசிப்பது உற்பத்தித்திறனைக் குறைக்கிறது மற்றும் வேலை கவலையை அதிகரிக்கிறது.",
+    "synonyms": [
+      "obsessive scrolling",
+      "negative feed consumption"
+    ],
+    "antonyms": [
+      "mindful browsing",
+      "digital detox"
     ]
   },
   {
@@ -1319,7 +1691,9 @@
     "antonyms": [
       "Gloss over",
       "Skim"
-    ]
+    ],
+    "enExample2": "Let us double click on the database latency numbers during our incident postmortem discussion.",
+    "taExample2": "சம்பவ ஆய்வுக் கூட்டத்தின் போது தரவுத்தள தாமத எண்களைப் பற்றி இன்னும் விரிவாகவும் ஆழமாகவும் ஆராய்வோம்."
   },
   {
     "id": 419,
@@ -1335,6 +1709,28 @@
     ],
     "antonyms": [
       "Uptime"
+    ],
+    "enExample2": "Zero-downtime rolling deployments ensure continuous uninterrupted access for our global users.",
+    "taExample2": "பூஜ்ஜிய முடக்க நேர வெளியீடுகள் எங்கள் உலகளாவிய பயனர்களுக்கு தொடர்ச்சியான தடையற்ற சேவையை உறுதி செய்கின்றன."
+  },
+  {
+    "id": 3253,
+    "word": "Doxology",
+    "pos": "Noun",
+    "definition": "A hymn or liturgical expression of praise to God celebrated in worship and fellowship.",
+    "taWord": "துதிப் பாடல் (Thuthip paadal)",
+    "enExample": "The Sunday service concluded with the traditional singing of the grand doxology.",
+    "taExample": "ஞாயிறு ஆராதனை பாரம்பரிய துதிப் பாடலுடன் முடிவடைந்தது.",
+    "enExample2": "Expressions of doxology elevate gratitude and joy within spiritual gatherings.",
+    "taExample2": "துதிப் பாடலின் வெளிப்பாடுகள் ஆன்மீகக் கூட்டங்களுக்குள் நன்றியுணர்வையும் மகிழ்ச்சியையும் உயர்த்துகின்றன.",
+    "synonyms": [
+      "hymn of praise",
+      "praise song",
+      "paean"
+    ],
+    "antonyms": [
+      "lament",
+      "dirge"
     ]
   },
   {
@@ -1356,6 +1752,30 @@
       "Mild",
       "Permissive",
       "Tolerant"
+    ],
+    "enExample2": "The team replaced draconian firewall restrictions with a more flexible role-based access control policy.",
+    "taExample2": "கடுமையான ஃபயர்வால் கட்டுப்பாடுகளுக்குப் பதிலாக குழு மிகவும் நெகிழ்வான அணுகல் பாதுகாப்புக் கொள்கையை அமல்படுத்தியது."
+  },
+  {
+    "id": 3346,
+    "word": "dreich",
+    "pos": "adjective",
+    "definition": "Scottish word describing weather that is cold, wet, grey, gloomy, and dreary.",
+    "taWord": "மந்தமான குளிர்ந்த காலநிலை (ஸ்காட்டிஷ் சொல்)",
+    "enExample": "Working remotely on a dreich Edinburgh afternoon is best paired with hot tea and async code reviews.",
+    "taExample": "மந்தமான எடின்பர்க் குளிர் மாலையில் வீட்டில் இருந்து வேலை செய்வது சூடான டீ மற்றும் கோட் ரிவ்யூவுக்கு ஏற்றது.",
+    "enExample2": "Despite the dreich weather outside, the fellowship hall was filled with warmth and joyful conversation.",
+    "taExample2": "வெளியே குளிர்ந்த மந்தமான காலநிலை இருந்தபோதிலும், சபை மண்டபம் மகிழ்ச்சியான உரையாடல்களால் நிறைந்தது.",
+    "synonyms": [
+      "dreary",
+      "gloomy",
+      "dismal",
+      "bleak"
+    ],
+    "antonyms": [
+      "bright",
+      "sunny",
+      "cheerful"
     ]
   },
   {
@@ -1373,7 +1793,9 @@
     "antonyms": [
       "Apathy",
       "Lethargy"
-    ]
+    ],
+    "enExample2": "Continuous customer feedback should drive product feature roadmaps and engineering priorities.",
+    "taExample2": "தொடர்ச்சியான வாடிக்கையாளர் கருத்துக்களே தயாரிப்பு அம்சங்கள் மற்றும் பொறியியல் முன்னுரிமைகளை வழிநடத்த வேண்டும்."
   },
   {
     "id": 2657,
@@ -1391,7 +1813,9 @@
     "antonyms": [
       "Carelessness",
       "Negligence"
-    ]
+    ],
+    "enExample2": "Performing proper technical due diligence before acquiring a startup prevents inheriting unmaintainable spaghetti code.",
+    "taExample2": "புத்தொழில் நிறுவனத்தை கையகப்படுத்துவதற்கு முன் முறையான தொழில்நுட்ப ஆய்வை மேற்கொள்வது சிக்கலான குறியீடுகளைப் பெறுவதைத் தவிர்க்கிறது."
   },
   {
     "id": 425,
@@ -1407,7 +1831,9 @@
     ],
     "antonyms": [
       "Original"
-    ]
+    ],
+    "enExample2": "The indexing pipeline checks for unique content hashes to prevent storing duplicate media files.",
+    "taExample2": "குறியீட்டு குழாய் நகல் கோப்புகளை சேமிப்பதைத் தடுக்க தனித்துவமான ஹாஷ் மதிப்புகளைச் சரிபார்க்கிறது."
   },
   {
     "id": 434,
@@ -1424,7 +1850,9 @@
     "antonyms": [
       "Fragile",
       "Transient"
-    ]
+    ],
+    "enExample2": "Write-ahead logging guarantees that all database transactions remain durable even in the event of sudden power loss.",
+    "taExample2": "முன்-எழுதுதல் பதிவு முறை திடீர் மின்தடை ஏற்பட்டாலும் அனைத்து தரவுத்தள பரிவர்த்தனைகளும் அழியாமல் நிலைத்திருப்பதை உறுதி செய்கிறது."
   },
   {
     "id": 420,
@@ -1441,6 +1869,8 @@
     "antonyms": [
       "Static",
       "Fixed"
-    ]
+    ],
+    "enExample2": "Dynamic routing algorithms recalculate network traffic paths in real time based on observed link congestion.",
+    "taExample2": "டைனமிக் ரூட்டிங் வழிமுறைகள் நெட்வொர்க் நெரிசலின் அடிப்படையில் போக்குவரத்து பாதைகளை நிகழ்நேரத்தில் மீண்டும் கணக்கிடுகின்றன."
   }
 ]

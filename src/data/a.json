@@ -18,7 +18,9 @@
       "Escalate",
       "Amplify",
       "Surge"
-    ]
+    ],
+    "enExample2": "The influx of incoming customer support tickets began to abate once the patch was deployed.",
+    "taExample2": "மென்பொருள் திருத்தம் வெளியிடப்பட்டவுடன், வாடிக்கையாளர் ஆதரவு கோரிக்கைகளின் எண்ணிக்கை குறையத் தொடங்கியது."
   },
   {
     "id": 2953,
@@ -39,7 +41,9 @@
       "Regularity",
       "Standard",
       "Conformity"
-    ]
+    ],
+    "enExample2": "Such an abrupt drop in accuracy was deemed an aberration rather than a systemic model defect.",
+    "taExample2": "துல்லியத்தில் ஏற்பட்ட இந்த திடீர் வீழ்ச்சி, மாதிரியின் குறைபாடாகக் கருதப்படாமல் ஒரு தற்காலிக விலகலாகவே பார்க்கப்பட்டது."
   },
   {
     "id": 3075,
@@ -61,6 +65,30 @@
       "Embrace",
       "Assert",
       "Accept"
+    ],
+    "enExample2": "Leaders should never abnegate their duty to protect user privacy during system design.",
+    "taExample2": "அமைப்பு வடிவமைப்பின் போது பயனர் தனியுரிமையைப் பாதுகாக்கும் கடமையை தலைவர்கள் ஒருபோதும் துறக்கக் கூடாது."
+  },
+  {
+    "id": 3286,
+    "word": "Abstain",
+    "pos": "Verb",
+    "definition": "To formally refrain from voting, participating, or indulging in an action.",
+    "taWord": "விலகி இருத்தல் (Vilagi irutthal)",
+    "enExample": "The lead architect chose to abstain from voting during the UI framework decision to remain neutral.",
+    "taExample": "நடுநிலையாக இருக்க UI கட்டமைப்பு முடிவின் போது முதன்மை கட்டிடக் கலைஞர் வாக்களிப்பதில் இருந்து விலகி இருக்கத் தேர்ந்தெடுத்தார்.",
+    "enExample2": "Engineers abstain from pushing untested code to master prior to major holidays.",
+    "taExample2": "முக்கிய விடுமுறை நாட்களுக்கு முன் சோதிக்கப்படாத குறியீட்டை மாஸ்டருக்கு தள்ளுவதிலிருந்து பொறியாளர்கள் விலகி இருக்கிறார்கள்.",
+    "synonyms": [
+      "refrain",
+      "desist",
+      "withhold",
+      "forbear"
+    ],
+    "antonyms": [
+      "indulge",
+      "participate",
+      "engage"
     ]
   },
   {
@@ -78,7 +106,9 @@
     "antonyms": [
       "Concrete",
       "Actual"
-    ]
+    ],
+    "enExample2": "Software interfaces abstract the low-level hardware details away from application developers.",
+    "taExample2": "மென்பொருள் இடைமுகங்கள் வன்பொருளின் அடித்தள நுணுக்கங்களை பயன்பாட்டு உருவாக்குநர்களிடமிருந்து மறைத்து எளிமைப்படுத்துகின்றன."
   },
   {
     "id": 3098,
@@ -100,7 +130,9 @@
       "Lucid",
       "Simple",
       "Pellucid"
-    ]
+    ],
+    "enExample2": "The legacy code contained abstruse cryptographic algorithms without any explanatory documentation.",
+    "taExample2": "பழைய மென்பொருள் குறியீட்டில் எந்தவித விளக்கக் குறிப்புகளும் இன்றி புரிந்துகொள்ள கடினமான குறியாக்க வழிமுறைகள் இருந்தன."
   },
   {
     "id": 2709,
@@ -118,7 +150,9 @@
     "antonyms": [
       "Ambiguity",
       "Vague request"
-    ]
+    ],
+    "enExample2": "Each user story must satisfy all acceptance criteria before being marked as done in the sprint.",
+    "taExample2": "ஸ்பிரிண்ட்டில் முடிக்கப்பட்டதாகக் குறிக்கப்படுவதற்கு முன் ஒவ்வொரு பயனர் தேவையும் அனைத்து ஏற்பு விதிகளையும் பூர்த்தி செய்ய வேண்டும்."
   },
   {
     "id": 129,
@@ -136,6 +170,30 @@
     "antonyms": [
       "Deny",
       "Ignore"
+    ],
+    "enExample2": "The distributed server must promptly acknowledge receipt of the incoming event stream.",
+    "taExample2": "உள்வரும் நிகழ்வு ஓட்டம் பெறப்பட்டதை விநியோகிக்கப்பட்ட சர்வர் உடனடியாக உறுதிப்படுத்த வேண்டும்."
+  },
+  {
+    "id": 3231,
+    "word": "Acquiesce",
+    "pos": "Verb",
+    "definition": "To accept, agree, or comply reluctantly without protest after debate or review.",
+    "taWord": "இணங்குதல் (Inanguthal)",
+    "enExample": "After reviewing benchmark numbers, the architect acquiesced to using PostgreSQL over MySQL.",
+    "taExample": "அளவுகோல் எண்களை மதிப்பாய்வு செய்த பிறகு, கட்டிடக் கலைஞர் MySQL ஐ விட PostgreSQL ஐப் பயன்படுத்த இணங்கினார்.",
+    "enExample2": "The team acquiesced to working late to patch the zero-day security flaw.",
+    "taExample2": "பூஜ்ஜிய நாள் பாதுகாப்பு குறைபாட்டை சரிசெய்ய தாமதமாக வேலை செய்ய குழு இணங்கியது.",
+    "synonyms": [
+      "concede",
+      "comply",
+      "yield",
+      "assent"
+    ],
+    "antonyms": [
+      "resist",
+      "dissent",
+      "refuse"
     ]
   },
   {
@@ -156,7 +214,9 @@
       "Conviction",
       "Condemnation",
       "Guilty verdict"
-    ]
+    ],
+    "enExample2": "The security review resulted in a full acquittal of the team from any negligence charges.",
+    "taExample2": "பாதுகாப்பு மறுஆய்வின் முடிவில், கவனக்குறைவு குற்றச்சாட்டுகளிலிருந்து அக்குழு முழுமையாக விடுவிக்கப்பட்டது."
   },
   {
     "id": 139,
@@ -175,7 +235,9 @@
       "Passive observation",
       "Information-only note",
       "Unassigned backlog"
-    ]
+    ],
+    "enExample2": "We documented each action item with a clear owner and completion deadline during the meeting.",
+    "taExample2": "கூட்டத்தின் போது பொறுப்பாளர் மற்றும் நிறைவு செய்யும் காலக்கெடுவுடன் ஒவ்வொரு செயல் பொருளையும் நாங்கள் ஆவணப்படுத்தினோம்."
   },
   {
     "id": 3028,
@@ -197,7 +259,9 @@
       "Stupidity",
       "Ineptitude",
       "Obtuseness"
-    ]
+    ],
+    "enExample2": "Her sharp commercial acumen guided the engineering team to prioritize high-value user features.",
+    "taExample2": "அவரது கூர்மையான வணிக நுண்ணறிவு, அதிக மதிப்புமிக்க பயனர் அம்சங்களுக்கு முன்னுரிமை அளிக்க பொறியியல் குழுவை வழிநடத்தியது."
   },
   {
     "id": 130,
@@ -214,7 +278,9 @@
     "antonyms": [
       "Rigid",
       "Inflexible"
-    ]
+    ],
+    "enExample2": "Modern cloud microservices must remain adaptable to sudden surges in user traffic.",
+    "taExample2": "நவீன கிளவுட் நுண்சேவைகள் பயனர் போக்குவரத்தின் திடீர் எழுச்சிகளுக்கு ஏற்ப மாற்றியமைக்கக்கூடியதாக இருக்க வேண்டும்."
   },
   {
     "id": 2975,
@@ -236,7 +302,9 @@
       "Conceal",
       "Withhold",
       "Retract"
-    ]
+    ],
+    "enExample2": "The lead architect was asked to adduce benchmark evidence justifying the framework migration.",
+    "taExample2": "கட்டமைப்பு மாற்றத்தை நியாயப்படுத்தும் அளவீட்டு ஆதாரங்களை முன்வைக்குமாறு முதன்மை கட்டட வடிவமைப்பாளரிடம் கேட்கப்பட்டது."
   },
   {
     "id": 131,
@@ -253,7 +321,9 @@
     "antonyms": [
       "Inadequate",
       "Deficient"
-    ]
+    ],
+    "enExample2": "Ensure adequate memory is allocated to the container to prevent sudden out-of-memory crashes.",
+    "taExample2": "திடீர் நினைவக பற்றாக்குறை முடக்கங்களைத் தவிர்க்க கொள்கலனுக்கு போதுமான நினைவகம் ஒதுக்கப்பட்டுள்ளதை உறுதிப்படுத்தவும்."
   },
   {
     "id": 2954,
@@ -274,6 +344,30 @@
       "Ignore",
       "Overlook",
       "Avoid"
+    ],
+    "enExample2": "The compliance board was convened to adjudicate on conflicting intellectual property claims.",
+    "taExample2": "முரண்பட்ட அறிவுசார் சொத்துரிமை கோரிக்கைகள் மீது தீர்ப்பளிக்க இணக்க வாரியம் கூடியது."
+  },
+  {
+    "id": 3246,
+    "word": "Admonish",
+    "pos": "Verb",
+    "definition": "To firmly advise, encourage, or gently reprimand someone in fellowship to follow best principles.",
+    "taWord": "அறிவுறுத்துதல்/கண்டித்தல் (Arivurutthuthal/kanditthal)",
+    "enExample": "The mentor would gently admonish junior developers to write unit tests before merging PRs.",
+    "taExample": "PRகளை இணைப்பதற்கு முன் யூனிட் சோதனைகளை எழுதுமாறு மூத்த வழிகாட்டி ஜூனியர் டெவலப்பர்களுக்கு மெதுவாக அறிவுறுத்தினார்.",
+    "enExample2": "Scripture encourages believers to admonish one another in love and fellowship.",
+    "taExample2": "வேதம் விசுவாசிகளை அன்பிலும் தோழமையிலும் ஒருவரையொருவர் அறிவுறுத்த ஊக்குவிக்கிறது.",
+    "synonyms": [
+      "advise",
+      "reprimand",
+      "caution",
+      "exhort"
+    ],
+    "antonyms": [
+      "praise",
+      "applaud",
+      "encourage error"
     ]
   },
   {
@@ -291,6 +385,30 @@
     "antonyms": [
       "Oppose",
       "Discourage"
+    ],
+    "enExample2": "Senior engineers frequently advocate for automated end-to-end testing across all pull requests.",
+    "taExample2": "மூத்த பொறியாளர்கள் அனைத்து குறியீட்டு கோரிக்கைகளிலும் தானியங்கி முழுமையான சோதனையை பரிந்துரைக்கின்றனர்."
+  },
+  {
+    "id": 3223,
+    "word": "Affidavit",
+    "pos": "Noun",
+    "definition": "A written statement confirmed by oath or affirmation, used as formal evidence in legal proceedings or audits.",
+    "taWord": "ஆணுறுதி ஆவணம் (Aanuruthi aavanam)",
+    "enExample": "The cybersecurity firm submitted a sworn affidavit detailing the unauthorized database breach.",
+    "taExample": "சைபர் பாதுகாப்பு நிறுவனம் அங்கீகரிக்கப்படாத தரவுத்தள மீறலை விவரிக்கும் சத்தியப் பிரமாண ஆணுறுதி ஆவணத்தை சமர்ப்பித்தது.",
+    "enExample2": "Legal affidavits are required when verifying intellectual property claims in software lawsuits.",
+    "taExample2": "மென்பொருள் வழக்குகளில் அறிவுசார் சொத்து உரிமைகோரல்களை சரிபார்க்கும் போது சட்டப்பூர்வ ஆணுறுதி ஆவணங்கள் தேவைப்படுகின்றன.",
+    "synonyms": [
+      "sworn statement",
+      "testimony",
+      "pledge",
+      "declaration"
+    ],
+    "antonyms": [
+      "denial",
+      "retraction",
+      "unverified rumor"
     ]
   },
   {
@@ -308,7 +426,9 @@
     "antonyms": [
       "Aversion",
       "Dislike"
-    ]
+    ],
+    "enExample2": "Setting CPU affinity ensures high-throughput tasks run exclusively on designated processor cores.",
+    "taExample2": "CPU தொடர்பு நிலையை அமைப்பது, அதிவேக பணிகள் பிரத்யேக செயலி உள்ளகங்களில் மட்டுமே இயங்குவதை உறுதி செய்கிறது."
   },
   {
     "id": 134,
@@ -325,7 +445,9 @@
     "antonyms": [
       "Individual",
       "Separate"
-    ]
+    ],
+    "enExample2": "The analytics engine aggregates millions of daily clickstream events into summary dashboards.",
+    "taExample2": "பகுப்பாய்வு இயந்திரம் மில்லியன் கணக்கான தினசரி நிகழ்வுகளை சுருக்கமான தகவல் பலகைகளாக ஒருங்கிணைக்கிறது."
   },
   {
     "id": 123,
@@ -342,7 +464,9 @@
     "antonyms": [
       "Rigid",
       "Stiff"
-    ]
+    ],
+    "enExample2": "An agile development methodology allows teams to adapt swiftly to changing customer requirements.",
+    "taExample2": "சுறுசுறுப்பான (Agile) உருவாக்க முறைமை, மாறும் வாடிக்கையாளர் தேவைகளுக்கு ஏற்ப குழுக்கள் விரைவாக மாற்றியமைக்க உதவுகிறது."
   },
   {
     "id": 102,
@@ -359,7 +483,9 @@
     "antonyms": [
       "Dependent",
       "Specific"
-    ]
+    ],
+    "enExample2": "The application is platform-agnostic and runs smoothly on both Linux and Windows servers.",
+    "taExample2": "இந்த பயன்பாடு எந்த ஒரு இயங்குதளத்தையும் சார்ந்திராமல் லினக்ஸ் மற்றும் விண்டோஸ் இரண்டிலும் சீராக இயங்குகிறது."
   },
   {
     "id": 2755,
@@ -377,7 +503,9 @@
     "antonyms": [
       "Connected system",
       "Public network"
-    ]
+    ],
+    "enExample2": "Critical financial ledgers were deployed on an air-gapped system completely detached from the internet.",
+    "taExample2": "முக்கிய நிதிப் பதிவேடுகள் இணையத்திலிருந்து முற்றிலும் துண்டிக்கப்பட்ட தனிமைப்படுத்தப்பட்ட அமைப்பில் நிறுவப்பட்டன."
   },
   {
     "id": 126,
@@ -395,6 +523,29 @@
     "antonyms": [
       "Apathy",
       "Reluctance"
+    ],
+    "enExample2": "The DevOps on-call engineer responded with remarkable alacrity to resolve the outage.",
+    "taExample2": "சேவை முடக்கத்தை சரிசெய்ய சுழற்சி முறை பொறியாளர் குறிப்பிடத்தக்க சுறுசுறுப்புடன் துரிதமாக செயல்பட்டார்."
+  },
+  {
+    "id": 3330,
+    "word": "algo",
+    "pos": "noun",
+    "definition": "Informal term for algorithm, widely used in software engineering and social media dynamics.",
+    "taWord": "அல்காரிதம் (நெறிமுறை)",
+    "enExample": "The recommendation algo was optimized to reduce latency during peak user activity.",
+    "taExample": "பயனர் நடமாட்டம் அதிகமாக இருக்கும் போது தாமதத்தைக் குறைக்க பரிந்துரை அல்காரிதம் மேம்படுத்தப்பட்டது.",
+    "enExample2": "Creators on social media often adapt their content strategy to stay favored by the platform algo.",
+    "taExample2": "சமூக ஊடக உருவாக்குநர்கள் தளத்தின் அல்காரிதத்தில் முன்னணியில் இருக்க தங்கள் உள்ளடக்க உத்தியை மாற்றுகிறார்கள்.",
+    "synonyms": [
+      "algorithm",
+      "procedure",
+      "computation",
+      "logic"
+    ],
+    "antonyms": [
+      "randomness",
+      "chaos"
     ]
   },
   {
@@ -412,7 +563,9 @@
     "antonyms": [
       "Random",
       "Arbitrary"
-    ]
+    ],
+    "enExample2": "Algorithmic trading platforms execute thousands of buy and sell orders in mere milliseconds.",
+    "taExample2": "அல்காரித வர்த்தக தளங்கள் சில மில்லி விநாடிகளிலேயே ஆயிரக்கணக்கான வாங்குதல் மற்றும் விற்பனை உத்தரவுகளை செயல்படுத்துகின்றன."
   },
   {
     "id": 140,
@@ -430,7 +583,9 @@
     "antonyms": [
       "Disagreement",
       "Misalignment"
-    ]
+    ],
+    "enExample2": "Cross-functional team alignment is essential before commencing large-scale platform refactoring.",
+    "taExample2": "பெரிய அளவிலான மறுசீரமைப்பைத் தொடங்குவதற்கு முன் பல்வேறு துறை குழுக்களிடையே ஒத்திசைவு மிகவும் அவசியமாகும்."
   },
   {
     "id": 2841,
@@ -451,7 +606,9 @@
       "Denial",
       "Proof",
       "Retraction"
-    ]
+    ],
+    "enExample2": "The internal audit investigated the allegation regarding unauthorized database access.",
+    "taExample2": "அங்கீகரிக்கப்படாத தரவுத்தள அணுகல் தொடர்பான குற்றச்சாட்டை உள்நாட்டு தணிக்கைக் குழு விசாரித்தது."
   },
   {
     "id": 135,
@@ -468,7 +625,9 @@
     "antonyms": [
       "Aggravate",
       "Exacerbate"
-    ]
+    ],
+    "enExample2": "Adding an edge caching layer will alleviate database query load during peak traffic hours.",
+    "taExample2": "விளிம்புநிலை நினைவகத்தை (Edge Cache) சேர்ப்பது உச்சநேர போக்குவரத்தின் போது தரவுத்தளத்தின் சுமையைக் குறைக்கும்."
   },
   {
     "id": 104,
@@ -485,7 +644,9 @@
     "antonyms": [
       "Withhold",
       "Keep"
-    ]
+    ],
+    "enExample2": "The cloud orchestrator dynamically allocates extra compute nodes when memory usage exceeds 80%.",
+    "taExample2": "நினைவக பயன்பாடு 80%-ஐத் தாண்டும் போது கிளவுட் கட்டமைப்பு தானாகவே கூடுதல் கணினி முனையங்களை ஒதுக்குகிறது."
   },
   {
     "id": 2974,
@@ -506,6 +667,29 @@
       "Specify",
       "Declare openly",
       "State explicitly"
+    ],
+    "enExample2": "The whitepaper alluded to future quantum computing defenses without revealing internal prototypes.",
+    "taExample2": "அந்த தொழில்நுட்ப அறிக்கை உள்நாட்டு முன்மாதிரிகளை வெளிப்படுத்தாமல் எதிர்கால குவாண்டம் கணினி பாதுகாப்பை மறைமுகமாகக் குறிப்பிட்டது."
+  },
+  {
+    "id": 3331,
+    "word": "altruism",
+    "pos": "noun",
+    "definition": "Disinterested and selfless concern for the well-being of others.",
+    "taWord": "சுயநலமற்ற பிறர்நலன் (தியாக மனப்பான்மை)",
+    "enExample": "The tech lead demonstrated altruism by spending hours mentoring junior engineers outside core sprint hours.",
+    "taExample": "தொழில்நுட்பத் தலைவர் தனது பணி நேரத்தைத் தாண்டி இளைய பொறியாளர்களுக்கு வழிகாட்டி தியாக மனப்பான்மையை வெளிப்படுத்தினார்.",
+    "enExample2": "Christian fellowship highlights altruism through community outreach and supporting the underprivileged.",
+    "taExample2": "கிறிஸ்தவ சபை தோழமை சமுதாய நலப்பணிகள் மற்றும் எளியோருக்கு உதவுவதன் மூலம் சுயநலமற்ற அன்பை வலியுறுத்துகிறது.",
+    "synonyms": [
+      "selflessness",
+      "benevolence",
+      "philanthropy",
+      "charity"
+    ],
+    "antonyms": [
+      "selfishness",
+      "egotism"
     ]
   },
   {
@@ -528,6 +712,30 @@
       "Divide",
       "Disintegrate",
       "Split"
+    ],
+    "enExample2": "The tech conglomerate decided to amalgamate three internal billing tools into a single global portal.",
+    "taExample2": "நிறுவனம் தனது மூன்று கட்டணக் கருவிகளை ஒரே உலகளாவிய போர்ட்டலாக ஒன்றிணைக்க முடிவு செய்தது."
+  },
+  {
+    "id": 3287,
+    "word": "Ambiguity",
+    "pos": "Noun",
+    "definition": "The quality of being open to more than one interpretation; lack of precision in specs or speech.",
+    "taWord": "தெளிவின்மை (Thelivinmai)",
+    "enExample": "Eliminating ambiguity in project requirements prevents costly rework during software sprints.",
+    "taExample": "திட்டத் தேவைகளில் தெளிவின்மையை நீக்குவது மென்பொருள் சுழற்சிகளின் போது விலையுயர்ந்த மறுவேலைகளைத் தடுக்கிறது.",
+    "enExample2": "Clear code comments resolve subtle ambiguities in business logic algorithms.",
+    "taExample2": "தெளிவான குறியீட்டு கருத்துரைகள் வணிக தர்க்க அல்காரிதம்களில் நுட்பமான தெளிவின்மையைத் தீர்க்கின்றன.",
+    "synonyms": [
+      "uncertainty",
+      "vagueness",
+      "equivocation",
+      "doubtfulness"
+    ],
+    "antonyms": [
+      "clarity",
+      "precision",
+      "explicit statement"
     ]
   },
   {
@@ -545,7 +753,9 @@
     "antonyms": [
       "Clear",
       "Explicit"
-    ]
+    ],
+    "enExample2": "Avoid ambiguous variable names like 'data' or 'temp' to ensure the codebase remains maintainable.",
+    "taExample2": "மென்பொருள் குறியீடு எளிதில் பராமரிக்கப்பட ஏதுவாக 'data' அல்லது 'temp' போன்ற தெளிவற்ற மாறிப் பெயர்களைத் தவிர்க்கவும்."
   },
   {
     "id": 136,
@@ -562,7 +772,9 @@
     "antonyms": [
       "Apathy",
       "Indifference"
-    ]
+    ],
+    "enExample2": "The startup's core ambition is to eliminate real-time translation latency across mobile devices.",
+    "taExample2": "கைபேசி சாதனங்களில் நிகழ்நேர மொழிபெயர்ப்பு தாமதத்தை முற்றிலும் அகற்றுவதே இந்த புத்தொழில் நிறுவனத்தின் முதன்மை லட்சியமாகும்."
   },
   {
     "id": 127,
@@ -580,7 +792,9 @@
     "antonyms": [
       "Worsen",
       "Exacerbate"
-    ]
+    ],
+    "enExample2": "Implementing rate limiting helped ameliorate server degradation caused by distributed scraping bots.",
+    "taExample2": "கோரிக்கை வரம்பை (Rate Limiting) செயல்படுத்தியது, தானியங்கி போட்களால் ஏற்பட்ட சேவையக சீர்குலைவைச் சீர்செய்ய உதவியது."
   },
   {
     "id": 106,
@@ -599,7 +813,9 @@
       "Balloon payment",
       "Front-load expense",
       "Immediate charge"
-    ]
+    ],
+    "enExample2": "Batching asynchronous write operations helps amortize network overhead across millions of records.",
+    "taExample2": "ஒத்திசைவற்ற எழுதும் செயல்பாடுகளை மொத்தமாக தொகுப்பது, மில்லியன் கணக்கான பதிவுகளின் நெட்வொர்க் சுமையைப் பகிர்ந்தளிக்க உதவுகிறது."
   },
   {
     "id": 3099,
@@ -621,6 +837,29 @@
       "Contemporary",
       "Futuristic",
       "Timely"
+    ],
+    "enExample2": "Relying on manual spreadsheet entry for stock reconciliation felt completely anachronistic in a cloud era.",
+    "taExample2": "கிளவுட் காலகட்டத்தில் இருப்பு சரிபார்ப்புக்கு கையேடு விரிதாள்களை நம்பியிருப்பது காலாவதியானதாகத் தோன்றியது."
+  },
+  {
+    "id": 3289,
+    "word": "Analogy",
+    "pos": "Noun",
+    "definition": "A comparison between two things to explain or clarify a complex technical concept.",
+    "taWord": "ஒப்பீடு (Oppeattu)",
+    "enExample": "The instructor used the analogy of a post office to explain how TCP network packets are routed.",
+    "taExample": "TCP நெட்வொர்க் பாக்கெட்டுகள் எவ்வாறு திருப்பி விடப்படுகின்றன என்பதை விளக்குவதற்கு பயிற்றுவிப்பாளர் ஒரு அஞ்சல் அலுவலகத்தின் ஒப்பீட்டைப் பயன்படுத்தினார்.",
+    "enExample2": "A good technical analogy helps non-technical clients understand cloud database scaling.",
+    "taExample2": "ஒரு நல்ல தொழில்நுட்ப ஒப்பீடு தொழில்நுட்பம் அல்லாத வாடிக்கையாளர்களுக்கு கிளவுட் தரவுத்தள அளவாக்கத்தைப் புரிந்துகொள்ள உதவுகிறது.",
+    "synonyms": [
+      "comparison",
+      "parallel",
+      "metaphor",
+      "similarity"
+    ],
+    "antonyms": [
+      "dissimilarity",
+      "unrelated concept"
     ]
   },
   {
@@ -638,6 +877,71 @@
     "antonyms": [
       "Intuitive",
       "Uncritical"
+    ],
+    "enExample2": "Engineers apply analytical problem-solving to isolate bottlenecks within complex distributed pipelines.",
+    "taExample2": "சிக்கலான விநியோகிக்கப்பட்ட குழாய்களில் உள்ள தடைகளைக் கண்டறிய பொறியாளர்கள் பகுப்பாய்வு சிந்தனையைப் பயன்படுத்துகின்றனர்."
+  },
+  {
+    "id": 3332,
+    "word": "anathema",
+    "pos": "noun",
+    "definition": "Something or someone that one vehemently dislikes or considers cursed.",
+    "taWord": "வெறுக்கத்தக்க விஷயம் (சாபத்திற்குரியது)",
+    "enExample": "Hardcoding sensitive production credentials in source code is anathema to devsecops principles.",
+    "taExample": "மூலக் குறியீட்டில் ரகசிய கடவுச்சொற்களை நேரடியாக எழுதுவது தேவ்ஸெக்ஆப்ஸ் கொள்கைகளுக்கு முற்றிலும் வெறுக்கத்தக்கது.",
+    "enExample2": "Division and discord are anathema to the unity called for in church fellowship.",
+    "taExample2": "பிரிவினையும் சச்சரவும் திருச்சபை தோழமையில் எதிர்பார்க்கப்படும் ஒற்றுமைக்கு முற்றிலும் மாறானவை.",
+    "synonyms": [
+      "abomination",
+      "curse",
+      "detestation",
+      "b सवालों"
+    ],
+    "antonyms": [
+      "blessing",
+      "delight",
+      "approval"
+    ]
+  },
+  {
+    "id": 3239,
+    "word": "Anecdotal",
+    "pos": "Adjective",
+    "definition": "Based on personal accounts or casual observations rather than empirical telemetry data.",
+    "taWord": "அனுபவப்பூர்வமான (Anubavappurvamana)",
+    "enExample": "Relying on anecdotal user reports is insufficient; we need quantitative telemetry metrics.",
+    "taExample": "அனுபவப்பூர்வமான பயனர் அறிக்கைகளை நம்பியிருப்பது போதாது; நமக்கு அளவுகோல் தொலைநிலைப் அளவீடுகள் தேவை.",
+    "enExample2": "Anecdotal evidence suggested the app was slow, but performance testing showed normal latencies.",
+    "taExample2": "அனுபவப்பூர்வமான சான்றுகள் பயன்பாடு மெதுவாக இருப்பதாக பரிந்துரைத்தன, ஆனால் செயல்திறன் சோதனை சாதாரண தாமதங்களைக் காட்டியது.",
+    "synonyms": [
+      "unverified",
+      "subjective",
+      "informal"
+    ],
+    "antonyms": [
+      "empirical",
+      "scientific",
+      "data-backed"
+    ]
+  },
+  {
+    "id": 3247,
+    "word": "Anointing",
+    "pos": "Noun",
+    "definition": "Divine blessing, consecration, or spiritual empowerment bestowed upon a leader or mission.",
+    "taWord": "அபிஷேகம் (Abishegam)",
+    "enExample": "The fellowship leader spoke with wisdom and grace, reflecting a deep spiritual anointing.",
+    "taExample": "கூட்டுறவுத் தலைவர் ஞானத்துடனும் கிருபையுடனும் பேசினார், இது ஒரு ஆழமான ஆன்மீக அபிஷேகத்தைப் பிரதிபலிக்கிறது.",
+    "enExample2": "Anointing in biblical tradition symbolizes dedicated service and divine authorization.",
+    "taExample2": "பைபிள் பாரம்பரியத்தில் அபிஷேகம் என்பது அர்ப்பணிக்கப்பட்ட சேவை மற்றும் தெய்வீக அங்கீகாரத்தைக் குறிக்கிறது.",
+    "synonyms": [
+      "consecration",
+      "blessing",
+      "sanctification"
+    ],
+    "antonyms": [
+      "desecration",
+      "curse"
     ]
   },
   {
@@ -660,7 +964,9 @@
       "Standard",
       "Typical",
       "Regular"
-    ]
+    ],
+    "enExample2": "The intrusion detection system flagged an anomalous outbound transfer to an unrecognized IP address.",
+    "taExample2": "அங்கீகரிக்கப்படாத ஐபி முகவரிக்கு சென்ற வழக்கத்திற்கு மாறான வெளிச்செல்லும் தரவை பாதுகாப்பு அமைப்பு சுட்டிக்காட்டியது."
   },
   {
     "id": 107,
@@ -677,7 +983,9 @@
     "antonyms": [
       "Norm",
       "Standard"
-    ]
+    ],
+    "enExample2": "A statistical anomaly in CPU temperature triggered automatic failover to the secondary datacenter.",
+    "taExample2": "CPU வெப்பநிலையில் ஏற்பட்ட அசாதாரண மாற்றம் இரண்டாம் நிலை தரவு மையத்திற்கு தானியங்கி மாற்றத்தை இயக்கியது."
   },
   {
     "id": 138,
@@ -694,6 +1002,29 @@
     "antonyms": [
       "Unforeseen",
       "Surprise"
+    ],
+    "enExample2": "Good system architects anticipate future scale constraints when designing database schemas.",
+    "taExample2": "சிறந்த அமைப்பு வடிவமைப்பாளர்கள் தரவுத்தள அமைப்புகளை வடிவமைக்கும் போதே எதிர்கால சுமை வரம்புகளை முன்கூட்டியே கணிக்கின்றனர்."
+  },
+  {
+    "id": 3333,
+    "word": "apocrypha",
+    "pos": "noun",
+    "definition": "Writings or statements of doubtful authenticity, though widely circulated.",
+    "taWord": "சந்தேகத்திற்குரிய மூல நூல்கள் (சந்தேக நூல்)",
+    "enExample": "Unverified architectural rumor about legacy deprecation turned out to be pure developer apocrypha.",
+    "taExample": "பழைய சிஸ்டம் நீக்கம் பற்றிய சரிபார்க்கப்படாத வதந்தி வெறும் டெவலப்பர் சந்தேகச் செய்தியாக முடிந்தது.",
+    "enExample2": "Scholars distinguish between canonical scripture and historical intertestamental apocrypha.",
+    "taExample2": "ஆராய்ச்சியாளர்கள் அங்கீகரிக்கப்பட்ட வேதவசனங்களுக்கும் வரலாற்று சந்தேக நூல்களுக்கும் உள்ள வேறுபாட்டை விளக்குகிறார்கள்.",
+    "synonyms": [
+      "doubtful writings",
+      "unverified accounts",
+      "fabrications"
+    ],
+    "antonyms": [
+      "canon",
+      "scripture",
+      "truth"
     ]
   },
   {
@@ -716,6 +1047,30 @@
       "Genuine",
       "Verifiable",
       "True"
+    ],
+    "enExample2": "The widely circulated tale about the codebase being written overnight is largely apocryphal.",
+    "taExample2": "இந்த மென்பொருள் ஒரே இரவில் எழுதப்பட்டது என்று பரவலாக கூறப்படும் கதை பெரும்பாலும் உண்மைக்கு மாறான கட்டுக்கதையாகும்."
+  },
+  {
+    "id": 3334,
+    "word": "apologist",
+    "pos": "noun",
+    "definition": "A person who offers a formal defense or justification of a cause or doctrine.",
+    "taWord": "கொள்கை நியாயப்படுத்துநர் (ஆதரவாளர்)",
+    "enExample": "The staff engineer acted as a microservices apologist, defending the architecture despite its operational cost.",
+    "taExample": "அமைப்பின் செயல்பாட்டு செலவு அதிகமாக இருந்தாலும் ஊழியர் பொறியாளர் மைக்ரோசர்வீசஸ் அமைப்பை நியாயப்படுத்திப் பேசினார்.",
+    "enExample2": "The Christian apologist presented logical arguments for faith during the university academic debate.",
+    "taExample2": "பல்கலைக்கழக விவாதத்தின் போது கிறிஸ்தவ ஆதரவாளர் விசுவாசத்திற்கான தர்க்கரீதியான வாதங்களை முன்வைத்தார்.",
+    "synonyms": [
+      "defender",
+      "advocate",
+      "champion",
+      "vindicator"
+    ],
+    "antonyms": [
+      "detractor",
+      "critic",
+      "opponent"
     ]
   },
   {
@@ -733,6 +1088,30 @@
     "antonyms": [
       "Remove",
       "Detach"
+    ],
+    "enExample2": "The audit service appends a cryptographic hash to every event written into the immutable log.",
+    "taExample2": "தணிக்கை சேவை மாற்ற முடியாத பதிவேட்டில் எழுதப்படும் ஒவ்வொரு நிகழ்விலும் ஒரு குறியாக்க ஹாஷை இணைக்கிறது."
+  },
+  {
+    "id": 3335,
+    "word": "apportion",
+    "pos": "verb",
+    "definition": "To divide and allocate resources or responsibilities proportionally.",
+    "taWord": "பங்கிட்டு அளி (பங்கீடு செய்யு)",
+    "enExample": "The kubernetes cluster manager automatically apportioned memory based on service priority queues.",
+    "taExample": "குபெர்னெட்டீஸ் கிளஸ்டர் மேனேஜர் சேவை முன்னுரிமையின் அடிப்படையில் நினைவகத்தை தானாகவே பங்கீட்டு அளித்தது.",
+    "enExample2": "Parliament voted to apportion disaster relief funds among affected local councils across the UK.",
+    "taExample2": "பிரித்தானிய நாடாளுமன்றம் பாதிக்கப்பட்ட உள்ளாட்சி மன்றங்களுக்கு நிவாரண நிதியை பங்கிட்டு அளிக்க வாக்களித்தது.",
+    "synonyms": [
+      "allocate",
+      "assign",
+      "distribute",
+      "allot"
+    ],
+    "antonyms": [
+      "withhold",
+      "concentrate",
+      "gather"
     ]
   },
   {
@@ -754,7 +1133,9 @@
       "Assured",
       "Unconcerned",
       "Calm"
-    ]
+    ],
+    "enExample2": "The deployment team felt apprehensive about executing the database migration during peak business hours.",
+    "taExample2": "உச்ச வணிக நேரங்களில் தரவுத்தள இடப்பெயர்வை செயல்படுத்துவது குறித்து வெளியீட்டுக் குழு அச்சம் கொண்டிருந்தது."
   },
   {
     "id": 124,
@@ -770,7 +1151,9 @@
     ],
     "antonyms": [
       "Inability"
-    ]
+    ],
+    "enExample2": "She demonstrated a natural aptitude for low-level memory optimization and assembly debugging.",
+    "taExample2": "கணினி நினைவக உகப்பாக்கம் மற்றும் அசெம்பிளி பிழைத்திருத்தத்தில் அவர் இயல்பான திறமையை வெளிப்படுத்தினார்."
   },
   {
     "id": 116,
@@ -787,7 +1170,9 @@
     "antonyms": [
       "Logical",
       "Reasoned"
-    ]
+    ],
+    "enExample2": "Setting arbitrary connection timeout values can cause intermittent request dropouts under heavy load.",
+    "taExample2": "தன்னிச்சையான இணைப்பு காலாவதி மதிப்புகளை அமைப்பது அதிக சுமையின் போது கோரிக்கைகள் கைவிடப்பட வழிவகுக்கும்."
   },
   {
     "id": 3038,
@@ -808,7 +1193,9 @@
       "Derivative",
       "Copy",
       "Imitation"
-    ]
+    ],
+    "enExample2": "The pub-sub messaging pattern represents a classic archetype of decoupled event-driven architecture.",
+    "taExample2": "பப்-சப் செய்தி முறைமை என்பது நிகழ்வு சார்ந்த கட்டமைப்பின் உன்னதமான முன்மாதிரியாகும்."
   },
   {
     "id": 109,
@@ -826,7 +1213,9 @@
       "Ad-hoc coding",
       "Disorganized structure",
       "Chaotic implementation"
-    ]
+    ],
+    "enExample2": "A clean modular architecture minimizes regression bugs when introducing brand new capabilities.",
+    "taExample2": "நேர்த்தியான கூறு கட்டமைப்பு (Architecture) புதிய வசதிகளை அறிமுகப்படுத்தும் போது முந்தைய பிழைகள் ஏற்படுவதைக் குறைக்கிறது."
   },
   {
     "id": 125,
@@ -845,7 +1234,9 @@
       "Hot tier",
       "Unarchive",
       "Live memory"
-    ]
+    ],
+    "enExample2": "Data older than five years is automatically compressed and moved to a cold storage archive.",
+    "taExample2": "ஐந்து ஆண்டுகளுக்கு மேற்பட்ட பழைய தரவுகள் தானாக சுருக்கப்பட்டு பாதுகாப்பான காப்பகத்திற்கு மாற்றப்படுகின்றன."
   },
   {
     "id": 3169,
@@ -866,7 +1257,9 @@
       "Conflict",
       "Hostility",
       "Battle"
-    ]
+    ],
+    "enExample2": "The rival tech giants declared an informal armistice to collaborate on open-source web standards.",
+    "taExample2": "போட்டி தொழில்நுட்ப நிறுவனங்கள் திறந்த மூல வலைத் தரநிலைகளில் இணைந்து பணியாற்ற தற்காலிக உடன்படிக்கையை மேற்கொண்டன."
   },
   {
     "id": 117,
@@ -884,7 +1277,9 @@
       "Scalar",
       "Single primitive value",
       "Unordered set"
-    ]
+    ],
+    "enExample2": "The algorithm stores sorted lookup keys inside a contiguous memory array for fast random access.",
+    "taExample2": "வேகமான அணுகலுக்காக இந்த வழிமுறை வரிசைப்படுத்தப்பட்ட தேடல் விசைகளை தொடர்ச்சியான நினைவக அணியில் சேமிக்கிறது."
   },
   {
     "id": 119,
@@ -901,7 +1296,9 @@
     "antonyms": [
       "Mumble",
       "Confuse"
-    ]
+    ],
+    "enExample2": "Staff engineers must articulate complex trade-offs clearly to executive stakeholders.",
+    "taExample2": "முக்கிய பொறியாளர்கள் தொழில்நுட்ப சாதக பாதகங்களை நிர்வாக பங்குதாரர்களுக்கு தெளிவாக விவரிக்க வேண்டும்."
   },
   {
     "id": 3088,
@@ -923,7 +1320,9 @@
       "Simplicity",
       "Artlessness",
       "Sincerity"
-    ]
+    ],
+    "enExample2": "The phishing website relied on clever visual artifice to fool users into entering their passwords.",
+    "taExample2": "பயனர்களை ஏமாற்றி கடவுச்சொற்களைப் பெற போலி வலைத்தளம் தந்திரமான காட்சி ஏமாற்று வேலைகளைப் பயன்படுத்தியது."
   },
   {
     "id": 3101,
@@ -945,7 +1344,9 @@
       "Luxurious",
       "Indulgent",
       "Flamboyant"
-    ]
+    ],
+    "enExample2": "The developer adopted an ascetic minimalist workspace with zero desktop icons and a plain text editor.",
+    "taExample2": "அந்த உருவாக்குநர் எந்த அலங்காரமும் இல்லாத எளிய உரைத் தொகுப்பியுடன் கூடிய மிக எளிமையான பணிச்சூழலைத் தேர்ந்தெடுத்தார்."
   },
   {
     "id": 118,
@@ -961,7 +1362,9 @@
     ],
     "antonyms": [
       "Liability"
-    ]
+    ],
+    "enExample2": "Static web assets like fonts, icons, and stylesheets are cached on a global content delivery network.",
+    "taExample2": "எழுத்துருக்கள், ஐகான்கள் போன்ற நிலையான வலை வளங்கள் (Assets) உலகளாவிய உள்ளடக்க விநியோக வலையமைப்பில் சேமிக்கப்படுகின்றன."
   },
   {
     "id": 3039,
@@ -983,7 +1386,9 @@
       "Negligent",
       "Careless",
       "Slothful"
-    ]
+    ],
+    "enExample2": "Through assiduous code reviews and continuous refactoring, the team eliminated technical debt.",
+    "taExample2": "விடாமுயற்சியுடன் கூடிய குறியீட்டு மறுஆய்வு மற்றும் தொடர் சீரமைப்பு மூலம் அக்குழு தொழில்நுட்பக் கடனை ஒழித்தது."
   },
   {
     "id": 3065,
@@ -1005,7 +1410,9 @@
       "Foolish",
       "Obtuse",
       "Shortsighted"
-    ]
+    ],
+    "enExample2": "An astute observation by the QA tester uncovered a rare concurrency deadlock prior to release.",
+    "taExample2": "தரக்கட்டுப்பாட்டு சோதனையாளரின் கூர்மையான கவனிப்பு வெளியீட்டிற்கு முன்பே ஒரு அரிய முடக்கப் பிழையைக் கண்டறிந்தது."
   },
   {
     "id": 110,
@@ -1022,7 +1429,9 @@
     "antonyms": [
       "Synchronous",
       "Simultaneous"
-    ]
+    ],
+    "enExample2": "Using asynchronous background workers prevents the user interface from freezing during video rendering.",
+    "taExample2": "ஒத்திசைவற்ற (Asynchronous) பின்னணி சேவைகளைப் பயன்படுத்துவது வீடியோ உருவாக்கத்தின் போது பயனர் திரை உறைவதைத் தடுக்கிறது."
   },
   {
     "id": 2624,
@@ -1040,6 +1449,29 @@
     "antonyms": [
       "Fumbled",
       "Failed"
+    ],
+    "enExample2": "The newly introduced unbounded memory leak ate through all available RAM in under ten minutes.",
+    "taExample2": "புதிதாக ஏற்பட்ட நினைவக கசிவு பத்தே நிமிடங்களில் அனைத்து RAM நினைவகத்தையும் விழுங்கி தீர்த்துவிட்டது."
+  },
+  {
+    "id": 3248,
+    "word": "Atonement",
+    "pos": "Noun",
+    "definition": "Amends, reparation, or spiritual reconciliation for wrongdoing or sin.",
+    "taWord": "பிராயச்சித்தம் (Piraayachittham)",
+    "enExample": "Understanding the doctrine of atonement is central to Christian faith and redemption theology.",
+    "taExample": "பிராயச்சித்தக் கோட்பாட்டைப் புரிந்துகொள்வது கிறிஸ்தவ நம்பிக்கை மற்றும் மீட்பு இறையியலுக்கு மையமானது.",
+    "enExample2": "In fellowship studies, atonement represents restoring harmony between God and humanity.",
+    "taExample2": "கூட்டுறவு ஆய்வுகளில், பிராயச்சித்தம் என்பது கடவுளுக்கும் மனிதகுலத்திற்கும் இடையில் நல்லிணக்கத்தை மீட்டெடுப்பதைக் குறிக்கிறது.",
+    "synonyms": [
+      "reconciliation",
+      "reparation",
+      "expiation",
+      "redemption"
+    ],
+    "antonyms": [
+      "alienation",
+      "estrangement"
     ]
   },
   {
@@ -1058,7 +1490,9 @@
     "antonyms": [
       "Security perimeter",
       "Defensive barrier"
-    ]
+    ],
+    "enExample2": "Unsanitized user input in query parameters created a dangerous SQL injection attack vector.",
+    "taExample2": "வினவல் அளருக்களில் சோதிக்கப்படாத பயனர் உள்ளீடு ஆபத்தான SQL ஊடுருவல் தாக்குதல் வழியை உருவாக்கியது."
   },
   {
     "id": 2982,
@@ -1080,7 +1514,9 @@
       "Strengthen",
       "Intensify",
       "Boost"
-    ]
+    ],
+    "enExample2": "Fiber-optic repeaters were installed to attenuate signal degradation across transoceanic network cables.",
+    "taExample2": "பெருங்கடல் நெட்வொர்க் வடங்களில் சமிக்ஞை இழப்பைக் குறைப்பதற்காக ஃபைபர்-ஆப்டிக் பெருக்கிகள் நிறுவப்பட்டன."
   },
   {
     "id": 120,
@@ -1098,7 +1534,9 @@
       "Entire entity",
       "Anonymous object",
       "Aggregate whole"
-    ]
+    ],
+    "enExample2": "The 'disabled' HTML attribute prevents users from clicking the submit button multiple times.",
+    "taExample2": "'disabled' என்ற பண்புக்கூறு (Attribute) பயனர்கள் சமர்ப்பிப்பு பொத்தானை பலமுறை அழுத்துவதைத் தடுக்கிறது."
   },
   {
     "id": 128,
@@ -1116,7 +1554,9 @@
     "antonyms": [
       "Timid",
       "Cowardly"
-    ]
+    ],
+    "enExample2": "The startup made an audacious pledge to deliver sub-millisecond AI inference on edge microcontrollers.",
+    "taExample2": "மைக்ரோகண்ட்ரோலர்களில் மிக அதிவேக AI செயலாக்கத்தை வழங்குவதாக அந்த புத்தொழில் நிறுவனம் ஒரு துணிச்சலான வாக்குறுதியை அளித்தது."
   },
   {
     "id": 111,
@@ -1135,7 +1575,9 @@
       "Disregard",
       "Unchecked execution",
       "Blind trust"
-    ]
+    ],
+    "enExample2": "An external cybersecurity firm was hired to conduct a comprehensive penetration audit on the payment gateway.",
+    "taExample2": "பணப்பரிவர்த்தனை நுழைவாயிலில் விரிவான பாதுகாப்பு தணிக்கை செய்ய ஒரு வெளிப்புற சைபர் பாதுகாப்பு நிறுவனம் நியமிக்கப்பட்டது."
   },
   {
     "id": 121,
@@ -1152,7 +1594,9 @@
     "antonyms": [
       "Decrease",
       "Diminish"
-    ]
+    ],
+    "enExample2": "Engineers used retrieval-augmented generation to augment model answers with real-time enterprise data.",
+    "taExample2": "நிகழ்நேர நிறுவன தரவுகளுடன் மாதிரி பதில்களை மேம்படுத்த பொறியாளர்கள் தகவல்களை இணைக்கும் உத்தியைப் பயன்படுத்தினர்."
   },
   {
     "id": 2622,
@@ -1170,7 +1614,9 @@
     "antonyms": [
       "Insignificance",
       "Obscurity"
-    ]
+    ],
+    "enExample2": "The launch event carried an aura of intense excitement as the new neural processor was unveiled.",
+    "taExample2": "புதிய நியூரல் செயலி அறிமுகப்படுத்தப்பட்டபோது அந்த வெளியீட்டு நிகழ்வு மிகுந்த உற்சாகமான சூழலைக் கொண்டிருந்தது."
   },
   {
     "id": 112,
@@ -1187,7 +1633,9 @@
     "antonyms": [
       "Reject",
       "Deny"
-    ]
+    ],
+    "enExample2": "Mobile clients must authenticate using biometric JSON Web Tokens before accessing banking endpoints.",
+    "taExample2": "வங்கி சேவைகளை அணுகுவதற்கு முன் மொபைல் செயலிகள் பயோமெட்ரிக் டோக்கன்களைப் பயன்படுத்தி அங்கீகரிக்கப்பட வேண்டும்."
   },
   {
     "id": 2756,
@@ -1204,7 +1652,9 @@
     "antonyms": [
       "Stable capacity",
       "Steady-state scaling"
-    ]
+    ],
+    "enExample2": "Proper cooldown periods must be configured to prevent auto-scaling thrashing during brief traffic spikes.",
+    "taExample2": "குறுகிய போக்குவரத்து அதிகரிப்பின் போது தேவையின்றி சர்வர்கள் ஏறி இறங்குவதைத் தடுக்க முறையான இடைவெளிகள் கட்டமைக்கப்பட வேண்டும்."
   },
   {
     "id": 113,
@@ -1220,7 +1670,9 @@
     ],
     "antonyms": [
       "Manualize"
-    ]
+    ],
+    "enExample2": "Continuous integration pipelines automate the building, linting, and unit testing of pull requests.",
+    "taExample2": "தொடர் ஒருங்கிணைப்பு பைப்லைன்கள் குறியீட்டு கோரிக்கைகளை உருவாக்குதல் மற்றும் சோதிப்பதை முழுமையாக தானியக்கமாக்குகின்றன."
   },
   {
     "id": 114,
@@ -1237,7 +1689,9 @@
     "antonyms": [
       "Dependent",
       "Subordinate"
-    ]
+    ],
+    "enExample2": "Autonomous background self-healing agents restarted unhealthy database replica nodes without human intervention.",
+    "taExample2": "தன்னாட்சி பின்னணி முகவர்கள் மனித தலையீடு இல்லாமல் பழுதடைந்த தரவுத்தள முனையங்களை மீட்டெடுத்து மறுதொடக்கம் செய்தன."
   },
   {
     "id": 3021,
@@ -1257,7 +1711,9 @@
       "Dependence",
       "Subjection",
       "Control"
-    ]
+    ],
+    "enExample2": "Giving developers autonomy over technical tool selection resulted in faster project delivery and higher morale.",
+    "taExample2": "தொழில்நுட்பக் கருவிகளைத் தேர்ந்தெடுப்பதில் உருவாக்குநர்களுக்கு தன்னாட்சி அதிகாரம் வழங்கியது திட்ட விரைவுக்கும் மனநிறைவுக்கும் வழிவகுத்தது."
   },
   {
     "id": 115,
@@ -1273,7 +1729,9 @@
     ],
     "antonyms": [
       "Unavailability"
-    ]
+    ],
+    "enExample2": "The multi-region architecture achieves 99.999% high availability even during regional power grid outages.",
+    "taExample2": "பல பிராந்திய கட்டமைப்பு மின் தடை காலங்களிலும் கூட 99.999% உயர் கிடைக்கும் தன்மையை (High Availability) உறுதி செய்கிறது."
   },
   {
     "id": 122,
@@ -1290,6 +1748,8 @@
     "antonyms": [
       "Questionable",
       "Debatable"
-    ]
+    ],
+    "enExample2": "In modern cloud engineering, it is axiomatic that every individual infrastructure component will eventually fail.",
+    "taExample2": "நவீன கிளவுட் பொறியியலில், ஒவ்வொரு உட்கட்டமைப்பு கூறுகளும் இறுதியில் செயலிழக்கக்கூடும் என்பது ஒரு வெளிப்படையான உண்மையாகும்."
   }
 ]

@@ -15,7 +15,9 @@
     "antonyms": [
       "Affection",
       "Admiration"
-    ]
+    ],
+    "enExample2": "Seeing hardcoded SQL credentials embedded in plaintext client code gave every reviewer the ick.",
+    "taExample2": "எளிய உரை வாடிக்கையாளர் குறியீட்டில் நேரடியாக எழுதப்பட்ட SQL கடவுச்சொற்களைக் கண்டது ஒவ்வொரு மறுஆய்வாளருக்கும் கடும் அதிருப்தியைத் தந்தது."
   },
   {
     "id": 926,
@@ -33,6 +35,29 @@
     "antonyms": [
       "Conformist",
       "Believer"
+    ],
+    "enExample2": "The tech iconoclast urged developers to replace complex JavaScript frameworks with pure vanilla Web Components.",
+    "taExample2": "சிக்கலான கட்டமைப்புகளை மாற்றி தூய இணைய கூறுகளைப் பயன்படுத்துமாறு அந்த மாற்றுக் கருத்துடைய தொழில்நுட்பவாதி வலியுறுத்தினார்."
+  },
+  {
+    "id": 3203,
+    "word": "Ideation",
+    "pos": "Noun",
+    "definition": "The creative process of generating, developing, and evaluating new technical ideas and feature design concepts.",
+    "taWord": "யோசனை உருவாக்கம் (Yosanai uruvaakkam)",
+    "enExample": "During the sprint ideation phase, engineers brainstormed scalable solutions for live notifications.",
+    "taExample": "ஸ்பிரின்ட் யோசனை உருவாக்கக் கட்டத்தின் போது, பொறியாளர்கள் நேரடி அறிவிப்புகளுக்கான அளவிடக்கூடிய தீர்வுகளை மூளைச்சலவை செய்தனர்.",
+    "enExample2": "Effective product ideation combines user analytics with robust software architecture.",
+    "taExample2": "பயனுள்ள தயாரிப்பு யோசனை உருவாக்கம் பயனர் பகுப்பாய்வை வலுவான மென்பொருள் கட்டிடக்கலையுடன் இணைக்கிறது.",
+    "synonyms": [
+      "brainstorming",
+      "conceptualization",
+      "formulation"
+    ],
+    "antonyms": [
+      "execution",
+      "stagnation",
+      "inaction"
     ]
   },
   {
@@ -50,7 +75,9 @@
     "antonyms": [
       "Non-idempotent retry",
       "Duplicate side effect"
-    ]
+    ],
+    "enExample2": "The billing API requires an idempotency key with every charge request to avoid double-billing customers.",
+    "taExample2": "வாடிக்கையாளர்களுக்கு இரட்டை கட்டணம் வசூலிப்பதைத் தவிர்க்க கட்டண API ஒவ்வொரு கோரிக்கையிலும் ஒரு பிரத்யேக சமசெயல் விசையைக் (Idempotency Key) கோருகிறது."
   },
   {
     "id": 901,
@@ -67,7 +94,9 @@
     "antonyms": [
       "Mutable",
       "Variant"
-    ]
+    ],
+    "enExample2": "HTTP PUT and DELETE requests are designed to be idempotent according to standard web specifications.",
+    "taExample2": "நிலையான வலை விதிமுறைகளின்படி HTTP PUT மற்றும் DELETE கோரிக்கைகள் பலமுறை இயக்கப்பட்டாலும் ஒரே முடிவைத் தரும் வகையில் (Idempotent) வடிவமைக்கப்பட்டுள்ளன."
   },
   {
     "id": 2795,
@@ -85,7 +114,9 @@
     "antonyms": [
       "Relying party",
       "Service provider client"
-    ]
+    ],
+    "enExample2": "Enterprise customers connect their corporate Okta identity provider to enable seamless single sign-on.",
+    "taExample2": "நிறுவன வாடிக்கையாளர்கள் தடையற்ற ஒற்றை உள்நுழைவை இயக்க தங்களது கார்ப்பரேட் அடையாள வழங்குநரை (Identity Provider) இணைக்கின்றனர்."
   },
   {
     "id": 3109,
@@ -107,6 +138,30 @@
       "Standard",
       "Typical",
       "Conforming"
+    ],
+    "enExample2": "The legacy codebase followed idiosyncratic formatting rules that conflicted with modern community linters.",
+    "taExample2": "பழைய மென்பொருள் குறியீடு நவீன தரநிலைகளுடன் முரண்படும் விசித்திரமான வடிவமைப்பு விதிகளைப் பின்பற்றியது."
+  },
+  {
+    "id": 3362,
+    "word": "idolatry",
+    "pos": "noun",
+    "definition": "Extreme or blind admiration, devotion, or worship of a person, technology, or idol.",
+    "taWord": "வணக்கம் (அதி தீவிர விசுவாசம் / ஆராதனை)",
+    "enExample": "Blind architectural idolatry toward trendy frameworks can lead teams to introduce unnecessary bloat.",
+    "taExample": "புதிய கட்டமைப்புகள் மீதான தீவிர மோகம் குழுக்களைத் தேவையில்லாத மென்பொருள் சுமையைச் சேர்க்க வைக்கிறது.",
+    "enExample2": "Scripture repeatedly warns against idolatry, urging people to place their trust in God alone.",
+    "taExample2": "மனிதர்கள் கடவுள் மீது மட்டுமே நம்பிக்கை வைக்க வேண்டும் என்றும் வழிபாட்டு மோகத்தைத் தவிர்க்கவும் வேதம் எச்சரிக்கிறது.",
+    "synonyms": [
+      "worship",
+      "fetishism",
+      "veneration",
+      "obsession"
+    ],
+    "antonyms": [
+      "iconoclasm",
+      "contempt",
+      "rejection"
     ]
   },
   {
@@ -124,7 +179,9 @@
     "antonyms": [
       "Obscure",
       "Confuse"
-    ]
+    ],
+    "enExample2": "The architecture whitepaper includes interactive sequence diagrams to illustrate distributed consensus flows.",
+    "taExample2": "விநியோகிக்கப்பட்ட ஒருமித்த செயல்முறைகளை விளக்க தொழில்நுட்ப ஆவணம் ஊடாடும் வரிசை வரைபடங்களைப் பயன்படுத்துகிறது."
   },
   {
     "id": 902,
@@ -141,7 +198,9 @@
     "antonyms": [
       "Mutable",
       "Variable"
-    ]
+    ],
+    "enExample2": "Functional programming languages emphasize immutable state objects to prevent subtle concurrency race conditions.",
+    "taExample2": "செயல்பாட்டு நிரலாக்க மொழிகள் சமகால பிழைகளைத் தவிர்க்க மாற்ற முடியாத (Immutable) நிலை பொருட்களை வலியுறுத்துகின்றன."
   },
   {
     "id": 930,
@@ -160,7 +219,9 @@
       "Irrelevance",
       "Impotence",
       "Stagnation"
-    ]
+    ],
+    "enExample2": "Reducing API bundle size had a direct measurable impact on mobile customer conversion rates.",
+    "taExample2": "பயன்பாட்டின் அளவைக் குறைத்தது மொபைல் வாடிக்கையாளர் மாற்ற விகிதங்களில் நேரடியான அளவிடக்கூடிய தாக்கத்தை ஏற்படுத்தியது."
   },
   {
     "id": 931,
@@ -177,7 +238,9 @@
     "antonyms": [
       "Biased",
       "Partial"
-    ]
+    ],
+    "enExample2": "The architecture board conducted an impartial evaluation of competing cloud database vendors.",
+    "taExample2": "கட்டமைப்பு வாரியம் போட்டியிடும் கிளவுட் தரவுத்தள நிறுவனங்களின் நடுநிலையான மதிப்பீட்டை மேற்கொண்டது."
   },
   {
     "id": 2870,
@@ -198,7 +261,9 @@
       "Resolution",
       "Progress",
       "Agreement"
-    ]
+    ],
+    "enExample2": "The design committee reached an impasse regarding whether to use REST or GraphQL for public endpoints.",
+    "taExample2": "பொது API-களுக்கு REST அல்லது GraphQL-ஐப் பயன்படுத்துவதா என்பதில் வடிவமைப்புக் குழு ஒரு முட்டுக்கட்டையை எட்டியது."
   },
   {
     "id": 2871,
@@ -218,7 +283,9 @@
       "Vindication",
       "Acquittal",
       "Endorsement"
-    ]
+    ],
+    "enExample2": "The committee called for the impeachment of the rogue administrator following evidence of intentional data leaks.",
+    "taExample2": "திட்டமிட்ட தரவு கசிவுக்கான ஆதாரங்களைத் தொடர்ந்து நிர்வாகியைப் பதவி நீக்கம் செய்ய குழு கோரியது."
   },
   {
     "id": 2686,
@@ -237,7 +304,9 @@
       "Catalyst",
       "Enabler",
       "Accelerator"
-    ]
+    ],
+    "enExample2": "Slow continuous integration build times became the single biggest impediment to daily developer velocity.",
+    "taExample2": "மெதுவான தானியங்கி உருவாக்க நேரமே தினசரி உருவாக்குநர் வேகத்திற்கான மிகப்பெரிய தடையாக மாறியது."
   },
   {
     "id": 932,
@@ -254,7 +323,9 @@
     "antonyms": [
       "Optional",
       "Unimportant"
-    ]
+    ],
+    "enExample2": "It is an imperative security requirement that all passwords be salted and hashed before database storage.",
+    "taExample2": "தரவுத்தளத்தில் சேமிப்பதற்கு முன் அனைத்து கடவுச்சொற்களும் குறியாக்கம் செய்யப்படுவது கட்டாய பாதுகாப்பு தேவையாகும்."
   },
   {
     "id": 3110,
@@ -276,7 +347,9 @@
       "Susceptible",
       "Permeable",
       "Fragile"
-    ]
+    ],
+    "enExample2": "Using parameterized SQL queries makes the database layer impervious to standard SQL injection exploits.",
+    "taExample2": "அளருருவாக்கப்பட்ட SQL வினவல்களைப் பயன்படுத்துவது தரவுத்தள அடுக்கை நிலையான SQL ஊடுருவல் தாக்குதல்களால் பாதிக்க முடியாததாக மாற்றுகிறது."
   },
   {
     "id": 3083,
@@ -298,7 +371,9 @@
       "Cautious",
       "Calculated",
       "Deliberate"
-    ]
+    ],
+    "enExample2": "Merging an unreviewed pull request right before the weekend was an impetuous and risky decision.",
+    "taExample2": "வார இறுதிக்கு சற்று முன்பு மறுஆய்வு செய்யப்படாத குறியீட்டை இணைப்பது அவசரமான மற்றும் ஆபத்தான முடிவாகும்."
   },
   {
     "id": 903,
@@ -315,7 +390,9 @@
     "antonyms": [
       "Cancel",
       "Halt"
-    ]
+    ],
+    "enExample2": "The backend squad will implement token bucket rate limiting to protect public endpoints from scrapers.",
+    "taExample2": "பொது API-களை பாதுகாக்க பின்தள குழு டோக்கன் பக்கெட் கோரிக்கை வரம்பை செயல்படுத்தும் (Implement)."
   },
   {
     "id": 2872,
@@ -336,7 +413,9 @@
       "Absolve",
       "Clear",
       "Exclude"
-    ]
+    ],
+    "enExample2": "The server access logs directly implicate a compromised third-party plugin in the database breach.",
+    "taExample2": "தரவுத்தள மீறலில் பாதிக்கப்பட்ட ஒரு மூன்றாம் தரப்பு செருகுநிரலை சர்வர் அணுகல் பதிவுகள் நேரடியாக சுட்டிக்காட்டுகின்றன."
   },
   {
     "id": 904,
@@ -353,7 +432,9 @@
     "antonyms": [
       "Explicit",
       "Direct"
-    ]
+    ],
+    "enExample2": "Dynamic languages often perform implicit type coercion that can cause subtle mathematical bugs.",
+    "taExample2": "டைனமிக் மொழிகள் மறைமுகமாக (Implicit) தரவு வகைகளை மாற்றுவது நுட்பமான கணக்கீட்டுப் பிழைகளை ஏற்படுத்தக்கூடும்."
   },
   {
     "id": 2961,
@@ -375,6 +456,50 @@
       "Declare",
       "Specify",
       "Express directly"
+    ],
+    "enExample2": "A zero exit status code does not always imply that all asynchronous child processes completed successfully.",
+    "taExample2": "வெற்றிகரமான வெளியேற்றக் குறியீடு அனைத்து ஒத்திசைவற்ற துணை செயல்முறைகளும் நிறைவடைந்ததை எப்போதும் குறிக்காது."
+  },
+  {
+    "id": 3277,
+    "word": "Imputation",
+    "pos": "Noun",
+    "definition": "The attribution of righteousness, value, or responsibility to someone else.",
+    "taWord": "ஆரோபித்தல் (Arobitthal)",
+    "enExample": "The doctrine of imputation describes how Christ's righteousness is credited to believers by faith.",
+    "taExample": "ஆரோபித்தல் கோட்பாடு, கிறிஸ்துவினால் வரும் நீதி விசுவாசத்தால் விசுவாசிகளுக்கு எவ்வாறு வழங்கப்படுகிறது என்பதை விவரிக்கிறது.",
+    "enExample2": "Avoiding unfair blame imputation during incident reviews maintains high developer morale.",
+    "taExample2": "சம்பவ மதிப்பாய்வுகளின் போது நியாயமற்ற பழி ஆரோபித்தலைத் தவிர்ப்பது டெவலப்பர்களின் மன உறுதியைப் பராமரிக்கிறது.",
+    "synonyms": [
+      "attribution",
+      "crediting",
+      "assignment"
+    ],
+    "antonyms": [
+      "denial",
+      "exoneration"
+    ]
+  },
+  {
+    "id": 3363,
+    "word": "impute",
+    "pos": "verb",
+    "definition": "To assign, credit, or attribute a quality, responsibility, or value to a person or cause.",
+    "taWord": "சாட்டு (கணக்கில் வை / ஆற்றுதல்)",
+    "enExample": "When system performance degraded, the monitoring agent imputed the delay to database socket timeouts.",
+    "taExample": "கணினியின் வேகம் குறைந்த போது, கண்காணிப்பு மென்பொருள் அதற்குக் காரணம் தரவுத்தளத் தாமதமே என்று சாட்டியது.",
+    "enExample2": "In Christian theology, God imputes Christ's righteousness to those who walk in faith.",
+    "taExample2": "கிறிஸ்தவக் கோட்பாட்டில், விசுவாசத்தோடு வாழ்பவர்களுக்கு கடவுள் கிறிஸ்துவினுடைய நீதியை கணக்கில் வைக்கிறார்.",
+    "synonyms": [
+      "attribute",
+      "assign",
+      "credit",
+      "ascribe"
+    ],
+    "antonyms": [
+      "deny",
+      "absolve",
+      "exonerate"
     ]
   },
   {
@@ -392,7 +517,9 @@
     "antonyms": [
       "Deterrent",
       "Disincentive"
-    ]
+    ],
+    "enExample2": "The company introduced a financial bounty incentive for developers who discover critical security vulnerabilities.",
+    "taExample2": "முக்கிய பாதுகாப்பு குறைபாடுகளைக் கண்டறியும் உருவாக்குநர்களுக்கு நிறுவனம் நிதி வெகுமதி ஊக்கத்தொகையை அறிமுகப்படுத்தியது."
   },
   {
     "id": 905,
@@ -409,7 +536,9 @@
     "antonyms": [
       "Discourage",
       "Deter"
-    ]
+    ],
+    "enExample2": "We structured the team OKRs to incentivize writing comprehensive automated unit and integration tests.",
+    "taExample2": "விரிவான தானியங்கி சோதனைகளை எழுதுவதை ஊக்குவிக்கும் வகையில் நாங்கள் குழு இலக்குகளை வடிவமைத்தோம்."
   },
   {
     "id": 3093,
@@ -431,7 +560,9 @@
       "Developed",
       "Finished",
       "Complete"
-    ]
+    ],
+    "enExample2": "The team pitched an inchoate architectural concept that required substantial refinement before prototyping.",
+    "taExample2": "குழு ஆரம்ப நிலையிலான ஒரு கட்டமைப்பு யோசனையை முன்வைத்தது, அது முன்மாதிரிக்கு முன் கணிசமான செம்மைப்படுத்தலைக் கோரியது."
   },
   {
     "id": 2873,
@@ -452,7 +583,9 @@
       "Dissuade",
       "Pacify",
       "Calm"
-    ]
+    ],
+    "enExample2": "Inflammatory comments during pull request reviews can incite unnecessary friction between engineers.",
+    "taExample2": "குறியீட்டு மறுஆய்வுகளின் போது வரும் ஆத்திரமூட்டும் கருத்துக்கள் பொறியாளர்களிடையே தேவையற்ற மனக்கசப்பைத் தூண்டக்கூடும்."
   },
   {
     "id": 3072,
@@ -474,7 +607,9 @@
       "Compatible",
       "Consistent",
       "Fitting"
-    ]
+    ],
+    "enExample2": "Seeing neon colors inside an enterprise banking application felt completely incongruous with brand guidelines.",
+    "taExample2": "வங்கி பயன்பாட்டில் பிரகாசமான வண்ணங்களைப் பார்ப்பது பிராண்ட் வழிகாட்டுதல்களுடன் முற்றிலும் பொருந்தாததாக இருந்தது."
   },
   {
     "id": 934,
@@ -491,7 +626,9 @@
     "antonyms": [
       "Exclude",
       "Separate"
-    ]
+    ],
+    "enExample2": "The next minor release will incorporate community feedback to simplify the mobile checkout workflow.",
+    "taExample2": "அடுத்த பதிப்பு மொபைல் செக்அவுட் செயல்முறையை எளிதாக்க சமூகக் கருத்துக்களைத் தன்னுள் இணைக்கும் (Incorporate)."
   },
   {
     "id": 2684,
@@ -509,6 +646,29 @@
     "antonyms": [
       "Static plan",
       "Conceptual model"
+    ],
+    "enExample2": "Atomic counter operations increment visitor statistics safely across hundreds of concurrent server threads.",
+    "taExample2": "அணுசார்ந்த எண்ணும் செயல்பாடுகள் பல சேவையக நூல்களில் பார்வையாளர் எண்ணிக்கையை பாதுகாப்பாக அதிகரிக்கின்றன (Increment)."
+  },
+  {
+    "id": 3225,
+    "word": "Incumbent",
+    "pos": "Noun",
+    "definition": "The current holder of an office, position, or established market dominant vendor.",
+    "taWord": "பதவியில் இருப்பவர் (Pathaviyil iruppavar)",
+    "enExample": "The startup's cloud product outperformed the incumbent software provider in benchmark testing.",
+    "taExample": "தொடக்க நிறுவனத்தின் கிளவுட் தயாரிப்பு அளவுகோல் சோதனையில் பதவியில் இருக்கும் மென்பொருள் வழங்குநரை விட சிறப்பாக செயல்பட்டது.",
+    "enExample2": "Incumbent technology vendors often struggle to adapt quickly to AI disruptions.",
+    "taExample2": "பதவியில் இருக்கும் தொழில்நுட்ப விற்பனையாளர்கள் பெரும்பாலும் AI சீர்குலைவுகளுக்கு விரைவாக மாற்றியமைக்க போராடுகிறார்கள்.",
+    "synonyms": [
+      "officeholder",
+      "current provider",
+      "established player"
+    ],
+    "antonyms": [
+      "challenger",
+      "newcomer",
+      "contender"
     ]
   },
   {
@@ -527,7 +687,9 @@
       "Full table scan",
       "Unsorted sequence",
       "Linear search"
-    ]
+    ],
+    "enExample2": "Creating a composite database index dramatically reduced query execution time from five seconds to ten milliseconds.",
+    "taExample2": "கூட்டு தரவுத்தள குறியீட்டை (Index) உருவாக்கியது வினவல் இயங்கும் நேரத்தை ஐந்து விநாடிகளிலிருந்து பத்து மில்லி விநாடிகளாகக் குறைத்தது."
   },
   {
     "id": 2832,
@@ -548,7 +710,9 @@
       "Delight",
       "Satisfaction",
       "Complacency"
-    ]
+    ],
+    "enExample2": "Developers expressed righteous indignation when management mandated invasive employee monitoring software.",
+    "taExample2": "நிர்வாகம் ஊழியர்களைக் கண்காணிக்கும் மென்பொருளைக் கட்டாயமாக்கிய போது உருவாக்குநர்கள் நியாயமான கோபத்தை வெளிப்படுத்தினர்."
   },
   {
     "id": 935,
@@ -565,7 +729,9 @@
     "antonyms": [
       "Disposable",
       "Superfluous"
-    ]
+    ],
+    "enExample2": "Automated linting and formatting tools have become an indispensable part of modern software development workflows.",
+    "taExample2": "தானியங்கி வடிவமைப்பு கருவிகள் நவீன மென்பொருள் உருவாக்க நடைமுறைகளில் இன்றியமையாத பகுதியாக மாறிவிட்டன."
   },
   {
     "id": 3111,
@@ -587,7 +753,9 @@
       "Industrious",
       "Active",
       "Assiduous"
-    ]
+    ],
+    "enExample2": "An indolent approach to dependency updates leaves software vulnerable to publicly known security CVEs.",
+    "taExample2": "நூலகங்களை மேம்படுத்துவதில் காட்டும் மெத்தனமான அணுகுமுறை மென்பொருளை பொதுப் பாதுகாப்பு அச்சுறுத்தல்களுக்கு ஆளாக்குகிறது."
   },
   {
     "id": 3090,
@@ -608,7 +776,9 @@
       "Expressible",
       "Utterable",
       "Commonplace"
-    ]
+    ],
+    "enExample2": "Deploying a complex distributed system without a single glitch brought an ineffable sense of collective relief.",
+    "taExample2": "எந்தவித பிழையுமின்றி ஒரு சிக்கலான விநியோகிக்கப்பட்ட அமைப்பை வெளியிட்டது வார்த்தைகளால் விவரிக்க முடியாத நிம்மதியைத் தந்தது."
   },
   {
     "id": 907,
@@ -625,7 +795,9 @@
     "antonyms": [
       "Efficient",
       "Optimal"
-    ]
+    ],
+    "enExample2": "Querying the database inside a tight UI rendering loop is an extremely inefficient engineering anti-pattern.",
+    "taExample2": "திரை காட்சிப்படுத்தும் வளையத்திற்குள் தரவுத்தளத்தை மீண்டும் மீண்டும் வினவுவது மிகவும் திறமையற்ற தவறான அணுகுமுறையாகும்."
   },
   {
     "id": 927,
@@ -643,7 +815,9 @@
     "antonyms": [
       "Flexible",
       "Preventable"
-    ]
+    ],
+    "enExample2": "The inexorable rise of cloud computing led legacy organizations to decommission physical on-premise hardware.",
+    "taExample2": "கிளவுட் கம்ப்யூட்டிங்கின் தடுக்க முடியாத வளர்ச்சி நிறுவனங்களை பழைய வன்பொருட்களை கைவிட வழிவகுத்தது."
   },
   {
     "id": 2962,
@@ -665,7 +839,9 @@
       "Guess blindly",
       "Assume",
       "State"
-    ]
+    ],
+    "enExample2": "The TypeScript compiler can infer return types automatically without requiring explicit function signatures.",
+    "taExample2": "வெளிப்படையான வரையறைகள் தேவையின்றி TypeScript தொகுப்பியால் செயல்பாட்டு வெளியீட்டு வகைகளை தானாகவே ஊகிக்க முடியும்."
   },
   {
     "id": 2793,
@@ -683,7 +859,9 @@
     "antonyms": [
       "Model training",
       "Weight backpropagation"
-    ]
+    ],
+    "enExample2": "Quantizing neural network weights dramatically accelerated model inference speeds on mobile hardware.",
+    "taExample2": "நியூரல் நெட்வொர்க் எடைகளை உகப்பாக்கியது மொபைல் வன்பொருளில் மாதிரி அனுமான (Inference) வேகத்தை பெரிதும் விரைவுபடுத்தியது."
   },
   {
     "id": 936,
@@ -702,6 +880,28 @@
       "Irrelevance",
       "Impotence",
       "Subordination"
+    ],
+    "enExample2": "Network latency between microservices has a major influence on end-to-end API response times.",
+    "taExample2": "நுண்சேவைகளுக்கிடையேயான நெட்வொர்க் தாமதம் ஒட்டுமொத்த API பதில் நேரத்தில் பெரும் செல்வாக்கு செலுத்துகிறது."
+  },
+  {
+    "id": 3311,
+    "word": "Influencer",
+    "pos": "Noun",
+    "definition": "An individual who shapes technical choices, purchasing, or developer opinions via social media.",
+    "taWord": "செல்வாக்கு செலுத்துபவர் (Selvaakku seluthupavar)",
+    "enExample": "Tech influencers published video tutorials introducing developers to modern Vite and React patterns.",
+    "taExample": "தொழில்நுட்ப செல்வாக்கு செலுத்துபவர்கள் டெவலப்பர்களுக்கு நவீன Vite மற்றும் React முறைகளை அறிமுகப்படுத்தும் வீடியோ பயிற்சிகளை வெளியிட்டனர்.",
+    "enExample2": "Industry influencers highlighted the importance of cyber hygiene and password security.",
+    "taExample2": "தொழில்முறை செல்வாக்கு செலுத்துபவர்கள் இணைய தூய்மை மற்றும் கடவுச்சொல் பாதுகாப்பின் முக்கியத்துவத்தை எடுத்துக்காட்டினர்.",
+    "synonyms": [
+      "thought leader",
+      "trendsetter",
+      "opinion maker"
+    ],
+    "antonyms": [
+      "follower",
+      "unknown user"
     ]
   },
   {
@@ -720,7 +920,9 @@
     "antonyms": [
       "Data export",
       "Egress"
-    ]
+    ],
+    "enExample2": "The real-time log ingestion pipeline processes over one hundred gigabytes of telemetry data every minute.",
+    "taExample2": "நிகழ்நேர பதிவு உட்கொள்ளும் (Ingestion) குழாய் ஒவ்வொரு நிமிடமும் நூறு ஜிகாபைட்டிற்கும் அதிகமான தரவைச் செயலாக்குகிறது."
   },
   {
     "id": 908,
@@ -737,7 +939,9 @@
     "antonyms": [
       "Acquired",
       "Extraneous"
-    ]
+    ],
+    "enExample2": "Network unreliability is an inherent reality when designing globally distributed edge microservices.",
+    "taExample2": "நெட்வொர்க் நிச்சயமற்ற தன்மை என்பது உலகளாவிய விநியோகிக்கப்பட்ட சேவைகளை வடிவமைக்கும் போது உள்ள இயல்பான உண்மையாகும்."
   },
   {
     "id": 937,
@@ -754,7 +958,9 @@
     "antonyms": [
       "Apathy",
       "Lethargy"
-    ]
+    ],
+    "enExample2": "The platform engineering team launched a major initiative to modernize our legacy container infrastructure.",
+    "taExample2": "எங்கள் பழைய கொள்கலன் உட்கட்டமைப்பை நவீனமயமாக்க தள பொறியியல் குழு ஒரு பெரிய முன்னெடுப்பைத் தொடங்கியது."
   },
   {
     "id": 909,
@@ -771,7 +977,9 @@
     "antonyms": [
       "Extract",
       "Remove"
-    ]
+    ],
+    "enExample2": "Dependency injection frameworks make it straightforward to inject mock services during automated testing.",
+    "taExample2": "சார்பு உட்செலுத்துதல் (Dependency Injection) கட்டமைப்புகள் தானியங்கி சோதனையின் போது போலி சேவைகளை இணைப்பதை எளிதாக்குகின்றன."
   },
   {
     "id": 2874,
@@ -792,7 +1000,9 @@
       "Permit",
       "Sanction",
       "Allowance"
-    ]
+    ],
+    "enExample2": "The court issued a preliminary injunction prohibiting the unauthorized distribution of proprietary source code.",
+    "taExample2": "தனியுரிம மூலக் குறியீட்டை அங்கீகாரமின்றி விநியோகிப்பதைத் தடை செய்து நீதிமன்றம் இடைக்காலத் தடை உத்தரவை பிறப்பித்தது."
   },
   {
     "id": 3112,
@@ -814,7 +1024,9 @@
       "Pernicious",
       "Deleterious",
       "Toxic"
-    ]
+    ],
+    "enExample2": "What appeared to be an innocuous CSS style tweak inadvertently broke the interactive mobile checkout button.",
+    "taExample2": "பார்க்க எளிதாகத் தோன்றிய ஒரு CSS மாற்றம் எதிர்பாராதவிதமாக மொபைல் செக்அவுட் பொத்தானை செயலிழக்கச் செய்தது."
   },
   {
     "id": 3027,
@@ -836,7 +1048,9 @@
       "Harmless",
       "Honest",
       "Direct"
-    ]
+    ],
+    "enExample2": "A slow heap memory leak is an insidious defect that often escapes detection until servers run out of RAM.",
+    "taExample2": "மெதுவான நினைவக கசிவு என்பது சர்வர்கள் முழு நினைவகத்தையும் இழக்கும் வரை மறைந்திருக்கும் ஒரு ஆபத்தான குறைபாடாகும்."
   },
   {
     "id": 938,
@@ -853,7 +1067,9 @@
     "antonyms": [
       "Ignorance",
       "Blindness"
-    ]
+    ],
+    "enExample2": "Real-time query telemetry provides actionable insight into the most resource-intensive database operations.",
+    "taExample2": "நிகழ்நேர வினவல் அளவீடுகள் அதிக வளங்களைப் பயன்படுத்தும் தரவுத்தள செயல்பாடுகள் குறித்த ஆழமான புரிதலை (Insight) வழங்குகின்றன."
   },
   {
     "id": 2875,
@@ -873,7 +1089,9 @@
       "State explicitly",
       "Declare openly",
       "Proclaim"
-    ]
+    ],
+    "enExample2": "Do not insinuate that team velocity is dropping without providing empirical sprint burndown data.",
+    "taExample2": "ஆதாரபூர்வமான ஸ்பிரிண்ட் வரைபடத் தரவுகள் இன்றி குழுவின் வேகம் குறைகிறது என்று மறைமுகமாகக் கூற வேண்டாம்."
   },
   {
     "id": 910,
@@ -890,7 +1108,9 @@
     "antonyms": [
       "Ignore",
       "Overlook"
-    ]
+    ],
+    "enExample2": "Developers use browser devtools to inspect DOM nodes, computed styles, and active network payloads.",
+    "taExample2": "DOM கூறுகள், பாணிகள் மற்றும் நெட்வொர்க் தரவுகளை ஆய்வு செய்ய (Inspect) உருவாக்குநர்கள் உலாவி கருவிகளைப் பயன்படுத்துகின்றனர்."
   },
   {
     "id": 911,
@@ -908,7 +1128,9 @@
       "Class definition",
       "Abstract interface",
       "Blueprint type"
-    ]
+    ],
+    "enExample2": "The cloud autoscaler provisions a new virtual machine instance whenever CPU utilization crosses 80%.",
+    "taExample2": "CPU பயன்பாடு 80%-ஐத் தாண்டும் போதெல்லாம் கிளவுட் அமைப்பு ஒரு புதிய மெய்நிகர் சேவையக நிகழ்வை (Instance) உருவாக்குகிறது."
   },
   {
     "id": 2876,
@@ -929,7 +1151,9 @@
       "Submission",
       "Loyalty",
       "Obedience"
-    ]
+    ],
+    "enExample2": "A grassroots engineering insurgency succeeded in convincing management to adopt modern open-source tooling.",
+    "taExample2": "நவீன திறந்த மூலக் கருவிகளை ஏற்றுக்கொள்ள நிர்வாகத்தை வற்புறுத்துவதில் பொறியாளர்களின் கூட்டு முயற்சி வெற்றியடைந்தது."
   },
   {
     "id": 912,
@@ -946,7 +1170,9 @@
     "antonyms": [
       "Separate",
       "Divide"
-    ]
+    ],
+    "enExample2": "We used standard OAuth 2.0 protocols to integrate the authentication service with Google Workspace.",
+    "taExample2": "அங்கீகார சேவையை கூகிள் வொர்க்ஸ்பேஸுடன் ஒருங்கிணைக்க (Integrate) நிலையான OAuth 2.0 நெறிமுறைகளைப் பயன்படுத்தினோம்."
   },
   {
     "id": 913,
@@ -963,7 +1189,9 @@
     "antonyms": [
       "Stupid",
       "Dull"
-    ]
+    ],
+    "enExample2": "The load balancer uses intelligent traffic routing to bypass unhealthy backend service nodes automatically.",
+    "taExample2": "சுமை சமநிலைப்படுத்தி பழுதடைந்த சேவையக முனையங்களைத் தானாகத் தவிர்க்க அறிவார்ந்த போக்குவரத்து வழித்தடத்தைப் பயன்படுத்துகிறது."
   },
   {
     "id": 925,
@@ -980,6 +1208,28 @@
     "antonyms": [
       "Allow",
       "Permit"
+    ],
+    "enExample2": "Service workers can intercept outgoing network requests to serve cached offline application assets.",
+    "taExample2": "சேமிக்கப்பட்ட பயன்பாட்டுத் தரவை வழங்க சர்வீஸ் ஒர்க்கர்கள் வெளிச்செல்லும் நெட்வொர்க் கோரிக்கைகளை இடைமறிக்க (Intercept) முடியும்."
+  },
+  {
+    "id": 3258,
+    "word": "Intercession",
+    "pos": "Noun",
+    "definition": "The act of praying, intervening, or advocating on behalf of another person or team in need.",
+    "taWord": "பரிந்துரை ஜெபம் (Parinthurai jepam)",
+    "enExample": "The fellowship circle engaged in intercession for team members facing personal and health challenges.",
+    "taExample": "தோழமை வட்டம் தனிப்பட்ட மற்றும் சுகாதார சவால்களை எதிர்கொள்ளும் குழு உறுப்பினர்களுக்காக பரிந்துரை ஜெபத்தில் ஈடுபட்டது.",
+    "enExample2": "Senior engineers act as intercessors between technical teams and executive management.",
+    "taExample2": "மூத்த பொறியாளர்கள் தொழில்நுட்பக் குழுக்களுக்கும் நிர்வாக மேலாண்மைக்கும் இடையே பரிந்துரையாளர்களாக செயல்படுகிறார்கள்.",
+    "synonyms": [
+      "mediation",
+      "advocacy",
+      "intercession prayer"
+    ],
+    "antonyms": [
+      "indifference",
+      "accusation"
     ]
   },
   {
@@ -998,7 +1248,9 @@
       "Concrete implementation",
       "Internal logic",
       "Private struct"
-    ]
+    ],
+    "enExample2": "Defining a clear TypeScript interface ensures seamless contract alignment between backend and frontend code.",
+    "taExample2": "தெளிவான TypeScript இடைமுகத்தை (Interface) வரையறுப்பது பின்தள மற்றும் முன்னணி குறியீடுகளுக்கிடையே சரியான ஒத்திசைவை உறுதி செய்கிறது."
   },
   {
     "id": 915,
@@ -1015,7 +1267,9 @@
     "antonyms": [
       "Continuous",
       "Steady"
-    ]
+    ],
+    "enExample2": "The team investigated intermittent connection timeouts that only occurred during peak morning trading hours.",
+    "taExample2": "உச்ச வர்த்தக நேரங்களில் மட்டுமே ஏற்படும் அவ்வப்போதைய இணைப்பு காலாவதிகளை குழு ஆய்வு செய்தது."
   },
   {
     "id": 916,
@@ -1032,7 +1286,9 @@
     "antonyms": [
       "External",
       "Outer"
-    ]
+    ],
+    "enExample2": "Sensitive company analytics are hosted on an internal private network protected by multi-factor VPN access.",
+    "taExample2": "முக்கியமான நிறுவன பகுப்பாய்வுத் தகவல்கள் VPN பாதுகாக்கப்பட்ட உள்நாட்டு தனியார் நெட்வொர்க்கில் வைக்கப்பட்டுள்ளன."
   },
   {
     "id": 917,
@@ -1049,7 +1305,9 @@
     "antonyms": [
       "Continue",
       "Resume"
-    ]
+    ],
+    "enExample2": "Hardware timer interrupts ensure that real-time operating systems schedule critical kernel tasks with microsecond precision.",
+    "taExample2": "வன்பொருள் இடைமறிப்புகள் (Interrupts) நிகழ்நேர இயக்க அமைப்புகள் மைக்ரோ விநாடி துல்லியத்துடன் முக்கிய பணிகளை திட்டமிடுவதை உறுதி செய்கின்றன."
   },
   {
     "id": 2877,
@@ -1070,7 +1328,9 @@
       "Reassurance",
       "Persuasion",
       "Comfort"
-    ]
+    ],
+    "enExample2": "Healthy engineering organizations foster psychological safety with zero tolerance for workplace intimidation.",
+    "taExample2": "ஆரோக்கியமான பொறியியல் நிறுவனங்கள் பயமுறுத்துதல் மற்றும் அச்சுறுத்தல்களை முற்றிலும் சகித்துக்கொள்ளாத பாதுகாப்பான சூழலை வளர்க்கின்றன."
   },
   {
     "id": 928,
@@ -1088,7 +1348,9 @@
     "antonyms": [
       "Compliant",
       "Flexible"
-    ]
+    ],
+    "enExample2": "The vendor remained intransigent regarding contractual price increases despite prolonged negotiation.",
+    "taExample2": "நீண்ட பேச்சுவார்த்தைக்குப் பின்னரும் விலை உயர்வில் ஒப்பந்த நிறுவனம் பிடிவாதமாக இருந்தது."
   },
   {
     "id": 918,
@@ -1105,7 +1367,9 @@
     "antonyms": [
       "Simple",
       "Straightforward"
-    ]
+    ],
+    "enExample2": "The distributed consensus algorithm involves an intricate sequence of leader heartbeats and quorum votes.",
+    "taExample2": "விநியோகிக்கப்பட்ட ஒருமித்த வழிமுறை தலைவரின் இதயத்துடிப்புகள் மற்றும் பெரும்பான்மை வாக்குகளின் சிக்கலான வரிசையை உள்ளடக்கியது."
   },
   {
     "id": 924,
@@ -1122,6 +1386,28 @@
     "antonyms": [
       "Extrinsic",
       "Acquired"
+    ],
+    "enExample2": "Type safety is an intrinsic benefit of authoring large-scale applications with TypeScript.",
+    "taExample2": "வகை பாதுகாப்பு என்பது TypeScript மூலம் பெரிய பயன்பாடுகளை உருவாக்குவதன் உள்ளார்ந்த (Intrinsic) நன்மையாகும்."
+  },
+  {
+    "id": 3219,
+    "word": "Introspection",
+    "pos": "Noun",
+    "definition": "The ability of a programming language, API (like GraphQL), or process to inspect its own structure and state.",
+    "taWord": "சுய பகுப்பாய்வு (Suya pagupaayvu)",
+    "enExample": "GraphQL introspection enables frontend tools to automatically generate type-safe schema definitions.",
+    "taExample": "GraphQL சுய பகுப்பாய்வு முகப்பு கருவிகளை வகை-பாதுகாப்பான திட்ட வரையறைகளை தானாக உருவாக்க உதவுகிறது.",
+    "enExample2": "Runtime object introspection is essential for dynamic ORMs and debugging tools.",
+    "taExample2": "இயக்கநேர பொருள் சுய பகுப்பாய்வு டைனமிக் ORMகள் மற்றும் பிழைத்திருத்தக் கருவிகளுக்கு அவசியமானது.",
+    "synonyms": [
+      "self-examination",
+      "reflection",
+      "runtime inspection"
+    ],
+    "antonyms": [
+      "external observation",
+      "opacity"
     ]
   },
   {
@@ -1139,7 +1425,9 @@
     "antonyms": [
       "Calculated",
       "Unnatural"
-    ]
+    ],
+    "enExample2": "The newly redesigned drag-and-drop dashboard makes database schema modeling remarkably intuitive.",
+    "taExample2": "புதிதாக வடிவமைக்கப்பட்ட இழுத்து விடும் பலகை தரவுத்தள அமைப்பு மாதிரியாக்கத்தை மிகவும் இயல்பானதாகவும் எளிதாகவும் ஆக்குகிறது."
   },
   {
     "id": 919,
@@ -1156,7 +1444,9 @@
     "antonyms": [
       "Validate",
       "Confirm"
-    ]
+    ],
+    "enExample2": "Updating user permission roles should immediately invalidate all active JWT authorization tokens.",
+    "taExample2": "பயனர் அனுமதி நிலைகளை மாற்றியமைப்பது அனைத்து பயன்பாட்டில் உள்ள டோக்கன்களையும் உடனடியாக செல்லாததாக்க (Invalidate) வேண்டும்."
   },
   {
     "id": 3113,
@@ -1178,7 +1468,9 @@
       "Compliment",
       "Eulogy",
       "Flattery"
-    ]
+    ],
+    "enExample2": "The community moderators promptly removed toxic comments containing personal invective against contributors.",
+    "taExample2": "பங்களிப்பாளர்களுக்கு எதிரான தனிப்பட்ட அவதூறு கருத்துக்களை சமூக நடுவர்கள் உடனடியாக அகற்றினர்."
   },
   {
     "id": 920,
@@ -1194,7 +1486,9 @@
     ],
     "antonyms": [
       "Ignore"
-    ]
+    ],
+    "enExample2": "Clients invoke remote procedure calls using strongly-typed Protocol Buffer definitions over HTTP/2.",
+    "taExample2": "வாடிக்கையாளர்கள் HTTP/2 வழியாக வலுவான தரவு வரையறைகளைப் பயன்படுத்தி தொலைதூர நடைமுறைகளை இயக்குகின்றனர் (Invoke)."
   },
   {
     "id": 921,
@@ -1211,7 +1505,9 @@
     "antonyms": [
       "Combine",
       "Unite"
-    ]
+    ],
+    "enExample2": "Docker containers isolate application runtimes, preventing environment pollution on the host operating system.",
+    "taExample2": "டாக்கர் கொள்கலன்கள் இயக்க சூழல்களை தனிமைப்படுத்தி (Isolate) முதன்மை இயக்க முறைமையில் குழப்பம் ஏற்படுவதைத் தடுக்கின்றன."
   },
   {
     "id": 922,
@@ -1230,6 +1526,30 @@
       "Halt",
       "Cease",
       "Reverse"
+    ],
+    "enExample2": "Agile teams iterate rapidly on minimum viable prototypes based on live customer usability metrics.",
+    "taExample2": "சுறுசுறுப்பான குழுக்கள் நேரடி வாடிக்கையாளர் பயன்பாட்டு அளவீடுகளின் அடிப்படையில் முன்மாதிரிகளை விரைவாக மறுமுறை மேம்படுத்துகின்றன (Iterate)."
+  },
+  {
+    "id": 3204,
+    "word": "Iterative",
+    "pos": "Adjective",
+    "definition": "Developing software or solving problems through repeated cycles of incremental improvements.",
+    "taWord": "சுழற்சி முறையிலான (Suzharchi muraiyilana)",
+    "enExample": "Our team follows an iterative release cycle, deploying minor feature refinements every two weeks.",
+    "taExample": "எங்கள் குழு ஒரு சுழற்சி முறை வெளியீட்டு சுழற்சியைப் பின்பற்றுகிறது, ஒவ்வொரு இரண்டு வாரங்களுக்கும் சிறிய அம்ச சுத்திகரிப்புகளைப் பயன்படுத்துகிறது.",
+    "enExample2": "Refactoring legacy code is best done through small, iterative pull requests.",
+    "taExample2": "பழைய குறியீட்டை மாற்றியமைப்பது சிறிய, சுழற்சி முறை பிடிப்பு கோரிக்கைகள் மூலம் சிறப்பாக செய்யப்படுகிறது.",
+    "synonyms": [
+      "cyclical",
+      "repetitive",
+      "incremental",
+      "gradual"
+    ],
+    "antonyms": [
+      "one-shot",
+      "monolithic",
+      "static"
     ]
   }
 ]

@@ -15,7 +15,9 @@
     "antonyms": [
       "Rare",
       "Scarce"
-    ]
+    ],
+    "enExample2": "JSON has become the ubiquitous standard for data interchange across modern web APIs and microservices.",
+    "taExample2": "JSON நவீன இணைய API-கள் மற்றும் நுண்சேவைகளில் தரவு பரிமாற்றத்திற்கான எங்கும் நிறைந்த (Ubiquitous) தரநிலையாக மாறியுள்ளது."
   },
   {
     "id": 2745,
@@ -33,7 +35,9 @@
     "antonyms": [
       "jargon disconnect",
       "semantic mismatch"
-    ]
+    ],
+    "enExample2": "Domain-Driven Design emphasizes a ubiquitous language shared identically between domain experts and software engineers.",
+    "taExample2": "டொமைன்-டிரிவன் டிசைன் வணிக வல்லுநர்கள் மற்றும் பொறியாளர்களிடையே பொதுவான ஒரே மொழியைப் (Ubiquitous Language) பயன்படுத்துவதை வலியுறுத்துகிறது."
   },
   {
     "id": 3018,
@@ -53,7 +57,9 @@
       "Rarity",
       "Scarcity",
       "Infrequency"
-    ]
+    ],
+    "enExample2": "The ubiquity of high-speed mobile networks accelerated the global transition to cloud-hosted software.",
+    "taExample2": "அதிவேக மொபைல் நெட்வொர்க்குகளின் பரவலான பயன்பாடு (Ubiquity) கிளவுட் மென்பொருளுக்கான உலகளாவிய மாற்றத்தை விரைவுபடுத்தியது."
   },
   {
     "id": 3157,
@@ -75,7 +81,9 @@
       "Delight",
       "Satisfaction",
       "Approval"
-    ]
+    ],
+    "enExample2": "The senior engineer took umbrage at the suggestion that automated tests could replace thorough code reviews.",
+    "taExample2": "தானியங்கி சோதனைகள் குறியீட்டு மறுஆய்வுகளை மாற்றும் என்ற கருத்தை மூத்த பொறியாளர் மனவருத்தத்துடன் (Umbrage) எதிர்த்தார்."
   },
   {
     "id": 2101,
@@ -92,7 +100,9 @@
     "antonyms": [
       "Binary",
       "Ternary"
-    ]
+    ],
+    "enExample2": "The unary plus operator (+) in JavaScript quickly converts a numeric string into a numeric primitive.",
+    "taExample2": "ஜாவாஸ்கிரிப்ட்டில் உள்ள ஒற்றை செயற்குறி (Unary +) எண் சரங்களை உடனடியாக எண் மதிப்பாக மாற்றுகிறது."
   },
   {
     "id": 2746,
@@ -110,7 +120,9 @@
       "bounded buffer",
       "capped channel",
       "ring buffer"
-    ]
+    ],
+    "enExample2": "Using an unbounded queue in memory without backpressure limits can trigger an Out-of-Memory crash under heavy traffic.",
+    "taExample2": "வரம்பற்ற வரிசையை (Unbounded Queue) நினைவகத்தில் பயன்படுத்துவது அதிக சுமையின் போது நினைவக பற்றாக்குறை செயலிழப்பை ஏற்படுத்தும்."
   },
   {
     "id": 2102,
@@ -128,7 +140,9 @@
     "antonyms": [
       "Bundling",
       "Monolith"
-    ]
+    ],
+    "enExample2": "The unbundling of the monolithic banking suite enabled agile startups to offer specialized payment APIs.",
+    "taExample2": "ஒற்றை வங்கி மென்பொருளை தனித்தனி கூறுகளாகப் பிரித்தது (Unbundling) புத்தொழில் நிறுவனங்கள் சிறப்பு API-களை வழங்க உதவியது."
   },
   {
     "id": 2117,
@@ -146,7 +160,9 @@
     "antonyms": [
       "Normal",
       "Ordinary"
-    ]
+    ],
+    "enExample2": "The automated error prediction model demonstrated an uncanny ability to forecast database failovers hours in advance.",
+    "taExample2": "தானியங்கி பிழை கணிப்பு மாதிரி பல மணி நேரத்திற்கு முன்பே தரவுத்தள செயலிழப்பை முன்னறிவிக்கும் வியக்கத்தக்க (Uncanny) திறனைக் காட்டியது."
   },
   {
     "id": 3158,
@@ -168,7 +184,9 @@
       "Genuine",
       "Sincere",
       "Candid"
-    ]
+    ],
+    "enExample2": "Engineers grew skeptical of the sales representative's unctuous flattery and evasive technical answers.",
+    "taExample2": "விற்பனை பிரதிநிதியின் போலி முகஸ்துதி மற்றும் தெளிவற்ற தொழில்நுட்ப பதில்கள் பொறியாளர்களிடையே சந்தேகத்தை ஏற்படுத்தின."
   },
   {
     "id": 2103,
@@ -184,7 +202,9 @@
     ],
     "antonyms": [
       "Overflow"
-    ]
+    ],
+    "enExample2": "Arithmetic underflow occurs when a mathematical calculation yields a non-zero number too small for memory representation.",
+    "taExample2": "நினைவகத்தில் குறிக்க முடியாத அளவுக்கு மிகச் சிறிய எண் கணக்கிடப்படும் போது கணித கீழ்வழிவு (Underflow) ஏற்படுகிறது."
   },
   {
     "id": 2994,
@@ -206,7 +226,9 @@
       "Equivocal",
       "Uncertain",
       "Vague"
-    ]
+    ],
+    "enExample2": "The load testing benchmarks provided unequivocal proof that our in-memory cache halved API response latency.",
+    "taExample2": "எங்கள் தற்காலிக சேமிப்பகம் தாமதத்தை பாதியாகக் குறைத்தது என்பதற்கு சுமை சோதனைகள் தெளிவான சந்தேகத்திற்கு இடமில்லாத (Unequivocal) ஆதாரத்தை வழங்கின."
   },
   {
     "id": 2104,
@@ -222,7 +244,9 @@
     ],
     "antonyms": [
       "ASCII-only"
-    ]
+    ],
+    "enExample2": "Modern web applications encode all text payloads in UTF-8 Unicode to support global international languages seamlessly.",
+    "taExample2": "நவீன இணைய பயன்பாடுகள் உலகளாவிய மொழிகளை ஆதரிக்க அனைத்து உரைகளையும் UTF-8 யுனிகோட் (Unicode) வடிவத்தில் குறியாக்கம் செய்கின்றன."
   },
   {
     "id": 2105,
@@ -240,7 +264,9 @@
     "antonyms": [
       "Non-uniform",
       "Varied"
-    ]
+    ],
+    "enExample2": "Enforcing uniform code formatting across all microservices improves developer readability and onboarding speed.",
+    "taExample2": "அனைத்து நுண்சேவைகளிலும் சீரான (Uniform) குறியீட்டு வடிவமைப்பை அமல்படுத்துவது உருவாக்குநர்களின் வாசிப்புத் திறனை மேம்படுத்துகிறது."
   },
   {
     "id": 2106,
@@ -257,7 +283,9 @@
     "antonyms": [
       "Integration test",
       "End-to-end test"
-    ]
+    ],
+    "enExample2": "Writing a unit test for every utility function guarantees that isolated edge cases return expected results.",
+    "taExample2": "ஒவ்வொரு செயல்பாட்டிற்கும் ஒரு அலகு சோதனை (Unit Test) எழுதுவது விளிம்புநிலை உள்ளீடுகள் சரியான முடிவுகளைத் தருவதை உறுதி செய்கிறது."
   },
   {
     "id": 2107,
@@ -275,7 +303,9 @@
     "antonyms": [
       "Marshaling",
       "Serialization"
-    ]
+    ],
+    "enExample2": "The JSON unmarshaling step decodes raw network byte arrays into strongly-typed Go structs.",
+    "taExample2": "JSON பிரித்தெடுத்தல் (Unmarshaling) நெட்வொர்க் பைட்களை வலுவான வகைப்படுத்தப்பட்ட Go கட்டமைப்புகளாக மாற்றுகிறது."
   },
   {
     "id": 2108,
@@ -293,7 +323,9 @@
     "antonyms": [
       "Mount",
       "Attach"
-    ]
+    ],
+    "enExample2": "React clean-up functions execute when components unmount, preventing memory leaks by removing active event listeners.",
+    "taExample2": "கூறுகள் திரையிலிருந்து நீக்கப்படும் போது (Unmount) செயல்படும் React தூய்மைப்படுத்தல் பணிகள் நினைவக கசிவைத் தடுக்கின்றன."
   },
   {
     "id": 3045,
@@ -315,6 +347,30 @@
       "Conspicuous",
       "Bold",
       "Aggressive"
+    ],
+    "enExample2": "The analytics tracker runs in an unobtrusive background worker that never impacts main UI render performance.",
+    "taExample2": "பயனர் இடைமுகத்தை பாதிக்காத வகையில் பகுப்பாய்வு கண்காணிப்பாளர் இடையூறற்ற (Unobtrusive) பின்னணியில் இயங்குகிறது."
+  },
+  {
+    "id": 3307,
+    "word": "Unpack",
+    "pos": "Verb",
+    "definition": "To systematically analyze, break down, and explain a complex concept, bug report, or incident.",
+    "taWord": "விவரித்துப் பகுப்பாய்வு செய் (Vivarithup pagupaayvu sey)",
+    "enExample": "Let's unpack the architecture diagram to understand how user requests flow through the API gateway.",
+    "taExample": "API வாயில் வழியாக பயனர் கோரிக்கைகள் எவ்வாறு பாய்கின்றன என்பதைப் புரிந்துகொள்ள கட்டிடக்கலை வரைபடத்தை விவரித்துப் பகுப்பாய்வு செய்வோம்.",
+    "enExample2": "The speaker unpacked the intricate details of zero-knowledge cryptography in simple terms.",
+    "taExample2": "பேச்சாளர் பூஜ்ஜிய அறிவு மறைவிலக்கத்தின் சிக்கலான விவரங்களை எளிய சொற்களில் விவரித்துப் பகுப்பாய்வு செய்தார்.",
+    "synonyms": [
+      "analyze",
+      "dissect",
+      "explain",
+      "deconstruct"
+    ],
+    "antonyms": [
+      "compress",
+      "gloss over",
+      "obfuscate"
     ]
   },
   {
@@ -336,7 +392,9 @@
       "Routine",
       "Commonplace",
       "Familiar"
-    ]
+    ],
+    "enExample2": "The product launch generated an unprecedented influx of concurrent users that tested our autoscaling infrastructure.",
+    "taExample2": "தயாரிப்பு வெளியீடு முன்னோடியில்லாத (Unprecedented) பயனர் நெரிசலை ஏற்படுத்தி எங்கள் விரிவாக்க திறனை சோதித்தது."
   },
   {
     "id": 2950,
@@ -357,7 +415,9 @@
       "Assemble",
       "Strengthen",
       "Solidify"
-    ]
+    ],
+    "enExample2": "A single unhandled database exception caused the entire distributed checkout transaction to unravel.",
+    "taExample2": "கையாளப்படாத ஒரே ஒரு தரவுத்தள பிழை ஒட்டுமொத்த கட்டண பரிவர்த்தனை செயல்முறையையும் சீர்குலைத்தது (Unravel)."
   },
   {
     "id": 2109,
@@ -375,6 +435,30 @@
     "antonyms": [
       "Set",
       "Define"
+    ],
+    "enExample2": "Calling the unset function removes the specified key-value pair from the dynamic configuration map.",
+    "taExample2": "unset செயல்பாட்டை அழைப்பது குறிப்பிட்ட விசை-மதிப்பு இணையை கட்டமைப்பு வரைபடத்திலிருந்து நீக்குகிறது (Unset)."
+  },
+  {
+    "id": 3385,
+    "word": "unsolicited",
+    "pos": "adjective",
+    "definition": "Given, sent, or done voluntarily without having been asked for or requested.",
+    "taWord": "கேட்கப்படாமல் வழங்கப்பட்ட (அழைப்பற்ற)",
+    "enExample": "The senior architect gave unsolicited refactoring advice that doubled our API throughput.",
+    "taExample": "மூத்த கட்டிடக் கலைஞர் கேட்கப்படாமல் வழங்கிய ஆலோசனையானது எங்கள் ஏபிஐ வேகத்தை இரண்டு மடங்காக உயர்த்தியது.",
+    "enExample2": "Email filters automatically route unsolicited promotional messages directly into the spam folder.",
+    "taExample2": "மின்னஞ்சல் வடிகட்டிகள் கேட்கப்படாமல் வரும் விளம்பரச் செய்திகளைத் தானாகவே ஸ்பேம் கோப்புக்கு அனுப்புகின்றன.",
+    "synonyms": [
+      "unasked",
+      "uninvited",
+      "volunteered",
+      "gratuitous"
+    ],
+    "antonyms": [
+      "solicited",
+      "requested",
+      "invited"
     ]
   },
   {
@@ -397,7 +481,9 @@
       "Commend",
       "Laud",
       "Applaud"
-    ]
+    ],
+    "enExample2": "The security auditor did not hesitate to upbraid the team for storing unencrypted API tokens in plaintext.",
+    "taExample2": "குறியாக்கம் செய்யப்படாத API விசைகளை எளிய உரையாக சேமித்ததற்காக குழுவைக் கண்டிக்க (Upbraid) பாதுகாப்பு தணிக்கையாளர் தயங்கவில்லை."
   },
   {
     "id": 2927,
@@ -418,6 +504,29 @@
       "Status quo",
       "Calm",
       "Continuity"
+    ],
+    "enExample2": "Migrating from on-premise physical servers to a multi-cloud serverless architecture caused major operational upheaval.",
+    "taExample2": "இயற்பியல் சர்வர்களிலிருந்து பல கிளவுட் சர்வர்லெஸ் முறைக்கு மாறியது பெரிய செயல்பாட்டு மாற்றத்தையும் அமைதியின்மையையும் (Upheaval) ஏற்படுத்தியது."
+  },
+  {
+    "id": 3386,
+    "word": "upskill",
+    "pos": "verb",
+    "definition": "To teach an employee or learn new professional skills to enhance technical capabilities.",
+    "taWord": "திறன் மேம்படுத்து (புதிய திறன் கற்றல்)",
+    "enExample": "The company sponsored engineers to upskill in machine learning and cloud security architectures.",
+    "taExample": "இயந்திரக் கற்றல் மற்றும் கிளவுட் பாதுகாப்பில் பொறியாளர்கள் புதிய திறன்களைக் கற்க நிறுவனம் நிதியுதவி செய்தது.",
+    "enExample2": "UK community colleges launched funded evening programs to help adult workers upskill for green tech jobs.",
+    "taExample2": "பசுமைத் தொழில்நுட்ப வேலைகளுக்காகத் தொழிலாளர்கள் புதிய திறன்களைக் கற்க பிரித்தானியக் கல்லூரிகள் இரவு வகுப்புகளைத் தொடங்கின.",
+    "synonyms": [
+      "retrain",
+      "upgrade skills",
+      "educate",
+      "train"
+    ],
+    "antonyms": [
+      "de-skill",
+      "stagnate"
     ]
   },
   {
@@ -434,7 +543,9 @@
     ],
     "antonyms": [
       "Downstream"
-    ]
+    ],
+    "enExample2": "Contributing bug fixes directly back to upstream open-source repositories benefits the broader developer community.",
+    "taExample2": "பிழை திருத்தங்களை நேரடியாக முதன்மை (Upstream) திறந்த மூல களஞ்சியங்களுக்கு வழங்குவது அனைத்து உருவாக்குநர்களுக்கும் பயனளிக்கிறது."
   },
   {
     "id": 2111,
@@ -451,7 +562,9 @@
     "antonyms": [
       "Downtime",
       "Outage"
-    ]
+    ],
+    "enExample2": "Our enterprise service level agreement guarantees 99.99% monthly infrastructure uptime.",
+    "taExample2": "எங்கள் நிறுவன சேவை ஒப்பந்தம் 99.99% மாதாந்திர உள்கட்டமைப்பு செயல்பாட்டு நேரத்தை (Uptime) உத்தரவாதம் செய்கிறது."
   },
   {
     "id": 2112,
@@ -470,7 +583,9 @@
       "Anonymous resource",
       "Unaddressed object",
       "Relative path fragment"
-    ]
+    ],
+    "enExample2": "A Uniform Resource Identifier (URI) uniquely identifies a specific resource endpoint on the network.",
+    "taExample2": "ஒரு சீரான வள அடையாளங்காட்டி (URI) நெட்வொர்க்கில் உள்ள ஒரு குறிப்பிட்ட வளத்தின் முகவரியை தனித்துவமாக அடையாளப்படுத்துகிறது."
   },
   {
     "id": 2113,
@@ -488,7 +603,9 @@
     "antonyms": [
       "Inaccessibility",
       "Cumbersomeness"
-    ]
+    ],
+    "enExample2": "Conducting recorded usability sessions with real users revealed navigational friction in our checkout workflow.",
+    "taExample2": "உண்மையான பயனர்களுடன் பயன்பாட்டினை (Usability) சோதனை செய்தது செக்அவுட் பாதையில் உள்ள சிரமங்களை வெளிப்படுத்தியது."
   },
   {
     "id": 2114,
@@ -506,7 +623,9 @@
       "Headless daemon",
       "Raw TCP packet",
       "Anonymous socket"
-    ]
+    ],
+    "enExample2": "The backend inspects the User Agent header to serve optimized image formats tailored for mobile browsers.",
+    "taExample2": "மொபைல் உலாவிகளுக்கு உகந்த படங்களை வழங்க பின்தளம் பயனர் முகவர் (User Agent) தகவலை ஆய்வு செய்கிறது."
   },
   {
     "id": 2118,
@@ -524,7 +643,9 @@
     "antonyms": [
       "Surrender",
       "Relinquish"
-    ]
+    ],
+    "enExample2": "A malicious rogue process attempted to usurp root privileges by exploiting an unpatched kernel vulnerability.",
+    "taExample2": "ஒரு தீங்கிழைக்கும் செயல்முறை பாதுகாப்பு குறைபாட்டைப் பயன்படுத்தி முதன்மை பயனர் உரிமைகளைக் கைப்பற்ற (Usurp) முயன்றது."
   },
   {
     "id": 2115,
@@ -542,6 +663,8 @@
     "antonyms": [
       "Monolithic framework",
       "Core domain business engine"
-    ]
+    ],
+    "enExample2": "Tailwind CSS provides low-level utility classes that enable rapid and responsive UI styling.",
+    "taExample2": "Tailwind CSS விரைவான மற்றும் பதிலளிக்கக்கூடிய காட்சி வடிவமைப்பை செயல்படுத்தும் பயன்பாட்டு (Utility) வகுப்புகளை வழங்குகிறது."
   }
 ]

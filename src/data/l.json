@@ -16,7 +16,9 @@
       "Anonymous value",
       "Unmarked variable",
       "Hidden metadata"
-    ]
+    ],
+    "enExample2": "Every form input requires an associated accessible label to support screen readers seamlessly.",
+    "taExample2": "திரை வாசிப்பான்களை ஆதரிப்பதற்காக ஒவ்வொரு படிவ உள்ளீட்டிற்கும் தொடர்புடைய அணுகல் லேபிள் (Label) தேவைப்படுகிறது."
   },
   {
     "id": 1226,
@@ -34,7 +36,9 @@
     "antonyms": [
       "Verbose",
       "Loquacious"
-    ]
+    ],
+    "enExample2": "The lead architect gave a laconic two-word answer: 'Ship it.'",
+    "taExample2": "முதன்மை வடிவமைப்பாளர் 'வெளியிடுங்கள்' என்று இரண்டு வார்த்தைகளில் சுருக்கமான பதிலை அளித்தார்."
   },
   {
     "id": 1202,
@@ -50,7 +54,9 @@
     ],
     "antonyms": [
       "Named function"
-    ]
+    ],
+    "enExample2": "Serverless AWS Lambda functions scale on demand to process incoming image uploads without dedicated servers.",
+    "taExample2": "சர்வர்லெஸ் Lambda செயல்பாடுகள் பிரத்யேக சர்வர்கள் இன்றி படப் பதிவேற்றங்களைச் செயலாக்க தானாக விரிவடைகின்றன."
   },
   {
     "id": 1227,
@@ -68,6 +74,28 @@
     "antonyms": [
       "Energetic",
       "Active"
+    ],
+    "enExample2": "A missing database index caused the query to execute at a languid and unacceptable pace.",
+    "taExample2": "தரவுத்தள குறியீடு இல்லாதது வினவல் மிகவும் மந்தமான மற்றும் ஏற்றுக்கொள்ள முடியாத வேகத்தில் இயங்கக் காரணமாக அமைந்தது."
+  },
+  {
+    "id": 3321,
+    "word": "Lass",
+    "pos": "Noun",
+    "definition": "Scottish and UK dialect word for a girl or young woman.",
+    "taWord": "இளம் பெண் (Ilam penn)",
+    "enExample": "The smart Scottish lass led the university hackathon team to victory with her machine learning model.",
+    "taExample": "புத்திசாலியான ஸ்காட்டிஷ் இளம் பெண் தனது இயந்திர கற்றல் மாடலுடன் பல்கலைக்கழக ஹேக்கத்தான் குழுவை வெற்றிக்கு வழிநடத்தினார்.",
+    "enExample2": "She was a talented software engineer who inspired young lasses across Scotland to pursue STEM.",
+    "taExample2": "அவர் ஸ்காட்லாந்து முழுவதும் உள்ள இளம் பெண்களை STEM ஐத் தொடர ஊக்கப்படுத்திய ஒரு திறமையான மென்பொருள் பொறியாளர் ஆவார்.",
+    "synonyms": [
+      "girl",
+      "young woman",
+      "damsel"
+    ],
+    "antonyms": [
+      "lad",
+      "man"
     ]
   },
   {
@@ -85,7 +113,9 @@
     "antonyms": [
       "Throughput",
       "Speed"
-    ]
+    ],
+    "enExample2": "Placing content delivery edges closer to consumers significantly reduces roundtrip network latency.",
+    "taExample2": "உள்ளடக்க விநியோக முனையங்களை நுகர்வோருக்கு அருகில் வைப்பது நெட்வொர்க் தாமதத்தை (Latency) கணிசமாகக் குறைக்கிறது."
   },
   {
     "id": 2796,
@@ -102,7 +132,9 @@
     "antonyms": [
       "Pixel space",
       "Raw input surface"
-    ]
+    ],
+    "enExample2": "Diffusion models navigate a compressed mathematical latent space to generate photorealistic imagery.",
+    "taExample2": "டிஃபியூஷன் மாதிரிகள் யதார்த்தமான படங்களை உருவாக்க சுருக்கப்பட்ட கணித மறைமுக வெளியில் (Latent Space) செயல்படுகின்றன."
   },
   {
     "id": 1204,
@@ -120,7 +152,9 @@
     "antonyms": [
       "Rollback",
       "Retire"
-    ]
+    ],
+    "enExample2": "The engineering team prepared for the product launch by conducting multi-region stress tests.",
+    "taExample2": "தயாரிப்பு வெளியீட்டிற்கு (Launch) தயாராக பொறியியல் குழு பல பிராந்திய தீவிர சுமை சோதனைகளை நடத்தியது."
   },
   {
     "id": 1205,
@@ -139,7 +173,9 @@
       "Flat monolith",
       "Single core",
       "Unstructured mass"
-    ]
+    ],
+    "enExample2": "Adding a Redis caching layer between the web app and database eliminated 90% of repeated read queries.",
+    "taExample2": "பயன்பாட்டிற்கும் தரவுத்தளத்திற்கும் இடையே ஒரு தற்காலிக சேமிப்பு அடுக்கைச் (Layer) சேர்த்தது 90% மீண்டும் மீண்டும் வரும் வினவல்களை நீக்கியது."
   },
   {
     "id": 1207,
@@ -157,7 +193,9 @@
     "antonyms": [
       "Unordered layout",
       "Chaotic overlapping elements"
-    ]
+    ],
+    "enExample2": "Flexbox and CSS Grid provide responsive layout primitives that adapt dynamically to any viewport size.",
+    "taExample2": "Flexbox மற்றும் CSS Grid எந்த திரை அளவுக்கும் ஏற்ப மாற்றியமைக்கும் பதிலளிக்கக்கூடிய திரை வடிவமைப்பு அமைப்புகளை வழங்குகின்றன."
   },
   {
     "id": 1206,
@@ -174,7 +212,9 @@
     "antonyms": [
       "Eager",
       "Immediate"
-    ]
+    ],
+    "enExample2": "Using lazy loading for offscreen images speeds up the initial page load time significantly.",
+    "taExample2": "திரைக்கு வெளியே உள்ள படங்களுக்கு சோம்பல் ஏற்றுதலைப் (Lazy Loading) பயன்படுத்துவது ஆரம்ப பக்க ஏற்றுதல் வேகத்தை அதிகரிக்கிறது."
   },
   {
     "id": 1208,
@@ -191,7 +231,9 @@
     ],
     "antonyms": [
       "Follower"
-    ]
+    ],
+    "enExample2": "The technical lead mentored junior engineers on writing clean and scalable backend services.",
+    "taExample2": "தொழில்நுட்பத் தலைவர் (Lead) சுத்தமான மற்றும் அளவிடக்கூடிய பின்தள சேவைகளை எழுத இளம் பொறியாளர்களுக்கு வழிகாட்டினார்."
   },
   {
     "id": 2689,
@@ -207,7 +249,9 @@
     ],
     "antonyms": [
       "Idle wait"
-    ]
+    ],
+    "enExample2": "Adopting automated CI/CD reduced our feature lead time from four weeks down to two days.",
+    "taExample2": "தானியங்கி CI/CD-ஐ ஏற்றுக்கொண்டது எங்கள் அம்ச விநியோக கால அளவை (Lead Time) நான்கு வாரங்களிலிருந்து இரண்டு நாட்களாகக் குறைத்தது."
   },
   {
     "id": 2798,
@@ -224,7 +268,9 @@
     "antonyms": [
       "Split-brain chaos",
       "Leaderless quorum"
-    ]
+    ],
+    "enExample2": "The Raft consensus protocol performs automated leader election whenever the active primary node becomes unreachable.",
+    "taExample2": "முதன்மை சர்வர் துண்டிக்கப்படும் போதெல்லாம் Raft நெறிமுறை தானியங்கி தலைவர் தேர்தலை (Leader Election) நடத்துகிறது."
   },
   {
     "id": 1209,
@@ -242,7 +288,9 @@
     "antonyms": [
       "Retention",
       "Reclamation"
-    ]
+    ],
+    "enExample2": "Failing to unsubscribe from event listeners in single-page apps creates an insidious JavaScript memory leak.",
+    "taExample2": "நிகழ்வு கேட்பவர்களை முறையாக நீக்கத் தவறினால் அது ஆபத்தான ஜாவாஸ்கிரிப்ட் நினைவக கசிவை (Leak) ஏற்படுத்துகிறது."
   },
   {
     "id": 1210,
@@ -260,6 +308,30 @@
     "antonyms": [
       "Modern",
       "State-of-the-art"
+    ],
+    "enExample2": "The engineering organization launched a multi-year initiative to modernize their legacy COBOL mainframe systems.",
+    "taExample2": "பொறியியல் நிறுவனம் தங்களது பழைய (Legacy) கணினி அமைப்புகளை நவீனமயமாக்க பல ஆண்டுத் திட்டத்தைத் தொடங்கியது."
+  },
+  {
+    "id": 3365,
+    "word": "legibility",
+    "pos": "noun",
+    "definition": "The quality of being clear, easily readable, and decipherable in code or typography.",
+    "taWord": "படிக்கக் கூடிய தெளிவு (தெளிவுடைமை)",
+    "enExample": "Prioritizing code legibility over clever micro-optimizations reduces long-term maintenance costs.",
+    "taExample": "தேவையற்ற நுட்பங்களை விட கோட் படிக்கக் கூடிய தெளிவுக்கு முன்னுரிமை அளிப்பது பராமரிப்புச் செலவைக் குறைக்கிறது.",
+    "enExample2": "The graphic designer adjusted font tracking to enhance the legibility of political campaign posters.",
+    "taExample2": "அரசியல் பிரச்சார சுவரொட்டிகளின் எழுத்துத் தெளிவை அதிகரிக்க வடிவமைப்பாளர் எழுத்து இடைவெளியைச் சரிசெய்தார்.",
+    "synonyms": [
+      "readability",
+      "clarity",
+      "plainness",
+      "distinctness"
+    ],
+    "antonyms": [
+      "unreadability",
+      "illegibility",
+      "obscurity"
     ]
   },
   {
@@ -281,6 +353,30 @@
       "Harshness",
       "Draconian rigor",
       "Cruelty"
+    ],
+    "enExample2": "The security team showed zero leniency for developers who bypassed multi-factor authentication policies.",
+    "taExample2": "இருபடி அங்கீகார விதிகளைத் தவிர்த்த உருவாக்குநர்களிடம் பாதுகாப்புக் குழு எந்தவித மென்மையான போக்கையும் காட்டவில்லை."
+  },
+  {
+    "id": 3206,
+    "word": "Leverage",
+    "pos": "Verb",
+    "definition": "To strategically utilize existing tools, libraries, or frameworks to maximize engineering efficiency.",
+    "taWord": "பயன்படுத்துதல் (Payanpaduthuthal)",
+    "enExample": "We leverage WebAssembly to execute compute-intensive algorithms directly inside the client browser.",
+    "taExample": "வாடிக்கையாளர் உலாவியிற்குள் நேரடியாக கணக்கீட்டுச் செறிவான அல்காரிதம்களை இயக்க நாங்கள் WebAssembly ஐப் பயன்படுத்துகிறோம்.",
+    "enExample2": "Engineering managers leverage automated observability tools to detect memory leaks early.",
+    "taExample2": "பொறியியல் አስተዳደሮች நினைவக கசிவுகளை ஆரம்பத்திலேயே கண்டறிய தானியங்கி கண்காணிப்பு கருவிகளைப் பயன்படுத்துகின்றனர்.",
+    "synonyms": [
+      "utilize",
+      "harness",
+      "exploit",
+      "capitalize on"
+    ],
+    "antonyms": [
+      "waste",
+      "ignore",
+      "disregard"
     ]
   },
   {
@@ -299,7 +395,9 @@
     "antonyms": [
       "Changes requested",
       "Block PR"
-    ]
+    ],
+    "enExample2": "After verifying all automated unit test passes, the senior reviewer stamped the pull request with 'LGTM'.",
+    "taExample2": "அனைத்து சோதனைகளும் தேர்ச்சி பெற்றதை உறுதி செய்த பிறகு மூத்த மதிப்பாய்வாளர் குறியீட்டிற்கு 'LGTM' ஒப்புதல் அளித்தார்."
   },
   {
     "id": 1211,
@@ -317,7 +415,9 @@
     "antonyms": [
       "Self-contained executable",
       "Standalone microservice"
-    ]
+    ],
+    "enExample2": "The team imported an open-source chart library to visualize real-time time-series telemetry data.",
+    "taExample2": "நிகழ்நேர அளவீட்டுத் தகவல்களை வரைபடமாகக் காட்ட குழு ஒரு திறந்த மூல விளக்கப்பட நூலகத்தை (Library) இணைத்தது."
   },
   {
     "id": 1212,
@@ -334,7 +434,9 @@
     "antonyms": [
       "Ephemeral one-shot run",
       "Stateless execution"
-    ]
+    ],
+    "enExample2": "React useEffect hooks manage component mounting, updating, and unmounting lifecycle transitions cleanly.",
+    "taExample2": "ரியாக்ட் useEffect ஹூக்குகள் கூறுகளின் தோற்றம், புதுப்பித்தல் மற்றும் மறைவு வாழ்க்கைச் சுழற்சியை (Lifecycle) நேர்த்தியாக நிர்வகிக்கின்றன."
   },
   {
     "id": 1213,
@@ -352,7 +454,9 @@
     "antonyms": [
       "Heavyweight",
       "Bloated"
-    ]
+    ],
+    "enExample2": "Alpine.js is a lightweight JavaScript framework ideal for simple client-side reactive components.",
+    "taExample2": "Alpine.js என்பது எளிய வாடிக்கையாளர் பக்க கூறுகளுக்கு ஏற்ற ஒரு இலகுரக (Lightweight) ஜாவாஸ்கிரிப்ட் கட்டமைப்பாகும்."
   },
   {
     "id": 1214,
@@ -370,7 +474,9 @@
     "antonyms": [
       "Unlimited",
       "Freedom"
-    ]
+    ],
+    "enExample2": "Setting a strict memory limit on Docker containers prevents a single rogue process from exhausting host RAM.",
+    "taExample2": "கொள்கலன்களுக்கு கடுமையான நினைவக வரம்பை (Limit) அமைப்பது ஒரே செயல்முறை கணினி நினைவகத்தை முழுமையாக விழுங்குவதைத் தடுக்கிறது."
   },
   {
     "id": 3069,
@@ -392,7 +498,9 @@
       "Opaque",
       "Muddled",
       "Obscure"
-    ]
+    ],
+    "enExample2": "The architectural diagram provided a limpid and perfectly clear depiction of data flows across microservices.",
+    "taExample2": "கட்டமைப்பு வரைபடம் நுண்சேவைகளுக்கிடையேயான தரவு ஓட்டங்களின் தெளிவான மற்றும் வெளிப்படையான விளக்கத்தை வழங்கியது."
   },
   {
     "id": 3035,
@@ -413,7 +521,9 @@
       "Peripheral",
       "Extra",
       "Nonessential"
-    ]
+    ],
+    "enExample2": "The Redis distributed cache serves as the performance linchpin holding our high-throughput e-commerce platform together.",
+    "taExample2": "Redis தற்காலிக சேமிப்பகமே எங்கள் அதிவேக மின்வணிக தளத்தின் செயல்திறனைத் தாங்கி நிற்கும் முதன்மை அச்சாணியாக (Linchpin) விளங்குகிறது."
   },
   {
     "id": 1215,
@@ -432,7 +542,9 @@
       "Orphan",
       "Unknown origin",
       "Unrelated state"
-    ]
+    ],
+    "enExample2": "Data lineage tools trace every transformation step from raw input logs down to aggregated executive reports.",
+    "taExample2": "தரவு பரம்பரை கருவிகள் மூலப் பதிவுகள் முதல் இறுதி அறிக்கைகள் வரையிலான ஒவ்வொரு மாற்றப் படியையும் தடமறிகின்றன."
   },
   {
     "id": 1216,
@@ -452,7 +564,9 @@
       "Wall",
       "Separation",
       "Disconnection"
-    ]
+    ],
+    "enExample2": "The dynamic linker binds shared binary libraries to the application process at startup time.",
+    "taExample2": "இயக்க நேர இணைப்பான் தொடக்கத்தின் போது பகிரப்பட்ட நூலகங்களை பயன்பாட்டு செயல்முறையுடன் இணைக்கிறது (Link)."
   },
   {
     "id": 1217,
@@ -471,7 +585,9 @@
       "Halt",
       "Cease",
       "Reverse"
-    ]
+    ],
+    "enExample2": "Pre-commit Git hooks automatically lint modified files to catch syntactic defects before pushing code.",
+    "taExample2": "குறியீட்டை அனுப்பும் முன் தொடரியல் பிழைகளைக் கண்டறிய Git ஹூக்குகள் தானாகவே கோப்புகளை ஆய்வு செய்கின்றன (Lint)."
   },
   {
     "id": 1218,
@@ -488,7 +604,9 @@
     "antonyms": [
       "Emitter",
       "Publisher"
-    ]
+    ],
+    "enExample2": "An asynchronous event listener handles incoming WebSocket messages and updates the chat feed.",
+    "taExample2": "ஒத்திசைவற்ற நிகழ்வு கேட்பவர் (Listener) உள்வரும் செய்திகளைக் கையாண்டு அரட்டைத் திரையைப் புதுப்பிக்கிறார்."
   },
   {
     "id": 1219,
@@ -505,6 +623,29 @@
     "antonyms": [
       "Variable",
       "Expression"
+    ],
+    "enExample2": "TypeScript string literal types restrict variable assignments to an exact set of allowed string values.",
+    "taExample2": "TypeScript நேரடி வகை அமைப்புகள் மாறிகளின் மதிப்புகளை அனுமதிக்கப்பட்ட குறிப்பிட்ட சொற்களுக்குள் மட்டுமே கட்டுப்படுத்துகின்றன."
+  },
+  {
+    "id": 3259,
+    "word": "Liturgy",
+    "pos": "Noun",
+    "definition": "A customary, structured pattern of ceremony, routine, or worship in a community.",
+    "taWord": "ஆராதனை முறை (Aaraathanai murai)",
+    "enExample": "Daily standup meetings became a familiar engineering liturgy that structured our team's morning.",
+    "taExample": "தினசரி ஸ்டாண்டப் கூட்டங்கள் எங்கள் குழுவின் காலையை அமைத்த ஒரு பழக்கமான பொறியியல் ஆராதனை முறையாக மாறியது.",
+    "enExample2": "Traditional liturgy provides a reverent framework for congregational worship.",
+    "taExample2": "பாரம்பரிய ஆராதனை முறை சபை வழிபாட்டிற்கு ஒரு மரியாதைக்குரிய கட்டமைப்பை வழங்குகிறது.",
+    "synonyms": [
+      "ritual",
+      "ceremony",
+      "service structure",
+      "rite"
+    ],
+    "antonyms": [
+      "informality",
+      "spontaneity"
     ]
   },
   {
@@ -523,7 +664,9 @@
     "antonyms": [
       "Readiness probe",
       "Unmonitored runtime"
-    ]
+    ],
+    "enExample2": "Kubernetes uses an HTTP liveness probe to restart crashed containers automatically.",
+    "taExample2": "குபெர்னெட்டீஸ் செயலிழந்த கொள்கலன்களை தானாக மறுதொடக்கம் செய்ய நேரடி நிலை ஆய்வை (Liveness Probe) பயன்படுத்துகிறது."
   },
   {
     "id": 1220,
@@ -540,7 +683,9 @@
     ],
     "antonyms": [
       "Idle"
-    ]
+    ],
+    "enExample2": "The multi-threaded server balanced processing load evenly across all available CPU cores.",
+    "taExample2": "மல்டி-த்ரெட் சர்வர் கிடைக்கக்கூடிய அனைத்து CPU உள்ளகங்களிலும் செயலாக்கச் சுமையை (Load) சமமாகப் பகிர்ந்தது."
   },
   {
     "id": 2713,
@@ -558,6 +703,28 @@
     "antonyms": [
       "Idle test",
       "Low-load test"
+    ],
+    "enExample2": "Simulating twenty thousand simultaneous checkouts during load testing exposed a database deadlock bug.",
+    "taExample2": "சுமை சோதனையின் (Load Testing) போது இருபதாயிரம் ஒரே நேர ஆர்டர்களை உருவகப்படுத்தியது ஒரு தரவுத்தள முடக்கப் பிழையை அம்பலப்படுத்தியது."
+  },
+  {
+    "id": 3235,
+    "word": "Lobbyist",
+    "pos": "Noun",
+    "definition": "A person who seeks to influence political lawmakers or corporate executives on specific policies.",
+    "taWord": "செல்வாக்கு செலுத்துபவர் (Selvaakku seluthupavar)",
+    "enExample": "Tech lobbyists advocated for legislation promoting artificial intelligence innovation and research.",
+    "taExample": "தொழில்நுட்ப செல்வாக்கு செலுத்துபவர்கள் செயற்கை நுண்ணறிவு புதுமை மற்றும் ஆராய்ச்சியை ஊக்குவிக்கும் சட்டத்திற்காக வாதிட்டனர்.",
+    "enExample2": "Corporate lobbyists presented economic data to congressional committees.",
+    "taExample2": "கார்ப்பரேட் செல்வாக்கு செலுத்துபவர்கள் காங்கிரஸ் குழுக்களிடம் பொருளாதாரத் தரவை வழங்கினர்.",
+    "synonyms": [
+      "advocate",
+      "campaigner",
+      "influencer"
+    ],
+    "antonyms": [
+      "dissident",
+      "opponent"
     ]
   },
   {
@@ -576,7 +743,9 @@
     "antonyms": [
       "Global",
       "Remote"
-    ]
+    ],
+    "enExample2": "Developers run lightweight SQLite databases during local development before testing on cloud staging clusters.",
+    "taExample2": "கிளவுட் சோதனைக்கு முன் உள்ளூர் (Local) உருவாக்கத்தின் போது உருவாக்குநர்கள் எளிய SQLite தரவுத்தளங்களை இயக்குகின்றனர்."
   },
   {
     "id": 1222,
@@ -594,7 +763,9 @@
     "antonyms": [
       "Unlock",
       "Release"
-    ]
+    ],
+    "enExample2": "A pessimistic database lock prevents concurrent transactions from modifying the same bank account balance simultaneously.",
+    "taExample2": "தரவுத்தள பூட்டு (Lock) ஒரே நேரத்தில் பல பரிவர்த்தனைகள் ஒரே கணக்கு இருப்பை மாற்றுவதைத் தடுக்கிறது."
   },
   {
     "id": 1223,
@@ -613,7 +784,9 @@
       "Silent execution",
       "Unlogged operation",
       "Volatile output"
-    ]
+    ],
+    "enExample2": "Structured JSON log entries make it straightforward to parse and query errors in centralized monitoring platforms.",
+    "taExample2": "கட்டமைக்கப்பட்ட JSON பதிவு (Log) வரிகள் மத்திய கண்காணிப்பு தளங்களில் பிழைகளைத் தேடுவதை எளிதாக்குகின்றன."
   },
   {
     "id": 1224,
@@ -633,7 +806,9 @@
       "Chaos",
       "Arbitrary guessing",
       "Emotion"
-    ]
+    ],
+    "enExample2": "Separating business logic from React UI presentation components improves unit testability and code maintainability.",
+    "taExample2": "வணிகத் தர்க்கத்தை (Logic) காட்சி கூறுகளிலிருந்து பிரிப்பது குறியீட்டின் சோதனைத் திறனையும் பராமரிப்பையும் மேம்படுத்துகிறது."
   },
   {
     "id": 2881,
@@ -654,7 +829,9 @@
       "Remote",
       "Unlikely",
       "Past"
-    ]
+    ],
+    "enExample2": "The looming compliance audit deadline spurred the engineering team to finalize all security remediation tasks.",
+    "taExample2": "நெருங்கி வரும் பாதுகாப்பு தணிக்கை காலக்கெடு குழுவை அனைத்து பாதுகாப்பு பணிகளையும் விரைந்து முடிக்கத் தூண்டியது."
   },
   {
     "id": 1225,
@@ -672,7 +849,9 @@
     "antonyms": [
       "Branch",
       "Exit"
-    ]
+    ],
+    "enExample2": "The Node.js event loop coordinates asynchronous I/O operations without blocking the single execution thread.",
+    "taExample2": "Node.js நிகழ்வு வளையம் (Event Loop) ஒற்றை செயலாக்க நூலை முடக்காமல் ஒத்திசைவற்ற I/O செயல்பாடுகளை ஒருங்கிணைக்கிறது."
   },
   {
     "id": 1228,
@@ -690,7 +869,9 @@
     "antonyms": [
       "Reticent",
       "Taciturn"
-    ]
+    ],
+    "enExample2": "Setting the logger to debug mode produced a loquacious output stream that quickly filled the hard drive.",
+    "taExample2": "பதிவை பிழைத்திருத்த நிலைக்கு மாற்றியது அதிகப்படியான தகவல்களை வெளியிட்டு வன்தட்டை விரைவாக நிரப்பியது."
   },
   {
     "id": 2797,
@@ -708,7 +889,9 @@
     "antonyms": [
       "Full parameter fine-tuning",
       "Scratch pre-training"
-    ]
+    ],
+    "enExample2": "Low-Rank Adaptation (LoRA) enables efficient fine-tuning of large foundation models using minimal GPU memory.",
+    "taExample2": "LoRA நுட்பம் குறைந்த GPU நினைவகத்தைப் பயன்படுத்தி பெரிய அடிப்படை மாதிரிகளைத் திறம்பட மேம்படுத்த அனுமதிக்கிறது."
   },
   {
     "id": 2650,
@@ -726,7 +909,9 @@
     "antonyms": [
       "Complex endeavor",
       "Uphill battle"
-    ]
+    ],
+    "enExample2": "Enabling gzip compression on API responses was low-hanging fruit that instantly reduced bandwidth costs by 40%.",
+    "taExample2": "API பதில்களில் gzip சுருக்குதலை இயக்கியது உடனடி பலன் தரும் எளிய தீர்வாக (Low-hanging fruit) அமைந்து செலவை 40% குறைத்தது."
   },
   {
     "id": 2647,
@@ -745,6 +930,8 @@
       "Highkey",
       "Overtly",
       "Blatantly"
-    ]
+    ],
+    "enExample2": "The subtle micro-interaction animation is lowkey one of the slickest design touches in the new app.",
+    "taExample2": "அந்த மெல்லிய அனிமேஷன் புதிய பயன்பாட்டின் மிகவும் நேர்த்தியான வடிவமைப்புகளில் ஒன்றாக மறைமுகமாகத் திகழ்கிறது."
   }
 ]

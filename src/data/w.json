@@ -1,5 +1,26 @@
 [
   {
+    "id": 3390,
+    "word": "walkthrough",
+    "pos": "noun",
+    "definition": "A step-by-step demonstration or comprehensive review of a procedure, software, or document.",
+    "taWord": "படிமுறை விளக்கம் (முழு வழிகாட்டுதல்)",
+    "enExample": "The lead architect conducted an architecture walkthrough for the new distributed messaging pipeline.",
+    "taExample": "முதன்மை கட்டிடக் கலைஞர் புதிய செய்தி விநியோகக் கட்டமைப்பிற்கு ஒரு படிமுறை விளக்கத்தை நடத்தினார்.",
+    "enExample2": "The church media team created a video walkthrough explaining how to join online fellowship streams.",
+    "taExample2": "இணைய ஆராதனைகளில் எவ்வாறு இணைவது என்பதை விளக்கும் வீடியோ வழிகாட்டுதலை ஊடகக் குழு உருவாக்கியது.",
+    "synonyms": [
+      "demonstration",
+      "tutorial",
+      "step-by-step review",
+      "run-through"
+    ],
+    "antonyms": [
+      "summary",
+      "overview"
+    ]
+  },
+  {
     "id": 2316,
     "word": "Wane",
     "definition": "(of a state or feeling) decrease in vigor, power, or extent; become weaker.",
@@ -15,7 +36,9 @@
     "antonyms": [
       "Wax",
       "Grow"
-    ]
+    ],
+    "enExample2": "Interest in legacy single-page frameworks began to wane as lightweight server-driven architectures emerged.",
+    "taExample2": "இலகுரக சேவையக கட்டமைப்புகள் தோன்றியதால் பழைய ஒற்றைப் பக்க கட்டமைப்புகளின் மீதான ஆர்வம் குறையத் (Wane) தொடங்கியது."
   },
   {
     "id": 3167,
@@ -37,6 +60,29 @@
       "Careless",
       "Foolhardy",
       "Rash"
+    ],
+    "enExample2": "Security engineers are rightfully wary of third-party libraries that request broad filesystem permissions.",
+    "taExample2": "பரந்த கோப்பு முறைமை அனுமதிகளைக் கோரும் வெளிப்புற நூலகங்கள் குறித்து பாதுகாப்பு பொறியாளர்கள் விழிப்புடனும் எச்சரிக்கையுடனும் (Wary) உள்ளனர்."
+  },
+  {
+    "id": 3391,
+    "word": "watchdog",
+    "pos": "noun",
+    "definition": "An individual or organization that monitors activities to prevent illegal, unethical, or corrupt practices.",
+    "taWord": "கண்காணிப்பு அமைப்பு (காவல் அமைப்பு)",
+    "enExample": "Automated security scanners act as a digital watchdog, flagging vulnerable npm packages instantly.",
+    "taExample": "தானியங்கி பாதுகாப்பு ஸ்கேனர்கள் டிஜிட்டல் கண்காணிப்பு அமைப்பாகச் செயல்பட்டு ஆபத்தான மென்பொருட்களைக் கண்டறிகின்றன.",
+    "enExample2": "The parliamentary financial watchdog investigated misallocated public funds in state procurement.",
+    "taExample2": "நாடாளுமன்ற நிதிக் கண்காணிப்பு அமைப்பு அரசு கொள்முதலில் நிதி தவறாகப் பயன்படுத்தப்பட்டதை விசாரித்தது.",
+    "synonyms": [
+      "guardian",
+      "monitor",
+      "ombudsman",
+      "protector"
+    ],
+    "antonyms": [
+      "accomplice",
+      "bystander"
     ]
   },
   {
@@ -54,7 +100,9 @@
     "antonyms": [
       "Agile",
       "Concurrent loading"
-    ]
+    ],
+    "enExample2": "The organization replaced its rigid Waterfall planning model with two-week iterative Agile sprints.",
+    "taExample2": "நிறுவனம் தனது பழைய கடினமான நீர்வீழ்ச்சி (Waterfall) திட்டமிடல் முறைக்கு பதிலாக இரண்டு வார சுறுசுறுப்பான சுழற்சிகளுக்கு மாறியது."
   },
   {
     "id": 2931,
@@ -74,7 +122,9 @@
       "Non-event",
       "Minor incident",
       "Status quo marker"
-    ]
+    ],
+    "enExample2": "Achieving ninety-nine percent unit test coverage marked a watershed moment for engineering reliability.",
+    "taExample2": "தொண்ணூற்று ஒன்பது சதவீத சோதனைப் பாதுகாப்பை அடைந்தது பொறியியல் நம்பகத்தன்மையில் ஒரு வரலாற்றுத் திருப்புமுனையாக (Watershed Moment) அமைந்தது."
   },
   {
     "id": 2314,
@@ -89,7 +139,9 @@
     ],
     "antonyms": [
       "Strong Reference Map"
-    ]
+    ],
+    "enExample2": "JavaScript WeakMap holds object references weakly, allowing automatic garbage collection when objects are deleted.",
+    "taExample2": "ஜாவாஸ்கிரிப்ட் WeakMap பொருட்களை மென்மையாக வைத்திருப்பதால் பொருட்கள் நீக்கப்படும் போது நினைவகம் தானாகவே தூய்மைப்படுத்தப்படுகிறது."
   },
   {
     "id": 2748,
@@ -107,7 +159,9 @@
     "antonyms": [
       "interpreted scripting",
       "uncompiled JS"
-    ]
+    ],
+    "enExample2": "Compiling Rust video processing code to WebAssembly enables high-speed browser multimedia editing.",
+    "taExample2": "ரஸ்ட் வீடியோ குறியீட்டை WebAssembly-ஆக மாற்றுவது உலாவியில் அதிவேக மல்டிமீடியா திருத்தத்தை செயல்படுத்துகிறது."
   },
   {
     "id": 2302,
@@ -124,7 +178,9 @@
     "antonyms": [
       "Software CPU rasterizer",
       "Plain 2D text terminal"
-    ]
+    ],
+    "enExample2": "WebGL uses GPU hardware acceleration to render interactive 3D graphics directly inside web browsers.",
+    "taExample2": "WebGL உலாவிகளுக்குள் நேரடியாக முப்பரிமாண (3D) கிராபிக்ஸ்களை உருவாக்க GPU வன்பொருள் வேகவூட்டலைப் பயன்படுத்துகிறது."
   },
   {
     "id": 2301,
@@ -141,7 +197,9 @@
     ],
     "antonyms": [
       "Polling"
-    ]
+    ],
+    "enExample2": "The payment service sends an asynchronous webhook notification to update order status upon transaction success.",
+    "taExample2": "பரிவர்த்தனை வெற்றி பெற்றவுடன் ஆர்டர் நிலையைப் புதுப்பிக்க கட்டண சேவை ஒரு ஒத்திசைவற்ற வெப்ஹூக் (Webhook) அறிவிப்பை அனுப்புகிறது."
   },
   {
     "id": 2304,
@@ -158,7 +216,9 @@
     "antonyms": [
       "Unbundled native ESM",
       "Runtime script tag loading"
-    ]
+    ],
+    "enExample2": "Webpack bundles JavaScript modules, CSS stylesheets, and images into optimized static deployment assets.",
+    "taExample2": "Webpack ஜாவாஸ்கிரிப்ட் தொகுதிகள், CSS பாணிகள் மற்றும் படங்களை உகந்த நிலையான கோப்புகளாக ஒன்றிணைக்கிறது."
   },
   {
     "id": 2303,
@@ -174,7 +234,9 @@
     ],
     "antonyms": [
       "HTTP polling"
-    ]
+    ],
+    "enExample2": "WebSockets maintain a persistent full-duplex TCP connection, enabling real-time collaborative whiteboarding.",
+    "taExample2": "WebSockets தொடர்ச்சியான இருவழி இணைப்பைப் பராமரித்து நிகழ்நேர கூட்டு வரைதல் பயன்பாடுகளை சாத்தியமாக்குகிறது."
   },
   {
     "id": 2319,
@@ -192,7 +254,9 @@
     "antonyms": [
       "Huge",
       "Massive"
-    ]
+    ],
+    "enExample2": "The on-call reliability engineer was paged during the wee hours of the morning to handle a database deadlock.",
+    "taExample2": "அதிகாலை (Wee hours) நேரத்தில் தரவுத்தள பிழையைச் சரிசெய்ய சுழற்சி முறை பொறியாளர் அழைக்கப்பட்டார்."
   },
   {
     "id": 2305,
@@ -211,6 +275,30 @@
       "Uniform significance",
       "Zero bias",
       "Unweighted variable"
+    ],
+    "enExample2": "Fine-tuning neural network weights adapts pre-trained foundational models to specialized clinical terminology.",
+    "taExample2": "நியூரல் நெட்வொர்க் எடைகளை (Weights) நுணுக்கமாக மாற்றுவது AI மாதிரிகளை சிறப்பு மருத்துவ சொற்களுக்கு ஏற்ப தகவமைக்கிறது."
+  },
+  {
+    "id": 3329,
+    "word": "Well-rounded",
+    "pos": "Adjective",
+    "definition": "Fully developed and balanced in technical skills, communication, and emotional intelligence.",
+    "taWord": "அனைத்துத் துறையிலும் திறமையுள்ள (Anaithu thuraiyilum thiramaiyulla)",
+    "enExample": "A well-rounded software engineer excels at both algorithm optimization and empathetic team communication.",
+    "taExample": "அனைத்துத் துறையிலும் திறமையுள்ள மென்பொருள் பொறியாளர் அல்காரிதம் உகப்பாக்கம் மற்றும் இரக்கமுள்ள குழுத் தொடர்பு இரண்டிலும் சிறந்து விளங்குகிறார்.",
+    "enExample2": "The fellowship curriculum promotes well-rounded personal growth and leadership.",
+    "taExample2": "தோழமைப் பாடத்திட்டம் அனைத்துத் துறையிலும் திறமையுள்ள தனிப்பட்ட வளர்ச்சி மற்றும் தலைமையை ஊக்குவிக்கிறது.",
+    "synonyms": [
+      "versatile",
+      "balanced",
+      "comprehensive",
+      "adaptable"
+    ],
+    "antonyms": [
+      "one-dimensional",
+      "narrow-minded",
+      "unbalanced"
     ]
   },
   {
@@ -229,7 +317,9 @@
     "antonyms": [
       "Serious",
       "Practical"
-    ]
+    ],
+    "enExample2": "The creative team added whimsical illustrations and subtle playful micro-interactions to the 404 error page.",
+    "taExample2": "வடிவமைப்புக் குழு 404 பிழைப் பக்கத்தில் வேடிக்கையான (Whimsical) சித்திரங்களையும் நுட்பமான அனிமேஷன்களையும் சேர்த்தது."
   },
   {
     "id": 2932,
@@ -249,7 +339,9 @@
       "Conspirator",
       "Cover-up agent",
       "Corrupt insider"
-    ]
+    ],
+    "enExample2": "The internal whistleblower revealed that user telemetry data was being retained without explicit user consent.",
+    "taExample2": "பயனர் ஒப்புதலின்றி அவர்களின் கண்காணிப்புத் தரவு சேமிக்கப்படுவதை உள்நாட்டு தகவல் தருநர் (Whistleblower) வெளிப்படுத்தினார்."
   },
   {
     "id": 2306,
@@ -266,7 +358,9 @@
     "antonyms": [
       "Blackbox",
       "Opaque testing"
-    ]
+    ],
+    "enExample2": "Whitebox penetration testing allows security auditors to inspect the source code while hunting for vulnerabilities.",
+    "taExample2": "வைட்பாக்ஸ் (Whitebox) சோதனை பாதுகாப்பு தணிக்கையாளர்கள் மூலக் குறியீட்டை நேரடியாகப் பார்த்து குறைபாடுகளைக் கண்டறிய அனுமதிக்கிறது."
   },
   {
     "id": 2307,
@@ -282,7 +376,9 @@
     ],
     "antonyms": [
       "Exact match"
-    ]
+    ],
+    "enExample2": "Configuring a wildcard DNS entry routes all dynamic tenant subdomains to the central application load balancer.",
+    "taExample2": "வைல்டுகார்டு (Wildcard) DNS பதிவை அமைப்பது அனைத்து பயனர் துணை டொமைன்களையும் மைய சுமை சமநிலைப்படுத்திக்கு வழிநடத்துகிறது."
   },
   {
     "id": 2318,
@@ -300,7 +396,9 @@
     "antonyms": [
       "Unattractive",
       "Repellent"
-    ]
+    ],
+    "enExample2": "The developer's winsome personality and collaborative spirit made him a favorite mentor among junior engineers.",
+    "taExample2": "உருவாக்குநரின் கனிவான கவர்ச்சிகரமான (Winsome) ஆளுமையும் கூட்டுப் பணி மனப்பான்மையும் அவரை இளம் பொறியாளர்களின் விருப்பமான வழிகாட்டியாக்கியது."
   },
   {
     "id": 2682,
@@ -318,7 +416,9 @@
     "antonyms": [
       "Completed work",
       "Backlog"
-    ]
+    ],
+    "enExample2": "Restricting Work In Progress (WIP) limits on the Kanban board prevents developer multitasking and context switching.",
+    "taExample2": "கான்பன் பலகையில் ஒரே நேரத்தில் செய்யும் வேலை வரம்புகளைக் (WIP) கட்டுப்படுத்துவது தேவையற்ற கவனச் சிதறலைத் தடுக்கிறது."
   },
   {
     "id": 2308,
@@ -335,7 +435,9 @@
     ],
     "antonyms": [
       "High-fidelity prototype"
-    ]
+    ],
+    "enExample2": "The UI designer presented a low-fidelity wireframe to gather early feedback on the multi-step checkout workflow.",
+    "taExample2": "செக்அவுட் செயல்முறையில் ஆரம்பக் கருத்துக்களைப் பெற வடிவமைப்பாளர் ஒரு எளிய தளவமைப்பு வரைபடத்தை (Wireframe) சமர்ப்பித்தார்."
   },
   {
     "id": 2309,
@@ -351,7 +453,9 @@
     ],
     "antonyms": [
       "Main thread"
-    ]
+    ],
+    "enExample2": "Background worker processes consume analytics event streams asynchronously without slowing down web servers.",
+    "taExample2": "பின்னணி பணி செயல்முறைகள் (Worker) வலை சேவையகங்களை மெதுவாக்காமல் பகுப்பாய்வு தரவுகளை ஒத்திசைவற்ற முறையில் கையாள்கின்றன."
   },
   {
     "id": 2313,
@@ -367,7 +471,9 @@
     ],
     "antonyms": [
       "Event loop main thread"
-    ]
+    ],
+    "enExample2": "Offloading intensive cryptographic hashing to a separate worker thread keeps the main UI silky smooth.",
+    "taExample2": "கடினமான குறியாக்க கணக்கீடுகளை தனி பணி இழையில் (Worker Thread) இயக்குவது பயனர் இடைமுகத்தை மென்மையாக வைக்கிறது."
   },
   {
     "id": 2310,
@@ -385,7 +491,9 @@
     "antonyms": [
       "Chaotic manual steps",
       "Unstructured improvisation"
-    ]
+    ],
+    "enExample2": "Our continuous integration workflow automatically runs unit tests, linting, and security audits on every pull request.",
+    "taExample2": "எங்கள் தானியங்கி பணிப்பாய்வு (Workflow) ஒவ்வொரு குறியீட்டு மாற்றத்திற்கும் சோதனைகள் மற்றும் பாதுகாப்பு ஆய்வுகளை இயக்குகிறது."
   },
   {
     "id": 2315,
@@ -404,7 +512,9 @@
       "Low-power thin client",
       "Mobile phone",
       "IoT edge sensor"
-    ]
+    ],
+    "enExample2": "The developer's workstation was configured with 64GB of RAM to run multiple local Kubernetes test clusters.",
+    "taExample2": "பல சோதனைக் கிளஸ்டர்களை உள்ளூரில் இயக்க உருவாக்குநரின் பணிநிலையம் (Workstation) 64GB நினைவகத்துடன் கட்டமைக்கப்பட்டது."
   },
   {
     "id": 2951,
@@ -425,7 +535,9 @@
       "Concur",
       "Harmonize",
       "Concede"
-    ]
+    ],
+    "enExample2": "Data engineers built automated pipelines to wrangle and clean messy telemetry logs before feeding them into machine learning models.",
+    "taExample2": "AI மாதிரிகளில் செலுத்துவதற்கு முன் ஒழுங்கற்ற பதிவுத் தகவல்களை சீரமைத்து தூய்மைப்படுத்த (Wrangle) பொறியாளர்கள் பைப்லைன்களை உருவாக்கினர்."
   },
   {
     "id": 2311,
@@ -444,7 +556,9 @@
       "Native unwrapped core",
       "Raw primitive",
       "Bare API"
-    ]
+    ],
+    "enExample2": "Creating a TypeScript wrapper around the third-party payment library ensures full type safety across our services.",
+    "taExample2": "வெளிப்புற நூலகத்தைச் சுற்றி ஒரு TypeScript உறை (Wrapper) உருவாக்குவது எங்கள் சேவைகளில் முழுமையான வகை பாதுகாப்பை உறுதி செய்கிறது."
   },
   {
     "id": 2749,
@@ -462,7 +576,9 @@
     "antonyms": [
       "in-memory-only store",
       "unlogged mutations"
-    ]
+    ],
+    "enExample2": "PostgreSQL records every transaction in a Write-Ahead Log before updating data pages on physical storage disks.",
+    "taExample2": "வட்டில் சேமிப்பதற்கு முன் ஒவ்வொரு பரிவர்த்தனையையும் PostgreSQL ஒரு முன்கூட்டியே பதிவு செய்யும் கோப்பில் (Write-Ahead Log) எழுதுகிறது."
   },
   {
     "id": 2828,
@@ -480,6 +596,8 @@
     "antonyms": [
       "In-memory only write",
       "Unbuffered direct write"
-    ]
+    ],
+    "enExample2": "Write-Ahead Logging guarantees database crash recovery and ACID durability by persisting operations to non-volatile logs first.",
+    "taExample2": "செயல்பாடுகளை முதலில் பதிவேட்டில் சேமிப்பதன் மூலம் Write-Ahead Logging தரவுத்தள செயலிழப்பு மீட்டெடுப்பை உறுதி செய்கிறது."
   }
 ]

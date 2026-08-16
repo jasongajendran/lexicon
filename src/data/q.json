@@ -15,7 +15,9 @@
     "antonyms": [
       "Solution",
       "Boon"
-    ]
+    ],
+    "enExample2": "Attempting to support dozens of unversioned legacy API endpoints created an architectural quagmire.",
+    "taExample2": "பதிப்பில்லாத டஜன் கணக்கான பழைய API-களை ஆதரிக்க முயன்றது ஒரு சிக்கலான கட்டமைப்பு சதுப்புநிலத்தை (Quagmire) உருவாக்கியது."
   },
   {
     "id": 1701,
@@ -33,7 +35,9 @@
     "antonyms": [
       "Defectiveness",
       "Flaw"
-    ]
+    ],
+    "enExample2": "Investing in automated regression testing drastically improves long-term software quality and stability.",
+    "taExample2": "தானியங்கி சோதனைகளில் முதலீடு செய்வது நீண்டகால மென்பொருள் தரம் (Quality) மற்றும் நிலைத்தன்மையை பெரிதும் மேம்படுத்துகிறது."
   },
   {
     "id": 2739,
@@ -51,7 +55,9 @@
     "antonyms": [
       "unregulated deploy",
       "bypassed check"
-    ]
+    ],
+    "enExample2": "The CI/CD pipeline enforces a quality gate requiring ninety percent unit test coverage before merging code.",
+    "taExample2": "குறியீட்டை இணைப்பதற்கு முன் CI/CD அமைப்பு தொண்ணூறு சதவீத சோதனை வெற்றியை கட்டாயமாக்கும் தர வாயிலை (Quality Gate) அமல்படுத்துகிறது."
   },
   {
     "id": 3005,
@@ -72,7 +78,9 @@
       "Certainty",
       "Solution",
       "Resolution"
-    ]
+    ],
+    "enExample2": "The team faced a quandary over whether to rebuild the legacy billing service or refactor it incrementally.",
+    "taExample2": "பழைய கட்டண சேவையை புதிதாக மீண்டும் உருவாக்குவதா அல்லது படிப்படியாக மாற்றுவதா என்பதில் குழு ஒரு குழப்பமான இக்கட்டில் (Quandary) இருந்தது."
   },
   {
     "id": 1702,
@@ -90,7 +98,9 @@
       "Uncountable entity",
       "Qualitative trait",
       "Ambiguity"
-    ]
+    ],
+    "enExample2": "Regular expression quantifiers such as '+' and '*' specify how many times a character pattern should match.",
+    "taExample2": "ரெஜெக்ஸ் அளவிகள் (Quantifiers) ஒரு எழுத்து வடிவம் எத்தனை முறை பொருந்த வேண்டும் என்பதைக் குறிப்பிடுகின்றன."
   },
   {
     "id": 2812,
@@ -107,7 +117,9 @@
     "antonyms": [
       "Full float32 precision",
       "Uncompressed weights"
-    ]
+    ],
+    "enExample2": "Model quantization compresses 32-bit floating point weights into 8-bit integers to run inference on edge devices.",
+    "taExample2": "மாதிரி அளவீடாக்கம் (Quantization) எடைகளை சுருக்கி விளிம்பு சாதனங்களில் வேகமான AI செயல்பாட்டை சாத்தியமாக்குகிறது."
   },
   {
     "id": 1703,
@@ -123,7 +135,9 @@
     ],
     "antonyms": [
       "Classical"
-    ]
+    ],
+    "enExample2": "Researchers are designing quantum-resistant encryption algorithms to secure communications against future supercomputers.",
+    "taExample2": "எதிர்கால சூப்பர் கம்ப்யூட்டர்களுக்கு எதிராக தகவல்தொடர்புகளைப் பாதுகாக்க ஆராய்ச்சியாளர்கள் குவாண்டம் (Quantum) எதிர்ப்பு குறியாக்கங்களை வடிவமைக்கின்றனர்."
   },
   {
     "id": 1704,
@@ -141,7 +155,9 @@
     "antonyms": [
       "Release",
       "Integrate"
-    ]
+    ],
+    "enExample2": "The CI pipeline will quarantine flaky integration tests to prevent false-positive build failures.",
+    "taExample2": "தவறான உருவாக்கத் தோல்விகளைத் தவிர்க்க தானியங்கி அமைப்பு நிலையற்ற சோதனைகளை தனிமைப்படுத்தும் (Quarantine)."
   },
   {
     "id": 1717,
@@ -159,7 +175,9 @@
     "antonyms": [
       "Foment",
       "Incite"
-    ]
+    ],
+    "enExample2": "The CTO issued a detailed technical explanation to quell community concerns regarding the licensing update.",
+    "taExample2": "உரிம மாற்றம் குறித்த சமூகத்தின் கவலைகளைத் தணிக்க (Quell) தலைமை தொழில்நுட்ப அதிகாரி விரிவான விளக்கத்தை வெளியிட்டார்."
   },
   {
     "id": 1705,
@@ -178,7 +196,9 @@
       "Command update",
       "Write mutation",
       "Blind insert"
-    ]
+    ],
+    "enExample2": "The analytical query aggregates sales data across millions of rows in under fifty milliseconds.",
+    "taExample2": "பகுப்பாய்வு வினவல் (Query) மில்லியன் கணக்கான வரிசைகளில் உள்ள விற்பனைத் தரவை ஐம்பது மில்லி விநாடிகளுக்குள் ஒருங்கிணைக்கிறது."
   },
   {
     "id": 2738,
@@ -196,7 +216,9 @@
     "antonyms": [
       "blind sequential scanner",
       "unindexed lookup"
-    ]
+    ],
+    "enExample2": "The relational database query planner chooses between index scans and sequential table scans to optimize speed.",
+    "taExample2": "தரவுத்தள வினவல் திட்டமிடுபவர் (Query Planner) வேகத்தை உகப்பாக்க குறியீட்டுத் தேடலுக்கும் நேரடித் தேடலுக்கும் இடையே சிறந்ததைத் தேர்ந்தெடுக்கிறார்."
   },
   {
     "id": 1711,
@@ -214,7 +236,9 @@
       "Request body",
       "Headers",
       "Static route path"
-    ]
+    ],
+    "enExample2": "The search bar encodes filters and sort orders directly into the URL QueryString for shareable bookmarks.",
+    "taExample2": "பகிர்ந்து கொள்ளக்கூடிய இணைப்புகளுக்காக தேடல் பட்டி வடிகட்டிகளை நேரடியாக URL QueryString-ல் குறியாக்கம் செய்கிறது."
   },
   {
     "id": 1706,
@@ -231,7 +255,9 @@
     ],
     "antonyms": [
       "Stack"
-    ]
+    ],
+    "enExample2": "The asynchronous background worker pulls video rendering jobs sequentially from a Redis-backed message queue.",
+    "taExample2": "ஒத்திசைவற்ற பின்னணி சேவை Redis செய்தி வரிசையிலிருந்து (Queue) வீடியோ மாற்றப் பணிகளை தொடர்ச்சியாக எடுக்கிறது."
   },
   {
     "id": 1712,
@@ -249,7 +275,9 @@
     "antonyms": [
       "Permanent fix",
       "Refactor"
-    ]
+    ],
+    "enExample2": "While a quickfix restored service immediately, the team scheduled a comprehensive architectural refactoring for next sprint.",
+    "taExample2": "ஒரு உடனடி தீர்வு (Quickfix) சேவையை உடனடியாக மீட்டெடுத்தாலும் அடுத்த சுழற்சியில் முழுமையான சீரமைப்பை குழு திட்டமிட்டது."
   },
   {
     "id": 1707,
@@ -266,7 +294,9 @@
       "BubbleSort",
       "Slow linear scan",
       "Random shuffle"
-    ]
+    ],
+    "enExample2": "QuickSort provides efficient O(n log n) average-case performance by recursively partitioning arrays around a pivot.",
+    "taExample2": "குவிக்சார்ட் (QuickSort) ஒரு மைய உறுப்பைச் சுற்றி அணிகளைப் பிரிப்பதன் மூலம் திறமையான சராசரி வரிசைப்படுத்தல் வேகத்தை வழங்குகிறது."
   },
   {
     "id": 1713,
@@ -284,7 +314,9 @@
     "antonyms": [
       "Active",
       "Busy"
-    ]
+    ],
+    "enExample2": "The database reached a quiescent state during off-peak midnight hours, allowing maintenance backups to proceed without lock contention.",
+    "taExample2": "நள்ளிரவு நேரத்தில் தரவுத்தளம் அமைதியான (Quiescent) நிலையை எட்டியதால் எந்தவித பூட்டுதல் போட்டியும் இன்றி காப்புப் பிரதி பணிகள் தொடர்ந்தன."
   },
   {
     "id": 1715,
@@ -302,7 +334,9 @@
     "antonyms": [
       "Verbose",
       "Debug"
-    ]
+    ],
+    "enExample2": "Developers prefer quiet uninterrupted blocks of time to design complex distributed algorithms.",
+    "taExample2": "சிக்கலான விநியோகிக்கப்பட்ட வழிமுறைகளை வடிவமைக்க உருவாக்குநர்கள் அமைதியான (Quiet) இடையூறுகளற்ற நேரத்தை விரும்புகின்றனர்."
   },
   {
     "id": 3030,
@@ -323,7 +357,9 @@
       "Atypical",
       "Unrepresentative",
       "Abnormal"
-    ]
+    ],
+    "enExample2": "The pub-sub architecture is the quintessential design pattern for building decoupled, event-driven distributed systems.",
+    "taExample2": "பப்-சப் கட்டமைப்பு என்பது நிகழ்வு சார்ந்த விநியோகிக்கப்பட்ட அமைப்புகளை உருவாக்குவதற்கான மிகச் சிறந்த முன்மாதிரி (Quintessential) வடிவமைப்பு முறையாகும்."
   },
   {
     "id": 1718,
@@ -341,7 +377,9 @@
     "antonyms": [
       "Pragmatic",
       "Practical"
-    ]
+    ],
+    "enExample2": "Attempting to build a bespoke web browser engine from scratch in three months was an admirably quixotic ambition.",
+    "taExample2": "மூன்று மாதங்களில் புதிதாக ஒரு இணைய உலாவி இயந்திரத்தை உருவாக்க முயன்றது நடைமுறைக்கு சாத்தியமற்ற உன்னதமான (Quixotic) லட்சியமாகும்."
   },
   {
     "id": 1714,
@@ -357,7 +395,9 @@
     ],
     "antonyms": [
       "Minority"
-    ]
+    ],
+    "enExample2": "The Raft consensus algorithm requires a quorum of nodes to agree before committing a cluster state transition.",
+    "taExample2": "கிளஸ்டர் நிலையை மாற்றுவதற்கு முன் Raft ஒருமித்த வழிமுறை முனையங்களின் பெரும்பான்மை ஒப்புதலைக் (Quorum) கோருகிறது."
   },
   {
     "id": 1708,
@@ -374,7 +414,9 @@
     ],
     "antonyms": [
       "Unlimited"
-    ]
+    ],
+    "enExample2": "The third-party payment API enforces a daily transaction quota of ten thousand requests per developer key.",
+    "taExample2": "மூன்றாம் தரப்பு கட்டண API ஒரு உருவாக்குநர் விசைக்கு தினசரி பத்தாயிரம் கோரிக்கைகள் என்ற பரிவர்த்தனை ஒதுக்கீட்டை (Quota) அமல்படுத்துகிறது."
   },
   {
     "id": 1709,
@@ -394,7 +436,9 @@
       "Halt",
       "Cease",
       "Reverse"
-    ]
+    ],
+    "enExample2": "Always quote user-supplied strings inside shell commands to prevent arbitrary command injection exploits.",
+    "taExample2": "கட்டளை ஊடுருவல் தாக்குதல்களைத் தடுக்க ஷெல் கட்டளைகளில் பயனர் உள்ளீட்டு சரங்களை எப்போதும் மேற்கோள் குறிகளுக்குள் (Quote) வைக்கவும்."
   },
   {
     "id": 1710,
@@ -411,6 +455,8 @@
     "antonyms": [
       "Product",
       "Remainder"
-    ]
+    ],
+    "enExample2": "Dividing total throughput by CPU core count yields a useful compute efficiency quotient for benchmarking.",
+    "taExample2": "மொத்த செயல்திறனை CPU உள்ளகங்களின் எண்ணிக்கையால் வகுப்பது ஒப்பீட்டுக்கான பயனுள்ள கணினி திறன் ஈவை (Quotient) தருகிறது."
   }
 ]

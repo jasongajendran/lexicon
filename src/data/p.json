@@ -14,7 +14,9 @@
     "antonyms": [
       "Unconstrained consistency",
       "Magic zero-latency scaling"
-    ]
+    ],
+    "enExample2": "The PACELC Theorem guides architects in balancing latency versus consistency even when no network partition exists.",
+    "taExample2": "நெட்வொர்க் முறிவு இல்லாத போதும் கூட தாமதம் மற்றும் நிலைத்தன்மையை சமநிலைப்படுத்த PACELC தேற்றம் வடிவமைப்பாளர்களுக்கு வழிகாட்டுகிறது."
   },
   {
     "id": 33,
@@ -31,7 +33,9 @@
     "antonyms": [
       "Aggravating",
       "Worsening"
-    ]
+    ],
+    "enExample2": "Restarting the container was merely a palliative measure that failed to resolve the underlying root cause.",
+    "taExample2": "கொள்கலனை மறுதொடக்கம் செய்வது வெறும் தற்காலிக நிவாரண (Palliative) நடவடிக்கையாக மட்டுமே இருந்தது, மூலக் காரணத்தை தீர்க்கவில்லை."
   },
   {
     "id": 3123,
@@ -51,7 +55,9 @@
       "Toxin",
       "Bane",
       "Root problem"
-    ]
+    ],
+    "enExample2": "Adopting microservices is not a magic panacea for poor software engineering discipline and lack of tests.",
+    "taExample2": "மோசமான பொறியியல் ஒழுக்கம் மற்றும் சோதனைகளின்மைக்கு நுண்சேவைகள் ஒருபோதும் மாய சர்வ நிவாரணியாக (Panacea) முடியாது."
   },
   {
     "id": 2894,
@@ -72,6 +78,29 @@
       "Peace",
       "Silence",
       "Tranquility"
+    ],
+    "enExample2": "A global DNS propagation failure caused utter pandemonium across the entire customer support department.",
+    "taExample2": "உலகளாவிய DNS பரவல் தோல்வி வாடிக்கையாளர் ஆதரவு துறை முழுவதும் பெரும் குழப்பத்தையும் கூச்சலையும் ஏற்படுத்தியது."
+  },
+  {
+    "id": 3279,
+    "word": "Parable",
+    "pos": "Noun",
+    "definition": "A simple story used to illustrate a moral, spiritual, or technical lesson.",
+    "taWord": "உவமை (Uvamai)",
+    "enExample": "The engineering manager used the parable of the foolish builder to warn against weak database design.",
+    "taExample": "பொறியியல் மேலாளர் பலவீனமான தரவுத்தள வடிவமைப்பிற்கு எதிராக எச்சரிக்க புத்திீனமான கட்டடக் கலைஞரின் உவமையைப் பயன்படுத்தினார்.",
+    "enExample2": "Jesus frequently taught crowds using memorable parables drawn from daily agricultural life.",
+    "taExample2": "இயேசு அன்றாட விவசாய வாழ்க்கையிலிருந்து பெறப்பட்ட மறக்க முடியாத உவமைகளைப் பயன்படுத்தி கூட்டங்களுக்கு அடிக்கடி கற்பித்தார்.",
+    "synonyms": [
+      "allegory",
+      "fable",
+      "instructive story",
+      "lesson"
+    ],
+    "antonyms": [
+      "factual report",
+      "literal history"
     ]
   },
   {
@@ -91,7 +120,9 @@
       "Exception",
       "Outlier",
       "Irregularity"
-    ]
+    ],
+    "enExample2": "Reactive functional programming represents a transformative paradigm shift in modern frontend state management.",
+    "taExample2": "ரியாக்டிவ் செயல்பாட்டு நிரலாக்கம் நவீன முன்னணி நிலை நிர்வாகத்தில் ஒரு புரட்சிகர கோட்பாட்டு மாதிரியைக் (Paradigm) குறிக்கிறது."
   },
   {
     "id": 12,
@@ -108,7 +139,9 @@
     "antonyms": [
       "Standard",
       "Norm"
-    ]
+    ],
+    "enExample2": "It is a well-known paradox that adding more engineers to a late software project often makes it even later.",
+    "taExample2": "தாமதமான திட்டத்தில் கூடுதல் பொறியாளர்களைச் சேர்ப்பது அதை மேலும் தாமதமாக்கும் என்பது நன்கு அறியப்பட்ட ஒரு முரண்பாடாகும் (Paradox)."
   },
   {
     "id": 3059,
@@ -129,7 +162,9 @@
       "Flawed example",
       "Imperfect model",
       "Poor representation"
-    ]
+    ],
+    "enExample2": "The open-source repository is widely celebrated as a paragon of clean documentation and comprehensive test suites.",
+    "taExample2": "அந்த திறந்த மூல களஞ்சியம் தெளிவான ஆவணங்கள் மற்றும் சிறந்த சோதனைகளுக்கான ஒரு தலைசிறந்த முன்மாதிரியாகக் (Paragon) கருதப்படுகிறது."
   },
   {
     "id": 41,
@@ -147,7 +182,9 @@
       "Static background",
       "Flat 2D rendering",
       "Fixed perspective"
-    ]
+    ],
+    "enExample2": "The marketing landing page uses subtle CSS parallax scrolling to create a captivating depth effect.",
+    "taExample2": "சந்தைப்படுத்தல் பக்கம் ஒரு கவர்ச்சிகரமான ஆழமான காட்சி விளைவை உருவாக்க மெல்லிய இடமாறு உருட்டலைப் (Parallax) பயன்படுத்துகிறது."
   },
   {
     "id": 2895,
@@ -168,7 +205,9 @@
       "Action",
       "Dynamism",
       "Progress"
-    ]
+    ],
+    "enExample2": "Over-analyzing dozens of competing CSS frameworks caused total analysis paralysis within the frontend squad.",
+    "taExample2": "டஜன் கணக்கான CSS கட்டமைப்புகளை மிகையாக ஆய்வு செய்தது குழுவிற்குள் முடிவெடுக்க முடியாத முடக்கத்தை (Paralysis) ஏற்படுத்தியது."
   },
   {
     "id": 46,
@@ -185,6 +224,27 @@
     "antonyms": [
       "Secondary",
       "Minor"
+    ],
+    "enExample2": "Maintaining end-to-end customer data encryption is of paramount importance to our cybersecurity compliance posture.",
+    "taExample2": "பயனர் தரவு குறியாக்கத்தைப் பேணுவது எங்கள் இணையப் பாதுகாப்பு இணக்கத்திற்கு மிக மிக முக்கியமானதாகும் (Paramount)."
+  },
+  {
+    "id": 3373,
+    "word": "parasocial",
+    "pos": "adjective",
+    "definition": "Describing a one-sided relationship where an audience member feels personal intimacy with a media figure.",
+    "taWord": "ஒருதலைப்பட்ச இணைய பிணைப்பு",
+    "enExample": "Tech podcasters build parasocial relationships with listeners who feel they personally know the hosts.",
+    "taExample": "தொழில்நுட்ப பாட்காஸ்ட் வழங்குநர்கள் கேட்போருடன் ஒருதலைப்பட்சமான ஆழமான இணைய பிணைப்பை உருவாக்குகிறார்கள்.",
+    "enExample2": "Psychologists study how social media live streams intensify parasocial feelings among young followers.",
+    "taExample2": "சமூக ஊடக நேரலைகள் இளைஞர்களிடையே எவ்வாறு ஒருதலைப்பட்ச பிணைப்பை அதிகரிக்கின்றன என்பதை உளவியலாளர்கள் ஆராய்கின்றனர்.",
+    "synonyms": [
+      "one-sided relationship",
+      "perceived intimacy"
+    ],
+    "antonyms": [
+      "reciprocal interaction",
+      "mutual acquaintance"
     ]
   },
   {
@@ -202,7 +262,9 @@
     "antonyms": [
       "Disparity",
       "Inequality"
-    ]
+    ],
+    "enExample2": "Using Docker containers ensures strict environment parity between developer laptops and production servers.",
+    "taExample2": "டாக்கர் கொள்கலன்களைப் பயன்படுத்துவது மடிக்கணினிகளுக்கும் உற்பத்தி சேவையகங்களுக்கும் இடையே கடுமையான சமநிலையை (Parity) உறுதி செய்கிறது."
   },
   {
     "id": 2667,
@@ -220,7 +282,9 @@
     "antonyms": [
       "Current agenda",
       "Main topic"
-    ]
+    ],
+    "enExample2": "Let us place this tangential debate into the meeting parking lot and revisit it once the sprint goal is finalized.",
+    "taExample2": "இந்த கூடுதல் விவாதத்தை கூட்டத்தின் நிறுத்துமிடத்தில் (Parking lot) வைத்துவிட்டு திட்ட இலக்குகள் முடிந்த பிறகு மீண்டும் விவாதிப்போம்."
   },
   {
     "id": 3124,
@@ -242,7 +306,9 @@
       "Generous",
       "Munificent",
       "Profligate"
-    ]
+    ],
+    "enExample2": "Embedded IoT microcontrollers require a parsimonious use of heap memory to prevent buffer overflow crashes.",
+    "taExample2": "உட்பொதிக்கப்பட்ட IoT சாதனங்கள் செயலிழப்பைத் தவிர்க்க மிகக் குறைந்த சிக்கனமான (Parsimonious) நினைவகப் பயன்பாட்டைக் கோருகின்றன."
   },
   {
     "id": 2896,
@@ -263,6 +329,30 @@
       "Impartial",
       "Bipartisan",
       "Objective"
+    ],
+    "enExample2": "Technical discussions should remain objective rather than devolving into partisan advocacy for specific frameworks.",
+    "taExample2": "தொழில்நுட்ப விவாதங்கள் குறிப்பிட்ட கட்டமைப்புகளுக்கான ஒருதலைப்பட்ச (Partisan) சார்புநிலையாக மாறாமல் நடுநிலையாக இருக்க வேண்டும்."
+  },
+  {
+    "id": 3374,
+    "word": "partisanship",
+    "pos": "noun",
+    "definition": "Strong, biased prejudice in favor of a particular cause, political party, or faction.",
+    "taWord": "கட்சிச் சார்பு (ஒருதலைப்பட்ச சாய்வு)",
+    "enExample": "Engineers should avoid framework partisanship and evaluate software tools objectively based on performance.",
+    "taExample": "பொறியாளர்கள் குறிப்பிட்ட மென்பொருள் சார்பைத் தவிர்த்து செயல்பாட்டின் அடிப்படையில் கருவிகளை நடுநிலையோடு மதிப்பீடு செய்ய வேண்டும்.",
+    "enExample2": "Extreme partisanship in Parliament stalled progress on crucial infrastructure legislation.",
+    "taExample2": "நாடாளுமன்றத்தில் நிலவிய தீவிர கட்சிச் சார்பு முக்கியமான உள்கட்டமைப்புச் சட்டங்களின் முன்னேற்றத்தைத் தடுத்தது.",
+    "synonyms": [
+      "bias",
+      "prejudice",
+      "factionalism",
+      "sectarianism"
+    ],
+    "antonyms": [
+      "bipartisanship",
+      "neutrality",
+      "impartiality"
     ]
   },
   {
@@ -280,6 +370,30 @@
     "antonyms": [
       "Unite",
       "Combine"
+    ],
+    "enExample2": "Distributed message queues partition event topics across multiple broker nodes to enable parallel consumer throughput.",
+    "taExample2": "செய்தி வரிசைகள் ஒரே நேர நுகர்வை இயக்க நிகழ்வு தலைப்புகளை பல சர்வர் முனையங்களில் பிரித்து வைக்கின்றன (Partition)."
+  },
+  {
+    "id": 3375,
+    "word": "pastoral",
+    "pos": "adjective",
+    "definition": "Relating to spiritual guidance, shepherd-like care, or peaceful rural life.",
+    "taWord": "போதகப் பணி சார்ந்த (மேய்ப்புப் பணி)",
+    "enExample": "The engineering lead took a pastoral approach to management, checking on developer mental health during crunches.",
+    "taExample": "என்ஜினீயரிங் மேலாளர் நெரிசலான நேரங்களில் பொறியாளர்களின் மன நலனைக் கவனித்து போதகப் பாணியில் வழிநடத்தினார்.",
+    "enExample2": "The church appointed a team of pastoral assistants to visit hospitalized community members.",
+    "taExample2": "மருத்துவமனையில் அனுமதிக்கப்பட்ட சபை உறுப்பினர்களைச் சந்திக்க திருச்சபை போதக உதவியாளர்களை நியமித்தது.",
+    "synonyms": [
+      "shepherding",
+      "guiding",
+      "caring",
+      "ministerial"
+    ],
+    "antonyms": [
+      "harsh",
+      "neglectful",
+      "punitive"
     ]
   },
   {
@@ -298,6 +412,30 @@
     "antonyms": [
       "Header",
       "Metadata"
+    ],
+    "enExample2": "Gzip compression significantly shrinks the JSON network payload transferred between the API and the mobile client.",
+    "taExample2": "Gzip சுருக்குதல் API மற்றும் மொபைல் செயலிக்கு இடையே பரிமாறப்படும் JSON தரவுச் சுமையை (Payload) கணிசமாகக் குறைக்கிறது."
+  },
+  {
+    "id": 3324,
+    "word": "Peachy",
+    "pos": "Adjective",
+    "definition": "Informal word meaning splendid, fine, or satisfactory in system health or state.",
+    "taWord": "அற்புதமான/நன்றாக (Arputhamaana/nandraaga)",
+    "enExample": "Server monitoring shows CPU utilization is low and everything is peachy.",
+    "taExample": "சேவையக கண்காணிப்பு CPU பயன்பாடு குறைவாக இருப்பதையும் அனைத்தும் நன்றாக இருப்பதையும் காட்டுகிறது.",
+    "enExample2": "After resolving the environment variable issue, the dev server build ran peachy.",
+    "taExample2": "சூழல் மாறி சிக்கலைத் தீர்த்த பிறகு, டெவ் சேவையக உருவாக்கம் அற்புதமாக இயங்கியது.",
+    "synonyms": [
+      "splendid",
+      "fine",
+      "excellent",
+      "great"
+    ],
+    "antonyms": [
+      "awful",
+      "terrible",
+      "subpar"
     ]
   },
   {
@@ -315,6 +453,28 @@
     "antonyms": [
       "Common",
       "Standard"
+    ],
+    "enExample2": "The operating system threw a peculiar kernel panic error that only manifested during cold reboots.",
+    "taExample2": "இயக்க முறைமை கணினி மறுதொடக்கத்தின் போது மட்டுமே வெளிப்படும் ஒரு விசித்திரமான (Peculiar) கர்னல் பிழையை ஏற்படுத்தியது."
+  },
+  {
+    "id": 3376,
+    "word": "pedagogy",
+    "pos": "noun",
+    "definition": "The method, strategy, and practice of teaching or instructing.",
+    "taWord": "கற்பித்தல் இயல் (கற்பித்தல் முறை)",
+    "enExample": "The bootcamp updated its engineering pedagogy to include hands-on pair programming and test-driven dev.",
+    "taExample": "மென்பொருள் பயிற்சி மையம் நேரடி நிரலாக்க சோதனைகளை உள்ளடக்கித் தன் கற்பித்தல் முறையைப் புதுப்பித்தது.",
+    "enExample2": "University professors met to refine their digital pedagogy for blended online degree courses.",
+    "taExample2": "இணையப் பட்டப் படிப்புகளுக்கான டிஜிட்டல் கற்பித்தல் முறையை மேம்படுத்த பல்கலைக்கழகப் பேராசிரியர்கள் கூடினர்.",
+    "synonyms": [
+      "teaching method",
+      "instruction",
+      "educational strategy"
+    ],
+    "antonyms": [
+      "learning by trial",
+      "self-directed study"
     ]
   },
   {
@@ -332,7 +492,9 @@
     "antonyms": [
       "Pragmatic",
       "Informal"
-    ]
+    ],
+    "enExample2": "Code reviews should focus on architectural soundness rather than overly pedantic formatting debates.",
+    "taExample2": "குறியீட்டு மறுஆய்வுகள் மிகை நுணுக்கமான (Pedantic) வடிவமைப்பு விவாதங்களை விடுத்து கட்டமைப்பு நிலைத்தன்மையில் கவனம் செலுத்த வேண்டும்."
   },
   {
     "id": 3125,
@@ -354,7 +516,9 @@
       "Laudatory",
       "Appreciative",
       "Praising"
-    ]
+    ],
+    "enExample2": "Referring to legacy systems with pejorative terms ignores the decades of reliable business revenue they delivered.",
+    "taExample2": "பழைய அமைப்புகளை இழிவான (Pejorative) சொற்களால் குறிப்பிடுவது அவை பல தசாப்தங்களாக வழங்கிய வணிக நன்மைகளை புறக்கணிக்கிறது."
   },
   {
     "id": 3040,
@@ -376,7 +540,9 @@
       "Muddled",
       "Obscure",
       "Confused"
-    ]
+    ],
+    "enExample2": "The documentation offered a pellucid explanation of asynchronous event propagation in the browser DOM.",
+    "taExample2": "அந்த ஆவணம் உலாவி DOM-ல் ஒத்திசைவற்ற நிகழ்வு பரவல் பற்றிய மிகத் தெளிவான (Pellucid) விளக்கத்தை வழங்கியது."
   },
   {
     "id": 3041,
@@ -397,6 +563,26 @@
       "Aversion",
       "Dislike",
       "Antipathy"
+    ],
+    "enExample2": "She developed a well-known penchant for low-level memory optimizations and custom assembly kernels.",
+    "taExample2": "கணினி நினைவக உகப்பாக்கம் மற்றும் அசெம்பிளி குறியீடுகளில் அவர் நன்கு அறியப்பட்ட ஒரு தனி விருப்பத்தை (Penchant) வளர்த்துக் கொண்டார்."
+  },
+  {
+    "id": 3280,
+    "word": "Pentecostal",
+    "pos": "Adjective",
+    "definition": "Relating to Christian fellowship emphasizing the Holy Spirit, spiritual gifts, and vibrant worship.",
+    "taWord": "பெந்தெகொஸ்தே சார்ந்த (Penthekosthe saarntha)",
+    "enExample": "Pentecostal fellowship gatherings are known for joyful praise, active prayer, and community spirit.",
+    "taExample": "பெந்தெகொஸ்தே தோழமை கூட்டங்கள் மகிழ்ச்சியான துதி, செயலில் உள்ள ஜெபம் மற்றும் சமூக ஆவிக்கு பெயர் பெற்றவை.",
+    "enExample2": "The global Pentecostal movement emphasizes the dynamic empowerment of believers.",
+    "taExample2": "உலகளாவிய பெந்தெகொஸ்தே இயக்கம் விசுவாசிகளின் ஆற்றல்மிக்க அதிகாரமளிப்பை வலியுறுத்துகிறது.",
+    "synonyms": [
+      "charismatic",
+      "spirit-filled"
+    ],
+    "antonyms": [
+      "liturgical traditional"
     ]
   },
   {
@@ -414,7 +600,9 @@
     "antonyms": [
       "Oblivious",
       "Ignorant"
-    ]
+    ],
+    "enExample2": "A perceptive observation by the lead QA engineer uncovered a race condition in the checkout payment flow.",
+    "taExample2": "முதன்மை சோதனையாளரின் கூர்மையான (Perceptive) கவனிப்பு கட்டண செயல்முறையில் இருந்த ஒரு அரிய பிழையைக் கண்டறிந்தது."
   },
   {
     "id": 26,
@@ -431,7 +619,9 @@
     "antonyms": [
       "Sluggish",
       "Slow"
-    ]
+    ],
+    "enExample2": "Rust produces highly performant binaries that run with zero garbage collection pause overhead.",
+    "taExample2": "ரஸ்ட் மொழி எந்தவித நினைவக தூய்மைப்படுத்தல் தாமதமும் இன்றி அதிவேக செயல்திறன் மிக்க (Performant) பயன்பாடுகளை உருவாக்குகிறது."
   },
   {
     "id": 21,
@@ -448,7 +638,9 @@
     "antonyms": [
       "Thorough",
       "Careful"
-    ]
+    ],
+    "enExample2": "Rushing through a perfunctory code review without running tests allowed a severe security defect to slip into production.",
+    "taExample2": "சோதனைகளை இயக்காமல் மேலோட்டமான (Perfunctory) மறுஆய்வை மேற்கொண்டது ஒரு கடுமையான பாதுகாப்பு பிழை உற்பத்தியில் நுழைய வழிவகுத்தது."
   },
   {
     "id": 17,
@@ -465,7 +657,9 @@
     "antonyms": [
       "Core",
       "Central"
-    ]
+    ],
+    "enExample2": "Bluetooth low-energy peripheral devices stream diagnostic biometric metrics to the mobile application continuously.",
+    "taExample2": "புளூடூத் புற சாதனங்கள் (Peripheral) தொடர்ந்து கண்டறியும் தகவல்களை மொபைல் பயன்பாட்டிற்கு அனுப்புகின்றன."
   },
   {
     "id": 42,
@@ -482,7 +676,9 @@
     "antonyms": [
       "Drain",
       "Deplete"
-    ]
+    ],
+    "enExample2": "A deep commitment to automated testing must permeate every squad across the engineering organization.",
+    "taExample2": "தானியங்கி சோதனைகள் மீதான தீவிர அர்ப்பணிப்பு பொறியியல் நிறுவனத்தின் ஒவ்வொரு குழுவிலும் ஊடுருவி பரவ (Permeate) வேண்டும்."
   },
   {
     "id": 11,
@@ -500,7 +696,9 @@
       "Fixed order",
       "Stagnation",
       "Single arrangement"
-    ]
+    ],
+    "enExample2": "The fuzz testing tool generated thousands of input permutations to uncover hidden buffer boundary crashes.",
+    "taExample2": "சோதனைக் கருவி மறைக்கப்பட்ட நினைவக செயலிழப்புகளைக் கண்டறிய ஆயிரக்கணக்கான உள்ளீட்டு வரிசை மாற்றங்களை (Permutations) உருவாக்கியது."
   },
   {
     "id": 3094,
@@ -522,7 +720,9 @@
       "Salubrious",
       "Harmless",
       "Innocuous"
-    ]
+    ],
+    "enExample2": "Uncaught asynchronous exceptions represent a pernicious bug category that can silently corrupt in-flight state.",
+    "taExample2": "கையாளப்படாத பிழைகள் இயங்கும் நிலையை அமைதியாக சேதப்படுத்தும் ஒரு ஆபத்தான தீங்கு விளைவிக்கும் (Pernicious) பிழை வகையாகும்."
   },
   {
     "id": 2987,
@@ -544,7 +744,9 @@
       "Abolish",
       "Discontinue",
       "Stop"
-    ]
+    ],
+    "enExample2": "Copy-pasting unverified code snippets from forums will only perpetuate technical debt and hidden vulnerabilities.",
+    "taExample2": "இணையத்திலிருந்து சரிபார்க்கப்படாத குறியீடுகளை நகலெடுத்து ஒட்டுவது தொழில்நுட்பக் கடனைத் தொடர்ந்து நிலைநிறுத்தவே (Perpetuate) செய்யும்."
   },
   {
     "id": 32,
@@ -561,7 +763,9 @@
     "antonyms": [
       "Cease",
       "Stop"
-    ]
+    ],
+    "enExample2": "The mobile app uses an encrypted SQLite database to persist user settings across application restarts.",
+    "taExample2": "செயலி மறுதொடக்கத்தின் போதும் பயனர் அமைப்புகளைத் தக்கவைத்து சேமிக்க (Persist) மறைகுறியாக்கப்பட்ட SQLite-ஐப் பயன்படுத்துகிறது."
   },
   {
     "id": 3017,
@@ -582,7 +786,9 @@
       "Dull",
       "Unperceptive",
       "Ignorant"
-    ]
+    ],
+    "enExample2": "His perspicacious architectural design anticipated petabyte-scale throughput years before the platform expanded.",
+    "taExample2": "அவரது கூர்மையான தொலைநோக்குப் பார்வை (Perspicacious) தளம் விரிவடைவதற்கு பல ஆண்டுகளுக்கு முன்பே அதன் சேமிப்புத் தேவைகளை கணித்தது."
   },
   {
     "id": 3092,
@@ -604,7 +810,9 @@
       "Ambiguous",
       "Confused",
       "Muddled"
-    ]
+    ],
+    "enExample2": "The API specification was written with perspicuous clarity, allowing third-party developers to integrate effortlessly.",
+    "taExample2": "API ஆவணம் மிகத் தெளிவான (Perspicuous) தன்மையுடன் எழுதப்பட்டதால் வெளிப்புற உருவாக்குநர்கள் சிரமமின்றி ஒருங்கிணைக்க முடிந்தது."
   },
   {
     "id": 5,
@@ -621,7 +829,9 @@
     "antonyms": [
       "Irrelevant",
       "Inapplicable"
-    ]
+    ],
+    "enExample2": "Please include only log lines pertinent to the timestamp of the actual server crash.",
+    "taExample2": "சர்வர் செயலிழந்த நேரத்திற்கு தொடர்புடைய (Pertinent) பதிவு வரிகளை மட்டுமே இணைக்கவும்."
   },
   {
     "id": 28,
@@ -638,7 +848,9 @@
     "antonyms": [
       "Rare",
       "Scarce"
-    ]
+    ],
+    "enExample2": "Microservices architecture has become pervasive across modern enterprise cloud environments.",
+    "taExample2": "நுண்சேவை கட்டமைப்பு நவீன நிறுவன கிளவுட் சூழல்களில் எங்கும் பரவலான (Pervasive) ஒன்றாக மாறிவிட்டது."
   },
   {
     "id": 3126,
@@ -660,6 +872,29 @@
       "Good-natured",
       "Placid",
       "Affable"
+    ],
+    "enExample2": "His petulant reaction to constructive code review feedback created unnecessary friction within the engineering squad.",
+    "taExample2": "ஆக்கப்பூர்வமான குறியீட்டு மறுஆய்வுக்கு அவர் காட்டிய எரிச்சலான (Petulant) எதிர்வினை குழுவிற்குள் தேவையற்ற முரண்பாட்டை ஏற்படுத்தியது."
+  },
+  {
+    "id": 3304,
+    "word": "Ping",
+    "pos": "Verb",
+    "definition": "To send a quick digital message, notification, or network packet to get immediate feedback or status.",
+    "taWord": "தகவல் அனுப்பு (Thagaval anuppu)",
+    "enExample": "Feel free to ping me on Slack if you run into environment configuration issues during setup.",
+    "taExample": "அமைப்பின் போது சூழல் உள்ளமைவுச் சிக்கல்களைச் சந்தித்தால் Slack இல் எனக்கு தகவல் அனுப்ப தயங்க வேண்டாம்.",
+    "enExample2": "The monitoring agent pings the server endpoint every thirty seconds to verify uptime.",
+    "taExample2": "கண்காணிப்பு முகவர் இயங்குநேரத்தைச் சரிபார்க்க ஒவ்வொரு முப்பது விநாடிகளுக்கும் சேவையக இறுதிப்புள்ளிக்கு தகவல் அனுப்புகிறது.",
+    "synonyms": [
+      "notify",
+      "message",
+      "contact",
+      "signal"
+    ],
+    "antonyms": [
+      "ignore",
+      "mute"
     ]
   },
   {
@@ -678,7 +913,9 @@
     "antonyms": [
       "Persist",
       "Maintain course"
-    ]
+    ],
+    "enExample2": "The startup decided to pivot from a consumer social network to an enterprise business intelligence platform.",
+    "taExample2": "அந்த புத்தொழில் நிறுவனம் சமூக வலைத்தளத்திலிருந்து நிறுவன வணிக தளமாக தனது திசையை மாற்ற (Pivot) முடிவு செய்தது."
   },
   {
     "id": 16,
@@ -695,7 +932,9 @@
     "antonyms": [
       "Trivial",
       "Minor"
-    ]
+    ],
+    "enExample2": "Introducing automated canary deployments played a pivotal role in eliminating customer-facing downtime.",
+    "taExample2": "தானியங்கி தொடர் வெளியீடுகளை அறிமுகப்படுத்தியது பயனர் முடக்க நேரத்தை ஒழிப்பதில் ஒரு முக்கிய மையப் பங்கை (Pivotal) வகித்தது."
   },
   {
     "id": 36,
@@ -712,7 +951,9 @@
     "antonyms": [
       "Turbulent",
       "Agitated"
-    ]
+    ],
+    "enExample2": "The database monitoring charts remained placid throughout the evening, showing smooth and steady CPU metrics.",
+    "taExample2": "மாலை முழுவதும் தரவுத்தள வரைபடங்கள் சீரான மற்றும் அமைதியான (Placid) செயலி பயன்பாட்டைக் காட்டின."
   },
   {
     "id": 3127,
@@ -733,7 +974,9 @@
       "Original thought",
       "Profound insight",
       "Novel perspective"
-    ]
+    ],
+    "enExample2": "Engineers demanded concrete architectural solutions rather than hearing empty managerial platitudes about synergy.",
+    "taExample2": "பொறியாளர்கள் வெற்றிகரமான நிர்வாகப் வெற்றுப் பேச்சுக்களைத் (Platitudes) தவிர்த்து உறுதியான தொழில்நுட்பத் தீர்வுகளைக் கோரினர்."
   },
   {
     "id": 6,
@@ -750,7 +993,9 @@
     "antonyms": [
       "Unlikely",
       "Impossible"
-    ]
+    ],
+    "enExample2": "The investigator formulated a plausible hypothesis attributing the latency spike to a scheduled database vacuum.",
+    "taExample2": "தாமத உயர்வுக்கு திட்டமிடப்பட்ட தரவுத்தள தூய்மைப்படுத்தலே காரணம் என ஆய்வாளர் ஒரு ஏற்றுக்கொள்ளக்கூடிய (Plausible) கருதுகோளை வகுத்தார்."
   },
   {
     "id": 2897,
@@ -768,7 +1013,9 @@
     "antonyms": [
       "Dictatorial decree",
       "Autocratic ruling"
-    ]
+    ],
+    "enExample2": "The open-source steering committee held an informal plebiscite to determine the community's preferred license change.",
+    "taExample2": "திறந்த மூல வழிகாட்டுக் குழு சமூகத்தின் விருப்பமான உரிம மாற்றத்தைத் தீர்மானிக்க ஒரு பொது வாக்கெடுப்பை (Plebiscite) நடத்தியது."
   },
   {
     "id": 20,
@@ -785,7 +1032,9 @@
     "antonyms": [
       "Scarcity",
       "Lack"
-    ]
+    ],
+    "enExample2": "The cloud platform offers a plethora of managed observability, storage, and networking services.",
+    "taExample2": "கிளவுட் தளம் ஏராளமான (Plethora) மேலாண்மை கண்காணிப்பு, சேமிப்பகம் மற்றும் நெட்வொர்க் சேவைகளை வழங்குகிறது."
   },
   {
     "id": 2898,
@@ -806,7 +1055,9 @@
       "Comfort",
       "Fortune",
       "Well-being"
-    ]
+    ],
+    "enExample2": "The community sympathized with the plight of the solo open-source maintainer dealing with hundreds of urgent issues.",
+    "taExample2": "நூற்றுக்கணக்கான அவசர சிக்கல்களை தனியாகக் கையாளும் திறந்த மூல பராமரிப்பாளரின் அவல நிலைக்கு (Plight) சமூகம் ஆதரவு தெரிவித்தது."
   },
   {
     "id": 2837,
@@ -827,7 +1078,9 @@
       "Soar",
       "Surge",
       "Ascend"
-    ]
+    ],
+    "enExample2": "Server response latency began to plummet immediately after enabling the Redis edge caching layer.",
+    "taExample2": "Redis விளிம்புநிலை தற்காலிக சேமிப்பை இயக்கியவுடன் சேவையக மறுமொழி தாமதம் உடனடியாகக் குறையத் (Plummet) தொடங்கியது."
   },
   {
     "id": 2810,
@@ -845,6 +1098,29 @@
     "antonyms": [
       "Valid payload",
       "Sanitized record"
+    ],
+    "enExample2": "A malformed message payload acted like a poison pill, repeatedly crashing every queue consumer that picked it up.",
+    "taExample2": "ஒரு தவறான செய்தி வடிவம் நச்சு மாத்திரையாக (Poison Pill) செயல்பட்டு அதை எடுத்த ஒவ்வொரு நுகர்வோரையும் தொடர்ச்சியாக செயலிழக்கச் செய்தது."
+  },
+  {
+    "id": 3236,
+    "word": "Polarization",
+    "pos": "Noun",
+    "definition": "The division of a group, team, or political electorate into sharply opposing extremes.",
+    "taWord": "முரண்பாடு/துருவமயமாதல் (Muranpaadu/thuruvamayamaathaal)",
+    "enExample": "The debate over microservices versus monolithic architecture caused temporary polarization in the team.",
+    "taExample": "நுண் சேவைகள் மற்றும் ஒற்றைக்கல் கட்டிடக்கலை பற்றிய விவாதம் குழுவில் தற்காலிக துருவமயமாதலை ஏற்படுத்தியது.",
+    "enExample2": "Social media algorithms can inadvertently increase political polarization by reinforcing echo chambers.",
+    "taExample2": "சமூக ஊடக அல்காரிதம்கள் எதிரொலி அறைகளை வலுப்படுத்துவதன் மூலம் தற்செயலாக அரசியல் துருவமயமாதலை அதிகரிக்கக்கூடும்.",
+    "synonyms": [
+      "division",
+      "estrangement",
+      "fractionalization"
+    ],
+    "antonyms": [
+      "unification",
+      "harmony",
+      "consensus"
     ]
   },
   {
@@ -866,7 +1142,9 @@
       "Reconcile",
       "Harmonize",
       "Bridge"
-    ]
+    ],
+    "enExample2": "Debates over static versus dynamic typing continue to polarize opinions across the software development community.",
+    "taExample2": "வகைப்படுத்தப்பட்ட மற்றும் டைனமிக் நிரலாக்க முறைகள் குறித்த விவாதங்கள் மென்பொருள் சமூகத்தில் தொடர்ந்து கருத்துக்களைப் பிரிக்கின்றன (Polarize)."
   },
   {
     "id": 3128,
@@ -888,7 +1166,9 @@
       "Agreeable",
       "Noncontroversial",
       "Peaceable"
-    ]
+    ],
+    "enExample2": "The author published a polemical blog post passionately attacking the complexity of modern web frameworks.",
+    "taExample2": "நவீன இணைய கட்டமைப்புகளின் சிக்கலை தீவிரமாகத் தாக்கும் ஒரு காரசாரமான விவாத (Polemical) வலைப்பதிவை ஆசிரியர் வெளியிட்டார்."
   },
   {
     "id": 27,
@@ -905,7 +1185,9 @@
     "antonyms": [
       "Rigidity",
       "Uniformity"
-    ]
+    ],
+    "enExample2": "Object-oriented polymorphism allows different geometric shape classes to implement a common draw method.",
+    "taExample2": "பொருள் சார்ந்த பன்முகத்தன்மை (Polymorphism) வெவ்வேறு வடிவ வகுப்புகள் ஒரு பொதுவான வரைதல் முறையை செயல்படுத்த அனுமதிக்கிறது."
   },
   {
     "id": 47,
@@ -922,7 +1204,9 @@
     "antonyms": [
       "Ignore",
       "Dismiss"
-    ]
+    ],
+    "enExample2": "Architects took several days to ponder the trade-offs before deciding between monolithic and microservice paradigms.",
+    "taExample2": "ஒற்றை அல்லது நுண்சேவை கட்டமைப்பைத் தேர்ந்தெடுப்பதற்கு முன் சாதக பாதகங்களை ஆழமாக சிந்திக்க (Ponder) வடிவமைப்பாளர்கள் பல நாட்கள் எடுத்துக்கொண்டனர்."
   },
   {
     "id": 2811,
@@ -940,6 +1224,28 @@
     "antonyms": [
       "Blame game",
       "Ignored incident"
+    ],
+    "enExample2": "The team conducted a blameless post-mortem to analyze the root cause of yesterday's payment outage.",
+    "taExample2": "நேற்றைய கட்டண சேவை முடக்கத்தின் மூல காரணத்தை ஆய்வு செய்ய குழு குற்றஞ்சாட்டாத ஒரு சம்பவ ஆய்வை (Post-Mortem) நடத்தியது."
+  },
+  {
+    "id": 3209,
+    "word": "Postmortem",
+    "pos": "Noun",
+    "definition": "A detailed blameless analysis conducted after a production incident to identify failures and prevent recurrences.",
+    "taWord": "சம்பவப் பகுப்பாய்வு (Sambava pagupaayvu)",
+    "enExample": "Publishing a transparent postmortem built trust with customers after the cloud database downtime.",
+    "taExample": "கிளவுட் தரவுத்தள வேலையில்லா நேரத்திற்குப் பிறகு வெளிப்படையான சம்பவப் பகுப்பாய்வை வெளியிடுவது வாடிக்கையாளர்களிடையே நம்பிக்கையை உருவாக்கியது.",
+    "enExample2": "Every Sev-1 incident requires an action-oriented postmortem document.",
+    "taExample2": "ஒவ்வொரு Sev-1 சம்பவத்திற்கும் செயல் சார்ந்த சம்பவப் பகுப்பாய்வு ஆவணம் தேவைப்படுகிறது.",
+    "synonyms": [
+      "retrospective",
+      "incident report",
+      "root cause analysis"
+    ],
+    "antonyms": [
+      "pre-mortem",
+      "speculation"
     ]
   },
   {
@@ -962,7 +1268,9 @@
       "Refute",
       "Deny",
       "Reject"
-    ]
+    ],
+    "enExample2": "Security researchers postulate that the unauthorized data exfiltration began via an unpatched third-party dependency.",
+    "taExample2": "சரிசெய்யப்படாத மூன்றாம் தரப்பு நூலகம் மூலமாகவே அங்கீகரிக்கப்படாத தரவு திருட்டு தொடங்கியது என்று பாதுகாப்பு ஆய்வாளர்கள் கருதுகின்றனர் (Postulate)."
   },
   {
     "id": 43,
@@ -979,7 +1287,9 @@
     "antonyms": [
       "Weak",
       "Ineffective"
-    ]
+    ],
+    "enExample2": "Combining server-side rendering with edge caching provides a potent recipe for lightning-fast web performance.",
+    "taExample2": "சர்வர் பக்க காட்சிப்படுத்தலுடன் எட்ஜ் தற்காலிக சேமிப்பை இணைப்பது மின்னல் வேக இணைய செயல்திறனுக்கான ஒரு சக்திவாய்ந்த (Potent) வழியாகும்."
   },
   {
     "id": 1,
@@ -996,7 +1306,9 @@
     "antonyms": [
       "Theoretical",
       "Idealistic"
-    ]
+    ],
+    "enExample2": "A pragmatic engineer chooses battle-tested technology over trendy tools that add unnecessary maintenance overhead.",
+    "taExample2": "ஒரு நடைமுறை சார்ந்த (Pragmatic) பொறியாளர் தேவையற்ற பராமரிப்பு சுமையை சேர்க்கும் புதிய கருவிகளை விட நிரூபிக்கப்பட்ட தொழில்நுட்பத்தையே தேர்ந்தெடுப்பார்."
   },
   {
     "id": 3053,
@@ -1016,7 +1328,9 @@
       "Idealism",
       "Impracticality",
       "Theoreticalism"
-    ]
+    ],
+    "enExample2": "Engineering pragmatism dictates shipping a working prototype today rather than chasing unattainable theoretical perfection.",
+    "taExample2": "பொறியியல் நடைமுறைவாதம் (Pragmatism) அடைய முடியாத முழுமையை நோக்கி நகர்வதை விட இன்று செயல்படும் முன்மாதிரியை வெளியிடுவதையே வலியுறுத்துகிறது."
   },
   {
     "id": 4,
@@ -1035,6 +1349,29 @@
       "First occurrence",
       "Novelty",
       "Exception"
+    ],
+    "enExample2": "Establishing an automated code review bot set a helpful precedent for other teams across the company.",
+    "taExample2": "தானியங்கி மறுஆய்வு போட்டை நிறுவியது நிறுவனத்தின் பிற குழுக்களுக்கு ஒரு சிறந்த முன்னுதாரணத்தை (Precedent) அமைத்தது."
+  },
+  {
+    "id": 3377,
+    "word": "precept",
+    "pos": "noun",
+    "definition": "A general rule or commandment intended to regulate behavior or thought.",
+    "taWord": "கட்டளை (நீதி விதி)",
+    "enExample": "The architectural precept 'separation of concerns' remains fundamental to modular software design.",
+    "taExample": "'பொறுப்புகளைப் பிரித்தல்' என்ற வடிவமைப்பு விதி நவீன மென்பொருள் உருவாக்கத்திற்கு அடிப்படையாக விளங்குகிறது.",
+    "enExample2": "Biblical proverbs provide practical precepts for living a life of wisdom and integrity.",
+    "taExample2": "ஞானமும் நேர்மையும் நிறைந்த வாழ்க்கையை வாழ பைபிள் நீதிமொழிகள் நடைமுறை விதிகளை வழங்குகின்றன.",
+    "synonyms": [
+      "principle",
+      "rule",
+      "tenet",
+      "commandment"
+    ],
+    "antonyms": [
+      "lawlessness",
+      "disorder"
     ]
   },
   {
@@ -1057,7 +1394,9 @@
       "Delay",
       "Halt",
       "Block"
-    ]
+    ],
+    "enExample2": "An accidental force-push to the main branch can precipitate a major continuous deployment outage.",
+    "taExample2": "முதன்மைக் கிளையில் தவறுதலாக செய்யப்படும் கட்டாய மாற்றம் ஒரு பெரிய வெளியீட்டு முடக்கத்தை துரிதப்படுத்தக்கூடும் (Precipitate)."
   },
   {
     "id": 22,
@@ -1074,7 +1413,9 @@
     "antonyms": [
       "Include",
       "Permit"
-    ]
+    ],
+    "enExample2": "Strict firewall rules preclude external networks from making direct connections to production database instances.",
+    "taExample2": "கடுமையான ஃபயர்வால் விதிகள் வெளிப்புற நெட்வொர்க்குகள் தயாரிப்பு தரவுத்தளங்களை நேரடியாக அணுகுவதைத் தடுக்கின்றன (Preclude)."
   },
   {
     "id": 3129,
@@ -1096,7 +1437,9 @@
       "Slow",
       "Delayed",
       "Retarded"
-    ]
+    ],
+    "enExample2": "The precocious junior developer submitted a high-impact pull request optimizing the core sorting algorithm on day one.",
+    "taExample2": "அந்த திறமைமிக்க இளம் உருவாக்குநர் தனது முதல் நாளிலேயே வரிசைப்படுத்தும் வழிமுறையை உகந்ததாக்கும் உயர்தர குறியீட்டை சமர்ப்பித்தார்."
   },
   {
     "id": 2900,
@@ -1115,7 +1458,9 @@
       "Successor",
       "Descendant",
       "Follower"
-    ]
+    ],
+    "enExample2": "HTTP/3 delivers vastly superior connection resilience and throughput compared to its HTTP/2 predecessor.",
+    "taExample2": "HTTP/3 அதன் முந்தைய (Predecessor) HTTP/2 பதிப்போடு ஒப்பிடுகையில் மிகச் சிறந்த இணைப்பு உறுதித்தன்மையையும் வேகத்தையும் வழங்குகிறது."
   },
   {
     "id": 2834,
@@ -1136,7 +1481,9 @@
       "Favorable position",
       "Solution",
       "Ease"
-    ]
+    ],
+    "enExample2": "The team faced a serious predicament when their cloud provider suffered a catastrophic multi-zone power failure.",
+    "taExample2": "கிளவுட் நிறுவனம் பல மண்டல மின் தடையை சந்தித்த போது பொறியியல் குழு ஒரு கடுமையான இக்கட்டான நிலையை (Predicament) எதிர்கொண்டது."
   },
   {
     "id": 10,
@@ -1155,7 +1502,9 @@
       "Halt",
       "Cease",
       "Reverse"
-    ]
+    ],
+    "enExample2": "The SQL WHERE clause evaluates a boolean predicate to filter matching rows from the database table.",
+    "taExample2": "SQL WHERE பிரிவு தரவுத்தள அட்டவணையிலிருந்து பொருந்தும் வரிசைகளை வடிகட்ட ஒரு தருக்க நிபந்தனையை (Predicate) மதிப்பிடுகிறது."
   },
   {
     "id": 34,
@@ -1172,7 +1521,9 @@
     "antonyms": [
       "React",
       "Follow"
-    ]
+    ],
+    "enExample2": "The kernel scheduler can preempt a low-priority thread to allocate CPU cycles to critical real-time audio tasks.",
+    "taExample2": "முக்கிய நிகழ்நேர பணிகளுக்கு CPU நேரத்தை ஒதுக்க கர்னல் திட்டமிடுபவர் குறைந்த முன்னுரிமை நூலை முன்கூட்டியே நிறுத்த (Preempt) முடியும்."
   },
   {
     "id": 3003,
@@ -1193,7 +1544,9 @@
       "Minority",
       "Scarcity",
       "Inferiority"
-    ]
+    ],
+    "enExample2": "A vast preponderance of production traffic comes from mobile devices connected over cellular networks.",
+    "taExample2": "தயாரிப்பு நெட்வொர்க் போக்குவரத்தின் பெரும்பகுதி (Preponderance) மொபைல் சாதனங்கள் மூலமாகவே வருகிறது."
   },
   {
     "id": 14,
@@ -1210,7 +1563,9 @@
     "antonyms": [
       "Option",
       "Choice"
-    ]
+    ],
+    "enExample2": "Installing Docker is a mandatory prerequisite before running the local development orchestration environment.",
+    "taExample2": "உள்ளூர் உருவாக்க சூழலை இயக்குவதற்கு முன் டாக்கரை நிறுவுவது ஒரு கட்டாய முன்நிபந்தனையாகும் (Prerequisite)."
   },
   {
     "id": 31,
@@ -1227,7 +1582,9 @@
     "antonyms": [
       "Obligation",
       "Duty"
-    ]
+    ],
+    "enExample2": "The lead architect exercised her prerogative to veto an architectural proposal that compromised data security.",
+    "taExample2": "தரவுப் பாதுகாப்பில் சமரசம் செய்த ஒரு கட்டமைப்பு முன்மொழிவை நிராகரிக்க முதன்மை வடிவமைப்பாளர் தனது தனி உரிமையைப் (Prerogative) பயன்படுத்தினார்."
   },
   {
     "id": 3063,
@@ -1248,7 +1605,9 @@
       "Follow",
       "Occur subsequently",
       "Hide"
-    ]
+    ],
+    "enExample2": "A sudden rise in memory allocation often presages an impending out-of-memory crash in production.",
+    "taExample2": "நினைவக ஒதுக்கீட்டின் திடீர் உயர்வு பெரும்பாலும் வரவிருக்கும் நினைவக செயலிழப்பை முன்கூட்டியே உணர்த்துகிறது (Presage)."
   },
   {
     "id": 3130,
@@ -1270,7 +1629,9 @@
       "Shortsighted",
       "Unforeseeing",
       "Blind"
-    ]
+    ],
+    "enExample2": "Her prescient decision to invest early in TypeScript saved the team from countless runtime type errors years later.",
+    "taExample2": "TypeScript-ல் முதலீடு செய்ய அவர் எடுத்த தொலைநோக்கு (Prescient) முடிவு பல ஆண்டுகளுக்குப் பின் எண்ணற்ற பிழைகளிலிருந்து குழுவைக் காப்பாற்றியது."
   },
   {
     "id": 23,
@@ -1287,7 +1648,9 @@
     "antonyms": [
       "Humble",
       "Modest"
-    ]
+    ],
+    "enExample2": "It was presumptuous of the developer to merge database migration scripts without consulting the lead DBA.",
+    "taExample2": "முதன்மை தரவுத்தள நிர்வாகியைக் கலந்தாலோசிக்காமல் மாற்றங்களை இணைத்தது உருவாக்குநரின் வரம்பு மீறிய (Presumptuous) செயலாகும்."
   },
   {
     "id": 2967,
@@ -1309,7 +1672,9 @@
       "Disregard",
       "Prove",
       "Reject"
-    ]
+    ],
+    "enExample2": "Assuming instant network latency presupposes an idealized environment that never exists in distributed cloud networks.",
+    "taExample2": "பூஜ்ஜிய நெட்வொர்க் தாமதத்தைக் கருதுவது விநியோகிக்கப்பட்ட கிளவுட் வலையமைப்பில் இல்லாத ஒரு கற்பனை சூழலை முன்கூட்டியே கருதுவதாகும் (Presuppose)."
   },
   {
     "id": 2808,
@@ -1327,7 +1692,9 @@
     "antonyms": [
       "Superuser grant",
       "Unrestricted root access"
-    ]
+    ],
+    "enExample2": "Applying the Principle of Least Privilege ensures that service accounts only receive the bare minimum permissions needed to run.",
+    "taExample2": "குறைந்தபட்ச சலுகைக் கொள்கையை (Least Privilege) செயல்படுத்துவது சேவை கணக்குகள் தேவையான குறைந்தபட்ச அனுமதிகளை மட்டுமே பெறுவதை உறுதி செய்கிறது."
   },
   {
     "id": 24,
@@ -1344,7 +1711,9 @@
     "antonyms": [
       "Reactive",
       "Passive"
-    ]
+    ],
+    "enExample2": "Setting up real-time alerting enables proactive remediation before users notice any degradation in service.",
+    "taExample2": "நிகழ்நேர எச்சரிக்கைகளை அமைப்பது பயனர்கள் சேவை குறைபாட்டைக் கவனிப்பதற்கு முன்பே முன்னெச்சரிக்கையான (Proactive) தீர்வை செயல்படுத்துகிறது."
   },
   {
     "id": 3068,
@@ -1366,7 +1735,9 @@
       "Antipathy",
       "Disinclination",
       "Reluctance"
-    ]
+    ],
+    "enExample2": "He had a natural proclivity for systems programming, quickly mastering memory layouts and kernel system calls.",
+    "taExample2": "அவர் கணினி நிரலாக்கத்தில் ஒரு இயல்பான நாட்டத்தைக் (Proclivity) கொண்டிருந்தார், நினைவக அமைப்புகளை விரைவாகக் கற்றுக்கொண்டார்."
   },
   {
     "id": 49,
@@ -1383,7 +1754,9 @@
     "antonyms": [
       "Lose",
       "Forfeit"
-    ]
+    ],
+    "enExample2": "The infrastructure director approved a capital request to procure specialized GPU compute clusters for model training.",
+    "taExample2": "மாதிரிப் பயிற்சிக்கான பிரத்யேக GPU கணினி கிளஸ்டர்களைப் பெற (Procure) உட்கட்டமைப்பு இயக்குனர் ஒப்புதல் அளித்தார்."
   },
   {
     "id": 3131,
@@ -1405,7 +1778,9 @@
       "Insignificant",
       "Modest",
       "Meager"
-    ]
+    ],
+    "enExample2": "The distributed stream processing engine handled a prodigious volume of fifty million events per second.",
+    "taExample2": "விநியோகிக்கப்பட்ட ஸ்ட்ரீம் செயலாக்க இயந்திரம் வினாடிக்கு ஐம்பது மில்லியன் நிகழ்வுகள் என்ற பிரம்மாண்டமான (Prodigious) அளவைக் கையாண்டது."
   },
   {
     "id": 8,
@@ -1422,7 +1797,9 @@
     "antonyms": [
       "Incompetent",
       "Unskilled"
-    ]
+    ],
+    "enExample2": "She became highly proficient in container orchestration after completing advanced Kubernetes training.",
+    "taExample2": "மேம்பட்ட குபெர்னெட்டீஸ் பயிற்சியை முடித்த பிறகு அவர் கொள்கலன் நிர்வாகத்தில் மிகுந்த தேர்ச்சி பெற்றவராக (Proficient) மாறினார்."
   },
   {
     "id": 3132,
@@ -1444,7 +1821,9 @@
       "Thrifty",
       "Economical",
       "Parsimonious"
-    ]
+    ],
+    "enExample2": "Running unconstrained full table scans without indexes is a profligate waste of expensive cloud database CPU cycles.",
+    "taExample2": "குறியீடுகள் இல்லாமல் முழு அட்டவணை தேடல்களை இயக்குவது விலையுயர்ந்த கிளவுட் தரவுத்தள கணினி வளங்களின் வீணான விரயமாகும் (Profligate)."
   },
   {
     "id": 48,
@@ -1461,6 +1840,28 @@
     "antonyms": [
       "Sparse",
       "Lacking"
+    ],
+    "enExample2": "The vendor issued profuse apologies following a three-hour disruption that affected enterprise clients.",
+    "taExample2": "பெருநிறுவன வாடிக்கையாளர்களைப் பாதித்த மூன்று மணி நேர சேவை முடக்கத்தைத் தொடர்ந்து நிறுவனம் தாராளமான (Profuse) மன்னிப்புக் கோரியது."
+  },
+  {
+    "id": 3244,
+    "word": "Prognosis",
+    "pos": "Noun",
+    "definition": "A forecast or prediction regarding the outcome of an ongoing incident or software project.",
+    "taWord": "முன்கணிப்பு (Munkanippu)",
+    "enExample": "The DevOps lead gave a positive prognosis, predicting full database recovery within thirty minutes.",
+    "taExample": "DevOps தலைவர் நேர்மறையான முன்கணிப்பை வழங்கினார், முப்பது நிமிடங்களுக்குள் முழு தரவுத்தள மீட்சியையும் கணித்தார்.",
+    "enExample2": "An accurate project prognosis relies on velocity trends and sprint burn-down charts.",
+    "taExample2": "துல்லியமான திட்ட முன்கணிப்பு வேகம் மற்றும் ஸ்பிரின்ட் வரைபடங்களை நம்பியுள்ளது.",
+    "synonyms": [
+      "forecast",
+      "prediction",
+      "projection"
+    ],
+    "antonyms": [
+      "hindsight",
+      "retrospect"
     ]
   },
   {
@@ -1482,7 +1883,9 @@
       "Recount",
       "Remember",
       "Retrospect"
-    ]
+    ],
+    "enExample2": "Predictive machine learning models prognosticate future server load to trigger proactive autoscaling.",
+    "taExample2": "முன்கணிப்பு AI மாதிரிகள் எதிர்கால சர்வர் சுமையை முன்கூட்டியே கணித்து (Prognosticate) தானியங்கி விரிவாக்கத்தைத் தூண்டுகின்றன."
   },
   {
     "id": 18,
@@ -1499,7 +1902,9 @@
     "antonyms": [
       "Affordable",
       "Reasonable"
-    ]
+    ],
+    "enExample2": "The network egress bandwidth fees became cost-prohibitive when streaming uncompressed raw telemetry logs.",
+    "taExample2": "சுருக்கப்படாத பதிவுத் தகவல்களை அனுப்பும் போது நெட்வொர்க் கட்டணங்கள் ஏற்க முடியாத அளவிற்கு அதிகமாக (Prohibitive) மாறின."
   },
   {
     "id": 3,
@@ -1516,7 +1921,9 @@
     "antonyms": [
       "Decrease",
       "Shrink"
-    ]
+    ],
+    "enExample2": "Without strict architecture governance, undocumented internal microservices will proliferate uncontrollably.",
+    "taExample2": "முறையான கட்டமைப்பு நிர்வாகம் இல்லாவிட்டால் ஆவணப்படுத்தப்படாத உள்நாட்டு நுண்சேவைகள் கட்டுப்பாடின்றி பெருகிவிடும் (Proliferate)."
   },
   {
     "id": 2901,
@@ -1537,7 +1944,9 @@
       "Curtailment",
       "Containment",
       "Stagnation"
-    ]
+    ],
+    "enExample2": "The rapid proliferation of mobile and IoT devices increased the demand for edge compute processing nodes.",
+    "taExample2": "மொபைல் மற்றும் IoT சாதனங்களின் விரைவான பெருக்கம் (Proliferation) விளிம்புநிலை கணினி முனையங்களுக்கான தேவையை அதிகரித்தது."
   },
   {
     "id": 53,
@@ -1555,7 +1964,9 @@
     "antonyms": [
       "Barren",
       "Unproductive"
-    ]
+    ],
+    "enExample2": "He was a prolific open-source contributor, creating over twenty widely downloaded npm utility packages.",
+    "taExample2": "அவர் இருபதுக்கும் மேற்பட்ட பிரபலமான npm தொகுப்புகளை உருவாக்கிய ஒரு தீவிரமான உற்பத்தித் திறன் கொண்ட (Prolific) திறந்த மூலப் பங்களிப்பாளர் ஆவார்."
   },
   {
     "id": 3015,
@@ -1576,7 +1987,9 @@
       "Inconspicuous",
       "Obscure",
       "Hidden"
-    ]
+    ],
+    "enExample2": "A prominent banner alerted website visitors about the scheduled overnight database maintenance window.",
+    "taExample2": "திட்டமிடப்பட்ட இரவு நேர தரவுத்தள பராமரிப்பு குறித்து ஒரு முக்கியமான (Prominent) பேனர் வலைத்தள பார்வையாளர்களை எச்சரித்தது."
   },
   {
     "id": 2807,
@@ -1593,7 +2006,9 @@
     "antonyms": [
       "Grounded prompt safety",
       "Strict input isolation"
-    ]
+    ],
+    "enExample2": "Sanitizing user inputs with strict delimiters protects conversational AI systems against prompt injection attacks.",
+    "taExample2": "கடுமையான பிரிப்பான்களுடன் பயனர் உள்ளீடுகளைச் சரிபார்ப்பது உரையாடல் AI அமைப்புகளை ப்ராம்ப்ட் ஊடுருவல் (Prompt Injection) தாக்குதல்களிலிருந்து பாதுகாக்கிறது."
   },
   {
     "id": 2983,
@@ -1615,7 +2030,9 @@
       "Conceal",
       "Withhold",
       "Repress"
-    ]
+    ],
+    "enExample2": "The engineering council met to promulgate new standardized secure coding guidelines across all teams.",
+    "taExample2": "அனைத்து குழுக்களுக்கும் புதிய தரப்படுத்தப்பட்ட பாதுகாப்பான குறியீட்டு வழிகாட்டுதல்களை அதிகாரப்பூர்வமாக அறிவிக்க (Promulgate) பொறியியல் குழு கூடியது."
   },
   {
     "id": 15,
@@ -1632,7 +2049,9 @@
     "antonyms": [
       "Halt",
       "Contain"
-    ]
+    ],
+    "enExample2": "DNS record updates can take up to twenty-four hours to propagate across all global domain name servers.",
+    "taExample2": "DNS பதிவு மாற்றங்கள் அனைத்து உலகளாவிய சர்வர்களிலும் முழுமையாக பரவுவதற்கு (Propagate) இருபத்து நான்கு மணி நேரம் வரை ஆகலாம்."
   },
   {
     "id": 3055,
@@ -1653,6 +2072,50 @@
       "Inaptitude",
       "Disinclination",
       "Aversion"
+    ],
+    "enExample2": "Unindexed wildcard search queries have a strong propensity to cause CPU saturation on production databases.",
+    "taExample2": "குறியிடப்படாத தேடல் வினவல்கள் தயாரிப்பு தரவுத்தளங்களில் CPU சுமையை முழுமையாக அதிகரிக்கும் தீவிர போக்கைக் (Propensity) கொண்டுள்ளன."
+  },
+  {
+    "id": 3325,
+    "word": "Proper",
+    "pos": "Adjective",
+    "definition": "UK spoken usage meaning thorough, genuine, strictly legitimate, or fully compliant.",
+    "taWord": "சரியான/முறையான (Sariyaana/muraiyaana)",
+    "enExample": "Make sure you write proper integration tests rather than relying only on quick manual checks.",
+    "taExample": "விரைவான கையேடு சோதனைகளை மட்டுமே நம்பியிருக்காமல் முறையான ஒருங்கிணைப்புச் சோதனைகளை எழுதுவதை உறுதிசெய்க.",
+    "enExample2": "The senior architect gave a proper code review that caught three critical edge cases.",
+    "taExample2": "மூத்த கட்டிடக் கலைஞர் மூன்று முக்கியமான விளிம்பு நிகழ்வுகளைக் பிடித்த ஒரு சரியான குறியீட்டு மதிப்பாய்வை வழங்கினார்.",
+    "synonyms": [
+      "genuine",
+      "thorough",
+      "legitimate",
+      "appropriate"
+    ],
+    "antonyms": [
+      "improper",
+      "flawed",
+      "half-baked"
+    ]
+  },
+  {
+    "id": 3281,
+    "word": "Propitiation",
+    "pos": "Noun",
+    "definition": "An act that appeases justice or satisfies righteous requirements, restoring fellowship.",
+    "taWord": "சாந்தப்படுத்துதல்/சமாதானப்பலி (Saanthappaduthuthal/samaathanappali)",
+    "enExample": "Theological study explains propitiation as satisfying divine justice to restore communion.",
+    "taExample": "இறையியல் படிப்பு சாந்தப்படுத்துதலை ஐக்கியத்தை மீட்டெடுப்பதற்காக தெய்வீக நீதியை திருப்திப்படுத்துவதாக விளக்குகிறது.",
+    "enExample2": "True propitiation resolves deep moral conflict and brings lasting reconciliation.",
+    "taExample2": "உண்மையான சாந்தப்படுத்துதல் ஆழமான ஆன்மீக முரண்பாடுகளைத் தீர்த்து நீடித்த நல்லிணக்கத்தைக் கொண்டுவருகிறது.",
+    "synonyms": [
+      "appeasement",
+      "atonement",
+      "expiation"
+    ],
+    "antonyms": [
+      "provocation",
+      "offense"
     ]
   },
   {
@@ -1675,7 +2138,9 @@
       "Unfavorable",
       "Unpromising",
       "Adverse"
-    ]
+    ],
+    "enExample2": "Completing the multi-region failover upgrade presented a propitious moment to launch our global expansion campaign.",
+    "taExample2": "பல பிராந்திய மீட்பு மேம்பாட்டை முடித்தது எங்கள் உலகளாவிய விரிவாக்கத்தைத் தொடங்க ஒரு சாதகமான தருணமாக (Propitious) அமைந்தது."
   },
   {
     "id": 29,
@@ -1692,7 +2157,9 @@
     "antonyms": [
       "Opponent",
       "Critic"
-    ]
+    ],
+    "enExample2": "She was a vocal proponent of test-driven development, encouraging squads to write unit tests before implementation.",
+    "taExample2": "செயல்படுத்துவதற்கு முன் சோதனைகளை எழுதுவதை ஊக்குவிக்கும் சோதனை சார்ந்த உருவாக்கத்தின் தீவிர ஆதரவாளராக (Proponent) அவர் இருந்தார்."
   },
   {
     "id": 50,
@@ -1709,7 +2176,9 @@
     "antonyms": [
       "Open-source",
       "Public"
-    ]
+    ],
+    "enExample2": "The company developed a proprietary compression format that outperformed standard gzip by thirty percent.",
+    "taExample2": "நிறுவனம் நிலையான gzip-ஐ விட முப்பது சதவீதம் சிறப்பாக செயல்படும் ஒரு தனியுரிம (Proprietary) சுருக்குதல் வடிவத்தை உருவாக்கியது."
   },
   {
     "id": 3173,
@@ -1730,7 +2199,9 @@
       "Allowance",
       "Endorsement",
       "Sanction"
-    ]
+    ],
+    "enExample2": "The security policy includes an absolute proscription against hardcoding credentials in public Git repositories.",
+    "taExample2": "பொது Git களஞ்சியங்களில் கடவுச்சொற்களை நேரடியாக எழுதுவதற்கு எதிரான கடுமையான தடையை (Proscription) பாதுகாப்புக் கொள்கை கொண்டுள்ளது."
   },
   {
     "id": 45,
@@ -1747,6 +2218,29 @@
     "antonyms": [
       "Current",
       "Past"
+    ],
+    "enExample2": "The engineering recruiter sent customized technical challenges to prospective senior systems architect candidates.",
+    "taExample2": "வருங்கால (Prospective) மூத்த கணினி வடிவமைப்பாளர் தேர்வாளர்களுக்கு தொழில்நுட்ப ஆட்சேர்ப்பாளர் சவால்களை அனுப்பினார்."
+  },
+  {
+    "id": 3237,
+    "word": "Protocol",
+    "pos": "Noun",
+    "definition": "A standardized set of rules governing data transmission, network behavior, or official etiquette.",
+    "taWord": "நெறிமுறை (Nerimurai)",
+    "enExample": "HTTPS is the secure protocol used for encrypted web communications across the internet.",
+    "taExample": "HTTPS என்பது இணையம் முழுவதும் மறைகுறியாக்கப்பட்ட வலைத் தொடர்புகளுக்குப் பயன்படுத்தப்படும் பாதுகாப்பான நெறிமுறையாகும்.",
+    "enExample2": "Following emergency escalation protocol ensures rapid incident response during downtime.",
+    "taExample2": "அவசரகால தீவிரமடைதல் நெறிமுறையைப் பின்பற்றுவது வேலையில்லா நேரத்தின் போது விரைவான சம்பவப் பதிலளிப்பை உறுதி செய்கிறது.",
+    "synonyms": [
+      "standard",
+      "convention",
+      "procedure",
+      "rule"
+    ],
+    "antonyms": [
+      "improvisation",
+      "disorder"
     ]
   },
   {
@@ -1764,6 +2258,28 @@
     "antonyms": [
       "Brief",
       "Short"
+    ],
+    "enExample2": "A protracted legal dispute over software patent licensing was finally settled outside of court.",
+    "taExample2": "மென்பொருள் காப்புரிமை உரிமம் தொடர்பான நீண்டகால (Protracted) சட்டத் தகராறு இறுதியாக நீதிமன்றத்திற்கு வெளியே தீர்க்கப்பட்டது."
+  },
+  {
+    "id": 3263,
+    "word": "Providence",
+    "pos": "Noun",
+    "definition": "Protective divine care, guidance, and timely foresight shaping human affairs for good.",
+    "taWord": "தெய்வீக பராமரிப்பு (Dheiveega paraamarippu)",
+    "enExample": "We felt divine providence guiding our project decisions when an unexpected solution emerged.",
+    "taExample": "ஒரு எதிர்பாராத தீர்வு உருவானபோது தெய்வீக பராமரிப்பு எங்கள் திட்ட முடிவுகளை வழிநடத்துவதை நாங்கள் உணர்ந்தோம்.",
+    "enExample2": "Trusting in providence brings peace during times of professional uncertainty.",
+    "taExample2": "தெய்வீக பராமரிப்பை நம்புவது தொழில்முறை நிச்சயமற்ற காலங்களில் அமைதியைத் தருகிறது.",
+    "synonyms": [
+      "divine care",
+      "foresight",
+      "guidance"
+    ],
+    "antonyms": [
+      "misfortune",
+      "blind chance"
     ]
   },
   {
@@ -1781,7 +2297,9 @@
     "antonyms": [
       "Remove",
       "Deprive"
-    ]
+    ],
+    "enExample2": "Terraform scripts automate the ability to provision virtual machines, storage buckets, and firewall rules in minutes.",
+    "taExample2": "டெராஃபார்ம் ஸ்கிரிப்ட்கள் மெய்நிகர் கணினிகள் மற்றும் சேமிப்பகங்களை சில நிமிடங்களில் தானாக கட்டமைக்க (Provision) உதவுகின்றன."
   },
   {
     "id": 39,
@@ -1798,7 +2316,9 @@
     "antonyms": [
       "Permanent",
       "Final"
-    ]
+    ],
+    "enExample2": "The committee granted provisional approval for the new architecture pending the completion of security penetration testing.",
+    "taExample2": "பாதுகாப்பு ஊடுருவல் சோதனை முடியும் வரை புதிய கட்டமைப்புக்கு குழு தற்காலிக (Provisional) ஒப்புதலை வழங்கியது."
   },
   {
     "id": 38,
@@ -1815,7 +2335,9 @@
     "antonyms": [
       "Dull",
       "Boring"
-    ]
+    ],
+    "enExample2": "The keynote speaker delivered a provocative talk challenging the software industry's obsession with microservices.",
+    "taExample2": "முதன்மை பேச்சாளர் நுண்சேவைகள் மீதான மென்பொருள் துறையின் மோகத்தை சவால் செய்யும் சிந்தனையைத் தூண்டும் (Provocative) உரையை ஆற்றினார்."
   },
   {
     "id": 7,
@@ -1832,7 +2354,9 @@
     "antonyms": [
       "Reckless",
       "Careless"
-    ]
+    ],
+    "enExample2": "It is always prudent to back up production databases before executing large-scale batch data migrations.",
+    "taExample2": "பெரிய அளவிலான தரவு மாற்றங்களைச் செய்வதற்கு முன் தயாரிப்பு தரவுத்தளங்களை காப்புப் பிரதி எடுப்பது எப்போதும் விவேகமான (Prudent) செயலாகும்."
   },
   {
     "id": 3134,
@@ -1854,7 +2378,9 @@
       "Adult",
       "Sensible",
       "Sophisticated"
-    ]
+    ],
+    "enExample2": "Leaving puerile jokes inside production error log strings undermines the professionalism of the engineering team.",
+    "taExample2": "உற்பத்தி பிழைப் பதிவுகளில் முதிர்ச்சியற்ற (Puerile) நகைச்சுவைகளை விடுவது பொறியியல் குழுவின் தொழில்முறை நற்பெயரைக் குறைக்கிறது."
   },
   {
     "id": 3135,
@@ -1876,7 +2402,9 @@
       "Friendly",
       "Conciliatory",
       "Gentle"
-    ]
+    ],
+    "enExample2": "The lead developer adopted a pugnacious stance during the architecture debate, aggressively rejecting all alternatives.",
+    "taExample2": "கட்டமைப்பு விவாதத்தின் போது முதன்மை உருவாக்குநர் அனைத்து மாற்றுகளையும் ஆக்ரோஷமாக நிராகரித்து சண்டை மனப்பான்மையுடன் (Pugnacious) இருந்தார்."
   },
   {
     "id": 37,
@@ -1893,6 +2421,30 @@
     "antonyms": [
       "Careless",
       "Sloppy"
+    ],
+    "enExample2": "His punctilious attention to API schema formatting ensured complete compatibility with legacy clients.",
+    "taExample2": "API தரவு வடிவமைப்பில் அவரது அதீத துல்லியமான கவனம் (Punctilious) பழைய பயன்பாடுகளுடன் முழுமையான இணக்கத்தை உறுதி செய்தது."
+  },
+  {
+    "id": 3227,
+    "word": "Pundit",
+    "pos": "Noun",
+    "definition": "An expert or commentator frequently called upon on television news to offer opinions on policy or technology.",
+    "taWord": "கருத்தாளர்/வல்லுநர் (Karutthaalar/vallunar)",
+    "enExample": "Tech pundits on news channels debated the economic impact of artificial intelligence on software jobs.",
+    "taExample": "செய்தித் தொலைக்காட்சிகளில் உள்ள தொழில்நுட்பக் கருத்தாளர்கள் மென்பொருள் வேலைகளில் செயற்கை நுண்ணறிவின் பொருளாதாரத் தாக்கம் குறித்து விவாதித்தனர்.",
+    "enExample2": "Political pundits analyzed voting patterns live during the national election broadcast.",
+    "taExample2": "அரசியல் கருத்தாளர்கள் தேசிய தேர்தல் ஒளிபரப்பின் போது நேரலையில் வாக்குப்பதிவு முறைகளை பகுப்பாய்வு செய்தனர்.",
+    "synonyms": [
+      "analyst",
+      "commentator",
+      "expert",
+      "critic"
+    ],
+    "antonyms": [
+      "novice",
+      "layperson",
+      "amateur"
     ]
   },
   {
@@ -1912,6 +2464,8 @@
       "Exclusion",
       "Outside scope",
       "Irrelevance"
-    ]
+    ],
+    "enExample2": "Infrastructure network routing falls strictly under the operational purview of the site reliability engineering team.",
+    "taExample2": "உட்கட்டமைப்பு நெட்வொர்க் வழியமைத்தல் முற்றிலும் தள நம்பகத்தன்மை பொறியியல் குழுவின் செயல்பாட்டு எல்லைக்குள் (Purview) வருகிறது."
   }
 ]

@@ -13,7 +13,9 @@
     ],
     "antonyms": [
       "Monolith"
-    ]
+    ],
+    "enExample2": "Deploying a Jamstack architecture allows pre-rendered static HTML to be served instantly from global CDN edges.",
+    "taExample2": "Jamstack கட்டமைப்பைப் பயன்படுத்துவது முன்கூட்டியே உருவாக்கப்பட்ட HTML பக்கங்களை CDN விளிம்புகளிலிருந்து உடனடியாக வழங்க அனுமதிக்கிறது."
   },
   {
     "id": 2722,
@@ -32,7 +34,9 @@
       "fluidity",
       "60fps smoothness",
       "butter-smooth"
-    ]
+    ],
+    "enExample2": "Offloading heavy computations to Web Workers eliminated frame jank during interactive chart scrolling.",
+    "taExample2": "கடினமான கணக்கீடுகளை Web Workers-க்கு மாற்றியது வரைபட உருட்டலின் போது ஏற்பட்ட திரை தடுமாற்றத்தை (Jank) நீக்கியது."
   },
   {
     "id": 1012,
@@ -48,7 +52,9 @@
     ],
     "antonyms": [
       "Plain language"
-    ]
+    ],
+    "enExample2": "The developer advocate avoided confusing technical jargon when presenting product capabilities to non-technical users.",
+    "taExample2": "தொழில்நுட்பம் சாராத பயனர்களுக்கு தயாரிப்பை விளக்கும் போது தொழில்நுட்ப பிரதிநிதி கடினமான சொற்களைத் தவிர்த்தார்."
   },
   {
     "id": 1002,
@@ -67,7 +73,9 @@
       "CSS",
       "Markup language",
       "Assembly"
-    ]
+    ],
+    "enExample2": "Modern JavaScript engines use Just-In-Time compilation to execute browser scripts at near-native speeds.",
+    "taExample2": "நவீன ஜாவாஸ்கிரிப்ட் என்ஜின்கள் உலாவி ஸ்கிரிப்ட்களை மிக அதிவேகத்தில் இயக்க JIT தொகுப்பைப் பயன்படுத்துகின்றன."
   },
   {
     "id": 1020,
@@ -84,7 +92,9 @@
     "antonyms": [
       "Protect",
       "Safeguard"
-    ]
+    ],
+    "enExample2": "Deploying untested schema migrations directly to production could jeopardize live customer account data.",
+    "taExample2": "சோதிக்கப்படாத தரவுத்தள மாற்றங்களை நேரடியாக வெளியிடுவது வாடிக்கையாளர் தரவைப் பாதிப்பிற்குள்ளாக்கக்கூடும் (Jeopardize)."
   },
   {
     "id": 2878,
@@ -105,7 +115,9 @@
       "Security",
       "Protection",
       "Sanctuary"
-    ]
+    ],
+    "enExample2": "A failure of both primary and backup storage arrays put the company's continuous operations in severe jeopardy.",
+    "taExample2": "முதன்மை மற்றும் மாற்று சேமிப்பகங்களின் ஒரே நேர செயலிழப்பு நிறுவனத்தின் தொடர்ச்சியான செயல்பாடுகளை பெரும் ஆபத்தில் ஆழ்த்தியது."
   },
   {
     "id": 2719,
@@ -123,7 +135,9 @@
     "antonyms": [
       "AOT compilation",
       "static interpretation"
-    ]
+    ],
+    "enExample2": "JIT compilation optimizes hot bytecode execution paths dynamically during program runtime.",
+    "taExample2": "JIT தொகுப்பு நிரல் இயங்கும் போது அடிக்கடி பயன்படுத்தப்படும் குறியீட்டு பாதைகளை தானாகவே விரைவுபடுத்துகிறது."
   },
   {
     "id": 2717,
@@ -142,7 +156,9 @@
       "consistency",
       "uniformity",
       "clock stability"
-    ]
+    ],
+    "enExample2": "Adding random jitter to retry intervals prevents thousands of dropped clients from hammering the server at the same second.",
+    "taExample2": "மறுமுயற்சி இடைவெளிகளில் சீரற்ற மாறுபாட்டை (Jitter) சேர்ப்பது அனைத்து வாடிக்கையாளர்களும் ஒரே நொடியில் சர்வரை தாக்குவதைத் தடுக்கிறது."
   },
   {
     "id": 1003,
@@ -162,7 +178,9 @@
       "Leisure",
       "Inactivity",
       "Unemployment"
-    ]
+    ],
+    "enExample2": "The background batch job processes video transcode queues during off-peak overnight hours.",
+    "taExample2": "பின்னணி தொகுதிப் பணி (Job) இரவு நேரங்களில் வீடியோ மாற்ற வரிசைகளைச் செயலாக்குகிறது."
   },
   {
     "id": 2721,
@@ -180,7 +198,9 @@
     "antonyms": [
       "manual executor",
       "interactive thread"
-    ]
+    ],
+    "enExample2": "The distributed job scheduler orchestrates recurring maintenance tasks across hundreds of worker nodes.",
+    "taExample2": "விநியோகிக்கப்பட்ட பணி திட்டமிடுபவர் (Job Scheduler) நூற்றுக்கணக்கான சர்வர்களில் தொடர் பராமரிப்புப் பணிகளை ஒருங்கிணைக்கிறார்."
   },
   {
     "id": 1014,
@@ -197,7 +217,9 @@
     "antonyms": [
       "Serious",
       "Earnest"
-    ]
+    ],
+    "enExample2": "His jocular demeanor during team retrospectives helped alleviate tension after a challenging sprint.",
+    "taExample2": "குழு ஆய்வுக் கூட்டங்களின் போது அவரது நகைச்சுவையான அணுகுமுறை கடினமான பணிக்குப் பின் பதற்றத்தைத் தணிக்க உதவியது."
   },
   {
     "id": 1004,
@@ -215,7 +237,9 @@
     "antonyms": [
       "Split",
       "Separate"
-    ]
+    ],
+    "enExample2": "An unindexed SQL join across three large tables severely degraded database query response times.",
+    "taExample2": "குறியிடப்படாத மூன்று பெரிய அட்டவணைகளின் SQL இணைப்பு தரவுத்தள பதில் நேரத்தை கடுமையாகக் குறைத்தது."
   },
   {
     "id": 1019,
@@ -232,7 +256,9 @@
     "antonyms": [
       "Sole",
       "Individual"
-    ]
+    ],
+    "enExample2": "The product and engineering teams authored a joint RFC proposing the new GraphQL schema migration.",
+    "taExample2": "தயாரிப்பு மற்றும் பொறியியல் குழுக்கள் இணைந்து புதிய GraphQL கட்டமைப்பு மாற்றத்திற்கான கூட்டு ஆவணத்தைத் தயாரித்தன."
   },
   {
     "id": 1021,
@@ -251,7 +277,9 @@
       "Gentle nudge",
       "Calm",
       "Stillness"
-    ]
+    ],
+    "enExample2": "The unexpected security breach gave the engineering organization a major jolt, accelerating their zero-trust roadmap.",
+    "taExample2": "எதிர்பாராத பாதுகாப்பு மீறல் பொறியியல் துறைக்கு ஒரு பெரிய அதிர்ச்சியை அளித்து பாதுகாப்பை விரைவுபடுத்தத் தூண்டியது."
   },
   {
     "id": 1005,
@@ -269,7 +297,9 @@
       "Unlogged execution",
       "Volatile memory write",
       "Silent operation"
-    ]
+    ],
+    "enExample2": "Database journaling guarantees data recovery by recording transaction intentions before writing to disk.",
+    "taExample2": "தரவுத்தள பதிவு முறை (Journaling) வட்டில் எழுதுவதற்கு முன் மாற்றங்களை முன்கூட்டியே பதிவு செய்து தரவு மீட்பை உறுதி செய்கிறது."
   },
   {
     "id": 1017,
@@ -288,7 +318,9 @@
       "Standstill",
       "Inaction",
       "Fixation"
-    ]
+    ],
+    "enExample2": "Mapping the end-to-end user checkout journey helped designers remove unnecessary friction points.",
+    "taExample2": "முழுமையான பயனர் செக்அவுட் பயணத்தை வரைபடமாக்கியது வடிவமைப்பாளர்கள் தேவையற்ற தடைகளை நீக்க உதவியது."
   },
   {
     "id": 1006,
@@ -306,7 +338,9 @@
       "Binary blob",
       "Unstructured text",
       "Raw byte stream"
-    ]
+    ],
+    "enExample2": "JSON is the ubiquitous data exchange format for modern web APIs and configuration files.",
+    "taExample2": "JSON என்பது நவீன இணைய API-கள் மற்றும் கட்டமைப்பு கோப்புகளுக்கான உலகளாவிய தரவு பரிமாற்ற வடிவமாகும்."
   },
   {
     "id": 2723,
@@ -324,7 +358,9 @@
     "antonyms": [
       "untyped payload",
       "schemaless blob"
-    ]
+    ],
+    "enExample2": "Validating incoming REST payloads against a strict JSON Schema catches malformed requests before processing.",
+    "taExample2": "கடுமையான JSON Schema-வுக்கு எதிராக உள்வரும் தரவைச் சரிபார்ப்பது தவறான கோரிக்கைகளை முன்கூட்டியே கண்டறிகிறது."
   },
   {
     "id": 1016,
@@ -341,7 +377,9 @@
     "antonyms": [
       "Despondent",
       "Miserable"
-    ]
+    ],
+    "enExample2": "The engineering department was jubilant after completing the complex multi-region migration without downtime.",
+    "taExample2": "பூஜ்ஜிய முடக்க நேரத்துடன் பல பிராந்திய மாற்றத்தை முடித்த பிறகு பொறியியல் துறை மிகுந்த மகிழ்ச்சியில் திளைத்தது."
   },
   {
     "id": 1022,
@@ -359,7 +397,9 @@
       "Inconsequential",
       "Opposite",
       "Irrelevant"
-    ]
+    ],
+    "enExample2": "The company complied with a judicial subpoena requesting encrypted access logs for the security investigation.",
+    "taExample2": "பாதுகாப்பு விசாரணைக்காக குறியாக்கப்பட்ட பதிவு கோப்புகளைக் கோரும் நீதிமன்ற உத்தரவுக்கு நிறுவனம் இணங்கியது."
   },
   {
     "id": 1015,
@@ -376,7 +416,9 @@
     "antonyms": [
       "Foolish",
       "Imprudent"
-    ]
+    ],
+    "enExample2": "A judicious choice of third-party dependencies keeps frontend bundle sizes minimal and maintainable.",
+    "taExample2": "மூன்றாம் தரப்பு நூலகங்களை விவேகத்துடன் தேர்ந்தெடுப்பது பயன்பாட்டின் கோப்பு அளவை குறைவாகவும் பராமரிக்க எளிதாகவும் வைக்கிறது."
   },
   {
     "id": 2720,
@@ -394,7 +436,9 @@
     "antonyms": [
       "public endpoint",
       "direct node"
-    ]
+    ],
+    "enExample2": "DevOps engineers connect through a hardened jump host with multi-factor authentication to access private databases.",
+    "taExample2": "பொறியாளர்கள் தனியார் தரவுத்தளங்களை அணுக இருபடி பாதுகாப்புடன் கூடிய இடைநிலை சர்வர் (Jump Host) வழியாக இணைகிறார்கள்."
   },
   {
     "id": 1011,
@@ -410,7 +454,9 @@
     ],
     "antonyms": [
       "Separation"
-    ]
+    ],
+    "enExample2": "In relational schemas, a junction table is used to model many-to-many relationships between entities.",
+    "taExample2": "ரிலேஷனல் கட்டமைப்புகளில் பலவற்றிற்கு பல உறவுகளை இணைக்க ஒரு இணைப்பு அட்டவணை (Junction Table) பயன்படுகிறது."
   },
   {
     "id": 1018,
@@ -429,7 +475,9 @@
       "Routine",
       "Status quo",
       "Unbroken phase"
-    ]
+    ],
+    "enExample2": "At this critical juncture in the project, stabilizing the core engine must take priority over new features.",
+    "taExample2": "திட்டத்தின் இந்த முக்கியமான தருணத்தில் முதன்மை இயந்திரத்தை நிலைநிறுத்துவது புதிய அம்சங்களை விட முதன்மையாக இருக்க வேண்டும்."
   },
   {
     "id": 1010,
@@ -447,7 +495,9 @@
     "antonyms": [
       "Clean data",
       "Valuable data"
-    ]
+    ],
+    "enExample2": "Automated cleanup scripts purge junk temporary build artifacts from the CI storage disks daily.",
+    "taExample2": "தானியங்கி தூய்மைப்படுத்தும் ஸ்கிரிப்ட்கள் தற்காலிக கழிவுக் கோப்புகளை தினசரி சேமிப்பகத்திலிருந்து அகற்றுகின்றன."
   },
   {
     "id": 2879,
@@ -465,6 +515,29 @@
     "antonyms": [
       "Democratically elected government",
       "Civilian rule"
+    ],
+    "enExample2": "The internet blackout imposed by the military junta disrupted international software outsourcing operations.",
+    "taExample2": "இராணுவ ஆட்சிக்குழு விதித்த இணைய முடக்கம் சர்வதேச மென்பொருள் பணிகளை கடுமையாகப் பாதித்தது."
+  },
+  {
+    "id": 3234,
+    "word": "Jurisdiction",
+    "pos": "Noun",
+    "definition": "The legal, geographical, or operational authority to make decisions and enforce rules.",
+    "taWord": "அதிகார வரம்பு (Athikaara varambu)",
+    "enExample": "Cloud data must be hosted within the proper legal jurisdiction to comply with European privacy laws.",
+    "taExample": "ஐரோப்பிய தனியுரிமைச் சட்டங்களுக்குக் கட்டுப்பட கிளவுட் தரவு சரியான சட்ட அதிகார வரம்பிற்குள் ஹோஸ்ட் செய்யப்பட வேண்டும்.",
+    "enExample2": "The security team's jurisdiction covers all production Kubernetes clusters.",
+    "taExample2": "பாதுகாப்புக் குழுவின் அதிகார வரம்பு அனைத்து தயாரிப்பு Kubernetes கிளஸ்டர்களையும் உள்ளடக்கியது.",
+    "synonyms": [
+      "authority",
+      "domain",
+      "realm",
+      "mandate"
+    ],
+    "antonyms": [
+      "powerlessness",
+      "extraterritoriality"
     ]
   },
   {
@@ -483,7 +556,9 @@
       "Inconsequential",
       "Opposite",
       "Irrelevant"
-    ]
+    ],
+    "enExample2": "Cross-border cloud data storage must strictly comply with local jurisdictional privacy regulations.",
+    "taExample2": "எல்லை தாண்டிய கிளவுட் தரவு சேமிப்பு உள்ளூர் அதிகார வரம்பு தனியுரிமை விதிமுறைகளுக்கு முழுமையாக இணங்க வேண்டும்."
   },
   {
     "id": 1007,
@@ -499,7 +574,9 @@
     ],
     "antonyms": [
       "Ahead-of-time (AOT)"
-    ]
+    ],
+    "enExample2": "Just-In-Time compilation dynamically translates interpreted bytecode into optimized native machine instructions.",
+    "taExample2": "நிகழ்நேரத் தொகுப்பு (JIT) நிரல் இயங்கும் போதே பைட்கோடை உகந்த இயந்திர வழிமுறைகளாக மொழிபெயர்க்கிறது."
   },
   {
     "id": 1008,
@@ -515,7 +592,9 @@
     ],
     "antonyms": [
       "Misalign"
-    ]
+    ],
+    "enExample2": "The lead developer provided benchmark performance data to justify migrating the service from Python to Go.",
+    "taExample2": "சேவையை பைத்தானிலிருந்து Go மொழிக்கு மாற்றுவதை நியாயப்படுத்த முதன்மை உருவாக்குநர் சோதனைத் தரவுகளை வழங்கினார்."
   },
   {
     "id": 1009,
@@ -531,6 +610,28 @@
     ],
     "antonyms": [
       "Isolate"
+    ],
+    "enExample2": "The pull request diff juxtaposes old and new implementations side by side for effortless code review.",
+    "taExample2": "குறியீட்டு மறுஆய்வு எளிதாக அமைய பழைய மற்றும் புதிய மாற்றங்களை அருகருகே வைத்து (Juxtapose) காட்டுகிறது."
+  },
+  {
+    "id": 3243,
+    "word": "Juxtaposition",
+    "pos": "Noun",
+    "definition": "The placement of two contrasting code patterns, designs, or ideas side by side for comparison.",
+    "taWord": "ஒப்பீட்டு நிலை (Oppeattu nilai)",
+    "enExample": "The pull request showed a juxtaposition of legacy callbacks alongside modern async/await syntax.",
+    "taExample": "பிடிப்பு கோரிக்கை நவீன async/await தொடரியலுடன் பழைய திரும்ப அழைப்புகளின் ஒப்பீட்டு நிலையைக் காட்டியது.",
+    "enExample2": "Comparing UI mockups side by side highlighted the clean juxtaposition of light and dark themes.",
+    "taExample2": "UI மாதிரிகளை அருகருகே ஒப்பிடுவது ஒளி மற்றும் இருண்ட கருப்பொருள்களின் சுத்தமான ஒப்பீட்டு நிலையை எடுத்துக்காட்டுகிறது.",
+    "synonyms": [
+      "contrast",
+      "side-by-side comparison",
+      "collocation"
+    ],
+    "antonyms": [
+      "distance",
+      "separation"
     ]
   },
   {
@@ -549,6 +650,8 @@
     "antonyms": [
       "unauthenticated payload",
       "session cookie"
-    ]
+    ],
+    "enExample2": "Stateless microservices verify incoming JWT tokens using the public key of the identity provider.",
+    "taExample2": "நுண்சேவைகள் உள்வரும் JWT டோக்கன்களை அடையாள வழங்குநரின் பொது விசையைப் பயன்படுத்தி சரிபார்க்கின்றன."
   }
 ]

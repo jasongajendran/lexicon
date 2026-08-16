@@ -14,7 +14,9 @@
     "antonyms": [
       "Synchronization",
       "Atomic operation"
-    ]
+    ],
+    "enExample2": "Using atomic database increment operations prevents race conditions when multiple users buy limited concert tickets simultaneously.",
+    "taExample2": "பல பயனர்கள் ஒரே நேரத்தில் நுழைவுச்சீட்டுகளை வாங்கும் போது அணுசார்ந்த தரவுத்தள செயல்பாடுகளைப் பயன்படுத்துவது போட்டி நிலை (Race Condition) பிழைகளைத் தடுக்கிறது."
   },
   {
     "id": 1802,
@@ -34,7 +36,9 @@
       "Laptop",
       "Virtual machine",
       "Scattered hardware"
-    ]
+    ],
+    "enExample2": "The datacenter technician installed two high-density GPU server units into rack number four.",
+    "taExample2": "தரவு மைய தொழில்நுட்ப வல்லுநர் ரேக் (Rack) எண் நான்கில் இரண்டு உயர் திறன் கொண்ட GPU சர்வர் யூனிட்களை நிறுவினார்."
   },
   {
     "id": 1803,
@@ -51,7 +55,9 @@
     ],
     "antonyms": [
       "Sharp corner"
-    ]
+    ],
+    "enExample2": "Microservices isolate security vulnerabilities, strictly limiting the blast radius of any compromised node.",
+    "taExample2": "நுண்சேவைகள் பாதுகாப்புக் குறைபாடுகளைத் தனிமைப்படுத்தி பாதிக்கப்பட்ட முனையத்தின் பாதிப்பு பரப்பளவை (Radius) கடுமையாகக் கட்டுப்படுத்துகின்றன."
   },
   {
     "id": 2813,
@@ -68,7 +74,9 @@
     "antonyms": [
       "Un-grounded generation",
       "Pure parametric recall"
-    ]
+    ],
+    "enExample2": "Enterprise search tools use RAG to combine large language models with real-time internal documentation.",
+    "taExample2": "நிறுவன தேடல் கருவிகள் AI மொழி மாதிரிகளை நிகழ்நேர உள்நாட்டு ஆவணங்களுடன் இணைக்க RAG தொழில் நுட்பத்தைப் பயன்படுத்துகின்றன."
   },
   {
     "id": 2939,
@@ -89,7 +97,9 @@
       "Origin",
       "Source",
       "Inception"
-    ]
+    ],
+    "enExample2": "The team thoroughly analyzed the legal and performance ramifications of changing our third-party data provider.",
+    "taExample2": "வெளிப்புற தரவு வழங்குநரை மாற்றுவதால் ஏற்படும் சட்ட மற்றும் செயல்திறன் பின்விளைவுகளை (Ramifications) குழு விரிவாக ஆய்வு செய்தது."
   },
   {
     "id": 2938,
@@ -110,7 +120,9 @@
       "Restrained",
       "Curbed",
       "Limited"
-    ]
+    ],
+    "enExample2": "Without strict pull request guidelines, technical debt quickly became rampant across the codebase.",
+    "taExample2": "முறையான வழிகாட்டுதல்கள் இல்லாததால் மென்பொருள் குறியீடு முழுவதும் தொழில்நுட்பக் கடன் கட்டுப்பாடின்றி பரவியது (Rampant)."
   },
   {
     "id": 3136,
@@ -132,7 +144,9 @@
       "Harmony",
       "Benevolence",
       "Amity"
-    ]
+    ],
+    "enExample2": "The engineering manager maintained an objective atmosphere to prevent personal rancor during architecture debates.",
+    "taExample2": "கட்டமைப்பு விவாதங்களின் போது தனிப்பட்ட கசப்புணர்வு (Rancor) ஏற்படுவதைத் தடுக்க பொறியியல் மேலாளர் நடுநிலையான சூழலைப் பேணினார்."
   },
   {
     "id": 1804,
@@ -150,7 +164,9 @@
     "antonyms": [
       "Deterministic",
       "Sequential"
-    ]
+    ],
+    "enExample2": "The test framework selects random input strings to uncover unhandled edge-case parsing exceptions.",
+    "taExample2": "கையாளப்படாத விளிம்புநிலை பிழைகளைக் கண்டறிய சோதனைக் கட்டமைப்பு சீரற்ற (Random) உள்ளீட்டு சரங்களைத் தேர்ந்தெடுக்கிறது."
   },
   {
     "id": 1805,
@@ -169,7 +185,9 @@
       "Single point",
       "Fixed value",
       "Scalar limit"
-    ]
+    ],
+    "enExample2": "Database B-Tree indexes allow fast execution of range queries when fetching timestamps between two dates.",
+    "taExample2": "இரண்டு தேதிகளுக்கு இடையிலான பதிவுகளைப் பெறும் போது B-Tree குறியீடுகள் வரம்பு சார்ந்த (Range) வினவல்களை விரைவாக இயக்குகின்றன."
   },
   {
     "id": 2902,
@@ -190,7 +208,9 @@
       "Rupture",
       "Hostility",
       "Alienation"
-    ]
+    ],
+    "enExample2": "The standardization meeting facilitated a rapprochement between competing web browser engineering teams.",
+    "taExample2": "தரநிலையாக்கக் கூட்டம் போட்டியிடும் உலாவி பொறியியல் குழுக்களிடையே இணக்கமான நல்லுறவை (Rapprochement) ஏற்படுத்தியது."
   },
   {
     "id": 1806,
@@ -206,7 +226,9 @@
     ],
     "antonyms": [
       "Vector"
-    ]
+    ],
+    "enExample2": "SVG vector icons scale infinitely without the pixelation typical of raster image formats like JPEG or PNG.",
+    "taExample2": "JPEG அல்லது PNG போன்ற ராஸ்டர் (Raster) படங்களை போல மங்கலாகாமல் SVG வெக்டர் ஐகான்கள் எந்த அளவிலும் தெளிவாக இருக்கும்."
   },
   {
     "id": 2740,
@@ -224,7 +246,9 @@
     "antonyms": [
       "unbounded traffic",
       "unrestricted throughput"
-    ]
+    ],
+    "enExample2": "Applying token-bucket rate limiting prevents distributed denial-of-service attacks against authentication endpoints.",
+    "taExample2": "டோக்கன் பக்கெட் கோரிக்கை வரம்பை (Rate Limiting) செயல்படுத்துவது அங்கீகார சேவைகளை DDoS தாக்குதல்களிலிருந்து பாதுகாக்கிறது."
   },
   {
     "id": 2941,
@@ -245,7 +269,9 @@
       "Veto",
       "Repudiation",
       "Nullification"
-    ]
+    ],
+    "enExample2": "The open-source steering committee celebrated the official ratification of the new security governance protocol.",
+    "taExample2": "புதிய பாதுகாப்பு நிர்வாக நெறிமுறையின் அதிகாரப்பூர்வ ஒப்புதலை (Ratification) திறந்த மூல வழிகாட்டுக் குழு கொண்டாடியது."
   },
   {
     "id": 2903,
@@ -266,7 +292,9 @@
       "Nullify",
       "Repudiate",
       "Veto"
-    ]
+    ],
+    "enExample2": "Browser vendors convened at the W3C conference to ratify the next-generation WebAssembly specification.",
+    "taExample2": "அடுத்த தலைமுறை WebAssembly தரநிலையை முறைப்படி அங்கீகரித்து ஏற்க (Ratify) உலாவி நிறுவனங்கள் மாநாட்டில் கூடின."
   },
   {
     "id": 2636,
@@ -284,6 +312,29 @@
     "antonyms": [
       "Endorsed",
       "Approved"
+    ],
+    "enExample2": "The compression algorithm achieved an impressive five-to-one data reduction ratio without losing fidelity.",
+    "taExample2": "சுருக்குதல் வழிமுறை துல்லியத்தை இழக்காமல் ஐந்துக்கு ஒன்று என்ற ஈர்க்கக்கூடிய தரவுக் குறைப்பு விகிதத்தை (Ratio) அடைந்தது."
+  },
+  {
+    "id": 3290,
+    "word": "Rationale",
+    "pos": "Noun",
+    "definition": "A set of reasons or logical basis underlying a technical decision, strategy, or architectural choice.",
+    "taWord": "தர்க்கரீதியான காரணம் (Tharkkareethiyana kaaranom)",
+    "enExample": "The design doc outlined the technical rationale behind selecting React over alternative UI libraries.",
+    "taExample": "மாற்று UI நூலகங்களை விட React ஐத் தேர்ந்தெடுப்பதன் பின்னணியில் உள்ள தொழில்நுட்ப தர்க்கரீதியான காரணத்தை வடிவமைப்பு ஆவணம் கோடிட்டுக் காட்டியது.",
+    "enExample2": "Understanding the historical rationale behind legacy code helps prevent repeating past mistakes.",
+    "taExample2": "பழைய குறியீட்டின் பின்னணியில் உள்ள வரலாற்று தர்க்கரீதியான காரணத்தைப் புரிந்துகொள்வது கடந்த கால தவறுகளை மீண்டும் செய்வதைத் தடுக்க உதவுகிறது.",
+    "synonyms": [
+      "justification",
+      "logical basis",
+      "reasoning",
+      "explanation"
+    ],
+    "antonyms": [
+      "caprice",
+      "arbitrary choice"
     ]
   },
   {
@@ -305,7 +356,9 @@
       "Calm",
       "Soothe",
       "Compose"
-    ]
+    ],
+    "enExample2": "A sudden wave of automated crawler traffic threatened to rattle the database server during peak hours.",
+    "taExample2": "திடீர் தானியங்கி போக்குவரத்து அலை உச்ச நேரத்தின் போது தரவுத்தள சேவையகத்தை உலுக்க (Rattle) அச்சுறுத்தியது."
   },
   {
     "id": 1807,
@@ -323,7 +376,9 @@
     "antonyms": [
       "Imperative",
       "Static"
-    ]
+    ],
+    "enExample2": "RxJS provides reactive streams that emit real-time telemetry updates straight to the frontend dashboard.",
+    "taExample2": "RxJS நிகழ்நேர அளவீட்டுத் தகவல்களை நேரடியாக பயனர் திரைக்கு அனுப்பும் ரியாக்டிவ் (Reactive) ஸ்ட்ரீம்களை வழங்குகிறது."
   },
   {
     "id": 1808,
@@ -341,7 +396,9 @@
     "antonyms": [
       "Read-write",
       "Writable"
-    ]
+    ],
+    "enExample2": "Analytics dashboards connect to read-only database replicas to avoid impacting transactional write throughput.",
+    "taExample2": "பகுப்பாய்வு பலகைகள் பரிவர்த்தனை எழுதும் வேகத்தைப் பாதிக்காமல் இருக்க வாசிப்பு-மட்டும் (Read-only) தரவுத்தள பிரதிகளுடன் இணைகின்றன."
   },
   {
     "id": 2815,
@@ -358,7 +415,9 @@
     "antonyms": [
       "Liveness probe",
       "Cold request routing"
-    ]
+    ],
+    "enExample2": "Kubernetes routes network traffic to a pod only after its HTTP readiness probe returns a 200 OK status.",
+    "taExample2": "குபெர்னெட்டீஸ் ஒரு பாட்டின் தயார்நிலை ஆய்வு (Readiness Probe) வெற்றிகரமான நிலையைத் தந்த பின்னரே நெட்வொர்க் போக்குவரத்தை அனுப்புகிறது."
   },
   {
     "id": 2944,
@@ -379,7 +438,9 @@
       "Welcome",
       "Embrace",
       "Approve"
-    ]
+    ],
+    "enExample2": "The security team was quick to rebuff unverified third-party integration proposals that bypassed encryption standards.",
+    "taExample2": "குறியாக்க விதிகளைத் தவிர்த்த சரிபார்க்கப்படாத வெளிப்புற இணைப்பு முன்மொழிவுகளை பாதுகாப்புக் குழு உடனடியாக நிராகரித்தது (Rebuff)."
   },
   {
     "id": 1816,
@@ -397,7 +458,9 @@
     "antonyms": [
       "Docile",
       "Compliant"
-    ]
+    ],
+    "enExample2": "The DevOps team had to force-restart a recalcitrant worker process that refused to terminate gracefully.",
+    "taExample2": "முறையாக மூட மறுத்த ஒரு பிடிவாதமான (Recalcitrant) பணி செயல்முறையை பொறியியல் குழு கட்டாயமாக மறுதொடக்கம் செய்ய வேண்டியிருந்தது."
   },
   {
     "id": 3062,
@@ -418,7 +481,9 @@
       "Elaborate indefinitely",
       "Expand",
       "Obscure"
-    ]
+    ],
+    "enExample2": "The lead architect opened the sprint retrospective to recapitulate key lessons learned during the migration.",
+    "taExample2": "மாற்றத்தின் போது கற்றுக்கொண்ட முக்கிய பாடங்களை சுருக்கமாக மீண்டும் கூற (Recapitulate) முதன்மை வடிவமைப்பாளர் கூட்டத்தைத் தொடங்கினார்."
   },
   {
     "id": 2904,
@@ -437,6 +502,28 @@
       "Rehabilitation",
       "Reformation",
       "Law-abiding conduct"
+    ],
+    "enExample2": "Automated linter checks and pre-commit hooks prevent technical recidivism where patched bugs get reintroduced.",
+    "taExample2": "தானியங்கி சோதனைகள் சரிசெய்யப்பட்ட பழைய பிழைகள் மீண்டும் தோன்றும் குற்ற மீள்நிகழ்வைத் (Recidivism) தடுக்கின்றன."
+  },
+  {
+    "id": 3245,
+    "word": "Reciprocity",
+    "pos": "Noun",
+    "definition": "The mutual exchange of resources, API privileges, or support between engineering organizations.",
+    "taWord": "பரஸ்பர பரிமாற்றம் (Paraspara parimaatram)",
+    "enExample": "Open-source collaboration thrives on reciprocity, where developers contribute fixes back to the community.",
+    "taExample": "திறந்த மூல ஒத்துழைப்பு பரஸ்பர பரிமாற்றத்தில் செழித்து வளர்கிறது, அங்கு டெவலப்பர்கள் திருத்தங்களை சமூகத்திற்கு மீண்டும் வழங்குகிறார்கள்.",
+    "enExample2": "Bilateral data sharing agreements are built on principles of reciprocity.",
+    "taExample2": "இருதரப்பு தரவு பகிர்வு ஒப்பந்தங்கள் பரஸ்பர பரிமாற்றத்தின் கொள்கைகளின் அடிப்படையில் கட்டப்பட்டுள்ளன.",
+    "synonyms": [
+      "mutuality",
+      "exchange",
+      "interdependence"
+    ],
+    "antonyms": [
+      "one-sidedness",
+      "antagonism"
     ]
   },
   {
@@ -457,7 +544,9 @@
       "Impunity",
       "Absolution",
       "Evasion of blame"
-    ]
+    ],
+    "enExample2": "Ignoring tech debt for two years finally forced an operational reckoning when the legacy monolith collapsed.",
+    "taExample2": "இரண்டு ஆண்டுகளாக தொழில்நுட்பக் கடனை புறக்கணித்தது பழைய கட்டமைப்பு முடங்கிய போது தவிர்க்க முடியாத தீவிர கணக்குத் தீர்ப்பை (Reckoning) எதிர்கொள்ள வைத்தது."
   },
   {
     "id": 3014,
@@ -478,7 +567,9 @@
       "Estrange",
       "Invalidate",
       "Disagree"
-    ]
+    ],
+    "enExample2": "The automated billing cron job executes nightly to reconcile internal transaction records with payment provider logs.",
+    "taExample2": "உள்நாட்டு பரிவர்த்தனை பதிவுகளை கட்டண நிறுவனப் பதிவுகளுடன் ஒப்பிட்டு சரிபார்க்க (Reconcile) தானியங்கி ஸ்கிரிப்ட் இரவில் இயங்குகிறது."
   },
   {
     "id": 3137,
@@ -500,7 +591,9 @@
       "Common",
       "Simple",
       "Straightforward"
-    ]
+    ],
+    "enExample2": "The compiler optimization passes relied on recondite mathematical theorems that few outside academia understood.",
+    "taExample2": "தொகுப்பி உகப்பாக்க முறைகள் மிகச் சிலருக்கே தெரிந்த புரிந்துகொள்ள கடினமான (Recondite) கணிதக் கோட்பாடுகளை நம்பியிருந்தன."
   },
   {
     "id": 3011,
@@ -521,7 +614,9 @@
       "Worsen",
       "Corrupt",
       "Damage"
-    ]
+    ],
+    "enExample2": "The infrastructure team deployed an emergency hotfix to rectify the misconfigured firewall routing rule.",
+    "taExample2": "தவறாக கட்டமைக்கப்பட்ட ஃபயர்வால் விதியை சரிசெய்ய (Rectify) உட்கட்டமைப்புக் குழு அவசர திருத்தத்தை வெளியிட்டது."
   },
   {
     "id": 1809,
@@ -537,7 +632,9 @@
     ],
     "antonyms": [
       "Iteration"
-    ]
+    ],
+    "enExample2": "A tail-recursive helper function prevents stack overflow errors when traversing deep nested JSON trees.",
+    "taExample2": "ஆழமான மரக் கட்டமைப்புகளை ஆராயும் போது ஒரு சுழல்நிலை சார்பு (Recursion) நினைவக வரம்பு பிழைகளைத் தடுக்கிறது."
   },
   {
     "id": 2906,
@@ -557,6 +654,30 @@
       "Disclose fully",
       "Uncensor",
       "Publish raw"
+    ],
+    "enExample2": "Logging middlewares must automatically redact customer credit card numbers and passwords before saving traces.",
+    "taExample2": "பதிவு மென்பொருட்கள் சேமிப்பதற்கு முன் வாடிக்கையாளர் அட்டை எண்கள் மற்றும் கடவுச்சொற்களை தானாகவே மறைக்க (Redact) வேண்டும்."
+  },
+  {
+    "id": 3264,
+    "word": "Redemption",
+    "pos": "Noun",
+    "definition": "The act of saving, restoring, or recovering something from error, failure, or debt.",
+    "taWord": "மீட்பு (Meatpu)",
+    "enExample": "Refactoring the failed legacy architecture brought technical redemption to the project.",
+    "taExample": "தோல்வியுற்ற பழைய கட்டிடக்கலையை மாற்றியமைப்பது திட்டத்திற்கு தொழில்நுட்ப மீட்பைக் கொண்டு வந்தது.",
+    "enExample2": "The message of spiritual redemption offers hope and renewal to all seekers.",
+    "taExample2": "ஆன்மீக மீட்பின் செய்தி அனைத்து தேடுபவர்களுக்கும் நம்பிக்கையையும் புதுப்பிப்பையும் வழங்குகிறது.",
+    "synonyms": [
+      "salvation",
+      "restoration",
+      "recovery",
+      "reclamation"
+    ],
+    "antonyms": [
+      "damnation",
+      "loss",
+      "abandonment"
     ]
   },
   {
@@ -579,7 +700,9 @@
       "Insignificant",
       "Feeble",
       "Unimposing"
-    ]
+    ],
+    "enExample2": "Her redoubtable expertise in low-level memory allocators made her the go-to engineer for performance deadlocks.",
+    "taExample2": "நினைவக ஒதுக்கீடுகளில் அவரது பிரமிக்கத்தக்க (Redoubtable) நிபுணத்துவம் செயல்திறன் பிழைகளுக்கான முதன்மை ஆலோசகராக அவரை மாற்றியது."
   },
   {
     "id": 1810,
@@ -596,7 +719,9 @@
     ],
     "antonyms": [
       "Single point of failure"
-    ]
+    ],
+    "enExample2": "Geographic server redundancy ensures continuous website availability even if a primary datacenter loses power.",
+    "taExample2": "புவியியல் ரீதியான கூடுதல் மாற்று சர்வர்கள் (Redundancy) முதன்மை தரவு மையம் செயலிழந்தாலும் வலைத்தள இயக்கத்தை உறுதி செய்கின்றன."
   },
   {
     "id": 1811,
@@ -615,7 +740,9 @@
       "Rewrite from scratch",
       "Feature addition",
       "Leave technical debt"
-    ]
+    ],
+    "enExample2": "We decided to refactor the monolithic payment module into clean, independently testable microservices.",
+    "taExample2": "கட்டணப் பகுதியை சுத்தமான, சுயாதீனமாக சோதிக்கக்கூடிய நுண்சேவைகளாக மறுசீரமைக்க (Refactor) நாங்கள் முடிவு செய்தோம்."
   },
   {
     "id": 2907,
@@ -633,7 +760,9 @@
     "antonyms": [
       "Executive order",
       "Parliamentary dictate"
-    ]
+    ],
+    "enExample2": "The engineering org held an internal referendum to choose between React and Vue for the next-generation portal.",
+    "taExample2": "அடுத்த தலைமுறை போர்ட்டலுக்கு React அல்லது Vue-ஐ தேர்ந்தெடுப்பது குறித்து பொறியியல் துறை ஒரு வாக்கெடுப்பை (Referendum) நடத்தியது."
   },
   {
     "id": 1812,
@@ -651,7 +780,9 @@
     "antonyms": [
       "Local isolated filesystem",
       "Unindexed local repo"
-    ]
+    ],
+    "enExample2": "The continuous integration pipeline pushes authenticated Docker images to a private cloud container registry.",
+    "taExample2": "தானியங்கி வெளியீட்டு அமைப்பு சரிபார்க்கப்பட்ட டாக்கர் படங்களை ஒரு தனியார் கிளவுட் கொள்கலன் பதிவேட்டில் (Registry) பதிவேற்றுகிறது."
   },
   {
     "id": 2706,
@@ -669,7 +800,9 @@
     "antonyms": [
       "Improvement",
       "Stability"
-    ]
+    ],
+    "enExample2": "Automated regression tests prevent previously fixed defects from re-emerging in new release builds.",
+    "taExample2": "தானியங்கி பின்னடைவு சோதனைகள் (Regression Tests) ஏற்கனவே சரிசெய்யப்பட்ட பிழைகள் புதிய வெளியீடுகளில் மீண்டும் தோன்றுவதைத் தடுக்கின்றன."
   },
   {
     "id": 2742,
@@ -687,7 +820,9 @@
     "antonyms": [
       "static dehydration",
       "pure HTML rendering"
-    ]
+    ],
+    "enExample2": "Client-side rehydration attaches interactive JavaScript event handlers to pre-rendered server HTML.",
+    "taExample2": "வாடிக்கையாளர் பக்க நீர்மமாக்கல் (Rehydration) சர்வர் உருவாக்கிய HTML பக்கங்களுக்கு ஜாவாஸ்கிரிப்ட் நிகழ்வு கேட்பவர்களை இணைக்கிறது."
   },
   {
     "id": 2986,
@@ -708,7 +843,9 @@
       "Retract",
       "Withdraw",
       "Cancel"
-    ]
+    ],
+    "enExample2": "The security officer convened the meeting to reiterate the mandatory requirement for multi-factor authentication.",
+    "taExample2": "இருபடி அங்கீகாரத்தின் கட்டாயத் தேவையை மீண்டும் வலியுறுத்த (Reiterate) பாதுகாப்பு அதிகாரி கூட்டத்தைக் கூட்டினார்."
   },
   {
     "id": 1817,
@@ -726,6 +863,30 @@
     "antonyms": [
       "Promote",
       "Upgrade"
+    ],
+    "enExample2": "The organization decided to relegate the legacy PHP monolith to maintenance mode while building new services in Go.",
+    "taExample2": "புதிய சேவைகளை Go-வில் உருவாக்கும் போது பழைய PHP அமைப்பை பராமரிப்பு நிலைக்குத் தள்ள (Relegate) நிறுவனம் முடிவு செய்தது."
+  },
+  {
+    "id": 3378,
+    "word": "remnant",
+    "pos": "noun",
+    "definition": "A small remaining quantity or a faithful surviving group of people.",
+    "taWord": "மீதிமுள்ளோர் (எஞ்சிய பகுதி)",
+    "enExample": "Only a tiny remnant of legacy assembly code survived the complete rewrite of the core operating system.",
+    "taExample": "கணினி இயங்குதளத்தின் முழுமையான மாற்றத்திற்குப் பிறகும் அசெம்பிளி குறியீட்டின் ஒரு சிறிய பகுதி மட்டுமே எஞ்சியிருந்தது.",
+    "enExample2": "Prophet Elijah was reminded that God had preserved a faithful remnant who had not bowed to idols.",
+    "taExample2": "சிலைகளுக்கு முன் முழங்கால் படியாத விசுவாசமுள்ள எஞ்சிய மக்களைக் கடவுள் பாதுகாத்ததாக எலியா தீர்க்கதரிசிக்கு நினைவூட்டப்பட்டது.",
+    "synonyms": [
+      "residue",
+      "remainder",
+      "survivors",
+      "vestige"
+    ],
+    "antonyms": [
+      "whole",
+      "totality",
+      "majority"
     ]
   },
   {
@@ -746,7 +907,9 @@
       "Halt",
       "Cease",
       "Reverse"
-    ]
+    ],
+    "enExample2": "Virtual DOM diffing optimizes the number of times the browser must render elements to the screen.",
+    "taExample2": "விர்ச்சுவல் DOM உலாவி திரையில் கூறுகளை காட்சிப்படுத்தும் (Render) எண்ணிக்கையை உகந்ததாக்குகிறது."
   },
   {
     "id": 2628,
@@ -764,7 +927,9 @@
     "antonyms": [
       "Forgotten",
       "Dismissed"
-    ]
+    ],
+    "enExample2": "That elusive concurrency bug lived rent-free in the lead architect's head for three straight weeks.",
+    "taExample2": "அந்த பிடிபடாத சமகால பிழை முதன்மை வடிவமைப்பாளரின் மனதில் மூன்று வாரங்களாக இடைவிடாமல் உழன்றது (Rent-free)."
   },
   {
     "id": 2839,
@@ -785,7 +950,9 @@
       "Origin",
       "Inception",
       "Source"
-    ]
+    ],
+    "enExample2": "A misconfigured database index had serious financial repercussions by causing checkout timeouts during Black Friday.",
+    "taExample2": "தவறான தரவுத்தள குறியீடு சிறப்பு விற்பனை நேரத்தின் போது செக்அவுட் தோல்விகளை ஏற்படுத்தி கடுமையான நிதி பின்விளைவுகளை (Repercussions) உண்டாக்கியது."
   },
   {
     "id": 2934,
@@ -806,7 +973,9 @@
       "Drain",
       "Exhaust",
       "Consume"
-    ]
+    ],
+    "enExample2": "The token bucket rate limiter uses a background timer to replenish available API request tokens every second.",
+    "taExample2": "கோரிக்கை வரம்பு அமைப்பு ஒவ்வொரு விநாடியும் கிடைக்கக்கூடிய API டோக்கன்களை மீண்டும் நிரப்ப (Replenish) பின்னணி டைமரைப் பயன்படுத்துகிறது."
   },
   {
     "id": 1814,
@@ -824,7 +993,9 @@
     "antonyms": [
       "Working directory",
       "Unversioned folder"
-    ]
+    ],
+    "enExample2": "All frontend and backend source code modules are organized in a single monorepo Git repository.",
+    "taExample2": "அனைத்து முன்னணி மற்றும் பின்தள மூலக் குறியீடுகளும் ஒற்றை Git களஞ்சியத்தில் (Repository) ஒழுங்கமைக்கப்பட்டுள்ளன."
   },
   {
     "id": 2838,
@@ -845,7 +1016,9 @@
       "Commendation",
       "Endorsement",
       "Appreciation"
-    ]
+    ],
+    "enExample2": "The developer faced severe reprehension for deploying unverified database scripts directly into the live production cluster.",
+    "taExample2": "சோதிக்கப்படாத ஸ்கிரிப்ட்களை நேரடியாக நேரலை அமைப்பில் இயக்கியதற்காக அந்த உருவாக்குநர் கடுமையான கண்டனத்தை (Reprehension) எதிர்கொண்டார்."
   },
   {
     "id": 2945,
@@ -866,7 +1039,9 @@
       "Endorse",
       "Acknowledge",
       "Accept"
-    ]
+    ],
+    "enExample2": "The cloud vendor had to publicly repudiate claims that their infrastructure suffered a widespread data leak.",
+    "taExample2": "தங்கள் உள்கட்டமைப்பில் பெரிய தரவு கசிவு ஏற்பட்டதாகக் கூறப்பட்ட குற்றச்சாட்டுகளை கிளவுட் நிறுவனம் பகிரங்கமாக மறுக்க (Repudiate) வேண்டியிருந்தது."
   },
   {
     "id": 3048,
@@ -887,7 +1062,9 @@
       "Unnecessary",
       "Optional",
       "Superfluous"
-    ]
+    ],
+    "enExample2": "Completing mandatory security training is a requisite condition before gaining production server SSH access.",
+    "taExample2": "தயாரிப்பு சர்வர் SSH அணுகலைப் பெறுவதற்கு முன் பாதுகாப்புப் பயிற்சியை முடிப்பது ஒரு இன்றியமையாத (Requisite) நிபந்தனையாகும்."
   },
   {
     "id": 2943,
@@ -908,6 +1085,29 @@
       "Enforce",
       "Validate",
       "Reaffirm"
+    ],
+    "enExample2": "Management decided to rescind the controversial return-to-office mandate following pushback from senior engineers.",
+    "taExample2": "மூத்த பொறியாளர்களின் எதிர்ப்பைத் தொடர்ந்து சர்ச்சைக்கிடமான அலுவலக வருகை உத்தரவை திரும்பப் பெற (Rescind) நிர்வாகம் முடிவு செய்தது."
+  },
+  {
+    "id": 3210,
+    "word": "Resilience",
+    "pos": "Noun",
+    "definition": "The capacity of a software system to withstand infrastructure faults, server spikes, and network partitions gracefully.",
+    "taWord": "மீள்தன்மை (Meelthanmai)",
+    "enExample": "Chaos engineering tests the resilience of microservices against node failures in Kubernetes.",
+    "taExample": "கேயாஸ் இன்ஜினியரிங் Kubernetes இல் உள்ள முனையத் தோல்விகளுக்கு எதிராக நுண் சேவைகளின் மீள்தன்மையை சோதிக்கிறது.",
+    "enExample2": "System resilience ensures zero data loss during cloud region failovers.",
+    "taExample2": "கணினி மீள்தன்மையானது கிளவுட் பிராந்திய தோல்விகளின் போது பூஜ்ஜிய தரவு இழப்பை உறுதி செய்கிறது.",
+    "synonyms": [
+      "durability",
+      "robustness",
+      "fault-tolerance"
+    ],
+    "antonyms": [
+      "fragility",
+      "vulnerability",
+      "instability"
     ]
   },
   {
@@ -927,7 +1127,9 @@
       "brittleness",
       "fragility",
       "single point of failure"
-    ]
+    ],
+    "enExample2": "Circuit breakers and automated retries bolster the operational resiliency of distributed microservices.",
+    "taExample2": "சர்க்யூட் பிரேக்கர்கள் மற்றும் தானியங்கி மறுமுயற்சிகள் நுண்சேவைகளின் செயல்பாட்டு மீள்தன்மையை (Resiliency) வலுப்படுத்துகின்றன."
   },
   {
     "id": 1818,
@@ -945,7 +1147,9 @@
     "antonyms": [
       "Vulnerable",
       "Fragile"
-    ]
+    ],
+    "enExample2": "The message broker is resilient to network partitions, maintaining message ordering across all node clusters.",
+    "taExample2": "செய்தி இடைத்தரகர் நெட்வொர்க் முறிவுகளுக்கு எதிராக மீள்தன்மை (Resilient) கொண்டு செய்தி வரிசையை சீராகப் பராமரிக்கிறார்."
   },
   {
     "id": 3168,
@@ -966,7 +1170,9 @@
       "Dissonate",
       "Disconnect",
       "Alienate"
-    ]
+    ],
+    "enExample2": "Her presentation on Developer Experience resonated deeply with engineers across the entire engineering department.",
+    "taExample2": "உருவாக்குநர் அனுபவம் குறித்த அவரது விளக்கவுரை பொறியியல் துறை முழுவதிலும் உள்ள பொறியாளர்களிடம் ஆழ்ந்த வரவேற்பைப் பெற்றது (Resonate)."
   },
   {
     "id": 2942,
@@ -987,7 +1193,9 @@
       "Pardon",
       "Absolve",
       "Yield"
-    ]
+    ],
+    "enExample2": "The intrusion detection system can retaliate against malicious IPs by automatically dropping all firewall packets.",
+    "taExample2": "ஊடுருவல் தடுப்பு அமைப்பு தீங்கிழைக்கும் ஐபி-களின் அனைத்து பாக்கெட்டுகளையும் ஃபயர்வாலில் தானாகவே முடக்கி எதிர்நடவடிக்கை (Retaliate) எடுக்க முடியும்."
   },
   {
     "id": 2908,
@@ -1008,7 +1216,9 @@
       "Pardon",
       "Non-retaliation",
       "Restraint"
-    ]
+    ],
+    "enExample2": "The security policy forbids any retaliation against internal whistleblowers reporting compliance vulnerabilities.",
+    "taExample2": "பாதுகாப்புக் குறைபாடுகளைப் புகாரளிக்கும் உள்நாட்டு தகவல் தருநர்களுக்கு எதிரான எந்தவொரு பழிவாங்கும் நடவடிக்கையையும் (Retaliation) கொள்கை தடை செய்கிறது."
   },
   {
     "id": 3139,
@@ -1030,7 +1240,9 @@
       "Garrulous",
       "Voluble",
       "Outspoken"
-    ]
+    ],
+    "enExample2": "The developer was reticent to propose major architectural overhauls during his first sprint on the team.",
+    "taExample2": "குழுவில் தனது முதல் ஸ்பிரிண்ட்டின் போது பெரிய கட்டமைப்பு மாற்றங்களை முன்மொழிய அந்த உருவாக்குநர் தயக்கத்துடன் (Reticent) இருந்தார்."
   },
   {
     "id": 3076,
@@ -1052,7 +1264,9 @@
       "Assert",
       "Publish",
       "Promulgate"
-    ]
+    ],
+    "enExample2": "The vendor had to retract their premature deprecation announcement after hearing severe enterprise customer protests.",
+    "taExample2": "பெருநிறுவன வாடிக்கையாளர்களின் கடுமையான எதிர்ப்பைக் கேட்ட பிறகு நிறுவனம் தனது முன்கூட்டிய சேவை நிறுத்த அறிவிப்பை திரும்பப் பெற்றது (Retract)."
   },
   {
     "id": 1819,
@@ -1072,6 +1286,30 @@
       "Projection",
       "Future planning",
       "Ignorance"
+    ],
+    "enExample2": "During sprint retrospective meetings, teams identify process bottlenecks and celebrate successful feature releases.",
+    "taExample2": "ஸ்பிரிண்ட் மீளாய்வு (Retrospective) கூட்டங்களின் போது குழுக்கள் செயல்முறைத் தடைகளைக் கண்டறிந்து வெற்றிகளைப் பாராட்டுகின்றன."
+  },
+  {
+    "id": 3282,
+    "word": "Reverence",
+    "pos": "Noun",
+    "definition": "Deep respect, awe, and honor shown toward God, sacred truth, or core ethical values.",
+    "taWord": "பக்தி/மரியாதை (Bhakthi/mariyaathai)",
+    "enExample": "Developers approached security protocols with deep reverence for user data confidentiality.",
+    "taExample": "டெவலப்பர்கள் பயனர் தரவு ரகசியத்தன்மைக்கு ஆழமான மரியாதையுடன் பாதுகாப்பு நெறிமுறைகளை அணுகினர்.",
+    "enExample2": "Worship in fellowship is conducted with reverence and joyful gratitude.",
+    "taExample2": "தோழமையில் வழிபாடு பக்தியுடனும் மகிழ்ச்சியான நன்றியுடனும் நடத்தப்படுகிறது.",
+    "synonyms": [
+      "veneration",
+      "respect",
+      "awe",
+      "honor"
+    ],
+    "antonyms": [
+      "irreverence",
+      "disrespect",
+      "contempt"
     ]
   },
   {
@@ -1093,6 +1331,50 @@
       "Plain speech",
       "Concrete action",
       "Truth"
+    ],
+    "enExample2": "Engineers evaluated the database based on concrete benchmark metrics rather than marketing hype and rhetoric.",
+    "taExample2": "பொறியாளர்கள் விளம்பர அலங்காரப் பேச்சுகளை (Rhetoric) நம்பாமல் உறுதியான சோதனை அளவீடுகளின் அடிப்படையில் தரவுத்தளத்தை மதிப்பிட்டனர்."
+  },
+  {
+    "id": 3305,
+    "word": "Riff",
+    "pos": "Verb",
+    "definition": "To improvise, discuss, or casually expand upon a technical idea dynamically during a meeting.",
+    "taWord": "உடனடியாக கருத்துப் பேசுதல் (Udanadiyaaga karuthup paesuthal)",
+    "enExample": "During the design session, engineers began to riff on new ways to implement offline data caching.",
+    "taExample": "வடிவமைப்பு அமர்வின் போது, பொறியாளர்கள் ஆஃப்லைன் தரவு தற்காலிக சேமிப்பை அமல்படுத்துவதற்கான புதிய வழிகளைப் பற்றி உடனடியாக கருத்துப் பேசத் தொடங்கினர்.",
+    "enExample2": "The tech podcast host riffed on recent developments in open-source AI models.",
+    "taExample2": "தொழில்நுட்ப போட்காஸ்ட் புரவலர் திறந்த மூல AI மாடல்களின் சமீபத்திய முன்னேற்றங்கள் குறித்து உடனடியாக கருத்துப் பேசினார்.",
+    "synonyms": [
+      "improvise",
+      "brainstorm aloud",
+      "expound"
+    ],
+    "antonyms": [
+      "read script",
+      "stick rigidly"
+    ]
+  },
+  {
+    "id": 3271,
+    "word": "Righteousness",
+    "pos": "Noun",
+    "definition": "The quality of being morally right, upright, and adhering strictly to truth and ethical integrity.",
+    "taWord": "நீதி/நேர்மை (Neethi/nearmai)",
+    "enExample": "Ethical software development requires unwavering commitment to data privacy and moral righteousness.",
+    "taExample": "அறநெறி சார்ந்த மென்பொருள் மேம்பாட்டிற்கு தரவு தனியுரிமை மற்றும் தர்ம நீதிக்கான அசையாத அர்ப்பணிப்பு தேவைப்படுகிறது.",
+    "enExample2": "Scripture teaches that true righteousness comes through faith and living in loving obedience.",
+    "taExample2": "உண்மையான நீதி விசுவாசத்தின் மூலமும், அன்பான கீழ்ப்படிதலில் வாழ்வதன் மூலமும் வருகிறது என்று வேதம் கற்பிக்கிறது.",
+    "synonyms": [
+      "uprightness",
+      "integrity",
+      "virtue",
+      "morality"
+    ],
+    "antonyms": [
+      "wickedness",
+      "corruption",
+      "unrighteousness"
     ]
   },
   {
@@ -1111,7 +1393,9 @@
     "antonyms": [
       "Awkwardness",
       "Bluntness"
-    ]
+    ],
+    "enExample2": "The developer advocate used his effortless charisma and tech rizz to deliver an engaging conference keynote.",
+    "taExample2": "தொழில்நுட்ப பிரதிநிதி தனது இயல்பான கவர்ச்சியையும் வசீகரத்தையும் (Rizz) பயன்படுத்தி ஒரு ஈர்க்கக்கூடிய மாநாட்டு உரையை வழங்கினார்."
   },
   {
     "id": 2814,
@@ -1128,7 +1412,9 @@
     "antonyms": [
       "Unsupervised pretraining",
       "Raw token prediction"
-    ]
+    ],
+    "enExample2": "Reinforcement Learning from Human Feedback (RLHF) aligns generative AI outputs with human safety guidelines.",
+    "taExample2": "மனித கருத்து பின்னூட்ட வலுவூட்டல் கற்றல் (RLHF) AI வெளியீடுகளை மனித பாதுகாப்பு வழிகாட்டுதல்களுடன் ஒத்திசைக்கிறது."
   },
   {
     "id": 1820,
@@ -1148,7 +1434,9 @@
       "Chaos",
       "Ad-hoc process",
       "Blind execution"
-    ]
+    ],
+    "enExample2": "The quarterly product roadmap prioritizes core query performance improvements before launching secondary features.",
+    "taExample2": "காலாண்டு தயாரிப்பு திட்ட வரைபடம் (Roadmap) கூடுதல் வசதிகளுக்கு முன் வினவல் செயல்திறன் மேம்பாட்டிற்கு முன்னுரிமை அளிக்கிறது."
   },
   {
     "id": 2672,
@@ -1166,7 +1454,9 @@
     "antonyms": [
       "Deficit",
       "Financial loss"
-    ]
+    ],
+    "enExample2": "Automating manual regression tests provided a massive Return on Investment (ROI) by freeing up engineering hours.",
+    "taExample2": "கையேடு சோதனைகளை தானியக்கமாக்கியது பொறியியல் நேரத்தை மிச்சப்படுத்தி முதலீட்டில் மிகப்பெரிய வருவாயை (ROI) வழங்கியது."
   },
   {
     "id": 1815,
@@ -1186,7 +1476,9 @@
       "Blockage",
       "Lost connection",
       "No-path"
-    ]
+    ],
+    "enExample2": "The Express API router matches incoming HTTP endpoints and directs requests to corresponding controller functions.",
+    "taExample2": "எக்ஸ்பிரஸ் API வழியமைப்பான் (Router) உள்வரும் URL முகவரிகளைப் பொருத்தி உரிய செயல்பாடுகளுக்கு வழிநடத்துகிறது (Route)."
   },
   {
     "id": 2816,
@@ -1203,7 +1495,9 @@
     "antonyms": [
       "Silent frustration",
       "Random code tinkering"
-    ]
+    ],
+    "enExample2": "Explaining the tricky logic aloud during rubber ducking helped the developer spot the off-by-one error instantly.",
+    "taExample2": "ரப்பர் வாத்து முறைமையில் (Rubber Ducking) சிக்கலான தர்க்கத்தை உரக்க விளக்கியது ஒரு சிறிய எண் பிழையை உடனடியாகக் கண்டறிய உதவியது."
   },
   {
     "id": 2670,
@@ -1221,6 +1515,8 @@
     "antonyms": [
       "Insolvency",
       "Bankruptcy"
-    ]
+    ],
+    "enExample2": "Securing venture capital funding extended the startup's financial runway by eighteen additional months.",
+    "taExample2": "முதலீட்டு நிதியைப் பெற்றது அந்த புத்தொழில் நிறுவனத்தின் செயல்பாட்டுக் காலத்தை (Runway) மேலும் பதினெட்டு மாதங்களுக்கு நீட்டித்தது."
   }
 ]
