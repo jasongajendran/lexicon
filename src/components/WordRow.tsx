@@ -12,6 +12,7 @@ interface WordRowProps {
   isBookmarked: boolean;
   onToggleBookmark: () => void;
   onWordSearch?: (word: string) => void;
+  onSelectWord?: (word: LexiconWord) => void;
 }
 
 export function WordRow({ 
@@ -19,7 +20,8 @@ export function WordRow({
   index, 
   isBookmarked, 
   onToggleBookmark,
-  onWordSearch
+  onWordSearch,
+  onSelectWord
 }: WordRowProps) {
   const [copied, setCopied] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
@@ -112,19 +114,31 @@ export function WordRow({
     );
   };
 
+  const handleRowClick = () => {
+    if (onSelectWord) {
+      triggerHaptic();
+      onSelectWord(word);
+    }
+  };
+
   return (
     <motion.div 
+      id={`word-entry-${word.id}`}
       ref={rowRef}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-      className={`group relative flex flex-col md:flex-row gap-6 md:gap-12 py-12 md:py-16 border-t border-zinc-800/50 transition-all duration-300 px-4 md:px-8 ${isCentered ? 'bg-zinc-900/40' : 'hover:bg-zinc-900/30'}`}
+      onClick={handleRowClick}
+      className={`group relative flex flex-col md:flex-row gap-6 md:gap-12 py-12 md:py-16 border-t border-zinc-800/50 transition-all duration-300 px-4 md:px-8 cursor-pointer ${isCentered ? 'bg-zinc-900/40' : 'hover:bg-zinc-900/30'}`}
     >
-      {/* Index Number */}
+      {/* Index Number & Detail Hint */}
       <div className="absolute top-4 left-4 md:top-8 md:left-8 text-xs font-mono text-zinc-600 tracking-widest flex items-center gap-2">
         <span>{index.toString().padStart(2, '0')}</span>
         {isBookmarked && <Bookmark size={12} className="text-amber-400 fill-amber-400" />}
+        <span className="hidden sm:inline text-[10px] text-zinc-600 group-hover:text-amber-400/80 transition-colors font-mono ml-2 opacity-0 group-hover:opacity-100">
+          • Click for 2 examples & thesaurus
+        </span>
       </div>
 
       {/* Top Right Actions */}
@@ -157,16 +171,11 @@ export function WordRow({
       {/* Left Column: Word & Definition */}
       <div className="md:w-5/12 flex flex-col justify-center">
         <div className="flex items-baseline gap-4 flex-wrap">
-          <button 
-            onClick={handleSpeak}
-            className="text-left group/title flex items-baseline gap-2 cursor-pointer focus:outline-none"
-            title="Click to pronounce"
-          >
+          <div className="text-left group/title flex items-baseline gap-2">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif italic tracking-tight text-amber-400 group-hover/title:text-amber-300 transition-colors">
               {word.word}
             </h2>
-            <Volume2 size={18} className="text-zinc-600 group-hover/title:text-amber-400 transition-colors opacity-0 group-hover/title:opacity-100" />
-          </button>
+          </div>
           <span className="text-xs font-mono text-purple-300 bg-purple-400/10 px-2 py-0.5 rounded border border-purple-400/20">{word.pos}</span>
         </div>
         <div className="mt-5 flex flex-col gap-3">

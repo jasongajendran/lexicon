@@ -8,4 +8,6 @@ export interface LexiconWord {
   pos: string;
   synonyms?: string[];
   antonyms?: string[];
+  enExample2?: string;
+  taExample2?: string;
 }

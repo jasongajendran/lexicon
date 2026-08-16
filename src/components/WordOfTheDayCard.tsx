@@ -10,13 +10,15 @@ interface WordOfTheDayCardProps {
   isBookmarked: boolean;
   onToggleBookmark: () => void;
   onWordSearch?: (wordText: string) => void;
+  onSelectWord?: (word: LexiconWord) => void;
 }
 
 export function WordOfTheDayCard({
   word,
   isBookmarked,
   onToggleBookmark,
-  onWordSearch
+  onWordSearch,
+  onSelectWord
 }: WordOfTheDayCardProps) {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -28,6 +30,13 @@ export function WordOfTheDayCard({
       } catch (e) {
         // ignore
       }
+    }
+  };
+
+  const handleCardClick = () => {
+    if (onSelectWord) {
+      triggerHaptic();
+      onSelectWord(word);
     }
   };
 
@@ -189,7 +198,7 @@ export function WordOfTheDayCard({
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-4 border-t border-zinc-800/60 z-10 relative">
         <div className="p-3 rounded-xl bg-zinc-950/60 border border-zinc-800/60">
           <span className="text-[10px] font-mono text-blue-300 uppercase tracking-widest block mb-1 font-medium">
-            Engineering Context
+            Engineering Context 1
           </span>
           <p className="text-xs font-serif text-zinc-300 italic leading-relaxed">
             "{word.enExample}"
@@ -197,13 +206,26 @@ export function WordOfTheDayCard({
         </div>
         <div className="p-3 rounded-xl bg-zinc-950/60 border border-zinc-800/60">
           <span className="text-[10px] font-mono text-indigo-300 uppercase tracking-widest block mb-1 font-medium">
-            Tamil Usage
+            Tamil Usage 1
           </span>
           <p className="text-xs font-tamil text-zinc-300 leading-relaxed">
             "{word.taExample}"
           </p>
         </div>
       </div>
+
+      {/* View 2nd Example & Thesaurus Modal Button */}
+      {onSelectWord && (
+        <div className="pt-3 border-t border-zinc-800/60 flex justify-end z-10 relative">
+          <button
+            onClick={handleCardClick}
+            className="text-xs font-mono text-amber-400 hover:text-amber-300 flex items-center gap-1.5 px-3 py-1 rounded-xl bg-amber-400/10 hover:bg-amber-400/20 border border-amber-400/25 transition-all"
+          >
+            <span>View Dual Examples & Thesaurus Modal</span>
+            <span>→</span>
+          </button>
+        </div>
+      )}
     </motion.div>
   );
 }

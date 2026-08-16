@@ -120,6 +120,7 @@ export function FlashcardView({
   const [isShuffleEnabled, setIsShuffleEnabled] = useState(false);
   const [shuffleHistory, setShuffleHistory] = useState<number[]>([]);
   const [historyPointer, setHistoryPointer] = useState<number>(-1);
+  const [exampleTab, setExampleTab] = useState<1 | 2>(1);
 
   // Touch Swipe tracking
   const touchStartXRef = useRef<number | null>(null);
@@ -140,6 +141,7 @@ export function FlashcardView({
   useEffect(() => {
     setCurrentIndex(0);
     setIsFlipped(false);
+    setExampleTab(1);
     setShuffleHistory([0]);
     setHistoryPointer(0);
   }, [filterMode, words.length]);
@@ -158,6 +160,7 @@ export function FlashcardView({
     if (deck.length === 0) return;
     triggerHaptic();
     setIsFlipped(false);
+    setExampleTab(1);
     setDirection(1);
 
     if (isShuffleEnabled) {
@@ -186,6 +189,7 @@ export function FlashcardView({
     if (deck.length === 0) return;
     triggerHaptic();
     setIsFlipped(false);
+    setExampleTab(1);
     setDirection(-1);
 
     if (isShuffleEnabled) {
@@ -626,14 +630,51 @@ export function FlashcardView({
                     </p>
                   </div>
 
-                  {/* Context Cards */}
+                  {/* Context Cards with Dual Example Switcher */}
                   <div className="p-3 rounded-2xl bg-zinc-950/70 border border-zinc-800/70 space-y-2">
-                    <div>
-                      <span className={`text-[10px] font-mono ${theme.accentText} uppercase tracking-widest block mb-0.5 font-semibold`}>
-                        Engineering Context
+                    <div className="flex items-center justify-between">
+                      <span className={`text-[10px] font-mono ${theme.accentText} uppercase tracking-widest block font-semibold`}>
+                        {exampleTab === 1 ? 'Primary Context 1' : 'Secondary Context 2'}
                       </span>
+                      {currentWord.enExample2 && (
+                        <div className="flex items-center gap-1">
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              triggerHaptic();
+                              setExampleTab(1);
+                            }}
+                            className={`px-2 py-0.5 rounded-md text-[10px] font-mono transition-all ${
+                              exampleTab === 1
+                                ? 'bg-amber-400 text-black font-bold'
+                                : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
+                            }`}
+                          >
+                            Ex 1
+                          </button>
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              triggerHaptic();
+                              setExampleTab(2);
+                            }}
+                            className={`px-2 py-0.5 rounded-md text-[10px] font-mono transition-all ${
+                              exampleTab === 2
+                                ? 'bg-amber-400 text-black font-bold'
+                                : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
+                            }`}
+                          >
+                            Ex 2
+                          </button>
+                        </div>
+                      )}
+                    </div>
+
+                    <div>
                       <p className="text-xs font-serif text-zinc-200 italic leading-relaxed">
-                        "{currentWord.enExample}"
+                        "{exampleTab === 2 && currentWord.enExample2 ? currentWord.enExample2 : currentWord.enExample}"
                       </p>
                     </div>
 
@@ -642,7 +683,7 @@ export function FlashcardView({
                         Tamil Usage ({currentWord.taWord})
                       </span>
                       <p className="text-xs font-tamil text-zinc-300 leading-relaxed">
-                        "{currentWord.taExample}"
+                        "{exampleTab === 2 && currentWord.taExample2 ? currentWord.taExample2 : currentWord.taExample}"
                       </p>
                     </div>
                   </div>

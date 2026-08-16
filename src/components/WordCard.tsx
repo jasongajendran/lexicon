@@ -12,6 +12,7 @@ export interface WordCardProps {
   isBookmarked: boolean;
   onToggleBookmark: () => void;
   onWordSearch?: (word: string) => void;
+  onSelectWord?: (word: LexiconWord) => void;
 }
 
 export function WordCard({
@@ -19,7 +20,8 @@ export function WordCard({
   index,
   isBookmarked,
   onToggleBookmark,
-  onWordSearch
+  onWordSearch,
+  onSelectWord
 }: WordCardProps) {
   const [copied, setCopied] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
@@ -31,6 +33,13 @@ export function WordCard({
       } catch (e) {
         // ignore
       }
+    }
+  };
+
+  const handleCardClick = () => {
+    if (onSelectWord) {
+      triggerHaptic();
+      onSelectWord(word);
     }
   };
 
@@ -68,10 +77,12 @@ export function WordCard({
 
   return (
     <motion.div
+      id={`word-entry-${word.id}`}
       initial={{ opacity: 0, y: 15 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
-      className="group relative flex flex-col justify-between p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 hover:border-amber-400/30 transition-all duration-300 shadow-lg overflow-hidden backdrop-blur-md"
+      onClick={handleCardClick}
+      className="group relative flex flex-col justify-between p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 hover:border-amber-400/40 transition-all duration-300 shadow-lg overflow-hidden backdrop-blur-md cursor-pointer active:scale-[0.99]"
     >
       {/* Ambient background glow */}
       <div className="absolute -top-24 -right-24 w-48 h-48 bg-amber-400/5 rounded-full blur-3xl pointer-events-none group-hover:bg-amber-400/10 transition-all duration-500" />

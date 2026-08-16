@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useMemo } from 'react';
+import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'motion/react';
 import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Filter, X, Keyboard, ArrowUp, RotateCcw, ChevronDown } from 'lucide-react';
 import { wordsData } from './data';
@@ -8,6 +8,8 @@ import { FlashcardView } from './components/FlashcardView';
 import { FilterSheet } from './components/FilterSheet';
 import { BottomNav } from './components/BottomNav';
 import { WordOfTheDayCard } from './components/WordOfTheDayCard';
+import { WordDetailModal } from './components/WordDetailModal';
+import { VerticalWordScrubber } from './components/VerticalWordScrubber';
 import { KeyboardShortcutsModal } from './components/KeyboardShortcutsModal';
 import { LexiconWord } from './types';
 
@@ -37,6 +39,7 @@ export default function App() {
   const [isFilterSheetOpen, setIsFilterSheetOpen] = useState(false);
   const [isKeyboardHelpOpen, setIsKeyboardHelpOpen] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
+  const [selectedWordModal, setSelectedWordModal] = useState<LexiconWord | null>(null);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
@@ -146,7 +149,7 @@ export default function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  // Filter Computation with deep search (Word, Definition, Tamil, Synonyms, Antonyms, POS, Examples)
+  // Filter Computation with deep search (Word, Definition, Tamil, Synonyms, Antonyms, POS, Dual Examples)
   const filteredWords = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
     
@@ -164,12 +167,31 @@ export default function App() {
       const inPos = w.pos.toLowerCase().includes(query);
       const inEnExample = w.enExample?.toLowerCase().includes(query);
       const inTaExample = w.taExample?.toLowerCase().includes(query);
+      const inEnExample2 = w.enExample2?.toLowerCase().includes(query);
+      const inTaExample2 = w.taExample2?.toLowerCase().includes(query);
       const inSynonyms = w.synonyms?.some(s => s.toLowerCase().includes(query));
       const inAntonyms = w.antonyms?.some(a => a.toLowerCase().includes(query));
 
-      return inWord || inDef || inTaWord || inPos || inEnExample || inTaExample || inSynonyms || inAntonyms;
+      return inWord || inDef || inTaWord || inPos || inEnExample || inTaExample || inEnExample2 || inTaExample2 || inSynonyms || inAntonyms;
     });
   }, [searchQuery, activeLetter, activePos, showOnlyBookmarks, bookmarkedIds]);
+
+  const currentModalIndex = useMemo(() => {
+    if (!selectedWordModal) return -1;
+    return filteredWords.findIndex(w => w.id === selectedWordModal.id);
+  }, [selectedWordModal, filteredWords]);
+
+  const handlePrevModalWord = () => {
+    if (currentModalIndex > 0) {
+      setSelectedWordModal(filteredWords[currentModalIndex - 1]);
+    }
+  };
+
+  const handleNextModalWord = () => {
+    if (currentModalIndex >= 0 && currentModalIndex < filteredWords.length - 1) {
+      setSelectedWordModal(filteredWords[currentModalIndex + 1]);
+    }
+  };
 
   // Reset pagination on filter change
   useEffect(() => {
@@ -209,6 +231,26 @@ export default function App() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  const handleNavigateToWord = useCallback((index: number, word: LexiconWord) => {
+    // If the target word is beyond current visibleCount, expand visibleCount immediately
+    if (index >= visibleCount) {
+      setVisibleCount(Math.max(visibleCount, index + PAGE_INCREMENT + 20));
+    }
+
+    // Give React frame to mount the element if it was just revealed
+    requestAnimationFrame(() => {
+      const element = document.getElementById(`word-entry-${word.id}`);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Apply temporary high-visibility highlight ring
+        element.classList.add('ring-2', 'ring-amber-400', 'ring-offset-4', 'ring-offset-zinc-950');
+        setTimeout(() => {
+          element.classList.remove('ring-2', 'ring-amber-400', 'ring-offset-4', 'ring-offset-zinc-950');
+        }, 1800);
+      }
+    });
+  }, [visibleCount]);
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-zinc-50 flex flex-col lg:flex-row overflow-x-hidden selection:bg-amber-400 selection:text-black pb-24 lg:pb-0">
@@ -697,6 +739,7 @@ export default function App() {
               isBookmarked={bookmarkedIds.includes(spotlightWord.id)}
               onToggleBookmark={() => toggleBookmark(spotlightWord.id)}
               onWordSearch={handleWordLinkClick}
+              onSelectWord={setSelectedWordModal}
             />
           )}
 
@@ -727,6 +770,7 @@ export default function App() {
                       isBookmarked={bookmarkedIds.includes(word.id)}
                       onToggleBookmark={() => toggleBookmark(word.id)}
                       onWordSearch={handleWordLinkClick}
+                      onSelectWord={setSelectedWordModal}
                     />
                   ))}
                 </motion.div>
@@ -744,6 +788,7 @@ export default function App() {
                       isBookmarked={bookmarkedIds.includes(word.id)}
                       onToggleBookmark={() => toggleBookmark(word.id)}
                       onWordSearch={handleWordLinkClick}
+                      onSelectWord={setSelectedWordModal}
                     />
                   ))}
                 </motion.div>
@@ -801,6 +846,16 @@ export default function App() {
         </div>
       </main>
 
+      {/* Vertical Word Scrubber Rail (Quick Navigation Bar) */}
+      {currentTab === 'feed' && filteredWords.length > 0 && (
+        <VerticalWordScrubber
+          words={filteredWords}
+          activeLetter={activeLetter}
+          onNavigateToWord={handleNavigateToWord}
+          onSelectLetter={setActiveLetter}
+        />
+      )}
+
       {/* Floating Back To Top Button */}
       <AnimatePresence>
         {showBackToTop && (
@@ -809,13 +864,32 @@ export default function App() {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
             onClick={scrollToTop}
-            className="fixed bottom-20 lg:bottom-8 right-6 z-40 p-3 rounded-full bg-amber-400 text-black shadow-2xl hover:bg-amber-300 active:scale-90 transition-all"
+            className="fixed bottom-20 lg:bottom-8 right-12 sm:right-16 z-40 p-2.5 sm:p-3 rounded-full bg-amber-400 text-black shadow-2xl hover:bg-amber-300 active:scale-90 transition-all border border-amber-300/40"
             title="Scroll to Top"
           >
-            <ArrowUp size={18} />
+            <ArrowUp size={16} />
           </motion.button>
         )}
       </AnimatePresence>
+
+      {/* Word Detail & Secondary Examples & Thesaurus Modal */}
+      <WordDetailModal
+        word={selectedWordModal}
+        isOpen={Boolean(selectedWordModal)}
+        onClose={() => setSelectedWordModal(null)}
+        isBookmarked={selectedWordModal ? bookmarkedIds.includes(selectedWordModal.id) : false}
+        onToggleBookmark={() => {
+          if (selectedWordModal) {
+            toggleBookmark(selectedWordModal.id);
+          }
+        }}
+        onSelectWord={setSelectedWordModal}
+        onWordSearch={handleWordLinkClick}
+        onPrevWord={handlePrevModalWord}
+        onNextWord={handleNextModalWord}
+        hasPrev={currentModalIndex > 0}
+        hasNext={currentModalIndex >= 0 && currentModalIndex < filteredWords.length - 1}
+      />
 
       {/* Keyboard Shortcuts Guide Modal */}
       <KeyboardShortcutsModal
