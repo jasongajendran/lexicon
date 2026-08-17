@@ -565,6 +565,28 @@
     "taExample2": "குழு ஆரம்ப நிலையிலான ஒரு கட்டமைப்பு யோசனையை முன்வைத்தது, அது முன்மாதிரிக்கு முன் கணிசமான செம்மைப்படுத்தலைக் கோரியது."
   },
   {
+    "id": 3398,
+    "word": "Incisive",
+    "pos": "adjective",
+    "definition": "Intelligently analytical and clear-thinking.",
+    "taWord": "கூர்மையான / ஆழமான சிந்தனையுள்ள",
+    "enExample": "Her incisive questions during the architecture review identified potential single points of failure.",
+    "taExample": "வடிவமைப்பு மதிப்பாய்வின் போது அவரது கூர்மையான கேள்விகள் சாத்தியமான ஒற்றை தோல்விப் புள்ளிகளைக் கண்டறிந்தன.",
+    "enExample2": "Incisive technical writing cuts through jargon to deliver actionable insights directly.",
+    "taExample2": "கூர்மையான தொழில்நுட்ப எழுத்து தேவையற்ற சொற்களைத் தவிர்த்து நேரடியாக செயல்படக்கூடிய நுண்ணறிவுகளை வழங்குகிறது.",
+    "synonyms": [
+      "sharp",
+      "astute",
+      "penetrating",
+      "perceptive"
+    ],
+    "antonyms": [
+      "vague",
+      "shallow",
+      "obtuse"
+    ]
+  },
+  {
     "id": 2873,
     "word": "Incite",
     "pos": "verb",

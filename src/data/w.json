@@ -401,26 +401,6 @@
     "taExample2": "உருவாக்குநரின் கனிவான கவர்ச்சிகரமான (Winsome) ஆளுமையும் கூட்டுப் பணி மனப்பான்மையும் அவரை இளம் பொறியாளர்களின் விருப்பமான வழிகாட்டியாக்கியது."
   },
   {
-    "id": 2682,
-    "word": "WIP",
-    "definition": "Work In Progress; items currently started but not yet completed, often capped by WIP limits.",
-    "enExample": "Setting a WIP limit of three tasks per developer reduced our context switching drastically.",
-    "taExample": "ஒரு டெவலப்பருக்கு மூன்று பணிகள் மட்டுமே என்ற வரம்பை அமைத்தது கவனச்சிதறலை பெருமளவு குறைத்தது.",
-    "taWord": "நடைமுறையில் உள்ள பணி",
-    "pos": "noun",
-    "synonyms": [
-      "Work in progress",
-      "Active tasks",
-      "In-flight work"
-    ],
-    "antonyms": [
-      "Completed work",
-      "Backlog"
-    ],
-    "enExample2": "Restricting Work In Progress (WIP) limits on the Kanban board prevents developer multitasking and context switching.",
-    "taExample2": "கான்பன் பலகையில் ஒரே நேரத்தில் செய்யும் வேலை வரம்புகளைக் (WIP) கட்டுப்படுத்துவது தேவையற்ற கவனச் சிதறலைத் தடுக்கிறது."
-  },
-  {
     "id": 2308,
     "word": "Wireframe",
     "definition": "A low-fidelity visual schematic outline representing the layout, content hierarchy, and navigational structure of a web page.",

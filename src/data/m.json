@@ -908,46 +908,6 @@
     "taExample2": "பின்தளத்தை முழுமையாக மாற்றியமைத்தது பயனர்களைத் தக்கவைப்பதில் எந்தவொரு குறிப்பிடத்தக்க முன்னேற்றத்தையும் ஏற்படுத்தவில்லை."
   },
   {
-    "id": 2802,
-    "word": "MTTD",
-    "pos": "noun",
-    "definition": "Mean Time to Detect; the average time elapsed between the inception of a system failure and its initial detection by alerts.",
-    "enExample": "By establishing real-time anomaly alerts on error rates, our team reduced MTTD to under thirty seconds.",
-    "taWord": "சராசரி பிழை கண்டறியும் நேரம்",
-    "taExample": "அமைப்பில் ஒரு தவறு நடந்த தருணத்திலிருந்து அதை எச்சரிக்கைகள் மூலம் கண்டறிய எடுக்கும் நேரம்.",
-    "synonyms": [
-      "Detection time",
-      "Time-to-alert",
-      "Discovery latency"
-    ],
-    "antonyms": [
-      "Silent unspotted failure",
-      "Delayed alert"
-    ],
-    "enExample2": "Automated anomaly alerts reduced our Mean Time to Detect (MTTD) down to under sixty seconds.",
-    "taExample2": "தானியங்கி முரண்பாட்டு எச்சரிக்கைகள் எங்கள் சராசரி கண்டறியும் நேரத்தை (MTTD) அறுபது விநாடிகளுக்குள் குறைத்தன."
-  },
-  {
-    "id": 2801,
-    "word": "MTTR",
-    "pos": "noun",
-    "definition": "Mean Time to Resolution / Repair; the average time taken by an engineering team to fully restore service after an outage occurs.",
-    "enExample": "Automating our rollback runbooks reduced our incident MTTR from forty-five minutes down to under four minutes.",
-    "taWord": "சராசரி சரிசெய்யும் நேரம்",
-    "taExample": "சேவை முடங்கியதில் இருந்து அதை முழுமையாக சரிசெய்ய எடுக்கும் சராசரி நேரம்.",
-    "synonyms": [
-      "Recovery time",
-      "Resolution duration",
-      "Incident turnaround"
-    ],
-    "antonyms": [
-      "Extended downtime",
-      "Prolonged outage"
-    ],
-    "enExample2": "Automated rollback pipelines cut the Mean Time to Recovery (MTTR) by more than seventy percent.",
-    "taExample2": "தானியங்கி மீட்டெடுப்பு அமைப்புகள் சராசரி மீட்பு நேரத்தை (MTTR) எழுபது சதவீதத்திற்கும் அதிகமாகக் குறைத்தன."
-  },
-  {
     "id": 2731,
     "word": "Multitenancy",
     "pos": "noun",

@@ -16,6 +16,7 @@ export function VerticalWordScrubber({
   onNavigateToWord,
   onSelectLetter,
 }: VerticalWordScrubberProps) {
+  const [isExpanded, setIsExpanded] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
   const [activeWordIdx, setActiveWordIdx] = useState<number>(0);
@@ -172,6 +173,31 @@ export function VerticalWordScrubber({
 
   if (!words || words.length <= 1) return null;
 
+  if (!isExpanded) {
+    return (
+      <motion.div
+        initial={{ opacity: 0, x: 20 }}
+        animate={{ opacity: 1, x: 0 }}
+        className="fixed right-1 sm:right-3 top-1/2 -translate-y-1/2 z-40 select-none"
+      >
+        <button
+          onClick={() => {
+            triggerHaptic();
+            setIsExpanded(true);
+          }}
+          className="p-2 sm:p-2.5 rounded-2xl bg-zinc-950/85 hover:bg-zinc-900 text-amber-400 border border-zinc-800 hover:border-amber-400/50 shadow-2xl backdrop-blur-xl flex flex-col items-center gap-1 active:scale-95 transition-all group"
+          title="Expand Quick Navigation Scrubber"
+          aria-label="Expand Quick Navigation Scrubber"
+        >
+          <Compass size={18} className="group-hover:rotate-45 transition-transform duration-300" />
+          <span className="text-[10px] font-mono font-bold text-zinc-300 group-hover:text-amber-400 uppercase">
+            {isSpecificLetter ? activeLetter : 'A-Z'}
+          </span>
+        </button>
+      </motion.div>
+    );
+  }
+
   const currentPreviewWord =
     hoveredIdx !== null && words[hoveredIdx]
       ? words[hoveredIdx]
@@ -238,18 +264,31 @@ export function VerticalWordScrubber({
       </AnimatePresence>
 
       {/* Main Scrubber Pillar Container */}
-      <div className="relative flex flex-col items-center py-2 px-1 rounded-2xl bg-zinc-950/85 backdrop-blur-xl border border-zinc-800/90 shadow-2xl shadow-black/80 transition-all hover:border-amber-400/50 hover:bg-zinc-900/95">
-        {/* Top Header: Current Letter / Quick Jump to Top */}
-        <button
-          onClick={() => {
-            triggerHaptic(0);
-            onNavigateToWord(0, words[0]);
-          }}
-          className="p-1 rounded-lg text-zinc-500 hover:text-amber-400 hover:bg-zinc-800/80 transition-all mb-1"
-          title="Scroll to first word (Top)"
-        >
-          <ArrowUp size={12} />
-        </button>
+      <div className="relative flex flex-col items-center py-2 px-1 rounded-2xl bg-zinc-950/90 backdrop-blur-xl border border-zinc-800/90 shadow-2xl shadow-black/80 transition-all hover:border-amber-400/50 hover:bg-zinc-900/95">
+        {/* Top Control Bar: Collapse Button & Jump to Top */}
+        <div className="flex flex-col items-center gap-1 mb-1">
+          <button
+            onClick={() => {
+              triggerHaptic();
+              setIsExpanded(false);
+            }}
+            className="p-1 rounded-lg text-zinc-400 hover:text-amber-400 hover:bg-zinc-800 transition-all"
+            title="Collapse Scrubber Rail"
+          >
+            <ChevronRight size={14} />
+          </button>
+
+          <button
+            onClick={() => {
+              triggerHaptic(0);
+              onNavigateToWord(0, words[0]);
+            }}
+            className="p-1 rounded-lg text-zinc-500 hover:text-amber-400 hover:bg-zinc-800/80 transition-all"
+            title="Scroll to first word (Top)"
+          >
+            <ArrowUp size={12} />
+          </button>
+        </div>
 
         {/* Current Letter Badge */}
         <div className="w-6 h-6 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-400 text-[10px] font-mono font-bold flex items-center justify-center mb-1.5 shadow-sm">

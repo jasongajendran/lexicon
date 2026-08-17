@@ -622,26 +622,6 @@
     "taExample2": "CORS விதிகள் பிற மூலத்தில் (Origin) உள்ள API-களை அங்கீகரிக்கப்படாத ஸ்கிரிப்டுகள் அணுகுவதைத் தடுக்கின்றன."
   },
   {
-    "id": 2735,
-    "word": "ORM",
-    "pos": "noun",
-    "definition": "Object-Relational Mapping; a software technique that bridges object-oriented code with relational databases, treating tables as queryable classes.",
-    "taWord": "ஆப்ஜெக்ட்-தரவுத்தள தொடர்பு முறைமை",
-    "enExample": "Prisma ORM provided end-to-end type safety between our PostgreSQL database schema and TypeScript application layer.",
-    "taExample": "SQL வினவல்களை நேரடியாக எழுதாமல் TypeScript மொழியிலேயே தரவுகளைக் கையாள ORM பயன்படுத்தப்பட்டது.",
-    "synonyms": [
-      "data mapper",
-      "relational bridge",
-      "active record"
-    ],
-    "antonyms": [
-      "raw SQL client",
-      "manual query driver"
-    ],
-    "enExample2": "Prisma ORM provides type-safe database queries and automated schema migrations out of the box.",
-    "taExample2": "Prisma ORM தானியங்கி வகை பாதுகாப்பு மற்றும் தரவுத்தள கட்டமைப்பு மாற்றங்களை வழங்குகிறது."
-  },
-  {
     "id": 2992,
     "word": "Ostensible",
     "pos": "adj.",

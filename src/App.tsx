@@ -27,8 +27,8 @@ export default function App() {
   const [bookmarkedIds, setBookmarkedIds] = useState<number[]>([]);
   const [showOnlyBookmarks, setShowOnlyBookmarks] = useState(false);
 
-  // Accordion state: keep only one filter open by default on initial load (e.g. alphabet)
-  const [openSidebarSection, setOpenSidebarSection] = useState<'alphabet' | 'category' | 'saved' | null>('alphabet');
+  // Accordion state: keep everything collapsed by default on initial load
+  const [openSidebarSection, setOpenSidebarSection] = useState<'alphabet' | 'category' | 'saved' | null>(null);
 
   // Progressive rendering limit for ultra-smooth 60fps scrolling
   const [visibleCount, setVisibleCount] = useState(INITIAL_PAGE_SIZE);

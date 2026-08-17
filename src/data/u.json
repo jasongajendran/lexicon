@@ -86,6 +86,28 @@
     "taExample2": "தானியங்கி சோதனைகள் குறியீட்டு மறுஆய்வுகளை மாற்றும் என்ற கருத்தை மூத்த பொறியாளர் மனவருத்தத்துடன் (Umbrage) எதிர்த்தார்."
   },
   {
+    "id": 3401,
+    "word": "Unambiguous",
+    "pos": "adjective",
+    "definition": "Not open to more than one interpretation; completely clear and precise.",
+    "taWord": "தெளிவான / சந்தேகத்திற்கு இடமில்லாத",
+    "enExample": "Unambiguous API endpoint specifications prevent integration friction between frontend and backend teams.",
+    "taExample": "தெளிவான API விவரக்குறிப்புகள் முன்முனை மற்றும் பின்முனை குழுக்களுக்கு இடையே ஒருங்கிணைப்பு உராய்வைத் தடுக்கின்றன.",
+    "enExample2": "Clear technical documentation provides unambiguous instructions for disaster recovery procedures.",
+    "taExample2": "தெளிவான தொழில்நுட்ப ஆவணங்கள் பேரழிவு மீட்பு நடைமுறைகளுக்கு தெளிவான வழிமுறைகளை வழங்குகின்றன.",
+    "synonyms": [
+      "explicit",
+      "clear-cut",
+      "unequivocal",
+      "unmistakable"
+    ],
+    "antonyms": [
+      "ambiguous",
+      "vague",
+      "equivocal"
+    ]
+  },
+  {
     "id": 2101,
     "word": "Unary",
     "definition": "An operation or operator taking exactly one operand in mathematical or programming expressions.",
@@ -565,27 +587,6 @@
     ],
     "enExample2": "Our enterprise service level agreement guarantees 99.99% monthly infrastructure uptime.",
     "taExample2": "எங்கள் நிறுவன சேவை ஒப்பந்தம் 99.99% மாதாந்திர உள்கட்டமைப்பு செயல்பாட்டு நேரத்தை (Uptime) உத்தரவாதம் செய்கிறது."
-  },
-  {
-    "id": 2112,
-    "word": "URI",
-    "definition": "Uniform Resource Identifier; a compact string of characters that uniquely identifies a physical or abstract resource.",
-    "enExample": "A URL is a specific type of URI that provides a location method for web resources.",
-    "taExample": "URL என்பது வலை வளங்களுக்கான இருப்பிட முறையை வழங்கும் ஒரு குறிப்பிட்ட வகை URI ஆகும்.",
-    "taWord": "வள அடையாளங்காட்டி (URI)",
-    "pos": "noun",
-    "synonyms": [
-      "Resource identifier",
-      "URL",
-      "URN"
-    ],
-    "antonyms": [
-      "Anonymous resource",
-      "Unaddressed object",
-      "Relative path fragment"
-    ],
-    "enExample2": "A Uniform Resource Identifier (URI) uniquely identifies a specific resource endpoint on the network.",
-    "taExample2": "ஒரு சீரான வள அடையாளங்காட்டி (URI) நெட்வொர்க்கில் உள்ள ஒரு குறிப்பிட்ட வளத்தின் முகவரியை தனித்துவமாக அடையாளப்படுத்துகிறது."
   },
   {
     "id": 2113,

@@ -221,26 +221,6 @@
     "taExample2": "தரவுத்தள வினவல் திட்டமிடுபவர் (Query Planner) வேகத்தை உகப்பாக்க குறியீட்டுத் தேடலுக்கும் நேரடித் தேடலுக்கும் இடையே சிறந்ததைத் தேர்ந்தெடுக்கிறார்."
   },
   {
-    "id": 1711,
-    "word": "QueryString",
-    "definition": "The portion of a URL containing key-value parameters assigned after a question mark.",
-    "enExample": "Parse the URL queryString to extract search keywords and page numbers.",
-    "taExample": "தேடல் முக்கிய வார்த்தைகள் மற்றும் பக்க எண்களைப் பிரித்தெடுக்க URL வினவல் சரத்தை (QueryString) பாகுபடுத்துங்கள்.",
-    "taWord": "வினவல் சரம் (QueryString)",
-    "pos": "noun",
-    "synonyms": [
-      "URL params",
-      "Search string"
-    ],
-    "antonyms": [
-      "Request body",
-      "Headers",
-      "Static route path"
-    ],
-    "enExample2": "The search bar encodes filters and sort orders directly into the URL QueryString for shareable bookmarks.",
-    "taExample2": "பகிர்ந்து கொள்ளக்கூடிய இணைப்புகளுக்காக தேடல் பட்டி வடிகட்டிகளை நேரடியாக URL QueryString-ல் குறியாக்கம் செய்கிறது."
-  },
-  {
     "id": 1706,
     "word": "Queue",
     "definition": "A linear data structure following First-In-First-Out (FIFO) processing order.",
@@ -278,25 +258,6 @@
     ],
     "enExample2": "While a quickfix restored service immediately, the team scheduled a comprehensive architectural refactoring for next sprint.",
     "taExample2": "ஒரு உடனடி தீர்வு (Quickfix) சேவையை உடனடியாக மீட்டெடுத்தாலும் அடுத்த சுழற்சியில் முழுமையான சீரமைப்பை குழு திட்டமிட்டது."
-  },
-  {
-    "id": 1707,
-    "word": "QuickSort",
-    "definition": "An efficient divide-and-conquer sorting algorithm based on partitioning arrays around a pivot element.",
-    "enExample": "QuickSort achieves average-case O(n log n) performance for large unsorted arrays.",
-    "taExample": "குயிக்சார்ட் பெரிய வகைப்படுத்தப்படாத வரிசைகளுக்கு சராசரி O(n log n) செயல்திறனை அடைகிறது.",
-    "taWord": "விரைவு வகைப்படுத்தல் (QuickSort)",
-    "pos": "noun",
-    "synonyms": [
-      "Partition sort"
-    ],
-    "antonyms": [
-      "BubbleSort",
-      "Slow linear scan",
-      "Random shuffle"
-    ],
-    "enExample2": "QuickSort provides efficient O(n log n) average-case performance by recursively partitioning arrays around a pivot.",
-    "taExample2": "குவிக்சார்ட் (QuickSort) ஒரு மைய உறுப்பைச் சுற்றி அணிகளைப் பிரிப்பதன் மூலம் திறமையான சராசரி வரிசைப்படுத்தல் வேகத்தை வழங்குகிறது."
   },
   {
     "id": 1713,

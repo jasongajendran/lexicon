@@ -60,25 +60,6 @@
     "taExample2": "நுண்சேவைகள் பாதுகாப்புக் குறைபாடுகளைத் தனிமைப்படுத்தி பாதிக்கப்பட்ட முனையத்தின் பாதிப்பு பரப்பளவை (Radius) கடுமையாகக் கட்டுப்படுத்துகின்றன."
   },
   {
-    "id": 2813,
-    "word": "RAG",
-    "pos": "noun",
-    "definition": "Retrieval-Augmented Generation; an AI architecture that fetches relevant domain documents from external databases and injects them into LLM prompts.",
-    "enExample": "Our internal search uses RAG to provide accurate answers with direct source citations from our Confluence workspace.",
-    "taWord": "தேடல்சார் பதிலாக்கம்",
-    "taExample": "வெளிப்புற ஆவணங்களைத் தேடி எடுத்து அவற்றை அடிப்படையாகக் கொண்டு சரியான பதில்களை உருவாக்கும் செயற்கை நுண்ணறிவு முறை.",
-    "synonyms": [
-      "Retrieval augmented generation",
-      "Knowledge-augmented inference"
-    ],
-    "antonyms": [
-      "Un-grounded generation",
-      "Pure parametric recall"
-    ],
-    "enExample2": "Enterprise search tools use RAG to combine large language models with real-time internal documentation.",
-    "taExample2": "நிறுவன தேடல் கருவிகள் AI மொழி மாதிரிகளை நிகழ்நேர உள்நாட்டு ஆவணங்களுடன் இணைக்க RAG தொழில் நுட்பத்தைப் பயன்படுத்துகின்றன."
-  },
-  {
     "id": 2939,
     "word": "Ramification",
     "pos": "noun",
@@ -1378,6 +1359,28 @@
     ]
   },
   {
+    "id": 3399,
+    "word": "Rigor",
+    "pos": "noun",
+    "definition": "The quality of being extremely thorough, exhaustive, or accurate.",
+    "taWord": "துல்லியம் / கடுமையான துல்லியம்",
+    "enExample": "Applying mathematical rigor to load testing guarantees system stability under peak load.",
+    "taExample": "சுமை சோதனைக்கு கடுமையான துல்லியத்தைப் பயன்படுத்துவது உச்ச சுமையின் கீழ் கணினி ஸ்திரத்தன்மைக்கு உத்தரவாதம் அளிக்கிறது.",
+    "enExample2": "Technical presentations require intellectual rigor to withstand scrutiny from senior architects.",
+    "taExample2": "தொழில்நுட்ப விளக்கக்காட்சிகளுக்கு மூத்த வடிவமைப்பாளர்களின் ஆய்வைத் தாங்குவதற்கு அறிவுசார் துல்லியம் தேவைப்படுகிறது.",
+    "synonyms": [
+      "thoroughness",
+      "accuracy",
+      "meticulousness",
+      "precision"
+    ],
+    "antonyms": [
+      "laxity",
+      "carelessness",
+      "looseness"
+    ]
+  },
+  {
     "id": 2619,
     "word": "Rizz",
     "definition": "Charisma, charm, or the natural ability to persuade, impress, or attract others.",
@@ -1396,25 +1399,6 @@
     ],
     "enExample2": "The developer advocate used his effortless charisma and tech rizz to deliver an engaging conference keynote.",
     "taExample2": "தொழில்நுட்ப பிரதிநிதி தனது இயல்பான கவர்ச்சியையும் வசீகரத்தையும் (Rizz) பயன்படுத்தி ஒரு ஈர்க்கக்கூடிய மாநாட்டு உரையை வழங்கினார்."
-  },
-  {
-    "id": 2814,
-    "word": "RLHF",
-    "pos": "noun",
-    "definition": "Reinforcement Learning from Human Feedback; training method aligning AI models with human values, helpfulness, and safety preferences.",
-    "enExample": "RLHF fine-tuning transformed the raw base model into a polite, secure, and helpful chat assistant.",
-    "taWord": "மனித பின்னூட்டம் வழி கற்றல்",
-    "taExample": "மனிதர்களின் மதிப்பீடுகளை அடிப்படையாகக் கொண்டு செயற்கை நுண்ணறிவின் நடத்தை மற்றும் பாதுகாப்பை செம்மைப்படுத்தும் முறை.",
-    "synonyms": [
-      "Human alignment training",
-      "Preference optimization"
-    ],
-    "antonyms": [
-      "Unsupervised pretraining",
-      "Raw token prediction"
-    ],
-    "enExample2": "Reinforcement Learning from Human Feedback (RLHF) aligns generative AI outputs with human safety guidelines.",
-    "taExample2": "மனித கருத்து பின்னூட்ட வலுவூட்டல் கற்றல் (RLHF) AI வெளியீடுகளை மனித பாதுகாப்பு வழிகாட்டுதல்களுடன் ஒத்திசைக்கிறது."
   },
   {
     "id": 1820,
@@ -1437,26 +1421,6 @@
     ],
     "enExample2": "The quarterly product roadmap prioritizes core query performance improvements before launching secondary features.",
     "taExample2": "காலாண்டு தயாரிப்பு திட்ட வரைபடம் (Roadmap) கூடுதல் வசதிகளுக்கு முன் வினவல் செயல்திறன் மேம்பாட்டிற்கு முன்னுரிமை அளிக்கிறது."
-  },
-  {
-    "id": 2672,
-    "word": "ROI",
-    "definition": "Return on Investment; a metric evaluating the financial or productivity gain relative to cost.",
-    "enExample": "Automating our end-to-end regression tests provided an immediate ROI by cutting release cycles in half.",
-    "taExample": "எண்ட்-டு-எண்ட் சோதனைகளை தானியக்கமாக்கியது வெளியீட்டு சுழற்சிகளை பாதியாகக் குறைத்து உடனடி முதலீட்டுப் பலனை அளித்தது.",
-    "taWord": "முதலீட்டின் மீதான வருவாய் / பயன்",
-    "pos": "noun",
-    "synonyms": [
-      "Yield",
-      "Gain",
-      "Payoff"
-    ],
-    "antonyms": [
-      "Deficit",
-      "Financial loss"
-    ],
-    "enExample2": "Automating manual regression tests provided a massive Return on Investment (ROI) by freeing up engineering hours.",
-    "taExample2": "கையேடு சோதனைகளை தானியக்கமாக்கியது பொறியியல் நேரத்தை மிச்சப்படுத்தி முதலீட்டில் மிகப்பெரிய வருவாயை (ROI) வழங்கியது."
   },
   {
     "id": 1815,

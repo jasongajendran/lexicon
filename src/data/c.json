@@ -517,25 +517,6 @@
     ]
   },
   {
-    "id": 2697,
-    "word": "CI/CD",
-    "definition": "Continuous Integration and Continuous Delivery/Deployment; automated pipelines for building, testing, and shipping code.",
-    "enExample": "Our GitHub Actions CI/CD pipeline automatically runs linters, unit tests, and deploys to staging.",
-    "taExample": "எங்கள் சிஐ/சிடி குழாய்வழியானது தானாகவே சோதனைகளை இயக்கி நிலைநிறுத்தல் சேவையகத்தில் வெளியிடுகிறது.",
-    "taWord": "தொடர் ஒருங்கிணைப்பு மற்றும் தொடர் விநியோகம்",
-    "pos": "noun",
-    "synonyms": [
-      "Automated pipeline",
-      "Build pipeline",
-      "Continuous delivery"
-    ],
-    "antonyms": [
-      "Manual deployment"
-    ],
-    "enExample2": "A fully configured CI/CD pipeline runs automated regression tests before deploying code to production.",
-    "taExample2": "முறையாக கட்டமைக்கப்பட்ட CI/CD பைப்லைன் உற்பத்திக்கு குறியீட்டை அனுப்பும் முன் அனைத்து சோதனைகளையும் இயக்குகிறது."
-  },
-  {
     "id": 2666,
     "word": "Circle back",
     "definition": "To return to or revisit a previously raised topic or question at a future time.",
@@ -2251,25 +2232,6 @@
       "open",
       "transparent"
     ]
-  },
-  {
-    "id": 2767,
-    "word": "CQRS",
-    "pos": "noun",
-    "definition": "Command Query Responsibility Segregation; an architectural pattern separating read operations from write mutations into distinct models.",
-    "enExample": "We adopted CQRS to allow millions of read requests without blocking write operations on transactional ledger tables.",
-    "taWord": "கட்டளை-விசாரணை பிரிப்பு முறை",
-    "taExample": "தரவுகளை எழுதுவதையும் வாசிப்பதையும் தனித்தனி வழிகளில் கையாண்டு செயல்திறனை கூட்டினோம்.",
-    "synonyms": [
-      "Read-write segregation",
-      "Command query separation"
-    ],
-    "antonyms": [
-      "Unified CRUD model",
-      "Monolithic data model"
-    ],
-    "enExample2": "Implementing CQRS separates high-throughput database read queries from write-heavy command workflows.",
-    "taExample2": "CQRS முறையை செயல்படுத்துவது அதிக வாசிப்பு வினவல்களை எழுதும் பணிகளிலிருந்து பிரித்து மேம்படுத்துகிறது."
   },
   {
     "id": 321,

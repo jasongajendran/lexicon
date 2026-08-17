@@ -1,24 +1,5 @@
 [
   {
-    "id": 2506,
-    "word": "Y-Axis",
-    "definition": "The vertical axis in a two-dimensional Cartesian coordinate system or data chart visualization.",
-    "enExample": "The chart's Y-axis represents response latency values measured in milliseconds.",
-    "taExample": "விளக்கப்படத்தின் ஒய்-அச்சு (Y-axis) மில்லி விநாடிகளில் அளவிடப்படும் மறுமொழி தாமத மதிப்புகளைக் குறிக்கிறது.",
-    "taWord": "ஒய்-அச்சு (செங்குத்து அச்சு)",
-    "pos": "noun",
-    "synonyms": [
-      "Vertical axis",
-      "Ordinate"
-    ],
-    "antonyms": [
-      "X-Axis",
-      "Abscissa"
-    ],
-    "enExample2": "The monitoring dashboard plots server request latency in milliseconds along the vertical Y-Axis.",
-    "taExample2": "கண்காணிப்பு பலகை சேவையக கோரிக்கை தாமதத்தை மில்லி விநாடிகளில் செங்குத்து Y-அச்சில் (Y-Axis) காட்டுகிறது."
-  },
-  {
     "id": 2507,
     "word": "Y-Combinator",
     "definition": "A fixed-point combinator in lambda calculus that enables anonymous functions to implement self-referential recursion.",
@@ -36,137 +17,6 @@
     ],
     "enExample2": "The Y-Combinator is a foundational functional programming construct enabling recursion in lambda calculus without named functions.",
     "taExample2": "ஒய்-காம்பினேட்டர் (Y-Combinator) என்பது பெயரிடப்பட்ட செயல்பாடுகள் இன்றி சுழல்நிலையை செயல்படுத்தும் அடிப்படைக் கணிதக் கட்டமைப்பாகும்."
-  },
-  {
-    "id": 2512,
-    "word": "Y-Delta",
-    "definition": "The vertical distance or displacement difference between two data coordinates.",
-    "enExample": "Calculate the touch gesture Y-delta to trigger swipe-to-dismiss sheet animations.",
-    "taExample": "ஸ்வைப் செய்து நிராகரிக்கும் அனிமேஷன்களைத் தூண்ட தொடு சைகை Y-டேல்டாவைக் கணக்கிடுங்கள்.",
-    "taWord": "ஒய்-செங்குத்து மாற்றம் (Y-Delta)",
-    "pos": "noun",
-    "synonyms": [
-      "Vertical delta",
-      "Y displacement"
-    ],
-    "antonyms": [
-      "X-Delta"
-    ],
-    "enExample2": "Measuring the Y-Delta difference between two performance runs reveals the exact impact of our database indexing.",
-    "taExample2": "இரண்டு சோதனை ஓட்டங்களுக்கு இடையிலான Y-Delta வேறுபாட்டை அளவிடுவது எங்கள் தரவுத்தள குறியீட்டின் துல்லியமான தாக்கத்தை வெளிப்படுத்துகிறது."
-  },
-  {
-    "id": 2510,
-    "word": "Y-Intercept",
-    "definition": "The mathematical point where a graph line or regression curve intersects the vertical Y-axis.",
-    "enExample": "Linear regression algorithms compute the slope and Y-intercept to predict future data trends.",
-    "taExample": "நேரியல் ரிகிரஷன் அல்காரிதம்கள் எதிர்கால தரவுப் போக்குகளைக் கணிக்க சாய்வு மற்றும் Y-வெட்டுப்புள்ளியைக் (Y-intercept) கணக்கிடுகின்றன.",
-    "taWord": "ஒய்-வெட்டுப்புள்ளி (Y-intercept)",
-    "pos": "noun",
-    "synonyms": [
-      "Vertical intercept",
-      "Initial value"
-    ],
-    "antonyms": [
-      "X-intercept"
-    ],
-    "enExample2": "In linear regression analysis, the Y-Intercept represents the baseline latency when network payload size is zero.",
-    "taExample2": "நேரியல் பின்னடைவு பகுப்பாய்வில் Y-Intercept என்பது தரவு அளவு பூஜ்ஜியமாக இருக்கும்போது உள்ள அடிப்படை தாமதத்தைக் குறிக்கிறது."
-  },
-  {
-    "id": 2515,
-    "word": "Y-Point",
-    "definition": "A key vertical coordinate reference point used in computer graphics and SVG path plotting.",
-    "enExample": "The SVG bezier curve anchor relies on precise X and Y-point definitions.",
-    "taExample": "SVG பெசியர் வளைவு நங்கூரம் துல்லியமான X மற்றும் Y-புள்ளி வரையறைகளை நம்பியுள்ளது.",
-    "taWord": "ஒய்-புள்ளி (Y-Point)",
-    "pos": "noun",
-    "synonyms": [
-      "Vertical coordinate",
-      "Y position"
-    ],
-    "antonyms": [
-      "X-Coordinate",
-      "Horizontal axis",
-      "Z-Depth point"
-    ],
-    "enExample2": "The mouse tracking telemetry recorded the precise Y-Point coordinate of every user click across the screen.",
-    "taExample2": "மவுஸ் கண்காணிப்பு அமைப்பு திரையில் பயனர் கிளிக் செய்த ஒவ்வொரு இடத்தின் துல்லியமான Y-Point ஆயத்தொலைவை பதிவு செய்தது."
-  },
-  {
-    "id": 2511,
-    "word": "Y-Scale",
-    "definition": "The range and mapping interval applied along the vertical axis of data charts or vector graphics.",
-    "enExample": "Use a logarithmic Y-scale when charting wide numerical ranges across orders of magnitude.",
-    "taExample": "அளவுகளின் ஆர்டர்கள் முழுவதும் பரந்த எண் வரம்புகளை அட்டவணைப்படுத்தும்போது மடக்கை ஒய்-அளவுகோலைப் (Y-scale) பயன்படுத்தவும்.",
-    "taWord": "ஒய்-அளவுகோல் (Y-scale)",
-    "pos": "noun",
-    "synonyms": [
-      "Vertical scale",
-      "Chart scale"
-    ],
-    "antonyms": [
-      "X-Scale"
-    ],
-    "enExample2": "Using a logarithmic Y-Scale on throughput charts prevents high traffic spikes from flattening baseline variance.",
-    "taExample2": "வரைபடங்களில் மடக்கை Y-Scale-ஐப் பயன்படுத்துவது அதிக போக்குவரத்து அதிகரிப்பு அடிப்படை மாறுபாடுகளை மறைப்பதைத் தடுக்கிறது."
-  },
-  {
-    "id": 2504,
-    "word": "YAGNI",
-    "definition": "You Aren't Gonna Need It; an Agile development principle stating features should not be added until explicitly required.",
-    "enExample": "Adhering to YAGNI prevents unnecessary code complexity and premature architecture bloat.",
-    "taExample": "YAGNI தத்துவத்தைப் பின்பற்றுவது தேவையற்ற குறியீட்டு சிக்கலையும் முன்கூட்டிய கட்டிடக்கலை வீக்கத்தையும் தடுக்கிறது.",
-    "taWord": "YAGNI / தேவையற்றதை உருவாக்காதே தத்துவம்",
-    "pos": "noun",
-    "synonyms": [
-      "KISS principle",
-      "Lean development"
-    ],
-    "antonyms": [
-      "Over-engineering",
-      "Premature optimization"
-    ],
-    "enExample2": "Following the YAGNI ('You Aren't Gonna Need It') principle helps engineers avoid over-engineering speculative features.",
-    "taExample2": "YAGNI கொள்கையைப் பின்பற்றுவது பொறியாளர்கள் தேவையில்லாத கற்பனை அம்சங்களை முன்கூட்டியே உருவாக்கி சிக்கலாக்குவதைத் தடுக்கிறது."
-  },
-  {
-    "id": 2829,
-    "word": "Yak Shaving",
-    "pos": "idiom",
-    "definition": "Engaging in an apparently endless series of nested, tangential secondary tasks just to be able to start the original task.",
-    "enExample": "I spent three hours updating Docker configs, fixing node versions, and rebuilding yarn packages—classic yak shaving before fixing one typo.",
-    "taWord": "தேவையற்ற துணை வேலைகளில் சிக்குதல்",
-    "taExample": "ஒரு சிறிய வேலையைச் செய்யப் போய் அதற்குத் தேவையான பல தொடர்பற்ற வேலைகளில் சிக்கி நேரத்தை வீணடித்தல்.",
-    "synonyms": [
-      "Tangential rabbit hole",
-      "Nested prerequisites trap"
-    ],
-    "antonyms": [
-      "Direct execution",
-      "Laser focus"
-    ],
-    "enExample2": "What began as a simple CSS color tweak turned into four hours of yak shaving to update compiler build tools.",
-    "taExample2": "எளிய வண்ண மாற்றமாகத் தொடங்கியது தொகுப்பி கருவிகளைப் புதுப்பிக்கும் நான்கு மணி நேர வீண் அலைக்கழிப்பாக (Yak Shaving) மாறியது."
-  },
-  {
-    "id": 2501,
-    "word": "YAML",
-    "definition": "YAML Ain't Markup Language; a human-friendly data serialization language commonly used for configuration files and CI/CD pipelines.",
-    "enExample": "Kubernetes manifests and GitHub Actions workflows are formatted using clean YAML syntax.",
-    "taExample": "குபர்நெட்டீஸ் மற்றும் கிளிஹப் ஆக்ஷன்ஸ் பணிப்பாய்வுகள் சுத்தமான YAML தொடரியல் மூலம் வடிவமைக்கப்பட்டுள்ளன.",
-    "taWord": "யாமைல் (YAML கட்டமைப்பு மொழி)",
-    "pos": "noun",
-    "synonyms": [
-      "Data serialization language",
-      "Config format"
-    ],
-    "antonyms": [
-      "JSON",
-      "XML"
-    ],
-    "enExample2": "Kubernetes manifests and GitHub Actions workflows are declared using human-readable YAML configuration files.",
-    "taExample2": "குபெர்னெட்டீஸ் மற்றும் GitHub Actions பணிப்பாய்வுகள் எளிதில் வாசிக்கக்கூடிய YAML கட்டமைப்பு கோப்புகள் மூலம் அறிவிக்கப்படுகின்றன."
   },
   {
     "id": 2626,
@@ -362,25 +212,5 @@
     ],
     "enExample2": "Sophisticated social engineering attackers deliberately pretend to be a clueless yokel to trick support agents into resetting passwords.",
     "taExample2": "ஆதரவு ஊழியர்களை ஏமாற்றி கடவுச்சொற்களை மீட்டமைக்க சமூக பொறியியல் தாக்குதல் நடத்துபவர்கள் விவரமறியாத வெள்ளந்தியாகப் (Yokel) பாசாங்கு செய்கிறார்கள்."
-  },
-  {
-    "id": 2505,
-    "word": "Yottabyte",
-    "definition": "A unit of digital data storage equal to 10^24 bytes (or 1,024 zettabytes).",
-    "enExample": "Global cloud infrastructure storage capacity is projected to reach yottabyte scales in future decades.",
-    "taExample": "உலகளாவிய கிளவுட் சேமிப்பக திறன் எதிர்கால தசாப்தங்களில் யோட்டாபைட் (Yottabyte) அளவை எட்டும் என எதிர்பார்க்கப்படுகிறது.",
-    "taWord": "யோட்டாபைட் (தகவல் அளவு)",
-    "pos": "noun",
-    "synonyms": [
-      "10^24 bytes",
-      "Digital storage unit"
-    ],
-    "antonyms": [
-      "Single bit",
-      "Byte",
-      "Kilobyte"
-    ],
-    "enExample2": "A yottabyte represents an astronomical volume of data equal to one trillion terabytes.",
-    "taExample2": "ஒரு யோட்டாபைட் (Yottabyte) என்பது ஒரு டிரில்லியன் டெராபைட்டுகளுக்கு சமமான பிரம்மாண்டமான வானியல் தரவு அளவைக் குறிக்கிறது."
   }
 ]

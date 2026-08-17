@@ -1,63 +1,5 @@
 [
   {
-    "id": 2610,
-    "word": "Z-Buffer",
-    "definition": "A depth buffer used in 3D graphics hardware to manage surface visibility and occlusion calculations.",
-    "enExample": "The Z-buffer prevents background 3D meshes from rendering over foreground elements.",
-    "taExample": "இசட்-பஃபர் (Z-buffer) பின்னணி 3D கூறுகள் முன் கூறுகளின் மேல் வரைவதைத் தடுக்கிறது.",
-    "taWord": "இசட்-பஃபர் / ஆழத் தாங்கல்",
-    "pos": "noun",
-    "synonyms": [
-      "Depth buffer",
-      "Occlusion buffer"
-    ],
-    "antonyms": [
-      "Flat 2D painter algorithm",
-      "Unsorted depth rendering"
-    ],
-    "enExample2": "The graphics rendering engine uses a Z-Buffer to determine which polygon surfaces are occluded and hidden from view.",
-    "taExample2": "கிராபிக்ஸ் எஞ்சின் எந்த முப்பரிமாண மேற்பரப்புகள் பார்வையில் இருந்து மறைக்கப்பட்டுள்ளன என்பதைத் தீர்மானிக்க Z-Buffer-ஐப் பயன்படுத்துகிறது."
-  },
-  {
-    "id": 2604,
-    "word": "Z-Index",
-    "definition": "A CSS property specifying the visual stack rendering order of overlapping elements along the depth axis.",
-    "enExample": "Set z-index to 50 to render modal dialog overlays above background page content.",
-    "taExample": "பின்னணி பக்க உள்ளடக்கத்திற்கு மேல் மாதிரி உரையாடல் மேலடுக்குகளை வரைய z-index ஐ 50 ஆக அமைக்கவும்.",
-    "taWord": "இசட்-வரிசை / ஆழ அச்சு (Z-Index)",
-    "pos": "noun",
-    "synonyms": [
-      "Stacking order",
-      "Depth order",
-      "Layer index"
-    ],
-    "antonyms": [
-      "Static document flow",
-      "Flat unlayered rendering"
-    ],
-    "enExample2": "Setting a higher CSS z-index ensures that modal dialogue backdrops render above all background page elements.",
-    "taExample2": "அதிக CSS z-index மதிப்பை அமைப்பது உரையாடல் பெட்டிகள் பின்னணி கூறுகளுக்கு மேலே தோன்றுவதை உறுதி செய்கிறது."
-  },
-  {
-    "id": 2613,
-    "word": "Z-Order",
-    "definition": "The structural layering order of visual windows, graphics objects, or UI components.",
-    "enExample": "Dragging a window brings its Z-order layer to the front of the desktop stack.",
-    "taExample": "ஒரு சாளரத்தை இழுப்பது அதன் Z-வரிசையை (Z-order) டெஸ்க்டாப் அடுக்கின் முன்பகுதிக்குக் கொண்டுவருகிறது.",
-    "taWord": "இசட்-வரிசை அமைப்பு (Z-Order)",
-    "pos": "noun",
-    "synonyms": [
-      "Depth order",
-      "Layer hierarchy"
-    ],
-    "antonyms": [
-      "Flat unordered display",
-      "Default DOM order"
-    ],
-    "enExample2": "Vector drawing applications allow users to adjust the Z-Order layering of overlapping geometric canvas paths.",
-    "taExample2": "வெக்டர் வரைதல் பயன்பாடுகள் ஒன்றன் மேல் ஒன்றாக இருக்கும் வரைபட அடுக்குகளின் Z-Order படிநிலையை சரிசெய்ய பயனர்களை அனுமதிக்கின்றன."
-  },
-  {
     "id": 3080,
     "word": "Zeal",
     "pos": "noun",
@@ -146,22 +88,25 @@
     "taExample2": "புரட்சிகரமான AI முகவரின் வெளியீடு நிறுவனத்தின் பொறியியல் புதுமையின் உச்சக்கட்டத்தை (Zenith) குறித்தது."
   },
   {
-    "id": 2601,
-    "word": "Zero-Copy",
-    "definition": "An optimization technique where CPU does not copy data from one memory area to another when transmitting network files.",
-    "enExample": "Zero-copy file transfers significantly reduce CPU cycles during web server file downloads.",
-    "taExample": "ஜீரோ-காப்பி (Zero-copy) கோப்புப் பரிமாற்றங்கள் கோப்புப் பதிவிறக்கங்களின் போது CPU சுழற்சிகளை கணிசமாகக் குறைக்கின்றன.",
-    "taWord": "நினைவக நகலற்ற முறை (Zero-Copy)",
-    "pos": "adj.",
+    "id": 3406,
+    "word": "Zephyr",
+    "pos": "noun",
+    "definition": "A soft, gentle breeze; metaphorically representing a light, effortless process.",
+    "taWord": "மெல்லிய தென்றல் காற்று",
+    "enExample": "The new containerization platform made multi-region deployment feel like a smooth zephyr.",
+    "taExample": "புதிய கொள்கலன் தளம் பல பிராந்திய வரிசைப்படுத்தலை ஒரு மென்மையான தென்றலைப் போல உணர்த்தியது.",
+    "enExample2": "With modern build tooling, compiling the microservices codebase became a gentle zephyr.",
+    "taExample2": "நவீன உருவாக்கக் கருவிகளுடன், நுண் சேவைகளின் குறியீட்டைத் தொகுப்பது ஒரு மெல்லிய தென்றலாக மாறியது.",
     "synonyms": [
-      "Direct memory access",
-      "DMA transfer"
+      "breeze",
+      "draft",
+      "gentle wind"
     ],
     "antonyms": [
-      "Buffer copying"
-    ],
-    "enExample2": "Using zero-copy network sockets transfers raw byte streams directly from disk to network without intermediate CPU buffering.",
-    "taExample2": "ஜீரோ-காப்பி (Zero-Copy) சாக்கெட்டுகளைப் பயன்படுத்துவது இடைநிலை CPU நகல் இல்லாமல் வட்டில் இருந்து நேரடியாக நெட்வொர்க்கிற்கு பைட்களை அனுப்புகிறது."
+      "gale",
+      "tempest",
+      "storm"
+    ]
   },
   {
     "id": 2602,
@@ -240,26 +185,6 @@
     "taExample2": "குபெர்னெட்டீஸ் ரோலிங் புதுப்பிப்புகள் பழைய கொள்கலன்களை ஒவ்வொன்றாக மாற்றுவதன் மூலம் தடையற்ற பூஜ்ஜிய முடக்க வெளியீட்டை (Zero-Downtime Deployment) செய்கின்றன."
   },
   {
-    "id": 2612,
-    "word": "Zero-Fill",
-    "definition": "Filling unused register bits or memory buffers with zeros when padding numerical values.",
-    "enExample": "SQL ZEROFILL automatically pads numeric ID columns with leading zeros.",
-    "taExample": "SQL ZEROFILL தானாகவே எண் ஐடி நெடுவரிசைகளை முன்னணி பூஜ்ஜியங்களுடன் நிரப்புகிறது.",
-    "taWord": "பூஜ்ஜிய நிரப்பல் (Zero-Fill)",
-    "pos": "verb",
-    "synonyms": [
-      "Zero-padding",
-      "Blanking"
-    ],
-    "antonyms": [
-      "Garbage padding",
-      "Sign extension",
-      "Random bit fill"
-    ],
-    "enExample2": "The unsigned right shift operator (>>>) performs zero-fill right shifting across 32-bit binary integers in JavaScript.",
-    "taExample2": "ஜாவாஸ்கிரிப்ட்டில் '>>>' செயற்குறி 32-பிட் பைனரி எண்களில் பூஜ்ஜிய நிரப்பல் வலது மாற்றத்தை (Zero-Fill) செய்கிறது."
-  },
-  {
     "id": 2615,
     "word": "Zero-Knowledge Proof",
     "definition": "A cryptographic method by which one party can prove to another that a statement is true without revealing any information beyond that fact.",
@@ -336,26 +261,6 @@
     "taExample2": "ஜீரோ-ட்ரஸ்ட் கட்டமைப்பை (Zero-Trust Architecture) செயல்படுத்துவது உள்நாட்டு போக்குவரத்தும் பொது இணையத்தைப் போலவே கடுமையான சரிபார்ப்பிற்கு உட்படுவதை உறுதி செய்கிறது."
   },
   {
-    "id": 2606,
-    "word": "Zettabyte",
-    "definition": "A unit of digital information storage equal to 10^21 bytes (1,000 exabytes).",
-    "enExample": "Global internet traffic volume crossed several zettabytes annually.",
-    "taExample": "உலகளாவிய இணையப் போக்குவரத்து அளவு ஆண்டுதோறும் பல ஜீட்டாபைட்டுகளைக் (Zettabytes) கடந்துள்ளது.",
-    "taWord": "ஜீட்டாபைட் (தகவல் அலகு)",
-    "pos": "noun",
-    "synonyms": [
-      "10^21 bytes",
-      "Digital storage unit"
-    ],
-    "antonyms": [
-      "Single bit",
-      "Kilobyte",
-      "Megabyte"
-    ],
-    "enExample2": "Global annual internet data traffic has already surpassed multiple zettabytes per year.",
-    "taExample2": "உலகளாவிய வருடாந்திர இணைய தரவு போக்குவரத்து ஏற்கனவே ஆண்டுக்கு பல ஜெட்டாபைட்டுகளைத் (Zettabytes) தாண்டியுள்ளது."
-  },
-  {
     "id": 2605,
     "word": "Zip",
     "definition": "A widely used archive file format supporting lossless data compression of multiple files into a single bundle.",
@@ -372,25 +277,6 @@
     ],
     "enExample2": "The CI pipeline bundles all compiled distribution artifacts into a single compressed zip file for deployment.",
     "taExample2": "வெளியீட்டு அமைப்பு அனைத்து தொகுக்கப்பட்ட தயாரிப்புக் கோப்புகளையும் ஒரு சுருக்கப்பட்ட zip கோப்பாக இணைக்கிறது."
-  },
-  {
-    "id": 2614,
-    "word": "Zlib",
-    "definition": "A software library used for data compression implementing the DEFLATE algorithm.",
-    "enExample": "HTTP servers use zlib compression to transmit gzip responses across client connections.",
-    "taExample": "HTTP சேவையகங்கள் வாடிக்கையாளர் இணைப்புகளில் ஜிஜிப் பதில்களை அனுப்ப zlib சுருக்கத்தைப் பயன்படுத்துகின்றன.",
-    "taWord": "ஜி-லிப் சுருக்க நூலகம் (Zlib)",
-    "pos": "noun",
-    "synonyms": [
-      "Deflate library",
-      "Gzip engine"
-    ],
-    "antonyms": [
-      "Raw uncompressed stream",
-      "Lossy compression"
-    ],
-    "enExample2": "Node.js utilizes the native zlib library to provide high-speed gzip and deflate compression streams.",
-    "taExample2": "Node.js அதிவேக gzip மற்றும் deflate சுருக்குதல் ஓட்டங்களை வழங்க உள்ளமைக்கப்பட்ட zlib நூலகத்தைப் பயன்படுத்துகிறது."
   },
   {
     "id": 2607,
@@ -430,24 +316,5 @@
     ],
     "enExample2": "Deploying microservices across multiple availability zones prevents regional datacenter power failures from taking down the app.",
     "taExample2": "பல கிடைக்கும் மண்டலங்களில் (Zones) சேவைகளை வரிசைப்படுத்துவது பிராந்திய தரவு மைய முடக்கங்கள் பயன்பாட்டை செயலிழக்கச் செய்வதைத் தடுக்கிறது."
-  },
-  {
-    "id": 2609,
-    "word": "ZooKeeper",
-    "definition": "Apache ZooKeeper; a centralized service for maintaining configuration information, naming, and providing distributed synchronization.",
-    "enExample": "Kafka clusters historically relied on Apache ZooKeeper for broker coordination.",
-    "taExample": "கஃப்கா கிளஸ்டர்கள் பாரம்பரியமாக சேவையக ஒருங்கிணைப்புக்கு அபாச்சி ஜூக்கீப்பரை (ZooKeeper) நம்பியிருந்தன.",
-    "taWord": "ஜூக்கீப்பர் (ஒருங்கிணைப்பு சேவை)",
-    "pos": "noun",
-    "synonyms": [
-      "Consensus service",
-      "Cluster coordinator"
-    ],
-    "antonyms": [
-      "Decentralized peer-to-peer gossip",
-      "Leaderless mesh network"
-    ],
-    "enExample2": "Apache ZooKeeper provides high-availability distributed configuration coordination and leader election for Kafka clusters.",
-    "taExample2": "அப்பாச்சி ஜூக்கீப்பர் (ZooKeeper) விநியோகிக்கப்பட்ட கட்டமைப்பு ஒருங்கிணைப்பு மற்றும் தலைவர் தேர்தலை வழங்குகிறது."
   }
 ]

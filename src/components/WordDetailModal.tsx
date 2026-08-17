@@ -272,7 +272,7 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
                     : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
                 }`}
               >
-                Full Overview
+                Overview
               </button>
               <button
                 onClick={() => setActiveTab('examples')}
@@ -282,7 +282,7 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
                     : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
                 }`}
               >
-                2 Context Examples
+                Examples
               </button>
               <button
                 onClick={() => setActiveTab('thesaurus')}
@@ -298,66 +298,32 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
 
             {/* Tab: Examples / Full View */}
             {(activeTab === 'all' || activeTab === 'examples') && (
-              <div className="space-y-4">
-                <div className="flex items-center justify-between">
-                  <h4 className="text-xs font-mono uppercase tracking-widest text-zinc-400 flex items-center gap-1.5 font-bold">
-                    <Sparkles size={14} className="text-amber-400" />
-                    <span>Real-World Context Examples (Dual Pairs)</span>
-                  </h4>
-                  <span className="text-[11px] font-mono text-zinc-500">2 English & Tamil Pairs</span>
-                </div>
-
-                {/* Example 1 (Primary) */}
-                <div className="p-4 rounded-2xl bg-zinc-900/50 border border-zinc-800/80 space-y-3">
-                  <div className="flex items-center justify-between">
-                    <span className="text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-blue-500/15 border border-blue-400/25 text-blue-300 font-semibold">
-                      Primary Context 1 • முதன்மை உதாரணம்
-                    </span>
-                  </div>
-
-                  <div className="pl-3 border-l-2 border-blue-400/40 space-y-2">
-                    <div>
-                      <span className="text-[10px] font-mono text-zinc-500 block uppercase">English Sentence</span>
-                      <p className="text-sm sm:text-base font-serif italic text-zinc-100 leading-relaxed">
-                        "{word.enExample}"
-                      </p>
-                    </div>
-
-                    <div className="pt-1">
-                      <span className="text-[10px] font-mono text-zinc-500 block uppercase">Tamil Translation</span>
-                      <p className="text-xs sm:text-sm font-tamil text-zinc-300 leading-relaxed font-light">
-                        "{word.taExample}"
-                      </p>
-                    </div>
+              <div className="space-y-3">
+                {/* Example 1 */}
+                <div className="p-4 rounded-2xl bg-zinc-900/50 border border-zinc-800/80 space-y-2">
+                  <div className="pl-3 border-l-2 border-amber-400/50 space-y-1.5">
+                    <p className="text-sm sm:text-base font-serif italic text-zinc-100 leading-relaxed">
+                      "{word.enExample}"
+                    </p>
+                    <p className="text-xs sm:text-sm font-tamil text-zinc-300 leading-relaxed font-light">
+                      "{word.taExample}"
+                    </p>
                   </div>
                 </div>
 
-                {/* Example 2 (Secondary - Newly Added) */}
-                <div className="p-4 rounded-2xl bg-gradient-to-br from-amber-500/10 via-zinc-900/60 to-zinc-900/80 border border-amber-500/30 space-y-3 shadow-lg shadow-amber-500/5">
-                  <div className="flex items-center justify-between">
-                    <span className="text-[11px] font-mono px-2.5 py-0.5 rounded-full bg-amber-400/20 border border-amber-400/40 text-amber-300 font-bold flex items-center gap-1">
-                      <Sparkles size={11} className="text-amber-400" />
-                      <span>Secondary Context 2 • கூடுதல் உதாரணம்</span>
-                    </span>
-                    <span className="text-[10px] font-mono text-amber-400/80">Alternative Usage</span>
-                  </div>
-
-                  <div className="pl-3 border-l-2 border-amber-400/60 space-y-2">
-                    <div>
-                      <span className="text-[10px] font-mono text-amber-400/70 block uppercase">Secondary English Example</span>
+                {/* Example 2 */}
+                {(word.enExample2 || word.taExample2) && (
+                  <div className="p-4 rounded-2xl bg-zinc-900/40 border border-zinc-800/60 space-y-2">
+                    <div className="pl-3 border-l-2 border-blue-400/50 space-y-1.5">
                       <p className="text-sm sm:text-base font-serif italic text-zinc-100 leading-relaxed">
                         "{word.enExample2 || word.enExample}"
                       </p>
-                    </div>
-
-                    <div className="pt-1">
-                      <span className="text-[10px] font-mono text-amber-400/70 block uppercase">Secondary Tamil Context</span>
                       <p className="text-xs sm:text-sm font-tamil text-zinc-300 leading-relaxed font-light">
                         "{word.taExample2 || word.taExample}"
                       </p>
                     </div>
                   </div>
-                </div>
+                )}
               </div>
             )}
 
@@ -367,9 +333,8 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
                 <div className="flex items-center justify-between">
                   <h4 className="text-xs font-mono uppercase tracking-widest text-zinc-400 flex items-center gap-1.5 font-bold">
                     <Layers size={14} className="text-amber-400" />
-                    <span>Thesaurus (Synonyms & Antonyms)</span>
+                    <span>Thesaurus</span>
                   </h4>
-                  <span className="text-[11px] font-mono text-zinc-500">Click any term to explore</span>
                 </div>
 
                 {/* Synonyms */}
@@ -430,25 +395,32 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
           </div>
 
           {/* Modal Footer */}
-          <div className="p-4 sm:p-5 border-t border-zinc-800/80 bg-zinc-900/40 flex items-center justify-between text-xs font-mono text-zinc-500">
-            <div className="flex items-center gap-2">
-              <kbd className="px-2 py-0.5 bg-zinc-800 rounded text-[10px] text-zinc-300 border border-zinc-700">ESC</kbd>
-              <span>to close</span>
-              <span className="hidden sm:inline text-zinc-600">•</span>
-              <span className="hidden sm:inline">
-                <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded text-[10px] text-zinc-300 border border-zinc-700 mr-1">←</kbd>
-                <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded text-[10px] text-zinc-300 border border-zinc-700 mr-1">→</kbd>
-                to navigate
-              </span>
+          <div className="p-4 sm:p-5 border-t border-zinc-800/80 bg-zinc-900/60 flex items-center justify-between text-xs font-mono text-zinc-400">
+            <div className="hidden sm:flex items-center gap-2 text-zinc-500 text-[11px]">
+              <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded border border-zinc-700 text-zinc-300">←</kbd>
+              <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded border border-zinc-700 text-zinc-300">→</kbd>
+              <span>Navigate</span>
             </div>
 
-            <button
-              onClick={handleCopy}
-              className="text-amber-400 hover:text-amber-300 flex items-center gap-1.5 transition-colors font-medium"
-            >
-              {copied ? <Check size={13} className="text-emerald-400" /> : <Copy size={13} />}
-              <span>{copied ? 'Copied Details' : 'Copy All'}</span>
-            </button>
+            <div className="flex items-center gap-2.5 ml-auto">
+              <button
+                onClick={handleCopy}
+                className="px-3.5 py-2 rounded-xl bg-amber-400/10 hover:bg-amber-400/20 border border-amber-400/30 text-amber-300 text-xs font-mono font-medium flex items-center gap-1.5 transition-all active:scale-95"
+                title="Copy details"
+              >
+                {copied ? <Check size={14} className="text-emerald-400" /> : <Copy size={14} />}
+                <span>{copied ? 'Copied' : 'Copy'}</span>
+              </button>
+
+              <button
+                onClick={onClose}
+                className="px-3.5 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-100 border border-zinc-700 text-xs font-mono font-semibold flex items-center gap-1.5 transition-all active:scale-95 shadow-md"
+                title="Close dialog"
+              >
+                <X size={14} />
+                <span>Close</span>
+              </button>
+            </div>
           </div>
         </motion.div>
       </div>

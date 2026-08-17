@@ -634,7 +634,7 @@ export function FlashcardView({
                   <div className="p-3 rounded-2xl bg-zinc-950/70 border border-zinc-800/70 space-y-2">
                     <div className="flex items-center justify-between">
                       <span className={`text-[10px] font-mono ${theme.accentText} uppercase tracking-widest block font-semibold`}>
-                        {exampleTab === 1 ? 'Primary Context 1' : 'Secondary Context 2'}
+                        {exampleTab === 1 ? 'Context 1' : 'Context 2'}
                       </span>
                       {currentWord.enExample2 && (
                         <div className="flex items-center gap-1">

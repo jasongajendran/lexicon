@@ -1,24 +1,5 @@
 [
   {
-    "id": 2809,
-    "word": "PACELC Theorem",
-    "pos": "noun",
-    "definition": "An extension of the CAP theorem stating that in a partitioned system, one chooses Availability or Consistency; else, Latency or Consistency.",
-    "enExample": "DynamoDB's design decisions are deeply rooted in the PACELC theorem, favoring low latency under normal network operations.",
-    "taWord": "பேசெல்க் தேற்றம்",
-    "taExample": "பரவிய கணினி அமைப்புகளில் தாமதத்திற்கும் தரவு சீரான தன்மைக்கும் இடையே உள்ள சமநிலையை விளக்கும் விதி.",
-    "synonyms": [
-      "Extended CAP theorem",
-      "Distributed trade-off law"
-    ],
-    "antonyms": [
-      "Unconstrained consistency",
-      "Magic zero-latency scaling"
-    ],
-    "enExample2": "The PACELC Theorem guides architects in balancing latency versus consistency even when no network partition exists.",
-    "taExample2": "நெட்வொர்க் முறிவு இல்லாத போதும் கூட தாமதம் மற்றும் நிலைத்தன்மையை சமநிலைப்படுத்த PACELC தேற்றம் வடிவமைப்பாளர்களுக்கு வழிகாட்டுகிறது."
-  },
-  {
     "id": 33,
     "word": "Palliative",
     "definition": "relieving a problem without dealing with the underlying cause",

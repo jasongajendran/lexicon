@@ -464,6 +464,28 @@
     "taExample2": "குறியாக்க நெறிமுறைகளில் அவரது அதீத கவனமான (Scrupulous) அணுகுமுறை வெளிப்புற சோதனைகளின் போது எந்தவொரு பாதுகாப்புக் குறைபாடும் இல்லை என்பதை உறுதி செய்தது."
   },
   {
+    "id": 3400,
+    "word": "Scrutinize",
+    "pos": "verb",
+    "definition": "To examine or inspect closely and thoroughly.",
+    "taWord": "ஆராய் / நுணுக்கமாக பரிசீலி",
+    "enExample": "Security compliance auditors scrutinize access control policies and encryption protocols.",
+    "taExample": "பாதுகாப்பு இணக்க தணிக்கையாளர்கள் அணுகல் கட்டுப்பாட்டுக் கொள்கைகள் மற்றும் குறியாக்க நெறிமுறைகளை நுணுக்கமாக ஆராய்கின்றனர்.",
+    "enExample2": "Peer reviews allow colleagues to scrutinize code changes for potential memory or execution bugs.",
+    "taExample2": "சகாக்களின் மதிப்பாய்வுகள் சாத்தியமான பிழைகளுக்கான குறியீட்டு மாற்றங்களை நுணுக்கமாக ஆராய அனுமதிக்கின்றன.",
+    "synonyms": [
+      "inspect",
+      "examine",
+      "analyze",
+      "audit"
+    ],
+    "antonyms": [
+      "ignore",
+      "overlook",
+      "glance"
+    ]
+  },
+  {
     "id": 2913,
     "word": "Scrutiny",
     "pos": "noun",
@@ -485,26 +507,6 @@
     ],
     "enExample2": "The open-source cryptographic library underwent intense security scrutiny from peer researchers worldwide.",
     "taExample2": "திறந்த மூல குறியாக்க நூலகம் உலகளாவிய ஆராய்ச்சியாளர்களிடமிருந்து தீவிர பாதுகாப்பு ஆய்வுக்கு (Scrutiny) உட்படுத்தப்பட்டது."
-  },
-  {
-    "id": 1905,
-    "word": "SDK",
-    "definition": "Software Development Kit; a collection of software tools, libraries, and docs for building apps for a specific platform.",
-    "enExample": "Install the Firebase JS SDK to integrate authentication and Firestore real-time storage.",
-    "taExample": "சான்றளிப்பு மற்றும் ஃபயர்ஸ்டோர் நிகழ்நேர சேமிப்பகத்தை ஒருங்கிணைக்க ஃபயர்பேஸ் JS SDK ஐ நிறுவவும்.",
-    "taWord": "மென்பொருள் மேம்பாட்டுக் கருவூலம் (SDK)",
-    "pos": "noun",
-    "synonyms": [
-      "Toolkit",
-      "Dev kit"
-    ],
-    "antonyms": [
-      "Raw REST API",
-      "Low-level system calls",
-      "Bare socket"
-    ],
-    "enExample2": "The cloud vendor released an official TypeScript SDK to simplify authenticating and querying storage buckets.",
-    "taExample2": "சேமிப்பகங்களை எளிதாக இணைக்க மற்றும் வினவ கிளவுட் நிறுவனம் அதிகாரப்பூர்வ TypeScript SDK-ஐ வெளியிட்டது."
   },
   {
     "id": 2819,

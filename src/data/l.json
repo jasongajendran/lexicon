@@ -380,26 +380,6 @@
     ]
   },
   {
-    "id": 2800,
-    "word": "LGTM",
-    "pos": "slang",
-    "definition": "An abbreviation for 'Looks Good To Me'; standard developer shorthand approving a code change in Pull Request reviews.",
-    "enExample": "After verifying the unit tests passed, senior engineers commented 'LGTM' and approved the pull request.",
-    "taWord": "நன்றாக உள்ளது / ஒப்புதல்",
-    "taExample": "நிரல் மதிப்பாய்வில் குறியீட்டை ஏற்றுக்கொண்டு ஒப்புதல் அளிக்கப் பயன்படும் சுருக்கச் சொல்.",
-    "synonyms": [
-      "Approved",
-      "Ship it",
-      "Passes review"
-    ],
-    "antonyms": [
-      "Changes requested",
-      "Block PR"
-    ],
-    "enExample2": "After verifying all automated unit test passes, the senior reviewer stamped the pull request with 'LGTM'.",
-    "taExample2": "அனைத்து சோதனைகளும் தேர்ச்சி பெற்றதை உறுதி செய்த பிறகு மூத்த மதிப்பாய்வாளர் குறியீட்டிற்கு 'LGTM' ஒப்புதல் அளித்தார்."
-  },
-  {
     "id": 1211,
     "word": "Library",
     "definition": "A curated collection of reusable functions, classes, or software routines.",

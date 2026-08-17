@@ -323,46 +323,6 @@
     "taExample2": "முழுமையான பயனர் செக்அவுட் பயணத்தை வரைபடமாக்கியது வடிவமைப்பாளர்கள் தேவையற்ற தடைகளை நீக்க உதவியது."
   },
   {
-    "id": 1006,
-    "word": "JSON",
-    "definition": "JavaScript Object Notation, a lightweight data-interchange format easy for humans to read and write.",
-    "enExample": "The API endpoint returns user profiles formatted as JSON.",
-    "taExample": "API எண்ட்பாயிண்ட் பயனர் சுயவிவரங்களை JSON வடிவத்தில் வழங்குகிறது.",
-    "taWord": "ஜேசன் தரவு வடிவம்",
-    "pos": "noun",
-    "synonyms": [
-      "Data format",
-      "Payload format"
-    ],
-    "antonyms": [
-      "Binary blob",
-      "Unstructured text",
-      "Raw byte stream"
-    ],
-    "enExample2": "JSON is the ubiquitous data exchange format for modern web APIs and configuration files.",
-    "taExample2": "JSON என்பது நவீன இணைய API-கள் மற்றும் கட்டமைப்பு கோப்புகளுக்கான உலகளாவிய தரவு பரிமாற்ற வடிவமாகும்."
-  },
-  {
-    "id": 2723,
-    "word": "JSON Schema",
-    "pos": "noun",
-    "definition": "A vocabulary and format standard used to annotate and validate the structure, types, and constraints of JSON documents.",
-    "taWord": "ஜேசன் கட்டமைப்பு வரையறை",
-    "enExample": "All inbound webhook payloads are validated against a strict JSON Schema before entering the processing queue.",
-    "taExample": "அனைத்து உள்வரும் தரவுகளும் முன்கூட்டியே வரையறுக்கப்பட்ட JSON Schema விதிகளுக்கு உட்பட்டு சரிபார்க்கப்படுகின்றன.",
-    "synonyms": [
-      "contract specification",
-      "data shape validator",
-      "payload blueprint"
-    ],
-    "antonyms": [
-      "untyped payload",
-      "schemaless blob"
-    ],
-    "enExample2": "Validating incoming REST payloads against a strict JSON Schema catches malformed requests before processing.",
-    "taExample2": "கடுமையான JSON Schema-வுக்கு எதிராக உள்வரும் தரவைச் சரிபார்ப்பது தவறான கோரிக்கைகளை முன்கூட்டியே கண்டறிகிறது."
-  },
-  {
     "id": 1016,
     "word": "Jubilant",
     "definition": "Feeling or expressing great happiness, joy, and triumph.",
@@ -419,26 +379,6 @@
     ],
     "enExample2": "A judicious choice of third-party dependencies keeps frontend bundle sizes minimal and maintainable.",
     "taExample2": "மூன்றாம் தரப்பு நூலகங்களை விவேகத்துடன் தேர்ந்தெடுப்பது பயன்பாட்டின் கோப்பு அளவை குறைவாகவும் பராமரிக்க எளிதாகவும் வைக்கிறது."
-  },
-  {
-    "id": 2720,
-    "word": "Jump Host",
-    "pos": "noun",
-    "definition": "A hardened intermediary server positioned in a secure perimeter that system administrators connect to before accessing internal network servers.",
-    "taWord": "பாதுகாப்பு இடைநிலை சர்வர் / பாஸ்டியன்",
-    "enExample": "Engineers must SSH through a jump host protected by multi-factor authentication to access production database clusters.",
-    "taExample": "உற்பத்தி தரவுத்தளங்களை அணுக பொறியாளர்கள் முதலில் Jump Host வழியாக உள்நுழைய வேண்டும்.",
-    "synonyms": [
-      "bastion host",
-      "transit server",
-      "gateway proxy"
-    ],
-    "antonyms": [
-      "public endpoint",
-      "direct node"
-    ],
-    "enExample2": "DevOps engineers connect through a hardened jump host with multi-factor authentication to access private databases.",
-    "taExample2": "பொறியாளர்கள் தனியார் தரவுத்தளங்களை அணுக இருபடி பாதுகாப்புடன் கூடிய இடைநிலை சர்வர் (Jump Host) வழியாக இணைகிறார்கள்."
   },
   {
     "id": 1011,
@@ -633,25 +573,5 @@
       "distance",
       "separation"
     ]
-  },
-  {
-    "id": 2718,
-    "word": "JWT",
-    "pos": "noun",
-    "definition": "JSON Web Token; a compact, URL-safe means of representing claims securely between two parties as a digitally signed JSON object.",
-    "taWord": "பாதுகாப்பான இணைய டோக்கன்",
-    "enExample": "The microservice verified the user claims directly from the cryptographically signed JWT payload.",
-    "taExample": "டிஜிட்டல் கையொப்பமிடப்பட்ட JWT மூலம் பயனர் உரிமங்களை மைக்ரோசர்வீஸ் சரிபார்த்தது.",
-    "synonyms": [
-      "bearer token",
-      "auth token",
-      "security claim"
-    ],
-    "antonyms": [
-      "unauthenticated payload",
-      "session cookie"
-    ],
-    "enExample2": "Stateless microservices verify incoming JWT tokens using the public key of the identity provider.",
-    "taExample2": "நுண்சேவைகள் உள்வரும் JWT டோக்கன்களை அடையாள வழங்குநரின் பொது விசையைப் பயன்படுத்தி சரிபார்க்கின்றன."
   }
 ]
