@@ -1798,6 +1798,29 @@
     "taExample2": "தொடர்ச்சியான வாடிக்கையாளர் கருத்துக்களே தயாரிப்பு அம்சங்கள் மற்றும் பொறியியல் முன்னுரிமைகளை வழிநடத்த வேண்டும்."
   },
   {
+    "id": 3395,
+    "word": "dubious",
+    "pos": "adjective",
+    "definition": "Hesitating or doubting; not to be relied upon; suspect or questionable.",
+    "taWord": "சந்தேகத்திற்குரிய / தெளிவற்ற",
+    "enExample": "The software architect was dubious about introducing a third-party library without security audits.",
+    "taExample": "பாதுகாப்பு சோதனைகள் இல்லாமல் புதிய நூலகத்தை அறிமுகப்படுத்துவது குறித்து மென்பொருள் வடிவமைப்பாளர் சந்தேகத்துடன் இருந்தார்.",
+    "enExample2": "Political analysts expressed dubious views regarding the timeline for proposed economic tax reforms.",
+    "taExample2": "முன்மொழியப்பட்ட பொருளாதார வரி சீர்திருத்தங்களுக்கான காலக்கெடு குறித்து அரசியல் ஆய்வாளர்கள் சந்தேக மனப்பான்மையை வெளிப்படுத்தினர்.",
+    "synonyms": [
+      "doubtful",
+      "questionable",
+      "suspicious",
+      "uncertain"
+    ],
+    "antonyms": [
+      "certain",
+      "trustworthy",
+      "reliable",
+      "unquestionable"
+    ]
+  },
+  {
     "id": 2657,
     "word": "Due diligence",
     "definition": "A comprehensive appraisal, audit, or investigation undertaken before entering an agreement or decision.",

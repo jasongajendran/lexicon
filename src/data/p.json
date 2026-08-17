@@ -725,6 +725,29 @@
     "taExample2": "கையாளப்படாத பிழைகள் இயங்கும் நிலையை அமைதியாக சேதப்படுத்தும் ஒரு ஆபத்தான தீங்கு விளைவிக்கும் (Pernicious) பிழை வகையாகும்."
   },
   {
+    "id": 3396,
+    "word": "perpetual",
+    "pos": "adjective",
+    "definition": "Never ending or changing; occurring repeatedly, so frequent as to seem endless.",
+    "taWord": "என்றென்றும் தொடரும் / நிரந்தரமான",
+    "enExample": "High-concurrency cloud servers require a perpetual readiness to handle sudden spikes in user traffic.",
+    "taExample": "அதிக பயனர் வருகை கொண்ட கிளவுட் சர்வர்களுக்கு பயனர் நடமாட்டத்தின் திடீர் உயர்வுகளைக் கையாள நிரந்தரத் தயார்நிலை தேவைப்படுகிறது.",
+    "enExample2": "The nation sought a perpetual peace covenant following decades of border disputes.",
+    "taExample2": "பல தசாப்த கால எல்லை சர்ச்சைகளுக்குப் பிறகு, அந்த நாடு ஒரு நிரந்தர அமைதி உடன்படிக்கையை நாடியது.",
+    "synonyms": [
+      "everlasting",
+      "continuous",
+      "unceasing",
+      "unending"
+    ],
+    "antonyms": [
+      "temporary",
+      "transient",
+      "ephemeral",
+      "intermittent"
+    ]
+  },
+  {
     "id": 2987,
     "word": "Perpetuate",
     "pos": "verb",
@@ -2160,6 +2183,28 @@
     ],
     "enExample2": "She was a vocal proponent of test-driven development, encouraging squads to write unit tests before implementation.",
     "taExample2": "செயல்படுத்துவதற்கு முன் சோதனைகளை எழுதுவதை ஊக்குவிக்கும் சோதனை சார்ந்த உருவாக்கத்தின் தீவிர ஆதரவாளராக (Proponent) அவர் இருந்தார்."
+  },
+  {
+    "id": 3397,
+    "word": "proportional",
+    "pos": "adjective",
+    "definition": "Corresponding in size, degree, or amount to something else; maintaining a constant ratio.",
+    "taWord": "விகிதாசாரப்படி / சமவிகிதமான",
+    "enExample": "CPU allocation for serverless microservices increases in proportional ratio to incoming user request density.",
+    "taExample": "சர்வர்லெஸ் நுண் சேவைகளுக்கான சிபியூ ஒதுக்கீடு உள்வரும் பயனர் கோரிக்கைகளின் அடர்த்திக்கு சமவிகிதமாக அதிகரிக்கிறது.",
+    "enExample2": "Parliament implemented a proportional representation voting system for national elections.",
+    "taExample2": "தேசிய தேர்தல்களுக்காக நாடாளுமன்றம் ஒரு விகிதாசார பிரதிநிதித்துவ வாக்குப்பதிவு முறையை அமல்படுத்தியது.",
+    "synonyms": [
+      "commensurate",
+      "proportionate",
+      "balanced",
+      "equivalent"
+    ],
+    "antonyms": [
+      "disproportionate",
+      "unbalanced",
+      "incommensurate"
+    ]
   },
   {
     "id": 50,

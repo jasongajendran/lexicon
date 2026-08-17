@@ -321,6 +321,28 @@
     ]
   },
   {
+    "id": 3393,
+    "word": "categorically",
+    "pos": "adverb",
+    "definition": "In an absolute, unequivocal, and unconditional manner; explicitly stating without exception.",
+    "taWord": "கட்டாயமாக / திட்டவட்டமாக",
+    "enExample": "The lead security engineer categorically denied that customer passwords were stored in plaintext.",
+    "taExample": "வாடிக்கையாளர் கடவுச்சொற்கள் எளிய உரையினலாக சேமிக்கப்பட்டன என்பதை முதன்மை பாதுகாப்பு பொறியாளர் திட்டவட்டமாக மறுத்தார்.",
+    "enExample2": "The prime minister categorically rejected claims of military escalation during the broadcast interview.",
+    "taExample2": "ஒளிபரப்பு நேர்காணலின் போது ராணுவ தீவிரமடைதல் குறித்த புகார்களை பிரதமர் திட்டவட்டமாக நிராகரித்தார்.",
+    "synonyms": [
+      "unequivocally",
+      "unconditionally",
+      "explicitly",
+      "definitely"
+    ],
+    "antonyms": [
+      "equivocally",
+      "tentatively",
+      "conditionally"
+    ]
+  },
+  {
     "id": 3084,
     "word": "Cathartic",
     "pos": "adj.",
@@ -2205,6 +2227,29 @@
       "breach",
       "violation",
       "dissolution"
+    ]
+  },
+  {
+    "id": 3394,
+    "word": "covert",
+    "pos": "adjective",
+    "definition": "Not openly acknowledged or displayed; secret, stealthy, or disguised.",
+    "taWord": "மறைமுக / ரகசியமான",
+    "enExample": "The monitoring system recorded covert database background sync operations taking place at midnight.",
+    "taExample": "நள்ளிரவில் நடந்த ரகசிய பின்னணி தரவுத்தள ஒத்திசைவு நடவடிக்கைகளை கண்காணிப்பு அமைப்பு பதிவு செய்தது.",
+    "enExample2": "Diplomats uncovered a covert intelligence network operating across Eastern European embassies.",
+    "taExample2": "கிழக்கு ஐரோப்பிய தூதரகங்களில் இயங்கி வந்த ஒரு ரகசிய உளவு அமைப்பை இராஜதந்திரிகள் அம்பலப்படுத்தினர்.",
+    "synonyms": [
+      "stealthy",
+      "surreptitious",
+      "clandestine",
+      "hidden"
+    ],
+    "antonyms": [
+      "overt",
+      "public",
+      "open",
+      "transparent"
     ]
   },
   {
