@@ -100,6 +100,28 @@
     "taExample2": "பயன்படாத சர்வர்களுக்கு அல்லாமல் உண்மையான இயக்க நேரத்திற்கு மட்டுமே கட்டணம் செலுத்துவதே சர்வர்லெஸ் கணினியின் முக்கிய மதிப்பு முன்மொழிவாகும் (Value proposition)."
   },
   {
+    "id": 3438,
+    "word": "Vanguard",
+    "pos": "noun",
+    "definition": "The foremost position in any trend, movement, or technological innovation; pioneers.",
+    "taWord": "முன்னணி / முன்னோடி",
+    "enExample": "Our research lab strives to remain at the vanguard of artificial intelligence and cloud computing.",
+    "taExample": "எங்கள் ஆராய்ச்சி ஆய்வகம் செயற்கை நுண்ணறிவு மற்றும் கிளவுட் கம்ப்யூட்டிங்கின் முன்னணியில் இருக்க பாடுபடுகிறது.",
+    "enExample2": "As part of the technological vanguard, the engineering team adopted containerization early on.",
+    "taExample2": "தொழில்நுட்ப முன்னோடியின் ஒரு பகுதியாக, பொறியியல் குழு ஆரம்பத்திலேயே கொள்கலன் மயமாக்கலை ஏற்றுக்கொண்டது.",
+    "synonyms": [
+      "pioneers",
+      "forefront",
+      "leaders",
+      "trailblazers"
+    ],
+    "antonyms": [
+      "followers",
+      "rear",
+      "stragglers"
+    ]
+  },
+  {
     "id": 2202,
     "word": "Variable",
     "definition": "A named storage location in memory holding a data value that can be read or modified during execution.",
@@ -520,6 +542,28 @@
     ],
     "enExample2": "A resilient cloud architecture withstands the vicissitudes of sudden traffic spikes and hardware outages.",
     "taExample2": "ஒரு சிறந்த கிளவுட் கட்டமைப்பு திடீர் போக்குவரத்து ஏற்ற இறக்கங்கள் மற்றும் வன்பொருள் முடக்கங்களின் மாற்றங்களை (Vicissitudes) தாங்குகிறது."
+  },
+  {
+    "id": 3439,
+    "word": "Vicissitudes",
+    "pos": "noun",
+    "definition": "Unpredictable changes, shifts, or alternations of circumstances or fortune.",
+    "taWord": "இன்ப துன்ப மாற்றங்கள் / வாழ்க்கை ஏற்றத்தாழ்வுகள்",
+    "enExample": "Resilient software architectures are designed to withstand the operational vicissitudes of peak user traffic.",
+    "taExample": "நெகிழ்வான மென்பொருள் கட்டமைப்புகள் உச்ச பயனர் போக்குவரத்தின் செயல்பாட்டு மாற்றங்களைத் தாங்கும் வகையில் வடிவமைக்கப்பட்டுள்ளன.",
+    "enExample2": "A mature tech leader navigates the vicissitudes of market shifts with composure and strategic focus.",
+    "taExample2": "ஒரு முதிர்ந்த தொழில்நுட்பத் தலைவர் சந்தை மாற்றங்களின் ஏற்றத்தாழ்வுகளை அமைதியுடனும் உத்திசார் கவனத்துடனும் கையாள்கிறார்.",
+    "synonyms": [
+      "shifts",
+      "fluctuations",
+      "changes",
+      "ups and downs"
+    ],
+    "antonyms": [
+      "stability",
+      "constancy",
+      "uniformity"
+    ]
   },
   {
     "id": 2206,

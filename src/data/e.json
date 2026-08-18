@@ -1338,6 +1338,28 @@
     "taExample2": "நிதிப் பரிமாற்றத்திற்கு முன் தரவுத்தளமானது கணக்குப் பதிவேட்டில் பிரத்யேக தனி உரிமையைப் பெற்றது."
   },
   {
+    "id": 3415,
+    "word": "Excoriate",
+    "pos": "verb",
+    "definition": "To criticize or censure someone or something severely in public or writing.",
+    "taWord": "கடுமையாக விமர்சி",
+    "enExample": "Tech journalists excoriated the platform for releasing an unvetted software patch that caused widespread outages.",
+    "taExample": "பரவலான செயலிழப்புகளை ஏற்படுத்திய பரிசோதிக்கப்படாத மென்பொருள் இணைப்பை வெளியிட்டதற்காக தொழில்நுட்ப பத்திரிகையாளர்கள் அந்தத் தளத்தைக் கடுமையாக விமர்சித்தனர்.",
+    "enExample2": "Rather than excoriating colleagues during post-mortems, blameless reviews focus on system flaws.",
+    "taExample2": "மதிப்பாய்வுகளின் போது சகாக்களைக் கடுமையாக விமர்சிப்பதை விட, குற்றமற்ற ஆய்வுகள் கணினி குறைபாடுகளில் கவனம் செலுத்துகின்றன.",
+    "synonyms": [
+      "censure",
+      "condemn",
+      "chastise",
+      "lambaste"
+    ],
+    "antonyms": [
+      "praise",
+      "laud",
+      "commend"
+    ]
+  },
+  {
     "id": 3108,
     "word": "Exculpate",
     "pos": "verb",
@@ -1439,6 +1461,28 @@
     "antonyms": [
       "discouragement",
       "deterrent"
+    ]
+  },
+  {
+    "id": 3408,
+    "word": "Exigencies",
+    "pos": "noun",
+    "definition": "Urgent requirements, pressing needs, or demanding circumstances that require immediate action.",
+    "taWord": "அவசரத் தேவை / நெருக்கடி நிலை",
+    "enExample": "Engineering teams adapted quickly to the operational exigencies of the sudden cloud outage.",
+    "taExample": "திடீர் கிளவுட் செயலிழப்பின் செயல்பாட்டு நெருக்கடி நிலைகளுக்கு பொறியியல் குழுக்கள் விரைவாக மாற்றியமைத்துக் கொண்டன.",
+    "enExample2": "Navigating economic exigencies requires prudent resource allocation across software initiatives.",
+    "taExample2": "பொருளாதார அவசரத் தேவைகளைக் கையாள்வது மென்பொருள் முன்முயற்சிகளில் விவேகமான வள ஒதுக்கீடு தேவைப்படுகிறது.",
+    "synonyms": [
+      "emergencies",
+      "urgencies",
+      "necessities",
+      "pressures"
+    ],
+    "antonyms": [
+      "ease",
+      "tranquility",
+      "calm"
     ]
   },
   {

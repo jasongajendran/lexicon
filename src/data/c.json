@@ -877,6 +877,28 @@
     "taExample2": "அதிகப்படியான நிபந்தனை கூற்றுகள் மறுசீரமைக்கப்பட வேண்டிய மோசமான குறியீட்டு அமைப்பின் (Code Smell) அறிகுறியாகும்."
   },
   {
+    "id": 3410,
+    "word": "Codify",
+    "pos": "verb",
+    "definition": "To arrange, systemize, or formalize principles, practices, or software rules into an authoritative standard.",
+    "taWord": "முறைப்படுத்து / விதிகளை உருவாக்கு",
+    "enExample": "Senior architects met to codify our team's microservice design patterns into a shared developer portal.",
+    "taExample": "எங்கள் குழுவின் நுண் சேவை வடிவமைப்பு முறைகளைப் பகிர்ந்த டெவலப்பர் போர்ட்டலில் முறைப்படுத்த மூத்த வடிவமைப்பாளர்கள் கூடினர்.",
+    "enExample2": "Codifying deployment procedures into automated CI scripts reduced human operational errors.",
+    "taExample2": "தானியங்கு ஸ்கிரிப்ட்களில் வரிசைப்படுத்தல் நடைமுறைகளை முறைப்படுத்துவது மனித செயல்பாட்டுப் பிழைகளைக் குறைத்தது.",
+    "synonyms": [
+      "systematize",
+      "formalize",
+      "organize",
+      "standardize"
+    ],
+    "antonyms": [
+      "disorganize",
+      "confuse",
+      "muddle"
+    ]
+  },
+  {
     "id": 2956,
     "word": "Coerce",
     "pos": "verb",
@@ -940,6 +962,26 @@
     ],
     "enExample2": "A clean and uncluttered user interface reduces the cognitive load required to complete a transaction.",
     "taExample2": "எளிமையான பயனர் இடைமுகம் ஒரு பரிவர்த்தனையை முடிக்க தேவையான மன உழைப்பைக் குறைக்கிறது."
+  },
+  {
+    "id": 3411,
+    "word": "Cognitive Load",
+    "pos": "noun",
+    "definition": "The total amount of mental effort required to process information and make decisions during complex tasks.",
+    "taWord": "மன அழுத்தம் / அறிவாற்றல் சுமை",
+    "enExample": "Modular software design reduces the cognitive load required for new engineers to understand the codebase.",
+    "taExample": "தொகுதி மென்பொருள் வடிவமைப்பு புதிய பொறியாளர்கள் குறியீட்டைப் புரிந்துகொள்ள தேவையான அறிவாற்றல் சுமையைக் குறைக்கிறது.",
+    "enExample2": "Intuitive developer tools lower cognitive load, allowing engineers to focus on business logic.",
+    "taExample2": "உள்ளுணர்வு டெவலப்பர் கருவிகள் அறிவாற்றல் சுமையைக் குறைக்கின்றன, பொறியாளர்கள் வணிக தர்க்கத்தில் கவனம் செலுத்த அனுமதிக்கின்றன.",
+    "synonyms": [
+      "mental effort",
+      "intellectual strain",
+      "working memory demand"
+    ],
+    "antonyms": [
+      "simplicity",
+      "ease"
+    ]
   },
   {
     "id": 3241,
@@ -1202,6 +1244,28 @@
     ],
     "enExample2": "Each React component encapsulates its own state, lifecycle hooks, and presentational markup.",
     "taExample2": "ஒவ்வொரு ரியாக்ட் கூறும் (Component) அதன் சொந்த நிலை மற்றும் காட்சி வடிவமைப்பைத் தன்னுள் கொண்டுள்ளது."
+  },
+  {
+    "id": 3412,
+    "word": "Compounding",
+    "pos": "adjective",
+    "definition": "Exponentially building, accumulating, or multiplying over time through continuous additions.",
+    "taWord": "கூட்டுச் சேர்ப்பு / தொடர் பெருகும்",
+    "enExample": "Neglecting minor code smells leads to a compounding technical debt that slows down future feature releases.",
+    "taExample": "சிறிய குறியீட்டு குறைபாடுகளை அலட்சியம் செய்வது எதிர்கால அம்ச வெளியீடுகளை மெதுவாக்கும் கூட்டு தொழில்நுட்பக் கடனுக்கு வழிவகுக்கிறது.",
+    "enExample2": "Investing early in automated testing yields compounding productivity gains for the entire team.",
+    "taExample2": "தானியங்கு சோதனையில் ஆரம்பத்திலேயே முதலீடு செய்வது முழு குழுவிற்கும் கூட்டு உற்பத்தித்திறன் ஆதாயங்களைத் தருகிறது.",
+    "synonyms": [
+      "accumulating",
+      "multiplying",
+      "escalating",
+      "building"
+    ],
+    "antonyms": [
+      "diminishing",
+      "dwindling",
+      "subtractive"
+    ]
   },
   {
     "id": 331,
@@ -2270,6 +2334,27 @@
     ],
     "enExample2": "Properly configured Cross-Origin Resource Sharing headers allow the frontend SPA to fetch data safely.",
     "taExample2": "முறையாக கட்டமைக்கப்பட்ட CORS தலைப்புகள் முன்னணி பயன்பாடு பிற களங்களிலிருந்து பாதுகாப்பாக தரவை பெற அனுமதிக்கின்றன."
+  },
+  {
+    "id": 3407,
+    "word": "Crossroads",
+    "pos": "noun",
+    "definition": "A crucial point or juncture where an important decision must be made.",
+    "taWord": "திருப்புமுனை / சந்திப்பு",
+    "enExample": "The organization stood at a strategic crossroads between refactoring legacy code or rebuilding on microservices.",
+    "taExample": "பழைய குறியீட்டை மறுசீரமைப்பதா அல்லது நுண் சேவைகளில் மீண்டும் உருவாக்குவதா என்ற உத்திசார் திருப்புமுனையில் நிறுவனம் நின்றது.",
+    "enExample2": "Facing a career crossroads, the lead engineer chose to specialize in cloud infrastructure security.",
+    "taExample2": "தொழில் வாழ்க்கையின் திருப்புமுனையை எதிர்கொண்ட முதன்மை பொறியாளர், கிளவுட் உள்கட்டமைப்பு பாதுகாப்பில் நிபுணத்துவம் பெறத் தேர்ந்தெடுத்தார்.",
+    "synonyms": [
+      "juncture",
+      "turning point",
+      "decisive moment",
+      "intersection"
+    ],
+    "antonyms": [
+      "continuation",
+      "stagnation"
+    ]
   },
   {
     "id": 315,

@@ -585,6 +585,27 @@
     "taExample2": "ஸ்பிரிண்ட் மறுஆய்வின் போது ஒவ்வொரு உருவாக்குநரும் தாங்கள் புதிதாக உருவாக்கிய அம்சத்தின் நேரடி செயல்விளக்கத்தை (Demo) வழங்கினர்."
   },
   {
+    "id": 3413,
+    "word": "Democratize",
+    "pos": "verb",
+    "definition": "To make technology, tools, or information accessible to everyone rather than restricting them to experts.",
+    "taWord": "அனைவருக்கும் கிடைக்கச் செய்",
+    "enExample": "Low-code cloud platforms help democratize software development across non-technical business units.",
+    "taExample": "குறைந்த-குறியீட்டு கிளவுட் தளங்கள் தொழில்நுட்பம் அல்லாத வணிகப் பிரிவுகளில் மென்பொருள் உருவாக்கத்தை அனைவருக்கும் கிடைக்கச் செய்ய உதவுகின்றன.",
+    "enExample2": "Generative AI tools aim to democratize complex data analysis for decision-makers at all levels.",
+    "taExample2": "உருவாக்க AI கருவிகள் அனைத்து நிலைகளிலும் உள்ள முடிவெடுப்பவர்களுக்கு சிக்கலான தரவு பகுப்பாய்வை கிடைக்கச் செய்வதை நோக்கமாகக் கொண்டுள்ளன.",
+    "synonyms": [
+      "popularize",
+      "open up",
+      "make accessible"
+    ],
+    "antonyms": [
+      "restrict",
+      "monopolize",
+      "privatize"
+    ]
+  },
+  {
     "id": 430,
     "word": "Demonstrate",
     "definition": "Clearly show the existence or truth of something by giving proof or evidence.",
@@ -1152,6 +1173,26 @@
     ],
     "enExample2": "Claiming 100% uptime while excluding scheduled maintenance outages was considered disingenuous by enterprise clients.",
     "taExample2": "பராமரிப்பு முடக்கங்களை மறைத்து 100% சேவை வழங்கியதாகக் கூறுவது நேர்மையற்றதாகக் கருதப்பட்டது."
+  },
+  {
+    "id": 3414,
+    "word": "Disintermediation",
+    "pos": "noun",
+    "definition": "The reduction or elimination of intermediaries in a supply chain, software architecture, or workflow.",
+    "taWord": "இடைத்தரகர் நீக்கம் / நேரடி இணைப்பு",
+    "enExample": "Direct peer-to-peer cloud protocols achieve performance gains through complete disintermediation.",
+    "taExample": "நேரடி பீர்-டு-பீர் கிளவுட் நெறிமுறைகள் முழுமையான இடைத்தரகர் நீக்கத்தின் மூலம் செயல்திறன் ஆதாயங்களை அடைகின்றன.",
+    "enExample2": "Digital platforms enable disintermediation by connecting creators directly with global consumers.",
+    "taExample2": "டிஜிட்டல் தளங்கள் படைப்பாளர்களை உலகளாவிய நுகர்வோருடன் நேரடியாக இணைப்பதன் மூலம் இடைத்தரகர் நீக்கத்தை செயல்படுத்துகின்றன.",
+    "synonyms": [
+      "direct connection",
+      "bypassing intermediaries",
+      "streamlining"
+    ],
+    "antonyms": [
+      "intermediation",
+      "centralization"
+    ]
   },
   {
     "id": 2852,

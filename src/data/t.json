@@ -632,6 +632,26 @@
     "taExample2": "கிளவுட் மாற்றத்தில் காட்டும் தயக்கமான மற்றும் அச்சம் நிறைந்த (Timorous) அணுகுமுறை நிறுவனங்களை போட்டிக்கு பின்வாங்கச் செய்கிறது."
   },
   {
+    "id": 3435,
+    "word": "Tipping Point",
+    "pos": "noun",
+    "definition": "The critical threshold or juncture beyond which a small change produces significant and often irreversible effects.",
+    "taWord": "முக்கிய திருப்புமுனை / மாற்றத்தின் முனை",
+    "enExample": "Reaching 100,000 active users proved to be the tipping point for our platform's viral growth.",
+    "taExample": "100,000 செயலில் உள்ள பயனர்களை எட்டுவது எங்கள் தளத்தின் விரைவான வளர்ச்சிக்கு முக்கிய திருப்புமுனையாக இருந்தது.",
+    "enExample2": "Accumulated technical debt reached a tipping point, forcing the engineering team to halt new feature work.",
+    "taExample2": "சேகரிக்கப்பட்ட தொழில்நுட்பக் கடன் ஒரு முக்கியமான முனையை அடைந்தது, புதிய அம்சப் பணிகளை நிறுத்த பொறியியல் குழுவைக் கட்டாயப்படுத்தியது.",
+    "synonyms": [
+      "critical threshold",
+      "turning point",
+      "watershed moment"
+    ],
+    "antonyms": [
+      "stability",
+      "equilibrium"
+    ]
+  },
+  {
     "id": 2003,
     "word": "Token",
     "definition": "An encrypted security string representing user permissions, or a discrete atomic unit produced during code lexical analysis.",
@@ -800,6 +820,27 @@
     "antonyms": [
       "win-win",
       "absolute solution"
+    ]
+  },
+  {
+    "id": 3436,
+    "word": "Trajectory",
+    "pos": "noun",
+    "definition": "The path or course followed by a project, career, technology, or trend over time.",
+    "taWord": "வளர்ச்சிப் பாதை / பாதை",
+    "enExample": "Her career trajectory moved rapidly from junior developer to principal software architect.",
+    "taExample": "அவரது தொழில் வளர்ச்சிப் பாதை இளநிலை டெவலப்பரிலிருந்து முதன்மை மென்பொருள் வடிவமைப்பாளராக வேகமாக உயர்ந்தது.",
+    "enExample2": "The positive growth trajectory of our cloud service attracted major enterprise investment.",
+    "taExample2": "எங்கள் கிளவுட் சேவையின் நேர்மறையான வளர்ச்சிப் பாதை முக்கிய நிறுவன முதலீட்டை ஈர்த்தது.",
+    "synonyms": [
+      "path",
+      "course",
+      "route",
+      "direction"
+    ],
+    "antonyms": [
+      "deviation",
+      "stagnation"
     ]
   },
   {

@@ -106,6 +106,28 @@
     "taExample2": "ரியாக்டிவ் செயல்பாட்டு நிரலாக்கம் நவீன முன்னணி நிலை நிர்வாகத்தில் ஒரு புரட்சிகர கோட்பாட்டு மாதிரியைக் (Paradigm) குறிக்கிறது."
   },
   {
+    "id": 3427,
+    "word": "Paradigmatic",
+    "pos": "adjective",
+    "definition": "Serving as a typical, outstanding, or fundamental model or paradigm.",
+    "taWord": "மாதிரியான / முன்மாதிரியான",
+    "enExample": "The migration to serverless architecture was a paradigmatic shift in how our team deploys web applications.",
+    "taExample": "சர்வர்லெஸ் கட்டிடக்கலைக்கான இடமாற்றம் எங்கள் குழு பயன்பாடுகளை எவ்வாறு வரிசைப்படுத்துகிறது என்பதில் ஒரு முன்மாதிரியான மாற்றமாகும்.",
+    "enExample2": "Her research paper provided a paradigmatic framework for evaluating large language model accuracy.",
+    "taExample2": "அவரது ஆராய்ச்சி கட்டுரை பெரிய மொழி மாதிரிகளின் துல்லியத்தை மதிப்பிடுவதற்கான ஒரு மாதிரியான கட்டமைப்பை வழங்கியது.",
+    "synonyms": [
+      "exemplary",
+      "archetypal",
+      "model",
+      "standard"
+    ],
+    "antonyms": [
+      "atypical",
+      "anomalous",
+      "unusual"
+    ]
+  },
+  {
     "id": 12,
     "word": "Paradox",
     "definition": "a seemingly contradictory situation",
@@ -123,6 +145,28 @@
     ],
     "enExample2": "It is a well-known paradox that adding more engineers to a late software project often makes it even later.",
     "taExample2": "தாமதமான திட்டத்தில் கூடுதல் பொறியாளர்களைச் சேர்ப்பது அதை மேலும் தாமதமாக்கும் என்பது நன்கு அறியப்பட்ட ஒரு முரண்பாடாகும் (Paradox)."
+  },
+  {
+    "id": 3428,
+    "word": "Paradoxical",
+    "pos": "adjective",
+    "definition": "Seemingly self-contradictory or absurd, yet expressing a possible truth or fact.",
+    "taWord": "முரண்பாடான / முரண்பாடு போல் தோன்றும்",
+    "enExample": "It is paradoxical that adding more servers to a congested database can sometimes decrease throughput.",
+    "taExample": "நெரிசலான தரவுத்தளத்தில் அதிக சேவையகங்களைச் சேர்ப்பது சில நேரங்களில் செயல்திறனைக் குறைக்கும் என்பது முரண்பாடாகத் தோன்றலாம்.",
+    "enExample2": "A paradoxical benefit of automated testing is that it allows developers to write code much faster.",
+    "taExample2": "தானியங்கு சோதனையின் ஒரு முரண்பாடான நன்மை என்னவென்றால், அது டெவலப்பர்களை விரைவாக குறியீடு எழுத அனுமதிக்கிறது.",
+    "synonyms": [
+      "contradictory",
+      "puzzling",
+      "enigmatic",
+      "incongruous"
+    ],
+    "antonyms": [
+      "logical",
+      "consistent",
+      "straightforward"
+    ]
   },
   {
     "id": 3059,
@@ -643,6 +687,26 @@
     "taExample2": "புளூடூத் புற சாதனங்கள் (Peripheral) தொடர்ந்து கண்டறியும் தகவல்களை மொபைல் பயன்பாட்டிற்கு அனுப்புகின்றன."
   },
   {
+    "id": 3429,
+    "word": "Permeability",
+    "pos": "noun",
+    "definition": "The state or quality of allowing liquids, gases, or information to pass through.",
+    "taWord": "ஊடுருவுதிறன் / கடத்துதிறன்",
+    "enExample": "Zero-trust network security reduces the permeability of internal firewalls to unauthorized traffic.",
+    "taExample": "பூஜ்ஜிய-நம்பிக்கை நெட்வொர்க் பாதுகாப்பு அங்கீகரிக்கப்படாத போக்குவரத்திற்கு உள் ஃபயர்வால்களின் ஊடுருவுதிறனைக் குறைக்கிறது.",
+    "enExample2": "Cross-functional team seating encourages knowledge permeability across frontend and backend units.",
+    "taExample2": "பல்துறை குழு அமர்வு முன்முனை மற்றும் பின்முனைப் பிரிவுகளுக்கு இடையே அறிவு ஊடுருவலை ஊக்குவிக்கிறது.",
+    "synonyms": [
+      "porosity",
+      "penetrability",
+      "openness"
+    ],
+    "antonyms": [
+      "impermeability",
+      "impenetrability"
+    ]
+  },
+  {
     "id": 42,
     "word": "Permeate",
     "definition": "spread throughout (something)",
@@ -983,6 +1047,28 @@
     "taExample2": "பொறியாளர்கள் வெற்றிகரமான நிர்வாகப் வெற்றுப் பேச்சுக்களைத் (Platitudes) தவிர்த்து உறுதியான தொழில்நுட்பத் தீர்வுகளைக் கோரினர்."
   },
   {
+    "id": 3430,
+    "word": "Plausibility",
+    "pos": "noun",
+    "definition": "The quality of appearing reasonable, probable, or believable.",
+    "taWord": "நம்பகத்தன்மை / சாத்தியக்கூறு",
+    "enExample": "The architect presented benchmark logs to demonstrate the plausibility of handling ten million concurrent connections.",
+    "taExample": "பத்து மில்லியன் ஒரே நேரடி இணைப்புகளைக் கையாளும் சாத்தியக்கூறை நிரூபிக்க வடிவமைப்பாளர் ஒப்பீட்டுப் பதிவுகளை வழங்கினார்.",
+    "enExample2": "In technical proposals, empirical data enhances the plausibility of estimated delivery timelines.",
+    "taExample2": "தொழில்நுட்ப முன்மொழிவுகளில், அனுபவத் தரவு மதிப்பிடப்பட்ட விநியோக காலக்கெடுவின் நம்பகத்தன்மையை அதிகரிக்கிறது.",
+    "synonyms": [
+      "credibility",
+      "feasibility",
+      "probability",
+      "reasonableness"
+    ],
+    "antonyms": [
+      "implausibility",
+      "unlikelihood",
+      "impossibility"
+    ]
+  },
+  {
     "id": 6,
     "word": "Plausible",
     "definition": "seeming reasonable or probable",
@@ -1173,6 +1259,27 @@
     ],
     "enExample2": "The author published a polemical blog post passionately attacking the complexity of modern web frameworks.",
     "taExample2": "நவீன இணைய கட்டமைப்புகளின் சிக்கலை தீவிரமாகத் தாக்கும் ஒரு காரசாரமான விவாத (Polemical) வலைப்பதிவை ஆசிரியர் வெளியிட்டார்."
+  },
+  {
+    "id": 3431,
+    "word": "Polycrisis",
+    "pos": "noun",
+    "definition": "A cluster of simultaneous, interconnected global or organizational crises that compound one another.",
+    "taWord": "பல்முனை நெருக்கடி / கூட்டு நொறுங்கல்",
+    "enExample": "Global tech leaders navigated a polycrisis involving supply chain disruptions, talent shortages, and cybersecurity threats.",
+    "taExample": "உலகளாவிய தொழில்நுட்பத் தலைவர்கள் விநியோகச் சங்கிலித் தடைகள், திறமை பற்றாக்குறை மற்றும் இணையப் பாதுகாப்பு அச்சுறுத்தல்கள் அடங்கிய பல்முனை நெருக்கடியைக் கையாண்டனர்.",
+    "enExample2": "System resilience helps engineering organizations survive a technical polycrisis during major cloud outages.",
+    "taExample2": "கணினி நெகிழ்வுத்தன்மை பொறியியல் நிறுவனங்களுக்கு பெரிய கிளவுட் செயலிழப்புகளின் போது தொழில்நுட்ப பல்முனை நெருக்கடியிலிருந்து தப்ப உதவுகிறது.",
+    "synonyms": [
+      "compound crisis",
+      "multiple emergencies",
+      "interconnected turmoil"
+    ],
+    "antonyms": [
+      "stability",
+      "harmony",
+      "peace"
+    ]
   },
   {
     "id": 27,
@@ -2306,6 +2413,28 @@
     "antonyms": [
       "misfortune",
       "blind chance"
+    ]
+  },
+  {
+    "id": 3432,
+    "word": "Providential",
+    "pos": "adjective",
+    "definition": "Occurring at a favorable or opportune time; fortunate or opportunistic.",
+    "taWord": "நல்வாய்ப்பான / அதிர்ஷ்டவசமான",
+    "enExample": "Finding the unhandled edge case during code review was providential before releasing to production.",
+    "taExample": "தயாரிப்பு வெளியீட்டிற்கு முன் குறியீட்டு மதிப்பாய்வின் போது கையாளப்படாத விளிம்பு வழக்கைக் கண்டறிந்தது நல்வாய்ப்பாக அமைந்தது.",
+    "enExample2": "The providential arrival of additional cloud credits allowed our team to finish model training on schedule.",
+    "taExample2": "கூடுதல் கிளவுட் நிதிகளின் நல்வாய்ப்பான வருகை எங்கள் குழு அட்டவணைப்படி மாதிரி பயிற்சியை முடிக்க அனுமதித்தது.",
+    "synonyms": [
+      "opportune",
+      "timely",
+      "auspicious",
+      "fortunate"
+    ],
+    "antonyms": [
+      "unfortunate",
+      "inopportune",
+      "untimely"
     ]
   },
   {

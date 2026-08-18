@@ -791,6 +791,28 @@
     "taExample2": "முரண்பட்ட தரவுத்தள பரிவர்த்தனைகள் உலகளாவிய இருப்பு அட்டவணையில் முழுமையான முடக்க நெரிசலை ஏற்படுத்தின."
   },
   {
+    "id": 3416,
+    "word": "Groundedness",
+    "pos": "noun",
+    "definition": "The quality of being sensible, realistic, and firmly anchored in facts or foundational principles.",
+    "taWord": "யதார்த்த நிலை / அடிப்படை உண்மைத்தன்மை",
+    "enExample": "Her presentation was praised for its groundedness, backing every AI claim with empirical benchmark data.",
+    "taExample": "ஒவ்வொரு AI உரிமைகோரலையும் அனுபவப்பூர்வமான தரவுகளுடன் ஆதரித்த அவரது விளக்கக்காட்சி அதன் யதார்த்த நிலைக்காகப் பாராட்டப்பட்டது.",
+    "enExample2": "Architectural groundedness prevents teams from chasing shiny technologies without clear business value.",
+    "taExample2": "கட்டமைப்பு யதார்த்த நிலை தெளிவான வணிக மதிப்பு இல்லாமல் குழுக்கள் புதிய தொழில்நுட்பங்களைத் துரத்துவதைத் தடுக்கிறது.",
+    "synonyms": [
+      "pragmatism",
+      "realism",
+      "stability",
+      "reasonableness"
+    ],
+    "antonyms": [
+      "flightiness",
+      "unrealism",
+      "impracticability"
+    ]
+  },
+  {
     "id": 2784,
     "word": "Grounding",
     "pos": "noun",

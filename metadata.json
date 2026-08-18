@@ -1,6 +1,6 @@
 {
   "name": "Remix: Pragmatic Lexicon",
-  "description": "Pragmatic Lexicon is a high-performance English vocabulary building and active-recall flashcard app tailored for software engineers, professionals, and communicators. Features 1,400+ curated terms across letters A–Z empowering engineers to speak articulately, write clear technical documentation, present confidently, and converse with colleagues and friends, complete with dual English/Tamil context examples, comprehensive thesaurus, British pronunciation, and 3D study cards.",
+  "description": "Pragmatic Lexicon is a high-performance English vocabulary building and active-recall flashcard app tailored for software engineers, professionals, and communicators. Features 1,440+ curated terms across letters A–Z empowering engineers to speak articulately, write clear technical documentation, present confidently, and converse with colleagues and friends, complete with dual English/Tamil context examples, comprehensive thesaurus, British pronunciation, and 3D study cards.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

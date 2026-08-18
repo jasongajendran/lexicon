@@ -886,6 +886,28 @@
     "taExample2": "ஆவண ஹைப்பர்லிங்கை (Hyperlink) கிளிக் செய்வது தொடர்புடைய API திட்டத்தை புதிய தாவலில் திறக்கிறது."
   },
   {
+    "id": 3417,
+    "word": "Hypervigilance",
+    "pos": "noun",
+    "definition": "A state of heightened alertness and sensitivity to potential risks, defects, or anomalies.",
+    "taWord": "அதிகபட்ச விழிப்புணர்வு",
+    "enExample": "Site reliability engineers maintained hypervigilance during the high-traffic shopping launch.",
+    "taExample": "அதிக பயனர் நடமாட்டம் கொண்ட வர்த்தக வெளியீட்டின் போது கணினி நம்பகத்தன்மை பொறியாளர்கள் அதிகபட்ச விழிப்புணர்வைப் பராமரித்தனர்.",
+    "enExample2": "Hypervigilance regarding security vulnerabilities protects user credentials from zero-day exploits.",
+    "taExample2": "பாதுகாப்புப் பலவீனங்கள் குறித்த அதிகபட்ச விழிப்புணர்வு வாடிக்கையாளர் நற்சான்றுகளை தாக்குதல்களிலிருந்து பாதுகாக்கிறது.",
+    "synonyms": [
+      "alertness",
+      "watchfulness",
+      "vigilance",
+      "attentiveness"
+    ],
+    "antonyms": [
+      "carelessness",
+      "complacency",
+      "inattention"
+    ]
+  },
+  {
     "id": 814,
     "word": "Hypothesis",
     "definition": "A supposition or proposed explanation made on the basis of limited evidence as a starting point for further investigation.",

@@ -798,6 +798,28 @@
     ]
   },
   {
+    "id": 3434,
+    "word": "Siloed",
+    "pos": "adjective",
+    "definition": "Kept isolated from others, preventing collaboration, communication, or data sharing.",
+    "taWord": "தனியாகப் பிரிக்கப்பட்ட / தனிமைப்படுத்தப்பட்ட",
+    "enExample": "Breaking down siloed engineering departments improved knowledge transfer and deployment frequency.",
+    "taExample": "தனிமைப்படுத்தப்பட்ட பொறியியல் துறைகளை ஒன்றிணைப்பது அறிவுப் பரிமாற்றத்தையும் வரிசைப்படுத்தல் அதிர்வெண்ணையும் மேம்படுத்தியது.",
+    "enExample2": "Siloed data repositories hinder comprehensive analytics across enterprise business units.",
+    "taExample2": "தனிமைப்படுத்தப்பட்ட தரவு களஞ்சியங்கள் நிறுவனத்தின் வணிகப் பிரிவுகளில் விரிவான பகுப்பாய்வைத் தடுக்கின்றன.",
+    "synonyms": [
+      "isolated",
+      "compartmentalized",
+      "segregated",
+      "detached"
+    ],
+    "antonyms": [
+      "integrated",
+      "collaborative",
+      "connected"
+    ]
+  },
+  {
     "id": 3222,
     "word": "Single-point-of-failure",
     "pos": "Noun",

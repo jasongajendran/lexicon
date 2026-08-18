@@ -166,6 +166,28 @@
     "taExample2": "Observer வடிவமைப்பு முறை ஒரு கூறில் ஏற்படும் மாற்றங்களை பதிவுசெய்யப்பட்ட அனைத்து கேட்பவர்களுக்கும் தானாக அறிவிக்க அனுமதிக்கிறது."
   },
   {
+    "id": 3426,
+    "word": "Obsolescence",
+    "pos": "noun",
+    "definition": "The process of becoming outdated, unused, or no longer useful due to technological advancements.",
+    "taWord": "பயனற்றுப் போதல் / காலாவதியாதல்",
+    "enExample": "Proactive refactoring protects core software components from sudden technological obsolescence.",
+    "taExample": "செயலூக்கமுள்ள மறுசீரமைப்பு முக்கிய மென்பொருள் கூறுகளை திடீர் தொழில்நுட்ப பயனற்ற நிலையிலிருந்து பாதுகாக்கிறது.",
+    "enExample2": "Engineers must continuously learn new frameworks to avoid professional skill obsolescence.",
+    "taExample2": "தொழில்முறை திறன்கள் பயனற்றுப் போவதைத் தவிர்க்க பொறியாளர்கள் புதிய கட்டமைப்புகளைத் தொடர்ந்து கற்க வேண்டும்.",
+    "synonyms": [
+      "outdatedness",
+      "antiquation",
+      "disuse",
+      "decline"
+    ],
+    "antonyms": [
+      "modernity",
+      "currency",
+      "relevance"
+    ]
+  },
+  {
     "id": 3121,
     "word": "Obstinate",
     "pos": "adj.",

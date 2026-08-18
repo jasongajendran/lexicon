@@ -1475,6 +1475,28 @@
     ]
   },
   {
+    "id": 3409,
+    "word": "Atrophy",
+    "pos": "noun",
+    "definition": "Gradual decline, wasting away, or loss of effectiveness due to underuse or neglect.",
+    "taWord": "செயலிழப்பு / நலிவுறுதல்",
+    "enExample": "Without continuous hands-on practice, coding skills can slowly atrophy over years of pure management.",
+    "taExample": "தொடர்ச்சியான நேரடிப் பயிற்சி இல்லாமல், பல ஆண்டுகால நிர்வாகப் பணியில் நிரலாக்கத் திறன்கள் மெதுவாகச் செயலிழக்கக்கூடும்.",
+    "enExample2": "System documentation suffers atrophy if not updated alongside continuous software releases.",
+    "taExample2": "தொடர்ச்சியான மென்பொருள் வெளியீடுகளுடன் புதுப்பிக்கப்படாவிட்டால், கணினி ஆவணங்கள் நலிவடைகின்றன.",
+    "synonyms": [
+      "decline",
+      "deterioration",
+      "degeneration",
+      "wasting away"
+    ],
+    "antonyms": [
+      "growth",
+      "development",
+      "strengthening"
+    ]
+  },
+  {
     "id": 2754,
     "word": "Attack Vector",
     "pos": "noun",

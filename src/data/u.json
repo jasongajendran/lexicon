@@ -127,6 +127,28 @@
     "taExample2": "ஜாவாஸ்கிரிப்ட்டில் உள்ள ஒற்றை செயற்குறி (Unary +) எண் சரங்களை உடனடியாக எண் மதிப்பாக மாற்றுகிறது."
   },
   {
+    "id": 3437,
+    "word": "Unassailable",
+    "pos": "adjective",
+    "definition": "Unable to be attacked, questioned, or defeated; logically airtight and indisputable.",
+    "taWord": "மறுக்க முடியாத / எதிர்க்க முடியாத",
+    "enExample": "Backed by rigorous benchmark data, her architecture design was unassailable during team review.",
+    "taExample": "கடுமையான ஒப்பீட்டுத் தரவுகளால் ஆதரிக்கப்பட்ட அவரது வடிவமைப்பு குழு மதிப்பாய்வின் போது மறுக்க முடியாததாக இருந்தது.",
+    "enExample2": "The company built an unassailable market position through continuous innovation and security excellence.",
+    "taExample2": "நிறுவனம் தொடர்ச்சியான கண்டுபிடிப்பு மற்றும் பாதுகாப்பு சிறப்பின் மூலம் மறுக்க முடியாத சந்தை நிலையை உருவாக்கியது.",
+    "synonyms": [
+      "indisputable",
+      "airtight",
+      "impenetrable",
+      "irrefutable"
+    ],
+    "antonyms": [
+      "vulnerable",
+      "questionable",
+      "defenceless"
+    ]
+  },
+  {
     "id": 2746,
     "word": "Unbounded Queue",
     "pos": "noun",

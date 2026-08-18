@@ -444,6 +444,27 @@
     "taExample2": "முறையாக மூட மறுத்த ஒரு பிடிவாதமான (Recalcitrant) பணி செயல்முறையை பொறியியல் குழு கட்டாயமாக மறுதொடக்கம் செய்ய வேண்டியிருந்தது."
   },
   {
+    "id": 3433,
+    "word": "Recalibrate",
+    "pos": "verb",
+    "definition": "To adjust, re-evaluate, or rebalance parameters or plans in response to changing circumstances.",
+    "taWord": "மறுசீரமை / மீண்டும் கணக்கிடு",
+    "enExample": "Following user feedback, the product team decided to recalibrate our feature roadmap for Q4.",
+    "taExample": "பயனர் கருத்துக்களைத் தொடர்ந்து, தயாரிப்புக் குழு Q4 க்கான எங்கள் அம்ச வழிகாட்டியை மறுசீரமைக்க முடிவு செய்தது.",
+    "enExample2": "SREs recalibrated alert thresholds to eliminate false positives in automated monitoring logs.",
+    "taExample2": "தானியங்கு கண்காணிப்புப் பதிவுகளில் தவறான எச்சரிக்கைகளை அகற்ற பொறியாளர்கள் எச்சரிக்கை வரம்புகளை மறுசீரமைத்தனர்.",
+    "synonyms": [
+      "readjust",
+      "re-evaluate",
+      "rebalance",
+      "fine-tune"
+    ],
+    "antonyms": [
+      "freeze",
+      "stagnate"
+    ]
+  },
+  {
     "id": 3062,
     "word": "Recapitulate",
     "pos": "verb",
