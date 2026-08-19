@@ -33,7 +33,7 @@ export function WordDetailModal({
   hasNext = false,
 }: WordDetailModalProps) {
   const [copied, setCopied] = useState(false);
-  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | 'ex1' | 'ex2' | null>(null);
   const [activeTab, setActiveTab] = useState<'all' | 'thesaurus' | 'examples'>('all');
 
   useEffect(() => {
@@ -55,6 +55,7 @@ export function WordDetailModal({
   // Reset tab on word change
   useEffect(() => {
     setActiveTab('all');
+    setSpeakingTarget(null);
   }, [word?.id]);
 
   if (!word || !isOpen) return null;
@@ -69,15 +70,28 @@ export function WordDetailModal({
     }
   };
 
-  const handleSpeak = (e?: React.MouseEvent) => {
+  const handleSpeakText = (text: string, target: 'word' | 'def' | 'ex1' | 'ex2', e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     triggerHaptic();
+
+    if (speakingTarget === target) {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+      setSpeakingTarget(null);
+      return;
+    }
+
     speakWord(
-      word.word,
-      () => setIsSpeaking(true),
-      () => setIsSpeaking(false),
-      () => setIsSpeaking(false)
+      text,
+      () => setSpeakingTarget(target),
+      () => setSpeakingTarget(null),
+      () => setSpeakingTarget(null)
     );
+  };
+
+  const handleSpeak = (e?: React.MouseEvent) => {
+    handleSpeakText(word.word, 'word', e);
   };
 
   const handleCopy = (e?: React.MouseEvent) => {
@@ -185,13 +199,13 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
               <button
                 onClick={handleSpeak}
                 className={`p-2 rounded-xl border transition-all ${
-                  isSpeaking
-                    ? 'bg-amber-400 border-amber-400 text-black shadow-md shadow-amber-400/20'
+                  speakingTarget === 'word'
+                    ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30 shadow-md shadow-amber-400/10'
                     : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
                 }`}
                 title="Pronounce word"
               >
-                {isSpeaking ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
+                {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
               </button>
 
               <button
@@ -251,10 +265,23 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
               </div>
 
               {/* Definition Box */}
-              <div className="mt-4 p-4 rounded-2xl bg-zinc-900/70 border border-zinc-800/80">
-                <div className="flex items-center gap-1.5 text-xs font-mono text-zinc-500 uppercase tracking-widest mb-1.5">
-                  <BookOpen size={13} className="text-amber-400" />
-                  <span>Definition & Meaning</span>
+              <div className="mt-4 p-4 rounded-2xl bg-zinc-900/70 border border-zinc-800/80 space-y-2">
+                <div className="flex items-center justify-between gap-2">
+                  <div className="flex items-center gap-1.5 text-xs font-mono text-zinc-500 uppercase tracking-widest">
+                    <BookOpen size={13} className="text-amber-400" />
+                    <span>Definition & Meaning</span>
+                  </div>
+                  <button
+                    onClick={(e) => handleSpeakText(word.definition, 'def', e)}
+                    className={`p-1.5 rounded-lg border transition-all flex items-center gap-1 text-xs font-mono ${
+                      speakingTarget === 'def'
+                        ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                        : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
+                    }`}
+                    title="Listen to English definition"
+                  >
+                    {speakingTarget === 'def' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
+                  </button>
                 </div>
                 <p className="text-zinc-200 text-sm sm:text-base font-sans leading-relaxed">
                   {word.definition}
@@ -302,9 +329,22 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
                 {/* Example 1 */}
                 <div className="p-4 rounded-2xl bg-zinc-900/50 border border-zinc-800/80 space-y-2">
                   <div className="pl-3 border-l-2 border-amber-400/50 space-y-1.5">
-                    <p className="text-sm sm:text-base font-serif italic text-zinc-100 leading-relaxed">
-                      "{word.enExample}"
-                    </p>
+                    <div className="flex items-start justify-between gap-2">
+                      <p className="text-sm sm:text-base font-serif italic text-zinc-100 leading-relaxed">
+                        "{word.enExample}"
+                      </p>
+                      <button
+                        onClick={(e) => handleSpeakText(word.enExample, 'ex1', e)}
+                        className={`p-1.5 rounded-lg border transition-all shrink-0 ${
+                          speakingTarget === 'ex1'
+                            ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                            : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
+                        }`}
+                        title="Listen to English example 1"
+                      >
+                        {speakingTarget === 'ex1' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
+                      </button>
+                    </div>
                     <p className="text-xs sm:text-sm font-tamil text-zinc-300 leading-relaxed font-light">
                       "{word.taExample}"
                     </p>
@@ -315,9 +355,22 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
                 {(word.enExample2 || word.taExample2) && (
                   <div className="p-4 rounded-2xl bg-zinc-900/40 border border-zinc-800/60 space-y-2">
                     <div className="pl-3 border-l-2 border-blue-400/50 space-y-1.5">
-                      <p className="text-sm sm:text-base font-serif italic text-zinc-100 leading-relaxed">
-                        "{word.enExample2 || word.enExample}"
-                      </p>
+                      <div className="flex items-start justify-between gap-2">
+                        <p className="text-sm sm:text-base font-serif italic text-zinc-100 leading-relaxed">
+                          "{word.enExample2 || word.enExample}"
+                        </p>
+                        <button
+                          onClick={(e) => handleSpeakText(word.enExample2 || word.enExample, 'ex2', e)}
+                          className={`p-1.5 rounded-lg border transition-all shrink-0 ${
+                            speakingTarget === 'ex2'
+                              ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                              : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
+                          }`}
+                          title="Listen to English example 2"
+                        >
+                          {speakingTarget === 'ex2' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
+                        </button>
+                      </div>
                       <p className="text-xs sm:text-sm font-tamil text-zinc-300 leading-relaxed font-light">
                         "{word.taExample2 || word.taExample}"
                       </p>

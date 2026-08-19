@@ -122,13 +122,9 @@ export function WordRow({
   };
 
   return (
-    <motion.div 
+    <div 
       id={`word-entry-${word.id}`}
       ref={rowRef}
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-50px" }}
-      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
       onClick={handleRowClick}
       className={`group relative flex flex-col md:flex-row gap-6 md:gap-12 py-12 md:py-16 border-t border-zinc-800/50 transition-all duration-300 px-4 md:px-8 cursor-pointer ${isCentered ? 'bg-zinc-900/40' : 'hover:bg-zinc-900/30'}`}
     >
@@ -248,6 +244,6 @@ export function WordRow({
           </p>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }

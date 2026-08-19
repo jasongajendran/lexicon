@@ -93,7 +93,7 @@ export function WordOfTheDayCard({
             onClick={handleSpeak}
             className={`p-2 rounded-xl border transition-all ${
               isSpeaking
-                ? 'bg-amber-400 border-amber-400 text-black shadow-lg shadow-amber-400/30'
+                ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30 shadow-lg shadow-amber-400/10'
                 : 'bg-zinc-900/80 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
             }`}
             title="Listen to pronunciation"

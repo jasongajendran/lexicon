@@ -24,7 +24,7 @@ export function WordCard({
   onSelectWord
 }: WordCardProps) {
   const [copied, setCopied] = useState(false);
-  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | 'ex' | null>(null);
 
   const triggerHaptic = () => {
     if (typeof window !== 'undefined' && 'vibrate' in navigator) {
@@ -43,15 +43,28 @@ export function WordCard({
     }
   };
 
-  const handleSpeak = (e?: React.MouseEvent) => {
+  const handleSpeakText = (text: string, target: 'word' | 'def' | 'ex', e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     triggerHaptic();
+
+    if (speakingTarget === target) {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+      setSpeakingTarget(null);
+      return;
+    }
+
     speakWord(
-      word.word,
-      () => setIsSpeaking(true),
-      () => setIsSpeaking(false),
-      () => setIsSpeaking(false)
+      text,
+      () => setSpeakingTarget(target),
+      () => setSpeakingTarget(null),
+      () => setSpeakingTarget(null)
     );
+  };
+
+  const handleSpeak = (e?: React.MouseEvent) => {
+    handleSpeakText(word.word, 'word', e);
   };
 
   const handleCopy = (e: React.MouseEvent) => {
@@ -76,11 +89,8 @@ export function WordCard({
   };
 
   return (
-    <motion.div
+    <div
       id={`word-entry-${word.id}`}
-      initial={{ opacity: 0, y: 15 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-50px" }}
       onClick={handleCardClick}
       className="group relative flex flex-col justify-between p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 hover:border-amber-400/40 transition-all duration-300 shadow-lg overflow-hidden backdrop-blur-md cursor-pointer active:scale-[0.99]"
     >
@@ -104,11 +114,11 @@ export function WordCard({
             <button
               onClick={handleSpeak}
               className={`p-2 rounded-xl text-zinc-400 hover:text-amber-400 hover:bg-zinc-800/80 active:bg-amber-400/20 transition-all ${
-                isSpeaking ? 'text-amber-400 bg-amber-400/10 ring-1 ring-amber-400/30' : ''
+                speakingTarget === 'word' ? 'text-amber-400 bg-amber-400/10 ring-1 ring-amber-400/30 border border-amber-400/40' : ''
               }`}
               title="Pronounce English"
             >
-              {isSpeaking ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
+              {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
             </button>
             <button
               onClick={handleCopy}
@@ -148,14 +158,40 @@ export function WordCard({
         </div>
 
         {/* Definition */}
-        <p className="text-xs md:text-sm text-zinc-300 font-sans leading-relaxed mb-4">
-          {word.definition}
-        </p>
+        <div className="flex items-start justify-between gap-2 mb-4 p-2.5 rounded-xl bg-zinc-950/40 border border-zinc-800/40">
+          <p className="text-xs md:text-sm text-zinc-300 font-sans leading-relaxed">
+            {word.definition}
+          </p>
+          <button
+            onClick={(e) => handleSpeakText(word.definition, 'def', e)}
+            className={`p-1 rounded-lg border transition-all shrink-0 ${
+              speakingTarget === 'def'
+                ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
+            }`}
+            title="Listen to English definition"
+          >
+            {speakingTarget === 'def' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
+          </button>
+        </div>
 
         {/* Context Examples */}
         <div className="space-y-2 mb-4">
           <div className="p-3 rounded-xl bg-zinc-950/60 border border-zinc-800/60">
-            <span className="text-[10px] font-mono text-blue-300 block mb-0.5 font-medium">EN CONTEXT</span>
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-[10px] font-mono text-blue-300 block font-medium">EN CONTEXT</span>
+              <button
+                onClick={(e) => handleSpeakText(word.enExample, 'ex', e)}
+                className={`p-1 rounded-lg border transition-all ${
+                  speakingTarget === 'ex'
+                    ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                    : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
+                }`}
+                title="Listen to English example"
+              >
+                {speakingTarget === 'ex' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={12} />}
+              </button>
+            </div>
             <p className="text-xs font-serif text-zinc-300 italic">
               "{word.enExample}"
             </p>
@@ -193,6 +229,6 @@ export function WordCard({
           ))}
         </div>
       )}
-    </motion.div>
+    </div>
   );
 }

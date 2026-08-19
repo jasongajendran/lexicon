@@ -114,7 +114,7 @@ export function FlashcardView({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [direction, setDirection] = useState(1); // 1 = next, -1 = prev
-  const [isSpeakingEn, setIsSpeakingEn] = useState(false);
+  const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | 'ex1' | 'ex2' | null>(null);
 
   // Persistent Shuffle Mode & History Stack
   const [isShuffleEnabled, setIsShuffleEnabled] = useState(false);
@@ -313,16 +313,28 @@ export function FlashcardView({
   const isMastered = masteredIds.includes(currentWord.id);
   const theme = getPosTheme(currentWord.pos);
 
-  const handleSpeakEnglish = (e?: React.MouseEvent) => {
+  const handleSpeakText = (text: string, target: 'word' | 'def' | 'ex1' | 'ex2', e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     triggerHaptic();
-    setIsSpeakingEn(true);
+
+    if (speakingTarget === target) {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+      setSpeakingTarget(null);
+      return;
+    }
+
     speakWord(
-      currentWord.word,
-      () => setIsSpeakingEn(true),
-      () => setIsSpeakingEn(false),
-      () => setIsSpeakingEn(false)
+      text,
+      () => setSpeakingTarget(target),
+      () => setSpeakingTarget(null),
+      () => setSpeakingTarget(null)
     );
+  };
+
+  const handleSpeakEnglish = (e?: React.MouseEvent) => {
+    handleSpeakText(currentWord.word, 'word', e);
   };
 
   const toggleMastered = (e?: React.MouseEvent) => {
@@ -526,11 +538,11 @@ export function FlashcardView({
                     <button
                       onClick={handleSpeakEnglish}
                       className={`p-2 rounded-xl transition-all border border-transparent ${
-                        isSpeakingEn ? theme.speakerActive : theme.speakerInactive
+                        speakingTarget === 'word' ? theme.speakerActive : theme.speakerInactive
                       }`}
                       title="Pronounce in English"
                     >
-                      {isSpeakingEn ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
+                      {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
                     </button>
                   </div>
                 </div>
@@ -608,11 +620,11 @@ export function FlashcardView({
                     <button
                       onClick={handleSpeakEnglish}
                       className={`p-1.5 rounded-xl border border-transparent ${
-                        isSpeakingEn ? theme.speakerActive : theme.speakerInactive
+                        speakingTarget === 'word' ? theme.speakerActive : theme.speakerInactive
                       }`}
                       title="Pronounce in English"
                     >
-                      {isSpeakingEn ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={15} />}
+                      {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={15} />}
                     </button>
                   </div>
                 </div>
@@ -620,11 +632,25 @@ export function FlashcardView({
                 {/* Back Side Scrollable / Structured Content */}
                 <div className="my-auto flex flex-col z-10 space-y-2.5 py-1 overflow-y-auto max-h-[72%] pr-1">
                   {/* Definition Box */}
-                  <div className="p-3 rounded-2xl bg-zinc-950/80 border border-zinc-800/80 shadow-sm">
-                    <span className="text-[10px] font-mono text-zinc-400 uppercase tracking-widest block mb-1 font-semibold flex items-center gap-1">
-                      <BookOpen size={11} className={theme.accentText} />
-                      Definition
-                    </span>
+                  <div className="p-3 rounded-2xl bg-zinc-950/80 border border-zinc-800/80 shadow-sm space-y-1">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-mono text-zinc-400 uppercase tracking-widest block font-semibold flex items-center gap-1">
+                        <BookOpen size={11} className={theme.accentText} />
+                        Definition
+                      </span>
+                      <button
+                        type="button"
+                        onClick={(e) => handleSpeakText(currentWord.definition, 'def', e)}
+                        className={`p-1 rounded-lg border transition-all ${
+                          speakingTarget === 'def'
+                            ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                            : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-amber-400'
+                        }`}
+                        title="Listen to English definition"
+                      >
+                        {speakingTarget === 'def' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={12} />}
+                      </button>
+                    </div>
                     <p className="text-xs sm:text-sm font-sans text-zinc-100 leading-relaxed font-normal">
                       {currentWord.definition}
                     </p>
@@ -633,9 +659,30 @@ export function FlashcardView({
                   {/* Context Cards with Dual Example Switcher */}
                   <div className="p-3 rounded-2xl bg-zinc-950/70 border border-zinc-800/70 space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className={`text-[10px] font-mono ${theme.accentText} uppercase tracking-widest block font-semibold`}>
-                        {exampleTab === 1 ? 'Context 1' : 'Context 2'}
-                      </span>
+                      <div className="flex items-center gap-2">
+                        <span className={`text-[10px] font-mono ${theme.accentText} uppercase tracking-widest block font-semibold`}>
+                          {exampleTab === 1 ? 'Context 1' : 'Context 2'}
+                        </span>
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            const textToRead = exampleTab === 2 && currentWord.enExample2 ? currentWord.enExample2 : currentWord.enExample;
+                            handleSpeakText(textToRead, exampleTab === 1 ? 'ex1' : 'ex2', e);
+                          }}
+                          className={`p-1 rounded-lg border transition-all ${
+                            (exampleTab === 1 && speakingTarget === 'ex1') || (exampleTab === 2 && speakingTarget === 'ex2')
+                              ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                              : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-amber-400'
+                          }`}
+                          title="Listen to English example"
+                        >
+                          {(exampleTab === 1 && speakingTarget === 'ex1') || (exampleTab === 2 && speakingTarget === 'ex2') ? (
+                            <AudioEqualizer isPlaying={true} />
+                          ) : (
+                            <Volume2 size={12} />
+                          )}
+                        </button>
+                      </div>
                       {currentWord.enExample2 && (
                         <div className="flex items-center gap-1">
                           <button
