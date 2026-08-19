@@ -1,5 +1,24 @@
 [
   {
+    "id": 3471,
+    "word": "b-roll",
+    "pos": "noun",
+    "definition": "Supplemental or alternative footage intercut with the main shot in a news broadcast.",
+    "enExample": "The news editor overlayed B-roll of the city skyline during the interview.",
+    "taWord": "துணை வீடியோக் காட்சி",
+    "taExample": "நேர்காணலின் போது செய்தி எடிட்டர் நகர பின்னணி காட்சிகளை இடைசெருகலாகப் பயன்படுத்தினார்.",
+    "enExample2": "Cameramen filmed B-roll of the crowd arriving outside the auditorium.",
+    "taExample2": "கேமராமேன்கள் அரங்கிற்கு வெளியே வரும் கூட்டத்தின் துணை வீடியோக் காட்சிகளைப் படமாக்கினர்.",
+    "synonyms": [
+      "secondary footage",
+      "background video"
+    ],
+    "antonyms": [
+      "primary footage",
+      "A-roll"
+    ]
+  },
+  {
     "id": 218,
     "word": "Backlog",
     "definition": "A build-up of uncompleted work or matters needing to be dealt with.",
@@ -935,6 +954,24 @@
     "taExample2": "மெதுவான சேமிப்பக செயல்பாடே தகவல் பதிவு சேவையின் முதன்மை செயலாக்கத் தடையாக இருந்தது."
   },
   {
+    "id": 3449,
+    "word": "bounce back",
+    "pos": "noun",
+    "definition": "An automated message indicating that an email could not be delivered to the recipient.",
+    "enExample": "I received a bounce back message because his email address was incorrect.",
+    "taWord": "மின்னஞ்சல் திரும்பல்",
+    "taExample": "அவரது மின்னஞ்சல் முகவரி தவறாக இருந்ததால் எனக்கு மின்னஞ்சல் திரும்பல் செய்தி வந்தது.",
+    "enExample2": "Check for typos in the recipient address if you get an instant bounce back.",
+    "taExample2": "உடனடி மின்னஞ்சல் திரும்பல் வந்தால் பெறுநர் முகவரியில் எழுத்துப்பிழை உள்ளதா எனச் சரிபார்க்கவும்.",
+    "synonyms": [
+      "non-delivery report",
+      "delivery failure"
+    ],
+    "antonyms": [
+      "successful delivery"
+    ]
+  },
+  {
     "id": 237,
     "word": "Boundary",
     "definition": "A limit or border indicating the extent of an area or responsibility.",
@@ -974,6 +1011,26 @@
       "mental clarity",
       "sharpness",
       "focus"
+    ]
+  },
+  {
+    "id": 3455,
+    "word": "brainstorm",
+    "pos": "verb",
+    "definition": "To generate creative ideas or solve problems through group discussion.",
+    "enExample": "We gathered in the conference room to brainstorm marketing concepts.",
+    "taWord": "மூளைச்சலவை செய்தல்",
+    "taExample": "சந்தைப்படுத்தல் கருத்துக்களை மூளைச்சலவை செய்ய நாங்கள் கூட்ட அரங்கில் கூடினோம்.",
+    "enExample2": "Let us brainstorm new features for the mobile app during tomorrow session.",
+    "taExample2": "நாளை அமர்வின் போது மொபைல் செயலிக்கு புதிய அம்சங்களை மூளைச்சலவை செய்யலாம்.",
+    "synonyms": [
+      "ideate",
+      "deliberate",
+      "conceptualize"
+    ],
+    "antonyms": [
+      "finalize",
+      "conclude"
     ]
   },
   {
@@ -1034,6 +1091,26 @@
       "poor",
       "shabby",
       "subpar"
+    ]
+  },
+  {
+    "id": 3459,
+    "word": "breaking news",
+    "pos": "noun",
+    "definition": "Current events that are happening right now and being reported urgently on media outlets.",
+    "enExample": "We interrupt this program to bring you breaking news on the international summit.",
+    "taWord": "முக்கிய செய்தி",
+    "taExample": "சர்வதேச உச்சிமாநாடு பற்றிய முக்கிய செய்தியை உங்களுக்கு வழங்க இந்த நிகழ்ச்சியை இடைநிறுத்துகிறோம்.",
+    "enExample2": "The network flashed breaking news across the screen regarding the weather alert.",
+    "taExample2": "வானிலை எச்சரிக்கை தொடர்பாக தொலைக்காட்சி நிறுவனம் திரையில் முக்கிய செய்தியை ஒளிபரப்பியது.",
+    "synonyms": [
+      "flash news",
+      "bulletin",
+      "developing story"
+    ],
+    "antonyms": [
+      "old news",
+      "archived story"
     ]
   },
   {
@@ -1403,6 +1480,24 @@
     ],
     "enExample2": "Securing stakeholder buy-in early prevented scope disputes later in the development cycle.",
     "taExample2": "பங்குதாரர்களின் ஒப்புதலை முன்கூட்டியே பெறுவது பிற்காலத்தில் திட்ட எல்லை தகராறுகள் ஏற்படுவதைத் தடுத்தது."
+  },
+  {
+    "id": 3460,
+    "word": "byline",
+    "pos": "noun",
+    "definition": "A line in a newspaper article or news piece naming the author or reporter.",
+    "enExample": "The investigative article featured his byline on the front page.",
+    "taWord": "எழுத்தாளர் பெயர் வரி",
+    "taExample": "விசாரணை கட்டுரை முன் பக்கத்தில் அவரது எழுத்தாளர் பெயர் வரியைக் கொண்டிருந்தது.",
+    "enExample2": "A prominent byline builds trust and credibility with regular readers.",
+    "taExample2": "ஒரு முக்கிய எழுத்தாளர் பெயர் வரி வழக்கமான வாசகர்களிடம் நம்பிக்கையை உருவாக்குகிறது.",
+    "synonyms": [
+      "credit",
+      "author line"
+    ],
+    "antonyms": [
+      "anonymous entry"
+    ]
   },
   {
     "id": 209,

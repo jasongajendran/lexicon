@@ -611,6 +611,24 @@
     ]
   },
   {
+    "id": 3444,
+    "word": "per my last email",
+    "pos": "phrase",
+    "definition": "A polite reference drawing attention to details previously communicated in a prior email.",
+    "enExample": "Per my last email, the deadline for submission remains 5 PM today.",
+    "taWord": "எனது முந்தைய மின்னஞ்சலின்படி",
+    "taExample": "எனது முந்தைய மின்னஞ்சலின்படி, சமர்ப்பிப்பதற்கான கடைசி நேரம் இன்று மாலை 5 மணி ஆகும்.",
+    "enExample2": "As stated per my last email, all files must be in PDF format.",
+    "taExample2": "எனது முந்தைய மின்னஞ்சலில் குறிப்பிட்டபடி, அனைத்து கோப்புகளும் PDF வடிவத்தில் இருக்க வேண்டும்.",
+    "synonyms": [
+      "as previously stated",
+      "as mentioned earlier"
+    ],
+    "antonyms": [
+      "unmentioned"
+    ]
+  },
+  {
     "id": 44,
     "word": "Perceptive",
     "definition": "having or showing sensitive insight",
@@ -1171,6 +1189,25 @@
     ],
     "enExample2": "Server response latency began to plummet immediately after enabling the Redis edge caching layer.",
     "taExample2": "Redis விளிம்புநிலை தற்காலிக சேமிப்பை இயக்கியவுடன் சேவையக மறுமொழி தாமதம் உடனடியாகக் குறையத் (Plummet) தொடங்கியது."
+  },
+  {
+    "id": 3457,
+    "word": "point of contact",
+    "pos": "noun",
+    "definition": "The designated representative responsible for handling communications regarding a specific issue.",
+    "enExample": "Sarah will be your primary point of contact during the client onboarding process.",
+    "taWord": "தொடர்பு நபர்",
+    "taExample": "வாடிக்கையாளர் இணைப்பின் போது சாரா உங்கள் முதன்மை தொடர்பு நபராக இருப்பார்.",
+    "enExample2": "Who is the main point of contact for technical support inquiries?",
+    "taExample2": "தொழில்நுட்ப ஆதரவு விசாரணைகளுக்கான முக்கிய தொடர்பு நபர் யார்?",
+    "synonyms": [
+      "liaison",
+      "representative",
+      "contact person"
+    ],
+    "antonyms": [
+      "bystander"
+    ]
   },
   {
     "id": 2810,
@@ -1743,6 +1780,25 @@
     ],
     "enExample2": "Her prescient decision to invest early in TypeScript saved the team from countless runtime type errors years later.",
     "taExample2": "TypeScript-ல் முதலீடு செய்ய அவர் எடுத்த தொலைநோக்கு (Prescient) முடிவு பல ஆண்டுகளுக்குப் பின் எண்ணற்ற பிழைகளிலிருந்து குழுவைக் காப்பாற்றியது."
+  },
+  {
+    "id": 3466,
+    "word": "press release",
+    "pos": "noun",
+    "definition": "An official statement issued to news media providing information on a specific matter or milestone.",
+    "enExample": "The company issued a press release announcing their new chief executive officer.",
+    "taWord": "செய்திக் குறிப்பு",
+    "taExample": "நிறுவனம் தனது புதிய தலைமை நிர்வாக அதிகாரியை அறிவித்து ஒரு செய்திக் குறிப்பை வெளியிட்டது.",
+    "enExample2": "Media outlets received the press release ahead of the product announcement.",
+    "taExample2": "தயாரிப்பு அறிவிப்புக்கு முன்னதாக ஊடக நிறுவனங்கள் செய்திக் குறிப்பைப் பெற்றன.",
+    "synonyms": [
+      "media statement",
+      "official announcement"
+    ],
+    "antonyms": [
+      "leak",
+      "rumor"
+    ]
   },
   {
     "id": 23,

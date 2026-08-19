@@ -904,6 +904,25 @@
     ]
   },
   {
+    "id": 3458,
+    "word": "anchor",
+    "pos": "noun",
+    "definition": "A television or radio presenter who coordinates news broadcasts and interviews guests.",
+    "enExample": "The news anchor reported live on the major breaking geopolitical events.",
+    "taWord": "செய்தி வழங்குபவர்",
+    "taExample": "முக்கிய பிராந்திய அரசியல் நிகழ்வுகள் குறித்து செய்தி வழங்குபவர் நேரலையில் அறிக்கை அளித்தார்.",
+    "enExample2": "She has been a trusted news anchor on prime time national television for a decade.",
+    "taExample2": "அவர் ஒரு தசாப்த காலமாக முதன்மை நேர தேசிய தொலைக்காட்சியில் நம்பகமான செய்தி வழங்குபவராக உள்ளார்.",
+    "synonyms": [
+      "broadcaster",
+      "presenter",
+      "newsreader"
+    ],
+    "antonyms": [
+      "field reporter"
+    ]
+  },
+  {
     "id": 3239,
     "word": "Anecdotal",
     "pos": "Adjective",
@@ -1325,6 +1344,24 @@
     "taExample2": "பயனர்களை ஏமாற்றி கடவுச்சொற்களைப் பெற போலி வலைத்தளம் தந்திரமான காட்சி ஏமாற்று வேலைகளைப் பயன்படுத்தியது."
   },
   {
+    "id": 3443,
+    "word": "as discussed",
+    "pos": "phrase",
+    "definition": "A formal email phrase referencing an agreement or topic previously spoken about.",
+    "enExample": "As discussed, attached is the revised proposal for your review.",
+    "taWord": "விவாதித்தபடி",
+    "taExample": "நாம் விவாதித்தபடி, உங்கள் பரிசீலனைக்காக திருத்தப்பட்ட திட்டம் இணைக்கப்பட்டுள்ளது.",
+    "enExample2": "I am sending over the budget breakdown as discussed during our call.",
+    "taExample2": "எங்கள் அழைப்பின் போது விவாதித்தபடி வரவுசெலவுத் திட்ட விவரங்களை அனுப்புகிறேன்.",
+    "synonyms": [
+      "as agreed",
+      "as per conversation"
+    ],
+    "antonyms": [
+      "unagreed"
+    ]
+  },
+  {
     "id": 3101,
     "word": "Ascetic",
     "pos": "adj.",
@@ -1432,6 +1469,25 @@
     ],
     "enExample2": "Using asynchronous background workers prevents the user interface from freezing during video rendering.",
     "taExample2": "ஒத்திசைவற்ற (Asynchronous) பின்னணி சேவைகளைப் பயன்படுத்துவது வீடியோ உருவாக்கத்தின் போது பயனர் திரை உறைவதைத் தடுக்கிறது."
+  },
+  {
+    "id": 3445,
+    "word": "at your earliest convenience",
+    "pos": "phrase",
+    "definition": "A polite, formal way to ask someone to complete a task as soon as they can.",
+    "enExample": "Please sign and return the agreement at your earliest convenience.",
+    "taWord": "உங்கள் வசதிக்கேற்ப விரைவில்",
+    "taExample": "உங்கள் வசதிக்கேற்ப விரைவில் இந்த ஒப்பந்தத்தில் கையொப்பமிட்டு திருப்பி அனுப்பவும்.",
+    "enExample2": "Kindly confirm your availability for the call at your earliest convenience.",
+    "taExample2": "அழைப்பிற்கான உங்கள் நேர வசதியை முடிந்தவரை விரைவில் உறுதிப்படுத்தவும்.",
+    "synonyms": [
+      "as soon as possible",
+      "at your earliest"
+    ],
+    "antonyms": [
+      "at your leisure",
+      "eventually"
+    ]
   },
   {
     "id": 2624,

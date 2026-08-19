@@ -415,6 +415,26 @@
     "taExample2": "வழக்கமான மரபுகளைப் புறக்கணித்து அந்த தனித்துவமான பொறியாளர் அதிவேக கோப்பு முறைமை முன்மாதிரியை உருவாக்கினார்."
   },
   {
+    "id": 3464,
+    "word": "media blackout",
+    "pos": "noun",
+    "definition": "An official prohibition or censorship stopping media outlets from reporting on a specific subject.",
+    "enExample": "Authorities imposed a temporary media blackout during the sensitive rescue mission.",
+    "taWord": "ஊடகத் தடை",
+    "taExample": "உணர்ச்சிமிக்க மீட்புப் பணியின் போது அதிகாரிகளால் தற்காலிக ஊடகத் தடை விதிக்கப்பட்டது.",
+    "enExample2": "The media blackout was lifted once the security operation concluded safely.",
+    "taExample2": "பாதுகாப்பு நடவடிக்கை பாதுகாப்பாக முடிந்ததும் ஊடகத் தடை விலக்கப்பட்டது.",
+    "synonyms": [
+      "press embargo",
+      "news blackout",
+      "censorship"
+    ],
+    "antonyms": [
+      "press coverage",
+      "open broadcast"
+    ]
+  },
+  {
     "id": 1309,
     "word": "Median",
     "definition": "The middle value in a sorted statistical distribution or list of numbers.",
@@ -694,6 +714,25 @@
     "taExample2": "எக்ஸ்பிரஸ் இடைநிலை மென்பொருள் (Middleware) உள்வரும் கோரிக்கைகளை இடைமறித்து அங்கீகாரத்தைச் சரிபார்க்கிறது."
   },
   {
+    "id": 3454,
+    "word": "minutes of meeting",
+    "pos": "noun",
+    "definition": "The official written record of discussion items, decisions, and action items from a meeting.",
+    "enExample": "The secretary distributed the minutes of meeting shortly after we adjourned.",
+    "taWord": "கூட்ட நடவடிக்கை குறிப்பு",
+    "taExample": "கூட்டம் முடிந்த சிறிது நேரத்திலேயே செயலாளர் கூட்ட நடவடிக்கை குறிப்பை விநியோகித்தார்.",
+    "enExample2": "Please review the minutes of meeting and note any corrections.",
+    "taExample2": "கூட்ட நடவடிக்கை குறிப்பை மதிப்பாய்வு செய்து திருத்தங்கள் ஏதேனும் இருந்தால் குறிக்கவும்.",
+    "synonyms": [
+      "meeting notes",
+      "official record",
+      "summary"
+    ],
+    "antonyms": [
+      "verbal discussion"
+    ]
+  },
+  {
     "id": 3369,
     "word": "misinformation",
     "pos": "noun",
@@ -906,6 +945,25 @@
     ],
     "enExample2": "Refactoring the entire backend framework was a heavy effort that ultimately failed to move the needle on user retention.",
     "taExample2": "பின்தளத்தை முழுமையாக மாற்றியமைத்தது பயனர்களைத் தக்கவைப்பதில் எந்தவொரு குறிப்பிடத்தக்க முன்னேற்றத்தையும் ஏற்படுத்தவில்லை."
+  },
+  {
+    "id": 3452,
+    "word": "moving parts",
+    "pos": "noun",
+    "definition": "Multiple interconnected components, tasks, or factors involved in a complex project.",
+    "enExample": "There are a lot of moving parts in this launch, so clear coordination is vital.",
+    "taWord": "இணைக்கப்பட்ட பணிகள்",
+    "taExample": "இந்தத் தொடக்கத்தில் பல இணைக்கப்பட்ட பணிகள் உள்ளதால் தெளிவான ஒருங்கிணைப்பு அவசியம்.",
+    "enExample2": "Managing a global campaign involves balancing many moving parts simultaneously.",
+    "taExample2": "உலகளாவிய பிரச்சாரத்தை நிர்வகிப்பது பல கூறுகளை ஒரே நேரத்தில் சமநிலைப்படுத்துவதை உள்ளடக்கியது.",
+    "synonyms": [
+      "variables",
+      "components",
+      "factors"
+    ],
+    "antonyms": [
+      "fixed elements"
+    ]
   },
   {
     "id": 2731,

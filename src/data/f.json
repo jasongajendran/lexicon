@@ -542,6 +542,25 @@
     "taExample2": "ஒரு நெகிழ்வான தரவுத்தள அமைப்பு உருவாக்குநர்கள் மாற்றங்களைச் செய்யாமல் விரிவடையும் தரவுகளைச் சேமிக்க அனுமதிக்கிறது."
   },
   {
+    "id": 3451,
+    "word": "floor is yours",
+    "pos": "phrase",
+    "definition": "An idiom used in meetings to hand over the opportunity to speak or present to someone.",
+    "enExample": "Thank you for the introduction; the floor is yours, Alex.",
+    "taWord": "உங்கள் பேசும் நேரம்",
+    "taExample": "அறிமுகத்திற்கு நன்றி; அலெக்ஸ், இப்போது உங்கள் பேசும் நேரம்.",
+    "enExample2": "If there are no further questions, the floor is yours for the presentation.",
+    "taExample2": "கூடுதல் கேள்விகள் ஏதும் இல்லை என்றால், விளக்கக்காட்சியைத் தொடங்க உங்களுக்கான நேரம் இது.",
+    "synonyms": [
+      "your turn",
+      "go ahead"
+    ],
+    "antonyms": [
+      "interrupt",
+      "hold the stage"
+    ]
+  },
+  {
     "id": 611,
     "word": "Flush",
     "definition": "Cleanse (something) by passing large quantities of liquid through it; clear a buffer.",
@@ -639,6 +658,24 @@
     ],
     "enExample2": "Compiling code with WebAssembly significantly reduces the binary memory footprint on embedded devices.",
     "taExample2": "WebAssembly மூலம் தொகுப்பது உட்பொதிக்கப்பட்ட சாதனங்களில் பயன்பாட்டின் நினைவக அளவை கணிசமாகக் குறைக்கிறது."
+  },
+  {
+    "id": 3446,
+    "word": "for your awareness",
+    "pos": "phrase",
+    "definition": "Sharing information for context or reference without requiring immediate action.",
+    "enExample": "Sharing the weekly report for your awareness; no immediate action is needed.",
+    "taWord": "உங்கள் தகவலுக்காக",
+    "taExample": "உங்கள் தகவலுக்காக வாராந்திர அறிக்கையைப் பகிர்கிறேன்; உடனடி நடவடிக்கை எதுவும் தேவையில்லை.",
+    "enExample2": "Sending this policy update for your awareness before the team meeting.",
+    "taExample2": "குழு கூட்டத்திற்கு முன்னதாக உங்கள் தகவலுக்காக இந்த கொள்கை மாற்றத்தை அனுப்புகிறேன்.",
+    "synonyms": [
+      "FYI",
+      "for your information"
+    ],
+    "antonyms": [
+      "action required"
+    ]
   },
   {
     "id": 613,

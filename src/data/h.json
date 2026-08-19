@@ -293,6 +293,25 @@
     "taExample2": "ஹெட்லெஸ் CMS ஒரு குறிப்பிட்ட இடைமுகத்தைக் கட்டாயப்படுத்தாமல் API வழியாக கட்டமைக்கப்பட்ட உள்ளடக்கத்தை வழங்குகிறது."
   },
   {
+    "id": 3463,
+    "word": "headline",
+    "pos": "noun",
+    "definition": "The title or chief caption of a news story printed at the top of an article or broadcast banner.",
+    "enExample": "Bold headlines across all morning newspapers covered the election outcome.",
+    "taWord": "தலைப்புச் செய்தி",
+    "taExample": "அனைத்து காலை நாளிதழ்களின் தடித்த தலைப்புச் செய்திகளும் தேர்தல் முடிவை வெளியிட்டன.",
+    "enExample2": "The news ticker continuously displayed updated global headlines.",
+    "taExample2": "செய்தி பட்டை தொடர்ச்சியாக மேம்படுத்தப்பட்ட உலகளாவிய தலைப்புச் செய்திகளைக் காட்டியது.",
+    "synonyms": [
+      "heading",
+      "caption",
+      "title"
+    ],
+    "antonyms": [
+      "footnote"
+    ]
+  },
+  {
     "id": 807,
     "word": "Heap",
     "definition": "An area of memory used for dynamic memory allocation.",

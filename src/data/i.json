@@ -525,6 +525,26 @@
     ]
   },
   {
+    "id": 3447,
+    "word": "in due course",
+    "pos": "phrase",
+    "definition": "At an appropriate or expected time in the future without unnecessary delay.",
+    "enExample": "Further updates regarding the merger will be communicated in due course.",
+    "taWord": "உரிய நேரத்தில்",
+    "taExample": "இணைப்பு பற்றிய கூடுதல் தகவல்கள் உரிய நேரத்தில் தெரிவிக்கப்படும்.",
+    "enExample2": "Your application will be evaluated and processed in due course.",
+    "taExample2": "உங்கள் விண்ணப்பம் பரிசீலிக்கப்பட்டு உரிய நேரத்தில் நடவடிக்கை எடுக்கப்படும்.",
+    "synonyms": [
+      "in time",
+      "eventually",
+      "duly"
+    ],
+    "antonyms": [
+      "immediately",
+      "never"
+    ]
+  },
+  {
     "id": 933,
     "word": "Incentive",
     "definition": "A thing that motivates or encourages someone to do something.",

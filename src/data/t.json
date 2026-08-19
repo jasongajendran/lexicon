@@ -298,6 +298,24 @@
     "taExample2": "ஒவ்வொரு சுழற்சியிலும் இருபது சதவீத நேரத்தை தொழில்நுட்பக் கடனைத் தீர்க்க ஒதுக்குவது குறியீட்டை எளிதில் பராமரிக்க வைக்கிறது."
   },
   {
+    "id": 3468,
+    "word": "telecast",
+    "pos": "noun",
+    "definition": "A television broadcast, especially of news bulletins or live events.",
+    "enExample": "The live telecast of the space launch reached record viewership.",
+    "taWord": "தொலைக்காட்சி ஒளிபரப்பு",
+    "taExample": "விண்வெளி ஏவுதலின் நேரலை தொலைக்காட்சி ஒளிபரப்பு சாதனை அளவிலான பார்வையாளர்களை எட்டியது.",
+    "enExample2": "Evening news telecasts usually cover key political and local developments.",
+    "taExample2": "மாலை நேர செய்தி ஒளிபரப்புகள் பொதுவாக முக்கிய அரசியல் மற்றும் உள்ளூர் நிகழ்வுகளை அடக்குகின்றன.",
+    "synonyms": [
+      "broadcast",
+      "television transmission"
+    ],
+    "antonyms": [
+      "radio broadcast"
+    ]
+  },
+  {
     "id": 2012,
     "word": "Telemetry",
     "definition": "Automated remote collection and measurement of performance metrics and log diagnostics from live production systems.",
@@ -569,6 +587,24 @@
     "taExample2": "பைனரி முறைக்கு மாறியது எங்கள் கட்டண நுழைவாயிலின் அதிகபட்ச பரிவர்த்தனை வேகத்தை (Throughput) இரட்டிப்பாக்கியது."
   },
   {
+    "id": 3469,
+    "word": "ticker",
+    "pos": "noun",
+    "definition": "A continuously scrolling banner at the bottom of a TV news screen displaying headlines or stock updates.",
+    "enExample": "Keep an eye on the news ticker for real-time updates during market hours.",
+    "taWord": "செய்திப் பட்டை",
+    "taExample": "சந்தை நேரத்தில் நேரலை தகவல்களுக்கு தொலைக்காட்சி செய்திப் பட்டையைக் கவனியுங்கள்.",
+    "enExample2": "The breaking news ticker rolled continuously during the speech.",
+    "taExample2": "உரையின் போது முக்கிய செய்திப் பட்டை தொடர்ச்சியாக இயங்கியது.",
+    "synonyms": [
+      "news ticker",
+      "crawling text banner"
+    ],
+    "antonyms": [
+      "static image"
+    ]
+  },
+  {
     "id": 2744,
     "word": "Time-to-Live",
     "pos": "noun",
@@ -715,6 +751,26 @@
     ],
     "enExample2": "The application suffered from torpid database query execution due to missing composite table indexes.",
     "taExample2": "கூட்டு அட்டவணை குறியீடுகள் இல்லாததால் பயன்பாடு மிகவும் மந்தமான (Torpid) தரவுத்தள வினவல் வேகத்தால் பாதிக்கப்பட்டது."
+  },
+  {
+    "id": 3440,
+    "word": "touch base",
+    "pos": "idiom",
+    "definition": "To briefly make contact or check in with someone regarding an ongoing matter.",
+    "enExample": "I wanted to touch base with you regarding the updated project timeline.",
+    "taWord": "தொடர்பு கொள்ளுதல்",
+    "taExample": "புதுப்பிக்கப்பட்ட திட்ட நேர அட்டவணை குறித்து உங்களுடன் சுருக்கமாகத் தொடர்பு கொள்ள விரும்பினேன்.",
+    "enExample2": "Let us touch base tomorrow morning after the client call.",
+    "taExample2": "வாடிக்கையாளர் அழைப்பிற்குப் பிறகு நாளை காலை நாம் சுருக்கமாக பேசலாம்.",
+    "synonyms": [
+      "check in",
+      "contact",
+      "reconnect"
+    ],
+    "antonyms": [
+      "ignore",
+      "disconnect"
+    ]
   },
   {
     "id": 2627,

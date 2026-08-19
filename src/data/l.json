@@ -834,6 +834,26 @@
     "taExample2": "Node.js நிகழ்வு வளையம் (Event Loop) ஒற்றை செயலாக்க நூலை முடக்காமல் ஒத்திசைவற்ற I/O செயல்பாடுகளை ஒருங்கிணைக்கிறது."
   },
   {
+    "id": 3441,
+    "word": "loop in",
+    "pos": "phrasal verb",
+    "definition": "To include someone in an ongoing email thread, conversation, or project updates.",
+    "enExample": "Please loop in the marketing team so they are aware of the launch date.",
+    "taWord": "இணைத்துக் கொள்ளுதல்",
+    "taExample": "தொடக்கத் தேதி குறித்து அறிந்து கொள்ள சந்தைப்படுத்தல் குழுவையும் இதில் இணைத்துக் கொள்ளவும்.",
+    "enExample2": "I will loop in my manager on this email thread for final review.",
+    "taExample2": "இறுதி மதிப்பாய்விற்காக எனது மேலாளரை இந்த மின்னஞ்சல் உரையாடலில் இணைக்கிறேன்.",
+    "synonyms": [
+      "include",
+      "involve",
+      "cc"
+    ],
+    "antonyms": [
+      "exclude",
+      "omit"
+    ]
+  },
+  {
     "id": 1228,
     "word": "Loquacious",
     "definition": "Tending to talk a great deal; talkative.",

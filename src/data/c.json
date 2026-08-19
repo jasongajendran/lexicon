@@ -2210,6 +2210,26 @@
     "taExample2": "கண்காணிப்பு தளம் தரவுத்தள வினவல் உயர்வை பக்க ஏற்றுதல் தாமதத்துடன் ஒப்பிட்டு தொடர்புபடுத்துகிறது."
   },
   {
+    "id": 3461,
+    "word": "correspondent",
+    "pos": "noun",
+    "definition": "A journalist employed by a news organization to provide reports from a specific location or field.",
+    "enExample": "Our chief foreign correspondent joined live from London to discuss the economic outlook.",
+    "taWord": "செய்தியாளர்",
+    "taExample": "பொருளாதாரப் பார்வை குறித்து விவாதிக்க எங்கள் தலைமை வெளிநாட்டுச் செய்தியாளர் லண்டனிலிருந்து நேரலையில் இணைந்தார்.",
+    "enExample2": "She works as an environmental correspondent covering climate change policy.",
+    "taExample2": "அவர் பருவநிலை மாற்றக் கொள்கையை அடாக்கி சுற்றுப்புறச்சூழல் செய்தியாளராகப் பணியாற்றுகிறார்.",
+    "synonyms": [
+      "reporter",
+      "journalist",
+      "envoy"
+    ],
+    "antonyms": [
+      "editor",
+      "publisher"
+    ]
+  },
+  {
     "id": 2965,
     "word": "Corroborate",
     "pos": "verb",

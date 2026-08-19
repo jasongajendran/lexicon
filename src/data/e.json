@@ -168,6 +168,25 @@
     ]
   },
   {
+    "id": 3462,
+    "word": "editorial",
+    "pos": "noun",
+    "definition": "A news article or broadcast opinion piece stating the official perspective of the editors.",
+    "enExample": "Today editorial highlights the economic impact of recent technological advancements.",
+    "taWord": "தலையங்கம்",
+    "taExample": "இன்றைய தலையங்கம் சமீபத்திய தொழில்நுட்ப முன்னேற்றங்களின் பொருளாதார தாக்கத்தை எடுத்துக்காட்டுகிறது.",
+    "enExample2": "The paper published a compelling editorial calling for healthcare reforms.",
+    "taExample2": "சுகாதாரத் சீர்திருத்தங்களைக் கோரி நாளிதழ் ஒரு அழுத்தமான தலையங்கத்தை வெளியிட்டது.",
+    "synonyms": [
+      "opinion piece",
+      "leader",
+      "commentary"
+    ],
+    "antonyms": [
+      "factual report"
+    ]
+  },
+  {
     "id": 529,
     "word": "Effective",
     "definition": "Successful in producing a desired or intended result.",

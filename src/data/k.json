@@ -139,6 +139,25 @@
     "taExample2": "கிளவுட் விசை மேலாண்மை சேவை (KMS) குறியாக்க முதன்மை விசைகளின் தானியங்கி சுழற்சி மற்றும் பாதுகாப்பான சேமிப்பைக் கையாள்கிறது."
   },
   {
+    "id": 3456,
+    "word": "key takeaway",
+    "pos": "noun",
+    "definition": "The primary piece of information, lesson, or conclusion gained from a discussion or meeting.",
+    "enExample": "The key takeaway from the workshop was the importance of cross-team communication.",
+    "taWord": "முக்கிய சாராம்சம்",
+    "taExample": "பயிற்சியரங்கின் முக்கிய சாராம்சம் குழுக்களுக்கிடையேயான தொடர்பாடலின் முக்கியத்துவமாகும்.",
+    "enExample2": "Please share your top key takeaways with the rest of the department.",
+    "taExample2": "உங்கள் முக்கிய சாராம்சங்களை துறையின் பிற உறுப்பினர்களுடன் பகிர்ந்து கொள்ளுங்கள்.",
+    "synonyms": [
+      "main lesson",
+      "core point",
+      "summary point"
+    ],
+    "antonyms": [
+      "minor detail"
+    ]
+  },
+  {
     "id": 1104,
     "word": "Key-Value",
     "definition": "A data storage paradigm designed for storing, retrieving, and managing associative arrays.",

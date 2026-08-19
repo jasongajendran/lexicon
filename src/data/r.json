@@ -1422,6 +1422,26 @@
     "taExample2": "தொழில்நுட்ப பிரதிநிதி தனது இயல்பான கவர்ச்சியையும் வசீகரத்தையும் (Rizz) பயன்படுத்தி ஒரு ஈர்க்கக்கூடிய மாநாட்டு உரையை வழங்கினார்."
   },
   {
+    "id": 3453,
+    "word": "roadblock",
+    "pos": "noun",
+    "definition": "An obstacle or issue that prevents or delays progress in a discussion or project.",
+    "enExample": "Let us discuss any roadblocks holding up the software deployment.",
+    "taWord": "முன்னேற்றத் தடை",
+    "taExample": "மென்பொருள் வெளியீட்டைத் தாமதப்படுத்தும் முன்னேற்றத் தடைகளைப் பற்றி விவாதிப்போம்.",
+    "enExample2": "Identifying roadblocks early helps the team stay on track.",
+    "taExample2": "முன்னேற்றத் தடைகளை ஆரம்பத்திலேயே கண்டறிவது குழு சரியான பாதையில் செல்ல உதவுகிறது.",
+    "synonyms": [
+      "obstacle",
+      "hinderance",
+      "bottleneck"
+    ],
+    "antonyms": [
+      "catalyst",
+      "breakthrough"
+    ]
+  },
+  {
     "id": 1820,
     "word": "Roadmap",
     "definition": "A strategic plan or presentation outlining long-term goals, milestones, and release schedules.",

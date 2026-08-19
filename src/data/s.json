@@ -777,6 +777,26 @@
     "taExample2": "காலக்கெடுவை எட்ட சோதனைகளை முடக்கலாம் என்று ஒரு உருவாக்குநர் கூறிய போது மூத்த பொறியாளர் தீவிரமான சந்தேகப் பார்வையை (Side eye) வீசினார்."
   },
   {
+    "id": 3448,
+    "word": "sign-off",
+    "pos": "noun",
+    "definition": "Formal authorization or approval given to complete a project or document.",
+    "enExample": "We need final sign-off from the compliance team before publishing.",
+    "taWord": "இறுதி ஒப்புதல்",
+    "taExample": "வெளியிடுவதற்கு முன் கட்டுப்பாட்டுக் குழுவின் இறுதி ஒப்புதல் நமக்குத் தேவை.",
+    "enExample2": "The project manager gave her sign-off on the final deliverables.",
+    "taExample2": "திட்ட மேலாளர் இறுதி முடிவுகளுக்கு தனது ஒப்புதலை வழங்கினார்.",
+    "synonyms": [
+      "approval",
+      "authorization",
+      "clearance"
+    ],
+    "antonyms": [
+      "rejection",
+      "denial"
+    ]
+  },
+  {
     "id": 3211,
     "word": "Silo",
     "pos": "Noun",
@@ -1062,6 +1082,25 @@
     ],
     "enExample2": "WebSockets open a persistent bidirectional network socket between the client browser and the backend server.",
     "taExample2": "WebSocket உலாவிக்கும் பின்தள சேவையகத்திற்கும் இடையே தொடர்ச்சியான இருவழி நெட்வொர்க் இணைப்பை (Socket) திறக்கிறது."
+  },
+  {
+    "id": 3450,
+    "word": "soft copy",
+    "pos": "noun",
+    "definition": "An electronic or digital version of a document stored on a computer or sent via email.",
+    "enExample": "Please send me a soft copy of the signed contract over email.",
+    "taWord": "மென் நகல்",
+    "taExample": "கையொப்பமிடப்பட்ட ஒப்பந்தத்தின் மென் நகலை மின்னஞ்சலில் எனக்கு அனுப்பவும்.",
+    "enExample2": "I prefer reading the soft copy of the manual on my tablet.",
+    "taExample2": "எனது கணினித் திரையில் கையேட்டின் மென் நகலைப் படிக்க விரும்புகிறேன்.",
+    "synonyms": [
+      "digital copy",
+      "electronic file"
+    ],
+    "antonyms": [
+      "hard copy",
+      "printout"
+    ]
   },
   {
     "id": 3380,
@@ -2140,6 +2179,25 @@
     ],
     "enExample2": "Making synchronous HTTP network requests inside the main browser thread causes the UI to freeze unresponsively.",
     "taExample2": "உலாவியின் முக்கிய திரையில் நேரடி ஒத்திசைவு (Synchronous) கோரிக்கைகளை உருவாக்குவது பயனர் இடைமுகத்தை உறையச் செய்கிறது."
+  },
+  {
+    "id": 3467,
+    "word": "syndication",
+    "pos": "noun",
+    "definition": "The licensing of news stories, radio broadcasts, or television shows to multiple media outlets.",
+    "enExample": "Global news syndication allowed their investigative story to reach millions worldwide.",
+    "taWord": "செய்தி விநியோகக் கூட்டு",
+    "taExample": "உலகளாவிய செய்தி விநியோகம் அவர்களின் புலனாய்வுக் கதையை உலகம் முழுவதும் கோடிக்கணக்கான மக்களைச் சென்றடையச் செய்தது.",
+    "enExample2": "The column gained wide syndication across major national newspapers.",
+    "taExample2": "இந்த செய்தி பத்தி நாட்டின் முக்கிய நாளிதழ்களில் பரந்த விநியோகத்தைப் பெற்றது.",
+    "synonyms": [
+      "distribution",
+      "licensing",
+      "broadcast network"
+    ],
+    "antonyms": [
+      "exclusive publication"
+    ]
   },
   {
     "id": 2995,

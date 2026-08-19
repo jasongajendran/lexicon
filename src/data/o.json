@@ -235,6 +235,25 @@
     "taExample2": "சர்வர்லெஸ் கட்டமைப்பை ஏற்றுக்கொள்வது சேவையகங்களை உருவாக்குதல் மற்றும் OS மேம்படுத்தலின் தேவையை முற்றிலும் நீக்குகிறது (Obviate)."
   },
   {
+    "id": 3470,
+    "word": "off the record",
+    "pos": "phrase",
+    "definition": "Information disclosed in confidence to a journalist that must not be published or quoted.",
+    "enExample": "The official shared context off the record to help the reporter understand the situation.",
+    "taWord": "வெளியிடக்கூடாதத் தகவல்",
+    "taExample": "நிலைமையைப் புரிந்து கொள்ள செய்தியாளருக்கு உதவ அதிகாரி பிரத்தியேகமாக தகவலைப் பகிர்ந்தார்.",
+    "enExample2": "If we speak off the record, my name cannot be mentioned in your story.",
+    "taExample2": "நாம் பிரத்தியேகமாகப் பேசினால், உங்கள் கட்டுரையில் எனது பெயரைக் குறிப்பிடக் கூடாது.",
+    "synonyms": [
+      "confidential",
+      "background information"
+    ],
+    "antonyms": [
+      "on the record",
+      "attributable"
+    ]
+  },
+  {
     "id": 3207,
     "word": "Offboarding",
     "pos": "Noun",
@@ -398,6 +417,25 @@
       "ignorant",
       "unaware",
       "uninformed"
+    ]
+  },
+  {
+    "id": 3465,
+    "word": "on the record",
+    "pos": "phrase",
+    "definition": "Official statements made to reporters with permission to publish and attribute directly to the source.",
+    "enExample": "The minister spoke on the record about the new education budget.",
+    "taWord": "அதிகாரப்பூர்வ அறிக்கை",
+    "taExample": "புதிய கல்வி வரவு செலவுத் திட்டம் குறித்து அமைச்சர் அதிகாரப்பூர்வமாக அறிக்கை அளித்தார்.",
+    "enExample2": "She refused to comment on the record until the investigation finished.",
+    "taExample2": "விசாரணை முடியும் வரை அதிகாரப்பூர்வமாக கருத்து தெரிவிக்க அவர் மறுத்துவிட்டார்.",
+    "synonyms": [
+      "official statement",
+      "attributable"
+    ],
+    "antonyms": [
+      "off the record",
+      "background"
     ]
   },
   {
@@ -709,6 +747,26 @@
     ],
     "enExample2": "A collaborative engineering team will never ostracize a developer for asking clarifying questions during design reviews.",
     "taExample2": "ஒரு சிறந்த பொறியியல் குழு வடிவமைப்பு விவாதங்களின் போது கேள்விகள் கேட்கும் ஒருவரை ஒருபோதும் புறக்கணிக்காது (Ostracize)."
+  },
+  {
+    "id": 3442,
+    "word": "out of office",
+    "pos": "phrase",
+    "definition": "An automated status or reply indicating that an employee is away from work.",
+    "enExample": "Her out of office auto-reply confirmed she will return next Monday.",
+    "taWord": "அலுவலகத்தில் இல்லை",
+    "taExample": "அவரது தானியங்கி மின்னஞ்சல் பதில் அவர் அடுத்த திங்கள் திரும்புவார் என்பதை உறுதிப்படுத்தியது.",
+    "enExample2": "Please send urgent requests to the team lead while I am out of office.",
+    "taExample2": "நான் அலுவலகத்தில் இல்லாத போது அவசர கோரிக்கைகளை குழு தலைவருக்கு அனுப்பவும்.",
+    "synonyms": [
+      "away",
+      "absent",
+      "on leave"
+    ],
+    "antonyms": [
+      "present",
+      "available"
+    ]
   },
   {
     "id": 2737,
