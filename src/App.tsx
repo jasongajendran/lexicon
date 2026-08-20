@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'motion/react';
-import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Filter, X, Keyboard, ArrowUp, RotateCcw, ChevronDown } from 'lucide-react';
+import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Filter, X, Keyboard, ArrowUp, RotateCcw, ChevronDown, SlidersHorizontal } from 'lucide-react';
 import { wordsData } from './data';
 import { WordRow } from './components/WordRow';
 import { WordCard } from './components/WordCard';
@@ -27,8 +27,33 @@ export default function App() {
   const [bookmarkedIds, setBookmarkedIds] = useState<number[]>([]);
   const [showOnlyBookmarks, setShowOnlyBookmarks] = useState(false);
 
-  // Accordion state: keep everything collapsed by default on initial load
-  const [openSidebarSection, setOpenSidebarSection] = useState<'alphabet' | 'category' | 'saved' | null>(null);
+  // Shuffle toggle: randomly shuffles word sequence within active letter / filter (re-orders when off)
+  const [isShuffled, setIsShuffled] = useState(false);
+  const [shuffleKey, setShuffleKey] = useState(0);
+
+  const toggleShuffle = () => {
+    setIsShuffled(prev => {
+      const next = !prev;
+      if (next) {
+        setShuffleKey(k => k + 1);
+      }
+      return next;
+    });
+    setVisibleCount(INITIAL_PAGE_SIZE);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const reshuffleWords = () => {
+    setShuffleKey(k => k + 1);
+    setVisibleCount(INITIAL_PAGE_SIZE);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Master toggle for sidebar controls/filters panel (hidden by default on initial load)
+  const [showControlsPanel, setShowControlsPanel] = useState(false);
+
+  // Accordion state: all sections combined remain collapsed on initial load
+  const [openSidebarSection, setOpenSidebarSection] = useState<'search' | 'alphabet' | 'category' | 'saved' | null>(null);
 
   // Progressive rendering limit for ultra-smooth 60fps scrolling
   const [visibleCount, setVisibleCount] = useState(INITIAL_PAGE_SIZE);
@@ -119,7 +144,9 @@ export default function App() {
 
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
-        searchInputRef.current?.focus();
+        setShowControlsPanel(true);
+        setOpenSidebarSection('search');
+        setTimeout(() => searchInputRef.current?.focus(), 80);
         return;
       }
 
@@ -134,6 +161,9 @@ export default function App() {
       if (e.key === '?') {
         e.preventDefault();
         setIsKeyboardHelpOpen(prev => !prev);
+      } else if (e.key.toLowerCase() === 'z') {
+        e.preventDefault();
+        toggleShuffle();
       } else if (e.key.toLowerCase() === 'r') {
         e.preventDefault();
         handleSelectRandomWord();
@@ -153,7 +183,7 @@ export default function App() {
   const filteredWords = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
     
-    return wordsData.filter((w) => {
+    const baseList = wordsData.filter((w) => {
       const matchesLetter = activeLetter === 'all' || w.word.toUpperCase().startsWith(activeLetter);
       const matchesPos = activePos === 'all' || w.pos.toLowerCase() === activePos.toLowerCase();
       const matchesBookmark = !showOnlyBookmarks || bookmarkedIds.includes(w.id);
@@ -174,7 +204,19 @@ export default function App() {
 
       return inWord || inDef || inTaWord || inPos || inEnExample || inTaExample || inEnExample2 || inTaExample2 || inSynonyms || inAntonyms;
     });
-  }, [searchQuery, activeLetter, activePos, showOnlyBookmarks, bookmarkedIds]);
+
+    if (!isShuffled) {
+      return baseList;
+    }
+
+    // When shuffled is active, randomly shuffle word order within that alphabet category/selection
+    const shuffled = [...baseList];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }, [searchQuery, activeLetter, activePos, showOnlyBookmarks, bookmarkedIds, isShuffled, shuffleKey]);
 
   const currentModalIndex = useMemo(() => {
     if (!selectedWordModal) return -1;
@@ -196,7 +238,7 @@ export default function App() {
   // Reset pagination on filter change
   useEffect(() => {
     setVisibleCount(INITIAL_PAGE_SIZE);
-  }, [searchQuery, activeLetter, activePos, showOnlyBookmarks]);
+  }, [searchQuery, activeLetter, activePos, showOnlyBookmarks, isShuffled]);
 
   // Infinite Scroll Sentinel
   useEffect(() => {
@@ -218,13 +260,14 @@ export default function App() {
     return filteredWords.slice(0, visibleCount);
   }, [filteredWords, visibleCount]);
 
-  const hasActiveFilters = searchQuery !== '' || activeLetter !== 'all' || activePos !== 'all' || showOnlyBookmarks;
+  const hasActiveFilters = searchQuery !== '' || activeLetter !== 'all' || activePos !== 'all' || showOnlyBookmarks || isShuffled;
 
   const resetAllFilters = () => {
     setSearchQuery('');
     setActiveLetter('all');
     setActivePos('all');
     setShowOnlyBookmarks(false);
+    setIsShuffled(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -305,260 +348,409 @@ export default function App() {
             </div>
           </div>
 
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-[1.1] mb-3 tracking-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-[1.1] mb-6 tracking-tight">
             The <br/> Engineer's <br/> <span className="italic text-amber-400">Vocabulary.</span>
           </h1>
-          
-          <p className="text-zinc-400 text-xs md:text-sm font-sans font-light leading-relaxed mb-5 max-w-sm">
-            Curated engineering terminology, Gen Z dev slang, agile ceremonies, and system architecture terms with dual English & Tamil contexts.
-          </p>
 
-          {/* Search Bar */}
-          <div className="relative group mb-5">
-            <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
-              <Search className="h-4 w-4 text-zinc-500 group-focus-within:text-amber-400 transition-colors" />
-            </div>
-            <input
-              ref={searchInputRef}
-              type="text"
-              placeholder="Search terms, synonyms, Tamil (⌘K)..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-zinc-900/60 border border-zinc-800/80 text-zinc-100 rounded-2xl py-2.5 pl-10 pr-9 focus:outline-none focus:ring-1 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all placeholder:text-zinc-600 font-sans text-xs sm:text-sm"
-            />
-            {searchQuery && (
-              <button
-                onClick={() => setSearchQuery('')}
-                className="absolute inset-y-0 right-0 pr-3 flex items-center text-zinc-500 hover:text-white"
-              >
-                <X size={14} />
-              </button>
-            )}
+          {/* Master Toggle to Show / Hide All Controls & Filters (Hidden on load) */}
+          <div className="mb-4">
+            <button
+              onClick={() => {
+                setShowControlsPanel(prev => {
+                  const next = !prev;
+                  if (!next) setOpenSidebarSection(null);
+                  return next;
+                });
+              }}
+              className={`w-full p-3.5 rounded-2xl border transition-all flex items-center justify-between group ${
+                showControlsPanel
+                  ? 'bg-amber-400/10 border-amber-400/40 text-amber-300 shadow-lg shadow-amber-400/5'
+                  : 'bg-zinc-900/60 border-zinc-800/80 text-zinc-300 hover:border-zinc-700 hover:bg-zinc-900'
+              }`}
+            >
+              <div className="flex items-center gap-3">
+                <div className={`w-8 h-8 rounded-xl flex items-center justify-center transition-all ${
+                  showControlsPanel
+                    ? 'bg-amber-400 text-black font-bold'
+                    : 'bg-zinc-800 text-zinc-400 group-hover:text-amber-400 group-hover:bg-zinc-700'
+                }`}>
+                  <SlidersHorizontal size={15} />
+                </div>
+                <div className="text-left">
+                  <span className="text-xs font-mono font-bold uppercase tracking-wider block">
+                    {showControlsPanel ? 'Index & Filters Active' : 'Search & Filters'}
+                  </span>
+                  <span className="text-[11px] font-mono text-zinc-400 block">
+                    {showControlsPanel ? 'Click to collapse panel' : 'Search, A–Z, categories & saved'}
+                  </span>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2">
+                {hasActiveFilters && !showControlsPanel && (
+                  <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
+                )}
+                <div className={`w-6 h-6 rounded-full flex items-center justify-center transition-transform duration-200 ${
+                  showControlsPanel ? 'rotate-180 text-amber-400 bg-amber-400/20' : 'text-zinc-500 bg-zinc-800/80'
+                }`}>
+                  <ChevronDown size={14} />
+                </div>
+              </div>
+            </button>
           </div>
 
-          {/* Collapsible Filter Accordions (1 Open on initial load, others Collapsed) */}
-          <div className="space-y-2.5">
-            {/* 1. A–Z Alphabetical Index (Open on initial load) */}
-            <div className="rounded-2xl bg-zinc-900/40 border border-zinc-800/70 overflow-hidden transition-all">
-              <button
-                onClick={() => setOpenSidebarSection(prev => prev === 'alphabet' ? null : 'alphabet')}
-                className="w-full p-3 flex items-center justify-between text-left hover:bg-zinc-800/30 transition-colors"
+          {/* Master Collapsible Controls Panel (Entirely hidden on load) */}
+          <AnimatePresence initial={false}>
+            {showControlsPanel && (
+              <motion.div
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: 'auto', opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+                transition={{ duration: 0.25, ease: "easeInOut" }}
+                className="overflow-hidden space-y-2.5"
               >
-                <div className="flex items-center gap-2.5">
-                  <div className="w-6 h-6 rounded-lg bg-amber-400/10 border border-amber-400/20 flex items-center justify-center text-amber-400 font-serif italic text-xs font-bold">
-                    A
-                  </div>
-                  <div>
-                    <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-200 block">
-                      A–Z Alphabet Index
-                    </span>
-                    <span className="text-[10px] font-mono text-zinc-500">
-                      {activeLetter === 'all' ? 'All 26 Letters' : `Letter '${activeLetter}' Selected`}
-                    </span>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-2">
-                  <span className={`px-2 py-0.5 rounded-full text-[10px] font-mono font-bold ${
-                    activeLetter !== 'all' ? 'bg-amber-400 text-black' : 'bg-zinc-800/80 text-zinc-400'
-                  }`}>
-                    {activeLetter.toUpperCase()}
-                  </span>
-                  <ChevronDown
-                    size={15}
-                    className={`text-zinc-400 transition-transform duration-200 ${
-                      openSidebarSection === 'alphabet' ? 'rotate-180 text-amber-400' : ''
-                    }`}
-                  />
-                </div>
-              </button>
-
-              <AnimatePresence initial={false}>
-                {openSidebarSection === 'alphabet' && (
-                  <motion.div
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.2 }}
-                    className="overflow-hidden"
+                {/* 1. Search & Overview Accordion */}
+                <div className="rounded-2xl bg-zinc-900/40 border border-zinc-800/70 overflow-hidden transition-all">
+                  <button
+                    onClick={() => setOpenSidebarSection(prev => prev === 'search' ? null : 'search')}
+                    className="w-full p-3 flex items-center justify-between text-left hover:bg-zinc-800/30 transition-colors"
                   >
-                    <div className="p-3 pt-1 border-t border-zinc-800/50">
-                      <div className="flex flex-wrap gap-1">
-                        <button 
-                          onClick={() => {
-                            setActiveLetter('all');
-                            window.scrollTo({ top: 0, behavior: 'smooth' });
-                          }}
-                          className={`w-6 h-6 flex items-center justify-center text-xs font-serif italic transition-all rounded-md ${
-                            activeLetter === 'all' 
-                              ? 'bg-amber-400 text-black font-bold shadow-sm' 
-                              : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
-                          }`}
-                        >
-                          All
-                        </button>
-                        {ALPHABET.map(letter => {
-                          const isAddressed = ADDRESSED_LETTERS.includes(letter);
-                          return (
-                            <button
-                              key={letter}
-                              onClick={() => {
-                                if (isAddressed) {
-                                  setActiveLetter(letter);
-                                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                                }
-                              }}
-                              disabled={!isAddressed}
-                              className={`w-6 h-6 flex items-center justify-center text-xs font-serif italic transition-all rounded-md 
-                                ${activeLetter === letter ? 'bg-amber-400 text-black font-bold shadow-sm' : 
-                                  isAddressed ? 'text-zinc-300 hover:bg-zinc-800 hover:text-white cursor-pointer' : 
-                                  'text-zinc-700 opacity-30 cursor-not-allowed'}`}
-                              title={`View ${letter} words`}
-                            >
-                              {letter}
-                            </button>
-                          );
-                        })}
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-6 h-6 rounded-lg bg-amber-400/10 border border-amber-400/20 flex items-center justify-center text-amber-400">
+                        <Search size={13} />
+                      </div>
+                      <div>
+                        <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-200 block">
+                          Search & Overview
+                        </span>
+                        <span className="text-[10px] font-mono text-zinc-500">
+                          {searchQuery ? `Query: "${searchQuery}"` : 'Lexicon search & English/Tamil context'}
+                        </span>
                       </div>
                     </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
 
-            {/* 2. Category / Part of Speech (Collapsed on initial load) */}
-            <div className="rounded-2xl bg-zinc-900/40 border border-zinc-800/70 overflow-hidden transition-all">
-              <button
-                onClick={() => setOpenSidebarSection(prev => prev === 'category' ? null : 'category')}
-                className="w-full p-3 flex items-center justify-between text-left hover:bg-zinc-800/30 transition-colors"
-              >
-                <div className="flex items-center gap-2.5">
-                  <div className="w-6 h-6 rounded-lg bg-cyan-400/10 border border-cyan-400/20 flex items-center justify-center text-cyan-400">
-                    <Layers size={13} />
-                  </div>
-                  <div>
-                    <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-200 block">
-                      Category / Part of Speech
-                    </span>
-                    <span className="text-[10px] font-mono text-zinc-500">
-                      {activePos === 'all' ? 'All Grammatical Types' : `Selected: ${activePos}`}
-                    </span>
-                  </div>
+                    <div className="flex items-center gap-2">
+                      <span className={`px-2 py-0.5 rounded-full text-[10px] font-mono font-bold ${
+                        searchQuery ? 'bg-amber-400 text-black' : 'bg-zinc-800/80 text-zinc-400'
+                      }`}>
+                        {searchQuery ? 'SEARCHING' : '⌘K'}
+                      </span>
+                      <ChevronDown
+                        size={15}
+                        className={`text-zinc-400 transition-transform duration-200 ${
+                          openSidebarSection === 'search' ? 'rotate-180 text-amber-400' : ''
+                        }`}
+                      />
+                    </div>
+                  </button>
+
+                  <AnimatePresence initial={false}>
+                    {openSidebarSection === 'search' && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="p-3.5 pt-1 border-t border-zinc-800/50 space-y-3">
+                          <p className="text-zinc-400 text-xs font-sans font-light leading-relaxed">
+                            Curated engineering terminology, Gen Z dev slang, agile ceremonies, and system architecture terms with dual English & Tamil contexts.
+                          </p>
+
+                          {/* Search Bar Input */}
+                          <div className="relative group">
+                            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                              <Search className="h-3.5 w-3.5 text-zinc-500 group-focus-within:text-amber-400 transition-colors" />
+                            </div>
+                            <input
+                              ref={searchInputRef}
+                              type="text"
+                              placeholder="Search terms, synonyms, Tamil (⌘K)..."
+                              value={searchQuery}
+                              onChange={(e) => setSearchQuery(e.target.value)}
+                              className="w-full bg-zinc-900/90 border border-zinc-700/80 text-zinc-100 rounded-xl py-2 pl-9 pr-8 focus:outline-none focus:ring-1 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all placeholder:text-zinc-500 font-sans text-xs"
+                            />
+                            {searchQuery && (
+                              <button
+                                onClick={() => setSearchQuery('')}
+                                className="absolute inset-y-0 right-0 pr-2.5 flex items-center text-zinc-500 hover:text-white"
+                              >
+                                <X size={13} />
+                              </button>
+                            )}
+                          </div>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <span className={`px-2 py-0.5 rounded-full text-[10px] font-mono font-bold ${
-                    activePos !== 'all' ? 'bg-cyan-400 text-black' : 'bg-zinc-800/80 text-zinc-400'
-                  }`}>
-                    {activePos.toUpperCase()}
-                  </span>
-                  <ChevronDown
-                    size={15}
-                    className={`text-zinc-400 transition-transform duration-200 ${
-                      openSidebarSection === 'category' ? 'rotate-180 text-cyan-400' : ''
-                    }`}
-                  />
-                </div>
-              </button>
-
-              <AnimatePresence initial={false}>
-                {openSidebarSection === 'category' && (
-                  <motion.div
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.2 }}
-                    className="overflow-hidden"
+                {/* 2. A–Z Alphabetical Index */}
+                <div className="rounded-2xl bg-zinc-900/40 border border-zinc-800/70 overflow-hidden transition-all">
+                  <button
+                    onClick={() => setOpenSidebarSection(prev => prev === 'alphabet' ? null : 'alphabet')}
+                    className="w-full p-3 flex items-center justify-between text-left hover:bg-zinc-800/30 transition-colors"
                   >
-                    <div className="p-3 pt-1 border-t border-zinc-800/50">
-                      <div className="flex flex-wrap gap-1.5 pt-1">
-                        {POS_TYPES.map(pos => (
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-6 h-6 rounded-lg bg-amber-400/10 border border-amber-400/20 flex items-center justify-center text-amber-400 font-serif italic text-xs font-bold">
+                        A
+                      </div>
+                      <div>
+                        <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-200 block">
+                          A–Z Alphabet Index
+                        </span>
+                        <span className="text-[10px] font-mono text-zinc-500">
+                          {activeLetter === 'all' ? 'All 26 Letters' : `Letter '${activeLetter}' Selected`}
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                      <span className={`px-2 py-0.5 rounded-full text-[10px] font-mono font-bold ${
+                        activeLetter !== 'all' ? 'bg-amber-400 text-black' : 'bg-zinc-800/80 text-zinc-400'
+                      }`}>
+                        {activeLetter.toUpperCase()}
+                      </span>
+                      <ChevronDown
+                        size={15}
+                        className={`text-zinc-400 transition-transform duration-200 ${
+                          openSidebarSection === 'alphabet' ? 'rotate-180 text-amber-400' : ''
+                        }`}
+                      />
+                    </div>
+                  </button>
+
+                  <AnimatePresence initial={false}>
+                    {openSidebarSection === 'alphabet' && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="p-3 pt-1 border-t border-zinc-800/50">
+                          <div className="flex flex-wrap gap-1">
+                            <button 
+                              onClick={() => {
+                                setActiveLetter('all');
+                                window.scrollTo({ top: 0, behavior: 'smooth' });
+                              }}
+                              className={`w-6 h-6 flex items-center justify-center text-xs font-serif italic transition-all rounded-md ${
+                                activeLetter === 'all' 
+                                  ? 'bg-amber-400 text-black font-bold shadow-sm' 
+                                  : 'text-zinc-300 hover:bg-zinc-800 hover:text-white'
+                              }`}
+                            >
+                              All
+                            </button>
+                            {ALPHABET.map(letter => {
+                              const isAddressed = ADDRESSED_LETTERS.includes(letter);
+                              return (
+                                <button
+                                  key={letter}
+                                  onClick={() => {
+                                    if (isAddressed) {
+                                      setActiveLetter(letter);
+                                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                                    }
+                                  }}
+                                  disabled={!isAddressed}
+                                  className={`w-6 h-6 flex items-center justify-center text-xs font-serif italic transition-all rounded-md 
+                                    ${activeLetter === letter ? 'bg-amber-400 text-black font-bold shadow-sm' : 
+                                      isAddressed ? 'text-zinc-300 hover:bg-zinc-800 hover:text-white cursor-pointer' : 
+                                      'text-zinc-700 opacity-30 cursor-not-allowed'}`}
+                                  title={`View ${letter} words`}
+                                >
+                                  {letter}
+                                </button>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+
+                {/* 3. Category / Part of Speech */}
+                <div className="rounded-2xl bg-zinc-900/40 border border-zinc-800/70 overflow-hidden transition-all">
+                  <button
+                    onClick={() => setOpenSidebarSection(prev => prev === 'category' ? null : 'category')}
+                    className="w-full p-3 flex items-center justify-between text-left hover:bg-zinc-800/30 transition-colors"
+                  >
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-6 h-6 rounded-lg bg-cyan-400/10 border border-cyan-400/20 flex items-center justify-center text-cyan-400">
+                        <Layers size={13} />
+                      </div>
+                      <div>
+                        <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-200 block">
+                          Category / Part of Speech
+                        </span>
+                        <span className="text-[10px] font-mono text-zinc-500">
+                          {activePos === 'all' ? 'All Grammatical Types' : `Selected: ${activePos}`}
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                      <span className={`px-2 py-0.5 rounded-full text-[10px] font-mono font-bold ${
+                        activePos !== 'all' ? 'bg-cyan-400 text-black' : 'bg-zinc-800/80 text-zinc-400'
+                      }`}>
+                        {activePos.toUpperCase()}
+                      </span>
+                      <ChevronDown
+                        size={15}
+                        className={`text-zinc-400 transition-transform duration-200 ${
+                          openSidebarSection === 'category' ? 'rotate-180 text-cyan-400' : ''
+                        }`}
+                      />
+                    </div>
+                  </button>
+
+                  <AnimatePresence initial={false}>
+                    {openSidebarSection === 'category' && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="p-3 pt-1 border-t border-zinc-800/50">
+                          <div className="flex flex-wrap gap-1.5 pt-1">
+                            {POS_TYPES.map(pos => (
+                              <button
+                                key={pos}
+                                onClick={() => setActivePos(pos)}
+                                className={`px-2.5 py-1 rounded-full text-xs font-mono tracking-wide transition-all border ${
+                                  activePos === pos 
+                                    ? 'bg-amber-400 text-black border-amber-400 font-bold shadow-sm' 
+                                    : 'bg-zinc-900/60 text-zinc-300 border-zinc-800 hover:border-zinc-700 hover:text-zinc-100'
+                                }`}
+                              >
+                                {pos}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+
+                {/* 4. Saved / Bookmarked Terms */}
+                <div className="rounded-2xl bg-zinc-900/40 border border-zinc-800/70 overflow-hidden transition-all">
+                  <button
+                    onClick={() => setOpenSidebarSection(prev => prev === 'saved' ? null : 'saved')}
+                    className="w-full p-3 flex items-center justify-between text-left hover:bg-zinc-800/30 transition-colors"
+                  >
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-6 h-6 rounded-lg bg-amber-400/10 border border-amber-400/20 flex items-center justify-center text-amber-400">
+                        <Bookmark size={13} className={showOnlyBookmarks ? 'fill-amber-400' : ''} />
+                      </div>
+                      <div>
+                        <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-200 block">
+                          Saved Terms
+                        </span>
+                        <span className="text-[10px] font-mono text-zinc-500">
+                          {bookmarkedIds.length} items bookmarked
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                      <span className={`px-2 py-0.5 rounded-full text-[10px] font-mono font-bold ${
+                        showOnlyBookmarks ? 'bg-amber-400 text-black' : 'bg-zinc-800/80 text-zinc-400'
+                      }`}>
+                        {showOnlyBookmarks ? 'ACTIVE' : `${bookmarkedIds.length} SAVED`}
+                      </span>
+                      <ChevronDown
+                        size={15}
+                        className={`text-zinc-400 transition-transform duration-200 ${
+                          openSidebarSection === 'saved' ? 'rotate-180 text-amber-400' : ''
+                        }`}
+                      />
+                    </div>
+                  </button>
+
+                  <AnimatePresence initial={false}>
+                    {openSidebarSection === 'saved' && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="p-3 pt-1 border-t border-zinc-800/50">
                           <button
-                            key={pos}
-                            onClick={() => setActivePos(pos)}
-                            className={`px-2.5 py-1 rounded-full text-xs font-mono tracking-wide transition-all border ${
-                              activePos === pos 
-                                ? 'bg-amber-400 text-black border-amber-400 font-bold shadow-sm' 
-                                : 'bg-zinc-900/60 text-zinc-300 border-zinc-800 hover:border-zinc-700 hover:text-zinc-100'
+                            onClick={() => setShowOnlyBookmarks(!showOnlyBookmarks)}
+                            className={`w-full flex items-center justify-between p-2.5 rounded-xl border transition-all text-xs font-mono ${
+                              showOnlyBookmarks
+                                ? 'bg-amber-400/15 border-amber-400/40 text-amber-300'
+                                : 'bg-zinc-900/60 border-zinc-800/60 text-zinc-300 hover:text-zinc-100 hover:bg-zinc-800/40'
                             }`}
                           >
-                            {pos}
+                            <div className="flex items-center gap-2">
+                              <Bookmark size={14} className={showOnlyBookmarks ? 'fill-amber-400 text-amber-400' : 'text-zinc-400'} />
+                              <span>Show Only Saved Terms</span>
+                            </div>
+                            <span className="bg-zinc-800 px-2 py-0.5 rounded-full text-[10px] text-amber-400 font-bold">
+                              {bookmarkedIds.length}
+                            </span>
                           </button>
-                        ))}
-                      </div>
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-
-            {/* 3. Saved / Bookmarked Terms (Collapsed on initial load) */}
-            <div className="rounded-2xl bg-zinc-900/40 border border-zinc-800/70 overflow-hidden transition-all">
-              <button
-                onClick={() => setOpenSidebarSection(prev => prev === 'saved' ? null : 'saved')}
-                className="w-full p-3 flex items-center justify-between text-left hover:bg-zinc-800/30 transition-colors"
-              >
-                <div className="flex items-center gap-2.5">
-                  <div className="w-6 h-6 rounded-lg bg-amber-400/10 border border-amber-400/20 flex items-center justify-center text-amber-400">
-                    <Bookmark size={13} className={showOnlyBookmarks ? 'fill-amber-400' : ''} />
-                  </div>
-                  <div>
-                    <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-200 block">
-                      Saved Terms
-                    </span>
-                    <span className="text-[10px] font-mono text-zinc-500">
-                      {bookmarkedIds.length} items bookmarked
-                    </span>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-2">
-                  <span className={`px-2 py-0.5 rounded-full text-[10px] font-mono font-bold ${
-                    showOnlyBookmarks ? 'bg-amber-400 text-black' : 'bg-zinc-800/80 text-zinc-400'
-                  }`}>
-                    {showOnlyBookmarks ? 'ACTIVE' : `${bookmarkedIds.length} SAVED`}
-                  </span>
-                  <ChevronDown
-                    size={15}
-                    className={`text-zinc-400 transition-transform duration-200 ${
-                      openSidebarSection === 'saved' ? 'rotate-180 text-amber-400' : ''
-                    }`}
-                  />
-                </div>
-              </button>
-
-              <AnimatePresence initial={false}>
-                {openSidebarSection === 'saved' && (
-                  <motion.div
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.2 }}
-                    className="overflow-hidden"
-                  >
-                    <div className="p-3 pt-1 border-t border-zinc-800/50">
-                      <button
-                        onClick={() => setShowOnlyBookmarks(!showOnlyBookmarks)}
-                        className={`w-full flex items-center justify-between p-2.5 rounded-xl border transition-all text-xs font-mono ${
-                          showOnlyBookmarks
-                            ? 'bg-amber-400/15 border-amber-400/40 text-amber-300'
-                            : 'bg-zinc-900/60 border-zinc-800/60 text-zinc-300 hover:text-zinc-100 hover:bg-zinc-800/40'
-                        }`}
-                      >
-                        <div className="flex items-center gap-2">
-                          <Bookmark size={14} className={showOnlyBookmarks ? 'fill-amber-400 text-amber-400' : 'text-zinc-400'} />
-                          <span>Show Only Saved Terms</span>
                         </div>
-                        <span className="bg-zinc-800 px-2 py-0.5 rounded-full text-[10px] text-amber-400 font-bold">
-                          {bookmarkedIds.length}
-                        </span>
-                      </button>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+
+                {/* 5. Shuffle Word Order Toggle */}
+                <div className="rounded-2xl bg-zinc-900/40 border border-zinc-800/70 p-3 flex items-center justify-between transition-all">
+                  <div className="flex items-center gap-2.5">
+                    <div className={`w-6 h-6 rounded-lg flex items-center justify-center transition-colors ${
+                      isShuffled ? 'bg-amber-400 text-black font-bold' : 'bg-zinc-800 text-zinc-400'
+                    }`}>
+                      <Shuffle size={13} />
                     </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-          </div>
+                    <div>
+                      <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-200 block">
+                        Shuffle Order
+                      </span>
+                      <span className="text-[10px] font-mono text-zinc-500">
+                        {isShuffled ? 'Random sequence within selection' : 'Alphabetical order'}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-1.5">
+                    {isShuffled && (
+                      <button
+                        onClick={reshuffleWords}
+                        className="px-2 py-1 rounded-lg bg-zinc-800/90 text-zinc-400 hover:text-amber-400 hover:bg-zinc-700 text-[10px] font-mono flex items-center gap-1 border border-zinc-700/60 transition-colors"
+                        title="Re-shuffle words again"
+                      >
+                        <RotateCcw size={11} />
+                        <span>Re-roll</span>
+                      </button>
+                    )}
+                    <button
+                      onClick={toggleShuffle}
+                      className={`px-2.5 py-1 rounded-full text-[10px] font-mono font-bold transition-all border ${
+                        isShuffled
+                          ? 'bg-amber-400 text-black border-amber-400 shadow-sm'
+                          : 'bg-zinc-800/80 text-zinc-400 border-zinc-700/60 hover:text-zinc-200'
+                      }`}
+                    >
+                      {isShuffled ? 'ON' : 'OFF'}
+                    </button>
+                  </div>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
 
         {/* Footer Meta */}
@@ -595,14 +787,53 @@ export default function App() {
                 )}
               </button>
 
-              {/* Desktop Word Counter */}
-              <span className="hidden lg:inline text-xs font-mono text-zinc-500 uppercase tracking-wider">
-                {currentTab === 'study' ? 'Active Recall Study Deck' : `${filteredWords.length} Terms Matched`}
-              </span>
+              {/* Desktop Word Counter & Shuffle Badge */}
+              <div className="hidden lg:flex items-center gap-2">
+                <span className="text-xs font-mono text-zinc-500 uppercase tracking-wider">
+                  {currentTab === 'study' ? 'Active Recall Study Deck' : `${filteredWords.length} Terms Matched`}
+                </span>
+                {isShuffled && currentTab === 'feed' && (
+                  <span className="px-2 py-0.5 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-400 text-[10px] font-mono font-bold flex items-center gap-1">
+                    <Shuffle size={10} />
+                    <span>SHUFFLED</span>
+                  </span>
+                )}
+              </div>
             </div>
 
-            {/* View Mode Switcher (List vs Grid vs Flashcard) */}
+            {/* View Mode Switcher (List vs Grid vs Flashcard + Shuffle Toggle) */}
             <div className="flex items-center gap-2">
+              {currentTab === 'feed' && (
+                <div className="flex items-center gap-1.5">
+                  {/* Shuffle Toggle Button */}
+                  <button
+                    onClick={toggleShuffle}
+                    className={`py-1.5 px-3 rounded-full border text-xs font-mono flex items-center gap-1.5 transition-all ${
+                      isShuffled
+                        ? 'bg-amber-400 text-black border-amber-400 font-bold shadow-md shadow-amber-400/20'
+                        : 'bg-zinc-900 text-zinc-300 border-zinc-800 hover:border-zinc-700 hover:text-white'
+                    }`}
+                    title={isShuffled ? 'Shuffle is ON (Click to restore alphabetical order)' : 'Shuffle word order randomly within active selection'}
+                  >
+                    <Shuffle size={13} className={isShuffled ? 'text-black' : 'text-zinc-400'} />
+                    <span className="hidden sm:inline">{isShuffled ? 'Shuffled' : 'Shuffle'}</span>
+                    {isShuffled && (
+                      <span className="w-1.5 h-1.5 rounded-full bg-black shrink-0 animate-pulse" />
+                    )}
+                  </button>
+
+                  {isShuffled && (
+                    <button
+                      onClick={reshuffleWords}
+                      className="p-1.5 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40 transition-all"
+                      title="Re-shuffle / Re-roll sequence"
+                    >
+                      <RotateCcw size={13} />
+                    </button>
+                  )}
+                </div>
+              )}
+
               <button
                 onClick={() => {
                   setCurrentTab(currentTab === 'study' ? 'feed' : 'study');
@@ -914,6 +1145,8 @@ export default function App() {
         bookmarkedCount={bookmarkedIds.length}
         showOnlyBookmarks={showOnlyBookmarks}
         setShowOnlyBookmarks={setShowOnlyBookmarks}
+        isShuffled={isShuffled}
+        onToggleShuffle={toggleShuffle}
       />
 
       {/* Mobile Floating Bottom Navigation Dock */}

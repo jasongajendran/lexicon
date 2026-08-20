@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Search, X, Check, Bookmark, Filter, ChevronDown, BookOpen, Layers } from 'lucide-react';
+import { Search, X, Check, Bookmark, Filter, ChevronDown, BookOpen, Layers, Shuffle, RotateCcw } from 'lucide-react';
 
 interface FilterSheetProps {
   isOpen: boolean;
@@ -18,6 +18,8 @@ interface FilterSheetProps {
   bookmarkedCount: number;
   showOnlyBookmarks: boolean;
   setShowOnlyBookmarks: (v: boolean) => void;
+  isShuffled: boolean;
+  onToggleShuffle: () => void;
 }
 
 export function FilterSheet({
@@ -35,10 +37,12 @@ export function FilterSheet({
   totalTerms,
   bookmarkedCount,
   showOnlyBookmarks,
-  setShowOnlyBookmarks
+  setShowOnlyBookmarks,
+  isShuffled,
+  onToggleShuffle
 }: FilterSheetProps) {
-  // Only one section open on initial load (alphabet), others collapsed
-  const [openSection, setOpenSection] = useState<'alphabet' | 'category' | 'saved' | null>('alphabet');
+  // All accordion sections collapsed by default on initial load
+  const [openSection, setOpenSection] = useState<'alphabet' | 'category' | 'saved' | null>(null);
 
   if (!isOpen) return null;
 
@@ -339,6 +343,39 @@ export function FilterSheet({
                   </motion.div>
                 )}
               </AnimatePresence>
+            </div>
+
+            {/* Section 4: Shuffle Toggle */}
+            <div className="rounded-2xl bg-zinc-900/40 border border-zinc-800/80 p-3.5 flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <div className={`w-7 h-7 rounded-lg flex items-center justify-center transition-colors ${
+                  isShuffled ? 'bg-amber-400 text-black font-bold' : 'bg-amber-400/10 text-amber-400 border border-amber-400/20'
+                }`}>
+                  <Shuffle size={14} />
+                </div>
+                <div>
+                  <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-200 block">
+                    Shuffle Word Order
+                  </span>
+                  <span className="text-[11px] font-mono text-zinc-400">
+                    {isShuffled ? 'Random order within selection' : 'Alphabetical order'}
+                  </span>
+                </div>
+              </div>
+
+              <button
+                onClick={() => {
+                  triggerHaptic();
+                  onToggleShuffle();
+                }}
+                className={`px-3 py-1.5 rounded-full text-xs font-mono font-bold transition-all border flex items-center gap-1.5 ${
+                  isShuffled
+                    ? 'bg-amber-400 text-black border-amber-400 shadow-sm'
+                    : 'bg-zinc-900 text-zinc-400 border-zinc-800 hover:border-zinc-700 hover:text-white'
+                }`}
+              >
+                <span>{isShuffled ? 'SHUFFLED' : 'ORDERED'}</span>
+              </button>
             </div>
           </div>
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, Volume2, Copy, Check, Bookmark, BookOpen, Sparkles, ChevronLeft, ChevronRight, Layers, ArrowRight } from 'lucide-react';
+import { X, Volume2, Bookmark, BookOpen, Sparkles, ChevronLeft, ChevronRight, Layers, ArrowRight } from 'lucide-react';
 import { LexiconWord } from '../types';
 import { speakWord } from '../utils/speech';
 import { AudioEqualizer } from './AudioEqualizer';
@@ -19,6 +19,86 @@ interface WordDetailModalProps {
   hasNext?: boolean;
 }
 
+function highlightTargetWord(
+  sentence: string,
+  targetWord: string,
+  variant: 'amber' | 'cyan' = 'amber'
+): React.ReactNode {
+  if (!sentence || !targetWord) return sentence;
+
+  const cleanWord = targetWord.trim();
+  if (!cleanWord) return sentence;
+
+  const escaped = cleanWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  let regex: RegExp;
+  try {
+    regex = new RegExp(`(\\b${escaped}[a-zA-Z]*|${escaped})`, 'gi');
+  } catch (e) {
+    regex = new RegExp(`(${escaped})`, 'gi');
+  }
+
+  const parts = sentence.split(regex);
+  if (parts.length <= 1) {
+    return sentence;
+  }
+
+  return parts.map((part, index) => {
+    const isMatch =
+      part.toLowerCase().startsWith(cleanWord.toLowerCase()) ||
+      (cleanWord.toLowerCase().startsWith(part.toLowerCase()) && part.length >= 3);
+
+    if (isMatch) {
+      return (
+        <span
+          key={index}
+          className={`font-semibold underline decoration-2 underline-offset-4 inline-block ${
+            variant === 'amber'
+              ? 'text-amber-300 decoration-amber-400 font-bold bg-amber-400/20 px-1 py-0.5 rounded shadow-sm'
+              : 'text-cyan-300 decoration-cyan-400 font-bold bg-cyan-400/20 px-1 py-0.5 rounded shadow-sm'
+          }`}
+        >
+          {part}
+        </span>
+      );
+    }
+    return part;
+  });
+}
+
+function highlightTamilWord(
+  sentence: string,
+  taWord: string,
+  variant: 'amber' | 'cyan' = 'amber'
+): React.ReactNode {
+  if (!sentence || !taWord) return sentence;
+  const clean = taWord.trim();
+  if (!clean) return sentence;
+
+  const escaped = clean.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${escaped})`, 'g');
+  const parts = sentence.split(regex);
+  if (parts.length <= 1) return sentence;
+
+  return parts.map((part, index) => {
+    if (part === clean) {
+      return (
+        <span
+          key={index}
+          className={`font-semibold underline decoration-2 underline-offset-4 inline-block ${
+            variant === 'amber'
+              ? 'text-amber-200 decoration-amber-400 bg-amber-400/20 px-1 py-0.5 rounded shadow-sm'
+              : 'text-cyan-200 decoration-cyan-400 bg-cyan-400/20 px-1 py-0.5 rounded shadow-sm'
+          }`}
+        >
+          {part}
+        </span>
+      );
+    }
+    return part;
+  });
+}
+
 export function WordDetailModal({
   word,
   isOpen,
@@ -32,7 +112,6 @@ export function WordDetailModal({
   hasPrev = false,
   hasNext = false,
 }: WordDetailModalProps) {
-  const [copied, setCopied] = useState(false);
   const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | 'ex1' | 'ex2' | null>(null);
   const [activeTab, setActiveTab] = useState<'all' | 'thesaurus' | 'examples'>('all');
 
@@ -92,30 +171,6 @@ export function WordDetailModal({
 
   const handleSpeak = (e?: React.MouseEvent) => {
     handleSpeakText(word.word, 'word', e);
-  };
-
-  const handleCopy = (e?: React.MouseEvent) => {
-    if (e) e.stopPropagation();
-    triggerHaptic();
-    const textToCopy = `📖 ${word.word.toUpperCase()} (${word.taWord})
-POS: ${word.pos}
-Definition: ${word.definition}
-
-🔹 Primary Example 1:
-EN: "${word.enExample}"
-TA: "${word.taExample}"
-
-🔸 Secondary Example 2:
-EN: "${word.enExample2 || word.enExample}"
-TA: "${word.taExample2 || word.taExample}"
-
-📚 Thesaurus:
-Synonyms: ${word.synonyms?.join(', ') || 'N/A'}
-Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
-
-    navigator.clipboard.writeText(textToCopy);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
   };
 
   const handleThesaurusClick = (term: string) => {
@@ -209,14 +264,6 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
               </button>
 
               <button
-                onClick={handleCopy}
-                className="p-2 rounded-xl border bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40 transition-all"
-                title="Copy all details to clipboard"
-              >
-                {copied ? <Check size={16} className="text-emerald-400" /> : <Copy size={16} />}
-              </button>
-
-              <button
                 onClick={() => {
                   triggerHaptic();
                   onToggleBookmark();
@@ -244,7 +291,7 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
           {/* Modal Body Scroll Area */}
           <div className="p-5 sm:p-7 overflow-y-auto space-y-6 flex-grow custom-scrollbar">
             {/* Word Heading */}
-            <div>
+            <div className="pb-2">
               <div className="flex items-baseline gap-3 flex-wrap">
                 <button
                   onClick={handleSpeak}
@@ -254,38 +301,14 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
                   <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif italic text-amber-400 font-bold tracking-tight group-hover:text-amber-300 transition-colors">
                     {word.word}
                   </h2>
-                  <Volume2 size={20} className="text-zinc-600 group-hover:text-amber-400 transition-colors opacity-60" />
+                  <Volume2 size={22} className="text-zinc-500 group-hover:text-amber-400 transition-colors" />
                 </button>
               </div>
 
-              <div className="mt-1 flex items-center gap-2">
-                <span className="text-base sm:text-lg font-tamil text-amber-300/90 font-medium">
+              <div className="mt-1.5 flex items-center gap-2">
+                <span className="text-lg sm:text-xl font-tamil text-amber-300/90 font-medium">
                   {word.taWord}
                 </span>
-              </div>
-
-              {/* Definition Box */}
-              <div className="mt-4 p-4 rounded-2xl bg-zinc-900/70 border border-zinc-800/80 space-y-2">
-                <div className="flex items-center justify-between gap-2">
-                  <div className="flex items-center gap-1.5 text-xs font-mono text-zinc-500 uppercase tracking-widest">
-                    <BookOpen size={13} className="text-amber-400" />
-                    <span>Definition & Meaning</span>
-                  </div>
-                  <button
-                    onClick={(e) => handleSpeakText(word.definition, 'def', e)}
-                    className={`p-1.5 rounded-lg border transition-all flex items-center gap-1 text-xs font-mono ${
-                      speakingTarget === 'def'
-                        ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
-                        : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
-                    }`}
-                    title="Listen to English definition"
-                  >
-                    {speakingTarget === 'def' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
-                  </button>
-                </div>
-                <p className="text-zinc-200 text-sm sm:text-base font-sans leading-relaxed">
-                  {word.definition}
-                </p>
               </div>
             </div>
 
@@ -325,54 +348,66 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
 
             {/* Tab: Examples / Full View */}
             {(activeTab === 'all' || activeTab === 'examples') && (
-              <div className="space-y-3">
-                {/* Example 1 */}
-                <div className="p-4 rounded-2xl bg-zinc-900/50 border border-zinc-800/80 space-y-2">
-                  <div className="pl-3 border-l-2 border-amber-400/50 space-y-1.5">
-                    <div className="flex items-start justify-between gap-2">
-                      <p className="text-sm sm:text-base font-serif italic text-zinc-100 leading-relaxed">
-                        "{word.enExample}"
-                      </p>
-                      <button
-                        onClick={(e) => handleSpeakText(word.enExample, 'ex1', e)}
-                        className={`p-1.5 rounded-lg border transition-all shrink-0 ${
-                          speakingTarget === 'ex1'
-                            ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
-                            : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
-                        }`}
-                        title="Listen to English example 1"
-                      >
-                        {speakingTarget === 'ex1' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
-                      </button>
-                    </div>
-                    <p className="text-xs sm:text-sm font-tamil text-zinc-300 leading-relaxed font-light">
-                      "{word.taExample}"
+              <div className="space-y-4">
+                {/* Example 1 - Vivid Warm Amber / Golden Palette */}
+                <div className="p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-amber-500/15 via-zinc-900/90 to-amber-950/25 border border-amber-500/40 shadow-lg shadow-amber-500/5 space-y-3">
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="text-xs font-mono font-bold text-amber-300 bg-amber-400/20 px-2.5 py-1 rounded-full border border-amber-400/30 uppercase tracking-wider flex items-center gap-1.5">
+                      <Sparkles size={12} className="text-amber-400" />
+                      <span>Primary Example</span>
+                    </span>
+                    <button
+                      onClick={(e) => handleSpeakText(word.enExample, 'ex1', e)}
+                      className={`p-2 rounded-xl border transition-all shrink-0 flex items-center gap-1.5 text-xs font-mono font-medium ${
+                        speakingTarget === 'ex1'
+                          ? 'bg-amber-400/30 border-amber-400 text-amber-300 ring-2 ring-amber-400/40'
+                          : 'bg-amber-400/10 border-amber-400/30 text-amber-300 hover:bg-amber-400/20 hover:border-amber-400/60'
+                      }`}
+                      title="Listen to English example 1"
+                    >
+                      {speakingTarget === 'ex1' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={15} />}
+                      <span className="hidden sm:inline">Listen</span>
+                    </button>
+                  </div>
+
+                  <div className="pl-3.5 border-l-4 border-amber-400 space-y-2.5">
+                    <p className="text-lg sm:text-xl md:text-2xl font-serif italic text-amber-50 leading-relaxed font-normal">
+                      "{highlightTargetWord(word.enExample, word.word, 'amber')}"
+                    </p>
+                    <p className="text-base sm:text-lg font-tamil text-amber-300/95 leading-relaxed font-normal pt-1 border-t border-amber-500/20">
+                      "{highlightTamilWord(word.taExample, word.taWord, 'amber')}"
                     </p>
                   </div>
                 </div>
 
-                {/* Example 2 */}
+                {/* Example 2 - Vivid Cyan / Indigo Palette */}
                 {(word.enExample2 || word.taExample2) && (
-                  <div className="p-4 rounded-2xl bg-zinc-900/40 border border-zinc-800/60 space-y-2">
-                    <div className="pl-3 border-l-2 border-blue-400/50 space-y-1.5">
-                      <div className="flex items-start justify-between gap-2">
-                        <p className="text-sm sm:text-base font-serif italic text-zinc-100 leading-relaxed">
-                          "{word.enExample2 || word.enExample}"
-                        </p>
-                        <button
-                          onClick={(e) => handleSpeakText(word.enExample2 || word.enExample, 'ex2', e)}
-                          className={`p-1.5 rounded-lg border transition-all shrink-0 ${
-                            speakingTarget === 'ex2'
-                              ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
-                              : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
-                          }`}
-                          title="Listen to English example 2"
-                        >
-                          {speakingTarget === 'ex2' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
-                        </button>
-                      </div>
-                      <p className="text-xs sm:text-sm font-tamil text-zinc-300 leading-relaxed font-light">
-                        "{word.taExample2 || word.taExample}"
+                  <div className="p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-cyan-500/15 via-zinc-900/90 to-blue-950/25 border border-cyan-500/40 shadow-lg shadow-cyan-500/5 space-y-3">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="text-xs font-mono font-bold text-cyan-300 bg-cyan-400/20 px-2.5 py-1 rounded-full border border-cyan-400/30 uppercase tracking-wider flex items-center gap-1.5">
+                        <BookOpen size={12} className="text-cyan-400" />
+                        <span>Secondary Example</span>
+                      </span>
+                      <button
+                        onClick={(e) => handleSpeakText(word.enExample2 || word.enExample, 'ex2', e)}
+                        className={`p-2 rounded-xl border transition-all shrink-0 flex items-center gap-1.5 text-xs font-mono font-medium ${
+                          speakingTarget === 'ex2'
+                            ? 'bg-cyan-400/30 border-cyan-400 text-cyan-300 ring-2 ring-cyan-400/40'
+                            : 'bg-cyan-400/10 border-cyan-400/30 text-cyan-300 hover:bg-cyan-400/20 hover:border-cyan-400/60'
+                        }`}
+                        title="Listen to English example 2"
+                      >
+                        {speakingTarget === 'ex2' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={15} />}
+                        <span className="hidden sm:inline">Listen</span>
+                      </button>
+                    </div>
+
+                    <div className="pl-3.5 border-l-4 border-cyan-400 space-y-2.5">
+                      <p className="text-lg sm:text-xl md:text-2xl font-serif italic text-cyan-50 leading-relaxed font-normal">
+                        "{highlightTargetWord(word.enExample2 || word.enExample, word.word, 'cyan')}"
+                      </p>
+                      <p className="text-base sm:text-lg font-tamil text-cyan-300/95 leading-relaxed font-normal pt-1 border-t border-cyan-500/20">
+                        "{highlightTamilWord(word.taExample2 || word.taExample, word.taWord, 'cyan')}"
                       </p>
                     </div>
                   </div>
@@ -456,15 +491,6 @@ Antonyms: ${word.antonyms?.join(', ') || 'N/A'}`;
             </div>
 
             <div className="flex items-center gap-2.5 ml-auto">
-              <button
-                onClick={handleCopy}
-                className="px-3.5 py-2 rounded-xl bg-amber-400/10 hover:bg-amber-400/20 border border-amber-400/30 text-amber-300 text-xs font-mono font-medium flex items-center gap-1.5 transition-all active:scale-95"
-                title="Copy details"
-              >
-                {copied ? <Check size={14} className="text-emerald-400" /> : <Copy size={14} />}
-                <span>{copied ? 'Copied' : 'Copy'}</span>
-              </button>
-
               <button
                 onClick={onClose}
                 className="px-3.5 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-100 border border-zinc-700 text-xs font-mono font-semibold flex items-center gap-1.5 transition-all active:scale-95 shadow-md"
