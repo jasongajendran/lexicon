@@ -337,5 +337,28 @@
     ],
     "enExample2": "Deploying microservices across multiple availability zones prevents regional datacenter power failures from taking down the app.",
     "taExample2": "பல கிடைக்கும் மண்டலங்களில் (Zones) சேவைகளை வரிசைப்படுத்துவது பிராந்திய தரவு மைய முடக்கங்கள் பயன்பாட்டை செயலிழக்கச் செய்வதைத் தடுக்கிறது."
+  },
+  {
+    "id": 3658,
+    "word": "Zest",
+    "pos": "noun",
+    "definition": "Great enthusiasm, energy, and eagerness for life, work, or activities.",
+    "taWord": "வாழ்க்கை உற்சாகம் / மிகுந்த புத்துணர்ச்சி",
+    "enExample": "Her positive attitude and zest for learning energized the entire engineering squad.",
+    "taExample": "அவளது நேர்மறை அணுகுமுறையும் கற்றலுக்கான வாழ்க்கை உற்சாகமும் முழு பொறியியல் குழுவிற்கும் புத்துணர்ச்சியளித்தன.",
+    "enExample2": "Children approach play with a natural zest that brings smiles to everyone around.",
+    "taExample2": "குழந்தைகள் விளையாட்டை ஒரு இயல்பான புத்துணர்ச்சியுடன் அணுகுகிறார்கள், அது சுற்றியுள்ள அனைவருக்கும் புன்னகையைக் கொண்டுவருகிறது.",
+    "synonyms": [
+      "Enthusiasm",
+      "Gust",
+      "Vigor",
+      "Vitality"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Dullness",
+      "Boredom",
+      "Lethargy"
+    ]
   }
 ]

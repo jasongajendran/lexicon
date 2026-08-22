@@ -1102,5 +1102,96 @@
     ],
     "enExample2": "Container vulnerability scanning inspects Docker base images for known security CVEs before production deployment.",
     "taExample2": "கொள்கலன் பாதிப்பு ஸ்கேனிங் (Vulnerability Scanning) வெளியீட்டிற்கு முன் டாக்கர் படங்களில் அறியப்பட்ட பாதுகாப்பு பிழைகளை ஆய்வு செய்கிறது."
+  },
+  {
+    "id": 3651,
+    "word": "Validate",
+    "pos": "verb",
+    "definition": "To check or prove the accuracy of something; to recognize, confirm, or affirm the worth of feelings.",
+    "taWord": "உறுதிப்படுத்துதல் / மதித்து அங்கீகரித்தல்",
+    "enExample": "Always validate user input on the server before updating database records.",
+    "taExample": "தரவுத்தளப் பதிவுகளைப் புதுப்பிப்பதற்கு முன் எப்போதும் சர்வரில் பயனர் உள்ளீட்டை உறுதிப்படுத்துங்கள்.",
+    "enExample2": "When children share their worries, take time to validate their emotions warmly.",
+    "taExample2": "குழந்தைகள் தங்களின் கவலைகளைப் பகிர்ந்து கொள்ளும் போது, அவர்களின் உணர்ச்சிகளை மதித்து அங்கீகரிக்க நேரம் ஒதுக்குங்கள்.",
+    "synonyms": [
+      "Confirm",
+      "Verify",
+      "Affirm",
+      "Authenticate"
+    ],
+    "antonyms": [
+      "Invalidate",
+      "Disprove",
+      "Reject",
+      "Nullify"
+    ]
+  },
+  {
+    "id": 3652,
+    "word": "Versatility",
+    "pos": "noun",
+    "definition": "Ability to adapt smoothly or be adapted to many different functions, tasks, or roles.",
+    "taWord": "பல்வேறு திறமை / எந்த சூழ்நிலையிலும் பொருந்தும் ஆற்றல்",
+    "enExample": "His versatility allowed him to move effortlessly between backend coding and product management.",
+    "taExample": "அவரது பல்வேறு திறமை பின்முனை நிரலாக்கம் மற்றும் தயாரிப்பு மேலாண்மைக்கு இடையே சிரமமின்றி நகர அவரை அனுமதித்தது.",
+    "enExample2": "Encouraging versatility in hobbies helps kids discover diverse passions early.",
+    "taExample2": "பொழுதுபோக்குகளில் பல்வேறு திறமையை ஊக்குவிப்பது குழந்தைகள் பல்வேறு ஆர்வங்களை முன்கூட்டியே கண்டறிய உதவுகிறது.",
+    "synonyms": [
+      "Adaptability",
+      "Flexibility",
+      "Resourcefulness",
+      "Multi-skilled"
+    ],
+    "antonyms": [
+      "Inflexibility",
+      "Rigidity",
+      "Limitation"
+    ]
+  },
+  {
+    "id": 3653,
+    "word": "Vigilant",
+    "pos": "adjective",
+    "definition": "Keeping careful watch for possible danger, errors, or difficulties; alert and watchful.",
+    "taWord": "விழிப்புடன் இருக்கும் / எச்சரிக்கையான",
+    "enExample": "Security software must remain vigilant against potential phishing attempts.",
+    "taExample": "பாதுகாப்பு மென்பொருள் சாத்தியமான ஃபிஷிங் முயற்சிகளுக்கு எதிராக விழிப்புடன் இருக்க வேண்டும்.",
+    "enExample2": "Parents stay vigilant when children are playing near water or busy roads.",
+    "taExample2": "குழந்தைகள் தண்ணீர் அல்லது பரபரப்பான சாலைகளுக்கு அருகில் விளையாடும் போது பெற்றோர் எச்சரிக்கையாக இருக்கிறார்கள்.",
+    "synonyms": [
+      "Watchful",
+      "Alert",
+      "Attentive",
+      "Cautious"
+    ],
+    "antonyms": [
+      "Inattentive",
+      "Careless",
+      "Negligent",
+      "Oblivious"
+    ]
+  },
+  {
+    "id": 3654,
+    "word": "Vulnerable",
+    "pos": "adjective",
+    "definition": "Exposed to the possibility of being harmed or criticized; open and honest emotionally.",
+    "taWord": "பாதிக்கப்படக்கூடிய / உணர்வுப்பூர்வமாகத் திறந்த மனமுள்ள",
+    "enExample": "Being vulnerable and admitting a mistake actually builds trust among teammates.",
+    "taExample": "உணர்வுப்பூர்வமாகத் திறந்த மனத்துடன் ஒருத் தவறை ஒப்புக்கொள்வது உண்மையிலேயே சக ஊழியர்களிடையே நம்பிக்கையை உருவாக்குகிறது.",
+    "enExample2": "Children feel safe sharing their worries when parents create a loving, non-judgmental home.",
+    "taExample2": "பெற்றோர்கள் அன்பான, விமர்சிக்காத வீட்டை உருவாக்கும் போது குழந்தைகள் தங்களின் கவலைகளைப் பகிர்ந்து கொள்ள பாதுகாப்பாக உணர்கிறார்கள்.",
+    "synonyms": [
+      "Exposed",
+      "Sensitive",
+      "Defenseless",
+      "Open"
+    ],
+    "antonyms": [
+      "Protected",
+      "Invulnerable",
+      "Secure",
+      "Guarded"
+    ]
   }
 ]

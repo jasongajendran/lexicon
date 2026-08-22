@@ -986,5 +986,28 @@
     ],
     "enExample2": "The disaster simulation tested hypothetical scenarios where two major cloud datacenters fail simultaneously.",
     "taExample2": "பேரழிவு உருவகப்படுத்துதல் இரண்டு முக்கிய தரவு மையங்கள் ஒரே நேரத்தில் செயலிழக்கும் கற்பனையான காட்சிகளை சோதித்தது."
+  },
+  {
+    "id": 3677,
+    "word": "Harmony",
+    "pos": "noun",
+    "definition": "Agreement, peaceful interaction, and smooth unity among people or ideas.",
+    "taWord": "இணக்கம் / அமைதியான ஒருமைப்பாடு",
+    "enExample": "Encouraging open dialogue creates workplace harmony and reduces friction.",
+    "taExample": "திறந்த உரையாடலை ஊக்குவிப்பது அலுவலக இணக்கத்தை உருவாக்குகிறது மற்றும் உரசல்களைக் குறைக்கிறது.",
+    "enExample2": "Living in harmony at home requires listening to each family member with love.",
+    "taExample2": "வீட்டில் இணக்கத்துடன் வாழ்வதற்கு ஒவ்வொரு குடும்ப உறுப்பினரையும் அன்போடு கேட்பது தேவைப்படுகிறது.",
+    "synonyms": [
+      "Accord",
+      "Unity",
+      "Consensus",
+      "Peace"
+    ],
+    "antonyms": [
+      "Discord",
+      "Conflict",
+      "Friction",
+      "Hostility"
+    ]
   }
 ]

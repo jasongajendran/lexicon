@@ -2879,5 +2879,185 @@
     ],
     "enExample2": "Infrastructure network routing falls strictly under the operational purview of the site reliability engineering team.",
     "taExample2": "உட்கட்டமைப்பு நெட்வொர்க் வழியமைத்தல் முற்றிலும் தள நம்பகத்தன்மை பொறியியல் குழுவின் செயல்பாட்டு எல்லைக்குள் (Purview) வருகிறது."
+  },
+  {
+    "id": 3628,
+    "word": "Patience",
+    "pos": "noun",
+    "definition": "The capacity to accept or tolerate delay, trouble, or difficulty without getting angry or upset.",
+    "taWord": "பொறுமை / நிதானம்",
+    "enExample": "Debugging complex software bugs requires immense patience and systematic testing.",
+    "taExample": "சிக்கலான மென்பொருள் பிழைகளை சரிசெய்வதற்கு மாபெரும் பொறுமையும் முறையான சோதனையும் தேவைப்படுகிறது.",
+    "enExample2": "Parenting young children requires endless patience and a warm sense of humor.",
+    "taExample2": "சிறிய குழந்தைகளை வளர்ப்பதற்கு முடிவில்லாத பொறுமையும் வெதுவெதுப்பான நகைச்சுவை உணர்வும் தேவைப்படுகிறது.",
+    "synonyms": [
+      "Forbearance",
+      "Tolerance",
+      "Calmness",
+      "Endurance"
+    ],
+    "antonyms": [
+      "Impatience",
+      "Agitation",
+      "Irritability"
+    ]
+  },
+  {
+    "id": 3629,
+    "word": "Perseverance",
+    "pos": "noun",
+    "definition": "Persistence in doing something despite difficulty, delay, or failure to achieve success.",
+    "taWord": "விடாமுயற்சி / தளராத ஊக்கம்",
+    "enExample": "Through sheer perseverance, the team successfully solved the persistent network issue.",
+    "taExample": "வெறும் தளராத ஊக்கத்தின் மூலம், குழு நீடித்த நெட்வொர்க் பிரச்சனையை வெற்றிகரமாகத் தீர்த்தது.",
+    "enExample2": "Learning to play a musical instrument is a wonderful lesson in perseverance for kids.",
+    "taExample2": "ஒரு இசைக்கருவியை வாசிக்கக் கற்றுக்கொள்வது குழந்தைகளுக்கு விடாமுயற்சியில் ஒரு அருமையான பாடமாகும்.",
+    "synonyms": [
+      "Persistence",
+      "Determination",
+      "Tenacity",
+      "Grit"
+    ],
+    "antonyms": [
+      "Giving up",
+      "Surrender",
+      "Hesitation",
+      "Instability"
+    ]
+  },
+  {
+    "id": 3630,
+    "word": "Perspective",
+    "pos": "noun",
+    "definition": "A particular attitude toward or way of regarding something; a point of view.",
+    "taWord": "பார்வைக்கோணம் / அணுகுமுறை",
+    "enExample": "Listening to different team members gives us a broader perspective on the problem.",
+    "taExample": "வெவ்வேறு குழு உறுப்பினர்களின் கருத்துக்களைக் கேட்பது பிரச்சனை குறித்த பரந்த பார்வைக்கோணத்தை நமக்குத் தருகிறது.",
+    "enExample2": "Traveling to new places broadens a child's perspective on different cultures.",
+    "taExample2": "புதிய இடங்களுக்குப் பயணம் செய்வது வெவ்வேறு கலாச்சாரங்கள் குறித்த குழந்தையின் பார்வைக்கோணத்தைப் பரந்தாக்குகிறது.",
+    "synonyms": [
+      "Point of view",
+      "Outlook",
+      "Angle",
+      "Standpoint"
+    ],
+    "antonyms": [
+      "Narrow-mindedness",
+      "Blind spot"
+    ]
+  },
+  {
+    "id": 3631,
+    "word": "Polite",
+    "pos": "adjective",
+    "definition": "Having or showing behavior that is respectful, considerate, and courteous to others.",
+    "taWord": "நாகரீகமான / மரியாதையான",
+    "enExample": "A polite request usually gets a much quicker and happier response from colleagues.",
+    "taExample": "ஒரு நாகரீகமான கோரிக்கை வழக்கமாக சக ஊழியர்களிடமிருந்து மிக விரைவான மற்றும் மகிழ்ச்சியான பதிலைப் பெறுகிறது.",
+    "enExample2": "Teaching children to say please and thank you makes them polite and pleasant.",
+    "taExample2": "தயவுசெய்து மற்றும் நன்றி என்று கூற குழந்தைகளுக்குக் கற்பிப்பது அவர்களை நாகரீகமாகவும் இனிமையாகவும் மாற்றுகிறது.",
+    "synonyms": [
+      "Courteous",
+      "Respectful",
+      "Mannerly",
+      "Civil"
+    ],
+    "antonyms": [
+      "Rude",
+      "Impolite",
+      "Courtesless",
+      "Disrespectful"
+    ]
+  },
+  {
+    "id": 3632,
+    "word": "Punctual",
+    "pos": "adjective",
+    "definition": "Happening, arriving, or doing something at the agreed or proper time; strictly on time.",
+    "taWord": "காலந்தவறாத / நேரத்தை கடைப்பிடிக்கும்",
+    "enExample": "Being punctual for team standup meetings demonstrates respect for everyone's time.",
+    "taExample": "குழு நிலவரக் கூட்டங்களுக்கு காலந்தவறாமல் இருப்பது அனைவரின் நேரத்திற்கும் காட்டும் மரியாதையை வெளிப்படுத்துகிறது.",
+    "enExample2": "Learning to be punctual for morning school buses instills good time management in kids.",
+    "taExample2": "காலை பள்ளிப் பேருந்துகளுக்குக் காலந்தவறாமல் இருக்கக் கற்றுக்கொள்வது बच्चोंல் நல்ல நேர மேலாண்மையை விதைக்கிறது.",
+    "synonyms": [
+      "On-time",
+      "Prompt",
+      "Timely",
+      "Dependable"
+    ],
+    "antonyms": [
+      "Late",
+      "Tardy",
+      "Unpunctual",
+      "Delayed"
+    ]
+  },
+  {
+    "id": 3685,
+    "word": "Passionate",
+    "pos": "adjective",
+    "definition": "Showing or caused by strong feelings, enthusiasm, or belief in what one does.",
+    "taWord": "ஆழ்ந்தப் பற்றுள்ள / மிகுந்த உணர்ச்சிப்பூர்வமான",
+    "enExample": "She is passionate about improving user experience through clean accessibility features.",
+    "taExample": "சுத்தமான அணுகல் வசதிகள் மூலம் பயனர் அனுபவத்தை மேம்படுத்துவதில் அவள் ஆழ்ந்தப் பற்றுள்ளவளாக இருக்கிறாள்.",
+    "enExample2": "A passionate teacher makes even complex science topics exciting for kids.",
+    "taExample2": "ஆழ்ந்தப் பற்றுள்ள ஒரு ஆசிரியர் சிக்கலான அறிவியல் தலைப்புகளைக் கூட குழந்தைகளுக்கு உற்சாகப்படுத்துகிறார்.",
+    "synonyms": [
+      "Enthusiastic",
+      "Ardent",
+      "Devoted",
+      "Fervent"
+    ],
+    "antonyms": [
+      "Apathetic",
+      "Indifferent",
+      "Cool",
+      "Half-hearted"
+    ]
+  },
+  {
+    "id": 3686,
+    "word": "Precision",
+    "pos": "adjective",
+    "definition": "The quality, condition, or fact of being exact, accurate, and meticulously detailed.",
+    "taWord": "துல்லியம் / மிகத் தகுந்த நேர்த்தி",
+    "enExample": "Writing clean code with precision prevents edge-case errors during production runtime.",
+    "taExample": "துல்லியத்துடன் சுத்தமான நிரலை எழுதுவது தயாரிப்பு இயக்க நேரத்தில் விளிம்புப் பிழைகளைத் தடுக்கிறது.",
+    "enExample2": "Measuring baking ingredients with precision ensures delicious home cakes.",
+    "taExample2": "பேக்கிங் பொருட்களைத் துல்லியத்துடன் அளவிடுவது சுவையான வீட்டு கேக்குகளை உறுதி செய்கிறது.",
+    "synonyms": [
+      "Accuracy",
+      "Exactness",
+      "Meticulousness",
+      "Correctness"
+    ],
+    "antonyms": [
+      "Inaccuracy",
+      "Imprecision",
+      "Sloppiness"
+    ]
+  },
+  {
+    "id": 3687,
+    "word": "Prudence",
+    "pos": "noun",
+    "definition": "The quality of being cautious, wise, and careful in practical affairs and judgment.",
+    "taWord": "முன்னெச்சரிக்கை விவேகம் / தொலைநோக்கு எச்சரிக்கை",
+    "enExample": "Exercising financial prudence helped our startup navigate market uncertainties safely.",
+    "taExample": "நிதி முன்னெச்சரிக்கை விவேகத்தைக் கையாள்வது நமது ஸ்டார்ட்அப் சந்தை நிச்சயமற்ற நிலைகளைப் பாதுகாப்பாகக் கடக்க உதவியது.",
+    "enExample2": "Teaching children financial prudence helps them save money wisely for the future.",
+    "taExample2": "குழந்தைகளுக்கு நிதி முன்னெச்சரிக்கை விவேகத்தைக் கற்பிப்பது அவர்கள் எதிர்காலத்திற்காகப் பணத்தை விவேகத்துடன் சேமிக்க உதவுகிறது.",
+    "synonyms": [
+      "Wisdom",
+      "Caution",
+      "Discretion",
+      "Foresight"
+    ],
+    "antonyms": [
+      "Imprudence",
+      "Recklessness",
+      "Rashness",
+      "Folly"
+    ]
   }
 ]

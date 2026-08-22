@@ -1926,5 +1926,95 @@
       "monolithic",
       "static"
     ]
+  },
+  {
+    "id": 3621,
+    "word": "Insightful",
+    "pos": "adjective",
+    "definition": "Having or showing an accurate, deep, and perceptive understanding of a situation or concept.",
+    "taWord": "ஆழ்ந்த நுண்ணறிவுமிக்க / ஊடுருவிப் பார்க்கும் பார்வை கொண்ட",
+    "enExample": "Her insightful feedback during the design review helped us avoid a major usability flaw.",
+    "taExample": "வடிவமைப்பு பரிசீலனையின் போது அவரது ஆழ்ந்த நுண்ணறிவுமிக்க கருத்துரை பெரிய பயன்பாட்டுக் குறைபாட்டைத் தவிர்க்க நமக்கு உதவியது.",
+    "enExample2": "Children often make surprisingly insightful comments about human nature.",
+    "taExample2": "குழந்தைகள் பெரும்பாலும் மனித இயல்பு குறித்து வியக்கத்தக்க வகையில் ஆழ்ந்த நுண்ணறிவுமிக்க கருத்துக்களைக் கூறுகிறார்கள்.",
+    "synonyms": [
+      "Perceptive",
+      "Astute",
+      "Penetrating",
+      "Wise"
+    ],
+    "antonyms": [
+      "Superficial",
+      "Shallow",
+      "Unobservant",
+      "Obtuse"
+    ]
+  },
+  {
+    "id": 3622,
+    "word": "Integrity",
+    "pos": "noun",
+    "definition": "The quality of being honest and having strong moral principles that you stick to consistently.",
+    "taWord": "நேர்மை / கொள்கை உறுதி",
+    "enExample": "Working with high personal integrity earns long-term trust from colleagues and clients.",
+    "taExample": "உயர்ந்த தனிப்பட்ட நேர்மையுடன் பணிபுரிவது சக ஊழியர்களிடமிருந்தும் வாடிக்கையாளர்களிடமிருந்தும் நீண்டகால நம்பிக்கையைப் பெறுகிறது.",
+    "enExample2": "Teaching children integrity means encouraging them to do the right thing even when no one is watching.",
+    "taExample2": "குழந்தைகளுக்கு நேர்மையைக் கற்பிப்பது என்பது யாரும் பார்க்காத போதும் சரியானதைச் செய்ய அவர்களை ஊக்குவிப்பதாகும்.",
+    "synonyms": [
+      "Honesty",
+      "Probity",
+      "Uprightness",
+      "Truthfulness"
+    ],
+    "antonyms": [
+      "Dishonesty",
+      "Corruption",
+      "Deceit",
+      "Hypocrisy"
+    ]
+  },
+  {
+    "id": 3678,
+    "word": "Inquisitive",
+    "pos": "adjective",
+    "definition": "Eager for knowledge; curious and asking thoughtful questions to learn.",
+    "taWord": "கேள்விகள் கேட்டு அறியும் ஆர்வமுள்ள",
+    "enExample": "An inquisitive mind is a great asset for debugging complex technical issues.",
+    "taExample": "சிக்கலான தொழில்நுட்பப் பிரச்சனைகளைச் சரிசெய்ய கேள்விகள் கேட்டு அறியும் ஆர்வமுள்ள மனம் ஒரு சிறந்த சொத்தாகும்.",
+    "enExample2": "Inquisitive toddlers constantly ask why things happen the way they do.",
+    "taExample2": "கேள்விகள் கேட்டு அறியும் ஆர்வமுள்ள பிஞ்சுக் குழந்தைகள் விஷயங்கள் ஏன் நடக்குகின்றன என்று தொடர்ந்து கேட்கிறார்கள்.",
+    "synonyms": [
+      "Curious",
+      "Inquiring",
+      "Searching",
+      "Interested"
+    ],
+    "antonyms": [
+      "Uncurious",
+      "Indifferent",
+      "Uninterested"
+    ]
+  },
+  {
+    "id": 3679,
+    "word": "Inspiring",
+    "pos": "adjective",
+    "definition": "Having the effect of inspiring enthusiasm, hope, creativity, or courage in others.",
+    "taWord": "ஊக்கமளிக்கும் / விழிப்புணர்வூட்டும்",
+    "enExample": "The CEO delivered an inspiring speech about our mission for the coming year.",
+    "taExample": "வரும் ஆண்டிற்கான எங்கள் பணி குறித்து தலைமை நிர்வாக அதிகாரி ஒரு ஊக்கமளிக்கும் உரையை ஆற்றினார்.",
+    "enExample2": "An inspiring teacher can change a child's outlook on education forever.",
+    "taExample2": "ஒரு ஊக்கமளிக்கும் ஆசிரியர் கல்வியைப் பற்றிய குழந்தையின் பார்வையை என்றென்றும் மாற்ற முடியும்.",
+    "synonyms": [
+      "Uplifting",
+      "Motivating",
+      "Encouraging",
+      "Stimulating"
+    ],
+    "antonyms": [
+      "Depressing",
+      "Discouraging",
+      "Dull"
+    ]
   }
 ]

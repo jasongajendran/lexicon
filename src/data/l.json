@@ -1065,5 +1065,51 @@
       "Plausible",
       "Grave"
     ]
+  },
+  {
+    "id": 3680,
+    "word": "Lenient",
+    "pos": "adjective",
+    "definition": "Permissive, merciful, or tolerant in judgment, discipline, or rules.",
+    "taWord": "கனிவான / தளர்த்தப்பட்ட சலுகையுள்ள",
+    "enExample": "The manager was lenient about working from home when employees faced family emergencies.",
+    "taExample": "ஊழியர்கள் குடும்ப அவசர நிலைகளை எதிர்கொண்ட போது வீட்டிலிருந்து பணிபுரிவதில் மேலாளர் கனிவாக இருந்தார்.",
+    "enExample2": "While being loving, parents shouldn't be overly lenient with bedtime schedules.",
+    "taExample2": "அன்பாக இருக்கும் அதே வேளையில், படுக்கும் நேர அட்டவணையில் பெற்றோர்கள் அளவுக்கு மீறி கனிவாக இருக்கக் கூடாது.",
+    "synonyms": [
+      "Forgiving",
+      "Tolerant",
+      "Merciful",
+      "Mild"
+    ],
+    "antonyms": [
+      "Strict",
+      "Severe",
+      "Harsh",
+      "Rigid"
+    ]
+  },
+  {
+    "id": 3681,
+    "word": "Lucid",
+    "pos": "adjective",
+    "definition": "Expressed clearly; easy to understand; mentally clear and rational.",
+    "taWord": "தெளிவான / எளிதில் விளங்கும்",
+    "enExample": "She provided a lucid explanation of the database migration strategy.",
+    "taExample": "தரவுத்தள இடப்பெயர்வு உத்தி குறித்து அவள் ஒரு தெளிவான விளக்கத்தை வழங்கினாள்.",
+    "enExample2": "Her story was written in lucid language that children enjoyed immensely.",
+    "taExample2": "அவளது கதை குழந்தைகள் மிகவும் ரசித்த தெளிவான மொழியில் எழுதப்பட்டது.",
+    "synonyms": [
+      "Clear",
+      "Coherent",
+      "Articulate",
+      "Transparent"
+    ],
+    "antonyms": [
+      "Confused",
+      "Obscure",
+      "Incoherent",
+      "Vague"
+    ]
   }
 ]

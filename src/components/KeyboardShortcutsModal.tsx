@@ -66,9 +66,18 @@ export function KeyboardShortcutsModal({ isOpen, onClose }: KeyboardShortcutsMod
             ))}
           </div>
 
-          {/* Footer Note */}
-          <div className="mt-6 pt-4 border-t border-zinc-800/60 text-center text-xs font-mono text-zinc-400">
-            Press <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded text-amber-400 font-semibold">?</kbd> anytime to open this guide.
+          {/* Footer Close Button - Centered */}
+          <div className="mt-6 pt-4 border-t border-zinc-800/60 flex flex-col items-center gap-3">
+            <button
+              onClick={onClose}
+              className="px-8 py-2.5 rounded-full bg-amber-400 hover:bg-amber-300 text-black font-mono text-xs font-bold flex items-center justify-center gap-2 shadow-lg active:scale-95 transition-all cursor-pointer"
+            >
+              <X size={16} strokeWidth={2.5} />
+              <span>CLOSE</span>
+            </button>
+            <p className="text-[11px] font-mono text-zinc-500">
+              Press <kbd className="px-1 py-0.5 bg-zinc-800 rounded text-amber-400 font-semibold">?</kbd> anytime to open this guide.
+            </p>
           </div>
         </motion.div>
       </div>

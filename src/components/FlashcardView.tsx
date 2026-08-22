@@ -661,7 +661,7 @@ export function FlashcardView({
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <span className={`text-[10px] font-mono ${theme.accentText} uppercase tracking-widest block font-semibold`}>
-                          {exampleTab === 1 ? 'Context 1' : 'Context 2'}
+                          {exampleTab === 1 ? 'Ex 1' : 'Ex 2'}
                         </span>
                         <button
                           type="button"
@@ -726,10 +726,7 @@ export function FlashcardView({
                     </div>
 
                     <div className="pt-1.5 border-t border-zinc-800/50">
-                      <span className="text-[10px] font-mono text-purple-300 uppercase tracking-widest block mb-0.5 font-medium">
-                        Tamil Usage ({currentWord.taWord})
-                      </span>
-                      <p className="text-xs font-tamil text-zinc-300 leading-relaxed">
+                      <p className="text-xs sm:text-sm font-tamil text-amber-300/90 leading-relaxed">
                         "{exampleTab === 2 && currentWord.taExample2 ? currentWord.taExample2 : currentWord.taExample}"
                       </p>
                     </div>

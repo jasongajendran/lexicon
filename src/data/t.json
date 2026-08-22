@@ -1364,5 +1364,119 @@
     ],
     "enExample2": "Static type safety catches misspelled object property names at compile-time before code reaches staging.",
     "taExample2": "நிலையான வகை பாதுகாப்பு (Type Safety) தவறாக எழுதப்பட்ட மாறிப் பெயர்களை குறியீடு இயங்குவதற்கு முன்பே கண்டறிகிறது."
+  },
+  {
+    "id": 3646,
+    "word": "Tactful",
+    "pos": "adjective",
+    "definition": "Having or showing skill and sensitivity in dealing with others so as not to offend.",
+    "taWord": "நாகரீகமான ராஜதந்திரம் / பிறர் மனம் புண்படாமல் பேசும் திறன்",
+    "enExample": "She gave a tactful refusal to the extra assignment because her sprint workload was already full.",
+    "taExample": "தனது பணிச்சுமை ஏற்கனவே நிறைந்திருந்ததால், கூடுதல் பணிக்கு அவள் பிறர் மனம் புண்படாமல் நாகரீக மறுப்பை அளித்தாள்.",
+    "enExample2": "It is important to be tactful when pointing out a friend's small mistake.",
+    "taExample2": "ஒரு நண்பரின் சிறிய தவறைச் சுட்டிக்காட்டும் போது பிறர் மனம் புண்படாமல் பேசுவது முக்கியம்.",
+    "synonyms": [
+      "Diplomatic",
+      "Discreet",
+      "Considerate",
+      "Polite"
+    ],
+    "antonyms": [
+      "Tactless",
+      "Rude",
+      "Blunt",
+      "Insensitive"
+    ]
+  },
+  {
+    "id": 3647,
+    "word": "Thorough",
+    "pos": "adjective",
+    "definition": "Complete with regard to every detail; careful, rigorous, and not superficial.",
+    "taWord": "முழுமையான / ஆழமான கவனமுடைய",
+    "enExample": "Conducting a thorough code review prevents bugs from reaching production servers.",
+    "taExample": "ஒரு முழுமையான நிரல் பரிசீலனையை நடத்துவது பிழைகள் தயாரிப்பு சர்வர்களை அடைவதைத் தடுக்கிறது.",
+    "enExample2": "A thorough search of the playroom helped us find the missing library book.",
+    "taExample2": "விளையாட்டு அறையில் செய்த ஒரு முழுமையான தேடல் தவறவிட்ட புத்தகத்தைக் கண்டுபிடிக்க நமக்கு உதவியது.",
+    "synonyms": [
+      "Rigorous",
+      "Comprehensive",
+      "Exhaustive",
+      "Meticulous"
+    ],
+    "antonyms": [
+      "Superficial",
+      "Cursory",
+      "Sloppy",
+      "Partial"
+    ]
+  },
+  {
+    "id": 3648,
+    "word": "Thoughtful",
+    "pos": "adjective",
+    "definition": "Showing careful consideration for the needs, feelings, or comfort of other people.",
+    "taWord": "சிந்தனைமிக்க / பிறரை நினைத்துப் பார்க்கும் கருணையுள்ள",
+    "enExample": "Sending a thoughtful thank-you message after the presentation brightened her day.",
+    "taExample": "விளக்கக்காட்சிக்குப் பிறகு ஒரு சிந்தனைமிக்க நன்றிச் செய்தியை அனுப்பியது அவளது நாளை பிரகாசமாக்கியது.",
+    "enExample2": "Giving a thoughtful gift shows how much you truly care about a friend's interests.",
+    "taExample2": "ஒரு சிந்தனைமிக்க பரிசை வழங்குவது நண்பரின் விருப்பங்களை நீங்கள் எவ்வளவு உண்மையாகக் கருதுகிறீர்கள் என்பதைக் காட்டுகிறது.",
+    "synonyms": [
+      "Considerate",
+      "Attentive",
+      "Kind",
+      "Mindful"
+    ],
+    "antonyms": [
+      "Thoughtless",
+      "Selfish",
+      "Inconsiderate",
+      "Rude"
+    ]
+  },
+  {
+    "id": 3649,
+    "word": "Tolerance",
+    "pos": "noun",
+    "definition": "The ability or willingness to accept and respect opinions, beliefs, or behavior that differ from one's own.",
+    "taWord": "சகிப்புத்தன்மை / பிற கருத்துக்களை மதிக்கும் பக்குவம்",
+    "enExample": "Working in multicultural teams fosters mutual respect and high cultural tolerance.",
+    "taExample": "பல்வேறு கலாச்சாரக் குழுக்களில் பணிபுரிவது பரஸ்பர மரியாதையையும் உயர் கலாச்சார சகிப்புத்தன்மையையும் வளர்க்கிறது.",
+    "enExample2": "Teaching children tolerance prepares them to welcome people from all walks of life.",
+    "taExample2": "குழந்தைகளுக்கு சகிப்புத்தன்மையைக் கற்பிப்பது அனைத்து தரப்பு மக்களையும் வரவேற்க அவர்களைத் தயார்படுத்துகிறது.",
+    "synonyms": [
+      "Acceptance",
+      "Open-mindedness",
+      "Forbearance",
+      "Patience"
+    ],
+    "antonyms": [
+      "Intolerance",
+      "Bigotry",
+      "Prejudice",
+      "Narrow-mindedness"
+    ]
+  },
+  {
+    "id": 3694,
+    "word": "Thrifty",
+    "pos": "adjective",
+    "definition": "Using money, resources, or time carefully and not wastefully; economical.",
+    "taWord": "சிக்கனமான / விவேகமான நிர்வாகமுள்ள",
+    "enExample": "A thrifty engineering team reuses existing modular components to reduce dev costs.",
+    "taExample": "ஒரு சிக்கனமான பொறியியல் குழு உருவாக்கச் செலவுகளைக் குறைக்க ஏற்கனவே உள்ள மட்டு கூறுகளை மீண்டும் பயன்படுத்துகிறது.",
+    "enExample2": "Being thrifty with household groceries frees up funds for fun family vacations.",
+    "taExample2": "வீட்டு மளிகைப் பொருட்களில் சிக்கனமாக இருப்பது வேடிக்கையான குடும்ப விடுமுறைக்கான நிதியை விடிவிக்கிறது.",
+    "synonyms": [
+      "Frugal",
+      "Economical",
+      "Sparing",
+      "Prudent"
+    ],
+    "antonyms": [
+      "Wasteful",
+      "Extravagant",
+      "Spendthrift"
+    ]
   }
 ]

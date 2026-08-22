@@ -1252,5 +1252,93 @@
     ],
     "enExample2": "The cloud platform provides a myriad of managed services, ranging from serverless compute to vector databases.",
     "taExample2": "கிளவுட் தளம் சர்வர்லெஸ் கணினிகள் முதல் வெக்டர் தரவுத்தளங்கள் வரை எண்ணற்ற (Myriad) மேலாண்மை சேவைகளை வழங்குகிறது."
+  },
+  {
+    "id": 3623,
+    "word": "Mindful",
+    "pos": "adjective",
+    "definition": "Conscious or aware of something; taking care to consider others' feelings or situation.",
+    "taWord": "விழிப்புணர்வுள்ள / கவனம் செலுத்தும்",
+    "enExample": "Be mindful of meeting schedules so that everyone has enough time to present.",
+    "taExample": "அனைவருக்கும் வழங்க நேரம் கிடைக்கும் வகையில் கூட்ட அட்டவணையில் விழிப்புணர்வுடன் இருங்கள்.",
+    "enExample2": "Teaching children to be mindful of their environmental footprint fosters good habits.",
+    "taExample2": "சுற்றுச்சூழல் தடம் குறித்து விழிப்புணர்வுடன் இருக்க குழந்தைகளுக்குக் கற்பிப்பது நல்ல பழக்கங்களை வளர்க்கிறது.",
+    "synonyms": [
+      "Aware",
+      "Conscious",
+      "Attentive",
+      "Considerate"
+    ],
+    "antonyms": [
+      "Unmindful",
+      "Oblivious",
+      "Careless",
+      "Inattentive"
+    ]
+  },
+  {
+    "id": 3624,
+    "word": "Mutual",
+    "pos": "adjective",
+    "definition": "Held in common or shared equally by two or more parties.",
+    "taWord": "பரஸ்பர / இருதரப்பு பொதுவான",
+    "enExample": "Successful professional partnerships are built on mutual trust and clear communication.",
+    "taExample": "வெற்றிகரமான தொழில்முறை கூட்டாண்மைகள் பரஸ்பர நம்பிக்கை மற்றும் தெளிவான தொடர்பின் மீது கட்டப்பட்டுள்ளன.",
+    "enExample2": "Good friendships thrive on mutual respect and supporting each other's goals.",
+    "taExample2": "நல்ல நட்புகள் பரஸ்பர மரியாதை மற்றும் ஒருவருக்கொருவர் இலக்குகளை ஆதரிப்பதில் செழிக்கின்றன.",
+    "synonyms": [
+      "Shared",
+      "Reciprocal",
+      "Common",
+      "Joint"
+    ],
+    "antonyms": [
+      "One-sided",
+      "Unilateral",
+      "Individual"
+    ]
+  },
+  {
+    "id": 3682,
+    "word": "Mindset",
+    "pos": "noun",
+    "definition": "The established set of attitudes, beliefs, or habits held by someone.",
+    "taWord": "மனப்பான்மை / எண்ணப் பாங்கு",
+    "enExample": "Developing a growth mindset helps engineers view failures as learning opportunities.",
+    "taExample": "வளர்ச்சி மனப்பான்மையை வளர்ப்பது பொறியாளர்களுக்குத் தோல்விகளைக் கற்றல் வாய்ப்புகளாகப் பார்க்க உதவுகிறது.",
+    "enExample2": "Encouraging a positive mindset early in life builds lifelong confidence in kids.",
+    "taExample2": "வாழ்க்கையின் ஆரம்பத்திலேயே நேர்மறை மனப்பான்மையை ஊக்குவிப்பது குழந்தைகளில் வாழ்நாள் நம்பிக்கையை உருவாக்குகிறது.",
+    "synonyms": [
+      "Attitude",
+      "Outlook",
+      "Perspective",
+      "Disposition"
+    ],
+    "antonyms": [
+      "Fixed view"
+    ]
+  },
+  {
+    "id": 3683,
+    "word": "Modest",
+    "pos": "adjective",
+    "definition": "Unassuming or moderate in the estimation of one's abilities or achievements; humble.",
+    "taWord": "அடக்கமான / எளிமையான",
+    "enExample": "He was modest about his role in designing the award-winning software application.",
+    "taExample": "விருது பெற்ற மென்பொருள் செயலியை வடிவமைப்பதில் தனது பங்கைப் பற்றி அவர் அடக்கத்துடன் இருந்தார்.",
+    "enExample2": "She celebrated her exam success with a modest family dinner.",
+    "taExample2": "தனது தேர்வு வெற்றியை ஒரு எளிமையான குடும்ப இரவு உணவோடு அவள் கொண்டாடினாள்.",
+    "synonyms": [
+      "Humble",
+      "Unpretentious",
+      "Reserved",
+      "Moderate"
+    ],
+    "antonyms": [
+      "Boastful",
+      "Arrogant",
+      "Vain",
+      "Proud"
+    ]
   }
 ]

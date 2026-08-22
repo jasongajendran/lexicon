@@ -1569,5 +1569,231 @@
     ],
     "enExample2": "Securing venture capital funding extended the startup's financial runway by eighteen additional months.",
     "taExample2": "முதலீட்டு நிதியைப் பெற்றது அந்த புத்தொழில் நிறுவனத்தின் செயல்பாட்டுக் காலத்தை (Runway) மேலும் பதினெட்டு மாதங்களுக்கு நீட்டித்தது."
+  },
+  {
+    "id": 3633,
+    "word": "Reassurance",
+    "pos": "noun",
+    "definition": "The action of saying or doing something to remove someone's doubts, anxiety, or fears.",
+    "taWord": "நம்பிக்கையூட்டல் / பயம் நீக்கும் வார்த்தை",
+    "enExample": "A quick note of reassurance from the manager gave the nervous team confidence before the demo.",
+    "taExample": "மேலாளரிடமிருந்து வந்த விரைவான நம்பிக்கையூட்டும் குறிப்பு, விளக்கக்காட்சிக்கு முன் பதட்டமான குழுவிற்கு நம்பிக்கையைக் கொடுத்தது.",
+    "enExample2": "Children often need gentle reassurance from parents when starting at a new school.",
+    "taExample2": "புதிய பள்ளியில் சேரும் போது குழந்தைகளுக்குப் பெற்றோரிடமிருந்து மென்மையான நம்பிக்கையூட்டல் தேவைப்படுகிறது.",
+    "synonyms": [
+      "Encouragement",
+      "Comfort",
+      "Solace",
+      "Confirmation"
+    ],
+    "antonyms": [
+      "Alarm",
+      "Discouragement",
+      "Intimidation"
+    ]
+  },
+  {
+    "id": 3634,
+    "word": "Receptive",
+    "pos": "adjective",
+    "definition": "Able or willing to receive, consider, and accept new ideas, feedback, or suggestions warmly.",
+    "taWord": "ஏற்றுக்கொள்ளும் மனப்பக்குவம் கொண்ட / திறந்த மனதுள்ள",
+    "enExample": "A good leader is always receptive to constructive feedback from team members.",
+    "taExample": "ஒரு நல்ல தலைவர் எப்போதும் குழு உறுப்பினர்களிடமிருந்து வரும் ஆக்கப்பூர்வமான கருத்துக்களை ஏற்றுக்கொள்ளும் மனப்பக்குவம் கொண்டவராக இருக்கிறார்.",
+    "enExample2": "Kids are much more receptive to advice when spoken to gently and privately.",
+    "taExample2": "மென்மையாகவும் தனிமையிலும் பேசும் போது குழந்தைகள் ஆலோசனைகளை ஏற்றுக்கொள்ளும் மனப்பக்குவத்தை அதிகம் பெறுகிறார்கள்.",
+    "synonyms": [
+      "Open-minded",
+      "Welcoming",
+      "Responsive",
+      "Flexible"
+    ],
+    "antonyms": [
+      "Unreceptive",
+      "Resistant",
+      "Narrow-minded",
+      "Stubborn"
+    ]
+  },
+  {
+    "id": 3635,
+    "word": "Recognition",
+    "pos": "noun",
+    "definition": "Acknowledgment and praise for someone's achievement, hard work, or contribution.",
+    "taWord": "அங்கீகாரம் / பாராட்டு மெச்சுதல்",
+    "enExample": "Timely recognition of hard work boosts employee morale and job satisfaction.",
+    "taExample": "கடின உழைப்பிற்கான சரியான நேர அங்கீகாரம் பணியாளர்களின் உற்சாகத்தையும் வேலை திருப்தியையும் உயர்த்துகிறது.",
+    "enExample2": "Simple praise and recognition at home encourage children to keep doing their best.",
+    "taExample2": "வீட்டில் எளிய பாராட்டுகளும் அங்கீகாரமும் குழந்தைகள் தங்கள் சிறந்ததை தொடர்ந்து செய்ய ஊக்குவிக்கின்றன.",
+    "synonyms": [
+      "Acknowledgment",
+      "Appreciation",
+      "Praise",
+      "Honor"
+    ],
+    "antonyms": [
+      "Disregard",
+      "Neglect",
+      "Omission",
+      "Slight"
+    ]
+  },
+  {
+    "id": 3636,
+    "word": "Redundant",
+    "pos": "adjective",
+    "definition": "Not or no longer needed or useful; unnecessary repetition or extra capacity.",
+    "taWord": "தேவையற்ற உபரி / தேவையற்றத் திரும்பத் திரும்ப வருதல்",
+    "enExample": "Removing redundant lines of code made our application launch noticeably faster.",
+    "taExample": "தேவையற்ற உபரி நிரல் வரிகளை நீக்கியது நமது செயலி குறிப்பிடத்தக்க அளவில் வேகமாகத் தொடங்க உதவியது.",
+    "enExample2": "When explaining basic chores, avoid giving redundant reminders that annoy children.",
+    "taExample2": "அடிப்படை வேலைகளை விளக்கும் போது, குழந்தைகளை எரிச்சலூட்டும் தேவையற்றத் திரும்பத் திரும்ப வரும் நினைவூட்டல்களைத் தவிர்க்கவும்.",
+    "synonyms": [
+      "Superfluous",
+      "Unnecessary",
+      "Extra",
+      "Spare"
+    ],
+    "antonyms": [
+      "Essential",
+      "Necessary",
+      "Vital",
+      "Required"
+    ]
+  },
+  {
+    "id": 3637,
+    "word": "Reliable",
+    "pos": "adjective",
+    "definition": "Consistently good in quality or performance; dependable and trustworthy.",
+    "taWord": "நம்பகமான / சார்ந்திருக்கக்கூடிய",
+    "enExample": "He is a reliable teammate who always meets his delivery deadlines consistently.",
+    "taExample": "அவன் தனது விநியோகக் காலக்கெடுவை எப்போதும் சீராகச் சந்திக்கும் ஒரு நம்பகமான சக ஊழியன்.",
+    "enExample2": "Children feel safe and happy when their parents provide a reliable daily routine.",
+    "taExample2": "தங்கள் பெற்றோர்கள் ஒரு நம்பகமான தினசரி வழக்கத்தை வழங்கும் போது குழந்தைகள் பாதுகாப்பாகவும் மகிழ்ச்சியாகவும் உணர்கிறார்கள்.",
+    "synonyms": [
+      "Dependable",
+      "Trustworthy",
+      "Steadfast",
+      "Consistent"
+    ],
+    "antonyms": [
+      "Unreliable",
+      "Undependable",
+      "Irresponsible",
+      "Fickle"
+    ]
+  },
+  {
+    "id": 3638,
+    "word": "Resourceful",
+    "pos": "adjective",
+    "definition": "Having the ability to find quick, clever, and practical ways to overcome difficulties or lack of tools.",
+    "taWord": "சாமர்த்தியமான / எந்த சூழலிலும் வழி கண்டுபிடிக்கும் திறன்",
+    "enExample": "She proved to be highly resourceful by using open-source tools when budget was limited.",
+    "taExample": "பட்ஜெட் வரம்பிற்குட்பட்ட போது திறந்த மூல கருவிகளைப் பயன்படுத்தி அவள் மிகவும் சாமர்த்தியமானவள் என்பதை நிரூபித்தாள்.",
+    "enExample2": "Praising a child for being resourceful when making crafts boosts creative problem-solving.",
+    "taExample2": "கைவினைப் பொருட்களைச் செய்யும் போது சாமர்த்தியமாகச் செயல்படுவதற்காகக் குழந்தையைப் பாராட்டுவது படைப்பாற்றல் பிரச்சனை தீர்ப்பை உயர்த்துகிறது.",
+    "synonyms": [
+      "Ingenious",
+      "Inventive",
+      "Capable",
+      "Clever"
+    ],
+    "antonyms": [
+      "Unimaginative",
+      "Helpless",
+      "Incompetent"
+    ]
+  },
+  {
+    "id": 3639,
+    "word": "Respectful",
+    "pos": "adjective",
+    "definition": "Feeling or showing deference, consideration, and polite regard for others.",
+    "taWord": "மரியாதையான / கண்ணியமான",
+    "enExample": "Maintaining a respectful tone during team discussions leads to productive outcomes.",
+    "taExample": "குழு விவாதங்களின் போது மரியாதையான தொனியைப் பேணுவது பயனுள்ள முடிவுகளுக்கு வழிவகுக்கிறது.",
+    "enExample2": "Children who learn respectful behavior at home build strong social friendships.",
+    "taExample2": "வீட்டில் மரியாதையான நடத்தையைக் கற்றுக்கொள்ளும் குழந்தைகள் வலுவான சமூக நட்பை உருவாக்குகிறார்கள்.",
+    "synonyms": [
+      "Polite",
+      "Courteous",
+      "Considerate",
+      "Deferential"
+    ],
+    "antonyms": [
+      "Disrespectful",
+      "Rude",
+      "Impudent",
+      "Scornful"
+    ]
+  },
+  {
+    "id": 3688,
+    "word": "Reassure",
+    "pos": "verb",
+    "definition": "To say or do something to remove doubts, anxieties, or fears of someone warmly.",
+    "taWord": "நம்பிக்கையூட்டி அமைதிப்படுத்துதல்",
+    "enExample": "The team lead took time to reassure us that the project deadline would be extended.",
+    "taExample": "திட்ட காலக்கெடு நீட்டிக்கப்படும் என்று நமக்கு நம்பிக்கையூட்டி அமைதிப்படுத்த குழுத் தலைவர் நேரம் ஒதுக்கினார்.",
+    "enExample2": "A warm hug from a parent can instantly reassure a child who had a bad dream.",
+    "taExample2": "பெற்றோரிடமிருந்து வரும் ஒரு வெதுவெதுப்பான கட்டிப்பிடித்தல் கெட்ட கனவு கண்ட குழந்தையை உடனடியாக நம்பிக்கையூட்டி அமைதிப்படுத்தும்.",
+    "synonyms": [
+      "Encourage",
+      "Comfort",
+      "Solace",
+      "Console"
+    ],
+    "antonyms": [
+      "Alarm",
+      "Frighten",
+      "Intimidate",
+      "Dishearten"
+    ]
+  },
+  {
+    "id": 3689,
+    "word": "Resolution",
+    "pos": "noun",
+    "definition": "A firm decision to do or not to do something; the action of solving a problem.",
+    "taWord": "உறுதிமொழி / பிரச்சனைக்குத் தீர்வு",
+    "enExample": "Prompt bug resolution builds trust and satisfaction among our active software users.",
+    "taExample": "உடனடி பிழைத் தீர்வு நமது தீவிர மென்பொருள் பயனர்களிடையே நம்பிக்கையையும் திருப்தியையும் உருவாக்குகிறது.",
+    "enExample2": "Making a family resolution to read together every evening brings everyone closer.",
+    "taExample2": "ஒவ்வொரு மாலையும் ஒன்றாக வாசிக்க வேண்டும் என்று ஒரு குடும்ப உறுதிமொழி எடுப்பது அனைவரையும் நெருக்கமாக்குகிறது.",
+    "synonyms": [
+      "Determination",
+      "Decision",
+      "Solution",
+      "Settlement"
+    ],
+    "antonyms": [
+      "Indecision",
+      "Irresolution",
+      "Hesitation"
+    ]
+  },
+  {
+    "id": 3690,
+    "word": "Restraint",
+    "pos": "noun",
+    "definition": "Unemotional, controlled, and self-restrained behavior in tense situations.",
+    "taWord": "சுய கட்டுப்பாடு / நிதானம்",
+    "enExample": "Showing emotional restraint during a heated argument helps prevent unprofessional conflict.",
+    "taExample": "சூடான விவாதத்தின் போது உணர்ச்சிபூர்வமான சுய கட்டுப்பாட்டைக் காட்டுவது தொழில்சார்ந்த மோதலைத் தடுக்க உதவுகிறது.",
+    "enExample2": "Teaching kids restraint when eating sweets keeps them healthy.",
+    "taExample2": "இனிப்புகளை உண்ணும் போது குழந்தைகளுக்குச் சுய கட்டுப்பாட்டைக் கற்பிப்பது அவர்களை ஆரோக்கியமாக வைத்திருக்கிறது.",
+    "synonyms": [
+      "Self-control",
+      "Moderation",
+      "Forbearance",
+      "Composure"
+    ],
+    "antonyms": [
+      "Indulgence",
+      "Unrestraint",
+      "Excess"
+    ]
   }
 ]

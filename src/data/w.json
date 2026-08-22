@@ -579,5 +579,141 @@
     ],
     "enExample2": "Write-Ahead Logging guarantees database crash recovery and ACID durability by persisting operations to non-volatile logs first.",
     "taExample2": "செயல்பாடுகளை முதலில் பதிவேட்டில் சேமிப்பதன் மூலம் Write-Ahead Logging தரவுத்தள செயலிழப்பு மீட்டெடுப்பை உறுதி செய்கிறது."
+  },
+  {
+    "id": 3655,
+    "word": "Welcoming",
+    "pos": "adjective",
+    "definition": "Friendly, hospitable, and warm to new arrivals, visitors, or colleagues.",
+    "taWord": "இனிமையாக வரவேற்கும் / இணக்கமான",
+    "enExample": "Creating a welcoming onboarding environment helps new hires settle in quickly.",
+    "taExample": "ஒரு இனிமையாக வரவேற்கும் வரவேற்புச் சூழலை உருவாக்குவது புதிய ஊழியர்கள் விரைவாகப் பொருந்த உதவுகிறது.",
+    "enExample2": "A welcoming smile makes guests feel instantly at home.",
+    "taExample2": "ஒரு இனிமையாக வரவேற்கும் புன்னகை விருந்தினர்களை உடனடியாக வீட்டில் இருப்பது போல் உணர வைக்கிறது.",
+    "synonyms": [
+      "Hospitable",
+      "Friendly",
+      "Warm",
+      "Inviting"
+    ],
+    "antonyms": [
+      "Unwelcoming",
+      "Hostile",
+      "Cold",
+      "Distant"
+    ]
+  },
+  {
+    "id": 3656,
+    "word": "Wisdom",
+    "pos": "noun",
+    "definition": "The quality of having experience, knowledge, and good judgment; sound decision-making.",
+    "taWord": "ஞானம் / அனுபவ அறிவு மற்றும் நல்ல முடிவு",
+    "enExample": "Seeking the wisdom of experienced mentors helps avoid common career pitfalls.",
+    "taExample": "அனுபவம் வாய்ந்த வழிகாட்டிகளின் ஞானத்தைத் தேடுவது பொதுவான வாழ்க்கை அறிவுக் குழிகளைத் தவிர்க்க உதவுகிறது.",
+    "enExample2": "Bedtime stories often convey timeless moral wisdom in fun ways for kids.",
+    "taExample2": "படுக்கை நேரக் கதைகள் பெரும்பாலும் குழந்தைகளுக்கு வேடிக்கையான வழிகளில் காலமற்ற தர்ம ஞானத்தைத் தெரிவிக்கின்றன.",
+    "synonyms": [
+      "Insight",
+      "Sagacity",
+      "Judiciousness",
+      "Prudence"
+    ],
+    "antonyms": [
+      "Foolishness",
+      "Folly",
+      "Ignorance",
+      "Stupidity"
+    ]
+  },
+  {
+    "id": 3657,
+    "word": "Work ethic",
+    "pos": "noun",
+    "definition": "The principle that hard work and diligence are intrinsically virtuous and deserving of respect.",
+    "taWord": "தொழில் தர்மம் / உழைப்பு நெறிமுறை",
+    "enExample": "Her strong work ethic and attention to quality earned her a rapid promotion.",
+    "taExample": "அவரது வலுவான உழைப்பு நெறிமுறையும் தரத்தில் கவனமும் அவருக்கு விரைவான உயர்வைப் பெற்றுத் தந்தன.",
+    "enExample2": "Modeling a healthy work ethic teaches children the value of perseverance.",
+    "taExample2": "ஆரோக்கியமான உழைப்பு நெறிமுறையை முன்மாதிரியாகக் காட்டுவது குழந்தைகளுக்கு விடாமுயற்சியின் மதிப்பை கற்பிக்கிறது.",
+    "synonyms": [
+      "Industriousness",
+      "Diligence",
+      "Dedication",
+      "Commitment"
+    ],
+    "antonyms": [
+      "Laziness",
+      "Sloth",
+      "Negligence"
+    ]
+  },
+  {
+    "id": 3696,
+    "word": "Warmhearted",
+    "pos": "adjective",
+    "definition": "Sympathetic, kind, friendly, and affectionate in nature toward everyone.",
+    "taWord": "அன்பான இரக்கமுள்ள / நன்னெஞ்சம் கொண்ட",
+    "enExample": "Our office manager is a warmhearted person who remembers everyone's birthday.",
+    "taExample": "எங்கள் அலுவலக மேலாளர் அனைவரின் பிறந்தநாளையும் நினைவில் வைத்திருக்கும் ஒரு அன்பான நன்னெஞ்சம் கொண்ட நபர்.",
+    "enExample2": "A warmhearted neighbor welcomed the new family with a batch of fresh cookies.",
+    "taExample2": "ஒரு அன்பான நன்னெஞ்சம் கொண்ட அண்டை வீட்டார் புதிய குடும்பத்தை புதிய குக்கீஸ்களுடன் வரவேற்றார்.",
+    "synonyms": [
+      "Kindhearted",
+      "Affectionate",
+      "Generous",
+      "Cordial"
+    ],
+    "antonyms": [
+      "Coldhearted",
+      "Unfriendly",
+      "Cruel",
+      "Callous"
+    ]
+  },
+  {
+    "id": 3697,
+    "word": "Well-being",
+    "pos": "noun",
+    "definition": "The state of being comfortable, healthy, happy, and thriving physically and mentally.",
+    "taWord": "நல்வாழ்வு / க்ஷேமம்",
+    "enExample": "Promoting work-life balance is essential for the long-term well-being of developers.",
+    "taExample": "டெவலப்பர்களின் நீண்டகால நல்வாழ்வுக்கு வேலை-வாழ்க்கை சமநிலையை ஊக்குவிப்பது அவசியமாகும்.",
+    "enExample2": "Nutritious meals and plenty of sleep are vital for a child's overall growth and well-being.",
+    "taExample2": "சத்தான உணவுகளும் போதுமான தூக்கமும் குழந்தையின் ஒட்டுமொத்த வளர்ச்சிக்கும் நல்வாழ்வுக்கும் முக்கியம்.",
+    "synonyms": [
+      "Health",
+      "Welfare",
+      "Happiness",
+      "Prosperity"
+    ],
+    "antonyms": [
+      "Misery",
+      "Suffering",
+      "Ill-health"
+    ]
+  },
+  {
+    "id": 3698,
+    "word": "Wholesome",
+    "pos": "adjective",
+    "definition": "Conducive to or suggestive of good health, physical safety, or moral well-being.",
+    "taWord": "ஆரோக்கியமான / மனத்திற்கும் உடலிற்கும் உகந்த",
+    "enExample": "The team organized a wholesome weekend hiking trip to recharge together.",
+    "taExample": "ஒன்றாகப் புத்துணர்ச்சி பெற குழு ஒரு ஆரோக்கியமான வார இறுதி நடைபயணத்தை ஏற்பாடு செய்தது.",
+    "enExample2": "Reading wholesome books inspires positive values and kindness in children.",
+    "taExample2": "ஆரோக்கியமான புத்தகங்களை வாசிப்பது குழந்தைகளில் நேர்மறை மதிப்பீடுகளையும் கனிவையும் தூண்டுகிறது.",
+    "synonyms": [
+      "Healthy",
+      "Nourishing",
+      "Salubrious",
+      "Beneficial"
+    ],
+    "antonyms": [
+      "Unwholesome",
+      "Unhealthy",
+      "Harmful",
+      "Toxic"
+    ]
   }
 ]

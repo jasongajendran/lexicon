@@ -2860,5 +2860,325 @@
     ],
     "enExample2": "Continuous deployment practices reduced our team's cycle time from two weeks down to under an hour.",
     "taExample2": "தொடர் வெளியீட்டு நடைமுறைகள் எங்கள் குழுவின் பணி நிறைவு சுழற்சி நேரத்தை இரண்டு வாரங்களிலிருந்து ஒரு மணி நேரமாகக் குறைத்தன."
+  },
+  {
+    "id": 3606,
+    "word": "Candid",
+    "pos": "adjective",
+    "definition": "Truthful and straightforward; frank, honest, and unreserved in discussion.",
+    "taWord": "வெளிப்படையான / நேர்மையான",
+    "enExample": "We had a candid conversation about workload balance and agreed to adjust our timelines.",
+    "taExample": "பணிச்சுமை சமநிலை குறித்து நாங்கள் வெளிப்படையாகப் பேசி, எங்கள் காலக்கெடுவை மாற்றி அமைக்க ஒப்புக்கொண்டோம்.",
+    "enExample2": "Kids often offer refreshing, candid answers when you ask for their opinion.",
+    "taExample2": "குழந்தைகளிடம் கருத்து கேட்கும் போது அவர்கள் பெரும்பாலும் நேர்மையான வெளிப்படையான பதில்களை வழங்குவார்கள்.",
+    "synonyms": [
+      "Frank",
+      "Direct",
+      "Honest",
+      "Straightforward"
+    ],
+    "antonyms": [
+      "Secretive",
+      "Evasive",
+      "Deceitful",
+      "Guarded"
+    ]
+  },
+  {
+    "id": 3607,
+    "word": "Coherent",
+    "pos": "adjective",
+    "definition": "Logical and consistent; easy to follow and understand clearly.",
+    "taWord": "தர்க்கரீதியான / தெளிவான தொடர்புடைய",
+    "enExample": "Please organize your project proposal into a coherent plan with clear action steps.",
+    "taExample": "உங்கள் திட்ட முன்மொழிவை தெளிவான நடவடிக்கை படிகளுடன் கூடிய தர்க்கரீதியான திட்டமாக ஒழுங்கமைக்கவும்.",
+    "enExample2": "When explaining rules to children, keep your sentences short and coherent.",
+    "taExample2": "குழந்தைகளுக்கு விதிகளை விளக்கும் போது, உங்கள் வாக்கியங்களைச் சுருக்கமாகவும் தெளிவாகவும் வைத்திருங்கள்.",
+    "synonyms": [
+      "Logical",
+      "Lucid",
+      "Consistent",
+      "Structured"
+    ],
+    "antonyms": [
+      "Incoherent",
+      "Confused",
+      "Disjointed",
+      "Chaotic"
+    ]
+  },
+  {
+    "id": 3608,
+    "word": "Collaboration",
+    "pos": "noun",
+    "definition": "The action of working together with someone or a group to achieve something creative or useful.",
+    "taWord": "கூட்டு உழைப்பு / சேர்ந்து பணியாற்றுதல்",
+    "enExample": "Successful collaboration between design and development teams creates smooth user experiences.",
+    "taExample": "வடிவமைப்பு மற்றும் உருவாக்கக் குழுக்களுக்கு இடையிலான வெற்றிகரமான கூட்டு உழைப்பு மென்மையான பயனர் அனுபவங்களை உருவாக்குகிறது.",
+    "enExample2": "Group school projects teach kids the importance of teamwork and friendly collaboration.",
+    "taExample2": "பள்ளி குழுத் திட்டங்கள் குழந்தைகளுக்கு குழுப்பணி மற்றும் நட்புரீதியான கூட்டு உழைப்பின் முக்கியத்துவத்தைக் கற்பிக்கின்றன.",
+    "synonyms": [
+      "Teamwork",
+      "Partnership",
+      "Cooperation",
+      "Alliance"
+    ],
+    "antonyms": [
+      "Isolation",
+      "Competition",
+      "Division",
+      "Conflict"
+    ]
+  },
+  {
+    "id": 3609,
+    "word": "Commendable",
+    "pos": "adjective",
+    "definition": "Deserving praise, approval, or formal recognition for effort or behavior.",
+    "taWord": "பாராட்டுக்குரிய / மெச்சத்தக்க",
+    "enExample": "Your dedication to finishing the report ahead of schedule is truly commendable.",
+    "taExample": "அறிக்கையை திட்டமிட்ட நேரத்திற்கு முன்பே முடிப்பதில் உங்களுக்கான அர்ப்பணிப்பு உண்மையிலேயே பாராட்டுக்குரியது.",
+    "enExample2": "The child showed commendable honesty by returning the misplaced toy to his friend.",
+    "taExample2": "தவறிப்போன பொம்மையை நண்பனிடம் திருப்பித் தந்ததன் மூலம் குழந்தை மெச்சத்தக்க நேர்மையை வெளிப்படுத்தினான்.",
+    "synonyms": [
+      "Praiseworthy",
+      "Admirable",
+      "Laudable",
+      "Meritorious"
+    ],
+    "antonyms": [
+      "Blameworthy",
+      "Disgraceful",
+      "Deplorable",
+      "Censurable"
+    ]
+  },
+  {
+    "id": 3610,
+    "word": "Compassionate",
+    "pos": "adjective",
+    "definition": "Feeling or showing sympathy and genuine concern for others who are suffering or in difficulty.",
+    "taWord": "கருணை உள்ளம் கொண்ட / இரக்கமுள்ள",
+    "enExample": "A compassionate leader listens attentively when an employee is going through a personal crisis.",
+    "taExample": "ஒரு ஊழியர் தனிப்பட்ட நெருக்கடியைச் சந்திக்கும் போது கருணை உள்ளம் கொண்ட தலைவர் கவனமாகக் கேட்கிறார்.",
+    "enExample2": "Parents model compassionate behavior when they care for sick neighbors or animals.",
+    "taExample2": "நோயுற்ற அண்டை வீட்டாரையோ அல்லது விலங்குகளையோ பராமரிக்கும் போது பெற்றோர்கள் கருணையுள்ள நடந்து கொள்ளுதலை முன்மாதிரியாகக் காட்டுகிறார்கள்.",
+    "synonyms": [
+      "Sympathetic",
+      "Caring",
+      "Kindhearted",
+      "Empathetic"
+    ],
+    "antonyms": [
+      "Callous",
+      "Unfeeling",
+      "Cruel",
+      "Indifferent"
+    ]
+  },
+  {
+    "id": 3611,
+    "word": "Concise",
+    "pos": "adjective",
+    "definition": "Giving a lot of information clearly and in a few words; brief, complete, and to the point.",
+    "taWord": "சுருக்கமான மற்றும் தெளிவான",
+    "enExample": "Keep your update emails concise so busy colleagues can digest the key points quickly.",
+    "taExample": "உங்கள் மின்னஞ்சல்களைச் சுருக்கமாகவும் தெளிவாகவும் வைத்திருங்கள், இதனால் பிஸியான சக ஊழியர்கள் முக்கிய புள்ளிகளை விரைவாகப் புரிந்துகொள்ள முடியும்.",
+    "enExample2": "Give concise instructions when assigning household chores to young kids.",
+    "taExample2": "சிறிய குழந்தைகளுக்கு வீட்டு வேலைகளை ஒதுக்கும் போது சுருக்கமான வழிமுறைகளை வழங்கிடுங்கள்.",
+    "synonyms": [
+      "Succinct",
+      "Brief",
+      "Compact",
+      "To-the-point"
+    ],
+    "antonyms": [
+      "Wordy",
+      "Verbose",
+      "Lengthy",
+      "Rambling"
+    ]
+  },
+  {
+    "id": 3612,
+    "word": "Conscientious",
+    "pos": "adjective",
+    "definition": "Wishing to do one's work or duty well and thoroughly; careful and painstaking.",
+    "taWord": "மனசாட்சிக்குக் கட்டுப்பட்டு நடக்கும் / பொறுப்புணர்வுள்ள",
+    "enExample": "Our team relies on conscientious engineers who thoroughly test code before shipping.",
+    "taExample": "நிரல்களை வெளியிடுவதற்கு முன் முழுமையாகச் சோதிக்கும் பொறுப்புணர்வுள்ள பொறியாளர்களை எங்கள் குழு நம்பியுள்ளது.",
+    "enExample2": "He is a conscientious student who takes pride in completing his homework accurately.",
+    "taExample2": "அவன் தன் வீட்டுப்பாடத்தை துல்லியமாக முடிப்பதில் பெருமை கொள்ளும் ஒரு பொறுப்புணர்வுள்ள மாணவன்.",
+    "synonyms": [
+      "Diligent",
+      "Thorough",
+      "Meticulous",
+      "Painstaking"
+    ],
+    "antonyms": [
+      "Careless",
+      "Negligent",
+      "Irresponsible",
+      "Slack"
+    ]
+  },
+  {
+    "id": 3613,
+    "word": "Considerate",
+    "pos": "adjective",
+    "definition": "Careful not to cause inconvenience, hurt, or disruption to others; thoughtful of feelings.",
+    "taWord": "பிறர் நலனில் அக்கறையுள்ள / கனிவான",
+    "enExample": "It was very considerate of you to hold the elevator door for everyone carrying heavy boxes.",
+    "taExample": "கனமான பெட்டிகளை ஏந்திச் செல்பவர்களுக்கு மின்தூக்கி கதவைப் பிடித்துக் கொண்டது நீங்கள் பிறர் நலனில் காட்டிய கனிவான செயலாகும்.",
+    "enExample2": "We teach children to be considerate by lowering their voice while others are resting.",
+    "taExample2": "மற்றவர்கள் ஓய்வெடுக்கும் போது குரலைக் குறைத்து பேசுவதன் மூலம் பிறர் நலனில் அக்கறையுடன் இருக்க குழந்தைகளுக்குக் கற்பிக்கிறோம்.",
+    "synonyms": [
+      "Thoughtful",
+      "Polite",
+      "Attentive",
+      "Kind"
+    ],
+    "antonyms": [
+      "Inconsiderate",
+      "Selfish",
+      "Rude",
+      "Thoughtless"
+    ]
+  },
+  {
+    "id": 3614,
+    "word": "Constructive",
+    "pos": "adjective",
+    "definition": "Serving a useful purpose; tending to build up, encourage, or improve rather than criticize harshly.",
+    "taWord": "ஆக்கப்பூர்வமான / வளர்ச்சிக்கு உதவும்",
+    "enExample": "Instead of blaming team members, the manager offered constructive feedback on how to improve.",
+    "taExample": "குழு உறுப்பினர்களைக் குற்றம் சாட்டுவதற்குப் பதிலாக, எவ்வாறு மேம்படுத்துவது என்பது குறித்து மேலாளர் ஆக்கப்பூர்வமான கருத்துக்களை வழங்கினார்.",
+    "enExample2": "Parents should provide constructive advice when helping kids learn from their mistakes.",
+    "taExample2": "குழந்தைகள் தங்களின் தவறுகளிலிருந்து கற்றுக்கொள்ள உதவும் போது பெற்றோர்கள் ஆக்கப்பூர்வமான ஆலோசனைகளை வழங்க வேண்டும்.",
+    "synonyms": [
+      "Helpful",
+      "Productive",
+      "Useful",
+      "Positive"
+    ],
+    "antonyms": [
+      "Destructive",
+      "Unhelpful",
+      "Negative",
+      "Damaging"
+    ]
+  },
+  {
+    "id": 3664,
+    "word": "Composure",
+    "pos": "noun",
+    "definition": "The state or feeling of being calm, composed, and in control of oneself during stress.",
+    "taWord": "மன அமைதி / சுய கட்டுப்பாடு",
+    "enExample": "Maintaining your composure under pressure shows maturity and strong leadership.",
+    "taExample": "அழுத்தத்தின் கீழ் உங்கள் மன அமைதியைப் பேணுவது முதிர்ச்சியையும் வலுவான தலைமைத்துவத்தையும் காட்டுகிறது.",
+    "enExample2": "She regained her composure quickly after spilling water on her desk during the meeting.",
+    "taExample2": "கூட்டத்தின் போது தனது மேஜையில் தண்ணீரைக் கொட்டிய பிறகு அவள் விரைவாகத் தன் மன அமைதியை மீட்டெடுத்தாள்.",
+    "synonyms": [
+      "Calmness",
+      "Poise",
+      "Equanimity",
+      "Self-control"
+    ],
+    "antonyms": [
+      "Agitation",
+      "Panic",
+      "Discomposure",
+      "Distress"
+    ]
+  },
+  {
+    "id": 3665,
+    "word": "Comprehend",
+    "pos": "verb",
+    "definition": "To grasp mentally; understand fully and clearly.",
+    "taWord": "முழுமையாகப் புரிந்துகொள்ளுதல்",
+    "enExample": "Reading the documentation thoroughly helped me comprehend the new architecture in depth.",
+    "taExample": "ஆவணங்களை முழுமையாகப் படிப்பது புதிய கட்டமைப்பை ஆழமாகப் புரிந்துகொள்ள எனக்கு உதவியது.",
+    "enExample2": "It takes time for young children to comprehend abstract concepts like time management.",
+    "taExample2": "சிறிய குழந்தைகள் நேர மேலாண்மை போன்ற அருவக் கருத்துக்களை முழுமையாகப் புரிந்துகொள்ள நேரம் எடுக்கும்.",
+    "synonyms": [
+      "Understand",
+      "Grasp",
+      "Fathom",
+      "Apprehend"
+    ],
+    "antonyms": [
+      "Misunderstand",
+      "Misinterpret",
+      "Fail to grasp"
+    ]
+  },
+  {
+    "id": 3666,
+    "word": "Condescending",
+    "pos": "adjective",
+    "definition": "Showing or implying a patronizing attitude of superiority toward others.",
+    "taWord": "இழிவுபடுத்தும் உயர்வு மனப்பான்மை கொண்ட",
+    "enExample": "Avoid using a condescending tone when explaining technical terms to non-technical staff.",
+    "taExample": "தொழில்நுட்பம் சாராத ஊழியர்களுக்குத் தொழில்நுட்பச் சொற்களை விளக்கும் போது இழிவுபடுத்தும் உயர்வு மனப்பான்மை தொனியைத் தவிர்க்கவும்.",
+    "enExample2": "Children dislike being spoken to in a condescending manner and prefer straightforward talk.",
+    "taExample2": "குழந்தைகள் இழிவுபடுத்தும் உயர்வு மனப்பான்மையுடன் பேசுவதை விரும்புவதில்லை, நேரடிப் பேச்சையே விரும்புகிறார்கள்.",
+    "synonyms": [
+      "Patronizing",
+      "Snobbish",
+      "Arrogant",
+      "Disdainful"
+    ],
+    "antonyms": [
+      "Humble",
+      "Respectful",
+      "Modest",
+      "Deferential"
+    ]
+  },
+  {
+    "id": 3667,
+    "word": "Cordial",
+    "pos": "adjective",
+    "definition": "Warm, friendly, polite, and welcoming in social or workplace interactions.",
+    "taWord": "நட்பார்ந்த / கனிவான வரவேற்புள்ள",
+    "enExample": "They maintained a cordial relationship even after moving to different project teams.",
+    "taExample": "வெவ்வேறு திட்டக் குழுக்களுக்கு மாறிய பிறகும் அவர்கள் ஒரு நட்பார்ந்த உறவைப் பேணினார்கள்.",
+    "enExample2": "A cordial welcome at the door makes guests feel instantly comfortable.",
+    "taExample2": "வாசல் கதவில் ஒரு கனிவான வரவேற்பு விருந்தினர்களை உடனடியாக வசதியாக உணர வைக்கிறது.",
+    "synonyms": [
+      "Friendly",
+      "Warm",
+      "Affable",
+      "Genial"
+    ],
+    "antonyms": [
+      "Cold",
+      "Hostile",
+      "Unfriendly",
+      "Distant"
+    ]
+  },
+  {
+    "id": 3668,
+    "word": "Curiosity",
+    "pos": "noun",
+    "definition": "A strong desire to know, learn, or understand something new.",
+    "taWord": "அறியும் ஆர்வம் / சுவாரஸ்யத் தேடல்",
+    "enExample": "Fostering curiosity in software engineering leads to continuous innovation.",
+    "taExample": "மென்பொருள் பொறியியலில் அறியும் ஆர்வத்தை வளர்ப்பது தொடர்ச்சியான புத்தாக்கத்திற்கு வழிவகுக்கிறது.",
+    "enExample2": "Encourage your child's natural curiosity by answering their everyday questions patiently.",
+    "taExample2": "குழந்தைகளின் அன்றாட கேள்விகளுக்கு பொறுமையுடன் பதிலளிப்பதன் மூலம் அவர்களின் இயல்பான அறியும் ஆர்வத்தை ஊக்குவிக்கவும்.",
+    "synonyms": [
+      "Inquisitiveness",
+      "Interest",
+      "Eagerness",
+      "Wonder"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Indifference",
+      "Disinterest"
+    ]
   }
 ]

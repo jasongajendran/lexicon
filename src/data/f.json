@@ -1195,5 +1195,50 @@
     ],
     "enExample2": "The search bar utilizes fuzzy matching algorithms to return accurate results even with misspelled keywords.",
     "taExample2": "எழுத்துப் பிழைகள் இருந்தாலும் துல்லியமான முடிவுகளை வழங்க தேடல் பட்டி தோராயப் பொருத்த (Fuzzy Matching) வழிமுறைகளைப் பயன்படுத்துகிறது."
+  },
+  {
+    "id": 3673,
+    "word": "Frank",
+    "pos": "adjective",
+    "definition": "Open, honest, direct, and straightforward in speech or writing.",
+    "taWord": "நேரடியான வெளிப்படையான",
+    "enExample": "During the retrospective, we had a frank discussion about what went wrong.",
+    "taExample": "கடந்த கால பரிசீலனையின் போது, என்ன தவறு நடந்தது என்பதைப் பற்றி நாங்கள் ஒரு நேரடியான வெளிப்படையான விவாதத்தைக் கொண்டிருந்தோம்.",
+    "enExample2": "His frank advice helped his friend make a wise career choice.",
+    "taExample2": "அவரது நேரடியான வெளிப்படையான ஆலோசனை அவரது நண்பருக்கு ஒரு விவேகமான வாழ்க்கை முறைத் தேர்வைச் செய்ய உதவியது.",
+    "synonyms": [
+      "Candid",
+      "Direct",
+      "Honest",
+      "Straightforward"
+    ],
+    "antonyms": [
+      "Evasive",
+      "Secretive",
+      "Insincere"
+    ]
+  },
+  {
+    "id": 3674,
+    "word": "Frugal",
+    "pos": "adjective",
+    "definition": "Sparing, economical, or simple regarding expenditure of money or resources.",
+    "taWord": "சிக்கனமான / எளிய சேமிப்புப் பழக்கமுள்ள",
+    "enExample": "Adopting frugal cloud hosting habits saved our startup thousands of dollars monthly.",
+    "taExample": "சிக்கனமான கிளவுட் ஹோஸ்டிங் பழக்கங்களைக் கையாள்வது நமது ஸ்டார்ட்அப்பிற்கு மாதந்தோறும் ஆயிரக்கணக்கான டாலர்களை மிச்சப்படுத்தியது.",
+    "enExample2": "Teaching kids to be frugal with pocket money lays a strong foundation for financial wisdom.",
+    "taExample2": "குழந்தைகளுக்குக் கைச்செலவுப் பணத்தில் சிக்கனமாக இருக்கக் கற்பிப்பது நிதி ஞானத்திற்கு வலுவான அடித்தளமிடுகிறது.",
+    "synonyms": [
+      "Thrifty",
+      "Economical",
+      "Prudent",
+      "Sparing"
+    ],
+    "antonyms": [
+      "Extravagant",
+      "Wasteful",
+      "Prodigal",
+      "Spendthrift"
+    ]
   }
 ]

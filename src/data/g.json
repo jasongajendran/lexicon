@@ -1082,5 +1082,73 @@
       "elated",
       "thrilled"
     ]
+  },
+  {
+    "id": 3620,
+    "word": "Guidance",
+    "pos": "noun",
+    "definition": "Advice, instruction, or direction given by a knowledgeable person to resolve a problem or learn.",
+    "taWord": "வழிநடத்துதல் / ஆலோசனைகள்",
+    "enExample": "With proper guidance from senior staff, junior engineers quickly master complex tools.",
+    "taExample": "மூத்த ஊழியர்களின் சரியான வழிநடத்துதலுடன், ஜூனியர் பொறியாளர்கள் சிக்கலான கருவிகளை விரைவாகக் கற்றுக்கொள்கிறார்கள்.",
+    "enExample2": "Children need gentle guidance rather than strict punishment when they make mistakes.",
+    "taExample2": "குழந்தைகள் தவறு செய்யும் போது கடுமையான தண்டனையை விட மென்மையான வழிநடத்துதலே தேவைப்படுகிறது.",
+    "synonyms": [
+      "Direction",
+      "Advice",
+      "Counsel",
+      "Instruction"
+    ],
+    "antonyms": [
+      "Misdirection",
+      "Neglect",
+      "Abandonment"
+    ]
+  },
+  {
+    "id": 3675,
+    "word": "Generosity",
+    "pos": "noun",
+    "definition": "The quality of being kind, openhearted, and willing to share time, money, or help.",
+    "taWord": "தாராள மனம் / கொடைக்குணம்",
+    "enExample": "Her generosity in mentoring junior team members earned deep respect across the department.",
+    "taExample": "ஜூனியர் குழு உறுப்பினர்களுக்கு வழிகாட்டுவதில் அவளது தாராள மனம் துறை முழுவதும் ஆழமான மரியாதையைப் பெற்றது.",
+    "enExample2": "Children learn generosity by sharing toys with friends during playdates.",
+    "taExample2": "விளையாடும் போது நண்பர்களுடன் பொம்மைகளைப் பகிர்வதன் மூலம் குழந்தைகள் தாராள மனதைக் கற்றுக்கொள்கிறார்கள்.",
+    "synonyms": [
+      "Kindness",
+      "Openhandedness",
+      "Altruism",
+      "Bigheartedness"
+    ],
+    "antonyms": [
+      "Selfishness",
+      "Stinginess",
+      "Meanness",
+      "Greed"
+    ]
+  },
+  {
+    "id": 3676,
+    "word": "Gracious",
+    "pos": "adjective",
+    "definition": "Courteous, kind, pleasant, and respectful in behavior, especially toward guests.",
+    "taWord": "கனிவான நாகரீகமுள்ள / பெருந்தன்மையான",
+    "enExample": "He was a gracious host who ensured every team member felt comfortable and included.",
+    "taExample": "ஒவ்வொரு குழு உறுப்பினரும் வசதியாகவும் சேர்க்கப்பட்டதாகவும் உணர்வதை உறுதி செய்த ஒரு பெருந்தன்மையான உபசரிப்பாளர் அவர்.",
+    "enExample2": "Accepting second place with a gracious smile shows true sportsmanship.",
+    "taExample2": "ஒரு பெருந்தன்மையான புன்னகையுடன் இரண்டாம் இடத்தை ஏற்றுக்கொள்வது உண்மையான விளையாட்டுத்தன்மையைக் காட்டுகிறது.",
+    "synonyms": [
+      "Courteous",
+      "Polite",
+      "Kind",
+      "Genial"
+    ],
+    "antonyms": [
+      "Ungracious",
+      "Rude",
+      "Churlish",
+      "Impolite"
+    ]
   }
 ]

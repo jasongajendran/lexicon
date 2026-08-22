@@ -2624,5 +2624,209 @@
     ],
     "enExample2": "The recurring outages were caused by systemic architectural flaws rather than individual developer mistakes.",
     "taExample2": "தொடர் முடக்கங்கள் தனிப்பட்ட உருவாக்குநர்களின் தவறுகளால் அல்லாமல் அமைப்பு ரீதியான (Systemic) கட்டமைப்பு குறைபாடுகளாலேயே ஏற்பட்டன."
+  },
+  {
+    "id": 3640,
+    "word": "Sincere",
+    "pos": "adjective",
+    "definition": "Free from pretense or deceit; proceeding from genuine, honest feelings.",
+    "taWord": "உண்மையான / மனமார்ந்த",
+    "enExample": "Offer a sincere apology when a mistake impacts a team member's progress.",
+    "taExample": "ஒரு தவறு சக ஊழியரின் முன்னேற்றத்தைப் பாதிக்கும் போது மனமார்ந்த மன்னிப்பை வழங்குங்கள்.",
+    "enExample2": "Children appreciate sincere compliments far more than vague generic praise.",
+    "taExample2": "குழந்தைகள் தெளிவற்ற பொதுவான பாராட்டுகளை விட மனமார்ந்த பாராட்டுகளை அதிகம் ரசிக்கிறார்கள்.",
+    "synonyms": [
+      "Genuine",
+      "Honest",
+      "Heartfelt",
+      "Frank"
+    ],
+    "antonyms": [
+      "Insincere",
+      "Fake",
+      "Hypocritical",
+      "Dishonest"
+    ]
+  },
+  {
+    "id": 3641,
+    "word": "Spontaneous",
+    "pos": "adjective",
+    "definition": "Performed or occurring as a result of a sudden inner impulse without premeditation.",
+    "taWord": "திடீரென இயல்பாக நிகழும் / தன்னிச்சையான",
+    "enExample": "A spontaneous round of applause erupted across the office after the successful launch.",
+    "taExample": "வெற்றிகரமான வெளியீட்டிற்குப் பிறகு அலுவலகம் முழுவதும் தன்னிச்சையான கரகோஷம் வெடித்தது.",
+    "enExample2": "Planning a spontaneous weekend picnic brings joy and laughter to the family.",
+    "taExample2": "திடீரென இயல்பாக ஒரு வார இறுதி பிக்னிக் திட்டமிடுவது குடும்பத்திற்கு மகிழ்ச்சியையும் சிரிப்பையும் தருகிறது.",
+    "synonyms": [
+      "Unplanned",
+      "Impulsive",
+      "Natural",
+      "Extemporaneous"
+    ],
+    "antonyms": [
+      "Planned",
+      "Calculated",
+      "Deliberate",
+      "Premeditated"
+    ]
+  },
+  {
+    "id": 3642,
+    "word": "Streamline",
+    "pos": "verb",
+    "definition": "To make an organization, process, or system more efficient and simpler by removing steps.",
+    "taWord": "எளிமைப்படுத்தி விரைவுபடுத்துதல் / சீரமைத்தல்",
+    "enExample": "We decided to streamline our code review process to release features faster.",
+    "taExample": "வசதிகளை வேகமாக வெளியிட நமது நிரல் பரிசீலனை செயல்பாட்டை எளிமைப்படுத்தி விரைவுபடுத்த முடிவு செய்தோம்.",
+    "enExample2": "Streamline morning routines by choosing school clothes the night before.",
+    "taExample2": "முந்தைய இரவே பள்ளி உடைகளைத் தேர்ந்தெடுப்பதன் மூலம் காலை வழக்கங்களை எளிமைப்படுத்தி விரைவுபடுத்துங்கள்.",
+    "synonyms": [
+      "Simplify",
+      "Optimize",
+      "Rationalize",
+      "Expedite"
+    ],
+    "antonyms": [
+      "Complicate",
+      "Encumber",
+      "Obstruct"
+    ]
+  },
+  {
+    "id": 3643,
+    "word": "Strive",
+    "pos": "verb",
+    "definition": "To make great efforts to achieve or obtain something worthwhile; struggle firmly.",
+    "taWord": "கடுமையாக முயலுதல் / பாடுபடுதல்",
+    "enExample": "Our engineering department continuously strives to deliver bug-free software.",
+    "taExample": "பிழையற்ற மென்பொருளை வழங்க நமது பொறியியல் துறை தொடர்ந்து கடுமையாக முயல்கிறது.",
+    "enExample2": "Encourage children to strive for improvement rather than worrying about perfect scores.",
+    "taExample2": "முழுமையான மதிப்பெண்களைப் பற்றி கவலைப்படுவதை விட முன்னேற்றத்திற்கு கடுமையாக முயல குழந்தைகளை ஊக்குவிக்கவும்.",
+    "synonyms": [
+      "Endeavor",
+      "Try hard",
+      "Labor",
+      "Work hard"
+    ],
+    "antonyms": [
+      "Give up",
+      "Neglect",
+      "Abandon",
+      "Slain"
+    ]
+  },
+  {
+    "id": 3644,
+    "word": "Subtle",
+    "pos": "adjective",
+    "definition": "So delicate, precise, or understated as to be difficult to analyze or describe easily.",
+    "taWord": "நுட்பமான / வெளிப்படையாகத் தெரியாத மென்மையான",
+    "enExample": "There was a subtle improvement in system responsiveness after clearing cache memory.",
+    "taExample": "நினைவகத்தைச் சுத்தப்படுத்திய பிறகு கணினி செயல்பாட்டில் ஒரு நுட்பமான முன்னேற்றம் இருந்தது.",
+    "enExample2": "Parental praise can have a subtle but profound positive impact on a child's confidence.",
+    "taExample2": "பெற்றோரின் பாராட்டு குழந்தையின் நம்பிக்கையில் ஒரு நுட்பமான ஆனால் ஆழ்ந்த நேர்மறையான தாக்கத்தை ஏற்படுத்தும்.",
+    "synonyms": [
+      "Delicate",
+      "Understated",
+      "Nuanced",
+      "Discreet"
+    ],
+    "antonyms": [
+      "Overt",
+      "Obvious",
+      "Blatant",
+      "Harsh"
+    ]
+  },
+  {
+    "id": 3645,
+    "word": "Sustainable",
+    "pos": "adjective",
+    "definition": "Able to be maintained at a healthy rate or level over time without causing burnout or exhaustion.",
+    "taWord": "நீடித்த நிலைத்திருக்கக்கூடிய",
+    "enExample": "Working reasonable hours ensures a sustainable long-term career in software development.",
+    "taExample": "நியாயமான நேரங்களில் பணிபுரிவது மென்பொருள் உருவாக்கத்தில் நீடித்த நிலைத்திருக்கக்கூடிய நீண்டகால வாழ்க்கையை உறுதி செய்கிறது.",
+    "enExample2": "Teaching children sustainable habits like saving water protects our planet's future.",
+    "taExample2": "தண்ணீரைச் சேமிப்பது போன்ற நீடித்த நிலைத்திருக்கக்கூடிய பழக்கங்களை குழந்தைகளுக்குக் கற்பிப்பது நமது கிரகத்தின் எதிர்காலத்தைப் பாதுகாக்கிறது.",
+    "synonyms": [
+      "Viable",
+      "Maintainable",
+      "Enduring",
+      "Feasible"
+    ],
+    "antonyms": [
+      "Unsustainable",
+      "Short-lived",
+      "Exhaustive"
+    ]
+  },
+  {
+    "id": 3691,
+    "word": "Self-control",
+    "pos": "noun",
+    "definition": "The ability to control one's emotions, desires, and actions, especially in difficult situations.",
+    "taWord": "சுய கட்டுப்பாடு / மன அடக்கம்",
+    "enExample": "Practicing self-control during high-stress deployments ensures accurate execution.",
+    "taExample": "அதிக மன அழுத்தப் பணிகளின் போது சுய கட்டுப்பாட்டைப் பயிற்சி செய்வது துல்லியமான செயல்பாட்டை உறுதி செய்கிறது.",
+    "enExample2": "Developing self-control helps children manage anger constructively.",
+    "taExample2": "சுய கட்டுப்பாட்டை வளர்ப்பது குழந்தைகள் கோபத்தை ஆக்கப்பூர்வமாக நிர்வகிக்க உதவுகிறது.",
+    "synonyms": [
+      "Willpower",
+      "Restraint",
+      "Discipline",
+      "Self-restraint"
+    ],
+    "antonyms": [
+      "Impulsiveness",
+      "Self-indulgence",
+      "Unrestraint"
+    ]
+  },
+  {
+    "id": 3692,
+    "word": "Sincerity",
+    "pos": "noun",
+    "definition": "The quality of being free from pretense, deceit, or hypocrisy; genuine intent.",
+    "taWord": "மனமார்ந்த நேர்மை / உண்மைத் தன்மை",
+    "enExample": "The sincerity of her apology cleared all misunderstandings among team members.",
+    "taExample": "அவளது மன்னிப்பின் மனமார்ந்த நேர்மை குழு உறுப்பினர்களிடையே இருந்த அனைத்து தவறான புரிதல்களையும் நீக்கியது.",
+    "enExample2": "Children respond warmly to sincerity and quickly spot fake praise.",
+    "taExample2": "குழந்தைகள் மனமார்ந்த நேர்மைக்கு வெதுவெதுப்பாகப் பதிலளிக்கிறார்கள் மற்றும் போலி பாராட்டுகளை விரைவாகக் கண்டுபிடிக்கிறார்கள்.",
+    "synonyms": [
+      "Genuineness",
+      "Honesty",
+      "Candor",
+      "Truthfulness"
+    ],
+    "antonyms": [
+      "Insincerity",
+      "Deceit",
+      "Hypocrisy",
+      "Duplicity"
+    ]
+  },
+  {
+    "id": 3693,
+    "word": "Sympathy",
+    "pos": "noun",
+    "definition": "Feelings of pity, sorrow, or understanding for someone else's misfortune or difficulty.",
+    "taWord": "அனுதாபம் / இரக்கம்",
+    "enExample": "The team expressed deep sympathy and offered support when a colleague lost a family member.",
+    "taExample": "ஒரு சக ஊழியர் குடும்ப உறுப்பினரை இழந்த போது குழு ஆழமான அனுதாபத்தை வெளிப்படுத்தி ஆதரவை வழங்கியது.",
+    "enExample2": "Teaching children sympathy encourages them to comfort crying playmates.",
+    "taExample2": "குழந்தைகளுக்கு அனுதாபத்தைக் கற்பிப்பது அழும் விளையாட்டுத் தோழர்களைத் தேற்ற அவர்களை ஊக்குவிக்கிறது.",
+    "synonyms": [
+      "Compassion",
+      "Empathy",
+      "Condolence",
+      "Pity"
+    ],
+    "antonyms": [
+      "Callousness",
+      "Indifference",
+      "Apathy",
+      "Cruelty"
+    ]
   }
 ]

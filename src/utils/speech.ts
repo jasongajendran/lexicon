@@ -130,14 +130,23 @@ export function speakWord(
   try {
     window.speechSynthesis.cancel();
 
-    // Clean text (remove special characters or markdown quotes)
-    const cleanText = text.replace(/["'\[\]()\/]/g, ' ').trim();
+    // Clean text: strip Tamil unicode range (\u0B80-\u0BFF) so TTS reads English text alone
+    const englishOnlyText = text
+      .replace(/[\u0B80-\u0BFF]/g, '')
+      .replace(/["'\[\]()\/]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (!englishOnlyText) {
+      if (onError) onError();
+      return;
+    }
 
     // Fetch fresh voices if cachedVoices is empty
     const freshVoices = window.speechSynthesis.getVoices();
     const voices = freshVoices.length > 0 ? freshVoices : cachedVoices;
 
-    const utterance = new SpeechSynthesisUtterance(cleanText);
+    const utterance = new SpeechSynthesisUtterance(englishOnlyText);
     utterance.lang = 'en-GB';
     
     // Higher pitch (1.25) gives a distinctly young female vocal timber

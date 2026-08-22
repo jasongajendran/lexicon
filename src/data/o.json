@@ -1019,5 +1019,96 @@
       "Redundancy",
       "Literal harmony"
     ]
+  },
+  {
+    "id": 3625,
+    "word": "Objective",
+    "pos": "adjective",
+    "definition": "Not influenced by personal feelings, biases, or opinions when considering and representing facts.",
+    "taWord": "உண்மைநிலை சார்ந்த / நடுநிலையான அணுகுமுறை",
+    "enExample": "Engineers rely on objective benchmark test data to select the fastest server option.",
+    "taExample": "வேகமான சர்வர் விருப்பத்தைத் தேர்ந்தெடுக்க பொறியாளர்கள் உண்மைநிலை சார்ந்த ஒப்பீட்டு சோதனைத் தரவை நம்பியுள்ளனர்.",
+    "enExample2": "Try to stay objective when hearing both sides of an argument between kids.",
+    "taExample2": "குழந்தைகளுக்கு இடையிலான விவாதத்தின் இரு பக்கங்களையும் கேட்கும் போது நடுநிலையாக இருக்க முயலுங்கள்.",
+    "synonyms": [
+      "Impartial",
+      "Unbiased",
+      "Fair",
+      "Neutral"
+    ],
+    "antonyms": [
+      "Subjective",
+      "Biased",
+      "Partial",
+      "Prejudiced"
+    ]
+  },
+  {
+    "id": 3626,
+    "word": "Obligation",
+    "pos": "noun",
+    "definition": "A duty or commitment to which a person is bound by moral responsibility or agreement.",
+    "taWord": "கடமை / கட்டாயப் பொறுப்பு",
+    "enExample": "Team members fulfill their obligations by completing assigned deliverables on schedule.",
+    "taExample": "ஒதுக்கப்பட்டப் பணிகளை அட்டவணைப்படி முடிப்பதன் மூலம் குழு உறுப்பினர்கள் தங்கள் கடமைகளை நிறைவேற்றுகிறார்கள்.",
+    "enExample2": "Parents have a moral obligation to provide a safe, loving environment for their children.",
+    "taExample2": "பெற்றோர்கள் தங்கள் குழந்தைகளுக்கு பாதுகாப்பான, அன்பான சூழலை வழங்க வேண்டிய தர்மக் கடமையைக் கொண்டுள்ளனர்.",
+    "synonyms": [
+      "Duty",
+      "Responsibility",
+      "Commitment",
+      "Requirement"
+    ],
+    "antonyms": [
+      "Choice",
+      "Option",
+      "Exemption"
+    ]
+  },
+  {
+    "id": 3627,
+    "word": "Optimism",
+    "pos": "noun",
+    "definition": "Hopefulness and confidence about the future or the successful outcome of something.",
+    "taWord": "நேர்மறை நம்பிக்கை / நன்னம்பிக்கை",
+    "enExample": "Her cheerful optimism lifted team morale during a demanding project deadline.",
+    "taExample": "அவளது மகிழ்ச்சியான நேர்மறை நம்பிக்கை ஒரு கோரப்படும் திட்ட காலக்கெடுவின் போது குழுவின் உற்சாகத்தை உயர்த்தியது.",
+    "enExample2": "Approaching new challenges with optimism gives children the courage to keep trying.",
+    "taExample2": "நேர்மறை நம்பிக்கையுடன் புதிய சவால்களை அணுகுவது குழந்தைகளுக்கு தொடர்ந்து முயற்சி செய்யும் தைரியத்தைத் தருகிறது.",
+    "synonyms": [
+      "Hopefulness",
+      "Positivity",
+      "Confidence",
+      "Buoyancy"
+    ],
+    "antonyms": [
+      "Pessimism",
+      "Gloom",
+      "Despair",
+      "Negativity"
+    ]
+  },
+  {
+    "id": 3684,
+    "word": "Open-minded",
+    "pos": "adjective",
+    "definition": "Willing to consider new ideas, perspectives, or feedback without prejudice.",
+    "taWord": "திறந்த மனதுள்ள / புதியக் கருத்துக்களை ஏற்கும்",
+    "enExample": "An open-minded manager welcomes suggestions from all team members regardless of rank.",
+    "taExample": "ஒரு திறந்த மனதுள்ள மேலாளர் பதவி நிலையைப் பொருட்படுத்தாமல் அனைத்து குழு உறுப்பினர்களிடமிருந்தும் பரிந்துரைகளை வரவேற்கிறார்.",
+    "enExample2": "Being open-minded helps children make friends with peers from diverse backgrounds.",
+    "taExample2": "திறந்த மனதுடன் இருப்பது குழந்தைகள் பல்வேறு பின்னணிகளைக் கொண்ட தோழர்களுடன் நட்பை உருவாக்க உதவுகிறது.",
+    "synonyms": [
+      "Receptive",
+      "Unbiased",
+      "Flexible",
+      "Tolerant"
+    ],
+    "antonyms": [
+      "Narrow-minded",
+      "Prejudiced",
+      "Rigid",
+      "Intolerant"
+    ]
   }
 ]

@@ -2206,5 +2206,139 @@
       "Elysium",
       "Ideal society"
     ]
+  },
+  {
+    "id": 3615,
+    "word": "Decisive",
+    "pos": "adjective",
+    "definition": "Settling an issue quickly and conclusively; having or showing the ability to make decisions promptly.",
+    "taWord": "உறுதியான முடிவெடுக்கும் திறன் கொண்ட",
+    "enExample": "Her decisive action during the server outage minimized downtime for all customers.",
+    "taExample": "சர்வர் செயலிழப்பின் போது அவள் எடுத்த உறுதியான நடவடிக்கை அனைத்து வாடிக்கையாளர்களுக்கும் செயலிழப்பு நேரத்தைக் குறைத்தது.",
+    "enExample2": "In times of uncertainty, children feel safer when parents are calm and decisive.",
+    "taExample2": "நிச்சயமற்ற காலங்களில், பெற்றோர்கள் அமைதியாகவும் உறுதியான முடிவெடுப்பவர்களாகவும் இருக்கும் போது குழந்தைகள் பாதுகாப்பாக உணர்கிறார்கள்.",
+    "synonyms": [
+      "Resolute",
+      "Firm",
+      "Determined",
+      "Definite"
+    ],
+    "antonyms": [
+      "Indecisive",
+      "Hesitant",
+      "Uncertain",
+      "Vacillating"
+    ]
+  },
+  {
+    "id": 3616,
+    "word": "Diplomatic",
+    "pos": "adjective",
+    "definition": "Having or showing skill and sensitivity in dealing with people, delicate issues, or disputes.",
+    "taWord": "சமரச அணுகுமுறை கொண்ட / தூதரக ரீதியான தந்திரமுள்ள",
+    "enExample": "She gave a diplomatic answer that eased the tension between the two conflicting departments.",
+    "taExample": "இரு மோதல் துறைகளுக்கு இடையே நிலவிய பதற்றத்தைத் தணிக்கும் சமரசப் பதிலை அவள் அளித்தாள்.",
+    "enExample2": "Parents need to be diplomatic when resolving disagreements between siblings fairly.",
+    "taExample2": "சகோதரிகளுக்கு இடையிலான கருத்து வேறுபாடுகளை நியாயமாகத் தீர்க்கும் போது பெற்றோர்கள் தூதரக ரீதியான அணுகுமுறையைக் கொண்டிருக்க வேண்டும்.",
+    "synonyms": [
+      "Tactful",
+      "Polite",
+      "Discreet",
+      "Considerate"
+    ],
+    "antonyms": [
+      "Tactless",
+      "Rude",
+      "Blunt",
+      "Aggressive"
+    ]
+  },
+  {
+    "id": 3617,
+    "word": "Discretion",
+    "pos": "noun",
+    "definition": "The freedom to make a decision or take action according to judgment; keeping sensitive info private.",
+    "taWord": "விவேகம் / தன்விருப்பப் பொறையுடைமை",
+    "enExample": "Managers have full discretion to offer flexible working hours to high performers.",
+    "taExample": "சிறப்பாகச் செயல்படுபவர்களுக்கு நெகிழ்வான வேலை நேரங்களை வழங்க மேலாளர்களுக்கு முழு விருப்ப உரிமை உள்ளது.",
+    "enExample2": "Always exercise discretion when discussing private family matters in public.",
+    "taExample2": "தனிப்பட்ட குடும்ப விஷயங்களைப் பொதுவெளியில் விவாதிக்கும் போது எப்போதும் விவேகத்தைக் கடைப்பிடிக்கவும்.",
+    "synonyms": [
+      "Prudence",
+      "Judgment",
+      "Caution",
+      "Tact"
+    ],
+    "antonyms": [
+      "Indiscretion",
+      "Imprudence",
+      "Carelessness"
+    ]
+  },
+  {
+    "id": 3669,
+    "word": "Deference",
+    "pos": "noun",
+    "definition": "Polite submission and respectful regard shown to someone out of courtesy or wisdom.",
+    "taWord": "பணிவான மரியாதை / மதிப்பளிப்பு",
+    "enExample": "Out of deference to his vast experience, the team adopted his architectural design.",
+    "taExample": "அவரது மாபெரும் அனுபவத்திற்கு பணிவான மரியாதை செலுத்தும் வகையில், குழு அவரது கட்டமைப்பு வடிவமைப்பை ஏற்றுக்கொண்டது.",
+    "enExample2": "Showing deference to elders is a cherished cultural value in many households.",
+    "taExample2": "பெரியவர்களுக்கு பணிவான மரியாதை செலுத்துவது பல குடும்பங்களில் போற்றப்படும் பண்பாட்டு மதிப்பீடு ஆகும்.",
+    "synonyms": [
+      "Respect",
+      "Regard",
+      "Reverence",
+      "Courtesy"
+    ],
+    "antonyms": [
+      "Disrespect",
+      "Disregard",
+      "Defiance",
+      "Impertinence"
+    ]
+  },
+  {
+    "id": 3670,
+    "word": "Demeanor",
+    "pos": "noun",
+    "definition": "Outward behavior, posture, or bearing that reveals one's character or mood.",
+    "taWord": "வெளிப்படை நடத்தை / தோற்றப் பாங்கு",
+    "enExample": "Her calm demeanor during the system outage kept the whole engineering team focused.",
+    "taExample": "கணினி செயலிழப்பின் போது அவரது அமைதியான வெளிப்படை நடத்தை முழு பொறியியல் குழுவையும் கவனத்துடன் வைத்திருந்தது.",
+    "enExample2": "A friendly demeanor makes it easy for kids to make new friends at school.",
+    "taExample2": "ஒரு நட்புரீதியான வெளிப்படை நடத்தை குழந்தைகள் பள்ளியில் புதிய நண்பர்களை உருவாக்க எளிதாக்குகிறது.",
+    "synonyms": [
+      "Bearing",
+      "Manner",
+      "Conduct",
+      "Presence"
+    ],
+    "antonyms": [
+      "Impropriety",
+      "Misconduct"
+    ]
+  },
+  {
+    "id": 3671,
+    "word": "Discerning",
+    "pos": "adjective",
+    "definition": "Having or showing good judgment, taste, and perceptive understanding.",
+    "taWord": "நுண்ணறிந்து தேர்ந்தெடுக்கும் / தெளிவான பகுத்தறிவுள்ள",
+    "enExample": "A discerning customer looks beyond low price to evaluate build quality and durability.",
+    "taExample": "நுண்ணறிந்து தேர்ந்தெடுக்கும் ஒரு வாடிக்கையாளர் குறைந்த விலைக்கு அப்பால் தயாரிப்புத் தரம் மற்றும் நீடித்துழைப்பை மதிப்பிடுகிறார்.",
+    "enExample2": "Reading good books helps children become discerning readers with refined taste.",
+    "taExample2": "நல்ல புத்தகங்களை வாசிப்பது குழந்தைகள் சுத்திகரிக்கப்பட்ட சுவையுடன் நுண்ணறிந்து தேர்ந்தெடுக்கும் வாசகர்களாக மாற உதவுகிறது.",
+    "synonyms": [
+      "Perceptive",
+      "Astute",
+      "Discriminative",
+      "Insightful"
+    ],
+    "antonyms": [
+      "Uncritical",
+      "Indiscriminate",
+      "Naive"
+    ]
   }
 ]

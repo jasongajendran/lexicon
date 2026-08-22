@@ -709,5 +709,50 @@
     ],
     "enExample2": "Tailwind CSS provides low-level utility classes that enable rapid and responsive UI styling.",
     "taExample2": "Tailwind CSS விரைவான மற்றும் பதிலளிக்கக்கூடிய காட்சி வடிவமைப்பை செயல்படுத்தும் பயன்பாட்டு (Utility) வகுப்புகளை வழங்குகிறது."
+  },
+  {
+    "id": 3650,
+    "word": "Unbiased",
+    "pos": "adjective",
+    "definition": "Showing no prejudice for or against something; completely impartial and fair.",
+    "taWord": "சார்பற்ற / பட்சபாதமில்லாத",
+    "enExample": "The panel delivered an unbiased evaluation of all job candidates based strictly on merit.",
+    "taExample": "குழு அனைத்து வேலை வேட்பாளர்களின் சார்பற்ற மதிப்பீட்டைத் தகுதியின் அடிப்படையில் மட்டுமே வழங்கியது.",
+    "enExample2": "An unbiased observer can help resolve small family misunderstandings peacefully.",
+    "taExample2": "ஒரு சார்பற்ற பார்வையாளர் சிறிய குடும்ப தவறான புரிதல்களை அமைதியாக தீர்க்க உதவ முடியும்.",
+    "synonyms": [
+      "Impartial",
+      "Neutral",
+      "Fair",
+      "Objective"
+    ],
+    "antonyms": [
+      "Biased",
+      "Prejudiced",
+      "Partial",
+      "One-sided"
+    ]
+  },
+  {
+    "id": 3695,
+    "word": "Understanding",
+    "pos": "noun",
+    "definition": "Sympathetic awareness, tolerance, or clear mental grasp of feelings or situations.",
+    "taWord": "புரிந்துணர்வு / பரஸ்பரப் புரிதல்",
+    "enExample": "Clear communication creates mutual understanding between remote engineering teams.",
+    "taExample": "தெளிவான தொடர்பு தொலைதூரப் பொறியியல் குழுக்களுக்கு இடையே பரஸ்பரப் புரிந்துணர்வை உருவாக்குகிறது.",
+    "enExample2": "Showing gentle understanding helps children express their fears without feeling embarrassed.",
+    "taExample2": "மென்மையான புரிந்துணர்வைக் காட்டுவது குழந்தைகள் சங்கடப்படாமல் தங்களின் பயங்களை வெளிப்படுத்த உதவுகிறது.",
+    "synonyms": [
+      "Comprehension",
+      "Insight",
+      "Empathy",
+      "Compassion"
+    ],
+    "antonyms": [
+      "Misunderstanding",
+      "Ignorance",
+      "Callousness"
+    ]
   }
 ]

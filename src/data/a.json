@@ -2253,5 +2253,166 @@
     ],
     "enExample2": "In modern cloud engineering, it is axiomatic that every individual infrastructure component will eventually fail.",
     "taExample2": "நவீன கிளவுட் பொறியியலில், ஒவ்வொரு உட்கட்டமைப்பு கூறுகளும் இறுதியில் செயலிழக்கக்கூடும் என்பது ஒரு வெளிப்படையான உண்மையாகும்."
+  },
+  {
+    "id": 3604,
+    "word": "Appreciate",
+    "pos": "verb",
+    "definition": "To recognize the full worth or quality of someone or something; to feel grateful for kindness.",
+    "taWord": "பாராட்டுதல் / நன்றியோடு உணருதல்",
+    "enExample": "A simple note to appreciate a helpful colleague goes a long way in building good workplace friendships.",
+    "taExample": "உதவிய சக ஊழியரைப் பாராட்டி அனுப்பும் சிறு குறிப்பு நல்ல அலுவலக நட்பை வளர்க்க பெரிதும் உதவும்.",
+    "enExample2": "Teaching children to appreciate small daily favors fosters a lifelong habit of gratitude.",
+    "taExample2": "தினசரி சிறிய உதவிகளைப் பாராட்ட குழந்தைகளுக்குக் கற்றுக்கொடுப்பது அவர்களின் வாழ்நாள் முழுவதும் நன்றி உணர்வை வளர்க்கும்.",
+    "synonyms": [
+      "Value",
+      "Treasure",
+      "Cherish",
+      "Thank"
+    ],
+    "antonyms": [
+      "Disregard",
+      "Underestimate",
+      "Overlook",
+      "Slight"
+    ]
+  },
+  {
+    "id": 3605,
+    "word": "Authentic",
+    "pos": "adjective",
+    "definition": "Genuine, real, or true to one's own personality, spirit, or character without pretense.",
+    "taWord": "உண்மையான / போலித்தனமில்லாத",
+    "enExample": "People respect managers who are authentic and open about both successes and challenges.",
+    "taExample": "வெற்றிகள் மற்றும் சவால்கள் இரண்டிலும் போலித்தனமில்லாமல் நேர்மையாக இருக்கும் மேலாளர்களை மக்கள் மதிக்கிறார்கள்.",
+    "enExample2": "Being an authentic friend means showing up honestly without putting on a fake persona.",
+    "taExample2": "உண்மையான நண்பனாக இருப்பது என்பது போலித்தனமான தோற்றங்கள் இல்லாமல் நேர்மையாக நடந்துகொள்வதாகும்.",
+    "synonyms": [
+      "Genuine",
+      "Real",
+      "Sincere",
+      "Honest"
+    ],
+    "antonyms": [
+      "Fake",
+      "Insincere",
+      "Counterfeit",
+      "Pretentious"
+    ]
+  },
+  {
+    "id": 3659,
+    "word": "Affable",
+    "pos": "adjective",
+    "definition": "Friendly, good-natured, warm, and easy to talk to in daily conversation.",
+    "taWord": "இனிமையான / பழக எளிய",
+    "enExample": "Our new manager is so affable that everyone feels comfortable asking for guidance.",
+    "taExample": "எங்கள் புதிய மேலாளர் பழக மிகவும் எளியவர் என்பதால் அனைவரும் வழிகாட்டுதல் கேட்க வசதியாக உணர்கிறார்கள்.",
+    "enExample2": "He has an affable personality that immediately puts visitors at ease.",
+    "taExample2": "விருந்தினர்களை உடனடியாக இயல்பாக்கும் இனிமையான ஆளுமை அவருக்கு உள்ளது.",
+    "synonyms": [
+      "Friendly",
+      "Genial",
+      "Amiable",
+      "Approachable"
+    ],
+    "antonyms": [
+      "Unfriendly",
+      "Cold",
+      "Aloof",
+      "Hostile"
+    ]
+  },
+  {
+    "id": 3660,
+    "word": "Affirmation",
+    "pos": "noun",
+    "definition": "An expression of emotional support, encouragement, or positive declaration.",
+    "taWord": "மன தைரியமூட்டும் வார்த்தை / நேர்மறை உறுதிமொழி",
+    "enExample": "A daily affirmation from parents gives children the emotional strength to tackle school challenges.",
+    "taExample": "பெற்றோரின் தினசரி நேர்மறை உறுதிமொழி குழந்தைகள் பள்ளி சவால்களை எதிர்கொள்ள உணர்ச்சி ரீதியான பலத்தைத் தருகிறது.",
+    "enExample2": "He appreciated the manager's affirmation of his contributions during the annual review.",
+    "taExample2": "ஆண்டு பரிசீலனையின் போது தனது பங்களிப்புகளை மேலாளர் பாராட்டி உறுதிப்படுத்தியதை அவர் பாராட்டினார்.",
+    "synonyms": [
+      "Encouragement",
+      "Confirmation",
+      "Validation",
+      "Praise"
+    ],
+    "antonyms": [
+      "Denial",
+      "Refusal",
+      "Disapproval",
+      "Discouragement"
+    ]
+  },
+  {
+    "id": 3661,
+    "word": "Amicable",
+    "pos": "adjective",
+    "definition": "Characterized by friendliness, goodwill, and the absence of discord or confrontation.",
+    "taWord": "நட்புரீதியான / சமரசமான",
+    "enExample": "The two departments reached an amicable agreement on sharing project budget resources.",
+    "taExample": "திட்ட பட்ஜெட் ஆதாரங்களைப் பகிர்வது குறித்து இரு துறைகளும் நட்புரீதியான உடன்பாட்டை எட்டின.",
+    "enExample2": "They resolved the dispute over the boundary fence in an amicable chat over tea.",
+    "taExample2": "தேநீர் அருந்தியபடியே ஒரு நட்புரீதியான உரையாடலில் எல்லை வேலி குறித்தான தகராறைத் தீர்த்துக் கொண்டனர்.",
+    "synonyms": [
+      "Friendly",
+      "Harmonious",
+      "Cordial",
+      "Peaceable"
+    ],
+    "antonyms": [
+      "Hostile",
+      "Antagonistic",
+      "Quarrelsome",
+      "Bitter"
+    ]
+  },
+  {
+    "id": 3662,
+    "word": "Assertive",
+    "pos": "adjective",
+    "definition": "Having or showing a confident, respectful, and direct personality when expressing needs.",
+    "taWord": "தன்னம்பிக்கையுடன் வெளிப்படுத்தும்",
+    "enExample": "Being assertive in meetings helps you express your ideas clearly without being aggressive.",
+    "taExample": "கூட்டங்களில் தன்னம்பிக்கையுடன் பேசுவது ஆக்ரோஷமாக இல்லாமல் உங்கள் கருத்துக்களைத் தெளிவாக வெளிப்படுத்த உதவுகிறது.",
+    "enExample2": "We teach children to be assertive when setting healthy personal boundaries with peers.",
+    "taExample2": "சக தோழர்களுடன் ஆரோக்கியமான தனிப்பட்ட எல்லைகளை அமைக்கும் போது தன்னம்பிக்கையுடன் இருக்க குழந்தைகளுக்குக் கற்பிக்கிறோம்.",
+    "synonyms": [
+      "Confident",
+      "Decisive",
+      "Firm",
+      "Self-assured"
+    ],
+    "antonyms": [
+      "Passive",
+      "Timid",
+      "Hesitant",
+      "Submissive"
+    ]
+  },
+  {
+    "id": 3663,
+    "word": "Attentive",
+    "pos": "adjective",
+    "definition": "Paying close attention to something or someone; listening carefully and thoughtfully.",
+    "taWord": "கவனமுடன் கேட்கும் / அக்கறையுள்ள",
+    "enExample": "An attentive listener makes colleagues feel valued during complex discussions.",
+    "taExample": "கவனமுடன் கேட்கும் ஒருவர் சிக்கலான விவாதங்களின் போது சக ஊழியர்களை மதிப்பாக உணர வைக்கிறார்.",
+    "enExample2": "Parents who are attentive to their child's subtle emotional changes build deep bonds.",
+    "taExample2": "குழந்தையின் நுட்பமான உணர்ச்சி மாற்றங்களில் கவனமுடன் இருக்கும் பெற்றோர்கள் ஆழமான பிணைப்புகளை உருவாக்குகிறார்கள்.",
+    "synonyms": [
+      "Observant",
+      "Mindful",
+      "Considerate",
+      "Heedful"
+    ],
+    "antonyms": [
+      "Inattentive",
+      "Distracted",
+      "Negligent",
+      "Oblivious"
+    ]
   }
 ]

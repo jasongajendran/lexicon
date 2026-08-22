@@ -24,7 +24,7 @@ export function WordRow({
   onSelectWord
 }: WordRowProps) {
   const [copied, setCopied] = useState(false);
-  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | null>(null);
   const [isCentered, setIsCentered] = useState(false);
   const rowRef = useRef<HTMLDivElement>(null);
 
@@ -61,15 +61,28 @@ export function WordRow({
     }
   };
 
-  const handleSpeak = (e?: React.MouseEvent) => {
+  const handleSpeakText = (text: string, target: 'word' | 'def', e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     triggerHaptic();
+
+    if (speakingTarget === target) {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+      setSpeakingTarget(null);
+      return;
+    }
+
     speakWord(
-      word.word,
-      () => setIsSpeaking(true),
-      () => setIsSpeaking(false),
-      () => setIsSpeaking(false)
+      text,
+      () => setSpeakingTarget(target),
+      () => setSpeakingTarget(null),
+      () => setSpeakingTarget(null)
     );
+  };
+
+  const handleSpeak = (e?: React.MouseEvent) => {
+    handleSpeakText(word.word, 'word', e);
   };
 
   const handleCopy = (e: React.MouseEvent) => {
@@ -149,11 +162,11 @@ export function WordRow({
         <button 
           onClick={handleSpeak}
           className={`p-2 rounded-full bg-zinc-900/80 md:bg-transparent hover:bg-zinc-800 transition-colors ${
-            isSpeaking ? 'text-amber-400' : 'text-zinc-400 hover:text-amber-400'
+            speakingTarget === 'word' ? 'text-amber-400' : 'text-zinc-400 hover:text-amber-400'
           }`}
           title="Pronounce word in English"
         >
-          {isSpeaking ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
+          {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
         </button>
         <button 
           onClick={handleCopy}
@@ -175,10 +188,23 @@ export function WordRow({
           <span className="text-xs font-mono text-purple-300 bg-purple-400/10 px-2 py-0.5 rounded border border-purple-400/20">{word.pos}</span>
         </div>
         <div className="mt-5 flex flex-col gap-3">
-          <p className="text-zinc-300 font-sans text-sm md:text-base leading-relaxed tracking-wide">
-            <span className="text-zinc-500 italic mr-2 text-xs">def.</span>
-            {word.definition}
-          </p>
+          <div className="flex items-start justify-between gap-2 p-2.5 rounded-xl bg-zinc-950/40 border border-zinc-800/40">
+            <p className="text-zinc-300 font-sans text-sm md:text-base leading-relaxed tracking-wide">
+              <span className="text-amber-400/80 font-mono font-bold mr-2 text-xs">DEF</span>
+              {word.definition}
+            </p>
+            <button
+              onClick={(e) => handleSpeakText(word.definition, 'def', e)}
+              className={`p-1.5 rounded-lg border transition-all shrink-0 cursor-pointer ${
+                speakingTarget === 'def'
+                  ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                  : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400'
+              }`}
+              title="Listen to English definition"
+            >
+              {speakingTarget === 'def' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
+            </button>
+          </div>
           <p className="text-zinc-300 font-tamil text-sm md:text-base leading-relaxed tracking-wide">
             <span className="text-zinc-500 font-mono mr-2 text-xs">ta.</span>
             <span className="font-medium text-amber-400">

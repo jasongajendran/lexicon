@@ -2044,5 +2044,72 @@
     ],
     "enExample2": "While bonuses provide extrinsic motivation, engineers thrive most when driven by intrinsic autonomy and craftsmanship.",
     "taExample2": "ஊக்கத்தொகைகள் வெளிப்புற உந்துதலை அளித்தாலும் சுயாட்சியும் தொழில் நேர்த்தியுமே பொறியாளர்களை அதிகம் ஊக்குவிக்கின்றன."
+  },
+  {
+    "id": 3618,
+    "word": "Encouragement",
+    "pos": "noun",
+    "definition": "The action of giving someone support, confidence, hope, or praise to help them succeed.",
+    "taWord": "ஊக்கமளித்தல் / தைரியமூட்டுதல்",
+    "enExample": "A word of encouragement from a mentor can boost a junior developer's confidence enormously.",
+    "taExample": "ஒரு வழாிகாட்டியின் ஊக்கமளிக்கும் சொல் ஜூனியர் டெவலப்பரின் நம்பிக்கையைப் பெரிதும் உயர்த்தும்.",
+    "enExample2": "Parents' constant encouragement gives children the bravery to try new hobbies without fear of failure.",
+    "taExample2": "பெற்றோரின் தொடர்ச்சியான ஊக்கமளிப்பு, தோல்வி பயமின்றி புதிய பொழுதுபோக்குகளை முயற்சிக்க குழந்தைகளுக்கு தைரியத்தைத் தருகிறது.",
+    "synonyms": [
+      "Support",
+      "Inspiration",
+      "Motivation",
+      "Reassurance"
+    ],
+    "antonyms": [
+      "Discouragement",
+      "Deterrent",
+      "Disapproval"
+    ]
+  },
+  {
+    "id": 3619,
+    "word": "Engagement",
+    "pos": "noun",
+    "definition": "Active involvement, interest, or connection in a conversation, activity, or relationship.",
+    "taWord": "ஈடுபாடு / சுறுசுறுப்பான பங்கேற்பு",
+    "enExample": "Interactive team workshops boost employee engagement and creativity dramatically.",
+    "taExample": "இணைந்து செயல்படும் பட்டறைகள் பணியாளர்களின் ஈடுபாட்டையும் படைப்பாற்றலையும் வெகுவாக உயர்த்துகின்றன.",
+    "enExample2": "Reading stories aloud to kids encourages active engagement and vocabulary learning.",
+    "taExample2": "குழந்தைகளுக்கு கதைகளை சத்தமாக வாசிப்பது சுறுசுறுப்பான ஈடுபாட்டையும் சொல்வள கற்றலையும் ஊக்குவிக்கிறது.",
+    "synonyms": [
+      "Involvement",
+      "Participation",
+      "Commitment",
+      "Connection"
+    ],
+    "antonyms": [
+      "Disengagement",
+      "Apathy",
+      "Detachment"
+    ]
+  },
+  {
+    "id": 3672,
+    "word": "Empower",
+    "pos": "verb",
+    "definition": "To give someone the authority, confidence, or freedom to take action and make decisions.",
+    "taWord": "அதிகாரமளித்தல் / நம்பிக்கையூட்டி செயல்பட வைப்பது",
+    "enExample": "Empower junior developers by trusting them to own and deploy small software components.",
+    "taExample": "சிறிய மென்பொருள் கூறுகளை சொந்தமாக இயக்கிப் பயன்பாட்டிற்கு அனுப்ப ஜூனியர் டெவலப்பர்களை நம்பி அதிகாரமளியுங்கள்.",
+    "enExample2": "Good parents empower children by letting them make age-appropriate choices.",
+    "taExample2": "நல்ல பெற்றோர்கள் குழந்தைகள் தங்கள் வயதிற்கு ஏற்ற தேர்வுகளைச் செய்ய அனுமதிப்பதன் மூலம் அவர்களுக்கு அதிகாரமளிக்கிறார்கள்.",
+    "synonyms": [
+      "Enable",
+      "Authorize",
+      "Encourage",
+      "Strengthen"
+    ],
+    "antonyms": [
+      "Disempower",
+      "Disable",
+      "Restrict",
+      "Weaken"
+    ]
   }
 ]

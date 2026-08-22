@@ -175,34 +175,35 @@ export function WordCard({
           </button>
         </div>
 
-        {/* Context Examples */}
-        <div className="space-y-2 mb-4">
-          <div className="p-3 rounded-xl bg-zinc-950/60 border border-zinc-800/60">
-            <div className="flex items-center justify-between mb-1">
-              <span className="text-[10px] font-mono text-blue-300 block font-medium">EN CONTEXT</span>
-              <button
-                onClick={(e) => handleSpeakText(word.enExample, 'ex', e)}
-                className={`p-1 rounded-lg border transition-all ${
-                  speakingTarget === 'ex'
-                    ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
-                    : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
-                }`}
-                title="Listen to English example"
-              >
-                {speakingTarget === 'ex' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={12} />}
-              </button>
+        {/* Integrated Context Example (Compact & Focused) */}
+        <div className="p-3.5 rounded-xl bg-zinc-950/60 border border-zinc-800/60 space-y-2 mb-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-1.5">
+              <span className="text-[10px] font-mono text-amber-300 bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/20 font-bold">
+                Ex 1
+              </span>
+              <span className="text-[10px] font-mono text-zinc-500">EN · TA</span>
             </div>
-            <p className="text-xs font-serif text-zinc-300 italic">
-              "{word.enExample}"
-            </p>
+            <button
+              onClick={(e) => handleSpeakText(word.enExample, 'ex', e)}
+              className={`p-1 rounded-lg border transition-all ${
+                speakingTarget === 'ex'
+                  ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                  : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400'
+              }`}
+              title="Listen to example"
+            >
+              {speakingTarget === 'ex' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={12} />}
+            </button>
           </div>
 
-          <div className="p-3 rounded-xl bg-zinc-950/60 border border-zinc-800/60">
-            <span className="text-[10px] font-mono text-indigo-300 block mb-0.5 font-medium">TA USAGE</span>
-            <p className="text-xs font-tamil text-zinc-300">
-              "{word.taExample}"
-            </p>
-          </div>
+          <p className="text-xs sm:text-sm font-serif text-zinc-200 italic leading-relaxed pl-2 border-l-2 border-amber-400/80">
+            "{word.enExample}"
+          </p>
+
+          <p className="text-xs sm:text-sm font-tamil text-amber-300/90 leading-relaxed pl-2 border-l-2 border-indigo-400/80 pt-1 border-t border-zinc-800/50">
+            "{word.taExample}"
+          </p>
         </div>
       </div>
 

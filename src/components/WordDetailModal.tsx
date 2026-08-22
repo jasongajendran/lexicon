@@ -310,6 +310,30 @@ export function WordDetailModal({
                   {word.taWord}
                 </span>
               </div>
+
+              {/* Definition Box with Audio Sound Icon */}
+              <div className="mt-4 p-3.5 sm:p-4 rounded-2xl bg-zinc-950/70 border border-zinc-800/80 flex items-start justify-between gap-3 shadow-inner">
+                <div className="space-y-1">
+                  <span className="text-[10px] font-mono font-bold text-amber-400/90 uppercase tracking-wider block">
+                    Definition
+                  </span>
+                  <p className="text-sm sm:text-base text-zinc-200 font-sans leading-relaxed">
+                    {word.definition}
+                  </p>
+                </div>
+                <button
+                  onClick={(e) => handleSpeakText(word.definition, 'def', e)}
+                  className={`p-2 rounded-xl border transition-all shrink-0 flex items-center gap-1.5 text-xs font-mono font-medium cursor-pointer ${
+                    speakingTarget === 'def'
+                      ? 'bg-amber-400/30 border-amber-400 text-amber-300 ring-1 ring-amber-400/40 shadow-md shadow-amber-400/10'
+                      : 'bg-zinc-900 border-zinc-800 text-zinc-300 hover:text-amber-400 hover:border-amber-400/40'
+                  }`}
+                  title="Listen to English definition"
+                >
+                  {speakingTarget === 'def' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={15} />}
+                  <span className="hidden sm:inline">Listen</span>
+                </button>
+              </div>
             </div>
 
             {/* Quick Segment Filter Pills */}
@@ -348,65 +372,77 @@ export function WordDetailModal({
 
             {/* Tab: Examples / Full View */}
             {(activeTab === 'all' || activeTab === 'examples') && (
-              <div className="space-y-4">
-                {/* Example 1 - Vivid Warm Amber / Golden Palette */}
-                <div className="p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-amber-500/15 via-zinc-900/90 to-amber-950/25 border border-amber-500/40 shadow-lg shadow-amber-500/5 space-y-3">
+              <div className="space-y-3">
+                {/* Example 1 - Compact Amber Tag */}
+                <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-br from-amber-500/15 via-zinc-900/90 to-amber-950/25 border border-amber-500/35 shadow-md shadow-amber-500/5 space-y-2.5">
                   <div className="flex items-center justify-between gap-2">
-                    <span className="text-xs font-mono font-bold text-amber-300 bg-amber-400/20 px-2.5 py-1 rounded-full border border-amber-400/30 uppercase tracking-wider flex items-center gap-1.5">
-                      <Sparkles size={12} className="text-amber-400" />
-                      <span>Primary Example</span>
-                    </span>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-[10px] font-mono font-bold text-amber-300 bg-amber-400/20 px-2 py-0.5 rounded-full border border-amber-400/30 uppercase tracking-wider flex items-center gap-1">
+                        <Sparkles size={10} className="text-amber-400" />
+                        <span>Ex 1</span>
+                      </span>
+                      <span className="text-[10px] font-mono text-zinc-400 bg-zinc-900/60 px-1.5 py-0.5 rounded border border-zinc-800">
+                        EN · TA
+                      </span>
+                    </div>
+
                     <button
                       onClick={(e) => handleSpeakText(word.enExample, 'ex1', e)}
-                      className={`p-2 rounded-xl border transition-all shrink-0 flex items-center gap-1.5 text-xs font-mono font-medium ${
+                      className={`p-1.5 px-2.5 rounded-xl border transition-all shrink-0 flex items-center gap-1.5 text-[11px] font-mono font-medium ${
                         speakingTarget === 'ex1'
-                          ? 'bg-amber-400/30 border-amber-400 text-amber-300 ring-2 ring-amber-400/40'
-                          : 'bg-amber-400/10 border-amber-400/30 text-amber-300 hover:bg-amber-400/20 hover:border-amber-400/60'
+                          ? 'bg-amber-400/30 border-amber-400 text-amber-300 ring-1 ring-amber-400/40'
+                          : 'bg-amber-400/10 border-amber-400/30 text-amber-300 hover:bg-amber-400/20'
                       }`}
-                      title="Listen to English example 1"
+                      title="Listen to example 1"
                     >
-                      {speakingTarget === 'ex1' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={15} />}
+                      {speakingTarget === 'ex1' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
                       <span className="hidden sm:inline">Listen</span>
                     </button>
                   </div>
 
-                  <div className="pl-3.5 border-l-4 border-amber-400 space-y-2.5">
-                    <p className="text-lg sm:text-xl md:text-2xl font-serif italic text-amber-50 leading-relaxed font-normal">
+                  <div className="pl-3 border-l-3 border-amber-400 space-y-2">
+                    <p className="text-base sm:text-lg md:text-xl font-serif italic text-amber-50 leading-relaxed">
                       "{highlightTargetWord(word.enExample, word.word, 'amber')}"
                     </p>
-                    <p className="text-base sm:text-lg font-tamil text-amber-300/95 leading-relaxed font-normal pt-1 border-t border-amber-500/20">
+                    <p className="text-sm sm:text-base font-tamil text-amber-300/95 leading-relaxed pt-1 border-t border-amber-500/20">
                       "{highlightTamilWord(word.taExample, word.taWord, 'amber')}"
                     </p>
                   </div>
                 </div>
 
-                {/* Example 2 - Vivid Cyan / Indigo Palette */}
+                {/* Example 2 - Compact Cyan Tag */}
                 {(word.enExample2 || word.taExample2) && (
-                  <div className="p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-cyan-500/15 via-zinc-900/90 to-blue-950/25 border border-cyan-500/40 shadow-lg shadow-cyan-500/5 space-y-3">
+                  <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-br from-cyan-500/15 via-zinc-900/90 to-blue-950/25 border border-cyan-500/35 shadow-md shadow-cyan-500/5 space-y-2.5">
                     <div className="flex items-center justify-between gap-2">
-                      <span className="text-xs font-mono font-bold text-cyan-300 bg-cyan-400/20 px-2.5 py-1 rounded-full border border-cyan-400/30 uppercase tracking-wider flex items-center gap-1.5">
-                        <BookOpen size={12} className="text-cyan-400" />
-                        <span>Secondary Example</span>
-                      </span>
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-[10px] font-mono font-bold text-cyan-300 bg-cyan-400/20 px-2 py-0.5 rounded-full border border-cyan-400/30 uppercase tracking-wider flex items-center gap-1">
+                          <BookOpen size={10} className="text-cyan-400" />
+                          <span>Ex 2</span>
+                        </span>
+                        <span className="text-[10px] font-mono text-zinc-400 bg-zinc-900/60 px-1.5 py-0.5 rounded border border-zinc-800">
+                          EN · TA
+                        </span>
+                      </div>
+
                       <button
                         onClick={(e) => handleSpeakText(word.enExample2 || word.enExample, 'ex2', e)}
-                        className={`p-2 rounded-xl border transition-all shrink-0 flex items-center gap-1.5 text-xs font-mono font-medium ${
+                        className={`p-1.5 px-2.5 rounded-xl border transition-all shrink-0 flex items-center gap-1.5 text-[11px] font-mono font-medium ${
                           speakingTarget === 'ex2'
-                            ? 'bg-cyan-400/30 border-cyan-400 text-cyan-300 ring-2 ring-cyan-400/40'
-                            : 'bg-cyan-400/10 border-cyan-400/30 text-cyan-300 hover:bg-cyan-400/20 hover:border-cyan-400/60'
+                            ? 'bg-cyan-400/30 border-cyan-400 text-cyan-300 ring-1 ring-cyan-400/40'
+                            : 'bg-cyan-400/10 border-cyan-400/30 text-cyan-300 hover:bg-cyan-400/20'
                         }`}
-                        title="Listen to English example 2"
+                        title="Listen to example 2"
                       >
-                        {speakingTarget === 'ex2' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={15} />}
+                        {speakingTarget === 'ex2' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
                         <span className="hidden sm:inline">Listen</span>
                       </button>
                     </div>
 
-                    <div className="pl-3.5 border-l-4 border-cyan-400 space-y-2.5">
-                      <p className="text-lg sm:text-xl md:text-2xl font-serif italic text-cyan-50 leading-relaxed font-normal">
+                    <div className="pl-3 border-l-3 border-cyan-400 space-y-2">
+                      <p className="text-base sm:text-lg md:text-xl font-serif italic text-cyan-50 leading-relaxed">
                         "{highlightTargetWord(word.enExample2 || word.enExample, word.word, 'cyan')}"
                       </p>
-                      <p className="text-base sm:text-lg font-tamil text-cyan-300/95 leading-relaxed font-normal pt-1 border-t border-cyan-500/20">
+                      <p className="text-sm sm:text-base font-tamil text-cyan-300/95 leading-relaxed pt-1 border-t border-cyan-500/20">
                         "{highlightTamilWord(word.taExample2 || word.taExample, word.taWord, 'cyan')}"
                       </p>
                     </div>
@@ -482,24 +518,23 @@ export function WordDetailModal({
             )}
           </div>
 
-          {/* Modal Footer */}
-          <div className="p-4 sm:p-5 border-t border-zinc-800/80 bg-zinc-900/60 flex items-center justify-between text-xs font-mono text-zinc-400">
-            <div className="hidden sm:flex items-center gap-2 text-zinc-500 text-[11px]">
+          {/* Modal Footer - Centered Ergonomic Close Button */}
+          <div className="p-4 sm:p-5 border-t border-zinc-800/80 bg-zinc-900/80 flex items-center justify-center relative">
+            <div className="hidden sm:flex items-center gap-1.5 text-zinc-500 text-[11px] absolute left-5">
               <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded border border-zinc-700 text-zinc-300">←</kbd>
               <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded border border-zinc-700 text-zinc-300">→</kbd>
-              <span>Navigate</span>
+              <span>Nav</span>
             </div>
 
-            <div className="flex items-center gap-2.5 ml-auto">
-              <button
-                onClick={onClose}
-                className="px-3.5 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-100 border border-zinc-700 text-xs font-mono font-semibold flex items-center gap-1.5 transition-all active:scale-95 shadow-md"
-                title="Close dialog"
-              >
-                <X size={14} />
-                <span>Close</span>
-              </button>
-            </div>
+            {/* Prominent Center Close Button - Easily reachable by both thumbs */}
+            <button
+              onClick={onClose}
+              className="px-8 py-2.5 sm:py-3 rounded-full bg-amber-400 hover:bg-amber-300 active:scale-95 text-black font-mono text-xs font-bold flex items-center justify-center gap-2 shadow-xl shadow-amber-500/15 transition-all border border-amber-300 cursor-pointer"
+              title="Close modal (Esc)"
+            >
+              <X size={18} strokeWidth={2.5} />
+              <span>CLOSE</span>
+            </button>
           </div>
         </motion.div>
       </div>

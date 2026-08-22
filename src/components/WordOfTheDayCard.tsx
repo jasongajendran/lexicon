@@ -20,7 +20,7 @@ export function WordOfTheDayCard({
   onWordSearch,
   onSelectWord
 }: WordOfTheDayCardProps) {
-  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | null>(null);
   const [copied, setCopied] = useState(false);
 
   const triggerHaptic = () => {
@@ -40,16 +40,28 @@ export function WordOfTheDayCard({
     }
   };
 
-  const handleSpeak = (e?: React.MouseEvent) => {
+  const handleSpeakText = (text: string, target: 'word' | 'def', e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     triggerHaptic();
-    setIsSpeaking(true);
+
+    if (speakingTarget === target) {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+      setSpeakingTarget(null);
+      return;
+    }
+
     speakWord(
-      word.word,
-      () => setIsSpeaking(true),
-      () => setIsSpeaking(false),
-      () => setIsSpeaking(false)
+      text,
+      () => setSpeakingTarget(target),
+      () => setSpeakingTarget(null),
+      () => setSpeakingTarget(null)
     );
+  };
+
+  const handleSpeak = (e?: React.MouseEvent) => {
+    handleSpeakText(word.word, 'word', e);
   };
 
   const handleCopy = (e: React.MouseEvent) => {
@@ -92,13 +104,13 @@ export function WordOfTheDayCard({
           <button
             onClick={handleSpeak}
             className={`p-2 rounded-xl border transition-all ${
-              isSpeaking
+              speakingTarget === 'word'
                 ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30 shadow-lg shadow-amber-400/10'
                 : 'bg-zinc-900/80 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
             }`}
             title="Listen to pronunciation"
           >
-            {isSpeaking ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
+            {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
           </button>
 
           <button
@@ -148,10 +160,29 @@ export function WordOfTheDayCard({
         </div>
       </div>
 
-      {/* Definition */}
-      <p className="text-zinc-200 text-sm md:text-base font-sans font-normal leading-relaxed mb-4 z-10 relative">
-        {word.definition}
-      </p>
+      {/* Definition with Sound Icon */}
+      <div className="flex items-start justify-between gap-3 p-3 sm:p-4 rounded-2xl bg-zinc-950/60 border border-zinc-800/60 mb-4 z-10 relative">
+        <div className="space-y-0.5">
+          <span className="text-[10px] font-mono font-bold text-amber-400/90 uppercase tracking-wider block">
+            Definition
+          </span>
+          <p className="text-zinc-200 text-sm md:text-base font-sans font-normal leading-relaxed">
+            {word.definition}
+          </p>
+        </div>
+        <button
+          onClick={(e) => handleSpeakText(word.definition, 'def', e)}
+          className={`p-2 rounded-xl border transition-all shrink-0 flex items-center gap-1.5 text-xs font-mono font-medium cursor-pointer ${
+            speakingTarget === 'def'
+              ? 'bg-amber-400/30 border-amber-400 text-amber-300 ring-1 ring-amber-400/40 shadow-md shadow-amber-400/10'
+              : 'bg-zinc-900 border-zinc-800 text-zinc-300 hover:text-amber-400 hover:border-amber-400/40'
+          }`}
+          title="Listen to English definition"
+        >
+          {speakingTarget === 'def' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={15} />}
+          <span className="hidden sm:inline">Listen</span>
+        </button>
+      </div>
 
       {/* Synonyms & Antonyms */}
       {(hasSynonyms || hasAntonyms) && (
@@ -195,33 +226,29 @@ export function WordOfTheDayCard({
       )}
 
       {/* Context Examples */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-4 border-t border-zinc-800/60 z-10 relative">
-        <div className="p-3 rounded-xl bg-zinc-950/60 border border-zinc-800/60">
-          <span className="text-[10px] font-mono text-blue-300 uppercase tracking-widest block mb-1 font-medium">
-            Engineering Context 1
+      <div className="p-3.5 rounded-2xl bg-zinc-950/60 border border-zinc-800/60 space-y-2 z-10 relative">
+        <div className="flex items-center gap-1.5">
+          <span className="text-[10px] font-mono text-amber-300 bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/20 font-bold">
+            Ex 1
           </span>
-          <p className="text-xs font-serif text-zinc-300 italic leading-relaxed">
-            "{word.enExample}"
-          </p>
+          <span className="text-[10px] font-mono text-zinc-500">EN · TA</span>
         </div>
-        <div className="p-3 rounded-xl bg-zinc-950/60 border border-zinc-800/60">
-          <span className="text-[10px] font-mono text-indigo-300 uppercase tracking-widest block mb-1 font-medium">
-            Tamil Usage 1
-          </span>
-          <p className="text-xs font-tamil text-zinc-300 leading-relaxed">
-            "{word.taExample}"
-          </p>
-        </div>
+        <p className="text-xs sm:text-sm font-serif text-zinc-200 italic leading-relaxed pl-2 border-l-2 border-amber-400/80">
+          "{word.enExample}"
+        </p>
+        <p className="text-xs sm:text-sm font-tamil text-amber-300/90 leading-relaxed pl-2 border-l-2 border-indigo-400/80 pt-1 border-t border-zinc-800/50">
+          "{word.taExample}"
+        </p>
       </div>
 
-      {/* View 2nd Example & Thesaurus Modal Button */}
+      {/* View Details Button */}
       {onSelectWord && (
-        <div className="pt-3 border-t border-zinc-800/60 flex justify-end z-10 relative">
+        <div className="pt-3 flex justify-end z-10 relative">
           <button
             onClick={handleCardClick}
-            className="text-xs font-mono text-amber-400 hover:text-amber-300 flex items-center gap-1.5 px-3 py-1 rounded-xl bg-amber-400/10 hover:bg-amber-400/20 border border-amber-400/25 transition-all"
+            className="text-xs font-mono font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-400/10 hover:bg-amber-400/20 border border-amber-400/25 transition-all cursor-pointer"
           >
-            <span>View Dual Examples & Thesaurus Modal</span>
+            <span>Explore Details</span>
             <span>→</span>
           </button>
         </div>
