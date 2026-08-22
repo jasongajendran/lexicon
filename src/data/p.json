@@ -106,6 +106,28 @@
     "taExample2": "ரியாக்டிவ் செயல்பாட்டு நிரலாக்கம் நவீன முன்னணி நிலை நிர்வாகத்தில் ஒரு புரட்சிகர கோட்பாட்டு மாதிரியைக் (Paradigm) குறிக்கிறது."
   },
   {
+    "id": 3546,
+    "word": "Paradigm shift",
+    "pos": "noun",
+    "definition": "A fundamental change in the basic concepts, experimental practices, and underlying worldview of a scientific discipline or industry.",
+    "taWord": "அடிப்படை சிந்தனைப் புரட்சி / கோட்பாட்டு மாற்றம்",
+    "enExample": "The migration from on-premise computing to serverless cloud infrastructure represented a massive paradigm shift for enterprise IT.",
+    "taExample": "பழைய சர்வர்களிலிருந்து சர்வர்லெஸ் கிளவுட் கட்டமைப்புக்கு மாறியது நிறுவன தகவல் தொழில்நுட்பத் துறையில் ஒரு பெரிய கோட்பாட்டு மாற்றத்தைக் குறித்தது.",
+    "enExample2": "Historian Thomas Kuhn coined the term to explain how scientific revolutions overturn established academic dogmas.",
+    "taExample2": "அறிவியல் புரட்சிகள் எவ்வாறு நிறுவப்பட்ட கல்விசார் கொள்கைகளை மாற்றியமைக்கின்றன என்பதை விளக்க தாமஸ் குன் இந்த சொல்லை உருவாக்கினார்.",
+    "synonyms": [
+      "Fundamental transformation",
+      "Revolutionary change",
+      "Sea change",
+      "Breakthrough"
+    ],
+    "antonyms": [
+      "Incremental adjustment",
+      "Status quo",
+      "Stagnation"
+    ]
+  },
+  {
     "id": 3427,
     "word": "Paradigmatic",
     "pos": "adjective",
@@ -336,6 +358,29 @@
     "taExample2": "உட்பொதிக்கப்பட்ட IoT சாதனங்கள் செயலிழப்பைத் தவிர்க்க மிகக் குறைந்த சிக்கனமான (Parsimonious) நினைவகப் பயன்பாட்டைக் கோருகின்றன."
   },
   {
+    "id": 3547,
+    "word": "Parsimony",
+    "pos": "noun",
+    "definition": "Extreme unwillingness to spend money or use resources; in philosophy and science, the adoption of the simplest explanation that accounts for all facts.",
+    "taWord": "சிக்கனம் / எளிய விளக்கத்தை ஏற்கும் தத்துவக் கோட்பாடு",
+    "enExample": "Applying the scientific principle of parsimony, the researchers favored the simplest genetic model that explained the clinical data.",
+    "taExample": "அறிவியல் சிக்கனக் கோட்பாட்டைப் பயன்படுத்தி, ஆராய்ச்சியாளர்கள் மருத்துவத் தரவுகளை விளக்கும் மிக எளிய மாதிரியை ஏற்றுக்கொண்டனர்.",
+    "enExample2": "The startup founder managed the early capital with strict parsimony, avoiding lavish office space until profitability was reached.",
+    "taExample2": "லாபம் ஈட்டும் வரை ஆடம்பர அலுவலகங்களைத் தவிர்த்து ஆரம்ப மூலதனத்தை அந்த நிறுவனர் கடுமையான சிக்கனத்துடன் நிர்வகித்தார்.",
+    "synonyms": [
+      "Frugality",
+      "Simplicity",
+      "Occam's razor",
+      "Economy"
+    ],
+    "antonyms": [
+      "Extravagance",
+      "Profligacy",
+      "Wastefulness",
+      "Complexity"
+    ]
+  },
+  {
     "id": 2896,
     "word": "Partisan",
     "pos": "adj.",
@@ -419,6 +464,29 @@
       "harsh",
       "neglectful",
       "punitive"
+    ]
+  },
+  {
+    "id": 3553,
+    "word": "Pathos",
+    "pos": "noun",
+    "definition": "A quality that evokes pity, compassion, or sadness, especially in drama, literature, or rhetoric.",
+    "taWord": "பரிதாப உணர்வு / இரக்கத்தைத் தூண்டும் பாணி",
+    "enExample": "The BBC foreign correspondent's report conveyed the deep human pathos of families displaced by the earthquake.",
+    "taExample": "நிலநடுக்கத்தால் இடம்பெயர்ந்த குடும்பங்களின் ஆழமான மனிதப் பரிதாப நிலையை பிபிசி நிருபரின் அறிக்கை வெளிப்படுத்தியது.",
+    "enExample2": "The theater director balanced dark comedic elements with moments of devastating emotional pathos.",
+    "taExample2": "நாடக இயக்குனர் கருப்பு நகைச்சுவை கூறுகளுடன் மனதை உலுக்கும் பரிதாப உணர்வுத் தருணங்களையும் சமநிலையில் கையாண்டார்.",
+    "synonyms": [
+      "Poignancy",
+      "Tragedy",
+      "Emotional appeal",
+      "Piteousness"
+    ],
+    "antonyms": [
+      "Apathy",
+      "Indifference",
+      "Callousness",
+      "Cheerfulness"
     ]
   },
   {
@@ -1191,6 +1259,28 @@
     "taExample2": "Redis விளிம்புநிலை தற்காலிக சேமிப்பை இயக்கியவுடன் சேவையக மறுமொழி தாமதம் உடனடியாகக் குறையத் (Plummet) தொடங்கியது."
   },
   {
+    "id": 3552,
+    "word": "Poetic justice",
+    "pos": "noun",
+    "definition": "The fact of experiencing a fitting or deserved retribution for one's actions, especially in an ironically appropriate manner.",
+    "taWord": "நீதி வெல்லுதல் / வினை விதைத்தவன் வினை அறுக்கும் நிலை",
+    "enExample": "In a stroke of poetic justice, the notorious computer hacker had his own cryptocurrency wallet drained by a rival cyber group.",
+    "taExample": "வினை விதைத்தவன் வினை அறுப்பான் என்பதற்கு ஏற்ப பிரபல ஹேக்கரின் சொந்த டிஜிட்டல் பணப்பை எதிர்தரப்பால் சூறையாடப்பட்டது.",
+    "enExample2": "The screenplay's climax delivered poetic justice when the corrupt corporate villain was undone by the very loophole he created.",
+    "taExample2": "ஊழல் செய்த வில்லன் தான் உருவாக்கிய சட்ட ஓட்டையாலேயே வீழ்த்தப்பட்டபோது திரைக்கதை சரியான நீதியை வழங்கியது.",
+    "synonyms": [
+      "Karmic retribution",
+      "Fitting punishment",
+      "Just deserts",
+      "Nemesis"
+    ],
+    "antonyms": [
+      "Injustice",
+      "Unfair impunity",
+      "Miscarriage of justice"
+    ]
+  },
+  {
     "id": 3457,
     "word": "point of contact",
     "pos": "noun",
@@ -1697,6 +1787,29 @@
     "taExample2": "தயாரிப்பு நெட்வொர்க் போக்குவரத்தின் பெரும்பகுதி (Preponderance) மொபைல் சாதனங்கள் மூலமாகவே வருகிறது."
   },
   {
+    "id": 3548,
+    "word": "Preposterous",
+    "pos": "adjective",
+    "definition": "Contrary to reason or common sense; utterly absurd, ridiculous, or foolish.",
+    "taWord": "அபத்தமான / பகுத்தறிவுக்கு முற்றிலும் எதிரான",
+    "enExample": "The CEO dismissed the acquisition rumors as preposterous speculation that had no grounding in the board's strategy.",
+    "taExample": "இயக்குநரவையின் உத்தியில் எந்த அடிப்படையும் இல்லாத அபத்தமான ஊகம் என கையகப்படுத்தல் வதந்திகளை தலைமை நிர்வாகி நிராகரித்தார்.",
+    "enExample2": "In the comedy sketch, the TV actor adopted a preposterous persona that had the studio audience roaring with laughter.",
+    "taExample2": "அந்த நகைச்சுவை நாடகத்தில் தொலைக்காட்சி நடிகர் ஏற்று நடித்த அபத்தமான கதாபாத்திரம் பார்வையாளர்களை வயிறு குலுங்க சிரிக்க வைத்தது.",
+    "synonyms": [
+      "Absurd",
+      "Ludicrous",
+      "Nonsensical",
+      "Outrageous"
+    ],
+    "antonyms": [
+      "Sensible",
+      "Rational",
+      "Credible",
+      "Logical"
+    ]
+  },
+  {
     "id": 14,
     "word": "Prerequisite",
     "definition": "something required beforehand",
@@ -1948,6 +2061,27 @@
     ],
     "enExample2": "The distributed stream processing engine handled a prodigious volume of fifty million events per second.",
     "taExample2": "விநியோகிக்கப்பட்ட ஸ்ட்ரீம் செயலாக்க இயந்திரம் வினாடிக்கு ஐம்பது மில்லியன் நிகழ்வுகள் என்ற பிரம்மாண்டமான (Prodigious) அளவைக் கையாண்டது."
+  },
+  {
+    "id": 3550,
+    "word": "Product market fit",
+    "pos": "noun",
+    "definition": "The degree to which a product satisfies a strong, genuine market demand, evidenced by rapid user growth and high customer retention.",
+    "taWord": "தயாரிப்பு-சந்தை பொருத்தம் / சந்தை தேவையை துல்லியமாக பூர்த்தி செய்தல்",
+    "enExample": "After pivoting three times, the SaaS startup finally achieved product market fit and saw monthly signups quadruple.",
+    "taExample": "மூன்று முறை உத்திகளை மாற்றிய பிறகு அந்த மென்பொருள் நிறுவனம் தயாரிப்பு-சந்தை பொருத்தத்தை அடைந்து மாதாந்திர பதிவுகளை நான்கு மடங்காக உயர்த்தியது.",
+    "enExample2": "Venture capitalists advise founders not to scale advertising budgets aggressively until product market fit is proven.",
+    "taExample2": "தயாரிப்பு சந்தைக்கு ஏற்றது என்பது நிரூபிக்கப்படும் வரை விளம்பரச் செலவுகளை அதிரடியாக உயர்த்த வேண்டாம் என்று முதலீட்டாளர்கள் அறிவுறுத்துகின்றனர்.",
+    "synonyms": [
+      "Market resonance",
+      "Customer demand alignment",
+      "Market validation"
+    ],
+    "antonyms": [
+      "Market mismatch",
+      "Product rejection",
+      "Zero traction"
+    ]
   },
   {
     "id": 8,
@@ -2202,6 +2336,27 @@
     "taExample2": "அனைத்து குழுக்களுக்கும் புதிய தரப்படுத்தப்பட்ட பாதுகாப்பான குறியீட்டு வழிகாட்டுதல்களை அதிகாரப்பூர்வமாக அறிவிக்க (Promulgate) பொறியியல் குழு கூடியது."
   },
   {
+    "id": 3554,
+    "word": "Proof of concept",
+    "pos": "noun",
+    "definition": "Evidence, typically derived from an experiment or pilot project, demonstrating that a design concept or business proposal is feasible.",
+    "taWord": "சாத்தியக்கூறு நிரூபணம் / ஆரம்ப மாதிரி ஆய்வு",
+    "enExample": "The research and development lab built a working proof of concept demonstrating quantum encryption over fiber-optic cable.",
+    "taExample": "ஆய்வுக்கூடம் ஆப்டிகல் ஃபைபர் வழியாக குவாண்டம் குறியாக்கத்தை செயல்படுத்தும் சாத்தியக்கூறு மாதிரியை வெற்றிகரமாக நிரூபித்தது.",
+    "enExample2": "Before greenlighting the multi-million dollar software migration, executives required a tangible proof of concept.",
+    "taExample2": "கோடிக்கணக்கான ரூபாய் மென்பொருள் மாற்றத்திற்கு ஒப்புதல் அளிப்பதற்கு முன் அதிகாரிகள் உறுதியான சாத்தியக்கூறு ஆதாரத்தைக் கோரினர்.",
+    "synonyms": [
+      "Feasibility prototype",
+      "Pilot trial",
+      "Demonstration model"
+    ],
+    "antonyms": [
+      "Pure theory",
+      "Untested concept",
+      "Unvalidated claim"
+    ]
+  },
+  {
     "id": 15,
     "word": "Propagate",
     "definition": "to spread or transmit",
@@ -2412,6 +2567,29 @@
     "taExample2": "வருங்கால (Prospective) மூத்த கணினி வடிவமைப்பாளர் தேர்வாளர்களுக்கு தொழில்நுட்ப ஆட்சேர்ப்பாளர் சவால்களை அனுப்பினார்."
   },
   {
+    "id": 3551,
+    "word": "Protagonist",
+    "pos": "noun",
+    "definition": "The leading character or one of the major figures in a drama, movie, novel, or real-world political cause.",
+    "taWord": "கதாநாயகன் / முதன்மைக் கதாபாத்திரம் / இயக்கத்தின் முன்னணித் தலைவர்",
+    "enExample": "The award-winning television series followed a morally conflicted protagonist striving to rebuild his family's publishing empire.",
+    "taExample": "விருது பெற்ற அந்த தொலைக்காட்சித் தொடர் குடும்பத்தின் பதிப்பக சாம்ராஜ்யத்தை மீண்டும் உருவாக்கப் போராடும் ஒரு முதன்மைக் கதாபாத்திரத்தைப் பின்தொடர்ந்தது.",
+    "enExample2": "BBC historical documentaries highlight how obscure reformers often become the central protagonists of democratic revolutions.",
+    "taExample2": "அறியப்படாத சீர்திருத்தவாதிகள் எவ்வாறு ஜனநாயகப் புரட்சிகளின் முக்கிய கதாநாயகர்களாக மாறுகிறார்கள் என்பதை பிபிசி ஆவணப்படங்கள் எடுத்துக்காட்டுகின்றன.",
+    "synonyms": [
+      "Main character",
+      "Hero",
+      "Lead",
+      "Champion"
+    ],
+    "antonyms": [
+      "Antagonist",
+      "Adversary",
+      "Nemesis",
+      "Villain"
+    ]
+  },
+  {
     "id": 3237,
     "word": "Protocol",
     "pos": "Noun",
@@ -2450,6 +2628,29 @@
     ],
     "enExample2": "A protracted legal dispute over software patent licensing was finally settled outside of court.",
     "taExample2": "மென்பொருள் காப்புரிமை உரிமம் தொடர்பான நீண்டகால (Protracted) சட்டத் தகராறு இறுதியாக நீதிமன்றத்திற்கு வெளியே தீர்க்கப்பட்டது."
+  },
+  {
+    "id": 3549,
+    "word": "Provenance",
+    "pos": "noun",
+    "definition": "The place of origin or earliest known history of something; the chronological record of ownership and custody for a work of art, data, or software dependency.",
+    "taWord": "தோற்றுவாய் / மூல வரலாறு / நம்பகமான பிறப்பிடப் பதிவு",
+    "enExample": "Security engineers verify the provenance of open-source packages using digital cryptographic signatures before building artifacts.",
+    "taExample": "மென்பொருளை உருவாக்கும் முன் டிஜிட்டல் குறியாக்கக் கையொப்பங்களைப் பயன்படுத்தி திறந்த மூல நிரல்களின் தோற்றுவாயை பொறியாளர்கள் சரிபார்க்கின்றனர்.",
+    "enExample2": "The art gallery confirmed the authentic Renaissance provenance of the newly discovered oil painting.",
+    "taExample2": "புதிதாகக் கண்டுபிடிக்கப்பட்ட எண்ணெய் ஓவியத்தின் உண்மையான மறுமலர்ச்சிக் கால வரலாற்றுத் தோற்றுவாயை கலைக்கூடம் உறுதிப்படுத்தியது.",
+    "synonyms": [
+      "Origin",
+      "Source",
+      "Lineage",
+      "Pedigree",
+      "Chronology of custody"
+    ],
+    "antonyms": [
+      "Unknown origin",
+      "Counterfeit source",
+      "Forgery"
+    ]
   },
   {
     "id": 3263,

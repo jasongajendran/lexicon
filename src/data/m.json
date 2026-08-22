@@ -247,6 +247,29 @@
     "taExample2": "குபெர்னெட்டீஸ் வரிசைப்படுத்தல் ஆவணம் (Manifest) கொள்கலன் வரம்புகள், பிரதிகள் மற்றும் சுகாதார ஆய்வுகளை அறிவிக்கிறது."
   },
   {
+    "id": 3536,
+    "word": "Manifestation",
+    "pos": "noun",
+    "definition": "An event, action, or object that clearly shows or embodies something abstract, theoretical, or spiritual.",
+    "taWord": "வெளிப்பாடு / கண்கூடாகத் தோன்றும் வடிவம்",
+    "enExample": "The widespread street protests were a visible manifestation of deep public frustration over economic stagnation.",
+    "taExample": "பொருளாதார தேக்கநிலை குறித்த பொதுமக்களின் ஆழ்ந்த விரக்தியின் கண்கூடான வெளிப்பாடாக இந்த வீதிப் போராட்டங்கள் அமைந்தன.",
+    "enExample2": "Software bugs are frequently the outward manifestation of underlying architectural misalignments.",
+    "taExample2": "மென்பொருள் பிழைகள் பெரும்பாலும் கணினிக் கட்டமைப்பில் உள்ள அடிப்படை குறைபாடுகளின் வெளிப்புற வெளிப்பாடாகும்.",
+    "synonyms": [
+      "Embodiment",
+      "Expression",
+      "Demonstration",
+      "Exemplification"
+    ],
+    "antonyms": [
+      "Hiding",
+      "Concealment",
+      "Suppression",
+      "Abstraction"
+    ]
+  },
+  {
     "id": 3367,
     "word": "manifesto",
     "pos": "noun",
@@ -610,6 +633,28 @@
     "taExample2": "REST API பயனர் சுயவிவரத் தகவல்களைப் பாதுகாப்பாகப் பெற GET முறையை (Method) வழங்குகிறது."
   },
   {
+    "id": 3599,
+    "word": "Methodology",
+    "pos": "noun",
+    "definition": "A system of methods, principles, and rules used in a particular area of study or activity.",
+    "taWord": "ஆய்வு முறைமை / ஆய்வு நெறிமுறை",
+    "enExample": "The peer review panel commended the researchers for the rigorous statistical methodology employed in the clinical trial.",
+    "taExample": "மருத்துவ பரிசோதனையில் பயன்படுத்தப்பட்ட கடுமையான புள்ளியியல் ஆய்வு முறைமைக்காக ஆய்வாளர்களை நிபுணர் குழு பாராட்டியது.",
+    "enExample2": "Agile project methodology prioritizes short iterative development sprints over rigid multi-year upfront planning.",
+    "taExample2": "அஜைல் திட்ட முறைமை நீண்ட கால திட்டமிடலை விட குறுகிய சுழற்சி மேம்பாடுகளுக்கே முன்னுரிமை அளிக்கிறது.",
+    "synonyms": [
+      "Procedure",
+      "Research framework",
+      "System",
+      "Technique"
+    ],
+    "antonyms": [
+      "Improvisation",
+      "Haphazard approach",
+      "Trial and error"
+    ]
+  },
+  {
     "id": 2991,
     "word": "Meticulous",
     "pos": "adj.",
@@ -652,6 +697,28 @@
       "affirmation",
       "validation",
       "inclusion"
+    ]
+  },
+  {
+    "id": 3537,
+    "word": "Microcosm",
+    "pos": "noun",
+    "definition": "A community, place, or situation regarded as encapsulating in miniature the characteristic qualities, challenges, or features of something much larger.",
+    "taWord": "நுண்வடிவம் / சிறுமாதிரி / பெரிய உலகைப் பிரதிபலிக்கும் சிறிய உலகம்",
+    "enExample": "Sociologists described the diverse university campus as a fascinating microcosm of modern multicultural society.",
+    "taExample": "பல்வேறு பின்னணிகளைக் கொண்ட இந்த பல்கலைக்கழக வளாகம் நவீன பன்முக சமூகத்தின் அற்புதமான சிறுமாதிரி என்று சமூகவியலாளர்கள் விவரித்தனர்.",
+    "enExample2": "The local municipal council election served as a microcosm of nationwide political divisions.",
+    "taExample2": "உள்ளாட்சித் தேர்தல் என்பது நாடு தழுவிய அரசியல் பிளவுகளின் ஒரு சிறிய பிரதிபலிப்பாக அமைந்தது.",
+    "synonyms": [
+      "Miniature world",
+      "Epitome",
+      "Model in little",
+      "Cross-section"
+    ],
+    "antonyms": [
+      "Macrocosm",
+      "The universe",
+      "Totality"
     ]
   },
   {
@@ -775,6 +842,28 @@
     "taExample2": "உலகளாவிய உள்ளடக்க விநியோக வலையமைப்பை நிறுவியது சர்வதேச பயனர்களுக்கான தாமத உயர்வைத் தணிக்க (Mitigate) உதவியது."
   },
   {
+    "id": 3538,
+    "word": "Mitigation",
+    "pos": "noun",
+    "definition": "The action of reducing the severity, seriousness, or harmful impact of a problem, risk, or climate disaster.",
+    "taWord": "பாதிப்பைக் குறைத்தல் / இடர் தணிப்பு",
+    "enExample": "The cybersecurity incident response team enacted rapid mitigation measures to isolate the compromised database server.",
+    "taExample": "பாதிக்கப்பட்ட தரவுத்தள சர்வரை தனிமைப்படுத்த இணையப் பாதுகாப்பு குழு உடனடி இடர் தணிப்பு நடவடிக்கைகளை மேற்கொண்டது.",
+    "enExample2": "The BBC climate summit panel discussed global flood mitigation strategies for vulnerable coastal cities.",
+    "taExample2": "பாதிக்கப்படக்கூடிய கடலோர நகரங்களுக்கான உலகளாவிய வெள்ள பாதிப்பு தணிப்பு உத்திகளை பிபிசி பருவநிலை மாநாட்டு குழு விவாதித்தது.",
+    "synonyms": [
+      "Alleviation",
+      "Abatement",
+      "Reduction",
+      "Attenuation"
+    ],
+    "antonyms": [
+      "Aggravation",
+      "Exacerbation",
+      "Intensification"
+    ]
+  },
+  {
     "id": 2702,
     "word": "Mocking",
     "definition": "Creating simulated, fake objects or endpoints to replicate the behavior of real dependencies during automated tests.",
@@ -860,6 +949,52 @@
     ],
     "enExample2": "The startup began with a modular Ruby on Rails monolith before scaling out to distributed microservices.",
     "taExample2": "அந்த புத்தொழில் நிறுவனம் நுண்சேவைகளுக்கு மாறுவதற்கு முன் ஒரு ஒற்றை (Monolith) மென்பொருள் கட்டமைப்பில் தொடங்கியது."
+  },
+  {
+    "id": 3539,
+    "word": "Monolithic",
+    "pos": "adjective",
+    "definition": "Formed of a single, indivisible large block; in computing, referring to an architecture where all components are tightly integrated into one program.",
+    "taWord": "ஒற்றைப் பாறை போன்ற / பிரிக்க முடியாத ஒற்றைக் கட்டமைப்புடைய",
+    "enExample": "Engineering teams successfully decoupled the legacy monolithic backend into scalable microservices.",
+    "taExample": "பொறியியல் குழுக்கள் பழைய ஒற்றைக் கட்டமைப்பு மென்பொருளை பல தனித்தனி மைக்ரோ சர்வீஸ்களாகப் பிரிப்பதில் வெற்றி பெற்றன.",
+    "enExample2": "Critics argued that the state-owned broadcasting monopoly had become too monolithic and bureaucratic to innovate.",
+    "taExample2": "அரசுக்குச் சொந்தமான ஒளிபரப்பு நிறுவனம் புதுமைகளைப் புகுத்த முடியாத அளவுக்கு இறுக்கமான ஒற்றை அமைப்பாக மாறிவிட்டதாக விமர்சகர்கள் கூறினர்.",
+    "synonyms": [
+      "Indivisible",
+      "Unitary",
+      "Massive",
+      "Inflexible"
+    ],
+    "antonyms": [
+      "Modular",
+      "Distributed",
+      "Decoupled",
+      "Flexible"
+    ]
+  },
+  {
+    "id": 3541,
+    "word": "Monologue",
+    "pos": "noun",
+    "definition": "A long speech by one actor in a play or movie, or a prolonged talk by one person in a conversation.",
+    "taWord": "தனிநபர் உரை / ஓரங்கப் பேச்சு",
+    "enExample": "The veteran actor delivered an electrifying five-minute monologue that earned a standing ovation from the audience.",
+    "taExample": "அந்த மூத்த நடிகர் ஆற்றிய ஐந்து நிமிட உணர்ச்சிகரமான தனிநபர் உரை பார்வையாளர்களின் எழுந்து நின்று பாராட்டும் கைதட்டலைப் பெற்றது.",
+    "enExample2": "The late-night TV host opened the broadcast with a satirical monologue reviewing the week's headline news.",
+    "taExample2": "இரவு நேர தொலைக்காட்சி தொகுப்பாளர் வாரத்தின் முக்கிய செய்திகளை நையாண்டி செய்யும் தனிநபர் பார்வையுடன் நிகழ்ச்சியைத் தொடங்கினார்.",
+    "synonyms": [
+      "Soliloquy",
+      "Speech",
+      "Address",
+      "Discourse"
+    ],
+    "antonyms": [
+      "Dialogue",
+      "Conversation",
+      "Colloquy",
+      "Interchange"
+    ]
   },
   {
     "id": 2730,
@@ -963,6 +1098,28 @@
     ],
     "antonyms": [
       "fixed elements"
+    ]
+  },
+  {
+    "id": 3540,
+    "word": "Multilateral",
+    "pos": "adjective",
+    "definition": "Agreed upon or participated in by three or more parties, especially the governments of different countries.",
+    "taWord": "பலதரப்பு உடன்பாடுடைய / பல நாடுகள் பங்கேற்கும்",
+    "enExample": "The BBC diplomatic editor reported that the multilateral trade treaty was signed by twelve Pacific Rim nations.",
+    "taExample": "பன்னிரண்டு பசிபிக் பெருங்கடல் நாடுகள் அந்த பலதரப்பு வர்த்தக ஒப்பந்தத்தில் கையெழுத்திட்டதாக பிபிசி தூதரக செய்தியாளர் தெரிவித்தார்.",
+    "enExample2": "Top scholars argue that solving international cybercrime requires strong multilateral governance frameworks.",
+    "taExample2": "சர்வதேச இணையக் குற்றங்களைத் தீர்க்க வலுவான பலதரப்பு நிர்வாகக் கட்டமைப்பு அவசியம் என முன்னணி அறிஞர்கள் வாதிடுகின்றனர்.",
+    "synonyms": [
+      "Multi-party",
+      "International",
+      "Collective",
+      "Pluralistic"
+    ],
+    "antonyms": [
+      "Unilateral",
+      "Bilateral",
+      "One-sided"
     ]
   },
   {

@@ -83,6 +83,29 @@
     "taExample2": "பழைய கட்டண சேவையை புதிதாக மீண்டும் உருவாக்குவதா அல்லது படிப்படியாக மாற்றுவதா என்பதில் குழு ஒரு குழப்பமான இக்கட்டில் (Quandary) இருந்தது."
   },
   {
+    "id": 3555,
+    "word": "Quantifiable",
+    "pos": "adjective",
+    "definition": "Able to be expressed or measured as a quantity, metric, or numerical value.",
+    "taWord": "அளவிடக்கூடிய / எண்களால் கணக்கிடத்தக்க",
+    "enExample": "The consulting team presented quantifiable improvements in customer conversion rates following the website redesign.",
+    "taExample": "இணையதள மறுவடிவமைப்பைத் தொடர்ந்து வாடிக்கையாளர் வருகையில் ஏற்பட்ட அளவிடக்கூடிய முன்னேற்றங்களை ஆலோசனைக் குழு சமர்ப்பித்தது.",
+    "enExample2": "Scholars emphasize that research conclusions should be grounded in quantifiable empirical data rather than subjective impressions.",
+    "taExample2": "ஆய்வு முடிவுகள் அகநிலை கருத்துக்களை விட அளவிடக்கூடிய அனுபவத் தரவுகளை அடிப்படையாகக் கொண்டிருக்க வேண்டும் என அறிஞர்கள் வலியுறுத்துகின்றனர்.",
+    "synonyms": [
+      "Measurable",
+      "Computable",
+      "Determinate",
+      "Calculable"
+    ],
+    "antonyms": [
+      "Qualitative",
+      "Immeasurable",
+      "Intangible",
+      "Incalculable"
+    ]
+  },
+  {
     "id": 1702,
     "word": "Quantifier",
     "definition": "A element in regular expressions specifying the number of occurrences of a character or pattern.",

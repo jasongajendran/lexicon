@@ -501,6 +501,28 @@
     "taExample2": "எல்லை தாண்டிய கிளவுட் தரவு சேமிப்பு உள்ளூர் அதிகார வரம்பு தனியுரிமை விதிமுறைகளுக்கு முழுமையாக இணங்க வேண்டும்."
   },
   {
+    "id": 3528,
+    "word": "Jurisprudence",
+    "pos": "noun",
+    "definition": "The theory or philosophy of law; a legal system or body of judicial precedents.",
+    "taWord": "சட்டவியல் / சட்டத் தத்துவம் / நீதித்துறை முன்மாதிரிகள்",
+    "enExample": "Scholars analyzed how Supreme Court jurisprudence over privacy rights has evolved with emerging internet technologies.",
+    "taExample": "இணைய தொழில்நுட்பங்களின் வருகையுடன் தனியுரிமை உரிமைகள் குறித்த உச்ச நீதிமன்ற சட்டவியல் எவ்வாறு பரிணமித்துள்ளது என்பதை அறிஞர்கள் ஆய்வு செய்தனர்.",
+    "enExample2": "The landmark ruling established a significant new precedent in environmental jurisprudence.",
+    "taExample2": "அந்த வரலாற்றுச் சிறப்புமிக்க தீர்ப்பு சுற்றுச்சூழல் சட்டவியலில் ஒரு முக்கியமான புதிய முன்மாதிரியை நிறுவியது.",
+    "synonyms": [
+      "Legal theory",
+      "Philosophy of law",
+      "Case law",
+      "Legal code"
+    ],
+    "antonyms": [
+      "Lawlessness",
+      "Anarchy",
+      "Arbitrary rule"
+    ]
+  },
+  {
     "id": 1007,
     "word": "Just-In-Time (JIT)",
     "definition": "A technique in compilation where code is compiled into machine code at execution time rather than before.",

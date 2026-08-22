@@ -255,6 +255,29 @@
     "taExample2": "ஒரு விரைவான அடிப்படை சரிபார்ப்பு சோதனையை (Sanity Test) இயக்கியது தரவுத்தள திருத்தத்திற்குப் பின் உள்நுழைவு சரியாக செயல்படுவதை உறுதி செய்தது."
   },
   {
+    "id": 3565,
+    "word": "Satire",
+    "pos": "noun",
+    "definition": "The use of humor, irony, exaggeration, or ridicule to expose and criticize people's stupidity, corruption, or vices, particularly in politics.",
+    "taWord": "நையாண்டி / சமூகக் கேலிச்சித்திரம்",
+    "enExample": "The British comedy series used biting political satire to mock the absurdities of bureaucratic governance.",
+    "taExample": "அதிகாரத்துவ நிர்வாகத்தின் அபத்தங்களை கேலி செய்ய அந்த பிரிட்டிஷ் நகைச்சுவைத் தொடர் கூர்மையான அரசியல் நையாண்டியைப் பயன்படுத்தியது.",
+    "enExample2": "Scholars analyzed Jonathan Swift's essays as foundational masterworks of literary satire.",
+    "taExample2": "ஜொனாதன் ஸ்விஃப்ட்டின் கட்டுரைகளை இலக்கிய நையாண்டியின் தலைசிறந்த படைப்புகளாக அறிஞர்கள் ஆய்வு செய்தனர்.",
+    "synonyms": [
+      "Parody",
+      "Mockery",
+      "Irony",
+      "Caricature"
+    ],
+    "antonyms": [
+      "Solemnity",
+      "Praise",
+      "Tribute",
+      "Literal tribute"
+    ]
+  },
+  {
     "id": 2700,
     "word": "Scalability",
     "definition": "The capability of a system, network, or process to handle a growing amount of work or traffic gracefully.",
@@ -576,6 +599,28 @@
     "taExample2": "தரவுத்தள வினவல் திட்டங்களை விடாமுயற்சியுடன் (Sedulous) உகப்பாக்கியதன் மூலம் சராசரி பக்க மறுமொழி நேரத்தை குழு பாதியாகக் குறைத்தது."
   },
   {
+    "id": 3558,
+    "word": "Semantic",
+    "pos": "adjective",
+    "definition": "Relating to meaning in language or logic; in programming and web design, code elements that explicitly describe their human-readable purpose.",
+    "taWord": "பொருள் உணர்த்தும் / அர்த்தம் சார்ந்த",
+    "enExample": "Web developers use semantic HTML tags like <nav> and <article> to improve accessibility and search engine indexing.",
+    "taExample": "இணைய உருவாக்குநர்கள் தேடுபொறி குறியீட்டுத் திறனையும் அணுகலையும் மேம்படுத்த பொருள் உணர்த்தும் HTML குறிச்சொற்களைப் பயன்படுத்துகின்றனர்.",
+    "enExample2": "Modern natural language processing models perform semantic analysis to understand user intent rather than simple keyword matches.",
+    "taExample2": "நவீன மொழி செயலாக்க மாதிரிகள் எளிய சொல் பொருத்தத்திற்கு பதிலாக பயனரின் உண்மையான நோக்கத்தைப் புரிந்துகொள்ள பொருள்சார் பகுப்பாய்வை மேற்கொள்கின்றன.",
+    "synonyms": [
+      "Meaning-based",
+      "Signifying",
+      "Denotative",
+      "Logical"
+    ],
+    "antonyms": [
+      "Syntactic",
+      "Superficial",
+      "Meaningless"
+    ]
+  },
+  {
     "id": 3066,
     "word": "Serendipitous",
     "pos": "adj.",
@@ -598,6 +643,29 @@
     ],
     "enExample2": "Discovering an unindexed foreign key column was a serendipitous breakthrough that fixed our query latency.",
     "taExample2": "குறியிடப்படாத வெளிநாட்டு விசை நெடுவரிசையைக் கண்டறிந்தது எங்கள் வினவல் தாமதத்தை சரிசெய்த ஒரு தற்செயலான அதிர்ஷ்ட (Serendipitous) திருப்புமுனையாக அமைந்தது."
+  },
+  {
+    "id": 3559,
+    "word": "Serendipity",
+    "pos": "noun",
+    "definition": "The occurrence and development of events by chance in a happy, fortunate, or beneficial way.",
+    "taWord": "எதிர்பாராத நல்வாய்ப்பு / தற்செயலான அதிர்ஷ்டக் கண்டுபிடிப்பு",
+    "enExample": "The scientist admitted that the discovery of the groundbreaking antibiotic was a wonderful stroke of serendipity.",
+    "taExample": "அந்த புரட்சிகரமான மருந்து கண்டுபிடிக்கப்பட்டது ஒரு அற்புதமான எதிர்பாராத நல்வாய்ப்பு என்று விஞ்ஞானி ஒப்புக்கொண்டார்.",
+    "enExample2": "Tech founders often credit coffee shop conversations and serendipity for sparking their most profitable product ideas.",
+    "taExample2": "தங்கள் மிக லாபகரமான தயாரிப்பு யோசனைகளைத் தூண்டியதற்கு தேநீர் கடை உரையாடல்களும் தற்செயலான நல்வாய்ப்புகளுமே காரணம் என நிறுவனர்கள் கூறுகின்றனர்.",
+    "synonyms": [
+      "Fortuitousness",
+      "Happy coincidence",
+      "Good fortune",
+      "Luck"
+    ],
+    "antonyms": [
+      "Misfortune",
+      "Bad luck",
+      "Planned outcome",
+      "Design"
+    ]
   },
   {
     "id": 1906,
@@ -1149,6 +1217,50 @@
     "taExample2": "இரவு நேர பெரிய முடக்கத்தைத் தொடர்ந்து பணியில் இருந்த பொறியாளரின் நலனில் மேலாளர் மிகுந்த அக்கறையுடன் (Solicitous) இருந்தார்."
   },
   {
+    "id": 3564,
+    "word": "Soliloquy",
+    "pos": "noun",
+    "definition": "An act of speaking one's thoughts aloud when by oneself or regardless of any hearers, especially by a character in a play.",
+    "taWord": "தனிமொழி / நாடகக் கதாபாத்திரத்தின் உள்ளுரை",
+    "enExample": "Hamlet's famous 'To be or not to be' soliloquy delves into profound philosophical questions of existence and mortality.",
+    "taExample": "ஹேம்லெட்டின் புகழ்பெற்ற தனிமொழி மனித இருப்பு மற்றும் இறப்பு குறித்த ஆழ்ந்த தத்துவக் கேள்விகளை ஆராய்கிறது.",
+    "enExample2": "The television scriptwriter used a poignant character soliloquy to conclude the dramatic season finale.",
+    "taExample2": "நாடகத் தொடரின் இறுதிக் காட்சியை முடிக்க தொலைக்காட்சி கதாசிரியர் உணர்ச்சிகரமான ஒரு கதாபாத்திர தனிமொழியைப் பயன்படுத்தினார்.",
+    "synonyms": [
+      "Monologue",
+      "Interior discourse",
+      "Self-talk"
+    ],
+    "antonyms": [
+      "Dialogue",
+      "Colloquy",
+      "Bilateral conversation"
+    ]
+  },
+  {
+    "id": 3593,
+    "word": "Solvency",
+    "pos": "noun",
+    "definition": "The possession of assets exceeding liabilities; the ability of a person or company to pay all their long-term debts as they become due.",
+    "taWord": "கடன் தீர்க்கும் ஆற்றல் / நிதி நிலைத்தன்மை",
+    "enExample": "Financial regulators conducted rigorous annual stress tests to verify the long-term solvency of systemically important investment banks.",
+    "taExample": "முக்கிய முதலீட்டு வங்கிகளின் நீண்ட கால கடன் தீர்க்கும் ஆற்றலை சரிபார்க்க நிதி ஒழுங்குமுறை அதிகாரிகள் கடுமையான வருடாந்திர சோதனைகளை நடத்தினர்.",
+    "enExample2": "The company restored its financial solvency by restructuring obligations and issuing long-term corporate bonds.",
+    "taExample2": "நீண்ட கால கார்ப்பரேட் பத்திரங்களை வெளியிட்டதன் மூலம் அந்த நிறுவனம் தனது நிதி நிலைத்தன்மையை மீட்டெடுத்தது.",
+    "synonyms": [
+      "Financial health",
+      "Creditworthiness",
+      "Liquidity strength",
+      "Fiscal viability"
+    ],
+    "antonyms": [
+      "Insolvency",
+      "Bankruptcy",
+      "Default",
+      "Deficit"
+    ]
+  },
+  {
     "id": 3143,
     "word": "Soporific",
     "pos": "adj.",
@@ -1407,6 +1519,29 @@
     "taExample2": "அனைத்து சர்வர்களும் ஒரே நேரத்தில் மறுதொடக்கம் ஆவதைத் தவிர்க்க வெளியீட்டு அமைப்பு படிநிலைப்படுத்தப்பட்ட (Staggered) தொடர் புதுப்பிப்புகளைப் பயன்படுத்துகிறது."
   },
   {
+    "id": 3560,
+    "word": "Stagnation",
+    "pos": "noun",
+    "definition": "A state of lack of activity, growth, circulation, or development; prolonged sluggishness in an economy or career.",
+    "taWord": "தேக்கநிலை / வளர்ச்சியின்மை",
+    "enExample": "Central bank economists warned that prolonged wage stagnation was dampening consumer spending across the nation.",
+    "taExample": "நீண்டகால ஊதியத் தேக்கநிலை நாடு முழுவதும் நுகர்வோர் செலவினங்களை குறைத்து வருவதாக பொருளாதார வல்லுநர்கள் எச்சரித்தனர்.",
+    "enExample2": "To escape technical stagnation, the software firm encouraged engineers to spend ten percent of their time on open-source exploration.",
+    "taExample2": "தொழில்நுட்ப தேக்கநிலையிலிருந்து விடுபட மென்பொருள் நிறுவனம் பொறியாளர்களை புதிய ஆய்வு பணிகளில் ஈடுபட ஊக்குவித்தது.",
+    "synonyms": [
+      "Inactivity",
+      "Sluggishness",
+      "Doldrums",
+      "Torpor"
+    ],
+    "antonyms": [
+      "Growth",
+      "Boom",
+      "Expansion",
+      "Dynamism"
+    ]
+  },
+  {
     "id": 1920,
     "word": "Stakeholder",
     "definition": "A person or group with a direct interest or investment in the success and features of a project.",
@@ -1495,6 +1630,28 @@
     "taExample2": "தினசரி காலை ஸ்டாண்ட்-அப் (Standup) கூட்டம் தடைகள், நடப்பு பணிகள் மற்றும் இலக்குகளில் பொறியியல் குழுவை ஒத்திசைவாக வைத்திருக்கிறது."
   },
   {
+    "id": 3581,
+    "word": "Status quo",
+    "pos": "noun",
+    "definition": "The existing state of affairs, particularly regarding social, political, or economic conditions.",
+    "taWord": "தற்போதைய நிலை / வழக்கமான நடைமுறை நிலை",
+    "enExample": "Voters expressed a clear desire for transformative political change rather than preserving the comfortable status quo.",
+    "taExample": "வழக்கமான நடைமுறை நிலையைப் பாதுகாப்பதை விட மாற்றத்தை ஏற்படுத்தும் அரசியல் மாற்றத்தையே வாக்காளர்கள் விரும்பினர்.",
+    "enExample2": "Disruptive technology startups aim to dismantle the industry status quo by delivering ten times better user experiences.",
+    "taExample2": "பத்து மடங்கு சிறந்த பயனர் அனுபவங்களை வழங்குவதன் மூலம் வழக்கமான தொழில்துறை நிலையை மாற்றியமைப்பதை தொழில்நுட்ப ஸ்டார்ட்-அப்கள் நோக்கமாகக் கொண்டுள்ளன.",
+    "synonyms": [
+      "Existing condition",
+      "Current state",
+      "Prevailing situation"
+    ],
+    "antonyms": [
+      "Revolution",
+      "Transformation",
+      "Disruption",
+      "Radical change"
+    ]
+  },
+  {
     "id": 3267,
     "word": "Stewardship",
     "pos": "Noun",
@@ -1578,6 +1735,29 @@
     ],
     "enExample2": "During backlog grooming, the team estimates story points to gauge the relative effort and complexity of tasks.",
     "taExample2": "பணிப்பட்டியல் ஆய்வின் போது பணிகளின் உழைப்பு மற்றும் சிக்கலை மதிப்பிட குழு ஸ்டோரி பாயிண்ட்டுகளை (Story points) மதிப்பிடுகிறது."
+  },
+  {
+    "id": 3561,
+    "word": "Strategic",
+    "pos": "adjective",
+    "definition": "Relating to the identification of long-term or overall aims and interests and the means of achieving them effectively.",
+    "taWord": "வியூக ரீதியான / நீண்ட கால நோக்குடைய",
+    "enExample": "The board voted in favor of a strategic merger to expand the corporation's footprint in emerging Asian markets.",
+    "taExample": "வளர்ந்து வரும் ஆசிய சந்தைகளில் நிறுவனத்தின் தடத்தை விரிவுபடுத்த ஒரு வியூக ரீதியான இணைப்பிற்கு இயக்குநரவை ஆதரவாக வாக்களித்தது.",
+    "enExample2": "In academic chess, grandmasters make subtle pawn sacrifices for long-term strategic advantage.",
+    "taExample2": "சதுரங்க விளையாட்டில் கிராண்ட்மாஸ்டர்கள் நீண்ட கால வியூக ரீதியான நன்மைக்காக ஆரம்ப காய்களை தியாகம் செய்கிறார்கள்.",
+    "synonyms": [
+      "Tactical",
+      "Calculated",
+      "Planned",
+      "Far-sighted"
+    ],
+    "antonyms": [
+      "Haphazard",
+      "Short-sighted",
+      "Random",
+      "Impulsive"
+    ]
   },
   {
     "id": 1913,
@@ -1719,6 +1899,29 @@
     "taExample2": "செயல்திறன் மேம்பாடு குறித்த கூற்றுகளை பொறியாளர்கள் நிரூபிக்கக்கூடிய சோதனை வரைபடங்களை வழங்கி உறுதிப்படுத்த (Substantiate) வேண்டும்."
   },
   {
+    "id": 3562,
+    "word": "Substantive",
+    "pos": "adjective",
+    "definition": "Having a firm basis in reality and so being important, meaningful, or considerable; dealing with real substance rather than form.",
+    "taWord": "உண்மையான முக்கியத்துவம் வாய்ந்த / அடிப்படையான",
+    "enExample": "BBC interviewers pressed the prime minister to offer substantive policy solutions rather than catchy political slogans.",
+    "taExample": "அரசியல் முழக்கங்களுக்குப் பதிலாக உண்மையான முக்கியத்துவம் வாய்ந்த கொள்கைத் தீர்வுகளை வழங்குமாறு பிரதமருக்கு பிபிசி நேர்காணலாளர்கள் அழுத்தம் கொடுத்தனர்.",
+    "enExample2": "The audit revealed substantive compliance issues that required immediate operational overhaul.",
+    "taExample2": "அந்த தணிக்கை உடனடியாக மறுசீரமைக்கப்பட வேண்டிய அடிப்படை இணக்கப் பிரச்சினைகளை வெளிப்படுத்தியது.",
+    "synonyms": [
+      "Meaningful",
+      "Significant",
+      "Tangible",
+      "Essential"
+    ],
+    "antonyms": [
+      "Superficial",
+      "Inconsequential",
+      "Trivial",
+      "Insubstantial"
+    ]
+  },
+  {
     "id": 3033,
     "word": "Subsume",
     "pos": "verb",
@@ -1740,6 +1943,28 @@
     ],
     "enExample2": "The modern all-in-one observability platform will subsume our separate logging, tracing, and metric collection tools.",
     "taExample2": "நவீன ஒருங்கிணைந்த கண்காணிப்புத் தளம் எங்கள் தனித்தனி பதிவு, தடமறிதல் மற்றும் அளவீட்டுக் கருவிகளைத் தன்னுள் இணைத்துக் கொள்ளும் (Subsume)."
+  },
+  {
+    "id": 3566,
+    "word": "Subtext",
+    "pos": "noun",
+    "definition": "An underlying and often distinct theme, message, or unspoken emotional tension in a piece of writing or conversation.",
+    "taWord": "உள்வரி / சொல்லப்படாத மறைமுக உட்கருத்து",
+    "enExample": "The television director praised the actors for conveying the bitter romantic subtext beneath their polite dinner conversation.",
+    "taExample": "மரியாதையான இரவு உணவு உரையாடலுக்கு அடியில் இருந்த கசப்பான உணர்வுகளை வெளிப்படுத்திய நடிகர்களை தொலைக்காட்சி இயக்குனர் பாராட்டினார்.",
+    "enExample2": "Diplomatic correspondents parsed the press conference transcript to uncover the subtle geopolitical subtext.",
+    "taExample2": "செய்தியாளர் சந்திப்பில் பேசப்பட்ட நுட்பமான புவிசார் அரசியல் உள்வரிகளை கண்டறிய நிருபர்கள் அறிக்கையை ஆராய்ந்தனர்.",
+    "synonyms": [
+      "Undercurrent",
+      "Hidden meaning",
+      "Nuance",
+      "Connotation"
+    ],
+    "antonyms": [
+      "Explicit statement",
+      "Literal text",
+      "Overt message"
+    ]
   },
   {
     "id": 2919,
@@ -2035,6 +2260,29 @@
     ]
   },
   {
+    "id": 3582,
+    "word": "Surveillance",
+    "pos": "noun",
+    "definition": "Close observation, especially of a suspected spy, criminal, or population, maintained by security authorities or digital systems.",
+    "taWord": "கண்காணிப்பு / உளவுப் பார்வை",
+    "enExample": "Privacy advocates criticized the deployment of mass facial recognition surveillance cameras across public transport terminals.",
+    "taExample": "பொதுப் போக்குவரத்து முனையங்களில் வெகுஜன முக அங்கீகார கண்காணிப்பு கேமராக்கள் பொருத்தப்பட்டதை தனியுரிமை ஆர்வலர்கள் விமர்சித்தனர்.",
+    "enExample2": "The BBC technology podcast explored the business models of commercial surveillance capitalism in digital advertising.",
+    "taExample2": "டிஜிட்டல் விளம்பரத் துறையில் பயனர் தரவு கண்காணிப்பு வணிக மாதிரிகள் குறித்து பிபிசி தொழில்நுட்ப பாட்காஸ்ட் ஆராய்ந்தது.",
+    "synonyms": [
+      "Monitoring",
+      "Observation",
+      "Vigilance",
+      "Scrutiny"
+    ],
+    "antonyms": [
+      "Privacy",
+      "Seclusion",
+      "Neglect",
+      "Blind spot"
+    ]
+  },
+  {
     "id": 2632,
     "word": "Sus",
     "definition": "Suspicious, dubious, untrustworthy, or questionable.",
@@ -2116,6 +2364,29 @@
     ],
     "enExample2": "A great engineering leader seeks honest critical feedback rather than surrounding themselves with agreeable sycophants.",
     "taExample2": "ஒரு சிறந்த பொறியியல் தலைவர் முகஸ்துதி செய்யும் நபர்களுக்குப் (Sycophants) பதிலாக உண்மையான விமர்சனக் கருத்துக்களைத் தேடுகிறார்."
+  },
+  {
+    "id": 3563,
+    "word": "Symbiosis",
+    "pos": "noun",
+    "definition": "A mutually beneficial interaction or relationship between different organisms, individuals, or commercial organizations.",
+    "taWord": "கூட்டுயிர் வாழ்க்கை / பரஸ்பர நன்மை தரும் கூட்டுறவு",
+    "enExample": "The commercial partnership created a profitable symbiosis where the hardware maker gained exclusive cloud software tools.",
+    "taExample": "அந்த வணிகக் கூட்டுறவு இரு நிறுவனங்களுக்கும் பரஸ்பர நன்மை தரும் லாபகரமான கூட்டுறவை உருவாக்கியது.",
+    "enExample2": "Scholars emphasize the delicate ecological symbiosis between coral reefs and marine algae.",
+    "taExample2": "பவளப்பாறைகளுக்கும் கடல் பாசிகளுக்கும் இடையே உள்ள மென்மையான பரஸ்பர வாழ்க்கை முறையை அறிஞர்கள் வலியுறுத்துகின்றனர்.",
+    "synonyms": [
+      "Mutualism",
+      "Interdependence",
+      "Reciprocity",
+      "Cooperation"
+    ],
+    "antonyms": [
+      "Parasitism",
+      "Hostility",
+      "Antagonism",
+      "Conflict"
+    ]
   },
   {
     "id": 1921,

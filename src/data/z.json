@@ -68,6 +68,27 @@
     "taExample2": "அனைத்து நுண்சேவைகளிலும் 100% சோதனைப் பாதுகாப்பை அடைவதில் குழு தீவிரமான உறுதியுடன் (Zealous) இருந்தது."
   },
   {
+    "id": 3576,
+    "word": "Zeitgeist",
+    "pos": "noun",
+    "definition": "The defining spirit, mood, or cultural ethos of a particular period of history as shown by the ideas, art, and beliefs of the time.",
+    "taWord": "காலத்தின் மனநிலை / ஒரு காலகட்டத்தின் பண்பாட்டுச் சூழல்",
+    "enExample": "The award-winning television series perfectly captured the paranoid zeitgeist of the post-Cold War era.",
+    "taExample": "பனிப்போருக்குப் பிந்தைய காலகட்டத்தின் கலாச்சார மனநிலையை அந்த விருது பெற்ற தொலைக்காட்சித் தொடர் கச்சிதமாகப் படம்பிடித்தது.",
+    "enExample2": "Generative artificial intelligence has unquestionably become the defining technological zeitgeist of the 2020s.",
+    "taExample2": "உருவாக்க செயற்கை நுண்ணறிவு சந்தேகத்திற்கு இடமின்றி 2020-களின் தொழில்நுட்பக் காலச்சூழலை வரையறுக்கும் அடையாளமாக மாறியுள்ளது.",
+    "synonyms": [
+      "Spirit of the age",
+      "Cultural climate",
+      "Ethos",
+      "Mood of the era"
+    ],
+    "antonyms": [
+      "Anachronism",
+      "Timelessness"
+    ]
+  },
+  {
     "id": 2617,
     "word": "Zenith",
     "definition": "The time at which something is most powerful or successful.",

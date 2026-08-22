@@ -316,6 +316,28 @@
     "taExample2": "எண் அடிப்படையிலான ஆஃப்செட் (Offset) வினவல்களுக்குப் பதிலாக கீசெட் முறையைப் பயன்படுத்துவது ஆழமான தரவுத்தள தேடலை விரைவுபடுத்துகிறது."
   },
   {
+    "id": 3580,
+    "word": "Oligarchy",
+    "pos": "noun",
+    "definition": "A small group of people having control of a country, organization, or institution, typically for self-serving economic gain.",
+    "taWord": "சிலவர் ஆட்சி / பெரும் செல்வந்தர் குழு அதிகாரம்",
+    "enExample": "BBC documentary filmmakers investigated how privatization had concentrated national energy wealth into the hands of a corrupt oligarchy.",
+    "taExample": "தனியார்மயமாக்கல் எவ்வாறு நாட்டின் எரிசக்தி செல்வத்தை ஊழல் நிறைந்த சிலவர் குழு அதிகாரத்தின் கைகளில் குவித்தது என்பதை பிபிசி ஆவணப்பட இயக்குநர்கள் விசாரித்தனர்.",
+    "enExample2": "Scholars warn that unregulated campaign financing risks turning modern representative democracies into de facto oligarchies.",
+    "taExample2": "கட்டுப்பாடற்ற தேர்தல் நிதி நவீன ஜனநாயகங்களை நடைமுறையில் சிலவர் ஆதிக்க ஆட்சியாக மாற்றிவிடும் என்று அறிஞர்கள் எச்சரிக்கின்றனர்.",
+    "synonyms": [
+      "Plutocracy",
+      "Ruling elite",
+      "Autocratic clique",
+      "Cabal"
+    ],
+    "antonyms": [
+      "Direct democracy",
+      "Egalitarian society",
+      "Meritocracy"
+    ]
+  },
+  {
     "id": 2890,
     "word": "Ombudsman",
     "pos": "noun",
@@ -563,6 +585,26 @@
     "taExample2": "a + b என்ற கணிதக் கூற்றில் a மற்றும் b மாறிகள் கூட்டல் குறியீட்டிற்கான செயலேற்பிகளாக (Operands) செயல்படுகின்றன."
   },
   {
+    "id": 3544,
+    "word": "Opportunity cost",
+    "pos": "noun",
+    "definition": "The loss of potential gain from other alternatives when one alternative is chosen.",
+    "taWord": "வாய்ப்பு இழப்புச் செலவு / மாற்று வாய்ப்பின் இழப்பு",
+    "enExample": "Senior executives evaluated the opportunity cost of investing capital in legacy hardware rather than expanding AI cloud infrastructure.",
+    "taExample": "கிளவுட் உள்கட்டமைப்பை விரிவாக்குவதற்கு பதிலாக பழைய சாதனங்களில் மூலதனத்தை முதலீடு செய்வதால் ஏற்படும் வாய்ப்பு இழப்பை நிர்வாகிகள் மதிப்பிட்டனர்.",
+    "enExample2": "Students should consider the opportunity cost of delaying higher education when deciding to enter the immediate job market.",
+    "taExample2": "உடனடி வேலைக்குச் செல்வதா அல்லது உயர்கல்வி பயில்வதா என முடிவெடுக்கும் போது மாற்று வாய்ப்பின் இழப்பை மாணவர்கள் சிந்திக்க வேண்டும்.",
+    "synonyms": [
+      "Alternative forfeiture",
+      "Foregone benefit",
+      "Trade-off cost"
+    ],
+    "antonyms": [
+      "Direct cash cost",
+      "Absolute return"
+    ]
+  },
+  {
     "id": 2736,
     "word": "Optimistic Locking",
     "pos": "noun",
@@ -682,6 +724,29 @@
     "taExample2": "CORS விதிகள் பிற மூலத்தில் (Origin) உள்ள API-களை அங்கீகரிக்கப்படாத ஸ்கிரிப்டுகள் அணுகுவதைத் தடுக்கின்றன."
   },
   {
+    "id": 3542,
+    "word": "Orthogonal",
+    "pos": "adjective",
+    "definition": "Statistically independent or uncorrelated; in software and mathematics, allowing separate components to be modified without affecting each other.",
+    "taWord": "ஒன்றுக்கொன்று தொடர்பற்ற / தனித்தனியாக இயங்கக்கூடிய",
+    "enExample": "Software architects strive to design orthogonal features so that updating payment logic never breaks the notifications engine.",
+    "taExample": "பணம் செலுத்தும் பகுதியை மாற்றியமைப்பது அறிவிப்பு அமைப்பை பாதிக்காத வகையில் தன்னிச்சையாக இயங்கும் மென்பொருள் கூறுகளை கட்டமைப்பாளர்கள் உருவாக்குகிறார்கள்.",
+    "enExample2": "The philosopher argued that moral virtue and commercial success are essentially orthogonal dimensions of human life.",
+    "taExample2": "ஒழுக்க நெறியும் வணிக வெற்றியும் மனித வாழ்க்கையின் ஒன்றுக்கொன்று தொடர்பற்ற இருவேறு பரிமாணங்கள் என்று தத்துவஞானி வாதிட்டார்.",
+    "synonyms": [
+      "Independent",
+      "Decoupled",
+      "Uncorrelated",
+      "Perpendicular"
+    ],
+    "antonyms": [
+      "Interdependent",
+      "Correlated",
+      "Entangled",
+      "Coupled"
+    ]
+  },
+  {
     "id": 2992,
     "word": "Ostensible",
     "pos": "adj.",
@@ -704,6 +769,29 @@
     ],
     "enExample2": "The ostensible purpose of the meeting was architecture review, but the real topic was budget reallocations.",
     "taExample2": "கூட்டத்தின் வெளிப்படையான (Ostensible) நோக்கம் கட்டமைப்பு மறுஆய்வு என கூறப்பட்டாலும் உண்மையான விஷயம் நிதி மறுஒதுக்கீடே ஆகும்."
+  },
+  {
+    "id": 3543,
+    "word": "Ostensibly",
+    "pos": "adverb",
+    "definition": "Apparently or purportedly, but perhaps not actually or truthfully; outwardly on the surface.",
+    "taWord": "வெளிப்பார்வைக்கு / பாசாங்காக / தோற்ற அளவில்",
+    "enExample": "The diplomat traveled abroad ostensibly for a trade convention, though insiders knew confidential peace talks were the real purpose.",
+    "taExample": "வர்த்தக மாநாட்டிற்காக செல்வதாக வெளிப்பார்வைக்குக் கூறி தூதர் பயணம் செய்தாலும், ரகசிய அமைதிப் பேச்சுவார்த்தையே உண்மையான நோக்கமாக இருந்தது.",
+    "enExample2": "The update was ostensibly designed to patch security bugs, but users discovered it also contained telemetry trackers.",
+    "taExample2": "இந்த புதுப்பிப்பு வெளிப்பார்வைக்கு பாதுகாப்பு பிழைகளை சரிசெய்ய வடிவமைக்கப்பட்டதாக கூறப்பட்டாலும், கண்காணிப்பு நிரல்களும் அதில் இருந்தது கண்டறியப்பட்டது.",
+    "synonyms": [
+      "Purportedly",
+      "Apparently",
+      "Seemingly",
+      "On the surface"
+    ],
+    "antonyms": [
+      "Genuinely",
+      "Truly",
+      "In reality",
+      "Authentically"
+    ]
   },
   {
     "id": 1518,
@@ -910,5 +998,26 @@
     ],
     "enExample2": "The engineering team completed a comprehensive overhaul of the legacy authentication pipeline to support biometric logins.",
     "taExample2": "பயோமெட்ரிக் உள்நுழைவை ஆதரிக்க பழைய அங்கீகார அமைப்பில் ஒரு முழுமையான மறுசீரமைப்பை (Overhaul) குழு நிறைவு செய்தது."
+  },
+  {
+    "id": 3545,
+    "word": "Oxymoron",
+    "pos": "noun",
+    "definition": "A figure of speech in which apparently contradictory terms appear in conjunction (e.g., 'deafening silence' or 'virtual reality').",
+    "taWord": "முரண் அணி / ஒன்றோடொன்று முரண்படும் சொற்கோவை",
+    "enExample": "The BBC commentator quipped that the phrase 'honest politician' often sounds like a classic oxymoron.",
+    "taExample": "'நேர்மையான அரசியல்வாதி' என்ற சொற்றொடர் பெரும்பாலும் ஒரு உன்னதமான முரண் அணியாகத் தோன்றுகிறது என்று பிபிசி வர்ணனையாளர் நகைச்சுவையாகக் கூறினார்.",
+    "enExample2": "In modern technology discourse, terms like 'open secret' and 'controlled chaos' are frequently employed oxymorons.",
+    "taExample2": "நவீன தொழில்நுட்ப விவாதங்களில் 'கட்டுப்படுத்தப்பட்ட குழப்பம்' போன்ற சொற்றொடர்கள் அடிக்கடி பயன்படுத்தப்படும் முரண் அணிகளாகும்.",
+    "synonyms": [
+      "Contradiction in terms",
+      "Paradoxical phrase",
+      "Antinomy"
+    ],
+    "antonyms": [
+      "Tautology",
+      "Redundancy",
+      "Literal harmony"
+    ]
   }
 ]

@@ -139,6 +139,26 @@
     "taExample2": "கிளவுட் விசை மேலாண்மை சேவை (KMS) குறியாக்க முதன்மை விசைகளின் தானியங்கி சுழற்சி மற்றும் பாதுகாப்பான சேமிப்பைக் கையாள்கிறது."
   },
   {
+    "id": 3529,
+    "word": "Key performance indicator",
+    "pos": "noun",
+    "definition": "A quantifiable measure used to evaluate the success of an organization or project in meeting objectives for performance.",
+    "taWord": "முக்கிய செயல்திறன் அளவுகோல்",
+    "enExample": "Customer churn rate and monthly recurring revenue serve as the primary Key Performance Indicators for subscription software businesses.",
+    "taExample": "வாடிக்கையாளர் வெளியேற்ற விகிதம் மற்றும் மாதாந்திர வருவாய் ஆகியவை சந்தா மென்பொருள் வணிகங்களின் முதன்மை செயல்திறன் அளவுகோல்களாகும்.",
+    "enExample2": "Executives review team KPIs during quarterly business reviews to reallocate corporate resources effectively.",
+    "taExample2": "கார்ப்பரேட் வளங்களை திறம்பட ஒதுக்க காலாண்டு வணிக ஆய்வுகளின் போது உயர் அதிகாரிகள் குழுவின் செயல்திறன் அளவுகோல்களை ஆய்வு செய்கிறார்கள்.",
+    "synonyms": [
+      "Performance metric",
+      "Benchmark metric",
+      "Success metric"
+    ],
+    "antonyms": [
+      "Qualitative guesswork",
+      "Arbitrary appraisal"
+    ]
+  },
+  {
     "id": 3456,
     "word": "key takeaway",
     "pos": "noun",

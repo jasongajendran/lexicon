@@ -313,6 +313,26 @@
     "taExample2": "அனைத்து நுண்சேவைகளிலும் சீரான (Uniform) குறியீட்டு வடிவமைப்பை அமல்படுத்துவது உருவாக்குநர்களின் வாசிப்புத் திறனை மேம்படுத்துகிறது."
   },
   {
+    "id": 3571,
+    "word": "Unit economics",
+    "pos": "noun",
+    "definition": "Direct revenues and costs associated with a specific business model expressed on a per-unit basis (e.g., cost to acquire one customer versus customer lifetime value).",
+    "taWord": "தனி அலகுப் பொருளாதாரம் / ஒரு வாடிக்கையாளருக்கான லாப நட்ட கணக்கீடு",
+    "enExample": "The venture fund required the food delivery platform to prove positive unit economics before releasing Series C funding.",
+    "taExample": "அடுத்த கட்ட நிதியை விடுவிப்பதற்கு முன் ஒரு வாடிக்கையாளருக்கான லாபத்தை நிரூபிக்குமாறு முதலீட்டு நிதி நிறுவனம் கோரியது.",
+    "enExample2": "By streamlining warehouse automation, the retailer achieved healthy unit economics on low-cost grocery shipments.",
+    "taExample2": "கிடங்கு தானியங்கி முறையை மேம்படுத்தியதன் மூலம் குறைந்த விலை பொருட்களின் விநியோகத்திலும் சில்லறை நிறுவனம் சிறந்த லாபத்தைப் பெற்றது.",
+    "synonyms": [
+      "Per-unit profitability",
+      "Marginal economics",
+      "Unit contribution margin"
+    ],
+    "antonyms": [
+      "Gross macro revenue",
+      "Aggregate expenditure"
+    ]
+  },
+  {
     "id": 2106,
     "word": "Unit Test",
     "definition": "An automated software test that isolates and verifies the individual smallest testable code modules.",

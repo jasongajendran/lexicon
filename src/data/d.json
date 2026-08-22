@@ -108,6 +108,29 @@
     "taExample2": "தொடர்ந்து மூன்று முறை தரவு சரிபார்ப்பில் தோல்வியடையும் செய்திகள் ஆய்வுக்காக முடக்கப்பட்ட செய்தி வரிசைக்கு (Dead Letter Queue) அனுப்பப்படுகின்றன."
   },
   {
+    "id": 3508,
+    "word": "Deadlock",
+    "pos": "noun",
+    "definition": "A situation where two or more processes or parties are unable to act because each is waiting for the other to release resources or concede.",
+    "taWord": "முட்டுக்கட்டை / தேக்கநிலை",
+    "enExample": "The database administrator resolved a severe deadlock caused by concurrent transaction locks on shared tables.",
+    "taExample": "பகிரப்பட்ட அட்டவணைகளில் ஒரே நேரத்தில் ஏற்பட்ட பூட்டுகளால் உண்டான கடுமையான முட்டுக்கட்டையை தரவுத்தள நிர்வாகி சரிசெய்தார்.",
+    "enExample2": "Diplomatic peace negotiations reached an absolute deadlock when both factions refused to withdraw forces from the frontier.",
+    "taExample2": "இரு பிரிவினரும் எல்லையிலிருந்து படைகளைத் திரும்பப் பெற மறுத்ததால் அமைதிப் பேச்சுவார்த்தை முழுமையான முட்டுக்கட்டையை அடைந்தது.",
+    "synonyms": [
+      "Stalemate",
+      "Gridlock",
+      "Impasse",
+      "Standstill"
+    ],
+    "antonyms": [
+      "Progress",
+      "Resolution",
+      "Breakthrough",
+      "Flow"
+    ]
+  },
+  {
     "id": 426,
     "word": "Dearth",
     "definition": "A scarcity or lack of something.",
@@ -210,6 +233,27 @@
     ],
     "enExample2": "Engineers used dynamic tracing tools to debug intermittent WebSocket dropouts in the chat application.",
     "taExample2": "உரையாடல் பயன்பாட்டில் ஏற்பட்ட அவ்வப்போதைய இணைப்புத் துண்டிப்புகளை பிழைத்திருத்த (Debug) பொறியாளர்கள் ஆய்வுக் கருவிகளைப் பயன்படுத்தினர்."
+  },
+  {
+    "id": 3507,
+    "word": "Declarative",
+    "pos": "adjective",
+    "definition": "In programming and linguistics, denoting a paradigm that expresses the logic of a computation without describing its detailed control flow.",
+    "taWord": "விளக்கமான / என்ன செய்ய வேண்டும் என்பதை மட்டும் குறிப்பிடும் பாணி",
+    "enExample": "React enables developers to build user interfaces using a declarative syntax rather than imperative DOM manipulation.",
+    "taExample": "நேரடி DOM மாற்றங்களுக்குப் பதிலாக விளக்கமான குறியீட்டு பாணியைப் பயன்படுத்தி பயனர் இடைமுகங்களை உருவாக்க ரியாக்ட் அனுமதிக்கிறது.",
+    "enExample2": "Declarative database query languages allow data analysts to specify desired results without managing raw memory pointers.",
+    "taExample2": "விளக்கமான தரவுத்தள வினவல் மொழிகள் தரவு ஆய்வாளர்கள் கணினி நினைவகத்தை கையாளாமல் விரும்பிய முடிவுகளைப் பெற உதவுகின்றன.",
+    "synonyms": [
+      "Descriptive",
+      "Intent-based",
+      "Expository"
+    ],
+    "antonyms": [
+      "Imperative",
+      "Procedural",
+      "Step-by-step"
+    ]
   },
   {
     "id": 402,
@@ -451,6 +495,28 @@
     "taExample2": "JSON அல்லது புரோட்டோகால் பஃபர்ஸை தேர்ந்தெடுப்பது குறித்து கட்டடக் குழு தீவிர விவாதத்தை நடத்தியது."
   },
   {
+    "id": 3501,
+    "word": "Deliberation",
+    "pos": "noun",
+    "definition": "Long and careful consideration, debate, or discussion before reaching a final judgment or decision.",
+    "taWord": "ஆழ்ந்த பரிசீலனை / கலந்தாலோசனை",
+    "enExample": "After extensive deliberation, the monetary policy committee decided to keep interest rates steady.",
+    "taExample": "ஆழ்ந்த பரிசீலனைக்குப் பிறகு, பணவியல் கொள்கைக் குழு வட்டி விகிதங்களை மாற்றாமல் வைத்திருக்க முடிவு செய்தது.",
+    "enExample2": "The jury's secret deliberations lasted four days before a unanimous verdict was reached.",
+    "taExample2": "ஒருமனதான தீர்ப்பை எட்டுவதற்கு முன் நடுவர் மன்றத்தின் ரகசிய கலந்தாலோசனை நான்கு நாட்கள் நீடித்தது.",
+    "synonyms": [
+      "Contemplation",
+      "Reflection",
+      "Consultation",
+      "Pondering"
+    ],
+    "antonyms": [
+      "Haste",
+      "Impulsiveness",
+      "Rash decision"
+    ]
+  },
+  {
     "id": 2981,
     "word": "Delineate",
     "pos": "verb",
@@ -625,6 +691,52 @@
     "taExample2": "வினவல் உகப்பாக்கத்திற்குப் பிறகு API பதில் நேரத்தில் 40% குறைப்பு ஏற்பட்டுள்ளதை தானியங்கி அளவீடுகள் நிரூபிக்கின்றன."
   },
   {
+    "id": 3502,
+    "word": "Demystify",
+    "pos": "verb",
+    "definition": "Make a difficult or esoteric subject clearer and easier to understand for a broader audience.",
+    "taWord": "புரியும்படி விளக்குதல் / மர்மத்தை நீக்குதல்",
+    "enExample": "The senior engineer published an insightful tutorial to demystify complex distributed consensus algorithms.",
+    "taExample": "சிக்கலான விநியோகிக்கப்பட்ட ஒருமித்த வழிமுறைகளை எளிமையாக விளக்கும் பயனுள்ள கையேட்டை மூத்த பொறியாளர் வெளியிட்டார்.",
+    "enExample2": "BBC educational broadcasts aim to demystify scientific breakthroughs for the general public.",
+    "taExample2": "அறிவியல் சாதனைகளை பொதுமக்களுக்கு எளிதாக புரியும்படி விளக்குவதை பிபிசி கல்வி ஒளிபரப்புகள் நோக்கமாகக் கொண்டுள்ளன.",
+    "synonyms": [
+      "Clarify",
+      "Elucidate",
+      "Simplify",
+      "Illuminate"
+    ],
+    "antonyms": [
+      "Obfuscate",
+      "Complicate",
+      "Mystify",
+      "Confuse"
+    ]
+  },
+  {
+    "id": 3506,
+    "word": "Denouement",
+    "pos": "noun",
+    "definition": "The final part of a play, film, or narrative in which the strands of the plot are drawn together and matters are resolved.",
+    "taWord": "கதையின் முடிவு / சிக்கல் அவிழும் இறுதிப் பகுதி",
+    "enExample": "The literary critic praised the crime novel's unexpected denouement for seamlessly tying up every narrative thread.",
+    "taExample": "ஒவ்வொரு கதைக் களத்தையும் நேர்த்தியாக இணைத்த குற்ற நாவலின் எதிர்பாராத இறுதிப் பகுதியை இலக்கிய விமர்சகர் பாராட்டினார்.",
+    "enExample2": "Viewers tuned in to the series finale eager to witness the dramatic denouement of the political saga.",
+    "taExample2": "அரசியல் நாடகத் தொடரின் விறுவிறுப்பான இறுதித் தீர்வை காண பார்வையாளர்கள் ஆவலுடன் தொலைக்காட்சியைப் பார்த்தனர்.",
+    "synonyms": [
+      "Resolution",
+      "Finale",
+      "Conclusion",
+      "Culmination"
+    ],
+    "antonyms": [
+      "Beginning",
+      "Exposition",
+      "Prologue",
+      "Introduction"
+    ]
+  },
+  {
     "id": 406,
     "word": "Dependency",
     "definition": "A program or piece of code that another relies on to function.",
@@ -796,6 +908,29 @@
     "taExample2": "ஊடுருவல் தடுப்பு அமைப்பு அசாதாரண நெட்வொர்க் முரண்பாடுகளை பத்து மில்லி விநாடிகளுக்குள் கண்டறிய முடியும்."
   },
   {
+    "id": 3579,
+    "word": "Detente",
+    "pos": "noun",
+    "definition": "The easing of hostility or strained relations, especially between countries.",
+    "taWord": "பதற்றம் தணிதல் / பகையுணர்வு குறைதல்",
+    "enExample": "The surprise summit heralded a welcome period of nuclear detente between the two competing superpowers.",
+    "taExample": "அந்த எதிர்பாராத உச்சிமாநாடு இரு பெரும் வல்லரசுகளுக்கு இடையே அணு ஆயுத பதற்றம் தணியும் ஒரு காலகட்டத்தை உருவாக்கியது.",
+    "enExample2": "Diplomats worked behind the scenes to preserve the fragile regional detente amidst cross-border skirmishes.",
+    "taExample2": "எல்லை மோதல்களுக்கு மத்தியில் பலவீனமான பிராந்திய அமைதியைப் பாதுகாக்க தூதர்கள் பின்னணியில் தீவிரமாக பணியாற்றினர்.",
+    "synonyms": [
+      "Rapprochement",
+      "De-escalation",
+      "Easing of tension",
+      "Truce"
+    ],
+    "antonyms": [
+      "Escalation",
+      "Hostility",
+      "Cold war",
+      "Antagonism"
+    ]
+  },
+  {
     "id": 2849,
     "word": "Deteriorate",
     "pos": "verb",
@@ -901,6 +1036,28 @@
     ],
     "enExample2": "Enabling detailed logging diagnostics helped engineers isolate the root cause of the memory spike.",
     "taExample2": "விரிவான கண்டறியும் பதிவுகளை (Diagnostics) இயக்கியது நினைவக உயர்வின் மூல காரணத்தைக் கண்டறிய பொறியாளர்களுக்கு உதவியது."
+  },
+  {
+    "id": 3596,
+    "word": "Dialectic",
+    "pos": "noun",
+    "definition": "The art or practice of arriving at the truth by the exchange of logical arguments; a process of resolving thesis and antithesis through synthesis.",
+    "taWord": "இயக்கவியல் / வாதப் பிரதிவாதங்கள் மூலம் உண்மை காணும் முறை",
+    "enExample": "Socrates engaged in relentless philosophical dialectic to dismantle unwarranted assumptions and uncover ethical definitions.",
+    "taExample": "தவறான அனுமானங்களை உடைத்து அறநெறி உண்மைகளைக் கண்டறிய சாக்ரடீஸ் இடைவிடாத தத்துவ இயக்கவியல் விவாதங்களில் ஈடுபட்டார்.",
+    "enExample2": "Scholars analyzed the political conflict as a historical dialectic between progressive reform and conservative tradition.",
+    "taExample2": "அரசியல் மோதலை முற்போக்கு சீர்திருத்தத்திற்கும் பழமைவாத மரபிற்கும் இடையிலான வரலாற்று இயக்கவியல் விவாதமாக அறிஞர்கள் ஆய்வு செய்தனர்.",
+    "synonyms": [
+      "Logical debate",
+      "Discourse",
+      "Socratic questioning",
+      "Argumentation"
+    ],
+    "antonyms": [
+      "Dogmatism",
+      "Uncritical acceptance",
+      "Dictate"
+    ]
   },
   {
     "id": 3345,
@@ -1127,6 +1284,29 @@
     ],
     "enExample2": "The application was refactored into discrete independent services communicating over gRPC.",
     "taExample2": "பயன்பாடானது gRPC வழியாக தொடர்பு கொள்ளும் தனித்தனி சுயாதீன சேவைகளாக மறுசீரமைக்கப்பட்டது."
+  },
+  {
+    "id": 3503,
+    "word": "Disenfranchise",
+    "pos": "verb",
+    "definition": "To deprive an individual or community of a legal right, privilege, or immunity, especially the right to vote or participate in governance.",
+    "taWord": "உரிமையைப் பறித்தல் / வாக்குரிமை மறுத்தல்",
+    "enExample": "Human rights advocates warned that strict new identification laws would disenfranchise marginalized rural voters.",
+    "taExample": "புதிய கடுமையான அடையாள அட்டைகள் விளிம்புநிலை கிராமப்புற வாக்காளர்களின் வாக்குரிமையைப் பறிக்கும் என்று மனித உரிமை ஆர்வலர்கள் எச்சரித்தனர்.",
+    "enExample2": "Corporate restructuring without employee representation risks disenfranchising key technical contributors.",
+    "taExample2": "ஊழியர் பிரதிநிதித்துவம் இல்லாத நிறுவன மறுசீரமைப்பு முக்கிய தொழில்நுட்ப வல்லுநர்களின் உரிமையை பறிக்கும் அபாயத்தைக் கொண்டுள்ளது.",
+    "synonyms": [
+      "Disempower",
+      "Deprive",
+      "Divest",
+      "Marginalize"
+    ],
+    "antonyms": [
+      "Enfranchise",
+      "Empower",
+      "Include",
+      "Privilege"
+    ]
   },
   {
     "id": 2851,
@@ -1439,6 +1619,29 @@
     "taExample2": "மறைக்கப்பட்ட அபாயங்களை வெளிக்கொணர தொழில்நுட்ப வடிவமைப்பு கூட்டங்களில் ஆக்கப்பூர்வமான மாற்றுக் கருத்துக்களை முதன்மை வடிவமைப்பாளர் வரவேற்றார்."
   },
   {
+    "id": 3504,
+    "word": "Dissident",
+    "pos": "noun",
+    "definition": "A person who actively opposes official policy, regime authority, or established institutional doctrines.",
+    "taWord": "கருத்து வேறுபாடு கொண்ட எதிர்ப்பாளர் / அதிருப்தியாளர்",
+    "enExample": "The exiled political dissident addressed the international human rights forum via secure video uplink.",
+    "taExample": "நாடுகடத்தப்பட்ட அரசியல் அதிருப்தியாளர் சர்வதேச மனித உரிமைகள் மன்றத்தில் பாதுகாப்பான காணொளி வாயிலாக உரையாற்றினார்.",
+    "enExample2": "BBC News correspondents reported on the trial of prominent anti-corruption dissidents in the capital city.",
+    "taExample2": "தலைநகரில் முக்கிய ஊழல் எதிர்ப்புப் போராளிகள் மீதான விசாரணையை பிபிசி செய்தி நிருபர்கள் அறிக்கையிட்டனர்.",
+    "synonyms": [
+      "Rebel",
+      "Nonconformist",
+      "Protester",
+      "Objector"
+    ],
+    "antonyms": [
+      "Conformist",
+      "Loyalist",
+      "Supporter",
+      "Adherent"
+    ]
+  },
+  {
     "id": 438,
     "word": "Distinctive",
     "definition": "Characteristic of one person or thing, serving to distinguish it from others.",
@@ -1552,6 +1755,51 @@
     ],
     "enExample2": "The application supports a diverse range of client platforms, from smart watches to desktop browsers.",
     "taExample2": "இந்த பயன்பாடு ஸ்மார்ட் வாட்ச்கள் முதல் டெஸ்க்டாப் உலாவிகள் வரை பலதரப்பட்ட பயனர் தளங்களை ஆதரிக்கிறது."
+  },
+  {
+    "id": 3591,
+    "word": "Divestiture",
+    "pos": "noun",
+    "definition": "The partial or full disposal of a business unit or investment through sale, exchange, closure, or bankruptcy.",
+    "taWord": "பிரித்தெடுத்து விற்றல் / முதலீட்டைத் திரும்பப் பெறுதல்",
+    "enExample": "To satisfy regulatory antitrust conditions for the merger, the conglomerate completed the divestiture of its regional broadcasting division.",
+    "taExample": "இணைப்புக்கான ஒழுங்குமுறை நிபந்தனைகளைப் பூர்த்தி செய்ய அந்த பெருநிறுவனம் தனது பிராந்திய ஒளிபரப்புப் பிரிவை பிரித்தெடுத்து விற்றது.",
+    "enExample2": "The corporate restructuring plan included the divestiture of unprofitable legacy manufacturing assets.",
+    "taExample2": "நிறுவன மறுசீரமைப்புத் திட்டத்தில் லாபமற்ற பழைய உற்பத்தி சொத்துக்களை பிரித்தெடுத்து விற்பதும் அடங்கும்.",
+    "synonyms": [
+      "Asset sale",
+      "Divestment",
+      "Disposal",
+      "Spin-off"
+    ],
+    "antonyms": [
+      "Acquisition",
+      "Merger",
+      "Capital consolidation"
+    ]
+  },
+  {
+    "id": 3505,
+    "word": "Divisive",
+    "pos": "adjective",
+    "definition": "Tending to cause disagreement, hostility, or polarization between people or social groups.",
+    "taWord": "பிளவை உண்டாக்குகிற / பிரித்தாளும் நோக்குடைய",
+    "enExample": "The editorial criticized the politician's divisive campaign rhetoric for inflaming cultural tensions.",
+    "taExample": "கலாச்சார பதற்றங்களைத் தூண்டும் அரசியல்வாதியின் பிளவை உண்டாக்கும் பிரச்சார உரையை தலையங்கம் விமர்சித்தது.",
+    "enExample2": "Introducing unannounced compensation policies proved divisive among engineering team members.",
+    "taExample2": "அறிவிக்கப்படாத ஊதியக் கொள்கைகளை அறிமுகப்படுத்தியது பொறியியல் குழு உறுப்பினர்களிடையே பிளவை ஏற்படுத்தியது.",
+    "synonyms": [
+      "Polarizing",
+      "Discordant",
+      "Alienating",
+      "Factional"
+    ],
+    "antonyms": [
+      "Unifying",
+      "Harmonious",
+      "Conciliatory",
+      "Cohesive"
+    ]
   },
   {
     "id": 417,
@@ -1936,5 +2184,27 @@
     ],
     "enExample2": "Dynamic routing algorithms recalculate network traffic paths in real time based on observed link congestion.",
     "taExample2": "டைனமிக் ரூட்டிங் வழிமுறைகள் நெட்வொர்க் நெரிசலின் அடிப்படையில் போக்குவரத்து பாதைகளை நிகழ்நேரத்தில் மீண்டும் கணக்கிடுகின்றன."
+  },
+  {
+    "id": 3602,
+    "word": "Dystopia",
+    "pos": "noun",
+    "definition": "An imagined state or society in which there is great suffering or injustice, typically one that is totalitarian or post-apocalyptic.",
+    "taWord": "துயர உலகம் / மனித நசுக்கல்களும் அநீதிகளும் நிறைந்த கற்பனைச் சமூகம்",
+    "enExample": "Classic works like 1984 and Brave New World depict a terrifying technological dystopia where individual liberty is systematically erased.",
+    "taExample": "1984 மற்றும் பிரேவ் நியூ வேர்ல்ட் போன்ற உன்னத படைப்புகள் தனிநபர் சுதந்திரம் அழிக்கப்பட்ட ஒரு பயங்கரமான துயர உலகைச் சித்தரிக்கின்றன.",
+    "enExample2": "The sci-fi television series envisioned a corporate-dominated future dystopia suffering from extreme climate devastation.",
+    "taExample2": "பெருநிறுவனங்கள் ஆதிக்கம் செலுத்தும் தீவிர காலநிலை அழிவால் பாதிக்கப்பட்ட ஒரு எதிர்கால துயர உலகை அந்த தொலைக்காட்சித் தொடர் சித்தரித்தது.",
+    "synonyms": [
+      "Anti-utopia",
+      "Nightmarish society",
+      "Authoritarian hell"
+    ],
+    "antonyms": [
+      "Utopia",
+      "Paradise",
+      "Elysium",
+      "Ideal society"
+    ]
   }
 ]

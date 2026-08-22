@@ -237,6 +237,28 @@
     "taExample2": "புதிய சர்வதேச வன்பொருள் இறக்குமதி வரிகள் (Tariffs) இயற்பியல் தரவு மையங்களை விரிவாக்குவதற்கான செலவை அதிகரித்தன."
   },
   {
+    "id": 3570,
+    "word": "Tautology",
+    "pos": "noun",
+    "definition": "The saying of the same thing twice in different words, generally considered to be a fault of style or logical circularity.",
+    "taWord": "கூறியது கூறல் / தேவையற்ற சொல் அடுக்கு",
+    "enExample": "The editor trimmed phrases like 'free gift' and 'unconfirmed rumor' to eliminate careless tautology from the article.",
+    "taExample": "கட்டுரையிலிருந்து தேவையற்ற கூறியது கூறல் பிழைகளை நீக்க ஆசிரியர் கூடுதல் சொற்களைத் திருத்தினார்.",
+    "enExample2": "In philosophical logic, tautologies like 'either it will rain or it will not' are universally true but provide no empirical information.",
+    "taExample2": "தத்துவ தர்க்கத்தில் 'மழை பெய்யும் அல்லது பெய்யாது' போன்ற கூற்றுகள் எப்போதும் உண்மையாக இருந்தாலும் எந்த புதிய தகவலையும் தருவதில்லை.",
+    "synonyms": [
+      "Redundancy",
+      "Repetition",
+      "Pleonasms",
+      "Circularity"
+    ],
+    "antonyms": [
+      "Brevity",
+      "Conciseness",
+      "Succinctness"
+    ]
+  },
+  {
     "id": 2825,
     "word": "Tech Debt",
     "pos": "noun",
@@ -753,6 +775,26 @@
     "taExample2": "கூட்டு அட்டவணை குறியீடுகள் இல்லாததால் பயன்பாடு மிகவும் மந்தமான (Torpid) தரவுத்தள வினவல் வேகத்தால் பாதிக்கப்பட்டது."
   },
   {
+    "id": 3568,
+    "word": "Total addressable market",
+    "pos": "noun",
+    "definition": "The total available market demand for a product or service, calculated as the maximum potential revenue a business could generate.",
+    "taWord": "மொத்த சாத்தியமான சந்தை மதிப்பு",
+    "enExample": "In their investor pitch deck, the founders projected a twenty-billion-dollar total addressable market for autonomous delivery drones.",
+    "taExample": "முதலீட்டாளர் விளக்கக்காட்சியில், ட்ரோன் விநியோகச் சேவைக்கான மொத்த சாத்தியமான சந்தை மதிப்பை இருபது பில்லியன் டாலராக நிறுவனர் கணித்தனர்.",
+    "enExample2": "Executives calculated that expanding into healthcare would expand the company's total addressable market by fifty percent.",
+    "taExample2": "சுகாதாரத் துறையில் நுழைவது நிறுவனத்தின் மொத்த சாத்தியமான சந்தை மதிப்பை ஐம்பது சதவீதம் உயர்த்தும் என அதிகாரிகள் கணக்கிட்டனர்.",
+    "synonyms": [
+      "TAM",
+      "Market size potential",
+      "Overall revenue horizon"
+    ],
+    "antonyms": [
+      "Niche segment",
+      "Current market share"
+    ]
+  },
+  {
     "id": 3440,
     "word": "touch base",
     "pos": "idiom",
@@ -943,6 +985,29 @@
     "taExample2": "சிறந்த மென்பொருள் கட்டமைப்புகள் குறிப்பிட்ட நிரலாக்க மொழிகளைக் கடந்து (Transcend) பல தசாப்தங்களாக நிலைத்து நிற்கின்றன."
   },
   {
+    "id": 3567,
+    "word": "Transient",
+    "pos": "adjective",
+    "definition": "Lasting only for a short time; impermanent, fleeting, or passing quickly through a place.",
+    "taWord": "நிலையற்ற / தற்காலிகமான / விரைந்து மறையும்",
+    "enExample": "Network engineers determined that the packet drop was caused by a transient hardware glitch rather than a permanent fiber break.",
+    "taExample": "நெட்வொர்க் தரவு இழப்பிற்கு ஒரு தற்காலிக வன்பொருள் கோளாறே காரணம் என்பதை பொறியாளர்கள் கண்டறிந்தனர்.",
+    "enExample2": "The central bank chairman cautioned that while inflation appeared high, underlying price spikes might prove transient.",
+    "taExample2": "விலைவாசி உயர்வு அதிகமாகத் தோன்றினாலும், இந்த பணவீக்கக் காரணிகள் தற்காலிகமானவையாகவே இருக்கும் என்று மத்திய வங்கித் தலைவர் எச்சரித்தார்.",
+    "synonyms": [
+      "Ephemeral",
+      "Fleeting",
+      "Temporary",
+      "Momentary"
+    ],
+    "antonyms": [
+      "Permanent",
+      "Enduring",
+      "Perpetual",
+      "Lasting"
+    ]
+  },
+  {
     "id": 3238,
     "word": "Transparency",
     "pos": "Noun",
@@ -1128,6 +1193,27 @@
     ],
     "enExample2": "Database triggers execute automated audit logging functions whenever a record row is inserted or updated.",
     "taExample2": "தரவுத்தள தூண்டிகள் (Triggers) ஒரு வரிசை உருவாக்கப்படும் போது தானியங்கி தணிக்கை செயல்பாடுகளை இயக்குகின்றன."
+  },
+  {
+    "id": 3569,
+    "word": "Trope",
+    "pos": "noun",
+    "definition": "A significant or recurrent theme, figurative device, or storytelling cliché in literature, film, or popular culture.",
+    "taWord": "வழக்கமான கதைக் கூறு / மரபுத் தொடர்",
+    "enExample": "The film critic commended the sci-fi thriller for subverting the tired Hollywood trope of an omnipotent alien invasion.",
+    "taExample": "வழக்கமான ஏலியன் படையெடுப்பு என்ற பழைய கதைக் கூறை மாற்றி அமைத்ததற்காக அறிவியல் புனைகதை திரில்லரை திரைப்பட விமர்சகர் பாராட்டினார்.",
+    "enExample2": "Writers in the writers' room actively brainstormed ways to avoid predictable tropes in the upcoming drama season.",
+    "taExample2": "நாடகத் தொடரில் யூகிக்கக்கூடிய வழக்கமான மரபுகளைத் தவிர்ப்பதற்கான வழிகளை கதாசிரியர்கள் தீவிரமாக விவாதித்தனர்.",
+    "synonyms": [
+      "Motif",
+      "Cliche",
+      "Convention",
+      "Archetype"
+    ],
+    "antonyms": [
+      "Original invention",
+      "Unprecedented novelty"
+    ]
   },
   {
     "id": 3155,

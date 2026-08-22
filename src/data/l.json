@@ -335,6 +335,27 @@
     ]
   },
   {
+    "id": 3535,
+    "word": "Leitmotif",
+    "pos": "noun",
+    "definition": "A recurrent theme or musical motif associated throughout a musical or literary composition with a specific person, situation, or idea.",
+    "taWord": "மீண்டும் மீண்டும் வரும் அடிப்படைக் கருப்பொருள் / மைய இசைக்குறிப்பு",
+    "enExample": "Film composers skillfully weave a tragic brass leitmotif whenever the antagonist appears on screen.",
+    "taExample": "வில்லன் திரையில் தோன்றும் போதெல்லாம் திரைப்பட இசையமைப்பாளர்கள் ஒரு சோகமான பித்தளை இசைக் கருப்பொருளை நேர்த்தியாக ஒலிக்க விடுகின்றனர்.",
+    "enExample2": "The obsession with fleeting digital fame served as the recurring leitmotif throughout the television drama.",
+    "taExample2": "டிஜிட்டல் புகழின் மீதான அதீத மோகம் அந்த தொலைக்காட்சி நாடகத் தொடர் முழுவதும் மீண்டும் மீண்டும் வரும் மையக் கருப்பொருளாக இருந்தது.",
+    "synonyms": [
+      "Recurring theme",
+      "Keynote",
+      "Motif",
+      "Central melody"
+    ],
+    "antonyms": [
+      "One-off element",
+      "Incidental tune"
+    ]
+  },
+  {
     "id": 2880,
     "word": "Leniency",
     "pos": "noun",
@@ -527,6 +548,29 @@
     "taExample2": "தரவு பரம்பரை கருவிகள் மூலப் பதிவுகள் முதல் இறுதி அறிக்கைகள் வரையிலான ஒவ்வொரு மாற்றப் படியையும் தடமறிகின்றன."
   },
   {
+    "id": 3530,
+    "word": "Linear",
+    "pos": "adjective",
+    "definition": "Progressing from one stage to another in a single series of consecutive steps; directly proportional without compounding acceleration.",
+    "taWord": "நேர்கோட்டுப் பாணியிலான / சீரான முறையில் தொடரும்",
+    "enExample": "Software complexity often scales exponentially even when feature count grows in a purely linear fashion.",
+    "taExample": "அம்சங்களின் எண்ணிக்கை நேர்கோட்டு முறையில் சீராக அதிகரித்தாலும் கூட மென்பொருளின் சிக்கல்தன்மை அதிவேகமாக அதிகரிக்கிறது.",
+    "enExample2": "Modern film writers often eschew linear narrative structure in favor of complex interwoven flashbacks.",
+    "taExample2": "நவீன திரைப்பட எழுத்தாளர்கள் நேர்கோட்டு கதை சொல்லும் முறையைத் தவிர்த்து பின்னோக்கிய நினைவலைகளைக் கொண்ட உத்திகளைப் பயன்படுத்துகின்றனர்.",
+    "synonyms": [
+      "Sequential",
+      "Straightforward",
+      "Consecutive",
+      "Proportional"
+    ],
+    "antonyms": [
+      "Non-linear",
+      "Exponential",
+      "Random",
+      "Cyclical"
+    ]
+  },
+  {
     "id": 1216,
     "word": "Link",
     "definition": "A hyperlink connecting one document or webpage to another.",
@@ -570,6 +614,28 @@
     "taExample2": "குறியீட்டை அனுப்பும் முன் தொடரியல் பிழைகளைக் கண்டறிய Git ஹூக்குகள் தானாகவே கோப்புகளை ஆய்வு செய்கின்றன (Lint)."
   },
   {
+    "id": 3534,
+    "word": "Liquidity",
+    "pos": "noun",
+    "definition": "The availability of liquid assets (such as cash) to a market or company; the ease with which an asset can be converted into ready cash without affecting its market price.",
+    "taWord": "பணப்புழக்கம் / நீர்மைத் தன்மை / எளிதில் பணமாக்கும் திறன்",
+    "enExample": "Central banks injected emergency liquidity into the commercial banking system to prevent credit markets from freezing.",
+    "taExample": "கடன் சந்தைகள் முடங்குவதைத் தடுக்க மத்திய வங்கிகள் வணிக வங்கிகளுக்கு அவசர பணப்புழக்கத்தை வழங்கின.",
+    "enExample2": "Real estate investments yield long-term gains but lack the immediate liquidity of publicly traded equities.",
+    "taExample2": "ரியல் எஸ்டேட் முதலீடுகள் நீண்ட கால ஆதாயங்களைத் தந்தாலும், பங்குச் சந்தையைப் போல உடனடியாக பணமாக்கும் திறனைக் கொண்டிருக்கவில்லை.",
+    "synonyms": [
+      "Cash availability",
+      "Market depth",
+      "Fluid capital",
+      "Solvency"
+    ],
+    "antonyms": [
+      "Illiquidity",
+      "Insolvency",
+      "Capital freeze"
+    ]
+  },
+  {
     "id": 1218,
     "word": "Listener",
     "definition": "A procedure or function in code that waits for an event to occur.",
@@ -606,6 +672,27 @@
     ],
     "enExample2": "TypeScript string literal types restrict variable assignments to an exact set of allowed string values.",
     "taExample2": "TypeScript நேரடி வகை அமைப்புகள் மாறிகளின் மதிப்புகளை அனுமதிக்கப்பட்ட குறிப்பிட்ட சொற்களுக்குள் மட்டுமே கட்டுப்படுத்துகின்றன."
+  },
+  {
+    "id": 3531,
+    "word": "Litmus test",
+    "pos": "noun",
+    "definition": "A decisively indicative test or critical standard used to judge the quality, loyalty, or true intent of something.",
+    "taWord": "உண்மை நிலையை அறியும் உரைகல் / தீர்க்கமான சோதனை",
+    "enExample": "Handling a high-volume live production outage is the ultimate litmus test for an engineering team's resilience.",
+    "taExample": "நேரலை இயக்கத்தில் ஏற்படும் பெரும் முடக்கத்தை கையாள்வதே ஒரு பொறியியல் குழுவின் திறமைக்கான இறுதி உரைகல் சோதனையாகும்.",
+    "enExample2": "The confirmation vote was viewed by commentators as a crucial litmus test of party loyalty in parliament.",
+    "taExample2": "நாடாளுமன்றத்தில் கட்சி விசுவாசத்தை அறியும் முக்கியமான உரைகல்லாக அந்த ஒப்புதல் வாக்கெடுப்பு பார்க்கப்பட்டது.",
+    "synonyms": [
+      "Touchstone",
+      "Crucial test",
+      "Acid test",
+      "Benchmark"
+    ],
+    "antonyms": [
+      "Inconclusive indicator",
+      "Superficial trial"
+    ]
   },
   {
     "id": 3259,
@@ -791,6 +878,28 @@
     "taExample2": "வணிகத் தர்க்கத்தை (Logic) காட்சி கூறுகளிலிருந்து பிரிப்பது குறியீட்டின் சோதனைத் திறனையும் பராமரிப்பையும் மேம்படுத்துகிறது."
   },
   {
+    "id": 3532,
+    "word": "Logistical",
+    "pos": "adjective",
+    "definition": "Relating to or involving the detailed organization and operational implementation of a complex plan or operation.",
+    "taWord": "தளவாட மற்றும் செயல்முறை மேலாண்மை சார்ந்த",
+    "enExample": "Distributing vaccines to remote polar communities presented immense logistical challenges for the health ministry.",
+    "taExample": "தொலைதூர துருவப் பகுதி மக்களுக்கு தடுப்பூசிகளை வழங்குவது சுகாதார அமைச்சகத்திற்கு மிகப்பெரிய தளவாட மேலாண்மை சவால்களை ஏற்படுத்தியது.",
+    "enExample2": "The event management team handled all logistical coordination, including venue staging, security, and satellite uplinks.",
+    "taExample2": "அரங்கு அமைப்பு, பாதுகாப்பு மற்றும் செயற்கைக்கோள் ஒளிபரப்பு உள்ளிட்ட அனைத்து தளவாட ஒருங்கிணைப்புகளையும் குழு நிர்வகித்தது.",
+    "synonyms": [
+      "Operational",
+      "Organizational",
+      "Planning-related",
+      "Tactical"
+    ],
+    "antonyms": [
+      "Theoretical",
+      "Abstract",
+      "Conceptual"
+    ]
+  },
+  {
     "id": 2881,
     "word": "Looming",
     "pos": "adj.",
@@ -933,5 +1042,28 @@
     ],
     "enExample2": "The subtle micro-interaction animation is lowkey one of the slickest design touches in the new app.",
     "taExample2": "அந்த மெல்லிய அனிமேஷன் புதிய பயன்பாட்டின் மிகவும் நேர்த்தியான வடிவமைப்புகளில் ஒன்றாக மறைமுகமாகத் திகழ்கிறது."
+  },
+  {
+    "id": 3533,
+    "word": "Ludicrous",
+    "pos": "adjective",
+    "definition": "So foolish, unreasonable, or out of place as to be amusing or worthy of ridicule.",
+    "taWord": "நகைப்புக்கிடமான / கேலிக்குரிய / எல்லைமீறிய அபத்தம்",
+    "enExample": "The board rejected the exorbitant consulting fee proposal as completely ludicrous given the company's deficit.",
+    "taExample": "நிறுவனத்தின் நிதிப் பற்றாக்குறையைக் கருத்தில் கொண்டு அதிகப்படியான ஆலோசனைக் கட்டண முன்மொழிவை கேலிக்குரியது என நிர்வாகக் குழு நிராகரித்தது.",
+    "enExample2": "In classic satire, actors use ludicrous exaggerations to critique societal vanity and political incompetence.",
+    "taExample2": "பாரம்பரிய நையாண்டி நாடகங்களில் சமூக அறியாமையையும் அரசியல் திறமையின்மையையும் விமர்சிக்க நடிகர்கள் நகைப்புக்கிடமான மிகைப்படுத்தல்களைப் பயன்படுத்துகின்றனர்.",
+    "synonyms": [
+      "Absurd",
+      "Preposterous",
+      "Ridiculous",
+      "Farcical"
+    ],
+    "antonyms": [
+      "Sensible",
+      "Reasonable",
+      "Plausible",
+      "Grave"
+    ]
   }
 ]

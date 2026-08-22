@@ -39,6 +39,27 @@
     "taExample2": "திடீர் பாதுகாப்பு எச்சரிக்கை நிறுவனம் முழுவதும் உள்ள அனைத்து நூலகங்களையும் மேம்படுத்த ஒட்டுமொத்த குழுவையும் தூண்டியது."
   },
   {
+    "id": 3518,
+    "word": "Gamification",
+    "pos": "noun",
+    "definition": "The application of typical elements of game playing (e.g., point scoring, badges, competition) to non-game activities like education, fitness, or workplace productivity.",
+    "taWord": "விளையாட்டு முறைப்படுத்துதல் / உற்சாகப்படுத்தும் உத்தி",
+    "enExample": "The language learning app leveraged gamification with daily streaks and achievement badges to double user retention.",
+    "taExample": "மொழி கற்றல் செயலி தினசரி தொடர் சாதனைகள் மற்றும் பேட்ஜ்கள் போன்ற விளையாட்டு உத்திகளைப் பயன்படுத்தி பயனர் பயன்பாட்டை இரட்டிப்பாக்கியது.",
+    "enExample2": "Scholars examine how enterprise software uses gamification to encourage compliance and boost employee engagement.",
+    "taExample2": "பணியாளர்களின் ஈடுபாட்டை அதிகரிக்க பெருநிறுவன மென்பொருள்கள் எவ்வாறு விளையாட்டு முறைகளைப் பயன்படுத்துகின்றன என்பதை அறிஞர்கள் ஆராய்கின்றனர்.",
+    "synonyms": [
+      "Incentivization",
+      "Playful design",
+      "Behavioral reward system"
+    ],
+    "antonyms": [
+      "Strict regulation",
+      "Dull routine",
+      "Pure utility"
+    ]
+  },
+  {
     "id": 701,
     "word": "Garbage",
     "definition": "Memory that has been allocated but is no longer being used by the program.",
@@ -612,6 +633,28 @@
     "taExample2": "பங்கு சார்ந்த அணுகல் கட்டுப்பாடு தனிப்பட்ட தரவுத்தள அட்டவணைகளுக்கான நுணுக்கமான (Granular) அனுமதி அமைப்புகளை வழங்குகிறது."
   },
   {
+    "id": 3519,
+    "word": "Granularity",
+    "pos": "noun",
+    "definition": "The scale or level of detail in a set of data, analysis, permissions, or system architecture.",
+    "taWord": "நுணுக்க நிலை / விவரத்தின் ஆழம்",
+    "enExample": "The analytics platform allows managers to inspect revenue metrics at various levels of granularity, from global down to individual stores.",
+    "taExample": "வருவாய் புள்ளிவிவரங்களை உலகளாவிய நிலை முதல் தனிப்பட்ட கடைகள் வரையிலான பல்வேறு நுணுக்க நிலைகளில் ஆய்வு செய்ய அந்த தளம் மேலாளர்களை அனுமதிக்கிறது.",
+    "enExample2": "Security engineers implemented fine granularity in access control policies to limit lateral movement within the cloud network.",
+    "taExample2": "கிளவுட் நெட்வொர்க்கில் தேவையின்றி ஊடுருவுவதைக் கட்டுப்படுத்த பாதுகாப்பு பொறியாளர்கள் அனுமதி விதிகளில் மிக நுணுக்கமான நிலைகளைச் செயல்படுத்தினர்.",
+    "synonyms": [
+      "Specificity",
+      "Detail level",
+      "Precision",
+      "Resolution"
+    ],
+    "antonyms": [
+      "Coarseness",
+      "Vagueness",
+      "Broad generality"
+    ]
+  },
+  {
     "id": 707,
     "word": "Graph",
     "definition": "A data structure consisting of nodes and edges connecting them.",
@@ -871,6 +914,26 @@
     ],
     "enExample2": "Optimizing the mobile onboarding flow resulted in a 35% month-over-month growth in active subscribers.",
     "taExample2": "மொபைல் பயன்பாட்டு இணைப்பை மேம்படுத்தியது சந்தாதாரர்களின் எண்ணிக்கையில் மாதந்தோறும் 35% வளர்ச்சியை ஏற்படுத்தியது."
+  },
+  {
+    "id": 3520,
+    "word": "Growth hacking",
+    "pos": "noun",
+    "definition": "A process of rapid experimentation across marketing funnel, product development, and sales segments to identify the most efficient ways to scale a business.",
+    "taWord": "விரைவு வளர்ச்சி உத்தி / குறைந்த செலவில் பெருவளர்ச்சி காணும் நுட்பம்",
+    "enExample": "By implementing viral invite mechanics, the early-stage startup used growth hacking to acquire its first million users without paid advertising.",
+    "taExample": "வைரல் அழைப்பு முறைகளைச் செயல்படுத்தியதன் மூலம், அந்த தொடக்க நிறுவனம் கட்டண விளம்பரமின்றி தனது முதல் பத்து லட்சம் பயனர்களைப் பெற்றது.",
+    "enExample2": "Top executives caution that while growth hacking accelerates early adoption, sustainable retention requires solid product quality.",
+    "taExample2": "வளர்ச்சி உத்திகள் ஆரம்பகால பயனர்களை ஈர்த்தாலும், நிலையான வளர்ச்சிக்கு சிறந்த தயாரிப்பு தரமே அவசியம் என்று உயர் நிர்வாகிகள் எச்சரிக்கின்றனர்.",
+    "synonyms": [
+      "Viral marketing",
+      "Rapid scaling strategy",
+      "Data-driven growth"
+    ],
+    "antonyms": [
+      "Traditional outbound advertising",
+      "Slow organic expansion"
+    ]
   },
   {
     "id": 725,

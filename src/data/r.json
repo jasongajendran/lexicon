@@ -1177,6 +1177,29 @@
     "taExample2": "உருவாக்குநர் அனுபவம் குறித்த அவரது விளக்கவுரை பொறியியல் துறை முழுவதிலும் உள்ள பொறியாளர்களிடம் ஆழ்ந்த வரவேற்பைப் பெற்றது (Resonate)."
   },
   {
+    "id": 3556,
+    "word": "Resonates",
+    "pos": "verb",
+    "definition": "Evokes or suggests images, memories, or emotions; produces a deep, positive response or personal connection in people.",
+    "taWord": "மனதில் ஆழமாகப் பதிதல் / எதிரொலித்தல் / ஒத்திசைதல்",
+    "enExample": "The CEO's inspiring speech on environmental sustainability resonated deeply with millennial employees and global investors alike.",
+    "taExample": "சுற்றுச்சூழல் நிலைத்தன்மை குறித்த தலைமை நிர்வாகியின் ஊக்கமளிக்கும் உரை இளம் பணியாளர்கள் மற்றும் முதலீட்டாளர்களின் மனதில் ஆழமாகப் பதிந்தது.",
+    "enExample2": "The television drama resonates with millions of viewers because its characters grapple with realistic everyday struggles.",
+    "taExample2": "அன்றாட எதார்த்த வாழ்க்கைப் போராட்டங்களைச் சித்தரிப்பதால் அந்த தொலைக்காட்சி நாடகம் லட்சக்கணக்கான பார்வையாளர்களுடன் உணர்வுபூர்வமாக ஒத்திசைகிறது.",
+    "synonyms": [
+      "Strikes a chord",
+      "Echoes",
+      "Connects with",
+      "Vibrates with"
+    ],
+    "antonyms": [
+      "Falls flat",
+      "Leaves cold",
+      "Alienates",
+      "Clashes"
+    ]
+  },
+  {
     "id": 2942,
     "word": "Retaliate",
     "pos": "verb",
@@ -1462,6 +1485,29 @@
     ],
     "enExample2": "The quarterly product roadmap prioritizes core query performance improvements before launching secondary features.",
     "taExample2": "காலாண்டு தயாரிப்பு திட்ட வரைபடம் (Roadmap) கூடுதல் வசதிகளுக்கு முன் வினவல் செயல்திறன் மேம்பாட்டிற்கு முன்னுரிமை அளிக்கிறது."
+  },
+  {
+    "id": 3557,
+    "word": "Robustness",
+    "pos": "noun",
+    "definition": "The quality or condition of being strong and in good condition; in computing, the ability of a system to cope with errors during execution.",
+    "taWord": "வலுவான தன்மை / பிழைகளைத் தாங்கி நிற்கும் உறுதிப்பாடு",
+    "enExample": "Engineers stress-tested the microservices architecture to verify its robustness under simulated holiday shopping traffic spikes.",
+    "taExample": "பண்டிகைக் கால அதிக பயனர் வருகையின் போது கணினியின் வலுவான உறுதிப்பாட்டை சரிபார்க்க பொறியாளர்கள் தீவிர சுமை சோதனைகளை மேற்கொண்டனர்.",
+    "enExample2": "The empirical robustness of the clinical study was verified through independent peer replication across three university labs.",
+    "taExample2": "அந்த மருத்துவ ஆய்வின் அறிவியல் உறுதிப்பாடு மூன்று பல்கலைக்கழக ஆய்வகங்களின் சுயாதீன சரிபார்ப்பு மூலம் உறுதி செய்யப்பட்டது.",
+    "synonyms": [
+      "Resilience",
+      "Durability",
+      "Sturdiness",
+      "Fault-tolerance"
+    ],
+    "antonyms": [
+      "Fragility",
+      "Weakness",
+      "Instability",
+      "Vulnerability"
+    ]
   },
   {
     "id": 1815,

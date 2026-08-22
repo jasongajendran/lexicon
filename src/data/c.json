@@ -87,6 +87,28 @@
     "taExample2": "பல புவியியல் பகுதிகளில் தரவுத்தள பிரதிகளை சேமித்தது முழுமையான வணிகப் பேரழிவைத் தடுத்தது."
   },
   {
+    "id": 3489,
+    "word": "Calibration",
+    "pos": "noun",
+    "definition": "The act of checking or adjusting the accuracy of a measuring instrument or aligning organizational parameters precisely.",
+    "taWord": "துல்லிய அளவுத்திருத்தம் / சீரமைப்பு",
+    "enExample": "Laboratory engineers perform daily sensor calibration to ensure experimental readings remain within strict tolerances.",
+    "taExample": "ஆய்வகப் பொறியாளர்கள் சோதனைக் குறியீடுகள் துல்லிய வரம்பிற்குள் இருப்பதை உறுதிசெய்ய தினசரி சென்சார் அளவுத்திருத்தம் செய்கிறார்கள்.",
+    "enExample2": "The executive committee conducted a calibration of executive bonuses to match updated annual performance targets.",
+    "taExample2": "நிர்வாகக் குழு புதுப்பிக்கப்பட்ட வருடாந்திர செயல்திறன் இலக்குகளுக்கு ஏற்ப போனஸ் சலுகைகளின் சீரமைப்பை மேற்கொண்டது.",
+    "synonyms": [
+      "Adjustment",
+      "Standardization",
+      "Fine-tuning",
+      "Alignment"
+    ],
+    "antonyms": [
+      "Misalignment",
+      "Derangement",
+      "Distortion"
+    ]
+  },
+  {
     "id": 3056,
     "word": "Candor",
     "pos": "noun",
@@ -109,6 +131,29 @@
     ],
     "enExample2": "The lead engineer spoke with great candor regarding the technical risks of an early product launch.",
     "taExample2": "முன்கூட்டியே தயாரிப்பை வெளியிடுவதால் ஏற்படும் தொழில்நுட்ப அபாயங்கள் குறித்து முதன்மை பொறியாளர் மிகுந்த வெளிப்படைத்தன்மையுடன் பேசினார்."
+  },
+  {
+    "id": 3490,
+    "word": "Cannibalize",
+    "pos": "verb",
+    "definition": "To reduce the sales or market share of one of a company's existing products by introducing a new, competing product.",
+    "taWord": "சுய சந்தைப் பகிர்வை பாதித்தல் / தன் தயாரிப்பையே விஞ்சுதல்",
+    "enExample": "Product managers carefully timed the release of the budget smartphone so it would not cannibalize flagship model sales.",
+    "taExample": "முதன்மை மாடல் விற்பனையை பாதிக்காத வகையில் பட்ஜெட் ஸ்மார்ட்போனின் வெளியீட்டு நேரத்தை தயாரிப்பு மேலாளர்கள் கவனமாக திட்டமிட்டனர்.",
+    "enExample2": "Rather than fear cannibalizing legacy revenue, forward-looking tech firms embrace digital disruption proactively.",
+    "taExample2": "பழைய வருவாய் பாதிக்கப்படுவதற்கு அஞ்சுவதை விட, முன்னோக்கு தொழில்நுட்ப நிறுவனங்கள் டிஜிட்டல் மாற்றத்தை முன்கூட்டியே தழுவுகின்றன.",
+    "synonyms": [
+      "Encroach upon",
+      "Subsume",
+      "Undermine internally",
+      "Displace"
+    ],
+    "antonyms": [
+      "Complement",
+      "Augment",
+      "Reinforce",
+      "Bolster"
+    ]
   },
   {
     "id": 301,
@@ -343,6 +388,29 @@
     ]
   },
   {
+    "id": 3491,
+    "word": "Catharsis",
+    "pos": "noun",
+    "definition": "The process of releasing, and thereby providing relief from, strong or repressed emotions, especially through art or drama.",
+    "taWord": "மனத்தூய்மை / உணர்ச்சி வடிகால்",
+    "enExample": "The theater critic remarked that the tragic finale provided the audience with an overwhelming sense of emotional catharsis.",
+    "taExample": "நாடகத்தின் சோகமான இறுதிப் பகுதி பார்வையாளர்களுக்கு ஒரு மிகப்பெரிய உணர்ச்சி வடிகால் அனுபவத்தை வழங்கியதாக விமர்சகர் குறிப்பிட்டார்.",
+    "enExample2": "Writing candid memoirs served as a profound personal catharsis for the war correspondent.",
+    "taExample2": "நேர்மையான நினைவுக்குறிப்புகளை எழுதுவது போர் செய்தியாளருக்கு ஒரு ஆழ்ந்த தனிப்பட்ட மனத்தூய்மையாக அமைந்தது.",
+    "synonyms": [
+      "Purging",
+      "Emotional release",
+      "Cleansing",
+      "Relief"
+    ],
+    "antonyms": [
+      "Repression",
+      "Inhibition",
+      "Emotional bottling",
+      "Suppression"
+    ]
+  },
+  {
     "id": 3084,
     "word": "Cathartic",
     "pos": "adj.",
@@ -364,6 +432,28 @@
     ],
     "enExample2": "Deleting thousands of obsolete legacy codebase lines felt deeply cathartic for the development team.",
     "taExample2": "ஆயிரக்கணக்கான காலாவதியான குறியீட்டு வரிகளை நீக்கியது மேம்பாட்டுக் குழுவுக்கு மிகுந்த மனநிம்மதியை அளித்தது."
+  },
+  {
+    "id": 3492,
+    "word": "Caveat",
+    "pos": "noun",
+    "definition": "A warning or proviso of specific stipulations, conditions, or limitations attached to a statement or agreement.",
+    "taWord": "முன்னெச்சரிக்கை நிபந்தனை / கவனிக்கத்தக்க வரம்பு",
+    "enExample": "The chief medical officer endorsed the clinical trial results with the important caveat that longer studies are needed.",
+    "taExample": "நீண்ட கால ஆய்வுகள் தேவை என்ற முக்கியமான முன்னெச்சரிக்கை நிபந்தனையுடன் தலைமை மருத்துவ அதிகாரி மருத்துவ பரிசோதனை முடிவுகளை ஏற்றுக்கொண்டார்.",
+    "enExample2": "The software architect approved the open-source library with one crucial caveat regarding its memory overhead.",
+    "taExample2": "மென்பொருள் கட்டமைப்பாளர் அதன் நினைவக பயன்பாடு குறித்த ஒரு முக்கிய வரம்புடன் அந்த திறந்த மூல நிரலகத்தை அங்கீகரித்தார்.",
+    "synonyms": [
+      "Stipulation",
+      "Proviso",
+      "Warning",
+      "Qualification"
+    ],
+    "antonyms": [
+      "Unconditional guarantee",
+      "Carte blanche",
+      "Absolute endorsement"
+    ]
   },
   {
     "id": 2687,
@@ -517,6 +607,26 @@
     ]
   },
   {
+    "id": 3588,
+    "word": "Churn rate",
+    "pos": "noun",
+    "definition": "The annual or monthly percentage rate at which customers stop subscribing to or doing business with an entity.",
+    "taWord": "வாடிக்கையாளர் வெளியேற்ற விகிதம்",
+    "enExample": "By enhancing customer onboarding and responsive chat support, the subscription app slashed its monthly churn rate in half.",
+    "taExample": "பயனர் வரவேற்பு மற்றும் நேரடி ஆதரவை மேம்படுத்தியதன் மூலம் அந்த சந்தா செயலி தனது மாதாந்திர வாடிக்கையாளர் வெளியேற்ற விகிதத்தை பாதியாகக் குறைத்தது.",
+    "enExample2": "Investors examine the net churn rate to determine whether software revenue growth is fundamentally sustainable.",
+    "taExample2": "மென்பொருள் நிறுவனத்தின் வருவாய் வளர்ச்சி நிலையானதா என்பதைத் தீர்மானிக்க முதலீட்டாளர்கள் வாடிக்கையாளர் வெளியேற்ற விகிதத்தை ஆராய்கின்றனர்.",
+    "synonyms": [
+      "Customer attrition rate",
+      "Subscriber turnover",
+      "Defection rate"
+    ],
+    "antonyms": [
+      "Customer retention rate",
+      "Renewal rate"
+    ]
+  },
+  {
     "id": 2666,
     "word": "Circle back",
     "definition": "To return to or revisit a previously raised topic or question at a future time.",
@@ -555,6 +665,29 @@
     ],
     "enExample2": "The circuit breaker tripped to protect downstream services from being overwhelmed by retries.",
     "taExample2": "தொடர் மறுமுயற்சிகளால் அடுத்தடுத்த சேவைகள் முடங்குவதைத் தடுக்க சர்க்யூட் பிரேக்கர் தானாக செயல்பட்டது."
+  },
+  {
+    "id": 3493,
+    "word": "Circumlocution",
+    "pos": "noun",
+    "definition": "The use of many words where fewer would do, especially in a deliberate attempt to be vague, evasive, or overly formal.",
+    "taWord": "சுற்றி வளைத்துப் பேசுதல் / மறைமுக உரை",
+    "enExample": "The BBC interviewer pressed the minister to give a direct answer without resorting to political circumlocution.",
+    "taExample": "அரசியல் சுற்றி வளைத்துப் பேசுதலைத் தவிர்த்து நேரடி பதிலளிக்குமாறு அமைச்சருக்கு பிபிசி நேர்காணலாளர் அழுத்தம் கொடுத்தார்.",
+    "enExample2": "Legal drafters often avoid circumlocution to eliminate ambiguity in commercial contracts.",
+    "taExample2": "வணிக ஒப்பந்தங்களில் தெளிவின்மையை நீக்குவதற்காக சட்ட வரைவாளர்கள் பெரும்பாலும் சுற்றி வளைத்துப் பேசுவதைத் தவிர்க்கிறார்கள்.",
+    "synonyms": [
+      "Equivocation",
+      "Verbosity",
+      "Periphrasis",
+      "Evasion"
+    ],
+    "antonyms": [
+      "Directness",
+      "Concisensss",
+      "Brevity",
+      "Succinctness"
+    ]
   },
   {
     "id": 3086,
@@ -666,6 +799,26 @@
     ],
     "enExample2": "We scheduled a short sync with the client to clarify ambiguous edge cases in the specification.",
     "taExample2": "திட்ட ஆவணத்தில் உள்ள தெளிவற்ற விளிம்புநிலை நிகழ்வுகளை தெளிவுபடுத்த வாடிக்கையாளருடன் ஒரு சிறிய சந்திப்பை நடத்தினோம்."
+  },
+  {
+    "id": 3500,
+    "word": "Clawback",
+    "pos": "noun",
+    "definition": "A provision under which money already paid out, such as executive bonuses or tax incentives, must be returned under specific conditions.",
+    "taWord": "வழங்கிய நிதியைத் திரும்பப் பெறுதல் / சலுகை மீட்பு",
+    "enExample": "The board activated the clawback clause to recover millions in performance bonuses after an accounting misstatement was uncovered.",
+    "taExample": "கணக்கியல் தவறு கண்டறியப்பட்ட பின்னர் செயல்திறன் போனஸாக வழங்கப்பட்ட மில்லியன் டாலர்களைத் திரும்பப் பெற நிர்வாகக் குழு சலுகை மீட்பு விதியை செயல்படுத்தியது.",
+    "enExample2": "Government contracts now feature strict clawback stipulations if job creation targets are not fulfilled by recipients.",
+    "taExample2": "வேலைவாய்ப்பு இலக்குகள் எட்டப்படாவிட்டால் மானியங்களைத் திரும்பப் பெறுவதற்கான கடுமையான மீட்பு விதிகள் இப்போது அரசு ஒப்பந்தங்களில் உள்ளன.",
+    "synonyms": [
+      "Recoupment",
+      "Refund retrieval",
+      "Forfeiture enforcement"
+    ],
+    "antonyms": [
+      "Unconditional disbursement",
+      "Irrevocable payout"
+    ]
   },
   {
     "id": 3087,
@@ -964,6 +1117,27 @@
     "taExample2": "எளிமையான பயனர் இடைமுகம் ஒரு பரிவர்த்தனையை முடிக்க தேவையான மன உழைப்பைக் குறைக்கிறது."
   },
   {
+    "id": 3494,
+    "word": "Cognitive dissonance",
+    "pos": "noun",
+    "definition": "The mental discomfort or psychological tension experienced by someone who holds two contradictory beliefs, values, or actions.",
+    "taWord": "அறிவாற்றல் முரண்பாடு / மன உளைச்சல் தரும் எண்ண முரண்",
+    "enExample": "Executives experienced cognitive dissonance when aggressive quarterly targets conflicted directly with the company's stated ethics.",
+    "taExample": "நிறுவனத்தின் கொள்கைகளுடன் தீவிர காலாண்டு இலக்குகள் முரண்பட்டபோது நிர்வாகிகள் அறிவாற்றல் முரண்பாட்டை உணர்ந்தனர்.",
+    "enExample2": "Sociologists study how voters rationalize cognitive dissonance when political leaders violate their core principles.",
+    "taExample2": "அரசியல் தலைவர்கள் தங்கள் அடிப்படைக் கொள்கைகளை மீறும்போது வாக்காளர்கள் எவ்வாறு அறிவாற்றல் முரண்பாட்டை நியாயப்படுத்துகிறார்கள் என்பதை சமூகவியலாளர்கள் ஆராய்கின்றனர்.",
+    "synonyms": [
+      "Psychological conflict",
+      "Inner tension",
+      "Mental incongruity"
+    ],
+    "antonyms": [
+      "Cognitive harmony",
+      "Mental consistency",
+      "Consonance"
+    ]
+  },
+  {
     "id": 3411,
     "word": "Cognitive Load",
     "pos": "noun",
@@ -1047,6 +1221,29 @@
     ],
     "enExample2": "Lead developers must remain cognizant of how new libraries impact overall frontend bundle size.",
     "taExample2": "புதிய நூலகங்கள் பயன்பாட்டின் ஒட்டுமொத்த பதிவிறக்க அளவை எவ்வாறு பாதிக்கின்றன என்பதை உருவாக்குநர்கள் அறிந்திருக்க வேண்டும்."
+  },
+  {
+    "id": 3498,
+    "word": "Cohesion",
+    "pos": "noun",
+    "definition": "The action or state of cohering or sticking together; in software engineering, the degree to which module elements belong together.",
+    "taWord": "இணைவுத்தன்மை / ஒருமைப்பாடு",
+    "enExample": "High cohesion and loose coupling remain the gold standards of resilient software architecture.",
+    "taExample": "அதிக இணைப்புத்தன்மை மற்றும் தளர்வான பிணைப்பு ஆகியவை நிலையான மென்பொருள் கட்டமைப்பின் பொன் விதிகளாக நீடிக்கின்றன.",
+    "enExample2": "The prime minister emphasized that economic equality is essential for maintaining social cohesion during turbulent times.",
+    "taExample2": "கொந்தளிப்பான காலங்களில் சமூக ஒருமைப்பாட்டைப் பேண பொருளாதார சமத்துவம் அவசியம் என்று பிரதமர் வலியுறுத்தினார்.",
+    "synonyms": [
+      "Unity",
+      "Solidarity",
+      "Consistency",
+      "Integrity"
+    ],
+    "antonyms": [
+      "Fragmentation",
+      "Disunity",
+      "Disconnection",
+      "Discord"
+    ]
   },
   {
     "id": 307,
@@ -1150,6 +1347,49 @@
     ],
     "enExample2": "Engineering salaries must be commensurate with professional experience and technical expertise.",
     "taExample2": "பொறியாளர்களின் ஊதியம் அவர்களின் தொழில்முறை அனுபவம் மற்றும் தொழில்நுட்ப திறமைக்கு இணையானதாக இருக்க வேண்டும்."
+  },
+  {
+    "id": 3589,
+    "word": "Commoditization",
+    "pos": "noun",
+    "definition": "The process by which goods or services that previously had economic value distinguishable in terms of brand or features end up becoming simple commodities with price competition.",
+    "taWord": "பொதுப் பண்டமாதல் / விலை மட்டுமே முக்கியமாகும் நிலை",
+    "enExample": "As cloud storage underwent rapid commoditization, major providers competed primarily on cost and bundled analytical tools.",
+    "taExample": "கிளவுட் சேமிப்பு விரைவாக பொதுப் பண்டமாக மாறியதால், முன்னணி நிறுவனங்கள் விலைக் குறைப்பு மற்றும் கூடுதல் கருவிகள் மூலம் போட்டியிட்டன.",
+    "enExample2": "Top executives focus on proprietary software differentiation to protect company margins from commoditization.",
+    "taExample2": "தயாரிப்புகள் பொதுப் பண்டமாக மாறி லாபம் குறைவதைத் தடுக்க உயர் நிர்வாகிகள் தனித்துவமான மென்பொருள் புத்தாக்கங்களில் கவனம் செலுத்துகின்றனர்.",
+    "synonyms": [
+      "Standardization",
+      "De-differentiation",
+      "Price homogenization"
+    ],
+    "antonyms": [
+      "Brand premium",
+      "Differentiation",
+      "Proprietary exclusivity"
+    ]
+  },
+  {
+    "id": 3578,
+    "word": "Communique",
+    "pos": "noun",
+    "definition": "An official announcement or statement, especially one issued by a government or participants after a diplomatic summit.",
+    "taWord": "அதிகாரப்பூர்வ கூட்டு அறிக்கை / பிரகடனம்",
+    "enExample": "The G7 leaders released a joint communique pledging coordinated sanctions against state-sponsored cyber espionage.",
+    "taExample": "அரசு ஆதரவு பெற்ற இணைய உளவு வேலைகளுக்கு எதிராக ஒருங்கிணைந்த தடைகளை விதிப்பதாக ஜி-7 தலைவர்கள் அதிகாரப்பூர்வ கூட்டு அறிக்கையை வெளியிட்டனர்.",
+    "enExample2": "BBC international editors parsed the diplomatic communique for subtle shifts in global climate commitments.",
+    "taExample2": "உலகளாவிய பருவநிலை வாக்குறுதிகளில் ஏற்பட்டுள்ள மாற்றங்களைக் கண்டறிய பிபிசி சர்வதேச ஆசிரியர்கள் தூதரக கூட்டு அறிக்கையை ஆய்வு செய்தனர்.",
+    "synonyms": [
+      "Official statement",
+      "Bulletin",
+      "Declaration",
+      "Press release"
+    ],
+    "antonyms": [
+      "Leak",
+      "Informal rumor",
+      "Unverified report"
+    ]
   },
   {
     "id": 318,
@@ -1375,6 +1615,26 @@
     "taExample2": "கண்டறியப்பட்ட பாதுகாப்பு பிழைக்கு உடனடியாக அவசர திருத்தம் செய்யப்பட வேண்டும் என இரு ஆராய்ச்சியாளர்களும் ஒப்புக்கொண்டனர்."
   },
   {
+    "id": 3499,
+    "word": "Concurrency",
+    "pos": "noun",
+    "definition": "The ability of different parts or units of a program, algorithm, or problem to be executed out-of-order or in partial order without affecting the outcome.",
+    "taWord": "ஒரே நேரத்தில் நிகழும் செயலாக்கம் / உடனிகழ்வுத்திறன்",
+    "enExample": "The database engine utilizes optimistic concurrency control to handle thousands of simultaneous checkout transactions without locking rows.",
+    "taExample": "வரிசைகளை முடக்காமல் ஒரே நேரத்தில் ஆயிரக்கணக்கான கட்டணப் பரிவர்த்தனைகளைக் கையாள தரவுத்தள இயந்திரம் உடனிகழ்வு கட்டுப்பாட்டைப் பயன்படுத்துகிறது.",
+    "enExample2": "Writing reliable concurrency primitives requires careful handling of race conditions and thread synchronization.",
+    "taExample2": "நம்பகமான உடனிகழ்வு நிரல்களை எழுதுவதற்கு த்ரெட் ஒத்திசைவு மற்றும் முரண்பாடுகளை கவனமாகக் கையாள வேண்டும்.",
+    "synonyms": [
+      "Parallelism",
+      "Simultaneous execution",
+      "Co-occurrence"
+    ],
+    "antonyms": [
+      "Sequential execution",
+      "Serial processing"
+    ]
+  },
+  {
     "id": 302,
     "word": "Concurrently",
     "definition": "At the same time; simultaneously.",
@@ -1479,6 +1739,29 @@
     ],
     "enExample2": "Do not conflate high CPU utilization with poor application code efficiency without profiling memory.",
     "taExample2": "நினைவகத்தை சோதிக்காமல் அதிக செயலி பயன்பாட்டை மோசமான குறியீட்டு செயல்திறனுடன் சேர்த்துக் குழப்ப வேண்டாம்."
+  },
+  {
+    "id": 3495,
+    "word": "Confluence",
+    "pos": "noun",
+    "definition": "An act or process of merging; the junction where two rivers, forces, or trends meet and combine.",
+    "taWord": "சங்கமம் / பல்வேறு போக்குகள் இணையும் புள்ளி",
+    "enExample": "The rise of artificial intelligence represents a unique confluence of massive compute power and vast training datasets.",
+    "taExample": "செயற்கை நுண்ணறிவின் வளர்ச்சி என்பது பெரும் கணினித்திறன் மற்றும் பரந்த பயிற்சித் தரவுகளின் தனித்துவமான சங்கமமாகும்.",
+    "enExample2": "Economic analysts attributed the market rally to a favorable confluence of low inflation and surging consumer confidence.",
+    "taExample2": "குறைந்த பணவீக்கம் மற்றும் அதிகரித்த நுகர்வோர் நம்பிக்கை ஆகியவற்றின் சாதகமான இணைப்பே சந்தை உயர்வுக்குக் காரணம் என பொருளாதார வல்லுநர்கள் கூறினர்.",
+    "synonyms": [
+      "Convergence",
+      "Junction",
+      "Intersection",
+      "Union"
+    ],
+    "antonyms": [
+      "Divergence",
+      "Separation",
+      "Dispersion",
+      "Bifurcation"
+    ]
   },
   {
     "id": 2968,
@@ -1697,6 +1980,28 @@
     ],
     "enExample2": "The sudden spike in unauthenticated network traffic was conspicuous in the real-time telemetry graphs.",
     "taExample2": "நிகழ்நேர வரைபடங்களில் அங்கீகரிக்கப்படாத நெட்வொர்க் போக்குவரத்தின் திடீர் உயர்வு மிகத் தெளிவாகத் தெரிந்தது."
+  },
+  {
+    "id": 3496,
+    "word": "Constellation",
+    "pos": "noun",
+    "definition": "A group or configuration of associated people, qualities, factors, or things forming a recognizable pattern.",
+    "taWord": "தொகுப்பு / ஒன்றுடன் ஒன்று இணைந்த காரணிகளின் கட்டமைப்பு",
+    "enExample": "A complex constellation of geopolitical rivalries and energy shortages contributed to the regional crisis.",
+    "taExample": "புவிசார் அரசியல் போட்டிகள் மற்றும் ஆற்றல் பற்றாக்குறைகளின் சிக்கலான தொகுப்பு பிராந்திய நெருக்கடிக்கு வழிவகுத்தது.",
+    "enExample2": "The tech startup relied on a constellation of specialized cloud microservices to handle global user traffic.",
+    "taExample2": "உலகளாவிய பயனர் போக்குவரத்தைக் கையாள தொழில்நுட்ப ஸ்டார்ட்-அப் பல சிறப்பு கிளவுட் மைக்ரோ சர்வீஸ்களின் கட்டமைப்பை நம்பியிருந்தது.",
+    "synonyms": [
+      "Configuration",
+      "Cluster",
+      "Array",
+      "Nexus"
+    ],
+    "antonyms": [
+      "Individual entity",
+      "Isolation",
+      "Fragment"
+    ]
   },
   {
     "id": 3178,
@@ -2145,6 +2450,28 @@
     "taExample2": "சேமிப்பக இயந்திரமே முழு தரவுத்தள கட்டமைப்பும் அமைக்கப்பட்டுள்ள மையப் பகுதியாகும்."
   },
   {
+    "id": 3590,
+    "word": "Core competency",
+    "pos": "noun",
+    "definition": "A harmonized combination of multiple resources and skills that distinguish a firm in the marketplace and form the foundation of its competitive edge.",
+    "taWord": "மையத் தனித்திறன் / முக்கிய பலம்",
+    "enExample": "The tech corporation outsourced payroll logistics so its engineering talent could focus entirely on its core competency in neural network research.",
+    "taExample": "தனது பொறியியல் குழுவினர் நரம்பியல் வலைப்பின்னல் ஆராய்ச்சியில் உள்ள மையத் தனித்திறனில் கவனம் செலுத்த ஏதுவாக சம்பளப் பணிகளை நிறுவனம் வெளிப்பணியாக மாற்றியது.",
+    "enExample2": "Business school professors teach that enduring corporate success requires investing continuously in unique core competencies.",
+    "taExample2": "நீண்ட கால பெருநிறுவன வெற்றிக்கு தனித்துவமான மையத் தனித்திறன்களில் தொடர்ந்து முதலீடு செய்வது அவசியம் என பேராசிரியர்கள் கற்பிக்கின்றனர்.",
+    "synonyms": [
+      "Key capability",
+      "Competitive advantage",
+      "Primary strength",
+      "Specialty"
+    ],
+    "antonyms": [
+      "Peripheral function",
+      "Secondary activity",
+      "Deficiency"
+    ]
+  },
+  {
     "id": 3051,
     "word": "Cornerstone",
     "pos": "noun",
@@ -2315,6 +2642,29 @@
       "public",
       "open",
       "transparent"
+    ]
+  },
+  {
+    "id": 3497,
+    "word": "Crescendo",
+    "pos": "noun",
+    "definition": "A gradual increase in loudness, intensity, or climactic force, especially in music, public rhetoric, or dramatic storytelling.",
+    "taWord": "படிப்படியான உச்சக்கட்ட எழுச்சி / தீவிரம் அதிகரித்தல்",
+    "enExample": "The investigative reporter's presentation reached a powerful crescendo with the reveal of leaked financial logs.",
+    "taExample": "கசிந்த நிதிப் பதிவுகளை வெளிப்படுத்தியதன் மூலம் புலனாய்வு நிருபரின் விளக்கக்காட்சி ஒரு சக்திவாய்ந்த உச்சக்கட்ட எழுச்சியை எட்டியது.",
+    "enExample2": "Public debate over the proposed environmental regulation built to a crescendo during the televised parliamentary hearing.",
+    "taExample2": "தொலைக்காட்சி நாடாளுமன்ற விசாரணையின் போது முன்மொழியப்பட்ட சுற்றுச்சூழல் ஒழுங்குமுறை மீதான பொது விவாதம் உச்சக்கட்டத்தை அடைந்தது.",
+    "synonyms": [
+      "Climax",
+      "Apex",
+      "Culmination",
+      "Escalation"
+    ],
+    "antonyms": [
+      "Decrescendo",
+      "Diminuendo",
+      "Anticlimax",
+      "Subsidance"
     ]
   },
   {

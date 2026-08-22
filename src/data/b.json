@@ -19,6 +19,29 @@
     ]
   },
   {
+    "id": 3485,
+    "word": "Backlash",
+    "pos": "noun",
+    "definition": "A strong, sudden, and widespread negative reaction by a large number of people, especially to a social or political development.",
+    "taWord": "கடும் எதிர்ப்பு / தீவிர எதிர்வினை",
+    "enExample": "The tech giant faced an intense consumer backlash after altering its subscription pricing without prior notice.",
+    "taExample": "முன்னறிவிப்பின்றி சந்தா கட்டணத்தை மாற்றியமைத்த தொழில்நுட்ப நிறுவனம் நுகர்வோரின் கடுமையான எதிர்ப்பை சந்தித்தது.",
+    "enExample2": "Political commentators observed a cultural backlash against globalization among regional manufacturing communities.",
+    "taExample2": "பிராந்திய உற்பத்தி சமூகங்களிடையே உலகமயமாக்கலுக்கு எதிரான கலாச்சார எதிர்வினையை அரசியல் வர்ணனையாளர்கள் கவனித்தனர்.",
+    "synonyms": [
+      "Counteraction",
+      "Repercussion",
+      "Resistance",
+      "Pushback"
+    ],
+    "antonyms": [
+      "Endorsement",
+      "Acclaim",
+      "Approval",
+      "Acceptance"
+    ]
+  },
+  {
     "id": 218,
     "word": "Backlog",
     "definition": "A build-up of uncompleted work or matters needing to be dealt with.",
@@ -96,6 +119,26 @@
     ],
     "enExample2": "Reactive streams apply backpressure to ensure slow consumers are not overwhelmed by fast producers.",
     "taExample2": "வேகமான தரவு உற்பத்தியாளர்களால் மெதுவான நுகர்வோர் திணறாமல் இருக்க ரியாக்டிவ் ஸ்ட்ரீம்கள் பின் அழுத்தக் கட்டுப்பாட்டைப் பயன்படுத்துகின்றன."
+  },
+  {
+    "id": 3584,
+    "word": "Backpropagation",
+    "pos": "noun",
+    "definition": "In neural networks and machine learning, an algorithm for calculating gradients of the loss function with respect to weights to train multi-layer models.",
+    "taWord": "பின்னோக்கு பரவல் / நரம்பியல் வலைப்பின்னல் பயிற்சி முறை",
+    "enExample": "Modern deep neural networks rely on gradient descent and backpropagation to optimize millions of internal model parameters.",
+    "taExample": "நவீன ஆழமான நரம்பியல் வலைப்பின்னல்கள் லட்சக்கணக்கான மாதிரிக் காரணிகளைச் சீரமைக்க பின்னோக்கு பரவல் வழிமுறைகளை நம்பியுள்ளன.",
+    "enExample2": "Computer science students study how backpropagation propagates error signals from the output layer back through hidden layers.",
+    "taExample2": "வெளியீட்டு அடுக்கில் இருந்து மறைக்கப்பட்ட அடுக்குகளுக்கு பிழை சமிக்ஞைகளை பின்னோக்கு பரவல் எவ்வாறு அனுப்புகிறது என்பதை மாணவர்கள் கற்கின்றனர்.",
+    "synonyms": [
+      "Error backpropagation",
+      "Gradient backprop",
+      "Reverse-mode differentiation"
+    ],
+    "antonyms": [
+      "Forward pass",
+      "Forward inference"
+    ]
   },
   {
     "id": 3294,
@@ -430,6 +473,28 @@
     ],
     "enExample2": "The belligerent competitor initiated frivolous patent litigation against the open-source library.",
     "taExample2": "போட்டி நிறுவனம் திறந்த மூல மென்பொருளுக்கு எதிராக தேவையற்ற காப்புரிமை வழக்குகளைத் தொடங்கியது."
+  },
+  {
+    "id": 3486,
+    "word": "Bellwether",
+    "pos": "noun",
+    "definition": "Something that leads or indicates a future trend, especially in economics, politics, or financial markets.",
+    "taWord": "எதிர்காலப் போக்கைக் காட்டும் அளவுகோல் / முன்னோடி",
+    "enExample": "Semiconductor earnings reports are widely regarded by Wall Street as a reliable bellwether for the global economy.",
+    "taExample": "குறைக்கடத்தி நிறுவனங்களின் வருவாய் அறிக்கைகள் உலகப் பொருளாதாரத்தின் நம்பகமான எதிர்காலப் போக்கைக் காட்டும் அளவுகோலாகக் கருதப்படுகின்றன.",
+    "enExample2": "The BBC political correspondent described the suburban voting district as a key bellwether for the upcoming general election.",
+    "taExample2": "வரவிருக்கும் பொதுத் தேர்தலில் புறநகர் வாக்குச் சாவடி முக்கிய முன்னோடி அளவுகோலாக இருக்கும் என்று பிபிசி அரசியல் செய்தியாளர் விவரித்தார்.",
+    "synonyms": [
+      "Trendsetter",
+      "Indicator",
+      "Harbinger",
+      "Barometer"
+    ],
+    "antonyms": [
+      "Follower",
+      "Laggard",
+      "Outlier"
+    ]
   },
   {
     "id": 202,
@@ -1152,6 +1217,28 @@
     "taExample2": "பொறியியல் மேலாளர் காலாண்டு தயாரிப்பு இலக்குகள் குறித்த ஒரு சுருக்கமான கண்ணோட்டத்தை வழங்கினார்."
   },
   {
+    "id": 3487,
+    "word": "Brinkmanship",
+    "pos": "noun",
+    "definition": "The practice of pursuing a dangerous policy to the limits of safety before stopping, especially in politics or corporate negotiations.",
+    "taWord": "விளிம்புநிலை அரசியல் / எல்லை வரை சென்று அச்சுறுத்தும் உத்தி",
+    "enExample": "The BBC diplomatic correspondent warned that nuclear brinkmanship in the region poses an unacceptable risk to global peace.",
+    "taExample": "இப்பகுதியில் நிலவும் அணு ஆயுத விளிம்புநிலை அரசியல் உலக அமைதிக்கு ஏற்றுக்கொள்ள முடியாத ஆபத்தை விளைவிப்பதாக பிபிசி தூதரக செய்தியாளர் எச்சரித்தார்.",
+    "enExample2": "The union and management engaged in high-stakes brinkmanship right up to the midnight strike deadline.",
+    "taExample2": "தொழிற்சங்கமும் நிர்வாகமும் நள்ளிரவு வேலைநிறுத்த காலக்கெடு வரை கடுமையான விளிம்புநிலை உத்தியில் ஈடுபட்டன.",
+    "synonyms": [
+      "High-stakes maneuvering",
+      "Escalation tactics",
+      "Intimidation strategy"
+    ],
+    "antonyms": [
+      "Conciliation",
+      "De-escalation",
+      "Compromise",
+      "Prudence"
+    ]
+  },
+  {
     "id": 224,
     "word": "Brisk",
     "definition": "Active, fast, and energetic.",
@@ -1379,6 +1466,27 @@
     ],
     "enExample2": "Webpack creates an optimized client bundle by splitting vendor libraries from application code.",
     "taExample2": "வெளிப்புற நூலகங்களை முக்கிய குறியீட்டிலிருந்து பிரிப்பதன் மூலம் Webpack ஒரு உகந்த தொகுப்பை உருவாக்குகிறது."
+  },
+  {
+    "id": 3488,
+    "word": "Burn rate",
+    "pos": "noun",
+    "definition": "The rate at which a new company spends its venture capital to finance overhead operations before generating positive cash flow.",
+    "taWord": "மூலதன விரய விகிதம் / மாதாந்திர செலவு வேகம்",
+    "enExample": "The startup CFO announced drastic measures to reduce the monthly burn rate and extend the company's financial runway.",
+    "taExample": "தொடக்க நிறுவன தலைமை நிதி அதிகாரி மாதாந்திர மூலதன செலவு வேகத்தை குறைத்து நிறுவனத்தின் நிதி ஆயுளை நீட்டிக்க தீவிர நடவடிக்கைகளை அறிவித்தார்.",
+    "enExample2": "Investors scrutinized the venture's high marketing burn rate during the Series B funding negotiations.",
+    "taExample2": "தொடர் B நிதி பேச்சுவார்த்தைகளின் போது முதலீட்டாளர்கள் நிறுவனத்தின் அதிக சந்தைப்படுத்தல் செலவு வேகத்தை உன்னிப்பாக ஆராய்ந்தனர்.",
+    "synonyms": [
+      "Cash bleed",
+      "Expenditure velocity",
+      "Operating cash consumption"
+    ],
+    "antonyms": [
+      "Positive cash flow",
+      "Profit accrual",
+      "Capital surplus"
+    ]
   },
   {
     "id": 2681,

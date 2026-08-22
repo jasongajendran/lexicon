@@ -23,6 +23,26 @@
     "taExample2": "பொறியியல் துணைத் தலைவர் தொழில்நுட்பக் கடனைக் குறைப்பதற்காக ஸ்பிரிண்ட் திறனில் 20%-ஐ பிரத்யேகமாக ஒதுக்கீடு செய்தார்."
   },
   {
+    "id": 3514,
+    "word": "Ebitda",
+    "pos": "noun",
+    "definition": "Earnings Before Interest, Taxes, Depreciation, and Amortization; a standard metric used by executives and investors to evaluate core operating profitability.",
+    "taWord": "வட்டி, வரி மற்றும் தேய்மானத்திற்கு முந்தைய செயல்பாட்டு லாபம்",
+    "enExample": "The private equity firm evaluated the acquisition target based on a multiple of its normalized annual EBITDA.",
+    "taExample": "தனியார் முதலீட்டு நிறுவனம் கையகப்படுத்த வேண்டிய நிறுவனத்தை அதன் வருடாந்திர செயல்பாட்டு லாபத்தின் அடிப்படையில் மதிப்பீடு செய்தது.",
+    "enExample2": "By cutting unnecessary marketing spend, the company improved its EBITDA margin by four hundred basis points.",
+    "taExample2": "தேவையற்ற சந்தைப்படுத்தல் செலவுகளைக் குறைத்ததன் மூலம், நிறுவனம் தனது செயல்பாட்டு லாப வரம்பை குறிப்பிடத்தக்க அளவு அதிகரித்தது.",
+    "synonyms": [
+      "Operating cash earnings",
+      "Core operational profit",
+      "Gross cash profit"
+    ],
+    "antonyms": [
+      "Net loss",
+      "Bottom-line deficit"
+    ]
+  },
+  {
     "id": 3347,
     "word": "ecclesia",
     "pos": "noun",
@@ -82,6 +102,27 @@
     ],
     "enExample2": "The platform's frontend stack uses an eclectic combination of WebAssembly, WebGL, and React components.",
     "taExample2": "தளத்தின் முன்னணி கட்டமைப்பு WebAssembly, WebGL மற்றும் React கூறுகளின் பல்துறை கலவையைப் பயன்படுத்துகிறது."
+  },
+  {
+    "id": 3592,
+    "word": "Economies of scale",
+    "pos": "noun",
+    "definition": "Proportionate saving in costs gained by an increased level of production or volume of operations.",
+    "taWord": "பேரளவு உற்பத்தியால் கிட்டும் சிக்கனம்",
+    "enExample": "By manufacturing millions of microchips in a single automated fabrication facility, the company achieved immense economies of scale.",
+    "taExample": "ஒரே தானியங்கி ஆலையில் கோடிக்கணக்கான சிப்களை தயாரித்ததன் மூலம் அந்த நிறுவனம் பேரளவு உற்பத்தியால் கிடைக்கும் மாபெரும் சிக்கனத்தை அடைந்தது.",
+    "enExample2": "Startup cloud providers struggle to match the competitive pricing achieved through hyperscalers' economies of scale.",
+    "taExample2": "பெரிய கிளவுட் நிறுவனங்கள் பேரளவு செயல்பாட்டால் அடையும் குறைந்த விலைக்கு இணையாக போட்டியிட சிறிய நிறுவனங்கள் திணறுகின்றன.",
+    "synonyms": [
+      "Volume cost advantage",
+      "Scale efficiency",
+      "Bulk savings"
+    ],
+    "antonyms": [
+      "Diseconomies of scale",
+      "Unit cost inflation",
+      "Small-scale penalty"
+    ]
   },
   {
     "id": 501,
@@ -246,6 +287,29 @@
     ],
     "enExample2": "Switching from JSON to binary serialization significantly improved the network efficiency of our RPC protocol.",
     "taExample2": "JSON-லிருந்து பைனரி வடிவத்திற்கு மாறியது எங்கள் RPC நெறிமுறையின் நெட்வொர்க் செயல்திறனை கணிசமாக மேம்படுத்தியது."
+  },
+  {
+    "id": 3509,
+    "word": "Egregious",
+    "pos": "adjective",
+    "definition": "Outstandingly bad, shocking, or flagrant in character.",
+    "taWord": "மன்னிக்க முடியாத / அப்பட்டமான கொடிய தவறு",
+    "enExample": "The regulatory commission imposed heavy penalties for the company's egregious violation of user privacy laws.",
+    "taExample": "பயனர் தனியுரிமைச் சட்டங்களை அப்பட்டமாக மீறியதற்காக ஒழுங்குமுறை ஆணையம் நிறுவனத்திற்கு கடும் அபராதம் விதித்தது.",
+    "enExample2": "The lead architect caught an egregious memory leak during the final code review before deployment.",
+    "taExample2": "வெளியீட்டிற்கு முந்தைய இறுதிக் குறியீடு ஆய்வின் போது முதன்மை கட்டமைப்பாளர் ஒரு கடுமையான நினைவகக் கசிவைக் கண்டறிந்தார்.",
+    "synonyms": [
+      "Flagrant",
+      "Outrageous",
+      "Appalling",
+      "Monstrous"
+    ],
+    "antonyms": [
+      "Minor",
+      "Inconsequential",
+      "Exemplary",
+      "Commendable"
+    ]
   },
   {
     "id": 530,
@@ -532,6 +596,28 @@
     "taExample2": "வெறும் அனுமானங்களை நம்புவதற்குப் பதிலாக செயல்திறன் குழு உருவகப்படுத்தப்பட்ட சுமையின் கீழ் சோதனை அளவீடுகளைச் சேகரித்தது."
   },
   {
+    "id": 3597,
+    "word": "Empiricism",
+    "pos": "noun",
+    "definition": "The philosophical theory that all knowledge is derived from sense-experience, experimental observation, and evidence.",
+    "taWord": "அனுபவ அறிவுக் கொள்கை / செய்முறை சான்றுக் கோட்பாடு",
+    "enExample": "Modern medical science is strictly grounded in scientific empiricism, requiring peer-reviewed double-blind clinical trials.",
+    "taExample": "நவீன மருத்துவ அறிவியல் அனுபவ அறிவு மற்றும் மருத்துவ பரிசோதனை சான்றுகளை அடிப்படையாகக் கொண்டுள்ளது.",
+    "enExample2": "Enlightenment philosophers championed empiricism over untested scholastic superstitions and dogma.",
+    "taExample2": "ஞானோதய கால தத்துவஞானிகள் ஆதாரமற்ற மூடநம்பிக்கைகளை விட அனுபவ அறிவுக் கொள்கையையே ஆதரித்தனர்.",
+    "synonyms": [
+      "Experimentalism",
+      "Observational realism",
+      "Evidence-based philosophy"
+    ],
+    "antonyms": [
+      "Rationalism",
+      "Dogmatism",
+      "Pure theory",
+      "Speculation"
+    ]
+  },
+  {
     "id": 506,
     "word": "Emulate",
     "definition": "Reproduce the function or action of a different computer, software system, etc.",
@@ -589,6 +675,50 @@
     ],
     "enExample2": "Custom React hooks encapsulate complex state logic and lifecycle subscriptions cleanly.",
     "taExample2": "தனிப்பயன் ரியாக்ட் ஹூக்குகள் சிக்கலான நிலைத் தர்க்கத்தை நேர்த்தியாக தன்னுள் பொதிந்து (Encapsulate) வைக்கின்றன."
+  },
+  {
+    "id": 3585,
+    "word": "Encapsulation",
+    "pos": "noun",
+    "definition": "In object-oriented programming, the bundling of data with the methods that operate on that data, restricting direct access to internal state components.",
+    "taWord": "உறையிடல் / தரவு மற்றும் செயல்பாடுகளை ஒன்றிணைத்து மறைத்தல்",
+    "enExample": "Encapsulation ensures that external modules cannot corrupt the internal state of a banking account object.",
+    "taExample": "வங்கி கணக்கு ஆப்ஜெக்ட்டின் உள்ளகத் தரவுகளை வெளி அமைப்புகள் முறைகேடாக மாற்றுவதைத் தடுக்க உறையிடல் முறை உதவுகிறது.",
+    "enExample2": "By upholding rigorous encapsulation boundaries, the engineering team kept microservice codebases clean and maintainable.",
+    "taExample2": "கடுமையான உறையிடல் எல்லைகளைப் பேணியதன் மூலம் பொறியியல் குழு மைக்ரோ சர்வீஸ் குறியீடுகளை தூய்மையாகவும் பராமரிக்க எளிதாகவும் வைத்திருந்தது.",
+    "synonyms": [
+      "Data hiding",
+      "Modularity",
+      "Information bundling",
+      "Isolation"
+    ],
+    "antonyms": [
+      "Global exposure",
+      "Direct state mutation",
+      "Leakage"
+    ]
+  },
+  {
+    "id": 3510,
+    "word": "Enclave",
+    "pos": "noun",
+    "definition": "A portion of territory surrounded by a larger territory whose inhabitants are culturally or ethnically distinct; a specialized community.",
+    "taWord": "தனித்த பிரதேசம் / சிறப்பு ஒதுக்குப்புற பகுதி",
+    "enExample": "The tech hub developed as an affluent innovation enclave surrounded by traditional agricultural districts.",
+    "taExample": "பாரம்பரிய விவசாய மாவட்டங்களால் சூழப்பட்ட ஒரு வளமான புத்தாக்கப் பகுதியாக அந்த தொழில்நுட்ப மையம் உருவானது.",
+    "enExample2": "Diplomatic correspondents reported that safe corridors were established to supply humanitarian aid to the besieged enclave.",
+    "taExample2": "முற்றுகையிடப்பட்ட பகுதிக்கு மனிதாபிமான உதவிகளை வழங்க பாதுகாப்பான வழிகள் அமைக்கப்பட்டதாக தூதரக நிருபர்கள் தெரிவித்தனர்.",
+    "synonyms": [
+      "Pocket",
+      "Settlement",
+      "Sanctuary",
+      "Territory within"
+    ],
+    "antonyms": [
+      "Mainland",
+      "Open territory",
+      "Cosmopolitan expanse"
+    ]
   },
   {
     "id": 508,
@@ -715,6 +845,29 @@
     "taExample2": "GPU முடுக்கத்தைச் சேர்ப்பது நிகழ்நேர பயன்பாடுகளுக்கான மாதிரி செயலாக்க செயல்திறனை கணிசமாக மேம்படுத்தும்."
   },
   {
+    "id": 3511,
+    "word": "Enigmatic",
+    "pos": "adjective",
+    "definition": "Difficult to interpret or understand; mysterious, obscure, or puzzling.",
+    "taWord": "புரியாத புதிரான / மர்மமான",
+    "enExample": "The tech visionary remained an enigmatic figure, rarely granting interviews and avoiding public appearances.",
+    "taExample": "அரிதாகவே நேர்காணல்கள் அளித்தும் பொது நிகழ்ச்சிகளைத் தவிர்த்தும் வந்த அந்த தொழில்நுட்ப முன்னோடி ஒரு புதிரான நபராகவே இருந்தார்.",
+    "enExample2": "Scholars continue to debate the enigmatic symbolism in Shakespeare's later romance plays.",
+    "taExample2": "ஷேக்ஸ்பியரின் பிற்கால நாடகங்களில் உள்ள புதிரான குறியீடுகள் குறித்து அறிஞர்கள் தொடர்ந்து விவாதித்து வருகின்றனர்.",
+    "synonyms": [
+      "Cryptic",
+      "Inscrutable",
+      "Mysterious",
+      "Unfathomable"
+    ],
+    "antonyms": [
+      "Transparent",
+      "Obvious",
+      "Straightforward",
+      "Lucid"
+    ]
+  },
+  {
     "id": 3298,
     "word": "Enshittification",
     "pos": "Noun",
@@ -838,6 +991,29 @@
     "taExample2": "கட்டண இயந்திர மாற்றம் பல குழுக்களை உள்ளடக்கிய பல மாத பெரிய திட்டப் பணியாக (Epic) ஒழுங்கமைக்கப்பட்டது."
   },
   {
+    "id": 3515,
+    "word": "Epilogue",
+    "pos": "noun",
+    "definition": "A section or speech at the end of a book, play, or television series that serves as a comment on or conclusion to what has happened.",
+    "taWord": "முடிவுரை / பின்னுரை",
+    "enExample": "In the moving epilogue, the author chronicled the lives of the characters ten years after the revolution.",
+    "taExample": "மனதைத் தொடும் முடிவுரையில், புரட்சிக்குப் பத்து ஆண்டுகளுக்குப் பிறகு கதாபாத்திரங்களின் வாழ்க்கையை ஆசிரியர் விவரித்தார்.",
+    "enExample2": "The investigative documentary concluded with a cautionary epilogue addressing pending regulatory reforms.",
+    "taExample2": "புலனாய்வு ஆவணப்படம் நிலுவையில் உள்ள ஒழுங்குமுறை சீர்திருத்தங்கள் குறித்த எச்சரிக்கையான பின்னுரையுடன் முடிவடைந்தது.",
+    "synonyms": [
+      "Afterword",
+      "Postscript",
+      "Conclusion",
+      "Coda"
+    ],
+    "antonyms": [
+      "Prologue",
+      "Introduction",
+      "Foreword",
+      "Preface"
+    ]
+  },
+  {
     "id": 3081,
     "word": "Epiphany",
     "pos": "noun",
@@ -859,6 +1035,28 @@
     ],
     "enExample2": "After hours of profiling memory, the developer had an epiphany and identified the unclosed stream socket.",
     "taExample2": "நினைவகத்தை பல மணி நேரம் ஆய்வு செய்த பிறகு, மூடப்படாத சாக்கெட்டைக் கண்டறிந்த அந்த கணத்தில் அவருக்கு திடீர் தெளிவு பிறந்தது."
+  },
+  {
+    "id": 3512,
+    "word": "Epistemic",
+    "pos": "adjective",
+    "definition": "Relating to knowledge or to the philosophical degree of its validation and certainty.",
+    "taWord": "அறிவாற்றல் சார்ந்த / மெய்ஞ்ஞானம் தொடர்புடைய",
+    "enExample": "Scholars examined the epistemic foundations of machine learning models to assess whether AI outputs represent genuine comprehension.",
+    "taExample": "செயற்கை நுண்ணறிவின் முடிவுகள் உண்மையான புரிதலைக் குறிக்கிறதா என்பதை மதிப்பிட அறிஞர்கள் இயந்திர கற்றலின் அறிவாற்றல் அடிப்படைகளை ஆய்வு செய்தனர்.",
+    "enExample2": "The research methodology paper highlighted epistemic uncertainty inherent in long-range climate forecasting models.",
+    "taExample2": "நீண்ட கால காலநிலை முன்கணிப்பு மாதிரிகளில் உள்ள உள்ளார்ந்த அறிவாற்றல் நிச்சயமற்ற தன்மையை அந்த ஆய்வுக் கட்டுரை சுட்டிக்காட்டியது.",
+    "synonyms": [
+      "Cognitive",
+      "Epistemological",
+      "Knowledge-based",
+      "Intellectual"
+    ],
+    "antonyms": [
+      "Superficial",
+      "Empirical-less",
+      "Instinctual"
+    ]
   },
   {
     "id": 3350,
@@ -942,6 +1140,29 @@
     ],
     "enExample2": "The cloud load balancer distributes incoming client traffic in an equitable round-robin manner.",
     "taExample2": "கிளவுட் லோட் பேலன்சர் உள்வரும் பயனர் போக்குவரத்தை அனைத்து சர்வர்களுக்கும் சமமான முறையில் பகிர்ந்து அளிக்கிறது."
+  },
+  {
+    "id": 3513,
+    "word": "Equivocal",
+    "pos": "adjective",
+    "definition": "Open to more than one interpretation; deliberately ambiguous, uncertain, or questionable.",
+    "taWord": "இருபொருள்படும் / தெளிவற்ற / ஐயத்திற்குரிய",
+    "enExample": "The politician gave an equivocal response when questioned about future tax increases, frustrating both reporters and voters.",
+    "taExample": "எதிர்கால வரி உயர்வு பற்றி கேட்கப்பட்ட போது அரசியல்வாதி இருபொருள்படும் பதிலை அளித்தது செய்தியாளர்களையும் வாக்காளர்களையும் ஏமாற்றமடையச் செய்தது.",
+    "enExample2": "The laboratory findings yielded equivocal evidence, prompting researchers to conduct a follow-up trial.",
+    "taExample2": "ஆய்வக முடிவுகள் தெளிவற்ற சான்றுகளை அளித்ததால், ஆராய்ச்சியாளர்கள் கூடுதல் மறு பரிசோதனையை மேற்கொள்ள வேண்டியதாயிற்று.",
+    "synonyms": [
+      "Ambiguous",
+      "Noncommittal",
+      "Evasive",
+      "Vague"
+    ],
+    "antonyms": [
+      "Unequivocal",
+      "Explicit",
+      "Definite",
+      "Clear-cut"
+    ]
   },
   {
     "id": 3106,

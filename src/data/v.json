@@ -353,6 +353,29 @@
     "taExample2": "பிளாக்செயின் ஸ்மார்ட் ஒப்பந்தங்கள் பின்னர் மாற்ற முடியாத சரிபார்க்கக்கூடிய (Verifiable) இயக்கப் பதிவுகளை வழங்குகின்றன."
   },
   {
+    "id": 3574,
+    "word": "Verisimilitude",
+    "pos": "noun",
+    "definition": "The appearance of being true or real; the realism or authenticity depicted in a work of art, fiction, or period drama.",
+    "taWord": "உண்மைத்தன்மை / எதார்த்தமான தோற்றம்",
+    "enExample": "The historical drama gained widespread critical acclaim for the meticulous verisimilitude of its 18th-century costumes and dialogue.",
+    "taExample": "18 ஆம் நூற்றாண்டின் ஆடைகள் மற்றும் உரையாடல்களின் அசாத்திய உண்மைத்தன்மைக்காக அந்த வரலாற்று நாடகம் விமர்சகர்களின் பாராட்டைப் பெற்றது.",
+    "enExample2": "Video game graphic engines strive for photorealistic verisimilitude in lighting, physics, and fluid dynamics.",
+    "taExample2": "வீடியோ கேம் கிராபிக்ஸ் இயந்திரங்கள் ஒளி மற்றும் இயற்பியலில் நிஜ உலகிற்கு நிகரான உண்மைத்தன்மையை அடைய பாடுபடுகின்றன.",
+    "synonyms": [
+      "Realism",
+      "Authenticity",
+      "Plausibility",
+      "Lifelikeness"
+    ],
+    "antonyms": [
+      "Artificiality",
+      "Implausibility",
+      "Fictitiousness",
+      "Unreality"
+    ]
+  },
+  {
     "id": 2205,
     "word": "Versioning",
     "definition": "Assigning unique release numbers or commit hashes to track software evolution over time.",
@@ -371,6 +394,27 @@
     ],
     "enExample2": "Semantic versioning (SemVer) communicates breaking changes, new features, and bug fixes through clear version numbers.",
     "taExample2": "சொற்பொருள் பதிப்பாக்கம் (Versioning) தெளிவான எண்கள் மூலம் புதிய வசதிகள் மற்றும் பிழை திருத்தங்களைத் தெரிவிக்கிறது."
+  },
+  {
+    "id": 3594,
+    "word": "Vertical integration",
+    "pos": "noun",
+    "definition": "The combination in one company of two or more stages of production or distribution normally operated by separate companies.",
+    "taWord": "செங்குத்து ஒருங்கிணைப்பு / உற்பத்தி முதல் விநியோகம் வரை முழு கட்டுப்பாடு",
+    "enExample": "By designing its own silicon chips, building operating systems, and opening retail stores, the consumer tech giant achieved masterclass vertical integration.",
+    "taExample": "சொந்தமாக சிப்களை வடிவமைத்து, மென்பொருளை உருவாக்கி, கடைகளை நடத்தியதன் மூலம் அந்த தொழில்நுட்ப நிறுவனம் தலைசிறந்த செங்குத்து ஒருங்கிணைப்பை அடைந்தது.",
+    "enExample2": "Automakers pursue vertical integration in lithium battery refining to safeguard supply chains against geopolitical disruptions.",
+    "taExample2": "விநியோகச் சங்கிலிகளை புவிசார் அரசியல் பாதிப்புகளிலிருந்து பாதுகாக்க கார் தயாரிப்பாளர்கள் பேட்டரி தயாரிப்பில் செங்குத்து ஒருங்கிணைப்பை மேற்கொள்கின்றனர்.",
+    "synonyms": [
+      "End-to-end supply control",
+      "Upstream integration",
+      "Direct supply management"
+    ],
+    "antonyms": [
+      "Outsourcing",
+      "Horizontal specialization",
+      "Supply fragmentation"
+    ]
   },
   {
     "id": 3212,
@@ -440,6 +484,29 @@
     ],
     "enExample2": "Debugging a non-deterministic concurrency race condition is one of the most vexing engineering challenges.",
     "taExample2": "கணிக்க முடியாத சமகால போட்டி நிலை பிழையைத் திருத்துவது மிகவும் எரிச்சலூட்டும் (Vexing) பொறியியல் சவால்களில் ஒன்றாகும்."
+  },
+  {
+    "id": 3572,
+    "word": "Viability",
+    "pos": "noun",
+    "definition": "Ability to work successfully; commercial, operational, or biological feasibility and endurance.",
+    "taWord": "சாத்தியக்கூறு / நீடித்து நிலைத்து நிற்கும் திறன்",
+    "enExample": "Independent auditors verified the long-term economic viability of the proposed high-speed passenger rail network.",
+    "taExample": "முன்மொழியப்பட்ட அதிவேக ரயில் திட்டத்தின் நீண்ட கால பொருளாதார சாத்தியக்கூறை தணிக்கையாளர்கள் உறுதிப்படுத்தினர்.",
+    "enExample2": "The startup demonstrated product viability by securing ten thousand paying corporate subscribers in its first quarter.",
+    "taExample2": "முதல் காலாண்டிலேயே பத்தாயிரம் கட்டணம் செலுத்தும் நிறுவன வாடிக்கையாளர்களைப் பெற்றதன் மூலம் ஸ்டார்ட்-அப் தனது தயாரிப்பு சாத்தியத்தை நிரூபித்தது.",
+    "synonyms": [
+      "Feasibility",
+      "Workability",
+      "Sustainability",
+      "Practicability"
+    ],
+    "antonyms": [
+      "Futile",
+      "Infeasibility",
+      "Impracticability",
+      "Unviability"
+    ]
   },
   {
     "id": 3288,
@@ -518,6 +585,29 @@
     ],
     "antonyms": [
       "formal audit"
+    ]
+  },
+  {
+    "id": 3573,
+    "word": "Vicarious",
+    "pos": "adjective",
+    "definition": "Experienced in the imagination through the feelings or actions of another person.",
+    "taWord": "பிறர் அனுபவத்தை உணர்தல் / மாற்று வழி அனுபவம்",
+    "enExample": "Travel documentaries offer viewers a thrilling vicarious experience of scaling treacherous Himalayan summits from home.",
+    "taExample": "பயண ஆவணப்படங்கள் பார்வையாளர்கள் வீட்டிலிருந்தபடியே இமயமலை உச்சியை ஏறும் மெய்சிலிர்க்கும் மாற்று அனுபவத்தை வழங்குகின்றன.",
+    "enExample2": "Parents often take vicarious pride in the artistic and sporting achievements of their children.",
+    "taExample2": "பெற்றோர்கள் தங்கள் குழந்தைகளின் கலை மற்றும் விளையாட்டு சாதனைகளில் ஒருவித உள்ளுணர்வு பெருமிதத்தை அடைகிறார்கள்.",
+    "synonyms": [
+      "Indirect",
+      "Secondhand",
+      "Empathetic",
+      "Substituted"
+    ],
+    "antonyms": [
+      "Direct",
+      "Firsthand",
+      "Personal",
+      "Primary"
     ]
   },
   {
@@ -605,6 +695,28 @@
     ],
     "enExample2": "Setting the responsive viewport meta tag ensures mobile browsers scale text and layouts accurately.",
     "taExample2": "பதிலளிக்கக்கூடிய வியூபோர்ட் (Viewport) மெட்டா குறியீட்டை அமைப்பது மொபைல் உலாவிகள் தளத்தை சரியாகக் காட்டுவதை உறுதி செய்கிறது."
+  },
+  {
+    "id": 3575,
+    "word": "Vignette",
+    "pos": "noun",
+    "definition": "A brief evocative description, account, or episode in a book or film.",
+    "taWord": "சுருக்கமான சிறுகாட்சி / சிறிய வர்ணனைப் பகுதி",
+    "enExample": "The documentary opened with a poignant vignette illustrating the daily struggles of an artisan baker in Paris.",
+    "taExample": "பாரிஸில் உள்ள ஒரு ரொட்டி தயாரிப்பாளரின் அன்றாடப் போராட்டங்களை சித்தரிக்கும் ஒரு சுருக்கமான காட்சியுடன் ஆவணப்படம் தொடங்கியது.",
+    "enExample2": "The essay collection is comprised of humorous vignettes capturing life inside a fast-growing Silicon Valley startup.",
+    "taExample2": "சிலிக்கான் வேலி ஸ்டார்ட்-அப் நிறுவன வாழ்க்கையைப் படம்பிடித்துக் காட்டும் நகைச்சுவையான சிறுகாட்சிகளின் தொகுப்பாக அந்த புத்தகம் உள்ளது.",
+    "synonyms": [
+      "Sketch",
+      "Snapshot",
+      "Episode",
+      "Portrayal"
+    ],
+    "antonyms": [
+      "Comprehensive saga",
+      "Full epic",
+      "Exhaustive biography"
+    ]
   },
   {
     "id": 3163,

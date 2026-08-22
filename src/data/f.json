@@ -160,6 +160,27 @@
     "taExample2": "நீண்ட கிளவுட் முடக்கத்தால் ஏற்பட்ட செயல்பாட்டு பின்விளைவுகளை பொறியியல் துணைத் தலைவர் திறம்பட கையாண்டார்."
   },
   {
+    "id": 3598,
+    "word": "Falsifiability",
+    "pos": "noun",
+    "definition": "The capacity for a theory or hypothesis to be proven false or contradicted by an observation or the outcome of a physical experiment.",
+    "taWord": "பொய்ப்பிக்கத்தக்க தன்மை / தவறு என நிரூபிக்கும் சாத்தியம்",
+    "enExample": "Philosopher Karl Popper famously asserted that falsifiability is the definitive demarcation separating genuine science from pseudoscience.",
+    "taExample": "உண்மையான அறிவியலையும் போலி அறிவியலையும் பிரிக்கும் அறுதியான அளவுகோல் பொய்ப்பிக்கத்தக்க தன்மையே என்று கார்ல் பாப்பர் கூறினார்.",
+    "enExample2": "The theoretical physicist modified the cosmological hypothesis to ensure its predictions possessed testable falsifiability.",
+    "taExample2": "தனது கோட்பாட்டின் கணிப்புகள் சோதித்து அறியக்கூடிய பொய்ப்பிக்கத்தக்க தன்மையைக் கொண்டிருப்பதை உறுதி செய்ய இயற்பியலாளர் அதை மாற்றியமைத்தார்.",
+    "synonyms": [
+      "Testability",
+      "Refutability",
+      "Verifiability-negation"
+    ],
+    "antonyms": [
+      "Unfalsifiability",
+      "Dogmatic immunity",
+      "Tautology"
+    ]
+  },
+  {
     "id": 628,
     "word": "Fastidious",
     "definition": "Very attentive to and concerned about accuracy and detail.",
@@ -178,6 +199,28 @@
     ],
     "enExample2": "Her fastidious approach to writing unit tests ensured zero regression defects in the payment module.",
     "taExample2": "சோதனைகளை எழுதுவதில் அவரது அதீத துல்லியமான அணுகுமுறை கட்டணப் பகுதியில் பிழைகள் எதுவும் இல்லாததை உறுதி செய்தது."
+  },
+  {
+    "id": 3517,
+    "word": "Fault tolerance",
+    "pos": "noun",
+    "definition": "The property that enables a system to continue operating properly in the event of the failure of one or more of its components.",
+    "taWord": "பிழை தாங்கும் திறன் / தடையற்ற இயங்குதிறன்",
+    "enExample": "Cloud architects design geo-redundant clusters to achieve high fault tolerance during unexpected data center outages.",
+    "taExample": "எதிர்பாராத தரவு மைய முடக்கங்களின் போது தடையற்ற இயங்குதிறனை அடைய கிளவுட் கட்டமைப்பாளர்கள் பல பிராந்திய கட்டமைப்புகளை உருவாக்குகின்றனர்.",
+    "enExample2": "The space exploration capsule relies on triple-redundant avionics systems for absolute fault tolerance.",
+    "taExample2": "விண்வெளி ஆய்வுக் கூண்டு முழுமையான பிழை தாங்கும் திறனுக்காக மூன்று அடுக்கு பாதுகாப்பு கணினி அமைப்புகளை நம்பியுள்ளது.",
+    "synonyms": [
+      "Resilience",
+      "Redundancy",
+      "Robustness",
+      "High availability"
+    ],
+    "antonyms": [
+      "Single point of failure",
+      "Fragility",
+      "Vulnerability"
+    ]
   },
   {
     "id": 604,
@@ -338,6 +381,28 @@
     ],
     "enExample2": "High-fidelity prototypes allow stakeholders to experience user workflows before backend implementation begins.",
     "taExample2": "உயர் நம்பகத்தன்மை முன்மாதிரிகள் மென்பொருள் உருவாக்கத்திற்கு முன்பே பயனர் அனுபவத்தை நேரில் உணர உதவுகின்றன."
+  },
+  {
+    "id": 3516,
+    "word": "Fiduciary",
+    "pos": "adjective",
+    "definition": "Involving trust, especially with regard to the legal relationship between a trustee and beneficiary, or corporate board and shareholders.",
+    "taWord": "நம்பிக்கை சார்ந்த சட்டப் பொறுப்புடைய / நிதிப் பொறுப்பாளர்",
+    "enExample": "Corporate board members bear a strict fiduciary duty to act in the best long-term interest of company shareholders.",
+    "taExample": "நிறுவன பங்குதாரர்களின் நீண்ட கால நலனுக்காக செயல்படும் கடுமையான சட்டப் பொறுப்பு இயக்குநரவை உறுப்பினர்களுக்கு உள்ளது.",
+    "enExample2": "Financial advisers registered as fiduciaries are legally required to put client interests above their own fee commissions.",
+    "taExample2": "சட்டப்பூர்வ நிதி ஆலோசகர்கள் தங்கள் சொந்த கமிஷனை விட வாடிக்கையாளரின் நலனுக்கே முன்னுரிமை அளிக்க வேண்டும் என்பது சட்டமாகும்.",
+    "synonyms": [
+      "Trust-based",
+      "Custodial",
+      "Trustee",
+      "Confidential"
+    ],
+    "antonyms": [
+      "Self-serving",
+      "Unregulated",
+      "Opportunistic"
+    ]
   },
   {
     "id": 3224,
@@ -694,6 +759,28 @@
     ],
     "enExample2": "The mobile app pauses resource-heavy animations whenever the activity is no longer in the foreground.",
     "taExample2": "பயன்பாடு திரையின் முன்புறத்தில் (Foreground) இல்லாத போதெல்லாம் அதிக வளங்களைப் பயன்படுத்தும் அனிமேஷன்களை நிறுத்துகிறது."
+  },
+  {
+    "id": 3603,
+    "word": "Foreshadowing",
+    "pos": "noun",
+    "definition": "A warning or indication of a future event, especially a literary device providing clues about what is to happen later in a plot.",
+    "taWord": "முன்னறிவிப்பு / பின்னால் வரப்போவதை முன்கூட்டியே உணர்த்தும் உத்தி",
+    "enExample": "The eerie music and sudden storm in the opening scene served as ominous foreshadowing for the hero's ultimate downfall.",
+    "taExample": "தொடக்கக் காட்சியில் ஒலித்த பயமுறுத்தும் இசையும் திடீர் புயலும் கதாநாயகனின் இறுதி வீழ்ச்சியை முன்கூட்டியே உணர்த்தும் முன்னறிவிப்பாக அமைந்தன.",
+    "enExample2": "Masterful screenwriters employ subtle foreshadowing so dramatic plot twists feel inevitable rather than contrived upon second viewing.",
+    "taExample2": "கதை திருப்பங்கள் இயல்பாகத் தோன்றும் வகையில் திறமையான திரைக்கதை எழுத்தாளர்கள் நுட்பமான முன்னறிவிப்பு உத்திகளைப் பயன்படுத்துகின்றனர்.",
+    "synonyms": [
+      "Prefiguration",
+      "Presage",
+      "Portent",
+      "Premonition"
+    ],
+    "antonyms": [
+      "Retrospection",
+      "Flashback",
+      "Historical reflection"
+    ]
   },
   {
     "id": 614,

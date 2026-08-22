@@ -885,6 +885,29 @@
     "taExample2": "ஒரு கலப்பு (Hybrid) கிளவுட் அமைப்பு உள்ளக பாதுகாப்பான வன்பொருளை பொது கிளவுட் சேவையகங்களுடன் இணைக்கிறது."
   },
   {
+    "id": 3521,
+    "word": "Hyperbole",
+    "pos": "noun",
+    "definition": "Exaggerated statements or claims not meant to be taken literally, used for emphasis or dramatic effect.",
+    "taWord": "மிகைப்படுத்தப்பட்ட கூற்று / உயர்வு நவிற்சி",
+    "enExample": "Tech critics warned consumers to look past marketing hyperbole when evaluating artificial intelligence claims.",
+    "taExample": "செயற்கை நுண்ணறிவு உரிமைகோரல்களை மதிப்பிடும்போது விளம்பர மிகைப்படுத்தல்களைக் கடந்து உண்மையை ஆராயுமாறு தொழில்நுட்ப விமர்சகர்கள் எச்சரித்தனர்.",
+    "enExample2": "The BBC political correspondent noted that both sides in the debate indulged in theatrical hyperbole.",
+    "taExample2": "விவாதத்தில் இரு தரப்பினரும் மிகைப்படுத்தப்பட்ட நாடகத்தனமான கூற்றுகளைப் பயன்படுத்தியதாக பிபிசி அரசியல் செய்தியாளர் குறிப்பிட்டார்.",
+    "synonyms": [
+      "Exaggeration",
+      "Overstatement",
+      "Amplification",
+      "Magnification"
+    ],
+    "antonyms": [
+      "Understatement",
+      "Meiosis",
+      "Litotes",
+      "Exactitude"
+    ]
+  },
+  {
     "id": 813,
     "word": "Hyperlink",
     "definition": "A link from a hypertext file or document to another location or file.",

@@ -61,6 +61,26 @@
     ]
   },
   {
+    "id": 3586,
+    "word": "Idempotency",
+    "pos": "noun",
+    "definition": "The mathematical and computing property wherein an operation can be applied multiple times without altering the result beyond the initial application.",
+    "taWord": "மறுநிகழ்வு மாறாமை / எத்தனை முறை இயக்கினாலும் முடிவு மாறாத தன்மை",
+    "enExample": "The payment API requires an idempotency key with each request so network retries never result in duplicate credit card charges.",
+    "taExample": "இணைய இணைப்பு மீண்டும் முயற்சிக்கும் போது வாடிக்கையாளரிடம் இருமுறை பணம் கழிக்கப்படாமல் இருக்க கட்டண முறை மறுநிகழ்வு மாறாமை சாவியைப் பயன்படுத்துகிறது.",
+    "enExample2": "RESTful HTTP PUT and DELETE verbs are designed to maintain strict idempotency across distributed cloud environments.",
+    "taExample2": "விநியோகிக்கப்பட்ட கிளவுட் சூழல்களில் கடுமையான மறுநிகழ்வு மாறாமைத் தன்மையைப் பேணும்படி HTTP PUT மற்றும் DELETE கட்டளைகள் வடிவமைக்கப்பட்டுள்ளன.",
+    "synonyms": [
+      "Repeatable consistency",
+      "Operation invariance",
+      "Deterministic state"
+    ],
+    "antonyms": [
+      "State drift",
+      "Side-effect accumulation"
+    ]
+  },
+  {
     "id": 2794,
     "word": "Idempotency Key",
     "pos": "noun",
@@ -545,6 +565,29 @@
     ]
   },
   {
+    "id": 3522,
+    "word": "Inadvertent",
+    "pos": "adjective",
+    "definition": "Not resulting from or achieved through deliberate planning; unintentional, accidental, or oversight.",
+    "taWord": "கவனக்குறைவான / திட்டமிடப்படாத / தற்செயலான",
+    "enExample": "An inadvertent configuration error caused a three-hour downtime across the cloud provider's European data center.",
+    "taExample": "கவனக்குறைவாக செய்யப்பட்ட அமைவுப் பிழை ஐரோப்பிய தரவு மையத்தில் மூன்று மணி நேர தடையை ஏற்படுத்தியது.",
+    "enExample2": "The BBC broadcaster issued a clarification after an inadvertent slip of the tongue during the live bulletin.",
+    "taExample2": "நேரலை செய்தி வாசிப்பின் போது தற்செயலாக ஏற்பட்ட நழுவலுக்குப் பிறகு பிபிசி செய்தி நிறுவனம் விளக்கம் அளித்தது.",
+    "synonyms": [
+      "Unintentional",
+      "Accidental",
+      "Unwitting",
+      "Involuntary"
+    ],
+    "antonyms": [
+      "Deliberate",
+      "Intentional",
+      "Calculated",
+      "Premeditated"
+    ]
+  },
+  {
     "id": 933,
     "word": "Incentive",
     "definition": "A thing that motivates or encourages someone to do something.",
@@ -736,6 +779,29 @@
     ]
   },
   {
+    "id": 3523,
+    "word": "Indelible",
+    "pos": "adjective",
+    "definition": "Making marks that cannot be removed; permanently memorable or impossible to forget or erase.",
+    "taWord": "அழியாத / மாற்ற முடியாத நீங்கா நினைவான",
+    "enExample": "The whistleblower's testimony left an indelible impression on the members of the congressional inquiry panel.",
+    "taExample": "விசாரணைக் குழு உறுப்பினர்கள் மத்தியில் உண்மையை அம்பலப்படுத்தியவரின் வாக்குமூலம் ஒரு அழியாத தாக்கத்தை ஏற்படுத்தியது.",
+    "enExample2": "The documentary highlights the indelible cultural legacy of 1960s civil rights activists.",
+    "taExample2": "1960-களின் சிவில் உரிமைப் போராளிகளின் அழியாத கலாச்சாரப் பாரம்பரியத்தை இந்த ஆவணப்படம் எடுத்துரைக்கிறது.",
+    "synonyms": [
+      "Inerasable",
+      "Permanent",
+      "Enduring",
+      "Unforgettable"
+    ],
+    "antonyms": [
+      "Erasable",
+      "Ephemeral",
+      "Transient",
+      "Forgettable"
+    ]
+  },
+  {
     "id": 906,
     "word": "Index",
     "definition": "An indicator, sign, or measure of something; a data structure that improves the speed of data retrieval operations on a database table.",
@@ -754,6 +820,29 @@
     ],
     "enExample2": "Creating a composite database index dramatically reduced query execution time from five seconds to ten milliseconds.",
     "taExample2": "கூட்டு தரவுத்தள குறியீட்டை (Index) உருவாக்கியது வினவல் இயங்கும் நேரத்தை ஐந்து விநாடிகளிலிருந்து பத்து மில்லி விநாடிகளாகக் குறைத்தது."
+  },
+  {
+    "id": 3527,
+    "word": "Indictment",
+    "pos": "noun",
+    "definition": "A formal charge or accusation of a serious crime; a thing that illustrates how bad or corrupt a system is.",
+    "taWord": "முறையான குற்றப்பத்திரிகை / சீரழிவைக் காட்டும் சான்றாவணம்",
+    "enExample": "The federal grand jury returned a thirty-count criminal indictment against the fraudulent hedge fund manager.",
+    "taExample": "மோசடி செய்த முதலீட்டு நிதி மேலாளருக்கு எதிராக ஃபெடரல் நடுவர் குழு முப்பது பிரிவுகளின் கீழ் குற்றப்பத்திரிகையைத் தாக்கல் செய்தது.",
+    "enExample2": "The investigative report stood as a blistering indictment of the state's neglected public transit infrastructure.",
+    "taExample2": "அந்த புலனாய்வு அறிக்கை மாநிலத்தின் புறக்கணிக்கப்பட்ட பொதுப் போக்குவரத்து கட்டமைப்பின் மீதான கடுமையான குற்றச்சாட்டாக அமைந்தது.",
+    "synonyms": [
+      "Formal charge",
+      "Accusation",
+      "Condemnation",
+      "Arraignment"
+    ],
+    "antonyms": [
+      "Acquittal",
+      "Exoneration",
+      "Absolution",
+      "Vindication"
+    ]
   },
   {
     "id": 2832,
@@ -972,6 +1061,29 @@
     "taExample2": "நியூரல் நெட்வொர்க் எடைகளை உகப்பாக்கியது மொபைல் வன்பொருளில் மாதிரி அனுமான (Inference) வேகத்தை பெரிதும் விரைவுபடுத்தியது."
   },
   {
+    "id": 3524,
+    "word": "Inflection point",
+    "pos": "noun",
+    "definition": "A decisive moment or turning point in a situation, project, or economy where a major significant change takes place.",
+    "taWord": "திருப்புமுனை / போக்கை மாற்றும் முக்கிய தருணம்",
+    "enExample": "Industry analysts consider the rollout of generative AI as a historic inflection point for the global software sector.",
+    "taExample": "உருவாக்க செயற்கை நுண்ணறிவின் வருகையை உலகளாவிய மென்பொருள் துறையின் வரலாற்று சிறப்புமிக்க திருப்புமுனையாக ஆய்வாளர்கள் கருதுகின்றனர்.",
+    "enExample2": "The CEO explained that the quarterly results marked an inflection point toward sustained international profitability.",
+    "taExample2": "இந்த காலாண்டு முடிவுகள் நிலையான சர்வதேச லாபத்தை நோக்கிய ஒரு முக்கிய திருப்புமுனையாக அமைந்துள்ளது என்று தலைமை நிர்வாகி விளக்கினார்.",
+    "synonyms": [
+      "Turning point",
+      "Watershed moment",
+      "Crux",
+      "Milestone transition"
+    ],
+    "antonyms": [
+      "Plateau",
+      "Stagnation",
+      "Status quo",
+      "Steady state"
+    ]
+  },
+  {
     "id": 936,
     "word": "Influence",
     "definition": "The capacity to have an effect on the character, development, or behavior of someone or something.",
@@ -1050,6 +1162,29 @@
     ],
     "enExample2": "Network unreliability is an inherent reality when designing globally distributed edge microservices.",
     "taExample2": "நெட்வொர்க் நிச்சயமற்ற தன்மை என்பது உலகளாவிய விநியோகிக்கப்பட்ட சேவைகளை வடிவமைக்கும் போது உள்ள இயல்பான உண்மையாகும்."
+  },
+  {
+    "id": 3525,
+    "word": "Inimical",
+    "pos": "adjective",
+    "definition": "Tending to obstruct, harm, or oppose; adverse, hostile, or unfriendly.",
+    "taWord": "விரோதமான / தீங்கு விளைவிக்கும் / பாதகமான",
+    "enExample": "Scholars argued that state censorship is fundamentally inimical to genuine scientific inquiry and academic freedom.",
+    "taExample": "அரசு தணிக்கை என்பது உண்மையான அறிவியல் ஆய்வுக்கும் கல்வி சுதந்திரத்திற்கும் முற்றிலும் பாதகமானது என்று அறிஞர்கள் வாதிட்டனர்.",
+    "enExample2": "High interest rates proved inimical to early-stage venture capital fundraising across the tech ecosystem.",
+    "taExample2": "அதிக வட்டி விகிதங்கள் தொழில்நுட்பத் துறையில் ஆரம்பகட்ட முதலீட்டு நிதி திரட்டலுக்கு பாதகமாக அமைந்தன.",
+    "synonyms": [
+      "Detrimental",
+      "Harmful",
+      "Adverse",
+      "Antagonistic"
+    ],
+    "antonyms": [
+      "Conducive",
+      "Beneficial",
+      "Favorable",
+      "Auspicious"
+    ]
   },
   {
     "id": 937,
@@ -1305,6 +1440,29 @@
       "surmountable",
       "manageable",
       "overcomable"
+    ]
+  },
+  {
+    "id": 3526,
+    "word": "Insurrection",
+    "pos": "noun",
+    "definition": "A violent uprising or armed rebellion against an authority, government, or state.",
+    "taWord": "கிளர்ச்சி / ஆயுதமேந்திய அரசு எதிர்ப்பு எழுச்சி",
+    "enExample": "BBC World News provided rolling coverage as security forces pushed back against the violent armed insurrection.",
+    "taExample": "ஆயுதமேந்திய வன்முறைக் கிளர்ச்சியை பாதுகாப்புப் படைகள் முறியடித்ததை பிபிசி வேர்ல்ட் நியூஸ் தொடர்ந்து ஒளிபரப்பியது.",
+    "enExample2": "Historians examined the social grievances that precipitated the sudden civilian insurrection in the provincial capital.",
+    "taExample2": "மாகாண தலைநகரில் திடீர் மக்கள் கிளர்ச்சியைத் தூண்டிய சமூகக் குறைகளை வரலாற்று ஆய்வாளர்கள் ஆராய்ந்தனர்.",
+    "synonyms": [
+      "Rebellion",
+      "Uprising",
+      "Mutiny",
+      "Revolt"
+    ],
+    "antonyms": [
+      "Pacification",
+      "Submission",
+      "Order",
+      "Compliance"
     ]
   },
   {
