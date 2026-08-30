@@ -1625,5 +1625,29 @@
     ],
     "enExample2": "Administrative users can bypass standard cache policies to view real-time database state.",
     "taExample2": "நிர்வாகப் பயனர்கள் நிகழ்நேர தரவுத்தள நிலையைக் காண நிலையான தற்காலிக சேமிப்புக் கொள்கைகளைத் தவிர்க்கலாம்."
+  },
+  {
+    "id": 3703,
+    "word": "Berate",
+    "pos": "verb",
+    "definition": "To scold, criticize, or address someone angrily at length.",
+    "taWord": "கோபமாக திட்டுதல் / வசைபாடுதல்",
+    "enExample": "Good managers never berate their subordinates when honest mistakes occur.",
+    "taExample": "நேர்மையான தவறுகள் நிகழும் போது நல்ல மேலாளர்கள் தங்கள் கீழ் பணிபுரிபவர்களை ஒருபோதும் கோபமாகத் திட்டுவதில்லை.",
+    "enExample2": "Instead of berating the child for dropping a plate, they cleaned up the mess together calmly.",
+    "taExample2": "தட்டைக் கீழே போட்டதற்காகக் குழந்தையைத் திட்டுவதற்குப் பதிலாக, அவர்கள் அமைதியாக ஒன்றாகச் சுத்தம் செய்தனர்.",
+    "synonyms": [
+      "Scold",
+      "Upbraid",
+      "Chide",
+      "Reprimand",
+      "Chastise"
+    ],
+    "antonyms": [
+      "Praise",
+      "Comfort",
+      "Cheer",
+      "Encourage"
+    ]
   }
 ]

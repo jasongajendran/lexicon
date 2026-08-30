@@ -1795,5 +1795,149 @@
       "Unrestraint",
       "Excess"
     ]
+  },
+  {
+    "id": 3699,
+    "word": "Reproach",
+    "pos": "verb",
+    "definition": "To express sharp disapproval, mild criticism, or disappointment with someone for an action or failure.",
+    "taWord": "கண்டித்தல் / பழித்துக் கூறுதல் / குறை கூறுதல்",
+    "enExample": "The team lead did not reproach the junior developer for the bug, but rather helped him fix it.",
+    "taExample": "அந்தப் பிழைக்காக குழுத் தலைவர் ஜூனியர் டெவலப்பரைக் கண்டிக்காமல், அதைச் சரிசெய்ய அவருக்கு உதவினார்.",
+    "enExample2": "Parents should guide children with patience rather than constant reproach.",
+    "taExample2": "பெற்றோர்கள் குழந்தைகளைத் தொடர்ந்து குறை கூறாமல் பொறுமையுடன் வழிநடத்த வேண்டும்.",
+    "synonyms": [
+      "Rebuke",
+      "Chide",
+      "Admonish",
+      "Reprove",
+      "Criticize"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commend",
+      "Applaud",
+      "Laud"
+    ]
+  },
+  {
+    "id": 3700,
+    "word": "Reprove",
+    "pos": "verb",
+    "definition": "To gently criticize or correct someone, usually out of a kind desire to help them improve.",
+    "taWord": "கனிவோடு கண்டித்தல் / நல்வழிப்படுத்த கடிந்து கொள்ளுதல்",
+    "enExample": "The mentor gently reproved his colleague for interrupting others during the presentation.",
+    "taExample": "விளக்கக்காட்சியின் போது மற்றவர்களை இடைமறித்துப் பேசியதற்காக வழிகாட்டி தன் சக ஊழியரைக் கனிவோடு கடிந்து கொண்டார்.",
+    "enExample2": "The teacher reproved the noisy students with a firm yet gentle reminder to stay focused.",
+    "taExample2": "ஆசிரியர் சத்தமிட்ட மாணவர்களைக் கவனமாக இருக்குமாறு உறுதியான அதே சமயம் மென்மையான நினைவூட்டலுடன் கடிந்து கொண்டார்.",
+    "synonyms": [
+      "Admonish",
+      "Chide",
+      "Scold",
+      "Reproach",
+      "Correct"
+    ],
+    "antonyms": [
+      "Compliment",
+      "Praise",
+      "Approve",
+      "Flatter"
+    ]
+  },
+  {
+    "id": 3701,
+    "word": "Rebuke",
+    "pos": "verb",
+    "definition": "To express stern, sharp, or authoritative disapproval of someone because of their behavior.",
+    "taWord": "கடுமையாகக் கண்டித்தல் / அதட்டுதல்",
+    "enExample": "The manager had to rebuke the contractor for deliberately ignoring safety protocols on site.",
+    "taExample": "தளத்தில் பாதுகாப்பு நெறிமுறைகளை வேண்டுமென்றே புறக்கணித்ததற்காக ஒப்பந்ததாரரை மேலாளர் கடுமையாகக் கண்டிக்க வேண்டியிருந்தது.",
+    "enExample2": "She gently rebuked her brother for taking her laptop without asking first.",
+    "taExample2": "முதலில் கேட்காமல் தனது மடிக்கணினியை எடுத்ததற்காக அவள் தன் சகோதரனைக் கடிந்து கொண்டாள்.",
+    "synonyms": [
+      "Reprimand",
+      "Scold",
+      "Censure",
+      "Admonish",
+      "Berate"
+    ],
+    "antonyms": [
+      "Praise",
+      "Endorse",
+      "Compliment",
+      "Encourage"
+    ]
+  },
+  {
+    "id": 3704,
+    "word": "Remonstrate",
+    "pos": "verb",
+    "definition": "To make a forcefully reproachful protest, objection, or plea against an unfair decision.",
+    "taWord": "எதிர்ப்புத் தெரிவித்தல் / நியாயம் கேட்டு வாதிடுதல்",
+    "enExample": "The union representatives met with management to remonstrate against sudden salary cuts.",
+    "taExample": "திடீர் சம்பளக் குறைப்புக்கு எதிர்ப்புத் தெரிவிக்க தொழிற்சங்கப் பிரதிநிதிகள் நிர்வாகத்தைச் சந்தித்து நியாயம் கேட்டு வாதிட்டனர்.",
+    "enExample2": "The customer remonstrated politely with the store manager about the misleading return policy.",
+    "taExample2": "வாடிக்கையாளர் தவறான தகவல்களைக் கொண்ட திரும்பப் பெறும் கொள்கை குறித்து கடையின் மேலாளரிடம் கண்ணியமாக எதிர்ப்புத் தெரிவித்தார்.",
+    "synonyms": [
+      "Protest",
+      "Complain",
+      "Object",
+      "Expostulate",
+      "Argue"
+    ],
+    "antonyms": [
+      "Accept",
+      "Agree",
+      "Yield",
+      "Acquiesce"
+    ]
+  },
+  {
+    "id": 3720,
+    "word": "Reciprocate",
+    "pos": "verb",
+    "definition": "To respond to a gesture, feeling, or action with a corresponding one; to return affection or kindness.",
+    "taWord": "பதிலுக்குச் செய்தல் / பரஸ்பரம் வெளிப்படுத்துதல்",
+    "enExample": "In a healthy marriage, both partners gladly reciprocate each other's acts of kindness and care.",
+    "taExample": "ஆரோக்கியமான திருமண வாழ்க்கையில், இரு துணைகளும் ஒருவருக்கொருவர் காட்டும் அன்பையும் அக்கறையையும் மனமுவந்து பதிலுக்குச் செய்கிறார்கள்.",
+    "enExample2": "He sent a thoughtful gift to reciprocate the warm hospitality he received over the holidays.",
+    "taExample2": "விடுமுறை நாட்களில் தனக்குக் கிடைத்த கனிவான விருந்தோம்பலுக்குப் பதிலளிக்கும் வகையில் அவர் ஒரு அன்பான பரிசை அனுப்பினார்.",
+    "synonyms": [
+      "Return",
+      "Requite",
+      "Repay",
+      "Respond",
+      "Exchange"
+    ],
+    "antonyms": [
+      "Ignore",
+      "Withhold",
+      "Neglect",
+      "Refuse"
+    ]
+  },
+  {
+    "id": 3726,
+    "word": "Reconciliation",
+    "pos": "noun",
+    "definition": "The restoration of friendly relations and harmony after a misunderstanding or estrangement.",
+    "taWord": "சமாதானம் / மீண்டும் இணைதல் / சமரசம்",
+    "enExample": "A sincere apology and honest dialogue paved the way for reconciliation between the married couple.",
+    "taExample": "ஒரு உண்மையான மன்னிப்பும் நேர்மையான உரையாடலும் அந்தத் தம்பதியினருக்கு இடையே மீண்டும் சமாதானம் ஏற்பட வழிவகுத்தது.",
+    "enExample2": "Holidays often provide a wonderful opportunity for family reconciliation and forgiveness.",
+    "taExample2": "விடுமுறை நாட்கள் பெரும்பாலும் குடும்ப சமாதானத்திற்கும் மன்னிப்பிற்கும் ஒரு அருமையான வாய்ப்பை வழங்குகின்றன.",
+    "synonyms": [
+      "Harmonization",
+      "Rapprochement",
+      "Settlement",
+      "Pacification",
+      "Reunion"
+    ],
+    "antonyms": [
+      "Estrangement",
+      "Alienation",
+      "Discord",
+      "Conflict"
+    ]
   }
 ]

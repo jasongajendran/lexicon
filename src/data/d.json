@@ -2340,5 +2340,100 @@
       "Indiscriminate",
       "Naive"
     ]
+  },
+  {
+    "id": 3706,
+    "word": "Disparage",
+    "pos": "verb",
+    "definition": "To regard or speak of someone or something as having little worth; to belittle.",
+    "taWord": "மட்டம் தட்டுதல் / இழிவுபடுத்திப் பேசுதல்",
+    "enExample": "In professional environments, one should never disparage a competitor's honest efforts.",
+    "taExample": "தொழில்முறை சூழல்களில், போட்டியாளரின் நேர்மையான முயற்சிகளை ஒருபோதும் மட்டம் தட்டிப் பேசக்கூடாது.",
+    "enExample2": "Disparaging remarks can severely damage a teenager's self-esteem.",
+    "taExample2": "மட்டம் தட்டிப் பேசும் கருத்துக்கள் ஒரு பதின்ம வயதினரின் சுயமரியாதையை கடுமையாகப் பாதிக்கலாம்.",
+    "synonyms": [
+      "Belittle",
+      "Deprecate",
+      "Demean",
+      "Deride",
+      "Dismiss"
+    ],
+    "antonyms": [
+      "Praise",
+      "Flatter",
+      "Compliment",
+      "Honor"
+    ]
+  },
+  {
+    "id": 3714,
+    "word": "Decry",
+    "pos": "verb",
+    "definition": "To publicly declare something to be wrong, unjust, or harmful.",
+    "taWord": "வெளிப்படையாகக் கண்டித்தல் / எதிர்த்துப் பேசுதல்",
+    "enExample": "Community leaders met to decry the rising cost of public transit for students.",
+    "taExample": "மாணவர்களுக்கான பொதுப் போக்குவரத்து கட்டண உயர்வை வெளிப்படையாகக் கண்டிக்க சமூகத் தலைவர்கள் கூடினர்.",
+    "enExample2": "Teachers decry excessive screen time for young children because it limits outdoor play.",
+    "taExample2": "வெளிப்புற விளையாட்டைக் குறைப்பதால் இளம் குழந்தைகளுக்கு அதிக திரை நேரத்தை ஆசிரியர்கள் வெளிப்படையாகக் கண்டிக்கிறார்கள்.",
+    "synonyms": [
+      "Denounce",
+      "Condemn",
+      "Criticize",
+      "Censure",
+      "Deplore"
+    ],
+    "antonyms": [
+      "Praise",
+      "Applaud",
+      "Commend",
+      "Endorse"
+    ]
+  },
+  {
+    "id": 3717,
+    "word": "Dissuade",
+    "pos": "verb",
+    "definition": "To persuade someone not to take a particular course of action.",
+    "taWord": "மனம் மாறச் செய்தல் / பின்வாங்க வைத்தல் / தடுத்தல்",
+    "enExample": "His financial advisor managed to dissuade him from making an overly speculative investment.",
+    "taExample": "அதிக ஆபத்து நிறைந்த ஊக முதலீட்டைச் செய்ய வேண்டாம் என்று அவரது நிதி ஆலோசகர் அவரை மனம் மாறச் செய்து தடுத்தார்.",
+    "enExample2": "Friends tried to dissuade him from driving home through the heavy blizzard.",
+    "taExample2": "கடும் பனிப்புயலின் வழியே வீட்டிற்கு வண்டி ஓட்டிச் செல்ல வேண்டாம் என்று நண்பர்கள் அவரைத் தடுத்தனர்.",
+    "synonyms": [
+      "Deter",
+      "Discourage",
+      "Prevent",
+      "Talk out of"
+    ],
+    "antonyms": [
+      "Persuade",
+      "Encourage",
+      "Incite",
+      "Urge"
+    ]
+  },
+  {
+    "id": 3730,
+    "word": "Devotion",
+    "pos": "noun",
+    "definition": "Deep love, loyalty, and affectionate dedication to a person or family.",
+    "taWord": "அர்ப்பணிப்பு / மாறாத அன்பு / தீவிரப் பற்று",
+    "enExample": "His lifelong devotion to his ailing spouse inspired everyone who knew them.",
+    "taExample": "உடல்நலம் குன்றிய தனது துணைவி மீதான அவரது வாழ்நாள் அர்ப்பணிப்பு அவர்களை அறிந்த அனைவருக்கும் ஊக்கமளித்தது.",
+    "enExample2": "Parents show incredible devotion by sacrificing their own comforts for their children's education.",
+    "taExample2": "பெற்றோர்கள் தங்கள் குழந்தைகளின் கல்விக்காகத் தங்களின் சொந்த வசதிகளைத் தியாகம் செய்து அளப்பரிய அர்ப்பணிப்பைக் காட்டுகிறார்கள்.",
+    "synonyms": [
+      "Dedication",
+      "Loyalty",
+      "Commitment",
+      "Faithfulness",
+      "Love"
+    ],
+    "antonyms": [
+      "Disloyalty",
+      "Apathy",
+      "Neglect",
+      "Treachery"
+    ]
   }
 ]

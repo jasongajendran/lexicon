@@ -212,5 +212,29 @@
     ],
     "enExample2": "Sophisticated social engineering attackers deliberately pretend to be a clueless yokel to trick support agents into resetting passwords.",
     "taExample2": "ஆதரவு ஊழியர்களை ஏமாற்றி கடவுச்சொற்களை மீட்டமைக்க சமூக பொறியியல் தாக்குதல் நடத்துபவர்கள் விவரமறியாத வெள்ளந்தியாகப் (Yokel) பாசாங்கு செய்கிறார்கள்."
+  },
+  {
+    "id": 3729,
+    "word": "Yearning",
+    "pos": "noun",
+    "definition": "A deep, tender, and persistent longing or emotional desire for someone.",
+    "taWord": "ஏக்கம் / தீவிர ஆவல் / தவிப்பு",
+    "enExample": "During their months in a long-distance relationship, their yearning for each other never faded.",
+    "taExample": "நீண்ட தூர உறவில் இருந்த மாதங்களில், ஒருவருக்கொருவர் இருந்த ஏக்கம் ஒருபோதும் குறையவில்லை.",
+    "enExample2": "The old photographs stirred a quiet yearning for family gatherings of the past.",
+    "taExample2": "பழைய புகைப்படங்கள் கடந்த கால குடும்பக் கூட்டங்களைப் பற்றிய அமைதியான ஏக்கத்தைத் தூண்டின.",
+    "synonyms": [
+      "Longing",
+      "Craving",
+      "Desire",
+      "Pining",
+      "Aspiration"
+    ],
+    "antonyms": [
+      "Contentment",
+      "Satisfaction",
+      "Apathy",
+      "Indifference"
+    ]
   }
 ]

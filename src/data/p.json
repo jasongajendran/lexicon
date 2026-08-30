@@ -3059,5 +3059,53 @@
       "Rashness",
       "Folly"
     ]
+  },
+  {
+    "id": 3715,
+    "word": "Placate",
+    "pos": "verb",
+    "definition": "To make someone less angry or hostile, especially by doing something pleasing.",
+    "taWord": "சமாதானப்படுத்துதல் / சாந்தப்படுத்துதல்",
+    "enExample": "The store manager offered an immediate full refund to placate the disappointed customer.",
+    "taExample": "ஏமாற்றமடைந்த வாடிக்கையாளரைச் சமாதானப்படுத்த கடையின் மேலாளர் உடனடியாக முழு பணத்தையும் திருப்பி வழங்கினார்.",
+    "enExample2": "Sharing the toy was the best way to placate the two squabbling siblings.",
+    "taExample2": "பொம்மையைப் பகிர்ந்துகொள்வது சண்டையிட்டுக் கொண்டிருந்த இரு சகோதரர்களைச் சமாதானப்படுத்த சிறந்த வழியாகும்.",
+    "synonyms": [
+      "Appease",
+      "Pacify",
+      "Mollify",
+      "Calm",
+      "Conciliate"
+    ],
+    "antonyms": [
+      "Provoke",
+      "Anger",
+      "Irritate",
+      "Inflame"
+    ]
+  },
+  {
+    "id": 3732,
+    "word": "Platonic",
+    "pos": "adjective",
+    "definition": "Describing a relationship that is purely affectionate and friendly, devoid of romantic or sexual involvement.",
+    "taWord": "தூய நட்பு சார்ந்த / உடலின்பம் சாராத புனித நட்பு",
+    "enExample": "They maintained a close platonic friendship for over twenty years without any romantic entanglement.",
+    "taExample": "எந்தவொரு காதல் பிணைப்பும் இன்றி இருபது ஆண்டுகளுக்கும் மேலாக அவர்கள் ஒரு நெருக்கமான தூய நட்பைப் பேணி வந்தனர்.",
+    "enExample2": "A platonic bond between colleagues can foster a strong, collaborative work environment.",
+    "taExample2": "சக ஊழியர்களுக்கு இடையேயான தூய நட்பு ஒரு வலுவான, கூட்டு பணிச்சூழலை உருவாக்க முடியும்.",
+    "synonyms": [
+      "Non-romantic",
+      "Friendly",
+      "Companionable",
+      "Spiritual",
+      "Intellectual"
+    ],
+    "antonyms": [
+      "Romantic",
+      "Passionate",
+      "Sensual",
+      "Erotic"
+    ]
   }
 ]

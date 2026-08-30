@@ -3180,5 +3180,267 @@
       "Indifference",
       "Disinterest"
     ]
+  },
+  {
+    "id": 3702,
+    "word": "Censure",
+    "pos": "noun",
+    "definition": "The expression of formal, severe disapproval or condemnation by an authority or group.",
+    "taWord": "கண்டனம் / குற்றச்சாட்டு",
+    "enExample": "The board issued a unanimous vote of censure against the executive for ethics violations.",
+    "taExample": "நெறிமுறை மீறல்களுக்காக அந்த நிர்வாகிக்கு எதிராக நிர்வாகக் குழு ஒருமனதாகக் கண்டனத் தீர்மானத்தை நிறைவேற்றியது.",
+    "enExample2": "He feared social censure if his broken promise came to light.",
+    "taExample2": "தனது நிறைவேற்றப்படாத வாக்குறுதி வெளிச்சத்திற்கு வந்தால் சமூகக் கண்டனத்திற்கு ஆளாக நேரிடும் என்று அவர் அஞ்சினார்.",
+    "synonyms": [
+      "Condemnation",
+      "Criticism",
+      "Reproach",
+      "Rebuke",
+      "Disapproval"
+    ],
+    "antonyms": [
+      "Approval",
+      "Praise",
+      "Commendation",
+      "Acceptance"
+    ]
+  },
+  {
+    "id": 3710,
+    "word": "Chide",
+    "pos": "verb",
+    "definition": "To scold or express mild disapproval to someone affectionately or constructively.",
+    "taWord": "செல்லமாகக் கடிந்து கொள்ளுதல் / புன்னகையுடன் கண்டித்தல்",
+    "enExample": "Her colleague chided her gently for working straight through lunchtime without taking a break.",
+    "taExample": "இடைவேளை எடுக்காமல் மதிய உணவு நேரத்திலும் தொடர்ந்து வேலை செய்ததற்காக அவளது சக ஊழியர் அவளை மென்மையாகக் கடிந்து கொண்டார்.",
+    "enExample2": "The mother chided her toddler with a smile when he put his shoes on the wrong feet.",
+    "taExample2": "குழந்தை தனது காலணிகளை மாற்றிப் போட்ட போது தாய் புன்னகையுடன் செல்லமாகக் கடிந்து கொண்டாள்.",
+    "synonyms": [
+      "Scold",
+      "Reproach",
+      "Admonish",
+      "Berate",
+      "Reprove"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commend",
+      "Approve",
+      "Flatter"
+    ]
+  },
+  {
+    "id": 3711,
+    "word": "Chastise",
+    "pos": "verb",
+    "definition": "To reprimand or criticize someone severely with the purpose of correcting their conduct.",
+    "taWord": "தண்டித்துக் கண்டித்தல் / கடிந்து நல்வழிப்படுத்துதல்",
+    "enExample": "The committee chairman chastised the delegates for their unpunctual arrival at the summit.",
+    "taExample": "உச்சிமாநாட்டிற்குத் தாமதமாக வந்ததற்காகப் பிரதிநிதிகளைக் குழுத் தலைவர் கடிந்து கண்டித்தார்.",
+    "enExample2": "Parents should discipline wisely rather than harshly chastise children when emotions are high.",
+    "taExample2": "உணர்ச்சிகள் அதிகமாக இருக்கும் போது குழந்தைகளைக் கடினமாகத் தண்டிப்பதை விட பெற்றோர்கள் விவேகமாக ஒழுங்குபடுத்த வேண்டும்.",
+    "synonyms": [
+      "Scold",
+      "Reprimand",
+      "Berate",
+      "Castigate",
+      "Censure"
+    ],
+    "antonyms": [
+      "Praise",
+      "Reward",
+      "Commend",
+      "Applaud"
+    ]
+  },
+  {
+    "id": 3713,
+    "word": "Cajole",
+    "pos": "verb",
+    "definition": "To persuade someone to do something by sustained flattery, coaxing, or gentle pleading.",
+    "taWord": "கொஞ்சி இணங்க வைத்தல் / நயந்து சம்மதிக்க வைத்தல்",
+    "enExample": "He managed to cajole his colleagues into working late to meet the urgent deadline.",
+    "taExample": "அவசர காலக்கெடுவை எட்ட சக ஊழியர்களை நயந்து சம்மதிக்க வைத்து தாமதமாக வேலை செய்ய வைத்தார்.",
+    "enExample2": "Parents often have to cajole toddlers into eating their green vegetables.",
+    "taExample2": "பச்சைக் காய்கறிகளை உண்ண பிஞ்சுக் குழந்தைகளைக் கொஞ்சி இணங்க வைக்க பெற்றோர்கள் முயல வேண்டியுள்ளது.",
+    "synonyms": [
+      "Coax",
+      "Wheedle",
+      "Persuade",
+      "Sweet-talk",
+      "Entice"
+    ],
+    "antonyms": [
+      "Force",
+      "Bully",
+      "Coerce",
+      "Dissuade"
+    ]
+  },
+  {
+    "id": 3718,
+    "word": "Commiserate",
+    "pos": "verb",
+    "definition": "To express or feel sympathy, pity, or sorrow with someone going through hardship.",
+    "taWord": "ஆறுதல் கூறுதல் / அனுதாபம் தெரிவித்தல்",
+    "enExample": "Colleagues gathered by the coffee machine to commiserate with him after the client canceled the deal.",
+    "taExample": "வாடிக்கையாளர் ஒப்பந்தத்தை ரத்து செய்த பிறகு, அவருக்கு ஆறுதல் கூற சக ஊழியர்கள் காபி இயந்திரத்தின் அருகில் கூடினர்.",
+    "enExample2": "Neighbors commiserated with each other over the damage caused by the unexpected storm.",
+    "taExample2": "எதிர்பாராத புயலால் ஏற்பட்ட சேதங்கள் குறித்து அண்டை வீட்டார் ஒருவருக்கொருவர் அனுதாபத்தைப் பகிர்ந்து கொண்டனர்.",
+    "synonyms": [
+      "Sympathize",
+      "Condole",
+      "Console",
+      "Pity",
+      "Empathize"
+    ],
+    "antonyms": [
+      "Rejoice",
+      "Ignore",
+      "Gloat",
+      "Slight"
+    ]
+  },
+  {
+    "id": 3719,
+    "word": "Conciliate",
+    "pos": "verb",
+    "definition": "To stop someone from being angry or discontented; to reconcile conflicting parties.",
+    "taWord": "சமரசப் பேச்சுவார்த்தை நடத்துதல் / பிணக்கு தீர்த்தல்",
+    "enExample": "A skilled HR mediator stepped in to conciliate between the two arguing team leads.",
+    "taExample": "வாக்குவாதத்தில் ஈடுபட்ட இரு குழுத் தலைவர்களுக்கு இடையே பிணக்கு தீர்க்க ஒரு திறமையான HR மத்தியஸ்தர் தலையிட்டார்.",
+    "enExample2": "He spoke with a calm and kind tone in an effort to conciliate his upset friend.",
+    "taExample2": "வருத்தமடைந்த தனது நண்பனைச் சமாதானப்படுத்தும் முயற்சியில் அவர் அமைதியான மற்றும் கனிவான தொனியில் பேசினார்.",
+    "synonyms": [
+      "Placate",
+      "Reconcile",
+      "Appease",
+      "Pacify",
+      "Mediate"
+    ],
+    "antonyms": [
+      "Antagonize",
+      "Alienate",
+      "Provoke",
+      "Estrange"
+    ]
+  },
+  {
+    "id": 3724,
+    "word": "Cherish",
+    "pos": "verb",
+    "definition": "To protect, care for, and hold someone or something dear with deep love and gratitude.",
+    "taWord": "நெஞ்சார நேசித்தல் / பொக்கிஷமாகப் போற்றுதல்",
+    "enExample": "They cherish the quiet weekend mornings they spend drinking coffee together.",
+    "taExample": "அவர்கள் வார இறுதி காலை நேரங்களில் ஒன்றாகக் காபி குடித்துச் செலவிடும் அமைதியான தருணங்களை நெஞ்சார நேசிக்கிறார்கள்.",
+    "enExample2": "Parents cherish the early childhood memories of their children's laughter and milestones.",
+    "taExample2": "பெற்றோர்கள் தங்கள் குழந்தைகளின் சிரிப்பு மற்றும் வளர்ச்சி மைல்கற்கள் குறித்த குழந்தைப் பருவ நினைவுகளைப் பொக்கிஷமாகப் போற்றுகிறார்கள்.",
+    "synonyms": [
+      "Treasure",
+      "Value",
+      "Prize",
+      "Adore",
+      "Hold dear"
+    ],
+    "antonyms": [
+      "Disregard",
+      "Neglect",
+      "Despise",
+      "Undervalue"
+    ]
+  },
+  {
+    "id": 3731,
+    "word": "Compatibility",
+    "pos": "noun",
+    "definition": "A state in which two people are able to exist or work together in harmony without conflict.",
+    "taWord": "இணக்கத்தன்மை / ஒத்துப்போகும் குணம்",
+    "enExample": "Emotional and intellectual compatibility is essential for a peaceful partnership.",
+    "taExample": "அமைதியான கூட்டாண்மைக்கு உணர்வுபூர்வமான மற்றும் அறிவுசார்ந்த இணக்கத்தன்மை இன்றியமையாதது.",
+    "enExample2": "They realized their lifestyle compatibility made living together effortless and joyful.",
+    "taExample2": "தங்களின் வாழ்க்கை முறை இணக்கத்தன்மை ஒன்றாக வாழ்வதை எளிமையாகவும் மகிழ்ச்சியாகவும் மாற்றியதை அவர்கள் உணர்ந்தனர்.",
+    "synonyms": [
+      "Harmony",
+      "Conformity",
+      "Congruence",
+      "Affinity",
+      "Agreement"
+    ],
+    "antonyms": [
+      "Incompatibility",
+      "Mismatch",
+      "Conflict",
+      "Friction"
+    ]
+  },
+  {
+    "id": 3736,
+    "word": "Camaraderie",
+    "pos": "noun",
+    "definition": "Mutual trust, warmth, and easy companionship among people who spend significant time together.",
+    "taWord": "தோழமை உணர்வு / நட்புப் பிணைப்பு / சகஜ உறவு",
+    "enExample": "The warm camaraderie among team members made long working hours feel enjoyable.",
+    "taExample": "குழு உறுப்பினர்களிடையே இருந்த மனமார்ந்த தோழமை உணர்வு நீண்ட வேலை நேரத்தையும் மகிழ்ச்சியாக மாற்றியது.",
+    "enExample2": "Years of shared challenges on the sports team forged an unbreakable camaraderie.",
+    "taExample2": "விளையாட்டுக் குழுவில் பல வருடங்களாகப் பகிர்ந்துகொண்ட சவால்கள் முறிக்க முடியாத தோழமை உணர்வை உருவாக்கின.",
+    "synonyms": [
+      "Fellowship",
+      "Comradeship",
+      "Brotherhood",
+      "Companionship",
+      "Solidarity"
+    ],
+    "antonyms": [
+      "Hostility",
+      "Animosity",
+      "Discord",
+      "Isolation"
+    ]
+  },
+  {
+    "id": 3737,
+    "word": "Codependency",
+    "pos": "noun",
+    "definition": "An unhealthy relationship pattern where one person sacrifices their own needs to support or control another's dysfunctions.",
+    "taWord": "ஆரோக்கியமற்ற மிகைச் சார்பு நிலை",
+    "enExample": "Counseling helped the partners recognize codependency and establish healthy personal boundaries.",
+    "taExample": "ஆலோசனை தம்பதியினர் தங்கள் மிகைச் சார்பு நிலையை அடையாளம் கண்டு ஆரோக்கியமான தனிப்பட்ட எல்லைகளை அமைக்க உதவியது.",
+    "enExample2": "Breaking free from emotional codependency requires practicing self-care and asserting personal needs.",
+    "taExample2": "உணர்ச்சிப்பூர்வமான மிகைச் சார்பிலிருந்து விடுபட சுய அக்கறையைப் பயிற்சி செய்வதும் தனிப்பட்ட தேவைகளை உறுதிப்படுத்துவதும் அவசியம்.",
+    "synonyms": [
+      "Excessive reliance",
+      "Overdependence",
+      "Enmeshment",
+      "Clinginess"
+    ],
+    "antonyms": [
+      "Autonomy",
+      "Independence",
+      "Self-reliance",
+      "Healthy boundaries"
+    ]
+  },
+  {
+    "id": 3738,
+    "word": "Consanguinity",
+    "pos": "noun",
+    "definition": "The state of being related by direct bloodline or common ancestry.",
+    "taWord": "இரத்த சம்பந்தம் / ஒரே இரத்த வழி உறவு",
+    "enExample": "Their shared ancestry and consanguinity explained their remarkably similar facial features.",
+    "taExample": "அவர்களின் பகிரப்பட்ட மூதாதையர் மரபும் இரத்த சம்பந்தமும் அவர்களின் வியக்கத்தக்க வகையில் ஒரே மாதிரியான முக அமைப்பை விளக்கியது.",
+    "enExample2": "Genealogists trace lines of consanguinity to map out complex multi-generational family trees.",
+    "taExample2": "வம்சாவளி ஆய்வாளர்கள் பல தலைமுறை குடும்ப வரைபடங்களை உருவாக்க இரத்த வழி உறவின் தடயங்களைக் கண்டறிகிறார்கள்.",
+    "synonyms": [
+      "Kinship",
+      "Blood tie",
+      "Lineage",
+      "Blood relationship",
+      "Common descent"
+    ],
+    "antonyms": [
+      "Affinity",
+      "Estrangement",
+      "Non-relation"
+    ]
   }
 ]

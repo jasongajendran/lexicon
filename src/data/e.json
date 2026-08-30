@@ -2111,5 +2111,149 @@
       "Restrict",
       "Weaken"
     ]
+  },
+  {
+    "id": 3705,
+    "word": "Expostulate",
+    "pos": "verb",
+    "definition": "To express strong disapproval, reason earnestly, or disagree persistently with someone.",
+    "taWord": "புத்திமதி கூறி வற்புறுத்தித் தடுத்தல் / மறுத்து வாதிடுதல்",
+    "enExample": "Senior advisors expostulated with the CEO against rushing into the risky merger.",
+    "taExample": "ஆபத்தான நிறுவன இணைப்பில் அவசரப்பட்டு இறங்க வேண்டாம் என்று மூத்த ஆலோசகர்கள் தலைமை நிர்வாகியிடம் மறுத்து வாதிட்டுத் தடுத்தனர்.",
+    "enExample2": "His mother expostulated with him about spending too many late nights on video games.",
+    "taExample2": "இரவு நேரங்களில் அதிக நேரம் வீடியோ விளையாட்டுகளில் செலவழிப்பது குறித்து அவரது தாய் அவருடன் வற்புறுத்திப் புத்திமதி கூறினார்.",
+    "synonyms": [
+      "Remonstrate",
+      "Reason",
+      "Object",
+      "Argue",
+      "Dissuade"
+    ],
+    "antonyms": [
+      "Approve",
+      "Praise",
+      "Concur",
+      "Encourage"
+    ]
+  },
+  {
+    "id": 3708,
+    "word": "Extol",
+    "pos": "verb",
+    "definition": "To praise someone or something enthusiastically and highly in public.",
+    "taWord": "புகழ்ந்துரைத்தல் / வானளாவப் பாராட்டுதல்",
+    "enExample": "The keynote speaker extolled the virtues of open-source collaboration in modern technology.",
+    "taExample": "முக்கிய பேச்சாளர் நவீன தொழில்நுட்பத்தில் திறந்த மூல கூட்டுப்பணியின் மேன்மைகளை வானளாவப் புகழ்ந்துரைத்தார்.",
+    "enExample2": "Parents often extol the benefits of a good reading habit to their growing children.",
+    "taExample2": "பெற்றோர்கள் வளரும் தங்கள் குழந்தைகளுக்கு நல்ல வாசிப்புப் பழக்கத்தின் நன்மைகளை பெரிதும் புகழ்ந்து கூறுகிறார்கள்.",
+    "synonyms": [
+      "Praise",
+      "Laud",
+      "Acclaim",
+      "Commend",
+      "Celebrate"
+    ],
+    "antonyms": [
+      "Criticize",
+      "Disparage",
+      "Condemn",
+      "Belittle"
+    ]
+  },
+  {
+    "id": 3716,
+    "word": "Exhort",
+    "pos": "verb",
+    "definition": "To strongly encourage or urge someone to take a positive, brave, or necessary action.",
+    "taWord": "வலியுறுத்தித் தூண்டுதல் / உற்சாகப்படுத்தி வழிநடத்துதல்",
+    "enExample": "The coach exhorted the players to give their maximum effort in the final minutes of the match.",
+    "taExample": "போட்டியின் கடைசி நிமிடங்களில் தங்களின் அதிகபட்ச முயற்சியை வெளிப்படுத்துமாறு வீரர்களைப் பயிற்சியாளர் வலியுறுத்தித் தூண்டினார்.",
+    "enExample2": "Parents exhort their children to study consistently rather than cramming before exams.",
+    "taExample2": "தேர்வுக்கு முன் அவசரமாகப் படிப்பதற்குப் பதிலாகத் தொடர்ந்து படிக்குமாறு பெற்றோர்கள் தங்கள் குழந்தைகளை வலியுறுத்துகிறார்கள்.",
+    "synonyms": [
+      "Urge",
+      "Encourage",
+      "Admonish",
+      "Expostulate",
+      "Prompt"
+    ],
+    "antonyms": [
+      "Deter",
+      "Discourage",
+      "Dissuade",
+      "Hinder"
+    ]
+  },
+  {
+    "id": 3725,
+    "word": "Estrangement",
+    "pos": "noun",
+    "definition": "The state of being alienated, distanced, or no longer on friendly terms with a family member or partner.",
+    "taWord": "மனக்கசப்பு / பிரிந்து அந்நியமாதல் / உறவு முறிவு",
+    "enExample": "Years of unspoken grievances between the brothers eventually led to a painful estrangement.",
+    "taExample": "சகோதரர்களுக்கு இடையே பல வருடங்களாக வெளிப்படுத்தப்படாத மனக்குறைகள் இறுதியில் ஒரு வேதனையான உறவு முறிவுக்கு வழிவகுத்தன.",
+    "enExample2": "Family therapy helped bridge the painful estrangement between the father and his adult daughter.",
+    "taExample2": "குடும்ப ஆலோசனை தந்தைக்கும் அவரது மகளுக்கும் இடையேயான வேதனையான பிரிவைச் சரிசெய்ய உதவியது.",
+    "synonyms": [
+      "Alienation",
+      "Separation",
+      "Distance",
+      "Severance",
+      "Division"
+    ],
+    "antonyms": [
+      "Reconciliation",
+      "Closeness",
+      "Unity",
+      "Connection"
+    ]
+  },
+  {
+    "id": 3727,
+    "word": "Endearment",
+    "pos": "noun",
+    "definition": "A phrase, word, or loving action that expresses affection, tenderness, and warmth.",
+    "taWord": "கொஞ்சுமொழி / அன்பின் வெளிப்பாடு / செல்லப் பெயர்",
+    "enExample": "Using playful terms of endearment adds everyday warmth and intimacy to a partnership.",
+    "taExample": "செல்லப் பெயர்களைக் கொண்டு அழைப்பது தம்பதியரின் உறவில் அன்றாட வெதுவெதுப்பையும் நெருக்கத்தையும் சேர்க்கிறது.",
+    "enExample2": "Grandparents often address their grandchildren with sweet, traditional words of endearment.",
+    "taExample2": "தாத்தா பாட்டிகள் பெரும்பாலும் தங்கள் பேரக்குழந்தைகளை இனிமையான செல்லப் பெயர்களைக் கொண்டு அன்போடு அழைக்கிறார்கள்.",
+    "synonyms": [
+      "Affection",
+      "Pet name",
+      "Fondness",
+      "Tender word",
+      "Loving gesture"
+    ],
+    "antonyms": [
+      "Insult",
+      "Slight",
+      "Abuse",
+      "Mockery"
+    ]
+  },
+  {
+    "id": 3733,
+    "word": "Enamored",
+    "pos": "adjective",
+    "definition": "Filled with a feeling of love, fascination, or deep admiration for someone.",
+    "taWord": "காதலில் மயங்கிய / தீவிர விருப்பம் கொண்ட",
+    "enExample": "He was completely enamored with her wit, kindness, and infectious sense of humor.",
+    "taExample": "அவளது அறிவுக்கூர்மை, கருணை மற்றும் கவரும் நகைச்சுவை உணர்வில் அவர் முற்றிலும் மயங்கினார்.",
+    "enExample2": "Visitors quickly became enamored with the warm and welcoming spirit of the island residents.",
+    "taExample2": "தீவு மக்களின் அன்பான மற்றும் வரவேற்கும் மனப்பான்மையில் பார்வையாளர்கள் விரைவிலேயே கவரப்பட்டனர்.",
+    "synonyms": [
+      "Infatuated",
+      "Charmed",
+      "Captivated",
+      "Smitten",
+      "Enchanted"
+    ],
+    "antonyms": [
+      "Repulsed",
+      "Disenchanted",
+      "Indifferent",
+      "Averse"
+    ]
   }
 ]

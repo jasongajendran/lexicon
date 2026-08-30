@@ -2414,5 +2414,102 @@
       "Negligent",
       "Oblivious"
     ]
+  },
+  {
+    "id": 3707,
+    "word": "Absolve",
+    "pos": "verb",
+    "definition": "To declare someone free from guilt, obligation, blame, or responsibility.",
+    "taWord": "மன்னித்து விடுவித்தல் / பொறுப்பிலிருந்து விடுவித்தல்",
+    "enExample": "The signed agreement does not absolve the supplier from delivering quality materials on time.",
+    "taExample": "கையெழுத்திடப்பட்ட ஒப்பந்தம் தரமான பொருட்களை சரியான நேரத்தில் வழங்கும் பொறுப்பிலிருந்து சப்ளையரை விடுவிக்காது.",
+    "enExample2": "Apologizing sincerely helped him feel absolved of the guilt he had carried for months.",
+    "taExample2": "உண்மையாக மன்னிப்பு கேட்டது பல மாதங்களாக அவர் சுமந்து வந்த குற்ற உணர்ச்சியிலிருந்து விடுபட உதவியது.",
+    "synonyms": [
+      "Exonerate",
+      "Forgive",
+      "Pardon",
+      "Acquit",
+      "Excuse"
+    ],
+    "antonyms": [
+      "Blame",
+      "Condemn",
+      "Hold responsible",
+      "Punish"
+    ]
+  },
+  {
+    "id": 3722,
+    "word": "Affectionate",
+    "pos": "adjective",
+    "definition": "Readily feeling or showing fondness, warmth, tenderness, or love.",
+    "taWord": "பாசமுள்ள / அன்பொழுகும் / கனிவான",
+    "enExample": "An affectionate gesture, like a warm hug after a long workday, helps couples feel emotionally connected.",
+    "taExample": "நீண்ட வேலை நாளுக்குப் பிறகு ஒரு அரவணைப்பு போன்ற பாசமுள்ள செயல், தம்பதியினர் உணர்வுபூர்வமாக இணைந்திருக்க உதவுகிறது.",
+    "enExample2": "Children who grow up in an affectionate family tend to express their emotions with confidence.",
+    "taExample2": "பாசமுள்ள குடும்பத்தில் வளரும் குழந்தைகள் தங்கள் உணர்வுகளை நம்பிக்கையுடன் வெளிப்படுத்துகிறார்கள்.",
+    "synonyms": [
+      "Fond",
+      "Loving",
+      "Tender",
+      "Warmhearted",
+      "Caring"
+    ],
+    "antonyms": [
+      "Cold",
+      "Aloof",
+      "Distant",
+      "Uncaring",
+      "Detached"
+    ]
+  },
+  {
+    "id": 3723,
+    "word": "Attunement",
+    "pos": "noun",
+    "definition": "The ability to be deeply aware of, receptive to, and emotionally in sync with another person's feelings.",
+    "taWord": "உணர்வுகளைப் புரிந்து ஒத்திசைதல் / மன அதிர்வுகளை அறிதல்",
+    "enExample": "Emotional attunement allows partners to sense when the other is overwhelmed without needing words.",
+    "taExample": "உணர்வுகளைப் புரிந்து ஒத்திசையும் திறன், வார்த்தைகள் இன்றியே துணைவர் எப்போது மன அழுத்தத்தில் இருக்கிறார் என்பதை உணர வைக்கிறது.",
+    "enExample2": "A mother's instinctive attunement to her baby's cries creates a secure attachment.",
+    "taExample2": "தனது குழந்தையின் அழுகையை உணர்ந்து ஒத்திசையும் தாயின் இயல்பான திறன் ஒரு பாதுகாப்பான பிணைப்பை உருவாக்குகிறது.",
+    "synonyms": [
+      "Harmonization",
+      "Resonance",
+      "Empathy",
+      "Sensitivity",
+      "Awareness"
+    ],
+    "antonyms": [
+      "Indifference",
+      "Insensitivity",
+      "Discord",
+      "Obliviousness"
+    ]
+  },
+  {
+    "id": 3734,
+    "word": "Adoration",
+    "pos": "noun",
+    "definition": "Deep love, reverence, and affectionate respect felt toward a partner, child, or mentor.",
+    "taWord": "ஆழ்ந்த அன்பு / போற்றுதல் / பக்தி கலந்த நேசம்",
+    "enExample": "He looked at his newborn daughter with pure adoration and tender wonder.",
+    "taExample": "அவர் தனது பிறந்த பெண் குழந்தையைத் தூய பாசத்துடனும் வியப்புடனும் பார்த்தார்.",
+    "enExample2": "Their decades of mutual adoration and gentle consideration served as a model for the younger generation.",
+    "taExample2": "பல தசாப்தங்களாக அவர்கள் ஒருவருக்கொருவர் காட்டிய ஆழ்ந்த அன்பும் கனிவான பரிவும் இளைய தலைமுறைக்கு ஒரு சிறந்த முன்மாதிரியாக அமைந்தது.",
+    "synonyms": [
+      "Devotion",
+      "Love",
+      "Veneration",
+      "Worship",
+      "Idolization"
+    ],
+    "antonyms": [
+      "Detestation",
+      "Hatred",
+      "Contempt",
+      "Loathing"
+    ]
   }
 ]

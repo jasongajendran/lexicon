@@ -2016,5 +2016,52 @@
       "Discouraging",
       "Dull"
     ]
+  },
+  {
+    "id": 3721,
+    "word": "Interdependence",
+    "pos": "noun",
+    "definition": "The state of two people relying mutually on each other for support while maintaining their individual identities.",
+    "taWord": "பரஸ்பர சார்பு / ஒன்றையொன்று சார்ந்திருக்கும் நிலை",
+    "enExample": "Healthy long-term relationships thrive on interdependence rather than complete emotional dependency.",
+    "taExample": "ஆரோக்கியமான நீண்டகால உறவுகள் முழுமையான உணர்ச்சி சார்பை விட ஆரோக்கியமான பரஸ்பர சார்பிலேயே செழித்து வளர்கின்றன.",
+    "enExample2": "The couple balanced their personal hobbies with shared goals, creating a strong sense of interdependence.",
+    "taExample2": "அந்தத் தம்பதியினர் தங்கள் தனிப்பட்ட பொழுதுபோக்குகளைப் பகிரப்பட்ட இலக்குகளுடன் சமநிலைப்படுத்தி, வலுவான பரஸ்பர சார்பை உருவாக்கினர்.",
+    "synonyms": [
+      "Mutuality",
+      "Reciprocity",
+      "Interconnection",
+      "Partnership"
+    ],
+    "antonyms": [
+      "Independence",
+      "Isolation",
+      "Autonomy",
+      "Separation"
+    ]
+  },
+  {
+    "id": 3728,
+    "word": "Infatuation",
+    "pos": "noun",
+    "definition": "An intense, overpowering, but usually short-lived passion or admiration for someone.",
+    "taWord": "கண்மூடித்தனமான மோகம் / தற்காலிகக் கவர்ச்சி",
+    "enExample": "They soon realized that their sudden summer romance was mere infatuation, not lasting love.",
+    "taExample": "தங்களின் திடீர் கோடைகாலக் காதல் என்பது வெறும் கண்மூடித்தனமான மோகமே தவிர, நிலைத்து நிற்கும் காதல் அல்ல என்பதை அவர்கள் விரைவில் உணர்ந்தனர்.",
+    "enExample2": "Teenagers often confuse early infatuation with mature, enduring emotional commitment.",
+    "taExample2": "பதின்ம வயதினர் பெரும்பாலும் ஆரம்பகாலக் கவர்ச்சியை முதிர்ந்த, நீடித்த உணர்வுபூர்வமான பற்றுறுதியுடன் குழப்பிக் கொள்கிறார்கள்.",
+    "synonyms": [
+      "Passion",
+      "Crush",
+      "Obsession",
+      "Fascination",
+      "Enamoredness"
+    ],
+    "antonyms": [
+      "Indifference",
+      "Disillusionment",
+      "True love",
+      "Apathy"
+    ]
   }
 ]

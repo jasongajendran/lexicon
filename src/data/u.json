@@ -754,5 +754,29 @@
       "Ignorance",
       "Callousness"
     ]
+  },
+  {
+    "id": 3735,
+    "word": "Unconditional",
+    "pos": "adjective",
+    "definition": "Given freely without any limitations, qualifications, or prerequisites.",
+    "taWord": "நிபந்தனையற்ற / வரம்பற்ற",
+    "enExample": "A parent's unconditional love offers a child a lifelong foundation of security.",
+    "taExample": "பெற்றோரின் நிபந்தனையற்ற அன்பு குழந்தைக்கு வாழ்நாள் முழுவதும் ஒரு பாதுகாப்பான அடித்தளத்தை வழங்குகிறது.",
+    "enExample2": "True companionship provides unconditional support through both victories and failures.",
+    "taExample2": "உண்மையான நட்பு வெற்றிகள் மற்றும் தோல்விகள் இரண்டிலும் நிபந்தனையற்ற ஆதரவை வழங்குகிறது.",
+    "synonyms": [
+      "Limitless",
+      "Absolute",
+      "Unqualified",
+      "Complete",
+      "Unbounded"
+    ],
+    "antonyms": [
+      "Conditional",
+      "Qualified",
+      "Limited",
+      "Restricted"
+    ]
   }
 ]

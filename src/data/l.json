@@ -1111,5 +1111,53 @@
       "Incoherent",
       "Vague"
     ]
+  },
+  {
+    "id": 3709,
+    "word": "Laud",
+    "pos": "verb",
+    "definition": "To praise a person or their achievements highly, often in a formal or public setting.",
+    "taWord": "மெச்சிப் பாராட்டுதல் / கொண்டாடுதல்",
+    "enExample": "The city council met to laud the local volunteers for their tireless relief efforts after the storm.",
+    "taExample": "புயலுக்குப் பின் தன்னலமற்ற நிவாரணப் பணிகளுக்காக உள்ளூர் தன்னார்வலர்களை மெச்சிப் பாராட்ட நகர சபை கூடியது.",
+    "enExample2": "Teachers laud students who demonstrate honesty and empathy alongside high grades.",
+    "taExample2": "உயர் மதிப்பெண்களுடன் நேர்மையையும் இரக்கத்தையும் வெளிப்படுத்தும் மாணவர்களை ஆசிரியர்கள் மெச்சிப் பாராட்டுகிறார்கள்.",
+    "synonyms": [
+      "Extol",
+      "Praise",
+      "Applaud",
+      "Celebrate",
+      "Honor"
+    ],
+    "antonyms": [
+      "Censure",
+      "Criticize",
+      "Condemn",
+      "Deprecate"
+    ]
+  },
+  {
+    "id": 3712,
+    "word": "Lambaste",
+    "pos": "verb",
+    "definition": "To criticize or scold someone harshly and vehemently, often in public.",
+    "taWord": "கடுமையாகத் தாக்குதல் / விளாசுதல்",
+    "enExample": "Critics lambasted the new movie for its predictable plot and dull dialogue.",
+    "taExample": "ஊகிக்கக்கூடிய கதை மற்றும் மந்தமான வசனங்களுக்காக விமர்சகர்கள் புதிய திரைப்படத்தைக் கடுமையாக விளாசினர்.",
+    "enExample2": "Rather than lambasting a teammate for an oversight, schedule a constructive review session.",
+    "taExample2": "ஒரு கவனக்குறைவிற்காக சக அணி வீரரைக் கடுமையாக விமர்சிப்பதற்குப் பதிலாக, ஆக்கப்பூர்வமான பரிசீலனை அமர்வை ஏற்பாடு செய்யுங்கள்.",
+    "synonyms": [
+      "Castigate",
+      "Chastise",
+      "Berate",
+      "Savage",
+      "Censure"
+    ],
+    "antonyms": [
+      "Praise",
+      "Extol",
+      "Laud",
+      "Approve"
+    ]
   }
 ]
