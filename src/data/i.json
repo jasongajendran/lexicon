@@ -1,23 +1,28 @@
 [
   {
     "id": 2635,
-    "word": "Ick",
-    "definition": "A sudden feeling of repulsion, cringe, or distaste toward a habit or practice.",
-    "enExample": "Seeing global mutable state in a modern React codebase gives me an instant ick.",
-    "taExample": "நவீன ரியாக்ட் குறியீட்டுத் தொகுப்பில் உலகளாவிய மாற்றக்கூடிய மாறிகளைக் காண்பது எனக்கு உடனடியாக ஒவ்வாமையை ஏற்படுத்துகிறது.",
-    "taWord": "திடீர் அருவருப்பு / ஒவ்வாமை",
-    "pos": "noun",
+    "word": "Inchoate",
+    "pos": "adjective",
+    "definition": "Just begun and so not fully formed or developed; rudimentary or rudimentary in structure.",
+    "taWord": "தொடக்க நிலையிலுள்ள / முழுமையடையாத / வடிவம் பெறாத",
+    "enExample": "At this early stage, the startup’s business model was still inchoate and evolving rapidly.",
+    "taExample": "இந்த ஆரம்ப கட்டத்தில், அந்த தொடக்க நிறுவனத்தின் வணிக மாதிரி இன்னும் முழுமையடையாத தொடக்க நிலையிலேயே இருந்தது.",
+    "enExample2": "She scribbled her inchoate thoughts in a leather journal before structuring them into a coherent novel.",
+    "taExample2": "அவற்றை ஒரு தெளிவான நாவலாக கட்டமைப்பதற்கு முன்பு அவள் தனது தொடக்க எண்ணங்களை ஒரு குறிப்பேட்டில் எழுதினாள்.",
     "synonyms": [
-      "Distaste",
-      "Repulsion",
-      "Aversion"
+      "Rudimentary",
+      "Nascent",
+      "Embryonic",
+      "Undeveloped",
+      "Formless"
     ],
     "antonyms": [
-      "Affection",
-      "Admiration"
-    ],
-    "enExample2": "Seeing hardcoded SQL credentials embedded in plaintext client code gave every reviewer the ick.",
-    "taExample2": "எளிய உரை வாடிக்கையாளர் குறியீட்டில் நேரடியாக எழுதப்பட்ட SQL கடவுச்சொற்களைக் கண்டது ஒவ்வொரு மறுஆய்வாளருக்கும் கடும் அதிருப்தியைத் தந்தது."
+      "Formed",
+      "Mature",
+      "Developed",
+      "Complete",
+      "Refined"
+    ]
   },
   {
     "id": 926,
@@ -627,27 +632,28 @@
   },
   {
     "id": 3093,
-    "word": "Inchoate",
-    "pos": "adj.",
-    "definition": "Just begun and so not fully formed or developed; rudimentary and in early stages.",
-    "enExample": "The startup had an inchoate codebase that lacked unit tests and documentation.",
-    "taWord": "ஆரம்பக் கட்டத்திலுள்ள / முழு வடிவம் பெறாத",
-    "taExample": "ஆரம்பக் கட்ட நிறுவனத்தின் குறியீடுகள் இன்னும் முழு வடிவம் பெறாமலும் முறையான சோதனைகள் இன்றியும் இருந்தன.",
+    "word": "Invidious",
+    "pos": "adjective",
+    "definition": "Likely to arouse resentment, anger, or animosity in others; unfairly discriminatory or objectionable.",
+    "taWord": "பொறாமையைத் தூண்டும் / வெறுப்புக்குரிய / பக்கச்சார்பான",
+    "enExample": "The manager was put in the invidious position of having to choose which team member to lay off.",
+    "taExample": "எந்த குழு உறுப்பினரை வேலையிலிருந்து நீக்குவது என்பதைத் தேர்ந்தெடுக்க வேண்டிய ஒரு வெறுப்புக்குரிய இக்கட்டான நிலையில் மேலாளர் வைக்கப்பட்டார்.",
+    "enExample2": "Making invidious comparisons between siblings can cause long-lasting psychological harm.",
+    "taExample2": "உடன்பிறப்புகளிடையே பக்கச்சார்பான ஒப்பீடுகளைச் செய்வது நீண்டகால உளவியல் ரீதியான பாதிப்பை ஏற்படுத்தும்.",
     "synonyms": [
-      "Rudimentary",
-      "Nascent",
-      "Formless",
-      "Undeveloped",
-      "Embryonic"
+      "Unpleasant",
+      "Objectionable",
+      "Resentful",
+      "Discriminatory",
+      "Odious"
     ],
     "antonyms": [
-      "Mature",
-      "Developed",
-      "Finished",
-      "Complete"
-    ],
-    "enExample2": "The team pitched an inchoate architectural concept that required substantial refinement before prototyping.",
-    "taExample2": "குழு ஆரம்ப நிலையிலான ஒரு கட்டமைப்பு யோசனையை முன்வைத்தது, அது முன்மாதிரிக்கு முன் கணிசமான செம்மைப்படுத்தலைக் கோரியது."
+      "Pleasant",
+      "Desirable",
+      "Equitable",
+      "Fair",
+      "Welcome"
+    ]
   },
   {
     "id": 3398,

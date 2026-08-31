@@ -283,21 +283,28 @@
   },
   {
     "id": 2605,
-    "word": "Zip",
-    "definition": "A widely used archive file format supporting lossless data compression of multiple files into a single bundle.",
-    "enExample": "Export project source code as a compressed zip archive file.",
-    "taExample": "திட்ட மூலக் குறியீட்டை சுருக்கப்பட்ட ஜிப் (Zip) காப்பகக் கோப்பாக ஏற்றுமதி செய்யவும்.",
-    "taWord": "ஜிப் / சுருக்கப்பட்ட கோப்பு (Zip)",
+    "word": "Zealotry",
     "pos": "noun",
+    "definition": "Fanatical and uncompromising pursuit of religious, political, or ideological ideals.",
+    "taWord": "மதவெறி / தீவிர கண்மூடித்தனமான கொள்கை வெறி",
+    "enExample": "Ideological zealotry blinded the militants to the human cost of their radical campaign.",
+    "taExample": "கொள்கை வெறி போராளிகளின் தீவிர பிரச்சாரத்தால் ஏற்படும் மனித உயிரிழப்புகளைப் பார்க்க விடாமல் அவர்களை குருடாக்கியது.",
+    "enExample2": "Democracies depend on compromise and crumble when dominated by uncompromising zealotry.",
+    "taExample2": "ஜனநாயகங்கள் சமரசத்தை நம்பியுள்ளன, சமரசமற்ற தீவிர வெறியால் ஆதிக்கம் செலுத்தப்படும்போது அவை சிதைகின்றன.",
     "synonyms": [
-      "Archive",
-      "Compressed folder"
+      "Fanaticism",
+      "Extremism",
+      "Dogmatism",
+      "Intolerance",
+      "Bigotry"
     ],
     "antonyms": [
-      "Uncompressed folder"
-    ],
-    "enExample2": "The CI pipeline bundles all compiled distribution artifacts into a single compressed zip file for deployment.",
-    "taExample2": "வெளியீட்டு அமைப்பு அனைத்து தொகுக்கப்பட்ட தயாரிப்புக் கோப்புகளையும் ஒரு சுருக்கப்பட்ட zip கோப்பாக இணைக்கிறது."
+      "Moderation",
+      "Tolerance",
+      "Open-mindedness",
+      "Flexibility",
+      "Pragmatism"
+    ]
   },
   {
     "id": 2607,
@@ -319,24 +326,26 @@
   },
   {
     "id": 2608,
-    "word": "Zone",
-    "definition": "An isolated administrative domain or geographic data center region in cloud computing infrastructure.",
-    "enExample": "Deploying servers across multi-availability zones guarantees fault isolation.",
-    "taExample": "பல கிடைக்கக்கூடிய மண்டலங்களில் (Zones) சேவையகங்களை வரிசைப்படுத்துவது பிழை தனிமைப்படுத்தலுக்கு உத்தரவாதம் அளிக்கிறது.",
-    "taWord": "மண்டலம் / பிராந்தியம் (Zone)",
+    "word": "Ziggurat",
     "pos": "noun",
+    "definition": "A rectangular stepped tower or tiered monumental temple built in ancient Mesopotamia.",
+    "taWord": "சிகுராட் / பண்டைய மெசபடோமிய படிக்கட்டு வடிவ பிரம்மாண்ட கோபுரம்",
+    "enExample": "Archaeologists uncovered the colossal stone foundations of a four-thousand-year-old Sumerian ziggurat.",
+    "taExample": "தொல்பொருள் ஆராய்ச்சியாளர்கள் நான்காயிரம் ஆண்டுகள் பழமையான சுமேரிய சிகுராட் கோபுரத்தின் பிரம்மாண்ட அடித்தளத்தைக் கண்டுபிடித்தனர்.",
+    "enExample2": "The modern stepped architectural design paid homage to ancient Babylonian ziggurats.",
+    "taExample2": "நவீன படிக்கட்டு போன்ற கட்டட வடிவமைப்பு பண்டைய பாபிலோனிய சிகுராட் கோபுரங்களுக்கு பெருமை சேர்த்தது.",
     "synonyms": [
-      "Availability zone",
-      "Region",
-      "Domain"
+      "Stepped pyramid",
+      "Tiered tower",
+      "Monumental temple",
+      "Pyramid"
     ],
     "antonyms": [
-      "Global cloud cluster",
-      "Universal datacenter",
-      "Edge network"
-    ],
-    "enExample2": "Deploying microservices across multiple availability zones prevents regional datacenter power failures from taking down the app.",
-    "taExample2": "பல கிடைக்கும் மண்டலங்களில் (Zones) சேவைகளை வரிசைப்படுத்துவது பிராந்திய தரவு மைய முடக்கங்கள் பயன்பாட்டை செயலிழக்கச் செய்வதைத் தடுக்கிறது."
+      "Pit",
+      "Chasm",
+      "Abyss",
+      "Depression"
+    ]
   },
   {
     "id": 3658,

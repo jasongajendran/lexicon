@@ -87,7 +87,7 @@
     "enExample": "Instead of faffing around with manual configuration files, we automated container setup with Docker.",
     "taExample": "கையேடு உள்ளமைவு கோப்புகளுடன் நேரத்தை வீணடிப்பதற்கு பதிலாக, Docker உடன் கொள்கலன் அமைப்பை தானியங்குபடுத்தினோம்.",
     "enExample2": "Stop faffing and merge the pull request before the deployment window closes.",
-    "taExample2": "நேரத்தை வீணடிப்பதை நிறுத்திவிட்டு, வரிசைப்படுத்தல் சாளரம் మూடுவதற்கு முன் பிடிப்பு கோரிக்கையை இணைக்கவும்.",
+    "taExample2": "நேரத்தை வீணடிப்பதை நிறுத்திவிட்டு, வரிசைப்படுத்தல் சாளரம் மூடுவதற்கு முன் பிடிப்பு கோரிக்கையை இணைக்கவும்.",
     "synonyms": [
       "dally",
       "dawdle",
@@ -471,7 +471,7 @@
     "definition": "To handle, maneuver, or accomplish a delicate situation with subtle skill, elegance, and refined expertise.",
     "enExample": "The principal architect was able to finesse the legacy database migration without triggering any system downtime.",
     "taWord": "நுட்பமாக கையாளுதல் / திறம்பட கையாளுதல்",
-    "taExample": "பிரதான வடிவமைப்பாளர் கணினி சேவைகள் எதுவும் முടങ്ങாமல் பழைய தரவுத்தள மாற்றத்தை திறம்பட கையாண்டார்.",
+    "taExample": "பிரதான வடிவமைப்பாளர் கணினி சேவைகள் எதுவும் முடங்காமல் பழைய தரவுத்தள மாற்றத்தை திறம்பட கையாண்டார்.",
     "synonyms": [
       "Maneuver",
       "Tact",
@@ -551,21 +551,27 @@
   },
   {
     "id": 610,
-    "word": "Fleet",
-    "definition": "A group of vehicles or instances operating together.",
-    "enExample": "We deployed the update to our entire fleet of servers.",
-    "taExample": "எங்கள் சேவையகங்களின் முழுத் தொகுதிக்கும் (கப்பற்படைக்கும்) புதுப்பிப்பை வரிசைப்படுத்தினோம்.",
-    "taWord": "தொகுதி / கப்பற்படை",
-    "pos": "noun",
+    "word": "Fugacious",
+    "pos": "adjective",
+    "definition": "Tending to disappear quickly; fleeting, ephemeral, or short-lived.",
+    "taWord": "விரைவில் மறையும் / நொடி நேரத்தில் அழியும் / கணநேரத் தன்மை கொண்ட",
+    "enExample": "Social media virality offers fugacious fame that often evaporates within hours.",
+    "taExample": "சமூக ஊடகங்களின் பிரபலம் பெரும்பாலும் சில மணிநேரங்களிலேயே ஆவியாகிவிடும் கணநேரப் புகழையே வழங்குகிறது.",
+    "enExample2": "Youth is as fugacious as the morning dew under the blazing summer sun.",
+    "taExample2": "கோடை வெயிலில் காலைப் பனித்துளி மறைவது போல இளமையும் விரைவில் மறையக்கூடியதாகும்.",
     "synonyms": [
-      "Group",
-      "Collection"
+      "Evanescent",
+      "Ephemeral",
+      "Transient",
+      "Fleeting",
+      "Momentary"
     ],
     "antonyms": [
-      "Single"
-    ],
-    "enExample2": "The DevOps dashboard monitors the CPU health of our entire fleet of over five thousand cloud servers.",
-    "taExample2": "எங்கள் ஐயாயிரத்திற்கும் மேற்பட்ட கிளவுட் சேவையகப் படையின் CPU நிலையை கண்காணிப்பு பலகை கண்காணிக்கிறது."
+      "Permanent",
+      "Enduring",
+      "Eternal",
+      "Perpetual"
+    ]
   },
   {
     "id": 2634,
@@ -627,22 +633,28 @@
   },
   {
     "id": 611,
-    "word": "Flush",
-    "definition": "Cleanse (something) by passing large quantities of liquid through it; clear a buffer.",
-    "enExample": "Flush the Redis cache to ensure fresh data.",
-    "taExample": "புதிய தரவை உறுதி செய்ய ரெடிஸ் தற்காலிக சேமிப்பை அழிக்கவும் (ஃப்ளஷ் செய்யவும்).",
-    "taWord": "அழித்தல் (பப்பரை)",
-    "pos": "verb",
+    "word": "Feckless",
+    "pos": "adjective",
+    "definition": "Lacking initiative, strength of character, or responsibility; utterly incompetent or irresponsible.",
+    "taWord": "பொறுப்பற்ற / திறமையற்ற / பயனற்ற மற்றும் பலவீனமான",
+    "enExample": "The feckless administrator ignored escalating budget deficits until the municipal government collapsed.",
+    "taExample": "பொறுப்பற்ற நிர்வாகி நகராட்சி அரசாங்கம் சரிவடையும் வரை அதிகரித்து வரும் பட்ஜெட் பற்றாக்குறையை புறக்கணித்தார்.",
+    "enExample2": "Critics blamed the software project's failure on feckless and indecisive leadership.",
+    "taExample2": "மென்பொருள் திட்டத்தின் தோல்விக்கு திறமையற்ற மற்றும் உறுதியற்ற தலைமைத்துவமே காரணம் என்று விமர்சகர்கள் குற்றம் சாட்டினர்.",
     "synonyms": [
-      "Clear",
-      "Purge"
+      "Irresponsible",
+      "Incompetent",
+      "Shiftless",
+      "Useless",
+      "Ineffectual"
     ],
     "antonyms": [
-      "Store",
-      "Retain"
-    ],
-    "enExample2": "The logging buffer flushes accumulated trace events to disk every ten seconds or whenever capacity is reached.",
-    "taExample2": "பதிவு நினைவகம் சேகரிக்கப்பட்ட நிகழ்வுகளை ஒவ்வொரு பத்து விநாடிகளுக்கும் அல்லது கொள்ளளவை எட்டும் போது வட்டில் உடனடியாக வெளியேற்றுகிறது (Flush)."
+      "Competent",
+      "Responsible",
+      "Resourceful",
+      "Capable",
+      "Diligent"
+    ]
   },
   {
     "id": 2662,
@@ -665,21 +677,28 @@
   },
   {
     "id": 631,
-    "word": "Focus",
-    "definition": "The main center of interest, attention, or activity.",
-    "enExample": "Our immediate focus is resolving the memory leak before release.",
-    "taExample": "வெளியீட்டிற்கு முன் நினைவக கசிவை தீர்ப்பதே நமது உடனடி கவனமாகும்.",
-    "taWord": "கவனம் / மையம்",
-    "pos": "noun",
+    "word": "Fractious",
+    "pos": "adjective",
+    "definition": "Irritable, quarrelsome, difficult to control, or easily upset.",
+    "taWord": "எளிதில் கோபமடையும் / அடங்காத / சச்சரவு செய்யக்கூடிய",
+    "enExample": "Negotiators struggled to build consensus among the fractious coalition members.",
+    "taExample": "சச்சரவு செய்யக்கூடிய கூட்டணிக் குழு உறுப்பினர்களிடையே ஒருமித்த கருத்தை உருவாக்கப் பேச்சுவார்த்தையாளர்கள் திணறினர்.",
+    "enExample2": "Lack of sleep caused the flight passengers to become increasingly fractious during the long delay.",
+    "taExample2": "நீண்ட தாமதத்தின் போது தூக்கமின்மை விமானப் பயணிகளை எரிச்சலூட்டி முரட்டுத்தனமாக மாற்றியது.",
     "synonyms": [
-      "Emphasis",
-      "Priority"
+      "Petulant",
+      "Querulous",
+      "Peevish",
+      "Testy",
+      "Cantankerous"
     ],
     "antonyms": [
-      "Distraction"
-    ],
-    "enExample2": "The team agreed to maintain strict focus on core latency reduction before developing secondary widgets.",
-    "taExample2": "கூடுதல் வசதிகளை உருவாக்குவதற்கு முன் தாமதத்தைக் குறைப்பதில் மட்டுமே தீவிர கவனம் செலுத்த குழு ஒப்புக்கொண்டது."
+      "Affable",
+      "Docile",
+      "Compliant",
+      "Patient",
+      "Good-natured"
+    ]
   },
   {
     "id": 2959,
@@ -784,22 +803,27 @@
   },
   {
     "id": 614,
-    "word": "Fork",
-    "definition": "Divide into two parts; create a copy of a repository.",
-    "enExample": "Fork the open-source repository to make your own changes.",
-    "taExample": "உங்கள் சொந்த மாற்றங்களைச் செய்ய திறந்த-மூல களஞ்சியத்தை நகலெடுக்கவும் (ஃபோர்க் செய்யவும்).",
-    "taWord": "நகலெடுத்தல் (களஞ்சியத்தை) / பிரித்தல்",
-    "pos": "verb",
+    "word": "Farrago",
+    "pos": "noun",
+    "definition": "A confused mixture or disordered hodgepodge of diverse things, ideas, or claims.",
+    "taWord": "குழப்பமான கலவை / கட்டுக்கடங்காத பலவகைத் தொகுப்பு",
+    "enExample": "The witness’s testimony was dismissed as an unreliable farrago of rumors and exaggerations.",
+    "taExample": "சாட்சியின் வாக்குமூலம் வதந்திகள் மற்றும் மிகைப்படுத்தல்களின் நம்பகத்தன்மையற்ற குழப்பக் கலவை என நிராகரிக்கப்பட்டது.",
+    "enExample2": "The unmaintained legacy repository had turned into a chaotic farrago of conflicting frameworks.",
+    "taExample2": "பராமரிக்கப்படாத பழைய குறியீட்டுக் களஞ்சியம் முரண்பட்ட கட்டமைப்புகளின் குழப்பக் கலவையாக மாறியிருந்தது.",
     "synonyms": [
-      "Split",
-      "Branch"
+      "Mishmash",
+      "Hodgepodge",
+      "Medley",
+      "Jumble",
+      "Pastiche"
     ],
     "antonyms": [
-      "Merge",
-      "Join"
-    ],
-    "enExample2": "The community decided to fork the abandoned open-source project to continue active security maintenance.",
-    "taExample2": "கைவிடப்பட்ட திறந்த மூலத் திட்டத்தை தொடர்ந்து பராமரிக்க சமூகம் அதை தனி கிளையாக பிரித்து (Fork) உருவாக்க முடிவு செய்தது."
+      "System",
+      "Order",
+      "Homogeneity",
+      "Uniformity"
+    ]
   },
   {
     "id": 632,
@@ -923,26 +947,28 @@
   },
   {
     "id": 2867,
-    "word": "Fractious",
-    "pos": "adj.",
-    "definition": "Irritable, quarrelsome, and difficult to keep united, especially within a governing coalition or political party.",
-    "enExample": "After months of infighting, the fractious ruling coalition failed to agree on the national healthcare reforms.",
-    "taWord": "பிளவடைந்த / சண்டையிடும்",
-    "taExample": "உள் முரண்பாடுகளால் பிளவடைந்த ஆளுங்கட்சி கூட்டணி புதிய மருத்துவக் கொள்கையில் உடன்பட முடியாமல் திணறியது.",
+    "word": "Fissiparous",
+    "pos": "adjective",
+    "definition": "Inclined to cause or undergo division into separate, conflicting factions or fragments.",
+    "taWord": "பிளவுபடுத்தும் / பல பிரிவுகளாகப் பிரியும் தன்மை கொண்ட",
+    "enExample": "Fissiparous tendencies within the political alliance threatened to destroy the coalition government.",
+    "taExample": "அரசியல் கூட்டணிக்குள் ஏற்பட்ட பிளவுபடுத்தும் போக்குகள் கூட்டணி அரசாங்கத்தை அழிக்க அச்சுறுத்தின.",
+    "enExample2": "The company struggled against fissiparous internal politics among executive factions.",
+    "taExample2": "நிறுவனம் நிர்வாக பிரிவினரிடையே நிலவிய பிளவுபடுத்தும் உள்நாட்டு அரசியலுக்கு எதிராகப் போராடியது.",
     "synonyms": [
       "Divisive",
-      "Quarrelsome",
-      "Contentious",
-      "Unruly"
+      "Factious",
+      "Splintering",
+      "Fracturing",
+      "Schismatic"
     ],
     "antonyms": [
+      "Unifying",
+      "Cohesive",
+      "Integrative",
       "Harmonious",
-      "United",
-      "Cooperative",
-      "Peaceable"
-    ],
-    "enExample2": "The architectural dispute between backend and frontend teams grew increasingly fractious before management stepped in.",
-    "taExample2": "நிர்வாகம் தலையிடுவதற்கு முன் குழுக்களுக்கிடையேயான கட்டமைப்பு விவாதம் மிகவும் கசப்பானதாக மாறியது."
+      "Consolidating"
+    ]
   },
   {
     "id": 616,
@@ -1141,22 +1167,28 @@
   },
   {
     "id": 622,
-    "word": "Fuse",
-    "definition": "Join or blend to form a single entity.",
-    "enExample": "We will fuse the two data streams into a single dashboard.",
-    "taExample": "இரண்டு தரவு நீரோடைகளையும் ஒரு ஒற்றை டாஷ்போர்டாக இணைப்போம்.",
-    "taWord": "இணைத்தல்",
-    "pos": "verb",
+    "word": "Fatuous",
+    "pos": "adjective",
+    "definition": "Silly, foolish, and completely pointless or devoid of intelligence.",
+    "taWord": "மடைத்தனமான / பொருளற்ற / முட்டாள்தனமான",
+    "enExample": "Making fatuous claims about artificial general intelligence without evidence harms scientific credibility.",
+    "taExample": "ஆதாரமின்றி செயற்கை நுண்ணறிவு பற்றி பொருளற்ற முட்டாள்தனமான கூற்றுகளை வைப்பது அறிவியல் நம்பகத்தன்மையை பாதிக்கிறது.",
+    "enExample2": "The panel dismissed his fatuous proposal to eliminate all security protocols to increase download speeds.",
+    "taExample2": "பதிவிறக்க வேகத்தை அதிகரிக்க அனைத்து பாதுகாப்பு நெறிமுறைகளையும் நீக்க வேண்டும் என்ற அவரது மடைத்தனமான திட்டத்தை குழு நிராகரித்தது.",
     "synonyms": [
-      "Combine",
-      "Merge"
+      "Foolish",
+      "Vacuous",
+      "Inane",
+      "Asinine",
+      "Brainless"
     ],
     "antonyms": [
-      "Separate",
-      "Divide"
-    ],
-    "enExample2": "The compilation step fuses multiple stylesheet chunks into a single optimized CSS stylesheet.",
-    "taExample2": "தொகுப்பு செயல்முறை பல ஸ்டைல் துண்டுகளை ஒன்றிணைத்து ஒற்றை உகந்த CSS கோப்பாக மாற்றுகிறது."
+      "Sensible",
+      "Sagacious",
+      "Intelligent",
+      "Judicious",
+      "Wise"
+    ]
   },
   {
     "id": 623,
@@ -1198,24 +1230,26 @@
   },
   {
     "id": 3673,
-    "word": "Frank",
-    "pos": "adjective",
-    "definition": "Open, honest, direct, and straightforward in speech or writing.",
-    "taWord": "நேரடியான வெளிப்படையான",
-    "enExample": "During the retrospective, we had a frank discussion about what went wrong.",
-    "taExample": "கடந்த கால பரிசீலனையின் போது, என்ன தவறு நடந்தது என்பதைப் பற்றி நாங்கள் ஒரு நேரடியான வெளிப்படையான விவாதத்தைக் கொண்டிருந்தோம்.",
-    "enExample2": "His frank advice helped his friend make a wise career choice.",
-    "taExample2": "அவரது நேரடியான வெளிப்படையான ஆலோசனை அவரது நண்பருக்கு ஒரு விவேகமான வாழ்க்கை முறைத் தேர்வைச் செய்ய உதவியது.",
+    "word": "Fulminate",
+    "pos": "verb",
+    "definition": "To express vehement protest, outrage, or explosive verbal condemnation against something.",
+    "taWord": "கொதித்தெழுந்து கண்டித்தல் / சீற்றத்துடன் வெடித்துரைத்தல்",
+    "enExample": "Privacy advocates fulminated against government proposals to weaken end-to-end device encryption.",
+    "taExample": "சாதன குறியாக்கத்தை பலவீனப்படுத்தும் அரசாங்க முன்மொழிவுகளுக்கு எதிராக தனியுரிமை ஆர்வலர்கள் சீற்றத்துடன் வெடித்துக் கண்டித்தனர்.",
+    "enExample2": "The columnist fulminated against escalating monopolistic practices across the technology industry.",
+    "taExample2": "தொழில்நுட்பத் துறையில் அதிகரித்து வரும் ஏகபோக நடைமுறைகளுக்கு எதிராக கட்டுரையாளர் கொதித்தெழுந்து கண்டித்தார்.",
     "synonyms": [
-      "Candid",
-      "Direct",
-      "Honest",
-      "Straightforward"
+      "Rage",
+      "Rail",
+      "Protest",
+      "Inveigh",
+      "Denounce"
     ],
     "antonyms": [
-      "Evasive",
-      "Secretive",
-      "Insincere"
+      "Applaud",
+      "Endorse",
+      "Sanction",
+      "Praise"
     ]
   },
   {

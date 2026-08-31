@@ -1,44 +1,52 @@
 [
   {
     "id": 1201,
-    "word": "Label",
-    "definition": "A text snippet or UI tag attached to a component or database record for identification.",
-    "enExample": "Every input field should have an associated ARIA label for accessibility.",
-    "taExample": "அணுகல்தன்மைக்காக ஒவ்வொரு உள்ளீட்டு புலத்திற்கும் ஒரு ARIA லேபிள் இணைக்கப்பட வேண்டும்.",
-    "taWord": "அடையாளச் சொல் / லேபிள்",
-    "pos": "noun",
-    "synonyms": [
-      "Tag",
-      "Marker",
-      "Badge"
-    ],
-    "antonyms": [
-      "Anonymous value",
-      "Unmarked variable",
-      "Hidden metadata"
-    ],
-    "enExample2": "Every form input requires an associated accessible label to support screen readers seamlessly.",
-    "taExample2": "திரை வாசிப்பான்களை ஆதரிப்பதற்காக ஒவ்வொரு படிவ உள்ளீட்டிற்கும் தொடர்புடைய அணுகல் லேபிள் (Label) தேவைப்படுகிறது."
-  },
-  {
-    "id": 1226,
     "word": "Laconic",
-    "definition": "(of a person, speech, or style of writing) using very few words.",
-    "enExample": "His laconic reply suggested a lack of interest.",
-    "taExample": "அவரது சுருக்கமான பதில் ஆர்வமின்மையைக் காட்டியது.",
-    "taWord": "சுருக்கமான",
-    "pos": "adj.",
+    "pos": "adjective",
+    "definition": "Using very few words; concise to the point of seeming rude or mysterious.",
+    "taWord": "மிகச் சுருக்கமாகப் பேசும் / சிக்கனமான சொற்களைப் பயன்படுத்தும்",
+    "enExample": "The legendary developer was famous for his laconic commit messages like 'fixed bug' and 'improved perf'.",
+    "taExample": "புகழ்பெற்ற டெவலப்பர் 'பிழை சரி செய்யப்பட்டது' போன்ற தனது மிகச் சுருக்கமான கமிட் செய்திகளுக்குப் பிரபலமானவர்.",
+    "enExample2": "His laconic reply of 'No' effectively ended the prolonged boardroom debate.",
+    "taExample2": "அவரது 'இல்லை' என்ற சுருக்கமான பதில் நீண்ட நிர்வாகக் குழு விவாதத்தை திறம்பட முடிவுக்குக் கொண்டுவந்தது.",
     "synonyms": [
+      "Terse",
       "Brief",
-      "Concise",
-      "Terse"
+      "Succinct",
+      "Pithy",
+      "Taciturn"
     ],
     "antonyms": [
       "Verbose",
-      "Loquacious"
+      "Loquacious",
+      "Garrulous",
+      "Voluble"
+    ]
+  },
+  {
+    "id": 1226,
+    "word": "Lilliputian",
+    "pos": "adjective",
+    "definition": "Extremely small or miniature; trivial or petty in magnitude or significance.",
+    "taWord": "மிக நுண்ணிய / குள்ளமான / மிகச் சிறிய அற்பமான",
+    "enExample": "Engineers engineered lilliputian sensors capable of swimming through microfluidic channels.",
+    "taExample": "பொறியாளர்கள் மைக்ரோஃப்ளூய்டிக் பாதைகள் வழியாக நீந்தக்கூடிய மிக நுண்ணிய உண Huff கருவிகளை உருவாக்கினர்.",
+    "enExample2": "Seen from the space station, all national conflicts appeared lilliputian and insignificant.",
+    "taExample2": "விண்வெளி நிலையத்திலிருந்து பார்க்கும்போது, அனைத்து தேசிய மோதல்களும் மிகச் சிறியதாகவும் அற்பமாகவும் தோன்றின.",
+    "synonyms": [
+      "Miniature",
+      "Tiny",
+      "Microscopic",
+      "Diminutive",
+      "Petite"
     ],
-    "enExample2": "The lead architect gave a laconic two-word answer: 'Ship it.'",
-    "taExample2": "முதன்மை வடிவமைப்பாளர் 'வெளியிடுங்கள்' என்று இரண்டு வார்த்தைகளில் சுருக்கமான பதிலை அளித்தார்."
+    "antonyms": [
+      "Gigantic",
+      "Colossal",
+      "Gargantuan",
+      "Huge",
+      "Monumental"
+    ]
   },
   {
     "id": 1202,
@@ -158,24 +166,28 @@
   },
   {
     "id": 1205,
-    "word": "Layer",
-    "definition": "A level of abstraction within a software architecture or graphic design file.",
-    "enExample": "The presentation layer communicates directly with the business logic layer.",
-    "taExample": "அளித்தல் அடுக்கு (Presentation layer) வணிக தர்க்க அடுக்குடன் நேரடியாக தொடர்பு கொள்கிறது.",
-    "taWord": "அடுக்கு",
+    "word": "Lassitude",
     "pos": "noun",
+    "definition": "A state of physical or mental weariness; lack of energy or vitality.",
+    "taWord": "உடல் மற்றும் மனச் சோர்வு / ஆற்றலின்மை / மந்த நிலை",
+    "enExample": "A wave of lassitude swept over the engineering team following the grueling forty-eight-hour launch.",
+    "taExample": "நாற்பத்தெட்டு மணிநேரக் கடுமையான வெளியீட்டுப் பணிகளைத் தொடர்ந்து பொறியியல் குழுவில் பெரும் சோர்வு அலை பரவியது.",
+    "enExample2": "The stifling tropical heat induced a profound lassitude in all the visitors.",
+    "taExample2": "கடுமையான வெப்பமண்டல புழுக்கம் அனைத்து பார்வையாளர்களிடமும் ஆழ்ந்த மந்த நிலையை ஏற்படுத்தியது.",
     "synonyms": [
-      "Tier",
-      "Level",
-      "Stratum"
+      "Lethargy",
+      "Fatigue",
+      "Languor",
+      "Weariness",
+      "Torpor"
     ],
     "antonyms": [
-      "Flat monolith",
-      "Single core",
-      "Unstructured mass"
-    ],
-    "enExample2": "Adding a Redis caching layer between the web app and database eliminated 90% of repeated read queries.",
-    "taExample2": "பயன்பாட்டிற்கும் தரவுத்தளத்திற்கும் இடையே ஒரு தற்காலிக சேமிப்பு அடுக்கைச் (Layer) சேர்த்தது 90% மீண்டும் மீண்டும் வரும் வினவல்களை நீக்கியது."
+      "Vigor",
+      "Energy",
+      "Vitality",
+      "Dynamism",
+      "Enthusiasm"
+    ]
   },
   {
     "id": 1207,
@@ -199,41 +211,52 @@
   },
   {
     "id": 1206,
-    "word": "Lazy",
-    "definition": "A design pattern that postpones initialization or loading of an object until it is needed.",
-    "enExample": "Lazy loading images improves the initial page render performance.",
-    "taExample": "படங்களை தேவைப்படும்போது ஏற்றுவது (Lazy loading) ஆரம்ப பக்க ரெண்டரிங் செயல்திறனை மேம்படுத்துகிறது.",
-    "taWord": "தேவைப்படும்போது ஏற்றும்",
-    "pos": "adj.",
+    "word": "Loquacious",
+    "pos": "adjective",
+    "definition": "Tending to talk a great deal; talkative, wordy, or chatty.",
+    "taWord": "அதிகமாகப் பேசும் இயல்புடைய / பேச்சுக் குணம் நிறைந்த",
+    "enExample": "The loquacious host kept the technology podcast engaging and entertaining for two full hours.",
+    "taExample": "அதிகமாகப் பேசும் அந்த தொகுப்பாளர் தொழில்நுட்ப பாட்காஸ்ட்டை இரண்டு முழு மணிநேரமும் சுவாரசியமாகவும் பொழுதுபோக்காகவும் நடத்தினார்.",
+    "enExample2": "Even the most loquacious politicians fell silent when presented with the undeniable financial evidence.",
+    "taExample2": "மறுக்க முடியாத நிதி ஆதாரங்களை முன்வைத்த போது, மிகவும் அதிகமாகப் பேசும் அரசியல்வாதிகள் கூட அமைதியானார்கள்.",
     "synonyms": [
-      "On-demand",
-      "Deferred"
+      "Garrulous",
+      "Talkative",
+      "Voluble",
+      "Chatty",
+      "Effusive"
     ],
     "antonyms": [
-      "Eager",
-      "Immediate"
-    ],
-    "enExample2": "Using lazy loading for offscreen images speeds up the initial page load time significantly.",
-    "taExample2": "திரைக்கு வெளியே உள்ள படங்களுக்கு சோம்பல் ஏற்றுதலைப் (Lazy Loading) பயன்படுத்துவது ஆரம்ப பக்க ஏற்றுதல் வேகத்தை அதிகரிக்கிறது."
+      "Taciturn",
+      "Reticent",
+      "Laconic",
+      "Reserved",
+      "Quiet"
+    ]
   },
   {
     "id": 1208,
-    "word": "Lead",
-    "definition": "To guide a project or engineering team; a top-level software architect or manager.",
-    "enExample": "She serves as the tech lead for the frontend architecture team.",
-    "taExample": "அவர் முன்முனை கட்டிடக்கலை குழுவின் தொழில்நுட்பத் தலைவராக பணியாற்றுகிறார்.",
-    "taWord": "தலைமை / வழிநடத்துதல்",
+    "word": "Legerdemain",
     "pos": "noun",
+    "definition": "Skillful use of one's hands when performing conjuring tricks; sleight of hand or deceptive cunning.",
+    "taWord": "கைவரிசை வித்தை / மாய வித்தை / கண்கட்டி வித்தை மற்றும் தந்திரம்",
+    "enExample": "Financial analysts exposed the accounting legerdemain used to disguise mounting corporate debt.",
+    "taExample": "அதிகரித்து வரும் நிறுவனக் கடனை மறைக்கப் பயன்படுத்தப்பட்ட கணக்கியல் கண்கட்டி தந்திரங்களை நிதி ஆய்வாளர்கள் அம்பலப்படுத்தினர்.",
+    "enExample2": "The magician’s astonishing legerdemain left the entire audience spellbound.",
+    "taExample2": "மந்திரவாதியின் வியக்க வைக்கும் கைவரிசை வித்தை ஒட்டுமொத்த பார்வையாளர்களையும் மயக்கியது.",
     "synonyms": [
-      "Guide",
-      "Direct",
-      "Principal"
+      "Sleight of hand",
+      "Deception",
+      "Chicanery",
+      "Trickery",
+      "Artifice"
     ],
     "antonyms": [
-      "Follower"
-    ],
-    "enExample2": "The technical lead mentored junior engineers on writing clean and scalable backend services.",
-    "taExample2": "தொழில்நுட்பத் தலைவர் (Lead) சுத்தமான மற்றும் அளவிடக்கூடிய பின்தள சேவைகளை எழுத இளம் பொறியாளர்களுக்கு வழிகாட்டினார்."
+      "Honesty",
+      "Transparency",
+      "Openness",
+      "Frankness"
+    ]
   },
   {
     "id": 2689,
@@ -274,23 +297,28 @@
   },
   {
     "id": 1209,
-    "word": "Leak",
-    "definition": "Unintended loss or consumption of memory or resources over time.",
-    "enExample": "A memory leak caused the Node.js server to run out of RAM.",
-    "taExample": "நினைவகக் கசிவு Node.js சேவையகத்தின் RAM தீர்ந்துபோக வழிவகுத்தது.",
-    "taWord": "கசிவு / நினைவகக் கசிவு",
-    "pos": "noun",
+    "word": "Lugubrious",
+    "pos": "adjective",
+    "definition": "Looking or sounding sad, dismal, gloomy, or mournful.",
+    "taWord": "துயரமிக்க / சோகம் ததும்பும் / இருண்ட மற்றும் வருத்தமான",
+    "enExample": "The cello played a lugubrious melody that echoed mournfully through the empty concert hall.",
+    "taExample": "செல்லோ வாத்தியம் வெற்று இசை மண்டபத்தில் சோகமாக எதிரொலிக்கும் ஒரு துயரமிக்க மெல்லிசையை வாசித்தது.",
+    "enExample2": "He delivered the quarterly revenue report in a lugubrious tone that dampened investor morale.",
+    "taExample2": "அவர் காலாண்டு வருவாய் அறிக்கையை ஒரு துயரமான தொனியில் வழங்கினார், இது முதலீட்டாளர்களின் நம்பிக்கையைக் குறைத்தது.",
     "synonyms": [
-      "Drain",
-      "Loss",
-      "Exhaustion"
+      "Mournful",
+      "Gloomy",
+      "Melancholy",
+      "Doleful",
+      "Funereal"
     ],
     "antonyms": [
-      "Retention",
-      "Reclamation"
-    ],
-    "enExample2": "Failing to unsubscribe from event listeners in single-page apps creates an insidious JavaScript memory leak.",
-    "taExample2": "நிகழ்வு கேட்பவர்களை முறையாக நீக்கத் தவறினால் அது ஆபத்தான ஜாவாஸ்கிரிப்ட் நினைவக கசிவை (Leak) ஏற்படுத்துகிறது."
+      "Cheerful",
+      "Joyful",
+      "Buoyant",
+      "Ebullient",
+      "Optimistic"
+    ]
   },
   {
     "id": 1210,
@@ -461,47 +489,53 @@
   },
   {
     "id": 1214,
-    "word": "Limit",
-    "definition": "A restriction placed on resource consumption, API call frequency, or query size.",
-    "enExample": "Apply rate limits to prevent brute-force attacks on the authentication endpoint.",
-    "taExample": "சான்றளிப்பு எண்ட்பாயிண்ட்டில் தாக்குதல்களைத் தடுக்க விகித வரம்புகளைப் பயன்படுத்துங்கள்.",
-    "taWord": "வரம்பு / எல்லை",
-    "pos": "noun",
-    "synonyms": [
-      "Cap",
-      "Restriction",
-      "Boundary"
-    ],
-    "antonyms": [
-      "Unlimited",
-      "Freedom"
-    ],
-    "enExample2": "Setting a strict memory limit on Docker containers prevents a single rogue process from exhausting host RAM.",
-    "taExample2": "கொள்கலன்களுக்கு கடுமையான நினைவக வரம்பை (Limit) அமைப்பது ஒரே செயல்முறை கணினி நினைவகத்தை முழுமையாக விழுங்குவதைத் தடுக்கிறது."
-  },
-  {
-    "id": 3069,
     "word": "Limpid",
-    "pos": "adj.",
-    "definition": "Completely clear and transparent; free of obscurity or ambiguity in thought and style.",
-    "enExample": "The API documentation was written in limpid prose, enabling developers to integrate in minutes.",
-    "taWord": "படிகம் போன்ற தூய தெளிவான / களங்கமற்ற",
-    "taExample": "மென்பொருள் விளக்கக் குறிப்பேடு மிகத் தூய தெளிவான நடையில் எழுதப்பட்டிருந்ததால் உடனே இணைக்க முடிந்தது.",
+    "pos": "adjective",
+    "definition": "Completely clear, transparent, and unclouded; easily understandable in style or prose.",
+    "taWord": "தெளிவான / களங்கமற்ற / படிகம் போன்ற தூய்மையான",
+    "enExample": "The author’s limpid prose explained complex distributed consensus protocols with effortless clarity.",
+    "taExample": "ஆசிரியரின் படிகம் போன்ற தெளிவான உரைநடை சிக்கலான விநியோகிக்கப்பட்ட ஒருமித்த நெறிமுறைகளை எளிதான தெளிவுடன் விளக்கியது.",
+    "enExample2": "The mountain lake was so limpid that pebbles on the bottom were visible twenty feet down.",
+    "taExample2": "மலை ஏரி மிகவும் தெளிவாக இருந்ததால் இருபது அடி கீழே உள்ள கூழாங்கற்கள் கூட தெளிவாகத் தெரிந்தன.",
     "synonyms": [
-      "Clear",
       "Lucid",
       "Pellucid",
       "Transparent",
-      "Crystal"
+      "Crystalline",
+      "Unclouded"
     ],
     "antonyms": [
-      "Murky",
       "Opaque",
-      "Muddled",
-      "Obscure"
+      "Murky",
+      "Obscure",
+      "Muddy",
+      "Turbid"
+    ]
+  },
+  {
+    "id": 3069,
+    "word": "Lissome",
+    "pos": "adjective",
+    "definition": "Thin, supple, and graceful in physical movement and posture.",
+    "taWord": "நளினமான / எளிதில் வளையும் உடலமைப்புக் கொண்ட / மென்மையான",
+    "enExample": "The lissome dancer floated effortlessly across the stage to the gentle harp melody.",
+    "taExample": "மென்மையான நளினமான நடனக் கலைஞர் வீணையின் மெல்லிசைக்கு ஏற்ப மேடையில் மிக எளிதாக மிதந்து ஆடினார்.",
+    "enExample2": "Yoga practices develop a lissome, agile body and centered mental focus.",
+    "taExample2": "யோகா பயிற்சிகள் எளிதில் வளையும் நளினமான, சுறுசுறுப்பான உடலையும் ஒருமுகப்பட்ட மனதையும் உருவாக்குகின்றன.",
+    "synonyms": [
+      "Supple",
+      "Graceful",
+      "Agile",
+      "Lithe",
+      "Pliant"
     ],
-    "enExample2": "The architectural diagram provided a limpid and perfectly clear depiction of data flows across microservices.",
-    "taExample2": "கட்டமைப்பு வரைபடம் நுண்சேவைகளுக்கிடையேயான தரவு ஓட்டங்களின் தெளிவான மற்றும் வெளிப்படையான விளக்கத்தை வழங்கியது."
+    "antonyms": [
+      "Clumsy",
+      "Stiff",
+      "Rigid",
+      "Awkward",
+      "Inflexible"
+    ]
   },
   {
     "id": 3035,
@@ -572,46 +606,53 @@
   },
   {
     "id": 1216,
-    "word": "Link",
-    "definition": "A hyperlink connecting one document or webpage to another.",
-    "enExample": "The navbar contains a link to the user settings page.",
-    "taExample": "வழிசெலுத்தல் பட்டியில் பயனர் அமைப்புகள் பக்கத்திற்கான இணைப்பு உள்ளது.",
-    "taWord": "இணைப்பு",
-    "pos": "noun",
+    "word": "Lionize",
+    "pos": "verb",
+    "definition": "To treat someone as a celebrity; to give someone great public attention, acclaim, or hero status.",
+    "taWord": "ஹீரோவாகக் கொண்டாடுதல் / மிகைப்படுத்திப் போற்றுதல் / பிரபலமாக நடத்துதல்",
+    "enExample": "The tech press lionized the young founder following her pioneering breakthroughs in renewable batteries.",
+    "taExample": "புதுப்பிக்கத்தக்க பேட்டரிகளில் முன்னோடி கண்டுபிடிப்புகளை நிகழ்த்தியதைத் தொடர்ந்து தொழில்நுட்ப ஊடகங்கள் அந்த இளம் நிறுவனரை ஹீரோவாகக் கொண்டாடின.",
+    "enExample2": "Society often lionizes billionaires while overlooking the frontline scientists doing foundational work.",
+    "taExample2": "சமூகம் பெரும்பாலும் அடிப்படை வேலைகளைச் செய்யும் விஞ்ஞானிகளை கவனிக்காமல் பணக்காரர்களை மட்டுமே பெரிதும் போற்றுகிறது.",
     "synonyms": [
-      "Hyperlink",
-      "URL",
-      "Anchor"
+      "Acclaim",
+      "Celebrate",
+      "Glorify",
+      "Idolize",
+      "Extol"
     ],
     "antonyms": [
-      "Barrier",
-      "Wall",
-      "Separation",
-      "Disconnection"
-    ],
-    "enExample2": "The dynamic linker binds shared binary libraries to the application process at startup time.",
-    "taExample2": "இயக்க நேர இணைப்பான் தொடக்கத்தின் போது பகிரப்பட்ட நூலகங்களை பயன்பாட்டு செயல்முறையுடன் இணைக்கிறது (Link)."
+      "Vilify",
+      "Disparage",
+      "Belittle",
+      "Condemn",
+      "Criticize"
+    ]
   },
   {
     "id": 1217,
-    "word": "Lint",
-    "definition": "Analyze source code static logic to flag programming errors, bugs, or stylistic flaws.",
-    "enExample": "Run npm run lint before committing code to enforce code quality.",
-    "taExample": "குறியீட்டின் தரத்தை அமல்படுத்த குறியீட்டைச் சமர்ப்பிப்பதற்கு முன் npm run lint-ஐ இயக்கவும்.",
-    "taWord": "குறியீட்டு ஆய்வு (லிண்ட்)",
-    "pos": "verb",
+    "word": "Lithe",
+    "pos": "adjective",
+    "definition": "Thin, supple, gracefully flexible, and agile in movement.",
+    "taWord": "மென்மையான மற்றும் எளிதில் வளையும் தன்மை கொண்ட / நளினமான",
+    "enExample": "The gymnast’s lithe movements allowed her to execute flawless routines on the balance beam.",
+    "taExample": "ஜிம்னாஸ்ட்டின் நளினமான உடலசைவுகள் சமநிலை கற்றை மீது குறைபாடற்ற காட்சிகளை செயல்படுத்த அனுமதித்தன.",
+    "enExample2": "Lithe aerialists performed breathtaking acrobatics suspended high above the audience.",
+    "taExample2": "நளினமான வான் சர்க்கஸ் கலைஞர்கள் பார்வையாளர்களுக்கு மேலே உயரே தொங்கியபடி மூச்சடைக்கக்கூடிய சாகசங்களைச் செய்தனர்.",
     "synonyms": [
-      "Static analysis",
-      "Code check"
+      "Supple",
+      "Flexible",
+      "Agile",
+      "Nimble",
+      "Pliant"
     ],
     "antonyms": [
-      "Abstain",
-      "Halt",
-      "Cease",
-      "Reverse"
-    ],
-    "enExample2": "Pre-commit Git hooks automatically lint modified files to catch syntactic defects before pushing code.",
-    "taExample2": "குறியீட்டை அனுப்பும் முன் தொடரியல் பிழைகளைக் கண்டறிய Git ஹூக்குகள் தானாகவே கோப்புகளை ஆய்வு செய்கின்றன (Lint)."
+      "Rigid",
+      "Stiff",
+      "Clumsy",
+      "Inflexible",
+      "Awkward"
+    ]
   },
   {
     "id": 3534,
@@ -737,22 +778,27 @@
   },
   {
     "id": 1220,
-    "word": "Load",
-    "definition": "The amount of computational work or traffic handled by a server or database.",
-    "enExample": "A load balancer distributes incoming traffic across multiple instances.",
-    "taExample": "ஒரு லோட் பேலன்ஸர் உள்வரும் போக்குவரத்தை பல நிகழ்வுகளுக்கு வழங்குகிறது.",
-    "taWord": "சுமை / ஏற்றுதல்",
+    "word": "Lucubration",
     "pos": "noun",
+    "definition": "Laborious study, meditation, or scholarly writing, especially produced at night by candlelight.",
+    "taWord": "இரவு நேர தீவிரக் கல்வி ஆய்வு / அரும்பாடுபட்ட அறிவார்ந்த உழைப்பு",
+    "enExample": "The professor’s monumental treatise on quantum computing was the culmination of decades of solitary lucubration.",
+    "taExample": "குவாண்டம் கம்ப்யூட்டிங் பற்றிய பேராசிரியரின் மகத்தான ஆய்வுக் கட்டுரை பல தசாப்த கால இரவு நேர ஆழ்ந்த கல்வி உழைப்பின் உச்சமாகும்.",
+    "enExample2": "His midnight lucubrations resulted in an elegant mathematical proof that solved a century-old problem.",
+    "taExample2": "அவரது நள்ளிரவு நேர ஆழ்ந்த ஆய்வுகள் ஒரு நூற்றாண்டு பழமையான கணித சிக்கலை தீர்க்கும் நேர்த்தியான ஆதாரத்தை உருவாக்கின.",
     "synonyms": [
-      "Traffic",
-      "Workload",
-      "Strain"
+      "Scholarship",
+      "Study",
+      "Research",
+      "Contemplation",
+      "Meditation"
     ],
     "antonyms": [
-      "Idle"
-    ],
-    "enExample2": "The multi-threaded server balanced processing load evenly across all available CPU cores.",
-    "taExample2": "மல்டி-த்ரெட் சர்வர் கிடைக்கக்கூடிய அனைத்து CPU உள்ளகங்களிலும் செயலாக்கச் சுமையை (Load) சமமாகப் பகிர்ந்தது."
+      "Superficiality",
+      "Frivolity",
+      "Carelessness",
+      "Idleness"
+    ]
   },
   {
     "id": 2713,
@@ -796,86 +842,103 @@
   },
   {
     "id": 1221,
-    "word": "Local",
-    "definition": "Relating to the immediate program scope or current user machine.",
-    "enExample": "Store user preferences in localStorage for seamless session persistence.",
-    "taExample": "தடையற்ற அமர்வு நிலைத்தன்மைக்கு பயனர் விருப்பங்களை localStorage-இல் சேமிக்கவும்.",
-    "taWord": "உள்ளூர் / உள்ளமைந்த",
-    "pos": "adj.",
+    "word": "Labyrinthine",
+    "pos": "adjective",
+    "definition": "Complicated, twisting, winding, and intricate; resembling an intricate maze.",
+    "taWord": "சிக்கலான பிரமை போன்ற / முடிவில்லாத சுழற்சிகள் கொண்ட",
+    "enExample": "Navigating the labyrinthine legacy codebase required months of deep architectural archaeology.",
+    "taExample": "சிக்கலான பிரமை போன்ற பழைய மூலக் குறியீட்டைப் புரிந்து கொள்ள பல மாத கால ஆழ்ந்த கட்டமைப்பு ஆய்வு தேவைப்பட்டது.",
+    "enExample2": "The old medieval city was famous for its narrow, labyrinthine alleys.",
+    "taExample2": "பழைய இடைக்கால நகரம் அதன் குறுகிய, பிரமை போன்ற சிக்கலான சந்துகளுக்குப் பிரபலமானது.",
     "synonyms": [
-      "Internal",
-      "Scoped",
-      "On-device"
+      "Intricate",
+      "Convoluted",
+      "Tortuous",
+      "Complex",
+      "Maze-like"
     ],
     "antonyms": [
-      "Global",
-      "Remote"
-    ],
-    "enExample2": "Developers run lightweight SQLite databases during local development before testing on cloud staging clusters.",
-    "taExample2": "கிளவுட் சோதனைக்கு முன் உள்ளூர் (Local) உருவாக்கத்தின் போது உருவாக்குநர்கள் எளிய SQLite தரவுத்தளங்களை இயக்குகின்றனர்."
+      "Simple",
+      "Straightforward",
+      "Direct",
+      "Uncomplicated",
+      "Linear"
+    ]
   },
   {
     "id": 1222,
-    "word": "Lock",
-    "definition": "A synchronization mechanism for enforcing limits on resource access in multi-threaded code.",
-    "enExample": "A distributed lock prevents race conditions in concurrent database operations.",
-    "taExample": "ஒரு விநியோகிக்கப்பட்ட பூட்டு (Lock) ஒரே நேரத்தில் நிகழும் தரவுத்தள செயல்பாடுகளில் போட்டி நிலைமைகளைத் தடுக்கிறது.",
-    "taWord": "பூட்டு / அணுகல் தடை",
-    "pos": "noun",
+    "word": "Lachrymose",
+    "pos": "adjective",
+    "definition": "Tearful, prone to weeping, or causing tears and melancholy.",
+    "taWord": "கண்ணீர் சிந்தும் / கண்ணீரை வரவழைக்கும் / சோகமான",
+    "enExample": "The historical drama concluded with a lachrymose farewell scene between the separated lovers.",
+    "taExample": "வரலாற்று நாடகம் பிரிந்த காதலர்களுக்கு இடையேயான கண்ணீர் சிந்தும் பிரியாவிடை காட்சியுடன் முடிந்தது.",
+    "enExample2": "His lachrymose disposition often alienated peers who preferred pragmatic solutions over lamentation.",
+    "taExample2": "அவரது எப்போதும் சோகம் ததும்பும் குணம் புலம்பலை விட நடைமுறை தீர்வுகளை விரும்பிய சகாக்களிடமிருந்து அவரைத் தனிமைப்படுத்தியது.",
     "synonyms": [
-      "Mutex",
-      "Barrier",
-      "Restriction"
+      "Tearful",
+      "Weepy",
+      "Mournful",
+      "Melancholy",
+      "Sad"
     ],
     "antonyms": [
-      "Unlock",
-      "Release"
-    ],
-    "enExample2": "A pessimistic database lock prevents concurrent transactions from modifying the same bank account balance simultaneously.",
-    "taExample2": "தரவுத்தள பூட்டு (Lock) ஒரே நேரத்தில் பல பரிவர்த்தனைகள் ஒரே கணக்கு இருப்பை மாற்றுவதைத் தடுக்கிறது."
+      "Cheerful",
+      "Joyful",
+      "Jubilant",
+      "Laughing",
+      "High-spirited"
+    ]
   },
   {
     "id": 1223,
-    "word": "Log",
-    "definition": "A chronological record of computer events, transactions, or system activity.",
-    "enExample": "Check the server error log to diagnose the cause of 500 status codes.",
-    "taExample": "500 நிலையைக் குறியீடுகளுக்கான காரணத்தைக் கண்டறிய சேவையகப் பிழைப் பதிவைச் (Log) சரிபார்க்கவும்.",
-    "taWord": "பதிவு / நிகழ்வுப் பதிவேடு",
-    "pos": "noun",
+    "word": "Lambaste",
+    "pos": "verb",
+    "definition": "To criticize someone or something harshly, fiercely, and publicly.",
+    "taWord": "கடுமையாக சாடுதல் / வன்மையாகக் கண்டித்தல்",
+    "enExample": "Security researchers lambasted the corporation for secretly collecting user biometric data without consent.",
+    "taExample": "பயனர்களின் ஒப்புதலின்றி அவர்களின் கைரேகை உள்ளிட்ட தகவல்களை ரகசியமாக சேகரித்ததற்காக பாதுகாப்பு ஆய்வாளர்கள் அந்த நிறுவனத்தை கடுமையாக சாடினர்.",
+    "enExample2": "The theater critic lambasted the new Broadway play for its uninspired acting and clumsy dialogue.",
+    "taExample2": "நாடக விமர்சகர் புதிய பிராட்வே நாடகத்தின் உயிரற்ற நடிப்பு மற்றும் மோசமான வசனங்களுக்காக அதை வன்மையாகக் கண்டித்தார்.",
     "synonyms": [
-      "Audit trail",
-      "Record",
-      "Journal"
+      "Castigate",
+      "Chastise",
+      "Harangue",
+      "Excoriate",
+      "Berate"
     ],
     "antonyms": [
-      "Silent execution",
-      "Unlogged operation",
-      "Volatile output"
-    ],
-    "enExample2": "Structured JSON log entries make it straightforward to parse and query errors in centralized monitoring platforms.",
-    "taExample2": "கட்டமைக்கப்பட்ட JSON பதிவு (Log) வரிகள் மத்திய கண்காணிப்பு தளங்களில் பிழைகளைத் தேடுவதை எளிதாக்குகின்றன."
+      "Praise",
+      "Extol",
+      "Laud",
+      "Commend",
+      "Compliment"
+    ]
   },
   {
     "id": 1224,
-    "word": "Logic",
-    "definition": "The system of principles underlying the representation and processing of data.",
-    "enExample": "Keep presentation components separated from complex business logic.",
-    "taExample": "காட்சிக் கூறுகளை சிக்கலான வணிகத் தர்க்கத்திலிருந்து (Business logic) தனித்து வைத்திருங்கள்.",
-    "taWord": "தர்க்கம்",
-    "pos": "noun",
+    "word": "Laudatory",
+    "pos": "adjective",
+    "definition": "Expressing praise, commendation, admiration, or high approval.",
+    "taWord": "புகழாரம் சூட்டும் / போற்றிப் புகழும் / பாராட்டுக்குரிய",
+    "enExample": "The groundbreaking open-source kernel received laudatory reviews from operating system architects worldwide.",
+    "taExample": "அந்த புதிய திறந்த மூல ஆப்பரேட்டிங் சிஸ்டம் கருவம் உலகெங்கிலும் உள்ள கட்டமைப்பு நிபுணர்களிடமிருந்து பாராட்டுமிக்க விமர்சனங்களைப் பெற்றது.",
+    "enExample2": "The university president delivered a laudatory speech celebrating the Nobel laureate’s discoveries.",
+    "taExample2": "நோபல் பரிசு பெற்றவரின் கண்டுபிடிப்புகளைக் கொண்டாடும் பாராட்டுமிக்க உரையை பல்கலைக்கழகத் தலைவர் ஆற்றினார்.",
     "synonyms": [
-      "Reasoning",
-      "Rules",
-      "Flow"
+      "Praising",
+      "Complimentary",
+      "Acclamatory",
+      "Commendatory",
+      "Eulogistic"
     ],
     "antonyms": [
-      "Irrationality",
-      "Chaos",
-      "Arbitrary guessing",
-      "Emotion"
-    ],
-    "enExample2": "Separating business logic from React UI presentation components improves unit testability and code maintainability.",
-    "taExample2": "வணிகத் தர்க்கத்தை (Logic) காட்சி கூறுகளிலிருந்து பிரிப்பது குறியீட்டின் சோதனைத் திறனையும் பராமரிப்பையும் மேம்படுத்துகிறது."
+      "Critical",
+      "Derogatory",
+      "Pejorative",
+      "Disparaging",
+      "Censorious"
+    ]
   },
   {
     "id": 3532,
@@ -924,23 +987,27 @@
   },
   {
     "id": 1225,
-    "word": "Loop",
-    "definition": "A sequence of instructions that is continually repeated until a certain condition is reached.",
-    "enExample": "A 'for...of' loop iterates smoothly over array elements.",
-    "taExample": "'for...of' சுழற்சி வரிசைக்கூறுகளின் உருப்படிகளைச் சீராக மீண்டும் மீண்டும் இயக்குகிறது.",
-    "taWord": "சுழற்சி",
+    "word": "Luminary",
     "pos": "noun",
+    "definition": "A person who inspires or influences others, especially one prominent in a particular sphere.",
+    "taWord": "ஒளி விளக்கு போன்ற மேதை / தலைசிறந்த ஆளுமை / வழிகாட்டி",
+    "enExample": "Computer science luminaries gathered at the annual Turing Award banquet to discuss AI safety.",
+    "taExample": "கணினி அறிவியல் துறையின் தலைசிறந்த ஆளுமைகள் செயற்கை நுண்ணறிவு பாதுகாப்பு குறித்து விவாதிக்க ஆண்டு விருந்தில் கூடினர்.",
+    "enExample2": "She was universally recognized as an intellectual luminary whose theories revolutionized astrophysics.",
+    "taExample2": "வானியற்பியலில் புரட்சியை ஏற்படுத்திய தனது கோட்பாடுகளுக்காக அவர் உலகளவில் ஒரு தலைசிறந்த அறிவுஜீவியாக அங்கீகரிக்கப்பட்டார்.",
     "synonyms": [
-      "Iteration",
-      "Cycle",
-      "Repeat"
+      "Leading light",
+      "Inspiration",
+      "Visionary",
+      "Master",
+      "Pioneer"
     ],
     "antonyms": [
-      "Branch",
-      "Exit"
-    ],
-    "enExample2": "The Node.js event loop coordinates asynchronous I/O operations without blocking the single execution thread.",
-    "taExample2": "Node.js நிகழ்வு வளையம் (Event Loop) ஒற்றை செயலாக்க நூலை முடக்காமல் ஒத்திசைவற்ற I/O செயல்பாடுகளை ஒருங்கிணைக்கிறது."
+      "Nobody",
+      "Nonentity",
+      "Mediocrity",
+      "Follower"
+    ]
   },
   {
     "id": 3441,
@@ -964,23 +1031,28 @@
   },
   {
     "id": 1228,
-    "word": "Loquacious",
-    "definition": "Tending to talk a great deal; talkative.",
-    "enExample": "Never loquacious, Sarah was now totally lost for words.",
-    "taExample": "எப்போதுமே அதிகம் பேசாத சாரா, இப்போது பேசுவதற்கு வார்த்தைகளின்றி தவித்தார்.",
-    "taWord": "அதிகம் பேசும்",
-    "pos": "adj.",
+    "word": "Logorrhea",
+    "pos": "noun",
+    "definition": "Excessive, incoherent, and repetitive talkativeness or wordiness.",
+    "taWord": "அடக்க முடியாத சொல்மாரி / கட்டுக்கடங்காத அளவுக்கு அதிகமான பேச்சு",
+    "enExample": "The filibustering senator subjected the assembly to five hours of unbroken logorrhea.",
+    "taExample": "விவாதத்தை முடக்கும் நோக்கில் அந்த செனட்டர் சட்டமன்றத்தில் ஐந்து மணி நேரம் இடைவிடாத சொல்மாரியை நிகழ்த்தினார்.",
+    "enExample2": "Good technical writing edits out unnecessary logorrhea to maximize instructional clarity.",
+    "taExample2": "நல்ல தொழில்நுட்ப எழுத்து வழிகாட்டுதல் தெளிவை அதிகரிக்க தேவையற்ற சொற்பெருக்கைத் தவிர்க்கிறது.",
     "synonyms": [
-      "Talkative",
-      "Voluble",
-      "Garrulous"
+      "Verbosity",
+      "Prolixity",
+      "Garrulity",
+      "Volubility",
+      "Wordiness"
     ],
     "antonyms": [
-      "Reticent",
-      "Taciturn"
-    ],
-    "enExample2": "Setting the logger to debug mode produced a loquacious output stream that quickly filled the hard drive.",
-    "taExample2": "பதிவை பிழைத்திருத்த நிலைக்கு மாற்றியது அதிகப்படியான தகவல்களை வெளியிட்டு வன்தட்டை விரைவாக நிரப்பியது."
+      "Brevity",
+      "Conciseness",
+      "Taciturnity",
+      "Pithiness",
+      "Reticence"
+    ]
   },
   {
     "id": 2797,
@@ -1138,26 +1210,27 @@
   },
   {
     "id": 3712,
-    "word": "Lambaste",
+    "word": "Lampoon",
     "pos": "verb",
-    "definition": "To criticize or scold someone harshly and vehemently, often in public.",
-    "taWord": "கடுமையாகத் தாக்குதல் / விளாசுதல்",
-    "enExample": "Critics lambasted the new movie for its predictable plot and dull dialogue.",
-    "taExample": "ஊகிக்கக்கூடிய கதை மற்றும் மந்தமான வசனங்களுக்காக விமர்சகர்கள் புதிய திரைப்படத்தைக் கடுமையாக விளாசினர்.",
-    "enExample2": "Rather than lambasting a teammate for an oversight, schedule a constructive review session.",
-    "taExample2": "ஒரு கவனக்குறைவிற்காக சக அணி வீரரைக் கடுமையாக விமர்சிப்பதற்குப் பதிலாக, ஆக்கப்பூர்வமான பரிசீலனை அமர்வை ஏற்பாடு செய்யுங்கள்.",
+    "definition": "To publicly criticize, satirize, or ridicule someone or something using humor, irony, or caricature.",
+    "taWord": "நகைச்சுவையாக கிண்டல் செய்தல் / அங்கதத்தால் பகடி செய்தல்",
+    "enExample": "Late-night television comedy shows frequently lampoon the foibles of political candidates.",
+    "taExample": "இரவு நேர தொலைக்காட்சி நகைச்சுவை நிகழ்ச்சிகள் அரசியல் வேட்பாளர்களின் பலவீனங்களை அடிக்கடி அங்கதத்தால் கிண்டல் செய்கின்றன.",
+    "enExample2": "The satirical magazine published an issue that lampooned modern tech startup culture.",
+    "taExample2": "அந்த நையாண்டி பத்திரிகை நவீன தொழில்நுட்ப தொடக்க கலாச்சாரத்தை கிண்டல் செய்யும் ஒரு இதழை வெளியிட்டது.",
     "synonyms": [
-      "Castigate",
-      "Chastise",
-      "Berate",
-      "Savage",
-      "Censure"
+      "Satirize",
+      "Mock",
+      "Parody",
+      "Ridicule",
+      "Caricature"
     ],
     "antonyms": [
       "Praise",
       "Extol",
       "Laud",
-      "Approve"
+      "Eulogize",
+      "Revere"
     ]
   },
   {

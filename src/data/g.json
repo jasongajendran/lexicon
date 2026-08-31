@@ -439,24 +439,28 @@
   },
   {
     "id": 726,
-    "word": "Goal",
-    "definition": "The object of a person's ambition or effort; an intended target.",
-    "enExample": "Our primary goal this sprint is to pass all integration tests.",
-    "taExample": "இந்த ஸ்பிரிண்டில் எங்கள் முதன்மை இலக்கு அனைத்து ஒருங்கிணைப்பு சோதனைகளிலும் வெற்றி பெறுவதாகும்.",
-    "taWord": "இலக்கு / நோக்கம்",
-    "pos": "noun",
+    "word": "Grandiloquent",
+    "pos": "adjective",
+    "definition": "Pompous or extravagant in language, style, or manner, especially in a way that is intended to impress.",
+    "taWord": "ஆடம்பரமான / படாடோபமான / வீண் புகழ்ச்சி பேசும்",
+    "enExample": "The founder’s grandiloquent pitch promised world transformation but offered little technical substance.",
+    "taExample": "நிறுவனரின் ஆடம்பரமான பேச்சு உலக மாற்றத்தை உறுதியளித்தது ஆனால் சிறிய தொழில்நுட்ப விவரத்தையே கொண்டிருந்தது.",
+    "enExample2": "Audiences quickly tired of the politician's grandiloquent speeches that avoided concrete solutions.",
+    "taExample2": "உண்மையான தீர்வுகளைத் தவிர்த்த அரசியல்வாதியின் படாடோபமான பேச்சுகளால் மக்கள் விரைவில் சோர்வடைந்தனர்.",
     "synonyms": [
-      "Objective",
-      "Target"
+      "Pompous",
+      "Bombastic",
+      "Pretentious",
+      "Magniloquent",
+      "Florid"
     ],
     "antonyms": [
-      "Aimlessness",
-      "Distraction",
-      "Apathy",
-      "Randomness"
-    ],
-    "enExample2": "Our primary engineering goal this quarter is achieving 99.99% availability for the checkout gateway.",
-    "taExample2": "கட்டண நுழைவாயிலுக்கு 99.99% கிடைக்கும் தன்மையை அடைவதே இந்த காலாண்டில் எங்கள் முதன்மை பொறியியல் இலக்காகும்."
+      "Simple",
+      "Unpretentious",
+      "Modest",
+      "Restrained",
+      "Plain"
+    ]
   },
   {
     "id": 2642,
@@ -656,42 +660,53 @@
   },
   {
     "id": 707,
-    "word": "Graph",
-    "definition": "A data structure consisting of nodes and edges connecting them.",
-    "enExample": "Social networks are typically modeled using a graph database.",
-    "taExample": "சமூக வலைப்பின்னல்கள் பொதுவாக ஒரு வரைபட தரவுத்தளத்தைப் பயன்படுத்தி வடிவமைக்கப்படுகின்றன.",
-    "taWord": "வரைபடம் (Graph)",
-    "pos": "noun",
+    "word": "Gregarious",
+    "pos": "adjective",
+    "definition": "Fond of company; sociable, outgoing, and thriving in group environments.",
+    "taWord": "கூட்டமாக வாழ விரும்பும் / பழகுவதற்கு இனிய / சமூக ஈடுபாடுள்ள",
+    "enExample": "Her gregarious personality made her exceptionally effective at building global developer communities.",
+    "taExample": "அவரது சமூக ஈடுபாடுள்ள இயல்பு உலகளாவிய டெவலப்பர் சமூகங்களை உருவாக்குவதில் அவரை விதிவிலக்காக திறமையானவராக்கியது.",
+    "enExample2": "Dolphins are famously gregarious mammals that hunt and travel in cooperative pods.",
+    "taExample2": "டால்பின்கள் கூட்டாக வேட்டையாடி பயணிக்கும் சமூக ஈடுபாடுள்ள பாலூட்டிகளாக புகழ் பெற்றவை.",
     "synonyms": [
-      "Network",
-      "Chart"
+      "Sociable",
+      "Outgoing",
+      "Companionable",
+      "Convivial",
+      "Extroverted"
     ],
     "antonyms": [
-      "Linear array",
-      "Flat list",
-      "Isolated tree"
-    ],
-    "enExample2": "Social networks utilize graph databases to efficiently traverse interconnected user relationships.",
-    "taExample2": "சமூக வலைப்பின்னல்கள் ஒன்றோடொன்று இணைக்கப்பட்ட பயனர் உறவுகளைத் திறம்படக் கண்டறிய வரைபடத் தரவுத்தளங்களைப் பயன்படுத்துகின்றன."
+      "Solitary",
+      "Introverted",
+      "Reclusive",
+      "Antisocial",
+      "Aloof"
+    ]
   },
   {
     "id": 722,
-    "word": "Grasp",
-    "definition": "Comprehend or understand fully; get a firm mental hold of.",
-    "enExample": "Once you grasp the concept of state management, React becomes intuitive.",
-    "taExample": "மாநில நிர்வாகக் கருத்தை நீங்கள் புரிந்துகொண்டவுடன், ரியாக்ட் இயல்பானதாகிவிடும்.",
-    "taWord": "புரிந்துகொள்ளுதல் / பிடி",
-    "pos": "verb",
+    "word": "Gratuitous",
+    "pos": "adjective",
+    "definition": "Uncalled for, lacking good reason, unwarranted, or given free of charge without obligation.",
+    "taWord": "தேவையற்ற / காரணமற்ற / அனாவசியமான",
+    "enExample": "Reviewers criticized the movie for its gratuitous violence and lack of coherent narrative.",
+    "taExample": "திரைப்படத்தின் தேவையற்ற வன்முறை மற்றும் தெளிவான கதைக்களம் இல்லாததற்காக விமர்சகர்கள் அதை விமர்சித்தனர்.",
+    "enExample2": "The report avoided gratuitous jargon, presenting data in clean and accessible tables.",
+    "taExample2": "அறிக்கை தேவையற்ற தொழில்நுட்பச் சொற்களைத் தவிர்த்து, தெளிவான மற்றும் எளிதில் அணுகக்கூடிய அட்டவணைகளில் தரவை வழங்கியது.",
     "synonyms": [
-      "Comprehend",
-      "Understand"
+      "Unwarranted",
+      "Baseless",
+      "Groundless",
+      "Unjustified",
+      "Superfluous"
     ],
     "antonyms": [
-      "Misunderstand",
-      "Miss"
-    ],
-    "enExample2": "Junior engineers quickly developed a solid grasp of container orchestration with Docker and Kubernetes.",
-    "taExample2": "இளம் பொறியாளர்கள் டாக்கர் மற்றும் குபெர்னெட்டீஸ் கொள்கலன் நிர்வாகத்தில் விரைவாக வலுவான பிடிப்பை வளர்த்துக் கொண்டனர்."
+      "Justified",
+      "Necessary",
+      "Warranted",
+      "Essential",
+      "Reasonable"
+    ]
   },
   {
     "id": 723,
@@ -771,44 +786,53 @@
   },
   {
     "id": 718,
-    "word": "Gregarious",
-    "definition": "(of a person) fond of company; sociable.",
-    "enExample": "He was a popular and gregarious man.",
-    "taExample": "அவர் ஒரு பிரபலமான மற்றும் சமூகமாகப் பழகும் மனிதர்.",
-    "taWord": "சமூகமாக பழகும்",
-    "pos": "adj.",
+    "word": "Gainsay",
+    "pos": "verb",
+    "definition": "To deny, dispute, or contradict a fact, statement, or authoritative finding.",
+    "taWord": "மறுத்துக் கூறுதல் / எதிர்த்துப் பேசுதல் / முரண்படுதல்",
+    "enExample": "No impartial scientist could gainsay the empirical evidence demonstrating accelerating climate change.",
+    "taExample": "துரிதமடையும் காலநிலை மாற்றத்தை நிரூபிக்கும் ஆதாரங்களை எந்த ஒரு நடுநிலையான விஞ்ஞானியாலும் மறுத்துக் கூற முடியாது.",
+    "enExample2": "Her extraordinary technical accomplishments are impossible to gainsay.",
+    "taExample2": "அவரது அசாதாரண தொழில்நுட்ப சாதனைகளை எவராலும் மறுக்க முடியாது.",
     "synonyms": [
-      "Sociable",
-      "Company-loving",
-      "Convivial"
+      "Contradict",
+      "Dispute",
+      "Deny",
+      "Refute",
+      "Controvert"
     ],
     "antonyms": [
-      "Unsociable",
-      "Reserved"
-    ],
-    "enExample2": "His gregarious personality made him an excellent developer advocate at international tech conferences.",
-    "taExample2": "அவரது கலகலப்பான மற்றும் பழகும் சுபாவம் சர்வதேச மாநாடுகளில் ஒரு சிறந்த தொழில்நுட்ப பிரதிநிதியாக அவரை மாற்றியது."
+      "Confirm",
+      "Affirm",
+      "Endorse",
+      "Corroborate",
+      "Validate"
+    ]
   },
   {
     "id": 709,
-    "word": "Grid",
-    "definition": "A framework of spaced bars that are parallel to or cross each other; a network of computers.",
-    "enExample": "We used CSS Grid for the layout of the dashboard.",
-    "taExample": "டாஷ்போர்டின் தளவமைப்பிற்கு நாங்கள் CSS கட்டத்தைப் பயன்படுத்தினோம்.",
-    "taWord": "கட்டம்",
-    "pos": "noun",
+    "word": "Gargantuan",
+    "pos": "adjective",
+    "definition": "Enormous, gigantic, colossal, or immense in size, volume, or reach.",
+    "taWord": "மிகப் பிரம்மாண்டமான / வானளாவிய / இராட்சத அளவு கொண்ட",
+    "enExample": "Training modern large language models requires gargantuan computational compute clusters.",
+    "taExample": "நவீன பெரிய மொழி மாதிரிகளைப் பயிற்றுவிப்பதற்கு மிகப்பெரிய பிரம்மாண்டமான கம்ப்யூட்டர் கிளஸ்டர்கள் தேவைப்படுகின்றன.",
+    "enExample2": "The construction company undertook the gargantuan task of building the undersea tunnel.",
+    "taExample2": "அந்த கட்டுமான நிறுவனம் கடலுக்கடியில் சுரங்கப்பாதை அமைக்கும் பிரம்மாண்டமான பணியை மேற்கொண்டது.",
     "synonyms": [
-      "Network",
-      "Matrix"
+      "Colossal",
+      "Gigantic",
+      "Mammoth",
+      "Monstrous",
+      "Monumental"
     ],
     "antonyms": [
-      "Chaos",
-      "Disorder",
-      "Unstructured layout",
-      "Random scatter"
-    ],
-    "enExample2": "CSS Grid allows frontend developers to build complex responsive multi-column dashboard layouts with ease.",
-    "taExample2": "CSS கிரிட் (Grid) பல நெடுவரிசை தகவல் பலகை அமைப்புகளை எளிதாக உருவாக்க முன்னணி உருவாக்குநர்களுக்கு உதவுகிறது."
+      "Miniature",
+      "Tiny",
+      "Microscopic",
+      "Diminutive",
+      "Lilliputian"
+    ]
   },
   {
     "id": 2868,
@@ -958,22 +982,27 @@
   },
   {
     "id": 710,
-    "word": "Guard",
-    "definition": "A condition that must evaluate to true if the flow of execution is to continue.",
-    "enExample": "Use a guard clause to handle the null case early.",
-    "taExample": "பூஜ்ஜிய (Null) நிலையை முன்கூட்டியே கையாள ஒரு காப்புக் கூற்றைப் பயன்படுத்தவும்.",
-    "taWord": "காப்பு / பாதுகாத்தல்",
+    "word": "Gravitas",
     "pos": "noun",
+    "definition": "Dignity, seriousness, authority, or solemnity of manner.",
+    "taWord": "கம்பீரம் / கண்ணியம் / ஆழ்ந்த பொறுப்புணர்ச்சியும் அதிகாரத் தோரணையும்",
+    "enExample": "The chief justice presided over the constitutional hearing with quiet and commanding gravitas.",
+    "taExample": "தலைமை நீதிபதி அமைதியான மற்றும் கம்பீரமான தோரணையுடன் அரசியலமைப்பு விசாரணையை நடத்தினார்.",
+    "enExample2": "Her deep domain expertise gave her presentations immense gravitas in the boardroom.",
+    "taExample2": "அவரது ஆழ்ந்த துறை சார்ந்த நிபுணத்துவம் அவரது விளக்கக்காட்சிகளுக்கு நிர்வாகக் குழுவில் பெரும் கம்பீரத்தை அளித்தது.",
     "synonyms": [
-      "Protect",
-      "Shield"
+      "Dignity",
+      "Solemnity",
+      "Weightiness",
+      "Presence",
+      "Stature"
     ],
     "antonyms": [
-      "Expose",
-      "Endanger"
-    ],
-    "enExample2": "TypeScript type guards ensure runtime values conform to expected interfaces before properties are accessed.",
-    "taExample2": "TypeScript வகை காவலர்கள் (Type Guards) அணுகப்படுவதற்கு முன் மதிப்புகள் சரியான அமைப்பில் இருப்பதை உறுதி செய்கின்றன."
+      "Frivolity",
+      "Levity",
+      "Triviality",
+      "Superficiality"
+    ]
   },
   {
     "id": 3202,

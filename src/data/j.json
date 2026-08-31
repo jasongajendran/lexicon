@@ -162,25 +162,27 @@
   },
   {
     "id": 1003,
-    "word": "Job",
-    "definition": "A unit of work defined to be executed by a computer or background worker.",
-    "enExample": "The background job processes user avatars in batch mode.",
-    "taExample": "பின்னணி பணி (Job) பயனர் அவதார்களைத் தொகுதி முறையில் செயலாக்குகிறது.",
-    "taWord": "பணி / பின்னணி பணி",
+    "word": "Juxtaposition",
     "pos": "noun",
+    "definition": "The fact of two things being seen or placed close together with contrasting effect.",
+    "taWord": "ஒப்பீட்டு அருகமைவு / முரண்பாட்டை வெளிப்படுத்தும் அடுத்தடுத்த நிலை",
+    "enExample": "The stark juxtaposition of ancient stone temples and futuristic skyscrapers defines the city’s skyline.",
+    "taExample": "பண்டைய கல் கோயில்கள் மற்றும் எதிர்கால வானளாவிய கட்டடங்களின் குறிப்பிடத்தக்க ஒப்பீட்டு அருகமைவு நகரின் அழகை வரையறுக்கிறது.",
+    "enExample2": "Placing the two architectural diagrams in side-by-side juxtaposition highlighted the efficiency gains.",
+    "taExample2": "இரண்டு கட்டமைப்புக் வரைபடங்களை அருகருகே வைத்து ஒப்பிட்டுக் காட்டியது செயல்திறன் மேம்பாட்டை தெளிவாகக் காட்டியது.",
     "synonyms": [
-      "Task",
-      "Process",
-      "Work unit"
+      "Comparison",
+      "Contrast",
+      "Collocation",
+      "Proximity",
+      "Contiguity"
     ],
     "antonyms": [
-      "Idleness",
-      "Leisure",
-      "Inactivity",
-      "Unemployment"
-    ],
-    "enExample2": "The background batch job processes video transcode queues during off-peak overnight hours.",
-    "taExample2": "பின்னணி தொகுதிப் பணி (Job) இரவு நேரங்களில் வீடியோ மாற்ற வரிசைகளைச் செயலாக்குகிறது."
+      "Separation",
+      "Distance",
+      "Isolation",
+      "Disconnection"
+    ]
   },
   {
     "id": 2721,
@@ -223,42 +225,52 @@
   },
   {
     "id": 1004,
-    "word": "Join",
-    "definition": "An operation in relational databases used to combine rows from two or more tables based on a related column.",
-    "enExample": "Use an INNER JOIN to fetch orders alongside user details.",
-    "taExample": "பயனர் விவரங்களுடன் ஆர்டர்களைப் பெற INNER JOIN-ஐப் பயன்படுத்தவும்.",
-    "taWord": "இணைத்தல் (SQL Join)",
-    "pos": "verb",
+    "word": "Juggernaut",
+    "pos": "noun",
+    "definition": "A huge, powerful, and overwhelming force, institution, or campaign that crushes anything in its path.",
+    "taWord": "தடுக்க முடியாத பெரும் சக்தி / வெல்ல முடியாத ஆதிக்க இயக்கம்",
+    "enExample": "The e-commerce juggernaut expanded rapidly into cloud computing and streaming entertainment.",
+    "taExample": "இணையவழி வர்த்தக பெரும் சக்தி கிளவுட் கம்ப்யூட்டிங் மற்றும் பொழுதுபோக்கு ஸ்ட்ரீமிங் துறைகளில் வேகமாக விரிவடைந்தது.",
+    "enExample2": "Public health initiatives became an unstoppable juggernaut that eradicated the viral illness.",
+    "taExample2": "பொது சுகாதார முயற்சிகள் அந்த வைரஸ் நோயை ஒழித்த ஒரு தடுக்க முடியாத பெரும் சக்தியாக உருவெடுத்தன.",
     "synonyms": [
-      "Combine",
-      "Merge",
-      "Link"
+      "Behemoth",
+      "Colossus",
+      "Titan",
+      "Powerhouse",
+      "Steamroller"
     ],
     "antonyms": [
-      "Split",
-      "Separate"
-    ],
-    "enExample2": "An unindexed SQL join across three large tables severely degraded database query response times.",
-    "taExample2": "குறியிடப்படாத மூன்று பெரிய அட்டவணைகளின் SQL இணைப்பு தரவுத்தள பதில் நேரத்தை கடுமையாகக் குறைத்தது."
+      "Weakling",
+      "Pygmy",
+      "Featherweight",
+      "Impotent force"
+    ]
   },
   {
     "id": 1019,
-    "word": "Joint",
-    "definition": "Shared, held, or made by two or more parties together.",
-    "enExample": "The feature was a joint effort between design and development teams.",
-    "taExample": "இந்த அம்சம் வடிவமைப்பு மற்றும் மேம்பாட்டுக் குழுக்களின் கூட்டு முயற்சியாகும்.",
-    "taWord": "கூட்டு / இணைந்த",
-    "pos": "adj.",
+    "word": "Jettison",
+    "pos": "verb",
+    "definition": "To discard or abandon something that is no longer needed, desired, or useful.",
+    "taWord": "சுமையெனத் தூக்கி எறிதல் / தேவையற்றதை கைவிடுதல்",
+    "enExample": "To meet the aggressive release deadline, the engineering team decided to jettison non-essential UI features.",
+    "taExample": "நெருக்கமான வெளியீட்டு காலக்கெடுவை பூர்த்தி செய்ய, பொறியியல் குழு அத்தியாவசியமற்ற இடைமுக அம்சங்களை கைவிட முடிவு செய்தது.",
+    "enExample2": "The spacecraft jettisoned its spent fuel boosters upon reaching upper orbit.",
+    "taExample2": "விண்கலம் மேல் சுற்றுப்பாதையை அடைந்ததும் அதன் பயன்படுத்தப்பட்ட எரிபொருள் பூஸ்டர்களை கடலில் வீசியது.",
     "synonyms": [
-      "Combined",
-      "Shared"
+      "Discard",
+      "Abandon",
+      "Scrap",
+      "Ditch",
+      "Shed"
     ],
     "antonyms": [
-      "Sole",
-      "Individual"
-    ],
-    "enExample2": "The product and engineering teams authored a joint RFC proposing the new GraphQL schema migration.",
-    "taExample2": "தயாரிப்பு மற்றும் பொறியியல் குழுக்கள் இணைந்து புதிய GraphQL கட்டமைப்பு மாற்றத்திற்கான கூட்டு ஆவணத்தைத் தயாரித்தன."
+      "Retain",
+      "Keep",
+      "Embrace",
+      "Preserve",
+      "Adopt"
+    ]
   },
   {
     "id": 1021,
@@ -421,23 +433,26 @@
   },
   {
     "id": 1010,
-    "word": "Junk",
-    "definition": "Unwanted or corrupted data that occupies memory or storage without adding value.",
-    "enExample": "Run the cleanup script to remove junk files from the server.",
-    "taExample": "சேவையகத்திலிருந்து பயனற்ற கோப்புகளை அகற்ற துப்புரவு ஸ்கிரிப்டை இயக்கவும்.",
-    "taWord": "பயனற்ற தரவு / குப்பை",
+    "word": "Jingoism",
     "pos": "noun",
+    "definition": "Extreme, aggressive, or fanatical patriotism, especially in the form of warlike foreign policy.",
+    "taWord": "தீவிர கண்மூடித்தனமான தேசவெறி / ஆக்கிரமிப்பு போக்கிலான நாட்டுப்பற்று",
+    "enExample": "The diplomat warned that rising jingoism in political debates threatened international alliances.",
+    "taExample": "அரசியல் விவாதங்களில் தீவிர கண்மூடித்தனமான தேசவெறி அதிகரிப்பது சர்வதேச கூட்டணிகளை அச்சுறுத்துகிறது என்று தூதர் எச்சரித்தார்.",
+    "enExample2": "Sensationalist tabloids exploited public fear to promote bellicose jingoism.",
+    "taExample2": "பரபரப்பு செய்தித்தாள்கள் ஆக்கிரமிப்பு தேசவெறியை ஊக்குவிக்க பொதுமக்களின் பயத்தைப் பயன்படுத்திக் கொண்டன.",
     "synonyms": [
-      "Trash",
-      "Garbage",
-      "Waste"
+      "Chauvinism",
+      "Nationalism",
+      "Hawkishness",
+      "Xenophobia",
+      "Zealotry"
     ],
     "antonyms": [
-      "Clean data",
-      "Valuable data"
-    ],
-    "enExample2": "Automated cleanup scripts purge junk temporary build artifacts from the CI storage disks daily.",
-    "taExample2": "தானியங்கி தூய்மைப்படுத்தும் ஸ்கிரிப்ட்கள் தற்காலிக கழிவுக் கோப்புகளை தினசரி சேமிப்பகத்திலிருந்து அகற்றுகின்றன."
+      "Internationalism",
+      "Cosmopolitanism",
+      "Pacifism"
+    ]
   },
   {
     "id": 2879,
@@ -578,22 +593,27 @@
   },
   {
     "id": 3243,
-    "word": "Juxtaposition",
-    "pos": "Noun",
-    "definition": "The placement of two contrasting code patterns, designs, or ideas side by side for comparison.",
-    "taWord": "ஒப்பீட்டு நிலை (Oppeattu nilai)",
-    "enExample": "The pull request showed a juxtaposition of legacy callbacks alongside modern async/await syntax.",
-    "taExample": "பிடிப்பு கோரிக்கை நவீன async/await தொடரியலுடன் பழைய திரும்ப அழைப்புகளின் ஒப்பீட்டு நிலையைக் காட்டியது.",
-    "enExample2": "Comparing UI mockups side by side highlighted the clean juxtaposition of light and dark themes.",
-    "taExample2": "UI மாதிரிகளை அருகருகே ஒப்பிடுவது ஒளி மற்றும் இருண்ட கருப்பொருள்களின் சுத்தமான ஒப்பீட்டு நிலையை எடுத்துக்காட்டுகிறது.",
+    "word": "Jejune",
+    "pos": "adjective",
+    "definition": "Naive, simplistic, and superficial; dry, uninteresting, or lacking maturity.",
+    "taWord": "முதிர்ச்சியற்ற / மேலோட்டமான / சலிப்பூட்டும் மற்றும் எளிய",
+    "enExample": "The reviewer dismissed the novel's political commentary as jejune and hopelessly simplistic.",
+    "taExample": "விமர்சகர் அந்த நாவலின் அரசியல் கருத்துக்களை முதிர்ச்சியற்ற மற்றும் மேலோட்டமானவை என நிராகரித்தார்.",
+    "enExample2": "His jejune remarks during the serious academic symposium embarrassed his colleagues.",
+    "taExample2": "தீவிர கல்வி கருத்தரங்கின் போது அவரது முதிர்ச்சியற்ற கருத்துக்கள் சக ஊழியர்களுக்கு சங்கடத்தை ஏற்படுத்தின.",
     "synonyms": [
-      "contrast",
-      "side-by-side comparison",
-      "collocation"
+      "Naive",
+      "Simplistic",
+      "Immature",
+      "Superficial",
+      "Banal"
     ],
     "antonyms": [
-      "distance",
-      "separation"
+      "Sophisticated",
+      "Mature",
+      "Profound",
+      "Nuanced",
+      "Insightful"
     ]
   }
 ]

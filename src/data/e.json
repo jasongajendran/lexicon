@@ -169,22 +169,27 @@
   },
   {
     "id": 502,
-    "word": "Edge",
-    "definition": "The outside limit of an object, area, or surface; in computing, closer to the user.",
-    "enExample": "We deployed the function to the edge network for faster response.",
-    "taExample": "விரைவான பதிலளிப்பிற்காக விளிம்பு நெட்வொர்க்கில் செயல்பாட்டை வரிசைப்படுத்தினோம்.",
-    "taWord": "விளிம்பு",
-    "pos": "noun",
+    "word": "Ebullient",
+    "pos": "adjective",
+    "definition": "Cheerful, full of energy, zest, and exuberant enthusiasm.",
+    "taWord": "துள்ளலான / அளவற்ற உற்சாகம் மற்றும் மகிழ்ச்சி நிறைந்த",
+    "enExample": "The engineering team was ebullient after their space probe successfully landed on Mars.",
+    "taExample": "விண்கலம் செவ்வாய் கிரகத்தில் வெற்றிகரமாக தரையிறங்கிய பிறகு பொறியியல் குழு துள்ளலான உற்சாகத்தில் மூழ்கியது.",
+    "enExample2": "Her ebullient leadership style inspired infectious optimism across the entire company.",
+    "taExample2": "அவரது உற்சாகமான தலைமைத்துவ பாணி நிறுவனம் முழுவதும் பரவும் நம்பிக்கையை ஊட்டியது.",
     "synonyms": [
-      "Boundary",
-      "Border"
+      "Exuberant",
+      "Buoyant",
+      "High-spirited",
+      "Vivacious",
+      "Elated"
     ],
     "antonyms": [
-      "Center",
-      "Core"
-    ],
-    "enExample2": "Deploying serverless functions at the network edge minimizes roundtrip latency for international users.",
-    "taExample2": "நெட்வொர்க் விளிம்பில் (Edge) சர்வர்லெஸ் சேவைகளை இயக்குவது உலகளாவிய பயனர்களுக்கான தாமதத்தை மிகக் குறைக்கிறது."
+      "Depressed",
+      "Gloomy",
+      "Apathetic",
+      "Subdued"
+    ]
   },
   {
     "id": 3254,
@@ -540,22 +545,27 @@
   },
   {
     "id": 525,
-    "word": "Emit",
-    "definition": "Produce and discharge (something, especially gas or radiation).",
-    "enExample": "The component will emit an event when clicked.",
-    "taExample": "கூறு கிளிக் செய்யப்படும்போது ஒரு நிகழ்வை வெளிப்படுத்தும்.",
-    "taWord": "வெளிப்படுத்துதல்",
+    "word": "Enervate",
     "pos": "verb",
+    "definition": "To cause someone or something to feel drained of energy or vitality; to weaken significantly.",
+    "taWord": "ஆற்றலை இழக்கச் செய்தல் / வலுவிழக்கச் செய்தல் / சோர்வடையச் செய்தல்",
+    "enExample": "Working continuous twelve-hour shifts on production outages will severely enervate even veteran developers.",
+    "taExample": "தயாரிப்பு முடக்கங்களில் தொடர்ந்து பன்னிரண்டு மணி நேர வேலை செய்வது அனுபவமிக்க உருவாக்குநர்களையும் கூட கடுமையாக சோர்வடையச் செய்யும்.",
+    "enExample2": "Excessive bureaucratic procedures enervated the creative spirit of the research laboratory.",
+    "taExample2": "அதிகப்படியான நிர்வாக நடைமுறைகள் ஆராய்ச்சி ஆய்வகத்தின் ஆக்கப்பூர்வ உணர்வை வலுவிழக்கச் செய்தன.",
     "synonyms": [
-      "Discharge",
-      "Release"
+      "Exhaust",
+      "Debilitate",
+      "Drain",
+      "Fatigue",
+      "Weaken"
     ],
     "antonyms": [
-      "Absorb",
-      "Contain"
-    ],
-    "enExample2": "The IoT temperature sensor is configured to emit metric telemetry data every five seconds.",
-    "taExample2": "IoT வெப்பநிலை சென்சார் ஒவ்வொரு ஐந்து விநாடிகளுக்கும் அளவீட்டுத் தகவல்களை வெளியிடும் வகையில் கட்டமைக்கப்பட்டுள்ளது."
+      "Invigorate",
+      "Energize",
+      "Strengthen",
+      "Vitalize"
+    ]
   },
   {
     "id": 532,
@@ -784,27 +794,28 @@
   },
   {
     "id": 3105,
-    "word": "Enervate",
-    "pos": "verb",
-    "definition": "To cause someone or something to feel drained of energy or vitality; to weaken.",
-    "enExample": "Endless bureaucracy and redundant status meetings enervate engineering teams.",
-    "taWord": "சக்தியிழக்கச் செய்தல் / உற்சாகத்தை குறைத்தல்",
-    "taExample": "முடிவில்லாத நிர்வாக நடைமுறைகளும் தேவையற்ற கூட்டங்களும் பொறியியல் குழுவினரின் உற்சாகத்தை இழக்கச் செய்கின்றன.",
+    "word": "Ersatz",
+    "pos": "adjective",
+    "definition": "Made or used as a substitute, typically an inferior or artificial one.",
+    "taWord": "போலியான / தரம் குறைந்த மாற்றுப் பொருள் / செயற்கையான",
+    "enExample": "The restaurant served an ersatz coffee concocted from roasted chicory roots.",
+    "taExample": "உணவகம் வறுத்த சிக்கரி வேர்களில் இருந்து தயாரிக்கப்பட்ட ஒரு தரம் குறைந்த மாற்று காபியை வழங்கியது.",
+    "enExample2": "Generated marketing copy often feels like an ersatz replacement for authentic human storytelling.",
+    "taExample2": "தானியங்கி விளம்பர உள்ளடக்கம் பெரும்பாலும் உண்மையான மனிதக் கதைகளுக்கு ஒரு தரம் குறைந்த மாற்றாகவே உணரப்படுகிறது.",
     "synonyms": [
-      "Weaken",
-      "Exhaust",
-      "Drain",
-      "Fatigue",
-      "Debilitate"
+      "Artificial",
+      "Substitute",
+      "Imitation",
+      "Synthetic",
+      "Fake"
     ],
     "antonyms": [
-      "Invigorate",
-      "Energize",
-      "Strengthen",
-      "Vitalize"
-    ],
-    "enExample2": "Constant pager interruptions during the night enervate on-call engineers and lead to burnout.",
-    "taExample2": "இரவு நேரங்களில் வரும் தொடர் அவசர எச்சரிக்கைகள் பணியில் உள்ள பொறியாளர்களை சோர்வடையச் செய்து மன அழுத்தத்திற்கு வழிவகுக்கும்."
+      "Genuine",
+      "Authentic",
+      "Real",
+      "Original",
+      "Natural"
+    ]
   },
   {
     "id": 509,
@@ -1190,23 +1201,28 @@
   },
   {
     "id": 2643,
-    "word": "Era",
-    "definition": "A defined, characteristic personal or professional phase or period of focus.",
-    "enExample": "I am entering my test-driven development era to avoid production fire drills.",
-    "taExample": "தயாரிப்பு நேர அவசரச் சிக்கல்களைத் தவிர்க்க நான் சோதனை சார்ந்த மேம்பாட்டு காலகட்டத்திற்குள் நுழைகிறேன்.",
-    "taWord": "குறிப்பிட்ட காலகட்டம் / பருவம்",
-    "pos": "noun",
+    "word": "Expatiate",
+    "pos": "verb",
+    "definition": "To speak or write at length or in comprehensive detail about a subject.",
+    "taWord": "விரிவாகப் பேசுதல் / விவரமாக விளக்குதல் / ஆழமாக விவரித்தல்",
+    "enExample": "The professor expatiated on the mathematical subtleties of quantum encryption during the lecture.",
+    "taExample": "விரிவுரையின் போது பேராசிரியர் குவாண்டம் குறியாக்கத்தின் கணித நுணுக்கங்களை விரிவாக விளக்கினார்.",
+    "enExample2": "She loved to expatiate upon the culinary history of Mediterranean cuisine.",
+    "taExample2": "மத்திய தரைக்கடல் உணவுகளின் சமையல் வரலாற்றைப் பற்றி விரிவாகப் பேச அவள் விரும்பினாள்.",
     "synonyms": [
-      "Phase",
-      "Epoch",
-      "Stage"
+      "Elaborate",
+      "Dilate",
+      "Expound",
+      "Descant",
+      "Amplify"
     ],
     "antonyms": [
-      "Instant",
-      "Moment"
-    ],
-    "enExample2": "The widespread adoption of large language models marks a transformative new era in software engineering.",
-    "taExample2": "AI மொழி மாதிரிகளின் பரவலான பயன்பாடு மென்பொருள் பொறியியலில் ஒரு மாற்றத்தக்க புதிய சகாப்தத்தைக் குறிக்கிறது."
+      "Abbreviate",
+      "Summarize",
+      "Condense",
+      "Curtail",
+      "Truncate"
+    ]
   },
   {
     "id": 513,
@@ -1497,22 +1513,28 @@
   },
   {
     "id": 516,
-    "word": "Evict",
-    "definition": "Expel from a property; remove from memory or cache.",
-    "enExample": "The LRU algorithm will evict the least recently used item.",
-    "taExample": "LRU அல்காரிதம் மிகக் குறைவாகப் பயன்படுத்தப்பட்ட உருப்படியை (தற்காலிக சேமிப்பிலிருந்து) வெளியேற்றும்.",
-    "taWord": "வெளியேற்றுதல்",
+    "word": "Excoriate",
     "pos": "verb",
+    "definition": "To criticize, censure, or berate someone or something severely and harshly in public.",
+    "taWord": "கடுமையாக சாடுதல் / பகிரங்கமாக மிகக் கடுமையாக விமர்சித்தல்",
+    "enExample": "Independent security auditors excoriated the platform for neglecting fundamental encryption standards.",
+    "taExample": "அடிப்படை குறியாக்கத் தரங்களை புறக்கணித்ததற்காக சுயாதீன பாதுகாப்பு தணிக்கையாளர்கள் அந்த தளத்தை மிகக் கடுமையாக சாடினர்.",
+    "enExample2": "The editorial excoriated the municipality for mismanaging public transit infrastructure funds.",
+    "taExample2": "பொதுப் போக்குவரத்து நிதியை தவறாக நிர்வகித்ததற்காக தலையங்கம் நகராட்சியை பகிரங்கமாக கடுமையாக விமர்சித்தது.",
     "synonyms": [
-      "Expel",
-      "Remove"
+      "Castigate",
+      "Berate",
+      "Censure",
+      "Denounce",
+      "Chastise"
     ],
     "antonyms": [
-      "Admit",
-      "Keep"
-    ],
-    "enExample2": "When memory limits are reached, the cache algorithm will evict the least recently accessed keys.",
-    "taExample2": "நினைவக வரம்பை எட்டும் போது தற்காலிக சேமிப்பக வழிமுறை மிகக் குறைந்த அளவில் பயன்படுத்தப்பட்ட விசைகளை வெளியேற்றும்."
+      "Praise",
+      "Extol",
+      "Laud",
+      "Commend",
+      "Applaud"
+    ]
   },
   {
     "id": 537,
@@ -1579,24 +1601,27 @@
   },
   {
     "id": 3415,
-    "word": "Excoriate",
+    "word": "Execrate",
     "pos": "verb",
-    "definition": "To criticize or censure someone or something severely in public or writing.",
-    "taWord": "கடுமையாக விமர்சி",
-    "enExample": "Tech journalists excoriated the platform for releasing an unvetted software patch that caused widespread outages.",
-    "taExample": "பரவலான செயலிழப்புகளை ஏற்படுத்திய பரிசோதிக்கப்படாத மென்பொருள் இணைப்பை வெளியிட்டதற்காக தொழில்நுட்ப பத்திரிகையாளர்கள் அந்தத் தளத்தைக் கடுமையாக விமர்சித்தனர்.",
-    "enExample2": "Rather than excoriating colleagues during post-mortems, blameless reviews focus on system flaws.",
-    "taExample2": "மதிப்பாய்வுகளின் போது சகாக்களைக் கடுமையாக விமர்சிப்பதை விட, குற்றமற்ற ஆய்வுகள் கணினி குறைபாடுகளில் கவனம் செலுத்துகின்றன.",
+    "definition": "To feel or express great loathing, abhorrence, or condemnation for someone or something.",
+    "taWord": "வெறுத்து ஒதுக்குதல் / சபித்தல் / மிகக் கடுமையாக அருவருத்தல்",
+    "enExample": "Human rights organizations universally execrate the atrocities committed during the civil war.",
+    "taExample": "மனித உரிமைகள் அமைப்புகள் உள்நாட்டுப் போரின் போது செய்யப்பட்ட அட்டூழியங்களை உலகளவில் மிகக் கடுமையாக வெறுத்து கண்டிக்கின்றன.",
+    "enExample2": "Citizens execrated the dictator whose reckless policies starved the countryside.",
+    "taExample2": "கிராமப்புறங்களை பட்டினியில் ஆழ்த்திய அலட்சியக் கொள்கைகளைக் கொண்ட சர்வாதிகாரியை குடிமக்கள் சபித்தனர்.",
     "synonyms": [
-      "censure",
-      "condemn",
-      "chastise",
-      "lambaste"
+      "Abhor",
+      "Abominate",
+      "Detest",
+      "Loathe",
+      "Condemn"
     ],
     "antonyms": [
-      "praise",
-      "laud",
-      "commend"
+      "Admire",
+      "Venerate",
+      "Adore",
+      "Cherish",
+      "Laud"
     ]
   },
   {

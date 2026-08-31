@@ -61,22 +61,28 @@
   },
   {
     "id": 1502,
-    "word": "Object",
-    "definition": "A standalone entity that combines state (data) and behavior (methods) in OOP.",
-    "enExample": "Instantiate a new User object with name and email properties.",
-    "taExample": "பெயர் மற்றும் மின்னஞ்சல் பண்புகளுடன் ஒரு புதிய பயனர் பொருளை (User object) உருவாக்கவும்.",
-    "taWord": "பொருள் / ஆப்ஜெக்ட்",
-    "pos": "noun",
+    "word": "Obstreperous",
+    "pos": "adjective",
+    "definition": "Noisy, boisterous, and difficult to control; unruly and aggressive.",
+    "taWord": "கூச்சலிடும் / அடங்காத / வன்மமான முரட்டுத்தனமான",
+    "enExample": "Security was summoned to escort the obstreperous passenger away from the departure gate.",
+    "taExample": "புறப்படும் வாயிலில் இருந்து கூச்சலிட்டு அடங்காத பயணியை வெளியேற்ற பாதுகாப்புப் படையினர் அழைக்கப்பட்டனர்.",
+    "enExample2": "The teacher maintained order despite the obstreperous antics of the disruptive students.",
+    "taExample2": "குறும்புக்கார மாணவர்களின் அடங்காத சேட்டைகளுக்கு மத்தியிலும் ஆசிரியர் வகுப்பில் ஒழுங்கைப் பராமரித்தார்.",
     "synonyms": [
-      "Instance",
-      "Entity",
-      "Structure"
+      "Unruly",
+      "Boisterous",
+      "Clamorous",
+      "Defiant",
+      "Rambunctious"
     ],
     "antonyms": [
-      "Primitive"
-    ],
-    "enExample2": "In object-oriented programming, each object encapsulates its internal state and exposes methods.",
-    "taExample2": "பொருள் சார்ந்த நிரலாக்கத்தில் ஒவ்வொரு பொருளும் (Object) அதன் உள் நிலையை மறைத்து செயல்பாடுகளை வழங்குகிறது."
+      "Quiet",
+      "Docile",
+      "Submissive",
+      "Tractable",
+      "Calm"
+    ]
   },
   {
     "id": 2889,
@@ -275,45 +281,53 @@
   },
   {
     "id": 1505,
-    "word": "Offline",
-    "definition": "Operating while disconnected from a primary network, internet connection, or central server.",
-    "enExample": "Service workers cache assets to enable smooth offline application usage.",
-    "taExample": "சர்வீஸ் வொர்க்கர்கள் தடையற்ற ஆஃப்லைன் பயன்பாட்டைச் சாத்தியமாக்க சொத்துக்களை தற்காலிகமாகச் சேமிக்கின்றன.",
-    "taWord": "இணைப்பிலா / ஆஃப்லைன்",
-    "pos": "adj.",
+    "word": "Opprobrium",
+    "pos": "noun",
+    "definition": "Harsh criticism, public disgrace, or shame resulting from shameful conduct.",
+    "taWord": "பொது இகழ்ச்சி / அவமானம் / கடுமையான இழிவு மற்றும் பழிச்சொல்",
+    "enExample": "The rogue CEO faced universal opprobrium after embezzling employee pension funds.",
+    "taExample": "ஊழியர்களின் ஓய்வூதிய நிதியை கையாடல் செய்த பின்னர் அந்த தலைமை நிர்வாகி பொது இகழ்ச்சியையும் அவமானத்தையும் எதிர்கொண்டார்.",
+    "enExample2": "Whistleblowers often endure temporary opprobrium before history vindicates their courage.",
+    "taExample2": "வரலாறு அவர்களின் துணிச்சலை நிரூபிப்பதற்கு முன்பு உண்மையை வெளிப்படுத்துபவர்கள் பெரும்பாலும் அவமானங்களைத் தாங்க வேண்டியுள்ளது.",
     "synonyms": [
-      "Disconnected",
-      "Unplugged",
-      "Cached"
+      "Disgrace",
+      "Infamy",
+      "Ignominy",
+      "Shame",
+      "Reproach"
     ],
     "antonyms": [
-      "Online",
-      "Connected",
-      "Live"
-    ],
-    "enExample2": "Progressive Web Apps cache application shells to deliver reliable offline experiences on flaky connections.",
-    "taExample2": "PWA பயன்பாடுகள் இணையற்ற (Offline) நிலையிலும் இயங்குவதற்காக தளத்தின் முக்கிய பகுதிகளை முன்பே சேமிக்கின்றன."
+      "Honor",
+      "Acclaim",
+      "Glory",
+      "Praise",
+      "Admiration"
+    ]
   },
   {
     "id": 1506,
-    "word": "Offset",
-    "definition": "The distance or count from the beginning of a data structure, file, or array.",
-    "enExample": "Database pagination uses LIMIT and OFFSET parameters to fetch paged rows.",
-    "taExample": "தரவுத்தள பக்கமாக்கம் பக்க வரிசைகளைப் பெற LIMIT மற்றும் OFFSET அளவுருக்களைப் பயன்படுத்துகிறது.",
-    "taWord": "நிகர்வரை / நகர்வு தூரம்",
+    "word": "Obeisance",
     "pos": "noun",
+    "definition": "Deferential respect; a gesture or movement expressing deep submission or reverence.",
+    "taWord": "வணக்கம் / பயபக்தி / மிகுந்த மரியாதை செலுத்துதல்",
+    "enExample": "The apprentice paid humble obeisance to the master craftsman who had taught her the trade.",
+    "taExample": "தனக்கு தொழிலைக் கற்றுக் கொடுத்த தலைமை கைவினைஞருக்கு அந்தப் பயிற்சி மாணவி பணிவான வணக்கத்தைச் செலுத்தினார்.",
+    "enExample2": "Visiting dignitaries made respectful obeisance upon entering the imperial palace.",
+    "taExample2": "அரண்மனைக்குள் நுழையும் போது வருகை தந்த முக்கிய பிரமுகர்கள் மிகுந்த மரியாதையுடன் வணங்கினர்.",
     "synonyms": [
-      "Displacement",
-      "Shift",
-      "Margin"
+      "Homage",
+      "Reverence",
+      "Deference",
+      "Salutation",
+      "Bow"
     ],
     "antonyms": [
-      "Origin zero",
-      "Absolute start index",
-      "Full reset"
-    ],
-    "enExample2": "Using keyset pagination instead of numeric offset queries dramatically accelerates deep database searches.",
-    "taExample2": "எண் அடிப்படையிலான ஆஃப்செட் (Offset) வினவல்களுக்குப் பதிலாக கீசெட் முறையைப் பயன்படுத்துவது ஆழமான தரவுத்தள தேடலை விரைவுபடுத்துகிறது."
+      "Disrespect",
+      "Insolence",
+      "Contempt",
+      "Scorn",
+      "Defiance"
+    ]
   },
   {
     "id": 3580,
@@ -646,24 +660,27 @@
   },
   {
     "id": 1511,
-    "word": "Optional",
-    "definition": "An entity, field, or parameter that may be omitted without causing a syntax or compilation error.",
-    "enExample": "TypeScript uses a question mark syntax to declare optional function parameters.",
-    "taExample": "டைப்ஸ்கிரிப்ட் விருப்பத்தேர்வு (Optional) செயல்பாட்டு அளவுருக்களை அறிவிக்க கேள்விக்குறி தொடரியலைப் பயன்படுத்துகிறது.",
-    "taWord": "விருப்பத்தேர்வு",
-    "pos": "adj.",
+    "word": "Oscillate",
+    "pos": "verb",
+    "definition": "To swing or move back and forth at a regular speed; to waver between different opinions or actions.",
+    "taWord": "முன்னும் பின்னுமாக அலைபாய்வது / ஊசலாடுதல் / முடிவெடுக்க முடியாமல் தவிப்பது",
+    "enExample": "Executive leadership continued to oscillate between acquiring a competitor and building an in-house tool.",
+    "taExample": "போட்டி நிறுவனத்தை வாங்குவதா அல்லது சொந்தமாக கருவியை உருவாக்குவதா என்பதில் நிர்வாகத் தலைமை தொடர்ந்து அலைபாய்ந்தது.",
+    "enExample2": "The crystal oscillator produces a stable clock frequency for the microprocessor.",
+    "taExample2": "படிக ஊசலாட்டி மைக்ரோபிராசஸருக்கு நிலையான கடிகார அதிர்வெண்ணை உருவாக்குகிறது.",
     "synonyms": [
-      "Voluntary",
-      "Non-mandatory",
-      "Nullable"
+      "Fluctuate",
+      "Waver",
+      "Vacillate",
+      "Swing",
+      "Alternate"
     ],
     "antonyms": [
-      "Required",
-      "Mandatory",
-      "Compulsory"
-    ],
-    "enExample2": "TypeScript optional chaining (?.) gracefully handles undefined properties without throwing runtime exceptions.",
-    "taExample2": "TypeScript விருப்பத்தேர்வு இணைப்பு (?.) இயக்க நேரப் பிழைகள் இல்லாமல் வரையறுக்கப்படாத மதிப்புகளை பாதுகாப்பாகக் கையாள்கிறது."
+      "Stabilize",
+      "Remain",
+      "Settle",
+      "Hold firm"
+    ]
   },
   {
     "id": 1512,
@@ -706,22 +723,28 @@
   },
   {
     "id": 1513,
-    "word": "Origin",
-    "definition": "The combination of protocol, hostname, and port number defining a web application's security boundary.",
-    "enExample": "CORS headers restrict resource sharing to requests from trusted origin domains.",
-    "taExample": "CORS தலைப்புகள் வளப் பகிர்வை நம்பகமான மூல (Origin) டொமைன்களிலிருந்து வரும் கோரிக்கைகளுக்கு வரம்படுத்துகின்றன.",
-    "taWord": "மூலம் / தொடக்க இடம்",
+    "word": "Ostracism",
     "pos": "noun",
+    "definition": "Exclusion or banishment from a society, professional group, or social community.",
+    "taWord": "சமூக விலக்கம் / குழுவிலிருந்து ஒதுக்கி வைத்தல் / பகிஷ்கரிப்பு",
+    "enExample": "The scientist faced professional ostracism after daring to challenge the prevailing medical dogma.",
+    "taExample": "நடைமுறையில் உள்ள மருத்துவக் கோட்பாட்டை சவால் செய்யத் துணிந்த பிறகு அந்த விஞ்ஞானி தொழில்முறை சமூக விலக்கத்தை எதிர்கொண்டார்.",
+    "enExample2": "In ancient Athens, political ostracism was used to exile citizens who grew dangerously powerful.",
+    "taExample2": "பண்டைய ஏதென்ஸில், ஆபத்தான முறையில் சக்திவாய்ந்தவர்களாக வளர்ந்த குடிமக்களை நாடு கடத்த அரசியல் பகிஷ்கரிப்பு பயன்படுத்தப்பட்டது.",
     "synonyms": [
-      "Source",
-      "Root",
-      "Domain"
+      "Exclusion",
+      "Banishment",
+      "Boycott",
+      "Shunning",
+      "Exile"
     ],
     "antonyms": [
-      "Destination"
-    ],
-    "enExample2": "Cross-Origin Resource Sharing rules prevent unauthorized scripts from accessing APIs hosted on a different origin.",
-    "taExample2": "CORS விதிகள் பிற மூலத்தில் (Origin) உள்ள API-களை அங்கீகரிக்கப்படாத ஸ்கிரிப்டுகள் அணுகுவதைத் தடுக்கின்றன."
+      "Inclusion",
+      "Welcoming",
+      "Acceptance",
+      "Integration",
+      "Admittance"
+    ]
   },
   {
     "id": 3542,
@@ -919,22 +942,28 @@
   },
   {
     "id": 1514,
-    "word": "Output",
-    "definition": "Data produced or returned by a computer program, function, or hardware device.",
-    "enExample": "The compiler generated executable binary output in the build folder.",
-    "taExample": "தொகுப்பி (Compiler) பில்ட் கோப்புறையில் இயங்கக்கூடிய பைனரி வெளியீட்டை உருவாக்கியது.",
-    "taWord": "வெளியீடு",
-    "pos": "noun",
+    "word": "Overweening",
+    "pos": "adjective",
+    "definition": "Showing excessive confidence or pride; arrogant, presumptuous, or immoderate.",
+    "taWord": "அளவுக்கதிகமான செருக்குடைய / எல்லை மீறிய அகந்தை கொண்ட",
+    "enExample": "His overweening confidence blinded him to obvious flaws in the compiler design.",
+    "taExample": "அவரது அளவுக்கதிகமான அகந்தை கம்பைலர் வடிவமைப்பில் உள்ள வெளிப்படையான குறைபாடுகளைப் பார்க்க விடாமல் அவரை மறைத்தது.",
+    "enExample2": "The startup collapsed under the weight of its founder's overweening ambitions.",
+    "taExample2": "அந்த தொடக்க நிறுவனம் அதன் நிறுவனரின் எல்லை மீறிய அதீத ஆசைகளின் சுமையால் சரிந்தது.",
     "synonyms": [
-      "Result",
-      "Yield",
-      "Response"
+      "Arrogant",
+      "Presumptuous",
+      "Haughty",
+      "Conceited",
+      "Cavalier"
     ],
     "antonyms": [
-      "Input"
-    ],
-    "enExample2": "The compiler writes the optimized production output files directly into the build directory.",
-    "taExample2": "தொகுப்பி உகந்த தயாரிப்பு வெளியீட்டுக் (Output) கோப்புகளை நேரடியாக உருவாக்கக் கோப்பகத்தில் எழுதுகிறது."
+      "Modest",
+      "Humble",
+      "Diffident",
+      "Unassuming",
+      "Meek"
+    ]
   },
   {
     "id": 3372,

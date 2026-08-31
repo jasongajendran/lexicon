@@ -20,44 +20,52 @@
   },
   {
     "id": 1802,
-    "word": "Rack",
-    "definition": "A standardized physical framework for mounting multiple server computers and network switch gear.",
-    "enExample": "Data centers organize cloud hardware into standardized rack cabinets.",
-    "taExample": "தரவு மையங்கள் கிளவுட் வன்பொருளை தரப்படுத்தப்பட்ட ரேக் அலமாரிகளில் ஒழுங்கமைக்கின்றன.",
-    "taWord": "ரேக் / சேவையக சட்டகம்",
+    "word": "Recalcitrance",
     "pos": "noun",
+    "definition": "Obstinate defiance of authority, rules, or instruction; difficult unruliness.",
+    "taWord": "பிடிவாதமான கீழ்ப்படியாமை / அடங்காமை / எதிர்த்து நிற்கும் குணம்",
+    "enExample": "The committee sanctioned the member for his chronic recalcitrance during procedural votes.",
+    "taExample": "நடைமுறை வாக்கெடுப்புகளின் போது தொடர்ச்சியாக பிடிவாதமாக கீழ்ப்படியாமல் இருந்ததற்காக குழு அந்த உறுப்பினருக்கு தடை விதித்தது.",
+    "enExample2": "Legacy hardware recalcitrance made migrating to modern operating systems a difficult ordeal.",
+    "taExample2": "பழைய வன்பொருளின் பிடிவாதமான இணக்கமின்மை நவீன இயங்குதளங்களுக்கு மாறுவதை ஒரு கடினமான சோதனையாக மாற்றியது.",
     "synonyms": [
-      "Cabinet",
-      "Frame",
-      "Chassis"
+      "Defiance",
+      "Contumacy",
+      "Intransigence",
+      "Obstinacy",
+      "Insubordination"
     ],
     "antonyms": [
-      "Desktop tower",
-      "Laptop",
-      "Virtual machine",
-      "Scattered hardware"
-    ],
-    "enExample2": "The datacenter technician installed two high-density GPU server units into rack number four.",
-    "taExample2": "தரவு மைய தொழில்நுட்ப வல்லுநர் ரேக் (Rack) எண் நான்கில் இரண்டு உயர் திறன் கொண்ட GPU சர்வர் யூனிட்களை நிறுவினார்."
+      "Compliance",
+      "Obedience",
+      "Docility",
+      "Submission",
+      "Tractability"
+    ]
   },
   {
     "id": 1803,
-    "word": "Radius",
-    "definition": "The measurement defining rounded corner geometry in CSS border-radius visual design.",
-    "enExample": "Set border-radius to 12px for modern rounded UI button card containers.",
-    "taExample": "நவீன வட்டமிட்ட பொத்தான் கொள்கலன்களுக்கு border-radius ஐ 12px ஆக அமைக்கவும்.",
-    "taWord": "ஆரம் / வளைவு ஆரம்",
-    "pos": "noun",
+    "word": "Redolent",
+    "pos": "adjective",
+    "definition": "Strongly reminiscent or suggestive of something; fragrant or smelling strongly of a scent.",
+    "taWord": "நினைவூட்டும் / நறுமணம் வீசும் / நினைவுகளைத் தூண்டக்கூடிய",
+    "enExample": "The cozy wooden cabin was redolent of pine needles and crackling woodsmoke.",
+    "taExample": "வசதியான மர வீடு பைன் ஊசிகள் மற்றும் மரப் புகையின் நறுமணம் நிறைந்ததாக இருந்தது.",
+    "enExample2": "Her early poetry was redolent of nineteenth-century Romantic literature.",
+    "taExample2": "அவரது ஆரம்பகால கவிதைகள் பத்தொன்பதாம் நூற்றாண்டின் காதல் இலக்கியத்தை நினைவூட்டுவதாக அமைந்தன.",
     "synonyms": [
-      "Curvature",
-      "Rounding",
-      "Arc"
+      "Reminiscent",
+      "Suggestive",
+      "Fragrant",
+      "Aromatic",
+      "Evocative"
     ],
     "antonyms": [
-      "Sharp corner"
-    ],
-    "enExample2": "Microservices isolate security vulnerabilities, strictly limiting the blast radius of any compromised node.",
-    "taExample2": "நுண்சேவைகள் பாதுகாப்புக் குறைபாடுகளைத் தனிமைப்படுத்தி பாதிக்கப்பட்ட முனையத்தின் பாதிப்பு பரப்பளவை (Radius) கடுமையாகக் கட்டுப்படுத்துகின்றன."
+      "Odorless",
+      "Unsuggestive",
+      "Inexpressive",
+      "Barren"
+    ]
   },
   {
     "id": 2939,
@@ -131,44 +139,53 @@
   },
   {
     "id": 1804,
-    "word": "Random",
-    "definition": "Lacking a definite plan, purpose, or pattern; unpredictable number generation in computing.",
-    "enExample": "Use crypto.getRandomValues for secure random token generation.",
-    "taExample": "பாதுகாப்பான சீரற்ற டோக்கன் உருவாக்கத்திற்கு crypto.getRandomValues ஐப் பயன்படுத்தவும்.",
-    "taWord": "சீரற்ற / திட்டமிடப்படாத",
-    "pos": "adj.",
+    "word": "Rapacious",
+    "pos": "adjective",
+    "definition": "Aggressively greedy, predatory, or grasping; excessively covetous of wealth.",
+    "taWord": "பேராசை பிடித்த / பிறர் பொருளைப் பறிக்கும் கொடூர சுபாவமுள்ள",
+    "enExample": "Predatory lenders used rapacious interest rates to exploit vulnerable small businesses.",
+    "taExample": "கடன் வழங்கும் மோசடி நிறுவனங்கள் சிறிய வணிகங்களைச் சுரண்ட பேராசை பிடித்த வட்டி விகிதங்களைப் பயன்படுத்தின.",
+    "enExample2": "The rapacious warlord plundered ancient treasures from conquered monasteries.",
+    "taExample2": "பேராசை பிடித்த தளபதி கைப்பற்றப்பட்ட மடாலயங்களிலிருந்து பண்டைய பொக்கிஷங்களை கொள்ளையடித்தார்.",
     "synonyms": [
-      "Arbitrary",
-      "Stochastic",
-      "Unpredictable"
+      "Avaricious",
+      "Predatory",
+      "Greedy",
+      "Voracious",
+      "Usurious"
     ],
     "antonyms": [
-      "Deterministic",
-      "Sequential"
-    ],
-    "enExample2": "The test framework selects random input strings to uncover unhandled edge-case parsing exceptions.",
-    "taExample2": "கையாளப்படாத விளிம்புநிலை பிழைகளைக் கண்டறிய சோதனைக் கட்டமைப்பு சீரற்ற (Random) உள்ளீட்டு சரங்களைத் தேர்ந்தெடுக்கிறது."
+      "Generous",
+      "Altruistic",
+      "Benevolent",
+      "Magnanimous",
+      "Charitable"
+    ]
   },
   {
     "id": 1805,
-    "word": "Range",
-    "definition": "The difference between highest and lowest values, or a sequence between start and end bounds.",
-    "enExample": "The HTTP range header requests a partial file chunk download from the server.",
-    "taExample": "HTTP Range தலைப்பு சேவையகத்திலிருந்து பகுதி கோப்புத் துண்டு பதிவிறக்கத்தைக் கோருகிறது.",
-    "taWord": "வரம்பு / எல்லைத் தொடர்",
-    "pos": "noun",
+    "word": "Rancorous",
+    "pos": "adjective",
+    "definition": "Characterized by bitterness, deep resentment, or long-standing hostility.",
+    "taWord": "வஞ்சக மனப்பான்மையுள்ள / தீராத பகைமை கொண்ட / கசப்புணர்வு நிறைந்த",
+    "enExample": "The rancorous legal dispute between the tech co-founders dragged on in court for five bitter years.",
+    "taExample": "தொழில்நுட்ப இணை நிறுவனர்களுக்கு இடையேயான வஞ்சக மனப்பான்மை கொண்ட சட்டப் போராட்டம் நீதிமன்றத்தில் ஐந்து ஆண்டுகள் நீடித்தது.",
+    "enExample2": "Partisan cable news shows often descend into rancorous arguments devoid of civility.",
+    "taExample2": "செய்தி நிகழ்ச்சிகள் பெரும்பாலும் நாகரிகமற்ற கசப்பான வாதங்களாக சீரழிகின்றன.",
     "synonyms": [
-      "Span",
-      "Extent",
-      "Interval"
+      "Bitter",
+      "Spiteful",
+      "Resentful",
+      "Acrimonious",
+      "Malicious"
     ],
     "antonyms": [
-      "Single point",
-      "Fixed value",
-      "Scalar limit"
-    ],
-    "enExample2": "Database B-Tree indexes allow fast execution of range queries when fetching timestamps between two dates.",
-    "taExample2": "இரண்டு தேதிகளுக்கு இடையிலான பதிவுகளைப் பெறும் போது B-Tree குறியீடுகள் வரம்பு சார்ந்த (Range) வினவல்களை விரைவாக இயக்குகின்றன."
+      "Amicable",
+      "Cordial",
+      "Friendly",
+      "Harmonious",
+      "Forgiving"
+    ]
   },
   {
     "id": 2902,
@@ -279,23 +296,26 @@
   },
   {
     "id": 2636,
-    "word": "Ratio",
-    "definition": "When a reply or counter-argument receives overwhelmingly more support than the original claim.",
-    "enExample": "The proposal to abandon TypeScript got instantly ratioed by the entire engineering team.",
-    "taExample": "டைப்ஸ்கிரிப்டை கைவிடுவதற்கான முன்மொழிவை ஒட்டுமொத்த பொறியியல் குழுவும் பெருவாரியான எதிர்ப்பால் நிராகரித்தது.",
-    "taWord": "பெரும்பான்மை எதிர்ப்பால் முறியடித்தல்",
+    "word": "Raconteur",
     "pos": "noun",
+    "definition": "A person who tells anecdotes and stories in a skillful, witty, and amusing manner.",
+    "taWord": "சுவாரசியமாக கதை கூறுபவர் / திறமையான கதை சொல்லி",
+    "enExample": "The retired pilot was a gifted raconteur who captivated audiences with tales of early aviation.",
+    "taExample": "ஓய்வுபெற்ற விமானி ஆரம்பகால விமானப் போக்குவரத்து கதைகளால் பார்வையாளர்களைக் கவர்ந்த ஒரு திறமையான கதைசொல்லி ஆவார்.",
+    "enExample2": "Every dinner party was elevated by her charm as a brilliant raconteur.",
+    "taExample2": "ஒரு சிறந்த கதைசொல்லியாக அவரது திறமை ஒவ்வொரு இரவு விருந்தையும் உற்சாகப்படுத்தியது.",
     "synonyms": [
-      "Outvoted",
-      "Rebutted",
-      "Overruled"
+      "Storyteller",
+      "Narrator",
+      "Anecdotist",
+      "Chronicler"
     ],
     "antonyms": [
-      "Endorsed",
-      "Approved"
-    ],
-    "enExample2": "The compression algorithm achieved an impressive five-to-one data reduction ratio without losing fidelity.",
-    "taExample2": "சுருக்குதல் வழிமுறை துல்லியத்தை இழக்காமல் ஐந்துக்கு ஒன்று என்ற ஈர்க்கக்கூடிய தரவுக் குறைப்பு விகிதத்தை (Ratio) அடைந்தது."
+      "Dullard",
+      "Listener",
+      "Mute",
+      "Inarticulate speaker"
+    ]
   },
   {
     "id": 3290,
@@ -893,25 +913,27 @@
   },
   {
     "id": 1813,
-    "word": "Render",
-    "definition": "Transforming raw data, templates, or geometry models into visible pixels or graphical output.",
-    "enExample": "React components re-render automatically whenever their internal state updates.",
-    "taExample": "ரியாக்ட் கூறுகள் அவற்றின் உள் நிலை புதுப்பிக்கப்படும் போதெல்லாம் தானாகவே மீண்டும் இயற்றுகின்றன (Re-render).",
-    "taWord": "இயற்றுதல் / வரைதல் (Render)",
-    "pos": "verb",
+    "word": "Reprobate",
+    "pos": "noun",
+    "definition": "An unprincipled or depraved person; an unscrupulous scoundrel.",
+    "taWord": "ஒழுக்கங்கெட்ட நபர் / நெறியற்ற போக்கிரி / தீய நடத்தை உள்ளவர்",
+    "enExample": "The fraudulent financier was condemned as an unrepentant reprobate who ruined thousands of savers.",
+    "taExample": "மோசடி செய்த நிதி ஆலோசகர் ஆயிரக்கணக்கான சேமிப்பாளர்களை அழித்த திருந்தாத நெறியற்ற நபர் என்று கண்டிக்கப்பட்டார்.",
+    "enExample2": "Despite his charming exterior, the novelist portrayed the protagonist as a selfish reprobate.",
+    "taExample2": "அவரது கவர்ச்சியான தோற்றம் இருந்தபோதிலும், நாவலாசிரியர் கதாநாயகனை ஒரு சுயநல ஒழுக்கங்கெட்ட நபராக சித்தரித்தார்.",
     "synonyms": [
-      "Draw",
-      "Generate",
-      "Paint"
+      "Scoundrel",
+      "Rogue",
+      "Miscreant",
+      "Villain",
+      "Degenerate"
     ],
     "antonyms": [
-      "Abstain",
-      "Halt",
-      "Cease",
-      "Reverse"
-    ],
-    "enExample2": "Virtual DOM diffing optimizes the number of times the browser must render elements to the screen.",
-    "taExample2": "விர்ச்சுவல் DOM உலாவி திரையில் கூறுகளை காட்சிப்படுத்தும் (Render) எண்ணிக்கையை உகந்ததாக்குகிறது."
+      "Saint",
+      "Paragon",
+      "Virtuous person",
+      "Model citizen"
+    ]
   },
   {
     "id": 2628,
@@ -1511,25 +1533,28 @@
   },
   {
     "id": 1815,
-    "word": "Route",
-    "definition": "A mapped path or URL endpoint defining how HTTP requests map to specific controller handlers.",
-    "enExample": "Define an Express API route for handling user registration POST requests.",
-    "taExample": "பயனர் பதிவுக் கோரிக்கைகளைக் கையாள ஒரு Express API வழியை (Route) வரையறுக்கவும்.",
-    "taWord": "வழி / URL பாதை",
+    "word": "Remonstrance",
     "pos": "noun",
+    "definition": "A forcefully reproachful protest or formal statement of opposition against a decision.",
+    "taWord": "வலுவான எதிர்ப்பு அறிக்கை / கண்டனம் மற்றும் மறுப்புத் தெரிவித்தல்",
+    "enExample": "The faculty submitted a formal remonstrance against the university’s budget cuts.",
+    "taExample": "பல்கலைக்கழகத்தின் பட்ஜெட் குறைப்புகளுக்கு எதிராக பேராசிரியர்கள் ஒரு முறையான வலுவான எதிர்ப்பு அறிக்கையை சமர்ப்பித்தனர்.",
+    "enExample2": "Despite diplomatic remonstrances from neighboring nations, the military regime continued testing missiles.",
+    "taExample2": "அண்டை நாடுகளின் வலுவான எதிர்ப்பு கண்டனங்கள் இருந்தபோதிலும், ராணுவ ஆட்சி தொடர்ந்து ஏவுகணைகளை சோதனை செய்தது.",
     "synonyms": [
-      "Path",
-      "Endpoint",
-      "URL pattern"
+      "Protest",
+      "Objection",
+      "Complaint",
+      "Reproach",
+      "Expostulation"
     ],
     "antonyms": [
-      "Dead end",
-      "Blockage",
-      "Lost connection",
-      "No-path"
-    ],
-    "enExample2": "The Express API router matches incoming HTTP endpoints and directs requests to corresponding controller functions.",
-    "taExample2": "எக்ஸ்பிரஸ் API வழியமைப்பான் (Router) உள்வரும் URL முகவரிகளைப் பொருத்தி உரிய செயல்பாடுகளுக்கு வழிநடத்துகிறது (Route)."
+      "Approval",
+      "Assent",
+      "Endorsement",
+      "Praise",
+      "Agreement"
+    ]
   },
   {
     "id": 2816,
@@ -1552,23 +1577,28 @@
   },
   {
     "id": 2670,
-    "word": "Runway",
-    "definition": "The amount of time a project or company can survive before running out of funding or resources.",
-    "enExample": "With our current cloud spend and developer burn rate, the startup has twelve months of runway.",
-    "taExample": "தற்போதைய கிளவுட் செலவுகள் மற்றும் செயல்பாட்டுச் செலவுகளின்படி, நிறுவனத்திற்கு பன்னிரண்டு மாத கால நிதி இருப்பு உள்ளது.",
-    "taWord": "நிதி இருப்புக்காலம்",
+    "word": "Reconditeness",
     "pos": "noun",
+    "definition": "The quality of being obscure, profound, and difficult for ordinary minds to understand.",
+    "taWord": "மறைபொருள் தன்மை / ஆழ்ந்த நுட்பம் மற்றும் கடினமான புரியாத தன்மை",
+    "enExample": "The reconditeness of theoretical quantum cosmology limits its audience to specialized academics.",
+    "taExample": "கோட்பாட்டு குவாண்டம் அண்டவியலின் ஆழ்ந்த மறைபொருள் தன்மை அதன் வாசகர்களை சிறப்பு கல்வியாளர்களுடன் கட்டுப்படுத்துகிறது.",
+    "enExample2": "Critics praised the philosophical treatise for its intellectual depth despite its stylistic reconditeness.",
+    "taExample2": "விமர்சகர்கள் அந்த தத்துவ ஆய்வுக் கட்டுரையை அதன் கடினமான நடை இருந்தபோதிலும் அதன் அறிவு ஆழத்திற்காகப் பாராட்டினர்.",
     "synonyms": [
-      "Cash buffer",
-      "Survival timeframe",
-      "Operational lifespan"
+      "Abstruseness",
+      "Esotericism",
+      "Arcaneness",
+      "Obscurity",
+      "Complexity"
     ],
     "antonyms": [
-      "Insolvency",
-      "Bankruptcy"
-    ],
-    "enExample2": "Securing venture capital funding extended the startup's financial runway by eighteen additional months.",
-    "taExample2": "முதலீட்டு நிதியைப் பெற்றது அந்த புத்தொழில் நிறுவனத்தின் செயல்பாட்டுக் காலத்தை (Runway) மேலும் பதினெட்டு மாதங்களுக்கு நீட்டித்தது."
+      "Simplicity",
+      "Clarity",
+      "Lucidity",
+      "Explicitness",
+      "Transparency"
+    ]
   },
   {
     "id": 3633,

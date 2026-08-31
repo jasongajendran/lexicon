@@ -21,23 +21,28 @@
   },
   {
     "id": 1701,
-    "word": "Quality",
-    "definition": "The degree to which software meets specified requirements and user expectations.",
-    "enExample": "Continuous integration pipelines automate quality assurance checks on every pull request.",
-    "taExample": "தொடர்ச்சியான ஒருங்கிணைப்பு குழாய்கள் (CI pipelines) ஒவ்வொரு புல் கோரிக்கையிலும் தரக் கட்டுப்பாட்டுச் சோதனைகளைத் தானியங்குபடுத்துகின்றன.",
-    "taWord": "தரம் / சிறப்புத் தரம்",
-    "pos": "noun",
+    "word": "Querulous",
+    "pos": "adjective",
+    "definition": "Complaining in a petulant or whining manner; constantly finding fault.",
+    "taWord": "எப்போதும் குறை கூறும் / சிணுங்கும் சுபாவமுள்ள / எரிச்சலூட்டும் வகையில் புலம்பும்",
+    "enExample": "The customer service agent remained remarkably patient with the querulous caller.",
+    "taExample": "வாடிக்கையாளர் சேவை முகவர் எப்போதும் குறை கூறிக்கொண்டே இருந்த அழைப்பாளரிடம் குறிப்பிடத்தக்க அளவு பொறுமையுடன் இருந்தார்.",
+    "enExample2": "Lack of caffeine made him unusually querulous during morning standup meetings.",
+    "taExample2": "காலை கூட்டங்களின் போது காபி குடிக்காதது அவரை வழக்கத்திற்கு மாறாக குறை கூறும் சுபாவமுள்ளவராக மாற்றியது.",
     "synonyms": [
-      "Excellence",
-      "Standard",
-      "Reliability"
+      "Petulant",
+      "Peevish",
+      "Whiny",
+      "Cantankerous",
+      "Fractious"
     ],
     "antonyms": [
-      "Defectiveness",
-      "Flaw"
-    ],
-    "enExample2": "Investing in automated regression testing drastically improves long-term software quality and stability.",
-    "taExample2": "தானியங்கி சோதனைகளில் முதலீடு செய்வது நீண்டகால மென்பொருள் தரம் (Quality) மற்றும் நிலைத்தன்மையை பெரிதும் மேம்படுத்துகிறது."
+      "Affable",
+      "Content",
+      "Cheerful",
+      "Placid",
+      "Easygoing"
+    ]
   },
   {
     "id": 2739,
@@ -304,23 +309,28 @@
   },
   {
     "id": 1715,
-    "word": "Quiet",
-    "definition": "Suppressing non-essential command line diagnostic output during automated script runs.",
-    "enExample": "Pass the --quiet flag to npm install to suppress detailed download progress logs.",
-    "taExample": "விரிவான பதிவுகளைத் தவிர்க்க npm install கட்டளையில் --quiet கொடியை வழங்கவும்.",
-    "taWord": "அமைதியான / வெளியீடற்ற முறை",
-    "pos": "adj.",
+    "word": "Quiescence",
+    "pos": "noun",
+    "definition": "A state of quietness, stillness, or temporary inactivity or dormancy.",
+    "taWord": "அமைதி நிலை / செயலற்ற ஓய்வு நிலை / தற்காலிக உறக்க நிலை",
+    "enExample": "After months of seismic turbulence, the volcano returned to a period of peaceful quiescence.",
+    "taExample": "பல மாத நில அதிர்வுக்குப் பிறகு, எரிமலை அமைதியான தற்காலிக ஓய்வு நிலைக்குத் திரும்பியது.",
+    "enExample2": "The CPU entered a low-power state of quiescence while waiting for network packets.",
+    "taExample2": "நெட்வொர்க் பாக்கெட்டுகளுக்காக காத்திருக்கும் போது சிபியூ குறைந்த மின் நுகர்வு கொண்ட அமைதி நிலைக்குச் சென்றது.",
     "synonyms": [
-      "Silent",
-      "Muted",
-      "Terse"
+      "Dormancy",
+      "Stillness",
+      "Inactivity",
+      "Latency",
+      "Tranquility"
     ],
     "antonyms": [
-      "Verbose",
-      "Debug"
-    ],
-    "enExample2": "Developers prefer quiet uninterrupted blocks of time to design complex distributed algorithms.",
-    "taExample2": "சிக்கலான விநியோகிக்கப்பட்ட வழிமுறைகளை வடிவமைக்க உருவாக்குநர்கள் அமைதியான (Quiet) இடையூறுகளற்ற நேரத்தை விரும்புகின்றனர்."
+      "Activity",
+      "Turmoil",
+      "Agitation",
+      "Action",
+      "Turbulence"
+    ]
   },
   {
     "id": 3030,
@@ -404,25 +414,27 @@
   },
   {
     "id": 1709,
-    "word": "Quote",
-    "definition": "Enclosing text within quote marks, or preserving literal string literals without variable interpolation.",
-    "enExample": "Always quote user inputs properly in shell scripts to prevent command injection.",
-    "taExample": "கட்டளை உட்செலுத்தலைத் தடுக்க ஷெல் ஸ்கிரிப்ட்களில் பயனர் உள்ளீடுகளை எப்போதும் சரியாக மேற்கோளிட்டு (Quote) எழுதுங்கள்.",
-    "taWord": "மேற்கோள் / சர அடைப்பு",
-    "pos": "verb",
+    "word": "Quiddity",
+    "pos": "noun",
+    "definition": "The inherent nature, essence, or defining characteristic of someone or something.",
+    "taWord": "அடிப்படைத் தன்மை / சாராம்சம் / உள்ளார்ந்த தனித்துவ குணம்",
+    "enExample": "The architect sought to capture the historical quiddity of the ancient library in the new design.",
+    "taExample": "கட்டிடக்கலைஞர் புதிய வடிவமைப்பில் பண்டைய நூலகத்தின் வரலாற்று சாராம்சத்தை பிரதிபலிக்க முயன்றார்.",
+    "enExample2": "Understanding the mathematical quiddity of an algorithm is essential for optimal optimization.",
+    "taExample2": "ஒரு அல்காரிதத்தின் கணித சாராம்சத்தைப் புரிந்துகொள்வது உகந்த தேர்வுமுறைக்கு இன்றியமையாதது.",
     "synonyms": [
-      "Cite",
-      "Enclose",
-      "Escape"
+      "Essence",
+      "Quintessence",
+      "Substance",
+      "Core",
+      "Nature"
     ],
     "antonyms": [
-      "Abstain",
-      "Halt",
-      "Cease",
-      "Reverse"
-    ],
-    "enExample2": "Always quote user-supplied strings inside shell commands to prevent arbitrary command injection exploits.",
-    "taExample2": "கட்டளை ஊடுருவல் தாக்குதல்களைத் தடுக்க ஷெல் கட்டளைகளில் பயனர் உள்ளீட்டு சரங்களை எப்போதும் மேற்கோள் குறிகளுக்குள் (Quote) வைக்கவும்."
+      "Superficiality",
+      "Exterior",
+      "Appearance",
+      "Irrelevance"
+    ]
   },
   {
     "id": 1710,

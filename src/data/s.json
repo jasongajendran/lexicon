@@ -386,24 +386,28 @@
   },
   {
     "id": 1903,
-    "word": "Scope",
-    "definition": "The context or region within a program where a variable, function, or binding is visible and accessible.",
-    "enExample": "Block-scoped variables declared with 'let' are inaccessible outside their enclosing curly braces.",
-    "taExample": "'let' மூலம் அறிவிக்கப்பட்ட மாறிகள் அவற்றின் அடைப்புக் குறிகளுக்கு வெளியே அணுக முடியாத தொகுதி-எல்லைக்குட்பட்டவை (Block-scoped).",
-    "taWord": "எல்லை / வரம்பு (Scope)",
-    "pos": "noun",
+    "word": "Salacious",
+    "pos": "adjective",
+    "definition": "Having or conveying undue or lewd interest in sexual matters; scandalous or sensational.",
+    "taWord": "ஆபாசமான / அவதூறான பரபரப்பைத் தூண்டும்",
+    "enExample": "The tabloid printed salacious rumors about the celebrity’s personal life without any evidence.",
+    "taExample": "செய்தித்தாள் எந்த ஆதாரமும் இல்லாமல் பிரபலத்தின் தனிப்பட்ட வாழ்க்கையைப் பற்றிய ஆபாச வதந்திகளை அச்சிட்டது.",
+    "enExample2": "Serious investigative journalists avoid salacious gossip in favor of verified facts.",
+    "taExample2": "உண்மையான புலனாய்வு பத்திரிகையாளர்கள் சரிபார்க்கப்பட்ட உண்மைகளுக்கு ஆதரவாக ஆபாச வதந்திகளைத் தவிர்க்கின்றனர்.",
     "synonyms": [
-      "Visibility range",
-      "Context",
-      "Boundary"
+      "Lascivious",
+      "Lewd",
+      "Lustful",
+      "Scandalous",
+      "Prurient"
     ],
     "antonyms": [
-      "Global namespace",
-      "Unbounded visibility",
-      "Unscoped leakage"
-    ],
-    "enExample2": "JavaScript block scope ensures variables declared with 'let' and 'const' are not accessible outside their enclosing braces.",
-    "taExample2": "ஜாவாஸ்கிரிப்ட் தொகுதி எல்லை (Scope) 'let' மற்றும் 'const' மாறிகள் அவற்றின் அடைப்புக்குறிக்கு வெளியே அணுகப்படாமல் இருப்பதை உறுதி செய்கிறது."
+      "Prudish",
+      "Modest",
+      "Chaste",
+      "Pure",
+      "Moral"
+    ]
   },
   {
     "id": 2654,
@@ -427,22 +431,28 @@
   },
   {
     "id": 1904,
-    "word": "Script",
-    "definition": "A program or sequence of instructions interpreted or carried out by another program rather than compiled.",
-    "enExample": "The build script automates bundle minification and asset deployment.",
-    "taExample": "பில்ட் ஸ்கிரிப்ட் (Script) மூட்டை சுருக்கம் மற்றும் சொத்து வரிசைப்படுத்தலை தானியங்குபடுத்துகிறது.",
-    "taWord": "நிரல் சிறுநூல் / ஸ்கிரிப்ட்",
+    "word": "Sycophancy",
     "pos": "noun",
+    "definition": "Servile and fawning behavior toward someone important in order to gain advantage; flattery.",
+    "taWord": "முகஸ்துதி / அடிமைத்தனமான முகஸ்துதி / போலிப் புகழ்ச்சி",
+    "enExample": "In toxic corporate environments, sycophancy is often rewarded over honest technical critique.",
+    "taExample": "நச்சுத்தன்மை வாய்ந்த கார்ப்பரேட் சூழல்களில், நேர்மையான விமர்சனத்தை விட அடிமைத்தனமான முகஸ்துதிக்கே பரிசு வழங்கப்படுகிறது.",
+    "enExample2": "The emperor surrounded himself with yes-men whose sycophancy shielded him from reality.",
+    "taExample2": "பேரரசர் தன்னைச் சுற்றி முகஸ்துதி செய்பவர்களை வைத்துக் கொண்டார், அவர்களின் போலிப் புகழ்ச்சி அவரை நிஜத்திலிருந்து மறைத்தது.",
     "synonyms": [
-      "Macro",
-      "Executable text",
-      "Routine"
+      "Flattery",
+      "Fawning",
+      "Bootlicking",
+      "Servility",
+      "Toadyism"
     ],
     "antonyms": [
-      "Compiled binary"
-    ],
-    "enExample2": "An automated bash script provisions cloud development environments and installs required tools in minutes.",
-    "taExample2": "ஒரு தானியங்கி ஸ்கிரிப்ட் (Script) கிளவுட் உருவாக்க சூழல்களை அமைத்து தேவையான கருவிகளை சில நிமிடங்களில் நிறுவுகிறது."
+      "Frankness",
+      "Candor",
+      "Honesty",
+      "Sincerity",
+      "Directness"
+    ]
   },
   {
     "id": 2692,
@@ -727,22 +737,26 @@
   },
   {
     "id": 1908,
-    "word": "Session",
-    "definition": "An interactive information exchange period established between a client device and a server system.",
-    "enExample": "Store session tokens in secure HTTP-only cookies to protect user logins.",
-    "taExample": "பயனர் உள்நுழைவுகளைப் பாதுகாக்க பாதுகாப்பான HTTP-ஒன்லி குக்கீகளில் அமர்வு (Session) டோக்கன்களைச் சேமிக்கவும்.",
-    "taWord": "அமர்வு (Session)",
+    "word": "Solipsism",
     "pos": "noun",
+    "definition": "The philosophical view or theory that the self is all that can be known to exist.",
+    "taWord": "சுயஇருப்பு வாதம் / தன் மனம் மட்டுமே உண்மை என்ற தத்துவம்",
+    "enExample": "Extreme forms of philosophical solipsism claim that the external universe is merely a product of the observer's mind.",
+    "taExample": "தீவிர சுயஇருப்பு வாதம் வெளிப்புற பிரபஞ்சம் என்பது பார்வையாளரின் மனதின் ஒரு படைப்பு மட்டுமே என்று கூறுகிறது.",
+    "enExample2": "His complete indifference to other people’s suffering bordered on moral solipsism.",
+    "taExample2": "மற்றவர்களின் துன்பத்தில் அவர் காட்டிய அலட்சியம் தார்மீக சுயஇருப்பு வாதத்தின் எல்லையைத் தொட்டது.",
     "synonyms": [
-      "Connection span",
-      "Interactive state"
+      "Egocentrism",
+      "Subjectivism",
+      "Individualism",
+      "Self-absorption"
     ],
     "antonyms": [
-      "Stateless connection",
-      "Persistent global state"
-    ],
-    "enExample2": "The web application stores authenticated user session tokens inside secure, HTTP-only browser cookies.",
-    "taExample2": "வலை பயன்பாடு சரிபார்க்கப்பட்ட பயனர் அமர்வு (Session) டோக்கன்களை பாதுகாப்பான பிரத்யேக குக்கீகளில் சேமிக்கிறது."
+      "Altruism",
+      "Objectivism",
+      "Collectivism",
+      "Universalism"
+    ]
   },
   {
     "id": 2705,
@@ -1133,23 +1147,28 @@
   },
   {
     "id": 1911,
-    "word": "Socket",
-    "definition": "An endpoint for sending and receiving data across a computer network via bidirectional persistent connections.",
-    "enExample": "WebSocket connections allow instant real-time chat updates without polling.",
-    "taExample": "வெப்சாக்கெட் (WebSocket) இணைப்புகள் வாக்கெடுப்பு இல்லாமல் உடனடி நிகழ்நேர அரட்டைப் புதுப்பிப்புகளை அனுமதிக்கின்றன.",
-    "taWord": "சாக்கெட் / முனை இணைப்பு",
+    "word": "Sophistry",
     "pos": "noun",
+    "definition": "The use of clever but fallacious and misleading arguments, especially with the intention of deceiving.",
+    "taWord": "போலி நியாயவாதம் / ஏமாற்றும் தவறான தர்க்கம்",
+    "enExample": "The defense lawyer relied on deceptive sophistry to confuse the jury about DNA evidence.",
+    "taExample": "டிஎன்ஏ சான்றுகள் குறித்து நடுவர் மன்றத்தை குழப்ப வழக்கறிஞர் ஏமாற்றும் போலி நியாயவாதத்தை நம்பியிருந்தார்.",
+    "enExample2": "Philosophers must constantly dismantle intellectual sophistry that disguises prejudice as science.",
+    "taExample2": "பாரபட்சத்தை அறிவியலாக வேடமிடும் தவறான தர்க்கத்தை தத்துவஞானிகள் தொடர்ந்து அகற்ற வேண்டும்.",
     "synonyms": [
-      "Endpoint",
-      "Channel",
-      "Port connection"
+      "Fallacy",
+      "Casuistry",
+      "Chicanery",
+      "Deception",
+      "Quibbling"
     ],
     "antonyms": [
-      "Disconnected endpoint",
-      "Stateless HTTP call"
-    ],
-    "enExample2": "WebSockets open a persistent bidirectional network socket between the client browser and the backend server.",
-    "taExample2": "WebSocket உலாவிக்கும் பின்தள சேவையகத்திற்கும் இடையே தொடர்ச்சியான இருவழி நெட்வொர்க் இணைப்பை (Socket) திறக்கிறது."
+      "Truth",
+      "Logic",
+      "Sound reasoning",
+      "Integrity",
+      "Validity"
+    ]
   },
   {
     "id": 3450,
@@ -1354,42 +1373,52 @@
   },
   {
     "id": 2674,
-    "word": "Spike",
-    "definition": "A timeboxed research, exploration, or proof-of-concept task created to answer an architectural unknown.",
-    "enExample": "We created a one-day technical spike to evaluate if WebAssembly could speed up image filters.",
-    "taExample": "இமேஜ் ஃபில்டர்களை வெப்அசெம்பிளி வேகப்படுத்துமா என்பதை ஆராய நாங்கள் ஒரு நாள் ஆய்வுப் பணியை உருவாக்கினோம்.",
-    "taWord": "ஆய்வு மற்றும் மாதிரி முயற்சி",
+    "word": "Spuriousness",
     "pos": "noun",
+    "definition": "The state or quality of being fake, counterfeit, bogus, or not genuine.",
+    "taWord": "போலித்தன்மை / நம்பகத்தன்மையற்ற தன்மை / போலியானது",
+    "enExample": "Carbon dating quickly revealed the historical spuriousness of the forged medieval manuscript.",
+    "taExample": "கார்பன் டேட்டிங் முறை அந்த போலி இடைக்கால கையெழுத்துப் பிரதியின் வரலாற்று போலித்தன்மையை விரைவாக வெளிப்படுத்தியது.",
+    "enExample2": "Statistical analysis exposed the spuriousness of the correlation between the two unrelated events.",
+    "taExample2": "புள்ளியியல் பகுப்பாய்வு தொடர்பில்லாத இரண்டு நிகழ்வுகளுக்கு இடையேயான தொடர்பின் போலித்தன்மையை அம்பலப்படுத்தியது.",
     "synonyms": [
-      "Proof of concept",
-      "Technical investigation",
-      "Prototype"
+      "Inauthenticity",
+      "Falseness",
+      "Bogusness",
+      "Artificiality",
+      "Fraudulence"
     ],
     "antonyms": [
-      "Production story",
-      "Standard delivery"
-    ],
-    "enExample2": "The team conducted a two-day technical spike to evaluate the performance viability of WebAssembly in our video pipeline.",
-    "taExample2": "எங்கள் வீடியோ அமைப்பில் WebAssembly-இன் செயல்திறனை மதிப்பிடுவதற்கு குழு இரண்டு நாள் தொழில்நுட்ப முன்மாதிரி ஆய்வை (Spike) நடத்தியது."
+      "Authenticity",
+      "Genuineness",
+      "Validity",
+      "Legitimacy",
+      "Truthfulness"
+    ]
   },
   {
     "id": 3228,
-    "word": "Spin",
-    "pos": "Noun",
-    "definition": "The deliberate presentation of news, incident logs, or metrics in a heavily favorable light.",
-    "taWord": "சாதகமான விளக்கம் (Saadhakamana vilakkam)",
-    "enExample": "The PR department put a positive spin on the delayed software launch by emphasizing enhanced security.",
-    "taExample": "PR துறை மேம்படுத்தப்பட்ட பாதுகாப்பை வலியுறுத்துவதன் மூலம் தாமதமான மென்பொருள் வெளியீட்டில் நேர்மறையான சாதகமான விளக்கத்தை அளித்தது.",
-    "enExample2": "Engineers expect objective data without corporate spin during post-incident reviews.",
-    "taExample2": "சம்பவத்திற்குப் பிந்தைய மதிப்பாய்வுகளின் போது கார்ப்பரேட் சாதகமான விளக்கம் இல்லாமல் குறிக்கோள் தரவை பொறியாளர்கள் எதிர்பார்க்கிறார்கள்.",
+    "word": "Speciousness",
+    "pos": "noun",
+    "definition": "The quality of seeming superficially plausible or attractive, but actually being wrong or fallacious.",
+    "taWord": "மேலோட்டமான உண்மை போல் தோன்றும் தவறான தன்மை / கவர்ச்சிகரமான போலித்தனம்",
+    "enExample": "The auditor identified the speciousness of the company’s revenue recognition claims.",
+    "taExample": "நிறுவனத்தின் வருவாய் கணக்கீட்டுக் கூற்றுகளின் மேலோட்டமான போலித்தன்மையை தணிக்கையாளர் கண்டறிந்தார்.",
+    "enExample2": "Despite the speciousness of the argument, many voters were swayed by its emotional appeal.",
+    "taExample2": "அந்த வாதத்தின் போலித்தன்மை இருந்தபோதிலும், பல வாக்காளர்கள் அதன் உணர்ச்சிபூர்வமான ஈர்ப்பால் ஈர்க்கப்பட்டனர்.",
     "synonyms": [
-      "slant",
-      "bias",
-      "favorable interpretation"
+      "Fallaciousness",
+      "Plausibility",
+      "Deceptiveness",
+      "Illusion",
+      "Superficiality"
     ],
     "antonyms": [
-      "objective truth",
-      "unvarnished fact"
+      "Soundness",
+      "Validity",
+      "Truth",
+      "Genuineness",
+      "Accuracy"
     ]
   },
   {
@@ -1434,23 +1463,28 @@
   },
   {
     "id": 2673,
-    "word": "Sprint",
-    "definition": "A fixed timeboxed iteration (typically 1–4 weeks) where a Scrum team completes usable deliverables.",
-    "enExample": "In this two-week sprint, the squad committed to delivering the user subscription checkout flow.",
-    "taExample": "இந்த இரண்டு வார ஸ்பிரிண்ட்டில், பயனர் சந்தா செலுத்தும் முறையை வழங்க குழு உறுதிபூண்டது.",
-    "taWord": "குறுகிய கால இலக்குச் சுழற்சி",
+    "word": "Superciliousness",
     "pos": "noun",
+    "definition": "The trait of displaying arrogant superiority and disdain toward those one views as inferior.",
+    "taWord": "செருக்கு / திமிர் பிடித்த பார்வை / பிறரை இழிவாகக் கருதும் மனப்பான்மை",
+    "enExample": "Her superciliousness alienated junior engineers who were hesitant to ask for technical guidance.",
+    "taExample": "அவரது திமிர் பிடித்த மனப்பான்மை தொழில்நுட்ப வழிகாட்டுதலைக் கேட்கத் தயங்கிய ஜூனியர் பொறியாளர்களை விலக்கியது.",
+    "enExample2": "The aristocrat’s superciliousness made him deeply unpopular among the working-class townspeople.",
+    "taExample2": "அந்த பிரபுவின் செருக்கு அவரை உழைக்கும் மக்களிடையே மிகவும் செல்வாக்கற்றவராக்கியது.",
     "synonyms": [
-      "Iteration",
-      "Timebox",
-      "Cycle"
+      "Haughtiness",
+      "Arrogance",
+      "Condescension",
+      "Disdain",
+      "Imperiousness"
     ],
     "antonyms": [
-      "Perpetual development",
-      "Waterfall phase"
-    ],
-    "enExample2": "During each two-week agile sprint, the team commits to delivering a defined set of prioritized user stories.",
-    "taExample2": "ஒவ்வொரு இரண்டு வார சுறுசுறுப்பான ஸ்பிரிண்ட்டிலும் (Sprint) குழு முன்னுரிமை அளிக்கப்பட்ட பயனர் தேவைகளை வழங்க உறுதிபூண்கிறது."
+      "Humility",
+      "Modesty",
+      "Respectfulness",
+      "Deference",
+      "Friendliness"
+    ]
   },
   {
     "id": 3145,
@@ -1478,22 +1512,28 @@
   },
   {
     "id": 1912,
-    "word": "Stack",
-    "definition": "A Last-In-First-Out (LIFO) data structure, or the set of technologies used to build a web application.",
-    "enExample": "The call stack tracks currently executing nested functions in the JavaScript runtime.",
-    "taExample": "அழைப்பு அடுக்கு (Call stack) ஜாவாஸ்கிரிப்ட் ரன்டைமில் தற்போது இயங்கும் உள்ளமைக்கப்பட்ட செயல்பாடுகளைக் கண்காணிக்கிறது.",
-    "taWord": "அடுக்கு / தொழில்நுட்ப அடுக்கு",
+    "word": "Sanguineness",
     "pos": "noun",
+    "definition": "The quality of being optimistic, positive, and cheerful, especially in an apparently bad situation.",
+    "taWord": "நம்பிக்கை மனப்பான்மை / உற்சாகமான சுபாவம் / நேர்மறை நோக்கு",
+    "enExample": "Her sanguineness inspired the startup team to persist through severe financial constraints.",
+    "taExample": "அவரது நேர்மறை நம்பிக்கை மனப்பான்மை நிதி நெருக்கடியிலும் தொடர்ந்து போராட குழுவிற்கு உத்வேகம் அளித்தது.",
+    "enExample2": "Despite market downturns, the fund manager maintained unwavering sanguineness about green tech.",
+    "taExample2": "சந்தை வீழ்ச்சியடைந்த போதிலும், பசுமை தொழில்நுட்பம் குறித்து நிதி மேலாளர் அசைக்க முடியாத நம்பிக்கையைக் கொண்டிருந்தார்.",
     "synonyms": [
-      "LIFO buffer",
-      "Tech stack",
-      "Pile"
+      "Optimism",
+      "Hopefulness",
+      "Buoyancy",
+      "Cheerfulness",
+      "Positivity"
     ],
     "antonyms": [
-      "Queue"
-    ],
-    "enExample2": "A recursive function that fails to reach its base condition will eventually trigger a stack overflow error.",
-    "taExample2": "அடிப்படை நிபந்தனையை அடையத் தவறும் ஒரு சுழல்நிலை சார்பு இறுதியில் ஸ்டேக் (Stack) நிரம்பி வழியும் பிழையைத் தூண்டும்."
+      "Pessimism",
+      "Gloom",
+      "Despair",
+      "Cynicism",
+      "Melancholy"
+    ]
   },
   {
     "id": 2935,
@@ -1761,24 +1801,28 @@
   },
   {
     "id": 1913,
-    "word": "Stream",
-    "definition": "A continuous sequence of data items made available over time for processing in chunks.",
-    "enExample": "Streaming video response buffers chunks to play content without waiting for complete downloads.",
-    "taExample": "ஸ்ட்ரீமிங் வீடியோ பதிலானது முழுமையான பதிவிறக்கங்களுக்காகக் காத்திருக்காமல் பிளே செய்யத் துண்டுகளை சேமிக்கிறது.",
-    "taWord": "தரவு ஓட்டம் / ஸ்ட்ரீம்",
+    "word": "Stratagem",
     "pos": "noun",
+    "definition": "A plan, clever scheme, or ruse, especially one used to outwit an opponent or achieve an objective.",
+    "taWord": "தந்திரோபாயம் / சாதுரியமான திட்டம் / சூழ்ச்சித் திட்டம்",
+    "enExample": "The chess grandmaster deployed an ingenious stratagem that trapped his opponent’s queen.",
+    "taExample": "செஸ் கிராண்ட்மாஸ்டர் தனது எதிராளியின் ராணியை சிக்க வைக்கும் ஒரு புத்திசாலித்தனமான தந்திரோபாயத்தைப் பயன்படுத்தினார்.",
+    "enExample2": "Launching a surprise price cut was a commercial stratagem to capture market share from competitors.",
+    "taExample2": "திடீர் விலைக் குறைப்பை அறிவித்தது போட்டியாளர்களிடமிருந்து சந்தைப் பங்கைக் கைப்பற்றுவதற்கான ஒரு வணிக தந்திரோபாயமாகும்.",
     "synonyms": [
-      "Flow",
-      "Data feed",
-      "Pipeline"
+      "Tactic",
+      "Scheme",
+      "Ruse",
+      "Maneuver",
+      "Ploy"
     ],
     "antonyms": [
-      "Batch processing",
-      "Static file dump",
-      "Buffered snapshot"
-    ],
-    "enExample2": "Node.js readable streams process large gigabyte files chunk by chunk without exhausting server RAM.",
-    "taExample2": "Node.js ஸ்ட்ரீம்கள் (Streams) சர்வர் நினைவகத்தை விழுங்காமல் பெரிய ஜிகாபைட் கோப்புகளை துண்டு துண்டாகச் செயலாக்குகின்றன."
+      "Frankness",
+      "Openness",
+      "Blunder",
+      "Honesty",
+      "Directness"
+    ]
   },
   {
     "id": 3146,
@@ -2151,26 +2195,28 @@
   },
   {
     "id": 2947,
-    "word": "Surge",
+    "word": "Surreptitiousness",
     "pos": "noun",
-    "definition": "A sudden powerful forward or upward movement, especially of crowds, prices, network traffic, or electrical current.",
-    "enExample": "The e-commerce platform automatically scaled container replicas to handle the massive Black Friday traffic surge.",
-    "taWord": "திடீர் எழுச்சி / பெரும் ஏற்றம்",
-    "taExample": "பண்டிகை கால விற்பனையின் போது இணையதளத்தில் ஏற்பட்ட திடீர் போக்குவரத்து அதிகரிப்பை சமாளிக்க கூடுதல் சர்வர்கள் இயக்கப்பட்டன.",
+    "definition": "The quality of being stealthy, secretive, and covert to avoid notice or discovery.",
+    "taWord": "ரகசியத் தன்மை / பதுங்கிச் செயல்படும் மறைவான தன்மை",
+    "enExample": "The surreptitiousness of the cyber espionage campaign allowed it to evade detection for three years.",
+    "taExample": "அந்த உளவு பிரச்சாரத்தின் ரகசியத் தன்மை மூன்று ஆண்டுகளாக அது கண்டுபிடிக்கப்படுவதைத் தவிர்க்க அனுமதித்தது.",
+    "enExample2": "The committee condemned the surreptitiousness with which the land acquisition was executed.",
+    "taExample2": "நிலம் கையகப்படுத்தப்பட்ட ரகசிய மறைமுகத் தன்மையை குழு வன்மையாகக் கண்டித்தது.",
     "synonyms": [
-      "Spike",
-      "Upsurge",
-      "Deluge",
-      "Rush"
+      "Stealth",
+      "Secrecy",
+      "Clandestineness",
+      "Furtiveness",
+      "Covertness"
     ],
     "antonyms": [
-      "Plummet",
-      "Decline",
-      "Downturn",
-      "Drop"
-    ],
-    "enExample2": "The autoscaling orchestrator provisioned twenty additional server nodes to absorb the sudden cyber sale traffic surge.",
-    "taExample2": "விற்பனை நெரிசலின் திடீர் போக்குவரத்து எழுச்சியை (Surge) சமாளிக்க தானியங்கி அமைப்பு இருபது கூடுதல் சர்வர்களை உருவாக்கியது."
+      "Openness",
+      "Overtness",
+      "Transparency",
+      "Publicity",
+      "Frankness"
+    ]
   },
   {
     "id": 2973,
@@ -2390,25 +2436,27 @@
   },
   {
     "id": 1921,
-    "word": "Sync",
-    "definition": "To align information or meet briefly with team members to ensure coordination.",
-    "enExample": "Let's sync up for five minutes after the demo to discuss customer feedback.",
-    "taExample": "வாடிக்கையாளர் கருத்துக்களைப் பற்றி விவாதிக்க செயல்விளக்கத்திற்குப் பிறகு ஐந்து நிமிடங்கள் தகவல்களை ஒத்திசைப்போம் (Sync).",
-    "taWord": "ஒத்திசைவு / சீரமைப்புத் தகவல் (Sync)",
-    "pos": "verb",
+    "word": "Syllogism",
+    "pos": "noun",
+    "definition": "An instance of a form of deductive reasoning in which a conclusion is drawn from two given premises.",
+    "taWord": "அனுமான தர்க்க முறை / இரு கூற்றுகளிலிருந்து முடிவு பெறும் தர்க்கம்",
+    "enExample": "'All humans are mortal; Socrates is human; therefore Socrates is mortal' is a classic syllogism.",
+    "taExample": "'அனைத்து மனிதர்களும் மரணமடைவர்; சாக்ரட்டீஸ் ஒரு மனிதர்; எனவே சாக்ரட்டீஸ் மரணமடைவார்' என்பது ஒரு உன்னதமான தர்க்க முறையாகும்.",
+    "enExample2": "Faulty syllogisms with false premises lead to completely erroneous computational conclusions.",
+    "taExample2": "தவறான அனுமானங்களைக் கொண்ட தர்க்க முறைகள் முற்றிலும் பிழையான கணக்கீட்டு முடிவுகளுக்கு வழிவகுக்கும்.",
     "synonyms": [
-      "Align",
-      "Coordinate",
-      "Touch base"
+      "Deduction",
+      "Logic",
+      "Reasoning",
+      "Argument",
+      "Inference"
     ],
     "antonyms": [
-      "Async",
-      "Asynchronous drift",
-      "Desynchronization",
-      "Disconnect"
-    ],
-    "enExample2": "The mobile app uses background synchronization to sync offline user drafts once network connectivity is restored.",
-    "taExample2": "இணைய இணைப்பு மீண்டும் கிடைத்தவுடன் வரைவுத் தகவல்களை ஒத்திசைக்க (Sync) மொபைல் செயலி பின்னணி ஒத்திசைவைப் பயன்படுத்துகிறது."
+      "Fallacy",
+      "Illogic",
+      "Sophism",
+      "Non sequitur"
+    ]
   },
   {
     "id": 3022,
@@ -2538,25 +2586,28 @@
   },
   {
     "id": 1914,
-    "word": "Syntax",
-    "definition": "The set of rules defining the structure and valid combinations of symbols in a programming language.",
-    "enExample": "A missing closing brace will cause a syntax error during compilation.",
-    "taExample": "விடுபட்ட இறுதி அடைப்புக்குறி தொகுப்பின் போது தொடரியல் பிழையை (Syntax error) ஏற்படுத்தும்.",
-    "taWord": "தொடரியல் / இலக்கணம்",
+    "word": "Syncretism",
     "pos": "noun",
+    "definition": "The amalgamation or attempted blending of different religions, cultures, or schools of thought.",
+    "taWord": "பல மதங்கள் அல்லது கொள்கைகளின் இணக்கக் கலவை / கருத்துக்களின் ஒருங்கிணைப்பு",
+    "enExample": "Ancient Mediterranean philosophy was characterized by a vibrant syncretism of Greek, Egyptian, and Persian ideas.",
+    "taExample": "பண்டைய மத்திய தரைக்கடல் தத்துவம் கிரேக்க, எகிப்திய மற்றும் பாரசீக கருத்துக்களின் துடிப்பான இணக்கக் கலவையால் வகைப்படுத்தப்பட்டது.",
+    "enExample2": "The architecture exhibited artistic syncretism, blending Gothic arches with Islamic tile motifs.",
+    "taExample2": "அந்தக் கட்டடக் கலை கோதிக் வளைவுகளையும் இஸ்லாமிய ஓடு வடிவங்களையும் இணைத்து ஒரு கலைசார்ந்த இணக்கக் கலவையை வெளிப்படுத்தியது.",
     "synonyms": [
-      "Grammar",
-      "Structure",
-      "Rules"
+      "Amalgamation",
+      "Synthesis",
+      "Fusion",
+      "Integration",
+      "Union"
     ],
     "antonyms": [
-      "Semantics",
-      "Meaning",
-      "Logic content",
-      "Machine code"
-    ],
-    "enExample2": "A missing semicolon or mismatched parenthesis in JavaScript triggers an immediate syntax error during compilation.",
-    "taExample2": "ஜாவாஸ்கிரிப்ட்டில் விடுபட்ட அரைப்புள்ளி அல்லது தவறான அடைப்புக்குறி தொகுப்பின் போது உடனடி தொடரியல் (Syntax) பிழையைத் தூண்டுகிறது."
+      "Division",
+      "Separation",
+      "Purism",
+      "Isolation",
+      "Schism"
+    ]
   },
   {
     "id": 3291,

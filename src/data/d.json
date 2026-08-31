@@ -630,25 +630,26 @@
   },
   {
     "id": 440,
-    "word": "Demo",
-    "definition": "A live demonstration or presentation of completed software features to stakeholders.",
-    "enExample": "She presented a smooth demo of the payment gateway integration to the client.",
-    "taExample": "அவள் வாடிக்கையாளருக்கு கட்டண வாயில் ஒருங்கிணைப்பின் மென்மையான செயல்விளக்கத்தை வழங்கினாள்.",
-    "taWord": "செயல்விளக்கம் (Demo)",
-    "pos": "noun",
+    "word": "Didactic",
+    "pos": "adjective",
+    "definition": "Intended to instruct, teach, or impart moral or intellectual knowledge, often excessively so.",
+    "taWord": "போதனை நோக்குடைய / அறிவுறுத்தும் நோக்கம் கொண்ட",
+    "enExample": "The documentation struck a helpful tone without becoming overly academic or dryly didactic.",
+    "taExample": "ஆவணங்கள் அதிக கல்வி வாசனையோ அல்லது சலிப்பூட்டும் போதனை முறையோ இல்லாமல் பயனுள்ள தொனியை வெளிப்படுத்தின.",
+    "enExample2": "Ancient fables were deliberately didactic, teaching ethical behavior through animal characters.",
+    "taExample2": "பண்டைய நீதிக் கதைகள் விலங்கு கதாபாத்திரங்கள் மூலம் ஒழுக்க நடத்தையைக் கற்பிக்கும் போதனை நோக்குடையவையாக இருந்தன.",
     "synonyms": [
-      "Demonstration",
-      "Walkthrough",
-      "Presentation"
+      "Instructive",
+      "Pedagogical",
+      "Educational",
+      "Informative",
+      "Moralizing"
     ],
     "antonyms": [
-      "Production release",
-      "Final product",
-      "Theory",
-      "Concept"
-    ],
-    "enExample2": "During sprint review, each developer presented a live interactive demo of their newly shipped feature.",
-    "taExample2": "ஸ்பிரிண்ட் மறுஆய்வின் போது ஒவ்வொரு உருவாக்குநரும் தாங்கள் புதிதாக உருவாக்கிய அம்சத்தின் நேரடி செயல்விளக்கத்தை (Demo) வழங்கினர்."
+      "Uninformative",
+      "Misleading",
+      "Non-educational"
+    ]
   },
   {
     "id": 3413,
@@ -1102,26 +1103,28 @@
   },
   {
     "id": 3104,
-    "word": "Didactic",
-    "pos": "adj.",
-    "definition": "Intended to teach, instruct, or provide moral guidance, often in a pedantic manner.",
-    "enExample": "The compiler error messages were redesigned to be didactic, guiding developers to the correct syntax.",
-    "taWord": "கற்றுத்தரும் நோக்கமுடைய / போதனை செய்கிற",
-    "taExample": "பிழைச் செய்திகள் மென்பொருள் உருவாக்குநர்களுக்கு சரியான வழியைக் கற்றுத்தரும் வகையில் மாற்றி அமைக்கப்பட்டன.",
+    "word": "Desultory",
+    "pos": "adjective",
+    "definition": "Lacking a clear plan, purpose, or enthusiasm; jumping erratically from one thing to another.",
+    "taWord": "ஒழுங்கற்ற / நோக்கமற்ற / திடீர் திடீரென தாவிச் செல்லும்",
+    "enExample": "The team engaged in desultory conversation while waiting for the production server to restart.",
+    "taExample": "தயாரிப்பு சர்வர் மீண்டும் தொடங்கும் வரை காத்திருக்கும் போது குழுவினர் நோக்கமற்ற அரட்டையில் ஈடுபட்டனர்.",
+    "enExample2": "His desultory reading habits meant he started dozens of books but finished very few.",
+    "taExample2": "அவரது ஒழுங்கற்ற வாசிப்பு பழக்கம் டஜன் கணக்கான புத்தகங்களைத் தொடங்கினாலும் மிகச் சிலவற்றையே முடிக்க வைத்தது.",
     "synonyms": [
-      "Instructive",
-      "Educational",
-      "Pedagogic",
-      "Academic",
-      "Informative"
+      "Aimless",
+      "Random",
+      "Haphazard",
+      "Erratic",
+      "Discursive"
     ],
     "antonyms": [
-      "Uninformative",
-      "Misleading",
-      "Entertaining only"
-    ],
-    "enExample2": "The framework documentation includes didactic tutorials with interactive live code playgrounds.",
-    "taExample2": "கட்டமைப்பு ஆவணத்தில் நேரடி குறியீட்டு சோதனைக் களங்களுடன் கூடிய விளக்கமான கற்பித்தல் பயிற்சிகள் உள்ளன."
+      "Methodical",
+      "Systematic",
+      "Focused",
+      "Purposeful",
+      "Organized"
+    ]
   },
   {
     "id": 431,
@@ -2069,22 +2072,28 @@
   },
   {
     "id": 437,
-    "word": "Drive",
-    "definition": "An innate impulse or motivation to achieve a goal.",
-    "enExample": "Her drive to learn modern tools accelerated her promotion.",
-    "taExample": "நவீன கருவிகளைக் கற்றுக்கொள்வதற்கான அவளது ஊக்கம் அவளது உயர்வை விரைவுபடுத்தியது.",
-    "taWord": "ஊக்கம் / இயக்கம்",
-    "pos": "noun",
+    "word": "Dissemble",
+    "pos": "verb",
+    "definition": "To conceal one's true motives, feelings, or beliefs; to disguise reality under a false appearance.",
+    "taWord": "உண்மை நோக்கத்தை மறைத்தல் / கபட வேடமிடுதல் / பாசாங்கு செய்தல்",
+    "enExample": "An honest engineer should never dissemble about critical security vulnerabilities in system architecture.",
+    "taExample": "ஒரு நேர்மையான பொறியாளர் கணினி கட்டமைப்பில் உள்ள முக்கியமான பாதுகாப்பு குறைபாடுகளை ஒருபோதும் மறைக்கக் கூடாது.",
+    "enExample2": "Politicians often dissemble when asked direct questions about tax increases.",
+    "taExample2": "வரி உயர்வு பற்றிய நேரடி கேள்விகள் கேட்கப்படும் போது அரசியல்வாதிகள் பெரும்பாலும் பாசாங்கு செய்து உண்மையை மறைக்கிறார்கள்.",
     "synonyms": [
-      "Motivation",
-      "Ambition"
+      "Disguise",
+      "Conceal",
+      "Mask",
+      "Feign",
+      "Camouflage"
     ],
     "antonyms": [
-      "Apathy",
-      "Lethargy"
-    ],
-    "enExample2": "Continuous customer feedback should drive product feature roadmaps and engineering priorities.",
-    "taExample2": "தொடர்ச்சியான வாடிக்கையாளர் கருத்துக்களே தயாரிப்பு அம்சங்கள் மற்றும் பொறியியல் முன்னுரிமைகளை வழிநடத்த வேண்டும்."
+      "Reveal",
+      "Disclose",
+      "Expose",
+      "Manifest",
+      "Confess"
+    ]
   },
   {
     "id": 3395,

@@ -375,24 +375,28 @@
   },
   {
     "id": 1407,
-    "word": "Node",
-    "definition": "A fundamental unit or vertex in a graph/tree, or a computer machine connected to a network.",
-    "enExample": "Each tree node holds a data value and references to child nodes.",
-    "taExample": "ஒவ்வொரு மர முனையமும் (Node) ஒரு தரவு மதிப்பையும் சேய் முனைகளுக்கான குறிப்புகளையும் கொண்டுள்ளது.",
-    "taWord": "முனையம் / கணு",
-    "pos": "noun",
+    "word": "Nefarious",
+    "pos": "adjective",
+    "definition": "Wicked, villainous, criminal, or severely reprehensible in character.",
+    "taWord": "கொடிய / துன்மார்க்கமான / வஞ்சக மற்றும் தீய எண்ணம் கொண்ட",
+    "enExample": "Ransomware syndicates use nefarious social engineering tactics to hijack hospital computer systems.",
+    "taExample": "ரேன்சம்வேர் கும்பல்கள் மருத்துவமனை கணினி அமைப்புகளைக் கைப்பற்ற கொடிய தந்திரங்களைப் பயன்படுத்துகின்றன.",
+    "enExample2": "The detective uncovered a nefarious conspiracy to rig the municipal elections.",
+    "taExample2": "நகராட்சித் தேர்தலை முறைகேடாக நடத்த தீட்டப்பட்ட ஒரு கொடிய சதியை துப்பறியும் அதிகாரி கண்டுபிடித்தார்.",
     "synonyms": [
-      "Vertex",
-      "Point",
-      "Host"
+      "Wicked",
+      "Villainous",
+      "Sinister",
+      "Heinous",
+      "Iniquitous"
     ],
     "antonyms": [
-      "Edge connector",
-      "Empty graph",
-      "Network root"
-    ],
-    "enExample2": "Each compute node in the distributed cluster processes a subset of incoming analytics partitions in parallel.",
-    "taExample2": "விநியோகிக்கப்பட்ட கிளஸ்டரில் உள்ள ஒவ்வொரு கணினி முனையமும் (Node) பகுப்பாய்வுப் பிரிவுகளை ஒரே நேரத்தில் செயலாக்குகிறது."
+      "Virtuous",
+      "Noble",
+      "Honorable",
+      "Ethical",
+      "Righteous"
+    ]
   },
   {
     "id": 1408,
@@ -560,47 +564,53 @@
   },
   {
     "id": 1410,
-    "word": "Notice",
-    "definition": "A visual alert or non-intrusive banner informing users of state changes or system warnings.",
-    "enExample": "Show a toast notice when the user successfully updates their profile.",
-    "taExample": "பயனர் தனது சுயவிவரத்தை வெற்றிகரமாகப் புதுப்பிக்கும் போது ஒரு அறிவிப்புப் பேனரைக் (Notice) காட்டவும்.",
-    "taWord": "அறிவிப்பு / எச்சரிக்கை",
-    "pos": "noun",
+    "word": "Noxious",
+    "pos": "adjective",
+    "definition": "Harmful, poisonous, toxic, or very unpleasant and destructive to living organisms or morals.",
+    "taWord": "நச்சுத்தன்மை கொண்ட / தீங்கு விளைவிக்கும் / கொடிய நாசகார",
+    "enExample": "Firefighters wore specialized respirators to avoid inhaling noxious chemical fumes.",
+    "taExample": "தீயணைப்பு வீரர்கள் நச்சு இரசாயன புகையை சுவாசிப்பதைத் தவிர்க்க சிறப்பு சுவாசக் கருவிகளை அணிந்தனர்.",
+    "enExample2": "Spreading hateful online disinformation has a noxious effect on democratic discourse.",
+    "taExample2": "இணையத்தில் அவதூறான தவறான தகவல்களைப் பரப்புவது ஜனநாயக உரையாடலில் ஒரு கொடிய நாசகரமான தாக்கத்தை ஏற்படுத்துகிறது.",
     "synonyms": [
-      "Alert",
-      "Banner",
-      "Notification"
+      "Poisonous",
+      "Toxic",
+      "Harmful",
+      "Venomous",
+      "Deleterious"
     ],
     "antonyms": [
-      "Ignorance",
-      "Overlook",
-      "Neglect",
-      "Silence"
-    ],
-    "enExample2": "The cloud provider gave a six-month advance notice before deprecating the legacy serverless runtime version.",
-    "taExample2": "பழைய சர்வர்லெஸ் இயக்க பதிப்பை நிறுத்துவதற்கு முன் கிளவுட் நிறுவனம் ஆறு மாத முன்கூட்டிய அறிவிப்பை (Notice) வழங்கியது."
+      "Innocuous",
+      "Harmless",
+      "Healthy",
+      "Beneficial",
+      "Salubrious"
+    ]
   },
   {
     "id": 1414,
-    "word": "Notification",
-    "definition": "A message sent to a user or client informing them of an event or system update.",
-    "enExample": "Web push notifications alert subscribers to newly published articles.",
-    "taExample": "இணையப் புஷ் அறிவிப்புகள் புதிய கட்டுரைகளைப் பற்றி சந்தாதாரர்களை எச்சரிக்கின்றன.",
-    "taWord": "அறிவிப்புச் செய்தி",
+    "word": "Nihilism",
     "pos": "noun",
+    "definition": "The rejection of all religious and moral principles, in the belief that life is meaningless.",
+    "taWord": "சூனியவாதம் / பொருள் அற்ற நிலை என்ற தத்துவம் / அறநெறி மறுப்பு",
+    "enExample": "Nineteenth-century existential literature frequently grappled with themes of philosophical nihilism.",
+    "taExample": "பத்தொன்பதாம் நூற்றாண்டின் இருத்தலியல் இலக்கியங்கள் பெரும்பாலும் தத்துவார்த்த சூனியவாதத்தின் கருப்பொருள்களை விவாதித்தன.",
+    "enExample2": "She rejected cynical nihilism, choosing instead to find personal meaning through creative craft.",
+    "taExample2": "அவள் அவநம்பிக்கையான சூனியவாதத்தை நிராகரித்து, ஆக்கப்பூர்வமான கலை மூலம் தனிப்பட்ட அர்த்தத்தைக் கண்டறியத் தேர்ந்தெடுத்தாள்.",
     "synonyms": [
-      "Alert",
-      "Message",
-      "Dispatch"
+      "Skepticism",
+      "Cynicism",
+      "Pessimism",
+      "Negativism",
+      "Rejectionism"
     ],
     "antonyms": [
-      "Silence",
-      "Suppression",
-      "Muting",
-      "Ignorance"
-    ],
-    "enExample2": "The mobile app uses push notification payloads to alert users about urgent security policy updates.",
-    "taExample2": "அவசர பாதுகாப்பு விதிகள் குறித்து பயனர்களை எச்சரிக்க மொபைல் செயலி புஷ் அறிவிப்புகளைப் (Notification) பயன்படுத்துகிறது."
+      "Optimism",
+      "Faith",
+      "Positivism",
+      "Idealism",
+      "Belief"
+    ]
   },
   {
     "id": 1418,
@@ -666,21 +676,27 @@
   },
   {
     "id": 1412,
-    "word": "Numeric",
-    "definition": "Relating to or representing numbers rather than letters or special symbols.",
-    "enExample": "The pin code field should only accept numeric input.",
-    "taExample": "பின் குறியீடு புலம் எண் உள்ளீட்டை (Numeric) மட்டுமே ஏற்க வேண்டும்.",
-    "taWord": "எண் சார்ந்த",
-    "pos": "adj.",
+    "word": "Nonpareil",
+    "pos": "adjective",
+    "definition": "Having no match or equal; unrivaled, peerless, and incomparable.",
+    "taWord": "இணையற்ற / நிகரற்ற / ஒப்புவமை இல்லாத தனிச்சிறப்புமிக்க",
+    "enExample": "Her nonpareil engineering craftsmanship set a new benchmark for system architecture.",
+    "taExample": "அவரது இணையற்ற பொறியியல் கைவினைத்திறன் கணினி கட்டமைப்புக்கு ஒரு புதிய அளவுகோலை அமைத்தது.",
+    "enExample2": "The soprano’s nonpareil vocal range dazzled audiences in opera houses across Europe.",
+    "taExample2": "அந்தப் பாடகியின் நிகரற்ற குரல் வளம் ஐரோப்பா முழுவதிலும் உள்ள இசை அரங்குகளில் பார்வையாளர்களை வியப்பில் ஆழ்த்தியது.",
     "synonyms": [
-      "Digital",
-      "Mathematical"
+      "Incomparable",
+      "Unrivaled",
+      "Peerless",
+      "Matchless",
+      "Unequaled"
     ],
     "antonyms": [
-      "Alphabetic",
-      "Textual"
-    ],
-    "enExample2": "High-precision numeric types prevent rounding errors in financial calculation engines.",
-    "taExample2": "உயர் துல்லிய எண் (Numeric) வகைகள் நிதி கணக்கீட்டு இயந்திரங்களில் தசம தவறுகள் ஏற்படுவதைத் தடுக்கின்றன."
+      "Mediocre",
+      "Ordinary",
+      "Commonplace",
+      "Inferior",
+      "Second-rate"
+    ]
   }
 ]

@@ -20,42 +20,53 @@
   },
   {
     "id": 2626,
-    "word": "Yap",
-    "definition": "To talk excessively, rambling on without getting to the actionable point.",
-    "enExample": "Let's stop yapping during the standup and focus purely on blockers.",
-    "taExample": "காலை நிலைக்கூட்டத்தில் வீண் பேச்சு பேசுவதை நிறுத்திவிட்டு, தடைகளில் மட்டும் கவனம் செலுத்துவோம்.",
-    "taWord": "வீண் அரட்டை / நீட்டி முழக்குதல்",
-    "pos": "verb",
+    "word": "Yoke",
+    "pos": "noun",
+    "definition": "A burden, oppressive bond, or device joining animals; a symbol of subjugation or servitude.",
+    "taWord": "நுகத்தடி / அடிமைத்தனம் மற்றும் அடக்குமுறைச் சுமை",
+    "enExample": "Colonial nations fought courageous revolutions to throw off the oppressive foreign yoke.",
+    "taExample": "காலனித்துவ நாடுகள் அடக்குமுறை வெளிநாட்டு நுகத்தடியை தூக்கி எறிய துணிச்சலான புரட்சிகளை நடத்தின.",
+    "enExample2": "The treaty freed the agrarian population from the crushing financial yoke of feudal taxation.",
+    "taExample2": "இந்த ஒப்பந்தம் நிலப்பிரபுத்துவ வரிவிதிப்பின் கடுமையான நிதி நுகத்தடியிலிருந்து விவசாயிகளை விடுவித்தது.",
     "synonyms": [
-      "Ramble",
-      "Babble",
-      "Chatter"
+      "Bondage",
+      "Oppression",
+      "Servitude",
+      "Subjugation",
+      "Burden"
     ],
     "antonyms": [
-      "Be concise",
-      "Summarize"
-    ],
-    "enExample2": "Engineers wished the vendor would stop the endless sales yap and provide concrete technical benchmark charts.",
-    "taExample2": "விற்பனையாளர் முடிவில்லாத வெற்றுப் பேச்சை (Yap) நிறுத்திவிட்டு உறுதியான சோதனை வரைபடங்களை வழங்க வேண்டும் என பொறியாளர்கள் விரும்பினர்."
+      "Freedom",
+      "Liberation",
+      "Autonomy",
+      "Emancipation",
+      "Independence"
+    ]
   },
   {
     "id": 2503,
-    "word": "Yarn",
-    "definition": "A fast, reliable, and secure JavaScript dependency package manager developed by Facebook.",
-    "enExample": "Yarn lockfiles ensure exact deterministic dependency installations across developer environments.",
-    "taExample": "யார்ன் (Yarn) பூட்டுக் கோப்புகள் டெவலப்பர் சூழல்கள் முழுவதும் சரியான சார்பு நிறுவல்களை உறுதி செய்கின்றன.",
-    "taWord": "யார்ன் (தொகுப்பு மேலாளர்)",
+    "word": "Yore",
     "pos": "noun",
+    "definition": "Time long past, ancient days, or historical folklore periods.",
+    "taWord": "பழங்காலம் / முற்காலம் / பண்டைக்காலம்",
+    "enExample": "Ballads of yore told thrilling tales of brave knights, mythical dragons, and enchanted forests.",
+    "taExample": "பழங்காலப் பாடல்கள் துணிச்சலான வீரர்கள், புராண டிராகன்கள் மற்றும் மாயக் காடுகளின் பரபரப்பான கதைகளை விவரித்தன.",
+    "enExample2": "In days of yore, astronomers navigated trackless oceans solely by observing the constellations.",
+    "taExample2": "பழங்காலத்தில், வானியலாளர்கள் விண்மீன் கூட்டங்களை உற்றுநோக்குவதன் மூலம் மட்டுமே பரந்த கடல்களில் வழிகண்டனர்.",
     "synonyms": [
-      "Package manager",
-      "Dependency manager"
+      "Past",
+      "Antiquity",
+      "Yesterday",
+      "History",
+      "Ancient times"
     ],
     "antonyms": [
-      "npm",
-      "pnpm"
-    ],
-    "enExample2": "Yarn package manager caches downloaded npm modules locally to accelerate reproducible build speeds.",
-    "taExample2": "யார்ன் (Yarn) தொகுப்பு மேலாளர் பதிவிறக்கப்பட்ட நூலகங்களை உள்ளூரில் சேமித்து உருவாக்க வேகத்தை அதிகரிக்கிறது."
+      "Future",
+      "Present",
+      "Modernity",
+      "Tomorrow",
+      "Contemporary era"
+    ]
   },
   {
     "id": 2509,
@@ -116,22 +127,28 @@
   },
   {
     "id": 2502,
-    "word": "Yield",
-    "definition": "A keyword used in generator functions to pause execution and emit a value to the iterator caller.",
-    "enExample": "JavaScript generator functions use the yield keyword to produce values lazily on demand.",
-    "taExample": "ஜாவாஸ்கிரிப்ட் ஜெனரேட்டர் செயல்பாடுகள் தேவைக்கேற்ப சோம்பேறியாக மதிப்புகளை உருவாக்க 'yield' முக்கிய வார்த்தையைப் பயன்படுத்துகின்றன.",
-    "taWord": "மதிப்பு வழங்குதல் (Yield)",
-    "pos": "verb",
+    "word": "Yieldingness",
+    "pos": "noun",
+    "definition": "The quality of being compliant, flexible, gentle, or willing to surrender and accommodate others.",
+    "taWord": "இணங்கும் தன்மை / விட்டுக்கொடுக்கும் மனப்பான்மை / நெகிழ்வுத்தன்மை",
+    "enExample": "Diplomatic peace negotiations require mutual yieldingness from all participating factions.",
+    "taExample": "தூதரக அமைதிப் பேச்சுவார்த்தைகளுக்கு பங்கேற்கும் அனைத்து பிரிவினரிடமிருந்தும் பரஸ்பர விட்டுக்கொடுக்கும் தன்மை தேவைப்படுகிறது.",
+    "enExample2": "Her yieldingness in trivial arguments preserved long-term harmony in the partnership.",
+    "taExample2": "சிறிய வாதங்களில் அவரது விட்டுக்கொடுக்கும் மனப்பான்மை கூட்டாண்மையில் நீண்டகால நல்லிணக்கத்தைப் பாதுகாத்தது.",
     "synonyms": [
-      "Pause and return",
-      "Emit",
-      "Produce"
+      "Flexibility",
+      "Compliance",
+      "Docility",
+      "Amenability",
+      "Accommodating nature"
     ],
     "antonyms": [
-      "Return"
-    ],
-    "enExample2": "JavaScript generator functions use the 'yield' keyword to pause execution and emit sequential stream values on demand.",
-    "taExample2": "ஜாவாஸ்கிரிப்ட் ஜெனரேட்டர்கள் இயக்கத்தை தற்காலிகமாக நிறுத்தி தேவைக்கேற்ப தொடர் மதிப்புகளை வெளியிட 'yield' வார்த்தையைப் பயன்படுத்துகின்றன."
+      "Intransigence",
+      "Stubbornness",
+      "Rigidity",
+      "Obstinacy",
+      "Defiance"
+    ]
   },
   {
     "id": 2513,
@@ -173,24 +190,26 @@
   },
   {
     "id": 3392,
-    "word": "yoke",
+    "word": "Yesteryear",
     "pos": "noun",
-    "definition": "A wooden crosspiece binding working animals; metaphorically, a burden, obligation, or spiritual connection.",
-    "taWord": "நுகத்தடி (பிணைப்பு / பொறுப்பு)",
-    "enExample": "The team shed the heavy yoke of legacy technical debt by re-platforming to cloud-native microservices.",
-    "taExample": "கிளவுட் அமைப்புகளுக்கு மாறியதன் மூலம் பொறியியல் குழு பழைய தொழில்நுட்பக் கடனின் பாரமான நுகத்தடியை இறக்கி வைத்தது.",
-    "enExample2": "Jesus said, 'Take my yoke upon you and learn from me, for I am gentle and humble in heart.'",
-    "taExample2": "'என் நுகத்தடியை உங்கள் மேல் ஏற்றுக்கொண்டு என்னிடத்தில் கற்றுக்கொள்ளுங்கள்; நான் மனத்தாழ்மையுள்ளவனாயிருக்கிறேன்' என்று இயேசு கூறினார்.",
+    "definition": "Last year or the time gone by, especially an earlier period viewed with nostalgia.",
+    "taWord": "கடந்த காலம் / முந்தைய ஆண்டுகள் / பழங்காலம்",
+    "enExample": "Museums preserve mechanical clockwork watches from the golden era of yesteryear.",
+    "taExample": "அருங்காட்சியகங்கள் கடந்த கால பொற்காலத்தின் இயந்திரக் கடிகாரங்களைப் பாதுகாக்கின்றன.",
+    "enExample2": "The songs of yesteryear evoked sweet memories of childhood summers.",
+    "taExample2": "கடந்த காலப் பாடல்கள் குழந்தை பருவ கோடைகாலத்தின் இனிமையான நினைவுகளைத் தூண்டின.",
     "synonyms": [
-      "bond",
-      "harness",
-      "burden",
-      "tie"
+      "Past",
+      "Past times",
+      "Days gone by",
+      "Antiquity",
+      "History"
     ],
     "antonyms": [
-      "freedom",
-      "liberation",
-      "release"
+      "Future",
+      "Tomorrow",
+      "Present",
+      "Contemporary era"
     ]
   },
   {

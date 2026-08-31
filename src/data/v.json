@@ -123,42 +123,53 @@
   },
   {
     "id": 2202,
-    "word": "Variable",
-    "definition": "A named storage location in memory holding a data value that can be read or modified during execution.",
-    "enExample": "Declare immutable state values using the const keyword instead of mutable variable let declarations.",
-    "taExample": "மாறக்கூடிய 'let' அறிவிப்புகளுக்குப் பதிலாக 'const' முக்கிய வார்த்தையைப் பயன்படுத்தி மாறாத நிலை மதிப்புகளை அறிவிக்கவும்.",
-    "taWord": "மாறி (Variable)",
+    "word": "Vacillation",
     "pos": "noun",
+    "definition": "The inability to decide between different opinions or actions; indecision or irresolution.",
+    "taWord": "ஊசலாட்டம் / உறுதியற்ற தன்மை / முடிவெடுக்க முடியாத நிலை",
+    "enExample": "The board grew frustrated with the CEO’s endless vacillation regarding the European market expansion.",
+    "taExample": "ஐரோப்பிய சந்தை விரிவாக்கம் குறித்த தலைமை நிர்வாகியின் முடிவில்லாத ஊசலாட்டத்தால் நிர்வாகக் குழு விரக்தியடைந்தது.",
+    "enExample2": "Decisive leadership requires action without paralyzing vacillation during emergencies.",
+    "taExample2": "தீர்க்கமான தலைமைத்துவம் அவசர காலங்களில் முடக்கும் ஊசலாட்டம் இல்லாமல் செயல்படுவதைக் கோருகிறது.",
     "synonyms": [
-      "Identifier",
-      "Binding",
-      "Storage cell"
+      "Indecision",
+      "Hesitation",
+      "Fluctuation",
+      "Wavering",
+      "Ambivalence"
     ],
     "antonyms": [
-      "Constant",
-      "Literal"
-    ],
-    "enExample2": "Declaring immutable constants with 'const' prevents unexpected variable reassignments in JavaScript.",
-    "taExample2": "'const' மூலம் மாறிலிகளை அறிவிப்பது ஜாவாஸ்கிரிப்ட்டில் மாறிகள் (Variables) எதிர்பாராதவிதமாக மாற்றப்படுவதைத் தடுக்கிறது."
+      "Decisiveness",
+      "Resolution",
+      "Determination",
+      "Certainty",
+      "Firmness"
+    ]
   },
   {
     "id": 2203,
-    "word": "Vector",
-    "definition": "A dynamic one-dimensional array data structure, or mathematical magnitude and direction representation.",
-    "enExample": "SVG vector graphics scale crisp without pixelation on high-density Retina displays.",
-    "taExample": "SVG திசையன் (Vector) கிராபிக்ஸ் உயர் அடர்த்தி விழித்திரை காட்சிகளில் தெளிவுத்திறன் இழக்காமல் துல்லியமாக விரிவடைகின்றன.",
-    "taWord": "திசையன் / காரணி (Vector)",
-    "pos": "noun",
+    "word": "Verisimilar",
+    "pos": "adjective",
+    "definition": "Having the appearance of truth; probable, realistic, or believable.",
+    "taWord": "உண்மை போன்ற / நம்பக்கூடிய / யதார்த்தமான தோற்றம் கொண்ட",
+    "enExample": "The generative AI engine produced remarkably verisimilar simulated medical scans for training doctors.",
+    "taExample": "ஜெனரேட்டிவ் ஏஐ இயந்திரம் மருத்துவர்களுக்குப் பயிற்சி அளிக்க குறிப்பிடத்தக்க உண்மை போன்ற மருத்துவ ஸ்கேன்களை உருவாக்கியது.",
+    "enExample2": "The historical novelist created verisimilar dialogue matching seventeenth-century vernacular.",
+    "taExample2": "வரலாற்று நாவலாசிரியர் பதினேழாம் நூற்றாண்டின் பேச்சுவழக்குக்கு ஏற்ற நம்பத்தகுந்த உரையாடலை உருவாக்கினார்.",
     "synonyms": [
-      "Dynamic array",
-      "Directional tensor"
+      "Plausible",
+      "Realistic",
+      "Probable",
+      "Believable",
+      "Credible"
     ],
     "antonyms": [
-      "Raster",
-      "Scalar"
-    ],
-    "enExample2": "SVG vector graphics maintain pristine resolution across both high-density mobile screens and 4K desktop displays.",
-    "taExample2": "SVG வெக்டர் (Vector) வரைபடங்கள் மொபைல் திரைகள் மற்றும் 4K கணினிகள் இரண்டிலும் சிறந்த தெளிவுத்திறனைப் பராமரிக்கின்றன."
+      "Implausible",
+      "Unrealistic",
+      "Incredible",
+      "Far-fetched",
+      "Dubious"
+    ]
   },
   {
     "id": 2214,
@@ -200,23 +211,28 @@
   },
   {
     "id": 2204,
-    "word": "Vendor",
-    "definition": "An external third-party provider or directory housing compiled dependency packages and binaries.",
-    "enExample": "The vendor folder isolates third-party Go or PHP packages from core codebase logic.",
-    "taExample": "வெண்டார் (Vendor) கோப்புறை மூன்றாம் தரப்பு பயன்பாட்டுத் தொகுப்புகளை முதன்மை குறியீட்டுத் தளத்திலிருந்து தனிமைப்படுத்துகிறது.",
-    "taWord": "மூன்றாம் தரப்பு / வெண்டார்",
+    "word": "Venerability",
     "pos": "noun",
+    "definition": "The quality of commanding immense respect on account of age, wisdom, character, or historical dignity.",
+    "taWord": "மதிப்புமிக்க தன்மை / முதிர்ச்சி மற்றும் ஞானத்தால் ஏற்படும் பெருமதிப்பு",
+    "enExample": "The ancient university retained an undeniable aura of scholarly venerability.",
+    "taExample": "பண்டைய பல்கலைக்கழகம் மறுக்க முடியாத கல்விசார் பெருமதிப்பின் ஒளிவட்டத்தைத் தக்க வைத்துக் கொண்டது.",
+    "enExample2": "Her decades of ethical public service earned her universal venerability across political divides.",
+    "taExample2": "பல தசாப்த கால அவரது நேர்மையான பொதுச் சேவை அனைத்து தரப்பிலும் அவருக்கு பெருமதிப்பைப் பெற்றுத் தந்தது.",
     "synonyms": [
-      "Third-party",
-      "Supplier",
-      "Provider"
+      "Prestige",
+      "Dignity",
+      "Stature",
+      "Eminence",
+      "Respectability"
     ],
     "antonyms": [
-      "Internal",
-      "Native"
-    ],
-    "enExample2": "The company selected a specialized vendor to manage enterprise single sign-on authentication infrastructure.",
-    "taExample2": "பெருநிறுவன ஒற்றை உள்நுழைவு அமைப்பை நிர்வகிக்க நிறுவனம் ஒரு சிறப்பு சேவை விற்பனையாளரைத் (Vendor) தேர்ந்தெடுத்தது."
+      "Disrepute",
+      "Infamy",
+      "Dishonor",
+      "Disgrace",
+      "Shame"
+    ]
   },
   {
     "id": 3160,
@@ -557,7 +573,7 @@
     "enExample": "Before submitting the massive PR, the developer ran an informal vibe-check with senior reviewers.",
     "taExample": "பாரிய PR ஐ சமர்ப்பிப்பதற்கு முன், டெவலப்பர் மூத்த மதிப்பாய்வாளர்களுடன் ஒரு முறைசாரா சூழல் கணக்கெடுப்பை நடத்தினார்.",
     "enExample2": "A team vibe-check during sprint retro helps identify unspoken frustration early.",
-    "taExample2": "ஸ்பிரின்ட் ரெட்ரோவின் போது ஒரு குழு சூழல் கணக்கெடுப்பு பேசப்படாத விரக்தியை ஆரம்பத்திலேயே గుర్తிக்க உதவுகிறது.",
+    "taExample2": "ஸ்பிரின்ட் ரெட்ரோவின் போது ஒரு குழு சூழல் கணக்கெடுப்பு பேசப்படாத விரக்தியை ஆரம்பத்திலேயே அடையாளம் காண உதவுகிறது.",
     "synonyms": [
       "mood check",
       "pulse check",
@@ -657,44 +673,53 @@
   },
   {
     "id": 2206,
-    "word": "View",
-    "definition": "The presentation user interface layer in MVC architecture, or a stored query in relational databases.",
-    "enExample": "Database views encapsulate complex multi-table SQL JOIN queries into readable queryable tables.",
-    "taExample": "தரவுத்தளக் காட்சிகள் (Views) சிக்கலான பல-அட்டவணை SQL சேர்க்கை வினவல்களை எளிய அட்டவணைகளாகக் சுருக்குகின்றன.",
-    "taWord": "காட்சி / இடைமுகம் (View)",
+    "word": "Vituperation",
     "pos": "noun",
+    "definition": "Bitter and abusive language; sustained vitriolic verbal condemnation.",
+    "taWord": "கடுமையான வசைச்சொல் / கொடூரமான வாய்மொழி கண்டனம்",
+    "enExample": "The moderator banned users who engaged in personal vituperation instead of constructive debate.",
+    "taExample": "ஆக்கப்பூர்வமான விவாதத்திற்குப் பதிலாக தனிப்பட்ட கடுமையான வசைச்சொற்களில் ஈடுபட்ட பயனர்களை நடுவர் தடை செய்தார்.",
+    "enExample2": "Despite the online vituperation directed at her, the journalist refused to withdraw her investigation.",
+    "taExample2": "தன் மீது செலுத்தப்பட்ட கடுமையான வசைச்சொற்கள் இருந்தபோதிலும், பத்திரிகையாளர் தனது விசாரணையை திரும்பப் பெற மறுத்துவிட்டார்.",
     "synonyms": [
-      "Presentation layer",
-      "Virtual table",
-      "UI"
+      "Invective",
+      "Abuse",
+      "Condemnation",
+      "Obloquy",
+      "Revilement"
     ],
     "antonyms": [
-      "Model",
-      "Controller"
-    ],
-    "enExample2": "A database view encapsulates a complex multi-table SQL query into a reusable virtual table structure.",
-    "taExample2": "ஒரு தரவுத்தள பார்வை (View) சிக்கலான SQL வினவலை மீண்டும் பயன்படுத்தக்கூடிய மெய்நிகர் அட்டவணையாக இணைக்கிறது."
+      "Praise",
+      "Acclaim",
+      "Compliment",
+      "Plaudit",
+      "Eulogy"
+    ]
   },
   {
     "id": 2207,
-    "word": "Viewport",
-    "definition": "The visible framing window area of a web browser display where rendered web application content appears.",
-    "enExample": "Set the viewport meta tag width=device-width to ensure responsive mobile web layouts.",
-    "taExample": "மொபைல் வலைத் தளவமைப்புகளை உறுதிசெய்ய காட்சிப்பகுதி (Viewport) மெட்டா குறியீட்டை அமைக்கவும்.",
-    "taWord": "காட்சிப்பகுதி (Viewport)",
-    "pos": "noun",
+    "word": "Vicissitudinous",
+    "pos": "adjective",
+    "definition": "Full of changes, alternating phases, ups and downs, or unpredictable shifts in fortune.",
+    "taWord": "ஏற்ற இறக்கங்கள் நிறைந்த / மாறிக் கொண்டே இருக்கும் நிலை கொண்ட",
+    "enExample": "Her vicissitudinous career journey took her from a bankrupt founder to a world-renowned venture capitalist.",
+    "taExample": "அவரது ஏற்ற இறக்கங்கள் நிறைந்த தொழில் பயணம் திவாலான நிறுவனரில் இருந்து உலகப் புகழ்பெற்ற முதலீட்டாளராக அவரை மாற்றியது.",
+    "enExample2": "The novel chronicles the vicissitudinous history of a merchant family across three turbulent centuries.",
+    "taExample2": "அந்த நாவல் மூன்று கொந்தளிப்பான நூற்றாண்டுகளில் ஒரு வணிகக் குடும்பத்தின் ஏற்ற இறக்க வரலாற்றை விவரிக்கிறது.",
     "synonyms": [
-      "Display area",
-      "Screen bounds",
-      "Frame"
+      "Unstable",
+      "Fluctuating",
+      "Changeable",
+      "Turbulent",
+      "Erratic"
     ],
     "antonyms": [
-      "Offscreen canvas",
-      "Hidden virtual document",
-      "Full canvas size"
-    ],
-    "enExample2": "Setting the responsive viewport meta tag ensures mobile browsers scale text and layouts accurately.",
-    "taExample2": "பதிலளிக்கக்கூடிய வியூபோர்ட் (Viewport) மெட்டா குறியீட்டை அமைப்பது மொபைல் உலாவிகள் தளத்தை சரியாகக் காட்டுவதை உறுதி செய்கிறது."
+      "Stable",
+      "Constant",
+      "Static",
+      "Unchanging",
+      "Predictable"
+    ]
   },
   {
     "id": 3575,
@@ -892,23 +917,28 @@
   },
   {
     "id": 2210,
-    "word": "Visibility",
-    "definition": "The property defining whether an element is visible, hidden, or accessible within a specified scope.",
-    "enExample": "CSS visibility: hidden hides an element visually while preserving its layout space.",
-    "taExample": "CSS visibility: hidden ஒரு உறுப்பை பார்வைக்கு மறைக்கிறது, ஆனால் அதன் தளவமைப்பு இடத்தை வைத்திருக்கிறது.",
-    "taWord": "புலப்படுதன்மை (Visibility)",
-    "pos": "noun",
+    "word": "Voluble",
+    "pos": "adjective",
+    "definition": "Speaking or spoken incessantly and fluently; characterized by a ready flow of words.",
+    "taWord": "தங்குதடையின்றிப் பேசும் / சரளமாகப் பேசும் / இடைவிடாது பேசக்கூடிய",
+    "enExample": "The voluble tour guide kept everyone entertained with non-stop history facts throughout the entire bus ride.",
+    "taExample": "சரளமாகப் பேசும் அந்த சுற்றுலா வழிகாட்டி முழு பேருந்து பயணத்திலும் இடைவிடாத வரலாற்று உண்மைகளுடன் அனைவரையும் மகிழ்வித்தார்.",
+    "enExample2": "Under cross-examination, the previously silent witness became unexpectedly voluble.",
+    "taExample2": "குறுக்கு விசாரணையின் போது, முன்பு அமைதியாக இருந்த சாட்சி எதிர்பாராத விதமாக தங்குதடையின்றி பேசத் தொடங்கினார்.",
     "synonyms": [
-      "Exposure",
-      "Display state",
-      "Accessibility"
+      "Fluent",
+      "Loquacious",
+      "Garrulous",
+      "Articulate",
+      "Talkative"
     ],
     "antonyms": [
-      "Invisibility",
-      "Opacity"
-    ],
-    "enExample2": "Distributed tracing gives engineers complete visibility into slow microservice dependencies across the system.",
-    "taExample2": "விநியோகிக்கப்பட்ட தடமறிதல் மெதுவான சேவைகளைக் கண்டறிய பொறியாளர்களுக்கு முழுமையான கணினித் தெரிவுநிலையை (Visibility) வழங்குகிறது."
+      "Taciturn",
+      "Inarticulate",
+      "Silent",
+      "Mute",
+      "Hesitant"
+    ]
   },
   {
     "id": 3165,

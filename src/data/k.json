@@ -20,23 +20,27 @@
   },
   {
     "id": 1116,
-    "word": "Keen",
-    "definition": "Having or showing eagerness or enthusiasm.",
-    "enExample": "Keen believers in the monetary system.",
-    "taExample": "பணவியல் அமைப்பில் கூர்மையான நம்பிக்கை கொண்டவர்கள்.",
-    "taWord": "கூர்மையான / ஆர்வமுள்ள",
-    "pos": "adj.",
+    "word": "Kowtow",
+    "pos": "verb",
+    "definition": "To act in an excessively subservient manner; to bow down or show excessive deference.",
+    "taWord": "அடிபணிதல் / தாழ்ந்து வணங்குதல் / வரம்பின்றி பணிந்து போதல்",
+    "enExample": "The independent judge refused to kowtow to pressure from influential corporate lobbyists.",
+    "taExample": "சுயாதீன நீதிபதி செல்வாக்கு மிக்க நிறுவன லாபிஸ்டுகளின் அழுத்தத்திற்கு அடிபணிய மறுத்துவிட்டார்.",
+    "enExample2": "Principled leaders never kowtow to authoritarian demands at the expense of human rights.",
+    "taExample2": "கொள்கைப்பிடிப்புள்ள தலைவர்கள் மனித உரிமைகளைப் புறக்கணித்து எதேச்சதிகாரக் கோரிக்கைகளுக்கு ஒருபோதும் பணிந்து போவதில்லை.",
     "synonyms": [
-      "Eager",
-      "Anxious",
-      "Intent"
+      "Grovel",
+      "Bow",
+      "Fawn",
+      "Subserviate",
+      "Truckle"
     ],
     "antonyms": [
-      "Apathetic",
-      "Reluctant"
-    ],
-    "enExample2": "Junior engineers were keen to participate in the open-source hackathon to develop real-world coding experience.",
-    "taExample2": "நிஜ உலக குறியீட்டு அனுபவத்தைப் பெற திறந்த மூல போட்டியில் பங்கேற்க இளம் பொறியாளர்கள் மிகுந்த ஆர்வத்துடன் இருந்தனர்."
+      "Resist",
+      "Defy",
+      "Challenge",
+      "Confront"
+    ]
   },
   {
     "id": 2727,
@@ -99,24 +103,28 @@
   },
   {
     "id": 1102,
-    "word": "Key",
-    "definition": "A unique value used to identify records in a database or to encrypt and decrypt data.",
-    "enExample": "Every table row should have a unique primary key.",
-    "taExample": "ஒவ்வொரு அட்டவணை வரிசையிலும் ஒரு தனித்துவமான முதன்மை சாவி (Primary key) இருக்க வேண்டும்.",
-    "taWord": "சாவி / திறவுகோல்",
-    "pos": "noun",
+    "word": "Kinetic",
+    "pos": "adjective",
+    "definition": "Relating to or resulting from motion; characterized by dynamic movement, energy, and vitality.",
+    "taWord": "இயக்க ஆற்றல் சார்ந்த / சுறுசுறுப்பான மற்றும் ஆற்றல் வாய்ந்த",
+    "enExample": "The prototype converts kinetic energy from ocean waves into clean, renewable electrical power.",
+    "taExample": "மாதிரி அமைப்பு கடல் அலைகளிலிருந்து வரும் இயக்க ஆற்றலை சுத்தமான, புதுப்பிக்கத்தக்க மின்சாரமாக மாற்றுகிறது.",
+    "enExample2": "Her kinetic directing style gave the thriller a relentless, heart-pounding pace.",
+    "taExample2": "அவரது ஆற்றல்மிக்க இயக்க பாணி அந்த திரில்லர் திரைப்படத்திற்கு இடைவிடாத, விறுவிறுப்பான வேகத்தை அளித்தது.",
     "synonyms": [
-      "Identifier",
-      "Token"
+      "Dynamic",
+      "Active",
+      "Energetic",
+      "Moving",
+      "Animated"
     ],
     "antonyms": [
-      "Lock",
-      "Barrier",
-      "Obstacle",
-      "Dead end"
-    ],
-    "enExample2": "Redis uses the cache key to perform lightning-fast O(1) hash map lookups in memory.",
-    "taExample2": "நினைவகத்தில் மிக அதிவேகமாக தகவல்களைத் தேட Redis தற்காலிக சேமிப்பு விசையைப் (Key) பயன்படுத்துகிறது."
+      "Static",
+      "Stationary",
+      "Inactive",
+      "Passive",
+      "Lethargic"
+    ]
   },
   {
     "id": 2728,
@@ -339,7 +347,7 @@
     "definition": "A word that is reserved by a programming language or used as a search term.",
     "enExample": "The 'const' keyword declares a block-scoped variable.",
     "taExample": "'const' என்ற முக்கியச் சொல் ஒரு தொகுதி-எல்லை மாறினைக் குறிப்பிடுகிறது.",
-    "taWord": "முக்கியச் சொல் / সংরক্ষিত சொல்",
+    "taWord": "முக்கியச் சொல் / நிரலாக்கச் சொல்",
     "pos": "noun",
     "synonyms": [
       "Reserved word",
@@ -355,24 +363,26 @@
   },
   {
     "id": 1107,
-    "word": "Kill",
-    "definition": "Terminate an executing process or background task forcibly.",
-    "enExample": "Use the kill -9 command to stop the unresponsive process.",
-    "taExample": "பதிலளிக்காத செயல்பாட்டை நிறுத்த kill -9 கட்டளையைப் பயன்படுத்தவும்.",
-    "taWord": "ரத்து செய்தல் / முடித்தல்",
-    "pos": "verb",
+    "word": "Kleptocracy",
+    "pos": "noun",
+    "definition": "A government or political structure whose leaders use their power to steal national wealth and resources.",
+    "taWord": "ஊழல்வாதிகளின் ஆட்சி / நாட்டுச் சொத்தைத் திருடும் கொள்ளை ஆட்சி",
+    "enExample": "International sanctions targeted the financial assets of the kleptocracy to support democratic reform.",
+    "taExample": "ஜனநாயக சீர்திருத்தத்தை ஆதரிப்பதற்காக அந்த ஊழல் ஆட்சியின் நிதிச் சொத்துக்களை சர்வதேச தடைகள் இலக்காகக் கொண்டன.",
+    "enExample2": "Under the oppressive kleptocracy, public hospitals and schools crumbled while oligarchs built mansions.",
+    "taExample2": "அந்த அடக்குமுறை கொள்ளை ஆட்சியின் கீழ், பொது மருத்துவமனைகளும் பள்ளிகளும் பாழடைந்தன, அதே நேரத்தில் செல்வந்தர்கள் மாளிகைகளைக் கட்டினர்.",
     "synonyms": [
-      "Terminate",
-      "Abort",
-      "Halt"
+      "Plutocracy",
+      "Corrupt regime",
+      "Autocracy",
+      "Thievish governance"
     ],
     "antonyms": [
-      "Spawn",
-      "Start",
-      "Launch"
-    ],
-    "enExample2": "The operating system will kill processes that exceed their maximum allowed container memory limit.",
-    "taExample2": "அனுமதிக்கப்பட்ட நினைவக வரம்பை மீறும் செயல்முறைகளை இயக்க முறைமை தானாகவே நிறுத்தும் (Kill)."
+      "Democracy",
+      "Meritocracy",
+      "Egalitarianism",
+      "Integrity"
+    ]
   },
   {
     "id": 2725,
@@ -416,21 +426,28 @@
   },
   {
     "id": 1113,
-    "word": "Kinetic",
-    "definition": "Relating to or resulting from motion in interactive physics-based UI design.",
-    "enExample": "Kinetic scrolling creates natural deceleration physics when dragging elements.",
-    "taExample": "இயக்கவியல் சுருள்வு (Kinetic scrolling) உருப்படிகளை இழுக்கும்போது இயல்பான வேகம் குறைப்பை உருவாக்குகிறது.",
-    "taWord": "இயக்கவியல் / நகர்வு சார்ந்த",
-    "pos": "adj.",
+    "word": "Knavery",
+    "pos": "noun",
+    "definition": "Dishonest, fraudulent, or unscrupulous behavior or action.",
+    "taWord": "மோசடி / வஞ்சகம் / நேர்மையற்ற தில்லுமுல்லு செயல்",
+    "enExample": "Investigative reporters uncovered the financial knavery of the offshore tax haven directors.",
+    "taExample": "வெளிநாட்டு வரி புகலிட இயக்குநர்களின் நிதி மோசடி நடவடிக்கைகளை புலனாய்வு நிருபர்கள் அம்பலப்படுத்தினர்.",
+    "enExample2": "He was banished from the guild for his persistent commercial knavery and deceit.",
+    "taExample2": "தனது தொடர்ச்சியான வணிக மோசடி மற்றும் வஞ்சகத்திற்காக அவர் சங்கத்திலிருந்து வெளியேற்றப்பட்டார்.",
     "synonyms": [
-      "Dynamic",
-      "Motion-based"
+      "Roguery",
+      "Dishonesty",
+      "Chicanery",
+      "Trickery",
+      "Duplicity"
     ],
     "antonyms": [
-      "Static"
-    ],
-    "enExample2": "Mobile gesture animations use simulated kinetic momentum to create a natural, physics-driven scrolling feel.",
-    "taExample2": "மொபைல் அசைவு அனிமேஷன்கள் இயற்கையான இயற்பியல் உணர்வை உருவாக்க இயக்க உந்தத்தைப் (Kinetic Momentum) பயன்படுத்துகின்றன."
+      "Honesty",
+      "Integrity",
+      "Probity",
+      "Uprightness",
+      "Honor"
+    ]
   },
   {
     "id": 3364,
@@ -456,27 +473,33 @@
   },
   {
     "id": 1112,
-    "word": "Kiosk",
-    "definition": "A system mode configured to run a single application with restricted user permissions.",
-    "enExample": "The museum terminal operates in full-screen kiosk mode.",
-    "taExample": "அருங்காட்சியக முனையம் முழுத் திரை கியோஸ்க் (Kiosk) முறையில் இயங்குகிறது.",
-    "taWord": "கியோஸ்க் / கட்டுப்பாட்டு முறைமை",
+    "word": "Kakistocracy",
     "pos": "noun",
+    "definition": "A government or leadership structure run by the worst, least qualified, or most unscrupulous individuals.",
+    "taWord": "தகுதியற்றவர்களின் ஆட்சி / மிக மோசமான நபர்களின் நிர்வாகம்",
+    "enExample": "Citizens revolted against what political analysts universally described as a corrupt kakistocracy.",
+    "taExample": "அரசியல் ஆய்வாளர்கள் அனைவரும் ஊழல் நிறைந்த தகுதியற்றவர்களின் ஆட்சி என்று வர்ணித்ததற்கு எதிராக குடிமக்கள் கிளர்ந்தெழுந்தனர்.",
+    "enExample2": "Appointing incompetent cronies to critical infrastructure roles inevitably degenerated the agency into a kakistocracy.",
+    "taExample2": "முக்கிய உள்கட்டமைப்பு பணிகளுக்கு திறமையற்ற நபர்களை நியமித்தது இறுதியில் அந்த நிறுவனத்தை தகுதியற்றவர்களின் ஆட்சியாக சீரழித்தது.",
     "synonyms": [
-      "Locked-down interface"
+      "Incompetent rule",
+      "Worst government",
+      "Misrule",
+      "Dysfunctional governance"
     ],
     "antonyms": [
-      "Unrestricted OS"
-    ],
-    "enExample2": "The airport check-in terminal runs the web app in a locked-down, single-application kiosk mode.",
-    "taExample2": "விமான நிலைய முனையம் வலை பயன்பாட்டை பூட்டப்பட்ட பிரத்யேக கியோஸ்க் (Kiosk) பயன்முறையில் இயக்குகிறது."
+      "Meritocracy",
+      "Aristocracy",
+      "Technocracy",
+      "Capable leadership"
+    ]
   },
   {
     "id": 1115,
     "word": "Knapsack",
     "definition": "A classic combinatorial optimization algorithm problem in computer science.",
     "enExample": "The 0/1 Knapsack problem can be solved efficiently using dynamic programming.",
-    "taExample": "0/1 நॅपசாக் சிக்கலை டைனமிக் புரோகிராமிங் மூலம் திறம்பட தீர்க்க முடியும்.",
+    "taExample": "0/1 நேப்சாக் (Knapsack) சிக்கலை டைனமிக் புரோகிராமிங் மூலம் திறம்பட தீர்க்க முடியும்.",
     "taWord": "பை அல்காரிதம் (Knapsack)",
     "pos": "noun",
     "synonyms": [

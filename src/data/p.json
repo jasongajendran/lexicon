@@ -2882,24 +2882,27 @@
   },
   {
     "id": 3628,
-    "word": "Patience",
+    "word": "Panegyric",
     "pos": "noun",
-    "definition": "The capacity to accept or tolerate delay, trouble, or difficulty without getting angry or upset.",
-    "taWord": "பொறுமை / நிதானம்",
-    "enExample": "Debugging complex software bugs requires immense patience and systematic testing.",
-    "taExample": "சிக்கலான மென்பொருள் பிழைகளை சரிசெய்வதற்கு மாபெரும் பொறுமையும் முறையான சோதனையும் தேவைப்படுகிறது.",
-    "enExample2": "Parenting young children requires endless patience and a warm sense of humor.",
-    "taExample2": "சிறிய குழந்தைகளை வளர்ப்பதற்கு முடிவில்லாத பொறுமையும் வெதுவெதுப்பான நகைச்சுவை உணர்வும் தேவைப்படுகிறது.",
+    "definition": "A public speech or published text in praise of someone or something; a formal eulogy.",
+    "taWord": "புகழுரை / பாராட்டுப் பேருரை / போற்றிப் புகழும் உரை",
+    "enExample": "The keynote delivered an eloquent panegyric celebrating thirty years of Linux development.",
+    "taExample": "முக்கிய பேச்சாளர் முப்பது ஆண்டுகால லினக்ஸ் வளர்ச்சியைப் போற்றிப் புகழும் ஒரு நேர்த்தியான புகழுரையை ஆற்றினார்.",
+    "enExample2": "Her retirement ceremony featured heartfelt panegyrics from colleagues she had mentored.",
+    "taExample2": "அவரது ஓய்வுபெறும் விழாவில் அவர் வழிகாட்டிய சக ஊழியர்களின் இதயப்பூர்வமான புகழுரைகள் இடம்பெற்றன.",
     "synonyms": [
-      "Forbearance",
-      "Tolerance",
-      "Calmness",
-      "Endurance"
+      "Eulogy",
+      "Encomium",
+      "Tribute",
+      "Praise",
+      "Paean"
     ],
     "antonyms": [
-      "Impatience",
-      "Agitation",
-      "Irritability"
+      "Diatribe",
+      "Tirade",
+      "Denunciation",
+      "Invective",
+      "Harangue"
     ]
   },
   {
@@ -2948,25 +2951,27 @@
   },
   {
     "id": 3631,
-    "word": "Polite",
-    "pos": "adjective",
-    "definition": "Having or showing behavior that is respectful, considerate, and courteous to others.",
-    "taWord": "நாகரீகமான / மரியாதையான",
-    "enExample": "A polite request usually gets a much quicker and happier response from colleagues.",
-    "taExample": "ஒரு நாகரீகமான கோரிக்கை வழக்கமாக சக ஊழியர்களிடமிருந்து மிக விரைவான மற்றும் மகிழ்ச்சியான பதிலைப் பெறுகிறது.",
-    "enExample2": "Teaching children to say please and thank you makes them polite and pleasant.",
-    "taExample2": "தயவுசெய்து மற்றும் நன்றி என்று கூற குழந்தைகளுக்குக் கற்பிப்பது அவர்களை நாகரீகமாகவும் இனிமையாகவும் மாற்றுகிறது.",
+    "word": "Perspicuity",
+    "pos": "noun",
+    "definition": "Clarity and lucidity of expression or thought; freedom from ambiguity.",
+    "taWord": "தெளிவு / சொற் தெளிவு / சிந்தனையின் துல்லியத்தன்மை",
+    "enExample": "The mathematician was celebrated for the perspicuity of his textbook explanations.",
+    "taExample": "கணிதவியலாளர் தனது பாடப்புத்தக விளக்கங்களின் சொற் தெளிவிற்காக பெரிதும் பாராட்டப்பட்டார்.",
+    "enExample2": "Perspicuity in legal contracts protects both parties from expensive litigation.",
+    "taExample2": "சட்ட ஒப்பந்தங்களில் உள்ள தெளிவு இரு தரப்பினரையும் விலையுயர்ந்த நீதிமன்ற வழக்குகளிலிருந்து பாதுகாக்கிறது.",
     "synonyms": [
-      "Courteous",
-      "Respectful",
-      "Mannerly",
-      "Civil"
+      "Clarity",
+      "Lucidity",
+      "Plainness",
+      "Precision",
+      "Coherence"
     ],
     "antonyms": [
-      "Rude",
-      "Impolite",
-      "Courtesless",
-      "Disrespectful"
+      "Ambiguity",
+      "Obscurity",
+      "Vagueness",
+      "Murkiness",
+      "Confusion"
     ]
   },
   {
@@ -2978,7 +2983,7 @@
     "enExample": "Being punctual for team standup meetings demonstrates respect for everyone's time.",
     "taExample": "குழு நிலவரக் கூட்டங்களுக்கு காலந்தவறாமல் இருப்பது அனைவரின் நேரத்திற்கும் காட்டும் மரியாதையை வெளிப்படுத்துகிறது.",
     "enExample2": "Learning to be punctual for morning school buses instills good time management in kids.",
-    "taExample2": "காலை பள்ளிப் பேருந்துகளுக்குக் காலந்தவறாமல் இருக்கக் கற்றுக்கொள்வது बच्चोंல் நல்ல நேர மேலாண்மையை விதைக்கிறது.",
+    "taExample2": "காலை பள்ளிப் பேருந்துகளுக்குக் காலந்தவறாமல் இருக்கக் கற்றுக்கொள்வது குழந்தைகளிடம் நல்ல நேர மேலாண்மையை விதைக்கிறது.",
     "synonyms": [
       "On-time",
       "Prompt",

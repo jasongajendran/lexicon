@@ -1050,7 +1050,9 @@
       "abomination",
       "curse",
       "detestation",
-      "b सवालों"
+      "Abomination",
+      "Curse",
+      "Bane"
     ],
     "antonyms": [
       "blessing",
@@ -1631,21 +1633,27 @@
   },
   {
     "id": 118,
-    "word": "Asset",
-    "definition": "A useful or valuable thing, person, or quality.",
-    "enExample": "Static assets are served via CDN.",
-    "taExample": "நிலையான சொத்துக்கள் சிடிஎன் மூலம் வழங்கப்படுகின்றன.",
-    "taWord": "சொத்து",
+    "word": "Asceticism",
     "pos": "noun",
+    "definition": "Severe self-discipline and avoidance of all forms of indulgence, often for philosophical, intellectual, or spiritual devotion.",
+    "taWord": "துறவு வாழ்க்கை / தீவிர சுயக்கட்டுப்பாடு மற்றும் ஆடம்பர தவிர்ப்பு",
+    "enExample": "The philosopher practiced strict asceticism, living in a bare room to focus purely on scientific inquiry.",
+    "taExample": "அறிவியல் ஆய்வுகளில் தூய கவனம் செலுத்துவதற்காக தத்துவஞானி ஒரு வெற்று அறையில் வாழ்ந்து கடுமையான துறவு வாழ்க்கையைக் கடைப்பிடித்தார்.",
+    "enExample2": "Modern minimalist lifestyles often draw inspiration from ancient asceticism.",
+    "taExample2": "நவீன எளிய வாழ்க்கை முறைகள் பெரும்பாலும் பண்டைய துறவறக் கட்டுப்பாட்டு வாழ்க்கை முறையிலிருந்து உத்வேகம் பெறுகின்றன.",
     "synonyms": [
-      "Resource",
-      "Property"
+      "Austerity",
+      "Self-denial",
+      "Abstinence",
+      "Frugality",
+      "Simplicity"
     ],
     "antonyms": [
-      "Liability"
-    ],
-    "enExample2": "Static web assets like fonts, icons, and stylesheets are cached on a global content delivery network.",
-    "taExample2": "எழுத்துருக்கள், ஐகான்கள் போன்ற நிலையான வலை வளங்கள் (Assets) உலகளாவிய உள்ளடக்க விநியோக வலையமைப்பில் சேமிக்கப்படுகின்றன."
+      "Hedonism",
+      "Indulgence",
+      "Sensualism",
+      "Extravagance"
+    ]
   },
   {
     "id": 3482,
@@ -1778,23 +1786,27 @@
   },
   {
     "id": 2624,
-    "word": "Ate",
-    "definition": "Executed or performed something exceptionally well and with effortless style.",
-    "enExample": "The UI/UX designer absolutely ate with the new sleek dark-mode design system.",
-    "taExample": "புதிய நேர்த்தியான டார்க்-மோட் வடிவமைப்பு அமைப்பில் பயனர் இடைமுக வடிவமைப்பாளர் அற்புதமாகச் சாதித்தார்.",
-    "taWord": "அற்புதமாகச் சாதித்தல்",
-    "pos": "verb",
+    "word": "Auspicious",
+    "pos": "adjective",
+    "definition": "Giving or being a sign of future success; characterized by promising and favorable circumstances.",
+    "taWord": "மங்களகரமான / நற்பலன் தரும் / நல்ல சகுனமுள்ள",
+    "enExample": "Securing initial seed funding marked an auspicious beginning for the green energy startup.",
+    "taExample": "ஆரம்ப விதை நிதியைப் பெற்றது பசுமை எரிசக்தி தொடக்க நிறுவனத்திற்கு ஒரு மங்களகரமான தொடக்கமாக அமைந்தது.",
+    "enExample2": "Clear blue skies and calm waters provided an auspicious backdrop for the maiden sea voyage.",
+    "taExample2": "தெளிவான நீல வானமும் அமைதியான கடலும் முதல் கடல் பயணத்திற்கு ஒரு நல்ல தொடக்கப் பின்னணியை வழங்கின.",
     "synonyms": [
-      "Excelled",
-      "Triumphed",
-      "Succeeded"
+      "Propitious",
+      "Favorable",
+      "Promising",
+      "Advantageous",
+      "Fortunate"
     ],
     "antonyms": [
-      "Fumbled",
-      "Failed"
-    ],
-    "enExample2": "The newly introduced unbounded memory leak ate through all available RAM in under ten minutes.",
-    "taExample2": "புதிதாக ஏற்பட்ட நினைவக கசிவு பத்தே நிமிடங்களில் அனைத்து RAM நினைவகத்தையும் விழுங்கி தீர்த்துவிட்டது."
+      "Inauspicious",
+      "Ominous",
+      "Unfavorable",
+      "Sinister"
+    ]
   },
   {
     "id": 3480,

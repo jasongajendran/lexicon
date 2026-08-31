@@ -664,23 +664,27 @@
   },
   {
     "id": 2621,
-    "word": "Bet",
-    "definition": "An affirmative exclamation meaning 'yes', 'agreed', 'deal', or 'challenge accepted'.",
-    "enExample": "You want me to fix that production bug before the client demo? Bet.",
-    "taExample": "வாடிக்கையாளர் செய்முறைக்கு முன் அந்த தயாரிப்புப் பிழையை சரிசெய்ய வேண்டுமா? நிச்சயம் செய்கிறேன்.",
-    "taWord": "நிச்சயமாக / சம்மதம்",
-    "pos": "slang",
+    "word": "Beguile",
+    "pos": "verb",
+    "definition": "To charm or enchant someone, often in a deceptive or alluring manner; to help time pass pleasantly.",
+    "taWord": "வசியப்படுத்துதல் / மயக்குதல் / கவர்ச்சியாக ஏமாற்றுதல்",
+    "enExample": "The fraudulent scheme used slick presentations to beguile unwary angel investors.",
+    "taExample": "அந்த மோசடித் திட்டம் ஏமாறும் தொடக்கநிலை முதலீட்டாளர்களை கவர்ச்சியாக மயக்க நேர்த்தியான விளக்கக்காட்சிகளைப் பயன்படுத்தியது.",
+    "enExample2": "She beguiled the long international flight by reading classic literature.",
+    "taExample2": "செவ்வியல் இலக்கியங்களைப் படிப்பதன் மூலம் அவள் நீண்ட சர்வதேச விமானப் பயண நேரத்தை இனிமையாகக் கழித்தாள்.",
     "synonyms": [
-      "Agreed",
-      "Deal",
-      "Understood"
+      "Enchant",
+      "Captivate",
+      "Charm",
+      "Fascinate",
+      "Delude"
     ],
     "antonyms": [
-      "No way",
-      "Disagreed"
-    ],
-    "enExample2": "The leadership team made a strategic bet on Rust for rebuilding their core storage engine.",
-    "taExample2": "தலைமைக் குழு தனது முதன்மை சேமிப்பக இயந்திரத்தை மீண்டும் உருவாக்க ரஸ்ட் மொழியின் மீது உத்தி சார்ந்த நம்பிக்கையை வைத்தது."
+      "Repel",
+      "Disenchant",
+      "Repulse",
+      "Alienate"
+    ]
   },
   {
     "id": 217,
@@ -763,22 +767,27 @@
   },
   {
     "id": 221,
-    "word": "Bind",
-    "definition": "Tie or fasten tightly; associate a variable with a value.",
-    "enExample": "Bind the function to the correct context.",
-    "taExample": "சரியான சூழலுடன் செயல்பாட்டை இணைக்கவும்.",
-    "taWord": "இணைத்தல்",
-    "pos": "verb",
+    "word": "Brevity",
+    "pos": "noun",
+    "definition": "Concise and exact use of words in writing or speech; shortness of time or duration.",
+    "taWord": "சுருக்கம் / சொற்சுருக்கம் / சுருக்கமான வெளிப்பாடு",
+    "enExample": "The executive praised the engineering memo for its clarity and admirable brevity.",
+    "taExample": "நிர்வாகி அந்த பொறியியல் குறிப்பை அதன் தெளிவு மற்றும் வியத்தகு சுருக்கத்திற்காகப் பாராட்டினார்.",
+    "enExample2": "Brevity is the soul of wit when drafting high-impact executive summaries.",
+    "taExample2": "அதிக தாக்கத்தை ஏற்படுத்தும் நிர்வாக சுருக்கங்களை உருவாக்கும் போது சொற்சுருக்கமே புத்திசாலித்தனத்தின் சாரமாகும்.",
     "synonyms": [
-      "Attach",
-      "Link"
+      "Conciseness",
+      "Succinctness",
+      "Pithiness",
+      "Terseness",
+      "Compactness"
     ],
     "antonyms": [
-      "Unbind",
-      "Detach"
-    ],
-    "enExample2": "Socket listeners bind to port 8080 to accept incoming secure web connections.",
-    "taExample2": "இணைய இணைப்புகளைப் பெறுவதற்காக சாக்கெட் கேட்பவர்கள் போர்ட் 8080-உடன் இணைகிறார்கள்."
+      "Verbosity",
+      "Prolixity",
+      "Wordiness",
+      "Lengthiness"
+    ]
   },
   {
     "id": 2955,
@@ -981,23 +990,27 @@
   },
   {
     "id": 2639,
-    "word": "Bop",
-    "definition": "Something exceptionally good, catchy, or enjoyable (originally songs, now features or tools).",
-    "enExample": "This new instant-search autocomplete component is an absolute bop.",
-    "taExample": "இந்த புதிய உடனடித் தேடல் தானியங்கி பூர்த்தி கூறு மிகவும் அருமையாக செயல்படுகிறது.",
-    "taWord": "மிகச் சிறந்த / மனதைக் கவரும் அம்சம்",
-    "pos": "slang",
+    "word": "Blandishment",
+    "pos": "noun",
+    "definition": "A flattering or pleasing statement or action used to persuade someone gently to do something.",
+    "taWord": "இனிமையான புகழுரை / நயந்து பேசும் முகஸ்துதி",
+    "enExample": "The steadfast engineer remained immune to political blandishments and insisted on rigorous safety checks.",
+    "taExample": "உறுதியான பொறியாளர் அரசியல் முகஸ்துதி பேச்சுகளுக்கு மயங்காமல் கடுமையான பாதுகாப்பு சோதனைகளை வலியுறுத்தினார்.",
+    "enExample2": "Despite the vendor's persuasive blandishments, the committee rejected the overpriced software proposal.",
+    "taExample2": "விற்பனையாளரின் கவர்ச்சியான நயப்புப் பேச்சுகள் இருந்தபோதிலும், குழு அதிக விலை கொண்ட மென்பொருள் திட்டத்தை நிராகரித்தது.",
     "synonyms": [
-      "Hit",
-      "Masterpiece",
-      "Gem"
+      "Flattery",
+      "Cajolery",
+      "Coaxing",
+      "Enticement",
+      "Wheedling"
     ],
     "antonyms": [
-      "Dud",
-      "Flop"
-    ],
-    "enExample2": "The rhythmic notification sound provided a subtle bop whenever a task was marked complete.",
-    "taExample2": "ஒரு பணி நிறைவடையும் போதெல்லாம் மெல்லிய தாள ஒலி அறிவிப்பு இனிமையாக ஒலித்தது."
+      "Deterrence",
+      "Rebuff",
+      "Criticism",
+      "Insult"
+    ]
   },
   {
     "id": 206,
@@ -1180,22 +1193,28 @@
   },
   {
     "id": 235,
-    "word": "Brevity",
-    "definition": "Concise and exact use of words in writing or speech.",
-    "enExample": "Brevity in status updates helps keep meetings efficient.",
-    "taExample": "நிலவர புதுப்பிப்புகளில் சுருக்கம் கூட்டங்களை திறம்பட வைக்க உதவுகிறது.",
-    "taWord": "சுருக்கம்",
-    "pos": "noun",
+    "word": "Benighted",
+    "pos": "adjective",
+    "definition": "In a state of pitiful or contemptible intellectual or moral ignorance; overtaken by darkness.",
+    "taWord": "அறிவிலியான / அறியாமை இருளில் மூழ்கிய / மூடநம்பிக்கை கொண்ட",
+    "enExample": "Enlightenment thinkers aimed to liberate society from benighted medieval superstitions.",
+    "taExample": "அறிவொளி சிந்தனையாளர்கள் சமூகத்தை அறியாமை இருளில் மூழ்கிய இடைக்கால மூடநம்பிக்கைகளிலிருந்து விடுவிக்க விரும்பினர்.",
+    "enExample2": "The remote, isolated settlement suffered under benighted medical practices until clinics arrived.",
+    "taExample2": "மருத்துவமனைகள் வரும் வரை அந்த தொலைதூர கிராமம் அறியாமையான மருத்துவ முறைகளால் பாதிக்கப்பட்டது.",
     "synonyms": [
-      "Conciseness",
-      "Succinctness"
+      "Ignorant",
+      "Unenlightened",
+      "Illiterate",
+      "Uneducated",
+      "Backward"
     ],
     "antonyms": [
-      "Verbosity",
-      "Lengthiness"
-    ],
-    "enExample2": "The team appreciated the brevity and clarity of the post-incident postmortem report.",
-    "taExample2": "சம்பவத்திற்குப் பிந்தைய ஆய்வறிக்கையின் சுருக்கத்தையும் தெளிவையும் குழு மிகவும் பாராட்டியது."
+      "Enlightened",
+      "Educated",
+      "Cultured",
+      "Knowledgeable",
+      "Illuminated"
+    ]
   },
   {
     "id": 222,
@@ -1374,22 +1393,28 @@
   },
   {
     "id": 208,
-    "word": "Bug",
-    "definition": "An error, flaw, or fault in a computer program or system.",
-    "enExample": "We found a critical bug in the production release.",
-    "taExample": "உற்பத்தி வெளியீட்டில் ஒரு முக்கியமான பிழையை நாங்கள் கண்டறிந்தோம்.",
-    "taWord": "பிழை",
-    "pos": "noun",
+    "word": "Baleful",
+    "pos": "adjective",
+    "definition": "Threatening harm; menacing, ominous, or having a harmful or destructive effect.",
+    "taWord": "தீமை விளைவிக்கும் / அச்சுறுத்தும் / கொடிய நாசகரமான",
+    "enExample": "The rogue general cast a baleful glare at the peace delegates before storming out of the room.",
+    "taExample": "அந்த தளபதி அறையிலிருந்து வெளியேறுவதற்கு முன் அமைதிப் பிரதிநிதிகள் மீது ஒரு அச்சுறுத்தும் கொடிய பார்வையை வீசினார்.",
+    "enExample2": "Deforestation exerted a baleful influence on regional rainfall patterns.",
+    "taExample2": "காடழிப்பு பிராந்திய மழைப்பொழிவு முறைகளில் ஒரு கொடிய நாசகரமான தாக்கத்தை ஏற்படுத்தியது.",
     "synonyms": [
-      "Error",
-      "Glitch"
+      "Menacing",
+      "Sinister",
+      "Threatening",
+      "Malignant",
+      "Harmful"
     ],
     "antonyms": [
-      "Fix",
-      "Feature"
-    ],
-    "enExample2": "A subtle off-by-one bug in the pagination loop caused the last item to be omitted.",
-    "taExample2": "பக்கமாக்கல் வளையத்தில் இருந்த ஒரு சிறிய எண் பிழை கடைசி உருப்படி விடுபடக் காரணமாக அமைந்தது."
+      "Benevolent",
+      "Auspicious",
+      "Harmless",
+      "Beneficial",
+      "Friendly"
+    ]
   },
   {
     "id": 2714,
@@ -1412,41 +1437,51 @@
   },
   {
     "id": 225,
-    "word": "Build",
-    "definition": "Construct something by putting parts or material together.",
-    "enExample": "Trigger a new build in the CI pipeline.",
-    "taExample": "சிஐ பைப்லைனில் ஒரு புதிய உருவாக்கத்தைத் தூண்டவும்.",
-    "taWord": "உருவாக்கம்",
-    "pos": "noun",
+    "word": "Burgeon",
+    "pos": "verb",
+    "definition": "To begin to grow or increase rapidly; to flourish and expand exponentially.",
+    "taWord": "வேகமாக வளர்ச்சியடைதல் / செழித்து விரிவடைதல்",
+    "enExample": "Demand for artificial intelligence infrastructure continues to burgeon across all enterprise sectors.",
+    "taExample": "செயற்கை நுண்ணறிவு உள்கட்டமைப்புக்கான தேவை அனைத்து நிறுவனத் துறைகளிலும் தொடர்ந்து வேகமாக வளர்ச்சியடைந்து வருகிறது.",
+    "enExample2": "The coastal town burgeoned into a thriving tech metropolis within a single decade.",
+    "taExample2": "அந்தக் கடலோர நகரம் ஒரே தசாப்தத்தில் செழிப்பான தொழில்நுட்ப பெருநகரமாக உருவெடுத்தது.",
     "synonyms": [
-      "Construct",
-      "Assemble"
+      "Flourish",
+      "Thrive",
+      "Expand",
+      "Proliferate",
+      "Mushroom"
     ],
     "antonyms": [
-      "Destroy",
-      "Dismantle"
-    ],
-    "enExample2": "The automated production build minifies CSS bundles and outputs tree-shaken JavaScript.",
-    "taExample2": "தானியங்கி உற்பத்தி கட்டமைப்பு CSS கோப்புகளை சுருக்கி தேவையற்ற ஜாவாஸ்கிரிப்ட் பகுதிகளை நீக்கி வெளியிடுகிறது."
+      "Wither",
+      "Decline",
+      "Dwindle",
+      "Diminish"
+    ]
   },
   {
     "id": 214,
-    "word": "Bulk",
-    "definition": "In large amounts.",
-    "enExample": "Use bulk inserts to speed up the database operation.",
-    "taExample": "தரவுத்தள செயல்பாட்டை விரைவுபடுத்த மொத்த செருகல்களைப் பயன்படுத்தவும்.",
-    "taWord": "மொத்தமாக",
+    "word": "Bulwark",
     "pos": "noun",
+    "definition": "A defensive wall, fortress, or person/principle acting as a powerful safeguard against danger or violation.",
+    "taWord": "பாதுகாப்பு அரண் / வலிமையான கேடயம்",
+    "enExample": "Cryptographic encryption serves as an essential bulwark against unauthorized surveillance and data breaches.",
+    "taExample": "கிரிப்டோகிராஃபிக் குறியாக்கம் அங்கீகரிக்கப்படாத கண்காணிப்பு மற்றும் தரவு திருட்டுக்கு எதிரான அத்தியாவசிய பாதுகாப்பு அரணாக செயல்படுகிறது.",
+    "enExample2": "A free and independent press is the strongest bulwark of a functioning democratic republic.",
+    "taExample2": "சுதந்திரமான மற்றும் சார்பற்ற பத்திரிகையே ஒரு ஜனநாயகக் குடியரசின் வலிமையான பாதுகாப்பு அரணாகும்.",
     "synonyms": [
-      "Mass",
-      "Volume"
+      "Rampart",
+      "Bastion",
+      "Fortress",
+      "Shield",
+      "Safeguard"
     ],
     "antonyms": [
-      "Individual",
-      "Single"
-    ],
-    "enExample2": "Use bulk inserts when importing millions of rows to significantly speed up database population.",
-    "taExample2": "மில்லியன் கணக்கான வரிசைகளை உள்ளிடும் போது தரவுத்தள பதிவேற்றத்தை விரைவுபடுத்த மொத்த உள்ளீட்டு முறையைப் பயன்படுத்தவும்."
+      "Vulnerability",
+      "Weak point",
+      "Exposure",
+      "Liability"
+    ]
   },
   {
     "id": 216,

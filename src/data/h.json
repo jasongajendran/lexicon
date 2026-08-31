@@ -1,22 +1,27 @@
 [
   {
     "id": 801,
-    "word": "Hack",
-    "definition": "A clever or inelegant solution to a problem; unauthorized access to data.",
-    "enExample": "I had to use a dirty hack to get it working on Internet Explorer.",
-    "taExample": "இன்டர்நெட் எக்ஸ்புளோரரில் இது வேலை செய்ய நான் ஒரு தற்காலிக / மோசமான தீர்வைப் பயன்படுத்த வேண்டியிருந்தது.",
-    "taWord": "தற்காலிக தீர்வு / ஊடுருவல்",
+    "word": "Hegemony",
     "pos": "noun",
+    "definition": "Leadership or dominance, especially by one state, social group, or corporation over others.",
+    "taWord": "மேலாதிக்கம் / ஆதிக்க தலைமை / செல்வாக்கு",
+    "enExample": "Open-source standards challenge the historical hegemony of closed proprietary software ecosystems.",
+    "taExample": "திறந்த மூலத் தரநிலைகள் மூடிய தனியுரிம மென்பொருள் சுற்றுச்சூழல் அமைப்புகளின் வரலாற்று மேலாதிக்கத்திற்கு சவால் விடுகின்றன.",
+    "enExample2": "The semiconductor superpower sought to protect its technological hegemony through strategic export controls.",
+    "taExample2": "குறைக்கடத்தி வல்லரசு மூலோபாய ஏற்றுமதி கட்டுப்பாடுகள் மூலம் தனது தொழில்நுட்ப மேலாதிக்கத்தைப் பாதுகாக்க முயன்றது.",
     "synonyms": [
-      "Workaround",
-      "Tweak"
+      "Dominance",
+      "Supremacy",
+      "Ascendancy",
+      "Mastery",
+      "Sovereignty"
     ],
     "antonyms": [
-      "Fix",
-      "Standard"
-    ],
-    "enExample2": "Using a CSS timeout hack to fix layout shifts is unacceptable for production enterprise code.",
-    "taExample2": "திரை மாற்றங்களைச் சரிசெய்ய தற்காலிக குறுக்குவழிகளைப் (Hack) பயன்படுத்துவது உற்பத்தி குறியீட்டிற்கு ஏற்றதல்ல."
+      "Subordination",
+      "Servitude",
+      "Powerlessness",
+      "Defeat"
+    ]
   },
   {
     "id": 3358,
@@ -121,22 +126,27 @@
   },
   {
     "id": 802,
-    "word": "Halt",
-    "definition": "Bring or come to an abrupt stop.",
-    "enExample": "The execution will halt if a critical error is encountered.",
-    "taExample": "ஒரு முக்கியமான பிழை ஏற்பட்டால் செயல்பாடு நிறுத்தப்படும்.",
-    "taWord": "நிறுத்தம்",
-    "pos": "verb",
+    "word": "Harangue",
+    "pos": "noun",
+    "definition": "A lengthy and aggressive speech delivered with intense passion, vehement criticism, or moralizing lecture.",
+    "taWord": "நீண்ட காரசாரமான உரை / ஆவேசமான கண்டனப் பேச்சு",
+    "enExample": "Instead of conducting a collaborative sprint review, the manager launched into a harsh harangue about missed deadlines.",
+    "taExample": "ஒருங்கிணைந்த மதிப்பாய்வை நடத்துவதற்குப் பதிலாக, மேலாளர் தவறிய காலக்கெடுவைப் பற்றி கடுமையான ஆவேச உரையை நிகழ்த்தினார்.",
+    "enExample2": "The crowd dispersed rather than listen to the street preacher’s bitter harangue.",
+    "taExample2": "தெருப் போதகரின் கசப்பான கண்டனப் பேச்சைக் கேட்பதை விடக் கூட்டம் கலைந்து சென்றது.",
     "synonyms": [
-      "Stop",
-      "Pause"
+      "Tirade",
+      "Diatribe",
+      "Polemic",
+      "Rant",
+      "Lecture"
     ],
     "antonyms": [
-      "Continue",
-      "Start"
-    ],
-    "enExample2": "The continuous deployment pipeline will automatically halt execution if any critical unit test fails.",
-    "taExample2": "ஏதேனும் முக்கியமான சோதனை தோல்வியடைந்தால் தானியங்கி வெளியீட்டு அமைப்பு உடனடியாக செயல்பாட்டை நிறுத்தும் (Halt)."
+      "Praise",
+      "Tribute",
+      "Encomium",
+      "Panegyric"
+    ]
   },
   {
     "id": 803,
@@ -236,23 +246,27 @@
   },
   {
     "id": 805,
-    "word": "Hash",
-    "definition": "A mathematical algorithm that maps data of arbitrary size to a bit string of a fixed size.",
-    "enExample": "We store the password as a cryptographic hash.",
-    "taExample": "நாங்கள் கடவுச்சொல்லை ஒரு குறியாக்க ஹாஷாக சேமிக்கிறோம்.",
-    "taWord": "ஹாஷ் (சீரற்ற சரமாக மாற்றுதல்)",
+    "word": "Hubris",
     "pos": "noun",
+    "definition": "Excessive pride, overweening self-confidence, or arrogance that often leads to downfall.",
+    "taWord": "மமதை / அதீத இறுமாப்பு / வீழ்ச்சிக்கு வழிவகுக்கும் செருக்கு",
+    "enExample": "Corporate hubris led the tech giant to dismiss mobile internet computing as a passing fad.",
+    "taExample": "நிறுவன மமதை அந்த தொழில்நுட்ப நிறுவனத்தை மொபைல் இணைய பயன்பாட்டை ஒரு தற்காலிக போக்கு என புறக்கணிக்க வைத்தது.",
+    "enExample2": "Greek tragedies repeatedly illustrate how mortal hubris invites devastating retribution from the gods.",
+    "taExample2": "மனித மமதை எவ்வாறு கடவுள்களிடமிருந்து பேரழிவுத் தண்டனையை ஈர்க்கிறது என்பதை கிரேக்க சோக நாடகங்கள் மீண்டும் மீண்டும் விளக்குகின்றன.",
     "synonyms": [
-      "Digest",
-      "Checksum"
+      "Arrogance",
+      "Conceit",
+      "Haughtiness",
+      "Vanity",
+      "Presumption"
     ],
     "antonyms": [
-      "Plaintext",
-      "Cleartext",
-      "Decrypted payload"
-    ],
-    "enExample2": "The authentication service computes a SHA-256 hash of the password before storing it securely.",
-    "taExample2": "அங்கீகார சேவை கடவுச்சொல்லை பாதுகாப்பாக சேமிப்பதற்கு முன் அதன் SHA-256 ஹாஷ் (Hash) மதிப்பை கணக்கிடுகிறது."
+      "Humility",
+      "Modesty",
+      "Meekness",
+      "Diffidence"
+    ]
   },
   {
     "id": 820,
@@ -313,21 +327,27 @@
   },
   {
     "id": 807,
-    "word": "Heap",
-    "definition": "An area of memory used for dynamic memory allocation.",
-    "enExample": "Objects created with the 'new' keyword are allocated on the heap.",
-    "taExample": "'new' என்ற சொல்லுடன் உருவாக்கப்படும் பொருள்கள் குவியலில் (Heap) ஒதுக்கப்படுகின்றன.",
-    "taWord": "குவியல்",
-    "pos": "noun",
+    "word": "Heterogeneous",
+    "pos": "adjective",
+    "definition": "Diverse in character or content; composed of parts of different kinds.",
+    "taWord": "பல்வேறு வகையான / பலதரப்பட்ட கூறுகளால் ஆன / கலவையான",
+    "enExample": "Modern cloud architectures orchestrate heterogeneous workloads across CPU, GPU, and TPU clusters.",
+    "taExample": "நவீன கிளவுட் கட்டமைப்புகள் CPU, GPU மற்றும் TPU முனையங்களில் பலதரப்பட்ட பணிச்சுமைகளை ஒருங்கிணைக்கின்றன.",
+    "enExample2": "The research team was heterogeneous, bringing together economists, programmers, and sociologists.",
+    "taExample2": "ஆராய்ச்சிக் குழு பலதரப்பட்டதாக இருந்தது, அதில் பொருளாதார வல்லுநர்கள், புரோகிராமர்கள் மற்றும் சமூகவியலாளர்கள் இணைந்திருந்தனர்.",
     "synonyms": [
-      "Pile",
-      "Memory pool"
+      "Diverse",
+      "Varied",
+      "Disparate",
+      "Miscellaneous",
+      "Multifarious"
     ],
     "antonyms": [
-      "Stack"
-    ],
-    "enExample2": "The garbage collector freed up unused objects from the heap to prevent an out-of-memory exception.",
-    "taExample2": "நினைவக பற்றாக்குறை பிழையைத் தவிர்க்க தூய்மைப்படுத்தும் நிரல் பயன்படுத்தப்படாத பொருட்களை ஹீப் நினைவகத்திலிருந்து விடுவித்தது."
+      "Homogeneous",
+      "Uniform",
+      "Identical",
+      "Consistent"
+    ]
   },
   {
     "id": 3233,
@@ -411,25 +431,26 @@
   },
   {
     "id": 2869,
-    "word": "Hegemony",
-    "pos": "noun",
-    "definition": "Dominant political, economic, or military authority and leadership exercised by one nation over others.",
-    "enExample": "The summit addressed emerging regional alliances challenging traditional Western economic hegemony.",
-    "taWord": "மேலாதிக்கம் / ஆதிக்க தலைமை",
-    "taExample": "உலகளாவிய வர்த்தகத்தில் ஒரு நாட்டின் மேலாதிக்கத்தை குறைக்க புதிய கூட்டணிகள் உருவாயின.",
+    "word": "Hermeneutic",
+    "pos": "adjective",
+    "definition": "Concerning interpretation, especially of literary texts, scriptures, or philosophical concepts.",
+    "taWord": "விளக்கவியல் சார்ந்த / நூல்களின் உட்பொருளை விளக்கும் ஆய்வு முறை",
+    "enExample": "The scholar applied a modern hermeneutic framework to decipher ancient legal codes.",
+    "taExample": "பண்டைய சட்ட விதிகளின் உட்பொருளைப் புரிந்துகொள்ள அந்த அறிஞர் நவீன விளக்கவியல் கட்டமைப்பைப் பயன்படுத்தினார்.",
+    "enExample2": "Constitutional law involves complex hermeneutic debates regarding the original intent of lawmakers.",
+    "taExample2": "அரசியலமைப்புச் சட்டம் என்பது சட்டமன்ற உறுப்பினர்களின் அசல் நோக்கத்தைப் பற்றிய சிக்கலான விளக்கவியல் விவாதங்களை உள்ளடக்கியது.",
     "synonyms": [
-      "Dominance",
-      "Supremacy",
-      "Ascendancy",
-      "Mastery"
+      "Interpretive",
+      "Explanatory",
+      "Expository",
+      "Analytical",
+      "Critical"
     ],
     "antonyms": [
-      "Subjugation",
-      "Egalitarianism",
-      "Multilateral balance"
-    ],
-    "enExample2": "Open-source cross-platform engines challenged the market hegemony of proprietary desktop frameworks.",
-    "taExample2": "திறந்த மூல குறுக்கு-தள இயந்திரங்கள் தனியுரிம கட்டமைப்புகளின் சந்தை ஆதிக்கத்திற்கு பெரும் சவாலாக அமைந்தன."
+      "Literal",
+      "Uncritical",
+      "Superficial"
+    ]
   },
   {
     "id": 2791,
@@ -710,22 +731,28 @@
   },
   {
     "id": 811,
-    "word": "Host",
-    "definition": "A computer or other device connected to a computer network.",
-    "enExample": "The application is running on a cloud host.",
-    "taExample": "பயன்பாடு கிளவுட் தொகுப்பாளனில் (Host) இயங்குகிறது.",
-    "taWord": "தொகுப்பாளர் / வழங்கி",
-    "pos": "noun",
+    "word": "Histrionic",
+    "pos": "adjective",
+    "definition": "Overly theatrical, melodramatic, or dramatic in character or style, typically designed to attract attention.",
+    "taWord": "நாடகத்தனமான / மிகைப்படுத்தப்பட்ட பாசாங்குடைய / உணர்ச்சிவசப்படும்",
+    "enExample": "His histrionic reaction to minor code review comments distracted the entire development team.",
+    "taExample": "சிறிய குறியாய்வுக் கருத்துகளுக்கு அவரது நாடகத்தனமான எதிர்வினை முழு மேம்பாட்டுக் குழுவின் கவனத்தையும் திசை திருப்பியது.",
+    "enExample2": "The defense attorney dismissed the prosecutor’s closing statement as empty histrionic showmanship.",
+    "taExample2": "பிரதிவாதி வழக்கறிஞர் அரசு வழக்கறிஞரின் இறுதி அறிக்கையை வெறும் நாடகத்தனமான காட்சி என்று நிராகரித்தார்.",
     "synonyms": [
-      "Server",
-      "Node"
+      "Theatrical",
+      "Melodramatic",
+      "Overdramatic",
+      "Affecting",
+      "Stagy"
     ],
     "antonyms": [
-      "Client",
-      "Guest"
-    ],
-    "enExample2": "Cloud storage buckets can host static web applications with global SSL certificates out of the box.",
-    "taExample2": "கிளவுட் சேமிப்பக கொள்கலன்கள் நிலையான வலைப்பயன்பாடுகளை உலகளாவிய பாதுகாப்பு சான்றிதழ்களுடன் வழங்க (Host) முடியும்."
+      "Restrained",
+      "Subdued",
+      "Stoic",
+      "Understated",
+      "Calm"
+    ]
   },
   {
     "id": 825,
@@ -788,23 +815,28 @@
   },
   {
     "id": 818,
-    "word": "Hubris",
-    "definition": "Excessive pride or self-confidence.",
-    "enExample": "The self-assured hubris among economists was shaken in the late 1980s.",
-    "taExample": "பொருளாதார நிபுணர்களிடையேயான தன்னம்பிக்கை ஆணவம் 1980களின் பிற்பகுதியில் ஆட்டம் கண்டது.",
-    "taWord": "ஆணவம்",
+    "word": "Heterodoxy",
     "pos": "noun",
+    "definition": "The quality of being unorthodox, unconventional, or holding opinions at variance with official doctrine.",
+    "taWord": "பாரம்பரியத்திற்கு மாறான கொள்கை / மாற்றுச் சிந்தனை / வழக்கத்திற்கு மாறான கோட்பாடு",
+    "enExample": "Galileo's astronomical heterodoxy brought him into direct conflict with ecclesiastical authorities.",
+    "taExample": "கலிலியோவின் வழக்கத்திற்கு மாறான வானியல் கோட்பாடு அவரை மத அதிகாரிகளுடன் நேரடி மோதலுக்கு இட்டுச் சென்றது.",
+    "enExample2": "Silicon Valley thrives on technological heterodoxy that disrupts legacy business monopolies.",
+    "taExample2": "சிலிக்கான் வேலி பாரம்பரிய வணிக ஏகபோகங்களை சீர்குலைக்கும் வழக்கத்திற்கு மாறான தொழில்நுட்ப சிந்தனைகளால் செழித்து வளர்கிறது.",
     "synonyms": [
-      "Arrogance",
-      "Conceit",
-      "Haughtiness"
+      "Unorthodoxy",
+      "Heresy",
+      "Nonconformity",
+      "Dissent",
+      "Iconoclasm"
     ],
     "antonyms": [
-      "Humility",
-      "Modesty"
-    ],
-    "enExample2": "Skipping staging environment testing before a major database migration proved to be costly hubris.",
-    "taExample2": "ஒரு பெரிய தரவுத்தள மாற்றத்திற்கு முன் சோதனை சூழலைத் தவிர்த்தது அதிக செலவை ஏற்படுத்திய அதீத தன்னம்பிக்கையாக அமைந்தது."
+      "Orthodoxy",
+      "Conformity",
+      "Tradition",
+      "Dogma",
+      "Conventionalism"
+    ]
   },
   {
     "id": 826,

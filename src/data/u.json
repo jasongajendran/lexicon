@@ -237,7 +237,7 @@
     "word": "Underflow",
     "definition": "A mathematical or buffer error occurring when a calculation produces a number smaller than the minimum representable value.",
     "enExample": "Stack underflow happens when attempting to pop elements from an empty stack.",
-    "taExample": "வெற்று அடுக்கிலிருந்து উপাদানங்களை பாப் செய்ய முயற்சிக்கும் போது ஸ்டாக் அண்டர்ஃபுளோ (Underflow) ஏற்படுகிறது.",
+    "taExample": "வெற்று அடுக்கிலிருந்து உறுப்புகளை பாப் செய்ய முயற்சிக்கும் போது ஸ்டாக் அண்டர்ஃபுளோ (Underflow) ஏற்படுகிறது.",
     "taWord": "கீழ்வழிவு (Underflow)",
     "pos": "noun",
     "synonyms": [
@@ -294,23 +294,28 @@
   },
   {
     "id": 2105,
-    "word": "Uniform",
-    "definition": "Maintaining a consistent structure, format, or interface across software components and API design.",
-    "enExample": "RESTful architectures enforce a uniform interface standard across network endpoints.",
-    "taExample": "RESTful கட்டமைப்புகள் நெட்வொர்க் எண்ட்பாயிண்டுகள் முழுவதும் ஒரு சீரான (Uniform) இடைமுகத் தரவை நடைமுறைப்படுத்துகின்றன.",
-    "taWord": "சீரான / ஒரே மாதிரியான",
-    "pos": "adj.",
+    "word": "Unctuousness",
+    "pos": "noun",
+    "definition": "Excessive or ingratiating flattering; oily, insincere charm.",
+    "taWord": "வழுவழுப்பான போலி முகஸ்துதி / பாசாங்குத்தனம் / கபடமான இனிமை",
+    "enExample": "The salesman’s unctuousness immediately made the skeptical buyers suspicious of the deal.",
+    "taExample": "விற்பனையாளரின் வழுவழுப்பான போலி முகஸ்துதி சந்தேகமடைந்த வாங்குபவர்களுக்கு ஒப்பந்தத்தின் மீது சந்தேகத்தை ஏற்படுத்தியது.",
+    "enExample2": "Politicians who rely on unctuousness often fail to connect with genuine voters.",
+    "taExample2": "பாசாங்குத்தனத்தை நம்பியிருக்கும் அரசியல்வாதிகள் பெரும்பாலும் உண்மையான வாக்காளர்களுடன் இணையத் தவறிவிடுகிறார்கள்.",
     "synonyms": [
-      "Consistent",
-      "Standardized",
-      "Homogeneous"
+      "Smugness",
+      "Insincerity",
+      "Oiliness",
+      "Servility",
+      "Sycophancy"
     ],
     "antonyms": [
-      "Non-uniform",
-      "Varied"
-    ],
-    "enExample2": "Enforcing uniform code formatting across all microservices improves developer readability and onboarding speed.",
-    "taExample2": "அனைத்து நுண்சேவைகளிலும் சீரான (Uniform) குறியீட்டு வடிவமைப்பை அமல்படுத்துவது உருவாக்குநர்களின் வாசிப்புத் திறனை மேம்படுத்துகிறது."
+      "Sincerity",
+      "Genuineness",
+      "Candor",
+      "Honesty",
+      "Authenticity"
+    ]
   },
   {
     "id": 3571,
@@ -417,24 +422,27 @@
   },
   {
     "id": 3307,
-    "word": "Unpack",
-    "pos": "Verb",
-    "definition": "To systematically analyze, break down, and explain a complex concept, bug report, or incident.",
-    "taWord": "விவரித்துப் பகுப்பாய்வு செய் (Vivarithup pagupaayvu sey)",
-    "enExample": "Let's unpack the architecture diagram to understand how user requests flow through the API gateway.",
-    "taExample": "API வாயில் வழியாக பயனர் கோரிக்கைகள் எவ்வாறு பாய்கின்றன என்பதைப் புரிந்துகொள்ள கட்டிடக்கலை வரைபடத்தை விவரித்துப் பகுப்பாய்வு செய்வோம்.",
-    "enExample2": "The speaker unpacked the intricate details of zero-knowledge cryptography in simple terms.",
-    "taExample2": "பேச்சாளர் பூஜ்ஜிய அறிவு மறைவிலக்கத்தின் சிக்கலான விவரங்களை எளிய சொற்களில் விவரித்துப் பகுப்பாய்வு செய்தார்.",
+    "word": "Unconscionable",
+    "pos": "adjective",
+    "definition": "Not right or reasonable; unreasonably excessive, outrageous, or shocking to conscience.",
+    "taWord": "மனசாட்சியற்ற / நியாயமற்ற / அதிர்ச்சியூட்டும் வகையில் வரம்பு மீறிய",
+    "enExample": "Price gouging on life-saving medications during a health crisis is morally unconscionable.",
+    "taExample": "சுகாதார நெருக்கடியின் போது உயிர்காக்கும் மருந்துகளின் விலையை கடுமையாக உயர்த்துவது ஒழுக்க ரீதியாக மனசாட்சியற்ற செயலாகும்.",
+    "enExample2": "The contractor charged an unconscionable sum for simple routine website maintenance.",
+    "taExample2": "எளிய வழக்கமான இணையதள பராமரிப்பிற்கு ஒப்பந்ததாரர் ஒரு நியாயமற்ற தொகையை வசூலித்தார்.",
     "synonyms": [
-      "analyze",
-      "dissect",
-      "explain",
-      "deconstruct"
+      "Unethical",
+      "Outrageous",
+      "Unreasonable",
+      "Excessive",
+      "Iniquitous"
     ],
     "antonyms": [
-      "compress",
-      "gloss over",
-      "obfuscate"
+      "Conscionable",
+      "Reasonable",
+      "Fair",
+      "Just",
+      "Acceptable"
     ]
   },
   {
@@ -613,42 +621,51 @@
   },
   {
     "id": 2111,
-    "word": "Uptime",
-    "definition": "The duration or percentage of time during which a server or application remains continuously operational and available.",
-    "enExample": "Cloud SLAs guarantee 99.99% infrastructure uptime across availability zones.",
-    "taExample": "கிளவுட் சேவை உடன்படிக்கைகள் கிடைக்கும்தன்மை மண்டலங்களில் 99.99% உள்கட்டமைப்பு இயங்குநேரத்திற்கு (Uptime) உத்தரவாதம் அளிக்கின்றன.",
-    "taWord": "இயங்குநேரம் (Uptime)",
+    "word": "Upbraiding",
     "pos": "noun",
+    "definition": "A severe scolding, rebuke, or expression of harsh disapproval.",
+    "taWord": "கடுமையான கண்டனம் / கடிந்துரைத்தல் / திட்டுதல்",
+    "enExample": "The junior developer received a stern upbraiding for pushing untested code straight to production.",
+    "taExample": "சோதிக்கப்படாத குறியீட்டை நேரடியாக தயாரிப்பு சர்வரில் செலுத்தியதற்காக ஜூனியர் டெவலப்பர் கடுமையான கண்டனத்தைப் பெற்றார்.",
+    "enExample2": "Her quiet dignity was far more effective than an angry verbal upbraiding.",
+    "taExample2": "அவரது அமைதியான கௌரவம் கோபமான வாய்மொழி கடிந்துரைத்தலை விட மிகவும் பயனுள்ளதாக இருந்தது.",
     "synonyms": [
-      "Availability",
-      "Operational period"
+      "Rebuke",
+      "Reproach",
+      "Scolding",
+      "Chiding",
+      "Admonition"
     ],
     "antonyms": [
-      "Downtime",
-      "Outage"
-    ],
-    "enExample2": "Our enterprise service level agreement guarantees 99.99% monthly infrastructure uptime.",
-    "taExample2": "எங்கள் நிறுவன சேவை ஒப்பந்தம் 99.99% மாதாந்திர உள்கட்டமைப்பு செயல்பாட்டு நேரத்தை (Uptime) உத்தரவாதம் செய்கிறது."
+      "Commendation",
+      "Praise",
+      "Compliment",
+      "Acclaim",
+      "Approval"
+    ]
   },
   {
     "id": 2113,
-    "word": "Usability",
-    "definition": "The ease of use, accessibility, and intuitive user experience provided by an application.",
-    "enExample": "Conduct usability testing to streamline checkout user workflows.",
-    "taExample": "செக்அவுட் பயனர் பணிப்பாய்வுகளை சீரமைக்க பயன்பாட்டின் பயன்பாட்டுத் திறனை (Usability) சோதியுங்கள்.",
-    "taWord": "பயன்பாட்டுத் திறன் (Usability)",
+    "word": "Utilitarianism",
     "pos": "noun",
+    "definition": "The ethical doctrine that actions are right if they are useful or for the benefit of a majority.",
+    "taWord": "பயன்முறைக் கொள்கை / பெரும்பான்மை நன்மைக்கான தத்துவம்",
+    "enExample": "Classical utilitarianism argues that public policies should maximize overall societal well-being.",
+    "taExample": "பாரம்பரிய பயன்முறைக் கொள்கை பொதுக் கொள்கைகள் ஒட்டுமொத்த சமூக நன்மையை அதிகரிக்க வேண்டும் என்று வாதிடுகிறது.",
+    "enExample2": "The architect embraced architectural utilitarianism, prioritizing practical function over ornamental design.",
+    "taExample2": "கட்டிடக்கலைஞர் அலங்கார வடிவமைப்பை விட நடைமுறை செயல்பாட்டிற்கு முன்னுரிமை அளித்து பயன்பாட்டுக் கொள்கையை ஏற்றுக்கொண்டார்.",
     "synonyms": [
-      "User-friendliness",
-      "Accessibility",
-      "Ergonomics"
+      "Pragmatism",
+      "Functionalism",
+      "Practicality",
+      "Instrumentalism"
     ],
     "antonyms": [
-      "Inaccessibility",
-      "Cumbersomeness"
-    ],
-    "enExample2": "Conducting recorded usability sessions with real users revealed navigational friction in our checkout workflow.",
-    "taExample2": "உண்மையான பயனர்களுடன் பயன்பாட்டினை (Usability) சோதனை செய்தது செக்அவுட் பாதையில் உள்ள சிரமங்களை வெளிப்படுத்தியது."
+      "Idealism",
+      "Deontology",
+      "Ornamentalism",
+      "Aestheticism"
+    ]
   },
   {
     "id": 2114,
@@ -692,23 +709,28 @@
   },
   {
     "id": 2115,
-    "word": "Utility",
-    "definition": "A small, specialized helper function or program that performs a single routine task.",
-    "enExample": "Tailwind utility classes allow rapid UI styling directly inside HTML JSX templates.",
-    "taExample": "டெயில்விண்ட் பயன்பாட்டு (Utility) வகுப்புகள் HTML JSX டெம்ப்ளேட்களுக்குள் நேரடியாக விரைவான UI வடிவமைப்பை அனுமதிக்கின்றன.",
-    "taWord": "பயன்பாட்டுச் செயல்பாடு (Utility)",
-    "pos": "noun",
+    "word": "Umbrageous",
+    "pos": "adjective",
+    "definition": "Prone to taking offense easily; shaded or casting shade.",
+    "taWord": "எளிதில் கோபமடையும் / மனம் புண்படக்கூடிய / நிழல் தரும்",
+    "enExample": "The executive had an umbrageous temperament, taking mild technical suggestions as personal attacks.",
+    "taExample": "அந்த நிர்வாகி சிறிய தொழில்நுட்ப ஆலோசனைகளை கூட தனிப்பட்ட தாக்குதல்களாக எடுத்துக்கொள்ளும் எளிதில் கோபமடையும் குணம் கொண்டிருந்தார்.",
+    "enExample2": "We rested under the cool, umbrageous canopy of ancient oak trees.",
+    "taExample2": "பண்டைய ஓக் மரங்களின் குளிர்ந்த, நிழல் தரும் விதானத்தின் கீழ் நாங்கள் ஓய்வெடுத்தோம்.",
     "synonyms": [
-      "Helper function",
-      "Tool",
-      "Routine"
+      "Touchy",
+      "Testy",
+      "Peevish",
+      "Shady",
+      "Shadowy"
     ],
     "antonyms": [
-      "Monolithic framework",
-      "Core domain business engine"
-    ],
-    "enExample2": "Tailwind CSS provides low-level utility classes that enable rapid and responsive UI styling.",
-    "taExample2": "Tailwind CSS விரைவான மற்றும் பதிலளிக்கக்கூடிய காட்சி வடிவமைப்பை செயல்படுத்தும் பயன்பாட்டு (Utility) வகுப்புகளை வழங்குகிறது."
+      "Easygoing",
+      "Uncomplaining",
+      "Sunny",
+      "Good-tempered",
+      "Placid"
+    ]
   },
   {
     "id": 3650,

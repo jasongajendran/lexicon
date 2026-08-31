@@ -21,23 +21,28 @@
   },
   {
     "id": 2665,
-    "word": "Table",
-    "definition": "To postpone, suspend, or set aside consideration of an agenda item for a later meeting.",
-    "enExample": "We agreed to table the microservice migration discussion until Q4 budget approvals arrive.",
-    "taExample": "Q4 பட்ஜெட் ஒப்புதல்கள் வரும் வரை மைக்ரோசர்வீஸ் மாற்ற விவாதத்தை ஒத்திவைக்க நாங்கள் ஒப்புக்கொண்டோம்.",
-    "taWord": "ஒத்திவைத்தல்",
-    "pos": "verb",
+    "word": "Taciturnity",
+    "pos": "noun",
+    "definition": "The state or quality of being reserved, uncommunicative, or speaking very little.",
+    "taWord": "மௌனம் / பேசாத சுபாவம் / அடக்கமான அமைதி",
+    "enExample": "The detective’s stoic taciturnity concealed a fiercely analytical mind.",
+    "taExample": "துப்பறியும் அதிகாரியின் பேசாத மௌன சுபாவம் ஒரு தீவிர பகுப்பாய்வு மனதை மறைத்து வைத்திருந்தது.",
+    "enExample2": "Known for his taciturnity, his rare public statements carried immense weight.",
+    "taExample2": "அவரது மௌன சுபாவத்திற்குப் பெயர் பெற்றதால், அவரது அரிய பொது அறிக்கைகள் பெரும் மதிப்பைக் கொண்டிருந்தன.",
     "synonyms": [
-      "Postpone",
-      "Shelve",
-      "Defer"
+      "Reticence",
+      "Silence",
+      "Reserve",
+      "Laconicism",
+      "Uncommunicativeness"
     ],
     "antonyms": [
-      "Enact",
-      "Address immediately"
-    ],
-    "enExample2": "The database table stores user session metadata indexed by unique UUID tokens.",
-    "taExample2": "தரவுத்தள அட்டவணை (Table) தனித்துவமான UUID குறியீடுகளால் வரிசைப்படுத்தப்பட்ட பயனர் அமர்வுத் தகவல்களை சேமிக்கிறது."
+      "Loquacity",
+      "Garrulousness",
+      "Volubility",
+      "Talkativeness",
+      "Chattiness"
+    ]
   },
   {
     "id": 2826,
@@ -380,24 +385,28 @@
   },
   {
     "id": 2013,
-    "word": "Template",
-    "definition": "A pre-formatted blueprint file or component containing parameterized placeholders for generating dynamic content.",
-    "enExample": "React JSX templates seamlessly render state data into dynamic HTML markup.",
-    "taExample": "ரியாக்ட் JSX டெம்ப்ளேட்கள் நிலைத் தரவை மாறும் HTML குறியீடாக தடையின்றி இயற்றுகின்றன.",
-    "taWord": "வார்ப்புரு (Template)",
+    "word": "Temerity",
     "pos": "noun",
+    "definition": "Excessive confidence or boldness; audacity that borders on recklessness.",
+    "taWord": "துணிகரம் / வரம்பு மீறிய துணிச்சல் / அதீத துணிவு",
+    "enExample": "The junior engineer had the temerity to challenge the chief architect’s database design during the all-hands meeting.",
+    "taExample": "அனைத்து ஊழியர்கள் கூட்டத்தின் போது தலைமை வடிவமைப்பாளரின் தரவுத்தள வடிவமைப்பை சவால் செய்யும் அதீத துணிச்சல் அந்த ஜூனியர் பொறியாளருக்கு இருந்தது.",
+    "enExample2": "No one had the temerity to question the dictator’s decrees.",
+    "taExample2": "சர்வாதிகாரியின் ஆணைகளை கேள்வி கேட்கும் துணிச்சல் யாருக்கும் இருக்கவில்லை.",
     "synonyms": [
-      "Pattern",
-      "Blueprint",
-      "Boilerplate"
+      "Audacity",
+      "Boldness",
+      "Nerve",
+      "Effrontery",
+      "Brashness"
     ],
     "antonyms": [
-      "Finished instance",
-      "Bespoke unique document",
-      "Hardcoded output"
-    ],
-    "enExample2": "The team authored a standard pull request template to ensure every submission includes test instructions.",
-    "taExample2": "ஒவ்வொரு சமர்ப்பிப்பிலும் சோதனை வழிமுறைகள் இருப்பதை உறுதி செய்ய குழு ஒரு நிலையான வார்ப்புருவை (Template) உருவாக்கியது."
+      "Timidity",
+      "Caution",
+      "Diffidence",
+      "Prudence",
+      "Hesitancy"
+    ]
   },
   {
     "id": 2949,
@@ -551,42 +560,53 @@
   },
   {
     "id": 2001,
-    "word": "Thread",
-    "definition": "The smallest sequence of programmed instructions that can be managed independently by an operating system scheduler.",
-    "enExample": "Multi-threaded applications execute concurrent execution paths to maximize multi-core CPU usage.",
-    "taExample": "மல்டி-த்ரெட் பயன்பாடுகள் பல-கோர் CPU பயன்பாட்டை அதிகப்படுத்த ஒரே நேரத்தில் இயங்கும் பாதைகளைச் செயல்படுத்துகின்றன.",
-    "taWord": "இழை / த்ரெட்",
+    "word": "Throes",
     "pos": "noun",
+    "definition": "Intense or violent pain and struggle, especially accompanying death, birth, or great change.",
+    "taWord": "கடுமையான வேதனை / பிரசவ அல்லது மாற்றத்தின் வலிமிகுந்த போராட்டம்",
+    "enExample": "The tech startup was in the throes of a massive corporate restructuring following the acquisition.",
+    "taExample": "நிறுவனம் கையகப்படுத்தப்பட்டதைத் தொடர்ந்து மிகப்பெரிய கார்ப்பரேட் மறுசீரமைப்பின் தீவிர போராட்ட வேதனையில் இருந்தது.",
+    "enExample2": "The nation struggled in the bitter throes of economic hyperinflation.",
+    "taExample2": "அந்த நாடு தீவிர பொருளாதார பணவீக்கத்தின் வலிமிகுந்த வேதனையில் திணறியது.",
     "synonyms": [
-      "Execution unit",
-      "Worker thread",
-      "Fiber"
+      "Agony",
+      "Pangs",
+      "Struggle",
+      "Convulsions",
+      "Turbulence"
     ],
     "antonyms": [
-      "Single process"
-    ],
-    "enExample2": "Worker threads allow CPU-intensive image compression to run in parallel without blocking the main event loop.",
-    "taExample2": "பணி இழைகள் (Worker Threads) முக்கிய நிகழ்வு வளையத்தை முடக்காமல் படச் சுருக்குதலை ஒரே நேரத்தில் இயக்க அனுமதிக்கின்றன."
+      "Peace",
+      "Comfort",
+      "Tranquility",
+      "Ease",
+      "Calm"
+    ]
   },
   {
     "id": 2014,
-    "word": "Threshold",
-    "definition": "A predefined value or condition limit that triggers an alert, scale event, or state transition when breached.",
-    "enExample": "Exceeding the eighty percent CPU utilization threshold triggers autoscaling instances.",
-    "taExample": "எண்பது சதவீத CPU பயன்பாட்டு வரம்பை (Threshold) மீறுவது தானியங்கு அளவீட்டு நிகழ்வுகளைத் தூண்டுகிறது.",
-    "taWord": "வரம்பு மதிப்பு (Threshold)",
+    "word": "Turgidity",
     "pos": "noun",
+    "definition": "The state of being swollen, bloated, or bombastic and pompous in language and style.",
+    "taWord": "வீக்கம் / ஆடம்பர படாடோபமான மொழி நடை / வீங்கிய தன்மை",
+    "enExample": "The editor trimmed the article to eliminate intellectual turgidity and improve reader comprehension.",
+    "taExample": "வாசகர்களின் புரிதலை மேம்படுத்தவும் ஆடம்பரமான கடின நடையை நீக்கவும் ஆசிரியர் கட்டுரையை திருத்தினார்.",
+    "enExample2": "The turgidity of the plant cells maintains structural rigidity in the stem.",
+    "taExample2": "தாவர செல்களின் வீங்கிய விறைப்புத் தன்மை தண்டின் கட்டமைப்பு உறுதித்தன்மையைப் பராமரிக்கிறது.",
     "synonyms": [
-      "Cutoff",
-      "Limit",
-      "Boundary"
+      "Bombast",
+      "Pompousness",
+      "Swelling",
+      "Bloatedness",
+      "Grandiosity"
     ],
     "antonyms": [
-      "Unbounded spectrum",
-      "Continuous continuous scale"
-    ],
-    "enExample2": "The monitoring alert triggers an automated page whenever CPU utilization crosses the ninety percent threshold.",
-    "taExample2": "CPU பயன்பாடு தொண்ணூறு சதவீத வரம்பை (Threshold) தாண்டும் போதெல்லாம் கண்காணிப்பு அமைப்பு அவசர எச்சரிக்கையை விடுக்கிறது."
+      "Simplicity",
+      "Conciseness",
+      "Plainness",
+      "Deflation",
+      "Modesty"
+    ]
   },
   {
     "id": 2002,
@@ -711,24 +731,28 @@
   },
   {
     "id": 2003,
-    "word": "Token",
-    "definition": "An encrypted security string representing user permissions, or a discrete atomic unit produced during code lexical analysis.",
-    "enExample": "JWT tokens store authorization credentials sent in HTTP request headers.",
-    "taExample": "JWT டோக்கன்கள் HTTP கோரிக்கை தலைப்புகளில் அனுப்பப்படும் அங்கீகாரச் சான்றுகளைச் சேமிக்கின்றன.",
-    "taWord": "டோக்கன் / அடையாளக் குறியீடு",
+    "word": "Torpor",
     "pos": "noun",
+    "definition": "A state of physical or mental inactivity; lethargy, sluggishness, or apathy.",
+    "taWord": "மந்த நிலை / ஆழ்ந்த சோம்பல் / செயலற்ற உறக்க நிலை",
+    "enExample": "The freezing winter cold plunged the hibernating bears into deep metabolic torpor.",
+    "taExample": "கடுமையான குளிர்காலம் கரடிகளை ஆழ்ந்த செயலற்ற மந்த நிலைக்குள் தள்ளியது.",
+    "enExample2": "A good night’s rest was required to shake off the mental torpor caused by jet lag.",
+    "taExample2": "விமானப் பயண சோர்வால் ஏற்பட்ட மன மந்த நிலையைப் போக்க ஒரு நல்ல இரவு உறக்கம் தேவைப்பட்டது.",
     "synonyms": [
-      "Credential",
-      "Ticket",
-      "Lexeme"
+      "Lethargy",
+      "Inertia",
+      "Sluggishness",
+      "Lassitude",
+      "Dormancy"
     ],
     "antonyms": [
-      "Plain cleartext",
-      "Unparsed stream",
-      "Anonymous access"
-    ],
-    "enExample2": "The API gateway validates the cryptographic signature of the Bearer token before routing requests.",
-    "taExample2": "கோரிக்கைகளை வழிநடத்துவதற்கு முன் API நுழைவாயில் அங்கீகார டோக்கனின் (Token) குறியாக்க கையொப்பத்தை சரிபார்க்கிறது."
+      "Vigor",
+      "Energy",
+      "Activity",
+      "Animation",
+      "Vitality"
+    ]
   },
   {
     "id": 2004,
@@ -1074,22 +1098,28 @@
   },
   {
     "id": 2007,
-    "word": "Tree",
-    "definition": "A hierarchical node data structure consisting of a root node and child nodes linked without cycles.",
-    "enExample": "The Document Object Model (DOM) is structured as a tree of web components.",
-    "taExample": "ஆவணப் பொருள் மாதிரி (DOM) வலைக் கூறுகளின் மரமாக (Tree) கட்டமைக்கப்பட்டுள்ளது.",
-    "taWord": "மரக் கட்டமைப்பு (Tree)",
-    "pos": "noun",
+    "word": "Trepidatious",
+    "pos": "adjective",
+    "definition": "Apprehensive, nervous, fearful, or hesitant about future events.",
+    "taWord": "பயமும் தயக்கமும் கொண்ட / நடுக்கமுற்ற / கவலையடைந்த",
+    "enExample": "The astronaut felt naturally trepidatious before her first untethered spacewalk.",
+    "taExample": "தனது முதல் விண்வெளி நடைப்பயணத்திற்கு முன் விண்வெளி வீராங்கனை இயற்கையாகவே பயமும் தயக்கமும் கொண்டார்.",
+    "enExample2": "Investors grew trepidatious as macroeconomic indicators signaled a looming global recession.",
+    "taExample2": "உலகளாவிய பொருளாதார மந்தநிலையை பொருளாதார குறிகாட்டிகள் சுட்டிக்காட்டியதால் முதலீட்டாளர்கள் கவலையடைந்தனர்.",
     "synonyms": [
-      "Hierarchy",
-      "DAG",
-      "Taxonomy"
+      "Apprehensive",
+      "Fearful",
+      "Anxious",
+      "Hesitant",
+      "Nervous"
     ],
     "antonyms": [
-      "Graph with cycles"
-    ],
-    "enExample2": "The DOM tree represents HTML elements as a hierarchical node structure in browser memory.",
-    "taExample2": "DOM மரம் (Tree) உலாவி நினைவகத்தில் HTML கூறுகளை ஒரு படிநிலை முனைய அமைப்பாகக் குறிக்கிறது."
+      "Confident",
+      "Fearless",
+      "Bold",
+      "Audacious",
+      "Serene"
+    ]
   },
   {
     "id": 2743,
@@ -1178,21 +1208,28 @@
   },
   {
     "id": 2009,
-    "word": "Trigger",
-    "definition": "A procedural code block stored in a database that automatically executes when specific table modifications occur.",
-    "enExample": "The audit trigger writes log records whenever an order status changes to fulfilled.",
-    "taExample": "ஆர்டர் நிலை பூர்த்தி செய்யப்பட்டதாக மாறும் போதெல்லாம் தணிக்கைத் தூண்டி (Trigger) பதிவுப் பதிவுகளை எழுதுகிறது.",
-    "taWord": "தூண்டி (Trigger)",
+    "word": "Truculence",
     "pos": "noun",
+    "definition": "Eagerness to argue or fight; aggressive defiance, hostility, or cruelty.",
+    "taWord": "முரட்டுத்தனம் / சண்டை மனப்பான்மை / வன்மமான ஆக்கிரமிப்பு குணம்",
+    "enExample": "The negotiator’s sudden truculence threatened to torpedo months of delicate peace talks.",
+    "taExample": "பேச்சுவார்த்தையாளரின் திடீர் முரட்டுத்தனம் பல மாத கால மென்மையான அமைதிப் பேச்சுவார்த்தைகளை அழிக்க அச்சுறுத்தியது.",
+    "enExample2": "Underneath his defensive truculence lay deep insecurity about his engineering abilities.",
+    "taExample2": "அவரது தற்காப்பு முரட்டுத்தனத்தின் அடியில் அவரது திறமைகள் குறித்த ஆழ்ந்த பாதுகாப்பின்மை இருந்தது.",
     "synonyms": [
-      "Event handler",
-      "Automated routine"
+      "Belligerence",
+      "Aggression",
+      "Pugnacity",
+      "Hostility",
+      "Defiance"
     ],
     "antonyms": [
-      "Manual invocation"
-    ],
-    "enExample2": "Database triggers execute automated audit logging functions whenever a record row is inserted or updated.",
-    "taExample2": "தரவுத்தள தூண்டிகள் (Triggers) ஒரு வரிசை உருவாக்கப்படும் போது தானியங்கி தணிக்கை செயல்பாடுகளை இயக்குகின்றன."
+      "Gentleness",
+      "Cooperativeness",
+      "Affability",
+      "Peacefulness",
+      "Amenability"
+    ]
   },
   {
     "id": 3569,
@@ -1244,7 +1281,7 @@
     "word": "Truncate",
     "definition": "To shorten data strings or delete all rows from a database table without dropping the schema.",
     "enExample": "TRUNCATE TABLE quickly empties log records faster than standard DELETE SQL queries.",
-    "taExample": "TRUNCATE TABLE நிலையான DELETE SQL வினவல்களை விட விரைவாகப் பதிவுப் பதிவுகளைக் खाली செய்கிறது.",
+    "taExample": "TRUNCATE TABLE நிலையான DELETE SQL வினவல்களை விட விரைவாகப் பதிவுப் பதிவுகளை முழுமையாக நீக்குகிறது.",
     "taWord": "துண்டிப்பு / நீக்குதல்",
     "pos": "verb",
     "synonyms": [
@@ -1287,7 +1324,7 @@
     "word": "Tuple",
     "definition": "A finite ordered sequence of elements, often represented as fixed-length typed arrays in programming languages.",
     "enExample": "TypeScript tuples allow developers to enforce strict element types at specific array indices.",
-    "taExample": "டைப்ஸ்கிரிப்ட் டூப்பிள்கள் (Tuples) குறிப்பிட்ட அணி குறியீடுகளில் கடுமையான عنصر வகைகளை நடைமுறைப்படுத்த அனுமதிக்கின்றன.",
+    "taExample": "டைப்ஸ்கிரிப்ட் டூப்பிள்கள் (Tuples) குறிப்பிட்ட அணி குறியீடுகளில் கடுமையான உறுப்பு வகைகளை நடைமுறைப்படுத்த அனுமதிக்கின்றன.",
     "taWord": "டூப்பிள் / வரிசைப்படுத்தப்பட்ட தொகுதி",
     "pos": "noun",
     "synonyms": [

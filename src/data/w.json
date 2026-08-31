@@ -260,24 +260,27 @@
   },
   {
     "id": 2305,
-    "word": "Weight",
-    "definition": "A numerical value representing priority, font thickness in CSS, or neural network connection strength in AI models.",
-    "enExample": "Neural network model training adjusts node weights to minimize prediction error.",
-    "taExample": "நரம்பியல் வலைப்பின்னல் மாதிரி பயிற்சி கணிப்புப் பிழையைக் குறைக்க முனை எடைகளை (Weights) சரிசெய்கிறது.",
-    "taWord": "எடை / முக்கியத்துவக் காரணி",
+    "word": "Winsomeness",
     "pos": "noun",
+    "definition": "Attractive or appealing in appearance, personality, or character in a sweet, engaging way.",
+    "taWord": "கவரும் தன்மை / வசீகரிக்கும் இனிமை / ஈர்க்கும் அழகு",
+    "enExample": "Her genuine warmth and natural winsomeness made her beloved by international diplomats.",
+    "taExample": "அவரது உண்மையான அன்பும் இயற்கையான வசீகரமும் சர்வதேச தூதர்களால் அவர் நேசிக்கப்படக் காரணமாக அமைந்தது.",
+    "enExample2": "The children’s book author captivated the audience with her storytelling winsomeness.",
+    "taExample2": "குழந்தைகள் புத்தக ஆசிரியர் தனது வசீகரமான கதைசொல்லும் பாணியால் பார்வையாளர்களைக் கவர்ந்தார்.",
     "synonyms": [
-      "Coefficient",
-      "Font-weight",
-      "Importance"
+      "Charm",
+      "Appeal",
+      "Attractiveness",
+      "Delightfulness",
+      "Graciousness"
     ],
     "antonyms": [
-      "Uniform significance",
-      "Zero bias",
-      "Unweighted variable"
-    ],
-    "enExample2": "Fine-tuning neural network weights adapts pre-trained foundational models to specialized clinical terminology.",
-    "taExample2": "நியூரல் நெட்வொர்க் எடைகளை (Weights) நுணுக்கமாக மாற்றுவது AI மாதிரிகளை சிறப்பு மருத்துவ சொற்களுக்கு ஏற்ப தகவமைக்கிறது."
+      "Repulsiveness",
+      "Offensiveness",
+      "Unpleasantness",
+      "Abrasiveness"
+    ]
   },
   {
     "id": 3329,
@@ -421,21 +424,28 @@
   },
   {
     "id": 2309,
-    "word": "Worker",
-    "definition": "A background execution script running in an isolated thread separate from the main browser user interface thread.",
-    "enExample": "Web Workers offload heavy data parsing tasks to prevent UI freezing.",
-    "taExample": "வெப் வொர்க்கர்கள் (Web Workers) பயனர் இடைமுகம் உறைவதைத் தடுக்க கனமான தரவுப் பகுப்பாய்வுப் பணிகளைப் பின்னணி இழைகளுக்கு மாற்றுகின்றன.",
-    "taWord": "பின்னணிப் பணியாள் (Worker)",
+    "word": "Welter",
     "pos": "noun",
+    "definition": "A large, confused, and disorderly jumble or mass of items or conflicting demands.",
+    "taWord": "குழப்பமான குவியல் / ஒழுங்கற்ற பெரும் கலவை",
+    "enExample": "The new regulatory framework replaced a confusing welter of conflicting local municipal laws.",
+    "taExample": "புதிய ஒழுங்குமுறை கட்டமைப்பு முரண்பட்ட உள்ளூர் நகராட்சி சட்டங்களின் குழப்பமான பெரும் கலவையை மாற்றியது.",
+    "enExample2": "She sifted through the welter of unorganized emails to find the critical contract attachment.",
+    "taExample2": "முக்கியமான ஒப்பந்த இணைப்பைக் கண்டறிய அவள் ஒழுங்கமைக்கப்படாத மின்னஞ்சல்களின் குழப்பமான குவியலைத் தேடினாள்.",
     "synonyms": [
-      "Background thread",
-      "Service worker"
+      "Jumble",
+      "Muddle",
+      "Tangle",
+      "Chaos",
+      "Hodgepodge"
     ],
     "antonyms": [
-      "Main thread"
-    ],
-    "enExample2": "Background worker processes consume analytics event streams asynchronously without slowing down web servers.",
-    "taExample2": "பின்னணி பணி செயல்முறைகள் (Worker) வலை சேவையகங்களை மெதுவாக்காமல் பகுப்பாய்வு தரவுகளை ஒத்திசைவற்ற முறையில் கையாள்கின்றன."
+      "Order",
+      "System",
+      "Organization",
+      "Neatness",
+      "Harmony"
+    ]
   },
   {
     "id": 2313,
@@ -457,44 +467,52 @@
   },
   {
     "id": 2310,
-    "word": "Workflow",
-    "definition": "A sequence of automated or manual steps required to complete a complex business process or CI/CD deployment pipeline.",
-    "enExample": "GitHub Actions automates code linting and testing inside a defined YAML workflow.",
-    "taExample": "கிட்ஹப் ஆக்ஷன்ஸ் வரையறுக்கப்பட்ட YAML பணிப்பாய்வுக்குள் (Workflow) குறியீட்டு சோதனையைத் தானியங்குபடுத்துகிறது.",
-    "taWord": "பணிப்பாய்வு (Workflow)",
+    "word": "Wraith",
     "pos": "noun",
+    "definition": "A ghost, specter, or faint, ghostlike trace or shadow of something previously substantial.",
+    "taWord": "பேய் உருவம் / மாய நிழல் / முந்தைய நிலையின் மெல்லிய சுவடு",
+    "enExample": "After months of starvation, the shipwreck survivor looked like an emaciated wraith.",
+    "taExample": "பல மாத பட்டினிக்குப் பிறகு, கப்பல் விபத்தில் தப்பியவர் ஒரு மெலிந்த மாய நிழல் போல காட்சியளித்தார்.",
+    "enExample2": "The abandoned factory stood as a decaying wraith of the town's industrial glory.",
+    "taExample2": "கைவிடப்பட்ட தொழிற்சாலை நகரின் தொழில்துறை பெருமையின் ஒரு சிதைந்த நிழலாக நின்றது.",
     "synonyms": [
-      "Pipeline",
-      "Process sequence",
-      "Automation"
+      "Specter",
+      "Phantom",
+      "Ghost",
+      "Apparition",
+      "Shadow"
     ],
     "antonyms": [
-      "Chaotic manual steps",
-      "Unstructured improvisation"
-    ],
-    "enExample2": "Our continuous integration workflow automatically runs unit tests, linting, and security audits on every pull request.",
-    "taExample2": "எங்கள் தானியங்கி பணிப்பாய்வு (Workflow) ஒவ்வொரு குறியீட்டு மாற்றத்திற்கும் சோதனைகள் மற்றும் பாதுகாப்பு ஆய்வுகளை இயக்குகிறது."
+      "Reality",
+      "Substance",
+      "Flesh and blood",
+      "Entity"
+    ]
   },
   {
     "id": 2315,
-    "word": "Workstation",
-    "definition": "A high-performance computer hardware system optimized for heavy software engineering, 3D rendering, and data science workloads.",
-    "enExample": "Developer workstations require fast multi-core CPUs and fast NVMe storage drives.",
-    "taExample": "மென்பொருள் பொறியாளர் பணிநிலையங்களுக்கு (Workstations) அதிவேக பல-கோர் CPU மற்றும் NVMe சேமிப்பக இயக்கிகள் தேவைப்படுகின்றன.",
-    "taWord": "பணிநிலையம் (Workstation)",
-    "pos": "noun",
+    "word": "Wizened",
+    "pos": "adjective",
+    "definition": "Shriveled, wrinkled, or withered with age, time, or hardship.",
+    "taWord": "சுருக்கமடைந்த / முதுமையால் உலர்ந்த / வாடிப்போன",
+    "enExample": "The wizened old watchmaker inspected the delicate clockwork through a thick magnifying lens.",
+    "taExample": "முதுமையால் சுருக்கமடைந்த பழைய கடிகார உற்பத்தியாளர் பூதக்கண்ணாடி மூலம் நுட்பமான கடிகார இயந்திரத்தை ஆய்வு செய்தார்.",
+    "enExample2": "Despite his wizened appearance, the centenarian had a sharp memory and vibrant wit.",
+    "taExample2": "அவரது முதிர்ந்த தோற்றம் இருந்தபோதிலும், அந்த நூறு வயது முதியவர் கூர்மையான நினைவாற்றலையும் சிறந்த நகைச்சுவை உணர்வையும் கொண்டிருந்தார்.",
     "synonyms": [
-      "Engineering PC",
-      "Rig",
-      "Terminal"
+      "Wrinkled",
+      "Weathered",
+      "Shriveled",
+      "Withered",
+      "Aged"
     ],
     "antonyms": [
-      "Low-power thin client",
-      "Mobile phone",
-      "IoT edge sensor"
-    ],
-    "enExample2": "The developer's workstation was configured with 64GB of RAM to run multiple local Kubernetes test clusters.",
-    "taExample2": "பல சோதனைக் கிளஸ்டர்களை உள்ளூரில் இயக்க உருவாக்குநரின் பணிநிலையம் (Workstation) 64GB நினைவகத்துடன் கட்டமைக்கப்பட்டது."
+      "Smooth",
+      "Youthful",
+      "Plump",
+      "Fresh",
+      "Unwrinkled"
+    ]
   },
   {
     "id": 2951,
@@ -521,24 +539,26 @@
   },
   {
     "id": 2311,
-    "word": "Wrapper",
-    "definition": "A helper component or function wrapping another code entity to provide a clean simplified API or added behavior.",
-    "enExample": "The Axios wrapper automatically attaches bearer authorization headers to outgoing HTTP requests.",
-    "taExample": "ஆக்சியோஸ் உறை (Axios wrapper) வெளிச்செல்லும் HTTP கோரிக்கைகளுடன் தானாகவே அங்கீகாரத் தலைப்புகளை இணைக்கிறது.",
-    "taWord": "உறை / மறைப்புக் கூறு (Wrapper)",
+    "word": "Wunderkind",
     "pos": "noun",
+    "definition": "A person who achieves great success or demonstrates prodigious talent at an exceptionally early age; a child prodigy.",
+    "taWord": "இளம் மேதை / இளம் வயதிலேயே வியத்தகு சாதனை படைத்தவர்",
+    "enExample": "The software wunderkind founded a multi-billion-dollar cybersecurity firm before his twenty-first birthday.",
+    "taExample": "அந்த இளம் மென்பொருள் மேதை தனது இருபத்தியொன்றாவது பிறந்தநாளுக்கு முன்பே பல பில்லியன் டாலர் மதிப்புள்ள பாதுகாப்பு நிறுவனத்தைத் தொடங்கினார்.",
+    "enExample2": "Critics hailed the sixteen-year-old chess grandmaster as the newest chess wunderkind.",
+    "taExample2": "பதினாறு வயது செஸ் கிராண்ட்மாஸ்டரை புதிய செஸ் இளம் மேதை என்று விமர்சகர்கள் பாராட்டினர்.",
     "synonyms": [
-      "Adapter",
-      "Encapsulation",
-      "Decorator"
+      "Prodigy",
+      "Child genius",
+      "Whiz kid",
+      "Phenomenon",
+      "Virtuoso"
     ],
     "antonyms": [
-      "Native unwrapped core",
-      "Raw primitive",
-      "Bare API"
-    ],
-    "enExample2": "Creating a TypeScript wrapper around the third-party payment library ensures full type safety across our services.",
-    "taExample2": "வெளிப்புற நூலகத்தைச் சுற்றி ஒரு TypeScript உறை (Wrapper) உருவாக்குவது எங்கள் சேவைகளில் முழுமையான வகை பாதுகாப்பை உறுதி செய்கிறது."
+      "Late bloomer",
+      "Dullard",
+      "Average person"
+    ]
   },
   {
     "id": 2749,
@@ -605,25 +625,25 @@
   },
   {
     "id": 3656,
-    "word": "Wisdom",
+    "word": "Weltanschauung",
     "pos": "noun",
-    "definition": "The quality of having experience, knowledge, and good judgment; sound decision-making.",
-    "taWord": "ஞானம் / அனுபவ அறிவு மற்றும் நல்ல முடிவு",
-    "enExample": "Seeking the wisdom of experienced mentors helps avoid common career pitfalls.",
-    "taExample": "அனுபவம் வாய்ந்த வழிகாட்டிகளின் ஞானத்தைத் தேடுவது பொதுவான வாழ்க்கை அறிவுக் குழிகளைத் தவிர்க்க உதவுகிறது.",
-    "enExample2": "Bedtime stories often convey timeless moral wisdom in fun ways for kids.",
-    "taExample2": "படுக்கை நேரக் கதைகள் பெரும்பாலும் குழந்தைகளுக்கு வேடிக்கையான வழிகளில் காலமற்ற தர்ம ஞானத்தைத் தெரிவிக்கின்றன.",
+    "definition": "A comprehensive, overarching philosophy or worldview of life and the universe.",
+    "taWord": "உலகப் பார்வை / வாழ்க்கை மற்றும் பிரபஞ்சம் பற்றிய விரிவான தத்துவப் பார்வை",
+    "enExample": "The German philosopher developed a holistic Weltanschauung that integrated art, ethics, and metaphysics.",
+    "taExample": "ஜெர்மன் தத்துவஞானி கலை, நெறிமுறைகள் மற்றும் தத்துவத்தை ஒருங்கிணைத்த ஒரு விரிவான உலகப் பார்வையை உருவாக்கினார்.",
+    "enExample2": "Scientific discoveries in quantum mechanics fundamentally altered humanity’s Weltanschauung.",
+    "taExample2": "குவாண்டம் இயக்கவியலின் அறிவியல் கண்டுபிடிப்புகள் மனிதகுலத்தின் அடிப்படை உலகப் பார்வையை மாற்றியமைத்தன.",
     "synonyms": [
-      "Insight",
-      "Sagacity",
-      "Judiciousness",
-      "Prudence"
+      "Worldview",
+      "Philosophy of life",
+      "Ideology",
+      "Cosmology",
+      "Perspective"
     ],
     "antonyms": [
-      "Foolishness",
-      "Folly",
-      "Ignorance",
-      "Stupidity"
+      "Myopia",
+      "Narrow-mindedness",
+      "Parochialism"
     ]
   },
   {
