@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Sparkles, Volume2, Bookmark, Copy, Check } from 'lucide-react';
+import { Sparkles, Volume2, Bookmark } from 'lucide-react';
 import { LexiconWord } from '../types';
 import { speakWord } from '../utils/speech';
 import { AudioEqualizer } from './AudioEqualizer';
@@ -21,7 +21,6 @@ export function WordOfTheDayCard({
   onSelectWord
 }: WordOfTheDayCardProps) {
   const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | null>(null);
-  const [copied, setCopied] = useState(false);
 
   const triggerHaptic = () => {
     if (typeof window !== 'undefined' && 'vibrate' in navigator) {
@@ -64,14 +63,6 @@ export function WordOfTheDayCard({
     handleSpeakText(word.word, 'word', e);
   };
 
-  const handleCopy = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    triggerHaptic();
-    navigator.clipboard.writeText(`${word.word} (${word.taWord})\nPOS: ${word.pos}\nDefinition: ${word.definition}\nEN: ${word.enExample}\nTA: ${word.taExample}`);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
   const handleSynAntClick = (e: React.MouseEvent, term: string) => {
     e.stopPropagation();
     triggerHaptic();
@@ -100,27 +91,8 @@ export function WordOfTheDayCard({
           <span>Spotlight Term of the Day</span>
         </div>
 
-        <div className="flex items-center gap-1.5">
-          <button
-            onClick={handleSpeak}
-            className={`p-2 rounded-xl border transition-all ${
-              speakingTarget === 'word'
-                ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30 shadow-lg shadow-amber-400/10'
-                : 'bg-zinc-900/80 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
-            }`}
-            title="Listen to pronunciation"
-          >
-            {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
-          </button>
-
-          <button
-            onClick={handleCopy}
-            className="p-2 rounded-xl border bg-zinc-900/80 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40 transition-all"
-            title="Copy term"
-          >
-            {copied ? <Check size={16} className="text-emerald-400" /> : <Copy size={16} />}
-          </button>
-
+        <div className="flex items-center gap-2">
+          {/* Bookmark on left */}
           <button
             onClick={(e) => {
               e.stopPropagation();
@@ -135,6 +107,19 @@ export function WordOfTheDayCard({
             title={isBookmarked ? 'Bookmarked' : 'Bookmark term'}
           >
             <Bookmark size={16} className={isBookmarked ? 'fill-amber-400 text-amber-400' : ''} />
+          </button>
+
+          {/* Sound Icon on Far Right for Easy Mobile Thumb Tap */}
+          <button
+            onClick={handleSpeak}
+            className={`p-2 rounded-xl border transition-all shrink-0 ${
+              speakingTarget === 'word'
+                ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30 shadow-lg shadow-amber-400/10'
+                : 'bg-zinc-900/80 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
+            }`}
+            title="Listen to pronunciation"
+          >
+            {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
           </button>
         </div>
       </div>

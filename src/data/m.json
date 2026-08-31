@@ -1340,5 +1340,25 @@
       "Vain",
       "Proud"
     ]
+  },
+  {
+    "id": 3746,
+    "word": "Microkernel",
+    "pos": "noun",
+    "definition": "A minimalist operating system or architecture that provides only the core mechanisms necessary to run an OS, moving services to user space.",
+    "taWord": "நுண் மையக்கட்டமைப்பு / எளிய அடிப்படை இயங்குதளக் கருவம்",
+    "enExample": "Microkernel architectures prioritize system security and modular fault isolation over raw monolithic speed.",
+    "taExample": "நுண் மையக்கட்டமைப்புகள் கணினி பாதுகாப்பு மற்றும் மட்டுப் பிழை தனிமைப்படுத்தலுக்கு முன்னுரிமை அளிக்கின்றன.",
+    "enExample2": "In a microkernel design, device drivers and file systems execute safely in isolated user space processes.",
+    "taExample2": "ஒரு நுண் மைய அமைப்பில், சாதன இயக்கிகள் மற்றும் கோப்பு முறைமைகள் தனிமைப்படுத்தப்பட்ட பயனர் செயல்முறைகளில் பாதுகாப்பாக இயங்குகின்றன.",
+    "synonyms": [
+      "Modular kernel",
+      "Minimal kernel",
+      "Core architecture"
+    ],
+    "antonyms": [
+      "Monolithic kernel",
+      "All-in-one architecture"
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
-import { Volume2, Copy, Check, Bookmark } from 'lucide-react';
+import { Volume2, Bookmark } from 'lucide-react';
 import { LexiconWord } from '../types';
 import { speakWord } from '../utils/speech';
 import { AudioEqualizer } from './AudioEqualizer';
@@ -23,8 +23,7 @@ export function WordRow({
   onWordSearch,
   onSelectWord
 }: WordRowProps) {
-  const [copied, setCopied] = useState(false);
-  const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | null>(null);
+  const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | 'ex' | null>(null);
   const [isCentered, setIsCentered] = useState(false);
   const rowRef = useRef<HTMLDivElement>(null);
 
@@ -61,7 +60,7 @@ export function WordRow({
     }
   };
 
-  const handleSpeakText = (text: string, target: 'word' | 'def', e?: React.MouseEvent) => {
+  const handleSpeakText = (text: string, target: 'word' | 'def' | 'ex', e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     triggerHaptic();
 
@@ -83,14 +82,6 @@ export function WordRow({
 
   const handleSpeak = (e?: React.MouseEvent) => {
     handleSpeakText(word.word, 'word', e);
-  };
-
-  const handleCopy = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    triggerHaptic();
-    navigator.clipboard.writeText(`${word.word} (${word.taWord})\nPOS: ${word.pos}\nDefinition: ${word.definition}\nEN: ${word.enExample}\nTA: ${word.taExample}`);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
   };
 
   const handleBookmark = (e: React.MouseEvent) => {
@@ -150,30 +141,29 @@ export function WordRow({
         </span>
       </div>
 
-      {/* Top Right Actions */}
-      <div className="absolute top-4 right-4 md:top-8 md:right-8 flex items-center gap-2 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+      {/* Top Right Actions (Bookmark on left, Sound on far right for thumb access) */}
+      <div className="absolute top-4 right-4 md:top-8 md:right-8 flex items-center gap-1.5 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
         <button 
           onClick={handleBookmark}
-          className={`p-2 rounded-full bg-zinc-900/80 md:bg-transparent hover:bg-zinc-800 transition-colors ${isBookmarked ? 'text-amber-400' : 'text-zinc-400 hover:text-amber-400'}`}
-          title="Toggle bookmark"
+          className={`p-2 rounded-xl border transition-all ${
+            isBookmarked 
+              ? 'bg-amber-400/20 border-amber-400/50 text-amber-300' 
+              : 'bg-zinc-900/90 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
+          }`}
+          title={isBookmarked ? "Remove bookmark" : "Bookmark word"}
         >
-          <Bookmark size={16} className={isBookmarked ? "fill-amber-400" : ""} />
+          <Bookmark size={16} className={isBookmarked ? "fill-amber-400 text-amber-400" : ""} />
         </button>
         <button 
           onClick={handleSpeak}
-          className={`p-2 rounded-full bg-zinc-900/80 md:bg-transparent hover:bg-zinc-800 transition-colors ${
-            speakingTarget === 'word' ? 'text-amber-400' : 'text-zinc-400 hover:text-amber-400'
+          className={`p-2 rounded-xl border transition-all shrink-0 ${
+            speakingTarget === 'word' 
+              ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30' 
+              : 'bg-zinc-900/90 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
           }`}
           title="Pronounce word in English"
         >
           {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
-        </button>
-        <button 
-          onClick={handleCopy}
-          className="p-2 rounded-full bg-zinc-900/80 md:bg-transparent hover:bg-zinc-800 text-zinc-400 hover:text-amber-400 transition-colors"
-          title="Copy to clipboard"
-        >
-          {copied ? <Check size={16} className="text-emerald-400" /> : <Copy size={16} />}
         </button>
       </div>
 
@@ -255,11 +245,22 @@ export function WordRow({
       {/* Right Column: Examples */}
       <div className="md:w-7/12 flex flex-col justify-center gap-5 md:gap-6">
         {/* English Example */}
-        <div className={`relative pl-6 md:pl-8 border-l transition-colors duration-500 ${isCentered ? 'border-amber-400/30' : 'border-zinc-800 group-hover:border-amber-400/30'}`}>
+        <div className={`relative pl-6 md:pl-8 border-l transition-colors duration-500 flex items-start justify-between gap-3 ${isCentered ? 'border-amber-400/30' : 'border-zinc-800 group-hover:border-amber-400/30'}`}>
           <span className="absolute -left-3 top-0 text-xs font-mono text-blue-300 bg-[#0a0a0a] py-1 px-2 rounded-full border border-blue-400/20 shadow-sm shadow-blue-400/5">EN</span>
           <p className="text-base md:text-lg font-serif text-zinc-200 leading-relaxed">
             "{highlightMatch(word.enExample, word.word)}"
           </p>
+          <button
+            onClick={(e) => handleSpeakText(word.enExample, 'ex', e)}
+            className={`p-1.5 rounded-lg border transition-all shrink-0 cursor-pointer ${
+              speakingTarget === 'ex'
+                ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
+            }`}
+            title="Listen to English example"
+          >
+            {speakingTarget === 'ex' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
+          </button>
         </div>
         
         {/* Tamil Example */}

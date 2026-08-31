@@ -1009,5 +1009,27 @@
       "Friction",
       "Hostility"
     ]
+  },
+  {
+    "id": 3749,
+    "word": "Hotpatching",
+    "pos": "noun",
+    "definition": "The technique of applying bug fixes, patches, or security updates to running software without rebooting or restarting the process.",
+    "taWord": "இயங்கும்போதே பிழை திருத்துதல் / நேரடி இணைப்புக் குறியீடு",
+    "enExample": "High-availability Linux servers utilize kernel hotpatching to fix critical vulnerabilities with zero customer downtime.",
+    "taExample": "அதிநவீன லினக்ஸ் சேவையகங்கள் வாடிக்கையாளர் முடக்க நேரம் எதுவுமின்றி முக்கியமான பாதிப்புகளைச் சரிசெய்ய நேரடி இணைப்புக் குறியீட்டைப் பயன்படுத்துகின்றன.",
+    "enExample2": "Game developers deployed a client hotpatch to immediately resolve a critical rendering exploit.",
+    "taExample2": "விளையாட்டு உருவாக்குநர்கள் முக்கியமான ரெண்டரிங் பிழையை உடனடியாகத் தீர்க்க நேரடி இணைப்புக் குறியீட்டைப் பயன்படுத்தினர்.",
+    "synonyms": [
+      "Live patching",
+      "Dynamic updating",
+      "Zero-downtime fix",
+      "Runtime patching"
+    ],
+    "antonyms": [
+      "Reboot patching",
+      "Cold restart",
+      "Scheduled downtime maintenance"
+    ]
   }
 ]

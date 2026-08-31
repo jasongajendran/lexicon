@@ -2255,5 +2255,29 @@
       "Indifferent",
       "Averse"
     ]
+  },
+  {
+    "id": 3751,
+    "word": "Egress",
+    "pos": "noun",
+    "definition": "The network traffic that exits a cloud data center, private cluster, or virtual private cloud (VPC) to the external internet.",
+    "taWord": "வெளியேறும் போக்குவரத்து / வலையமைப்பு வெளிச்செல்கை",
+    "enExample": "Cloud providers charge egress fees whenever users download large database backups over the public internet.",
+    "taExample": "பயனர்கள் பொது இணையத்தில் பெரிய தரவுத்தள காப்புப்பிரதிகளைப் பதிவிறக்கும் போதெல்லாம் கிளவுட் வழங்குநர்கள் வெளியேறும் போக்குவரத்துக் கட்டணத்தை வசூலிக்கிறார்கள்.",
+    "enExample2": "Security teams inspect all outbound egress traffic to detect data exfiltration attempts by compromised machines.",
+    "taExample2": "பாதிக்கப்பட்ட கணினிகளால் தரவு திருடப்படுவதைக் கண்டறிய பாதுகாப்புக் குழுக்கள் வெளியேறும் அனைத்து நெட்வொர்க் போக்குவரத்தையும் ஆய்வு செய்கின்றன.",
+    "synonyms": [
+      "Outbound traffic",
+      "Exit route",
+      "Outflow",
+      "Discharge",
+      "Departure"
+    ],
+    "antonyms": [
+      "Ingress",
+      "Inflow",
+      "Inbound traffic",
+      "Entry"
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Volume2, Copy, Check, Bookmark, Sparkles } from 'lucide-react';
+import { Volume2, Bookmark, Sparkles } from 'lucide-react';
 import { LexiconWord } from '../types';
 import { speakWord } from '../utils/speech';
 import { AudioEqualizer } from './AudioEqualizer';
@@ -23,7 +23,6 @@ export function WordCard({
   onWordSearch,
   onSelectWord
 }: WordCardProps) {
-  const [copied, setCopied] = useState(false);
   const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | 'ex' | null>(null);
 
   const triggerHaptic = () => {
@@ -67,14 +66,6 @@ export function WordCard({
     handleSpeakText(word.word, 'word', e);
   };
 
-  const handleCopy = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    triggerHaptic();
-    navigator.clipboard.writeText(`${word.word} (${word.taWord})\nPOS: ${word.pos}\nDefinition: ${word.definition}\nEN: ${word.enExample}\nTA: ${word.taExample}`);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
   const handleBookmark = (e: React.MouseEvent) => {
     e.stopPropagation();
     triggerHaptic();
@@ -92,7 +83,7 @@ export function WordCard({
     <div
       id={`word-entry-${word.id}`}
       onClick={handleCardClick}
-      className="group relative flex flex-col justify-between p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 hover:border-amber-400/40 transition-all duration-300 shadow-lg overflow-hidden backdrop-blur-md cursor-pointer active:scale-[0.99]"
+      className="group relative flex flex-col justify-between p-5 sm:p-6 rounded-2xl bg-zinc-900/60 border border-zinc-800/80 hover:border-amber-400/40 transition-all duration-300 shadow-lg overflow-hidden backdrop-blur-md cursor-pointer active:scale-[0.99]"
     >
       {/* Ambient background glow */}
       <div className="absolute -top-24 -right-24 w-48 h-48 bg-amber-400/5 rounded-full blur-3xl pointer-events-none group-hover:bg-amber-400/10 transition-all duration-500" />
@@ -109,34 +100,29 @@ export function WordCard({
             </span>
           </div>
 
-          {/* Top Right Quick Actions */}
-          <div className="flex items-center gap-1">
+          {/* Top Right Quick Actions (Bookmark first, Sound icon aligned to the far right) */}
+          <div className="flex items-center gap-1.5">
+            <button
+              onClick={handleBookmark}
+              className={`p-1.5 rounded-lg border transition-all ${
+                isBookmarked
+                  ? 'bg-amber-400/20 border-amber-400/40 text-amber-300'
+                  : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
+              }`}
+              title={isBookmarked ? 'Remove bookmark' : 'Bookmark'}
+            >
+              <Bookmark size={14} className={isBookmarked ? 'fill-amber-400' : ''} />
+            </button>
             <button
               onClick={handleSpeak}
-              className={`p-2 rounded-xl text-zinc-400 hover:text-amber-400 hover:bg-zinc-800/80 active:bg-amber-400/20 transition-all ${
-                speakingTarget === 'word' ? 'text-amber-400 bg-amber-400/10 ring-1 ring-amber-400/30 border border-amber-400/40' : ''
+              className={`p-1.5 rounded-lg border transition-all shrink-0 ${
+                speakingTarget === 'word'
+                  ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                  : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
               }`}
               title="Pronounce English"
             >
-              {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
-            </button>
-            <button
-              onClick={handleCopy}
-              className="p-2 rounded-xl text-zinc-400 hover:text-amber-400 hover:bg-zinc-800/80 active:bg-amber-400/20 transition-all"
-              title="Copy"
-            >
-              {copied ? <Check size={16} className="text-emerald-400" /> : <Copy size={16} />}
-            </button>
-            <button
-              onClick={handleBookmark}
-              className={`p-2 rounded-xl transition-all ${
-                isBookmarked
-                  ? 'text-amber-400 bg-amber-400/10 border border-amber-400/30'
-                  : 'text-zinc-400 hover:text-amber-400 hover:bg-zinc-800/80'
-              }`}
-              title="Bookmark"
-            >
-              <Bookmark size={16} className={isBookmarked ? 'fill-amber-400' : ''} />
+              {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={14} />}
             </button>
           </div>
         </div>
@@ -164,7 +150,7 @@ export function WordCard({
           </p>
           <button
             onClick={(e) => handleSpeakText(word.definition, 'def', e)}
-            className={`p-1 rounded-lg border transition-all shrink-0 ${
+            className={`p-1.5 rounded-lg border transition-all shrink-0 ${
               speakingTarget === 'def'
                 ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
                 : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
@@ -186,14 +172,14 @@ export function WordCard({
             </div>
             <button
               onClick={(e) => handleSpeakText(word.enExample, 'ex', e)}
-              className={`p-1 rounded-lg border transition-all ${
+              className={`p-1.5 rounded-lg border transition-all shrink-0 ${
                 speakingTarget === 'ex'
                   ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
-                  : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400'
+                  : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
               }`}
               title="Listen to example"
             >
-              {speakingTarget === 'ex' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={12} />}
+              {speakingTarget === 'ex' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
             </button>
           </div>
 

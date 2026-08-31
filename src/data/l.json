@@ -1159,5 +1159,27 @@
       "Laud",
       "Approve"
     ]
+  },
+  {
+    "id": 3752,
+    "word": "Linting",
+    "pos": "noun",
+    "definition": "The automated static analysis of source code to flag syntax errors, code style violations, potential bugs, and anti-patterns before compilation.",
+    "taWord": "தானியங்கி குறியீட்டு ஆய்வு / முன்கூட்டியே பிழை மற்றும் நடை சரிபார்த்தல்",
+    "enExample": "Running ESLint in our continuous integration pipeline catches unhandled edge cases and styling mistakes automatically.",
+    "taExample": "எங்கள் தொடர் ஒருங்கிணைப்பு பைப்லைனில் ESLint-ஐ இயக்குவது கையாளப்படாத விளிம்பு நிகழ்வுகளையும் நடைப் பிழைகளையும் தானாகவே கண்டறிகிறது.",
+    "enExample2": "Strict linting rules enforce consistent formatting and naming conventions across massive engineering organizations.",
+    "taExample2": "கடுமையான குறியீட்டு ஆய்வு விதிகள் பெரிய பொறியியல் நிறுவனங்களில் சீரான வடிவமைப்பு மற்றும் பெயரிடும் மரபுகளை செயல்படுத்துகின்றன.",
+    "synonyms": [
+      "Static analysis",
+      "Code inspection",
+      "Syntax checking",
+      "Style validation"
+    ],
+    "antonyms": [
+      "Dynamic testing",
+      "Runtime inspection",
+      "Manual review"
+    ]
   }
 ]

@@ -1939,5 +1939,27 @@
       "Discord",
       "Conflict"
     ]
+  },
+  {
+    "id": 3741,
+    "word": "Reentrancy",
+    "pos": "noun",
+    "definition": "The property of a computer program or subroutine allowing it to be safely re-entered and executed concurrently or recursively before previous executions finish.",
+    "taWord": "பாதுகாப்பான மறுநுழைவுத் தன்மை / ஒரே நேரத்தில் பலமுறை இயங்கும் நிலைப்புத்தன்மை",
+    "enExample": "Smart contract developers must implement reentrancy guards to prevent malicious contract draining attacks.",
+    "taExample": "ஸ்மார்ட் ஒப்பந்த உருவாக்குநர்கள் தீங்கிழைக்கும் தாக்குதல்களைத் தடுக்க மறுநுழைவுப் பாதுகாப்புகளைச் செயல்படுத்த வேண்டும்.",
+    "enExample2": "Thread-safe logger functions require reentrancy to handle simultaneous calls from nested interrupt handlers.",
+    "taExample2": "பாதுகாப்பான லாகர் செயல்பாடுகள் உள்ளமை குறுக்கீடு கையாளுபவர்களிடமிருந்து ஒரே நேரத்தில் வரும் அழைப்புகளைக் கையாள மறுநுழைவுத் தன்மை தேவைப்படுகிறது.",
+    "synonyms": [
+      "Thread-safety",
+      "Concurrent safety",
+      "Interruptibility",
+      "Idempotent execution"
+    ],
+    "antonyms": [
+      "Non-reentrancy",
+      "Race susceptibility",
+      "Vulnerability"
+    ]
   }
 ]

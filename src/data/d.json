@@ -2435,5 +2435,50 @@
       "Neglect",
       "Treachery"
     ]
+  },
+  {
+    "id": 3740,
+    "word": "Deserialization",
+    "pos": "noun",
+    "definition": "The process of reconstructing an in-memory data object or class from a byte stream or serialized text string.",
+    "taWord": "வரிசைப்படுத்தப்பட்ட தரவை மீண்டும் பொருளாக மீட்டெடுத்தல் / மறுஉருவாக்கம்",
+    "enExample": "Unsafe deserialization of untrusted user input can lead to remote code execution vulnerabilities.",
+    "taExample": "நம்பத்தகாத பயனர் உள்ளீட்டை பாதுகாப்பற்ற முறையில் மீட்டெடுப்பது தொலை குறியீட்டு இயக்க பாதிப்புகளுக்கு வழிவகுக்கும்.",
+    "enExample2": "The mobile app deserializes API responses into local TypeScript model instances.",
+    "taExample2": "மொபைல் செயலி ஏபிஐ பதில்களை உள்ளூர் டைப்ஸ்கிரிப்ட் மாதிரி நிகழ்வுகளாக மீண்டும் மீட்டெடுக்கிறது.",
+    "synonyms": [
+      "Unmarshaling",
+      "Decoding",
+      "Reconstruction",
+      "Object parsing"
+    ],
+    "antonyms": [
+      "Serialization",
+      "Marshaling",
+      "Encoding"
+    ]
+  },
+  {
+    "id": 3743,
+    "word": "Debounce",
+    "pos": "verb",
+    "definition": "To delay function execution until a specified duration has elapsed since the last time the trigger event was fired.",
+    "taWord": "தாமதப்படுத்தி இயக்கும் உத்தி / தொடர் அழைப்புகளை ஒருங்கிணைத்தல்",
+    "enExample": "We debounce the search input by 300 milliseconds so backend queries only run after the user finishes typing.",
+    "taExample": "பயனர் தட்டச்சு செய்து முடித்த பின்னரே தேடல் வினவல்கள் இயங்கும் வகையில் நாங்கள் தேடல் உள்ளீட்டை 300 மில்லி விநாடிகள் தாமதப்படுத்துகிறோம்.",
+    "enExample2": "Debouncing window resize listeners prevents unnecessary layout recalculations on every pixel shift.",
+    "taExample2": "சாளர அளவு மாற்றத்தைக் கண்காணிக்கும் அழைப்புகளை ஒருங்கிணைப்பது ஒவ்வொரு பிக்சல் மாற்றத்தின் போதும் தேவையற்ற தளவமைப்பு மறு கணக்கீடுகளைத் தடுக்கிறது.",
+    "synonyms": [
+      "Delay",
+      "Batch",
+      "Coalesce",
+      "Stabilize",
+      "Postpone"
+    ],
+    "antonyms": [
+      "Immediate trigger",
+      "Instant dispatch",
+      "Continuous fire"
+    ]
   }
 ]

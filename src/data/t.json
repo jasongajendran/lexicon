@@ -1478,5 +1478,50 @@
       "Extravagant",
       "Spendthrift"
     ]
+  },
+  {
+    "id": 3742,
+    "word": "Throttling",
+    "pos": "noun",
+    "definition": "The intentional regulation or rate-limiting of execution frequency or network bandwidth to protect server resources from being overwhelmed.",
+    "taWord": "வேகக் கட்டுப்பாடு / பயன்பாட்டு வரம்பு நிர்ணயம்",
+    "enExample": "API gateways implement client throttling to prevent denial-of-service traffic spikes.",
+    "taExample": "சேவை மறுப்பு போக்குவரத்து அதிகரிப்பைத் தடுக்க ஏபிஐ நுழைவாயில்கள் வாடிக்கையாளர் வேகக் கட்டுப்பாட்டை செயல்படுத்துகின்றன.",
+    "enExample2": "In frontend development, throttling scroll event handlers preserves smooth 60fps frame rates.",
+    "taExample2": "முன்பக்க உருவாக்கத்தில், ஸ்க்ரோல் நிகழ்வுக் கையாளுபவர்களின் வேகத்தைக் கட்டுப்படுத்துவது மென்மையான 60fps காட்சி வேகத்தைப் பாதுகாக்கிறது.",
+    "synonyms": [
+      "Rate limiting",
+      "Pacing",
+      "Choking",
+      "Regulating",
+      "Constraining"
+    ],
+    "antonyms": [
+      "Unconstrained burst",
+      "Overclocking",
+      "Flooding"
+    ]
+  },
+  {
+    "id": 3748,
+    "word": "Transpilation",
+    "pos": "noun",
+    "definition": "The process of translating source code written in one high-level programming language into another language at a similar abstraction level (such as TypeScript to JavaScript).",
+    "taWord": "மூலக் குறியீட்டை மற்றொரு மொழியாக மாற்றுதல் / மொழிபெயர்ப்புத் தொகுப்பு",
+    "enExample": "Babel and TypeScript compilers handle transpilation to guarantee backward compatibility with older browsers.",
+    "taExample": "பேபல் மற்றும் டைப்ஸ்கிரிப்ட் கம்பைலர்கள் பழைய உலாவிகளுடன் பின்னோக்கிய இணக்கத்தன்மையை உறுதிப்படுத்த மொழிபெயர்ப்புத் தொகுப்பைக் கையாளுகின்றன.",
+    "enExample2": "Modern build tools like esbuild execute transpilation in milliseconds using multi-threaded native binaries.",
+    "taExample2": "esbuild போன்ற நவீன உருவாக்கக் கருவிகள் நேட்டிவ் பைனரிகளைப் பயன்படுத்தி மில்லி விநாடிகளில் மூலக் குறியீட்டு மொழிபெயர்ப்பை இயக்குகின்றன.",
+    "synonyms": [
+      "Source-to-source compilation",
+      "Translation",
+      "Transcompilation",
+      "Code conversion"
+    ],
+    "antonyms": [
+      "Machine code compilation",
+      "Interpretation",
+      "Direct execution"
+    ]
   }
 ]

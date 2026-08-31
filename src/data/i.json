@@ -2063,5 +2063,75 @@
       "True love",
       "Apathy"
     ]
+  },
+  {
+    "id": 3739,
+    "word": "Immutability",
+    "pos": "noun",
+    "definition": "The property of an object, state, or data structure that prevents it from being modified after creation.",
+    "taWord": "மாற்ற முடியாத தன்மை / நிலையான நிலைத் தன்மை",
+    "enExample": "React states and Redux stores rely on state immutability to accurately track changes and render fast UI updates.",
+    "taExample": "ரியாக்ட் மற்றும் ரெடக்ஸ் கட்டமைப்புகள் மாற்றங்களைத் துல்லியமாகக் கண்காணித்து வேகமான இடைமுகத்தைப் புதுப்பிக்க மாற்ற முடியாத நிலைப் பண்பையே நம்பியுள்ளன.",
+    "enExample2": "Functional programming languages enforce data immutability to completely eliminate unexpected side effects.",
+    "taExample2": "செயல்பாட்டு நிரலாக்க மொழிகள் எதிர்பாராத பக்கவிளைவுகளை முற்றிலுமாக அகற்ற தரவு மாற்ற முடியாத தன்மையை வலியுறுத்துகின்றன.",
+    "synonyms": [
+      "Permanence",
+      "Invariance",
+      "Stability",
+      "Unalterability",
+      "Constancy"
+    ],
+    "antonyms": [
+      "Mutability",
+      "Changeability",
+      "Volatility",
+      "Malleability"
+    ]
+  },
+  {
+    "id": 3744,
+    "word": "Idempotence",
+    "pos": "noun",
+    "definition": "The quality of an action or system state whereby making repeated requests yields identical system state changes.",
+    "taWord": "மாறா விளைவுப் பண்பு / மறுசெய்கை நிலைப்புத்தன்மை",
+    "enExample": "Ensuring idempotence in distributed database transactions guarantees fault tolerance during network timeouts.",
+    "taExample": "விநியோகிக்கப்பட்ட தரவுத்தளப் பரிவர்த்தனைகளில் மாறா விளைவுப் பண்பை உறுதி செய்வது நெட்வொர்க் காலக்கெடுவின் போது பிழை சகிப்புத்தன்மையை உறுதி செய்கிறது.",
+    "enExample2": "Architects verify the idempotence of webhooks before deploying them to mission-critical infrastructure.",
+    "taExample2": "முக்கிய உள்கட்டமைப்பில் வெப்ஹூக்குகளைப் பயன்படுத்துவதற்கு முன் கட்டடக் கலைஞர்கள் அவற்றின் மாறா விளைவுப் பண்பைச் சரிபார்க்கிறார்கள்.",
+    "synonyms": [
+      "Repeatability",
+      "Consistency",
+      "Invariance",
+      "Determinism"
+    ],
+    "antonyms": [
+      "Non-idempotence",
+      "State volatility",
+      "Side-effect instability"
+    ]
+  },
+  {
+    "id": 3750,
+    "word": "Ingress",
+    "pos": "noun",
+    "definition": "The entry point or routing mechanism that manages external network traffic entering a cluster or cloud computing network.",
+    "taWord": "உள்வரும் போக்குவரத்து நுழைவாயில் / வலையமைப்பு உள்வருகை",
+    "enExample": "The Kubernetes Ingress controller routes external SSL traffic directly to the appropriate backend microservices.",
+    "taExample": "குபெர்னெட்ஸ் இன்க்ரஸ் கன்ட்ரோலர் வெளிப்புற SSL போக்குவரத்தை நேரடியாக பொருத்தமான பின்பக்க மைக்ரோ சர்வீஸ்களுக்கு வழிநடத்துகிறது.",
+    "enExample2": "Configuring strict ingress firewall rules prevents unauthorized IP addresses from reaching internal staging databases.",
+    "taExample2": "கடுமையான உள்வருகை ஃபயர்வால் விதிகளை அமைப்பது அங்கீகரிக்கப்படாத ஐபி முகவரிகள் உள் தரவுத்தளங்களை அணுகுவதைத் தடுக்கிறது.",
+    "synonyms": [
+      "Entry point",
+      "Gateway",
+      "Inflow",
+      "Incoming route",
+      "Access door"
+    ],
+    "antonyms": [
+      "Egress",
+      "Exit",
+      "Outflow",
+      "Outbound route"
+    ]
   }
 ]

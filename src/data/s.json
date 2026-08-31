@@ -2828,5 +2828,28 @@
       "Apathy",
       "Cruelty"
     ]
+  },
+  {
+    "id": 3747,
+    "word": "Sandboxing",
+    "pos": "noun",
+    "definition": "A security practice of running untested or untrusted code in an isolated environment with restricted system privileges.",
+    "taWord": "பாதுகாப்பான தனிமைப்படுத்தப்பட்ட சூழலில் இயக்குதல் / தனிமைச் சூழல் பாதுகாப்பு",
+    "enExample": "Modern web browsers use strict process sandboxing so compromised tabs cannot access the operating system.",
+    "taExample": "நவீன இணைய உலாவிகள் கடுமையான தனிமைச் சூழலைப் பயன்படுத்துகின்றன, இதனால் பாதிக்கப்பட்ட தாவல்கள் இயங்குதளத்தை அணுக முடியாது.",
+    "enExample2": "Sandboxing plugin execution ensures that third-party extensions cannot steal sensitive user tokens.",
+    "taExample2": "செருகுநிரல் இயக்கத்தைத் தனிமைப்படுத்துவது மூன்றாம் தரப்பு நீட்டிப்புகள் முக்கியமான பயனர் டோக்கன்களைத் திருட முடியாது என்பதை உறுதி செய்கிறது.",
+    "synonyms": [
+      "Isolation",
+      "Containment",
+      "Segregation",
+      "Jailing",
+      "Quarantine"
+    ],
+    "antonyms": [
+      "Unrestricted execution",
+      "Privileged execution",
+      "Direct exposure"
+    ]
   }
 ]

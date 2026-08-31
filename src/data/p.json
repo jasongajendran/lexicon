@@ -3107,5 +3107,26 @@
       "Sensual",
       "Erotic"
     ]
+  },
+  {
+    "id": 3745,
+    "word": "Polyfill",
+    "pos": "noun",
+    "definition": "A piece of code or client library used to provide modern web functionality to older browsers that do not natively support it.",
+    "taWord": "பழைய உலாவிகளுக்கான நவீன வசதி நிரல் / இணக்கத்தன்மை நிரல்",
+    "enExample": "Adding a Promise polyfill ensured that legacy enterprise browsers could run modern asynchronous JavaScript.",
+    "taExample": "பிராமிஸ் இணக்கத்தன்மை நிரலைச் சேர்த்தது பழைய நிறுவன உலாவிகள் நவீன ஒத்திசைவற்ற ஜாவாஸ்கிரிப்டை இயக்க முடியும் என்பதை உறுதி செய்தது.",
+    "enExample2": "Vite automatically injects polyfills when targeting legacy browser compilation targets.",
+    "taExample2": "பழைய உலாவி தொகுப்பு இலக்குகளை இலக்காகக் கொள்ளும்போது வைட் தானாகவே இணக்கத்தன்மை நிரல்களைச் செலுத்துகிறது.",
+    "synonyms": [
+      "Shim",
+      "Fallback script",
+      "Compatibility layer",
+      "Adapter"
+    ],
+    "antonyms": [
+      "Native API",
+      "Standard implementation"
+    ]
   }
 ]
