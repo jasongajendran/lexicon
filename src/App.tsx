@@ -221,22 +221,38 @@ export default function App() {
     return shuffled;
   }, [searchQuery, activeLetter, activePos, showOnlyBookmarks, bookmarkedIds, isShuffled, shuffleKey]);
 
-  const currentModalIndex = useMemo(() => {
-    if (!selectedWordModal) return -1;
-    return filteredWords.findIndex(w => w.id === selectedWordModal.id);
+  const activeModalList = useMemo(() => {
+    if (!selectedWordModal) return filteredWords;
+    const inFiltered = filteredWords.some(w => w.id === selectedWordModal.id);
+    return inFiltered && filteredWords.length > 0 ? filteredWords : wordsData;
   }, [selectedWordModal, filteredWords]);
 
-  const handlePrevModalWord = () => {
-    if (currentModalIndex > 0) {
-      setSelectedWordModal(filteredWords[currentModalIndex - 1]);
-    }
-  };
+  const currentModalIndex = useMemo(() => {
+    if (!selectedWordModal || activeModalList.length === 0) return -1;
+    return activeModalList.findIndex(w => w.id === selectedWordModal.id);
+  }, [selectedWordModal, activeModalList]);
 
-  const handleNextModalWord = () => {
-    if (currentModalIndex >= 0 && currentModalIndex < filteredWords.length - 1) {
-      setSelectedWordModal(filteredWords[currentModalIndex + 1]);
+  const handlePrevModalWord = useCallback(() => {
+    if (activeModalList.length === 0) return;
+    if (currentModalIndex > 0) {
+      setSelectedWordModal(activeModalList[currentModalIndex - 1]);
+    } else if (currentModalIndex === 0) {
+      // Loop to last item for smooth continuous navigation
+      setSelectedWordModal(activeModalList[activeModalList.length - 1]);
+    } else {
+      setSelectedWordModal(activeModalList[0]);
     }
-  };
+  }, [activeModalList, currentModalIndex]);
+
+  const handleNextModalWord = useCallback(() => {
+    if (activeModalList.length === 0) return;
+    if (currentModalIndex >= 0 && currentModalIndex < activeModalList.length - 1) {
+      setSelectedWordModal(activeModalList[currentModalIndex + 1]);
+    } else {
+      // Loop to first item
+      setSelectedWordModal(activeModalList[0]);
+    }
+  }, [activeModalList, currentModalIndex]);
 
   // Reset pagination on filter change
   useEffect(() => {
@@ -1187,8 +1203,8 @@ export default function App() {
         onWordSearch={handleWordLinkClick}
         onPrevWord={handlePrevModalWord}
         onNextWord={handleNextModalWord}
-        hasPrev={currentModalIndex > 0}
-        hasNext={currentModalIndex >= 0 && currentModalIndex < filteredWords.length - 1}
+        hasPrev={activeModalList.length > 1}
+        hasNext={activeModalList.length > 1}
       />
 
       {/* Keyboard Shortcuts Guide Modal */}

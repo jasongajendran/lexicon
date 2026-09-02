@@ -228,9 +228,6 @@ export function WordDetailModal({
           {/* Modal Header */}
           <div className="p-5 sm:p-6 border-b border-zinc-800/80 bg-zinc-900/40 flex items-center justify-between gap-4 sticky top-0 z-20 backdrop-blur-md">
             <div className="flex items-center gap-2.5">
-              <span className="text-xs font-mono text-zinc-400 bg-zinc-800/90 px-2.5 py-1 rounded-full border border-zinc-700/60 font-semibold">
-                #{word.id.toString().padStart(3, '0')}
-              </span>
               <span className="text-xs font-mono text-purple-300 bg-purple-500/15 px-2.5 py-1 rounded-full border border-purple-400/30 uppercase tracking-wider font-semibold">
                 {word.pos}
               </span>
@@ -244,37 +241,6 @@ export function WordDetailModal({
 
             {/* Top Action Controls */}
             <div className="flex items-center gap-1.5">
-              {/* Prev / Next navigation */}
-              {onPrevWord && (
-                <button
-                  onClick={onPrevWord}
-                  disabled={!hasPrev}
-                  className={`p-2 rounded-xl border transition-all ${
-                    hasPrev 
-                      ? 'bg-zinc-900 border-zinc-800 text-zinc-300 hover:text-amber-400 hover:border-amber-400/40 active:scale-95' 
-                      : 'bg-zinc-900/40 border-zinc-800/40 text-zinc-600 opacity-40 cursor-not-allowed'
-                  }`}
-                  title="Previous word (Left arrow)"
-                >
-                  <ChevronLeft size={16} />
-                </button>
-              )}
-
-              {onNextWord && (
-                <button
-                  onClick={onNextWord}
-                  disabled={!hasNext}
-                  className={`p-2 rounded-xl border transition-all ${
-                    hasNext 
-                      ? 'bg-zinc-900 border-zinc-800 text-zinc-300 hover:text-amber-400 hover:border-amber-400/40 active:scale-95' 
-                      : 'bg-zinc-900/40 border-zinc-800/40 text-zinc-600 opacity-40 cursor-not-allowed'
-                  }`}
-                  title="Next word (Right arrow)"
-                >
-                  <ChevronRight size={16} />
-                </button>
-              )}
-
               <button
                 onClick={handleSpeak}
                 className={`p-2 rounded-xl border transition-all ${
@@ -573,23 +539,64 @@ export function WordDetailModal({
             )}
           </div>
 
-          {/* Modal Footer - Centered Ergonomic Close Button */}
-          <div className="p-4 sm:p-5 border-t border-zinc-800/80 bg-zinc-900/80 flex items-center justify-center relative">
-            <div className="hidden sm:flex items-center gap-1.5 text-zinc-500 text-[11px] absolute left-5">
-              <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded border border-zinc-700 text-zinc-300">←</kbd>
-              <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded border border-zinc-700 text-zinc-300">→</kbd>
-              <span>Nav</span>
+          {/* Modal Footer - Centered Close Button with Right Bottom Navigation Controls */}
+          <div className="p-4 sm:p-5 border-t border-zinc-800/80 bg-zinc-900/80 flex items-center justify-between gap-3 relative">
+            {/* Left Hint */}
+            <div className="hidden sm:flex items-center gap-1.5 text-zinc-500 text-[11px]">
+              <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded border border-zinc-700 text-zinc-300">Esc</kbd>
+              <span>to close</span>
             </div>
 
-            {/* Prominent Center Close Button - Easily reachable by both thumbs */}
+            {/* Prominent Center Close Button */}
             <button
               onClick={onClose}
-              className="px-8 py-2.5 sm:py-3 rounded-full bg-amber-400 hover:bg-amber-300 active:scale-95 text-black font-mono text-xs font-bold flex items-center justify-center gap-2 shadow-xl shadow-amber-500/15 transition-all border border-amber-300 cursor-pointer"
+              className="px-8 py-2.5 sm:py-3 rounded-full bg-amber-400 hover:bg-amber-300 active:scale-95 text-black font-mono text-xs font-bold flex items-center justify-center gap-2 shadow-xl shadow-amber-500/15 transition-all border border-amber-300 cursor-pointer mx-auto"
               title="Close modal (Esc)"
             >
               <X size={18} strokeWidth={2.5} />
               <span>CLOSE</span>
             </button>
+
+            {/* Right Bottom Navigation Controls (← / → Nav) */}
+            <div className="flex items-center gap-1.5">
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  triggerHaptic();
+                  if (onPrevWord) onPrevWord();
+                }}
+                disabled={!hasPrev}
+                className={`flex items-center gap-1 px-3 py-2 rounded-xl border font-mono text-xs transition-all ${
+                  hasPrev
+                    ? 'bg-zinc-800/90 border-zinc-700 text-zinc-200 hover:bg-zinc-700 hover:text-amber-400 hover:border-amber-400/50 active:scale-95 cursor-pointer shadow-sm'
+                    : 'bg-zinc-900/40 border-zinc-800/40 text-zinc-600 opacity-40 cursor-not-allowed'
+                }`}
+                title="Previous word (Left arrow)"
+              >
+                <ChevronLeft size={16} />
+                <span className="font-semibold hidden xs:inline">Prev</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  triggerHaptic();
+                  if (onNextWord) onNextWord();
+                }}
+                disabled={!hasNext}
+                className={`flex items-center gap-1 px-3 py-2 rounded-xl border font-mono text-xs transition-all ${
+                  hasNext
+                    ? 'bg-zinc-800/90 border-zinc-700 text-zinc-200 hover:bg-zinc-700 hover:text-amber-400 hover:border-amber-400/50 active:scale-95 cursor-pointer shadow-sm'
+                    : 'bg-zinc-900/40 border-zinc-800/40 text-zinc-600 opacity-40 cursor-not-allowed'
+                }`}
+                title="Next word (Right arrow)"
+              >
+                <span className="font-semibold hidden xs:inline">Next</span>
+                <ChevronRight size={16} />
+              </button>
+            </div>
           </div>
         </motion.div>
       </div>

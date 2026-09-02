@@ -123,6 +123,22 @@ function findYoungBritishFemaleVoice(voices: SpeechSynthesisVoice[]): SpeechSynt
   return nonMaleVoices[0] || null;
 }
 
+export function cleanTextForSpeech(rawText: string): string {
+  if (!rawText) return '';
+  return rawText
+    // Strip Tamil unicode range (\u0B80-\u0BFF) so TTS reads English text alone
+    .replace(/[\u0B80-\u0BFF]/g, '')
+    // Normalize curly single quotes and apostrophes to standard apostrophe
+    .replace(/[’‘ʼʻ`]/g, "'")
+    // Replace double quotes and structural symbols with spaces
+    .replace(/["“”«»\[\](){}\/\\<>#*_~]/g, ' ')
+    // Strip standalone leading/trailing quotes around words while strictly preserving intra-word apostrophes (e.g. country's, don't, it's)
+    .replace(/(^|[^\w])'+|'+([^\w]|$)/g, '$1 $2')
+    // Normalize spaces
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 export function stopSpeaking() {
   if (speechDebounceTimer) {
     clearTimeout(speechDebounceTimer);
@@ -160,12 +176,8 @@ export function speakWord(
   // Clean and cancel any previous speech
   stopSpeaking();
 
-  // Clean text: strip Tamil unicode range (\u0B80-\u0BFF) so TTS reads English text alone
-  const englishOnlyText = text
-    .replace(/[\u0B80-\u0BFF]/g, '')
-    .replace(/["'\[\]()\/]/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
+  // Clean text preserving intra-word apostrophes and stripping non-English characters
+  const englishOnlyText = cleanTextForSpeech(text);
 
   if (!englishOnlyText) {
     if (onError) onError();
