@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'motion/react';
-import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Filter, X, Keyboard, ArrowUp, RotateCcw, ChevronDown, SlidersHorizontal } from 'lucide-react';
+import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Filter, X, Keyboard, ArrowUp, RotateCcw, ChevronDown, SlidersHorizontal, Trophy, Headphones } from 'lucide-react';
 import { wordsData } from './data';
 import { WordRow } from './components/WordRow';
 import { WordCard } from './components/WordCard';
@@ -11,6 +11,8 @@ import { WordOfTheDayCard } from './components/WordOfTheDayCard';
 import { WordDetailModal } from './components/WordDetailModal';
 import { VerticalWordScrubber } from './components/VerticalWordScrubber';
 import { KeyboardShortcutsModal } from './components/KeyboardShortcutsModal';
+import { QuizArena } from './components/QuizArena';
+import { AudioWalkman } from './components/AudioWalkman';
 import { LexiconWord } from './types';
 
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
@@ -60,7 +62,7 @@ export default function App() {
 
   // Mobile & View State
   const [viewMode, setViewMode] = useState<'list' | 'grid'>('list');
-  const [currentTab, setCurrentTab] = useState<'feed' | 'study'>('feed');
+  const [currentTab, setCurrentTab] = useState<'feed' | 'study' | 'quiz' | 'walkman'>('feed');
   const [isFilterSheetOpen, setIsFilterSheetOpen] = useState(false);
   const [isKeyboardHelpOpen, setIsKeyboardHelpOpen] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
@@ -110,6 +112,7 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem('lexicon-bookmarks', JSON.stringify(bookmarkedIds));
   }, [bookmarkedIds]);
+
 
   const toggleBookmark = (id: number) => {
     setBookmarkedIds(prev => 
@@ -327,14 +330,13 @@ export default function App() {
               </div>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5">
               <button
                 onClick={() => setIsKeyboardHelpOpen(true)}
                 className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 active:scale-95 transition-all text-xs font-mono flex items-center gap-1.5"
                 title="Keyboard Shortcuts (?)"
               >
                 <Keyboard size={14} />
-                <span className="hidden sm:inline">Keys</span>
               </button>
 
               <button
@@ -343,7 +345,6 @@ export default function App() {
                 title="Explore Random Word (R)"
               >
                 <Shuffle size={14} />
-                <span className="hidden sm:inline">Random</span>
               </button>
             </div>
           </div>
@@ -766,7 +767,7 @@ export default function App() {
       <main className="lg:w-[65%] xl:w-[70%] min-h-screen relative flex flex-col">
         {/* Sticky Mobile & Desktop Top Bar */}
         <div className="sticky top-0 z-30 bg-[#0a0a0a]/95 backdrop-blur-xl border-b border-zinc-800/80">
-          <div className="px-4 py-2.5 flex items-center justify-between gap-3">
+          <div className="px-4 py-2.5 flex items-center justify-between gap-3 flex-wrap">
             <div className="flex items-center gap-2">
               {/* Brand Logo for Mobile */}
               <div className="lg:hidden flex items-center gap-2">
@@ -787,33 +788,84 @@ export default function App() {
                 )}
               </button>
 
-              {/* Desktop Word Counter & Shuffle Badge */}
-              <div className="hidden lg:flex items-center gap-2">
-                <span className="text-xs font-mono text-zinc-500 uppercase tracking-wider">
-                  {currentTab === 'study' ? 'Active Recall Study Deck' : `${filteredWords.length} Terms Matched`}
-                </span>
-                {isShuffled && currentTab === 'feed' && (
-                  <span className="px-2 py-0.5 rounded-full bg-amber-400/15 border border-amber-400/30 text-amber-400 text-[10px] font-mono font-bold flex items-center gap-1">
-                    <Shuffle size={10} />
-                    <span>SHUFFLED</span>
-                  </span>
-                )}
+              {/* Desktop App Navigation Mode Tabs */}
+              <div className="hidden lg:flex items-center gap-1 bg-zinc-900/90 p-1 rounded-full border border-zinc-800/90 shadow-inner">
+                <button
+                  onClick={() => {
+                    setCurrentTab('feed');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className={`px-3.5 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 ${
+                    currentTab === 'feed'
+                      ? 'bg-amber-400 text-black font-bold shadow-sm'
+                      : 'text-zinc-400 hover:text-white'
+                  }`}
+                >
+                  <span>Dictionary</span>
+                  <span className="text-[10px] opacity-75">({filteredWords.length})</span>
+                </button>
+
+                <button
+                  onClick={() => {
+                    setCurrentTab('study');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 ${
+                    currentTab === 'study'
+                      ? 'bg-amber-400 text-black font-bold shadow-sm'
+                      : 'text-zinc-400 hover:text-white'
+                  }`}
+                >
+                  <Layers size={13} />
+                  <span>Flashcards</span>
+                </button>
+
+                <button
+                  onClick={() => {
+                    setCurrentTab('quiz');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 ${
+                    currentTab === 'quiz'
+                      ? 'bg-amber-400 text-black font-bold shadow-sm'
+                      : 'text-zinc-400 hover:text-white'
+                  }`}
+                >
+                  <Trophy size={13} />
+                  <span>Quiz Arena</span>
+                </button>
+
+                <button
+                  onClick={() => {
+                    setCurrentTab('walkman');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 ${
+                    currentTab === 'walkman'
+                      ? 'bg-cyan-400 text-black font-bold shadow-sm'
+                      : 'text-zinc-400 hover:text-white'
+                  }`}
+                >
+                  <Headphones size={13} />
+                  <span>Walkman</span>
+                </button>
               </div>
             </div>
 
-            {/* View Mode Switcher (List vs Grid vs Flashcard + Shuffle Toggle) */}
+            {/* Right Top Bar Quick Controls */}
             <div className="flex items-center gap-2">
+              {/* Feed Specific Controls: Shuffle & List/Grid toggle */}
               {currentTab === 'feed' && (
                 <div className="flex items-center gap-1.5">
                   {/* Shuffle Toggle Button */}
                   <button
                     onClick={toggleShuffle}
-                    className={`py-1.5 px-3 rounded-full border text-xs font-mono flex items-center gap-1.5 transition-all ${
+                    className={`py-1.5 px-2.5 sm:px-3 rounded-full border text-xs font-mono flex items-center gap-1.5 transition-all ${
                       isShuffled
                         ? 'bg-amber-400 text-black border-amber-400 font-bold shadow-md shadow-amber-400/20'
                         : 'bg-zinc-900 text-zinc-300 border-zinc-800 hover:border-zinc-700 hover:text-white'
                     }`}
-                    title={isShuffled ? 'Shuffle is ON (Click to restore alphabetical order)' : 'Shuffle word order randomly within active selection'}
+                    title={isShuffled ? 'Shuffle is ON (Click to restore alphabetical order)' : 'Shuffle word order randomly'}
                   >
                     <Shuffle size={13} className={isShuffled ? 'text-black' : 'text-zinc-400'} />
                     <span className="hidden sm:inline">{isShuffled ? 'Shuffled' : 'Shuffle'}</span>
@@ -831,44 +883,28 @@ export default function App() {
                       <RotateCcw size={13} />
                     </button>
                   )}
-                </div>
-              )}
 
-              <button
-                onClick={() => {
-                  setCurrentTab(currentTab === 'study' ? 'feed' : 'study');
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className={`py-1.5 px-3 rounded-full border text-xs font-mono flex items-center gap-1.5 transition-all ${
-                  currentTab === 'study'
-                    ? 'bg-amber-400 text-black border-amber-400 font-bold'
-                    : 'bg-zinc-900 text-zinc-300 border-zinc-800 hover:border-zinc-700'
-                }`}
-              >
-                <Layers size={14} />
-                <span>{currentTab === 'study' ? 'Back to Feed' : 'Flashcards'}</span>
-              </button>
-
-              {currentTab === 'feed' && (
-                <div className="flex items-center p-1 bg-zinc-900 rounded-full border border-zinc-800">
-                  <button
-                    onClick={() => setViewMode('list')}
-                    className={`p-1.5 rounded-full transition-all ${
-                      viewMode === 'list' ? 'bg-amber-400 text-black' : 'text-zinc-400 hover:text-white'
-                    }`}
-                    title="List View"
-                  >
-                    <List size={15} />
-                  </button>
-                  <button
-                    onClick={() => setViewMode('grid')}
-                    className={`p-1.5 rounded-full transition-all ${
-                      viewMode === 'grid' ? 'bg-amber-400 text-black' : 'text-zinc-400 hover:text-white'
-                    }`}
-                    title="Grid Bento View"
-                  >
-                    <LayoutGrid size={15} />
-                  </button>
+                  {/* List vs Grid Switcher */}
+                  <div className="flex items-center p-0.5 bg-zinc-900 rounded-full border border-zinc-800">
+                    <button
+                      onClick={() => setViewMode('list')}
+                      className={`p-1.5 rounded-full transition-all ${
+                        viewMode === 'list' ? 'bg-amber-400 text-black' : 'text-zinc-400 hover:text-white'
+                      }`}
+                      title="List View"
+                    >
+                      <List size={14} />
+                    </button>
+                    <button
+                      onClick={() => setViewMode('grid')}
+                      className={`p-1.5 rounded-full transition-all ${
+                        viewMode === 'grid' ? 'bg-amber-400 text-black' : 'text-zinc-400 hover:text-white'
+                      }`}
+                      title="Grid Bento View"
+                    >
+                      <LayoutGrid size={14} />
+                    </button>
+                  </div>
                 </div>
               )}
             </div>
@@ -987,6 +1023,39 @@ export default function App() {
                   words={filteredWords}
                   bookmarkedIds={bookmarkedIds}
                   onToggleBookmark={toggleBookmark}
+                />
+              </motion.div>
+            ) : currentTab === 'quiz' ? (
+              <motion.div
+                key="quiz-mode"
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -15 }}
+                transition={{ duration: 0.3 }}
+              >
+                <QuizArena
+                  words={filteredWords.length >= 8 ? filteredWords : wordsData}
+                  bookmarkedIds={bookmarkedIds}
+                  onToggleBookmark={toggleBookmark}
+                  onSelectWord={setSelectedWordModal}
+                  onExit={() => setCurrentTab('feed')}
+                />
+              </motion.div>
+            ) : currentTab === 'walkman' ? (
+              <motion.div
+                key="walkman-mode"
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -15 }}
+                transition={{ duration: 0.3 }}
+              >
+                <AudioWalkman
+                  words={filteredWords.length > 0 ? filteredWords : wordsData}
+                  bookmarkedIds={bookmarkedIds}
+                  onToggleBookmark={toggleBookmark}
+                  onSelectWord={setSelectedWordModal}
+                  onSelectWordModal={setSelectedWordModal}
+                  onExit={() => setCurrentTab('feed')}
                 />
               </motion.div>
             ) : filteredWords.length > 0 ? (

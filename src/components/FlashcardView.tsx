@@ -660,63 +660,66 @@ export function FlashcardView({
                   <div className="p-3 rounded-2xl bg-zinc-950/70 border border-zinc-800/70 space-y-2">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
-                        <span className={`text-[10px] font-mono ${theme.accentText} uppercase tracking-widest block font-semibold`}>
-                          {exampleTab === 1 ? 'Ex 1' : 'Ex 2'}
+                        <span className={`text-[10px] font-mono ${theme.accentText} uppercase tracking-widest block font-semibold flex items-center gap-1`}>
+                          <Sparkles size={11} className={theme.accentText} />
+                          {currentWord.enExample2 ? (exampleTab === 1 ? 'Example 1' : 'Example 2') : 'Example'}
                         </span>
-                        <button
-                          type="button"
-                          onClick={(e) => {
-                            const textToRead = exampleTab === 2 && currentWord.enExample2 ? currentWord.enExample2 : currentWord.enExample;
-                            handleSpeakText(textToRead, exampleTab === 1 ? 'ex1' : 'ex2', e);
-                          }}
-                          className={`p-1 rounded-lg border transition-all ${
-                            (exampleTab === 1 && speakingTarget === 'ex1') || (exampleTab === 2 && speakingTarget === 'ex2')
-                              ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
-                              : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-amber-400'
-                          }`}
-                          title="Listen to English example"
-                        >
-                          {(exampleTab === 1 && speakingTarget === 'ex1') || (exampleTab === 2 && speakingTarget === 'ex2') ? (
-                            <AudioEqualizer isPlaying={true} />
-                          ) : (
-                            <Volume2 size={12} />
-                          )}
-                        </button>
+                        {currentWord.enExample2 && (
+                          <div className="flex items-center gap-1">
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                triggerHaptic();
+                                setExampleTab(1);
+                              }}
+                              className={`px-2 py-0.5 rounded-md text-[10px] font-mono transition-all ${
+                                exampleTab === 1
+                                  ? 'bg-amber-400 text-black font-bold'
+                                  : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
+                              }`}
+                            >
+                              Ex 1
+                            </button>
+                            <button
+                              type="button"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                triggerHaptic();
+                                setExampleTab(2);
+                              }}
+                              className={`px-2 py-0.5 rounded-md text-[10px] font-mono transition-all ${
+                                exampleTab === 2
+                                  ? 'bg-amber-400 text-black font-bold'
+                                  : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
+                              }`}
+                            >
+                              Ex 2
+                            </button>
+                          </div>
+                        )}
                       </div>
-                      {currentWord.enExample2 && (
-                        <div className="flex items-center gap-1">
-                          <button
-                            type="button"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              triggerHaptic();
-                              setExampleTab(1);
-                            }}
-                            className={`px-2 py-0.5 rounded-md text-[10px] font-mono transition-all ${
-                              exampleTab === 1
-                                ? 'bg-amber-400 text-black font-bold'
-                                : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
-                            }`}
-                          >
-                            Ex 1
-                          </button>
-                          <button
-                            type="button"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              triggerHaptic();
-                              setExampleTab(2);
-                            }}
-                            className={`px-2 py-0.5 rounded-md text-[10px] font-mono transition-all ${
-                              exampleTab === 2
-                                ? 'bg-amber-400 text-black font-bold'
-                                : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
-                            }`}
-                          >
-                            Ex 2
-                          </button>
-                        </div>
-                      )}
+
+                      {/* Right-aligned Audio Icon Button (same as Definition) */}
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          const textToRead = exampleTab === 2 && currentWord.enExample2 ? currentWord.enExample2 : currentWord.enExample;
+                          handleSpeakText(textToRead, exampleTab === 1 ? 'ex1' : 'ex2', e);
+                        }}
+                        className={`p-1 rounded-lg border transition-all ${
+                          (exampleTab === 1 && speakingTarget === 'ex1') || (exampleTab === 2 && speakingTarget === 'ex2')
+                            ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
+                            : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-amber-400'
+                        }`}
+                        title="Listen to English example"
+                      >
+                        {(exampleTab === 1 && speakingTarget === 'ex1') || (exampleTab === 2 && speakingTarget === 'ex2') ? (
+                          <AudioEqualizer isPlaying={true} />
+                        ) : (
+                          <Volume2 size={12} />
+                        )}
+                      </button>
                     </div>
 
                     <div>

@@ -4,13 +4,14 @@ import { motion } from 'motion/react';
 interface AudioEqualizerProps {
   isPlaying: boolean;
   className?: string;
+  color?: string;
 }
 
-export function AudioEqualizer({ isPlaying, className = '' }: AudioEqualizerProps) {
+export function AudioEqualizer({ isPlaying, className = '', color }: AudioEqualizerProps) {
   if (!isPlaying) return null;
 
   return (
-    <div className={`flex items-end gap-0.5 h-3.5 px-0.5 ${className}`}>
+    <div className={`flex items-end gap-0.5 h-3.5 px-0.5 ${className}`} style={color ? { color } : undefined}>
       <motion.span
         animate={{ height: ['20%', '100%', '40%', '80%', '20%'] }}
         transition={{ repeat: Infinity, duration: 0.8, ease: 'easeInOut' }}

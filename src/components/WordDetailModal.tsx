@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, Volume2, Bookmark, BookOpen, Sparkles, ChevronLeft, ChevronRight, Layers, ArrowRight } from 'lucide-react';
+import { X, Volume2, Bookmark, BookOpen, Sparkles, ChevronLeft, ChevronRight, Layers, ArrowRight, Eye, EyeOff } from 'lucide-react';
 import { LexiconWord } from '../types';
 import { speakWord } from '../utils/speech';
 import { AudioEqualizer } from './AudioEqualizer';
@@ -22,7 +22,10 @@ interface WordDetailModalProps {
 function highlightTargetWord(
   sentence: string,
   targetWord: string,
-  variant: 'amber' | 'cyan' = 'amber'
+  variant: 'amber' | 'cyan' = 'amber',
+  isCloze = false,
+  isRevealed = false,
+  onReveal?: () => void
 ): React.ReactNode {
   if (!sentence || !targetWord) return sentence;
 
@@ -49,6 +52,22 @@ function highlightTargetWord(
       (cleanWord.toLowerCase().startsWith(part.toLowerCase()) && part.length >= 3);
 
     if (isMatch) {
+      if (isCloze && !isRevealed) {
+        return (
+          <button
+            key={index}
+            onClick={(e) => {
+              e.stopPropagation();
+              onReveal?.();
+            }}
+            className="inline-flex items-center px-2 py-0.5 rounded-lg bg-zinc-800 border border-dashed border-amber-400/80 text-amber-300 font-mono text-xs hover:bg-zinc-700 transition-all cursor-pointer shadow-sm mx-1"
+            title="Click to reveal target word"
+          >
+            [ ? tap to reveal ]
+          </button>
+        );
+      }
+
       return (
         <span
           key={index}
@@ -114,6 +133,9 @@ export function WordDetailModal({
 }: WordDetailModalProps) {
   const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | 'ex1' | 'ex2' | null>(null);
   const [activeTab, setActiveTab] = useState<'all' | 'thesaurus' | 'examples'>('all');
+  const [isClozeMode, setIsClozeMode] = useState<boolean>(false);
+  const [revealedEx1, setRevealedEx1] = useState<boolean>(false);
+  const [revealedEx2, setRevealedEx2] = useState<boolean>(false);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -131,10 +153,12 @@ export function WordDetailModal({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, onPrevWord, onNextWord, hasPrev, hasNext, onClose]);
 
-  // Reset tab on word change
+  // Reset tab and cloze reveals on word change
   useEffect(() => {
     setActiveTab('all');
     setSpeakingTarget(null);
+    setRevealedEx1(false);
+    setRevealedEx2(false);
   }, [word?.id]);
 
   if (!word || !isOpen) return null;
@@ -336,37 +360,58 @@ export function WordDetailModal({
               </div>
             </div>
 
-            {/* Quick Segment Filter Pills */}
-            <div className="flex items-center gap-2 border-b border-zinc-800/60 pb-3">
+            {/* Quick Segment Filter Pills & Cloze Challenge Mode Button */}
+            <div className="flex items-center justify-between gap-2 border-b border-zinc-800/60 pb-3 flex-wrap">
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setActiveTab('all')}
+                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all ${
+                    activeTab === 'all'
+                      ? 'bg-amber-400 text-black font-bold shadow-sm'
+                      : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
+                  }`}
+                >
+                  Overview
+                </button>
+                <button
+                  onClick={() => setActiveTab('examples')}
+                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all ${
+                    activeTab === 'examples'
+                      ? 'bg-amber-400 text-black font-bold shadow-sm'
+                      : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
+                  }`}
+                >
+                  Examples
+                </button>
+                <button
+                  onClick={() => setActiveTab('thesaurus')}
+                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all ${
+                    activeTab === 'thesaurus'
+                      ? 'bg-amber-400 text-black font-bold shadow-sm'
+                      : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
+                  }`}
+                >
+                  Thesaurus ({(word.synonyms?.length || 0) + (word.antonyms?.length || 0)})
+                </button>
+              </div>
+
+              {/* Challenge / Cloze Blank Practice Toggle */}
               <button
-                onClick={() => setActiveTab('all')}
-                className={`px-3 py-1 rounded-full text-xs font-mono transition-all ${
-                  activeTab === 'all'
-                    ? 'bg-amber-400 text-black font-bold shadow-sm'
-                    : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
+                onClick={() => {
+                  triggerHaptic();
+                  setIsClozeMode(prev => !prev);
+                  setRevealedEx1(false);
+                  setRevealedEx2(false);
+                }}
+                className={`px-3 py-1 rounded-full text-xs font-mono flex items-center gap-1.5 transition-all border ${
+                  isClozeMode
+                    ? 'bg-amber-400 text-black border-amber-400 font-bold shadow-sm'
+                    : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-amber-300'
                 }`}
+                title={isClozeMode ? 'Blank sentence mode active (Click to restore full word)' : 'Test yourself by blanking the target word in sentences'}
               >
-                Overview
-              </button>
-              <button
-                onClick={() => setActiveTab('examples')}
-                className={`px-3 py-1 rounded-full text-xs font-mono transition-all ${
-                  activeTab === 'examples'
-                    ? 'bg-amber-400 text-black font-bold shadow-sm'
-                    : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
-                }`}
-              >
-                Examples
-              </button>
-              <button
-                onClick={() => setActiveTab('thesaurus')}
-                className={`px-3 py-1 rounded-full text-xs font-mono transition-all ${
-                  activeTab === 'thesaurus'
-                    ? 'bg-amber-400 text-black font-bold shadow-sm'
-                    : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:text-white'
-                }`}
-              >
-                Thesaurus ({(word.synonyms?.length || 0) + (word.antonyms?.length || 0)})
+                {isClozeMode ? <EyeOff size={13} /> : <Eye size={13} />}
+                <span>{isClozeMode ? 'Practice: Blanks' : 'Test Recall'}</span>
               </button>
             </div>
 
@@ -384,6 +429,11 @@ export function WordDetailModal({
                       <span className="text-[10px] font-mono text-zinc-400 bg-zinc-900/60 px-1.5 py-0.5 rounded border border-zinc-800">
                         EN · TA
                       </span>
+                      {isClozeMode && (
+                        <span className="text-[10px] font-mono text-amber-300 bg-amber-400/15 px-2 py-0.5 rounded border border-amber-400/20">
+                          {revealedEx1 ? 'Revealed' : 'Tap blank to solve'}
+                        </span>
+                      )}
                     </div>
 
                     <button
@@ -402,7 +452,7 @@ export function WordDetailModal({
 
                   <div className="pl-3 border-l-3 border-amber-400 space-y-2">
                     <p className="text-base sm:text-lg md:text-xl font-serif italic text-amber-50 leading-relaxed">
-                      "{highlightTargetWord(word.enExample, word.word, 'amber')}"
+                      "{highlightTargetWord(word.enExample, word.word, 'amber', isClozeMode, revealedEx1, () => setRevealedEx1(true))}"
                     </p>
                     <p className="text-sm sm:text-base font-tamil text-amber-300/95 leading-relaxed pt-1 border-t border-amber-500/20">
                       "{highlightTamilWord(word.taExample, word.taWord, 'amber')}"
@@ -422,6 +472,11 @@ export function WordDetailModal({
                         <span className="text-[10px] font-mono text-zinc-400 bg-zinc-900/60 px-1.5 py-0.5 rounded border border-zinc-800">
                           EN · TA
                         </span>
+                        {isClozeMode && (
+                          <span className="text-[10px] font-mono text-cyan-300 bg-cyan-400/15 px-2 py-0.5 rounded border border-cyan-400/20">
+                            {revealedEx2 ? 'Revealed' : 'Tap blank to solve'}
+                          </span>
+                        )}
                       </div>
 
                       <button
@@ -440,7 +495,7 @@ export function WordDetailModal({
 
                     <div className="pl-3 border-l-3 border-cyan-400 space-y-2">
                       <p className="text-base sm:text-lg md:text-xl font-serif italic text-cyan-50 leading-relaxed">
-                        "{highlightTargetWord(word.enExample2 || word.enExample, word.word, 'cyan')}"
+                        "{highlightTargetWord(word.enExample2 || word.enExample, word.word, 'cyan', isClozeMode, revealedEx2, () => setRevealedEx2(true))}"
                       </p>
                       <p className="text-sm sm:text-base font-tamil text-cyan-300/95 leading-relaxed pt-1 border-t border-cyan-500/20">
                         "{highlightTamilWord(word.taExample2 || word.taExample, word.taWord, 'cyan')}"
