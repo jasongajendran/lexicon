@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'motion/react';
-import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Filter, X, Keyboard, ArrowUp, RotateCcw, ChevronDown, SlidersHorizontal, Trophy, Headphones } from 'lucide-react';
+import { Search, Bookmark, LayoutGrid, List, Layers, Shuffle, Filter, X, Keyboard, ArrowUp, RotateCcw, ChevronDown, SlidersHorizontal, Trophy, Headphones, Dices, Sparkles } from 'lucide-react';
 import { wordsData } from './data';
 import { WordRow } from './components/WordRow';
 import { WordCard } from './components/WordCard';
@@ -51,6 +51,24 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // Distraction-Free state: hides boilerplate title banner and master buttons, keeping only required filters & dedicating all space to content
+  const [isDistractionFree, setIsDistractionFree] = useState<boolean>(() => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem('lexicon_distraction_free') === 'true';
+    }
+    return false;
+  });
+
+  const toggleDistractionFree = useCallback(() => {
+    setIsDistractionFree(prev => {
+      const next = !prev;
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('lexicon_distraction_free', String(next));
+      }
+      return next;
+    });
+  }, []);
+
   // Master toggle for sidebar controls/filters panel (hidden by default on initial load)
   const [showControlsPanel, setShowControlsPanel] = useState(false);
 
@@ -73,15 +91,25 @@ export default function App() {
   const letterScrollRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress, scrollY } = useScroll();
 
-  // Deterministic Spotlight Word of the Day based on day of year
+  const [spotlightOffset, setSpotlightOffset] = useState<number>(0);
+
+  // Deterministic Spotlight Word of the Day hashed uniformly across all thousands of words A-Z
   const spotlightWord = useMemo(() => {
     if (wordsData.length === 0) return null;
     const today = new Date();
+    const dateStr = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+    // 32-bit FNV-1a hash of the calendar date
+    let hash = 2166136261;
+    for (let i = 0; i < dateStr.length; i++) {
+      hash ^= dateStr.charCodeAt(i);
+      hash = Math.imul(hash, 16777619);
+    }
     const dayOfYear = Math.floor(
       (today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / 1000 / 60 / 60 / 24
     );
-    return wordsData[dayOfYear % wordsData.length];
-  }, []);
+    const mixed = Math.abs((hash ^ (dayOfYear * 7919)) + spotlightOffset * 2749);
+    return wordsData[mixed % wordsData.length];
+  }, [spotlightOffset]);
 
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -164,6 +192,9 @@ export default function App() {
       if (e.key === '?') {
         e.preventDefault();
         setIsKeyboardHelpOpen(prev => !prev);
+      } else if (e.key.toLowerCase() === 'd') {
+        e.preventDefault();
+        toggleDistractionFree();
       } else if (e.key.toLowerCase() === 'z') {
         e.preventDefault();
         toggleShuffle();
@@ -328,42 +359,52 @@ export default function App() {
         {activeLetter !== 'all' ? activeLetter : 'L'}
       </div>
 
-      {/* Left Sidebar (Desktop & Wide Screen) */}
-      <motion.aside 
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        className="lg:w-[35%] xl:w-[30%] lg:h-screen lg:sticky lg:top-0 border-b lg:border-b-0 lg:border-r border-zinc-800/50 bg-[#0a0a0a]/80 backdrop-blur-xl z-10 flex flex-col p-6 md:p-10 lg:p-12 overflow-y-auto no-scrollbar"
-      >
-        <div className="flex-grow">
-          {/* Logo & Brand */}
-          <div className="flex items-center justify-between mb-8 md:mb-10">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full bg-amber-400 flex items-center justify-center text-black font-serif italic font-bold shadow-md shadow-amber-400/20">L</div>
-              <div>
-                <span className="text-xs font-mono tracking-widest text-zinc-300 uppercase block font-semibold">Pragmatic Lexicon</span>
-                <span className="text-[10px] font-mono text-amber-400/90 block">Engineer Edition • {wordsData.length} Terms</span>
+      {/* Left Sidebar (Desktop & Wide Screen) - Hidden in Distraction-Free Mode */}
+      {!isDistractionFree && (
+        <motion.aside 
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="lg:w-[35%] xl:w-[30%] lg:h-screen lg:sticky lg:top-0 border-b lg:border-b-0 lg:border-r border-zinc-800/50 bg-[#0a0a0a]/80 backdrop-blur-xl z-10 flex flex-col p-6 md:p-10 lg:p-12 overflow-y-auto no-scrollbar"
+        >
+          <div className="flex-grow">
+            {/* Logo & Brand */}
+            <div className="flex items-center justify-between mb-8 md:mb-10">
+              <div className="flex items-center gap-3">
+                <div className="w-9 h-9 rounded-full bg-amber-400 flex items-center justify-center text-black font-serif italic font-bold shadow-md shadow-amber-400/20">L</div>
+                <div>
+                  <span className="text-xs font-mono tracking-widest text-zinc-300 uppercase block font-semibold">Pragmatic Lexicon</span>
+                  <span className="text-[10px] font-mono text-amber-400/90 block">Engineer Edition • {wordsData.length} Terms</span>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-1.5">
+                <button
+                  onClick={toggleDistractionFree}
+                  className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40 active:scale-95 transition-all text-xs font-mono flex items-center gap-1.5 cursor-pointer"
+                  title="Toggle Distraction-Free Mode (Hide banners & dedicate all space to content) [D]"
+                >
+                  <Sparkles size={14} className="text-amber-400" />
+                  <span className="hidden xl:inline text-zinc-300 text-[11px]">Distraction Free</span>
+                </button>
+
+                <button
+                  onClick={() => setIsKeyboardHelpOpen(true)}
+                  className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 active:scale-95 transition-all text-xs font-mono flex items-center gap-1.5 cursor-pointer"
+                  title="Keyboard Shortcuts (?)"
+                >
+                  <Keyboard size={14} />
+                </button>
+
+                <button
+                  onClick={handleSelectRandomWord}
+                  className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 active:scale-95 transition-all text-xs font-mono flex items-center gap-1.5 cursor-pointer"
+                  title="Explore Random Word (R)"
+                >
+                  <Dices size={14} />
+                </button>
               </div>
             </div>
-
-            <div className="flex items-center gap-1.5">
-              <button
-                onClick={() => setIsKeyboardHelpOpen(true)}
-                className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 active:scale-95 transition-all text-xs font-mono flex items-center gap-1.5"
-                title="Keyboard Shortcuts (?)"
-              >
-                <Keyboard size={14} />
-              </button>
-
-              <button
-                onClick={handleSelectRandomWord}
-                className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 active:scale-95 transition-all text-xs font-mono flex items-center gap-1.5"
-                title="Explore Random Word (R)"
-              >
-                <Shuffle size={14} />
-              </button>
-            </div>
-          </div>
 
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-[1.1] mb-6 tracking-tight">
             The <br/> Engineer's <br/> <span className="italic text-amber-400">Vocabulary.</span>
@@ -723,48 +764,6 @@ export default function App() {
                     )}
                   </AnimatePresence>
                 </div>
-
-                {/* 5. Shuffle Word Order Toggle */}
-                <div className="rounded-2xl bg-zinc-900/40 border border-zinc-800/70 p-3 flex items-center justify-between transition-all">
-                  <div className="flex items-center gap-2.5">
-                    <div className={`w-6 h-6 rounded-lg flex items-center justify-center transition-colors ${
-                      isShuffled ? 'bg-amber-400 text-black font-bold' : 'bg-zinc-800 text-zinc-400'
-                    }`}>
-                      <Shuffle size={13} />
-                    </div>
-                    <div>
-                      <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-200 block">
-                        Shuffle Order
-                      </span>
-                      <span className="text-[10px] font-mono text-zinc-500">
-                        {isShuffled ? 'Random sequence within selection' : 'Alphabetical order'}
-                      </span>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-1.5">
-                    {isShuffled && (
-                      <button
-                        onClick={reshuffleWords}
-                        className="px-2 py-1 rounded-lg bg-zinc-800/90 text-zinc-400 hover:text-amber-400 hover:bg-zinc-700 text-[10px] font-mono flex items-center gap-1 border border-zinc-700/60 transition-colors"
-                        title="Re-shuffle words again"
-                      >
-                        <RotateCcw size={11} />
-                        <span>Re-roll</span>
-                      </button>
-                    )}
-                    <button
-                      onClick={toggleShuffle}
-                      className={`px-2.5 py-1 rounded-full text-[10px] font-mono font-bold transition-all border ${
-                        isShuffled
-                          ? 'bg-amber-400 text-black border-amber-400 shadow-sm'
-                          : 'bg-zinc-800/80 text-zinc-400 border-zinc-700/60 hover:text-zinc-200'
-                      }`}
-                    >
-                      {isShuffled ? 'ON' : 'OFF'}
-                    </button>
-                  </div>
-                </div>
               </motion.div>
             )}
           </AnimatePresence>
@@ -778,40 +777,43 @@ export default function App() {
           </div>
         </div>
       </motion.aside>
+      )}
 
       {/* Main Content Area */}
-      <main className="lg:w-[65%] xl:w-[70%] min-h-screen relative flex flex-col">
+      <main className={`${isDistractionFree ? 'w-full' : 'lg:w-[65%] xl:w-[70%]'} min-h-screen relative flex flex-col transition-all duration-300`}>
         {/* Sticky Mobile & Desktop Top Bar */}
         <div className="sticky top-0 z-30 bg-[#0a0a0a]/95 backdrop-blur-xl border-b border-zinc-800/80">
           <div className="px-4 py-2.5 flex items-center justify-between gap-3 flex-wrap">
             <div className="flex items-center gap-2">
-              {/* Brand Logo for Mobile */}
-              <div className="lg:hidden flex items-center gap-2">
+              {/* Brand Logo */}
+              <div className={`${isDistractionFree ? 'flex' : 'lg:hidden flex'} items-center gap-2`}>
                 <div className="w-7 h-7 rounded-full bg-amber-400 flex items-center justify-center text-black font-serif italic font-bold text-xs shadow-sm">L</div>
                 <span className="font-serif italic font-bold text-amber-400 text-sm">Lexicon</span>
               </div>
 
-              {/* Filter Drawer Trigger for Mobile */}
-              <button
-                onClick={() => setIsFilterSheetOpen(true)}
-                className="lg:hidden py-1.5 px-3 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300 hover:text-amber-400 transition-all flex items-center gap-1.5"
-                title="Search and Filters"
-              >
-                <Filter size={13} className="text-amber-400" />
-                <span>Filters</span>
-                {hasActiveFilters && (
-                  <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
-                )}
-              </button>
+              {/* Filter Drawer Trigger for Mobile (Only in standard mode) */}
+              {!isDistractionFree && (
+                <button
+                  onClick={() => setIsFilterSheetOpen(true)}
+                  className="lg:hidden py-1.5 px-3 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300 hover:text-amber-400 transition-all flex items-center gap-1.5 cursor-pointer"
+                  title="Search and Filters"
+                >
+                  <Filter size={13} className="text-amber-400" />
+                  <span>Filters</span>
+                  {hasActiveFilters && (
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+                  )}
+                </button>
+              )}
 
-              {/* Desktop App Navigation Mode Tabs */}
-              <div className="hidden lg:flex items-center gap-1 bg-zinc-900/90 p-1 rounded-full border border-zinc-800/90 shadow-inner">
+              {/* App Navigation Mode Tabs */}
+              <div className="hidden sm:flex items-center gap-1 bg-zinc-900/90 p-1 rounded-full border border-zinc-800/90 shadow-inner">
                 <button
                   onClick={() => {
                     setCurrentTab('feed');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className={`px-3.5 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 ${
+                  className={`px-3.5 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 cursor-pointer ${
                     currentTab === 'feed'
                       ? 'bg-amber-400 text-black font-bold shadow-sm'
                       : 'text-zinc-400 hover:text-white'
@@ -826,7 +828,7 @@ export default function App() {
                     setCurrentTab('study');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 ${
+                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 cursor-pointer ${
                     currentTab === 'study'
                       ? 'bg-amber-400 text-black font-bold shadow-sm'
                       : 'text-zinc-400 hover:text-white'
@@ -841,7 +843,7 @@ export default function App() {
                     setCurrentTab('quiz');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 ${
+                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 cursor-pointer ${
                     currentTab === 'quiz'
                       ? 'bg-amber-400 text-black font-bold shadow-sm'
                       : 'text-zinc-400 hover:text-white'
@@ -856,7 +858,7 @@ export default function App() {
                     setCurrentTab('walkman');
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 ${
+                  className={`px-3 py-1 rounded-full text-xs font-mono transition-all flex items-center gap-1.5 cursor-pointer ${
                     currentTab === 'walkman'
                       ? 'bg-cyan-400 text-black font-bold shadow-sm'
                       : 'text-zinc-400 hover:text-white'
@@ -870,18 +872,37 @@ export default function App() {
 
             {/* Right Top Bar Quick Controls */}
             <div className="flex items-center gap-2">
+              {/* Distraction Free Mode Toggle */}
+              <button
+                onClick={toggleDistractionFree}
+                className={`py-1.5 px-2.5 sm:px-3 rounded-full border text-xs font-mono flex items-center gap-1.5 transition-all cursor-pointer ${
+                  isDistractionFree
+                    ? 'bg-amber-400 text-black border-amber-400 font-bold shadow-md shadow-amber-400/20'
+                    : 'bg-zinc-900 text-zinc-300 border-zinc-800 hover:border-zinc-700 hover:text-white'
+                }`}
+                title="Toggle Distraction-Free Mode (Hide banners & dedicate all space to content) [D]"
+              >
+                <Sparkles size={13} className={isDistractionFree ? 'text-black' : 'text-amber-400'} />
+                <span className="hidden sm:inline">Distraction Free</span>
+                <span className={`px-1.5 py-0.2 rounded-full text-[9px] font-bold ${
+                  isDistractionFree ? 'bg-black text-amber-400' : 'bg-zinc-800 text-zinc-400'
+                }`}>
+                  {isDistractionFree ? 'ON' : 'OFF'}
+                </span>
+              </button>
+
               {/* Feed Specific Controls: Shuffle & List/Grid toggle */}
               {currentTab === 'feed' && (
                 <div className="flex items-center gap-1.5">
                   {/* Shuffle Toggle Button */}
                   <button
                     onClick={toggleShuffle}
-                    className={`py-1.5 px-2.5 sm:px-3 rounded-full border text-xs font-mono flex items-center gap-1.5 transition-all ${
+                    className={`py-1.5 px-2.5 sm:px-3 rounded-full border text-xs font-mono flex items-center gap-1.5 transition-all cursor-pointer ${
                       isShuffled
                         ? 'bg-amber-400 text-black border-amber-400 font-bold shadow-md shadow-amber-400/20'
                         : 'bg-zinc-900 text-zinc-300 border-zinc-800 hover:border-zinc-700 hover:text-white'
                     }`}
-                    title={isShuffled ? 'Shuffle is ON (Click to restore alphabetical order)' : 'Shuffle word order randomly'}
+                    title={isShuffled ? 'Shuffle is ON (Click to restore alphabetical order)' : 'Shuffle word order randomly [Z]'}
                   >
                     <Shuffle size={13} className={isShuffled ? 'text-black' : 'text-zinc-400'} />
                     <span className="hidden sm:inline">{isShuffled ? 'Shuffled' : 'Shuffle'}</span>
@@ -893,7 +914,7 @@ export default function App() {
                   {isShuffled && (
                     <button
                       onClick={reshuffleWords}
-                      className="p-1.5 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40 transition-all"
+                      className="p-1.5 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40 transition-all cursor-pointer"
                       title="Re-shuffle / Re-roll sequence"
                     >
                       <RotateCcw size={13} />
@@ -904,7 +925,7 @@ export default function App() {
                   <div className="flex items-center p-0.5 bg-zinc-900 rounded-full border border-zinc-800">
                     <button
                       onClick={() => setViewMode('list')}
-                      className={`p-1.5 rounded-full transition-all ${
+                      className={`p-1.5 rounded-full transition-all cursor-pointer ${
                         viewMode === 'list' ? 'bg-amber-400 text-black' : 'text-zinc-400 hover:text-white'
                       }`}
                       title="List View"
@@ -913,7 +934,7 @@ export default function App() {
                     </button>
                     <button
                       onClick={() => setViewMode('grid')}
-                      className={`p-1.5 rounded-full transition-all ${
+                      className={`p-1.5 rounded-full transition-all cursor-pointer ${
                         viewMode === 'grid' ? 'bg-amber-400 text-black' : 'text-zinc-400 hover:text-white'
                       }`}
                       title="Grid Bento View"
@@ -926,8 +947,120 @@ export default function App() {
             </div>
           </div>
 
-          {/* Mobile Horizontal Alphabet Scroller Bar */}
-          {currentTab === 'feed' && (
+          {/* Distraction-Free Required Filter Bar (Only keeping required filters, dedicated to content) */}
+          {isDistractionFree && currentTab === 'feed' && (
+            <div className="bg-zinc-950/95 border-t border-zinc-800/80 px-4 py-2 sm:px-6 md:px-8 backdrop-blur-md">
+              <div className="max-w-7xl mx-auto space-y-2">
+                {/* Row 1: Direct Search Bar + Category Pills + Saved Toggle */}
+                <div className="flex flex-col md:flex-row items-stretch md:items-center gap-2.5">
+                  {/* Compact Search Bar */}
+                  <div className="relative flex-grow min-w-[220px]">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                      <Search className="h-3.5 w-3.5 text-zinc-500" />
+                    </div>
+                    <input
+                      ref={searchInputRef}
+                      type="text"
+                      placeholder="Search 2,400+ engineering terms, Tamil context, slang (⌘K)..."
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      className="w-full bg-zinc-900/90 border border-zinc-700/80 text-zinc-100 rounded-xl py-1.5 pl-9 pr-12 focus:outline-none focus:ring-1 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all placeholder:text-zinc-500 font-sans text-xs"
+                    />
+                    {searchQuery ? (
+                      <button
+                        onClick={() => setSearchQuery('')}
+                        className="absolute inset-y-0 right-0 pr-3 flex items-center text-zinc-500 hover:text-white cursor-pointer"
+                      >
+                        <X size={13} />
+                      </button>
+                    ) : (
+                      <span className="absolute inset-y-0 right-0 pr-2.5 flex items-center text-[10px] font-mono text-zinc-500 pointer-events-none">
+                        ⌘K
+                      </span>
+                    )}
+                  </div>
+
+                  {/* Categories & Part of Speech Pills */}
+                  <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 shrink-0">
+                    {POS_TYPES.map(pos => (
+                      <button
+                        key={pos}
+                        onClick={() => setActivePos(pos)}
+                        className={`px-2.5 py-1 rounded-lg text-xs font-mono transition-all shrink-0 cursor-pointer ${
+                          activePos === pos
+                            ? 'bg-amber-400 text-black font-bold shadow-sm'
+                            : 'bg-zinc-900/80 border border-zinc-800 text-zinc-400 hover:text-zinc-200 hover:border-zinc-700'
+                        }`}
+                      >
+                        {pos === 'all' ? 'All Types' : pos}
+                      </button>
+                    ))}
+
+                    {/* Saved Toggle Chip */}
+                    <button
+                      onClick={() => setShowOnlyBookmarks(prev => !prev)}
+                      className={`px-2.5 py-1 rounded-lg text-xs font-mono transition-all shrink-0 flex items-center gap-1.5 border cursor-pointer ${
+                        showOnlyBookmarks
+                          ? 'bg-amber-400/20 border-amber-400/50 text-amber-300 font-bold'
+                          : 'bg-zinc-900/80 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/30'
+                      }`}
+                    >
+                      <Bookmark size={12} className={showOnlyBookmarks ? 'fill-amber-400 text-amber-400' : ''} />
+                      <span>Saved</span>
+                      <span className="text-[10px] bg-zinc-800 px-1.5 py-0.2 rounded-full font-bold">
+                        {bookmarkedIds.length}
+                      </span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Row 2: A–Z Scrubber Pills */}
+                <div className="flex items-center gap-1 overflow-x-auto no-scrollbar py-0.5 border-t border-zinc-900/80 pt-1.5">
+                  <button
+                    onClick={() => {
+                      setActiveLetter('all');
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className={`px-2 py-0.5 rounded-md text-xs font-mono font-medium shrink-0 transition-all cursor-pointer ${
+                      activeLetter === 'all'
+                        ? 'bg-amber-400 text-black font-bold shadow-sm'
+                        : 'bg-zinc-900/60 text-zinc-400 hover:text-white'
+                    }`}
+                  >
+                    ALL
+                  </button>
+                  {ALPHABET.map((letter) => {
+                    const isSelected = activeLetter === letter;
+                    const isAddressed = ADDRESSED_LETTERS.includes(letter);
+                    return (
+                      <button
+                        key={letter}
+                        onClick={() => {
+                          if (isAddressed) {
+                            setActiveLetter(letter);
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                          }
+                        }}
+                        disabled={!isAddressed}
+                        className={`w-6 h-6 rounded-md text-xs font-serif italic shrink-0 transition-all flex items-center justify-center cursor-pointer ${
+                          isSelected
+                            ? 'bg-amber-400 text-black font-bold shadow-sm ring-1 ring-amber-400/40'
+                            : isAddressed
+                              ? 'text-zinc-400 hover:bg-zinc-800 hover:text-white'
+                              : 'text-zinc-700 opacity-30 cursor-not-allowed'
+                        }`}
+                      >
+                        {letter}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Mobile Horizontal Alphabet Scroller Bar (Standard mode only) */}
+          {currentTab === 'feed' && !isDistractionFree && (
             <div 
               ref={letterScrollRef}
               className="lg:hidden flex items-center gap-1.5 px-4 py-2 overflow-x-auto no-scrollbar border-t border-zinc-800/40 bg-zinc-950/60"
@@ -970,7 +1103,7 @@ export default function App() {
 
         {/* Active Filter Indicators & Reset Bar */}
         {hasActiveFilters && currentTab === 'feed' && (
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pt-4 w-full">
+          <div className={`${isDistractionFree ? 'max-w-7xl' : 'max-w-5xl'} mx-auto px-4 sm:px-6 md:px-8 pt-4 w-full`}>
             <div className="flex items-center gap-2 flex-wrap p-2.5 rounded-2xl bg-zinc-900/60 border border-zinc-800 text-xs font-mono">
               <span className="text-zinc-500 pl-1">Filtered by:</span>
               
@@ -1014,7 +1147,7 @@ export default function App() {
         )}
 
         {/* Content View */}
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-6 flex-grow w-full">
+        <div className={`${isDistractionFree ? 'max-w-7xl' : 'max-w-5xl'} mx-auto px-4 sm:px-6 md:px-8 py-6 flex-grow w-full`}>
           {/* Spotlight Term of the Day (Shown on default feed) */}
           {currentTab === 'feed' && !hasActiveFilters && spotlightWord && (
             <WordOfTheDayCard
@@ -1023,6 +1156,7 @@ export default function App() {
               onToggleBookmark={() => toggleBookmark(spotlightWord.id)}
               onWordSearch={handleWordLinkClick}
               onSelectWord={setSelectedWordModal}
+              onRefreshSpotlight={() => setSpotlightOffset(prev => prev + 1)}
             />
           )}
 

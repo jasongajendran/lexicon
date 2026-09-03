@@ -100,11 +100,11 @@ export function WordCard({
             </span>
           </div>
 
-          {/* Top Right Quick Actions (Bookmark first, Sound icon aligned to the far right) */}
+          {/* Top Right Quick Actions (Bookmark) */}
           <div className="flex items-center gap-1.5">
             <button
               onClick={handleBookmark}
-              className={`p-1.5 rounded-lg border transition-all ${
+              className={`p-1.5 rounded-lg border transition-all cursor-pointer active:scale-95 ${
                 isBookmarked
                   ? 'bg-amber-400/20 border-amber-400/40 text-amber-300'
                   : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
@@ -113,52 +113,45 @@ export function WordCard({
             >
               <Bookmark size={14} className={isBookmarked ? 'fill-amber-400' : ''} />
             </button>
-            <button
-              onClick={handleSpeak}
-              className={`p-1.5 rounded-lg border transition-all shrink-0 ${
-                speakingTarget === 'word'
-                  ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
-                  : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
-              }`}
-              title="Pronounce English"
-            >
-              {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={14} />}
-            </button>
           </div>
         </div>
 
-        {/* Word & Tamil Title */}
-        <div className="mb-3">
+        {/* Word & Tamil Title Row with Audio Icon Aligned to the Right */}
+        <div className="mb-3 flex items-start justify-between gap-3">
+          <div>
+            <button
+              onClick={handleSpeak}
+              className="text-left group/title flex items-baseline gap-2 focus:outline-none cursor-pointer"
+              title="Click to pronounce"
+            >
+              <h3 className="text-2xl md:text-3xl font-serif italic text-amber-400 group-hover/title:text-amber-300 transition-colors">
+                {word.word}
+              </h3>
+            </button>
+            <p className="text-sm font-tamil text-amber-300/90 font-medium mt-0.5">
+              {word.taWord}
+            </p>
+          </div>
+
+          {/* Main Word Audio Icon */}
           <button
             onClick={handleSpeak}
-            className="text-left group/title flex items-baseline gap-2 focus:outline-none"
-            title="Click to pronounce"
+            className={`p-2 rounded-xl border transition-all shrink-0 cursor-pointer active:scale-95 ${
+              speakingTarget === 'word'
+                ? 'bg-amber-400/20 border-amber-400/60 text-amber-300 ring-1 ring-amber-400/40 shadow-sm'
+                : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
+            }`}
+            title="Pronounce English"
           >
-            <h3 className="text-2xl md:text-3xl font-serif italic text-amber-400 group-hover/title:text-amber-300 transition-colors">
-              {word.word}
-            </h3>
+            {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
           </button>
-          <p className="text-sm font-tamil text-amber-300/90 font-medium mt-0.5">
-            {word.taWord}
-          </p>
         </div>
 
         {/* Definition */}
-        <div className="flex items-start justify-between gap-2 mb-4 p-2.5 rounded-xl bg-zinc-950/40 border border-zinc-800/40">
+        <div className="mb-4 p-2.5 rounded-xl bg-zinc-950/40 border border-zinc-800/40">
           <p className="text-xs md:text-sm text-zinc-300 font-sans leading-relaxed">
             {word.definition}
           </p>
-          <button
-            onClick={(e) => handleSpeakText(word.definition, 'def', e)}
-            className={`p-1.5 rounded-lg border transition-all shrink-0 ${
-              speakingTarget === 'def'
-                ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30'
-                : 'bg-zinc-800/80 border-zinc-700/60 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
-            }`}
-            title="Listen to English definition"
-          >
-            {speakingTarget === 'def' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={13} />}
-          </button>
         </div>
 
         {/* Integrated Context Example (Compact & Focused) */}

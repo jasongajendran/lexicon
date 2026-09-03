@@ -11,6 +11,7 @@ interface WordOfTheDayCardProps {
   onToggleBookmark: () => void;
   onWordSearch?: (wordText: string) => void;
   onSelectWord?: (word: LexiconWord) => void;
+  onRefreshSpotlight?: () => void;
 }
 
 export function WordOfTheDayCard({
@@ -18,9 +19,10 @@ export function WordOfTheDayCard({
   isBookmarked,
   onToggleBookmark,
   onWordSearch,
-  onSelectWord
+  onSelectWord,
+  onRefreshSpotlight
 }: WordOfTheDayCardProps) {
-  const [speakingTarget, setSpeakingTarget] = useState<'word' | 'def' | null>(null);
+  const [speakingTarget, setSpeakingTarget] = useState<'word' | null>(null);
 
   const triggerHaptic = () => {
     if (typeof window !== 'undefined' && 'vibrate' in navigator) {
@@ -39,11 +41,11 @@ export function WordOfTheDayCard({
     }
   };
 
-  const handleSpeakText = (text: string, target: 'word' | 'def', e?: React.MouseEvent) => {
+  const handleSpeak = (e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     triggerHaptic();
 
-    if (speakingTarget === target) {
+    if (speakingTarget === 'word') {
       if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
         window.speechSynthesis.cancel();
       }
@@ -52,15 +54,11 @@ export function WordOfTheDayCard({
     }
 
     speakWord(
-      text,
-      () => setSpeakingTarget(target),
+      word.word,
+      () => setSpeakingTarget('word'),
       () => setSpeakingTarget(null),
       () => setSpeakingTarget(null)
     );
-  };
-
-  const handleSpeak = (e?: React.MouseEvent) => {
-    handleSpeakText(word.word, 'word', e);
   };
 
   const handleSynAntClick = (e: React.MouseEvent, term: string) => {
@@ -92,14 +90,29 @@ export function WordOfTheDayCard({
         </div>
 
         <div className="flex items-center gap-2">
-          {/* Bookmark on left */}
+          {/* Refresh Spotlight Button */}
+          {onRefreshSpotlight && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                triggerHaptic();
+                onRefreshSpotlight();
+              }}
+              className="p-2 rounded-xl border bg-zinc-900/80 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40 transition-all cursor-pointer active:scale-95"
+              title="Discover another spotlight word"
+            >
+              <Sparkles size={15} />
+            </button>
+          )}
+
+          {/* Bookmark Button */}
           <button
             onClick={(e) => {
               e.stopPropagation();
               triggerHaptic();
               onToggleBookmark();
             }}
-            className={`p-2 rounded-xl border transition-all ${
+            className={`p-2 rounded-xl border transition-all cursor-pointer active:scale-95 ${
               isBookmarked
                 ? 'bg-amber-400/20 border-amber-400/50 text-amber-300'
                 : 'bg-zinc-900/80 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
@@ -108,28 +121,15 @@ export function WordOfTheDayCard({
           >
             <Bookmark size={16} className={isBookmarked ? 'fill-amber-400 text-amber-400' : ''} />
           </button>
-
-          {/* Sound Icon on Far Right for Easy Mobile Thumb Tap */}
-          <button
-            onClick={handleSpeak}
-            className={`p-2 rounded-xl border transition-all shrink-0 ${
-              speakingTarget === 'word'
-                ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30 shadow-lg shadow-amber-400/10'
-                : 'bg-zinc-900/80 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
-            }`}
-            title="Listen to pronunciation"
-          >
-            {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
-          </button>
         </div>
       </div>
 
-      {/* Main Term */}
-      <div className="mb-4 z-10 relative">
+      {/* Main Term Row: Word, badges on left, audio icon aligned to the right */}
+      <div className="mb-4 z-10 relative flex items-center justify-between gap-4">
         <div className="flex items-baseline gap-3 flex-wrap">
           <button
             onClick={handleSpeak}
-            className="text-left group/title flex items-baseline gap-2 focus:outline-none"
+            className="text-left group/title flex items-baseline gap-2 focus:outline-none cursor-pointer"
             title="Click to pronounce"
           >
             <h3 className="text-3xl sm:text-4xl md:text-5xl font-serif italic text-amber-400 tracking-tight group-hover/title:text-amber-300 transition-colors">
@@ -143,30 +143,29 @@ export function WordOfTheDayCard({
             ({word.taWord})
           </span>
         </div>
+
+        {/* Audio Icon placed in same row as main word, aligned to the right */}
+        <button
+          onClick={handleSpeak}
+          className={`p-2.5 sm:p-3 rounded-xl border transition-all shrink-0 cursor-pointer ${
+            speakingTarget === 'word'
+              ? 'bg-amber-400/20 border-amber-400 text-amber-300 ring-1 ring-amber-400/40 shadow-lg shadow-amber-400/15'
+              : 'bg-zinc-900/90 border-zinc-800 text-zinc-300 hover:text-amber-400 hover:border-amber-400/40 active:scale-95'
+          }`}
+          title="Listen to pronunciation"
+        >
+          {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={20} />}
+        </button>
       </div>
 
-      {/* Definition with Sound Icon */}
-      <div className="flex items-start justify-between gap-3 p-3 sm:p-4 rounded-2xl bg-zinc-950/60 border border-zinc-800/60 mb-4 z-10 relative">
-        <div className="space-y-0.5">
-          <span className="text-[10px] font-mono font-bold text-amber-400/90 uppercase tracking-wider block">
-            Definition
-          </span>
-          <p className="text-zinc-200 text-sm md:text-base font-sans font-normal leading-relaxed">
-            {word.definition}
-          </p>
-        </div>
-        <button
-          onClick={(e) => handleSpeakText(word.definition, 'def', e)}
-          className={`p-2 rounded-xl border transition-all shrink-0 flex items-center gap-1.5 text-xs font-mono font-medium cursor-pointer ${
-            speakingTarget === 'def'
-              ? 'bg-amber-400/30 border-amber-400 text-amber-300 ring-1 ring-amber-400/40 shadow-md shadow-amber-400/10'
-              : 'bg-zinc-900 border-zinc-800 text-zinc-300 hover:text-amber-400 hover:border-amber-400/40'
-          }`}
-          title="Listen to English definition"
-        >
-          {speakingTarget === 'def' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={15} />}
-          <span className="hidden sm:inline">Listen</span>
-        </button>
+      {/* Definition */}
+      <div className="p-4 rounded-2xl bg-zinc-950/60 border border-zinc-800/60 mb-4 z-10 relative">
+        <span className="text-xs font-mono font-bold text-amber-400/90 uppercase tracking-wider block mb-1.5">
+          Definition
+        </span>
+        <p className="text-zinc-100 text-base md:text-lg font-sans font-normal leading-relaxed">
+          {word.definition}
+        </p>
       </div>
 
       {/* Synonyms & Antonyms */}
@@ -211,19 +210,26 @@ export function WordOfTheDayCard({
       )}
 
       {/* Context Examples */}
-      <div className="p-3.5 rounded-2xl bg-zinc-950/60 border border-zinc-800/60 space-y-2 z-10 relative">
-        <div className="flex items-center gap-1.5">
-          <span className="text-[10px] font-mono text-amber-300 bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/20 font-bold">
-            Ex 1
+      <div className="p-4 sm:p-5 rounded-2xl bg-zinc-950/70 border border-zinc-800/80 space-y-3 z-10 relative">
+        <div className="flex items-center gap-2">
+          <span className="text-xs font-mono text-amber-300 bg-amber-400/15 px-2.5 py-0.5 rounded-md border border-amber-400/30 font-bold uppercase tracking-wider">
+            Example in Context
           </span>
-          <span className="text-[10px] font-mono text-zinc-500">EN · TA</span>
+          <span className="text-xs font-mono text-zinc-400">English & Tamil</span>
         </div>
-        <p className="text-xs sm:text-sm font-serif text-zinc-200 italic leading-relaxed pl-2 border-l-2 border-amber-400/80">
-          "{word.enExample}"
-        </p>
-        <p className="text-xs sm:text-sm font-tamil text-amber-300/90 leading-relaxed pl-2 border-l-2 border-indigo-400/80 pt-1 border-t border-zinc-800/50">
-          "{word.taExample}"
-        </p>
+
+        <div className="space-y-3 pt-1">
+          <div className="pl-3.5 border-l-4 border-amber-400">
+            <p className="text-base sm:text-lg md:text-xl font-serif italic text-zinc-100 leading-relaxed">
+              "{word.enExample}"
+            </p>
+          </div>
+          <div className="pl-3.5 border-l-4 border-indigo-400/80 pt-2 border-t border-zinc-800/40">
+            <p className="text-sm sm:text-base md:text-lg font-tamil text-amber-300 leading-relaxed font-normal">
+              "{word.taExample}"
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* View Details Button */}

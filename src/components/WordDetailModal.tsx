@@ -242,23 +242,11 @@ export function WordDetailModal({
             {/* Top Action Controls */}
             <div className="flex items-center gap-1.5">
               <button
-                onClick={handleSpeak}
-                className={`p-2 rounded-xl border transition-all ${
-                  speakingTarget === 'word'
-                    ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30 shadow-md shadow-amber-400/10'
-                    : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
-                }`}
-                title="Pronounce word"
-              >
-                {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
-              </button>
-
-              <button
                 onClick={() => {
                   triggerHaptic();
                   onToggleBookmark();
                 }}
-                className={`p-2 rounded-xl border transition-all ${
+                className={`p-2 rounded-xl border transition-all cursor-pointer active:scale-95 ${
                   isBookmarked
                     ? 'bg-amber-400/20 border-amber-400/50 text-amber-300'
                     : 'bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
@@ -270,7 +258,7 @@ export function WordDetailModal({
 
               <button
                 onClick={onClose}
-                className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800 transition-all ml-1"
+                className="p-2 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800 transition-all ml-1 cursor-pointer active:scale-95"
                 title="Close modal (Esc)"
               >
                 <X size={16} />
@@ -280,50 +268,51 @@ export function WordDetailModal({
 
           {/* Modal Body Scroll Area */}
           <div className="p-5 sm:p-7 overflow-y-auto space-y-6 flex-grow custom-scrollbar">
-            {/* Word Heading */}
-            <div className="pb-2">
-              <div className="flex items-baseline gap-3 flex-wrap">
-                <button
-                  onClick={handleSpeak}
-                  className="text-left group flex items-baseline gap-2.5 focus:outline-none cursor-pointer"
-                  title="Click to pronounce"
-                >
-                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif italic text-amber-400 font-bold tracking-tight group-hover:text-amber-300 transition-colors">
-                    {word.word}
-                  </h2>
-                  <Volume2 size={22} className="text-zinc-500 group-hover:text-amber-400 transition-colors" />
-                </button>
-              </div>
-
-              <div className="mt-1.5 flex items-center gap-2">
-                <span className="text-lg sm:text-xl font-tamil text-amber-300/90 font-medium">
-                  {word.taWord}
-                </span>
-              </div>
-
-              {/* Definition Box with Audio Sound Icon */}
-              <div className="mt-4 p-3.5 sm:p-4 rounded-2xl bg-zinc-950/70 border border-zinc-800/80 flex items-start justify-between gap-3 shadow-inner">
-                <div className="space-y-1">
-                  <span className="text-[10px] font-mono font-bold text-amber-400/90 uppercase tracking-wider block">
-                    Definition
-                  </span>
-                  <p className="text-sm sm:text-base text-zinc-200 font-sans leading-relaxed">
-                    {word.definition}
-                  </p>
+            {/* Word Heading Row with Audio Icon Aligned to the Right */}
+            <div className="pb-2 flex items-center justify-between gap-4">
+              <div>
+                <div className="flex items-baseline gap-3 flex-wrap">
+                  <button
+                    onClick={handleSpeak}
+                    className="text-left group flex items-baseline gap-2.5 focus:outline-none cursor-pointer"
+                    title="Click to pronounce"
+                  >
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif italic text-amber-400 font-bold tracking-tight group-hover:text-amber-300 transition-colors">
+                      {word.word}
+                    </h2>
+                  </button>
                 </div>
-                <button
-                  onClick={(e) => handleSpeakText(word.definition, 'def', e)}
-                  className={`p-2 rounded-xl border transition-all shrink-0 flex items-center gap-1.5 text-xs font-mono font-medium cursor-pointer ${
-                    speakingTarget === 'def'
-                      ? 'bg-amber-400/30 border-amber-400 text-amber-300 ring-1 ring-amber-400/40 shadow-md shadow-amber-400/10'
-                      : 'bg-zinc-900 border-zinc-800 text-zinc-300 hover:text-amber-400 hover:border-amber-400/40'
-                  }`}
-                  title="Listen to English definition"
-                >
-                  {speakingTarget === 'def' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={15} />}
-                  <span className="hidden sm:inline">Listen</span>
-                </button>
+
+                <div className="mt-1.5 flex items-center gap-2">
+                  <span className="text-lg sm:text-xl font-tamil text-amber-300/90 font-medium">
+                    {word.taWord}
+                  </span>
+                </div>
               </div>
+
+              {/* Main Word Audio Icon on Right */}
+              <button
+                type="button"
+                onClick={handleSpeak}
+                className={`p-2.5 sm:p-3 rounded-2xl border transition-all shrink-0 cursor-pointer shadow-md active:scale-95 ${
+                  speakingTarget === 'word'
+                    ? 'bg-amber-400/20 border-amber-400 text-amber-300 ring-1 ring-amber-400/40 shadow-amber-400/15'
+                    : 'bg-zinc-800/80 border-zinc-700 text-zinc-300 hover:text-amber-400 hover:border-amber-400/50 hover:bg-zinc-700'
+                }`}
+                title="Listen to pronunciation"
+              >
+                {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={22} />}
+              </button>
+            </div>
+
+            {/* Definition Box */}
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-zinc-950/70 border border-zinc-800/80 shadow-inner">
+              <span className="text-[10px] font-mono font-bold text-amber-400/90 uppercase tracking-wider block mb-1">
+                Definition
+              </span>
+              <p className="text-sm sm:text-base text-zinc-200 font-sans leading-relaxed">
+                {word.definition}
+              </p>
             </div>
 
             {/* Quick Segment Filter Pills & Cloze Challenge Mode Button */}

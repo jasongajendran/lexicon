@@ -41,7 +41,7 @@ export function AudioWalkman({
   const [isShuffleMode, setIsShuffleMode] = useState<boolean>(false);
   const [speechSpeed, setSpeechSpeed] = useState<number>(0.92);
   const [pauseDuration, setPauseDuration] = useState<number>(3000); // 3 seconds between words
-  const [speakMode, setSpeakMode] = useState<'word-def-ex' | 'word-def' | 'word-ex' | 'word-only'>('word-def-ex');
+  const [speakMode, setSpeakMode] = useState<'word-def-ex' | 'read-all'>('read-all');
   const [isQueueOpen, setIsQueueOpen] = useState<boolean>(false);
   const [isSpeakingNow, setIsSpeakingNow] = useState<boolean>(false);
 
@@ -53,7 +53,7 @@ export function AudioWalkman({
   const isShuffleModeRef = useRef<boolean>(false);
   isShuffleModeRef.current = isShuffleMode;
 
-  const speakModeRef = useRef(speakMode);
+  const speakModeRef = useRef<'word-def-ex' | 'read-all'>(speakMode);
   speakModeRef.current = speakMode;
 
   const speechSpeedRef = useRef(speechSpeed);
@@ -115,53 +115,94 @@ export function AudioWalkman({
     }
     stopSpeaking();
 
-    let textToSpeak = target.word;
     const mode = speakModeRef.current;
-    if (mode === 'word-def-ex') {
-      const ex = target.enExample ? ` For example: ${target.enExample}` : '';
-      textToSpeak = `${target.word}. ${target.definition}.${ex}`;
-    } else if (mode === 'word-def') {
-      textToSpeak = `${target.word}. Definition: ${target.definition}`;
-    } else if (mode === 'word-ex') {
-      const ex = target.enExample || target.definition;
-      textToSpeak = `${target.word}. For example: ${ex}`;
-    } else {
-      textToSpeak = target.word;
-    }
+    const speed = speechSpeedRef.current;
 
     setIsSpeakingNow(true);
 
+    // Stage 1: Pronounce the headword first
     speakWord(
-      textToSpeak,
+      target.word,
       () => {
         if (playbackSessionRef.current === currentSession) {
           setIsSpeakingNow(true);
         }
       },
       () => {
-        // Finished speaking
+        // Headword speaking completed
         if (playbackSessionRef.current !== currentSession) return;
-        setIsSpeakingNow(false);
 
-        if (isPlayingRef.current) {
-          timerRef.current = setTimeout(() => {
-            if (playbackSessionRef.current !== currentSession) return;
-            if (!isPlayingRef.current) return;
+        // Distinct pause between word and definition
+        timerRef.current = setTimeout(() => {
+          if (playbackSessionRef.current !== currentSession) return;
+          if (!isPlayingRef.current) {
+            setIsSpeakingNow(false);
+            return;
+          }
 
-            setCurrentIndex(prev => {
-              const next = getNextIndex(prev);
-              historyStackRef.current.push(next);
-              if (historyStackRef.current.length > 100) {
-                historyStackRef.current.shift();
+          // Stage 2: Speak definition, example, and synonyms (if in read-all mode)
+          let detailsText = target.definition;
+          if (target.enExample) {
+            detailsText += `. For example: ${target.enExample}`;
+          }
+          if (mode === 'read-all' && target.synonyms && target.synonyms.length > 0) {
+            detailsText += `. Synonyms: ${target.synonyms.join(', ')}.`;
+          }
+
+          speakWord(
+            detailsText,
+            () => {
+              if (playbackSessionRef.current === currentSession) {
+                setIsSpeakingNow(true);
               }
-              playWordAtIndex(next);
-              return next;
-            });
-          }, pauseDurationRef.current);
-        }
+            },
+            () => {
+              // Details finished speaking
+              if (playbackSessionRef.current !== currentSession) return;
+              setIsSpeakingNow(false);
+
+              if (isPlayingRef.current) {
+                timerRef.current = setTimeout(() => {
+                  if (playbackSessionRef.current !== currentSession) return;
+                  if (!isPlayingRef.current) return;
+
+                  setCurrentIndex(prev => {
+                    const next = getNextIndex(prev);
+                    historyStackRef.current.push(next);
+                    if (historyStackRef.current.length > 100) {
+                      historyStackRef.current.shift();
+                    }
+                    playWordAtIndex(next);
+                    return next;
+                  });
+                }, pauseDurationRef.current);
+              }
+            },
+            () => {
+              // Details speech error fallback
+              if (playbackSessionRef.current !== currentSession) return;
+              setIsSpeakingNow(false);
+
+              if (isPlayingRef.current) {
+                timerRef.current = setTimeout(() => {
+                  if (playbackSessionRef.current !== currentSession) return;
+                  if (!isPlayingRef.current) return;
+
+                  setCurrentIndex(prev => {
+                    const next = getNextIndex(prev);
+                    historyStackRef.current.push(next);
+                    playWordAtIndex(next);
+                    return next;
+                  });
+                }, Math.max(pauseDurationRef.current, 2000));
+              }
+            },
+            speed
+          );
+        }, 750); // Pause between the word and definition
       },
       () => {
-        // Speech error occurred - do not loop rapidly
+        // Headword speech error fallback
         if (playbackSessionRef.current !== currentSession) return;
         setIsSpeakingNow(false);
 
@@ -176,10 +217,10 @@ export function AudioWalkman({
               playWordAtIndex(next);
               return next;
             });
-          }, Math.max(pauseDurationRef.current, 2500));
+          }, Math.max(pauseDurationRef.current, 2000));
         }
       },
-      speechSpeedRef.current
+      speed
     );
   }, [playlist, getNextIndex]);
 
@@ -494,20 +535,18 @@ export function AudioWalkman({
             <span className="text-zinc-500">Mode:</span>
             {[
               { id: 'word-def-ex', label: 'Word + Def + Example' },
-              { id: 'word-def', label: 'Word + Def' },
-              { id: 'word-ex', label: 'Word + Example' },
-              { id: 'word-only', label: 'Word Only' }
+              { id: 'read-all', label: 'Read All (+ Synonyms)' }
             ].map(m => (
               <button
                 key={m.id}
                 onClick={() => {
                   triggerHaptic();
-                  setSpeakMode(m.id as any);
+                  setSpeakMode(m.id as 'word-def-ex' | 'read-all');
                 }}
-                className={`px-2.5 py-1 rounded-lg border transition-all ${
+                className={`px-3 py-1.5 rounded-xl border transition-all cursor-pointer ${
                   speakMode === m.id
-                    ? 'bg-amber-400/15 border-amber-400/40 text-amber-300 font-bold'
-                    : 'bg-zinc-900/60 border-zinc-800 text-zinc-500 hover:text-zinc-300'
+                    ? 'bg-amber-400/20 border-amber-400/50 text-amber-300 font-bold shadow-sm'
+                    : 'bg-zinc-900/60 border-zinc-800 text-zinc-400 hover:text-zinc-200'
                 }`}
               >
                 {m.label}

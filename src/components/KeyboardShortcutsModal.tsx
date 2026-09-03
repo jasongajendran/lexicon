@@ -9,6 +9,7 @@ interface KeyboardShortcutsModalProps {
 
 const SHORTCUTS = [
   { key: '⌘ K  /  Ctrl K', label: 'Quick Focus Search' },
+  { key: 'D', label: 'Toggle Distraction-Free Mode' },
   { key: 'Z', label: 'Toggle Random Shuffle Order' },
   { key: 'R', label: 'Surprise / Random Term' },
   { key: 'Space', label: 'Flip Card (In Study Flashcard Mode)' },
