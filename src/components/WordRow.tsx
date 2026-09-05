@@ -141,11 +141,11 @@ export function WordRow({
         </span>
       </div>
 
-      {/* Top Right Actions (Bookmark on left, Sound on far right for thumb access) */}
+      {/* Top Right Action (Bookmark only) */}
       <div className="absolute top-4 right-4 md:top-8 md:right-8 flex items-center gap-1.5 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
         <button 
           onClick={handleBookmark}
-          className={`p-2 rounded-xl border transition-all ${
+          className={`p-2 rounded-xl border transition-all cursor-pointer ${
             isBookmarked 
               ? 'bg-amber-400/20 border-amber-400/50 text-amber-300' 
               : 'bg-zinc-900/90 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
@@ -154,28 +154,32 @@ export function WordRow({
         >
           <Bookmark size={16} className={isBookmarked ? "fill-amber-400 text-amber-400" : ""} />
         </button>
-        <button 
-          onClick={handleSpeak}
-          className={`p-2 rounded-xl border transition-all shrink-0 ${
-            speakingTarget === 'word' 
-              ? 'bg-amber-400/10 border-amber-400/60 text-amber-400 ring-1 ring-amber-400/30' 
-              : 'bg-zinc-900/90 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40'
-          }`}
-          title="Pronounce word in English"
-        >
-          {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
-        </button>
       </div>
 
       {/* Left Column: Word & Definition */}
       <div className="md:w-5/12 flex flex-col justify-center">
-        <div className="flex items-baseline gap-4 flex-wrap">
-          <div className="text-left group/title flex items-baseline gap-2">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif italic tracking-tight text-amber-400 group-hover/title:text-amber-300 transition-colors">
-              {word.word}
-            </h2>
+        <div className="flex items-center justify-between gap-3 flex-wrap">
+          <div className="flex items-baseline gap-3 flex-wrap">
+            <div className="text-left group/title flex items-baseline gap-2">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif italic tracking-tight text-amber-400 group-hover/title:text-amber-300 transition-colors">
+                {word.word}
+              </h2>
+            </div>
+            <span className="text-xs font-mono text-purple-300 bg-purple-400/10 px-2 py-0.5 rounded border border-purple-400/20">{word.pos}</span>
           </div>
-          <span className="text-xs font-mono text-purple-300 bg-purple-400/10 px-2 py-0.5 rounded border border-purple-400/20">{word.pos}</span>
+
+          {/* Main Word Audio Icon - Vertically aligned in the main word row */}
+          <button 
+            onClick={handleSpeak}
+            className={`p-2 rounded-xl border transition-all shrink-0 cursor-pointer ${
+              speakingTarget === 'word' 
+                ? 'bg-amber-400/20 border-amber-400/60 text-amber-300 ring-1 ring-amber-400/30 shadow-sm' 
+                : 'bg-zinc-900/90 border-zinc-800 text-zinc-400 hover:text-amber-400 hover:border-amber-400/40 hover:bg-zinc-800'
+            }`}
+            title="Pronounce word in English"
+          >
+            {speakingTarget === 'word' ? <AudioEqualizer isPlaying={true} /> : <Volume2 size={16} />}
+          </button>
         </div>
         <div className="mt-5 flex flex-col gap-3">
           <div className="flex items-start justify-between gap-2 p-2.5 rounded-xl bg-zinc-950/40 border border-zinc-800/40">
